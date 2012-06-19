@@ -377,6 +377,21 @@ header {
 .edition {
   /* .windows { */
   /* } */ }
+  .edition .windowtools {
+    float: right;
+    padding: 4px 0 0 0;
+    margin: 0; }
+    .edition .windowtools a {
+      padding: 0 18px 0 0;
+      margin: 0 4px 0 0;
+      width: 25px; }
+    .edition .windowtools li a {
+      background-repeat: no-repeat; }
+    .edition .windowtools li {
+      display: inline;
+      list-style-type: none;
+      padding: 0;
+      margin: 0; }
   .edition .button-minimize {
     background-image: url("../img/edition-window-tools-minimize.png"); }
   .edition .button-minimize:hover {
@@ -482,6 +497,7 @@ header {
     .edition .gridselector .active {
       background-image: url("../img/edition-gridselector-active.png"); }
   .edition .search {
+    /* margin: 200px 0; */
     margin: 10px 0;
     background-color: #ababab;
     width: 600px;
@@ -504,7 +520,7 @@ header {
       background-color: #f0f0f0;
       border-radius: 4px;
       padding: 14px 8px;
-      margin: 10px;
+      margin: 30px 10px 10px 10px;
       border: 1px solid #9e9e9e;
       box-shadow: inset 0px 0px 5px 1px #888888;
       text-align: center; }
@@ -863,21 +879,6 @@ header {
           list-style-type: none;
           padding: 0;
           margin: 0; }
-    .edition .window .windowtools {
-      float: right;
-      padding: 4px 0 0 0;
-      margin: 0; }
-      .edition .window .windowtools a {
-        padding: 0 18px 0 0;
-        margin: 0 4px 0 0;
-        width: 25px; }
-      .edition .window .windowtools li a {
-        background-repeat: no-repeat; }
-      .edition .window .windowtools li {
-        display: inline;
-        list-style-type: none;
-        padding: 0;
-        margin: 0; }
 
 footer {
   background-color: #666666;

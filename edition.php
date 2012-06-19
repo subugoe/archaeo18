@@ -37,11 +37,20 @@
 		</div>
 	</div>
 	
-	<div class="search">
+	<div class="search clearfix">
 	
-		<div class="clearfix">
-			<a href="" title="Lorem ipsum dolor sit amet" hreflang="de" class="close">&nbsp;<span class="visuallyhidden">Lorem ipsum dolor sit amet</span></a>
-		</div>
+		<ul class="windowtools">
+			<li>
+				<a href="" title="Lorem ipsum dolor sit amet" hreflang="de" class="button-maximize"><span class="visuallyhidden">Lorem ipsum dolor sit amet</span></a>
+			</li>
+			<li>
+				<a href="" title="Lorem ipsum dolor sit amet" hreflang="de" class="button-minimize"><span class="visuallyhidden">Lorem ipsum dolor sit amet</span></a>
+			</li>
+			<li>
+				<a href="" title="Lorem ipsum dolor sit amet" hreflang="de" class="button-close"><span class="visuallyhidden">Lorem ipsum dolor sit amet</span>&nbsp;</a>
+			</li>
+			<!-- <a href="" title="Lorem ipsum dolor sit amet" hreflang="de" class="close">&nbsp;<span class="visuallyhidden">Lorem ipsum dolor sit amet</span></a> -->
+		</ul>
 		<div class="scope-selector">
 			<a href="" title="" hreflang="de" class="selected">Suche</a>
 			<a href="" title="" hreflang="de">Dokumente</a>
