@@ -152,6 +152,9 @@
 				<h4>Mappe 1</h4>
 				<ul class="windowtools">
 					<li>
+						<a href="" title="Lorem ipsum dolor sit amet" hreflang="de" class="button-maximize"><span class="visuallyhidden">Lorem ipsum dolor sit amet</span></a>
+					</li>
+					<li>
 						<a href="" title="Lorem ipsum dolor sit amet" hreflang="de" class="button-minimize"><span class="visuallyhidden">Lorem ipsum dolor sit amet</span></a>
 					</li>
 					<li>
@@ -191,10 +194,7 @@
 							<a href="" title="Lorem ipsum dolor sit amet" hreflang="de" class="tools-map"><span class="visuallyhidden">Lorem ipsum dolor sit amet</span></a>
 						</li>
 						<li>
-							<a href="" title="Lorem ipsum dolor sit amet" hreflang="de" class="tools-dfg"><span class="visuallyhidden">Lorem ipsum dolor sit amet</span></a>
-						</li>
-						<li>
-							<a href="" title="Lorem ipsum dolor sit amet" hreflang="de" class="tools-maximize"><span class="visuallyhidden">Lorem ipsum dolor sit amet</span>&nbsp;</a>
+							<a href="" title="Lorem ipsum dolor sit amet" hreflang="de" class="tools-dfg"><span class="visuallyhidden">Lorem ipsum dolor sit amet</span>&nbsp;</a>
 						</li>
 					</ul>
 				</div>

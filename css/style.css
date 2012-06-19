@@ -393,6 +393,10 @@ header {
     background-image: url("../img/edition-window-tools-maximize.png"); }
   .edition .button-open:hover {
     background-image: url("../img/edition-window-tools-maximize-hover.png"); }
+  .edition .button-maximize {
+    background-image: url("../img/edition-window-tools-maximize.png"); }
+  .edition .button-maximize:hover {
+    background-image: url("../img/edition-window-tools-maximize-hover.png"); }
   .edition .info {
     /* width: 250px; */
     z-index: 99999;
