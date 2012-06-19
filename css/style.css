@@ -807,13 +807,13 @@ header {
         background-image: url("../img/edition-window-tools-map.png"); }
       .edition .window .inner li:hover .tools-map {
         background-image: url("../img/edition-window-tools-map-hover.png"); }
-      .edition .window .inner li:hover .tools-map .active {
+      .edition .window .inner li .tools-map .active {
         background-image: url("../img/edition-window-tools-map-active.png"); }
       .edition .window .inner li .tools-dfg {
         background-image: url("../img/edition-window-tools-dfg.png"); }
       .edition .window .inner li:hover .tools-dfg {
         background-image: url("../img/edition-window-tools-dfg-hover.png"); }
-      .edition .window .inner li:hover .tools-dfg .active {
+      .edition .window .inner li .tools-dfg .active {
         background-image: url("../img/edition-window-tools-dfg-active.png"); }
       .edition .window .inner li .tools-maximize {
         background-image: url("../img/edition-window-tools-maximize.png"); }
