@@ -1,0 +1,20 @@
+.incrementerButton {
+/*	vertical-align: top;*/
+	display: block;
+	cursor: pointer;
+	width: 25px;
+}
+
+.incrementer {
+	display: inline-block;
+}
+
+.increase {
+	height: 12px;
+	background-image: url("../images/incrementer/increase.png");
+}
+
+.decrease {
+	height: 13px;
+	background-image: url("../images/incrementer/decrease.png");
+}
