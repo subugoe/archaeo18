@@ -13,7 +13,7 @@ var arrayIndex = function( array, obj ){
 var STIMinifier_urlPrefix;
 for( var i=0; i<document.getElementsByTagName("script").length; i++ ){
 	var script = document.getElementsByTagName("script")[i];
-	var index = script.src.indexOf("minify/stif-complete");
+	var index = script.src.indexOf("minify/geotico-complete");
 	if( index != -1 ){
 		STIMinifier_urlPrefix = script.src.substring(0,index);
 		break;

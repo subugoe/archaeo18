@@ -100,6 +100,7 @@ var a18Props = {
 		gridLayout: true,	// if grid layout is a provided option
 		automaticGridLayout: true,	// true for consistent grid layout, false for single grid layout
 		magneticLink: true,	// if magnetic link is a provided option in the document menu
+		fullscreen: true,
 		
 		/**
 		   Tooltip mode for colored entities; 'click' or 'hover' are possible
@@ -119,10 +120,10 @@ var a18Props = {
 		searchQuery: 		'/exist/rest/db/archaeo18/queries/search.xq?query=QUERY_ID&mode=xhtml',
 		facetsQuery: 		'/exist/rest/db/archaeo18/queries/getFacets.xq',
 		metadataQuery: 		'/exist/rest/db/archaeo18/queries/getText.xq?mode=header&format=xhtml&doc=DOC_ID',
-		facetTableQuery:	'/exist/rest/db/archaeo18/queries/experimental/listEntities.xq?facet=FACET_ID',
+		facetTableQuery:	'/exist/rest/db/archaeo18/queries/experimental/listEntities.xq?facet=FACET_ID&format=xhtml2',
 		tagcloudQuery:		'/exist/rest/db/archaeo18/queries/experimental/listEntities.xq?facet=FACET_ID&format=cloud',
 		mapQuery:		'/exist/rest/db/archaeo18/queries/experimental/listEntities.xq?facet=FACET_ID&format=kml',
-		tagcloudDocQuery:	'/exist/rest/db/archaeo18/queries/experimental/listEntities.xq?facet=FACET_ID&format=cloud&doc=DOC_ID',
+		tagcloudPageQuery:	'/exist/rest/db/archaeo18/queries/getText.xq?doc=DOC_ID&page=PAGE_ID&format=cloud&facet=FACET_ID',
 		kmlQuery: 		'/exist/rest/db/archaeo18/queries/getText.xq?format=kml&doc=DOC_ID&page=PAGE_ID',
 		teiUri: 		'/exist/rest/db/archaeo18/data/tei/DOC_ID.xml',
 		metsUri: 		'/exist/rest/db/archaeo18/data/mets/DOC_ID.mets.xml',

@@ -43,8 +43,7 @@ FrameWindow = function(frameClass,headerClass){
 		
 		if( params.concealable ){
 			this.visibilityButton = $("<li/>").appendTo(this.windowTools);
-			this.visibilityLink = $('<a class="button-minimize"/>').appendTo(this.visibilityButton);
-			$('<span class="visuallyhidden"/>').appendTo(this.visibilityLink);
+			this.visibilityLink = $('<a class="button-minimize"><span class="visuallyhidden"/>&nbsp;</a>').appendTo(this.visibilityButton);
 			this.visibilityLink.attr("title",Util.getString('minimizeWindow'));
 			this.visibilityButton.click(function(){
 				frame.toggleVisibility();
@@ -63,6 +62,39 @@ FrameWindow = function(frameClass,headerClass){
 				}
 				a18Gui.checkGrid();
 				$(frame).remove();
+			});
+		}
+
+		if( params.fullscreen ){
+			var fullscreenLi = $('<li/>').appendTo(this.windowTools);
+			var fullscreen = $('<a class="tools-maximize"/>').appendTo(fullscreenLi);
+			fullscreen.attr('title',Util.getString('fullscreenMode'));
+			var maximized = false;
+			var w, h, l, t;
+			fullscreen.click(function(){
+				maximized = !maximized;
+				var width, height, left, top;
+				if( maximized ){
+					w = $(frame).width();
+					h = $(frame).height();
+					t = $(frame).position().top;
+					l = $(frame).position().left;
+					var marginGap = a18Props.margin;
+					width = $(a18Gui.containerDiv).width()-2*marginGap;
+					height = $(a18Gui.containerDiv).height()-2*marginGap;
+					left = marginGap;
+					top = marginGap;
+				}
+				else {
+					width = w;
+					height = h;
+					left = l;
+					top = t;
+				}
+				frame.position(left,top);
+				frame.setSize(width,height);
+				frame.resize();
+				frame.resizeContent();
 			});
 		}
 
@@ -102,7 +134,7 @@ FrameWindow = function(frameClass,headerClass){
 	this.setResizability = function(append){
 		var frame = this;
 		if( this.params.resizable && append && this.windowFunctionality && this.visibility ){
-			this.resizable({
+			$(this).resizable({
 				resize: function() {
 					frame.resize();
 				},
@@ -182,6 +214,7 @@ FrameWindow = function(frameClass,headerClass){
 			$(this).animate({
 				height: "-="+($(frame).height()-$(frame.toolbarDiv).height()+5),
 				top: "-="+(frame.top-10),
+				left: "+="+(frame.width/2-(frame.label.width()+frame.windowTools.width()+20)/2),
 			    	width: "-="+($(frame).width()-frame.label.width()-frame.windowTools.width()-20)
 			  }, 500, function(){
 					frame.resize();
@@ -220,6 +253,7 @@ return;
 			var pos = getMousePosition(e);
 			frame.css('left',(windowLeft+pos.left-startPos.left)+'px');
 			frame.css('top',(windowTop+pos.top-startPos.top)+'px');
+			a18Gui.checkHeight();
 		}
 	};
 	

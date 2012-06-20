@@ -56,7 +56,7 @@ function FacetSelector(div){
 				if( facets != '' ){
 					facets += ',';
 				}
-				facets += Util.facets[i].facet;
+				facets += Util.facets[i].facet.substring(4);
 			}
 		}
 		return facets;

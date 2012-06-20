@@ -52,7 +52,9 @@ var tooltip = new function(){
 				}
 				checkActivity();
 				if ( typeof content != 'undefined' ){
-					var tooltip = $("<div id='tooltipWindow'/>").appendTo('body');
+//					var tooltip = $("<div id='tooltipWindow'/>").appendTo('body');
+					var tooltip = $("<div class='info'/>").appendTo(a18Gui.containerDiv);
+					$(tooltip).css('z-index','99999');
 					$(content).appendTo(tooltip);
 					var activeTooltip = {
 						tooltip: tooltip,
@@ -61,7 +63,7 @@ var tooltip = new function(){
 						mouseOverTooltip: false
 					};
 					activeTooltips.push(activeTooltip);
-					tooltip.css("top",(e.pageY - tooltip.height()) + "px");
+					tooltip.css("top",(e.pageY - tooltip.height() - $(a18Gui.containerDiv).offset().top) + "px");
 					tooltip.css("left",(e.pageX) + "px");
 					tooltip.fadeIn("fast");
 		  			$(tooltip).hover(function(e){

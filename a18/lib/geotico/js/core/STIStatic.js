@@ -441,6 +441,7 @@ STIStatic.loadSpatialJSONData = function(JSON){
  * @param {String} JSON a JSON array of temporal objects
  * @return an array of time objects
 
+
 */
 STIStatic.loadTemporalJSONData = function(JSON){
 	var timeObjects = [];

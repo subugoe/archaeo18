@@ -85,25 +85,19 @@ DocumentDialog = function(parent,doc,div,page){
 				link.click(function(){
 					if( dialog.linked ){
 						Publisher.Unsubscribe(doc.id,dialog);
-//						link.attr('class','documentButton linkDeactivated');
+						$(link).removeClass('active');
 						link.attr('title',Util.getString('linkDeactivated'));
 					}
 					else {
 						Publisher.Subscribe(doc.id,dialog,function(data){
 							dialog.doctype.onChange(data);
 						});
-//						link.attr('class','documentButton linkActivated');
+						$(link).addClass('active');
 						link.attr('title',Util.getString('linkActivated'));
 					}
 					dialog.linked = !dialog.linked;
 				});
-			}							
-			var fullscreenLi = $('<li/>').appendTo(toolsList);
-			var fullscreen = $('<a class="tools-maximize"/>').appendTo(fullscreenLi);
-			fullscreen.attr('title',Util.getString('fullscreenMode'));
-			fullscreen.click(function(){
-				a18Gui.documentFullscreen(dialog,dialog.doctype.type);
-			});
+			}
 		}
 		this.facetSelector = new FacetSelector(this.facetDiv);
 		$(this.facetDiv).css('text-align','center');
@@ -187,7 +181,7 @@ DocumentDialog = function(parent,doc,div,page){
 		this.buttons = [];
 
 		var outlineLi = $('<li/>').appendTo(viewsList);
-		var outlineView = $('<a class="tools-list"/>').appendTo(outlineLi);
+		var outlineView = $('<a class="tools-list"><span class="visuallyhidden"></span>&nbsp;</a>').appendTo(outlineLi);
 		outlineView.attr('title',Util.getString('outline'));
 		outlineView.click(function(){
 			dialog.setDocType('outline');

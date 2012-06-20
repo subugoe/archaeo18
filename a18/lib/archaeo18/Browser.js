@@ -27,6 +27,7 @@ Browser = function(){
 		this.main = $("<div class='main'/>").appendTo(this.content);
 		this.main.css('overflow-x','hidden');
 		this.main.css('overflow-y','auto');
+		this.main.css('position','relative');
 
 		var selectedSearchType = 'simple';
 		var toggleSearch = function(searchType){
@@ -92,13 +93,16 @@ Browser = function(){
 		this.documents = $('<div/>').appendTo(this.main);
 		this.documents.css('overflow','auto')
 
-		$('<hr/>').appendTo(this.main);
-		this.searchResults = $('<ul class="hits"/>').appendTo(this.main);
+		$('<hr/>').appendTo(this.searchTypes);
+		this.searchResults = $('<ul class="hits"/>').appendTo(this.searchTypes);
 
 		show(a18Props.browserSearch);
 
 		this.setLabel(this.getName());
 		this.resizeContent();
+
+		this.label = $("<span/>").appendTo(this.toolbarDiv);
+//		$(this.label).html(Util.getString('browser'));
 
 		this.searchId = -1;
 		this.fullscreen = new FullscreenWindow(this.main);
@@ -142,7 +146,7 @@ Browser = function(){
 		var documentSelection = [];
 		var addDocument = function(document,index){
 			var entry = $("<div/>").appendTo(documents);
-			var checkbox = $("<input type='checkbox'>"+document.title+"</input>").appendTo(entry);
+			var checkbox = $("<input type='checkbox'>"+document.name+"</input>").appendTo(entry);
 			$(checkbox).css('margin-left','20px');
 			documentSelection.push(false);
 			checkbox.click(function(){
@@ -393,7 +397,7 @@ Browser = function(){
 			success: function(outline){
 				var tempDiv = $("<div/>");
 				$(outline).appendTo(tempDiv);
-				var tree = new OutlineTree(tempDiv,doc.title);
+				var tree = new OutlineTree(tempDiv,doc.name);
 				var outlineTree = tree.generateTree();
 			    	var root = $("<div/>").appendTo(browser.documents);
 				var setLinks = function(){
@@ -446,7 +450,7 @@ Browser = function(){
 	this.addCategory = function(searchId,doc,results,term){
 		var browser = this;
 		var searchTab = $('<li/>').appendTo(this.searchResults);
-		var searchLink = $('<a>' + doc.title + ' (' + results.length + ')' + '</a>').appendTo(searchTab);
+		var searchLink = $('<a>' + doc.name + ' (' + results.length + ')' + '</a>').appendTo(searchTab);
 		var searchContent = [];
 		var visible = false;
 		$.each(results, function(index,result){
@@ -457,11 +461,13 @@ Browser = function(){
 			var thumbDiv = $("<div/>").appendTo(thumb);
 			thumbDiv.addClass("dummyThumbSmall");
 			$(thumbDiv).css('margin-bottom','20px');
+//			var thumbnail = $("<img class='thumbnail' src='" + doc.imagePath+"80/"+doc.images[result.page-1] + "'/>").appendTo(thumbDiv);
 			var thumbnail = $("<div class='loadme'/>").appendTo(thumbDiv);
 			thumbnail.css('height',thumbDiv.height()+'px');
 			thumbnail.css('width',thumbDiv.width()+'px');
 			thumbnail.attr("innerHTML","<!--<img class='thumbnail' src='" + doc.imagePath+"80/"+doc.images[result.page-1] + "'/>-->");
 		    	thumbDiv.click(function(){
+//		    	thumbnail.click(function(){
 		    		a18Gui.openDocument(doc,result.page,"images");
 		    	});
 			var textDiv = $("<p/>").appendTo(searchResult);
@@ -480,7 +486,7 @@ Browser = function(){
 					$(searchContent[i]).css('display','none');
 				}
 			}
-			$('div.loadme',this.searchResults).lazyLoad(searchTab,imageLoad,1000);
+//			$('div.loadme',this.searchResults).lazyLoad(searchTab,imageLoad,1000);
 	    	});
 	};
 	

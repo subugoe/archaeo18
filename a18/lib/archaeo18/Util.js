@@ -25,7 +25,13 @@ Util.loadTexts = function(){
 			Util.texts = json;
 		}
 	});
-	if( navigator.language.indexOf("de") > -1 ){
+
+
+
+	if( typeof navigator.language != 'undefined' && navigator.language.indexOf("de") > -1  ){
+		Util.language = "de";
+	}
+	else if( typeof navigator.browserLanguage != 'undefined' && navigator.browserLanguage.indexOf("de") > -1 ){
 		Util.language = "de";
 	}
 	else {
@@ -37,52 +43,62 @@ Util.getString = function(id){
 	return Util.texts[id][Util.language];
 };
 
-Util.loadDocuments = function(trigger){
+Util.loadDocuments = function(trigger,loadMets){
 	var gui = this;
 	$.get( a18Props.documentEndpoint, function(xml){
 		$(xml).find('doc').each(function(){
-			Util.loadDocument($(this).find('id').text(),trigger);
+			Util.loadDocument($(this).find('id').text(),$(this).find('title').text(),$(this).find('preview').text(),trigger,loadMets);
 		});
 	});
 };
 
-Util.loadDocument = function(title,trigger){
+Util.loadDocument = function(title,name,preview,trigger,loadMets){
     	var tei = a18Props.teiUri.replace(/DOC_ID/g,title);
     	var mets = a18Props.metsUri.replace(/DOC_ID/g,title);
-    	var pageCount;
 	var pages = $.ajax({
-		async: false,
 		url: a18Props.pageCountQuery.replace('DOC_ID',title),
 		dataType: "xml",
 		success: function(xml){
-			pageCount = $(xml).find('count').text();
+			var pageCount = $(xml).find('count').text();
+		    	var imagePath, images = [];
+			if( loadMets ){
+				var metsDoc = $.ajax({
+					async: false,
+					url: mets,
+					dataType: "xml",
+					success: function(xml){
+						$(xml).find('[nodeName="METS:mets"]').find('[nodeName="METS:fileSec"]').find('[nodeName="METS:fileGrp"]').first().find('[nodeName="METS:file"]').each(function(){
+							var node = $(this).find('[nodeName="METS:FLocat"]')[0];
+				       	    		var fullPath = Util.getAttribute(node,'xlink:href');
+				       	    		images.push(fullPath.substring(fullPath.lastIndexOf("/")+1));
+				       	    		if( !imagePath ){
+				       	    			var dummy = fullPath.substring(0,fullPath.lastIndexOf("/"));
+				       	    			imagePath = dummy.substring(0,dummy.lastIndexOf("/")+1);
+				       	    		}
+			       			});
+						var doc = new Document(Util.documents.length,title,name,preview,pageCount,tei,imagePath,images);
+						Util.documents.push(doc);
+						if( typeof trigger == 'undefined' ){
+							return doc;
+						}
+						else {
+							trigger(doc);
+						}
+					}
+				});
+			}
+			else {
+				var doc = new Document(Util.documents.length,title,name,preview,pageCount,tei,imagePath,images);
+				Util.documents.push(doc);
+				if( typeof trigger == 'undefined' ){
+					return doc;
+				}
+				else {
+					trigger(doc);
+				}
+			}
 		}
 	});
-    	var imagePath, images = [];
-	var metsDoc = $.ajax({
-		async: false,
-		url: mets,
-		dataType: "xml",
-		success: function(xml){
-			$(xml).find('[nodeName="METS:mets"]').find('[nodeName="METS:fileSec"]').find('[nodeName="METS:fileGrp"]').first().find('[nodeName="METS:file"]').each(function(){
-				var node = $(this).find('[nodeName="METS:FLocat"]')[0];
-	       	    		var fullPath = Util.getAttribute(node,'xlink:href');
-	       	    		images.push(fullPath.substring(fullPath.lastIndexOf("/")+1));
-	       	    		if( !imagePath ){
-	       	    			var dummy = fullPath.substring(0,fullPath.lastIndexOf("/"));
-	       	    			imagePath = dummy.substring(0,dummy.lastIndexOf("/")+1);
-	       	    		}
-       			});
-		}
-	});
-	var doc = new Document(Util.documents.length,title,pageCount,tei,imagePath,images);
-	Util.documents.push(doc);
-	if( typeof trigger == 'undefined' ){
-		return doc;
-	}
-	else {
-		trigger(doc);
-	}
 };
 
 Util.getDoc = function(title){
@@ -157,7 +173,8 @@ Util.getTags = function(tags){
 		var weight = $(tags[i]).find('count').text();
 		var url = $(tags[i]).find('link').text();
 		var facet = Util.getFacet($(tags[i]).find('facet').text());
-		var link = '<a class="'+facet.facet+'" href="'+url+'" style="color:'+facet.color+';" target="_blank">'+text+'</a>';
+		var tooltip = weight+" "+Util.getString('occurences');
+		var link = '<a title="'+tooltip+'" class="'+facet.facet+'" href="'+url+'" style="color:'+facet.color+';" target="_blank">'+text+'</a>';
 		tagArray.push({
 			text: link,
 			weight: weight

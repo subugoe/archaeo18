@@ -94,7 +94,7 @@ Tags = function(doc,container,parent){
 		}
 		this.stopped = false;
 		$.ajax({
-			url: a18Props.tagcloudDocQuery.replace('DOC_ID',doc.title).replace('FACET_ID',facets).replace('PAGE_ID',page),
+			url: a18Props.tagcloudPageQuery.replace('DOC_ID',doc.title).replace('FACET_ID',facets).replace('PAGE_ID',page),
 			dataType: "xml",
 			beforeSend: function() {
 				parent.startProcessing();

@@ -59,6 +59,10 @@
 		"en": "The actual setting is represented by the following link",
 		"de": "Die aktuelle Einstellung wird repräsentiert durch den folgenden Link"
 	},
+	"occurences" : {
+		"en": "occurences",
+		"de": "Auftreten"
+	},
 	"browser" : {
 		"en": "Browser",
 		"de": "Browser"
@@ -430,6 +434,10 @@
 	"selectFacetsAlert" : {
 		"en": "Please select facets by activating checkboxes above ...",
 		"de": "Bitte wählen sie Facetten aus durch Aktivieren der Checkboxen ..."
+	},
+	"busyServer" : {
+		"en": "The server is busy. The request may take some time!",
+		"de": "Der Server ist überlastet. Die Anfrage könnte einige Zeit in Anspruch nehmen!"
 	},
 	"pdf" : {
 		"en": "PDF",

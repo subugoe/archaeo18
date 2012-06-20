@@ -13,6 +13,6 @@
 <script src="a18/lib/archaeo18/Util.js"></script>
 <script src="a18/lib/archaeo18/document/Document.js"></script>
 <script src="a18/lib/archaeo18/Archaeo18Properties.js"></script>
-<script src="a18/lib/archaeo18/Scripts.js"></script>
+<script src="js/Scripts.js"></script>
 
 <?php require_once('foot-main.php'); ?>

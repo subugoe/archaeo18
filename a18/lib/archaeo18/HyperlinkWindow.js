@@ -25,7 +25,8 @@ HyperlinkWindow = function(url,label){
 		this.hyperlinkWindow.css('position','absolute');
 		$(this.content).append(this.hyperlinkWindow);
 				
-		this.setLabel(label);
+		this.label = $("<h4/>").appendTo(this.toolbarDiv);
+		$(this.label).html(label);
 
 		this.resizeIFrame = function(){
 			this.hyperlinkWindow.css('width',$(this.content).width()+'px');

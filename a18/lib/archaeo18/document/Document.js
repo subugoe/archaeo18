@@ -1,7 +1,9 @@
-Document = function(id,title,pages,tei,imagePath,images){
+Document = function(id,title,name,preview,pages,tei,imagePath,images){
 
 	this.id = id;
 	this.title = title;
+	this.name = name;
+	this.preview = preview;
 	this.pages = pages;
 	this.tei = tei;
 	this.imagePath = imagePath;

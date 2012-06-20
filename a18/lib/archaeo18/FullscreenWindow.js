@@ -83,9 +83,11 @@ FullscreenWindow = function(div){
 			w = $(div).outerWidth();
 			h = $(div).outerHeight();
 		}
+		var paddingX = parseInt($(div).css('padding-left'))+parseInt($(div).css('padding-right'));
+		var paddingY = parseInt($(div).css('padding-top'))+parseInt($(div).css('padding-bottom'));
 		return {
-			width: w,
-			height: h
+			width: w-paddingX,
+			height: h-paddingY
 		};
 	}
 
@@ -96,6 +98,7 @@ FullscreenWindow = function(div){
 		blockDiv.css('width',bounds.width+'px');
 		blockDiv.css('height',bounds.height+'px');
 		blockDiv.css('z-index',++this.zIndex);
+		blockDiv.css('top',parseInt($(div).css('padding-top'))+'px');
 		var overlay = $("<div/>").appendTo(blockDiv);
 		overlay.addClass("blockDivOverlay");
 		overlay.css('width',bounds.width+'px');

@@ -34,6 +34,7 @@ var a18Gui = new function(){
 			resizable: a18Props.resizable,
 			concealable: a18Props.concealable,
 			removable: a18Props.removable,
+			fullscreen: a18Props.fullscreen,
 			triggerResize: function(){ contentWindow.resizeContent(); },
 			triggerRemove: function(){ a18Gui.removeContentWindow(contentWindow); }
 		});
@@ -55,8 +56,6 @@ var a18Gui = new function(){
 		this.browserVisible = true;
 		this.automaticGridLayout = false;
 
-		this.fullscreen = new FullscreenWindow(this.containerDiv);
-		
 		Util.loadTexts();
 		Util.loadFacets();
 		
@@ -78,7 +77,7 @@ var a18Gui = new function(){
 		
 		Util.loadDocuments(function(doc){
 	    		gui.browser.addDocument(doc);
-		});
+		},true);
 		this.addControls();
 
 		if( window.location.href.indexOf('?') != -1 ){
@@ -163,6 +162,20 @@ var a18Gui = new function(){
 		}
 	};
 
+	this.checkHeight = function(){
+		var highest;
+		for( var i=0; i<this.contentWindows.length; i++ ){
+			var cw = this.contentWindows[i];
+			var yMax = $(cw).height() + $(cw).position().top;
+			if( typeof highest == 'undefined' || yMax > highest ){
+				highest = yMax;
+			}
+		}
+		if( $(a18Gui.containerDiv).height() != highest + a18Props.margin ){
+			$(a18Gui.containerDiv).css('height',(a18Props.margin+highest)+'px');
+		}
+	};
+
 	this.appendTooltips = function(div){
 		for( var i=0; i<Util.facets.length; i++ ){
 			var facet = Util.facets[i];
@@ -180,18 +193,18 @@ var a18Gui = new function(){
 				if( altName == null ){
 					altName = link.innerHTML;
 				}
-				$(content).append('<div>'+altName+'</div>');
-				$(content).append('<hr>');
-				$(content).append('<div class="thumb" style="background-color:'+color+';"/>');
-				$(content).append('<div class="tooltipLabel" style="color:'+color+';">'+Util.getFacetLabel(facet)+'</div>');
+				$(content).append('<p>'+altName+'</p>');
+				var p = $('<p/>').appendTo(content);
+				$(p).append('<div class="thumb" style="background-color:'+color+';"/>');
+				$(p).append('<div class="tooltipLabel" style="color:'+color+';">'+Util.getFacetLabel(facet)+'</div>');
 				var hyperlink1, hyperlink2;
 				if( typeof link.href != 'undefined' ){
 					hyperlink1 = $('<a href="javascript:void(0)">'+Util.getString('info')+'</a>');
 					hyperlink2 = $('<a href="javascript:void(0)">'+Util.getString('database')+'</a>');
-					$(content).append('<br>');
-					$(content).append('<div class="anchor"/>');
-					$(content).append('<div style="display:inline-block;padding-top:10px;">'+Util.getString('openLinkAs')+':</div>');
-					var linkDiv = $(content).append('<div class="tooltipLabelLink"></div>');
+					$(p).append('<br>');
+					$(p).append('<div class="anchor"/>');
+					$(p).append('<div style="display:inline-block;padding-top:10px;">'+Util.getString('openLinkAs')+':</div>');
+					var linkDiv = $(p).append('<div class="tooltipLabelLink"></div>');
 					$(linkDiv).append($(hyperlink1));
 					$(linkDiv).append('<br>');
 					$(linkDiv).append($(hyperlink2));
@@ -217,6 +230,19 @@ var a18Gui = new function(){
 				}
 			});
 		}
+/*
+		try {
+			var notes = $('.tei\\:ref',div);
+			console.info(notes);
+			$.each(notes,function(index,note){
+				var nameId = note.href.substring(note.href.indexOf('#')+1);
+				var href = $('a[name='+nameId+']')[0];
+				var content = $(href).parent()[0].innerHTML;
+				tooltip.setTooltip(note,content,function(div){a18Gui.appendTooltips(div); a18Gui.colorizeLinks(div);});
+			});
+		}
+		catch(e){}
+*/
 		try {
 			var notes = $('.tei\\:note',div);
 			$.each(notes,function(index,note){
@@ -269,36 +295,32 @@ var a18Gui = new function(){
 		}
 	};
 	
-	this.createDialog = function(headline,content,onclose,x,y,bary){
-		var dialog = $("<div/>").appendTo(this.containerDiv);
-		dialog.dialog({
-			autoOpen: false,
-			minHeight: false,
-			minWidth: false,
-			width: 'auto',
-			resizable: false,
-			close: onclose
-		});
-		dialog.dialog({ title: headline });
-		$(content).appendTo(dialog);
-		dialog.dialog('open');
-		if( typeof x != 'undefined' ){
-			var w = dialog.width();
-			var h = dialog.height();
-			if( bary == 5 ){
-				x -= w/2;
-				y -= h/2;
-			}
-			else {
-				if( bary%2 == 0 ){
-					y -= h;
-				}
-				if( bary > 2 ){
-					x -= w;
-				}
-			}
-			dialog.dialog('option','position',[x,y]);
+	this.createDialog = function(headline,content){
+		var gui = this;
+		var id = "dialog"+this.getIndependentId();
+		var dialog = $('<div id="'+id+'" class="dialog"/>').appendTo(this.containerDiv);
+		var closeDialog = function(){			
+			$(dialog).remove();
 		}
+		var zIndex = this.getZIndex();
+		$(dialog).css('z-index',zIndex);
+		$(dialog).mousedown(function(){
+			if( gui.zIndex != zIndex ){
+				zIndex = gui.getZIndex();
+				$(dialog).css('z-index',zIndex);
+			}
+		});
+		$('<div class="text">'+headline+'</div>').appendTo(dialog);
+		var ul = $('<ul class="dialog-tools"/>').appendTo(dialog);
+		var close = $('<li><a class="button-close"/><span class="visuallyhidden"></span></a></li>').appendTo(ul);
+		$(close).css('display','inherit');
+		$(close).click(closeDialog);
+		$(content).appendTo(dialog);
+		$('#'+id).draggable({handles: 'e'});
+		var top = $(this.containerDiv).height()/2 - $(dialog).height()/2;
+		var left = $(this.containerDiv).width()/2 - $(dialog).width()/2;
+		$(dialog).css('top',top+'px');
+		$(dialog).css('left',left+'px');
 		return dialog;
 	}; 
 	
@@ -426,41 +448,24 @@ var a18Gui = new function(){
 			openNewWindow();
 		}
 		else {
-			var openDialog = $('<div class="dialog"/>').appendTo(this.containerDiv);
-			var closeDialog = function(){
-				$(openDialog).remove();
-			}
-			var zIndex = this.getZIndex();
-			$(openDialog).css('z-index',zIndex);
-			$(openDialog).mousedown(function(){
-				if( gui.zIndex != zIndex ){
-					zIndex = gui.getZIndex();
-					$(openDialog).css('z-index',zIndex);
-				}
-			});
-			$('<div class="text">'+Util.getString('openDocument')+'</div>').appendTo(openDialog);
-			var ul = $('<ul class="dialog-tools"/>').appendTo(openDialog);
-			var close = $('<li><a class="button-close"/><span class="visuallyhidden"></span></a></li>').appendTo(ul);
-			$(close).css('display','inherit');
-			$(close).click(closeDialog);
-			var inner = $('<div class="inner"/>').appendTo(openDialog);
+			var close;
+			var inner = $('<div class="inner"/>');
 			$.each(candidates, function(index,cw){
 				var openButton = $('<a>'+cw.getName()+'</a>').appendTo(inner);
 				openButton.click(function(){
 					cw.addDocument(doc,page,type,position);
-					closeDialog();
+					close();
 				});
 			});
 			var openNewButton = $('<a>'+Util.getString('newContentWindow')+'</a>').appendTo(inner);
 			openNewButton.click(function(){
 				openNewWindow();
-				closeDialog();
+				close();
 			});
-			$(openDialog).draggable();
-			var top = $(this.containerDiv).height()/2 - $(openDialog).height()/2;
-			var left = $(this.containerDiv).width()/2 - $(openDialog).width()/2;
-			$(openDialog).css('top',top+'px');
-			$(openDialog).css('left',left+'px');
+			var dialog = this.createDialog(Util.getString('openDocument'),inner,close);
+			close = function(){
+				$(dialog).remove();
+			}
 		}
 	};	
 	
@@ -480,6 +485,7 @@ var a18Gui = new function(){
 			if( !cancel ){
 		    		var results = [];
 				$(xml).find('result').each(function(){
+					console.info(this);
 					var page = parseInt($(this).find('page').text());
 					var text = $(this).find('fragment').find('body').find('p');
 					var doc = $(this).find('doc').text();
@@ -739,14 +745,17 @@ var a18Gui = new function(){
 					$("<div>"+Util.getString('generatedMagneticLinks')+"</div>").appendTo(p);
 					for( var i=0; i<gui.magneticLinks.length; i++ ){
 						var ml = gui.magneticLinks[i];
+						var linkDiv = $("<div/>").appendTo(p);
 						var link;
 						if( ml.indexOf('goo.gl') == -1 ){
-							link = '<a target=_blank href="'+gui.magneticLinks[i]+'">MagneticLink</a>';
+							link = $('<a target=_blank href="'+gui.magneticLinks[i]+'">MagneticLink</a>').appendTo(linkDiv);
 						}
 						else {
-							link = '<a target=_blank href="'+gui.magneticLinks[i]+'">'+gui.magneticLinks[i]+'</a>';
+							link = $('<a target=_blank href="'+gui.magneticLinks[i]+'">'+gui.magneticLinks[i]+'</a>').appendTo(linkDiv);
 						}
-						$("<div>"+link+"</div>").appendTo(p);
+						$(link).css('border','none');
+						$(link).css('box-shadow','none');
+						$(link).css('background-color','white');
 					}
 				}
 			}
@@ -775,12 +784,11 @@ var a18Gui = new function(){
 			var magneticLink = $('<a class="button-magenticlink"><span class="visuallyhidden"></span>&nbsp;</a>').appendTo(controls);
 			$(magneticLink).attr('title',Util.getString('magneticLink'));
 			magneticLink.click(function(){
-				var content = $("<div/>");
+				var content = $("<div class='inner'/>");
 				$(content).css("text-align","center");
 				var p = $("<p/>").appendTo(content);
 				$("<div>"+Util.getString('newMagneticLink')+"</div>").appendTo(p);
-				var generateButton = $("<div/>").appendTo(p);
-				generateButton.button({ label: Util.getString('generate') });
+				var generateButton = $('<a>'+Util.getString('generate')+'</a>').appendTo(p);
 				generateButton.click(function(){
 					generateMagneticLink();
 				});
@@ -847,56 +855,6 @@ var a18Gui = new function(){
 		}		
 	};
 		
-	this.documentFullscreen = function(dialog,type){
-		var fsDialog = new DocumentDialog(a18Gui,dialog.document,null,dialog.page);
-		fsDialog.initialize(true);
-		var onClose = function(){
-			if( typeof dialog.doctype.showPage != 'undefined' ){
-				dialog.doctype.display(fsDialog.page);
-			}
-		}
-		var margin = 20;
-		var contentDiv = $("<div/>");
-		var x = a18Props.fullscreenFormatX;
-		var y = a18Props.fullscreenFormatY;		
-		var w, h, t, l;
-		if( x && y ){
-			if( x > y ){
-				w = $(this.containerDiv).width() - 100;
-				h = Math.floor(w*y/x);
-				l = 50;
-				t = Math.floor(($(this.containerDiv).height() - h)/2);
-			}
-			else {
-				h = $(this.containerDiv).height() - 100;
-				w = Math.floor(h*x/y);
-				l = Math.floor(($(this.containerDiv).width() - w)/2);
-				t = 50;
-			}
-		}
-		else {
-			h = $(this.containerDiv).height() - 100;
-			w = $(this.containerDiv).width() - 100;
-			l = 50;
-			t = 50;
-		}
-		w -= 2*margin;
-		h -= 2*margin;		
-		contentDiv.css('margin',margin+'px');
-		contentDiv.css('width', (w+2*margin)+'px');
-		contentDiv.css('height', (h+2*margin)+'px');
-		var headline = $("<div/>");
-		headline.addClass("fullscreenHeader");
-		headline.attr("innerHTML", fsDialog.document.title);
-		headline.css('padding-bottom','10px');
-		$(contentDiv).append(headline);
-		$(contentDiv).append(fsDialog.container);
-		a18Gui.fullscreen.contentFullscreen(fsDialog,onClose,contentDiv);
-		fsDialog.setDocType(type);
-		fsDialog.resize();
-		fsDialog.showDocumentType();
-	};
-
 	this.getErrorMessage = function(errorType){
 		var errorDiv = $("<div/>");
 		$("<div class='errorMessage'>"+Util.getString('errorMessage')+' ('+errorType+')'+"</div>").appendTo(errorDiv);

@@ -1,9 +1,9 @@
 # Rakefile - create single combined nd compressed javascript file
 
 COMPRESS="java -jar yuicompressor-2.4.2.jar"
-COMPRESSED_OUTPUT_FILE='stif-complete-min.js'
-OUTPUT_FILE='stif-complete.js'
-CSS_FILE='stif-styles.css'
+COMPRESSED_OUTPUT_FILE='geotico-complete-min.js'
+OUTPUT_FILE='geotico-complete.js'
+CSS_FILE='geotico-styles.css'
 
 task :default => :all
 
@@ -58,32 +58,34 @@ Files = %w(../js/build/minifier/basic.js
 ../lib/slider/js/range.js
 ../lib/slider/js/slider.js
 ../lib/slider/js/timer.js
-../js/sti/timeplot-modify.js
-../js/sti/ExtendedSimileTimeDate.js
+../js/core/timeplot-modify.js
+../js/core/ExtendedSimileTimeDate.js
 ../lib/openlayers/OpenLayers.js
-../js/sti/ModifiedZoomPanel.js
-../js/sti/STIStatic.js
-../js/sti/Binning.js
-../js/sti/MapControl.js
-../js/sti/FilterBar.js
-../js/sti/PlacenameTags.js
-../js/sti/STIMap.js
-../js/sti/STITimeplot.js
-../js/sti/TableWidget.js
-../js/sti/DataObject.js
-../js/sti/DataSet.js
-../js/sti/TimeDataSource.js
-../js/sti/MapDataSource.js
-../js/sti/Clustering.js
-../js/sti/kruskal.js
-../js/sti/Dropdown.js
-../js/sti/MapZoomSlider.js
-../js/sti/Popup.js
+../js/core/ModifiedZoomPanel.js
+../js/core/STIStatic.js
+../js/core/Binning.js
+../js/core/MapControl.js
+../js/core/FilterBar.js
+../js/core/PlacenameTags.js
+../js/core/DataObject.js
+../js/core/DataSet.js
+../js/core/TimeDataSource.js
+../js/core/MapDataSource.js
+../js/core/Clustering.js
+../js/core/kruskal.js
+../js/core/Dropdown.js
+../js/core/MapZoomSlider.js
+../js/core/Popup.js
 ../js/core/Publisher.js
 ../js/build/minifier/final.js
-../js/sti/FullscreenWindow.js
-../js/core/Gui.js
-../js/core/SpaceWrapper.js
+../js/core/FullscreenWindow.js
+../js/core/MapWidget.js
+../js/core/TimeWidget.js
+../js/core/TableWidget.js
+../js/core/MapGui.js
+../js/core/TimeGui.js
+../js/core/TableGui.js
+../js/core/MapWrapper.js
 ../js/core/TimeWrapper.js
 ../js/core/TableWrapper.js)
 
@@ -93,8 +95,7 @@ Cssfiles = %w(../lib/simile/ajax/styles/graphics.css
 ../lib/simile/timeline/styles/ethers.css
 ../lib/simile/timeline/styles/events.css
 ../lib/simile/timeplot/styles/timeplot.css
-../css/Sti.css
-../css/customDesign.css
+../css/style.css
 ../lib/openlayers/theme/default/style.css)
 
 def cat_files(outputfile, basename)
