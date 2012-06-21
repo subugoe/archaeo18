@@ -13,7 +13,7 @@ task :all => [COMPRESSED_OUTPUT_FILE, OUTPUT_FILE, CSS_FILE]
 Files = %w(../js/build/minifier/basic.js
 ../lib/excanvas/excanvas.js
 ../js/build/minifier/simile-ajax-basic.js
-../lib/simile/ajax/scripts/jquery-1.3.2.min.js
+../lib/jquery/jquery-1.5.1.min.js
 ../lib/simile/ajax/scripts/platform.js
 ../lib/simile/ajax/scripts/debug.js
 ../lib/simile/ajax/scripts/xmlhttp.js

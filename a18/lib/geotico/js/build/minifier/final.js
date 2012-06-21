@@ -19,7 +19,7 @@ OpenLayers.Map.prototype.initialize = function (div, options) {
         
         this.paddingForPopups = new OpenLayers.Bounds(15, 15, 15, 15);
 
-        this.theme = STIMinifier_urlPrefix + 'minify/stif-styles.css'; 
+        this.theme = STIMinifier_urlPrefix + 'minify/geotico-styles.css'; 
 
         // now override default options 
         OpenLayers.Util.extend(this, options);

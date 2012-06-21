@@ -485,7 +485,6 @@ var a18Gui = new function(){
 			if( !cancel ){
 		    		var results = [];
 				$(xml).find('result').each(function(){
-					console.info(this);
 					var page = parseInt($(this).find('page').text());
 					var text = $(this).find('fragment').find('body').find('p');
 					var doc = $(this).find('doc').text();

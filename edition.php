@@ -3,6 +3,10 @@
 	<div id="editionContainer" class="edition" style="position:relative;overflow:hidden;">
 	</div>
 
+	<!-- include geotico -->
+	<link rel="stylesheet" href="a18/lib/geotico/minify/geotico-styles.css" type="text/css" />
+	<script src="a18/lib/geotico/minify/geotico-complete.js"></script>
+
 	<!-- include jQuery -->
 	<link rel="stylesheet" href="a18/lib/jQuery/themes/base/jquery.ui.all.css">
  	<script src="a18/lib/jQuery/jquery-1.5.1.js"></script>
@@ -71,9 +75,5 @@
 	<script src="a18/lib/archaeo18/FullscreenWindow.js"></script>
 	<script src="a18/lib/archaeo18/TooltipWindow.js"></script>
 	<script src="a18/lib/archaeo18/Archaeo18Gui.js"></script>
-
-	<!-- include geotico -->
-	<link rel="stylesheet" href="a18/lib/geotico/minify/geotico-styles.css" type="text/css" />
-	<script src="a18/lib/geotico/minify/geotico-complete-min.js"></script>
 
 <?php require_once('foot-main.php'); ?>

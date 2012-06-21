@@ -63,7 +63,6 @@ Util.loadDocument = function(title,name,preview,trigger,loadMets){
 		    	var imagePath, images = [];
 			if( loadMets ){
 				var metsDoc = $.ajax({
-					async: false,
 					url: mets,
 					dataType: "xml",
 					success: function(xml){
