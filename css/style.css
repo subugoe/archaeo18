@@ -751,91 +751,91 @@ header {
         background-image: url("../img/edition-window-tools-tei.png"); }
       .edition .window .inner li:hover .tools-tei {
         background-image: url("../img/edition-window-tools-tei-hover.png"); }
-      .edition .window .inner li:hover .tools-tei .active {
+      .edition .window .inner li .tools-tei-active {
         background-image: url("../img/edition-window-tools-tei-active.png"); }
       .edition .window .inner li .tools-pdf {
         background-image: url("../img/edition-window-tools-pdf.png"); }
       .edition .window .inner li:hover .tools-pdf {
         background-image: url("../img/edition-window-tools-pdf-hover.png"); }
-      .edition .window .inner li:hover .tools-pdf .active {
+      .edition .window .inner li .tools-pdf-active {
         background-image: url("../img/edition-window-tools-pdf-active.png"); }
       .edition .window .inner li .tools-img {
         background-image: url("../img/edition-window-tools-img.png"); }
       .edition .window .inner li:hover .tools-img {
         background-image: url("../img/edition-window-tools-img-hover.png"); }
-      .edition .window .inner li:hover .tools-img .active {
+      .edition .window .inner li .tools-img-active {
         background-image: url("../img/edition-window-tools-img-active.png"); }
       .edition .window .inner li .tools-list {
         background-image: url("../img/edition-window-tools-list.png"); }
       .edition .window .inner li:hover .tools-list {
         background-image: url("../img/edition-window-tools-list-hover.png"); }
-      .edition .window .inner li:hover .tools-list .active {
+      .edition .window .inner li .tools-list-active {
         background-image: url("../img/edition-window-tools-list-active.png"); }
       .edition .window .inner li .tools-txt {
         background-image: url("../img/edition-window-tools-txt.png"); }
       .edition .window .inner li:hover .tools-txt {
         background-image: url("../img/edition-window-tools-txt-hover.png"); }
-      .edition .window .inner li:hover .tools-txt .active {
+      .edition .window .inner li .tools-txt-active {
         background-image: url("../img/edition-window-tools-txt-active.png"); }
       .edition .window .inner li .tools-onepage {
         background-image: url("../img/edition-window-tools-onepage.png"); }
       .edition .window .inner li:hover .tools-onepage {
         background-image: url("../img/edition-window-tools-onepage-hover.png"); }
-      .edition .window .inner li:hover .tools-onepage .active {
+      .edition .window .inner li .tools-onepage-active {
         background-image: url("../img/edition-window-tools-onepage-active.png"); }
       .edition .window .inner li .tools-doublepage {
         background-image: url("../img/edition-window-tools-doublepage.png"); }
       .edition .window .inner li:hover .tools-doublepage {
         background-image: url("../img/edition-window-tools-doublepage-hover.png"); }
-      .edition .window .inner li:hover .tools-doublepage .active {
+      .edition .window .inner li .tools-doublepage-active {
         background-image: url("../img/edition-window-tools-doublepage-active.png"); }
       .edition .window .inner li .tools-highlight {
         background-image: url("../img/edition-window-tools-highlight.png"); }
       .edition .window .inner li:hover .tools-highlight {
         background-image: url("../img/edition-window-tools-highlight-hover.png"); }
-      .edition .window .inner li:hover .tools-highlight .active {
+      .edition .window .inner li .tools-highlight-active {
         background-image: url("../img/edition-window-tools-highlight-active.png"); }
       .edition .window .inner li .tools-link {
         background-image: url("../img/edition-window-tools-link.png"); }
       .edition .window .inner li:hover .tools-link {
         background-image: url("../img/edition-window-tools-link-hover.png"); }
-      .edition .window .inner li:hover .tools-link .active {
+      .edition .window .inner li .tools-link-active {
         background-image: url("../img/edition-window-tools-link-active.png"); }
       .edition .window .inner li .tools-tags {
         background-image: url("../img/edition-window-tools-tags.png"); }
       .edition .window .inner li:hover .tools-tags {
         background-image: url("../img/edition-window-tools-tags-hover.png"); }
-      .edition .window .inner li:hover .tools-tags .active {
+      .edition .window .inner li .tools-tags-active {
         background-image: url("../img/edition-window-tools-tags-active.png"); }
       .edition .window .inner li .tools-images {
         background-image: url("../img/edition-window-tools-images.png"); }
       .edition .window .inner li:hover .tools-images {
         background-image: url("../img/edition-window-tools-images-hover.png"); }
-      .edition .window .inner li:hover .tools-images .active {
+      .edition .window .inner li .tools-images-active {
         background-image: url("../img/edition-window-tools-images-active.png"); }
       .edition .window .inner li .tools-linecount {
         background-image: url("../img/edition-window-tools-linecount.png"); }
       .edition .window .inner li:hover .tools-linecount {
         background-image: url("../img/edition-window-tools-linecount-hover.png"); }
-      .edition .window .inner li:hover .tools-linecount .active {
+      .edition .window .inner li .tools-linecount-active {
         background-image: url("../img/edition-window-tools-linecount-active.png"); }
       .edition .window .inner li .tools-map {
         background-image: url("../img/edition-window-tools-map.png"); }
       .edition .window .inner li:hover .tools-map {
         background-image: url("../img/edition-window-tools-map-hover.png"); }
-      .edition .window .inner li .tools-map .active {
+      .edition .window .inner li .tools-map-active {
         background-image: url("../img/edition-window-tools-map-active.png"); }
       .edition .window .inner li .tools-dfg {
         background-image: url("../img/edition-window-tools-dfg.png"); }
       .edition .window .inner li:hover .tools-dfg {
         background-image: url("../img/edition-window-tools-dfg-hover.png"); }
-      .edition .window .inner li .tools-dfg .active {
+      .edition .window .inner li .tools-dfg-active {
         background-image: url("../img/edition-window-tools-dfg-active.png"); }
       .edition .window .inner li .tools-maximize {
         background-image: url("../img/edition-window-tools-maximize.png"); }
       .edition .window .inner li:hover .tools-maximize {
         background-image: url("../img/edition-window-tools-maximize-hover.png"); }
-      .edition .window .inner li:hover .tools-maximize .active {
+      .edition .window .inner li .tools-maximize .active {
         background-image: url("../img/edition-window-tools-maximize-active.png"); }
       .edition .window .inner .toolstop a {
         padding: 0 22px 0 0;
