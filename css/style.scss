@@ -604,8 +604,10 @@ header {
 				}
 				li .tools-paginationforward { background-image: url('../img/edition-window-pagination-forward.png'); }
 				li:hover .tools-paginationforward { background-image: url('../img/edition-window-pagination-forward-hover.png'); }
+				li .tools-paginationforward-disabled { background-image: url('../img/edition-window-pagination-forward.png'); }
 				li .tools-paginationbackward { background-image: url('../img/edition-window-pagination-backward.png'); }
 				li:hover .tools-paginationbackward { background-image: url('../img/edition-window-pagination-backward-hover.png'); }
+				li .tools-paginationbackward-disabled { background-image: url('../img/edition-window-pagination-backward.png'); }
 				li .tools-tei { background-image: url('../img/edition-window-tools-tei.png'); }
 				li:hover .tools-tei { background-image: url('../img/edition-window-tools-tei-hover.png'); }
 				li .tools-tei-active { background-image: url('../img/edition-window-tools-tei-active.png'); }
