@@ -1,3 +1,6 @@
+/**
+* sets loader overlays
+*/
 FullscreenWindow = function(div){
 	
 	this.fullscreens = [];	
@@ -20,15 +23,18 @@ FullscreenWindow = function(div){
 		return content;    
 	}
 
+	/**
+	* shows fullscreen with content
+	*/
 	this.contentFullscreen = function(dialog,onClose,contentDiv){
-
 		var content = this.frameContainer(onClose);
 		$(content).append(contentDiv);
-
-		this.addFullscreen(content);
-				
+		this.addFullscreen(content);				
 	}
 	
+	/**
+	* shows a loader fullscreen
+	*/
 	this.loaderFullscreen = function(onclose){
 		var container = this.frameContainer(onclose);
     		var content = $("<div/>");
@@ -46,6 +52,9 @@ FullscreenWindow = function(div){
 		}
 	}
 
+	/**
+	* shows tei download fullscreen
+	*/
 	this.downloadFullscreen = function(url){
 	   var content = this.frameContainer();
    		var contentDiv = $("<div/>").appendTo(content);
@@ -73,6 +82,9 @@ FullscreenWindow = function(div){
 		this.addFullscreen(content);
 	}
 
+	/**
+	* gets bounds of parent div
+	*/
 	this.getBounds = function(){
 		var w, h;
 		if( div == 'body' ){
@@ -91,6 +103,9 @@ FullscreenWindow = function(div){
 		};
 	}
 
+	/**
+	* adds fullscreen
+	*/
     this.addFullscreen = function(content){
 		var blockDiv = $("<div/>").appendTo(div);
 		blockDiv.addClass("blockDiv");
@@ -113,6 +128,9 @@ FullscreenWindow = function(div){
 	return this.fullscreens[this.fullscreens.length-1];
     }
     
+	/**
+	* centers content inside parent div
+	*/
     this.centerDiv = function(content){
 	var bounds = this.getBounds();
 	var border = parseInt($(content).css('borderLeftWidth'));
@@ -122,6 +140,9 @@ FullscreenWindow = function(div){
 		content.css('left', left+'px');
     }
 	
+	/**
+	* removes fullscreen div from parent
+	*/
 	this.removeFullscreen = function(){
 		if( this.fullscreens.length > 0 ){
 			$(this.fullscreens[this.fullscreens.length-1].blockDiv).remove();
@@ -129,8 +150,10 @@ FullscreenWindow = function(div){
 		}
 	}
 	
+	/**
+	* resizes fullscreen
+	*/
 	this.resize = function(){
-return;
 	   for( var i in this.fullscreens ){
             this.fullscreens[i].blockDiv.css('width',$(document).width()+'px');
             this.fullscreens[i].blockDiv.css('height',$(document).height()+'px');

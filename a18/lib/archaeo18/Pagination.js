@@ -1,27 +1,16 @@
+/*
+* pagination for document views/dialog
+*/
 function Pagination(div,pages,tooltips){
 
 	this.page = 0;
 	var pagination = this;
 	
-	/*
-	this.pageInfo = document.createElement('div');
-	this.pageInfo.setAttribute('class','pageInfo');
-	paginationBar.appendChild(this.pageInfo);
-	this.pageInfo.innerHTML = pages+" "+tooltips('pages');
-	*/
+	this.pages = pages;
 
 	var paginationBar = div;
 
-	/*
-	var firstPageLi = $('<li/>').appendTo(paginationBar);
-	this.firstPage = $('<a class="tools-paginationbackward"/>').appendTo(firstPageLi);
-	this.firstPage.title = tooltips('firstPage');
-	this.firstPage.onclick = function(){
-		pagination.page = 1;
-		pagination.update();
-	}
-	*/
-
+	// previous page button
 	var previousPageLi = $('<li/>').appendTo(paginationBar);
 	this.previousPage = $('<a class="tools-paginationbackward"><span class="visuallyhidden"/></a>').appendTo(previousPageLi);
 	this.previousPage.title = tooltips('previousPage');
@@ -34,35 +23,31 @@ function Pagination(div,pages,tooltips){
 	var form = $('<form/>').appendTo(paginationBar);
 	form.css('display','inline');
 	this.selectPageDropdown = $('<select/>').appendTo(paginationBar);
-	for( var i=0; i<pages; i++ ){
+	for( var i=0; i<this.pages; i++ ){
 		$('<option value="'+(i+1)+'">'+(i+1)+'</option>').appendTo(this.selectPageDropdown);
 	}
 	$(this.selectPageDropdown).change(function(){
 		$("select option:selected",this.selectPageDropdown).each(function(){
 			pagination.page = parseInt($(this).html());
+			
 			pagination.update();
 		});
 	});
 
+	// next page button
 	var nextPageLi = $('<li/>').appendTo(paginationBar);
 	this.nextPage = $('<a class="tools-paginationforward"><span class="visuallyhidden"/></a>').appendTo(nextPageLi);
 	this.nextPage.title = tooltips('nextPage');
 	this.nextPage.click(function(){
-		if( pagination.page < pages ){
-			pagination.setPage(pagination.page+1);
+		if( pagination.page < pagination.pages ){
+			pagination.page = parseInt(pagination.page + 1);
+			pagination.setPage(pagination.page);
 		}
 	});
 
 	/*
-	var lastPageLi = $('<li/>').appendTo(paginationBar);
-	this.lastPage = $('<a class="tools-paginationforward"/>').appendTo(lastPageLi);
-	this.lastPage.title = tooltips('lastPage');
-	this.lastPage.onclick = function(){
-		pagination.page = pages;
-		pagination.update();
-	}
+	* set page in paginator and triggers triggerFunc if avoidTrigger=false
 	*/
-
 	this.setPage = function(page,avoidTrigger){
 		this.page = page;
 		$('select option:selected',this.selectPageDropdown).removeAttr('selected');
@@ -74,26 +59,28 @@ function Pagination(div,pages,tooltips){
 		this.update(avoidTrigger);
 	};
 
+	/*
+	* sets funtion triggerFunc triggers when page change
+	*/
 	this.setTriggerFunc = function(triggerFunc){
 		this.triggerFunc = triggerFunc;
 	};
 
+	/*
+	* updates pagination buttons
+	*/
 	this.update = function(avoidTrigger){
 		if( this.page == 1 ){
-//			this.previousPage.setAttribute('class','paginationButton previousPageDisabled');
-//			this.firstPage.setAttribute('class','paginationButton firstPageDisabled');
+			$(this.previousPage).addClass('disabled');
 		}
 		else {
-//			this.previousPage.setAttribute('class','paginationButton previousPageEnabled');
-//			this.firstPage.setAttribute('class','paginationButton firstPageEnabled');
+			$(this.previousPage).removeClass('disabled');
 		}
-		if( this.page == pages ){
-//			this.nextPage.setAttribute('class','paginationButton nextPageDisabled');
-//			this.lastPage.setAttribute('class','paginationButton lastPageDisabled');
+		if( this.page == this.pages ){
+			$(this.nextPage).addClass('disabled');
 		}
 		else {
-//			this.nextPage.setAttribute('class','paginationButton nextPageEnabled');
-//			this.lastPage.setAttribute('class','paginationButton lastPageEnabled');
+			$(this.nextPage).removeClass('disabled');
 		}
 		if( !avoidTrigger ){
 			this.triggerFunc(this.page);

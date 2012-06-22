@@ -1,8 +1,12 @@
+/*
+* view to show tags for document or pages
+*/
 Tags = function(doc,container,parent){
 	
 	this.type = "tags";
 	this.container = container;
 	this.stopped = true;
+	this.pages = doc.pages;
 
 	var buttonPanel = $('<div/>').appendTo(container);
 	buttonPanel.addClass('buttonPanel');
@@ -11,6 +15,7 @@ Tags = function(doc,container,parent){
 	$(contentPanel).css('overflow','auto');
 
 	var context = this;
+	// allow dialog facet selection
 	var triggerFacets = function(facetSelection){
 		context.display();
 		parent.facetsChanged(facetSelection);
@@ -18,6 +23,7 @@ Tags = function(doc,container,parent){
 	parent.facetSelector.setTriggerFunc(triggerFacets);
 	parent.showFacets();
 
+	// allow dialog pagination
 	var trigger = function(page){
 		context.showPage(page);
 		parent.pageChanged(page);
@@ -25,8 +31,8 @@ Tags = function(doc,container,parent){
 	parent.paginator.setTriggerFunc(trigger);
 
 	this.documentScope = a18Props.documentScope;
-	if( this.documentScope ){
-		parent.hidePagination();
+	if( !this.documentScope ){
+		parent.showPagination();
 	}
 	if( a18Props.scopeSelection ){
 		var id = 'scope'+a18Gui.getIndependentId();
@@ -48,7 +54,6 @@ Tags = function(doc,container,parent){
 				}
 				context.documentScope = scope;
 				context.display();
-				parent.scopeChanged(scope);
 			}
 		};
 		$(documentTags).click(function(){
@@ -61,36 +66,18 @@ Tags = function(doc,container,parent){
 
 	var context = this;
 	var toolbar = $("<div/>").appendTo(buttonPanel);
-/*
-	if( a18Props.colorizeEntities ){
-		var colorizeLink = $("<a style='margin:5px;' href='javascript:void(0)'/>").appendTo(toolbar);
-		var set1 = function(){
-			if( context.colorizeEntities ){
-				$(colorizeLink).html(Util.getString('decolorizeEntities'));
-			}
-			else {
-				$(colorizeLink).html(Util.getString('colorizeEntities'));
-			}
-		}
-		colorizeLink.click(function(){
-			context.colorizeEntities = !context.colorizeEntities;
-			set1();
-			if( context.colorizeEntities ){
-				a18Gui.colorizeLinks($(contentPanel),false);
-			}
-			else {
-				a18Gui.colorizeLinks($(contentPanel),true);
-			}
-		});
-		set1();
-	}
-*/
 
+	/*
+	* retrieve tags for page
+	*/
 	this.show = function(page){
 		var facets = parent.facetSelector.getFacetString();
 		if( facets == '' ){
-			$(a18Gui.getAlertMessage(Util.getString('selectFacetsAlert'))).appendTo(contentPanel);
+			$(Util.getAlertMessage(Util.getString('selectFacetsAlert'))).appendTo(contentPanel);
 			return;
+		}
+		if( !this.stopped ){
+			parent.stopProcessing();
 		}
 		this.stopped = false;
 		$.ajax({
@@ -101,7 +88,7 @@ Tags = function(doc,container,parent){
 			},
 			error: function(errorObject){
 				if( !context.stopped ){
-					$(a18Gui.getErrorMessage(errorObject.status)).appendTo(contentPanel);
+					$(Util.getErrorMessage(errorObject.status)).appendTo(contentPanel);
 					parent.stopProcessing();
 				}
 			},
@@ -119,17 +106,26 @@ Tags = function(doc,container,parent){
 		});
 	};
 
+	/*
+	* show document tags
+	*/
 	this.showTags = function(){
 		$(contentPanel).empty();
 		this.show(0);
 	};
 
+	/*
+	* show page tags
+	*/
 	this.showPage = function(page){
 		this.actualPage = page;
 		$(contentPanel).empty();
 		this.show(page);
 	};
 
+	/*
+	* display page (page=0 --> display document tags)
+	*/
 	this.display = function(page){
 		if( this.documentScope ){
 			this.showTags();
@@ -139,6 +135,9 @@ Tags = function(doc,container,parent){
 		}
 	};
 
+	/*
+	* resizes view
+	*/
 	this.resize = function(){
 		$(contentPanel).css('width','100%');
 		$(contentPanel).css('height',($(container).height()-$(buttonPanel).height())+'px');
@@ -152,10 +151,20 @@ Tags = function(doc,container,parent){
 		}
 	};
 
+	/*
+	* updates view if dialog is linked and a pagechange was performed in another linked view with the same document
+	*/
 	this.onChange = function(change){
 		if( change.type == "facetsChange" ){
 			parent.facetSelector.setFacetSelection(change.data);
-			context.display();
+			context.display(parent.page);
+		}
+		if( change.type == "pageChange" ){
+			if( this.actualPage != change.data ){
+				parent.page = change.data;
+				parent.paginator.setPage(change.data,true);
+				this.showPage(change.data);
+			}
 		}
 	};
 

@@ -1,3 +1,6 @@
+/*
+* view to show distribution of place names on map for document or pages
+*/
 A18Map = function(doc,container,parent){
 
 	this.type = "map";
@@ -18,8 +21,8 @@ A18Map = function(doc,container,parent){
 	parent.paginator.setTriggerFunc(trigger);
 
 	this.documentScope = a18Props.documentScope;
-	if( this.documentScope ){
-		parent.hidePagination();
+	if( !this.documentScope ){
+		parent.showPagination();
 	}
 	if( a18Props.scopeSelection ){
 		var id = 'scope'+a18Gui.getIndependentId();
@@ -42,7 +45,6 @@ A18Map = function(doc,container,parent){
 				context.documentScope = scope;				
 				context.display(parent.page);
 				context.resize();
-				parent.scopeChanged(scope);
 			}
 		};
 		$(documentPlaces).click(function(){
@@ -82,8 +84,14 @@ A18Map = function(doc,container,parent){
 		this.initialCenter = center;
 	};
 	
+	/*
+	* retrieve and show places for page
+	*/
 	this.show = function(page){
 		if( !doc.kmlCache[page] ){
+			if( !this.stopped ){
+				parent.stopProcessing();
+			}
 			this.stopped = false;
     			$.ajax({
 				url: a18Props.kmlQuery.replace('DOC_ID',doc.title).replace('PAGE_ID',page),
@@ -105,6 +113,9 @@ A18Map = function(doc,container,parent){
 		}
 	};
 
+	/*
+	* show places for page
+	*/
 	this.showPage = function(page){
 		if( contentPanel.width() == 0 ){
 			return;
@@ -117,6 +128,9 @@ A18Map = function(doc,container,parent){
 		this.show(page);
 	};
 
+	/*
+	* show places for document
+	*/
 	this.showPlaces = function(){
 		if( contentPanel.width() == 0 ){
 			return;
@@ -124,6 +138,9 @@ A18Map = function(doc,container,parent){
 		this.show(0);
 	};
 
+	/*
+	* show places for document (page=0 --> display document places)
+	*/
 	this.display = function(page){
 		if( this.documentScope ){
 			this.showPlaces();
@@ -133,6 +150,9 @@ A18Map = function(doc,container,parent){
 		}
 	};
 
+	/*
+	* resizes view
+	*/
 	this.resize = function(){
 		if( this.documentScope ){
 			$(contentPanel).css('height',($(container).height()-$(buttonPanel).height())+'px');
@@ -144,9 +164,13 @@ A18Map = function(doc,container,parent){
 		mapWrapper.map.gui.resize();
 	};
 
+	/*
+	* updates view if dialog is linked and a pagechange was performed in another linked view with the same document
+	*/
 	this.onChange = function(change){
 		if( change.type == "pageChange" ){
 			if( this.actualPage != change.data ){
+				parent.page = change.data;
 				parent.paginator.setPage(change.data,true);
 				this.showPage(change.data);
 			}

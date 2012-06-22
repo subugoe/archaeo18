@@ -49,14 +49,11 @@
    	<link type="text/css" rel="stylesheet" href="a18/css/incrementer.css">
    	<link type="text/css" rel="stylesheet" href="a18/css/buttons.css">
 	<script src="a18/lib/archaeo18/Archaeo18Properties.js"></script>
-	<script src="a18/lib/archaeo18/RegExpFilter.js"></script>
 	<script src="a18/lib/archaeo18/Util.js"></script>
 	<script src="a18/lib/archaeo18/TEITreeGenerator.js"></script>
 	<script src="a18/lib/archaeo18/LineNumberOracle.js"></script>
 	<script src="a18/lib/archaeo18/OutlineTree.js"></script>
 	<script src="a18/lib/archaeo18/Pagination.js"></script>
-	<script src="a18/lib/archaeo18/Incrementer.js"></script>
-	<script src="a18/lib/archaeo18/Dropdown.js"></script>
 	<script src="a18/lib/archaeo18/FacetSelector.js"></script>
 	<script src="a18/lib/archaeo18/document/Document.js"></script>
 	<script src="a18/lib/archaeo18/document/Text.js"></script>

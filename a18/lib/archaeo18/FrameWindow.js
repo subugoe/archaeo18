@@ -1,7 +1,13 @@
+/**
+* provides general window funtionality like close/resize for windows (browser, folder)
+*/
 FrameWindow = function(frameClass,headerClass){
 
 	this.windowFunctionality = true;
 
+	/**
+	* initializes frame with functionality close/resize/drag/fullscreen dependent on given <params>
+	*/
 	this.initializeFrame = function(params){
 
 		this.params = params;
@@ -106,6 +112,9 @@ FrameWindow = function(frameClass,headerClass){
 
 	};
 
+	/**
+	* updates z-index of frame, so that a selected frame is always completely visible
+	*/
 	this.updateZIndex = function(set){
 		if( !set ){
 			var zIndex = $(this).css('z-index');
@@ -126,11 +135,17 @@ FrameWindow = function(frameClass,headerClass){
 		}
 	};
 	
+	/**
+	* sets window functionality if there are constraints from automatic grid layout
+	*/
 	this.setWindowFunctionality = function(windowFunctionality){
 		this.windowFunctionality = windowFunctionality;
 		this.setResizability(this.windowFunctionality);
 	};
 
+	/**
+	* sets resizability of the frame
+	*/
 	this.setResizability = function(append){
 		var frame = this;
 		if( this.params.resizable && append && this.windowFunctionality && this.visibility ){
@@ -151,11 +166,17 @@ FrameWindow = function(frameClass,headerClass){
 		}
 	};
 		
+	/**
+	* sets size of the frame
+	*/
 	this.setSize = function(width,height){
 		this.css('width', width+"px" );
 		this.css('height',height+'px');
 	};
 	
+	/**
+	* resizes the frame
+	*/
 	this.resize = function(){
 		this.toolbarDiv.css('width',($(this).width())+'px');
 	//	$(this.label).css('margin',Math.floor((this.toolbarDiv.height()-this.label.height())/2)+'px');
@@ -164,11 +185,17 @@ FrameWindow = function(frameClass,headerClass){
 		this.content.css('height', ($(this).height()-p-this.toolbarDiv.height())+"px");
 	};
 	
+	/**
+	* places the frame
+	*/
 	this.position = function(left,top){
 		this.css('left',left+'px');
 		this.css('top',top+'px');
 	};
 
+	/**
+	* return a frames' position
+	*/
 	this.getPosition = function(){
 		if( this.visibility ){
 			return {
@@ -186,6 +213,9 @@ FrameWindow = function(frameClass,headerClass){
 		};
 	};
 		
+	/**
+	* arranges minimize/maximize functionality
+	*/
 	this.toggleVisibility = function(){
 		var frame = this;
 		var padding = parseInt($(this).css("padding-top"));
@@ -224,12 +254,18 @@ FrameWindow = function(frameClass,headerClass){
 		}
 	};
 	
+	/**
+	* set label (old design)
+	*/
 	this.setLabel = function(label){
-return;
+		return;
 		$(this.label).html(label);
 		$(this.label).css('margin',Math.floor((this.toolbarDiv.height()-this.label.height())/2)+'px');
 	};
 	
+	/**
+	* perfoms drag functionality for frame
+	*/
 	this.dragFrame = function(evt){
 		var frame = this;
 		var getMousePosition = function(e){
@@ -257,6 +293,9 @@ return;
 		}
 	};
 	
+	/**
+	* returns a frames visibility (if frame is minimized or not)
+	*/
 	this.isVisible = function(){
 		return this.visibility;
 	};

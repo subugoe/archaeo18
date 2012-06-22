@@ -1,9 +1,15 @@
+/*
+* view to show outline
+*/
 Outline = function(doc,container,parent){
 
 	this.type = "outline";
 	this.container = container;
 	this.content;
 
+	/*
+	* display documents outline
+	*/
 	this.display = function(){
 		var context = this;
 		$(this.container).empty();
@@ -32,7 +38,7 @@ Outline = function(doc,container,parent){
 				},
 				error: function(errorObject){
 					if( !context.stopped ){
-						$(a18Gui.getErrorMessage(errorObject.status)).appendTo(context.container);
+						$(Util.getErrorMessage(errorObject.status)).appendTo(context.container);
 						parent.stopProcessing();
 					}
 				},

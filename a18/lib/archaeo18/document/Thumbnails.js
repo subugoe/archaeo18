@@ -1,11 +1,19 @@
-Thumbnails = function(doc,container){
+/*
+* view to show thumbnail list
+*/
+Thumbnails = function(doc,container,parent){
 
 	this.type = "thumbnails";
 	this.container = container;
 	this.path = doc.imagePath;
 	this.images = doc.images;
 	this.page;
+
+	parent.hideLink();
 		
+	/*
+	* display thumbnails with lazy load
+	*/
 	this.display = function(){
 		var doc = this;
 		var thumbnails = [];
@@ -27,10 +35,16 @@ Thumbnails = function(doc,container){
 		$('div.loadme').lazyLoad(this.container,imageLoad,1000);
 	};
 	
+	/*
+	* resize view
+	*/
 	this.resize = function(){
 		$('div.loadme').trigger('scroll');
 	};
 	
+	/*
+	* appends click function on images
+	*/
 	this.setClickFunction = function(imageClicked){
 		this.imageClicked = imageClicked;
 	};

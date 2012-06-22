@@ -1,3 +1,6 @@
+/**
+* Arranges GUI of Archaeo18
+*/
 var a18Gui = new function(){
 	
 	this.contentWindows;
@@ -5,10 +8,12 @@ var a18Gui = new function(){
 	this.independentId;
 	this.zIndex = 0;
 	this.magneticLinks = [];
-	this.lastSearch;
 	this.containerDiv = $('#editionContainer');
 	this.containerDiv.css('height',(a18Props.windowHeight+2*a18Props.margin)+'px');
 
+	/**
+	* stops loading process of actual window tab
+	*/
 	$(document).keypress(function(e){
 		if( e.keyCode == 27 ){
 			e.preventDefault();
@@ -16,16 +21,25 @@ var a18Gui = new function(){
 		}
 	});
 
+	/**
+	* initialize <number> content windows
+	*/
 	this.initializeWindows = function(number){
 		for( var i=0; i<number; i++ ){
 			this.addContentWindow();
 		}
 	};
 	
+	/**
+	* returns the next z-index for the last clicked window
+	*/
 	this.getZIndex = function(){
 		return ++this.zIndex;
 	};
 
+	/**
+	* add a new content window
+	*/
 	this.addContentWindow = function(){
 		var contentWindow = $('<div/>').appendTo(this.containerDiv);
 		$.extend(contentWindow,new FrameWindow('window','clearfix'));
@@ -48,6 +62,9 @@ var a18Gui = new function(){
 		contentWindow.setWindowFunctionality(!this.automaticGridLayout);
 	};
 	
+	/**
+	* initialize gui function
+	*/
 	this.initialize = function(){
 		var gui = this;
 		this.contentWindows = [];
@@ -80,8 +97,8 @@ var a18Gui = new function(){
 		},true);
 		this.addControls();
 
-		if( window.location.href.indexOf('?') != -1 ){
-			this.setParams( window.location.href.slice(window.location.href.indexOf('?params=') + 1) );
+		if( window.location.href.indexOf('?params') != -1 ){
+			this.setParams( window.location.href.slice(window.location.href.indexOf('?params=') + 8) );
 		}
 		else if( a18Props.guiConfig ){
 			this.initializeWindows(a18Props.guiConfig.windows.length);
@@ -95,8 +112,19 @@ var a18Gui = new function(){
 		this.tooltip = $('<div class="tooltip"/>').appendTo(this.containerDiv);
 		
 		this.browser.updateZIndex(true);
+
+		if( window.location.href.indexOf('?docParams') != -1 ){
+			var params = window.location.href.slice(window.location.href.indexOf('?docParams=') + 11).split(';');
+			var doc = Util.loadDocumentSync(params[0]);
+			var page = parseInt(params[1]);
+			this.contentWindows[0].addTab(doc,page,'pages');
+		}
+
 	};
 
+	/**
+	* if initial gui is defined in A18Props, the values (position,size)) are attached here to the initializes windows
+	*/
 	this.initialLayout = function(){
 		var conf = a18Props.guiConfig;
 		this.browser.position(conf.browser.left,conf.browser.top);
@@ -135,6 +163,9 @@ var a18Gui = new function(){
 		}
 	};
 	
+	/**
+	* draw border links there are nested entities within the given <link>
+	*/
 	this.borderLink = function(link){
 		for( var i=0; i<Util.facets.length; i++ ){
 			var entity = Util.facets[i].facet.replace(':','\\:');
@@ -145,6 +176,9 @@ var a18Gui = new function(){
 		}
 	};
 
+	/**
+	* returns an alternative name if available in the given <node>
+	*/
 	this.getAlternativeName = function(node){
 		var nodes = node.childNodes;
 		for( var i=0; i<nodes.length; i++ ){
@@ -162,6 +196,9 @@ var a18Gui = new function(){
 		}
 	};
 
+	/**
+	* checks height of the main container div; used to resize container if windows are dragged over boundaries
+	*/
 	this.checkHeight = function(){
 		var highest;
 		for( var i=0; i<this.contentWindows.length; i++ ){
@@ -176,7 +213,14 @@ var a18Gui = new function(){
 		}
 	};
 
-	this.appendTooltips = function(div){
+
+	/**
+	* Appends mouseover-tooltips for all links/spans with facet-classes, all notes and all tei-references
+	* @param {HTML Object} div the div that contains the links and spans 
+	* @param {Dialog} dialog the dialog that contains the div
+	*/
+	this.appendTooltips = function(div,dialog){
+		// links and spans
 		for( var i=0; i<Util.facets.length; i++ ){
 			var facet = Util.facets[i];
 			if( !facet.render ){
@@ -189,9 +233,17 @@ var a18Gui = new function(){
 			$.each(links,function(index,link){
 				$(link).css('text-decoration','none');
 				var content = $('<div/>');
+				var cert;
+				var certainty = $('.type-certainty',link);
+				if( typeof certainty[0] != 'undefined' ){
+					cert = $(certainty[0]).html();
+				}
 				var altName = a18Gui.getAlternativeName(this);
 				if( altName == null ){
 					altName = link.innerHTML;
+				}
+				if( typeof cert != 'undefined' ){
+					altName += " &#040;"+cert+"&#041;";
 				}
 				$(content).append('<p>'+altName+'</p>');
 				var p = $('<p/>').appendTo(content);
@@ -220,7 +272,7 @@ var a18Gui = new function(){
 							window.open(link.href,'_blank');
 						});
 					}
-					a18Gui.appendTooltips(div);
+					a18Gui.appendTooltips(div,dialog);
 					a18Gui.colorizeLinks(div);
 				}
 				tooltip.setTooltip(link,content,trigger);
@@ -230,31 +282,50 @@ var a18Gui = new function(){
 				}
 			});
 		}
-/*
+		// tei references
 		try {
 			var notes = $('.tei\\:ref',div);
-			console.info(notes);
 			$.each(notes,function(index,note){
-				var nameId = note.href.substring(note.href.indexOf('#')+1);
-				var href = $('a[name='+nameId+']')[0];
-				var content = $(href).parent()[0].innerHTML;
-				tooltip.setTooltip(note,content,function(div){a18Gui.appendTooltips(div); a18Gui.colorizeLinks(div);});
+				var page = parseInt($(note).html());
+				var content = $('<div/>');
+				$(content).append('<p>'+Util.getString('reference')+' '+page+'</p>');
+				var p = $('<p/>').appendTo(content);
+				var a1 = $('<a href="javascript:void(0)">'+Util.getString('showPage')+'</a>').appendTo(p);
+				$('<br/>').appendTo(p);
+				var a2 = $('<a href="javascript:void(0)">'+Util.getString('showPageWindow')+'</a>').appendTo(p);
+				var trigger = function(div){
+					$(a1).click(function(){
+						dialog.pageChanged(page);
+						dialog.setDocType('pages');
+						dialog.showDocumentType();
+						tooltip.removeAllTooltips();
+					});
+					$(a2).click(function(){
+						a18Gui.openDocument(dialog.document,page,"pages");
+						tooltip.removeAllTooltips();
+					});
+				}
+				tooltip.setTooltip(note,content,trigger);
 			});
 		}
 		catch(e){}
-*/
+		// tei notes
 		try {
 			var notes = $('.tei\\:note',div);
 			$.each(notes,function(index,note){
 				var nameId = note.href.substring(note.href.indexOf('#')+1);
 				var href = $('a[name='+nameId+']')[0];
 				var content = $(href).parent()[0].innerHTML;
-				tooltip.setTooltip(note,content,function(div){a18Gui.appendTooltips(div); a18Gui.colorizeLinks(div);});
+				tooltip.setTooltip(note,content,function(div){a18Gui.appendTooltips(div,dialog); a18Gui.colorizeLinks(div);});
 			});	
 		}
 		catch(e){}
 	};
 
+	/**
+	* colorizes links inside a given <div> for all facets, which are 'true' in <facetSelection>
+	* facetSelection is an array of boolean values; each true means to color links for this entity
+	*/
 	this.colorizeLinks = function(div,facetSelection){
 		var plain = true;
 		if( typeof facetSelection != 'undefined' ){
@@ -275,6 +346,7 @@ var a18Gui = new function(){
 				}
 			}
 		}
+		// if no facet is true, the plain (wikipedia) coloring is done
 		if( plain ){
 			for( var i=0; i<Util.facets.length; i++ ){
 				var facet = Util.facets[i];
@@ -295,6 +367,9 @@ var a18Gui = new function(){
 		}
 	};
 	
+	/**
+	* create a dialog (e.g. open document dialog) with a given <headline> and a given <content>
+	*/
 	this.createDialog = function(headline,content){
 		var gui = this;
 		var id = "dialog"+this.getIndependentId();
@@ -324,16 +399,25 @@ var a18Gui = new function(){
 		return dialog;
 	}; 
 	
+	/**
+	* if content window was removed, the names of the others are updated
+	*/
 	this.updateNames = function(){
 		$.each(this.contentWindows,function(i,cw){
 			cw.updateName(i+1);
 		});
 	};
 	
+	/**
+	* returns an independent running index for setting div ids 
+	*/
 	this.getIndependentId = function(){
 		return ++this.independentId;
 	};
 	
+	/**
+	* removes a content window (folder)
+	*/
 	this.removeContentWindow = function(cw){
 		cw.remove();
 		for( var i=0; i<this.contentWindows.length; i++ ){
@@ -345,6 +429,9 @@ var a18Gui = new function(){
 		this.updateNames();
 	};
 	
+	/**
+	* positions and resizes browser and folder to match a grid layout like: || || || ||
+	*/
 	this.gridLayout = function(){
 		
 		var gui = this;
@@ -423,18 +510,24 @@ var a18Gui = new function(){
 		
 	};
 	
+	/**
+	* opens a document <doc> with an initial <page>, an initial view (<type>) and
+	* an initial <position>-id in the text (only for fulltext view after trigger from outline view)
+	*/
 	this.openDocument = function(doc,page,type,position){
 		var gui = this;
 		var candidates = [];
 		$.each(this.contentWindows, function(index,cw){
 			if( cw.isVisible() && cw.documents.length < a18Props.maxDocuments ){
 				candidates.push(cw);
+
+
 			}
 		});
 		var openNewWindow = function(){
 			gui.addContentWindow();
 			gui.updateNames();
-			gui.contentWindows[gui.contentWindows.length-1].addDocument(doc,page,type,position);
+			gui.contentWindows[gui.contentWindows.length-1].addTab(doc,page,type,position);
 			if( ( !a18Props.resizable && !a18Props.draggable ) || a18Gui.automaticGridLayout ){
 				if( a18Props.guiConfig ){
 					gui.initialLayout();
@@ -453,7 +546,7 @@ var a18Gui = new function(){
 			$.each(candidates, function(index,cw){
 				var openButton = $('<a>'+cw.getName()+'</a>').appendTo(inner);
 				openButton.click(function(){
-					cw.addDocument(doc,page,type,position);
+					cw.addTab(doc,page,type,position);
 					close();
 				});
 			});
@@ -469,7 +562,11 @@ var a18Gui = new function(){
 		}
 	};	
 	
-	this.search = function( searchId, term, facet ){
+	/**
+	* perfoms a search for a given <term> and a given <facet>-string
+	* triggers addCategory method in browser (adds new result accordeon category)
+	*/
+	this.search = function( term, facet ){
 		var gui = this;
 		var cancel = false;
 		var onclose = function(){
@@ -486,6 +583,9 @@ var a18Gui = new function(){
 		    		var results = [];
 				$(xml).find('result').each(function(){
 					var page = parseInt($(this).find('page').text());
+					if( page == '' ){
+						page = 1;
+					}
 					var text = $(this).find('fragment').find('body').find('p');
 					var doc = $(this).find('doc').text();
 					if( typeof results[doc] == 'undefined' ){
@@ -496,18 +596,17 @@ var a18Gui = new function(){
 				for( var i in Util.documents ){
 					var id = Util.documents[i].title;
 					if( typeof results[id] != 'undefined' ){
-						gui.browser.addCategory(searchId,Util.documents[i],results[id],term);
+						gui.browser.addCategory(searchId,Util.documents[i],results[id]);
 					}
 				}
 				gui.browser.stopProcessing();
 			}
 	    	});
-		this.lastSearch = {
-			t: term,
-			f: facet
-		};
 	};
 
+	/**
+	* returns an id for each view <type> preparing magnetic links
+	*/
 	this.getIdByType = function(type){
 		if( type == 'text' ){
 			return 0;
@@ -527,8 +626,17 @@ var a18Gui = new function(){
 		else if( type == 'outline' ){
 			return 5;
 		}
+		else if( type == 'tags' ){
+			return 6;
+		}
+		else if( type == 'map' ){
+			return 7;
+		}
 	};
 
+	/**
+	* returns the view type for a given <id> to resolve magnetic links
+	*/
 	this.getTypeById = function(id){
 		if( id == 0 ){
 			return 'text';
@@ -548,8 +656,19 @@ var a18Gui = new function(){
 		else if( id == 5 ){
 			return 'outline';
 		}
+		else if( id == 6 ){
+			return 'tags';
+		}
+		else if( id == 7 ){
+			return 'map';
+		}
 	};
 
+	/**
+	* returns parameters to prepare magnetic link
+	* folder: documents, selected tab
+	* document: linked status, view, page, facetSelection
+	*/
 	this.getParams = function(){
 		var gui = this;
 		var getDelimitedString = function(delimiter,items){
@@ -568,152 +687,78 @@ var a18Gui = new function(){
 			var type = dialog.getDocType();
 			items.push(gui.getIdByType(type));
 			items.push(dialog.page);
-			if( type == 'text' || type == 'pages' ){
-				if( dialog.doctype.colorizeEntities ){
-					items.push(1);
+			if( dialog.linked ){
+				items.push('1');
+			}
+			else {
+				items.push('0');
+			}
+			var facets = dialog.facetSelection;
+			var facetString = '';
+			for( var i=0; i<facets.length; i++ ){
+				if( facets[i] ){
+					facetString += '1';
 				}
 				else {
-					items.push(0);
-				}
-				if( dialog.doctype.lineNumbers ){
-					items.push(1);
-				}
-				else {
-					items.push(0);
+					facetString += '0';
 				}
 			}
-			if( type == 'images' ){
-				items.push(dialog.doctype.zoom);
-				items.push(Math.round(dialog.doctype.center.x));
-				items.push(Math.round(dialog.doctype.center.y));
-			}
+			items.push(facetString);
 			return getDelimitedString(',',items);
 		};
 		var getFolderString = function(folder){
 			var strings = [];
-			var params = [];
-			params.push(folder.getSelectedTab());
-			if( folder.visibility ){
-				params.push(1);
-			}
-			else {
-				params.push(0);
-			}
-			var position = folder.getPosition();
-			params.push(position.l);
-			params.push(position.t);
-			params.push(position.w);
-			params.push(position.h);
-			strings.push(getDelimitedString(',',params));
+			strings.push(folder.getSelectedTab());
 			for( var i=0; i<folder.documentDialogs.length; i++ ){
 				strings.push(getDocumentString(folder.documentDialogs[i]));
 			}
 			return getDelimitedString(';',strings);
 		};	
 		var strings = [];
-		var browserParams = [];
-		if( gui.browser.visibility ){
-			browserParams.push(1);
-		}
-		else {
-			browserParams.push(0);
-		}
-		var position = gui.browser.getPosition();
-		browserParams.push(position.l);
-		browserParams.push(position.t);
-		browserParams.push(position.w);
-		browserParams.push(position.h);
-		strings.push(getDelimitedString(',',browserParams));
-		var systemParams = [];
-		if( gui.automaticGridLayout ){
-			systemParams.push(1);
-		}
-		else {
-			systemParams.push(0);
-		}
-		if( typeof gui.lastSearch != 'undefined' ){
-			systemParams.push(gui.lastSearch.t);
-			systemParams.push(gui.lastSearch.f);
-		}
-		strings.push(getDelimitedString(';',systemParams));
 		for( var i=0; i<gui.contentWindows.length; i++ ){
 			strings.push(getFolderString(gui.contentWindows[i]));
 		}
 		return getDelimitedString('_',strings);
 	};
 	
+	/**
+	* initializes freezed view by resolving <params> from magnetic link
+	*/
 	this.setParams = function(params){
 		var data = params.split('_');
-		this.initializeWindows(data.length-2);
-		for( var i=2; i<data.length; i++ ){
+		this.initializeWindows(data.length);
+		for( var i=0; i<data.length; i++ ){
 			var contentWindowParams = data[i].split(';');
-			var params = contentWindowParams[0].split(',');
-			this.contentWindows[i-2].setSize(parseInt(params[4]),parseInt(params[5]));
-			this.contentWindows[i-2].position(parseInt(params[2]),parseInt(params[3]));
 			for( var j=1; j<contentWindowParams.length; j++ ){
 				var documentParams = contentWindowParams[j].split(',');
-				var document = Util.loadDocument(documentParams[0]);
+				var document = Util.loadDocumentSync(documentParams[0]);
 				var type = this.getTypeById(documentParams[1]);
-				this.contentWindows[i-2].addDocument(document,documentParams[2],type);
-				var f = {};
-				if( type == 'images' ){
-					f.zoom = documentParams[3];
-					f.center = { x: documentParams[4], y: documentParams[5] };
+				this.contentWindows[i].addTab(document,parseInt(documentParams[2]),type);
+				if( documentParams[3] == '1' ){
+					this.contentWindows[i].dialog().linkDialog();
 				}
-				else if( type == 'text' || type == 'pages' ){
-					if( documentParams[3] == '1' ){
-						f.colorize = true;
+				var facets = [];
+				var facetString = documentParams[4];
+				for( var k=0; k<facetString.length; k++ ){
+					if( facetString[k] == 0 ){
+						facets.push(false);
 					}
 					else {
-						f.colorize = false;
-					}
-					if( documentParams[4] == '1' ){
-						f.numbering = true;
-					}
-					else {
-						f.numbering = false;
+						facets.push(true);
 					}
 				}
-				this.contentWindows[i-2].dialog().setFunctionality(f);
+				this.contentWindows[i].dialog().setFacetSelection(facets);
 			}
-			this.contentWindows[i-2].setSelectedTab(parseInt(params[0]));
-			this.contentWindows[i-2].resize();
-			this.contentWindows[i-2].resizeContent();
-			if( params[1] == '0' ){
-				this.contentWindows[i-2].toggleVisibility();
-			}
+			this.contentWindows[i].setSelectedTab(parseInt(contentWindowParams[0]));
+			this.contentWindows[i].resize();
+			this.contentWindows[i].resizeContent();
 		}
-
-		var browserParams = data[0].split(',');
-		this.browser.setSize(parseInt(browserParams[3]),parseInt(browserParams[4]));
-		this.browser.position(parseInt(browserParams[1]),parseInt(browserParams[2]));
-		this.browser.resize();
-		this.browser.resizeContent();
-		if( browserParams[0] == '0' ){
-			this.browser.toggleVisibility();
-		}
-
-		var systemParams = data[1].split(';');
-		if( systemParams[0] == '1' && !this.automaticGridLayout ){
-			this.toggleGridLayout();
-		}
-		if( systemParams.length > 1 ){
-			this.search( systemParams[1], systemParams[2] );
-		}
-	};
-
-	this.asciiToHex = function(text){
-		var ascii = new Array( "!","#","$","%","&","'","(",")","*","+",",","/",":",";","=","?","@","[","]", " " );
-		var hex = new Array( "%21","%23","%24","!$#","%26","%27","%28","%29","%2a","%2b","%2c","%2f","%3a","%3b","%3d","%3f","%40","%5b","%5d","%20" );
-		for( var i=0; i<ascii.length; i++ ){
-			while(text.indexOf(ascii[i])!= -1){
-				text = text.replace(ascii[i],hex[i]);	
-			}
-		}
-		text = text.replace(/!$#/g,"%25");
-		return text;
+		this.gridLayout();
 	};
 	
+	/**
+	* adds controls gridlayout, magnetic link and add new folder if true in A18Props
+	*/
 	this.addControls = function(){
 		var gui = this;
 		var controls = $('<div class="edition-tools"/>').appendTo('body');		
@@ -842,7 +887,17 @@ var a18Gui = new function(){
 		}
 						
 	};
+
+	/**
+	* automatic grid layout, if user resizes browser
+	*/
+	$(window).resize(function(){
+		a18Gui.gridLayout();
+	});	
 	
+	/**
+	* checks, if grid layout need to be done
+	*/
 	this.checkGrid = function(){
 		if( this.automaticGridLayout ){
 			if( a18Props.guiConfig ){
@@ -852,20 +907,6 @@ var a18Gui = new function(){
 				this.gridLayout();
 			}
 		}		
-	};
-		
-	this.getErrorMessage = function(errorType){
-		var errorDiv = $("<div/>");
-		$("<div class='errorMessage'>"+Util.getString('errorMessage')+' ('+errorType+')'+"</div>").appendTo(errorDiv);
-		$('<div class="errorSign"/>').appendTo(errorDiv);
-		return errorDiv;
-	};
-
-	this.getAlertMessage = function(msg){
-		var alertDiv = $("<div/>");
-		$("<div class='alertMessage'>"+msg+"</div>").appendTo(alertDiv);
-		$('<div class="alertSign"/>').appendTo(alertDiv);
-		return alertDiv;
 	};
 
 }

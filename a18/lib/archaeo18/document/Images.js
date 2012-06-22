@@ -1,3 +1,6 @@
+/*
+* view to show single images
+*/
 Images = function(doc,container,parent){
 
 	this.type = "images";
@@ -17,11 +20,9 @@ Images = function(doc,container,parent){
 	parent.paginator.setTriggerFunc(trigger);
 	parent.showPagination();
 
-	this.setOrientation = function(zoom,center){
-		this.initialZoom = zoom;
-		this.initialCenter = center;
-	};
-	
+	/*
+	* show image of a given <page> with openlayers
+	*/
 	this.showPage = function(page){
 		if( contentPanel.width() == 0 ){
 			return;
@@ -94,7 +95,7 @@ Images = function(doc,container,parent){
 		var graphic = new Image();
 		graphic.onerror = function(){
 			contentPanel.empty();
-			$(a18Gui.getErrorMessage(404)).appendTo(contentPanel);
+			$(Util.getErrorMessage(404)).appendTo(contentPanel);
 			parent.stopProcessing();
 		}
 		graphic.onload = function(){
@@ -142,10 +143,16 @@ Images = function(doc,container,parent){
 		graphic.src = url;
 	};
 
+	/*
+	* displays <page> by triggering parent dialogs paginator
+	*/
 	this.display = function(page){
 		page ? parent.paginator.setPage(page,false) : parent.paginator.setPage(1,false);
 	};
 
+	/*
+	* resizes view
+	*/
 	this.resize = function(){
 		$(contentPanel).css('height',$(container).height()+'px');
 		if( typeof this.actualPage != 'undefined' ){
@@ -153,9 +160,13 @@ Images = function(doc,container,parent){
 		}
 	};
 
+	/*
+	* updates view if dialog is linked and a pagechange was performed in another linked view with the same document
+	*/
 	this.onChange = function(change){
 		if( change.type == "pageChange" ){
 			if( this.actualPage != change.data ){
+				parent.page = change.data;
 				parent.paginator.setPage(change.data,true);
 				this.showPage(change.data);
 			}

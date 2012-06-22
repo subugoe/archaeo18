@@ -442,6 +442,7 @@ STIStatic.loadSpatialJSONData = function(JSON){
  * @return an array of time objects
 
 
+
 */
 STIStatic.loadTemporalJSONData = function(JSON){
 	var timeObjects = [];
@@ -564,7 +565,7 @@ STIStatic.loadSpatioTemporalKMLData = function(url,kml){
 	}
 	var elements = kml.getElementsByTagName("Placemark");
 	if( elements.length == 0 ){
-		return null;
+		return [];
 	}
 	var index = 0;
 	for (var i = 0; i < elements.length; i++) {

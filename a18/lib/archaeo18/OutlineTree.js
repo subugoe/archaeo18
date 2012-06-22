@@ -1,9 +1,15 @@
+/*
+* generates outline tree to show in browsers document list
+*/
 function OutlineTree(xhtml,title){
 	this.nodeStack = [];
 	this.title = title;
 	this.traverseNodes(xhtml[0]);
 }
 
+/*
+* traverse all nodes in given xhtml
+*/
 OutlineTree.prototype.traverseNodes = function(node){
 	if( node.hasChildNodes() ){
 		var k = node.firstChild;
@@ -18,6 +24,9 @@ OutlineTree.prototype.traverseNodes = function(node){
 	}
 }
 
+/*
+* generate outline tree
+*/
 OutlineTree.prototype.generateTree = function(){
 	var chapters = [];
 	chapters.push({

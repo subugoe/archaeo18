@@ -1,3 +1,6 @@
+/*
+* view to show tei tree
+*/
 TEI = function(doc,container,parent){
 
 	this.type = "tei";
@@ -14,6 +17,11 @@ TEI = function(doc,container,parent){
 		parent.fullscreen.downloadFullscreen(doc.tei);
 	});
 	
+	parent.hideLink();
+
+	/*
+	* computes and display tei tree
+	*/
 	this.display = function(){
 		var context = this;
 		var show = function(data){
@@ -41,7 +49,7 @@ TEI = function(doc,container,parent){
 				url: doc.tei,
 				dataType: "xml",
 				error: function(errorObject){
-					show(a18Gui.getErrorMessage(errorObject.status));
+					show(Util.getErrorMessage(errorObject.status));
 					parent.stopProcessing();
 				},
 				success: function(xml){
@@ -52,6 +60,9 @@ TEI = function(doc,container,parent){
 		}
 	}
 
+	/*
+	* resizes view
+	*/
 	this.resize = function(){
 		$(contentPanel).css('height',$(container).height()+'px');
 	};

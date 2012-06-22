@@ -1,5 +1,11 @@
+/*
+* scripts page implementation
+*/
 var Scripts = new function(){
 
+	/*
+	* initialize scripts page; load documents
+	*/
 	this.initialize = function(){
 		
 		var gui = this;
@@ -32,6 +38,9 @@ var Scripts = new function(){
 
 	};
 
+	/*
+	* show document with given <title>
+	*/
 	this.showDocument = function(title){
 		if( title == Util.getString('selectHandwriting') ){
 			return;
@@ -60,11 +69,6 @@ var Scripts = new function(){
 		});
 	};	
 
-};
-
-var ScriptsProps = {
-	randomPage: false,
-	fixedPage: 1
 };
 
 Scripts.initialize();

@@ -1,3 +1,6 @@
+/**
+* implements facet selector
+*/
 function FacetSelector(div){
 
 	var selector = this;
@@ -5,6 +8,9 @@ function FacetSelector(div){
 	var facetsBar = document.createElement("div");
 	$(div).append(facetsBar);
 
+	/**
+	* initializes facet selector checkboxes
+	*/	
 	var checkboxes = [];
 	var facetSelection = [];
 	var addFacet = function(facet,index){
@@ -32,23 +38,24 @@ function FacetSelector(div){
 			checkboxes.push(false);
 		}
 	});
-	/*
-	var set = $("<a href='javascript:void(0)'>Set!</a>").appendTo(facetsBar);	
-	$(set).css('margin-left','5px');
-	$(set).css('margin-right','5px');
-	$(set).click(function(){
-		trigger(facetSelection);
-	});
-	*/
 
+	/**
+	* sets trigger function when facet checkboxes change
+	*/	
 	this.setTriggerFunc = function(triggerFunc){
 		this.triggerFunc = triggerFunc;
 	};
 
+	/**
+	* return actual facet selection boolean array
+	*/	
 	this.getFacetSelection = function(){
 		return facetSelection;
 	};
 
+	/**
+	* returns facet string like 'placeName,persName,...'
+	*/	
 	this.getFacetString = function(){
 		var facets = '';
 		for( var i=0; i<facetSelection.length; i++ ){
@@ -62,6 +69,9 @@ function FacetSelector(div){
 		return facets;
 	};
 
+	/**
+	* sets facet selection (for magnetic link and linked views)
+	*/	
 	this.setFacetSelection = function(facets){
 		if( typeof facets == 'undefined' ){
 			return;

@@ -1,3 +1,6 @@
+/*
+* entity tooltip implementation
+*/
 var tooltip = new function(){
 	  
 	var options = {
@@ -10,6 +13,9 @@ var tooltip = new function(){
 
 	var activeTooltips = [];
 
+	/*
+	* avoids popup if parent tooltip is active (nested entities)
+	*/
 	this.isActive = function(parent){
 		for( var i in activeTooltips ){
 			if( activeTooltips[i].parent == parent ){
@@ -19,6 +25,9 @@ var tooltip = new function(){
 		return false;
 	}
 
+	/*
+	* tooltip for 'hover' mode (if link was hovered)
+	*/
 	if( a18Props.tooltipMode == 'hover' ){
 		this.removeAllTooltips = function(){
 			for( var i=activeTooltips.length; i>0; i-- ){
@@ -82,9 +91,12 @@ var tooltip = new function(){
 		};
 		$(window).mousemove(function(e){
 			checkActivity();
-       	});
+	       	});
 	}
 
+	/*
+	* tooltip for 'click' mode (if link was clicked)
+	*/
 	if( a18Props.tooltipMode == 'click' ){
 		this.setTooltip = function(parent,content,trigger){
 			$(parent).mouseenter(function(e){

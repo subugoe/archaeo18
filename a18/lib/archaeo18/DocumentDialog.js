@@ -1,3 +1,6 @@
+/**
+* implements a tab for folder, shows different views of a document
+*/
 DocumentDialog = function(parent,doc,div,page){
 	
 	this.document = doc;
@@ -8,7 +11,10 @@ DocumentDialog = function(parent,doc,div,page){
 	this.fullscreen;
 	this.doctypes = [];
 		
-	this.initialize = function(fs){
+	/**
+	* initializes dialog
+	*/
+	this.initialize = function(){
 		this.container = $('<div/>');
 		if( this.div != null ){
 			$(this.container).appendTo(this.div);
@@ -20,12 +26,16 @@ DocumentDialog = function(parent,doc,div,page){
 		this.docContainerDiv = $('<div class="windowcontent"/>').appendTo(this.container);
 		this.docContainerDiv.css('overflow','auto');
 		this.docTypeDiv = $('<div class="clearfix"/>').appendTo(this.container);
-		this.initFunctions(fs);
+		this.initFunctions();
 		this.initDocTypeSelector();
 		this.resize();
 	};
 
-	this.initFunctions = function(fs){
+	/**
+	* initializes funtionality (buttons) dependent on A18 Props
+	* initializes facet selector, pagination
+	*/
+	this.initFunctions = function(){
 		var dialog = this;
 
 		var paginationTools = $("<ul/>").appendTo(this.funcDiv);
@@ -39,15 +49,15 @@ DocumentDialog = function(parent,doc,div,page){
 
 		var toolsList = $("<ul/>").appendTo(this.funcDiv);
 		if( a18Props.lineNumbering ){
-			var numberingLi = $('<li/>').appendTo(toolsList);
-			this.lineNumbering = $('<a class="tools-linecount"/>').appendTo(numberingLi);
+			var numberingLi = $('<li/>').appendTo(paginationTools);
+			this.lineNumbering = $('<a class="tools-linecount"><span class="visuallyhidden"></span>&nbsp;</a>').appendTo(numberingLi);
 			var setLineNumbering = function(){
 				if( dialog.lineNumbers ){
-					//dialog.lineNumbering.attr('class','documentButton lineNumbersActivated');
+					dialog.lineNumbering.addClass('active');
 					dialog.lineNumbering.attr('title',Util.getString('hideLineNumbers'));
 				}
 				else {
-					//dialog.lineNumbering.attr('class','documentButton lineNumbersDeactivated');
+					dialog.lineNumbering.removeClass('active');
 					dialog.lineNumbering.attr('title',Util.getString('showLineNumbers'));
 				}
 			}
@@ -59,11 +69,13 @@ DocumentDialog = function(parent,doc,div,page){
 				dialog.doctype.display();
 			});
 		}
-		if( a18Props.pdfSource ){
+		if( a18Props.pdfLink ){
 			var pdfLi = $('<li/>').appendTo(toolsList);
-			var pdf = $('<a class="tools-pdf"/>').appendTo(pdfLi);
+			var pdf = $('<a class="tools-pdf"><span class="visuallyhidden"></span>&nbsp;</a>').appendTo(pdfLi);
 			pdf.attr('title',Util.getString('pdf'));
 			pdf.click(function(){
+				var pdfLink = a18Props.pdfLink.replace('DOC_ID',doc.title).replace('DOC_ID',doc.title);
+				window.open(pdfLink, '_blank');
 			});
 		}
 		if( a18Props.dfgViewer ){
@@ -72,34 +84,44 @@ DocumentDialog = function(parent,doc,div,page){
 			dfgViewer.attr('title',Util.getString('dfgViewer'));
 			dfgViewer.click(function(){
 				var metsLink = 'http://'+location.host+''+a18Props.metsUri.replace('DOC_ID',doc.title);
-				var link = a18Props.dfgViewer + '' + a18Gui.asciiToHex(metsLink);
+				var link = a18Props.dfgViewer + '' + Util.asciiToHex(metsLink);
 				window.open(link, '_blank');
 			});
 		}
-		if( !fs ){
-			if( a18Props.connectable ){
-				this.linked = false;
-				var linkLi = $('<li/>').appendTo(toolsList);
-				var link = $('<a class="tools-link"/>').appendTo(linkLi);
-				link.attr('title',Util.getString('linkDeactivated'));
-				link.click(function(){
-					if( dialog.linked ){
-						Publisher.Unsubscribe(doc.id,dialog);
-						$(link).removeClass('active');
-						link.attr('title',Util.getString('linkDeactivated'));
-					}
-					else {
-						Publisher.Subscribe(doc.id,dialog,function(data){
+		if( a18Props.connectable ){
+			this.linked = false;
+			var linkLi = $('<li/>').appendTo(toolsList);
+			var link = $('<a class="tools-link"><span class="visuallyhidden"></span>&nbsp;</a>').appendTo(linkLi);
+			link.attr('title',Util.getString('linkDeactivated'));
+			this.linkDialog = function(){
+				if( dialog.linked ){
+					Publisher.Unsubscribe(doc.title,dialog);
+					$(link).removeClass('active');
+					link.attr('title',Util.getString('linkDeactivated'));
+				}
+				else {
+					Publisher.Subscribe(doc.title,dialog,function(data){
+						if( typeof dialog.doctype.onChange != 'undefined' ){
 							dialog.doctype.onChange(data);
-						});
-						$(link).addClass('active');
-						link.attr('title',Util.getString('linkActivated'));
-					}
-					dialog.linked = !dialog.linked;
-				});
+						}
+					});
+					$(link).addClass('active');
+					link.attr('title',Util.getString('linkActivated'));
+				}
+				dialog.linked = !dialog.linked;
 			}
+			link.click(function(){
+				dialog.linkDialog();
+			});
+			this.hideLink = function(){
+				$(linkLi).css('display','none');
+			};
+			this.showLink = function(){
+				$(linkLi).css('display','inline');
+			};
 		}
 		this.facetSelector = new FacetSelector(this.facetDiv);
+		this.facetSelection = this.facetSelector.getFacetSelection();
 		$(this.facetDiv).css('text-align','center');
 		this.showFacets = function(){
 			$(dialog.facetDiv).css('display','block');
@@ -109,6 +131,9 @@ DocumentDialog = function(parent,doc,div,page){
 		};
 	};
 
+	/**
+	* resizes tab
+	*/
 	this.resize = function(){
 		var width = this.container.parent().width();
 		var height = this.container.parent().height();
@@ -126,6 +151,9 @@ DocumentDialog = function(parent,doc,div,page){
 		}
 	};
 	
+	/**
+	* shows loader if view is loading
+	*/
 	this.startProcessing = function(){
 		var dialog = this;
 		var stop = function(){
@@ -135,14 +163,20 @@ DocumentDialog = function(parent,doc,div,page){
 		this.fullscreen.loaderFullscreen(stop);
 	};
 
+	/**
+	* removes loader after view is loaded or process was cancelled
+	*/
 	this.stopProcessing = function(){
 		this.doctype.stopped = true;
 		this.fullscreen.removeFullscreen();
 	};
 
+	/**
+	* shows text at a specific position (between outline/fulltext)
+	*/
 	this.showTextAtPosition = function(id){
 		if( this.linked ){
-			Publisher.Publish(doc.id, {
+			Publisher.Publish(doc.title, {
 				type: 'positionChange',
 				data: id
 			}, this);
@@ -153,26 +187,48 @@ DocumentDialog = function(parent,doc,div,page){
 		}
 	};
 
+	/**
+	* triggers pageChange event to all other linked tabs with the same document shown
+	*/
 	this.pageChanged = function(page){
 		this.page = page;
 		if( this.linked ){
-			Publisher.Publish(doc.id, {
+			Publisher.Publish(doc.title, {
 				type: 'pageChange',
 				data: page
 			}, this);
 		}
 	};
 
+	/**
+	* sets facet selection (for magnetic link)
+	*/
+	this.setFacetSelection = function(facets){
+		this.facetSelection = facets;
+		if( typeof this.doctype.onChange != 'undefined' ){
+			this.doctype.onChange({
+				type: 'facetsChange',
+				data: facets
+			});
+		}
+	};
+
+	/**
+	* triggers facetsChange event to all other linked tabs with the same document shown
+	*/
 	this.facetsChanged = function(facets){
 		this.facetSelection = facets;
 		if( this.linked ){
-			Publisher.Publish(doc.id, {
+			Publisher.Publish(doc.title, {
 				type: 'facetsChange',
 				data: facets
 			}, this);
 		}
 	};
 
+	/**
+	* initializes view button list (bottom panel)
+	*/
 	this.initDocTypeSelector = function(){
 		
 		var dialog = this;
@@ -278,6 +334,9 @@ DocumentDialog = function(parent,doc,div,page){
 			
 	};
 	
+	/**
+	* initializes content with the view of the given <type>
+	*/
 	this.setDocType = function(type){
 		if( typeof type == 'undefined' ){
 			type = 'outline';
@@ -292,6 +351,7 @@ DocumentDialog = function(parent,doc,div,page){
 			}
 			this.hidePagination();
 			this.hideFacets();
+			this.showLink();
 			if( type == 'text' ){
 				this.doctype = new Text(this.document,this.docContainerDiv,this);
 			}
@@ -299,7 +359,7 @@ DocumentDialog = function(parent,doc,div,page){
 				this.doctype = new Pages(this.document,this.docContainerDiv,this);
 			}
 			else if( type == 'thumbnails' ){
-				this.doctype = new Thumbnails(this.document,this.docContainerDiv);
+				this.doctype = new Thumbnails(this.document,this.docContainerDiv,this);
 			}
 			else if( type == 'images' ){
 				this.doctype = new Images(this.document,this.docContainerDiv,this);
@@ -316,70 +376,40 @@ DocumentDialog = function(parent,doc,div,page){
 			else if( type == 'tags' ){
 				this.doctype = new Tags(this.document,this.docContainerDiv,this);
 			}
-			/*
 			var dialog = this;
 			$.each(this.buttons,function(i,button){
+				$(button.button).removeClass('active');
 				if( button.type == type ){
-					$(button.button).attr('class','documentButton '+button.type+'Activated');
-				}
-				else {
-					$(button.button).attr('class','documentButton '+button.type+'Deactivated');
+					$(button.button).addClass('active');
 				}
 			});
-			*/
 			this.resize();
 		}
 	};
-
-	this.setFunctionality = function(f){
-		var type = this.getDocType();
-		if( type == 'text' || type == 'pages' ){
-			this.doctype.setFunctionality(f.colorize,f.numbering);
-		}
-		if( type == 'images' ){
-			this.doctype.setOrientation(f.zoom,f.center);
-		}
-		this.showDocumentType();
-	};
-
-	this.getSetting = function(){
-		var colorize, numbering, zoom, center;
-		var type = this.getDocType();
-		if( typeof type != 'undefined' ){
-			if( type == 'text' || type == 'pages' ){
-				colorize = this.doctype.colorizeEntities;
-				numbering = this.doctype.lineNumbers;
-			}
-			if( type == 'images' ){
-				zoom = this.doctype.zoom;
-				center = this.doctype.center;
-			}
-		}
-		return {
-			t: this.document.title,
-			v: type,
-			p: this.page,
-			c: colorize,
-			n: numbering,
-			z: zoom,
-			x: center
-		};
-	};
-
-	this.getDocType = function(){
-		if( this.doctype ){
-			return this.doctype.type;
-		}
-		return undefined;
-	};
 	
+	/**
+	* shows a document dependent on position <id> or actual selected document page
+	*/
 	this.showDocumentType = function(id){
-	    	if( this.doctype.pages ){
+	    	if( typeof id != 'undefined' && this.doctype.type == 'text' ){
+			this.doctype.display(this.page,id);
+	    	}
+	    	else if( this.doctype.pages ){
 			this.doctype.display(this.page);
 	    	}
 	    	else {
 			this.doctype.display(id);
 	    	}
+	};
+
+	/**
+	* returns actual selected doctype (for magnetic link)
+	*/
+	this.getDocType = function(){
+		if( this.doctype ){
+			return this.doctype.type;
+		}
+		return undefined;
 	};
 	
 }

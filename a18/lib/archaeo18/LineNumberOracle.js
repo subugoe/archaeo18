@@ -1,3 +1,6 @@
+/**
+* tries to find right places for linenumbers which are inserted there
+*/
 function LineNumberOracle(xhtml,steps){
 	this.nodeStack = [];
 	this.steps = steps;
@@ -5,6 +8,9 @@ function LineNumberOracle(xhtml,steps){
 	this.insertLineNumbers();
 }
 
+/**
+* traverse all nodes of xhtml
+*/
 LineNumberOracle.prototype.traverseNodes = function(node){
 	if( node.hasChildNodes() ){
 		var k = node.firstChild;
@@ -19,6 +25,9 @@ LineNumberOracle.prototype.traverseNodes = function(node){
 	}
 }
 
+/**
+* insert line numbers
+*/
 LineNumberOracle.prototype.insertLineNumbers = function(){
 	var lineCounter = 1;
 	for( var i in this.nodeStack ){
@@ -42,6 +51,9 @@ LineNumberOracle.prototype.insertLineNumbers = function(){
 	}
 }
 
+/**
+* if <node> has attribute 'tei:pb'
+*/
 LineNumberOracle.prototype.hasAttributeValue = function(node,attribute,value){
 	if( node.attributes != null && node.attributes.length > 0 ){
 		for( var i=0; i<node.attributes.length; i++ ){

@@ -1,3 +1,6 @@
+/**
+* used in old design for pagination dropdown; not used in new design
+*/
 function Dropdown(parent,elements,dropperTitle){
 
 	var dropdown = this;

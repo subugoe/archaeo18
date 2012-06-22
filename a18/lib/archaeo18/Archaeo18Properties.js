@@ -1,3 +1,6 @@
+/**
+* Archaeo18 configuration file
+*/
 var a18Props = {
 
 		/**
@@ -57,17 +60,13 @@ var a18Props = {
 		// maximum allowed number of documents in a content window
 		maxDocuments: 10,
 
+		// default size if manuscripts page image 
 		hwImageHeight: 328,
 		hwImageWidth: 359,
 
-		/*
-			// length of the text snippet before & after the search result (number of characters)
-			snippetLength: 100,
-		*/
-
 		// a valid url to DFG viewer if documents can be shown there, false if not
 		dfgViewer: 'http://dfg-viewer.de/demo/viewer/?set[mets]=',
-		pdfSource: true,
+		pdfLink: 'http://gdz-srv1.sub.uni-goettingen.de/gcs/gcs?action=pdf&metsFile=DOC_ID&divID=LOG_0003&pagesize=A4&pdfTitlePage=http://gdz.sub.uni-goettingen.de/dms/load/pdftitle/?metsFile=PPN385030444_1865_2%7C&targetFileName=DOC_ID_LOG_0003.pdf', // link or false, if not
 
 		/**
 		   Text document options
@@ -81,7 +80,7 @@ var a18Props = {
 		   Options for scope of map and tags
 		*/
     		scopeSelection: true, // if the user can change the scope for these views
-    		documentScope: true, // the initial scope for these views
+    		documentScope: false, // the initial scope for these views
 
 		/**
 		   Image zoom options
@@ -100,7 +99,7 @@ var a18Props = {
 		gridLayout: true,	// if grid layout is a provided option
 		automaticGridLayout: true,	// true for consistent grid layout, false for single grid layout
 		magneticLink: true,	// if magnetic link is a provided option in the document menu
-		fullscreen: true,
+		fullscreen: true,	// if fullscreen is an option for folders
 		
 		/**
 		   Tooltip mode for colored entities; 'click' or 'hover' are possible
@@ -109,7 +108,7 @@ var a18Props = {
 		*/
 		tooltipMode: 'hover',
 
-		maxTags: 50,
+		maxTags: 50,		// maximum number of tags to be displayed in tag cloud
 		
 		// document related queries
 		documentEndpoint: 	'/exist/rest/db/archaeo18/queries/listDocs.xquery',
@@ -120,7 +119,7 @@ var a18Props = {
 		searchQuery: 		'/exist/rest/db/archaeo18/queries/search.xq?query=QUERY_ID&mode=xhtml',
 		facetsQuery: 		'/exist/rest/db/archaeo18/queries/getFacets.xq',
 		metadataQuery: 		'/exist/rest/db/archaeo18/queries/getText.xq?mode=header&format=xhtml&doc=DOC_ID',
-		facetTableQuery:	'/exist/rest/db/archaeo18/queries/experimental/listEntities.xq?facet=FACET_ID&format=xhtml2',
+		facetTableQuery:	'/exist/rest/db/archaeo18/queries/experimental/listEntities.xq?facet=FACET_ID&format=xhtml',
 		tagcloudQuery:		'/exist/rest/db/archaeo18/queries/experimental/listEntities.xq?facet=FACET_ID&format=cloud',
 		mapQuery:		'/exist/rest/db/archaeo18/queries/experimental/listEntities.xq?facet=FACET_ID&format=kml',
 		tagcloudPageQuery:	'/exist/rest/db/archaeo18/queries/getText.xq?doc=DOC_ID&page=PAGE_ID&format=cloud&facet=FACET_ID',
@@ -128,14 +127,13 @@ var a18Props = {
 		teiUri: 		'/exist/rest/db/archaeo18/data/tei/DOC_ID.xml',
 		metsUri: 		'/exist/rest/db/archaeo18/data/mets/DOC_ID.mets.xml',
 
-	 	// false or link to a running e4D instance to show places (entity placeName) in documents
-		e4DLink: 'http://www.informatik.uni-leipzig.de:8080/e4D',
-
+		// wikipedia link colors
 		colors: {
 			validLink: '#0645ad',
 			invalidLink: '#ba0000'
 		},
 
+		// if search window should be shown on startup (true) or not (documents)
 		browserSearch: true
 	
 }

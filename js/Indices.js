@@ -1,5 +1,11 @@
+/*
+* indices page implementation
+*/
 var Indices = new function(){
 
+	/*
+	* initialize indices page; load facets
+	*/
 	this.initialize = function(){
 		
 		var gui = this;
@@ -32,6 +38,9 @@ var Indices = new function(){
 
 	};
 
+	/*
+	* show table and tags/map for facet with <facetId>
+	*/
 	this.showFacetSection = function(facetId){
 		if( facetId == Util.getString('selectIndex') ){
 			return;
@@ -72,13 +81,20 @@ var Indices = new function(){
 				var table = $($('table',dummy)[0]).appendTo(section);
 				$(table).attr('width','100%');
 				$(table).attr('id','tableIncices');
-				$(table).dataTable();
 				$('span',section).each(function(){
 					var lang = Util.getAttribute(this,'xml:lang');
 					if( Util.language != lang ){
 						$(this).css('display','none');
 					}
 				});
+				$('.editionRef',section).each(function(){					
+					var params = Util.getAttribute(this,'rel');
+					var linkString = 'http://'+location.host+'/archaeo18/edition.php?docParams='+params;
+					$(this).click(function(){
+						window.open(linkString,'_blank');
+					});
+				});
+				$(table).dataTable();
 				if( facet.facet.indexOf('placeName') == -1 ){
 					appendStatus(Util.getString('loadTagcloud'));
 					setTimeout(function(){
@@ -98,6 +114,10 @@ var Indices = new function(){
 							$(tagsDiv).css('margin-top','50px');
 							$(tagsDiv).css('margin-bottom','50px');
 							$(tagsDiv).jQCloud(tagArray);
+							$('.tagcloudTag',section).each(function(){
+								$(this).click(function(){
+								});
+							});
 							$(status).remove();
 						}
 					});

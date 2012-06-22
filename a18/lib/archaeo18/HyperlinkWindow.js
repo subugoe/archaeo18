@@ -1,3 +1,6 @@
+/**
+* window to open a hyperlink (e.g. getty)
+*/
 HyperlinkWindow = function(url,label){
 
 		var frame = this;

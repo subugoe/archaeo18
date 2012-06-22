@@ -1,7 +1,13 @@
+/*
+* generates TEI tree for given <tei> document
+*/
 function TEITreeGenerator(tei){
 	this.tei = tei;
 }
 
+/*
+* generate tei tree
+*/
 TEITreeGenerator.prototype.generate = function(){
 	var teiRoot = $(this.tei).children(':first-child');
 	var teiData = [];
@@ -10,6 +16,9 @@ TEITreeGenerator.prototype.generate = function(){
 	return teiTree;
 }
 
+/*
+* traverses given <node> recursively
+*/
 TEITreeGenerator.prototype.traverseNode = function( node, data ){
 	var children = $(node).children();	
 	for( var i=0; i<children.length; i++ ){
@@ -52,6 +61,9 @@ TEITreeGenerator.prototype.traverseNode = function( node, data ){
 	}	
 }
 
+/*
+* returns attribute string for given <node>
+*/
 TEITreeGenerator.prototype.traverseNodeAttributes = function(node){
 	var attributes = null;
 	if( node.attributes != null && node.attributes.length > 0 ){

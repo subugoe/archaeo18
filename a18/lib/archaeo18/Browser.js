@@ -1,5 +1,11 @@
+/**
+* A18 Browser for search and document list
+*/
 Browser = function(){
 	
+	/**
+	* initializes browser window
+	*/
 	this.initializeBrowser = function(facets){
 		var browser = this;
 
@@ -7,15 +13,19 @@ Browser = function(){
 			if( showSearch ){
 				browser.searchTypes.css('display','block');
 				browser.documents.css('display','none');
+				browser.searchTab.addClass('selected');
+				browser.documentTab.removeClass('selected');
 			} 
 			else {
 				browser.searchTypes.css('display','none');
 				browser.documents.css('display','block');
+				browser.searchTab.removeClass('selected');
+				browser.documentTab.addClass('selected');
 			} 
 		}
 
 		this.header = $("<div class='scope-selector'/>").appendTo(this.content);
-		this.searchTab = $("<a class='selected'>"+Util.getString('search')+"</a>").appendTo(this.header);
+		this.searchTab = $("<a>"+Util.getString('search')+"</a>").appendTo(this.header);
 		this.documentTab = $("<a>"+Util.getString('documents')+"</a>").appendTo(this.header);
 		this.searchTab.click(function(){
 			show(true);
@@ -33,17 +43,17 @@ Browser = function(){
 		var toggleSearch = function(searchType){
 			if( selectedSearchType == searchType ){
 				browser.advancedSearch.css('display','none');
-				browser.proximitySearch.css('display','none');
+//				browser.proximitySearch.css('display','none');
 				selectedSearchType = 'simple';
 			} 
 			else if( searchType == 'advanced' ){
 				browser.advancedSearch.css('display','block');
-				browser.proximitySearch.css('display','none');
+//				browser.proximitySearch.css('display','none');
 				selectedSearchType = searchType;
 			} 
 			else if( searchType == 'proximity' ){
 				browser.advancedSearch.css('display','none');
-				browser.proximitySearch.css('display','block');
+//				browser.proximitySearch.css('display','block');
 				selectedSearchType = searchType;
 			} 
 		}
@@ -58,13 +68,13 @@ Browser = function(){
 				browser.clearSearch();
 				if( selectedSearchType == 'simple' ){
 					//browser.addSearchResultsTab(Util.getString('simpleSearch') + ' "' + searchField.val() + '"' );
-					a18Gui.search( browser.searchId, browser.searchField.val(), '' );
+					a18Gui.search( browser.searchField.val(), '' );
 				}
 				else if( selectedSearchType == 'advanced' ){
 					browser.doAdvancedSearch();
 				}
 				else if( selectedSearchType == 'proximity' ){
-					browser.doProximitySearch();
+//					browser.doProximitySearch();
 				}
 			}
 		};
@@ -76,19 +86,21 @@ Browser = function(){
 		this.selectSearch = $("<div/>").appendTo(this.searchTypes);
 		this.advancedSearchTab = $("<div>"+Util.getString('advancedSearch')+"</div>").appendTo(this.selectSearch);
 		this.advancedSearchTab.css('display','inline');
+		/*
 		this.proximitySearchTab = $("<div>"+Util.getString('proximitySearch')+"</div>").appendTo(this.selectSearch);
 		this.proximitySearchTab.css('display','inline');
 		this.proximitySearchTab.css('float','right');
-		this.advancedSearchTab.click(function(){
-			toggleSearch('advanced');
-		});
 		this.proximitySearchTab.click(function(){
 			toggleSearch('proximity');
+		});
+		*/
+		this.advancedSearchTab.click(function(){
+			toggleSearch('advanced');
 		});
 
 		this.searchContainer = $("<div/>").appendTo(this.searchTypes);
 		this.prepareAdvancedSearch();
-		this.prepareProximitySearch();
+		//this.prepareProximitySearch();
 
 		this.documents = $('<div/>').appendTo(this.main);
 		this.documents.css('overflow','auto')
@@ -102,34 +114,40 @@ Browser = function(){
 		this.resizeContent();
 
 		this.label = $("<span/>").appendTo(this.toolbarDiv);
-//		$(this.label).html(Util.getString('browser'));
 
-		this.searchId = -1;
 		this.fullscreen = new FullscreenWindow(this.main);
 
 	};
 
+	/**
+	* empties results list
+	*/
 	this.clearSearch = function(){
 		$(this.searchResults).empty();
 		this.searchTabs = [];
 		this.searchContents = [];
 	};
 
+	/**
+	* shows loader if search is performed
+	*/
 	this.startProcessing = function(onclose){
 		this.fullscreen.loaderFullscreen(onclose);
 	};
 
+	/**
+	* hides loader after search was performed
+	*/
 	this.stopProcessing = function(){
 		this.fullscreen.removeFullscreen();
 	};
 
+	/**
+	* builds advanced search items in old design
+	*/
 	this.prepareAdvancedSearch = function(){
 		var browser = this;
-//		this.searchTypes.append('<h3><a href="#">' + Util.getString('advancedSearch') + '</a></h3>');
-
 		this.advancedSearch = $("<div/>").appendTo(this.searchContainer);
-
-//		var searchField = $("<input type='text' size='12'/>").appendTo(this.advancedSearch);
 		$("<p>"+Util.getString('in')+"</p>").appendTo(this.advancedSearch);
 
 		var div1 = $('<div/>').appendTo(this.advancedSearch);
@@ -261,14 +279,15 @@ Browser = function(){
 					}
 				}
 			}
-			//browser.addSearchResultsTab(Util.getString('advancedSearch') + ' "' + searchField.val() + '"' );
-			a18Gui.search( browser.searchId, browser.searchField.val(), facet );
+			a18Gui.search( browser.searchField.val(), facet );
 		};
-
 		this.advancedSearch.css('display','none');
-
 	};
 
+	/*
+	/**
+	* prepared proximity search in old design
+	*
 	this.prepareProximitySearch = function(){
 		var browser = this;
 
@@ -372,23 +391,30 @@ Browser = function(){
 		this.proximitySearch.css('display','none');
 //		searchButton.click(search);
 	};
+	*/
 
+	/**
+	* resizes browsers content div
+	*/
 	this.resizeContent = function(){
 		var height = $(this.content).height();
 		var diff1 = parseInt($(this.header).css("padding-bottom"))+parseInt($(this.header).css("padding-top"));
 		diff1 += parseInt($(this.header).css("margin-bottom"))+parseInt($(this.header).css("margin-top"));
 		var diff2 = parseInt($(this.main).css("padding-bottom"))+parseInt($(this.main).css("padding-top"));
 		diff2 += parseInt($(this.main).css("margin-bottom"))+parseInt($(this.main).css("margin-top"));
-
-//		$(this.documents).css('height',(this.content.height()-this.header.height()-padding1)+'px');
 		$(this.main).css('height',(height-this.header.height()-diff1-diff2)+'px');
-
 	};
 	
+	/**
+	* returns the Browsers title
+	*/
 	this.getName = function(){
 		return Util.getString('browser');
 	}
 
+	/**
+	* adds a document (<doc>) to the documents list
+	*/
 	this.addDocument = function(doc){
 		var browser = this;
 		$.ajax({
@@ -437,17 +463,12 @@ Browser = function(){
 				calcTree();
 			}
 		});
-		/*
-	    	var docLink = $("<a></a>").appendTo($("<li/>").appendTo(this.documents));
-	    	docLink.text(doc.title);
-	    	docLink.addClass("link");
-	    	docLink.click(function(){
-	    		a18Gui.openDocument(doc);
-	    	});
-		*/
 	};
 	
-	this.addCategory = function(searchId,doc,results,term){
+	/**
+	* adds <results> for a <doc> with hits for a performed search to the results accordeon 
+	*/
+	this.addCategory = function(doc,results){
 		var browser = this;
 		var searchTab = $('<li/>').appendTo(this.searchResults);
 		var searchLink = $('<a>' + doc.name + ' (' + results.length + ')' + '</a>').appendTo(searchTab);
@@ -457,17 +478,14 @@ Browser = function(){
 			var searchResult = $('<div class="clearfix"/>').appendTo(searchTab);
 			searchContent.push(searchResult);
 			$(searchResult).css('display','none');
-			var thumb = $("<div/>").appendTo(searchResult);
-			var thumbDiv = $("<div/>").appendTo(thumb);
-			thumbDiv.addClass("dummyThumbSmall");
+			var thumb = $("<div class='searchresult-thumbnail'/>").appendTo(searchResult);
+			var thumbDiv = $("<div class='dummyThumbSmall'/>").appendTo(thumb);
 			$(thumbDiv).css('margin-bottom','20px');
-//			var thumbnail = $("<img class='thumbnail' src='" + doc.imagePath+"80/"+doc.images[result.page-1] + "'/>").appendTo(thumbDiv);
 			var thumbnail = $("<div class='loadme'/>").appendTo(thumbDiv);
 			thumbnail.css('height',thumbDiv.height()+'px');
 			thumbnail.css('width',thumbDiv.width()+'px');
 			thumbnail.attr("innerHTML","<!--<img class='thumbnail' src='" + doc.imagePath+"80/"+doc.images[result.page-1] + "'/>-->");
 		    	thumbDiv.click(function(){
-//		    	thumbnail.click(function(){
 		    		a18Gui.openDocument(doc,result.page,"images");
 		    	});
 			var textDiv = $("<p/>").appendTo(searchResult);
@@ -486,7 +504,7 @@ Browser = function(){
 					$(searchContent[i]).css('display','none');
 				}
 			}
-//			$('div.loadme',this.searchResults).lazyLoad(searchTab,imageLoad,1000);
+			$('div.loadme',this.searchResults).lazyLoad(searchTab,imageLoad,1000);
 	    	});
 	};
 	

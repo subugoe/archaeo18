@@ -1,3 +1,6 @@
+/**
+* used in old design for index in- and decrementaion; not used in new design
+*/
 Incrementer = function(parent,min,max){
 
 	var incrementer = this;

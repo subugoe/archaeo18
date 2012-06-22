@@ -1,3 +1,6 @@
+/**
+* content window (==folder) to show documents
+*/
 ContentWindow = function(){
 		
 		this.nameId;
@@ -7,10 +10,16 @@ ContentWindow = function(){
 		this.tabData = [];
 		this.selection = 0;
 
+		/**
+		* sets label for folder
+		*/
 		this.setLabel = function(title){
 			$(this.label).html(title);
 		};
 
+		/**
+		* initializes folder
+		*/
 		this.initializeContentWindow = function(index){
 			this.index = index;
 			this.tabs = $("<ul class='tabs'/>").appendTo(this.content);
@@ -20,6 +29,9 @@ ContentWindow = function(){
 			this.setLabel(this.getName());
 		};
 		
+		/**
+		* updates name after other folder was removed
+		*/
 		this.updateName = function(index){
 			if( this.nameId != index ){
 				this.nameId = index;
@@ -27,10 +39,16 @@ ContentWindow = function(){
 			}
 		};
 		
+		/**
+		* returns name of folder
+		*/
 		this.getName = function(){
 			return Util.getString('contentWindow')+" #"+this.nameId;
 		};
 
+		/**
+		* resizes folder and all document contents
+		*/
 		this.resizeContent = function(){
 			var cw = this;
 			var padding = parseInt($(cw.documentDiv).css("padding-bottom"))+parseInt($(cw.documentDiv).css("padding-top"));
@@ -44,6 +62,9 @@ ContentWindow = function(){
 			});
 		};
 
+		/**
+		* returns dialog of actual selected tab
+		*/
 		this.dialog = function(){
 			if( this.documentDialogs.length > 0 ){
 				return this.documentDialogs[ this.selection ];
@@ -51,6 +72,9 @@ ContentWindow = function(){
 			return null;
 		};
 		
+		/**
+		* selects a <tab> (is an index or a tab json definition)
+		*/
 		this.selectTab = function(tab){
 			if( typeof tab.tab != 'undefined' ){
 				for( var i in this.tabData ){
@@ -67,22 +91,25 @@ ContentWindow = function(){
 			}
 			else if( tab < this.tabData.length ){
 				this.selection = tab;
-				for( var i in this.tabData ){
+				for( var i=0; i<this.tabData.length; i++ ){
 					$(this.tabData[i].tabDiv).css('display','none');
 					$(this.tabData[i].tab).removeClass('selected');
 				}
-				$(this.tabdata[tab].tabDiv).css('display','block');
-				$(this.tabdata[tab].tab).addClass('selected');
+				$(this.tabData[tab].tabDiv).css('display','block');
+				$(this.tabData[tab].tab).addClass('selected');
 			}
 		};
 
+		/**
+		* adds a new tab for a given <document> optionally <page>, <type> and <position> (in fulltext)
+		*/
 		this.addTab = function(document,page,type,position){
 			var container = this;
+			this.documents.push(document);
 			var tab = $("<li/>").appendTo(this.tabs);
 			var tabLink = $("<a>"+document.title+"</a>").appendTo(tab);
 			var tabClose = $("<img src='img/edition-window-tab-close-active.png'/>").appendTo(tab);
 			var tabDiv = $("<div/>").appendTo(this.documentDiv);
-
 			var tabData = {
 				tab: tab,
 				tabLink: tabLink,
@@ -106,14 +133,12 @@ ContentWindow = function(){
 			documentDialog.showDocumentType(position);
 			this.documentDialogs.push(documentDialog);
 			this.selectTab(tabData);
-		};
-				
-		this.addDocument = function(document,page,type,position){
-			this.documents.push(document);
-			this.addTab(document,page,type,position);
 			this.resizeContent();
 		};
 
+		/**
+		* stops processing of actual shown tab (if ESC in browser)
+		*/
 		this.stopProcessing = function(){
 			var dialog = this.dialog();
 			if( dialog != null ){
@@ -121,6 +146,9 @@ ContentWindow = function(){
 			}
 		};
 		
+		/**
+		* removes a tab from folder
+		*/
 		this.removeTab = function(tabData){
 			for( var i in this.tabData ){
 				if( this.tabData[i] == tabData ){
@@ -140,10 +168,16 @@ ContentWindow = function(){
 			}
 		};
 		
+		/**
+		* returns selected tab (for magnetic link)
+		*/
 		this.getSelectedTab = function(){
 			return this.selection;
 		};
 		
+		/**
+		* sets selected tab (for magnetic link)
+		*/
 		this.setSelectedTab = function(index){
 			this.selectTab(index);
 		};

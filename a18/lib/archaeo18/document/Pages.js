@@ -1,3 +1,6 @@
+/*
+* view to show single pages
+*/
 Pages = function(doc,container,parent){
 	
 	this.type = "pages";
@@ -13,6 +16,7 @@ Pages = function(doc,container,parent){
 	$(contentPanel).css('overflow','auto');
 
 	var context = this;
+	// allow dialog pagination
 	var trigger = function(page){
 		context.showPage(page);
 		parent.pageChanged(page);
@@ -20,12 +24,9 @@ Pages = function(doc,container,parent){
 	parent.paginator.setTriggerFunc(trigger);
 	parent.showPagination();
 
-	this.setFunctionality = function(colorize,numbering){
-		this.lineNumbers = numbering;
-	};
-	
 	var context = this;
 
+	// allow dialog facet selection ?
 	if( a18Props.colorizeEntities ){
 		var triggerFacets = function(facetSelection){
 			a18Gui.colorizeLinks($(contentPanel),facetSelection);
@@ -35,6 +36,9 @@ Pages = function(doc,container,parent){
 		parent.showFacets();
 	}
 
+	/*
+	* retrieve and show page with colored entities
+	*/
 	this.showPage = function(page){
 		this.actualPage = page;
 		var context = this;
@@ -53,13 +57,16 @@ Pages = function(doc,container,parent){
 			$(contentPanel).empty();
 		    	$(text).appendTo(contentPanel);
 		    	checkBlank();
-			a18Gui.appendTooltips($(contentPanel));
+			a18Gui.appendTooltips($(contentPanel),parent);
 			a18Gui.colorizeLinks($(contentPanel),parent.facetSelection);
 			if( parent.lineNumbers ){
 				new LineNumberOracle(contentPanel,a18Props.lineNumbering);
 			}
 		}
 		if( !doc.pageCache[page-1] ){
+			if( !this.stopped ){
+				parent.stopProcessing();
+			}
 			this.stopped = false;
     			$.ajax({
 				url: a18Props.pageQuery.replace('DOC_ID',doc.title).replace('PAGE_ID',page),
@@ -69,7 +76,7 @@ Pages = function(doc,container,parent){
 				},
 				error: function(errorObject){
 					if( !context.stopped ){
-						show(a18Gui.getErrorMessage(errorObject.status));
+						show(Util.getErrorMessage(errorObject.status));
 						parent.stopProcessing();
 					}
 				},
@@ -87,6 +94,9 @@ Pages = function(doc,container,parent){
 		}
 	};
 	
+	/*
+	* display <page>
+	*/
 	this.display = function(page){
 		if( typeof page == 'undefined' ){
 			page = parent.actualPage;
@@ -94,13 +104,20 @@ Pages = function(doc,container,parent){
 		page ? parent.paginator.setPage(page,false) : parent.paginator.setPage(1,false);
 	};
 	
+	/*
+	* resizes view
+	*/
 	this.resize = function(){
 		$(contentPanel).css('height',($(container).height()-$(buttonPanel).height())+'px');
 	};
 
+	/*
+	* updates view if dialog is linked and a pagechange was performed in another linked view with the same document
+	*/
 	this.onChange = function(change){
 		if( change.type == "pageChange" ){
 			if( this.actualPage != change.data ){
+				parent.page = change.data;
 				parent.paginator.setPage(change.data,true);
 				this.showPage(change.data);
 			}
