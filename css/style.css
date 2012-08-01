@@ -266,19 +266,21 @@ noscript p {
   padding: 0;
   top: 215px; }
   .edition-tools .button-magenticlink {
-    background-image: url("../img/edition-window-pagination-forward.png");
+    background-image: url("../img/edition-window-magneticlink.png");
     background-repeat: no-repeat;
     background-position: center center;
     padding: 0 0 0 15px; }
   .edition-tools .button-magenticlink:hover {
-    background-image: url("../img/edition-window-pagination-forward.png"); }
+    background-image: url("../img/edition-window-magneticlink-hover.png"); }
+  .edition-tools .button-magenticlink-active {
+    background-image: url("../img/edition-window-magneticlink-active.png"); }
   .edition-tools .button-newwindow {
-    background-image: url("../img/edition-window-pagination-forward.png");
+    background-image: url("../img/edition-window-new-window.png");
     background-repeat: no-repeat;
     background-position: center center;
     padding: 0 0 0 15px; }
   .edition-tools .button-newwindow:hover {
-    background-image: url("../img/edition-window-pagination-forward.png"); }
+    background-image: url("../img/edition-window-new-window-hover.png"); }
 
 .header-small body {
   background-image: url("../img/header-edition-bg.png"); }
