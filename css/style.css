@@ -895,13 +895,21 @@ header {
       .edition .window .inner li:hover .tools-highlight {
         background-image: url("../img/edition-window-tools-highlight-hover.png"); }
       .edition .window .inner li .tools-highlight-active {
-        background-image: url("../img/edition-window-tools-highlight-active.png"); }
+        background-image: url("../img/edition-window-tools-highlight-active.png"); 
+        
+}
       .edition .window .inner li .tools-link {
-        background-image: url("../img/edition-window-tools-link.png"); }
+        background-image: url("../img/edition-window-tools-link.png"); 
+}
       .edition .window .inner li:hover .tools-link {
-        background-image: url("../img/edition-window-tools-link-hover.png"); }
+        background-image: url("../img/edition-window-tools-link-hover.png"); 
+}
       .edition .window .inner li .tools-link-active {
-        background-image: url("../img/edition-window-tools-link-active.png"); }
+        background-image: url("../img/edition-window-tools-unlink.png"); 
+}
+      .edition .window .inner li:hover .tools-link-active {
+        background-image: url("../img/edition-window-tools-unlink-hover.png"); 
+}
       .edition .window .inner li .tools-tags {
         background-image: url("../img/edition-window-tools-tags.png"); }
       .edition .window .inner li:hover .tools-tags {
