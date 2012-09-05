@@ -269,7 +269,7 @@ noscript p {
     background-image: url("../img/edition-window-magneticlink.png");
     background-repeat: no-repeat;
     background-position: center center;
-    padding: 24px 0 0 24px; }
+    padding: 26px 0 0 26px; }
   .edition-tools .button-magenticlink:hover {
     background-image: url("../img/edition-window-magneticlink-hover.png"); }
   .edition-tools .button-magenticlink-active {
@@ -278,7 +278,7 @@ noscript p {
     background-image: url("../img/edition-window-new-window.png");
     background-repeat: no-repeat;
     background-position: center center;
-    padding: 24px 0 0 24px; }
+    padding: 26px 0 0 26px; }
   .edition-tools .button-newwindow:hover {
     background-image: url("../img/edition-window-new-window-hover.png"); }
 
@@ -512,7 +512,7 @@ header {
     position: absolute;
     right: 0; }
     .edition .gridselector a {
-      padding: 24px 0 0 24px;
+      padding: 26px 0 0 26px;
       background-repeat: no-repeat; }
     .edition .gridselector .normal {
       background-image: url("../img/edition-gridselector.png"); }
