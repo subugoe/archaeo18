@@ -517,7 +517,7 @@ header {
     right: 0; }
     .edition .gridselector a {
       margin: 0 34px 0 0;
-      padding: 26px 0 0 60px;
+      padding: 26px 0 0 26px;
       background-repeat: no-repeat; }
     .edition .gridselector .normal {
       background-image: url("../img/edition-gridselector.png"); }
