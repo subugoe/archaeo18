@@ -280,7 +280,9 @@ noscript p {
     background-image: url("../img/edition-window-new-window.png");
     background-repeat: no-repeat;
     background-position: center center;
-    padding: 26px 0 0 26px; }
+    padding: 26px 0 0 26px;
+    margin: 0 0 0 50px;
+}
   .edition-tools .button-newwindow:hover {
     background-image: url("../img/edition-window-new-window-hover.png"); }
 
@@ -514,6 +516,7 @@ header {
     position: absolute;
     right: 0; }
     .edition .gridselector a {
+      margin: 0 34px 0 0;
       padding: 26px 0 0 60px;
       background-repeat: no-repeat; }
     .edition .gridselector .normal {
