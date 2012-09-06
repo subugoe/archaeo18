@@ -170,9 +170,7 @@ button[disabled], input[disabled] {
 
 input[type="checkbox"], input[type="radio"] {
   box-sizing: border-box;
-  padding: 0;
-  *width: 13px;
-  *height: 13px; }
+  margin: 13px 5 px 13px 5px; }
 
 input[type="search"] {
   -webkit-appearance: textfield;
