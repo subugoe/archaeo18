@@ -71,7 +71,7 @@ FrameWindow = function(frameClass,headerClass){
 			});
 		}
 
-		if( params.fullscreen ){
+/*		if( params.fullscreen ){
 			var fullscreenLi = $('<li/>').appendTo(this.windowTools);
 			var fullscreen = $('<a class="tools-maximize"/>').appendTo(fullscreenLi);
 			fullscreen.attr('title',Util.getString('fullscreenMode'));
@@ -102,8 +102,9 @@ FrameWindow = function(frameClass,headerClass){
 				frame.resize();
 				frame.resizeContent();
 			});
+			
 		}
-
+*/
 		this.updateZIndex(true);
 
 		$(this).mousedown(function(){
