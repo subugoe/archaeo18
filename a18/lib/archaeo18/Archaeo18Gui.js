@@ -596,7 +596,7 @@ var a18Gui = new function(){
 				for( var i in Util.documents ){
 					var id = Util.documents[i].title;
 					if( typeof results[id] != 'undefined' ){
-						gui.browser.addCategory(searchId,Util.documents[i],results[id]);
+						gui.browser.addCategory(Util.documents[i],results[id]);
 					}
 				}
 				gui.browser.stopProcessing();
