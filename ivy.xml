@@ -1,0 +1,6 @@
+<ivy-module version="2.0">
+    <info organisation="de.unigoettingen.sub.projects.archaeo18" module="archaeo18"/>
+    <dependencies>
+        <dependency org="org.mortbay.jetty" name="jetty-ant" rev="6.1.25"/>
+    </dependencies>
+</ivy-module>

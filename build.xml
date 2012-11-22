@@ -1,0 +1,104 @@
+<project name="Archaeo18 Test" basedir="." xmlns:ivy="antlib:org.apache.ivy.ant">
+<!--
+svn co https://develop.sub.uni-goettingen.de/repos/ent/archaeo18/branches/archaeo18
+cd archaeo18
+ant serve
+-->
+<!-- directory for the build system -->
+<property name="lib.build.dir" value="./lib/build"/>
+<property name="lib.jetty.dir" value="./lib/jetty"/>
+<property name="jetty.dir.tmp" value="./tmp"/>
+<!-- Ivy version -->
+<property name="ivy.install.version" value="2.2.0"/>
+<property name="ivy.jar.file" value="${lib.build.dir}/ivy-${ivy.install.version}.jar"/>
+
+<target name="init" depends="ivy.download"/>
+
+<target name="lib.build.dir.create" depends="lib.build.dir.check" unless="lib.build.dir.exists">
+<mkdir dir="${lib.build.dir}"/>
+    <echo>${lib.build.dir} created"</echo>
+  </target>
+
+  <target name="lib.build.dir.check">
+    <condition property="lib.build.dir.exists">
+      <available file="${lib.build.dir}" type="dir"/>
+    </condition>
+  </target>
+  
+  <target name="lib.jetty.dir.create" depends="lib.jetty.dir.check" unless="lib.jetty.dir.exists">
+<mkdir dir="${lib.jetty.dir}"/>
+    <echo>${lib.jetty.dir} created"</echo>
+  </target>
+
+  <target name="lib.jetty.dir.check">
+    <condition property="lib.jetty.dir.exists">
+      <available file="${lib.jetty.dir}" type="dir"/>
+    </condition>
+  </target>
+
+<target name="jetty.dir.tmp.create" depends="jetty.dir.tmp.check" unless="jetty.dir.tmp.exists">
+<mkdir dir="${jetty.dir.tmp}"/>
+    <echo>${jetty.dir.tmp} created"</echo>
+  </target>
+
+  <target name="jetty.dir.tmp.check">
+    <condition property="jetty.dir.tmp.exists">
+      <available file="${jetty.dir.tmp}" type="dir"/>
+    </condition>
+  </target>
+
+<!-- Stolen from http://blogs.steeplesoft.com/2008/01/dependency-management-with-ant-and-ivy/ -->
+<target name="ivy.download" unless="skip.download" depends="lib.build.dir.create">
+    <!-- download Ivy from web site so that it can be used even without any special installation -->
+    <echo message="installing ivy..."/>
+    <get src="http://repo1.maven.org/maven2/org/apache/ivy/ivy/${ivy.install.version}/ivy-${ivy.install.version}.jar"
+         dest="${ivy.jar.file}" usetimestamp="true"/>
+</target>
+ 
+<target name="ivy.install" depends="ivy.download" description="--> install ivy">
+    <path id="ivy.lib.path">
+        <fileset dir="${lib.build.dir}" includes="*.jar"/>
+    </path>
+    <taskdef resource="org/apache/ivy/ant/antlib.xml" uri="antlib:org.apache.ivy.ant" classpathref="ivy.lib.path"/>
+</target>   
+<!-- 
+<target name="update" depends="prepare,-install-ivy" description="Download project dependencies">
+    
+ 
+    <ivy:settings file="ivysettings.xml" />
+    <ivy:retrieve pattern="lib/[conf]/[artifact]-[revision].[ext]" />
+ 
+</target>
+-->
+
+<target name="jetty.download" depends="ivy.install, lib.jetty.dir.create">
+<ivy:resolve />
+<!--
+                        <ivy:cachepath pathid="jetty.classpath"/>
+                        -->
+                        <ivy:retrieve sync="true" type="jar" pattern="${lib.jetty.dir}/[artifact]-[revision].[ext]"/>
+</target>
+
+<target name="jetty.install" depends="jetty.download">
+  <path id="jetty.plugin.classpath">
+    <fileset dir="${lib.jetty.dir}" includes="*.jar"/>
+  </path>
+  <taskdef classpathref="jetty.plugin.classpath" resource="tasks.properties" loaderref="jetty.loader" />
+  </target>
+
+<target name="clean">
+<delete dir="${lib.build.dir}"/>
+<delete dir="${jetty.dir.tmp}"/>
+</target>
+
+<target name="jetty.start" depends="jetty.install, jetty.dir.tmp.create">
+<jetty tempDirectory="${jetty.dir.tmp}">
+ <webapp webXmlFile="./WEB-INF/web.xml" contextPath="/archaeo18" name="archaeo18"/>
+</jetty>
+</target>
+
+<target name="serve" depends="jetty.start">
+</target>
+
+</project>
+
