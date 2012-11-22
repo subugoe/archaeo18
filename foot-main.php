@@ -11,9 +11,9 @@
 				<li><a href="./edtion.php" title="Lorem ipsum dolor sit amet" hreflang="de">Edition</a></li>
 			</ul>
 			<ul>
-				<li><a href="/impressum.php" title="Lorem ipsum dolor sit amet" hreflang="de">Impressum</a></li>
-				<li><a href="/nutzungsbedingungen.php" title="Lorem ipsum dolor sit amet" hreflang="de">Nutzungsbedingungen</a></li>
-				<li><a href="/hilfe.php" title="Lorem ipsum dolor sit amet" hreflang="de">Hilfe</a></li>
+				<li><a href="./impressum.php" title="Lorem ipsum dolor sit amet" hreflang="de">Impressum</a></li>
+				<li><a href="./nutzungsbedingungen.php" title="Lorem ipsum dolor sit amet" hreflang="de">Nutzungsbedingungen</a></li>
+				<li><a href="./hilfe.php" title="Lorem ipsum dolor sit amet" hreflang="de">Hilfe</a></li>
 			</ul>
 		</div>
 		<div>
