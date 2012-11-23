@@ -8,7 +8,7 @@
 				<li><a href="./start.php" title="Lorem ipsum dolor sit amet" hreflang="de">Start</a></li>
 				<li><a href="./handschriften.php" title="Lorem ipsum dolor sit amet" hreflang="de">Handschriften</a></li>
 				<li><a href="./indices.php" title="Lorem ipsum dolor sit amet" hreflang="de">Indices</a></li>
-				<li><a href="./edtion.php" title="Lorem ipsum dolor sit amet" hreflang="de">Edition</a></li>
+				<li><a href="./edition.php" title="Lorem ipsum dolor sit amet" hreflang="de">Edition</a></li>
 			</ul>
 			<ul>
 				<li><a href="./impressum.php" title="Lorem ipsum dolor sit amet" hreflang="de">Impressum</a></li>
