@@ -8,10 +8,12 @@ if ($.cookie('header') == 'header-small') {
 $('.header-button-close').click(function() {
 	/* console.log('close header button clicked'); */
 	if ($.cookie('header') == 'header-small') {
+		console.log('make header big');
 		$.cookie('header', '');
 		$('html').toggleClass('header-small', '');
 		$('.header-button').removeClass('header-button-close').addClass('header-button-open');
 	} else {
+		console.log('make header small');
 		$.cookie('header', 'header-small');
 		$('html').toggleClass('header-small');
 		$('.header-button').removeClass('header-button-open').addClass('header-button-close');
