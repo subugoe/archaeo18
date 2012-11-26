@@ -48,7 +48,7 @@ ant
     value="${data.download.dir.indices}/listEntities.xq$facet=tei:bibl&amp;format=xhtml"/>
 
   <!-- Jetty settings -->
-  <property name="jetty.port" value="8081"/>
+  <property name="jetty.port" value="8080"/>
 
   <target name="init" depends="ivy.download"/>
 
