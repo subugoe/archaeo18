@@ -1,10 +1,18 @@
 <ivy-module version="2.0">
     <info organisation="de.unigoettingen.sub.projects.archaeo18" module="archaeo18"/>
+    <configurations>
+        <conf name="default" />
+        <conf name="test"/>
+        <conf name="war"/>
+    </configurations>
     <dependencies>
         <!--
         <dependency org="org.eclipse.jetty" name="jetty-ant" rev="9.0.0.M3"/>
         -->
         <dependency org="org.mortbay.jetty" name="jetty-ant" rev="7.6.0.v20120127"/>
         <dependency org="org.tuckey" name="urlrewritefilter" rev="4.0.3"/>
+        <!--
+        <dependency org="org.mozilla" name="rhino" rev="1.7R4"/>
+        -->
     </dependencies>
 </ivy-module>

@@ -5,6 +5,9 @@ svn co https://develop.sub.uni-goettingen.de/repos/ent/archaeo18/branches/archae
 cd archaeo18
 ant
 -->
+  <!-- Jetty settings -->
+  <property name="jetty.port" value="8080"/>
+  
   <!-- directory for the build system -->
   <property name="lib.build.dir" value="./lib/build"/>
   <property name="lib.jetty.dir" value="./lib/jetty"/>
@@ -47,8 +50,8 @@ ant
   <property name="exist.entities.bibl.local"
     value="${data.download.dir.indices}/listEntities.xq$facet=tei:bibl&amp;format=xhtml"/>
 
-  <!-- Jetty settings -->
-  <property name="jetty.port" value="8080"/>
+  <!-- JavaScript Stuff -->
+  <property name="js.envjs.url" value="http://github.com/thatcher/env-js/zipball/1.2.13"/>
 
   <target name="init" depends="ivy.download"/>
 
@@ -129,6 +132,12 @@ ant
   </target>
 
   <target name="jetty.start" depends="jetty.install, jetty.dir.tmp.create">
+    <!-- 
+    See http://docs.codehaus.org/display/JETTY/Ant+Jetty+Plugin for configuration
+    For newer Versions
+    http://www.eclipse.org/jetty/documentation/current/jetty-ant.html
+    -->
+    <echo>starting Jetty...</echo>
     <jetty tempDirectory="${jetty.dir.tmp}">
       <!-- 
       <systemProperties>
