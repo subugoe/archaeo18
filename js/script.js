@@ -2,6 +2,7 @@
 
 if ($.cookie('header') == 'header-small') {
 	$('html').toggleClass('header-small');
+	$('.header-button').removeClass('header-button-close').addClass('header-button-open');
 }
 
 $('.header-button-close').click(function() {
@@ -9,9 +10,11 @@ $('.header-button-close').click(function() {
 	if ($.cookie('header') == 'header-small') {
 		$.cookie('header', '');
 		$('html').toggleClass('header-small', '');
+		$('.header-button').removeClass('header-button-close').addClass('header-button-open');
 	} else {
 		$.cookie('header', 'header-small');
 		$('html').toggleClass('header-small');
+		$('.header-button').removeClass('header-button-close').addClass('header-button-open');
 	}
 });
 
