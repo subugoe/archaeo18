@@ -1,8 +1,9 @@
 <project name="Archaeo18 Test" basedir="." xmlns:ivy="antlib:org.apache.ivy.ant" default="serve">
   <!--
+Usage:
 svn co https://develop.sub.uni-goettingen.de/repos/ent/archaeo18/branches/archaeo18
 cd archaeo18
-ant serve
+ant
 -->
   <!-- directory for the build system -->
   <property name="lib.build.dir" value="./lib/build"/>
@@ -11,6 +12,38 @@ ant serve
   <!-- Ivy version -->
   <property name="ivy.install.version" value="2.2.0"/>
   <property name="ivy.jar.file" value="${lib.build.dir}/ivy-${ivy.install.version}.jar"/>
+
+  <!-- Servlet configuration -->
+  <property name="servlet.archaeo18.webxml" value="./WEB-INF/web.xml"/>
+  <property name="servlet.proxy.webxml" value="./testdata/proxy/WEB-INF/web.xml"/>
+
+  <!-- Test data -->
+  <property name="test.dir" value="./testdata"/>
+  <property name="data.download.dir.indices" value="${test.dir}/indices"/>
+
+  <!-- Patches -->
+  <property name="patch.dir" value="${test.dir}/patches"/>
+
+  <!-- eXist Backend -->
+  <property name="exist.base.url" value="http://134.76.21.92:8080"/>
+  <property name="exist.queries.url" value="${exist.base.url}/exist/rest/db/archaeo18/queries"/>
+  <property name="exist.entities.url"
+    value="${exist.queries.url}/experimental/listEntities.xq?format=xhtml&amp;facet="/>
+
+  <!-- Test data for the indices  page and their local names -->
+  <property name="exist.entities.persName.url" value="${exist.entities.url}persName"/>
+  <property name="exist.entities.placeName.url" value="${exist.entities.url}tei:placeName"/>
+  <property name="exist.entities.term.url" value="${exist.entities.url}tei:term"/>
+  <property name="exist.entities.bibl.url" value="${exist.entities.url}tei:bibl"/>
+  <!-- local names -->
+  <property name="exist.entities.persName.local"
+    value="${data.download.dir.indices}/listEntities.xq$facet=tei:persName&amp;format=xhtml"/>
+  <property name="exist.entities.placeName.local"
+    value="${data.download.dir.indices}/listEntities.xq$facet=tei:placeName&amp;format=xhtml"/>
+  <property name="exist.entities.term.local"
+    value="${data.download.dir.indices}/listEntities.xq$facet=tei:term&amp;format=xhtml"/>
+  <property name="exist.entities.bibl.local"
+    value="${data.download.dir.indices}/listEntities.xq$facet=tei:bibl&amp;format=xhtml"/>
 
   <target name="init" depends="ivy.download"/>
 
@@ -63,15 +96,6 @@ ant serve
     <taskdef resource="org/apache/ivy/ant/antlib.xml" uri="antlib:org.apache.ivy.ant"
       classpathref="ivy.lib.path"/>
   </target>
-  <!-- 
-<target name="update" depends="prepare,-install-ivy" description="Download project dependencies">
-    
- 
-    <ivy:settings file="ivysettings.xml" />
-    <ivy:retrieve pattern="lib/[conf]/[artifact]-[revision].[ext]" />
- 
-</target>
--->
 
   <target name="jetty.download" depends="ivy.install, lib.jetty.dir.create">
     <ivy:resolve/>
@@ -79,6 +103,11 @@ ant serve
                         <ivy:cachepath pathid="jetty.classpath"/>
                         -->
     <ivy:retrieve sync="true" type="jar" pattern="${lib.jetty.dir}/[artifact]-[revision].[ext]"/>
+  </target>
+
+  <target name="config.patch">
+    <patch patchfile="${patch.dir}/indeces-local.patch"
+      originalfile="./a18/lib/archaeo18/Archaeo18Properties.js"/>
   </target>
 
   <target name="jetty.install" depends="jetty.download">
@@ -96,11 +125,19 @@ ant serve
 
   <target name="jetty.start" depends="jetty.install, jetty.dir.tmp.create">
     <jetty tempDirectory="${jetty.dir.tmp}">
-      <webapp webXmlFile="./WEB-INF/web.xml" contextPath="/archaeo18" name="archaeo18" warfile="."/>
-      <webapp webXmlFile="./proxy/WEB-INF/web.xml" contextPath="/" name="proxy" warfile="./proxy"/>
+      <webapp webXmlFile="${servlet.archaeo18.webxml}" contextPath="/archaeo18" name="archaeo18"
+        warfile="."/>
+      <webapp webXmlFile="${servlet.proxy.webxml}" contextPath="/" name="proxy" warfile="${test.dir}/proxy"/>
     </jetty>
   </target>
 
-  <target name="serve" depends="jetty.start"> </target>
+  <target name="data.download">
+      <get src="${exist.entities.persName.url}" dest="${exist.entities.persName.local}"/>
+      <get src="${exist.entities.placeName.url}" dest="${exist.entities.placeName.local}"/>
+      <get src="${exist.entities.term.url}" dest="${exist.entities.term.local}"/>
+      <get src="${exist.entities.bibl.url}" dest="${exist.entities.bibl.local}"/>
+  </target>
+
+  <target name="serve" depends="jetty.start"/>
 
 </project>
