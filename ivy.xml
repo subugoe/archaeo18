@@ -1,7 +1,10 @@
 <ivy-module version="2.0">
     <info organisation="de.unigoettingen.sub.projects.archaeo18" module="archaeo18"/>
     <dependencies>
-        <dependency org="org.mortbay.jetty" name="jetty-ant" rev="6.1.25"/>
+        <!--
+        <dependency org="org.eclipse.jetty" name="jetty-ant" rev="9.0.0.M3"/>
+        -->
+        <dependency org="org.mortbay.jetty" name="jetty-ant" rev="7.6.0.v20120127"/>
         <dependency org="org.tuckey" name="urlrewritefilter" rev="4.0.3"/>
     </dependencies>
 </ivy-module>
