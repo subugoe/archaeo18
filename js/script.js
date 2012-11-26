@@ -11,12 +11,12 @@ $('.header-button-close').click(function() {
 		console.log('make header big');
 		$.cookie('header', '');
 		$('html').toggleClass('header-small', '');
-		$('.header-button').removeClass('header-button-close').addClass('header-button-open');
+		$('.header-button').removeClass('header-button-open').addClass('header-button-close');
 	} else {
 		console.log('make header small');
 		$.cookie('header', 'header-small');
 		$('html').toggleClass('header-small');
-		$('.header-button').removeClass('header-button-open').addClass('header-button-close');
+		$('.header-button').removeClass('header-button-close').addClass('header-button-open');
 	}
 });
 
