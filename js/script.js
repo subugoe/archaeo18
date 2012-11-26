@@ -28,6 +28,7 @@ $('footer .wrap div:nth-child(3)').height(105);
 /* MAKE TABLES DATA READY */
 
 $('#tableHandschriften').dataTable();
+/*
 $('#tableIncices').dataTable( {
 	"aoColumns": [
 	null,
@@ -35,6 +36,8 @@ $('#tableIncices').dataTable( {
 	{ "bSortable": false }
 	]
 });
+*/
+$('#tableIncices').dataTable();
 
 /* MAKE TABLES DATA READY (end) */
 
