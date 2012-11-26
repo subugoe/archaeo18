@@ -14,7 +14,7 @@ $('.header-button-close').click(function() {
 	} else {
 		$.cookie('header', 'header-small');
 		$('html').toggleClass('header-small');
-		$('.header-button').removeClass('header-button-close').addClass('header-button-open');
+		$('.header-button').removeClass('header-button-open').addClass('header-button-close');
 	}
 });
 
