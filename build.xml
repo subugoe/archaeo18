@@ -1,4 +1,5 @@
-<project name="Archaeo18 Test" basedir="." xmlns:ivy="antlib:org.apache.ivy.ant" default="serve">
+<project name="Archaeo18 Test" basedir="." xmlns:ivy="antlib:org.apache.ivy.ant" default="serve"
+  xmlns:artifact="antlib:org.apache.maven.artifact.ant">
   <!--
 Usage:
 svn co https://develop.sub.uni-goettingen.de/repos/ent/archaeo18/branches/archaeo18
@@ -7,16 +8,25 @@ ant
 -->
   <!-- Jetty settings -->
   <property name="jetty.port" value="8080"/>
-  
+
   <!-- directory for the build system -->
-  <property name="lib.build.dir" value="./lib/build"/>
-  <property name="lib.jetty.dir" value="./lib/jetty"/>
+  <property name="lib.dir" value="./lib"/>
+  <property name="lib.target" value="./target"/>
+  <property name="lib.build.dir" value="${lib.dir}/build"/>
+  <property name="lib.jetty.dir" value="${lib.dir}/jetty"/>
   <property name="jetty.dir.tmp" value="./tmp"/>
-  <!-- Ivy version -->
+  <!-- Ivy stuff -->
   <property name="ivy.install.version" value="2.2.0"/>
   <property name="ivy.jar.file" value="${lib.build.dir}/ivy-${ivy.install.version}.jar"/>
   <property name="ivy.download.url"
     value="http://repo1.maven.org/maven2/org/apache/ivy/ivy/${ivy.install.version}/ivy-${ivy.install.version}.jar"/>
+
+  <!-- Maven stuff -->
+  <property name="maven.install.version" value="2.1.3"/>
+  <property name="maven.jar.file"
+    value="${lib.build.dir}/maven-ant-tasks-${maven.install.version}.jar"/>
+  <property name="maven.download.url"
+    value="http://repo1.maven.org/maven2/org/apache/maven/maven-ant-tasks/${maven.install.version}/maven-ant-tasks-${maven.install.version}.jar"/>
 
   <!-- Servlet configuration -->
   <property name="servlet.archaeo18.webxml" value="./WEB-INF/web.xml"/>
@@ -51,51 +61,31 @@ ant
     value="${data.download.dir.indices}/listEntities.xq$facet=tei:bibl&amp;format=xhtml"/>
 
   <!-- JavaScript Stuff -->
-  <property name="js.envjs.url" value="http://github.com/thatcher/env-js/zipball/1.2.13"/>
+  <property name="lib.envjs.download.url" value="http://github.com/thatcher/env-js/zipball/1.2.13"/>
+  <property name="lib.envjs.dir" value="${lib.dir}/envjs"/>
+  <property name="lib.envjs.local" value="${lib.envjs.dir}/env-js-1.2.1.zip"/>
 
-  <target name="init" depends="ivy.download"/>
-
-  <target name="lib.build.dir.create" depends="lib.build.dir.check" unless="lib.build.dir.exists">
+  <target name="init" depends="">
+    <mkdir dir="${lib.dir}"/>
     <mkdir dir="${lib.build.dir}"/>
-    <echo>${lib.build.dir} created"</echo>
-  </target>
-
-  <target name="lib.build.dir.check">
-    <condition property="lib.build.dir.exists">
-      <available file="${lib.build.dir}" type="dir"/>
-    </condition>
-  </target>
-
-  <target name="lib.jetty.dir.create" depends="lib.jetty.dir.check" unless="lib.jetty.dir.exists">
     <mkdir dir="${lib.jetty.dir}"/>
-    <echo>${lib.jetty.dir} created"</echo>
+    <mkdir dir="${target.dir}"/>
   </target>
 
-  <target name="lib.jetty.dir.check">
-    <condition property="lib.jetty.dir.exists">
-      <available file="${lib.jetty.dir}" type="dir"/>
-    </condition>
-  </target>
-
-  <target name="jetty.dir.tmp.create" depends="jetty.dir.tmp.check" unless="jetty.dir.tmp.exists">
-    <mkdir dir="${jetty.dir.tmp}"/>
-    <echo>${jetty.dir.tmp} created"</echo>
-  </target>
-
-  <target name="jetty.dir.tmp.check">
-    <condition property="jetty.dir.tmp.exists">
-      <available file="${jetty.dir.tmp}" type="dir"/>
-    </condition>
+  <target name="envjs.download" unless="skip.download" depends="init">
+    <get src="${lib.envjs.download.url}" dest="${lib.envjs.local}" usetimestamp="true"/>
+    <unzip src="${lib.envjs.local}" dest="${lib.envjs.dir}"/>
   </target>
 
   <!-- Stolen from http://blogs.steeplesoft.com/2008/01/dependency-management-with-ant-and-ivy/ -->
+  <!--
   <target name="ivy.download" unless="skip.download" depends="lib.build.dir.create">
-    <!-- download Ivy from web site so that it can be used even without any special installation -->
+
     <echo message="installing ivy..."/>
     <get src="${ivy.download.url}" dest="${ivy.jar.file}" usetimestamp="true"/>
   </target>
 
-  <target name="ivy.install" depends="ivy.download" description="--> install ivy">
+  <target name="ivy.install" depends="ivy.download" description="">
     <path id="ivy.lib.path">
       <fileset dir="${lib.build.dir}" includes="*.jar"/>
     </path>
@@ -103,12 +93,30 @@ ant
       classpathref="ivy.lib.path"/>
   </target>
 
-  <target name="jetty.download" depends="ivy.install, lib.jetty.dir.create">
+  <target name="jetty.download.ivy" depends="ivy.install, lib.jetty.dir.create">
     <ivy:resolve/>
-    <!--
-                        <ivy:cachepath pathid="jetty.classpath"/>
-                        -->
     <ivy:retrieve sync="true" type="jar" pattern="${lib.jetty.dir}/[artifact]-[revision].[ext]"/>
+  </target>
+-->
+  <target name="maven.download" unless="skip.download" depends="init">
+    <echo message="Downloading and installing maven..."/>
+    <get src="${maven.download.url}" dest="${maven.jar.file}" usetimestamp="true"/>
+    <path id="maven.lib.path">
+      <fileset dir="${lib.build.dir}" includes="*.jar"/>
+    </path>
+    <taskdef uri="antlib:org.apache.maven.artifact.ant"
+      resource="org/apache/maven/artifact/ant/antlib.xml" classpathref="maven.lib.path"/>
+  </target>
+
+  <target name="jetty.download" depends="maven.download">
+    <artifact:dependencies filesetId="jetty.local.classpath">
+      <dependency groupId="org.mortbay.jetty" artifactId="jetty-ant" version="7.6.0.v20120127"/>
+      <dependency groupId="org.tuckey" artifactId="urlrewritefilter" version="4.0.3"/>
+    </artifact:dependencies>
+    <copy todir="${lib.jetty.dir}">
+      <fileset refid="jetty.local.classpath"/>
+      <mapper type="flatten"/>
+    </copy>
   </target>
 
   <target name="config.patch">
@@ -122,16 +130,17 @@ ant
     </path>
     <taskdef classpathref="jetty.plugin.classpath" resource="tasks.properties"
       loaderref="jetty.loader"/>
-    <typedef name="selectChannelConnector" classname="org.eclipse.jetty.server.nio.SelectChannelConnector"
+    <typedef name="selectChannelConnector"
+      classname="org.eclipse.jetty.server.nio.SelectChannelConnector"
       classpathref="jetty.plugin.classpath" loaderref="jetty.loader"/>
   </target>
 
   <target name="clean">
-    <delete dir="${lib.build.dir}"/>
+    <delete dir="${lib.dir}"/>
     <delete dir="${jetty.dir.tmp}"/>
   </target>
 
-  <target name="jetty.start" depends="jetty.install, jetty.dir.tmp.create">
+  <target name="jetty.start" depends="jetty.install">
     <!-- 
     See http://docs.codehaus.org/display/JETTY/Ant+Jetty+Plugin for configuration
     For newer Versions
@@ -139,16 +148,9 @@ ant
     -->
     <echo>starting Jetty...</echo>
     <jetty tempDirectory="${jetty.dir.tmp}">
-      <!-- 
-      <systemProperties>
-        <systemProperty name="jetty.port" value="${jetty.port}"/>
-      </systemProperties>
-      -->
-
       <connectors>
-        <selectChannelConnector port="${jetty.port}" />
+        <selectChannelConnector port="${jetty.port}"/>
       </connectors>
-
       <webapp webXmlFile="${servlet.archaeo18.webxml}" contextPath="/archaeo18" name="archaeo18"
         warfile="."/>
       <webapp webXmlFile="${servlet.proxy.webxml}" contextPath="/" name="proxy"
@@ -163,7 +165,23 @@ ant
     <get src="${exist.entities.bibl.url}" dest="${exist.entities.bibl.local}"/>
   </target>
 
-  <target name="war"/>
+  <target name="war.dependencies" depends="maven.download, init">
+    <property name="war.dir" value="${lib.target}/webapp"></property>
+    <property name="war.dir.lib" value="${war.dir}/WEB-INF/lib"></property>
+    <mkdir dir=""/>
+    <artifact:remoteRepository id="caucho" url="http://caucho.com/m2"/>
+    <artifact:dependencies filesetId="war.classpath">
+      <dependency groupId="org.tuckey" artifactId="urlrewritefilter" version="4.0.3"/>
+      <dependency groupId="com.caucho" artifactId="resin-quercus" version="3.2.0"/>
+    </artifact:dependencies>
+    <copy todir="${war.dir.lib}">
+      <fileset refid="war.classpath"/>
+      <mapper type="flatten"/>
+    </copy>
+  </target>
+
+
+  <target name="war" depends="war.dependencies"/>
 
   <target name="serve" depends="jetty.start"/>
 
