@@ -11,7 +11,7 @@ ant
 
   <!-- directory for the build system -->
   <property name="lib.dir" value="./lib"/>
-  <property name="lib.target" value="./target"/>
+  <property name="target.dir" value="./target"/>
   <property name="lib.build.dir" value="${lib.dir}/build"/>
   <property name="lib.jetty.dir" value="${lib.dir}/jetty"/>
   <property name="jetty.dir.tmp" value="./tmp"/>
@@ -65,6 +65,8 @@ ant
   <property name="lib.envjs.dir" value="${lib.dir}/envjs"/>
   <property name="lib.envjs.local" value="${lib.envjs.dir}/env-js-1.2.1.zip"/>
 
+  <!-- PHP stuff -->
+
   <target name="init" depends="">
     <mkdir dir="${lib.dir}"/>
     <mkdir dir="${lib.build.dir}"/>
@@ -77,27 +79,6 @@ ant
     <unzip src="${lib.envjs.local}" dest="${lib.envjs.dir}"/>
   </target>
 
-  <!-- Stolen from http://blogs.steeplesoft.com/2008/01/dependency-management-with-ant-and-ivy/ -->
-  <!--
-  <target name="ivy.download" unless="skip.download" depends="lib.build.dir.create">
-
-    <echo message="installing ivy..."/>
-    <get src="${ivy.download.url}" dest="${ivy.jar.file}" usetimestamp="true"/>
-  </target>
-
-  <target name="ivy.install" depends="ivy.download" description="">
-    <path id="ivy.lib.path">
-      <fileset dir="${lib.build.dir}" includes="*.jar"/>
-    </path>
-    <taskdef resource="org/apache/ivy/ant/antlib.xml" uri="antlib:org.apache.ivy.ant"
-      classpathref="ivy.lib.path"/>
-  </target>
-
-  <target name="jetty.download.ivy" depends="ivy.install, lib.jetty.dir.create">
-    <ivy:resolve/>
-    <ivy:retrieve sync="true" type="jar" pattern="${lib.jetty.dir}/[artifact]-[revision].[ext]"/>
-  </target>
--->
   <target name="maven.download" unless="skip.download" depends="init">
     <echo message="Downloading and installing maven..."/>
     <get src="${maven.download.url}" dest="${maven.jar.file}" usetimestamp="true"/>
@@ -138,6 +119,7 @@ ant
   <target name="clean">
     <delete dir="${lib.dir}"/>
     <delete dir="${jetty.dir.tmp}"/>
+    <delete dir="${target.dir}"/>
   </target>
 
   <target name="jetty.start" depends="jetty.install">
@@ -166,13 +148,14 @@ ant
   </target>
 
   <target name="war.dependencies" depends="maven.download, init">
-    <property name="war.dir" value="${lib.target}/webapp"></property>
-    <property name="war.dir.lib" value="${war.dir}/WEB-INF/lib"></property>
+    <property name="war.dir" value="${target.dir}/webapp"/>
+    <property name="war.dir.lib" value="${war.dir}/WEB-INF/lib"/>
     <mkdir dir=""/>
-    <artifact:remoteRepository id="caucho" url="http://caucho.com/m2"/>
+
     <artifact:dependencies filesetId="war.classpath">
+      <artifact:remoteRepository id="quercus" url="http://repository.threecrickets.com/maven/"/>
       <dependency groupId="org.tuckey" artifactId="urlrewritefilter" version="4.0.3"/>
-      <dependency groupId="com.caucho" artifactId="resin-quercus" version="3.2.0"/>
+      <dependency groupId="com.caucho" artifactId="quercus" version="4.0.25"/>
     </artifact:dependencies>
     <copy todir="${war.dir.lib}">
       <fileset refid="war.classpath"/>
@@ -180,7 +163,21 @@ ant
     </copy>
   </target>
 
+  <!--
+  <target name="php.compile" depends="war.dependencies, jetty.install">
 
+      <fileset dir="." casesensitive="yes" includes="**/*.php"/>
+
+    <java classname="com.caucho.quercus.CliQuercus">
+      <arg value="-f"/>
+      <classpath>
+        <pathelement path="${jetty.plugin.classpath}"/>
+        <pathelement path="${war.classpath}"/>
+      </classpath>
+    </java>
+    
+  </target>
+-->
   <target name="war" depends="war.dependencies"/>
 
   <target name="serve" depends="jetty.start"/>
