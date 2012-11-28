@@ -15,7 +15,7 @@
 		<section class="contenttype-start textimg clearfix">
 			<h2>Über Christian Gottlob Heyne</h2>
 			<div>
-				<img class="img" alt="" src="http://placehold.it/352x434" class="content-img-style1 fixie" />
+				<img class="img" alt="" src="./img/heyne.jpg" class="content-img-style1 fixie" />
 			</div>
 			<div>
 				<p class="font-normal">Christian Gottlob Heyne (1729–1812) war einer der bedeutendsten Gelehrten der Georg-August-Universität im 18. Jahrhundert. 1763 wurde er als Professor der Poesie und Beredsamkeit und Direktor des Philologischen Seminars nach Göttingen berufen. Bald übernahm er auch die Le	itung der Universitätsbibliothek und fungierte als Sekretär der Sozietät (heute Akademie) der Wissenschaften und als Herausgeber der „Göttingischen Anzeigen von gelehrten Sachen“.</p>
