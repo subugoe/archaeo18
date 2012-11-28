@@ -66,12 +66,32 @@ ant
   <property name="lib.envjs.local" value="${lib.envjs.dir}/env-js-1.2.1.zip"/>
 
   <!-- PHP stuff -->
+  <property name="quercus.version" value="4.0.25"/>
+  <property name="lib.quercus.dir" value="${lib.dir}/quercus"/>
+  <property name="php.dir" value="."/>
+
+  <!-- Ant contrib -->
+  <property name="antcontrib.version" value="1.0b3"/>
+
+  <!-- SASS stuff -->
+  <property name="jruby.version" value="1.6.8"/>
+  <property name="jgit.version" value="2.1.0.201209190230-r"/>
+  <property name="sass.downlad.git.url" value="https://github.com/nex3/sass.git"/>
+  <property name="lib.sass.dir" value="${lib.dir}/sass"/>
+  <property name="lib.sass.lib.dir" value="${lib.dir}/sass-lib"/>
+  <property name="sass.cmd" value="./lib/sass/bin/scss"/>
+  <property name="css.dir" value="./css"/>
 
   <target name="init" depends="">
     <mkdir dir="${lib.dir}"/>
     <mkdir dir="${lib.build.dir}"/>
     <mkdir dir="${lib.jetty.dir}"/>
     <mkdir dir="${target.dir}"/>
+    <!-- Created by git
+    <mkdir dir="${lib.sass.dir}"/>
+    -->
+    <mkdir dir="${lib.sass.lib.dir}"/>
+    <mkdir dir="${lib.quercus.dir}"/>
   </target>
 
   <target name="envjs.download" unless="skip.download" depends="init">
@@ -89,10 +109,96 @@ ant
       resource="org/apache/maven/artifact/ant/antlib.xml" classpathref="maven.lib.path"/>
   </target>
 
+  <target name="jruby.download" depends="maven.download">
+    <artifact:dependencies filesetId="jruby.local.classpath">
+      <dependency groupId="org.jruby" artifactId="jruby-complete" version="${jruby.version}"/>
+    </artifact:dependencies>
+    <copy todir="${lib.sass.lib.dir}">
+      <fileset refid="jruby.local.classpath"/>
+      <mapper type="flatten"/>
+    </copy>
+  </target>
+
+  <target name="jgit.download" depends="maven.download">
+    <artifact:dependencies filesetId="jruby.local.classpath">
+      <dependency groupId="org.eclipse.jgit" artifactId="org.eclipse.jgit.ant"
+        version="${jgit.version}"/>
+    </artifact:dependencies>
+    <copy todir="${lib.sass.lib.dir}">
+      <fileset refid="jruby.local.classpath"/>
+      <mapper type="flatten"/>
+    </copy>
+    <path id="jgit.plugin.classpath">
+      <fileset dir="${lib.sass.lib.dir}" includes="*.jar"/>
+    </path>
+    <taskdef resource="org/eclipse/jgit/ant/ant-tasks.properties"
+      classpathref="jgit.plugin.classpath"/>
+  </target>
+
+  <!-- Ugly hack to check if Sass is alredy there -->
+  <!-- See http://stackoverflow.com/questions/1163998/do-i-have-any-way-to-check-the-existence-of-a-directory-in-ant-not-a-file -->
+
+  <target name="sass.dir.check">
+    <condition property="sass.dir.exists">
+      <available file="${lib.sass.dir}" type="dir"/>
+    </condition>
+  </target>
+
+  <target name="sass.download" depends="sass.dir.check, jgit.download" unless="${sass.dir.exists}">
+    <!-- see http://wiki.eclipse.org/JGit/User_Guide#Ant_Tasks -->
+    <git-clone uri="${sass.downlad.git.url}" dest="${lib.sass.dir}"/>
+  </target>
+
+  <!-- This is need, since the class library of ruby isn't found, if started from jar file -->
+  <target name="jruby.home" depends="jruby.download">
+    <property name="jruby.home" value="${target.dir}/jruby.home"/>
+    <mkdir dir="${jruby.home}"/>
+    <!-- /META-INF/jruby.home/ -->
+    <unzip dest="${jruby.home}">
+      <patternset>
+        <include name="META-INF/jruby.home/**/*.*"/>
+      </patternset>
+      <fileset dir="${lib.sass.lib.dir}">
+        <include name="jruby-complete-*.jar"/>
+      </fileset>
+      <!-- See http://ant.apache.org/manual/Types/mapper.html -->
+      <cutdirsmapper dirs="2"/>
+    </unzip>
+  </target>
+
+  <target name="sass.download.gem" depends="jruby.home">
+    <java classname="org.jruby.Main" fork="true" dir=".">
+      <sysproperty key="jruby.home" value="${jruby.home}"/>
+      <classpath>
+        <fileset dir="${lib.sass.lib.dir}" includes="*.jar"/>
+      </classpath>
+      <arg value="-S"/>
+      <arg value="gem"/>
+      <arg value="install"/>
+      <arg value="sass"/>
+    </java>
+  </target>
+
+  <target name="antcontrib.download" depends="init">
+    <artifact:dependencies filesetId="antcontrib.local.classpath">
+      <dependency groupId="ant-contrib" artifactId="ant-contrib" version="${antcontrib.version}"/>
+    </artifact:dependencies>
+    <copy todir="${lib.sass.lib.dir}">
+      <fileset refid="antcontrib.local.classpath"/>
+      <mapper type="flatten"/>
+    </copy>
+    <path id="antcontrib.plugin.classpath">
+      <fileset dir="${lib.sass.lib.dir}" includes="*.jar"/>
+    </path>
+    <taskdef resource="net/sf/antcontrib/antcontrib.properties"
+      classpathref="antcontrib.plugin.classpath"/>
+  </target>
+
   <target name="jetty.download" depends="maven.download">
     <artifact:dependencies filesetId="jetty.local.classpath">
       <dependency groupId="org.mortbay.jetty" artifactId="jetty-ant" version="7.6.0.v20120127"/>
       <dependency groupId="org.tuckey" artifactId="urlrewritefilter" version="4.0.3"/>
+      <dependency groupId="commons-httpclient" artifactId="commons-httpclient" version="3.1"/>
     </artifact:dependencies>
     <copy todir="${lib.jetty.dir}">
       <fileset refid="jetty.local.classpath"/>
@@ -155,7 +261,7 @@ ant
     <artifact:dependencies filesetId="war.classpath">
       <artifact:remoteRepository id="quercus" url="http://repository.threecrickets.com/maven/"/>
       <dependency groupId="org.tuckey" artifactId="urlrewritefilter" version="4.0.3"/>
-      <dependency groupId="com.caucho" artifactId="quercus" version="4.0.25"/>
+      <dependency groupId="com.caucho" artifactId="quercus" version="${quercus.version}"/>
     </artifact:dependencies>
     <copy todir="${war.dir.lib}">
       <fileset refid="war.classpath"/>
@@ -163,21 +269,79 @@ ant
     </copy>
   </target>
 
-  <!--
-  <target name="php.compile" depends="war.dependencies, jetty.install">
+  <target name="scss.compile" depends="sass.download, jruby.download, antcontrib.download">
+    <foreach target=".scss.compile" param="scss.file">
+      <path>
+        <fileset dir="${css.dir}" includes="**/*.scss" excludes="**/_*"/>
+      </path>
+    </foreach>
+  </target>
 
-      <fileset dir="." casesensitive="yes" includes="**/*.php"/>
+  <target name="scss.compile.watch" depends="sass.download.gem">
+    <java classname="org.jruby.Main" fork="true" dir=".">
+      <classpath>
+        <fileset dir="${lib.sass.lib.dir}" includes="*.jar"/>
+      </classpath>
+      <arg value="-S"/>
+      <arg value="sass"/>
+      <arg value="--watch"/>
+      <arg value="${css.dir}:${css.dir}"/>
+    </java>
+  </target>
 
+  <target name=".scss.compile">
+    <propertyregex property="css.out" input="${scss.file}" regexp="(.*)\.scss" select="\1.css"
+      casesensitive="false"/>
+    <java classname="org.jruby.Main" fork="true" dir=".">
+      <classpath>
+        <fileset dir="${lib.sass.lib.dir}" includes="*.jar"/>
+      </classpath>
+      <!--
+      <arg value="- -headless"/>
+      -->
+      <arg value="${sass.cmd}"/>
+      <arg value="--trace"/>
+      <arg value="--unix-newlines"/>
+      <arg value="${scss.file}"/>
+      <arg value="${css.out}"/>
+    </java>
+  </target>
+
+  <target name="php.download" depends="maven.download">
+    <artifact:dependencies filesetId="quercus.classpath">
+      <artifact:remoteRepository id="quercus" url="http://repository.threecrickets.com/maven/"/>
+      <dependency groupId="com.caucho" artifactId="quercus" version="${quercus.version}"/>
+    </artifact:dependencies>
+    <copy todir="${lib.quercus.dir}">
+      <fileset refid="quercus.classpath"/>
+      <mapper type="flatten"/>
+    </copy>
+    <path id="quercus.plugin.classpath">
+      <fileset dir="${lib.quercus.dir}" includes="*.jar"/>
+    </path>
+  </target>
+
+  <target name="php.compile" depends="php.download, jetty.install, antcontrib.download">
+    <foreach target=".php.compile" param="php.file">
+      <path>
+        <fileset dir="${php.dir}" casesensitive="yes" includes="**/*.php"/>
+      </path>
+    </foreach>
+  </target>
+
+  <target name=".php.compile">
+    <propertyregex property="php.out" input="${php.file}" regexp="(.*)\.php" select="\1.xhtml"
+      casesensitive="false"/>
     <java classname="com.caucho.quercus.CliQuercus">
       <arg value="-f"/>
+      <arg value="${php.file}"/>
       <classpath>
-        <pathelement path="${jetty.plugin.classpath}"/>
-        <pathelement path="${war.classpath}"/>
+        <path refid="jetty.plugin.classpath"/>
+        <path refid="quercus.plugin.classpath"/>
       </classpath>
     </java>
-    
   </target>
--->
+
   <target name="war" depends="war.dependencies"/>
 
   <target name="serve" depends="jetty.start"/>
