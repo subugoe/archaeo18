@@ -1,4 +1,4 @@
-<project name="Archaeo18 Test" basedir="." xmlns:ivy="antlib:org.apache.ivy.ant" default="serve"
+<project name="Archaeo18 Test" basedir="." xmlns:ivy="antlib:org.apache.ivy.ant" default="jetty.start"
   xmlns:artifact="antlib:org.apache.maven.artifact.ant">
   <!--
 Usage:
@@ -165,6 +165,21 @@ ant
       <cutdirsmapper dirs="2"/>
     </unzip>
   </target>
+  
+  <target name="sass.check.gem" depends="jruby.home">
+    <!-- Process returns 0 if sass is installed, 1 otherwise -->
+    <java classname="org.jruby.Main" fork="true" dir="." failonerror="false" resultproperty="sass.check.gem.result">
+      <sysproperty key="jruby.home" value="${jruby.home}"/>
+      <classpath>
+        <fileset dir="${lib.sass.lib.dir}" includes="*.jar"/>
+      </classpath>
+      <arg value="-e"/>
+      <arg value="require 'rubygems'"/>
+      <arg value="-e"/>
+      <arg value="Gem::Specification.find_by_name('sass').nil? ? abort : exit"/>
+      <arg value=""/>
+    </java>
+  </target>
 
   <target name="sass.download.gem" depends="jruby.home">
     <java classname="org.jruby.Main" fork="true" dir=".">
@@ -278,13 +293,15 @@ ant
   </target>
 
   <target name="scss.compile.watch" depends="sass.download.gem">
-    <java classname="org.jruby.Main" fork="true" dir=".">
+    <java classname="org.jruby.Main" fork="true" dir="." spawn="true">
+      <sysproperty key="jruby.home" value="${jruby.home}"/>
       <classpath>
         <fileset dir="${lib.sass.lib.dir}" includes="*.jar"/>
       </classpath>
       <arg value="-S"/>
       <arg value="sass"/>
       <arg value="--watch"/>
+      <arg value="--poll"/>
       <arg value="${css.dir}:${css.dir}"/>
     </java>
   </target>
@@ -344,6 +361,6 @@ ant
 
   <target name="war" depends="war.dependencies"/>
 
-  <target name="serve" depends="jetty.start"/>
+  <target name="serve" depends="scss.compile.watch, jetty.start"/>
 
 </project>
