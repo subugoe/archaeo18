@@ -69,10 +69,10 @@ ant
 
   <!-- PHP stuff -->
   <property name="quercus.version" value="4.0.25"/>
-  <!--
   <property name="lib.quercus.dir" value="${lib.dir}/quercus"/>
-  -->
   <property name="php.dir" value="."/>
+  <property name="html.dir" value="${target.dir}/html"/>
+  <property name="html.suffix" value=".html"/>
 
   <!-- Ant contrib -->
   <property name="antcontrib.version" value="1.0b3"/>
@@ -103,9 +103,7 @@ ant
     <mkdir dir="${lib.sass.dir}"/>
     -->
     <mkdir dir="${lib.jruby.dir}"/>
-    <!--
     <mkdir dir="${lib.quercus.dir}"/>
-    -->
     <mkdir dir="${jetty.dir.tmp}"/>
   </target>
 
@@ -189,15 +187,17 @@ ant
   </target>
 
   <target name="php.install" depends="maven.download">
-    <artifact:dependencies pathId="quercus.plugin.classpath">
+    <artifact:dependencies pathId="quercus.plugin.classpath" filesetId="quercus.local.classpath">
       <artifact:remoteRepository id="quercus" url="http://repository.threecrickets.com/maven/"/>
-      <dependency groupId="com.caucho" artifactId="quercus" version="${quercus.version}"/>
+      <dependency groupId="com.caucho" artifactId="quercus" version="${quercus.version}">
+        <exclusion groupId="javax" artifactId="javaee-api"></exclusion>
+      </dependency>
     </artifact:dependencies>
-    <!--
     <copy todir="${lib.quercus.dir}">
       <fileset refid="quercus.local.classpath"/>
       <mapper type="flatten"/>
     </copy>
+    <!--
     <path id="quercus.plugin.classpath">
       <fileset dir="${lib.quercus.dir}" includes="*.jar"/>
     </path>
@@ -505,26 +505,46 @@ ant
   </target>
 
   <target name="php.compile" depends="php.install, jetty.download, antcontrib.install">
+    <mkdir dir="${html.dir}"/>
     <foreach target=".php.compile" param="php.file">
       <path>
-        <fileset dir="${php.dir}" casesensitive="yes" includes="**/*.php"/>
+        <fileset dir="${php.dir}" casesensitive="yes" includes="*.php"/>
       </path>
     </foreach>
+    <move todir="${html.dir}">
+      <fileset dir=".">
+        <include name="*.html"/>
+      </fileset>
+      <filterchain>       
+        <tokenfilter>
+          <replacestring from=".php"
+            to="${html.suffix}"/>
+        </tokenfilter>
+      </filterchain>
+    </move>
   </target>
 
   <target name=".php.compile">
-    <propertyregex property="php.out" input="${php.file}" regexp="(.*)\.php" select="\1.xhtml"
+    <!-- Warning the properties doesn't seem to work in the select attribute -->
+    <propertyregex property="php.out" input="${php.file}" regexp="(.*)[\\/](.*)\.php" select="./\2.html"
       casesensitive="false"/>
-    <!-- See http://marc.info/?l=ant-user&m=102519197329459 -->
-    <path id="combined">
-      <path refid="quercus.plugin.classpath"/>
-      <path refid="jetty.plugin.classpath"/>
+    <path id="quercus.plugin.classpath">
+      <fileset dir="${lib.quercus.dir}" includes="*.jar"/>
     </path>
-    <java classname="com.caucho.quercus.CliQuercus" classpathref="quercus.plugin.classpath">
-      <classpath refid="jetty.plugin.classpath"/>
+    <path id="jetty.plugin.classpath">
+      <fileset dir="${lib.jetty.dir}" includes="*.jar"/>
+    </path>
+    <echo>Compiling ${php.file} to ${php.out}</echo>
+    <!-- See http://marc.info/?l=ant-user&m=102519197329459 -->
+    <java classname="com.caucho.quercus.CliQuercus" classpathref="quercus.plugin.classpath" outputproperty="compiler.output">
+      <classpath>
+        <path refid="quercus.plugin.classpath"/>
+        <path refid="jetty.plugin.classpath"/>
+      </classpath>
       <arg value="-f"/>
       <arg value="${php.file}"/>
     </java>
+    <echo force="true" encoding="UTF-8" output="${php.out}" append="false" message="${compiler.output}"/>
   </target>
 
   <target name="serve" depends="scss.compile.watch, jetty.start"/>
