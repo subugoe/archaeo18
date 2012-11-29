@@ -186,11 +186,18 @@ ant
     </artifact:dependencies>
   </target>
 
+  <target name="rhino.install" depends="maven.download">
+    <property name="rhiro.version" value="1.7R4"/>
+    <artifact:dependencies pathId="rhino.plugin.classpath" filesetId="rhino.local.classpath">
+      <dependency groupId="org.mozilla" artifactId="rhino" version="${rhiro.version}"> </dependency>
+    </artifact:dependencies>
+  </target>
+
   <target name="php.install" depends="maven.download">
     <artifact:dependencies pathId="quercus.plugin.classpath" filesetId="quercus.local.classpath">
       <artifact:remoteRepository id="quercus" url="http://repository.threecrickets.com/maven/"/>
       <dependency groupId="com.caucho" artifactId="quercus" version="${quercus.version}">
-        <exclusion groupId="javax" artifactId="javaee-api"></exclusion>
+        <exclusion groupId="javax" artifactId="javaee-api"/>
       </dependency>
     </artifact:dependencies>
     <copy todir="${lib.quercus.dir}">
@@ -370,9 +377,7 @@ ant
     <artifact:dependencies filesetId="war.js.files">
       <dependency groupId="org.webjars" artifactId="jquery" version="1.8.3"/>
     </artifact:dependencies>
-    <copy todir="${war.dir.js.dir.lib}">
-      <file dir="${dir.js}/plugins.js"/>
-    </copy>
+
 
   </target>
 
@@ -426,10 +431,7 @@ ant
             to="&lt;script src=&quot;./js/script-min.js&quot;&gt;&lt;/script&gt;"/>
         </tokenfilter>
         <!-- Rewrite relocations -->
-        <tokenfilter>
-          <replacestring from="&lt;script src=&quot;./js/plugins.js&quot;&gt;&lt;/script&gt;"
-            to="&lt;script src=&quot;./js/libs/plugins.js&quot;&gt;&lt;/script&gt;"/>
-        </tokenfilter>
+        <!-- This section is currently empty -->
         <!-- Get rid of other js -->
         <tokenfilter>
           <replacestring from="&lt;script src=&quot;js/Indices.js&quot;&gt;&lt;/script&gt;" to=""/>
@@ -504,6 +506,8 @@ ant
     </java>
   </target>
 
+  <!-- The PHP Compiler stuff -->
+
   <target name="php.compile" depends="php.install, jetty.download, antcontrib.install">
     <mkdir dir="${html.dir}"/>
     <foreach target=".php.compile" param="php.file">
@@ -515,10 +519,9 @@ ant
       <fileset dir=".">
         <include name="*.html"/>
       </fileset>
-      <filterchain>       
+      <filterchain>
         <tokenfilter>
-          <replacestring from=".php"
-            to="${html.suffix}"/>
+          <replacestring from=".php" to="${html.suffix}"/>
         </tokenfilter>
       </filterchain>
     </move>
@@ -526,8 +529,8 @@ ant
 
   <target name=".php.compile">
     <!-- Warning the properties doesn't seem to work in the select attribute -->
-    <propertyregex property="php.out" input="${php.file}" regexp="(.*)[\\/](.*)\.php" select="./\2.html"
-      casesensitive="false"/>
+    <propertyregex property="php.out" input="${php.file}" regexp="(.*)[\\/](.*)\.php"
+      select="./\2.html" casesensitive="false"/>
     <path id="quercus.plugin.classpath">
       <fileset dir="${lib.quercus.dir}" includes="*.jar"/>
     </path>
@@ -535,8 +538,10 @@ ant
       <fileset dir="${lib.jetty.dir}" includes="*.jar"/>
     </path>
     <echo>Compiling ${php.file} to ${php.out}</echo>
-    <!-- See http://marc.info/?l=ant-user&m=102519197329459 -->
-    <java classname="com.caucho.quercus.CliQuercus" classpathref="quercus.plugin.classpath" outputproperty="compiler.output">
+    <!-- See http://marc.info/?l=ant-user&m=102519197329459 for multiple path entries -->
+    <!-- See http://wiki3.caucho.com/Quercus:_Command_Line_Interface_%28CLI%29 for Quercus CLI -->
+    <java classname="com.caucho.quercus.CliQuercus" classpathref="quercus.plugin.classpath"
+      outputproperty="compiler.output">
       <classpath>
         <path refid="quercus.plugin.classpath"/>
         <path refid="jetty.plugin.classpath"/>
@@ -544,8 +549,12 @@ ant
       <arg value="-f"/>
       <arg value="${php.file}"/>
     </java>
-    <echo force="true" encoding="UTF-8" output="${php.out}" append="false" message="${compiler.output}"/>
+    <echo force="true" encoding="UTF-8" output="${php.out}" append="false"
+      message="${compiler.output}"/>
   </target>
+
+  <!-- Java Script compiler -->
+  <!-- See https://developer.mozilla.org/en-US/docs/Rhino/Shell -->
 
   <target name="serve" depends="scss.compile.watch, jetty.start"/>
 
