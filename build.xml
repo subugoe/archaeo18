@@ -16,9 +16,9 @@ ant
   <!-- Jetty settings -->
   <property name="jetty.port" value="8080"/>
 
-  <!-- directory for the build system -->
-  <property name="lib.dir" value="./lib"/>
+  <!-- directories for the build system -->
   <property name="target.dir" value="./target"/>
+  <property name="lib.dir" value="${target.dir}/lib"/>
   <property name="lib.build.dir" value="${lib.dir}/build"/>
   <property name="lib.jetty.dir" value="${lib.dir}/jetty"/>
   <property name="jetty.dir.tmp" value="${target.dir}/tmp"/>
@@ -63,9 +63,21 @@ ant
     value="${data.download.dir.indices}/listEntities.xq$facet=tei:bibl&amp;format=xhtml"/>
 
   <!-- JavaScript Stuff -->
+  <property name="js.dir" value="./js"/>
+  <property name="js.merged.file" value="script.js"/>
+  <property name="js.target.dir" value="${target.dir}/${js.dir}"/>
+  <property name="js.target.file" value="${js.target.dir}/${js.merged.file}"/>
+  
+  <!--
+  <property name="js.file" value="${js.dir}/script-min.js"/>
+-->
+  
+  <!-- Env JS -->
   <property name="lib.envjs.download.url" value="http://github.com/thatcher/env-js/zipball/1.2.13"/>
+  <property name="lib.envjs.git.url" value="https://github.com/envjs/env-js.git"></property>
   <property name="lib.envjs.dir" value="${lib.dir}/envjs"/>
   <property name="lib.envjs.local" value="${lib.envjs.dir}/env-js-1.2.1.zip"/>
+  <property name="rhiro.version" value="1.7R4"/>
 
   <!-- PHP stuff -->
   <property name="quercus.version" value="4.0.25"/>
@@ -91,14 +103,16 @@ ant
 
   <!-- YUI -->
   <property name="yui.version" value="2.4.7"/>
-  <property name="js.dir" value="./js"/>
-  <property name="js.file" value="${js.dir}/script-min.js"/>
 
   <target name="init" depends="">
+    <!-- Let the user override propeties -->
+    <!-- See http://ant.apache.org/manual/Tasks/property.html -->
+    <property file="./build.properties"/>
     <mkdir dir="${lib.dir}"/>
     <mkdir dir="${lib.build.dir}"/>
     <mkdir dir="${lib.jetty.dir}"/>
     <mkdir dir="${target.dir}"/>
+    <mkdir dir="${js.target.dir}"/>
     <!-- Created by git, if git is used
     <mkdir dir="${lib.sass.dir}"/>
     -->
@@ -140,6 +154,13 @@ ant
       classpathref="antcontrib.plugin.classpath"/>
   </target>
 
+  <target name="yui.install" depends="maven.download">
+    <artifact:dependencies pathId="yui.plugin.classpath">
+      <dependency groupId="com.yahoo.platform.yui" artifactId="yuicompressor"
+        version="${yui.version}"/>
+    </artifact:dependencies>
+  </target>
+
   <target name="jetty.download" depends="maven.download">
     <artifact:dependencies filesetId="jetty.local.files" pathId="jetty.plugin.classpath">
       <dependency groupId="org.mortbay.jetty" artifactId="jetty-ant" version="7.6.0.v20120127"/>
@@ -150,11 +171,6 @@ ant
       <fileset refid="jetty.local.files"/>
       <mapper type="flatten"/>
     </copy>
-    <!--
-    <path id="jetty.plugin.classpath">
-      <fileset dir="${lib.jetty.dir}" includes="*.jar"/>
-    </path>
-    -->
     <taskdef classpathref="jetty.plugin.classpath" resource="tasks.properties"
       loaderref="jetty.loader"/>
     <typedef name="selectChannelConnector"
@@ -173,42 +189,29 @@ ant
       classpathref="jgit.plugin.classpath"/>
   </target>
 
-  <!-- This should be done via Git -->
+  <!-- TODO: This should be done via Git -->
   <target name="envjs.download" unless="skip.download" depends="init">
     <get src="${lib.envjs.download.url}" dest="${lib.envjs.local}" usetimestamp="true"/>
     <unzip src="${lib.envjs.local}" dest="${lib.envjs.dir}"/>
   </target>
 
-  <target name="yui.install" depends="maven.download">
-    <artifact:dependencies pathId="yui.plugin.classpath">
-      <dependency groupId="com.yahoo.platform.yui" artifactId="yuicompressor"
-        version="${yui.version}"/>
-    </artifact:dependencies>
-  </target>
-
   <target name="rhino.install" depends="maven.download">
-    <property name="rhiro.version" value="1.7R4"/>
-    <artifact:dependencies pathId="rhino.plugin.classpath" filesetId="rhino.local.classpath">
+    <artifact:dependencies pathId="rhino.plugin.classpath" filesetId="rhino.local.files">
       <dependency groupId="org.mozilla" artifactId="rhino" version="${rhiro.version}"> </dependency>
     </artifact:dependencies>
   </target>
 
   <target name="php.install" depends="maven.download">
-    <artifact:dependencies pathId="quercus.plugin.classpath" filesetId="quercus.local.classpath">
+    <artifact:dependencies pathId="quercus.plugin.classpath" filesetId="quercus.local.files">
       <artifact:remoteRepository id="quercus" url="http://repository.threecrickets.com/maven/"/>
       <dependency groupId="com.caucho" artifactId="quercus" version="${quercus.version}">
         <exclusion groupId="javax" artifactId="javaee-api"/>
       </dependency>
     </artifact:dependencies>
     <copy todir="${lib.quercus.dir}">
-      <fileset refid="quercus.local.classpath"/>
+      <fileset refid="quercus.local.files"/>
       <mapper type="flatten"/>
     </copy>
-    <!--
-    <path id="quercus.plugin.classpath">
-      <fileset dir="${lib.quercus.dir}" includes="*.jar"/>
-    </path>
-    -->
   </target>
 
   <!-- SASS Stuff, we have two methods, via Git or Ruby Gem, the first one was easier to set up, the last one has more features.
@@ -310,7 +313,9 @@ ant
   </target>
 
   <target name="clean">
+    <!--
     <delete dir="${lib.dir}"/>
+    -->
     <delete dir="${target.dir}"/>
   </target>
 
@@ -331,7 +336,7 @@ ant
     <property name="war.dir.css.dir" value="${war.dir}/${css.dir}"/>
     <property name="war.dir.css.file" value="${war.dir}/${css.file}"/>
     <property name="war.dir.js.dir" value="${war.dir}/${js.dir}"/>
-    <property name="war.dir.js.file" value="${war.dir}/${js.file}"/>
+    <property name="war.dir.js.file" value="${war.dir.js.dir}/${js.merged.file}"/>
 
     <mkdir dir="${war.dir}"/>
     <mkdir dir="${war.dir.lib}"/>
@@ -356,28 +361,26 @@ ant
   <!-- This currently only a demo, need to check dependencies first -->
   <target name="war.js" depends="war.js.dependencies, yui.install, war.structure">
     <!-- See http://www.samaxes.com/2009/05/combine-and-minimize-javascript-and-css-files-for-faster-loading/ -->
-    <concat destfile="${js.file}">
-      <fileset dir="${js.dir}" includes="Indices.js"/>
-      <fileset dir="${js.dir}" includes="Scripts.js"/>
-      <fileset dir="${js.dir}" includes="script.js"/>
+    <concat destfile="${js.target.file}">
+      <fileset dir="${js.dir}" includes="*.js"/>
     </concat>
     <java classname="com.yahoo.platform.yui.compressor.YUICompressor" fork="true" dir="."
       classpathref="yui.plugin.classpath">
       <arg value="--type"/>
       <arg value="js"/>
-      <arg value="${js.file}"/>
+      <arg value="${js.target.file}"/>
       <arg value="-o"/>
       <arg value="${war.dir.js.file}"/>
     </java>
   </target>
 
   <!-- http://www.webjars.org/ -->
-  <target name="war.js.dependencies" depends="war.structure">
+  <target name="war.js.dependencies" depends="maven.download, war.structure">
     <property name="war.dir.js.dir.lib" value="${war.dir.js.dir}/libs"/>
     <artifact:dependencies filesetId="war.js.files">
       <dependency groupId="org.webjars" artifactId="jquery" version="1.8.3"/>
     </artifact:dependencies>
-
+    <!-- TODO: find a suitable mechanism for dependencies -->
 
   </target>
 
@@ -428,7 +431,7 @@ ant
         <!-- Change to merged JS file -->
         <tokenfilter>
           <replacestring from="&lt;script src=&quot;./js/script.js&quot;&gt;&lt;/script&gt;"
-            to="&lt;script src=&quot;./js/script-min.js&quot;&gt;&lt;/script&gt;"/>
+            to="&lt;script src=&quot;${js.dir}/${js.merged.file}&quot;&gt;&lt;/script&gt;"/>
         </tokenfilter>
         <!-- Rewrite relocations -->
         <!-- This section is currently empty -->
@@ -441,8 +444,13 @@ ant
           />
         </tokenfilter>
       </filterchain>
-
     </copy>
+  </target>
+
+  <target name="war" depends="war.content, war.css, war.dependencies">
+    <war destfile="${war.file}" webxml="${war.dir}/WEB-INF/web.xml">
+      <fileset dir="${war.dir}"/>
+    </war>
   </target>
 
   <!-- This can be used to test the constructed war file -->
@@ -455,11 +463,7 @@ ant
     </jetty>
   </target>
 
-  <target name="war" depends="war.content, war.css, war.js, war.dependencies">
-    <war destfile="${war.file}" webxml="${war.dir}/WEB-INF/web.xml">
-      <fileset dir="${war.dir}"/>
-    </war>
-  </target>
+  <!-- SASS Stuff -->
 
   <target name="scss.compile" depends="sass.download.gem, antcontrib.install">
     <foreach target=".scss.compile" param="scss.file">
@@ -506,7 +510,7 @@ ant
     </java>
   </target>
 
-  <!-- The PHP Compiler stuff -->
+  <!-- The PHP compiler stuff -->
 
   <target name="php.compile" depends="php.install, jetty.download, antcontrib.install">
     <mkdir dir="${html.dir}"/>
@@ -555,7 +559,17 @@ ant
 
   <!-- Java Script compiler -->
   <!-- See https://developer.mozilla.org/en-US/docs/Rhino/Shell -->
+  <!-- See http://www.envjs.com/doc/guides -->
+  <target name="js.compile" depends="rhino.install">
+    <java classname="org.mozilla.javascript.tools.shell.Main" classpathref="rhino.plugin.classpath"
+      outputproperty="compiler.output">
+    </java>
+    
+  </target>
 
+  <!-- Meta targets -->
   <target name="serve" depends="scss.compile.watch, jetty.start"/>
+  <target name="devel" depends="serve"/>
+  <target name="all.static" depends="clean, war, php.compile"></target>
 
 </project>
