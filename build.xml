@@ -67,16 +67,15 @@ ant
   <property name="js.merged.file" value="script.js"/>
   <property name="js.target.dir" value="${target.dir}/${js.dir}"/>
   <property name="js.target.file" value="${js.target.dir}/${js.merged.file}"/>
-  
   <!--
   <property name="js.file" value="${js.dir}/script-min.js"/>
 -->
   
   <!-- Env JS -->
-  <property name="lib.envjs.download.url" value="http://github.com/thatcher/env-js/zipball/1.2.13"/>
-  <property name="lib.envjs.git.url" value="https://github.com/envjs/env-js.git"></property>
+  <property name="lib.envjs.download.url" value="http://www.envjs.com/dist/env.rhino.1.2.js"/>
+  <property name="lib.envjs.git.url" value="https://github.com/envjs/env-js.git"/>
   <property name="lib.envjs.dir" value="${lib.dir}/envjs"/>
-  <property name="lib.envjs.local" value="${lib.envjs.dir}/env-js-1.2.1.zip"/>
+  <property name="lib.envjs.local" value="${lib.envjs.dir}/env.rhino.1.2.js"/>
   <property name="rhiro.version" value="1.7R4"/>
 
   <!-- PHP stuff -->
@@ -119,6 +118,7 @@ ant
     <mkdir dir="${lib.jruby.dir}"/>
     <mkdir dir="${lib.quercus.dir}"/>
     <mkdir dir="${jetty.dir.tmp}"/>
+    <mkdir dir="${lib.envjs.dir}"/>
   </target>
 
   <!-- Download of dependencies of the build system -->
@@ -192,7 +192,6 @@ ant
   <!-- TODO: This should be done via Git -->
   <target name="envjs.download" unless="skip.download" depends="init">
     <get src="${lib.envjs.download.url}" dest="${lib.envjs.local}" usetimestamp="true"/>
-    <unzip src="${lib.envjs.local}" dest="${lib.envjs.dir}"/>
   </target>
 
   <target name="rhino.install" depends="maven.download">
@@ -361,8 +360,11 @@ ant
   <!-- This currently only a demo, need to check dependencies first -->
   <target name="war.js" depends="war.js.dependencies, yui.install, war.structure">
     <!-- See http://www.samaxes.com/2009/05/combine-and-minimize-javascript-and-css-files-for-faster-loading/ -->
+    <!-- See also https://github.com/yui/yuicompressor/blob/master/build.xml -->
     <concat destfile="${js.target.file}">
-      <fileset dir="${js.dir}" includes="*.js"/>
+      <fileset dir="${js.dir}" includes="*.js">
+        <exclude name="plugins.js"/>
+      </fileset>
     </concat>
     <java classname="com.yahoo.platform.yui.compressor.YUICompressor" fork="true" dir="."
       classpathref="yui.plugin.classpath">
@@ -557,13 +559,42 @@ ant
       message="${compiler.output}"/>
   </target>
 
+  <target name="js.setup" depends="php.compile">
+    <copy todir="${html.dir}">
+      <fileset dir=".">
+        <include name="**/*.js"/>
+        <exclude name="target/**/*.*"/>
+        <exclude name="build/**/*.*"/>
+      </fileset>
+    </copy>
+  </target>
+
   <!-- Java Script compiler -->
   <!-- See https://developer.mozilla.org/en-US/docs/Rhino/Shell -->
   <!-- See http://www.envjs.com/doc/guides -->
-  <target name="js.compile" depends="rhino.install">
+  <target name="js.compile" depends="rhino.install, js.setup, envjs.download">
     <java classname="org.mozilla.javascript.tools.shell.Main" classpathref="rhino.plugin.classpath"
-      outputproperty="compiler.output">
+      outputproperty="compiler.output" fork="true">
+      <!-- See http://www.coderanch.com/t/108033/tools/xms-xmx-arguments-ant-don -->
+      <jvmarg value="-Xmx512M"/>  
+      <arg value="-opt"/>
+      <arg value="-1"/>
+      <arg value="-e"/>
+      <arg value="load('${lib.envjs.local}')"/>
+      <arg value="-e"/>
+      <arg value="window.location = '${html.dir}/handschriften.html';"/>
     </java>
+    <!-- TODO
+    * Parse HTML and get a DOM after the script executes
+    * Walk the document nodes for event attributes (on* like onclick)
+    ** Create a id of the node
+    ** Wrap node in <a> tag with special style, mybe the one of the node itself
+    ** add a href attribute containing the id to the a tag
+    * Walk <a>'s witch href Attribustes start with javascript
+    ** Create a id of the node
+    ** change the href attribute containing the id to the a tag
+    -->
+    
     
   </target>
 
