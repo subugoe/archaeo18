@@ -70,7 +70,7 @@ ant
   <!--
   <property name="js.file" value="${js.dir}/script-min.js"/>
 -->
-  
+
   <!-- Env JS -->
   <property name="lib.envjs.download.url" value="http://www.envjs.com/dist/env.rhino.1.2.js"/>
   <property name="lib.envjs.git.url" value="https://github.com/envjs/env-js.git"/>
@@ -102,6 +102,8 @@ ant
 
   <!-- YUI -->
   <property name="yui.version" value="2.4.7"/>
+
+  <!-- Experimental compass settings -->
 
   <target name="init" depends="">
     <!-- Let the user override propeties -->
@@ -213,6 +215,23 @@ ant
     </copy>
   </target>
 
+  <!-- Ruby Setup -->
+  <!-- This is need, since the class library of ruby isn't found, if started from jar file -->
+  <target name="jruby.home" depends="sass.check.gem.return" unless="sass.gem.exists">
+    <mkdir dir="${jruby.home}"/>
+    <!-- /META-INF/jruby.home/ -->
+    <unzip dest="${jruby.home}">
+      <patternset>
+        <include name="META-INF/jruby.home/**/*.*"/>
+      </patternset>
+      <fileset dir="${lib.jruby.dir}">
+        <include name="jruby-complete-*.jar"/>
+      </fileset>
+      <!-- See http://ant.apache.org/manual/Types/mapper.html -->
+      <cutdirsmapper dirs="2"/>
+    </unzip>
+  </target>
+
   <!-- SASS Stuff, we have two methods, via Git or Ruby Gem, the first one was easier to set up, the last one has more features.
        Git based integration isn't used anymore, just still here for reference.
   -->
@@ -253,22 +272,6 @@ ant
     </condition>
   </target>
 
-  <!-- This is need, since the class library of ruby isn't found, if started from jar file -->
-  <target name="jruby.home" depends="sass.check.gem.return" unless="sass.gem.exists">
-    <mkdir dir="${jruby.home}"/>
-    <!-- /META-INF/jruby.home/ -->
-    <unzip dest="${jruby.home}">
-      <patternset>
-        <include name="META-INF/jruby.home/**/*.*"/>
-      </patternset>
-      <fileset dir="${lib.jruby.dir}">
-        <include name="jruby-complete-*.jar"/>
-      </fileset>
-      <!-- See http://ant.apache.org/manual/Types/mapper.html -->
-      <cutdirsmapper dirs="2"/>
-    </unzip>
-  </target>
-
   <target name="sass.download.gem" depends="jruby.home" unless="sass.gem.exists">
     <!-- See http://sass-lang.com/tutorial.html -->
     <!-- See http://kenai.com/projects/jruby/pages/GettingStarted#How_Do_I_Run_rake,_gem,_etc? -->
@@ -281,6 +284,45 @@ ant
       <arg value="gem"/>
       <arg value="install"/>
       <arg value="sass"/>
+    </java>
+  </target>
+
+  <!-- Experimental compass stuff, just a clone off Sass -->
+  
+  <target name="compass.check.gem" depends="jruby.download">
+    <!-- Process returns 0 if sass is installed, 1 otherwise -->
+    <java classname="org.jruby.Main" fork="true" dir="." failonerror="false"
+      resultproperty="compass.check.gem.return.code">
+      <sysproperty key="jruby.home" value="${jruby.home}"/>
+      <classpath>
+        <fileset dir="${lib.jruby.dir}" includes="*.jar"/>
+      </classpath>
+      <arg value="-e"/>
+      <arg value="require 'rubygems'"/>
+      <arg value="-e"/>
+      <arg value="Gem::Specification.find_by_name('compass').nil? ? abort : exit"/>
+      <arg value=""/>
+    </java>
+  </target>
+
+  <target name="compass.check.gem.return" depends="compass.check.gem">
+    <condition property="compass.gem.exists">
+      <equals arg1="${compass.check.gem.return.code}" arg2="0"/>
+    </condition>
+  </target>
+  
+  <target name="compass.download.gem" depends="jruby.home" unless="compass.gem.exists">
+    <!-- See http://sass-lang.com/tutorial.html -->
+    <!-- See http://kenai.com/projects/jruby/pages/GettingStarted#How_Do_I_Run_rake,_gem,_etc? -->
+    <java classname="org.jruby.Main" fork="true" dir=".">
+      <sysproperty key="jruby.home" value="${jruby.home}"/>
+      <classpath>
+        <fileset dir="${lib.jruby.dir}" includes="*.jar"/>
+      </classpath>
+      <arg value="-S"/>
+      <arg value="gem"/>
+      <arg value="install"/>
+      <arg value="compass"/>
     </java>
   </target>
 
@@ -576,7 +618,7 @@ ant
     <java classname="org.mozilla.javascript.tools.shell.Main" classpathref="rhino.plugin.classpath"
       outputproperty="compiler.output" fork="true">
       <!-- See http://www.coderanch.com/t/108033/tools/xms-xmx-arguments-ant-don -->
-      <jvmarg value="-Xmx512M"/>  
+      <jvmarg value="-Xmx512M"/>
       <arg value="-opt"/>
       <arg value="-1"/>
       <arg value="-e"/>
@@ -594,13 +636,13 @@ ant
     ** Create a id of the node
     ** change the href attribute containing the id to the a tag
     -->
-    
-    
+
+
   </target>
 
   <!-- Meta targets -->
   <target name="serve" depends="scss.compile.watch, jetty.start"/>
   <target name="devel" depends="serve"/>
-  <target name="all.static" depends="clean, war, php.compile"></target>
+  <target name="all.static" depends="clean, war, php.compile"/>
 
 </project>
