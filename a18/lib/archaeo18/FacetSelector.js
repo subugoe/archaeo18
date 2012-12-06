@@ -19,7 +19,8 @@ function FacetSelector(div){
 		$(entry).css('color',facet.color);
 		$(entry).css('margin-left','5px');
 		$(entry).css('margin-right','5px');
-		$(entry).css('display','inline-block');
+		//$(entry).css('display','inline-block');
+		$(entry).css('display','inline');
 		facetSelection.push(false);
 		checkboxes.push(checkbox);
 		checkbox.click(function(){
