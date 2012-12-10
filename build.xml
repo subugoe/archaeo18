@@ -37,6 +37,8 @@ ant
   <!-- Test data -->
   <property name="test.dir" value="./testdata"/>
   <property name="data.download.dir.indices" value="${test.dir}/indices"/>
+  <property name="data.download.dir.kml" value="${test.dir}/kml"/>
+  <property name="data.download.dir.cloud" value="${test.dir}/cloud"/>
 
   <!-- Patches -->
   <property name="patch.dir" value="${test.dir}/patches"/>
@@ -61,6 +63,26 @@ ant
     value="${data.download.dir.indices}/listEntities.xq$facet=tei:term&amp;format=xhtml"/>
   <property name="exist.entities.bibl.local"
     value="${data.download.dir.indices}/listEntities.xq$facet=tei:bibl&amp;format=xhtml"/>
+
+  <!-- KML data download -->
+  <property name="exist.kml.url"
+    value="${exist.queries.url}/experimental/listEntities.xq?format=kml&amp;facet="/>
+  <property name="exist.kml.placeName.url" value="${exist.kml.url}tei:placeName"/>
+  <property name="exist.kml.placeName.local"
+    value="${data.download.dir.kml}/listEntities.xq$facet=tei:placeName&amp;format=kml"/>
+  <!-- cloud data download -->
+  <property name="exist.cloud.url"
+    value="${exist.queries.url}/experimental/listEntities.xq?format=cloud&amp;facet="/>
+  <property name="exist.cloud.persName.url" value="${exist.cloud.url}persName"/>
+  <property name="exist.cloud.placeName.url" value="${exist.cloud.url}tei:placeName"/>
+  <property name="exist.cloud.term.url" value="${exist.cloud.url}tei:term"/>
+  <property name="exist.cloud.persName.local"
+    value="${data.download.dir.cloud}/listEntities.xq$facet=tei:persName&amp;format=cloud"/>
+  <property name="exist.cloud.placeName.local"
+    value="${data.download.dir.cloud}/listEntities.xq$facet=tei:placeName&amp;format=cloud"/>
+  <property name="exist.cloud.term.local"
+    value="${data.download.dir.cloud}/listEntities.xq$facet=tei:term&amp;format=cloud"/>
+
 
   <!-- JavaScript Stuff -->
   <property name="js.dir" value="./js"/>
@@ -361,8 +383,20 @@ ant
   </target>
 
   <!-- Downloads the test data from eXist -->
+  <!-- TODO: Downlaod KML and Cloud data as well -->
+  <target name="data.download" depends="data.download.entities, data.download.kml, data.download.cloud"></target>
+  
+  <target name="data.download.kml">
+    <get src="${exist.kml.placeName.url}" dest="${exist.kml.placeName.local}"/>
+  </target>
+  
+  <target name="data.download.cloud">
+    <get src="${exist.cloud.persName.url}" dest="${exist.cloud.persName.local}"/>
+    <get src="${exist.cloud.placeName.url}" dest="${exist.cloud.placeName.local}"/>
+    <get src="${exist.cloud.term.url}" dest="${exist.cloud.term.local}"/>
+  </target>
 
-  <target name="data.download">
+  <target name="data.download.entities">
     <get src="${exist.entities.persName.url}" dest="${exist.entities.persName.local}"/>
     <get src="${exist.entities.placeName.url}" dest="${exist.entities.placeName.local}"/>
     <get src="${exist.entities.term.url}" dest="${exist.entities.term.local}"/>
