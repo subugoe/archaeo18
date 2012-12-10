@@ -50,7 +50,7 @@ ant
     value="${exist.queries.url}/experimental/listEntities.xq?format=xhtml&amp;facet="/>
 
   <!-- Test data for the indices  page and their local names -->
-  <property name="exist.entities.persName.url" value="${exist.entities.url}persName"/>
+  <property name="exist.entities.persName.url" value="${exist.entities.url}tei:persName"/>
   <property name="exist.entities.placeName.url" value="${exist.entities.url}tei:placeName"/>
   <property name="exist.entities.term.url" value="${exist.entities.url}tei:term"/>
   <property name="exist.entities.bibl.url" value="${exist.entities.url}tei:bibl"/>
@@ -73,7 +73,7 @@ ant
   <!-- cloud data download -->
   <property name="exist.cloud.url"
     value="${exist.queries.url}/experimental/listEntities.xq?format=cloud&amp;facet="/>
-  <property name="exist.cloud.persName.url" value="${exist.cloud.url}persName"/>
+  <property name="exist.cloud.persName.url" value="${exist.cloud.url}tei:persName"/>
   <property name="exist.cloud.placeName.url" value="${exist.cloud.url}tei:placeName"/>
   <property name="exist.cloud.term.url" value="${exist.cloud.url}tei:term"/>
   <property name="exist.cloud.persName.local"
