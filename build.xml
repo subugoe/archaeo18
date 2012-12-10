@@ -106,10 +106,19 @@ ant
   <property name="php.dir" value="."/>
   <property name="html.dir" value="${target.dir}/html"/>
   <property name="html.suffix" value=".html"/>
+  <!-- Tiny PNG and images -->
+  <property name="img.dir" value="./img"/>
+  <property name="tinypng.endpoint" value="http://api.tinypng.org/api/shrink"/>
+  <property name="tinypng.apikey" value="aLqbWi6VBpKM3rGvFVw2W4TTVPFrSEEP"/>
+  <property name="img.tiny.dir" value="${target.dir}/img"/>
 
   <!-- Ant contrib -->
   <property name="antcontrib.version" value="1.0b3"/>
 
+  <!-- HTTP Client for Ant -->
+  <property name="ant.http.task.url"
+    value="http://missing-link.googlecode.com/files/ml-ant-http-1.1.3.zip"/>
+  <property name="ant.http.task.file" value="${lib.build.dir}/ml-ant-http-1.1.3.zip"/>
   <!-- JGit integration -->
   <property name="jgit.version" value="2.1.0.201209190230-r"/>
 
@@ -143,18 +152,37 @@ ant
     <mkdir dir="${lib.quercus.dir}"/>
     <mkdir dir="${jetty.dir.tmp}"/>
     <mkdir dir="${lib.envjs.dir}"/>
+    <mkdir dir="${img.tiny.dir}"/>
   </target>
 
   <!-- Download of dependencies of the build system -->
 
   <target name="maven.download" unless="skip.download" depends="init">
-    <echo message="Downloading and installing maven..."/>
+    <echo message="Downloading and installing Maven..."/>
     <get src="${maven.download.url}" dest="${maven.jar.file}" usetimestamp="true"/>
     <path id="maven.lib.path">
       <fileset dir="${lib.build.dir}" includes="*.jar"/>
     </path>
     <taskdef uri="antlib:org.apache.maven.artifact.ant"
       resource="org/apache/maven/artifact/ant/antlib.xml" classpathref="maven.lib.path"/>
+  </target>
+
+  <target name="ant.http.task.download" depends="init">
+    <echo message="Downloading and installing Ant HTTP Tasks..."/>
+    <get src="${ant.http.task.url}" dest="${ant.http.task.file}" usetimestamp="true"/>
+    <unzip src="${ant.http.task.file}" dest="${lib.build.dir}">
+      <patternset>
+        <include name="*.jar"/>
+      </patternset>
+    </unzip>
+    <path id="ant.http.task.classpath">
+      <fileset dir="${lib.build.dir}">
+        <include name="*.jar"/>
+      </fileset>
+    </path>
+    <taskdef name="http" classname="org.missinglink.ant.task.http.HttpClientTask">
+      <classpath refid="ant.http.task.classpath"/>
+    </taskdef>
   </target>
 
   <target name="jruby.download" depends="maven.download">
@@ -170,7 +198,7 @@ ant
     </path>
   </target>
 
-  <target name="antcontrib.install">
+  <target name="antcontrib.install" depends="maven.download">
     <artifact:dependencies pathId="antcontrib.plugin.classpath">
       <dependency groupId="ant-contrib" artifactId="ant-contrib" version="${antcontrib.version}"/>
     </artifact:dependencies>
@@ -310,7 +338,7 @@ ant
   </target>
 
   <!-- Experimental compass stuff, just a clone off Sass -->
-  
+
   <target name="compass.check.gem" depends="jruby.download">
     <!-- Process returns 0 if sass is installed, 1 otherwise -->
     <java classname="org.jruby.Main" fork="true" dir="." failonerror="false"
@@ -332,7 +360,7 @@ ant
       <equals arg1="${compass.check.gem.return.code}" arg2="0"/>
     </condition>
   </target>
-  
+
   <target name="compass.download.gem" depends="jruby.home" unless="compass.gem.exists">
     <!-- See http://sass-lang.com/tutorial.html -->
     <!-- See http://kenai.com/projects/jruby/pages/GettingStarted#How_Do_I_Run_rake,_gem,_etc? -->
@@ -384,12 +412,13 @@ ant
 
   <!-- Downloads the test data from eXist -->
   <!-- TODO: Downlaod KML and Cloud data as well -->
-  <target name="data.download" depends="data.download.entities, data.download.kml, data.download.cloud"></target>
-  
+  <target name="data.download"
+    depends="data.download.entities, data.download.kml, data.download.cloud"/>
+
   <target name="data.download.kml">
     <get src="${exist.kml.placeName.url}" dest="${exist.kml.placeName.local}"/>
   </target>
-  
+
   <target name="data.download.cloud">
     <get src="${exist.cloud.persName.url}" dest="${exist.cloud.persName.local}"/>
     <get src="${exist.cloud.placeName.url}" dest="${exist.cloud.placeName.local}"/>
@@ -643,6 +672,47 @@ ant
         <exclude name="build/**/*.*"/>
       </fileset>
     </copy>
+  </target>
+
+  <target name="compress.images" depends="ant.http.task.download, antcontrib.install">
+    <foreach target=".compress.images" param="png.file">
+      <path>
+        <fileset dir="${img.dir}" casesensitive="yes" includes="*.png"/>
+      </path>
+    </foreach>
+  </target>
+
+  <target name=".compress.images">
+    <propertyregex property="png.out.file" input="${png.file}" regexp="(.*)[\\/](.*)\.png"
+      select="./\2.png" casesensitive="false"/>
+    <property name="img.out" value="${img.tiny.dir}/${png.out.file}"/>
+    <!-- 
+    Here is an API key for you to use:
+    aLqbWi6VBpKM3rGvFVw2W4TTVPFrSEEP
+
+    We have some documentation about our API at:
+    https://gist.github.com/1eef650dcfb1609931fc
+
+    The key is valid for one year. There are no limits attached to the API. Feel free to use it to convert a large number of images but keep in mind the service is paid for entirely by donations.
+    -->
+    <http url="${tinypng.endpoint}" method="POST" entityProperty="json.result">
+      <credentials username="api" password="${tinypng.apikey}"/>
+      <entity file="${png.file}" binary="true"/>
+    </http>
+    <!-- Now it get's really ugly - this will fail on Ant below 1.7 or if you are still on Java 5 or earlier -->
+    <!-- We use the embeded JS Runtime from newer Java versions to decode the JSON Snippet -->
+    <!-- Stolen from
+    http://jeffreysambells.com/2012/02/20/using-javascript-to-parse-json-properties-with-ant
+    http://ant.apache.org/manual/Tasks/script.html
+    -->
+    <script language="javascript">
+      <![CDATA[
+      resultJson = project.getProperty("json.result");
+      var struct = eval("(" + resultJson + ")");
+      project.setProperty("tinypng.result.url", struct.output.url);
+    ]]></script>
+    <echo message="Result is at ${tinypng.result.url}, will be saved as ${img.out}"/>
+    <get src="${tinypng.result.url}" dest="${img.out}" usetimestamp="true"/>
   </target>
 
   <!-- Java Script compiler -->
