@@ -116,6 +116,7 @@ ant
   <property name="antcontrib.version" value="1.0b3"/>
 
   <!-- HTTP Client for Ant -->
+  <!-- See http://missinglinkcode.wordpress.com/2011/03/15/apache-ant-http-task/ -->
   <property name="ant.http.task.url"
     value="http://missing-link.googlecode.com/files/ml-ant-http-1.1.3.zip"/>
   <property name="ant.http.task.file" value="${lib.build.dir}/ml-ant-http-1.1.3.zip"/>
