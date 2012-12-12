@@ -768,20 +768,7 @@ header {
     border-radius: 4px;
     padding: 4px;
     margin: 0 4px 4px 4px;
-    box-shadow: inset 0px 0px 1px 0px #666666;
-    /* 			.windowstools { */
-    /*
-    				li {
-    					&:hover {
-    						.tools-link { background-image: url('../img/edition-window-tools-link-hover.png'); }
-    					}
-    					.tools-link {
-    						background-image: url('../img/edition-window-tools-link.png'); 
-    						&.active { background-image: url('../img/edition-window-tools-unlink.png'); }
-    					}
-    				}
-    */
-    /* 			} */ }
+    box-shadow: inset 0px 0px 1px 0px #666666; }
     .edition .window .inner .resize {
       float: right;
       cursor: pointer; }
@@ -822,6 +809,22 @@ header {
           background-image: url("../img/edition-window-tools-map-hover.png"); }
         .edition .window .inner .pagination li:hover .tools-tags {
           background-image: url("../img/edition-window-tools-tags-hover.png"); }
+        .edition .window .inner .pagination li:active .tools-list {
+          background-image: url("../img/edition-window-tools-list-active.png"); }
+        .edition .window .inner .pagination li:active .tools-txt {
+          background-image: url("../img/edition-window-tools-txt-active.png"); }
+        .edition .window .inner .pagination li:active .tools-img {
+          background-image: url("../img/edition-window-tools-img-active.png"); }
+        .edition .window .inner .pagination li:active .tools-onepage {
+          background-image: url("../img/edition-window-tools-onepage-active.png"); }
+        .edition .window .inner .pagination li:active .tools-images {
+          background-image: url("../img/edition-window-tools-images-active.png"); }
+        .edition .window .inner .pagination li:active .tools-tei {
+          background-image: url("../img/edition-window-tools-tei-active.png"); }
+        .edition .window .inner .pagination li:active .tools-map {
+          background-image: url("../img/edition-window-tools-map-active.png"); }
+        .edition .window .inner .pagination li:active .tools-tags {
+          background-image: url("../img/edition-window-tools-tags-active.png"); }
         .edition .window .inner .pagination li .tools-list {
           background-image: url("../img/edition-window-tools-list.png"); }
           .edition .window .inner .pagination li .tools-list.active {
@@ -861,12 +864,26 @@ header {
         margin: 0 0px 0 0;
         width: 25px;
         cursor: pointer; }
-    .edition .window .inner li .tools-link {
-      background-image: url("../img/edition-window-tools-link.png"); }
     .edition .window .inner li:hover .tools-link {
       background-image: url("../img/edition-window-tools-link-hover.png"); }
-    .edition .window .inner li .tools-link.active {
-      background-image: url("../img/edition-window-tools-unlink.png"); }
+    .edition .window .inner li:hover .tools-pdf {
+      background-image: url("../img/edition-window-tools-pdf-hover.png"); }
+    .edition .window .inner li:hover .tools-dfg {
+      background-image: url("../img/edition-window-tools-dfg-hover.png"); }
+    .edition .window .inner li:active .tools-link {
+      background-image: url("../img/edition-window-tools-link.png"); }
+    .edition .window .inner li:active .tools-pdf {
+      background-image: url("../img/edition-window-tools-pdf.png"); }
+    .edition .window .inner li:active .tools-dfg {
+      background-image: url("../img/edition-window-tools-dfg.png"); }
+    .edition .window .inner li .tools-link {
+      background-image: url("../img/edition-window-tools-link.png"); }
+      .edition .window .inner li .tools-link.active {
+        background-image: url("../img/edition-window-tools-unlink.png"); }
+    .edition .window .inner li .tools-pdf {
+      background-image: url("../img/edition-window-tools-pdf.png"); }
+    .edition .window .inner li .tools-dfg {
+      background-image: url("../img/edition-window-tools-dfg.png"); }
     .edition .window .inner li .tools-paginationforward {
       background-image: url("../img/edition-window-pagination-forward.png"); }
     .edition .window .inner li:hover .tools-paginationforward {
@@ -879,12 +896,6 @@ header {
       background-image: url("../img/edition-window-pagination-backward-hover.png"); }
     .edition .window .inner li .tools-paginationbackward-disabled {
       background-image: url("../img/edition-window-pagination-backward.png"); }
-    .edition .window .inner li .tools-pdf {
-      background-image: url("../img/edition-window-tools-pdf.png"); }
-    .edition .window .inner li:hover .tools-pdf {
-      background-image: url("../img/edition-window-tools-pdf-hover.png"); }
-    .edition .window .inner li .tools-pdf-active {
-      background-image: url("../img/edition-window-tools-pdf-active.png"); }
     .edition .window .inner li .tools-doublepage {
       background-image: url("../img/edition-window-tools-doublepage.png"); }
     .edition .window .inner li:hover .tools-doublepage {
@@ -897,20 +908,12 @@ header {
       background-image: url("../img/edition-window-tools-highlight-hover.png"); }
     .edition .window .inner li .tools-highlight-active {
       background-image: url("../img/edition-window-tools-highlight-active.png"); }
-    .edition .window .inner li:hover .tools-link-active {
-      background-image: url("../img/edition-window-tools-unlink-hover.png"); }
     .edition .window .inner li .tools-linecount {
       background-image: url("../img/edition-window-tools-linecount.png"); }
     .edition .window .inner li:hover .tools-linecount {
       background-image: url("../img/edition-window-tools-linecount-hover.png"); }
     .edition .window .inner li .tools-linecount-active {
       background-image: url("../img/edition-window-tools-linecount-active.png"); }
-    .edition .window .inner li .tools-dfg {
-      background-image: url("../img/edition-window-tools-dfg.png"); }
-    .edition .window .inner li:hover .tools-dfg {
-      background-image: url("../img/edition-window-tools-dfg-hover.png"); }
-    .edition .window .inner li .tools-dfg-active {
-      background-image: url("../img/edition-window-tools-dfg-active.png"); }
     .edition .window .inner li .tools-maximize {
       background-image: url("../img/edition-window-tools-maximize.png"); }
     .edition .window .inner li:hover .tools-maximize {
@@ -966,7 +969,7 @@ footer {
   background-image: url("../img/footer-border-top.png");
   background-repeat: repeat-x;
   color: white;
-  height: 215px; }
+  height: 315px; }
   footer a, footer a:hover, footer a:visited {
     color: white; }
   footer .wrap {
@@ -997,6 +1000,13 @@ footer {
       padding: 0 20px 20px 20px;
       border-radius: 0 8px 0 0;
       float: left;
+      display: inline; }
+  footer .logos {
+    /*float: left;*/
+    list-style-type: none;
+    text-align: left;
+    padding: 0; }
+    footer .logos li {
       display: inline; }
 
 .button-alpha {

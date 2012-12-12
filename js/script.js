@@ -24,9 +24,11 @@ $('.header-button-close').click(function() {
 
 /* SET FOOTER DIV HEIGHT */
 
+
 $('footer .wrap div:first-child').height(215);
-$('footer .wrap div:nth-child(2)').height(125);
-$('footer .wrap div:nth-child(3)').height(105);
+$('footer .wrap div:nth-child(2)').height(126);
+$('footer .wrap div:nth-child(3)').height(106);
+/*$('footer .wrap div:nth-child(4)').height(50);*/
 
 /* SET FOOTER DIV HEIGHT (end) */
 

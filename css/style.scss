@@ -18,6 +18,7 @@ $color-content-img-frame-style1: rgb(102, 102, 102);
 $color-content-img-frame-style2: rgb(230, 224, 209);
 $color-content-img-frame-style3: rgb(204, 204, 204);
 $borderradius-footer: 8px;
+$path-img: '../img/';
 
 /* Vars (End) */
 
@@ -674,6 +675,16 @@ header {
 						.tools-map { background-image: url('../img/edition-window-tools-map-hover.png'); }
 						.tools-tags { background-image: url('../img/edition-window-tools-tags-hover.png'); }
 					}
+					&:active {
+						.tools-list {	background-image: url('../img/edition-window-tools-list-active.png'); }
+						.tools-txt { background-image: url('../img/edition-window-tools-txt-active.png'); }
+						.tools-img { background-image: url('../img/edition-window-tools-img-active.png'); }
+						.tools-onepage { background-image: url('../img/edition-window-tools-onepage-active.png'); }
+						.tools-images { background-image: url('../img/edition-window-tools-images-active.png'); }
+						.tools-tei { background-image: url('../img/edition-window-tools-tei-active.png'); }
+						.tools-map { background-image: url('../img/edition-window-tools-map-active.png'); }
+						.tools-tags { background-image: url('../img/edition-window-tools-tags-active.png'); }
+					}
 					.tools-list {
 						background-image: url('../img/edition-window-tools-list.png');
 						&.active { background-image: url('../img/edition-window-tools-list-hover.png'); }
@@ -715,22 +726,24 @@ header {
 					cursor: pointer;
 				}
 			}
-/* 			.windowstools { */
-/*
-				li {
-					&:hover {
-						.tools-link { background-image: url('../img/edition-window-tools-link-hover.png'); }
-					}
-					.tools-link {
-						background-image: url('../img/edition-window-tools-link.png'); 
-						&.active { background-image: url('../img/edition-window-tools-unlink.png'); }
-					}
+			li {
+				&:hover {
+					.tools-link { background-image: url('../img/edition-window-tools-link-hover.png'); }
+					.tools-pdf { background-image: url('../img/edition-window-tools-pdf-hover.png'); }
+					.tools-dfg { background-image: url('../img/edition-window-tools-dfg-hover.png'); }
 				}
-*/
-/* 			} */
-			li .tools-link { background-image: url('../img/edition-window-tools-link.png'); }
-			li:hover .tools-link { background-image: url('../img/edition-window-tools-link-hover.png'); }
-			li .tools-link.active { background-image: url('../img/edition-window-tools-unlink.png'); }
+				&:active {
+					.tools-link { background-image: url('../img/edition-window-tools-link.png'); }
+					.tools-pdf { background-image: url('../img/edition-window-tools-pdf.png'); }
+					.tools-dfg { background-image: url('../img/edition-window-tools-dfg.png'); }
+				}
+				.tools-link {
+					background-image: url('../img/edition-window-tools-link.png');
+					&.active { background-image: url('../img/edition-window-tools-unlink.png'); }
+				}
+				.tools-pdf { background-image: url('../img/edition-window-tools-pdf.png'); }
+				.tools-dfg { background-image: url('../img/edition-window-tools-dfg.png'); }
+			}
 
 			li .tools-paginationforward { background-image: url('../img/edition-window-pagination-forward.png'); }
 			li:hover .tools-paginationforward { background-image: url('../img/edition-window-pagination-forward-hover.png'); }
@@ -738,25 +751,23 @@ header {
 			li .tools-paginationbackward { background-image: url('../img/edition-window-pagination-backward.png'); }
 			li:hover .tools-paginationbackward { background-image: url('../img/edition-window-pagination-backward-hover.png'); }
 			li .tools-paginationbackward-disabled { background-image: url('../img/edition-window-pagination-backward.png'); }
-			li .tools-pdf { background-image: url('../img/edition-window-tools-pdf.png'); }
-			li:hover .tools-pdf { background-image: url('../img/edition-window-tools-pdf-hover.png'); }
-			li .tools-pdf-active { background-image: url('../img/edition-window-tools-pdf-active.png'); }
+
 			li .tools-doublepage { background-image: url('../img/edition-window-tools-doublepage.png'); }
 			li:hover .tools-doublepage { background-image: url('../img/edition-window-tools-doublepage-hover.png'); }
 			li .tools-doublepage-active { background-image: url('../img/edition-window-tools-doublepage-active.png'); }
+
 			li .tools-highlight { background-image: url('../img/edition-window-tools-highlight.png'); }
 			li:hover .tools-highlight { background-image: url('../img/edition-window-tools-highlight-hover.png'); }
 			li .tools-highlight-active { background-image: url('../img/edition-window-tools-highlight-active.png'); }
-			li:hover .tools-link-active { background-image: url('../img/edition-window-tools-unlink-hover.png'); }
+
 			li .tools-linecount { background-image: url('../img/edition-window-tools-linecount.png'); }
 			li:hover .tools-linecount { background-image: url('../img/edition-window-tools-linecount-hover.png'); }
 			li .tools-linecount-active { background-image: url('../img/edition-window-tools-linecount-active.png'); }
-			li .tools-dfg { background-image: url('../img/edition-window-tools-dfg.png'); }
-			li:hover .tools-dfg { background-image: url('../img/edition-window-tools-dfg-hover.png'); }
-			li .tools-dfg-active { background-image: url('../img/edition-window-tools-dfg-active.png'); }
+
 			li .tools-maximize { background-image: url('../img/edition-window-tools-maximize.png'); }
 			li:hover .tools-maximize { background-image: url('../img/edition-window-tools-maximize-hover.png'); }
 			li .tools-maximize .active { background-image: url('../img/edition-window-tools-maximize-active.png'); }
+
 			.toolstop {
 				a {
 					padding: 0 22px 0 0;
@@ -817,7 +828,7 @@ footer {
 	background-image: url('../img/footer-border-top.png');
 	background-repeat: repeat-x;
 	color: rgb(255, 255, 255);
-	height: 215px;
+	height: 315px;
 	a, a:hover, a:visited {
 		color: rgb(255, 255, 255);
 	}
@@ -851,6 +862,15 @@ footer {
 			padding: 0 20px 20px 20px;
 			border-radius: 0 $borderradius-footer 0 0;
 			float: left;
+			display: inline;
+		}
+	}
+	.logos {
+		/*float: left;*/
+		list-style-type: none;
+		text-align: left;
+		padding: 0;
+		li {
 			display: inline;
 		}
 	}
