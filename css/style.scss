@@ -909,4 +909,21 @@ footer {
 .font-italic { font-style: italic; }
 .font-bold { font-weight: bold; }
 
+.dataTable {
+	thead tr {
+		/* font-size: 125%; */
+		td:first-child {
+			width: 250px !important;
+		}
+		td:nth-child(2) {
+			width: 200px;
+		}
+	}
+	tbody {
+		.even {
+			background-color: darken(#EEEEEE, 5%);
+		}
+	}
+}
+
 @import 'append';
