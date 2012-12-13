@@ -62,4 +62,9 @@ $('.selectHandschriften').change(function(){
 	window.location.hash = '#' + jumpHere;
 });
 
+$('#fullscreen').click(function(){
+	$('#editionContainer').fullScreen(true);
+});
+
 /* MISC (end) */
+

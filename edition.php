@@ -12,6 +12,9 @@
  	<script src="a18/lib/jQuery/jquery-1.5.1.js"></script>
 	<script src="a18/lib/jQuery/ui/jquery-ui-1.8.14.custom.js"></script>
 
+	<!-- include jQuery plugin Fullscreen -->
+	<script src="js/libs/fullscreen.js"></script>
+
 	<!-- include jQuery plugin jPaginate 
 	<link rel="stylesheet" href="lib/jPaginate/css/style.css">
 	<script src="a18/lib/jPaginate/jquery.paginate.js"></script> -->

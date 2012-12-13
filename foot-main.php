@@ -17,7 +17,8 @@
 			</ul>
 		</div>
 		<div class="clearfix">
-			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, id pulvinar odio lorem non turpis. Nullam sit amet enim. Suspendisse id velit vitae ligula.</p>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, id pulvinar odio lorem non turpis.</p>
+			<p><span id="fullscreen" style="cursor: pointer">Enter Fullscreen</span></p>
 			<!--
 			<a href="http://www.sub.uni-goettingen.de" title="Niedersächsische Staats- und Universitätsbibliothek Göttingen" hreflang="de"><img src="./img/logo-sub.png" alt="" /></a>
 			<a href="http://www.dfg.de" title="Deutsche Forschungsgemeinschaft" hreflang="de"><img src="./img/logo-dfg.png" alt="" /></a>
