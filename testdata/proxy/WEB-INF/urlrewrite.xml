@@ -8,7 +8,7 @@
     http://www.tuckey.org/urlrewrite/
 
 -->
-<urlrewrite>
+<urlrewrite use-query-string="true">
     <rule>
         <from>^/exist/(.*?)$</from>
         <to type="proxy">http://134.76.21.92:8080/exist/$1</to>
