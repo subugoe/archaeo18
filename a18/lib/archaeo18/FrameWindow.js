@@ -169,10 +169,10 @@ FrameWindow = function(frameClass,headerClass){
 					$(document).mousemove(function(){
 						a18Gui.checkHeight();
 					});
-				});
-				$(resizeHandles[i]).mouseup(function(){
-					$(document).mousemove(null);
-					frame.dragLock = false;
+					$(document).mouseup(function(){
+						$(document).mousemove(null);
+						frame.dragLock = false;
+					});
 				});
 			}
 		}
