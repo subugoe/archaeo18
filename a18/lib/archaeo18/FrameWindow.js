@@ -20,15 +20,10 @@ FrameWindow = function(frameClass,headerClass){
 
 		this.toolbarDiv = $("<div/>").appendTo(this);
 		this.toolbarDiv.addClass(headerClass);
-		this.label = $("<div/>").appendTo(this.toolbarDiv);
-		
-/*
-		this.label = $("<div/>").appendTo(this.toolbarDiv);
-		this.label.addClass("label");
-*/
 
 		this.windowTools = $("<ul class='windowtools'/>").appendTo(this.toolbarDiv);
-//		this.windowTools.addClass("windowTools");
+		var headline = $("<h4/>").appendTo(this.toolbarDiv);
+		this.label = $("<span></span>").appendTo(headline);
 
 		this.content = $("<div/>").appendTo(this);
 		$(this.content).css('position','relative');
@@ -36,6 +31,7 @@ FrameWindow = function(frameClass,headerClass){
 			frame.updateZIndex(false);
 		});
 
+		this.dragLock = false;
 		if( params.draggable ){
 			this.mousedown(function(evt){
 				if( frame.windowFunctionality ){
@@ -151,16 +147,34 @@ FrameWindow = function(frameClass,headerClass){
 		var frame = this;
 		if( this.params.resizable && append && this.windowFunctionality && this.visibility ){
 			$(this).resizable({
+				helper: "ui-resizable-helper",
+				minHeight: a18Props.minWindowHeight,
+				minWidth: a18Props.minWindowWidth,
+				/*
 				resize: function() {
 					frame.resize();
 				},
+				*/
 				stop: function() {
+					frame.resize();
 					if( typeof frame.params.triggerResize != 'undefined' ){
-						frame.params.triggerResize();
+						frame.params.triggerResize();						
 					}
 				}
 			});
-			$('ui-resizable-handle').css('z-index','9999');
+			var resizeHandles = $('.ui-resizable-handle',frame);
+			for( var i=0; i<resizeHandles.length; i++ ){
+				$(resizeHandles[i]).mousedown(function(){
+					frame.dragLock = true;
+					$(document).mousemove(function(){
+						a18Gui.checkHeight();
+					});
+				});
+				$(resizeHandles[i]).mouseup(function(){
+					$(document).mousemove(null);
+					frame.dragLock = false;
+				});
+			}
 		}
 		else if( this.params.resizable ){
 			$(this).resizable('destroy');
@@ -179,7 +193,7 @@ FrameWindow = function(frameClass,headerClass){
 	* resizes the frame
 	*/
 	this.resize = function(){
-		this.toolbarDiv.css('width',($(this).width())+'px');
+		//this.toolbarDiv.css('width',($(this).width())+'px');
 	//	$(this.label).css('margin',Math.floor((this.toolbarDiv.height()-this.label.height())/2)+'px');
 		var p = parseInt($(this).css("padding-top"))*2-4;
 //		this.content.css('width', ($(this).width()-p)+"px");
@@ -232,6 +246,7 @@ FrameWindow = function(frameClass,headerClass){
 			  }, 500, function(){
 					frame.resize();
 					a18Gui.checkGrid();
+					a18Gui.checkHeight();
 			});
 			this.setResizability(true);
 		}
@@ -250,6 +265,7 @@ FrameWindow = function(frameClass,headerClass){
 			  }, 500, function(){
 					frame.resize();
 					a18Gui.checkGrid();
+					a18Gui.checkHeight();
 			});
 			this.setResizability(false);
 		}
@@ -259,9 +275,8 @@ FrameWindow = function(frameClass,headerClass){
 	* set label (old design)
 	*/
 	this.setLabel = function(label){
-		return;
 		$(this.label).html(label);
-		$(this.label).css('margin',Math.floor((this.toolbarDiv.height()-this.label.height())/2)+'px');
+		//$(this.label).css('margin',Math.floor((this.toolbarDiv.height()-this.label.height())/2)+'px');
 	};
 	
 	/**
@@ -287,10 +302,12 @@ FrameWindow = function(frameClass,headerClass){
 			document.onmouseup = null;
 		}
 		document.onmousemove = function(e){
-			var pos = getMousePosition(e);
-			frame.css('left',(windowLeft+pos.left-startPos.left)+'px');
-			frame.css('top',(windowTop+pos.top-startPos.top)+'px');
-			a18Gui.checkHeight();
+			if( !frame.dragLock ){
+				var pos = getMousePosition(e);
+				frame.css('left',(windowLeft+pos.left-startPos.left)+'px');
+				frame.css('top',(windowTop+pos.top-startPos.top)+'px');
+				a18Gui.checkHeight();
+			}
 		}
 	};
 	

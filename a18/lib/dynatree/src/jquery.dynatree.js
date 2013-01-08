@@ -97,7 +97,7 @@ var Class = {
 
 // Tool function to get dtnode from the event target:
 function getDtNodeFromElement(el) {
-	var iMax = 5;
+	var iMax = 7;
 	while( el && iMax-- ) {
 		if(el.dtnode) { return el.dtnode; }
 		el = el.parentNode;
@@ -186,31 +186,31 @@ DynaTreeNode.prototype = {
 			cache = tree.cache,
 			level = this.getLevel(),
 			data = this.data,
-			res = "";
+			res = "<table cellspacing='0' cellpadding='0'><tr>";
 		// connector (expanded, expandable or simple)
 		if( level < opts.minExpandLevel ) {
 			if(level > 1){
-				res += cache.tagConnector;
+				res += "<td>"+cache.tagConnector+"</td>";
 			}
 			// .. else (i.e. for root level) skip expander/connector altogether
 		} else if( this.hasChildren() !== false ) {
-			res += cache.tagExpander;
+			res += "<td>"+cache.tagExpander+"</td>";
 		} else {
-			res += cache.tagConnector;
+			res += "<td>"+cache.tagConnector+"</td>";
 		}
 		// Checkbox mode
 		if( opts.checkbox && data.hideCheckbox !== true && !data.isStatusNode ) {
-			res += cache.tagCheckbox;
+			res += "<td>"+cache.tagCheckbox+"</td>";
 		}
 		// folder or doctype icon
 		if ( data.icon ) {
-			res += "<img src='" + opts.imagePath + data.icon + "' alt='' />";
+			res += "<td><img src='" + opts.imagePath + data.icon + "' alt='' /></td>";
 		} else if ( data.icon === false ) {
 			// icon == false means 'no icon'
 			noop(); // keep JSLint happy
 		} else {
 			// icon == null means 'default icon'
-			res += cache.tagNodeIcon;
+			res += "<td>"+cache.tagNodeIcon+"</td>";
 		}
 		// node title
 		var nodeTitle = "";
@@ -225,7 +225,8 @@ DynaTreeNode.prototype = {
 				nodeTitle = "<a href='#' class='" + opts.classNames.title + "'" + tooltip + ">" + data.title + "</a>";
 			}
 		}
-		res += nodeTitle;
+		res += "<td>"+nodeTitle+"</td>";
+		res += "</tr></table>";
 		return res;
 	},
 

@@ -155,10 +155,10 @@ FullscreenWindow = function(div){
 	*/
 	this.resize = function(){
 	   for( var i in this.fullscreens ){
-            this.fullscreens[i].blockDiv.css('width',$(document).width()+'px');
-            this.fullscreens[i].blockDiv.css('height',$(document).height()+'px');
-            this.fullscreens[i].overlay.css('width',$(document).width()+'px');
-            this.fullscreens[i].overlay.css('height',$(document).height()+'px');
+            this.fullscreens[i].blockDiv.css('width',$(div).width()+'px');
+            this.fullscreens[i].blockDiv.css('height',$(div).height()+'px');
+            this.fullscreens[i].overlay.css('width',$(div).width()+'px');
+            this.fullscreens[i].overlay.css('height',$(div).height()+'px');
             this.centerDiv(this.fullscreens[i].content);
 	   }
 	}

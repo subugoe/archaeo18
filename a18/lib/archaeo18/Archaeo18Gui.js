@@ -77,7 +77,7 @@ var a18Gui = new function(){
 		Util.loadFacets();
 		
 		this.browser = $('<div/>').appendTo(this.containerDiv);
-		$.extend(this.browser,new FrameWindow('search','toolbarDiv'));
+		$.extend(this.browser,new FrameWindow('search','clearfix'));
 		this.browser.initializeFrame({
 			draggable: a18Props.draggable,
 			resizable: a18Props.resizable,
@@ -96,6 +96,8 @@ var a18Gui = new function(){
 	    		gui.browser.addDocument(doc);
 		},true);
 		this.addControls();
+
+		this.minHeight = $(this.containerDiv).height();
 
 		if( window.location.href.indexOf('?params') != -1 ){
 			this.setParams( window.location.href.slice(window.location.href.indexOf('?params=') + 8) );
@@ -207,6 +209,13 @@ var a18Gui = new function(){
 			if( typeof highest == 'undefined' || yMax > highest ){
 				highest = yMax;
 			}
+		}
+		var yMaxBrowser = $(this.browser).height() + $(this.browser).position().top;
+		if( typeof highest == 'undefined' || yMaxBrowser > highest ){
+			highest = yMaxBrowser;
+		}
+		if( highest < this.minHeight - a18Props.margin ){
+			highest = this.minHeight - a18Props.margin;
 		}
 		if( $(a18Gui.containerDiv).height() != highest + a18Props.margin ){
 			$(a18Gui.containerDiv).css('height',(a18Props.margin+highest)+'px');
@@ -441,7 +450,7 @@ var a18Gui = new function(){
 		var windowGap = a18Props.windowGap;
 
 		var w = $(this.containerDiv).width();
-		var h = $(this.containerDiv).height();
+		var h = this.minHeight;
 		
 		var windowHeight, windowWidth;		
 		if( a18Props.windowHeight ){
@@ -490,6 +499,7 @@ var a18Gui = new function(){
 		if( this.browser.visibility ){
 			this.browser.position(marginGap,windowTop);
 			this.browser.resize();
+			this.browser.resizeContent();
 			cwLeft += $(this.browser).width() + windowGap;
 		}
 
@@ -507,7 +517,9 @@ var a18Gui = new function(){
 		if( typeof this.windowWidth == 'undefined' ){
 			this.windowWidth = windowWidth;
 		}
-		
+
+		this.checkHeight();	
+	
 	};
 	
 	/**

@@ -3,6 +3,7 @@
 */
 Text = function(doc,container,parent){
 	
+var id = a18Gui.getIndependentId();
 	this.type = "text";
 	this.container = container;
 	this.colorizeEntities = a18Props.colorizeOnStart;
@@ -55,12 +56,25 @@ Text = function(doc,container,parent){
 				}
 				var scrollTop = $(contentPanel).scrollTop();
 				var height = $(contentPanel).height();
+				var found = false;
 				for( var i=0; i<context.pageHooks.length; i++ ){
 					var top = $(context.pageHooks[i]).position().top+scrollTop;
 					if( scrollTop <= top && top < scrollTop+height ){
 						parent.paginator.setPage(i+1,true);
 						parent.pageChanged(i+1);
+						found = true;
 						break;
+					}
+				}
+				if( !found ){
+					for( var i=0; i<context.pageHooks.length-1; i++ ){
+						var top = $(context.pageHooks[i]).position().top+scrollTop;
+						var top2 = $(context.pageHooks[i+1]).position().top+scrollTop;
+						if( scrollTop > top && scrollTop < top2 ){
+							parent.paginator.setPage(i+1,true);
+							parent.pageChanged(i+1);
+							break;
+						}
 					}
 				}
 			});

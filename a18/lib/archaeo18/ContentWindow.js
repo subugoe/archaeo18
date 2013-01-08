@@ -25,7 +25,6 @@ ContentWindow = function(){
 			this.tabs = $("<ul class='tabs'/>").appendTo(this.content);
 			this.documentDiv = $("<div class='inner'/>").appendTo(this.content);
 			this.nameId = index;
-			this.label = $("<h4/>").appendTo(this.toolbarDiv);
 			this.setLabel(this.getName());
 		};
 		

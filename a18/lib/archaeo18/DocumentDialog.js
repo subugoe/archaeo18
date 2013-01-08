@@ -149,6 +149,7 @@ DocumentDialog = function(parent,doc,div,page){
 		if( this.doctype && typeof this.doctype.resize != 'undefined' ){
 			this.doctype.resize();
 		}
+		this.fullscreen.resize();
 	};
 	
 	/**

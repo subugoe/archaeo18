@@ -64,6 +64,10 @@ var a18Props = {
 		hwImageHeight: 328,
 		hwImageWidth: 359,
 
+		// minimum size for windows
+		minWindowHeight: 310,
+		minWindowWidth: 310,
+
 		// a valid url to DFG viewer if documents can be shown there, false if not
 		dfgViewer: 'http://dfg-viewer.de/demo/viewer/?set[mets]=',
 		pdfLink: 'http://gdz-srv1.sub.uni-goettingen.de/gcs/gcs?action=pdf&metsFile=DOC_ID&divID=LOG_0003&pagesize=A4&pdfTitlePage=http://gdz.sub.uni-goettingen.de/dms/load/pdftitle/?metsFile=PPN385030444_1865_2%7C&targetFileName=DOC_ID_LOG_0003.pdf', // link or false, if not

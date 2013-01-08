@@ -33,7 +33,15 @@ Browser = function(){
 		this.documentTab.click(function(){
 			show(false);
 		});
-
+		var wa1 = $(this.searchTab).width();
+		var wa2 = $(this.documentTab).width();
+		var w1 = parseInt($(this.searchTab).css("padding-left"))*2+$(this.searchTab).width();
+		var w2 = parseInt($(this.documentTab).css("padding-left"))*2+$(this.documentTab).width();
+		var w = w1+w2;
+		$(this.searchTab).css('padding-left',((w/2-wa1)/2)+'px');
+		$(this.searchTab).css('padding-right',((w/2-wa1)/2)+'px');
+		$(this.documentTab).css('padding-left',((w/2-wa2)/2)+'px');
+		$(this.documentTab).css('padding-right',((w/2-wa2)/2)+'px');
 		this.main = $("<div class='main'/>").appendTo(this.content);
 		this.main.css('overflow-x','hidden');
 		this.main.css('overflow-y','auto');
@@ -59,6 +67,7 @@ Browser = function(){
 		}
 
 		this.searchTypes = $('<div/>').appendTo(this.main);
+		$(this.searchTypes).css('position','relative');
 
 		var simpleSearch = $("<form/>").appendTo(this.searchTypes);
 		this.searchField = $("<input type='text'/>").appendTo(simpleSearch);
@@ -111,11 +120,8 @@ Browser = function(){
 		show(a18Props.browserSearch);
 
 		this.setLabel(this.getName());
+		this.fullscreen = new FullscreenWindow(this.searchTypes);
 		this.resizeContent();
-
-		this.label = $("<span/>").appendTo(this.toolbarDiv);
-
-		this.fullscreen = new FullscreenWindow(this.main);
 
 	};
 
@@ -403,6 +409,9 @@ Browser = function(){
 		var diff2 = parseInt($(this.main).css("padding-bottom"))+parseInt($(this.main).css("padding-top"));
 		diff2 += parseInt($(this.main).css("margin-bottom"))+parseInt($(this.main).css("margin-top"));
 		$(this.main).css('height',(height-this.header.height()-diff1-diff2)+'px');
+		$(this.searchTypes).css('height',(height-this.header.height()-diff1-diff2)+'px');
+		$(this.searchTypes).css('width',$(this.main).width()+'px');
+		this.fullscreen.resize();
 	};
 	
 	/**

@@ -8,9 +8,9 @@
 	<script src="a18/lib/geotico/minify/geotico-complete.js"></script>
 
 	<!-- include jQuery -->
-	<link rel="stylesheet" href="a18/lib/jQuery/themes/base/jquery.ui.all.css">
+	<link rel="stylesheet" href="a18/lib/jquery-ui-1.9.2.custom/css/ui-lightness/jquery-ui-1.9.2.custom.css">
  	<script src="a18/lib/jQuery/jquery-1.5.1.js"></script>
-	<script src="a18/lib/jQuery/ui/jquery-ui-1.8.14.custom.js"></script>
+	<script src="a18/lib/jquery-ui-1.9.2.custom/js/jquery-ui-1.9.2.custom.js"></script>
 
 	<!-- include jQuery plugin Fullscreen -->
 	<script src="js/libs/fullscreen.js"></script>

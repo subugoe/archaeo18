@@ -21,17 +21,14 @@ function Pagination(div,pages,tooltips){
 	});
 
 	var form = $('<form/>').appendTo(paginationBar);
-	form.css('display','inline');
+	form.css('display','inline');	
 	this.selectPageDropdown = $('<select/>').appendTo(paginationBar);
 	for( var i=0; i<this.pages; i++ ){
 		$('<option value="'+(i+1)+'">'+(i+1)+'</option>').appendTo(this.selectPageDropdown);
 	}
-	$(this.selectPageDropdown).change(function(){
-		$("select option:selected",this.selectPageDropdown).each(function(){
-			pagination.page = parseInt($(this).html());
-			
-			pagination.update();
-		});
+	$(this.selectPageDropdown).change(function(evt){
+		pagination.page = parseInt(evt.currentTarget.value);
+		pagination.update();
 	});
 
 	// next page button
