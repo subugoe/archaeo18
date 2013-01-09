@@ -25,7 +25,7 @@ FrameWindow = function(frameClass,headerClass){
 		var headline = $("<h4/>").appendTo(this.toolbarDiv);
 		this.label = $("<span></span>").appendTo(headline);
 
-		this.content = $("<div/>").appendTo(this);
+		this.content = $("<div id='someid'/>").appendTo(this);
 		$(this.content).css('position','relative');
 		$(this.content).mousedown(function(){
 			frame.updateZIndex(false);

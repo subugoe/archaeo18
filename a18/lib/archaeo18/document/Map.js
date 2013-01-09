@@ -61,23 +61,18 @@ A18Map = function(doc,container,parent){
 	$(contentPanel).css('position','relative');
 	$(contentPanel).css('height',$(container).height()+'px');
 	$(contentPanel).css('width','100%');
-	STIStatic.applySettings({
+
+	var map = new WidgetWrapper();
+	var mapWidget = new MapWidget(map,$(contentPanel)[0],{
 		mapWidth: false,
 		mapHeight: false,
 		mapSelection: false,
-		binningSelection: false,
 		mapSelectionTools: false,
 		dataInformation: false,
-		alternativeMap: false,
-		osmMaps: true,
 		mapCanvasFrom: '#DDD',
 		mapCanvasTo: '#DDD',
-		language: a18Gui.language,
-		maxPlaceLabels: 8,
-		incompleteData: true
+		maxPlaceLabels: 8
 	});
-	var mapWrapper = new MapWrapper();
-	mapWrapper.initialize(contentPanel[0],0);
 
 	this.setOrientation = function(zoom,center){
 		this.initialZoom = zoom;
@@ -100,16 +95,16 @@ A18Map = function(doc,container,parent){
 					parent.startProcessing();
 				},
 				success: function(kml){
-					doc.kmlCache[page] = STIStatic.loadSpatioTemporalKMLData(null,kml);
+					doc.kmlCache[page] = GeoTemConfig.loadKml(kml);
 					if( !context.stopped ){
-						mapWrapper.display([doc.kmlCache[page]]);
+						map.display([new Dataset(doc.kmlCache[page])]);
 						parent.stopProcessing();
 					}
 				}
 			});
 		}
 		else {
-			mapWrapper.display([doc.kmlCache[page]]);
+			map.display([new Dataset(doc.kmlCache[page])]);
 		}
 	};
 
@@ -161,7 +156,7 @@ A18Map = function(doc,container,parent){
 			$(contentPanel).css('height',($(container).height()-$(buttonPanel).height())+'px');
 		}
 		$(contentPanel).css('width','100%');
-		mapWrapper.map.gui.resize();
+		map.widget.gui.resize();
 	};
 
 	/*

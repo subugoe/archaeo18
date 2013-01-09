@@ -92,9 +92,9 @@ Browser = function(){
 			search();
 		});
 
-		this.selectSearch = $("<div/>").appendTo(this.searchTypes);
-		this.advancedSearchTab = $("<div>"+Util.getString('advancedSearch')+"</div>").appendTo(this.selectSearch);
-		this.advancedSearchTab.css('display','inline');
+		this.as = $("<div class='advancedSearch'/>").appendTo(this.searchTypes);
+		this.advancedSearchTab = $("<span>"+Util.getString('advancedSearch')+"</span>").appendTo(this.as);
+		//this.advancedSearchTab.css('display','inline');
 		/*
 		this.proximitySearchTab = $("<div>"+Util.getString('proximitySearch')+"</div>").appendTo(this.selectSearch);
 		this.proximitySearchTab.css('display','inline');
@@ -107,14 +107,14 @@ Browser = function(){
 			toggleSearch('advanced');
 		});
 
-		this.searchContainer = $("<div/>").appendTo(this.searchTypes);
+		//this.searchContainer = $("<div/>").appendTo(this.searchTypes);
 		this.prepareAdvancedSearch();
 		//this.prepareProximitySearch();
 
 		this.documents = $('<div/>').appendTo(this.main);
 		this.documents.css('overflow','auto')
 
-		$('<hr/>').appendTo(this.searchTypes);
+		//$('<hr/>').appendTo(this.searchTypes);
 		this.searchResults = $('<ul class="hits"/>').appendTo(this.searchTypes);
 
 		show(a18Props.browserSearch);
@@ -153,15 +153,17 @@ Browser = function(){
 	*/
 	this.prepareAdvancedSearch = function(){
 		var browser = this;
-		this.advancedSearch = $("<div/>").appendTo(this.searchContainer);
-		$("<p>"+Util.getString('in')+"</p>").appendTo(this.advancedSearch);
+		this.advancedSearch = $("<div/>").appendTo(this.as);
 
 		var div1 = $('<div/>').appendTo(this.advancedSearch);
-		var allDocuments = $("<input type='radio' name='scope'>"+Util.getString('allDocuments')+"</input>").appendTo(div1);
-		var div2 = $('<div/>').appendTo(this.advancedSearch);
-		var selectDocuments = $("<input type='radio' name='scope'>"+Util.getString('selectDocuments')+"</input>").appendTo(div2);
-		var documents = $('<div/>').appendTo(div2);
-		$(documents).css('display','none');
+		$("<input id='allDocsSearch' type='radio' name='scope'>"+Util.getString('allDocuments')+"</input> "+Util.getString('or')+"<input id='selectedDocsSearch' type='radio' name='scope'>"+Util.getString('selectDocuments')+"</input>").appendTo(div1);
+
+		var allDocuments = $('#allDocsSearch')[0];
+		var selectDocuments = $('#selectedDocsSearch')[0];
+
+		var documents = $('<div class="selectedDocsDisplay"/>').appendTo(this.advancedSearch);
+		var documentList = $('<ul/>').appendTo(documents);
+		//$(documents).css('display','none');
 		$(documents).css('overflow','hidden');
 		$(allDocuments).attr('checked',true);
 
@@ -169,9 +171,9 @@ Browser = function(){
 		var docsHeight;
 		var documentSelection = [];
 		var addDocument = function(document,index){
-			var entry = $("<div/>").appendTo(documents);
+			var entry = $("<li/>").appendTo(documentList);
 			var checkbox = $("<input type='checkbox'>"+document.name+"</input>").appendTo(entry);
-			$(checkbox).css('margin-left','20px');
+			//$(checkbox).css('margin-left','20px');
 			documentSelection.push(false);
 			checkbox.click(function(){
 				documentSelection[index] = !documentSelection[index];
@@ -206,33 +208,32 @@ Browser = function(){
 		$(allDocuments).click(checkDocumentVisibility);
 		$(selectDocuments).click(checkDocumentVisibility);
 
-		$("<p>"+Util.getString('in')+"</p>").appendTo(this.advancedSearch);
-		var div3 = $('<div/>').appendTo(this.advancedSearch);
-		var inTexts = $("<input type='radio' name='type'>"+Util.getString('texts')+"</input>").appendTo(div3);
-		var div4 = $('<div/>').appendTo(this.advancedSearch);
-		var inFacets = $("<input type='radio' name='type'>"+Util.getString('facets')+"</input>").appendTo(div4);
-		var facets = $('<div/>').appendTo(div4);
-		$(facets).css('display','none');
-		$(facets).css('overflow','hidden');
+		var div2 = $("<div/>").appendTo(this.advancedSearch);
+		$("<input id='textsSearch' type='radio' name='type'>"+Util.getString('texts')+"</input> "+Util.getString('or')+"<input id='facetsSearch' type='radio' name='type'>"+Util.getString('facets')+"</input>").appendTo(div2);
+
+		var inTexts = $('#textsSearch')[0];
+		var inFacets = $('#facetsSearch')[0];
 		$(inTexts).attr('checked',true);
 
-		var structureFacets = $('<div/>').appendTo(facets);
-		$(structureFacets).addClass('facetList');
-		var structureHeader = $('<div>'+Util.getString('documentStructure')+'</div>').appendTo(structureFacets);
-		$(structureHeader).addClass('facetsHeader');
+		var facets = $('<div class="facetOptions"/>').appendTo(this.advancedSearch);
+		$(facets).css('display','none');
+		$(facets).css('overflow','hidden');
 
-		var entityFacets = $('<div/>').appendTo(facets);
-		$(entityFacets).addClass('facetList');
-		var entitiesHeader = $('<div>'+Util.getString('entities')+'</div>').appendTo(entityFacets);
-		$(entitiesHeader).addClass('facetsHeader');
+		var structureFacets = $('<div class="facetList"/>').appendTo(facets);
+		var structureHeader = $('<span class="facetsHeader">'+Util.getString('documentStructure')+'</span>').appendTo(structureFacets);
+		var structureList = $('<ul/>').appendTo(structureFacets);
+
+		var entityFacets = $('<div class="facetList"/>').appendTo(facets);
+		var entitiesHeader = $('<span class="facetsHeader">'+Util.getString('entities')+'</span>').appendTo(entityFacets);
+		var entitiesList = $('<ul/>').appendTo(entityFacets);
 
 		var facetsSelected = false;
 		var facetsHeight;
 		var facetSelection = [];
 		var addFacet = function(facet,index,div){
-			var entry = $("<div/>").appendTo(div);
+			var entry = $("<li/>").appendTo(div);
 			var checkbox = $("<input type='checkbox'>"+Util.getFacetLabel(facet)+"</input>").appendTo(entry);
-			$(checkbox).css('margin-left','20px');
+			//$(checkbox).css('margin-left','20px');
 			facetSelection.push(false);
 			checkbox.click(function(){
 				facetSelection[index] = !facetSelection[index];
@@ -241,10 +242,10 @@ Browser = function(){
 		var loadFacets = function(){
 			$.each(Util.facets,function(i,facet){
 				if( facet.render ){
-					addFacet(facet,i,entityFacets);
+					addFacet(facet,i,entitiesList);
 				}
 				else {
-					addFacet(facet,i,structureFacets);
+					addFacet(facet,i,structureList);
 				}
 			});
 			facetsHeight = $(facets).height();
@@ -258,7 +259,6 @@ Browser = function(){
 					loadFacets();
 				}
 				$(facets).animate({
-
 					height: "+="+facetsHeight,
 				});
 				facetsSelected = true;
@@ -443,12 +443,12 @@ Browser = function(){
 					var setClickEvent = function(node){
 						var position = $(newLinks[i]).attr("name");
 						$(node).unbind('click');
-					    	$(node).click(function(){
+					    	$(node).click(function(evt){
 							if( position == '' ){
-						    		a18Gui.openDocument(doc);
+						    		a18Gui.openDocument(evt,doc);
 							}
 							else {
-						    		a18Gui.openDocument(doc,undefined,'text',position);
+						    		a18Gui.openDocument(evt,doc,undefined,'text',position);
 							}
 					    	});
 					}
@@ -499,8 +499,8 @@ Browser = function(){
 		    	});
 			var textDiv = $("<p/>").appendTo(searchResult);
 			$(textDiv).html(result.text);
-		    	$(textDiv).click(function(){
-		    		a18Gui.openDocument(doc,result.page,"pages");
+		    	$(textDiv).click(function(evt){
+		    		a18Gui.openDocument(evt,doc,result.page,"pages");
 		    	});
 		});
 	    	$(searchLink).click(function(){

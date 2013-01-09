@@ -73,6 +73,11 @@ var a18Gui = new function(){
 		this.browserVisible = true;
 		this.automaticGridLayout = false;
 
+		GeoTemConfig.applySettings({
+			language: a18Gui.language,
+			allowFilter: false
+		});
+
 		Util.loadTexts();
 		Util.loadFacets();
 		
@@ -309,8 +314,8 @@ var a18Gui = new function(){
 						dialog.showDocumentType();
 						tooltip.removeAllTooltips();
 					});
-					$(a2).click(function(){
-						a18Gui.openDocument(dialog.document,page,"pages");
+					$(a2).click(function(evt){
+						a18Gui.openDocument(evt,dialog.document,page,"pages");
 						tooltip.removeAllTooltips();
 					});
 				}
@@ -379,7 +384,7 @@ var a18Gui = new function(){
 	/**
 	* create a dialog (e.g. open document dialog) with a given <headline> and a given <content>
 	*/
-	this.createDialog = function(headline,content){
+	this.createDialog = function(headline,content,evt){
 		var gui = this;
 		var id = "dialog"+this.getIndependentId();
 		var dialog = $('<div id="'+id+'" class="dialog"/>').appendTo(this.containerDiv);
@@ -401,10 +406,9 @@ var a18Gui = new function(){
 		$(close).click(closeDialog);
 		$(content).appendTo(dialog);
 		$('#'+id).draggable({handles: 'e'});
-		var top = $(this.containerDiv).height()/2 - $(dialog).height()/2;
-		var left = $(this.containerDiv).width()/2 - $(dialog).width()/2;
-		$(dialog).css('top',top+'px');
-		$(dialog).css('left',left+'px');
+		var pos = this.getMousePosition(evt);
+		$(dialog).css('top',(pos.top-$(this.containerDiv).offset().top+20)+'px');
+		$(dialog).css('left',(pos.left+20)+'px');
 		return dialog;
 	}; 
 	
@@ -526,7 +530,7 @@ var a18Gui = new function(){
 	* opens a document <doc> with an initial <page>, an initial view (<type>) and
 	* an initial <position>-id in the text (only for fulltext view after trigger from outline view)
 	*/
-	this.openDocument = function(doc,page,type,position){
+	this.openDocument = function(evt,doc,page,type,position){
 		var gui = this;
 		var candidates = [];
 		$.each(this.contentWindows, function(index,cw){
@@ -567,7 +571,7 @@ var a18Gui = new function(){
 				openNewWindow();
 				close();
 			});
-			var dialog = this.createDialog(Util.getString('openDocument'),inner,close);
+			var dialog = this.createDialog(Util.getString('openDocument'),inner,evt);
 			close = function(){
 				$(dialog).remove();
 			}
@@ -839,7 +843,7 @@ var a18Gui = new function(){
 			}
 			var magneticLink = $('<a class="button-magenticlink"><span class="visuallyhidden"></span>&nbsp;</a>').appendTo(controls);
 			$(magneticLink).attr('title',Util.getString('magneticLink'));
-			magneticLink.click(function(){
+			magneticLink.click(function(evt){
 				var content = $("<div class='inner'/>");
 				$(content).css("text-align","center");
 				var p = $("<p/>").appendTo(content);
@@ -849,7 +853,7 @@ var a18Gui = new function(){
 					generateMagneticLink();
 				});
 				$(linkList).appendTo(p);
-				gui.createDialog(Util.getString('magneticLink'),content);
+				gui.createDialog(Util.getString('magneticLink'),content,evt);
 			});
 		}
 
@@ -919,6 +923,17 @@ var a18Gui = new function(){
 				this.gridLayout();
 			}
 		}		
+	};
+
+	this.getMousePosition = function(e) {
+		if (!e) {
+			e = window.event;
+		}
+		var body = (window.document.compatMode && window.document.compatMode == "CSS1Compat") ? window.document.documentElement : window.document.body;
+		return {
+			top : e.pageY ? e.pageY : e.clientY,
+			left : e.pageX ? e.pageX : e.clientX
+		};
 	};
 
 }

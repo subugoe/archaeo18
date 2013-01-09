@@ -3,9 +3,9 @@
 	<div id="editionContainer" class="edition" style="position:relative;overflow:hidden;">
 	</div>
 
-	<!-- include geotico -->
-	<link rel="stylesheet" href="a18/lib/geotico/minify/geotico-styles.css" type="text/css" />
-	<script src="a18/lib/geotico/minify/geotico-complete.js"></script>
+	<!-- include geotemco -->
+	<link rel="stylesheet" href="a18/lib/GeoTemCo/css/geotemco.css" type="text/css" />
+	<script src="a18/lib/GeoTemCo/geotemco.js"></script>
 
 	<!-- include jQuery -->
 	<link rel="stylesheet" href="a18/lib/jquery-ui-1.9.2.custom/css/ui-lightness/jquery-ui-1.9.2.custom.css">

@@ -87,8 +87,9 @@ var Indices = new function(){
 						$(this).css('display','none');
 					}
 				});
-				$('.editionRef',section).each(function(){					
+				$('.editionRef',section).each(function(){
 					var params = Util.getAttribute(this,'rel');
+					params += ';'+facet.facet;
 					var linkString = 'http://'+location.host+'/archaeo18/edition.php?docParams='+params;
 					$(this).click(function(){
 						window.open(linkString,'_blank');
@@ -141,27 +142,25 @@ var Indices = new function(){
 							$(mapDiv).css('margin-top','50px');
 							$(mapDiv).css('margin-bottom','50px');
 							var loadMap = function(){
-								if( typeof STIStatic == 'undefined' ){
+								if( typeof GeoTemConfig == 'undefined' ){
 									setTimeout( function(){ loadMap(); }, 1000 );
 								}
-								STIStatic.applySettings({
+								GeoTemConfig.applySettings({
+									language: Util.language,
+									allowFilter: false
+								});
+								var map = new WidgetWrapper();
+								var mapWidget = new MapWidget(map,$(mapDiv)[0],{
 									mapWidth: false,
 									mapHeight: false,
 									mapSelection: false,
-									binningSelection: false,
 									mapSelectionTools: false,
 									dataInformation: false,
-									alternativeMap: false,
-									osmMaps: true,
 									mapCanvasFrom: '#DDD',
 									mapCanvasTo: '#DDD',
-									language: Util.language,
-									maxPlaceLabels: 8,
-									incompleteData: true
+									maxPlaceLabels: 8
 								});
-								var mapWrapper = new MapWrapper();
-								mapWrapper.initialize(mapDiv[0],0);
-								mapWrapper.display([STIStatic.loadSpatioTemporalKMLData(null,kml)]);
+								map.display([new Dataset(GeoTemConfig.loadKml(kml))]);
 								$(status).remove();
 							}
 							loadMap();

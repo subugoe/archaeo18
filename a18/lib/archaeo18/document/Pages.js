@@ -55,13 +55,13 @@ Pages = function(doc,container,parent){
 		}
 		var show = function(text){
 			$(contentPanel).empty();
-			//$(contentPanel).html(text);
-		    	$("<div>"+text+"</div>").appendTo(contentPanel);
-		    	//checkBlank();
-			//a18Gui.appendTooltips($(contentPanel),parent);
-			//a18Gui.colorizeLinks($(contentPanel),parent.facetSelection);
+			$(contentPanel).html(text);
+		    	$(text).appendTo(contentPanel);
+		    	checkBlank();
+			a18Gui.appendTooltips($(contentPanel),parent);
+			a18Gui.colorizeLinks($(contentPanel),parent.facetSelection);
 			if( parent.lineNumbers ){
-				//new LineNumberOracle(contentPanel,a18Props.lineNumbering);
+				new LineNumberOracle(contentPanel,a18Props.lineNumbering);
 			}
 		}
 		if( !doc.pageCache[page-1] ){
@@ -84,7 +84,6 @@ Pages = function(doc,container,parent){
 				success: function(text){
 					if( !context.stopped ){
 						show(text);
-						console.info(text);
 						parent.stopProcessing();
 					}
 					doc.pageCache[page-1] = text;

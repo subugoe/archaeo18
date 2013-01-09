@@ -17,6 +17,7 @@ HyperlinkWindow = function(url,label){
 
 		$.extend(this,window);
 
+		$(this).css('width',a18Props.hyperlinkWindowWidth+'px');
 		$(this.content).css('width',a18Props.hyperlinkWindowWidth+'px');
 		$(this.content).css('height',a18Props.hyperlinkWindowHeight+'px');
 
@@ -27,13 +28,18 @@ HyperlinkWindow = function(url,label){
 		this.hyperlinkWindow.css('z-index',this.fullscreen.zIndex+1);
 		this.hyperlinkWindow.css('position','absolute');
 		$(this.content).append(this.hyperlinkWindow);
+		var resizeHandles = $('.ui-resizable-handle',frame);
+		for( var i=0; i<resizeHandles.length; i++ ){
+			$(resizeHandles[i]).css('z-index',this.fullscreen.zIndex+2);
+		}
 				
-		this.label = $("<h4/>").appendTo(this.toolbarDiv);
-		$(this.label).html(label);
+		this.setLabel(label);
 
 		this.resizeIFrame = function(){
-			this.hyperlinkWindow.css('width',$(this.content).width()+'px');
-			this.hyperlinkWindow.css('height',$(this.content).height()+'px');
+			frame.fullscreen.removeFullscreen();
+			$(frame.content).css('width',$(frame).width()+'px');
+			this.hyperlinkWindow.css('width',$(frame.content).width()+'px');
+			this.hyperlinkWindow.css('height',$(frame.content).height()+'px');
 		};
 				
 };

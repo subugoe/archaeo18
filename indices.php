@@ -7,9 +7,9 @@
 	</div>
 </div>
 
-<!-- include geotico -->
-<link rel="stylesheet" href="a18/lib/geotico/minify/geotico-styles.css" type="text/css" />
-<script src="a18/lib/geotico/minify/geotico-complete-min.js"></script>
+<!-- include geotemco -->
+<link rel="stylesheet" href="a18/lib/GeoTemCo/css/geotemco.css" type="text/css" />
+<script src="a18/lib/GeoTemCo/geotemco.js"></script>
 
 <script src="a18/lib/jQuery/jquery-1.5.1.js"></script>
 <link href="a18/lib/jqcloud/jqcloud.css" rel="stylesheet" type="text/css">
