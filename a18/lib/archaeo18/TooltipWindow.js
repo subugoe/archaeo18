@@ -59,7 +59,8 @@ var tooltip = new function(){
 				if( tt.isActive(parent) ){
 					return;	
 				}
-				checkActivity();
+				setTimeout(function(){ checkActivity(); },100);
+				//checkActivity();
 				if ( typeof content != 'undefined' ){
 //					var tooltip = $("<div id='tooltipWindow'/>").appendTo('body');
 					var tooltip = $("<div class='info'/>").appendTo(a18Gui.containerDiv);
@@ -80,9 +81,16 @@ var tooltip = new function(){
 		  			},function(){	
 		      				activeTooltip.mouseOverTooltip = false;
 	  				});
+		  			$(parent).hover(function(e){
+		      				activeTooltip.mouseOverParent = true;
+		  			},function(){	
+		      				activeTooltip.mouseOverParent = false;
+	  				});
+					/*
 					$(parent).mouseleave(function(e){
 						activeTooltip.mouseOverParent = false;
 					});
+					*/
 					if( trigger ){
 						trigger(tooltip);
 					}
