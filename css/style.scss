@@ -934,9 +934,34 @@ footer {
 .font-italic { font-style: italic; }
 .font-bold { font-weight: bold; }
 
+.dataTables_wrapper {
+	.dataTables_length,
+	.dataTables_filter,
+	.dataTable,
+	.dataTables_info,
+	.dataTables_paginate {
+		margin: 3px 0;
+	}
+	.dataTables_info {
+		text-align: right;
+	}
+	.dataTables_paginate {
+		text-align: right;
+		a {
+			margin: 0 0 0 10px;
+			cursor: pointer;
+		}
+	}
+}
+
 .dataTable {
 	thead tr {
 		/* font-size: 125%; */
+		td {
+			border-bottom: 1px solid #666666;
+			margin: 0 0 3px 0;
+			cursor: pointer;
+		}
 		td:first-child {
 			width: 250px !important;
 		}
@@ -948,6 +973,12 @@ footer {
 		.even {
 			background-color: darken(#EEEEEE, 5%);
 		}
+		a {
+			cursor: pointer;
+		}
+	}
+	tfoot {
+		display: none;
 	}
 }
 
