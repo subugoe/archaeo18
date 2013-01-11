@@ -376,7 +376,26 @@ header {
 			padding: 0;
 			margin: 5px 5px 0 0;
 		}
-		
+		.advancedSearch {
+			margin: 0 0 0 5px;
+			span:first-child {
+				cursor: pointer;
+			}
+			input[type="checkbox"], input[type="radio"] {
+				margin: 5px;
+			}
+			ul {
+				margin: 0;
+				padding: 0;
+			}
+			li {
+				list-style-type: none;
+				font-size: 85%;
+			}
+			.facetOptions {
+				
+			}
+		}
 		.close {
 			float: right;
 			background-image: url('../img/edition-search-close.png');
