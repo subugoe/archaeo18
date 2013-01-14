@@ -952,13 +952,25 @@ footer {
 			cursor: pointer;
 		}
 	}
+	.dataTables_length {
+		width: 690px;
+		float: left;
+	}
+	.tableIncices_filter {
+		width: 300px;
+		float: right;
+	}
+	a:hover {
+		text-decoration: underline;
+	}
 }
 
 .dataTable {
 	thead tr {
 		/* font-size: 125%; */
 		td {
-			border-bottom: 1px solid #666666;
+			font-weight: bold;
+			border-bottom: 1px solid lighten(#666666, 20%);
 			margin: 0 0 3px 0;
 			cursor: pointer;
 		}
