@@ -87,7 +87,7 @@ noscript {
 		padding: 26px 0 0 26px;
 	}
 	.button-magenticlink:hover { background-image: url('../img/edition-window-magneticlink-hover.png'); }
-	.button-magenticlink-active { background-image: url('../img/edition-window-magneticlink-active.png'); }
+	.button-magenticlink:active { background-image: url('../img/edition-window-magneticlink-active.png'); }
 	.button-newwindow {
 		background-image: url('../img/edition-window-new-window.png');
 		background-repeat: no-repeat;
@@ -96,6 +96,7 @@ noscript {
 		margin: 0 0 0 50px;
 	}
 	.button-newwindow:hover { background-image: url('../img/edition-window-new-window-hover.png'); }
+	.button-newwindow:active { background-image: url('../img/edition-window-new-window-active.png'); }
 }
 
 .header-small {
@@ -230,14 +231,17 @@ header {
 	}
 	.button-minimize { background-image: url('../img/edition-window-tools-minimize.png'); }
 	.button-minimize:hover { background-image: url('../img/edition-window-tools-minimize-hover.png');}
+	.button-minimize:active { background-image: url('../img/edition-window-tools-minimize-active.png');}
 	.button-close { background-image: url('../img/edition-window-tools-close.png'); }
 	.button-close:hover { background-image: url('../img/edition-window-tools-close-hover.png'); }
-	.button-maximize { background-image: url('../img/edition-window-tools-maximize.png'); }
-	.button-maximize:hover { background-image: url('../img/edition-window-tools-maximize-hover.png'); }
+	.button-close:active { background-image: url('../img/edition-window-tools-close-active.png'); }
 	.button-open { background-image: url('../img/edition-window-tools-maximize.png'); }
 	.button-open:hover { background-image: url('../img/edition-window-tools-maximize-hover.png'); }
+	.button-open:active { background-image: url('../img/edition-window-tools-maximize-active.png'); }
 	.button-maximize { background-image: url('../img/edition-window-tools-maximize.png'); }
 	.button-maximize:hover { background-image: url('../img/edition-window-tools-maximize-hover.png'); }
+	.button-maximize:active { background-image: url('../img/edition-window-tools-maximize-active.png'); }
+
 	.info {
 		/* width: 250px; */
 		z-index: 99999;
@@ -348,9 +352,22 @@ header {
 		}
 		.normal {
 			background-image: url('../img/edition-gridselector.png');
+			&:hover {
+				background-image: url('../img/edition-gridselector-normal-hover.png');
+			}
+			&:active {
+				background-image: url('../img/edition-gridselector-normal-active.png');
+			}
 		}
 		.active {
 			background-image: url('../img/edition-gridselector-active.png');
+			&:hover {
+				background-image: url('../img/edition-gridselector-select-hover.png');
+			}
+			&:active {
+				background-image: url('../img/edition-gridselector-select-active.png');
+			}
+
 		}
 	}
 	.search {
@@ -758,9 +775,9 @@ header {
 					.tools-dfg { background-image: url('../img/edition-window-tools-dfg-hover.png'); }
 				}
 				&:active {
-					.tools-link { background-image: url('../img/edition-window-tools-link.png'); }
-					.tools-pdf { background-image: url('../img/edition-window-tools-pdf.png'); }
-					.tools-dfg { background-image: url('../img/edition-window-tools-dfg.png'); }
+					.tools-link { background-image: url('../img/edition-window-tools-link-active.png'); }
+					.tools-pdf { background-image: url('../img/edition-window-tools-pdf-active.png'); }
+					.tools-dfg { background-image: url('../img/edition-window-tools-dfg-active.png'); }
 				}
 				.tools-link {
 					background-image: url('../img/edition-window-tools-link.png');
@@ -772,9 +789,11 @@ header {
 
 			li .tools-paginationforward { background-image: url('../img/edition-window-pagination-forward.png'); }
 			li:hover .tools-paginationforward { background-image: url('../img/edition-window-pagination-forward-hover.png'); }
+			li:active .tools-paginationforward { background-image: url('../img/edition-window-pagination-forward-active.png'); }
 			li .tools-paginationforward-disabled { background-image: url('../img/edition-window-pagination-forward.png'); }
 			li .tools-paginationbackward { background-image: url('../img/edition-window-pagination-backward.png'); }
 			li:hover .tools-paginationbackward { background-image: url('../img/edition-window-pagination-backward-hover.png'); }
+			li:active .tools-paginationbackward { background-image: url('../img/edition-window-pagination-backward-active.png'); }
 			li .tools-paginationbackward-disabled { background-image: url('../img/edition-window-pagination-backward.png'); }
 
 			li .tools-doublepage { background-image: url('../img/edition-window-tools-doublepage.png'); }
