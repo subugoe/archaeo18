@@ -329,16 +329,16 @@ noscript p {
   padding: 0;
   top: 227px; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\0000383}}
-  .edition-tools .button-magenticlink {
+  .edition-tools .button-magneticlink {
     background-image: url("../img/edition-window-magneticlink.png");
     background-repeat: no-repeat;
     background-position: center center;
     padding: 26px 0 0 26px; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\0000389}}
-  .edition-tools .button-magenticlink:hover {
+  .edition-tools .button-magneticlink:hover {
     background-image: url("../img/edition-window-magneticlink-hover.png"); }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\0000390}}
-  .edition-tools .button-magenticlink:active {
+  .edition-tools .button-magneticlink:active {
     background-image: url("../img/edition-window-magneticlink-active.png"); }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\0000391}}
   .edition-tools .button-newwindow {
