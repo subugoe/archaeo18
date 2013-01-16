@@ -215,6 +215,17 @@ DocumentDialog = function(parent,doc,div,page){
 	};
 
 	/**
+	* activate a specific facet
+	*/
+	this.activateFacet = function(name){
+		this.facetSelector.activateFacet(name);
+		this.facetSelection = this.facetSelector.getFacetSelection();
+		if( this.doctype.stopped ){
+			this.doctype.display();
+		}
+	}	
+
+	/**
 	* triggers facetsChange event to all other linked tabs with the same document shown
 	*/
 	this.facetsChanged = function(facets){

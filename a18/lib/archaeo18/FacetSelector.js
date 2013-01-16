@@ -91,4 +91,21 @@ function FacetSelector(div){
 		}
 	};
 
+	/**
+	* activate a specific facet
+	*/	
+	this.activateFacet = function(name){
+		var i = -1;
+		for( var j=0; j<Util.facets.length; j++ ){
+			if( Util.facets[j].render ){
+				i++;
+				if( Util.facets[j].facet == name ){
+					$(checkboxes[i]).attr('checked',true);
+					facetSelection[i] = true;
+					break;
+				}
+			}
+		}
+	};
+
 }

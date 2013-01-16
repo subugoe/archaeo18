@@ -116,8 +116,6 @@ var a18Gui = new function(){
 			this.gridLayout();
 		}
 		
-		this.tooltip = $('<div class="tooltip"/>').appendTo(this.containerDiv);
-		
 		this.browser.updateZIndex(true);
 
 		if( window.location.href.indexOf('?docParams') != -1 ){
@@ -125,6 +123,7 @@ var a18Gui = new function(){
 			var doc = Util.loadDocumentSync(params[0]);
 			var page = parseInt(params[1]);
 			this.contentWindows[0].addTab(doc,page,'pages');
+			this.contentWindows[0].dialog().activateFacet(params[2]);
 		}
 
 	};
@@ -263,28 +262,34 @@ var a18Gui = new function(){
 				var p = $('<p/>').appendTo(content);
 				$(p).append('<div class="thumb" style="background-color:'+color+';"/>');
 				$(p).append('<div class="tooltipLabel" style="color:'+color+';">'+Util.getFacetLabel(facet)+'</div>');
-				var hyperlink1, hyperlink2;
+				var hyperlink1 = undefined, hyperlink2 = undefined;
 				if( typeof link.href != 'undefined' ){
-					hyperlink1 = $('<a href="javascript:void(0)">'+Util.getString('info')+'</a>');
-					hyperlink2 = $('<a href="javascript:void(0)">'+Util.getString('database')+'</a>');
+					if( entity.indexOf('bibl') ){
+						hyperlink1 = $('<a href="javascript:void(0)">'+Util.getString('bibl')+'<span class="extern_link"/></a>');
+					}
+					else {
+						hyperlink1 = $('<a href="javascript:void(0)">'+Util.getString('database')+'<span class="extern_link"/></a>');
+					}
 					$(p).append('<br>');
 					$(p).append('<div class="anchor"/>');
-					$(p).append('<div style="display:inline-block;padding-top:10px;">'+Util.getString('openLinkAs')+':</div>');
-					var linkDiv = $(p).append('<div class="tooltipLabelLink"></div>');
-					$(linkDiv).append($(hyperlink1));
-					$(linkDiv).append('<br>');
-					$(linkDiv).append($(hyperlink2));
+					$(p).append($(hyperlink1));
+					if( a18Props.hyperlinkWindow ){
+						hyperlink2 = $('<a href="javascript:void(0)"><span class="intern_link"/></a>');
+						$(p).append($(hyperlink2));
+					}
 				}
 				var trigger = function(div){
 					if( typeof hyperlink1 != 'undefined' ){
 						$(hyperlink1).click(function(){
 							tooltip.removeAllTooltips();
-							new HyperlinkWindow(link.href,altName);
-						});
-						$(hyperlink2).click(function(){
-							tooltip.removeAllTooltips();
 							window.open(link.href,'_blank');
 						});
+						if( typeof hyperlink2 != 'undefined' ){
+							$(hyperlink2).click(function(){
+								tooltip.removeAllTooltips();
+								new HyperlinkWindow(link.href,altName);
+							});
+						}
 					}
 					a18Gui.appendTooltips(div,dialog);
 					a18Gui.colorizeLinks(div);
@@ -384,12 +389,15 @@ var a18Gui = new function(){
 	/**
 	* create a dialog (e.g. open document dialog) with a given <headline> and a given <content>
 	*/
-	this.createDialog = function(headline,content,evt){
+	this.createDialog = function(headline,content,evt,sx,sy,onclose){
 		var gui = this;
 		var id = "dialog"+this.getIndependentId();
 		var dialog = $('<div id="'+id+'" class="dialog"/>').appendTo(this.containerDiv);
 		var closeDialog = function(){			
 			$(dialog).remove();
+			if( typeof onclose != 'undefined' ){
+				onclose();
+			}
 		}
 		var zIndex = this.getZIndex();
 		$(dialog).css('z-index',zIndex);
@@ -406,9 +414,15 @@ var a18Gui = new function(){
 		$(close).click(closeDialog);
 		$(content).appendTo(dialog);
 		$('#'+id).draggable({handles: 'e'});
+		if( sx < 0 ){
+			sx -= $(dialog).width();
+		}
+		if( sy < 0 ){
+			sy -= $(dialog).height();
+		}
 		var pos = this.getMousePosition(evt);
-		$(dialog).css('top',(pos.top-$(this.containerDiv).offset().top+20)+'px');
-		$(dialog).css('left',(pos.left+20)+'px');
+		$(dialog).css('top',(pos.top-$(this.containerDiv).offset().top+sy)+'px');
+		$(dialog).css('left',(pos.left+sx)+'px');
 		return dialog;
 	}; 
 	
@@ -498,6 +512,12 @@ var a18Gui = new function(){
 				windowWidth = Math.floor(availableWidth/visibleWindows);
 			}
 		}
+		if( windowWidth < a18Props.minWindowWidth ){
+			windowWidth = a18Props.minWindowWidth;
+		}
+		if( windowHeight < a18Props.minWindowHeight ){
+			windowHeight = a18Props.minWindowHeight;
+		}
 		
 		var cwLeft = marginGap;
 		if( this.browser.visibility ){
@@ -566,12 +586,14 @@ var a18Gui = new function(){
 					close();
 				});
 			});
-			var openNewButton = $('<a>'+Util.getString('newContentWindow')+'</a>').appendTo(inner);
-			openNewButton.click(function(){
-				openNewWindow();
-				close();
-			});
-			var dialog = this.createDialog(Util.getString('openDocument'),inner,evt);
+			if( a18Gui.contentWindows.length < a18Props.maxWindows ){
+				var openNewButton = $('<a>'+Util.getString('newContentWindow')+'</a>').appendTo(inner);
+				openNewButton.click(function(){
+					openNewWindow();
+					close();
+				});
+			}
+			var dialog = this.createDialog(Util.getString('openDocument'),inner,evt,20,-20);
 			close = function(){
 				$(dialog).remove();
 			}
@@ -844,6 +866,7 @@ var a18Gui = new function(){
 			var magneticLink = $('<a class="button-magenticlink"><span class="visuallyhidden"></span>&nbsp;</a>').appendTo(controls);
 			$(magneticLink).attr('title',Util.getString('magneticLink'));
 			magneticLink.click(function(evt){
+				$(magneticLink).addClass('button-magenticlink-active');
 				var content = $("<div class='inner'/>");
 				$(content).css("text-align","center");
 				var p = $("<p/>").appendTo(content);
@@ -853,7 +876,10 @@ var a18Gui = new function(){
 					generateMagneticLink();
 				});
 				$(linkList).appendTo(p);
-				gui.createDialog(Util.getString('magneticLink'),content,evt);
+				var onclose = function(){
+					$(magneticLink).removeClass('button-magenticlink-active');
+				}
+				gui.createDialog(Util.getString('magneticLink'),content,evt,20,20,onclose);
 			});
 		}
 
@@ -910,6 +936,10 @@ var a18Gui = new function(){
 	$(window).resize(function(){
 		a18Gui.gridLayout();
 	});	
+
+	$(window).mousemove(function(){
+		//tooltip.checkErase();
+	});
 	
 	/**
 	* checks, if grid layout need to be done

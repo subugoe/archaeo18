@@ -50,6 +50,7 @@ var a18Props = {
 		urlShortenerRequest: 'https://www.googleapis.com/urlshortener/v1/url',
 
 		// initial size for hyperlink windows to open external websites
+		hyperlinkWindow: false,
 		hyperlinkWindowWidth: 758,
 		hyperlinkWindowHeight: 500,
 
@@ -59,6 +60,9 @@ var a18Props = {
 		
 		// maximum allowed number of documents in a content window
 		maxDocuments: 10,
+
+		// maximum allowed number of conent windows
+		maxWindows: 6,
 
 		// default size if manuscripts page image 
 		hwImageHeight: 328,

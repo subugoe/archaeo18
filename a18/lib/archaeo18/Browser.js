@@ -455,6 +455,16 @@ Browser = function(){
 					var newLinks = $('.head-anchor',root);
 					for( var i=0; i<newLinks.length; i++ ){
 						setClickEvent(newLinks[i]);
+						/*
+						$(newLinks[i]).draggable({
+							opacity: 0.7,
+							helper: "clone",
+							start: function( event, ui ) {
+								var dragthing = $('.ui-draggable-dragging')[0];
+								$(dragthing).appendTo($('#editionContainer')[0]);
+							}
+						});
+						*/
 					}
 				}
 				var calcTree = function(){

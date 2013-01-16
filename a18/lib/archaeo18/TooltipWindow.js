@@ -25,6 +25,16 @@ var tooltip = new function(){
 		return false;
 	}
 
+	this.checkErase = function(){
+		if( activeTooltips.length == 1 ){
+			var tt = activeTooltips[0];
+			if( ! ( tt.mouseOverParent || tt.mouseOverTooltip ) ){
+				$(tt.tooltip).remove();
+				activeTooltips.pop();
+			}
+		}
+	}
+
 	/*
 	* tooltip for 'hover' mode (if link was hovered)
 	*/
