@@ -467,6 +467,7 @@ var a18Gui = new function(){
 		var marginGap = a18Props.margin;
 		var windowGap = a18Props.windowGap;
 
+		$(this.containerDiv).css('width','100%');
 		var w = $(this.containerDiv).width();
 		var h = this.minHeight;
 		
@@ -513,6 +514,7 @@ var a18Gui = new function(){
 			}
 		}
 		if( windowWidth < a18Props.minWindowWidth ){
+			$(this.containerDiv).css('width',(w+(a18Props.minWindowWidth-windowWidth)*visibleWindows)+'px');
 			windowWidth = a18Props.minWindowWidth;
 		}
 		if( windowHeight < a18Props.minWindowHeight ){
@@ -934,6 +936,8 @@ var a18Gui = new function(){
 	* automatic grid layout, if user resizes browser
 	*/
 	$(window).resize(function(){
+//		console.info($(document).width(),$(window).width(),$('body').width(),$('#editionContainer').width());
+//		$('#editionContainer').css('width',$(document).width()+"px");
 		a18Gui.gridLayout();
 	});	
 
