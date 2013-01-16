@@ -258,6 +258,7 @@ var a18Gui = new function(){
 				if( typeof cert != 'undefined' ){
 					altName += " &#040;"+cert+"&#041;";
 				}
+
 				$(content).append('<p>'+altName+'</p>');
 				var p = $('<p/>').appendTo(content);
 				$(p).append('<div class="thumb" style="background-color:'+color+';"/>');
@@ -801,7 +802,7 @@ var a18Gui = new function(){
 	*/
 	this.addControls = function(){
 		var gui = this;
-		var controls = $('<div class="edition-tools"/>').appendTo('body');		
+		var controls = $('<div class="edition-tools"/>').appendTo(this.containerDiv);		
 		if( a18Props.addable ){
 			var addWindow = $('<a class="button-newwindow"><span class="visuallyhidden"></span>&nbsp;</a>').appendTo(controls);
 			$(addWindow).attr('title',Util.getString('newContentWindow'));
@@ -865,10 +866,10 @@ var a18Gui = new function(){
 				    	}
 				});
 			}
-			var magneticLink = $('<a class="button-magenticlink"><span class="visuallyhidden"></span>&nbsp;</a>').appendTo(controls);
+			var magneticLink = $('<a class="button-magneticlink"><span class="visuallyhidden"></span>&nbsp;</a>').appendTo(controls);
 			$(magneticLink).attr('title',Util.getString('magneticLink'));
 			magneticLink.click(function(evt){
-				$(magneticLink).addClass('button-magenticlink-active');
+				$(magneticLink).addClass('button-magneticlink-active');
 				var content = $("<div class='inner'/>");
 				$(content).css("text-align","center");
 				var p = $("<p/>").appendTo(content);
@@ -879,14 +880,14 @@ var a18Gui = new function(){
 				});
 				$(linkList).appendTo(p);
 				var onclose = function(){
-					$(magneticLink).removeClass('button-magenticlink-active');
+					$(magneticLink).removeClass('button-magneticlink-active');
 				}
 				gui.createDialog(Util.getString('magneticLink'),content,evt,20,20,onclose);
 			});
 		}
 
 		if( a18Props.gridLayout && ( a18Props.resizable || a18Props.draggable ) ){
-			var gridDiv = $('<div class="gridselector"/>').appendTo('body');
+			var gridDiv = $('<div class="gridselector"/>').appendTo(this.containerDiv);
 			var gridButton = $('<a class="normal"><span class="visuallyhidden"></span>&nbsp;</a>').appendTo(gridDiv);
 			if( a18Props.automaticGridLayout ){
 				gridButton.attr('title',Util.getString('enableGridLayout'));
