@@ -96,6 +96,7 @@ var Indices = new function(){
 					});
 				});
 				$(table).dataTable();
+				var inputField = $('#tableIncices_filter :input')[0];
 				if( facet.facet.indexOf('placeName') == -1 ){
 					appendStatus(Util.getString('loadTagcloud'));
 					setTimeout(function(){
@@ -117,6 +118,7 @@ var Indices = new function(){
 							$(tagsDiv).jQCloud(tagArray);
 							$('.tagcloudTag',section).each(function(){
 								$(this).click(function(){
+									$(inputField).val($(this).html());
 								});
 							});
 							$(status).remove();
