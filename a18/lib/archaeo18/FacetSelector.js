@@ -14,13 +14,10 @@ function FacetSelector(div){
 	var checkboxes = [];
 	var facetSelection = [];
 	var addFacet = function(facet,index){
-		var entry = $("<div/>").appendTo(facetsBar);
-		var checkbox = $("<input type='checkbox'>"+Util.getFacetLabel(facet)+"</input>").appendTo(entry);
+		var entry = $("<div class='facetSelector'/>").appendTo(facetsBar);
+		var checkbox = $("<input type='checkbox'/>").appendTo(entry);
+		$("<span>"+Util.getFacetLabel(facet)+"</span>").appendTo(entry);
 		$(entry).css('color',facet.color);
-		$(entry).css('margin-left','5px');
-		$(entry).css('margin-right','5px');
-		//$(entry).css('display','inline-block');
-		$(entry).css('display','inline');
 		facetSelection.push(false);
 		checkboxes.push(checkbox);
 		checkbox.click(function(){

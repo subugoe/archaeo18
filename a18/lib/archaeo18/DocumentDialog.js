@@ -22,7 +22,7 @@ DocumentDialog = function(parent,doc,div,page){
 		this.container.css('position', 'relative' );
 		this.fullscreen = new FullscreenWindow(this.container);
 		this.funcDiv = $('<div class="toolstop clearfix"/>').appendTo(this.container);
-		this.facetDiv = $('<div class="toolstop clearfix"/>').appendTo(this.container);
+		this.facetDiv = $('<div class="toolstop clearfix facetSelectorDiv"/>').appendTo(this.container);
 		this.docContainerDiv = $('<div class="windowcontent"/>').appendTo(this.container);
 		this.docContainerDiv.css('overflow','auto');
 		this.docTypeDiv = $('<div class="clearfix"/>').appendTo(this.container);
@@ -122,7 +122,6 @@ DocumentDialog = function(parent,doc,div,page){
 		}
 		this.facetSelector = new FacetSelector(this.facetDiv);
 		this.facetSelection = this.facetSelector.getFacetSelection();
-		$(this.facetDiv).css('text-align','center');
 		this.showFacets = function(){
 			$(dialog.facetDiv).css('display','block');
 		};
@@ -254,6 +253,7 @@ DocumentDialog = function(parent,doc,div,page){
 		outlineView.click(function(){
 			dialog.setDocType('outline');
 			dialog.showDocumentType();
+
 		});
 		this.buttons.push({
 			button: outlineView,

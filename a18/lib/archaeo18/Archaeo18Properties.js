@@ -108,6 +108,7 @@ var a18Props = {
 		automaticGridLayout: true,	// true for consistent grid layout, false for single grid layout
 		magneticLink: true,	// if magnetic link is a provided option in the document menu
 		fullscreen: true,	// if fullscreen is an option for folders
+		browserFullscreen: true, // if browser fullscreen is allowed
 		
 		/**
 		   Tooltip mode for colored entities; 'click' or 'hover' are possible

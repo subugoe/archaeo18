@@ -259,6 +259,7 @@ var a18Gui = new function(){
 					altName += " &#040;"+cert+"&#041;";
 				}
 
+
 				$(content).append('<p>'+altName+'</p>');
 				var p = $('<p/>').appendTo(content);
 				$(p).append('<div class="thumb" style="background-color:'+color+';"/>');
@@ -886,8 +887,8 @@ var a18Gui = new function(){
 			});
 		}
 
+		var gridDiv = $('<div class="gridselector"/>').appendTo(this.containerDiv);
 		if( a18Props.gridLayout && ( a18Props.resizable || a18Props.draggable ) ){
-			var gridDiv = $('<div class="gridselector"/>').appendTo(this.containerDiv);
 			var gridButton = $('<a class="normal"><span class="visuallyhidden"></span>&nbsp;</a>').appendTo(gridDiv);
 			if( a18Props.automaticGridLayout ){
 				gridButton.attr('title',Util.getString('enableGridLayout'));
@@ -930,6 +931,13 @@ var a18Gui = new function(){
 			}
 
 		}
+
+		if( a18Props.browserFullscreen ){
+			var fsButton = $('<a class="browser-fullscreen"><span class="visuallyhidden"></span>&nbsp;</a>').appendTo(gridDiv);
+			fsButton.click(function(){
+				$('#editionContainer').fullScreen(true);
+			});
+		}
 						
 	};
 
@@ -937,13 +945,21 @@ var a18Gui = new function(){
 	* automatic grid layout, if user resizes browser
 	*/
 	$(window).resize(function(){
-//		console.info($(document).width(),$(window).width(),$('body').width(),$('#editionContainer').width());
-//		$('#editionContainer').css('width',$(document).width()+"px");
 		a18Gui.gridLayout();
 	});	
 
-	$(window).mousemove(function(){
-		//tooltip.checkErase();
+	function ezbAddEvent(object,oEvent,fnctn){
+		if(object.addEventListener) object.addEventListener(oEvent,fnctn,false);
+		else if(object.attachEvent) object.attachEvent("on" + oEvent, fnctn);
+	}
+	ezbAddEvent(window,"load",function(e){
+		ezbAddEvent(document,"mouseout",function(e){
+			e = e ? e : window.event;
+			var from = e.relatedTarget || e.toElement;
+			if(!from || from.nodeName == "HTML"){
+				tooltip.removeAllTooltips();
+			}
+		});
 	});
 	
 	/**

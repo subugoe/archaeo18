@@ -35,6 +35,13 @@ var tooltip = new function(){
 		}
 	}
 
+	this.removeAllTooltips = function(){
+		for( var i=0; i<activeTooltips.length; i++ ){
+			$(activeTooltips[i].tooltip).remove();
+		}
+		activeTooltips = [];
+	}
+
 	/*
 	* tooltip for 'hover' mode (if link was hovered)
 	*/
@@ -69,8 +76,7 @@ var tooltip = new function(){
 				if( tt.isActive(parent) ){
 					return;	
 				}
-				setTimeout(function(){ checkActivity(); },100);
-				//checkActivity();
+				checkActivity();
 				if ( typeof content != 'undefined' ){
 //					var tooltip = $("<div id='tooltipWindow'/>").appendTo('body');
 					var tooltip = $("<div class='info'/>").appendTo(a18Gui.containerDiv);
