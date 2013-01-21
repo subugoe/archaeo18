@@ -12,7 +12,7 @@ var Scripts = new function(){
 
 		Util.loadTexts();
 
-		this.selectionContainer = $("#selectionContainer");
+		this.selectionContainer = $("#scriptsSelection");
 		$('<h2>'+Util.getString('scriptSelection')+'</h2>').appendTo(this.selectionContainer);
 		$('<h3>'+Util.getString('directSelection')+'</h3>').appendTo(this.selectionContainer);
 		$('<p>'+Util.getString('pleaseSelect')+'</p>').appendTo(this.selectionContainer);

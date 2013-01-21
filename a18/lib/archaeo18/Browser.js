@@ -440,7 +440,7 @@ Browser = function(){
 					for( var i=0; i<oldLinks.length; i++ ){
 						$(oldLinks[i]).remove();
 					}
-					var setClickEvent = function(node){
+					var setEvents = function(node){
 						var position = $(newLinks[i]).attr("name");
 						$(node).unbind('click');
 					    	$(node).click(function(evt){
@@ -451,20 +451,21 @@ Browser = function(){
 						    		a18Gui.openDocument(evt,doc,undefined,'text',position);
 							}
 					    	});
-					}
-					var newLinks = $('.head-anchor',root);
-					for( var i=0; i<newLinks.length; i++ ){
-						setClickEvent(newLinks[i]);
 						/*
-						$(newLinks[i]).draggable({
+						$(node).draggable({
 							opacity: 0.7,
 							helper: "clone",
 							start: function( event, ui ) {
 								var dragthing = $('.ui-draggable-dragging')[0];
 								$(dragthing).appendTo($('#editionContainer')[0]);
+								console.info($(node).position(),$(node).offset());
 							}
 						});
 						*/
+					}
+					var newLinks = $('.head-anchor',root);
+					for( var i=0; i<newLinks.length; i++ ){
+						setEvents(newLinks[i]);
 					}
 				}
 				var calcTree = function(){

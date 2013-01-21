@@ -260,6 +260,7 @@ var a18Gui = new function(){
 				}
 
 
+
 				$(content).append('<p>'+altName+'</p>');
 				var p = $('<p/>').appendTo(content);
 				$(p).append('<div class="thumb" style="background-color:'+color+';"/>');
@@ -267,10 +268,10 @@ var a18Gui = new function(){
 				var hyperlink1 = undefined, hyperlink2 = undefined;
 				if( typeof link.href != 'undefined' ){
 					if( entity.indexOf('bibl') ){
-						hyperlink1 = $('<a href="javascript:void(0)">'+Util.getString('bibl')+'<span class="extern_link"/></a>');
+						hyperlink1 = $('<a href="javascript:void(0)">'+Util.getString('database')+'<span class="extern_link"/></a>');
 					}
 					else {
-						hyperlink1 = $('<a href="javascript:void(0)">'+Util.getString('database')+'<span class="extern_link"/></a>');
+						hyperlink1 = $('<a href="javascript:void(0)">'+Util.getString('bibl')+'<span class="extern_link"/></a>');
 					}
 					$(p).append('<br>');
 					$(p).append('<div class="anchor"/>');
@@ -523,6 +524,7 @@ var a18Gui = new function(){
 			windowHeight = a18Props.minWindowHeight;
 		}
 		
+
 		var cwLeft = marginGap;
 		if( this.browser.visibility ){
 			this.browser.position(marginGap,windowTop);
