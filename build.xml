@@ -135,6 +135,10 @@ ant
   <!-- YUI -->
   <property name="yui.version" value="2.4.7"/>
 
+  <!-- Configuration files -->
+  <property name="a18.conf" value="./a18/lib/archaeo18/Archaeo18Properties.js"/>
+  <property name="a18.conf.local" value="./a18/lib/archaeo18/Archaeo18Properties.local.js"/>
+  <property name="a18.conf.remote" value="./a18/lib/archaeo18/Archaeo18Properties.remote.js"/>
   <!-- Experimental compass settings -->
 
   <target name="init" depends="">
@@ -404,7 +408,7 @@ ant
       originalfile="./a18/lib/archaeo18/Archaeo18Properties.js"/>
   </target>
 
-  <target name="clean">
+  <target name="clean" depends="a18.config.remote">
     <!--
     <delete dir="${lib.dir}"/>
     -->
@@ -745,8 +749,16 @@ ant
 
   </target>
 
+  <target name="a18.config.local">
+    <copyfile src="a18.conf.local" dest="a18.conf"/>
+  </target>
+  
+  <target name="a18.config.remote">
+    <copyfile src="a18.conf.remote" dest="a18.conf"/>
+  </target>
+
   <!-- Meta targets -->
-  <target name="serve" depends="scss.compile.watch, jetty.start"/>
+  <target name="serve" depends="scss.compile.watch, a18.config.local, jetty.start"/>
   <target name="devel" depends="serve"/>
   <target name="all.static" depends="clean, war, php.compile"/>
 
