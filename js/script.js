@@ -37,7 +37,7 @@ $('footer .wrap div:nth-child(3)').height(106);
 
 /* MAKE TABLES DATA READY */
 
-$('#tableHandschriften').dataTable();
+//$('#tableHandschriften').dataTable();
 /*
 $('#tableIncices').dataTable( {
 	"aoColumns": [
@@ -47,7 +47,7 @@ $('#tableIncices').dataTable( {
 	]
 });
 */
-$('#tableIncices').dataTable();
+//$('#tableIncices').dataTable();
 
 /* MAKE TABLES DATA READY (end) */
 

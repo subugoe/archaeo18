@@ -61,21 +61,16 @@
 
 	<!-- include geotemco -->
 	<link rel="stylesheet" href="a18/lib/GeoTemCo/css/geotemco.css" type="text/css" />
-	<script src="a18/lib/GeoTemCo/geotemco.js"></script>
+	<script src="a18/lib/GeoTemCo/geotemco-min.js"></script>
 
 	<!-- include jQuery -->
-	<link rel="stylesheet" href="a18/lib/jquery-ui-1.9.2.custom/css/ui-lightness/jquery-ui-1.9.2.custom.css">
+	<link rel="stylesheet" href="a18/lib/jquery-ui-1.10.0.custom/css/ui-lightness/jquery-ui-1.10.0.custom.css">
  	<script src="a18/lib/jQuery/jquery-1.5.1.js"></script>
-	<script src="a18/lib/jquery-ui-1.9.2.custom/js/jquery-ui-1.9.2.custom.js"></script>
+	<script src="a18/lib/jquery-ui-1.10.0.custom/js/jquery-ui-1.10.0.custom.js"></script>
 
 	<!-- include jQuery plugin Fullscreen -->
 	<script src="js/libs/fullscreen.js"></script>
 
-	<!-- include jQuery plugin jPaginate 
-	<link rel="stylesheet" href="lib/jPaginate/css/style.css">
-
-	<script src="a18/lib/jPaginate/jquery.paginate.js"></script> -->
-	
 	<!-- include jQuery plugin dynatree -->
   	<link href="a18/lib/dynatree/src/skin/ui.dynatree.css" rel="stylesheet" type="text/css">
   	<script src="a18/lib/dynatree/src/jquery.dynatree.js" type="text/javascript"></script>
@@ -89,49 +84,37 @@
 	<!-- include Browser Detection -->
 	<script src="a18/lib/browserDetect/BrowserDetect.js" type="text/javascript"></script>
 
-	<!-- include jQuery plugin blockUI -->
-	<script type="text/javascript" src="a18/lib/jQueryBBQ/jquery.ba-bbq.js"></script> 
-
 	<!-- include jQCloud plugin -->
   	<link href="a18/lib/jqcloud/jqcloud.css" rel="stylesheet" type="text/css">
 	<script type="text/javascript" src="a18/lib/jqcloud/jqcloud-1.0.0.js"></script> 
 
-	<!-- include OpenLayers -->
-	<script type="text/javascript" src="a18/lib/openlayers/OpenLayers.js"></script> 
-
-	<!-- include Publisher -->
-	<script src="a18/lib/Publisher/Publisher.js"></script>
-
 	<!-- include archaeo18 GUI -->
    	<link type="text/css" rel="stylesheet" href="a18/css/archaeo18.css">
    	<link type="text/css" rel="stylesheet" href="a18/css/tei.css">
-   	<link type="text/css" rel="stylesheet" href="a18/css/pagination.css">
-   	<link type="text/css" rel="stylesheet" href="a18/css/incrementer.css">
-   	<link type="text/css" rel="stylesheet" href="a18/css/buttons.css">
-	<script src="a18/lib/archaeo18/Archaeo18Properties.js"></script>
-	<script src="a18/lib/archaeo18/Util.js"></script>
-	<script src="a18/lib/archaeo18/TEITreeGenerator.js"></script>
-	<script src="a18/lib/archaeo18/LineNumberOracle.js"></script>
-	<script src="a18/lib/archaeo18/OutlineTree.js"></script>
-	<script src="a18/lib/archaeo18/Pagination.js"></script>
-	<script src="a18/lib/archaeo18/FacetSelector.js"></script>
-	<script src="a18/lib/archaeo18/document/Document.js"></script>
-	<script src="a18/lib/archaeo18/document/Text.js"></script>
-	<script src="a18/lib/archaeo18/document/Images.js"></script>
-	<script src="a18/lib/archaeo18/document/Pages.js"></script>
-	<script src="a18/lib/archaeo18/document/Outline.js"></script>
-	<script src="a18/lib/archaeo18/document/TEI.js"></script>
-	<script src="a18/lib/archaeo18/document/Thumbnails.js"></script>
-	<script src="a18/lib/archaeo18/document/Map.js"></script>
-	<script src="a18/lib/archaeo18/document/Tags.js"></script>
-	<script src="a18/lib/archaeo18/FrameWindow.js"></script>
-	<script src="a18/lib/archaeo18/ContentWindow.js"></script>
-	<script src="a18/lib/archaeo18/HyperlinkWindow.js"></script>
-	<script src="a18/lib/archaeo18/Browser.js"></script>
-	<script src="a18/lib/archaeo18/DocumentDialog.js"></script>
-	<script src="a18/lib/archaeo18/FullscreenWindow.js"></script>
-	<script src="a18/lib/archaeo18/TooltipWindow.js"></script>
-	<script src="a18/lib/archaeo18/Archaeo18Gui.js"></script>
+	<script src="a18/js/Archaeo18Properties.js"></script>
+	<script src="a18/js/Util.js"></script>
+	<script src="a18/js/TEITreeGenerator.js"></script>
+	<script src="a18/js/LineNumberOracle.js"></script>
+	<script src="a18/js/OutlineTree.js"></script>
+	<script src="a18/js/Pagination.js"></script>
+	<script src="a18/js/FacetSelector.js"></script>
+	<script src="a18/js/document/Document.js"></script>
+	<script src="a18/js/document/Text.js"></script>
+	<script src="a18/js/document/Images.js"></script>
+	<script src="a18/js/document/Pages.js"></script>
+	<script src="a18/js/document/Outline.js"></script>
+	<script src="a18/js/document/TEI.js"></script>
+	<script src="a18/js/document/Thumbnails.js"></script>
+	<script src="a18/js/document/Map.js"></script>
+	<script src="a18/js/document/Tags.js"></script>
+	<script src="a18/js/FrameWindow.js"></script>
+	<script src="a18/js/ContentWindow.js"></script>
+	<script src="a18/js/HyperlinkWindow.js"></script>
+	<script src="a18/js/Browser.js"></script>
+	<script src="a18/js/DocumentDialog.js"></script>
+	<script src="a18/js/FullscreenWindow.js"></script>
+	<script src="a18/js/TooltipWindow.js"></script>
+	<script src="a18/js/Archaeo18Gui.js"></script>
 	<script src="js/Indices.js"></script>
 	<script src="js/Scripts.js"></script>
 
@@ -151,7 +134,14 @@
 			$(div).css('display','block');
 			$(link).addClass('selected');
 		}
-		showDiv('#start_page','#linkstart');
+
+		if( window.location.href.indexOf('?params') != -1 ){
+			showDiv('#edition_page','#linkedition');
+			a18Gui.gridLayout();
+		}
+		else {
+			showDiv('#start_page','#linkstart');
+		}
 
 		$('#linkstart').click(function(e){
 			showDiv('#start_page','#linkstart',e);
@@ -164,6 +154,7 @@
 
 		$('#linkindices').click(function(e){
 			showDiv('#indices_page','#linkindices',e);
+			Indices.checkDisplay();
 		});
 
 		$('#linkhandschriften').click(function(e){

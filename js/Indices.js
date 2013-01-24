@@ -3,6 +3,8 @@
 */
 var Indices = new function(){
 
+	var section;
+
 	/*
 	* initialize indices page; load facets
 	*/
@@ -31,10 +33,22 @@ var Indices = new function(){
 
 		this.sectionContainer = $("#sectionContainer");
 
-		var trigger = function(facet){
-			$('<option id="'+facet.facet+'">'+Util.getFacetLabel(facet)+'</option>').appendTo(gui.selectionDropdown);
+		var loadFacets = function(){
+			if( Util.facetsLoaded ){
+				for( var i=0; i<Util.facets.length; i++ ){
+					var facet = Util.facets[i];
+					if( facet.render ){
+						$('<option id="'+facet.facet+'">'+Util.getFacetLabel(facet)+'</option>').appendTo(gui.selectionDropdown);
+					}
+				}
+			}
+			else {
+				setTimeout(function(){
+					loadFacets();
+				}, 1000 );
+			}
 		}
-		Util.loadFacets(trigger);		
+		loadFacets();
 
 	};
 
@@ -59,7 +73,7 @@ var Indices = new function(){
 		};
 		$(this.sectionContainer).empty();
 		var facet = Util.getFacet(facetId);
-		var section = $("<section/>").appendTo(this.sectionContainer);
+		section = $("<section/>").appendTo(this.sectionContainer);
 		$('<h2>'+Util.getFacetLabel(facet)+'</h2>').appendTo(section);
 		var tableLoaded = false, cloudLoaded = false;
 		appendStatus(Util.getString('loadTable'));
@@ -89,10 +103,14 @@ var Indices = new function(){
 				});
 				$('.editionRef',section).each(function(){
 					var params = Util.getAttribute(this,'rel');
-					params += ';'+facet.facet;
+					params = params.split(';');
 					var linkString = 'http://'+location.host+'/archaeo18/edition.php?docParams='+params;
-					$(this).click(function(){
-						window.open(linkString,'_blank');
+					$(this).click(function(e){
+						showDiv('#edition_page','#linkedition',e);
+						a18Gui.gridLayout();
+						var doc = Util.loadDocumentSync(params[0]);
+						var page = parseInt(params[1]);
+						a18Gui.openDocument(false,doc,page,"pages",undefined,facet.facet);
 					});
 				});
 				$(table).dataTable();
@@ -110,17 +128,15 @@ var Indices = new function(){
 						dataType: 'xml',
 						success: function(xml){
 							cloudLoaded = true;
-							var tagArray = Util.getTags($(xml).find('tag'));
-							var tagsDiv = $("<div/>").appendTo(section);
-							$(tagsDiv).css('height','200px');
-							$(tagsDiv).css('margin-top','50px');
-							$(tagsDiv).css('margin-bottom','50px');
-							$(tagsDiv).jQCloud(tagArray);
-							$('.tagcloudTag',section).each(function(){
-								$(this).click(function(){
-									$(inputField).val($(this).html());
-								});
-							});
+							if( $("#indices_page").css('display') == 'none' ){
+								Indices.data = {
+									type: 'cloud',
+									data: xml
+								};
+							}
+							else {
+								Indices.displayCloud();
+							}
 							$(status).remove();
 						}
 					});
@@ -138,39 +154,82 @@ var Indices = new function(){
 						dataType: 'xml',
 						success: function(kml){
 							cloudLoaded = true;
-							var mapDiv = $("<div/>").appendTo(section);
-							$(mapDiv).css('position','relative');
-							$(mapDiv).css('height','400px');
-							$(mapDiv).css('margin-top','50px');
-							$(mapDiv).css('margin-bottom','50px');
-							var loadMap = function(){
-								if( typeof GeoTemConfig == 'undefined' ){
-									setTimeout( function(){ loadMap(); }, 1000 );
-								}
-								GeoTemConfig.applySettings({
-									language: Util.language,
-									allowFilter: false
-								});
-								var map = new WidgetWrapper();
-								var mapWidget = new MapWidget(map,$(mapDiv)[0],{
-									mapWidth: false,
-									mapHeight: false,
-									mapSelection: false,
-									mapSelectionTools: false,
-									dataInformation: false,
-									mapCanvasFrom: '#DDD',
-									mapCanvasTo: '#DDD',
-									maxPlaceLabels: 8
-								});
-								map.display([new Dataset(GeoTemConfig.loadKml(kml))]);
-								$(status).remove();
+							if( $("#indices_page").css('display') == 'none' ){
+								Indices.data = {
+									type: 'map',
+									data: kml
+								};
 							}
-							loadMap();
+							else {
+								Indices.displayMap();
+							}
+							$(status).remove();
 						}
 					});
 				}
 			}
 		});
+	};
+
+	this.displayCloud = function(xml){
+		var tagArray = Util.getTags($(xml).find('tag'));
+		var tagsDiv = $("<div/>").appendTo(section);
+		$(tagsDiv).css('height','200px');
+		$(tagsDiv).css('margin-top','50px');
+		$(tagsDiv).css('margin-bottom','50px');
+		$(tagsDiv).jQCloud(tagArray);
+		var clicked = false;
+		$(tagsDiv).mouseenter(function(){
+			if( !clicked ){
+				clicked = true;
+				$('.tagcloudTag',tagsDiv).each(function(){
+					$(this).removeAttr("href");
+					$(this).css('cursor','pointer');
+					$(this).click(function(evt){
+						$(inputField).val($(this).html());
+						$(inputField).trigger('keyup');
+					});
+				});
+			}
+		});
+	};
+
+	this.displayMap = function(kml){
+		var mapDiv = $("<div/>").appendTo(section);
+		$(mapDiv).css('position','relative');
+		$(mapDiv).css('height','400px');
+		$(mapDiv).css('margin-top','50px');
+		$(mapDiv).css('margin-bottom','50px');
+		var loadMap = function(){
+			if( typeof GeoTemConfig == 'undefined' ){
+				setTimeout( function(){ loadMap(); }, 1000 );
+			}
+			var map = new WidgetWrapper();
+			var mapWidget = new MapWidget(map,$(mapDiv)[0],{
+				mapWidth: false,
+				mapHeight: false,
+				mapSelection: false,
+				mapSelectionTools: false,
+				dataInformation: false,
+				mapCanvasFrom: '#DDD',
+				mapCanvasTo: '#DDD',
+				maxPlaceLabels: 8
+			});
+			map.display([new Dataset(GeoTemConfig.loadKml(kml))]);
+		}
+		loadMap();
+	};
+
+	this.checkDisplay = function(){
+		if( typeof this.data != 'undefined' ){
+			if( this.data.type == 'cloud' ){
+				this.displayCloud(this.data.data);
+			}
+			if( this.data.type == 'map' ){
+				this.displayMap(this.data.data);
+			}
+			this.data = undefined;
+		}
 	};
 
 };

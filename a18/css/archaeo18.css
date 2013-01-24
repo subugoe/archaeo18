@@ -27,6 +27,15 @@
 	margin: 0px 5px;
 }
 
+.data_link a {
+	color: #0c6dff;
+}
+
+.data_link a:hover{
+	color: #0c6dff;
+	text-decoration: underline;
+}
+
 .facetSelectorDiv {
 	text-align: center;
 	margin-bottom: 5px;
