@@ -750,11 +750,11 @@ ant
   </target>
 
   <target name="a18.config.local">
-    <copyfile src="a18.conf.local" dest="a18.conf"/>
+    <copy file="${a18.conf.local}" tofile="${a18.conf}"/>
   </target>
   
   <target name="a18.config.remote">
-    <copyfile src="a18.conf.remote" dest="a18.conf"/>
+    <copy file="${a18.conf.remote}" tofile="${a18.conf}"/>
   </target>
 
   <!-- Meta targets -->
