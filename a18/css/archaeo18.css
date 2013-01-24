@@ -1,7 +1,3 @@
-/*
-* css contains style definitions for archaeo18 gui, browser, frame, folder, old design
-*/
-
 .ui-resizable-helper { border: 2px dotted darkkhaki; }
 
 .browser-fullscreen {
@@ -65,34 +61,6 @@
 	overflow: hidden;
 }
 
-.passiveFrame {
-	border: 2px solid #888888;
-	background-color: #CCCCCC;
-}
-
-.activeFrame {
-	border: 2px solid #666666;
-	background-color: #EEEEEE;
-}
-
-.additionalWindow {
-	position: absolute;
-	border: 2px solid #888888;
-	padding: 5px;
-	display: none;
-	background-color: white;
-}
-
-.panel {
-	overflow: auto;
-	z-index: 1;
-}	
-
-.link {
-	cursor: pointer;
-	text-decoration: underline;
-}
-
 .thumbnail {
 	cursor: pointer;
 	float: left;
@@ -116,69 +84,11 @@
 	cursor: pointer;
 }
 
-.toolbarDiv {
-	height: 30px;
-    text-align: center;
-}
-
 .windowTools {
 	position: absolute;	
 	top: 0px;
 	right: 0px;
 	padding: 5px;
-}
-
-.documentTools {
-	position: absolute;	
-	top: 0px;
-	left: 0px;
-	padding: 5px;
-}
-
-.remove {
-	display: inline-block;
-	padding: 0;
-	width: 25px;
-	height: 25px;
-	background-image: url(../images/remove-small.png);
-	cursor: pointer;
-}
-
-.smallButton {
-	display: inline-block;
-	padding: 0;
-	width: 25px;
-	height: 25px;
-	cursor: pointer;
-	vertical-align: middle;
-}
-
-.removeField {
-	background-image: url(../images/removeField.png);
-}
-
-.addField {
-	background-image: url(../images/addField.png);
-}
-
-.searchField {
-	height: 25px;
-	display: inline-block;
-	vertical-align: middle;
-}
-
-.searchItem {
-	margin-top: 10px;
-	margin-bottom: 10px;
-}
-
-.dragWindow {
-	display: inline-block;
-	padding: 0;
-	width: 25px;
-	height: 25px;
-	background-image: url(../images/drag-window.png);
-	cursor: pointer;
 }
 
 .teiDownload {
@@ -191,45 +101,6 @@
 	cursor: pointer;
 }
 
-.toolbarButton {
-	display: inline-block;
-	width: 25px;
-	height: 25px;
-	cursor: pointer;
-}
-
-.colorize {
-	background-image: url(../images/colorize.png);
-}
-
-.decolorize {
-	background-image: url(../images/decolorize.png);
-}
-
-.linenumbersOn {
-	background-image: url(../images/linenumbersOn.png);
-}
-
-.linenumbersOff {
-	background-image: url(../images/linenumbersOff.png);
-}
-
-.expandAll {
-	display: inline-block;
-	width: 24px;
-	height: 24px;
-	background-image: url(../images/expand-all.png);
-	cursor: pointer;
-}
-
-.collapseAll {
-	display: inline-block;
-	width: 24px;
-	height: 24px;
-	background-image: url(../images/collapse-all.png);
-	cursor: pointer;
-}
-
 .lineNumber {
 	display: inline-block;
   	font-weight: bold;
@@ -237,80 +108,6 @@
   	color: #888888;
 	width: 20px;
 	text-align: center;
-}
-
-.teiDownloadLink {
-	position: absolute;
-	top: 0px;
-	right: 25px;
-	cursor: pointer;
-}
-
-.controls {
-	position: absolute;
-	top: 10px;
-	left: 10px;
-	padding: 0;
-	width: 36px;
-	height: 36px;
-	background-image: url(../images/controls.png);
-	cursor: pointer;	
-}
-
-.documentControls {
-	display: inline-block;
-	padding: 0;
-	width: 25px;
-	height: 25px;
-	background-image: url(../images/controls-small.png);
-	cursor: pointer;
-}
-
-.controlsMenu {
-	position: absolute;
-	top: 10px;
-	left: 46px;
-	z-index: 10000;
-	border: 2px solid #888888;
-	background-color: #EEEEEE;
-}
-
-.controlsMenu li {
-	margin: 5px;
-	cursor: pointer;
-}
-	
-.controlsMenu li a:link, .controlsMenu li a:visited {
-	color: #333;
-	background-color:  #EEEEEE;
-}
-	
-.controlsMenu li a:hover {
-	color: #FFF;
-	background-color:  #999;
-}
-
-.controlDisabled {
-	color: #aaa;	
-	background-color:  #EEEEEE;
-}
-
-.minimize {
-	display: inline-block;
-	padding: 0;
-	width: 25px;
-	height: 25px;
-	background-image: url(../images/minimize.png);
-	cursor: pointer;
-}
-
-.maximize {
-	display: inline-block;
-	padding: 0;
-	width: 25px;
-	height: 25px;
-	background-image: url(../images/maximize.png);
-	cursor: pointer;
 }
 
 .closeFullscreeen {
@@ -341,33 +138,10 @@
 	margin: auto;
 }
 
-.doctypesDiv {
-	text-align: center;	
-}
-
-.funcDiv {
-	text-align: right;	
-}
-
 .buttonPanel {
 	overflow: hidden;
 	z-index: 1;
 	text-align: center;
-}
-
-.paginationDiv {
-	text-align: center;
-	z-index: 2;
-}
-
-.fullscreenHeader {
-	font-size: 2em;
-	font-style: italic;
-	text-align: center;
-}
-
-.biblBorder {
-	border: 1px solid green;	
 }
 
 .blockDiv {
@@ -390,17 +164,6 @@
 	border: 10px solid #555555;
 }
 
-#tooltipWindow {
-	padding: 5px 10px;
-	border: 1px solid #555555;
-	background: #fff;
-	color:#000;
-	z-index: 99999;
-	position: absolute;
-	display: none;
-/*	text-align: center;*/
-}
-
 .entity {
 	cursor: pointer;
 }
@@ -412,21 +175,11 @@
 	width: 16px;
 }
 
-.snippet {
-	font-size: 11px;
-	text-align: left;
-}
-
 .tooltipLabel {
 	display: inline-block;
 	vertical-align: middle;
 	margin-left: 5px;
 	text-align: left;
-}
-
-.hyperlink a,a:visited {
-	color: blue;
-	padding-left: 16px;
 }
 
 .anchor {
@@ -436,22 +189,6 @@
 	height: 16px;
 	width: 16px;
 	background-image: url(../images/anchor.png);
-}
-
-.label {
-	position: absolute;
-	font-weight: bold;
-}
-
-.facetsLink {
-	color: blue;
-	text-decoration: underline;
-	font-size: 10px;
-	cursor: pointer;
-}
-
-iframe {
-	border: none;
 }
 
 .closeLoader {
@@ -468,35 +205,6 @@ iframe {
 	width: 32px;
 	height: 32px;
 	background-image: url(../images/ajax-loader.gif);
-}
-
-.searchResult {
-	display: table-cell;
-	vertical-align: middle;
-	padding: 10px;
-	font-size: 10px;
-}
-
-.validLink {
-	color: #0645ad;
-}
-
-.invalidLink {
-	color: #ba0000;
-}
-
-.facetsHeader {
-	text-align: center;
-	background-color: #EEEEEE;
-}
-
-.facetList {
-	/* margin: 10px; */
-	/* border: 1px solid #666666; */
-}
-
-.ui-widget {
-/*    font-family: none;*/
 }
 
 span.dynatree-active a {
