@@ -1,4 +1,4 @@
-<project name="Archaeo18 Test" basedir="." default="jetty.start"
+<project name="Archaeo18 Test" basedir="." default="serve"
   xmlns:artifact="antlib:org.apache.maven.artifact.ant">
   <!--
 Usage:
@@ -136,9 +136,9 @@ ant
   <property name="yui.version" value="2.4.7"/>
 
   <!-- Configuration files -->
-  <property name="a18.conf" value="./a18/lib/archaeo18/Archaeo18Properties.js"/>
-  <property name="a18.conf.local" value="./a18/lib/archaeo18/Archaeo18Properties.local.js"/>
-  <property name="a18.conf.remote" value="./a18/lib/archaeo18/Archaeo18Properties.remote.js"/>
+  <property name="a18.conf" value="./a18/js/Archaeo18Properties.js"/>
+  <property name="a18.conf.local" value="./testdata/conf/Archaeo18Properties.local.js"/>
+  <property name="a18.conf.remote" value="./testdata/conf/Archaeo18Properties.remote.js"/>
   <!-- Experimental compass settings -->
 
   <target name="init" depends="">
