@@ -100,7 +100,7 @@ mark {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/_reset\.scss}line{font-family:\0000330}}
 pre, code, kbd, samp {
   font-family: monospace, serif;
-  _font-family: 'courier new', monospace;
+  _font-family: "courier new", monospace;
   font-size: 1em; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/_reset\.scss}line{font-family:\0000331}}
@@ -946,7 +946,7 @@ header {
     margin: 0;
     padding: 5px;
     float: left;
-    font-family: 'Droid Sans', sans-serif; }
+    font-family: "Droid Sans", sans-serif; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003655}}
   .edition .window .tabs {
     font-size: 8pt;
@@ -1439,6 +1439,10 @@ footer {
 	margin: 0;
 }
 */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\000031027}}
+#tableIncices_wrapper a {
+  text-decoration: underline; }
+
 /* =============================================================================
    Media Queries
    ========================================================================== */
@@ -1538,7 +1542,7 @@ footer {
   /* Don't show links for images, or javascript/internal links */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/_append\.scss}line{font-family:\0000333}}
   pre, blockquote {
-    border: 1px solid #999;
+    border: 1px solid #999999;
     page-break-inside: avoid; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/_append\.scss}line{font-family:\0000334}}
