@@ -81,9 +81,6 @@
 	<!-- include jsonlib plugin -->
   	<script src="edition/lib/jsonlib/jsonlib.js"></script>
 
-	<!-- include Browser Detection -->
-	<script src="edition/lib/browserDetect/BrowserDetect.js" type="text/javascript"></script>
-
 	<!-- include jQCloud plugin -->
   	<link href="edition/lib/jqcloud/jqcloud.css" rel="stylesheet" type="text/css">
 	<script type="text/javascript" src="edition/lib/jqcloud/jqcloud-1.0.0.js"></script> 
@@ -95,6 +92,7 @@
 	<script src="edition/js/Config/EditionTooltips.js"></script>
 	<script src="edition/js/System/DocumentServerConnection.js"></script>
 	<script src="edition/js/System/Util.js"></script>
+	<script src="edition/js/System/BrowserDetect.js"></script>
 	<script src="edition/js/Processors/TEIProcessor.js"></script>
 	<script src="edition/js/Processors/XHTMLProcessor.js"></script>
 	<script src="edition/js/Processors/LinkProcessor.js"></script>

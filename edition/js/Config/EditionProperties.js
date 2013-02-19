@@ -50,7 +50,7 @@ var EditionProperties = {
 		urlShortenerRequest: 'https://www.googleapis.com/urlshortener/v1/url',
 
 		// initial size for hyperlink windows to open external websites
-		hyperlinkWindow: false,
+		hyperlinkWindow: true,
 		hyperlinkWindowWidth: 758,
 		hyperlinkWindowHeight: 500,
 

@@ -1,5 +1,5 @@
 /**
- * Provides utilities for the system, e.g. it loads documents, facets, tags and tooltip texts.
+ * Provides utilities for the system. (e.g. it loads documents, facets, tags and tooltip texts)
  *
  * @constructor
  * @this {Util}

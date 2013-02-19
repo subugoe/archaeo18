@@ -86,7 +86,7 @@ TEI.prototype.teiDownloadDialog = function(){
 	contentDiv.append( "<h2 style='text-align:center;'>" + Util.getString('downloadHeader') + "</h2>" );
 	contentDiv.append( "<p style='text-align:center;'>" + file + "</p>" );
 	var save;
-	var browser = BrowserDetect.browser;
+	var browser = (new BrowserDetect()).browser;
 	if( browser == "Chrome" || browser == "Firefox" || browser == "Safari" || browser == "Opera" || browser == "Explorer" ){
 	      save = Util.getString('downloadSave') + " <strong>" + Util.getString(browser+'Download') + "</strong>";
 	}

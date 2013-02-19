@@ -1,5 +1,5 @@
 /**
- * Creates a window to display external hyperlinks, e.g. Getty.
+ * Creates a window to display external hyperlinks. (e.g. Getty)
  *
  * @constructor
  * @this {HyperlinkWindow}
@@ -27,7 +27,6 @@ HyperlinkWindow.prototype.initialize = function(){
 		triggerResize: function(){ frame.resize(); },
 		class: 'window'
 	});
-	window.setWindowFunctionality(true);
 	$.extend(this,window);
 	$(this).css('width',EditionProperties.hyperlinkWindowWidth+'px');
 	$(this.content).css('width',EditionProperties.hyperlinkWindowWidth+'px');

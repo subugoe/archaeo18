@@ -33,7 +33,7 @@ DocumentDialog.prototype.initialize = function(){
 };
 
 /**
- * Initializes the top panel button functionality (e.g. facet selection, pagination) of the document dialog (is part of the 'initialize' method).
+ * Initializes the top panel button functionality. (e.g. facet selection, pagination) of the document dialog (is part of the 'initialize' method).
  *
  * @this {DocumentDialog}
  */
@@ -367,7 +367,7 @@ DocumentDialog.prototype.setDocType = function(type,id){
 };
 	
 /**
- * Getter for the actual document type (e.g. 'text'). Required to construct magnetic links.
+ * Getter for the actual document type. (e.g. 'text'). Required to construct magnetic links.
  *
  * @this {DocumentDialog}
  */

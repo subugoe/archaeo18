@@ -200,7 +200,7 @@ EditionGui.checkHeight = function(){
 };
 	
 /**
- * Creates a dialog window (e.g. open document dialog) with a given headline, content, position and a an onclose functionality.
+ * Creates a dialog window. (e.g. open document dialog) with a given headline, content, position and a an onclose functionality.
  *
  * @this {EditionGui}
  * @param {string} headline The headline of the dialog (e.g. 'Add folder').
@@ -684,7 +684,7 @@ EditionGui.addControls = function(){
 };
 
 /**
- * Checks, if the windows need to be realigned with initial or grid layout (e.g. when adding a new folder).
+ * Checks, if the windows need to be realigned with initial or grid layout. (e.g. when adding a new folder)
  *
  * @this {EditionGui}
  */
