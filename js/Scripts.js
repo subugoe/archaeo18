@@ -10,8 +10,6 @@ var Scripts = new function(){
 		
 		var gui = this;
 
-		Util.loadTexts();
-
 		this.selectionContainer = $("#scriptsSelection");
 		$('<h2>'+Util.getString('scriptSelection')+'</h2>').appendTo(this.selectionContainer);
 		$('<h3>'+Util.getString('directSelection')+'</h3>').appendTo(this.selectionContainer);
@@ -28,13 +26,21 @@ var Scripts = new function(){
 
 		$('<option>'+Util.getString('selectHandwriting')+'</option>').appendTo(gui.selectionDropdown);
 
-		var trigger = function(doc){
-			$('<option id="'+doc.title+'">'+doc.name+'</option>').appendTo(gui.selectionDropdown);
+		var loadDocs = function(){
+			if( Util.docsLoaded ){
+				for( var i=0; i<Util.documents.length; i++ ){
+					$('<option id="'+Util.documents[i].title+'">'+Util.documents[i].name+'</option>').appendTo(gui.selectionDropdown);
+				}
+			}
+			else {
+				setTimeout(function(){
+					loadDocs();
+				}, 1000 );
+			}
 		}
-		Util.loadDocuments(trigger,false);
+		loadDocs();
 
-		this.scriptContainer = $("#scriptContainer");
-		
+		this.scriptContainer = $("#scriptContainer");		
 
 	};
 

@@ -12,8 +12,6 @@ var Indices = new function(){
 		
 		var gui = this;
 
-		Util.loadTexts();
-
 		this.selectionContainer = $("#indicesSelection");
 		$('<h2>'+Util.getString('indexSelection')+'</h2>').appendTo(this.selectionContainer);
 		$('<p>'+Util.getString('pleaseSelectIndex')+'</p>').appendTo(this.selectionContainer);

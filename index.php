@@ -60,61 +60,63 @@
 </div>
 
 	<!-- include geotemco -->
-	<link rel="stylesheet" href="a18/lib/GeoTemCo/css/geotemco.css" type="text/css" />
-	<script src="a18/lib/GeoTemCo/geotemco-min.js"></script>
+	<link rel="stylesheet" href="edition/lib/GeoTemCo/css/geotemco.css" type="text/css" />
+	<script src="edition/lib/GeoTemCo/geotemco-min.js"></script>
 
 	<!-- include jQuery -->
-	<link rel="stylesheet" href="a18/lib/jquery-ui-1.10.0.custom/css/ui-lightness/jquery-ui-1.10.0.custom.css">
- 	<script src="a18/lib/jQuery/jquery-1.5.1.js"></script>
-	<script src="a18/lib/jquery-ui-1.10.0.custom/js/jquery-ui-1.10.0.custom.js"></script>
+	<link rel="stylesheet" href="edition/lib/jquery-ui-1.10.0.custom/css/ui-lightness/jquery-ui-1.10.0.custom.css">
+ 	<script src="edition/lib/jQuery/jquery-1.5.1.js"></script>
+	<script src="edition/lib/jquery-ui-1.10.0.custom/js/jquery-ui-1.10.0.custom.js"></script>
 
 	<!-- include jQuery plugin Fullscreen -->
 	<script src="js/libs/fullscreen.js"></script>
 
 	<!-- include jQuery plugin dynatree -->
-  	<link href="a18/lib/dynatree/src/skin/ui.dynatree.css" rel="stylesheet" type="text/css">
-  	<script src="a18/lib/dynatree/src/jquery.dynatree.js" type="text/javascript"></script>
+  	<link href="edition/lib/dynatree/src/skin/ui.dynatree.css" rel="stylesheet" type="text/css">
+  	<script src="edition/lib/dynatree/src/jquery.dynatree.js" type="text/javascript"></script>
   
 	<!-- include jQuery plugin lazyloader -->
-  	<script src="a18/lib/lazyloader/jquery.lazyloader.js"></script>
+  	<script src="edition/lib/lazyloader/jquery.lazyloader.js"></script>
 
 	<!-- include jsonlib plugin -->
-  	<script src="a18/lib/jsonlib/jsonlib.js"></script>
+  	<script src="edition/lib/jsonlib/jsonlib.js"></script>
 
 	<!-- include Browser Detection -->
-	<script src="a18/lib/browserDetect/BrowserDetect.js" type="text/javascript"></script>
+	<script src="edition/lib/browserDetect/BrowserDetect.js" type="text/javascript"></script>
 
 	<!-- include jQCloud plugin -->
-  	<link href="a18/lib/jqcloud/jqcloud.css" rel="stylesheet" type="text/css">
-	<script type="text/javascript" src="a18/lib/jqcloud/jqcloud-1.0.0.js"></script> 
+  	<link href="edition/lib/jqcloud/jqcloud.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="edition/lib/jqcloud/jqcloud-1.0.0.js"></script> 
 
 	<!-- include archaeo18 GUI -->
-   	<link type="text/css" rel="stylesheet" href="a18/css/archaeo18.css">
-   	<link type="text/css" rel="stylesheet" href="a18/css/tei.css">
-	<script src="a18/js/Archaeo18Properties.js"></script>
-	<script src="a18/js/Util.js"></script>
-	<script src="a18/js/TEITreeGenerator.js"></script>
-	<script src="a18/js/LineNumberOracle.js"></script>
-	<script src="a18/js/OutlineTree.js"></script>
-	<script src="a18/js/Pagination.js"></script>
-	<script src="a18/js/FacetSelector.js"></script>
-	<script src="a18/js/document/Document.js"></script>
-	<script src="a18/js/document/Text.js"></script>
-	<script src="a18/js/document/Images.js"></script>
-	<script src="a18/js/document/Pages.js"></script>
-	<script src="a18/js/document/Outline.js"></script>
-	<script src="a18/js/document/TEI.js"></script>
-	<script src="a18/js/document/Thumbnails.js"></script>
-	<script src="a18/js/document/Map.js"></script>
-	<script src="a18/js/document/Tags.js"></script>
-	<script src="a18/js/FrameWindow.js"></script>
-	<script src="a18/js/ContentWindow.js"></script>
-	<script src="a18/js/HyperlinkWindow.js"></script>
-	<script src="a18/js/Browser.js"></script>
-	<script src="a18/js/DocumentDialog.js"></script>
-	<script src="a18/js/FullscreenWindow.js"></script>
-	<script src="a18/js/TooltipWindow.js"></script>
-	<script src="a18/js/Archaeo18Gui.js"></script>
+   	<link type="text/css" rel="stylesheet" href="edition/css/archaeo18.css">
+   	<link type="text/css" rel="stylesheet" href="edition/css/tei.css">
+	<script src="edition/js/Config/EditionProperties.js"></script>
+	<script src="edition/js/Config/EditionTooltips.js"></script>
+	<script src="edition/js/System/DocumentServerConnection.js"></script>
+	<script src="edition/js/System/Util.js"></script>
+	<script src="edition/js/Processors/TEIProcessor.js"></script>
+	<script src="edition/js/Processors/XHTMLProcessor.js"></script>
+	<script src="edition/js/Processors/LinkProcessor.js"></script>
+	<script src="edition/js/Gui/Pagination.js"></script>
+	<script src="edition/js/Gui/FacetSelector.js"></script>
+	<script src="edition/js/Document/Document.js"></script>
+	<script src="edition/js/Document/Views/Text.js"></script>
+	<script src="edition/js/Document/Views/Images.js"></script>
+	<script src="edition/js/Document/Views/Pages.js"></script>
+	<script src="edition/js/Document/Views/Outline.js"></script>
+	<script src="edition/js/Document/Views/TEI.js"></script>
+	<script src="edition/js/Document/Views/Thumbnails.js"></script>
+	<script src="edition/js/Document/Views/Places.js"></script>
+	<script src="edition/js/Document/Views/Tags.js"></script>
+	<script src="edition/js/Gui/FrameWindow.js"></script>
+	<script src="edition/js/Gui/Folder.js"></script>
+	<script src="edition/js/Gui/HyperlinkWindow.js"></script>
+	<script src="edition/js/Gui/Browser.js"></script>
+	<script src="edition/js/Gui/DocumentDialog.js"></script>
+	<script src="edition/js/Gui/OverlayWindow.js"></script>
+	<script src="edition/js/Gui/Tooltip.js"></script>
+	<script src="edition/js/EditionGui.js"></script>
 	<script src="js/Indices.js"></script>
 	<script src="js/Scripts.js"></script>
 
@@ -137,7 +139,7 @@
 
 		if( window.location.href.indexOf('?params') != -1 ){
 			showDiv('#edition_page','#linkedition');
-			a18Gui.gridLayout();
+			EditionGui.gridLayout();
 		}
 		else {
 			showDiv('#start_page','#linkstart');
@@ -149,7 +151,7 @@
 
 		$('#linkedition').click(function(e){
 			showDiv('#edition_page','#linkedition',e);
-			a18Gui.gridLayout();
+			EditionGui.gridLayout();
 		});
 
 		$('#linkindices').click(function(e){
