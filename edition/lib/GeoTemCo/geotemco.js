@@ -26173,7 +26173,7 @@ function WidgetWrapper() {
 		}
 	});
 
-	Publisher.Subscribe('filter', this, function(data) {
+	Publisher.Subscribe('filterData', this, function(data) {
 		wrapper.display(data);
 	});
 
@@ -26190,7 +26190,7 @@ function WidgetWrapper() {
 	});
 
 	this.triggerRefining = function(datasets) {
-		Publisher.Publish('filter', datasets, null);
+		Publisher.Publish('filterData', datasets, null);
 	};
 
 	this.triggerSelection = function(selectedObjects) {
