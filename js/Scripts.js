@@ -55,12 +55,12 @@ var Scripts = new function(){
 		var gui = this;
 		$(this.scriptContainer).empty();
 		$.ajax({
-			url: a18Props.metadataQuery.replace('DOC_ID',title),
+			url: EditionProperties.metadataQuery.replace('DOC_ID',title),
 			dataType: 'html',
 			success: function(xhtml){
 				$('<h2 id='+title+'>'+Util.getString('handwriting')+': '+title+'</h2>').appendTo(gui.scriptContainer);
-				var width = a18Props.hwImageWidth;
-				var height = a18Props.hwImageHeight;
+				var width = ScriptsProps.hwImageWidth;
+				var height = ScriptsProps.hwImageHeight;
 				var imageDiv = $('<div/>').appendTo(gui.scriptContainer);
 				var image = $('<img alt="" height="'+height+'" src="'+doc.preview+'" class="content-img-style2" />').appendTo(imageDiv);
 				var contentDiv = $('<div/>').appendTo(gui.scriptContainer);
@@ -75,6 +75,12 @@ var Scripts = new function(){
 		});
 	};	
 
+};
+
+ScriptsProps = {
+	// default size if manuscripts page image 
+	hwImageHeight: 328,
+	hwImageWidth: 359
 };
 
 Scripts.initialize();

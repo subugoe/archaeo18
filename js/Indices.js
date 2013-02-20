@@ -61,7 +61,7 @@ var Indices = new function(){
 		var appendStatus = function(msg,server){
 			status = $('<p>'+msg+'</p>').appendTo(section);
 			$(status).css('margin-top','20px');
-			var img = $('<img src="a18/images/ajax-loader2.gif"/>').appendTo(status);
+			var img = $('<img src="edition/images/ajax-loader2.gif"/>').appendTo(status);
 			$(img).css('padding','0px');
 			$(img).css('box-shadow','none');
 			$(img).css('margin-left','10px');
@@ -82,7 +82,7 @@ var Indices = new function(){
 			}
 		}, IndicesProps.serverTimeout );
 		$.ajax({
-			url: a18Props.facetTableQuery.replace('FACET_ID',facet.facet),
+			url: EditionProperties.facetTableQuery.replace('FACET_ID',facet.facet),
 			dataType: 'html',
 			success: function(xhtml){
 				$(status).remove();
@@ -105,10 +105,10 @@ var Indices = new function(){
 					var linkString = 'http://'+location.host+'/archaeo18/edition.php?docParams='+params;
 					$(this).click(function(e){
 						showDiv('#edition_page','#linkedition',e);
-						a18Gui.gridLayout();
+						EditionGui.gridLayout();
 						var doc = Util.loadDocumentSync(params[0]);
 						var page = parseInt(params[1]);
-						a18Gui.openDocument(false,doc,page,"pages",undefined,facet.facet);
+						EditionGui.openDocument(false,doc,page,"pages",undefined,facet.facet);
 					});
 				});
 				$(table).dataTable();
@@ -122,7 +122,7 @@ var Indices = new function(){
 						}
 					}, IndicesProps.serverTimeout );
 					$.ajax({
-						url: a18Props.tagcloudQuery.replace('FACET_ID',facet.facet),
+						url: EditionProperties.tagcloudQuery.replace('FACET_ID',facet.facet),
 						dataType: 'xml',
 						success: function(xml){
 							cloudLoaded = true;
@@ -148,7 +148,7 @@ var Indices = new function(){
 						}
 					}, IndicesProps.serverTimeout );
 					$.ajax({
-						url: a18Props.mapQuery.replace('FACET_ID',facet.facet),
+						url: EditionProperties.mapQuery.replace('FACET_ID',facet.facet),
 						dataType: 'xml',
 						success: function(kml){
 							cloudLoaded = true;

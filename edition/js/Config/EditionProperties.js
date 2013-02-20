@@ -60,10 +60,6 @@ var EditionProperties = {
 		// maximum allowed number of conent windows
 		maxWindows: 6,
 
-		// default size if manuscripts page image 
-		hwImageHeight: 328,
-		hwImageWidth: 359,
-
 		// minimum size for windows
 		minWindowHeight: 310,
 		minWindowWidth: 310,
