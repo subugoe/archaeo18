@@ -30,12 +30,12 @@ Dependencies
 	- not modified
 	- used in: EditionGui.js (for draggable dialog windows), FrameWindow.js
 
-6. jsonlib
+6. jsonlib http://call.jsonlib.com/
 	- used to send requests to Google URL Shortener to shorten URLs when generating magnetic links
 	- not modified
 	- used in: EditionGui.js
 
-7. lazyloader
+7. lazyloader http://www.appelsiini.net/projects/lazyload
 	- used for lazy loading of images in the browser's search result list and the thumbnail views
 	- modified to allow lazy loading within divs
 	- used in: Browser.js, Thumbnails.js
