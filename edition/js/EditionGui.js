@@ -593,7 +593,7 @@ EditionGui.addControls = function(){
 		}
 		var generateMagneticLink = function(){
 			var params = gui.getParams();
-			var linkString = 'http://'+location.host+''+location.pathname+'?params='+params;
+			var linkString = 'http://'+location.host+''+location.pathname+'#?params='+params;
 			jsonlib.fetch({
 				url: EditionProperties.urlShortenerRequest,
 			    	header: 'Content-Type: application/json',
