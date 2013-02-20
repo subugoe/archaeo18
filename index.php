@@ -153,53 +153,6 @@
 	<script src="js/Indices.js"></script>
 	<script src="js/Scripts.js"></script>
 
-	<script>
-		var showDiv = function(div,link,e){
-			if( typeof e != "undefined" ){
-				e.preventDefault();
-			}
-			$('#start_page').css('display','none');
-			$('#edition_page').css('display','none');
-			$('#indices_page').css('display','none');
-			$('#manuscripts_page').css('display','none');
-			$('#help_page').css('display','none');
-			$('#linkstart').removeClass('selected');
-			$('#linkedition').removeClass('selected');
-			$('#linkindices').removeClass('selected');
-			$('#linkhandschriften').removeClass('selected');
-			$(div).css('display','block');
-			$(link).addClass('selected');
-		}
 
-		if( window.location.href.indexOf('?params') != -1 ){
-			showDiv('#edition_page','#linkedition');
-			EditionGui.gridLayout();
-		} else {
-			showDiv('#start_page','#linkstart');
-		}
-
-		$('#linkstart').click(function(e){
-			showDiv('#start_page','#linkstart',e);
-		});
-
-		$('#linkedition').click(function(e){
-			showDiv('#edition_page','#linkedition',e);
-			EditionGui.gridLayout();
-		});
-
-		$('#linkindices').click(function(e){
-			showDiv('#indices_page','#linkindices',e);
-			Indices.checkDisplay();
-		});
-
-		$('#linkhandschriften').click(function(e){
-			showDiv('#manuscripts_page','#linkhandschriften',e);
-		});
-
-		$('#linkhelp').click(function(e){
-			showDiv('#help_page','#linkhelp',e);
-		});
-
-	</script>
 
 <?php require_once('foot-main.php');
