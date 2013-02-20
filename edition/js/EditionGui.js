@@ -678,7 +678,13 @@ EditionGui.addControls = function(){
 	if( EditionProperties.fullscreen ){
 		var fsButton = $('<a class="browser-fullscreen"><span class="visuallyhidden"></span>&nbsp;</a>').appendTo(gridDiv);
 		fsButton.click(function(){
-			$('#editionContainer').fullScreen(true);
+			if ($('.browser-fullscreen').hasClass('browser-fullscreen-off')) {
+				$('#editionContainer').fullScreen(false);
+				$('.browser-fullscreen').removeClass('browser-fullscreen-off');
+			} else {
+				$('#editionContainer').fullScreen(true);
+				$('.browser-fullscreen').addClass('browser-fullscreen-off');
+			}
 		});
 	}
 };
