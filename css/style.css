@@ -383,7 +383,7 @@ noscript p {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003121}}
 header {
-  margin: 0 auto;
+  margin: 0 auto 30px auto;
   width: 1000px;
   background-position: bottom left; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003125}}
@@ -439,19 +439,19 @@ header {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003177}}
 .index .content .wrap {
   margin: 0 auto;
-  padding: 0 0 75px 60px;
+  padding: 0 0 10px 60px;
   width: 940px; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003182}}
 .index .content h2 {
   font-size: 25pt;
   margin: 0;
-  padding: 45px 0 20px 0; }
+  padding: 15px 0 10px 0; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003187}}
 .index .content h3 {
   font-size: 16pt; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003188}}
 .index .content p {
-  padding: 0 0 20px 0;
+  padding: 0 0 10px 0;
   margin: 0;
   line-height: 20pt; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003194}}
@@ -472,7 +472,7 @@ header {
     padding: 0 0 10px 0; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003208}}
 .index .content .textimg p {
-  padding: 0 0 20px 0; }
+  padding: 0 0 10px 0; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003210}}
 .index .content .handwriting h3 {
   border-bottom: 1px solid #999999; }
