@@ -111,7 +111,20 @@ var Indices = new function(){
 						EditionGui.openDocument(false,doc,page,"pages",undefined,facet.facet);
 					});
 				});
-				$(table).dataTable();
+				$(table).dataTable({
+					"oLanguage": {
+						"sLengthMenu": "Zeige _MENU_ Eintr&auml;ge je Seite",
+						"sZeroRecords": "Keine Eintr&auml;ge gefunden",
+						"sInfo": "Zeige _START_ bis _END_ von _TOTAL_ Eintr&auml;gen",
+						"sInfoEmpty": "Zeige 0 bis 0 von 0 Eintr&auml;gen",
+						"sInfoFiltered": "(gefilter aus _MAX_ Eintr&auml;gen insgesamt)",
+						"sSearch": "Suche:",
+						"oPaginate": {
+							"sNext": "N&auml;chste Seite",
+							"sPrevious": "Vorherige Seite",
+						}
+					}
+				});
 				var inputField = $('#tableIncices_filter :input')[0];
 				if( facet.facet.indexOf('placeName') == -1 ){
 					appendStatus(Util.getString('loadTagcloud'));
