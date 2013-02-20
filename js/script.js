@@ -3,23 +3,30 @@
 var headerState = $.cookie('header');
 // console.log(headerState);
 
-if (headerState == 'header-small') {
+if ($.cookie('header') == 'header-small') {
 	$('html').toggleClass('header-small');
 	$('.header-button').removeClass('header-button-close').addClass('header-button-open');
 }
 
 $('.header-button').click(function() {
-	// console.log('header button clicked');
-	if (headerState == 'header-small') {
-		// console.log('make header big');
+	console.log('(1) Header Button clicked');
+	console.log('(2) Header State: ' + headerState);
+	console.log('(2) Header State (noch mal): ' + $.cookie('header'));
+
+	if ($.cookie('header') == 'header-small') {
+
+		console.log('(3) make header big');
 		$.cookie('header', '');
 		$('html').toggleClass('header-small', '');
 		$('.header-button').removeClass('header-button-open').addClass('header-button-close');
+
 	} else {
-		// console.log('make header small');
+
+		console.log('(3) make header small');
 		$.cookie('header', 'header-small');
 		$('html').toggleClass('header-small');
 		$('.header-button').removeClass('header-button-close').addClass('header-button-open');
+
 	}
 });
 
