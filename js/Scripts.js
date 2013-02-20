@@ -18,13 +18,15 @@ var Scripts = new function(){
 		var form = $('<form/>').appendTo(this.selectionContainer);
 		var fieldset = $('<fieldset/>').appendTo(form);
 		this.selectionDropdown = $('<select class="selectHandschriften"/>').appendTo(fieldset);
-		$(this.selectionDropdown).change(function(){
-			$("select option:selected",this.selectionDropdown).each(function(){				
-				gui.showDocument($(this).attr('id'));
-			});
-		});
 
 		$('<option>'+Util.getString('selectHandwriting')+'</option>').appendTo(gui.selectionDropdown);
+		$(this.selectionDropdown).change(function(){
+			$("select option:selected",this.selectionDropdown).each(function(){
+				if( $(this).attr('id') != '' ){
+					gui.showDocument($(this).attr('id'));
+				}
+			});
+		});
 
 		var loadDocs = function(){
 			if( Util.docsLoaded ){
