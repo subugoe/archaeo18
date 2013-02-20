@@ -1,5 +1,8 @@
 <?php require_once('head-main.php'); ?>
 
+
+<!-- START -->
+
 <div id="start_page">
 	<div class="content clearfix">
 		<div class="wrap">
@@ -36,10 +39,18 @@
 		</div>
 	</div>
 </div>
+
+
+<!-- EDITION -->
+
 <div id="edition_page">
 	<div id="editionContainer" class="edition" style="position:relative;overflow:hidden;">
 	</div>
 </div>
+
+
+<!-- INDICES -->
+
 <div id="indices_page">
 	<div class="content clearfix">
 		<div id="indicesSelection" class="wrap">
@@ -48,6 +59,10 @@
 		</div>
 	</div>
 </div>
+
+
+<!-- HANDSCHRIFTEN -->
+
 <div id="manuscripts_page">
 	<div class="content clearfix">
 		<div class="wrap">
@@ -58,6 +73,26 @@
 		</div>
 	</div>
 </div>
+
+
+<!-- HILFE -->
+
+<div id="help_page">
+	<div class="content clearfix">
+	</div>
+</div>
+
+
+<!-- NUTZUNGSBEDINGUNGEN -->
+
+
+<!-- IMPRESSUM -->
+
+
+<!-- DATENBANKEN UND DIGITALEN REPOSITORIEN -->
+
+
+
 
 	<!-- include geotemco -->
 	<link rel="stylesheet" href="edition/lib/GeoTemCo/css/geotemco.css" type="text/css" />
@@ -127,6 +162,7 @@
 			$('#edition_page').css('display','none');
 			$('#indices_page').css('display','none');
 			$('#manuscripts_page').css('display','none');
+			$('#help_page').css('display','none');
 			$('#linkstart').removeClass('selected');
 			$('#linkedition').removeClass('selected');
 			$('#linkindices').removeClass('selected');
@@ -138,8 +174,7 @@
 		if( window.location.href.indexOf('?params') != -1 ){
 			showDiv('#edition_page','#linkedition');
 			EditionGui.gridLayout();
-		}
-		else {
+		} else {
 			showDiv('#start_page','#linkstart');
 		}
 
@@ -160,6 +195,11 @@
 		$('#linkhandschriften').click(function(e){
 			showDiv('#manuscripts_page','#linkhandschriften',e);
 		});
+
+		$('#linkhelp').click(function(e){
+			showDiv('#help_page','#linkhelp',e);
+		});
+
 	</script>
 
-<?php require_once('foot-main.php'); ?>
+<?php require_once('foot-main.php');

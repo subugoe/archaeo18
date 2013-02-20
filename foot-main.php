@@ -5,20 +5,20 @@
 		</div>
 		<div class="footer-col-bg-gradient clearfix">
 			<ul>
-				<li><a href="./start.php" title="Lorem ipsum dolor sit amet" hreflang="de">Start</a></li>
-				<li><a href="./handschriften.php" title="Lorem ipsum dolor sit amet" hreflang="de">Handschriften</a></li>
-				<li><a href="./indices.php" title="Lorem ipsum dolor sit amet" hreflang="de">Indices</a></li>
-				<li><a href="./edition.php" title="Lorem ipsum dolor sit amet" hreflang="de">Edition</a></li>
+				<li><a href="#" title="Lorem ipsum dolor sit amet" hreflang="de">Start</a></li>
+				<li><a href="#" title="Lorem ipsum dolor sit amet" hreflang="de">Handschriften</a></li>
+				<li><a href="#" title="Lorem ipsum dolor sit amet" hreflang="de">Indices</a></li>
+				<li><a href="#" title="Lorem ipsum dolor sit amet" hreflang="de">Edition</a></li>
 			</ul>
 			<ul>
-				<li><a href="./impressum.php" title="Lorem ipsum dolor sit amet" hreflang="de">Impressum</a></li>
-				<li><a href="./nutzungsbedingungen.php" title="Lorem ipsum dolor sit amet" hreflang="de">Nutzungsbedingungen</a></li>
-				<li><a href="./hilfe.php" title="Lorem ipsum dolor sit amet" hreflang="de">Hilfe</a></li>
+				<li><a href="#" title="Lorem ipsum dolor sit amet" hreflang="de">Impressum</a></li>
+				<li><a href="#" title="Lorem ipsum dolor sit amet" hreflang="de">Nutzungsbedingungen</a></li>
+				<li><a href="#" id="linkhelp" title="Lorem ipsum dolor sit amet" hreflang="de">Hilfe</a></li>
 			</ul>
 		</div>
 		<div class="clearfix">
 			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, id pulvinar odio lorem non turpis.</p>
-			<p><span id="fullscreen" style="cursor: pointer">Enter Fullscreen</span></p>
+			<!-- <p><span id="fullscreen" style="cursor: pointer">Enter Fullscreen</span></p> -->
 			<!--
 			<a href="http://www.sub.uni-goettingen.de" title="Niedersächsische Staats- und Universitätsbibliothek Göttingen" hreflang="de"><img src="./img/logo-sub.png" alt="" /></a>
 			<a href="http://www.dfg.de" title="Deutsche Forschungsgemeinschaft" hreflang="de"><img src="./img/logo-dfg.png" alt="" /></a>

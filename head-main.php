@@ -32,10 +32,10 @@ if (strstr($_SERVER['SCRIPT_FILENAME'], 'edition.php')) $pageClass = 'edition';
 <header>
 	<nav>
 		<ul>
-			<li><a href="./start.php" title="Start" hreflang="de" id="linkstart">Start</a></li>
-			<li><a href="./edition.php" title="Edition" hreflang="de" id="linkedition">Edition</a></li>
-			<li><a href="./indices.php" title="Indices" hreflang="de" id="linkindices">Indices</a></li>
-			<li><a href="./handschriften.php" title="Handschriften" hreflang="de" id="linkhandschriften">Handschriften</a></li>
+			<li><a href="#" title="Start" hreflang="de" id="linkstart">Start</a></li>
+			<li><a href="#" title="Edition" hreflang="de" id="linkedition">Edition</a></li>
+			<li><a href="#" title="Indices" hreflang="de" id="linkindices">Indices</a></li>
+			<li><a href="#" title="Handschriften" hreflang="de" id="linkhandschriften">Handschriften</a></li>
 		</ul>
 	</nav>
 	<a href="#" title="Lorem ipsum dolor sit amet" hreflang="de" class="header-button header-button-close">&nbsp;<span class="visuallyhidden">Close Header</span></a>
