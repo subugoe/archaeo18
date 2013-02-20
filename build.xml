@@ -1,5 +1,4 @@
-<project name="Archaeo18 Test" basedir="." default="serve"
-  xmlns:artifact="antlib:org.apache.maven.artifact.ant">
+<project name="Archaeo18 Test" basedir="." default="serve" xmlns:artifact="antlib:org.apache.maven.artifact.ant">
   <!--
 Usage:
 svn co https://develop.sub.uni-goettingen.de/repos/ent/archaeo18/branches/archaeo18
@@ -25,10 +24,8 @@ ant
 
   <!-- Maven stuff -->
   <property name="maven.install.version" value="2.1.3"/>
-  <property name="maven.jar.file"
-    value="${lib.build.dir}/maven-ant-tasks-${maven.install.version}.jar"/>
-  <property name="maven.download.url"
-    value="http://repo1.maven.org/maven2/org/apache/maven/maven-ant-tasks/${maven.install.version}/maven-ant-tasks-${maven.install.version}.jar"/>
+  <property name="maven.jar.file" value="${lib.build.dir}/maven-ant-tasks-${maven.install.version}.jar"/>
+  <property name="maven.download.url" value="http://repo1.maven.org/maven2/org/apache/maven/maven-ant-tasks/${maven.install.version}/maven-ant-tasks-${maven.install.version}.jar"/>
 
   <!-- Servlet configuration -->
   <property name="servlet.archaeo18.webxml" value="./WEB-INF/web.xml"/>
@@ -39,6 +36,7 @@ ant
   <property name="data.download.dir.indices" value="${test.dir}/indices"/>
   <property name="data.download.dir.kml" value="${test.dir}/kml"/>
   <property name="data.download.dir.cloud" value="${test.dir}/cloud"/>
+  <property name="data.download.dir.docs" value="${test.dir}/docs"/>
 
   <!-- Patches -->
   <property name="patch.dir" value="${test.dir}/patches"/>
@@ -46,43 +44,36 @@ ant
   <!-- eXist Backend -->
   <property name="exist.base.url" value="http://134.76.21.92:8080"/>
   <property name="exist.queries.url" value="${exist.base.url}/exist/rest/db/archaeo18/queries"/>
-  <property name="exist.entities.url"
-    value="${exist.queries.url}/experimental/listEntities.xq?format=xhtml&amp;facet="/>
+  <property name="exist.entities.url" value="${exist.queries.url}/experimental/listEntities.xq?format=xhtml&amp;facet="/>
 
-  <!-- Test data for the indices  page and their local names -->
+  <!-- Test data for the indices page and their local names -->
   <property name="exist.entities.persName.url" value="${exist.entities.url}tei:persName"/>
   <property name="exist.entities.placeName.url" value="${exist.entities.url}tei:placeName"/>
   <property name="exist.entities.term.url" value="${exist.entities.url}tei:term"/>
   <property name="exist.entities.bibl.url" value="${exist.entities.url}tei:bibl"/>
   <!-- local names -->
-  <property name="exist.entities.persName.local"
-    value="${data.download.dir.indices}/listEntities.xq$facet=tei:persName&amp;format=xhtml"/>
-  <property name="exist.entities.placeName.local"
-    value="${data.download.dir.indices}/listEntities.xq$facet=tei:placeName&amp;format=xhtml"/>
-  <property name="exist.entities.term.local"
-    value="${data.download.dir.indices}/listEntities.xq$facet=tei:term&amp;format=xhtml"/>
-  <property name="exist.entities.bibl.local"
-    value="${data.download.dir.indices}/listEntities.xq$facet=tei:bibl&amp;format=xhtml"/>
+  <property name="exist.entities.persName.local" value="${data.download.dir.indices}/listEntities.xq$facet=tei:persName&amp;format=xhtml"/>
+  <property name="exist.entities.placeName.local" value="${data.download.dir.indices}/listEntities.xq$facet=tei:placeName&amp;format=xhtml"/>
+  <property name="exist.entities.term.local" value="${data.download.dir.indices}/listEntities.xq$facet=tei:term&amp;format=xhtml"/>
+  <property name="exist.entities.bibl.local" value="${data.download.dir.indices}/listEntities.xq$facet=tei:bibl&amp;format=xhtml"/>
 
   <!-- KML data download -->
-  <property name="exist.kml.url"
-    value="${exist.queries.url}/experimental/listEntities.xq?format=kml&amp;facet="/>
+  <property name="exist.kml.url" value="${exist.queries.url}/experimental/listEntities.xq?format=kml&amp;facet="/>
   <property name="exist.kml.placeName.url" value="${exist.kml.url}tei:placeName"/>
-  <property name="exist.kml.placeName.local"
-    value="${data.download.dir.kml}/listEntities.xq$facet=tei:placeName&amp;format=kml"/>
+  <property name="exist.kml.placeName.local" value="${data.download.dir.kml}/listEntities.xq$facet=tei:placeName&amp;format=kml"/>
   <!-- cloud data download -->
-  <property name="exist.cloud.url"
-    value="${exist.queries.url}/experimental/listEntities.xq?format=cloud&amp;facet="/>
+  <property name="exist.cloud.url" value="${exist.queries.url}/experimental/listEntities.xq?format=cloud&amp;facet="/>
   <property name="exist.cloud.persName.url" value="${exist.cloud.url}tei:persName"/>
   <property name="exist.cloud.placeName.url" value="${exist.cloud.url}tei:placeName"/>
   <property name="exist.cloud.term.url" value="${exist.cloud.url}tei:term"/>
-  <property name="exist.cloud.persName.local"
-    value="${data.download.dir.cloud}/listEntities.xq$facet=tei:persName&amp;format=cloud"/>
-  <property name="exist.cloud.placeName.local"
-    value="${data.download.dir.cloud}/listEntities.xq$facet=tei:placeName&amp;format=cloud"/>
-  <property name="exist.cloud.term.local"
-    value="${data.download.dir.cloud}/listEntities.xq$facet=tei:term&amp;format=cloud"/>
-
+  <property name="exist.cloud.persName.local" value="${data.download.dir.cloud}/listEntities.xq$facet=tei:persName&amp;format=cloud"/>
+  <property name="exist.cloud.placeName.local" value="${data.download.dir.cloud}/listEntities.xq$facet=tei:placeName&amp;format=cloud"/>
+  <property name="exist.cloud.term.local" value="${data.download.dir.cloud}/listEntities.xq$facet=tei:term&amp;format=cloud"/>
+  <!-- Othe data like facets -->
+  <property name="exist.other.facets.url" value="${exist.queries.url}/getFacets.xq"/>
+  <property name="exist.other.docs.url" value="${exist.queries.url}/listDocs.xquery"/>
+  <property name="exist.other.facets.local" value="${data.download.dir.docs}/getFacets.xq"/>
+  <property name="exist.other.docs.local" value="${data.download.dir.docs}/listDocs.xquery"/>
 
   <!-- JavaScript Stuff -->
   <property name="js.dir" value="./js"/>
@@ -117,8 +108,7 @@ ant
 
   <!-- HTTP Client for Ant -->
   <!-- See http://missinglinkcode.wordpress.com/2011/03/15/apache-ant-http-task/ -->
-  <property name="ant.http.task.url"
-    value="http://missing-link.googlecode.com/files/ml-ant-http-1.1.3.zip"/>
+  <property name="ant.http.task.url" value="http://missing-link.googlecode.com/files/ml-ant-http-1.1.3.zip"/>
   <property name="ant.http.task.file" value="${lib.build.dir}/ml-ant-http-1.1.3.zip"/>
   <!-- JGit integration -->
   <property name="jgit.version" value="2.1.0.201209190230-r"/>
@@ -168,8 +158,7 @@ ant
     <path id="maven.lib.path">
       <fileset dir="${lib.build.dir}" includes="*.jar"/>
     </path>
-    <taskdef uri="antlib:org.apache.maven.artifact.ant"
-      resource="org/apache/maven/artifact/ant/antlib.xml" classpathref="maven.lib.path"/>
+    <taskdef uri="antlib:org.apache.maven.artifact.ant" resource="org/apache/maven/artifact/ant/antlib.xml" classpathref="maven.lib.path"/>
   </target>
 
   <target name="ant.http.task.download" depends="init">
@@ -207,14 +196,12 @@ ant
     <artifact:dependencies pathId="antcontrib.plugin.classpath">
       <dependency groupId="ant-contrib" artifactId="ant-contrib" version="${antcontrib.version}"/>
     </artifact:dependencies>
-    <taskdef resource="net/sf/antcontrib/antcontrib.properties"
-      classpathref="antcontrib.plugin.classpath"/>
+    <taskdef resource="net/sf/antcontrib/antcontrib.properties" classpathref="antcontrib.plugin.classpath"/>
   </target>
 
   <target name="yui.install" depends="maven.download">
     <artifact:dependencies pathId="yui.plugin.classpath">
-      <dependency groupId="com.yahoo.platform.yui" artifactId="yuicompressor"
-        version="${yui.version}"/>
+      <dependency groupId="com.yahoo.platform.yui" artifactId="yuicompressor" version="${yui.version}"/>
     </artifact:dependencies>
   </target>
 
@@ -228,22 +215,17 @@ ant
       <fileset refid="jetty.local.files"/>
       <mapper type="flatten"/>
     </copy>
-    <taskdef classpathref="jetty.plugin.classpath" resource="tasks.properties"
-      loaderref="jetty.loader"/>
-    <typedef name="selectChannelConnector"
-      classname="org.eclipse.jetty.server.nio.SelectChannelConnector"
-      classpathref="jetty.plugin.classpath" loaderref="jetty.loader"/>
+    <taskdef classpathref="jetty.plugin.classpath" resource="tasks.properties" loaderref="jetty.loader"/>
+    <typedef name="selectChannelConnector" classname="org.eclipse.jetty.server.nio.SelectChannelConnector" classpathref="jetty.plugin.classpath" loaderref="jetty.loader"/>
   </target>
 
   <!-- Experimental dependencies -->
 
   <target name="jgit.install" depends="maven.download">
     <artifact:dependencies pathId="jruby.plugin.classpath">
-      <dependency groupId="org.eclipse.jgit" artifactId="org.eclipse.jgit.ant"
-        version="${jgit.version}"/>
+      <dependency groupId="org.eclipse.jgit" artifactId="org.eclipse.jgit.ant" version="${jgit.version}"/>
     </artifact:dependencies>
-    <taskdef resource="org/eclipse/jgit/ant/ant-tasks.properties"
-      classpathref="jgit.plugin.classpath"/>
+    <taskdef resource="org/eclipse/jgit/ant/ant-tasks.properties" classpathref="jgit.plugin.classpath"/>
   </target>
 
   <!-- TODO: This should be done via Git -->
@@ -307,8 +289,7 @@ ant
 
   <target name="sass.check.gem" depends="jruby.download">
     <!-- Process returns 0 if sass is installed, 1 otherwise -->
-    <java classname="org.jruby.Main" fork="true" dir="." failonerror="false"
-      resultproperty="sass.check.gem.return.code">
+    <java classname="org.jruby.Main" fork="true" dir="." failonerror="false" resultproperty="sass.check.gem.return.code">
       <sysproperty key="jruby.home" value="${jruby.home}"/>
       <classpath>
         <fileset dir="${lib.jruby.dir}" includes="*.jar"/>
@@ -346,8 +327,7 @@ ant
 
   <target name="compass.check.gem" depends="jruby.download">
     <!-- Process returns 0 if sass is installed, 1 otherwise -->
-    <java classname="org.jruby.Main" fork="true" dir="." failonerror="false"
-      resultproperty="compass.check.gem.return.code">
+    <java classname="org.jruby.Main" fork="true" dir="." failonerror="false" resultproperty="compass.check.gem.return.code">
       <sysproperty key="jruby.home" value="${jruby.home}"/>
       <classpath>
         <fileset dir="${lib.jruby.dir}" includes="*.jar"/>
@@ -394,18 +374,15 @@ ant
       <connectors>
         <selectChannelConnector port="${jetty.port}"/>
       </connectors>
-      <webapp webXmlFile="${servlet.archaeo18.webxml}" contextPath="/archaeo18" name="archaeo18"
-        warfile="."/>
-      <webapp webXmlFile="${servlet.proxy.webxml}" contextPath="/" name="proxy"
-        warfile="${test.dir}/proxy"/>
+      <webapp webXmlFile="${servlet.archaeo18.webxml}" contextPath="/archaeo18" name="archaeo18" warfile="."/>
+      <webapp webXmlFile="${servlet.proxy.webxml}" contextPath="/" name="proxy" warfile="${test.dir}/proxy"/>
     </jetty>
   </target>
 
   <!-- Prototype of patch, can be used to have one development mode but default to server deployment -->
 
   <target name="config.patch">
-    <patch patchfile="${patch.dir}/indeces-local.patch"
-      originalfile="./a18/lib/archaeo18/Archaeo18Properties.js"/>
+    <patch patchfile="${patch.dir}/indeces-local.patch" originalfile="./a18/lib/archaeo18/Archaeo18Properties.js"/>
   </target>
 
   <target name="clean" depends="ropen.config.remote">
@@ -417,8 +394,7 @@ ant
 
   <!-- Downloads the test data from eXist -->
   <!-- TODO: Downlaod KML and Cloud data as well -->
-  <target name="data.download"
-    depends="data.download.entities, data.download.kml, data.download.cloud"/>
+  <target name="data.download" depends="data.download.entities, data.download.kml, data.download.cloud, data.download.docs"/>
 
   <target name="data.download.kml">
     <get src="${exist.kml.placeName.url}" dest="${exist.kml.placeName.local}"/>
@@ -437,6 +413,10 @@ ant
     <get src="${exist.entities.bibl.url}" dest="${exist.entities.bibl.local}"/>
   </target>
 
+  <target name="data.download.docs">
+    <get src="${exist.other.facets.url}" dest="${exist.other.facets.local}"/>
+    <get src="${exist.other.docs.url}" dest="${exist.other.docs.local}"/>
+  </target>
   <!-- Work in progress to create a deployment package -->
   <target name="war.structure" depends="init">
     <property name="war.dir" value="${target.dir}/webapp"/>
@@ -476,8 +456,7 @@ ant
         <exclude name="plugins.js"/>
       </fileset>
     </concat>
-    <java classname="com.yahoo.platform.yui.compressor.YUICompressor" fork="true" dir="."
-      classpathref="yui.plugin.classpath">
+    <java classname="com.yahoo.platform.yui.compressor.YUICompressor" fork="true" dir="." classpathref="yui.plugin.classpath">
       <arg value="--type"/>
       <arg value="js"/>
       <arg value="${js.target.file}"/>
@@ -498,8 +477,7 @@ ant
 
   <target name="war.css" depends="yui.install, scss.compile, war.structure">
     <!-- https://github.com/yui/yuicompressor/blob/master/src/com/yahoo/platform/yui/compressor/YUICompressor.java -->
-    <java classname="com.yahoo.platform.yui.compressor.YUICompressor" fork="true" dir="."
-      classpathref="yui.plugin.classpath">
+    <java classname="com.yahoo.platform.yui.compressor.YUICompressor" fork="true" dir="." classpathref="yui.plugin.classpath">
       <arg value="--type"/>
       <arg value="css"/>
       <arg value="${css.file}"/>
@@ -542,8 +520,7 @@ ant
            -->
         <!-- Change to merged JS file -->
         <tokenfilter>
-          <replacestring from="&lt;script src=&quot;./js/script.js&quot;&gt;&lt;/script&gt;"
-            to="&lt;script src=&quot;${js.dir}/${js.merged.file}&quot;&gt;&lt;/script&gt;"/>
+          <replacestring from="&lt;script src=&quot;./js/script.js&quot;&gt;&lt;/script&gt;" to="&lt;script src=&quot;${js.dir}/${js.merged.file}&quot;&gt;&lt;/script&gt;"/>
         </tokenfilter>
         <!-- Rewrite relocations -->
         <!-- This section is currently empty -->
@@ -552,8 +529,7 @@ ant
           <replacestring from="&lt;script src=&quot;js/Indices.js&quot;&gt;&lt;/script&gt;" to=""/>
         </tokenfilter>
         <tokenfilter>
-          <replacestring from="&lt;script src=&quot;./js/Scripts.js&quot;&gt;&lt;/script&gt;" to=""
-          />
+          <replacestring from="&lt;script src=&quot;./js/Scripts.js&quot;&gt;&lt;/script&gt;" to=""/>
         </tokenfilter>
       </filterchain>
     </copy>
@@ -601,8 +577,7 @@ ant
   </target>
 
   <target name=".scss.compile">
-    <propertyregex property="css.out" input="${scss.file}" regexp="(.*)\.scss" select="\1.css"
-      casesensitive="false"/>
+    <propertyregex property="css.out" input="${scss.file}" regexp="(.*)\.scss" select="\1.css" casesensitive="false"/>
     <!-- Another approach: http://stackoverflow.com/questions/7262342/sass-to-css-via-an-ant-task-directory-creation -->
 
     <java classname="org.jruby.Main" fork="true" dir=".">
@@ -645,8 +620,7 @@ ant
 
   <target name=".php.compile">
     <!-- Warning the properties doesn't seem to work in the select attribute -->
-    <propertyregex property="php.out" input="${php.file}" regexp="(.*)[\\/](.*)\.php"
-      select="./\2.html" casesensitive="false"/>
+    <propertyregex property="php.out" input="${php.file}" regexp="(.*)[\\/](.*)\.php" select="./\2.html" casesensitive="false"/>
     <path id="quercus.plugin.classpath">
       <fileset dir="${lib.quercus.dir}" includes="*.jar"/>
     </path>
@@ -656,8 +630,7 @@ ant
     <echo>Compiling ${php.file} to ${php.out}</echo>
     <!-- See http://marc.info/?l=ant-user&m=102519197329459 for multiple path entries -->
     <!-- See http://wiki3.caucho.com/Quercus:_Command_Line_Interface_%28CLI%29 for Quercus CLI -->
-    <java classname="com.caucho.quercus.CliQuercus" classpathref="quercus.plugin.classpath"
-      outputproperty="compiler.output">
+    <java classname="com.caucho.quercus.CliQuercus" classpathref="quercus.plugin.classpath" outputproperty="compiler.output">
       <classpath>
         <path refid="quercus.plugin.classpath"/>
         <path refid="jetty.plugin.classpath"/>
@@ -665,8 +638,7 @@ ant
       <arg value="-f"/>
       <arg value="${php.file}"/>
     </java>
-    <echo force="true" encoding="UTF-8" output="${php.out}" append="false"
-      message="${compiler.output}"/>
+    <echo force="true" encoding="UTF-8" output="${php.out}" append="false" message="${compiler.output}"/>
   </target>
 
   <target name="js.setup" depends="php.compile">
@@ -688,8 +660,7 @@ ant
   </target>
 
   <target name=".compress.images">
-    <propertyregex property="png.out.file" input="${png.file}" regexp="(.*)[\\/](.*)\.png"
-      select="./\2.png" casesensitive="false"/>
+    <propertyregex property="png.out.file" input="${png.file}" regexp="(.*)[\\/](.*)\.png" select="./\2.png" casesensitive="false"/>
     <property name="img.out" value="${img.tiny.dir}/${png.out.file}"/>
     <!-- 
     Here is an API key for you to use:
@@ -724,8 +695,7 @@ ant
   <!-- See https://developer.mozilla.org/en-US/docs/Rhino/Shell -->
   <!-- See http://www.envjs.com/doc/guides -->
   <target name="js.compile" depends="rhino.install, js.setup, envjs.download">
-    <java classname="org.mozilla.javascript.tools.shell.Main" classpathref="rhino.plugin.classpath"
-      outputproperty="compiler.output" fork="true">
+    <java classname="org.mozilla.javascript.tools.shell.Main" classpathref="rhino.plugin.classpath" outputproperty="compiler.output" fork="true">
       <!-- See http://www.coderanch.com/t/108033/tools/xms-xmx-arguments-ant-don -->
       <jvmarg value="-Xmx512M"/>
       <arg value="-opt"/>
@@ -752,7 +722,7 @@ ant
   <target name="ropen.config.local">
     <copy file="${ropen.conf.local}" tofile="${ropen.conf}"/>
   </target>
-  
+
   <target name="ropen.config.remote">
     <copy file="${ropen.conf.remote}" tofile="${ropen.conf}"/>
   </target>
