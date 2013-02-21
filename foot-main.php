@@ -115,6 +115,7 @@
 			$('#terms_page').css('display','none');
 			$('#databases_page').css('display','none');
 			$('#people_page').css('display','none');
+			$('#imprint_page').css('display','none');
 			$('#linkstart').removeClass('selected');
 			$('#linkedition').removeClass('selected');
 			$('#linkindices').removeClass('selected');
