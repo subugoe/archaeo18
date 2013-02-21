@@ -76,7 +76,7 @@
 			</ul>
 			<h3>Technische Leitung</h3>
 			<ul>
-				<li>Mustafa Dogan (SUB)</li>
+				<li>Zeki Mustafa Dogan (SUB)</li>
 			</ul>
 			<h3>Koordination</h3>
 			<ul>
@@ -89,7 +89,7 @@
 			</ul>
 			<h3>Studentische und wissenschaftliche Hilfskräfte</h3>
 			<ul>
-				<li>Stafnie Abraham</li>
+				<li>Stafanie Abraham</li>
 				<li>Judith Dinse</li>
 				<li>Julian Geisler</li>
 				<li>Sarah Schlüter</li>
@@ -100,6 +100,7 @@
 			<ul>
 				<li>Stefan Jänicke (SUB)</li>
 				<li>Christian Mahnke (SUB)</li>
+				<li>Ingo Pfennigstorf (SUB)</li>
 				<li>Nils Windisch (SUB)</li>
 			</ul>
 			<h3>Digitale Reproduktion</h3>
@@ -145,7 +146,7 @@
 			<h3>Anbieter</h3>
 			<p>Anbieter dieser Internetpräsenz ist im Rechtsinne die Niedersächsische Staats- und Universitätsbibliothek Göttingen.</p>
 			<h3>Adresse</h3>
-			<p>Niedersächsische Staats- und Universitätsbibliothek Göttingen<br />Georg-August-Universität Göttingen<br />Platz der Göttinger Sieben 1<br />37073 Göttingen<br />Tel.: +49 (0)551 / 39-5212<br />Fax: +49 (0)551 / 39-5222<br />E-Mail: <a href="mailto:sekretariat@sub.uni-goettingen.de" title="E-Mail an das Sekretariat der SUB Göttingen">sekretariat@sub.uni-goettingen.de</a><br />Internet: <a href="www.sub.uni-goettingen.de" title="Niedersächsische Staats- und Universitätsbibliothek Göttingen" hreflang="de">www.sub.uni-goettingen.de</a></p>
+			<p>Niedersächsische Staats- und Universitätsbibliothek Göttingen<br />Georg-August-Universität Göttingen<br />Platz der Göttinger Sieben 1<br />37073 Göttingen<br />Tel.: +49 (0)551 / 39-5212<br />Fax: +49 (0)551 / 39-5222<br />E-Mail: <a href="mailto:sekretariat@sub.uni-goettingen.de" title="E-Mail an das Sekretariat der SUB Göttingen">sekretariat@sub.uni-goettingen.de</a><br />Internet: <a href="www.sub.uni-goettingen.de" title="Niedersächsische Staats- und Universitätsbibliothek Göttingen" hreflang="de" target="_blank">www.sub.uni-goettingen.de</a></p>
 			<h3>Vertreter</h3>
 			<p>Die Niedersächsische Staats- und Universitätsbibliothek Göttingen (SUB) wird vertreten durch den Leitenden Direktor Prof. Dr. Norbert Lossau.</p>
 			<p>Die SUB Göttingen ist als zentrale Einrichtung eine organisatorische, rechtlich nicht selbständige Einheit der Georg-August-Universität Göttingen. Die Georg-August-Universität Göttingen ist eine Körperschaft des öffentlichen Rechts. Sie wird durch die Präsidentin Prof. Dr. Ulrike Beisiegel gesetzlich vertreten. </p>
@@ -182,19 +183,19 @@
 			<h2>Datenbanken</h2>
 			<p>Folgende Datenbanken wurden benutzt, um die identifizierten Entitäten (Personen, Orte, Literatur und Wreke) zu normieren und zu verlinken.</p>
 			<ul>
-				<li><strong><a href="http://arachne.uni-koeln.de/drupal/" title="Arachne">Arachne</a></strong><br />Objektdatenbank des <a href="http://www.dainst.org/" title="Deutschen Archäologischen Instituts (DAI)">Deutschen Archäologischen Instituts (DAI)</a> und des <a href="http://www.archaeologie.uni-koeln.de/" title="Archäologischen Instituts der Universität zu Köln">Archäologischen Instituts der Universität zu Köln</a><br />(Orte, Werke, Literatur)</li>
-				<li><strong><a href="http://rara.biblhertz.it/" title="Bibliotheka Hertziana – Digital">Bibliotheka Hertziana – Digital</a></strong><br />Digitale Sammlung der <a href="http://www.biblhertz.it/" title="Bibliotheka Hertziana des Max-Plank-Instituts für Kunstgeschichte in Rom">Bibliotheka Hertziana des Max-Plank-Instituts für Kunstgeschichte in Rom</a><br />(Literatur)</li>
-				<li><strong><a href="http://census.bbaw.de/" title="Census of Antique Works of Art and Architecture Known in the Renaissance">Census of Antique Works of Art and Architecture Known in the Renaissance</a></strong><br />Forschungsdatenbank der <a href="http://www.bbaw.de/" title="Berlin-Brandenburgischen Akademie der Wissenschaften">Berlin-Brandenburgischen Akademie der Wissenschaften</a> und der <a href="http://www.hu-berlin.de">Humbold Universität Berlin</a><br />(Werke)</li>
-				<li><strong><a href="http://thesaurus.cerl.org/" title="CERL-Thesaurus">CERL-Thesaurus</a></strong><br />Personennamendatenbank des <a href="http://www.cerl.org/" title="Consortium of European Research Libraries">Consortium of European Research Libraries</a><br />(Personen)</li>
-				<li><strong><a href="http://www.getty.edu/research/tools/vocabularies/tgn/index.html" title="Getty Thesaurus of Geographic Names Online">Getty Thesaurus of Geographic Names Online</a></strong><br />Ortsnamendatenbank <a href="http://www.getty.edu/" title="Getty Research Institute">Getty Research Institute</a><br />(Orte)</li>
+				<li><strong><a href="http://arachne.uni-koeln.de/drupal/" title="Arachne" target="_blank">Arachne</a></strong><br />Objektdatenbank des <a href="http://www.dainst.org/" title="Deutschen Archäologischen Instituts (DAI)" target="_blank">Deutschen Archäologischen Instituts (DAI)</a> und des <a href="http://www.archaeologie.uni-koeln.de/" title="Archäologischen Instituts der Universität zu Köln" target="_blank">Archäologischen Instituts der Universität zu Köln</a><br />(Orte, Werke, Literatur)</li>
+				<li><strong><a href="http://rara.biblhertz.it/" title="Bibliotheka Hertziana – Digital" target="_blank">Bibliotheka Hertziana – Digital</a></strong><br />Digitale Sammlung der <a href="http://www.biblhertz.it/" title="Bibliotheka Hertziana des Max-Plank-Instituts für Kunstgeschichte in Rom" target="_blank">Bibliotheka Hertziana des Max-Plank-Instituts für Kunstgeschichte in Rom</a><br />(Literatur)</li>
+				<li><strong><a href="http://census.bbaw.de/" title="Census of Antique Works of Art and Architecture Known in the Renaissance" target="_blank">Census of Antique Works of Art and Architecture Known in the Renaissance</a></strong><br />Forschungsdatenbank der <a href="http://www.bbaw.de/" title="Berlin-Brandenburgischen Akademie der Wissenschaften" target="_blank">Berlin-Brandenburgischen Akademie der Wissenschaften</a> und der <a href="http://www.hu-berlin.de" title="Humboldt Universität zu Berlin" target="_blank">Humbold Universität zu Berlin</a><br />(Werke)</li>
+				<li><strong><a href="http://thesaurus.cerl.org/" title="CERL-Thesaurus" target="_blank">CERL-Thesaurus</a></strong><br />Personennamendatenbank des <a href="http://www.cerl.org/" title="Consortium of European Research Libraries" target="_blank">Consortium of European Research Libraries</a><br />(Personen)</li>
+				<li><strong><a href="http://www.getty.edu/research/tools/vocabularies/tgn/index.html" title="Getty Thesaurus of Geographic Names Online" target="_blank" target="_blank">Getty Thesaurus of Geographic Names Online</a></strong><br />Ortsnamendatenbank <a href="http://www.getty.edu/" title="Getty Research Institute" target="_blank">Getty Research Institute</a><br />(Orte)</li>
 			</ul>
 			<h2>Digitalisierte Literatur</h2>
 			<ul>
-				<li><strong><a href="http://arachne.uni-koeln.de/drupal/?q=de/books" title="Arachne Digitalisierte Drucke">Arachne Digitalisierte Drucke</a></strong><br />Digitalisiert Drucke aus der Zeit von 1500 und 1830; Teil der zentralen Objektdatenbank des <a href="http://www.dainst.org/" title="Deutschen Archaologischen Instituts (DAI)">Deutschen Archaologischen Instituts (DAI)</a> und des <a href="http://www.archaeologie.uni-koeln.de/">Archäologischen Instituts der Universität zu Köln</a><br />(Literatur)</li>
-				<li><strong><a href="http://gdz.sub.uni-goettingen.de" title="Göttinger Digitalisierungszentrum (GDZ)">Göttinger Digitalisierungszentrum (GDZ)</a></strong><br />Digitale Bibliothek der <a href="http://www.sub.uni-goettingen.de" title="Niedersächsischen Staats- und Universitätsbibliothek Göttingen">Niedersächsischen Staats- und Universitätsbibliothek Göttingen</a><br />(Literatur)</li>
-				<li><strong><a href="http://www.hathitrust.org" title="Hathi Trust Digital Library">Hathi Trust Digital Library</a></strong><br />Literaturrepositorium des <a href="http://www.cic.net/" title="Committee on Institutional Cooperation">Committee on Institutional Cooperation</a><br />(Literatur)</li>
-				<li><strong><a href="http://hd-historische-bestaende-digital.uni-hd.de" title="Heidelberger historische Bestände Digital">Heidelberger historische Bestände Digital</a></strong><br />Digitale Bibliothek der <a href="http:/ www.ub.uni-heidelberg.de/" title="Universitätsbibliothek Heidelberg">Universitätsbibliothek Heidelberg</a><br />(Literatur)</li>
-				<li><strong><a href="http://www.digitale-sammlungen.de/" title="Münchner Digitalisierungszentrum (MDZ)">Münchner Digitalisierungszentrum (MDZ)</a></strong><br />Digitale Bibliothek der <a href="http://www.ub.uni-muenchen.de/" title="Bayrischen Staatsbibliothek München">Bayrischen Staatsbibliothek München</a><br />(Literatur)</li>
+				<li><strong><a href="http://arachne.uni-koeln.de/drupal/?q=de/books" title="Arachne Digitalisierte Drucke" target="_blank">Arachne Digitalisierte Drucke</a></strong><br />Digitalisiert Drucke aus der Zeit von 1500 und 1830; Teil der zentralen Objektdatenbank des <a href="http://www.dainst.org/" title="Deutschen Archaologischen Instituts (DAI)" target="_blank">Deutschen Archaologischen Instituts (DAI)</a> und des <a href="http://www.archaeologie.uni-koeln.de/">Archäologischen Instituts der Universität zu Köln</a></li>
+				<li><strong><a href="http://gdz.sub.uni-goettingen.de" title="Göttinger Digitalisierungszentrum (GDZ)" target="_blank">Göttinger Digitalisierungszentrum (GDZ)</a></strong><br />Digitale Bibliothek der <a href="http://www.sub.uni-goettingen.de" title="Niedersächsischen Staats- und Universitätsbibliothek Göttingen" target="_blank">Niedersächsischen Staats- und Universitätsbibliothek Göttingen</a></li>
+				<li><strong><a href="http://www.hathitrust.org" title="Hathi Trust Digital Library" target="_blank">Hathi Trust Digital Library</a></strong><br />Literaturrepositorium des <a href="http://www.cic.net/" title="Committee on Institutional Cooperation" target="_blank">Committee on Institutional Cooperation</a></li>
+				<li><strong><a href="http://hd-historische-bestaende-digital.uni-hd.de" title="Heidelberger historische Bestände Digital" target="_blank">Heidelberger historische Bestände Digital</a></strong><br />Digitale Bibliothek der <a href="http:/ www.ub.uni-heidelberg.de/" title="Universitätsbibliothek Heidelberg" target="_blank">Universitätsbibliothek Heidelberg</a></li>
+				<li><strong><a href="http://www.digitale-sammlungen.de/" title="Münchner Digitalisierungszentrum (MDZ)" target="_blank">Münchner Digitalisierungszentrum (MDZ)</a></strong><br />Digitale Bibliothek der <a href="http://www.ub.uni-muenchen.de/" title="Bayrischen Staatsbibliothek München" target="_blank">Bayrischen Staatsbibliothek München</a></li>
 			</ul>
 		</div>
 	</div>
