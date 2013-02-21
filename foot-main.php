@@ -5,22 +5,21 @@
 		</div>
 		<div class="footer-col-bg-gradient clearfix">
 			<ul>
-				<li><a href="javascript:void(0)" id="linkstart" title="Lorem ipsum dolor sit amet" hreflang="de">Start</a></li>
-				<li><a href="javascript:void(0)" id="linkhandschriften" title="Lorem ipsum dolor sit amet" hreflang="de">Handschriften</a></li>
-				<li><a href="javascript:void(0)" id="linkindices" title="Lorem ipsum dolor sit amet" hreflang="de">Indices</a></li>
-				<li><a href="javascript:void(0)" id="linkedition" title="Lorem ipsum dolor sit amet" hreflang="de">Edition</a></li>
+				<li><a href="javascript:void(0)" id="linkstart" title="Startseite" hreflang="de">Start</a></li>
+				<li><a href="javascript:void(0)" id="linkhandschriften" title="Handschriften" hreflang="de">Handschriften</a></li>
+				<li><a href="javascript:void(0)" id="linkindices" title="Indices" hreflang="de">Indices</a></li>
+				<li><a href="javascript:void(0)" id="linkedition" title="Edition" hreflang="de">Edition</a></li>
 			</ul>
 			<ul>
-				<li><a href="javascript:void(0)" id="linkimprint" title="Lorem ipsum dolor sit amet" hreflang="de">Impressum</a></li>
-				<li><a href="javascript:void(0)" id="linkdatabases" title="Lorem ipsum dolor sit amet" hreflang="de">Datenbanken und Repositorien</a></li>
-				<li><a href="javascript:void(0)" id="linkterms" title="Lorem ipsum dolor sit amet" hreflang="de">Nutzungsbedingungen</a></li>
-				<li><a href="javascript:void(0)" id="linkhelp" title="Lorem ipsum dolor sit amet" hreflang="de">Hilfe</a></li>
-				<li><a href="javascript:void(0)" id="linkpeople" title="Lorem ipsum dolor sit amet" hreflang="de">Projektmitarbeiter</a></li>
+				<li><a href="javascript:void(0)" id="linkimprint" title="Impressum" hreflang="de">Impressum</a></li>
+				<li><a href="javascript:void(0)" id="linkdatabases" title="datenbanken und Repositorien" hreflang="de">Datenbanken und Repositorien</a></li>
+				<li><a href="javascript:void(0)" id="linkterms" title="Nutzungsbedingungen" hreflang="de">Nutzungsbedingungen</a></li>
+				<li><a href="javascript:void(0)" id="linkhelp" title="Hilfe" hreflang="de">Hilfe</a></li>
+				<li><a href="javascript:void(0)" id="linkpeople" title="Projektmitarbeiter" hreflang="de">Projektmitarbeiter</a></li>
 			</ul>
 		</div>
 		<div class="clearfix">
-			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, id pulvinar odio lorem non turpis.</p>
-			<!-- <p><span id="fullscreen" style="cursor: pointer">Enter Fullscreen</span></p> -->
+			<p></p>
 			<!--
 			<a href="http://www.sub.uni-goettingen.de" title="Niedersächsische Staats- und Universitätsbibliothek Göttingen" hreflang="de"><img src="./img/logo-sub.png" alt="" /></a>
 			<a href="http://www.dfg.de" title="Deutsche Forschungsgemeinschaft" hreflang="de"><img src="./img/logo-dfg.png" alt="" /></a>
@@ -166,7 +165,6 @@
 
 		$('#linkhelp').click(function(e){
 			showDiv('#help_page','#linkhelp',e);
-			location.hash = "?page=#help_page";
 		});
 
 		$('#linkterms').click(function(e){

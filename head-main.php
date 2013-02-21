@@ -1,9 +1,6 @@
 <?php
 $pagename = explode('/', $_SERVER['SCRIPT_FILENAME']);
-#$pagename = $pagename[(sizeof($pagename) - 1)];
-#$pagename = preg_replace('(.php)', '', $pagename);
 $pagename = preg_replace('(.php)', '', $pagename[(sizeof($pagename) - 1)]);
-
 $pageClass = 'index';
 if (strstr($_SERVER['SCRIPT_FILENAME'], 'edition.php')) $pageClass = 'edition';
 ?>
@@ -20,12 +17,10 @@ if (strstr($_SERVER['SCRIPT_FILENAME'], 'edition.php')) $pageClass = 'edition';
 	<link rel="apple-touch-icon" href="./apple-touch-icon.png" />
 	<link rel="shortcut icon" href="./favicon.ico" />
 	<meta name="viewport" content="width=device-width">
-	
 	<link rel="stylesheet" href="css/style.css">
 	<link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
 	<script src="./js/libs/modernizr-2.5.3.min.js"></script>
-
 </head>
 <body>
 
