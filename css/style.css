@@ -653,23 +653,24 @@ header {
     background-repeat: no-repeat; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003360}}
   .edition .gridselector .normal {
-    background-image: url("../img/edition-gridselector.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003362}}
+    background-image: url("../img/edition-gridselector.png");
+    margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003363}}
     .edition .gridselector .normal:hover {
       background-image: url("../img/edition-gridselector-normal-hover.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003366}}
     .edition .gridselector .normal:active {
       background-image: url("../img/edition-gridselector-normal-active.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003369}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003370}}
   .edition .gridselector .active {
     background-image: url("../img/edition-gridselector-active.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003372}}
     .edition .gridselector .active:hover {
       background-image: url("../img/edition-gridselector-select-hover.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003374}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003375}}
     .edition .gridselector .active:active {
       background-image: url("../img/edition-gridselector-select-active.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003380}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003381}}
 .edition .search {
   /* margin: 200px 0; */
   margin: 10px 0;
@@ -686,38 +687,38 @@ header {
   background: -ms-radial-gradient(center, ellipse cover, #ababab 0%, #c8c8c8 100%);
   background: radial-gradient(ellipse at center, #ababab 0%, #c8c8c8 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ababab', endColorstr='#c8c8c8',GradientType=1 ); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003396}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003397}}
   .edition .search .resize {
     float: right;
     background-image: url("../img/edition-search-resize.png");
     background-repeat: no-repeat;
     padding: 0;
     margin: 5px 5px 0 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003403}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003404}}
   .edition .search .advancedSearch {
     margin: 0 0 0 5px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003405}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003406}}
     .edition .search .advancedSearch span:first-child {
       cursor: pointer; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003408}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003409}}
     .edition .search .advancedSearch input[type="checkbox"], .edition .search .advancedSearch input[type="radio"] {
       margin: 5px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003411}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003412}}
     .edition .search .advancedSearch ul {
       margin: 0;
       padding: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003415}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003416}}
     .edition .search .advancedSearch li {
       list-style-type: none;
       font-size: 85%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003423}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003424}}
   .edition .search .close {
     float: right;
     background-image: url("../img/edition-search-close.png");
     background-repeat: no-repeat;
     padding: 0;
     margin: 5px 5px 0 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003430}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003431}}
   .edition .search .scope-selector {
     overflow: hidden;
     background-color: #f0f0f0;
@@ -727,7 +728,7 @@ header {
     border: 1px solid #9e9e9e;
     box-shadow: inset 0px 0px 1px 0px #666666;
     text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003438}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003439}}
     .edition .search .scope-selector a {
       display: inline;
       border-radius: 4px;
@@ -745,7 +746,7 @@ header {
       background: linear-gradient(to bottom, white 3%, #efefef 28%, #ededed 75%, #eeeeee 100%);
       filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#eeeeee',GradientType=0 );
       cursor: pointer; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003456}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003457}}
     .edition .search .scope-selector a:hover {
       background-color: #feffff;
       background: -moz-linear-gradient(top, #feffff 0%, #ded9c8 26%, #ded9c8 90%, #eeeeee 100%);
@@ -755,7 +756,7 @@ header {
       background: -ms-linear-gradient(top, #feffff 0%, #ded9c8 26%, #ded9c8 90%, #eeeeee 100%);
       background: linear-gradient(to bottom, #feffff 0%, #ded9c8 26%, #ded9c8 90%, #eeeeee 100%);
       filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#feffff', endColorstr='#eeeeee',GradientType=0 ); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003466}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003467}}
     .edition .search .scope-selector .selected {
       background-color: #feffff;
       background: -moz-linear-gradient(top, #feffff 0%, #ded9c8 26%, #ded9c8 90%, #eeeeee 100%);
@@ -765,7 +766,7 @@ header {
       background: -ms-linear-gradient(top, #feffff 0%, #ded9c8 26%, #ded9c8 90%, #eeeeee 100%);
       background: linear-gradient(to bottom, #feffff 0%, #ded9c8 26%, #ded9c8 90%, #eeeeee 100%);
       filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#feffff', endColorstr='#eeeeee',GradientType=0 ); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003478}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003479}}
   .edition .search .main {
     background-color: #f0f0f0;
     border-radius: 4px;
@@ -773,21 +774,21 @@ header {
     margin: 10px 10px 0 10px;
     border: 1px solid #9e9e9e;
     box-shadow: inset 0px 0px 1px 0px #666666; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003485}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003486}}
     .edition .search .main form {
       height: 50px;
       text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003488}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003489}}
       .edition .search .main form div {
         padding: 5px 20px 0 5px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003490}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003491}}
     .edition .search .main input[type="text"] {
       border-radius: 4px;
       border: 1px solid #b4b4b4;
       padding: 6px 0;
       margin: 8px 3px;
       width: 97%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003497}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003498}}
     .edition .search .main input[type="submit"] {
       display: inline;
       border: none;
@@ -800,36 +801,36 @@ header {
       top: -28px;
       margin: -6px 11px 0 0;
       position: relative; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003510}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003511}}
     .edition .search .main hr {
       width: 97%;
       margin: 0 5px 0 5px;
       box-shadow: 0 1px 0px 0.5px white; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003515}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003516}}
     .edition .search .main .checkboxes li {
       margin: 0 0 6px 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003516}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003517}}
     .edition .search .main .check {
       background-image: url("../img/edition-search-filter-boxempty.png");
       background-repeat: no-repeat;
       background-position: left center;
       padding: 0 0 0 15px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003522}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003523}}
     .edition .search .main .checked {
       background-image: url("../img/edition-search-filter-boxchecked.png");
       background-repeat: no-repeat;
       background-position: left top;
       padding: 0 0 0 15px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003528}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003529}}
     .edition .search .main .filter-box {
       text-align: center;
       padding: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003532}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003533}}
     .edition .search .main .col {
       float: left;
       padding: 0 0 0 15px;
       margin: 0 0 0 0px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003538}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003539}}
     .edition .search .main .filter {
       text-align: left;
       margin: 0 0 10px 0;
@@ -837,7 +838,7 @@ header {
       border-radius: 4px;
       background-color: white;
       font-size: 9pt; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003545}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003546}}
       .edition .search .main .filter div {
         background: #f2f2f2;
         background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2YyZjJmMiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlMWUxZTEiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
@@ -852,45 +853,45 @@ header {
         border-radius: 4px;
         border-bottom: 1px solid #9d9d9d;
         box-shadow: inset 0 0 5px 1px lightgrey; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003560}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003561}}
       .edition .search .main .filter ul {
         padding: 4px 12px;
         margin: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003563}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003564}}
         .edition .search .main .filter ul li {
           list-style-type: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003566}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003567}}
     .edition .search .main ul.hits {
       padding: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003570}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003571}}
     .edition .search .main .hits .selected a {
       background-image: url("../img/edition-search-hits-arrowclose.png");
       background-repeat: no-repeat;
       background-position: left center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003575}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003576}}
     .edition .search .main .hits div {
       padding: 0 0 10px 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003577}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003578}}
       .edition .search .main .hits div img {
         float: left;
         border: 10px solid white;
         border-radius: 8px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003583}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003584}}
     .edition .search .main .hits .hits-p {
       font-size: 10pt;
       margin: 0 0 0 120px;
       background-color: white;
       border: 10px solid white;
       border-radius: 8px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003591}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003592}}
     .edition .search .main .hits .show img {
       border: 10px solid #b8b8b8; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003592}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003593}}
     .edition .search .main .hits .show p {
       color: white;
       background-color: #b8b8b8;
       border: 10px solid #b8b8b8; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003598}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003599}}
     .edition .search .main .hits li {
       border: 1px solid #c2c2c2;
       border-radius: 4px;
@@ -910,7 +911,7 @@ header {
       background: -ms-linear-gradient(top, #fdfcfd 0%, #eeeeee 100%);
       background: linear-gradient(top, #fdfcfd 0%, #eeeeee 100%);
       filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fdfcfd', endColorstr='#eeeeee',GradientType=0 ); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003618}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003619}}
     .edition .search .main .hits li:hover {
       background: #fafafa;
       background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZhZmFmYSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNkZWQ5YzkiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
@@ -921,13 +922,13 @@ header {
       background: -ms-linear-gradient(top, #fafafa 0%, #ded9c9 100%);
       background: linear-gradient(top, #fafafa 0%, #ded9c9 100%);
       filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fafafa', endColorstr='#ded9c9',GradientType=0 ); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003629}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003630}}
     .edition .search .main .hits .hits-a {
       background-image: url("../img/edition-search-hits-arrowopen.png");
       background-repeat: no-repeat;
       background-position-y: 20px;
       padding: 0 25px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003638}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003639}}
 .edition .window {
   line-height: normal;
   margin: 10px;
@@ -945,41 +946,41 @@ header {
   background: -ms-radial-gradient(center, ellipse cover, #ded9c8 0%, #ddd5b8 100%);
   background: radial-gradient(ellipse at center, #ded9c8 0%, #ddd5b8 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ded9c8', endColorstr='#ddd5b8',GradientType=1 ); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003656}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003657}}
   .edition .window .h4 {
     margin: 0;
     padding: 5px;
     float: left;
     font-family: "Droid Sans", sans-serif; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003662}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003663}}
   .edition .window .tabs {
     font-size: 8pt;
     margin: 0;
     padding: 0 0 0 15px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003666}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003667}}
     .edition .window .tabs img {
       margin: 0 3px;
       cursor: pointer; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003670}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003671}}
     .edition .window .tabs li {
       background-color: #ababab;
       border: 1px solid #a6a5a2;
       border-radius: 4px 4px 0 0;
       list-style-type: none;
       display: inline; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003676}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003677}}
       .edition .window .tabs li a {
         padding: 8px;
         color: white;
         cursor: pointer; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003682}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003683}}
     .edition .window .tabs .selected {
       background-color: #eae6db;
       cursor: pointer; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003685}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003686}}
       .edition .window .tabs .selected a {
         color: black; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003688}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003689}}
   .edition .window .inner {
     border: 1px solid #a6a5a2;
     background-color: white;
@@ -987,265 +988,265 @@ header {
     padding: 4px;
     margin: 0 4px 4px 4px;
     box-shadow: inset 0px 0px 1px 0px #666666; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003689}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003690}}
     .edition .window .inner .resize {
       float: right;
       cursor: pointer; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003699}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003700}}
     .edition .window .inner .windowcontent {
       border-bottom: 1px solid #a6a5a2;
       border-top: 1px solid #a6a5a2;
       padding: 10px 10px 15px 10px;
       margin: 0 0 5px 0;
       font-size: 10pt; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003705}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003706}}
       .edition .window .inner .windowcontent .textmarker {
         cursor: pointer; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003706}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003707}}
       .edition .window .inner .windowcontent .textmarker-style1 {
         color: #ff0013; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003707}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003708}}
       .edition .window .inner .windowcontent .textmarker-style2 {
         color: #224eca; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003708}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003709}}
       .edition .window .inner .windowcontent .textmarker-style3 {
         color: #d40063; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003710}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003711}}
     .edition .window .inner .pagination {
       font-size: 12pt;
       margin: 0;
       padding: 5px;
       float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003715}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003716}}
       .edition .window .inner .pagination li {
         display: inline; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003718}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003719}}
         .edition .window .inner .pagination li:hover .tools-outline {
           background-image: url("../img/edition-window-tools-list-hover.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003719}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003720}}
         .edition .window .inner .pagination li:hover .tools-text {
           background-image: url("../img/edition-window-tools-txt-hover.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003720}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003721}}
         .edition .window .inner .pagination li:hover .tools-thumbnails {
           background-image: url("../img/edition-window-tools-img-hover.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003721}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003722}}
         .edition .window .inner .pagination li:hover .tools-pages {
           background-image: url("../img/edition-window-tools-onepage-hover.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003722}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003723}}
         .edition .window .inner .pagination li:hover .tools-images {
           background-image: url("../img/edition-window-tools-images-hover.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003723}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003724}}
         .edition .window .inner .pagination li:hover .tools-tei {
           background-image: url("../img/edition-window-tools-tei-hover.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003724}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003725}}
         .edition .window .inner .pagination li:hover .tools-map {
           background-image: url("../img/edition-window-tools-map-hover.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003725}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003726}}
         .edition .window .inner .pagination li:hover .tools-tags {
           background-image: url("../img/edition-window-tools-tags-hover.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003728}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003729}}
         .edition .window .inner .pagination li:active .tools-outline {
           background-image: url("../img/edition-window-tools-list-active.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003729}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003730}}
         .edition .window .inner .pagination li:active .tools-text {
           background-image: url("../img/edition-window-tools-txt-active.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003730}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003731}}
         .edition .window .inner .pagination li:active .tools-thumbnails {
           background-image: url("../img/edition-window-tools-img-active.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003731}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003732}}
         .edition .window .inner .pagination li:active .tools-pages {
           background-image: url("../img/edition-window-tools-onepage-active.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003732}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003733}}
         .edition .window .inner .pagination li:active .tools-images {
           background-image: url("../img/edition-window-tools-images-active.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003733}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003734}}
         .edition .window .inner .pagination li:active .tools-tei {
           background-image: url("../img/edition-window-tools-tei-active.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003734}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003735}}
         .edition .window .inner .pagination li:active .tools-map {
           background-image: url("../img/edition-window-tools-map-active.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003735}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003736}}
         .edition .window .inner .pagination li:active .tools-tags {
           background-image: url("../img/edition-window-tools-tags-active.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003737}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003738}}
         .edition .window .inner .pagination li .tools-outline {
           background-image: url("../img/edition-window-tools-list.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003739}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003740}}
           .edition .window .inner .pagination li .tools-outline.active {
             background-image: url("../img/edition-window-tools-list-hover.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003741}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003742}}
         .edition .window .inner .pagination li .tools-text {
           background-image: url("../img/edition-window-tools-txt.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003743}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003744}}
           .edition .window .inner .pagination li .tools-text.active {
             background-image: url("../img/edition-window-tools-txt-hover.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003745}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003746}}
         .edition .window .inner .pagination li .tools-pages {
           background-image: url("../img/edition-window-tools-onepage.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003747}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003748}}
           .edition .window .inner .pagination li .tools-pages.active {
             background-image: url("../img/edition-window-tools-onepage-hover.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003749}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003750}}
         .edition .window .inner .pagination li .tools-thumbnails {
           background-image: url("../img/edition-window-tools-img.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003751}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003752}}
           .edition .window .inner .pagination li .tools-thumbnails.active {
             background-image: url("../img/edition-window-tools-img-hover.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003753}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003754}}
         .edition .window .inner .pagination li .tools-images {
           background-image: url("../img/edition-window-tools-images.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003755}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003756}}
           .edition .window .inner .pagination li .tools-images.active {
             background-image: url("../img/edition-window-tools-images-hover.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003757}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003758}}
         .edition .window .inner .pagination li .tools-tei {
           background-image: url("../img/edition-window-tools-tei.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003759}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003760}}
           .edition .window .inner .pagination li .tools-tei.active {
             background-image: url("../img/edition-window-tools-tei-hover.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003761}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003762}}
         .edition .window .inner .pagination li .tools-map {
           background-image: url("../img/edition-window-tools-map.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003763}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003764}}
           .edition .window .inner .pagination li .tools-map.active {
             background-image: url("../img/edition-window-tools-map-hover.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003765}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003766}}
         .edition .window .inner .pagination li .tools-tags {
           background-image: url("../img/edition-window-tools-tags.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003767}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003768}}
           .edition .window .inner .pagination li .tools-tags.active {
             background-image: url("../img/edition-window-tools-tags-hover.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003770}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003771}}
       .edition .window .inner .pagination li a {
         background-repeat: no-repeat; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003771}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003772}}
       .edition .window .inner .pagination a {
         padding: 0 25px 0 0;
         margin: 0 0px 0 0;
         width: 25px;
         cursor: pointer; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003780}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003781}}
     .edition .window .inner li:hover .tools-link {
       background-image: url("../img/edition-window-tools-link-hover.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003781}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003782}}
     .edition .window .inner li:hover .tools-pdf {
       background-image: url("../img/edition-window-tools-pdf-hover.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003782}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003783}}
     .edition .window .inner li:hover .tools-dfg {
       background-image: url("../img/edition-window-tools-dfg-hover.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003785}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003786}}
     .edition .window .inner li:active .tools-link {
       background-image: url("../img/edition-window-tools-link-active.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003786}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003787}}
     .edition .window .inner li:active .tools-pdf {
       background-image: url("../img/edition-window-tools-pdf-active.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003787}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003788}}
     .edition .window .inner li:active .tools-dfg {
       background-image: url("../img/edition-window-tools-dfg-active.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003789}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003790}}
     .edition .window .inner li .tools-link {
       background-image: url("../img/edition-window-tools-link.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003791}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003792}}
       .edition .window .inner li .tools-link.active {
         background-image: url("../img/edition-window-tools-unlink.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003793}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003794}}
     .edition .window .inner li .tools-pdf {
       background-image: url("../img/edition-window-tools-pdf.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003794}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003795}}
     .edition .window .inner li .tools-dfg {
       background-image: url("../img/edition-window-tools-dfg.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003797}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003798}}
     .edition .window .inner li .tools-paginationforward {
       background-image: url("../img/edition-window-pagination-forward.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003798}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003799}}
     .edition .window .inner li:hover .tools-paginationforward {
       background-image: url("../img/edition-window-pagination-forward-hover.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003799}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003800}}
     .edition .window .inner li:active .tools-paginationforward {
       background-image: url("../img/edition-window-pagination-forward-active.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003800}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003801}}
     .edition .window .inner li .tools-paginationforward-disabled {
       background-image: url("../img/edition-window-pagination-forward.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003801}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003802}}
     .edition .window .inner li .tools-paginationbackward {
       background-image: url("../img/edition-window-pagination-backward.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003802}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003803}}
     .edition .window .inner li:hover .tools-paginationbackward {
       background-image: url("../img/edition-window-pagination-backward-hover.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003803}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003804}}
     .edition .window .inner li:active .tools-paginationbackward {
       background-image: url("../img/edition-window-pagination-backward-active.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003804}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003805}}
     .edition .window .inner li .tools-paginationbackward-disabled {
       background-image: url("../img/edition-window-pagination-backward.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003806}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003807}}
     .edition .window .inner li .tools-doublepage {
       background-image: url("../img/edition-window-tools-doublepage.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003807}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003808}}
     .edition .window .inner li:hover .tools-doublepage {
       background-image: url("../img/edition-window-tools-doublepage-hover.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003808}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003809}}
     .edition .window .inner li .tools-doublepage-active {
       background-image: url("../img/edition-window-tools-doublepage-active.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003810}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003811}}
     .edition .window .inner li .tools-highlight {
       background-image: url("../img/edition-window-tools-highlight.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003811}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003812}}
     .edition .window .inner li:hover .tools-highlight {
       background-image: url("../img/edition-window-tools-highlight-hover.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003812}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003813}}
     .edition .window .inner li .tools-highlight-active {
       background-image: url("../img/edition-window-tools-highlight-active.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003814}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003815}}
     .edition .window .inner li .tools-linecount {
       background-image: url("../img/edition-window-tools-linecount.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003815}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003816}}
     .edition .window .inner li:hover .tools-linecount {
       background-image: url("../img/edition-window-tools-linecount-hover.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003816}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003817}}
     .edition .window .inner li .tools-linecount-active {
       background-image: url("../img/edition-window-tools-linecount-active.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003818}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003819}}
     .edition .window .inner li .tools-maximize {
       background-image: url("../img/edition-window-tools-maximize.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003819}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003820}}
     .edition .window .inner li:hover .tools-maximize {
       background-image: url("../img/edition-window-tools-maximize-hover.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003820}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003821}}
     .edition .window .inner li .tools-maximize .active {
       background-image: url("../img/edition-window-tools-maximize-active.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003823}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003824}}
     .edition .window .inner .toolstop a {
       padding: 0 22px 0 0;
       margin: 0 4px 0 0;
       width: 25px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003828}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003829}}
     .edition .window .inner .toolstop li a {
       background-repeat: no-repeat; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003829}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003830}}
     .edition .window .inner .toolstop ul {
       padding: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003831}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003832}}
       .edition .window .inner .toolstop ul li {
         display: inline;
         list-style-type: none;
         padding: 0;
         margin: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003836}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003837}}
         .edition .window .inner .toolstop ul li form {
           padding: 0 5px 0 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003839}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003840}}
     .edition .window .inner .toolstop ul:first-child {
       float: left;
       margin: 5px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003842}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003843}}
       .edition .window .inner .toolstop ul:first-child li:first-child {
         margin: 3px 0 0 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003844}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003845}}
     .edition .window .inner .toolstop ul:nth-child(2) {
       float: right;
       margin: 5px -8px 5px 5px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003849}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003850}}
     .edition .window .inner .tools {
       position: relative;
       top: 5px;
@@ -1254,23 +1255,23 @@ header {
       padding: 0 0 10px 0;
       width: 100%;
       text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003857}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003858}}
       .edition .window .inner .tools a {
         padding: 0 22px 0 0;
         margin: 0 4px 0 0;
         width: 25px;
         cursor: pointer; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003863}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003864}}
       .edition .window .inner .tools li a {
         background-repeat: no-repeat; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003864}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003865}}
       .edition .window .inner .tools li {
         display: inline;
         list-style-type: none;
         padding: 0;
         margin: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003877}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003878}}
 footer {
   /*
   	position:absolute;
@@ -1282,35 +1283,35 @@ footer {
   background-repeat: repeat-x;
   color: white;
   height: 315px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003888}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003889}}
   footer a, footer a:hover, footer a:visited {
     color: white; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003891}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003892}}
   footer .wrap {
     width: 1000px;
     margin: 0 auto;
     font-size: 10pt; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003895}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003896}}
     footer .wrap div:first-child {
       width: 245px;
       background-image: url("../img/footer-bg1.png");
       float: left;
       display: inline; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003901}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003902}}
     footer .wrap div:nth-child(2) {
       width: 430px;
       float: left;
       display: inline;
       box-shadow: inset 0 0 1px 0 #666666;
       margin: 89px 0 0 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003907}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003908}}
       footer .wrap div:nth-child(2) li {
         padding: 0 0 8px 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003908}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003909}}
       footer .wrap div:nth-child(2) ul:first-child {
         width: 150px;
         float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003913}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003914}}
     footer .wrap div:nth-child(3) {
       width: 285px;
       margin: 89px 0 0 0;
@@ -1320,40 +1321,40 @@ footer {
       border-radius: 0 8px 0 0;
       float: left;
       display: inline; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003924}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003925}}
   footer .logos {
     /*float: left;*/
     list-style-type: none;
     text-align: left;
     padding: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003929}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003930}}
     footer .logos li {
       display: inline; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003936}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003937}}
 .button-alpha {
   background-image: url("../img/content-button-down.png");
   background-repeat: no-repeat;
   padding: 0 25px 25px 30px;
   margin: 0 10px 0 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003943}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003944}}
 .header-button-close {
   background-image: url("../img/header-button-close.png"); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003944}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003945}}
 .header-button-close:hover {
   background-image: url("../img/header-button-close-hover.png"); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003945}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003946}}
 .header-button-open {
   background-image: url("../img/header-button-open.png"); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003946}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003947}}
 .header-button-open:hover {
   background-image: url("../img/header-button-open-hover.png"); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003948}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003949}}
 .footer-col-bg-gradient {
   background: #b0b0b0;
   background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2IwYjBiMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjYjBiMGIwIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzk4OTg5OCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM5ODk4OTgiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
@@ -1365,81 +1366,81 @@ footer {
   background: linear-gradient(top, #b0b0b0 0%, #b0b0b0 0%, #989898 100%, #989898 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b0b0b0', endColorstr='#989898',GradientType=0 ); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003960}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003961}}
 .content-img-style1 {
   background-color: #666666; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003961}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003962}}
 .content-img-style2 {
   background-color: #e6e0d1; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003962}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003963}}
 .content-img-style3 {
   background-color: #cccccc; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003965}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003966}}
 .font-italic {
   font-style: italic; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003966}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003967}}
 .font-bold {
   font-weight: bold; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003973}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003974}}
 .dataTables_wrapper .dataTables_length,
 .dataTables_wrapper .dataTables_filter,
 .dataTables_wrapper .dataTable,
 .dataTables_wrapper .dataTables_info,
 .dataTables_wrapper .dataTables_paginate {
   margin: 3px 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003976}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003977}}
 .dataTables_wrapper .dataTables_info {
   text-align: right; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003979}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003980}}
 .dataTables_wrapper .dataTables_paginate {
   text-align: right; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003981}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003982}}
   .dataTables_wrapper .dataTables_paginate a {
     margin: 0 0 0 10px;
     cursor: pointer; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003986}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003987}}
 .dataTables_wrapper .dataTables_length {
   width: 690px;
   float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003990}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003991}}
 .dataTables_wrapper .tableIncices_filter {
   width: 300px;
   float: right; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003994}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003995}}
 .dataTables_wrapper a:hover {
   text-decoration: underline; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\000031000}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\000031001}}
 .dataTable thead tr {
   /* font-size: 125%; */ }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\000031002}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\000031003}}
   .dataTable thead tr td {
     font-weight: bold;
     border-bottom: 1px solid #999999;
     margin: 0 0 3px 0;
     cursor: pointer; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\000031008}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\000031009}}
   .dataTable thead tr td:first-child {
     width: 250px !important; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\000031011}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\000031012}}
   .dataTable thead tr td:nth-child(2) {
     width: 200px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\000031016}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\000031017}}
 .dataTable tbody .even {
   background-color: #e1e1e1; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\000031019}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\000031020}}
 .dataTable tbody a {
   cursor: pointer; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\000031023}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\000031024}}
 .dataTable tfoot {
   display: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\000031028}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\000031029}}
 #editionContainer {
   background-color: #EEEEEE; }
 
@@ -1448,7 +1449,7 @@ footer {
 	margin: 0;
 }
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\000031039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\000031040}}
 #tableIncices_wrapper a {
   text-decoration: underline; }
 

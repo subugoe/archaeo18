@@ -359,6 +359,7 @@ header {
 		}
 		.normal {
 			background-image: url('../img/edition-gridselector.png');
+			margin: 0;
 			&:hover {
 				background-image: url('../img/edition-gridselector-normal-hover.png');
 			}
