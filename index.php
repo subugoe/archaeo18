@@ -79,19 +79,57 @@
 
 <div id="help_page">
 	<div class="content clearfix">
+		<div class="wrap">
+		</div>
 	</div>
 </div>
 
 
 <!-- NUTZUNGSBEDINGUNGEN -->
 
+<div id="terms_page">
+	<div class="content clearfix">
+		<div class="wrap">
+		</div>
+	</div>
+</div>
+
 
 <!-- IMPRESSUM -->
+
+<div id="imprint_page">
+	<div class="content clearfix">
+		<div class="wrap">
+		</div>
+	</div>
+</div>
 
 
 <!-- DATENBANKEN UND DIGITALEN REPOSITORIEN -->
 
-
+<div id="databases_page">
+	<div class="content clearfix">
+		<div class="wrap">
+			<h2>Datenbanken</h2>
+			<p>Folgende Datenbanken wurden benutzt, um die identifizierten Entitäten (Personen, Orte, Literatur und Wreke) zu normieren und zu verlinken.</p>
+			<ul>
+				<li><strong><a href="http://arachne.uni-koeln.de/drupal/">Arachne</a></strong><br />Objektdatenbank des <a href="http://www.dainst.org/">Deutschen Archäologischen Instituts (DAI)</a> und des <a href="http://www.archaeologie.uni-koeln.de/">Archäologischen Instituts der Universität zu Köln</a><br />(Orte, Werke, Literatur)</li>
+				<li><strong><a href="http://rara.biblhertz.it/">Bibliotheka Hertziana – Digital</a></strong><br />Digitale Sammlung der <a href="http://www.biblhertz.it/">Bibliotheka Hertziana des Max-Plank-Instituts für Kunstgeschichte in Rom</a><br />(Literatur)</li>
+				<li><strong><a href="http://census.bbaw.de/">Census of Antique Works of Art and Architecture Known in the Renaissance</a></strong><br />Forschungsdatenbank der <a href="http://www.bbaw.de/">Berlin-Brandenburgischen Akademie der Wissenschaften</a> und der <a href="http://www.hu-berlin.de">Humbold Universität Berlin</a><br />(Werke)</li>
+				<li><strong><a href="http://thesaurus.cerl.org/">CERL-Thesaurus</a></strong><br />Personennamendatenbank des <a href="http://www.cerl.org/">Consortium of European Research Libraries</a><br />(Personen)</li>
+				<li><strong><a href="http://www.getty.edu/research/tools/vocabularies/tgn/index.html">Getty Thesaurus of Geographic Names Online</a></strong><br />Ortsnamendatenbank <a href="http://www.getty.edu/">Getty Research Institute</a><br />(Orte)</li>
+			</ul>
+			<h2>Digitalisierte Literatur</h2>
+			<ul>
+				<li><strong><a href="http://arachne.uni-koeln.de/drupal/?q=de/books">Arachne Digitalisierte Drucke</a></strong><br />Digitalisiert Drucke aus der Zeit von 1500 und 1830; Teil der zentralen Objektdatenbank des <a href="http://www.dainst.org/">Deutschen Archaologischen Instituts (DAI)</a> und des <a href="http://www.archaeologie.uni-koeln.de/">Archäologischen Instituts der Universität zu Köln</a><br />(Literatur)</li>
+				<li><strong><a href="http://gdz.sub.uni-goettingen.de">Göttinger Digitalisierungszentrum (GDZ)</a></strong><br />Digitale Bibliothek der <a href="http://www.sub.uni-goettingen.de">Staats- und Universitätsbibliothek Göttingen</a><br />(Literatur)</li>
+				<li><strong><a href="http://www.hathitrust.org">Hathi Trust Digital Library</a></strong><br />Literaturrepositorium des <a href="http://www.cic.net/">Committee on Institutional Cooperation</a><br />(Literatur)</li>
+				<li><strong><a href="http://hd-historische-bestaende-digital.uni-hd.de">Heidelberger historische Bestände Digital</a></strong><br />Digitale Bibliothek der <a href="http:/ www.ub.uni-heidelberg.de/">Universitätsbibliothek Heidelberg</a><br />(Literatur)</li>
+				<li><strong><a href="http://www.digitale-sammlungen.de/">Münchner Digitalisierungszentrum (MDZ)</a></strong><br />Digitale Bibliothek der <a href="http://www.ub.uni-muenchen.de/">Bayrischen Staatsbibliothek München</a><br />(Literatur)</li>
+			</ul>
+		</div>
+	</div>
+</div>
 
 
 	<!-- include geotemco -->

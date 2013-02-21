@@ -5,14 +5,15 @@
 		</div>
 		<div class="footer-col-bg-gradient clearfix">
 			<ul>
-				<li><a href="javascript:void(0)" title="Lorem ipsum dolor sit amet" hreflang="de">Start</a></li>
-				<li><a href="javascript:void(0)" title="Lorem ipsum dolor sit amet" hreflang="de">Handschriften</a></li>
-				<li><a href="javascript:void(0)" title="Lorem ipsum dolor sit amet" hreflang="de">Indices</a></li>
-				<li><a href="javascript:void(0)" title="Lorem ipsum dolor sit amet" hreflang="de">Edition</a></li>
+				<li><a href="javascript:void(0)" id="linkstart" title="Lorem ipsum dolor sit amet" hreflang="de">Start</a></li>
+				<li><a href="javascript:void(0)" id="linkhandschriften" title="Lorem ipsum dolor sit amet" hreflang="de">Handschriften</a></li>
+				<li><a href="javascript:void(0)" id="linkindices" title="Lorem ipsum dolor sit amet" hreflang="de">Indices</a></li>
+				<li><a href="javascript:void(0)" id="linkedition" title="Lorem ipsum dolor sit amet" hreflang="de">Edition</a></li>
 			</ul>
 			<ul>
-				<li><a href="javascript:void(0)" title="Lorem ipsum dolor sit amet" hreflang="de">Impressum</a></li>
-				<li><a href="javascript:void(0)" title="Lorem ipsum dolor sit amet" hreflang="de">Nutzungsbedingungen</a></li>
+				<li><a href="javascript:void(0)" id="linkimprint" title="Lorem ipsum dolor sit amet" hreflang="de">Impressum</a></li>
+				<li><a href="javascript:void(0)" id="linkdatabases" title="Lorem ipsum dolor sit amet" hreflang="de">Datenbanken und Repositorien</a></li>
+				<li><a href="javascript:void(0)" id="linkterms" title="Lorem ipsum dolor sit amet" hreflang="de">Nutzungsbedingungen</a></li>
 				<li><a href="javascript:void(0)" id="linkhelp" title="Lorem ipsum dolor sit amet" hreflang="de">Hilfe</a></li>
 			</ul>
 		</div>
@@ -50,6 +51,8 @@
 			$('#indices_page').css('display','none');
 			$('#manuscripts_page').css('display','none');
 			$('#help_page').css('display','none');
+			$('#terms_page').css('display','none');
+			$('#databases_page').css('display','none');
 			$('#linkstart').removeClass('selected');
 			$('#linkedition').removeClass('selected');
 			$('#linkindices').removeClass('selected');
@@ -101,6 +104,18 @@
 		$('#linkhelp').click(function(e){
 			showDiv('#help_page','#linkhelp',e);
 			location.hash = "?page=#help_page";
+		});
+
+		$('#linkterms').click(function(e){
+			showDiv('#terms_page','#linkhelp',e);
+		});
+
+		$('#linkimprint').click(function(e){
+			showDiv('#imprint_page','#linkimprint',e);
+		});
+
+		$('#linkdatabases').click(function(e){
+			showDiv('#databases_page','#linkdatabases',e);
 		});
 
 	</script>
