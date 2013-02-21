@@ -33,171 +33,164 @@
 	</div>
 </footer>
 
-<!--
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="./js/libs/jquery-1.7.2.min.js"><\/script>')</script>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
--->
-<!-- <script>window.jQuery || document.write('<script src="./js/libs/jquery-1.5.1.min.js"><\/script>')</script> -->
+<!-- include geotemco -->
+<link rel="stylesheet" href="edition/lib/GeoTemCo/css/geotemco.css" type="text/css" />
+<script src="edition/lib/GeoTemCo/geotemco-min.js"></script>
 
+<!-- include jQuery -->
+<link rel="stylesheet" href="edition/lib/jquery-ui-1.10.0.custom/css/ui-lightness/jquery-ui-1.10.0.custom.css">
+<script src="edition/lib/jQuery/jquery-1.5.1.js"></script>
+<script src="edition/lib/jquery-ui-1.10.0.custom/js/jquery-ui-1.10.0.custom.js"></script>
 
-	<!-- include geotemco -->
-	<link rel="stylesheet" href="edition/lib/GeoTemCo/css/geotemco.css" type="text/css" />
-	<script src="edition/lib/GeoTemCo/geotemco-min.js"></script>
+<!-- include jQuery plugin Fullscreen -->
+<script src="js/libs/fullscreen.js"></script>
 
-	<!-- include jQuery -->
-	<link rel="stylesheet" href="edition/lib/jquery-ui-1.10.0.custom/css/ui-lightness/jquery-ui-1.10.0.custom.css">
- 	<script src="edition/lib/jQuery/jquery-1.5.1.js"></script>
-	<script src="edition/lib/jquery-ui-1.10.0.custom/js/jquery-ui-1.10.0.custom.js"></script>
+<!-- include jQuery plugin dynatree -->
+<link href="edition/lib/dynatree/src/skin/ui.dynatree.css" rel="stylesheet" type="text/css">
+<script src="edition/lib/dynatree/src/jquery.dynatree.js" type="text/javascript"></script>
 
-	<!-- include jQuery plugin Fullscreen -->
-	<script src="edition/lib/fullscreen/fullscreen.js"></script>
+<!-- include jQuery plugin lazyloader -->
+<script src="edition/lib/lazyloader/jquery.lazyloader.js"></script>
 
-	<!-- include jQuery plugin dynatree -->
-  	<link href="edition/lib/dynatree/src/skin/ui.dynatree.css" rel="stylesheet" type="text/css">
-  	<script src="edition/lib/dynatree/src/jquery.dynatree.js" type="text/javascript"></script>
-  
-	<!-- include jQuery plugin lazyloader -->
-  	<script src="edition/lib/lazyloader/jquery.lazyloader.js"></script>
+<!-- include jQuery plugin Fullscreen -->
+<script src="edition/lib/fullscreen/fullscreen.js"></script>
 
-	<!-- include jsonlib plugin -->
-  	<script src="edition/lib/jsonlib/jsonlib.js"></script>
+<!-- include jsonlib plugin -->
+<script src="edition/lib/jsonlib/jsonlib.js"></script>
 
-	<!-- include jQCloud plugin -->
-  	<link href="edition/lib/jqcloud/jqcloud.css" rel="stylesheet" type="text/css">
-	<script type="text/javascript" src="edition/lib/jqcloud/jqcloud-1.0.0.js"></script> 
+<!-- include jQCloud plugin -->
+<link href="edition/lib/jqcloud/jqcloud.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="edition/lib/jqcloud/jqcloud-1.0.0.js"></script> 
 
-	<!-- include archaeo18 GUI -->
-   	<link type="text/css" rel="stylesheet" href="edition/css/archaeo18.css">
-   	<link type="text/css" rel="stylesheet" href="edition/css/tei.css">
-	<script src="edition/js/Config/EditionProperties.js"></script>
-	<script src="edition/js/Config/EditionTooltips.js"></script>
-	<script src="edition/js/System/DocumentServerConnection.js"></script>
-	<script src="edition/js/System/Util.js"></script>
-	<script src="edition/js/System/BrowserDetect.js"></script>
-	<script src="edition/js/Processors/TEIProcessor.js"></script>
-	<script src="edition/js/Processors/XHTMLProcessor.js"></script>
-	<script src="edition/js/Processors/LinkProcessor.js"></script>
-	<script src="edition/js/Gui/Pagination.js"></script>
-	<script src="edition/js/Gui/FacetSelector.js"></script>
-	<script src="edition/js/Document/Document.js"></script>
-	<script src="edition/js/Document/Views/Text.js"></script>
-	<script src="edition/js/Document/Views/Images.js"></script>
-	<script src="edition/js/Document/Views/Pages.js"></script>
-	<script src="edition/js/Document/Views/Outline.js"></script>
-	<script src="edition/js/Document/Views/TEI.js"></script>
-	<script src="edition/js/Document/Views/Thumbnails.js"></script>
-	<script src="edition/js/Document/Views/Places.js"></script>
-	<script src="edition/js/Document/Views/Tags.js"></script>
-	<script src="edition/js/Gui/FrameWindow.js"></script>
-	<script src="edition/js/Gui/Folder.js"></script>
-	<script src="edition/js/Gui/HyperlinkWindow.js"></script>
-	<script src="edition/js/Gui/Browser.js"></script>
-	<script src="edition/js/Gui/DocumentDialog.js"></script>
-	<script src="edition/js/Gui/OverlayWindow.js"></script>
-	<script src="edition/js/Gui/Tooltip.js"></script>
-	<script src="edition/js/EditionGui.js"></script>
-	<script src="js/Indices.js"></script>
-	<script src="js/Scripts.js"></script>
+<!-- include archaeo18 GUI -->
+<link type="text/css" rel="stylesheet" href="edition/css/archaeo18.css">
+<link type="text/css" rel="stylesheet" href="edition/css/tei.css">
+<script src="edition/js/Config/EditionProperties.js"></script>
+<script src="edition/js/Config/EditionTooltips.js"></script>
+<script src="edition/js/System/DocumentServerConnection.js"></script>
+<script src="edition/js/System/Util.js"></script>
+<script src="edition/js/System/BrowserDetect.js"></script>
+<script src="edition/js/Processors/TEIProcessor.js"></script>
+<script src="edition/js/Processors/XHTMLProcessor.js"></script>
+<script src="edition/js/Processors/LinkProcessor.js"></script>
+<script src="edition/js/Gui/Pagination.js"></script>
+<script src="edition/js/Gui/FacetSelector.js"></script>
+<script src="edition/js/Document/Document.js"></script>
+<script src="edition/js/Document/Views/Text.js"></script>
+<script src="edition/js/Document/Views/Images.js"></script>
+<script src="edition/js/Document/Views/Pages.js"></script>
+<script src="edition/js/Document/Views/Outline.js"></script>
+<script src="edition/js/Document/Views/TEI.js"></script>
+<script src="edition/js/Document/Views/Thumbnails.js"></script>
+<script src="edition/js/Document/Views/Places.js"></script>
+<script src="edition/js/Document/Views/Tags.js"></script>
+<script src="edition/js/Gui/FrameWindow.js"></script>
+<script src="edition/js/Gui/Folder.js"></script>
+<script src="edition/js/Gui/HyperlinkWindow.js"></script>
+<script src="edition/js/Gui/Browser.js"></script>
+<script src="edition/js/Gui/DocumentDialog.js"></script>
+<script src="edition/js/Gui/OverlayWindow.js"></script>
+<script src="edition/js/Gui/Tooltip.js"></script>
+<script src="edition/js/EditionGui.js"></script>
+<script src="js/Indices.js"></script>
+<script src="js/Scripts.js"></script>
 
-	<script>
+<script>
 
-		var showDiv = function(div,link){
-			$('#start_page').css('display','none');
-			$('#edition_page').css('display','none');
-			$('#indices_page').css('display','none');
-			$('#manuscripts_page').css('display','none');
-			$('#help_page').css('display','none');
-			$('#terms_page').css('display','none');
-			$('#databases_page').css('display','none');
-			$('#people_page').css('display','none');
-			$('#imprint_page').css('display','none');
-			$('#linkstart').removeClass('selected');
-			$('#linkedition').removeClass('selected');
-			$('#linkindices').removeClass('selected');
-			$('#linkhandschriften').removeClass('selected');
-			if( typeof link != 'undefined' ){
-				$(link).addClass('selected');
-			}
-			$(div).css('display','block');
+	var showDiv = function(div,link){
+		$('#start_page').css('display','none');
+		$('#edition_page').css('display','none');
+		$('#indices_page').css('display','none');
+		$('#manuscripts_page').css('display','none');
+		$('#help_page').css('display','none');
+		$('#terms_page').css('display','none');
+		$('#databases_page').css('display','none');
+		$('#people_page').css('display','none');
+		$('#imprint_page').css('display','none');
+		$('#linkstart').removeClass('selected');
+		$('#linkedition').removeClass('selected');
+		$('#linkindices').removeClass('selected');
+		$('#linkhandschriften').removeClass('selected');
+		if( typeof link != 'undefined' ){
+			$(link).addClass('selected');
 		}
+		$(div).css('display','block');
+	}
 
-		var loadPage = function(){
-			if( window.location.href.indexOf('?params') != -1 ){
-				showDiv('#edition_page','#linkedition');
-				EditionGui.gridLayout();
-			} else if( window.location.href.indexOf('?page=') != -1 ){
-				var data = window.location.href.split('?page=')[1];
-				var page = data, link;
-				if( data.indexOf('&link=') != -1 ){
-					var data2 = data.split('&link=');
-					page = data2[0];
-					link = data2[1];
-				}			
-				showDiv(page,link);
-			} else {
-				showDiv('#start_page','#linkstart');
-			}
-		}
-		loadPage();
-
-		$('#linkstart').click(function(){
-			showDiv('#start_page','#linkstart');
-			location.hash = "?page=#start_page&link=#linkstart";
-		});
-
-		$('#linkedition').click(function(){
+	var loadPage = function(){
+		if( window.location.href.indexOf('?params') != -1 ){
 			showDiv('#edition_page','#linkedition');
 			EditionGui.gridLayout();
-			location.hash = "?page=#edition_page&link=#linkedition";
-		});
+		} else if( window.location.href.indexOf('?page=') != -1 ){
+			var data = window.location.href.split('?page=')[1];
+			var page = data, link;
+			if( data.indexOf('&link=') != -1 ){
+				var data2 = data.split('&link=');
+				page = data2[0];
+				link = data2[1];
+			}			
+			showDiv(page,link);
+		} else {
+			showDiv('#start_page','#linkstart');
+		}
+	}
+	loadPage();
 
-		$('#linkindices').click(function(){
-			showDiv('#indices_page','#linkindices');
-			Indices.checkDisplay();
-			location.hash = "?page=#indices_page&link=#linkindices";
-		});
+	$('#linkstart').click(function(){
+		showDiv('#start_page','#linkstart');
+		location.hash = "?page=#start_page&link=#linkstart";
+	});
 
-		$('#linkhandschriften').click(function(){
-			showDiv('#manuscripts_page','#linkhandschriften');
-			location.hash = "?page=#manuscripts_page&link=#linkhandschriften";
-		});
+	$('#linkedition').click(function(){
+		showDiv('#edition_page','#linkedition');
+		EditionGui.gridLayout();
+		location.hash = "?page=#edition_page&link=#linkedition";
+	});
 
-		$('#linkhelp').click(function(){
-			showDiv('#help_page','#linkhelp');
-			location.hash = "?page=#help_page";
-		});
+	$('#linkindices').click(function(){
+		showDiv('#indices_page','#linkindices');
+		Indices.checkDisplay();
+		location.hash = "?page=#indices_page&link=#linkindices";
+	});
 
-		$('#linkterms').click(function(){
-			showDiv('#terms_page','#linkhelp');
-			location.hash = "?page=#terms_page";
-		});
+	$('#linkhandschriften').click(function(){
+		showDiv('#manuscripts_page','#linkhandschriften');
+		location.hash = "?page=#manuscripts_page&link=#linkhandschriften";
+	});
 
-		$('#linkimprint').click(function(){
-			showDiv('#imprint_page','#linkimprint');
-			location.hash = "?page=#imprint_page";
-		});
+	$('#linkhelp').click(function(){
+		showDiv('#help_page','#linkhelp');
+		location.hash = "?page=#help_page";
+	});
 
-		$('#linkdatabases').click(function(e){
-			showDiv('#databases_page','#linkdatabases',e);
-			location.hash = "?page=#databases_page";
-		});
+	$('#linkterms').click(function(){
+		showDiv('#terms_page','#linkhelp');
+		location.hash = "?page=#terms_page";
+	});
 
-		$('#linkpeople').click(function(e){
-			showDiv('#people_page','#linkpeople',e);
-			location.hash = "?page=#people_page";
-		});
+	$('#linkimprint').click(function(){
+		showDiv('#imprint_page','#linkimprint');
+		location.hash = "?page=#imprint_page";
+	});
 
-		window.onhashchange = function(){
-			loadPage();
-	        };
+	$('#linkdatabases').click(function(e){
+		showDiv('#databases_page','#linkdatabases',e);
+		location.hash = "?page=#databases_page";
+	});
 
-	</script>
+	$('#linkpeople').click(function(e){
+		showDiv('#people_page','#linkpeople',e);
+		location.hash = "?page=#people_page";
+	});
 
+	window.onhashchange = function(){
+		loadPage();
+	};
+
+</script>
 
 <script src="./js/plugins.js"></script>
 <script src="./js/script.js"></script>
-<!-- end scripts-->
 
 </body>
 </html>

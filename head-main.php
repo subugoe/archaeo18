@@ -1,8 +1,10 @@
 <?php
+/*
 $pagename = explode('/', $_SERVER['SCRIPT_FILENAME']);
 $pagename = preg_replace('(.php)', '', $pagename[(sizeof($pagename) - 1)]);
 $pageClass = 'index';
 if (strstr($_SERVER['SCRIPT_FILENAME'], 'edition.php')) $pageClass = 'edition';
+*/
 ?>
 <!doctype html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
@@ -13,14 +15,13 @@ if (strstr($_SERVER['SCRIPT_FILENAME'], 'edition.php')) $pageClass = 'edition';
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<!-- <base href="http://archaeo18/" /> -->
-	<title>ARCHAEO 18 - <?php echo strtoupper($pagename)?></title>
+	<title>ARCHAEO 18</title>
 	<link rel="apple-touch-icon" href="./apple-touch-icon.png" />
 	<link rel="shortcut icon" href="./favicon.ico" />
 	<meta name="viewport" content="width=device-width">
 	<link rel="stylesheet" href="css/style.css">
 	<link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
-	<script src="./js/libs/modernizr-2.5.3.min.js"></script>
 </head>
 <body>
 
