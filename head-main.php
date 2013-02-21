@@ -17,6 +17,7 @@ if (strstr($_SERVER['SCRIPT_FILENAME'], 'edition.php')) $pageClass = 'edition';
 	<link rel="apple-touch-icon" href="./apple-touch-icon.png" />
 	<link rel="shortcut icon" href="./favicon.ico" />
 	<meta name="viewport" content="width=device-width">
+	<link href="ropen/css/style.css" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="css/style.css">
 	<link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
