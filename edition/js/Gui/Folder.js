@@ -107,6 +107,7 @@ Folder.prototype.selectTab = function(tab){
 		$(this.tabData[tab].tabDiv).css('display','block');
 		$(this.tabData[tab].tab).addClass('selected');
 	}
+	this.resizeContent();
 };
 
 /**
