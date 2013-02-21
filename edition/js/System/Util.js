@@ -97,7 +97,7 @@ Util.loadDocuments = function(trigger){
 		var docs = $(xml).find('doc');
 		Util.docCount = docs.length;
 		for( var i=0; i<docs.length; i++ ){
-			Util.loadDocument($(docs[i]).find('id').text(),$(docs[i]).find('title').text(),$(docs[i]).find('preview').text(),trigger);
+			Util.loadDocument($(docs[i]).find('id').text(),$(docs[i]).find('title').text(),$(docs[i]).find('titleShort').text(),$(docs[i]).find('preview').text(),trigger);
 		};
 	}
 	DocumentServerConnection.getDocuments(callback);
@@ -109,10 +109,11 @@ Util.loadDocuments = function(trigger){
  * @this {Util}
  * @param {string} title The title (id) of the document.
  * @param {string} name The name of the document.
+ * @param {string} nameShort The short name of the document.
  * @param {string} preview A preview thumbnail for the document (currently unused).
  * @param {Object} trigger A trigger function to be called when a document has been loaded.
  */
-Util.loadDocument = function(title,name,preview,trigger){
+Util.loadDocument = function(title,name,nameShort,preview,trigger){
 	var pagesCallback = function(xml){
 		var pageCount = $(xml).find('count').text();
 	    	var imagePath, images = [];
@@ -126,7 +127,7 @@ Util.loadDocument = function(title,name,preview,trigger){
        	    				imagePath = dummy.substring(0,dummy.lastIndexOf("/")+1);
        	    			}
 			})
-			var doc = new Document(title,name,preview,pageCount,imagePath,images);
+			var doc = new Document(title,name,nameShort,preview,pageCount,imagePath,images);
 			Util.documents.push(doc);
 			if( typeof trigger == 'undefined' ){
 				return doc;
@@ -149,8 +150,9 @@ Util.loadDocument = function(title,name,preview,trigger){
  *
  * @this {Util}
  * @param {string} title The title (id) of the document.
+ * @param {string} nameShort The short name of the document.
  */
-Util.loadDocumentSync = function(title){
+Util.loadDocumentSync = function(title,nameShort){
 	var pageCount;
 	var pagesCallback = function(xml){
 		pageCount = $(xml).find('count').text();
@@ -169,7 +171,7 @@ Util.loadDocumentSync = function(title){
 		});
 	}
 	DocumentServerConnection.getMets(title,false,metsCallback);
-	var doc = new Document(title,'','',pageCount,imagePath,images);
+	var doc = new Document(title,'',nameShort,'',pageCount,imagePath,images);
 	return doc;
 };
 

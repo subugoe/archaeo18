@@ -120,7 +120,7 @@ Folder.prototype.addTab = function(data){
 	var container = this;
 	this.documents.push(data.document);
 	var tab = $("<li/>").appendTo(this.tabs);
-	var tabLink = $("<a>"+data.document.title+"</a>").appendTo(tab);
+	var tabLink = $("<a>"+data.document.nameShort+"</a>").appendTo(tab);
 	var tabClose = $("<img src='img/edition-window-tab-close-active.png'/>").appendTo(tab);
 	var tabDiv = $("<div/>").appendTo(this.documentDiv);
 	var tabData = {

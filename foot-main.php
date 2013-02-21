@@ -125,21 +125,24 @@
 			$(div).css('display','block');
 		}
 
-		if( window.location.href.indexOf('?params') != -1 ){
-			showDiv('#edition_page','#linkedition');
-			EditionGui.gridLayout();
-		} else if( window.location.href.indexOf('?page=') != -1 ){
-			var data = window.location.href.split('?page=')[1];
-			var page = data, link;
-			if( data.indexOf('&link=') != -1 ){
-				var data2 = data.split('&link=');
-				page = data2[0];
-				link = data2[1];
-			}			
-			showDiv(page,link);
-		} else {
-			showDiv('#start_page','#linkstart');
+		var loadPage = function(){
+			if( window.location.href.indexOf('?params') != -1 ){
+				showDiv('#edition_page','#linkedition');
+				EditionGui.gridLayout();
+			} else if( window.location.href.indexOf('?page=') != -1 ){
+				var data = window.location.href.split('?page=')[1];
+				var page = data, link;
+				if( data.indexOf('&link=') != -1 ){
+					var data2 = data.split('&link=');
+					page = data2[0];
+					link = data2[1];
+				}			
+				showDiv(page,link);
+			} else {
+				showDiv('#start_page','#linkstart');
+			}
 		}
+		loadPage();
 
 		$('#linkstart').click(function(){
 			showDiv('#start_page','#linkstart');
@@ -163,25 +166,34 @@
 			location.hash = "?page=#manuscripts_page&link=#linkhandschriften";
 		});
 
-		$('#linkhelp').click(function(e){
-			showDiv('#help_page','#linkhelp',e);
+		$('#linkhelp').click(function(){
+			showDiv('#help_page','#linkhelp');
+			location.hash = "?page=#help_page";
 		});
 
-		$('#linkterms').click(function(e){
-			showDiv('#terms_page','#linkhelp',e);
+		$('#linkterms').click(function(){
+			showDiv('#terms_page','#linkhelp');
+			location.hash = "?page=#terms_page";
 		});
 
-		$('#linkimprint').click(function(e){
-			showDiv('#imprint_page','#linkimprint',e);
+		$('#linkimprint').click(function(){
+			showDiv('#imprint_page','#linkimprint');
+			location.hash = "?page=#imprint_page";
 		});
 
 		$('#linkdatabases').click(function(e){
 			showDiv('#databases_page','#linkdatabases',e);
+			location.hash = "?page=#databases_page";
 		});
 
 		$('#linkpeople').click(function(e){
 			showDiv('#people_page','#linkpeople',e);
+			location.hash = "?page=#people_page";
 		});
+
+		window.onhashchange = function(){
+			loadPage();
+	        };
 
 	</script>
 

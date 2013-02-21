@@ -461,6 +461,7 @@ EditionGui.getParams = function(){
 	var getDocumentString = function(dialog){
 		var items = [];
 		items.push(dialog.document.title);
+		items.push(dialog.document.nameShort);
 		var type = dialog.getDocType();
 		items.push(Util.getIdByType(type));
 		items.push(dialog.page);
@@ -504,13 +505,14 @@ EditionGui.getParams = function(){
  * @this {EditionGui}
  */
 EditionGui.setParams = function(params){
+	params = unescape(params);
 	var data = params.split('_');
 	this.initializeFolders(data.length);
 	for( var i=0; i<data.length; i++ ){
 		var folderParams = data[i].split(';');
 		for( var j=1; j<folderParams.length; j++ ){
 			var documentParams = folderParams[j].split(',');
-			var document = Util.loadDocumentSync(documentParams[0]);
+			var document = Util.loadDocumentSync(documentParams[0],documentParams[1]);
 			var type = Util.getTypeById(documentParams[1]);
 			this.folders[i].addTab({
 				document: document,

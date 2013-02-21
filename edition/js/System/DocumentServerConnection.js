@@ -41,9 +41,9 @@ DocumentServerConnection.getData = function(url,type,async,successCallback,failu
  * @this {DocumentServerConnection}
  * @param {Object} callback A callback function to be called for successfully retrieved data like: function(data).
  */
-DocumentServerConnection.getDocuments = function(callback){
+DocumentServerConnection.getDocuments = function(callback,async){
 	var url = EditionProperties.documentEndpoint;
-	this.getData(url,'xml',true,callback);
+	this.getData(url,'xml',async,callback);
 };
 
 /**
