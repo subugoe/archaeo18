@@ -203,7 +203,9 @@
 	});
 
 	window.onhashchange = function(){
-		loadPage();
+		if( location.hash.indexOf('?') != -1 ){
+			loadPage();
+		}
 	};
 
 	EditionGui.initialize({
