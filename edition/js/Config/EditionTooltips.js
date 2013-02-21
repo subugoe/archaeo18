@@ -389,7 +389,7 @@ var EditionTooltips = {
 	},
 	"scriptSelection" : {
 		"en": "Manuscript Selection",
-		"de": "Auswahl einer Handschrift"
+		"de": "Informationen zu den Handschriften"
 	},
 	"directSelection" : {
 		"en": "Direct selection",
