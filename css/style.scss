@@ -368,6 +368,7 @@ header {
 			}
 		}
 		.active {
+			margin: 0;
 			background-image: url('../img/edition-gridselector-active.png');
 			&:hover {
 				background-image: url('../img/edition-gridselector-select-hover.png');
