@@ -5,10 +5,10 @@
 		</div>
 		<div class="footer-col-bg-gradient clearfix">
 			<ul>
-				<li><a href="javascript:void(0)" id="linkstart" title="Startseite" hreflang="de">Start</a></li>
-				<li><a href="javascript:void(0)" id="linkhandschriften" title="Handschriften" hreflang="de">Handschriften</a></li>
-				<li><a href="javascript:void(0)" id="linkindices" title="Indices" hreflang="de">Indices</a></li>
-				<li><a href="javascript:void(0)" id="linkedition" title="Edition" hreflang="de">Edition</a></li>
+				<li><a href="javascript:void(0)" id="linkstart2" title="Startseite" hreflang="de">Start</a></li>
+				<li><a href="javascript:void(0)" id="linkhandschriften2" title="Handschriften" hreflang="de">Handschriften</a></li>
+				<li><a href="javascript:void(0)" id="linkindices2" title="Indices" hreflang="de">Indices</a></li>
+				<li><a href="javascript:void(0)" id="linkedition2" title="Edition" hreflang="de">Edition</a></li>
 			</ul>
 			<ul>
 				<li><a href="javascript:void(0)" id="linkhelp" title="Hilfe" hreflang="de">Hilfe</a></li>
@@ -151,6 +151,28 @@
 	});
 
 	$('#linkhandschriften').click(function(){
+		showDiv('#manuscripts_page','#linkhandschriften');
+		location.hash = "?page=#manuscripts_page&link=#linkhandschriften";
+	});
+
+	$('#linkstart2').click(function(){
+		showDiv('#start_page','#linkstart');
+		location.hash = "?page=#start_page&link=#linkstart";
+	});
+
+	$('#linkedition2').click(function(){
+		showDiv('#edition_page','#linkedition');
+		EditionGui.gridLayout();
+		location.hash = "?page=#edition_page&link=#linkedition";
+	});
+
+	$('#linkindices2').click(function(){
+		showDiv('#indices_page','#linkindices');
+		Indices.checkDisplay();
+		location.hash = "?page=#indices_page&link=#linkindices";
+	});
+
+	$('#linkhandschriften2').click(function(){
 		showDiv('#manuscripts_page','#linkhandschriften');
 		location.hash = "?page=#manuscripts_page&link=#linkhandschriften";
 	});
