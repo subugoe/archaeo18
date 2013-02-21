@@ -196,10 +196,10 @@
 
 
 <script src="./js/libs/plugins.js"></script>
-<script src="./js/libs/cookie.js"></script>
-<script src="./js/libs/fixie.js"></script>
-<script src="./js/libs/dataTables.js"></script>
-<script src="./js/libs/prefixfree.js"></script>
+<!-- <script src="./js/libs/cookie.js"></script> -->
+<!-- <script src="./js/libs/fixie.js"></script> -->
+<!-- <script src="./js/libs/dataTables.js"></script> -->
+<!-- <script src="./js/libs/prefixfree.js"></script> -->
 <script src="./js/script.js"></script>
 <!-- end scripts-->
 
