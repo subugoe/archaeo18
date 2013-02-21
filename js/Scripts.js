@@ -12,7 +12,6 @@ var Scripts = new function(){
 
 		this.selectionContainer = $("#scriptsSelection");
 		$('<h2>'+Util.getString('scriptSelection')+'</h2>').appendTo(this.selectionContainer);
-		$('<h3>'+Util.getString('directSelection')+'</h3>').appendTo(this.selectionContainer);
 		$('<p>'+Util.getString('pleaseSelect')+'</p>').appendTo(this.selectionContainer);
 
 		var form = $('<form/>').appendTo(this.selectionContainer);
