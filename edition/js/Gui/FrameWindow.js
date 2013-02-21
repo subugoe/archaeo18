@@ -133,7 +133,11 @@ FrameWindow.prototype.setResizability = function(append){
 		}
 	}
 	else if( this.params.resizable ){
-		$(this).resizable('destroy');
+		try {
+			$(this).resizable('destroy');
+		}
+		catch(e){
+		}
 	}
 };
 
