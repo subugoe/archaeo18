@@ -1,46 +1,39 @@
 /* HEADER */
 
 var headerState = $.cookie('header');
-// console.log(headerState);
-
 if ($.cookie('header') == 'header-small') {
 	$('html').toggleClass('header-small');
 	$('.header-button').removeClass('header-button-close').addClass('header-button-open');
 }
-
 $('.header-button').click(function() {
-	console.log('(1) Header Button clicked');
-	console.log('(2) Header State: ' + headerState);
-	console.log('(2) Header State (noch mal): ' + $.cookie('header'));
-
+	//console.log('(1) Header Button clicked');
+	//console.log('(2) Header State: ' + headerState);
+	//console.log('(2) Header State (noch mal): ' + $.cookie('header'));
 	if ($.cookie('header') == 'header-small') {
-
-		console.log('(3) make header big');
+		//console.log('(3) make header big');
 		$.cookie('header', '');
 		$('html').toggleClass('header-small', '');
 		$('.header-button').removeClass('header-button-open').addClass('header-button-close');
-
 	} else {
-
-		console.log('(3) make header small');
+		//console.log('(3) make header small');
 		$.cookie('header', 'header-small');
 		$('html').toggleClass('header-small');
 		$('.header-button').removeClass('header-button-close').addClass('header-button-open');
-
 	}
 });
 
 /* HEADER (end) */
 
-/* SET FOOTER DIV HEIGHT */
 
+
+/* SET FOOTER DIV HEIGHT */
 
 $('footer .wrap div:first-child').height(215);
 $('footer .wrap div:nth-child(2)').height(126);
 $('footer .wrap div:nth-child(3)').height(106);
-/*$('footer .wrap div:nth-child(4)').height(50);*/
 
 /* SET FOOTER DIV HEIGHT (end) */
+
 
 /* MAKE TABLES DATA READY */
 
@@ -58,6 +51,7 @@ $('#tableIncices').dataTable( {
 
 /* MAKE TABLES DATA READY (end) */
 
+
 /* MISC */
 
 var filename = location.pathname.substr(location.pathname.lastIndexOf("/")+1,location.pathname.length);
@@ -72,10 +66,19 @@ $('.selectHandschriften').change(function(){
 	window.location.hash = '#' + jumpHere;
 });
 
+/* MISC (end) */
+
+
+/* PRELOAD IMAGES */
+
 /*
-$('#fullscreen').click(function(){
-	$('#editionContainer').fullScreen(true);
-});
+$.fn.preload = function() {
+	this.each(function(){
+		$('<img/>')[0].src = this;
+	});
+}
+
+$(['img1.jpg','img2.jpg','img3.jpg']).preload();
 */
 
-/* MISC (end) */
+/* (end) PRELOAD IMAGES */
