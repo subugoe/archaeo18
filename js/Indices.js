@@ -82,7 +82,7 @@ var Indices = new function(){
 			}
 		}, IndicesProps.serverTimeout );
 		$.ajax({
-			url: IndicesProps.facetTableQuery.replace('FACET_ID',facet.facet),
+			url: EditionProperties.facetTableQuery.replace('FACET_ID',facet.facet),
 			dataType: 'html',
 			success: function(xhtml){
 				$(status).remove();
@@ -135,7 +135,7 @@ var Indices = new function(){
 						}
 					}, IndicesProps.serverTimeout );
 					$.ajax({
-						url: IndicesProps.tagcloudQuery.replace('FACET_ID',facet.facet),
+						url: EditionProperties.tagcloudQuery.replace('FACET_ID',facet.facet),
 						dataType: 'xml',
 						success: function(xml){
 							cloudLoaded = true;
@@ -161,7 +161,7 @@ var Indices = new function(){
 						}
 					}, IndicesProps.serverTimeout );
 					$.ajax({
-						url: IndicesProps.mapQuery.replace('FACET_ID',facet.facet),
+						url: EditionProperties.mapQuery.replace('FACET_ID',facet.facet),
 						dataType: 'xml',
 						success: function(kml){
 							cloudLoaded = true;
@@ -247,10 +247,6 @@ var Indices = new function(){
 
 IndicesProps = {
 	serverTimeout: 10000,	//in ms
-	facetTableQuery: '/exist/rest/db/archaeo18/queries/experimental/listEntities.xq?facet=FACET_ID&format=xhtml',
-	//facetTableQuery: './testdata/indices/listEntities.xq?facet=FACET_ID&format=xhtml',
-	mapQuery: '/exist/rest/db/archaeo18/queries/experimental/listEntities.xq?facet=FACET_ID&format=kml',
-	tagcloudQuery: '/exist/rest/db/archaeo18/queries/experimental/listEntities.xq?facet=FACET_ID&format=cloud'
 };
 
 Indices.initialize();

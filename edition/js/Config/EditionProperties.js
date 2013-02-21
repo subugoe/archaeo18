@@ -210,59 +210,80 @@ var EditionProperties = {
 		maxTags: 50,
 		
 		/**
-		   exist URL to retrieve the document list
+		   URL to retrieve the document list
 		*/
 		documentEndpoint: '/exist/rest/db/archaeo18/queries/listDocs.xquery',
 
 		/**
-		   exist URL to retrieve the fulltext of a document
+		   URL to retrieve the fulltext of a document
 		*/
 		textQuery: '/exist/rest/db/archaeo18/queries/getText.xq?mode=raw&format=xhtml&doc=DOC_ID&page=0',
 
 		/**
-		   exist URL to retrieve a page of a document
+		   URL to retrieve a page of a document
 		*/
 		pageQuery: '/exist/rest/db/archaeo18/queries/getText.xq?mode=raw&format=xhtml&doc=DOC_ID&page=PAGE_ID',
 
 		/**
-		   exist URL to retrieve the outline of a document
+		   URL to retrieve the outline of a document
 		*/
 		outlineQuery: '/exist/rest/db/archaeo18/queries/getText.xq?mode=structure&format=xhtml&doc=DOC_ID',
 
 		/**
-		   exist URL to retrieve the number of pages of a document
+		   URL to retrieve the number of pages of a document
 		*/
 		pageCountQuery:	'/exist/rest/db/archaeo18/queries/pageCount.xquery?doc=DOC_ID',
 
 		/**
-		   exist URL to retrieve perform a search
+		   URL to retrieve perform a search
 		*/
 		searchQuery: '/exist/rest/db/archaeo18/queries/search.xq?query=QUERY_ID&mode=xhtml',
 
 		/**
-		   exist URL to retrieve the existing facets
+		   URL to retrieve the existing facets
 		*/
 		facetsQuery: '/exist/rest/db/archaeo18/queries/getFacets.xq',
 
 		/**
-		   exist URL to retrieve tags for a document (whole document or page of a document)
+		   URL to retrieve tags for a document (whole document or page of a document)
 		*/
 		tagcloudPageQuery: '/exist/rest/db/archaeo18/queries/getText.xq?doc=DOC_ID&page=PAGE_ID&format=cloud&facet=FACET_ID',
 
 		/**
-		   exist URL to retrieve a KML file with places mentioned in a document (whole document or page of a document)
+		   URL to retrieve a KML file with places mentioned in a document (whole document or page of a document)
 		*/
 		kmlQuery: '/exist/rest/db/archaeo18/queries/getText.xq?format=kml&doc=DOC_ID&page=PAGE_ID',
 
 		/**
-		   exist URL to a documents TEI file
+		   URL to a documents TEI file
 		*/
 		teiUri: '/exist/rest/db/archaeo18/data/tei/DOC_ID.xml',
 
 		/**
-		   exist URL to a documents METS file
+		   URL to a documents METS file
 		*/
 		metsUri: '/exist/rest/db/archaeo18/data/mets/DOC_ID.mets.xml',
+
+		/**
+		   URL to generate a metadata description for a document
+		*/
+		metadataQuery: '/exist/rest/db/archaeo18/queries/getText.xq?mode=header&format=xhtml&doc=DOC_ID',
+
+		/**
+		   URL to get entities of a specific kind for all documents in form of a table (for displaying with dataTables)
+		*/
+		facetTableQuery: './testdata/indices/listEntities.xq?facet=FACET_ID&format=xhtml',
+		//facetTableQuery: '/exist/rest/db/archaeo18/queries/experimental/listEntities.xq?facet=FACET_ID&format=xhtml',
+
+		/**
+		   URL to get places mentioned in all documents
+		*/
+		mapQuery: '/exist/rest/db/archaeo18/queries/experimental/listEntities.xq?facet=FACET_ID&format=kml',
+
+		/**
+		   URL to get entities of a specific kind for all documents in form of a tag cloud (for displaying with jqcloud)
+		*/
+		tagcloudQuery: '/exist/rest/db/archaeo18/queries/experimental/listEntities.xq?facet=FACET_ID&format=cloud',
 
 		/**
 		   wikipedia link colors for coloring links when no entities are selected in the facet selection

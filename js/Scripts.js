@@ -55,7 +55,7 @@ var Scripts = new function(){
 		var gui = this;
 		$(this.scriptContainer).empty();
 		$.ajax({
-			url: ScriptsProps.metadataQuery.replace('DOC_ID',title),
+			url: EditionProperties.metadataQuery.replace('DOC_ID',title),
 			dataType: 'html',
 			success: function(xhtml){
 				$('<h2 class="head-handwriting" id='+title+'>'+Util.getString('handwriting')+': '+title+'</h2>').appendTo(gui.scriptContainer);
@@ -80,8 +80,7 @@ var Scripts = new function(){
 ScriptsProps = {
 	// default size if manuscripts page image 
 	hwImageHeight: 328,
-	hwImageWidth: 359,
-	metadataQuery: '/exist/rest/db/archaeo18/queries/getText.xq?mode=header&format=xhtml&doc=DOC_ID'
+	hwImageWidth: 359
 };
 
 Scripts.initialize();
