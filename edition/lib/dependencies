@@ -30,3 +30,8 @@
 - used for lazy loading of images in the browser's search result list and the thumbnail views
 - modified to allow lazy loading within divs
 - used in: Browser.js, Thumbnails.js
+
+8. fullscreen
+- used to allow browser fullscreen
+- not modified
+- used in: EditionGui.js

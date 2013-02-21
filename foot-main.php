@@ -51,7 +51,7 @@
 	<script src="edition/lib/jquery-ui-1.10.0.custom/js/jquery-ui-1.10.0.custom.js"></script>
 
 	<!-- include jQuery plugin Fullscreen -->
-	<script src="js/libs/fullscreen.js"></script>
+	<script src="edition/lib/fullscreen/fullscreen.js"></script>
 
 	<!-- include jQuery plugin dynatree -->
   	<link href="edition/lib/dynatree/src/skin/ui.dynatree.css" rel="stylesheet" type="text/css">
@@ -195,11 +195,7 @@
 	</script>
 
 
-<script src="./js/libs/plugins.js"></script>
-<!-- <script src="./js/libs/cookie.js"></script> -->
-<!-- <script src="./js/libs/fixie.js"></script> -->
-<!-- <script src="./js/libs/dataTables.js"></script> -->
-<!-- <script src="./js/libs/prefixfree.js"></script> -->
+<script src="./js/plugins.js"></script>
 <script src="./js/script.js"></script>
 <!-- end scripts-->
 

@@ -20,7 +20,7 @@ if (strstr($_SERVER['SCRIPT_FILENAME'], 'edition.php')) $pageClass = 'edition';
 	<link rel="stylesheet" href="css/style.css">
 	<link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
-	<!-- <script src="./js/libs/modernizr-2.5.3.min.js"></script> -->
+	<script src="./js/libs/modernizr-2.5.3.min.js"></script>
 </head>
 <body>
 
