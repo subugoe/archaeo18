@@ -79,13 +79,16 @@ EditionGui.addFolder = function(){
 	folder.css('left',(($(this.containerDiv).width()-folder.width())/2)+'px');
 	folder.setFixed(this.automaticGridLayout);
 };
-	
+
 /**
  * Initialization of the main window. Either an empty setting is created (browser + folders) or a magnetic link will be utilized. Furthermore, the loading of facets and documents is triggered here.
  *
  * @this {EditionGui}
  */
-EditionGui.initialize = function(){
+EditionGui.initialize = function(settings){
+	if( typeof settings != 'undefined' ){
+		EditionProperties.applySettings(settings);
+	}
 	var gui = this;
 	this.containerDiv = $('#editionContainer');
 	this.containerDiv.css('height',(EditionProperties.windowHeight+2*EditionProperties.margin)+'px');
@@ -706,5 +709,3 @@ EditionGui.checkGrid = function(){
 		}
 	}		
 };
-
-EditionGui.initialize();

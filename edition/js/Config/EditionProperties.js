@@ -1,5 +1,8 @@
 /**
- * Configuration file
+ * Edition Configuration File. The given settings are default values and can be overwritten by calling EditionGui.initialize() with preferred settings.
+ *
+ * @constructor
+ * @this {EditionProperties}
  */
 var EditionProperties = {
 
@@ -111,8 +114,8 @@ var EditionProperties = {
 		maxTags: 50,		// maximum number of tags to be displayed in tag cloud
 		
 		// document related queries
-//		documentEndpoint: 	'/exist/rest/db/archaeo18/queries/listDocs.xquery',
-		documentEndpoint: 	'/archaeo18/testdata/docs/listDocs.xquery',
+		documentEndpoint: 	'/exist/rest/db/archaeo18/queries/listDocs.xquery',
+//		documentEndpoint: 	'/archaeo18/testdata/docs/listDocs.xquery',
 		textQuery: 		'/exist/rest/db/archaeo18/queries/getText.xq?mode=raw&format=xhtml&doc=DOC_ID&page=0',
 		pageQuery: 		'/exist/rest/db/archaeo18/queries/getText.xq?mode=raw&format=xhtml&doc=DOC_ID&page=PAGE_ID',
 		outlineQuery: 		'/exist/rest/db/archaeo18/queries/getText.xq?mode=structure&format=xhtml&doc=DOC_ID',
@@ -139,3 +142,13 @@ var EditionProperties = {
 		browserSearch: true
 	
 }
+
+/**
+ * Function to overwrite the default Edition configuration.
+ *
+ * @this {EditionProperties}
+ * @param {JSON} settings Preferred settings to overwrite the given defaults.
+ */
+EditionProperties.applySettings = function(settings) {
+	$.extend(this, settings);
+};

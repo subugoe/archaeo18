@@ -184,6 +184,10 @@
 		loadPage();
 	};
 
+	EditionGui.initialize({
+		hyperlinkWindow: false
+	});
+
 </script>
 
 <script src="./js/plugins.js"></script>
