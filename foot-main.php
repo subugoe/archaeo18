@@ -34,61 +34,61 @@
 </footer>
 
 <!-- include geotemco -->
-<link rel="stylesheet" href="edition/lib/GeoTemCo/css/geotemco.css" type="text/css" />
-<script src="edition/lib/GeoTemCo/geotemco-min.js"></script>
+<link rel="stylesheet" href="ropen/lib/GeoTemCo/css/geotemco.css" type="text/css" />
+<script src="ropen/lib/GeoTemCo/geotemco-min.js"></script>
 
 <!-- include jQuery -->
-<link rel="stylesheet" href="edition/lib/jquery-ui-1.10.0.custom/css/ui-lightness/jquery-ui-1.10.0.custom.css">
-<script src="edition/lib/jQuery/jquery-1.5.1.js"></script>
-<script src="edition/lib/jquery-ui-1.10.0.custom/js/jquery-ui-1.10.0.custom.js"></script>
+<link rel="stylesheet" href="ropen/lib/jquery-ui-1.10.0.custom/css/ui-lightness/jquery-ui-1.10.0.custom.css">
+<script src="ropen/lib/jQuery/jquery-1.5.1.js"></script>
+<script src="ropen/lib/jquery-ui-1.10.0.custom/js/jquery-ui-1.10.0.custom.js"></script>
 
 <!-- include jQuery plugin dynatree -->
-<link href="edition/lib/dynatree/src/skin/ui.dynatree.css" rel="stylesheet" type="text/css">
-<script src="edition/lib/dynatree/src/jquery.dynatree.js" type="text/javascript"></script>
+<link href="ropen/lib/dynatree/src/skin/ui.dynatree.css" rel="stylesheet" type="text/css">
+<script src="ropen/lib/dynatree/src/jquery.dynatree.js" type="text/javascript"></script>
 
 <!-- include jQuery plugin lazyloader -->
-<script src="edition/lib/lazyloader/jquery.lazyloader.js"></script>
+<script src="ropen/lib/lazyloader/jquery.lazyloader.js"></script>
 
 <!-- include jQuery plugin Fullscreen -->
-<script src="edition/lib/fullscreen/fullscreen.js"></script>
+<script src="ropen/lib/fullscreen/fullscreen.js"></script>
 
 <!-- include jsonlib plugin -->
-<script src="edition/lib/jsonlib/jsonlib.js"></script>
+<script src="ropen/lib/jsonlib/jsonlib.js"></script>
 
 <!-- include jQCloud plugin -->
-<link href="edition/lib/jqcloud/jqcloud.css" rel="stylesheet" type="text/css">
-<script type="text/javascript" src="edition/lib/jqcloud/jqcloud-1.0.0.js"></script> 
+<link href="ropen/lib/jqcloud/jqcloud.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="ropen/lib/jqcloud/jqcloud-1.0.0.js"></script> 
 
 <!-- include archaeo18 GUI -->
-<link type="text/css" rel="stylesheet" href="edition/css/archaeo18.css">
-<link type="text/css" rel="stylesheet" href="edition/css/tei.css">
-<script src="edition/js/Config/EditionProperties.js"></script>
-<script src="edition/js/Config/EditionTooltips.js"></script>
-<script src="edition/js/System/DocumentServerConnection.js"></script>
-<script src="edition/js/System/Util.js"></script>
-<script src="edition/js/System/BrowserDetect.js"></script>
-<script src="edition/js/Processors/TEIProcessor.js"></script>
-<script src="edition/js/Processors/XHTMLProcessor.js"></script>
-<script src="edition/js/Processors/LinkProcessor.js"></script>
-<script src="edition/js/Gui/Pagination.js"></script>
-<script src="edition/js/Gui/FacetSelector.js"></script>
-<script src="edition/js/Document/Document.js"></script>
-<script src="edition/js/Document/Views/Text.js"></script>
-<script src="edition/js/Document/Views/Images.js"></script>
-<script src="edition/js/Document/Views/Pages.js"></script>
-<script src="edition/js/Document/Views/Outline.js"></script>
-<script src="edition/js/Document/Views/TEI.js"></script>
-<script src="edition/js/Document/Views/Thumbnails.js"></script>
-<script src="edition/js/Document/Views/Places.js"></script>
-<script src="edition/js/Document/Views/Tags.js"></script>
-<script src="edition/js/Gui/FrameWindow.js"></script>
-<script src="edition/js/Gui/Folder.js"></script>
-<script src="edition/js/Gui/HyperlinkWindow.js"></script>
-<script src="edition/js/Gui/Browser.js"></script>
-<script src="edition/js/Gui/DocumentDialog.js"></script>
-<script src="edition/js/Gui/OverlayWindow.js"></script>
-<script src="edition/js/Gui/Tooltip.js"></script>
-<script src="edition/js/EditionGui.js"></script>
+<link type="text/css" rel="stylesheet" href="ropen/css/archaeo18.css">
+<link type="text/css" rel="stylesheet" href="ropen/css/tei.css">
+<script src="ropen/js/Config/EditionProperties.js"></script>
+<script src="ropen/js/Config/EditionTooltips.js"></script>
+<script src="ropen/js/System/DocumentServerConnection.js"></script>
+<script src="ropen/js/System/Util.js"></script>
+<script src="ropen/js/System/BrowserDetect.js"></script>
+<script src="ropen/js/Processors/TEIProcessor.js"></script>
+<script src="ropen/js/Processors/XHTMLProcessor.js"></script>
+<script src="ropen/js/Processors/LinkProcessor.js"></script>
+<script src="ropen/js/Gui/Pagination.js"></script>
+<script src="ropen/js/Gui/FacetSelector.js"></script>
+<script src="ropen/js/Document/Document.js"></script>
+<script src="ropen/js/Document/Views/Text.js"></script>
+<script src="ropen/js/Document/Views/Images.js"></script>
+<script src="ropen/js/Document/Views/Pages.js"></script>
+<script src="ropen/js/Document/Views/Outline.js"></script>
+<script src="ropen/js/Document/Views/TEI.js"></script>
+<script src="ropen/js/Document/Views/Thumbnails.js"></script>
+<script src="ropen/js/Document/Views/Places.js"></script>
+<script src="ropen/js/Document/Views/Tags.js"></script>
+<script src="ropen/js/Gui/FrameWindow.js"></script>
+<script src="ropen/js/Gui/Folder.js"></script>
+<script src="ropen/js/Gui/HyperlinkWindow.js"></script>
+<script src="ropen/js/Gui/Browser.js"></script>
+<script src="ropen/js/Gui/DocumentDialog.js"></script>
+<script src="ropen/js/Gui/OverlayWindow.js"></script>
+<script src="ropen/js/Gui/Tooltip.js"></script>
+<script src="ropen/js/EditionGui.js"></script>
 <script src="js/Indices.js"></script>
 <script src="js/Scripts.js"></script>
 
