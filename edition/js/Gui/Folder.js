@@ -60,9 +60,10 @@ Folder.prototype.resizeContent = function(){
 	$.each(this.tabData,function(i,div){
 		div.tabDiv.css('height',(cw.content.height()-cw.tabs.height()-padding)+'px');
 	});
-	$.each(this.documentDialogs,function(i,dialog){
+	var dialog = this.dialog();
+	if( dialog != null ){
 		dialog.resize();
-	});
+	}
 };
 
 /**
