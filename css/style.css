@@ -1020,16 +1020,16 @@ header {
       .edition .window .inner .pagination li {
         display: inline; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003718}}
-        .edition .window .inner .pagination li:hover .tools-list {
+        .edition .window .inner .pagination li:hover .tools-outline {
           background-image: url("../img/edition-window-tools-list-hover.png"); }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003719}}
-        .edition .window .inner .pagination li:hover .tools-txt {
+        .edition .window .inner .pagination li:hover .tools-text {
           background-image: url("../img/edition-window-tools-txt-hover.png"); }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003720}}
-        .edition .window .inner .pagination li:hover .tools-img {
+        .edition .window .inner .pagination li:hover .tools-thumbnails {
           background-image: url("../img/edition-window-tools-img-hover.png"); }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003721}}
-        .edition .window .inner .pagination li:hover .tools-onepage {
+        .edition .window .inner .pagination li:hover .tools-pages {
           background-image: url("../img/edition-window-tools-onepage-hover.png"); }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003722}}
         .edition .window .inner .pagination li:hover .tools-images {
@@ -1044,16 +1044,16 @@ header {
         .edition .window .inner .pagination li:hover .tools-tags {
           background-image: url("../img/edition-window-tools-tags-hover.png"); }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003728}}
-        .edition .window .inner .pagination li:active .tools-list {
+        .edition .window .inner .pagination li:active .tools-outline {
           background-image: url("../img/edition-window-tools-list-active.png"); }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003729}}
-        .edition .window .inner .pagination li:active .tools-txt {
+        .edition .window .inner .pagination li:active .tools-text {
           background-image: url("../img/edition-window-tools-txt-active.png"); }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003730}}
-        .edition .window .inner .pagination li:active .tools-img {
+        .edition .window .inner .pagination li:active .tools-thumbnails {
           background-image: url("../img/edition-window-tools-img-active.png"); }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003731}}
-        .edition .window .inner .pagination li:active .tools-onepage {
+        .edition .window .inner .pagination li:active .tools-pages {
           background-image: url("../img/edition-window-tools-onepage-active.png"); }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003732}}
         .edition .window .inner .pagination li:active .tools-images {
@@ -1068,28 +1068,28 @@ header {
         .edition .window .inner .pagination li:active .tools-tags {
           background-image: url("../img/edition-window-tools-tags-active.png"); }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003737}}
-        .edition .window .inner .pagination li .tools-list {
+        .edition .window .inner .pagination li .tools-outline {
           background-image: url("../img/edition-window-tools-list.png"); }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003739}}
-          .edition .window .inner .pagination li .tools-list.active {
+          .edition .window .inner .pagination li .tools-outline.active {
             background-image: url("../img/edition-window-tools-list-hover.png"); }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003741}}
-        .edition .window .inner .pagination li .tools-txt {
+        .edition .window .inner .pagination li .tools-text {
           background-image: url("../img/edition-window-tools-txt.png"); }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003743}}
-          .edition .window .inner .pagination li .tools-txt.active {
+          .edition .window .inner .pagination li .tools-text.active {
             background-image: url("../img/edition-window-tools-txt-hover.png"); }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003745}}
-        .edition .window .inner .pagination li .tools-onepage {
+        .edition .window .inner .pagination li .tools-pages {
           background-image: url("../img/edition-window-tools-onepage.png"); }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003747}}
-          .edition .window .inner .pagination li .tools-onepage.active {
+          .edition .window .inner .pagination li .tools-pages.active {
             background-image: url("../img/edition-window-tools-onepage-hover.png"); }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003749}}
-        .edition .window .inner .pagination li .tools-img {
+        .edition .window .inner .pagination li .tools-thumbnails {
           background-image: url("../img/edition-window-tools-img.png"); }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003751}}
-          .edition .window .inner .pagination li .tools-img.active {
+          .edition .window .inner .pagination li .tools-thumbnails.active {
             background-image: url("../img/edition-window-tools-img-hover.png"); }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003753}}
         .edition .window .inner .pagination li .tools-images {

@@ -715,38 +715,38 @@ header {
 				li {
 					display: inline;
 					&:hover {
-						.tools-list {	background-image: url('../img/edition-window-tools-list-hover.png'); }
-						.tools-txt { background-image: url('../img/edition-window-tools-txt-hover.png'); }
-						.tools-img { background-image: url('../img/edition-window-tools-img-hover.png'); }
-						.tools-onepage { background-image: url('../img/edition-window-tools-onepage-hover.png'); }
+						.tools-outline {	background-image: url('../img/edition-window-tools-list-hover.png'); }
+						.tools-text { background-image: url('../img/edition-window-tools-txt-hover.png'); }
+						.tools-thumbnails { background-image: url('../img/edition-window-tools-img-hover.png'); }
+						.tools-pages { background-image: url('../img/edition-window-tools-onepage-hover.png'); }
 						.tools-images { background-image: url('../img/edition-window-tools-images-hover.png'); }
 						.tools-tei { background-image: url('../img/edition-window-tools-tei-hover.png'); }
 						.tools-map { background-image: url('../img/edition-window-tools-map-hover.png'); }
 						.tools-tags { background-image: url('../img/edition-window-tools-tags-hover.png'); }
 					}
 					&:active {
-						.tools-list {	background-image: url('../img/edition-window-tools-list-active.png'); }
-						.tools-txt { background-image: url('../img/edition-window-tools-txt-active.png'); }
-						.tools-img { background-image: url('../img/edition-window-tools-img-active.png'); }
-						.tools-onepage { background-image: url('../img/edition-window-tools-onepage-active.png'); }
+						.tools-outline {	background-image: url('../img/edition-window-tools-list-active.png'); }
+						.tools-text { background-image: url('../img/edition-window-tools-txt-active.png'); }
+						.tools-thumbnails { background-image: url('../img/edition-window-tools-img-active.png'); }
+						.tools-pages { background-image: url('../img/edition-window-tools-onepage-active.png'); }
 						.tools-images { background-image: url('../img/edition-window-tools-images-active.png'); }
 						.tools-tei { background-image: url('../img/edition-window-tools-tei-active.png'); }
 						.tools-map { background-image: url('../img/edition-window-tools-map-active.png'); }
 						.tools-tags { background-image: url('../img/edition-window-tools-tags-active.png'); }
 					}
-					.tools-list {
+					.tools-outline {
 						background-image: url('../img/edition-window-tools-list.png');
 						&.active { background-image: url('../img/edition-window-tools-list-hover.png'); }
 					}
-					.tools-txt { 
+					.tools-text { 
 						background-image: url('../img/edition-window-tools-txt.png');
 						&.active { background-image: url('../img/edition-window-tools-txt-hover.png'); }
 					}
-					.tools-onepage {
+					.tools-pages {
 						background-image: url('../img/edition-window-tools-onepage.png');
 						&.active { background-image: url('../img/edition-window-tools-onepage-hover.png'); }
 					}
-					.tools-img { 
+					.tools-thumbnails { 
 						background-image: url('../img/edition-window-tools-img.png');
 						&.active { background-image: url('../img/edition-window-tools-img-hover.png'); }
 					}
