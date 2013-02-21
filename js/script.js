@@ -62,8 +62,7 @@ if (filename == 'indices.php') { $('#linkindices').addClass('selected'); }
 if (filename == 'handschriften.php') { $('#linkhandschriften').addClass('selected'); }
 
 $('.selectHandschriften').change(function(){
-	var jumpHere = $('option:selected').val();
-	window.location.hash = '#' + jumpHere;
+	$('#scriptsSelection option:selected').val();
 });
 
 /* MISC (end) */
