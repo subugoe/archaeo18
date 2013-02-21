@@ -60,7 +60,7 @@ var Scripts = new function(){
 			url: EditionProperties.metadataQuery.replace('DOC_ID',title),
 			dataType: 'html',
 			success: function(xhtml){
-				$('<h2 id='+title+'>'+Util.getString('handwriting')+': '+title+'</h2>').appendTo(gui.scriptContainer);
+				$('<h2 class="head-handwriting" id='+title+'>'+Util.getString('handwriting')+': '+title+'</h2>').appendTo(gui.scriptContainer);
 				var width = ScriptsProps.hwImageWidth;
 				var height = ScriptsProps.hwImageHeight;
 				var imageDiv = $('<div/>').appendTo(gui.scriptContainer);
