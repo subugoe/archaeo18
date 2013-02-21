@@ -11,20 +11,17 @@
 				<li><a href="javascript:void(0)" id="linkedition" title="Edition" hreflang="de">Edition</a></li>
 			</ul>
 			<ul>
-				<li><a href="javascript:void(0)" id="linkimprint" title="Impressum" hreflang="de">Impressum</a></li>
-				<li><a href="javascript:void(0)" id="linkdatabases" title="datenbanken und Repositorien" hreflang="de">Datenbanken und Repositorien</a></li>
-				<li><a href="javascript:void(0)" id="linkterms" title="Nutzungsbedingungen" hreflang="de">Nutzungsbedingungen</a></li>
 				<li><a href="javascript:void(0)" id="linkhelp" title="Hilfe" hreflang="de">Hilfe</a></li>
-				<li><a href="javascript:void(0)" id="linkpeople" title="Projektmitarbeiter" hreflang="de">Projektmitarbeiter</a></li>
+				<li><a href="javascript:void(0)" id="linkterms" title="Editionsrichtlinien" hreflang="de">Editionsrichtlinien</a></li>
+				<li><a href="javascript:void(0)" id="linkdatabases" title="Datenbanken und Repositorien" hreflang="de">Datenbanken und Repositorien</a></li>
 			</ul>
 		</div>
 		<div class="clearfix">
-			<p></p>
-			<!--
-			<a href="http://www.sub.uni-goettingen.de" title="Niedersächsische Staats- und Universitätsbibliothek Göttingen" hreflang="de"><img src="./img/logo-sub.png" alt="" /></a>
-			<a href="http://www.dfg.de" title="Deutsche Forschungsgemeinschaft" hreflang="de"><img src="./img/logo-dfg.png" alt="" /></a>
-			<a href="" hreflang="de"><img src="http://placehold.it/135x50" style="padding: 0 0 0 11px;" alt="" /></a>
-			-->
+			<ul>
+				<li><a href="javascript:void(0)" id="linkimprint" title="Impressum" hreflang="de">Impressum</a></li>
+				<li><a href="javascript:void(0)" id="linkpeople" title="Projektmitarbeiter" hreflang="de">Projektmitarbeiter</a></li>
+				<li><a href="mailto:heynedigital@sub.uni-goettingen.de">Kontakt</a></li>
+			</ul>
 		</div>
 		<div style="display: inline; float: left;">
 			<ul class="logos">
