@@ -1,10 +1,8 @@
 <?php
-/*
 $pagename = explode('/', $_SERVER['SCRIPT_FILENAME']);
 $pagename = preg_replace('(.php)', '', $pagename[(sizeof($pagename) - 1)]);
 $pageClass = 'index';
 if (strstr($_SERVER['SCRIPT_FILENAME'], 'edition.php')) $pageClass = 'edition';
-*/
 ?>
 <!doctype html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
