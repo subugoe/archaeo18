@@ -117,7 +117,7 @@ var Indices = new function(){
 						"sZeroRecords": "Keine Eintr&auml;ge gefunden",
 						"sInfo": "Zeige _START_ bis _END_ von _TOTAL_ Eintr&auml;gen",
 						"sInfoEmpty": "Zeige 0 bis 0 von 0 Eintr&auml;gen",
-						"sInfoFiltered": "(gefilter aus _MAX_ Eintr&auml;gen insgesamt)",
+						"sInfoFiltered": "(gefiltert aus _MAX_ Eintr&auml;gen insgesamt)",
 						"sSearch": "Suche:",
 						"oPaginate": {
 							"sNext": "N&auml;chste Seite",
