@@ -42,9 +42,6 @@
 <script src="edition/lib/jQuery/jquery-1.5.1.js"></script>
 <script src="edition/lib/jquery-ui-1.10.0.custom/js/jquery-ui-1.10.0.custom.js"></script>
 
-<!-- include jQuery plugin Fullscreen -->
-<script src="js/libs/fullscreen.js"></script>
-
 <!-- include jQuery plugin dynatree -->
 <link href="edition/lib/dynatree/src/skin/ui.dynatree.css" rel="stylesheet" type="text/css">
 <script src="edition/lib/dynatree/src/jquery.dynatree.js" type="text/javascript"></script>
