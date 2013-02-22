@@ -61,7 +61,7 @@ var Indices = new function(){
 		var appendStatus = function(msg,server){
 			status = $('<p>'+msg+'</p>').appendTo(section);
 			$(status).css('margin-top','20px');
-			var img = $('<img src="edition/images/ajax-loader2.gif"/>').appendTo(status);
+			var img = $('<img src="img/ajax-loader2.gif"/>').appendTo(status);
 			$(img).css('padding','0px');
 			$(img).css('box-shadow','none');
 			$(img).css('margin-left','10px');
