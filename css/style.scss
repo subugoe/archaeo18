@@ -356,7 +356,6 @@ footer {
 
 .dataTable {
 	thead tr {
-		/* font-size: 125%; */
 		td {
 			font-weight: bold;
 			border-bottom: 1px solid lighten(#666666, 20%);
@@ -381,19 +380,6 @@ footer {
 	tfoot {
 		display: none;
 	}
-}
-
-#editionContainer {
-	background-color: #EEEEEE;
-}
-
-/*
-.hits {
-	margin: 0;
-}
-*/
-
-#tableIncices_wrapper {
 	a {
 		text-decoration: underline;
 	}
@@ -411,31 +397,28 @@ footer {
 	}
 }
 
-/*
-#indices_page, 
-#edition_page,
-#start_page,
-#manuscripts_page {
-	min-height: 100%;
-	height: auto !important;
-	height: 100%;
-	margin: 0 auto -315px;
+#editionContainer {
+	background-color: #EEEEEE;
 }
-*/
+
 
 h2.head-handwriting {
 	visibility:hidden;
 }
 
+/* STUFF TO MAKE THE FOOTER STICK TO BOTTOM */
+
 #wrapper {
 	min-height: 100%;
 	height: auto !important;
 	height: 100%;
-	margin: 0 auto -142px; /* the bottom margin is the negative value of the footer's height */
+	margin: 0 auto -142px;
 }
 
 .footer, .push {
 	height: 142px; /* .push must be the same height as .footer */
 }
+
+/* STUFF TO MAKE THE FOOTER STICK TO BOTTOM (end) */
 
 @import 'append';

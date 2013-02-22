@@ -627,84 +627,65 @@ footer {
 .dataTables_wrapper a:hover {
   text-decoration: underline; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003358}}
-.dataTable thead tr {
-  /* font-size: 125%; */ }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003360}}
-  .dataTable thead tr td {
-    font-weight: bold;
-    border-bottom: 1px solid #999999;
-    margin: 0 0 3px 0;
-    cursor: pointer; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003366}}
-  .dataTable thead tr td:first-child {
-    width: 250px !important; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003369}}
-  .dataTable thead tr td:nth-child(2) {
-    width: 200px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003374}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003359}}
+.dataTable thead tr td {
+  font-weight: bold;
+  border-bottom: 1px solid #999999;
+  margin: 0 0 3px 0;
+  cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003365}}
+.dataTable thead tr td:first-child {
+  width: 250px !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003368}}
+.dataTable thead tr td:nth-child(2) {
+  width: 200px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003373}}
 .dataTable tbody .even {
   background-color: #e1e1e1; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003376}}
 .dataTable tbody a {
   cursor: pointer; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003381}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003380}}
 .dataTable tfoot {
   display: none; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003386}}
-#editionContainer {
-  background-color: #EEEEEE; }
-
-/*
-.hits {
-	margin: 0;
-}
-*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003397}}
-#tableIncices_wrapper a {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003383}}
+.dataTable a {
   text-decoration: underline; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003400}}
-#tableIncices_wrapper .sorting {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003386}}
+.dataTable .sorting {
   text-align: center;
   background: url("../img/sort_both.png") no-repeat scroll right center transparent; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003404}}
-#tableIncices_wrapper .sorting_asc {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003390}}
+.dataTable .sorting_asc {
   text-align: center;
   background: url("../img/sort_asc.png") no-repeat scroll right center transparent; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003408}}
-#tableIncices_wrapper .sorting_desc {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003394}}
+.dataTable .sorting_desc {
   text-align: center;
   background: url("../img/sort_desc.png") no-repeat scroll right center transparent; }
 
-/*
-#indices_page, 
-#edition_page,
-#start_page,
-#manuscripts_page {
-	min-height: 100%;
-	height: auto !important;
-	height: 100%;
-	margin: 0 auto -315px;
-}
-*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003426}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003400}}
+#editionContainer {
+  background-color: #EEEEEE; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003405}}
 h2.head-handwriting {
   visibility: hidden; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003430}}
+/* STUFF TO MAKE THE FOOTER STICK TO BOTTOM */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003411}}
 #wrapper {
   min-height: 100%;
   height: auto !important;
   height: 100%;
-  margin: 0 auto -142px;
-  /* the bottom margin is the negative value of the footer's height */ }
+  margin: 0 auto -142px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003437}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003418}}
 .footer, .push {
   height: 142px;
   /* .push must be the same height as .footer */ }
 
+/* STUFF TO MAKE THE FOOTER STICK TO BOTTOM (end) */
 /* =============================================================================
    Media Queries
    ========================================================================== */
