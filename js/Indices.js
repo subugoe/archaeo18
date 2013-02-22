@@ -146,7 +146,7 @@ var Indices = new function(){
 								};
 							}
 							else {
-								Indices.displayCloud();
+								Indices.displayCloud(xml);
 							}
 							$(status).remove();
 						}
