@@ -172,7 +172,7 @@ var Indices = new function(){
 								};
 							}
 							else {
-								Indices.displayMap();
+								Indices.displayMap(kml);
 							}
 							$(status).remove();
 						}
