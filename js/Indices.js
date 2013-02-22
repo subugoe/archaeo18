@@ -106,9 +106,15 @@ var Indices = new function(){
 					$(this).click(function(e){
 						showDiv('#edition_page','#linkedition',e);
 						EditionGui.gridLayout();
-						var doc = Util.loadDocumentSync(params[0]);
-						var page = parseInt(params[1]);
-						EditionGui.openDocument(false,doc,page,"pages",undefined,facet.facet);
+						var getDoc = function(){
+							if( !Util.docsLoaded ){
+								setTimeout( function(){ getDoc(); }, 1000 );
+							}
+							var doc = Util.getDoc(params[0]);
+							var page = parseInt(params[1]);
+							EditionGui.openDocument(false,doc,page,"pages",undefined,facet.facet);
+						}
+						getDoc();
 					});
 				});
 				$(table).dataTable({
