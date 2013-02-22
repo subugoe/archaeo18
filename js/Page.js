@@ -159,6 +159,18 @@ $('#linkedition2').click(function(){
 	location.hash = "?page=#edition_page&link=#linkedition";
 	document.title = 'Archaeo 18: Edition';
 });
+$('#linkedition3').click(function(){
+	showDiv('#edition_page','#linkedition');
+	EditionGui.gridLayout();
+	location.hash = "?page=#edition_page&link=#linkedition";
+	document.title = 'Archaeo 18: Edition';
+});
+$('#linkedition3').click(function(){
+	showDiv('#edition_page','#linkedition');
+	EditionGui.gridLayout();
+	location.hash = "?page=#edition_page&link=#linkedition";
+	document.title = 'Archaeo 18: Edition';
+});
 
 $('#linkindices2').click(function(){
 	showDiv('#indices_page','#linkindices');
