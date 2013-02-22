@@ -730,11 +730,11 @@ ant
   </target>
 
   <target name="ropen.config.local">
-    <copy force="true" file="${ropen.conf.local}" tofile="${ropen.conf}"/>
+    <copy force="true" overwrite="true" file="${ropen.conf.local}" tofile="${ropen.conf}"/>
   </target>
 
   <target name="ropen.config.remote">
-    <copy force="true" file="${ropen.conf.remote}" tofile="${ropen.conf}"/>
+    <copy force="true" overwrite="true" file="${ropen.conf.remote}" tofile="${ropen.conf}"/>
   </target>
 
   <!-- Meta targets -->
