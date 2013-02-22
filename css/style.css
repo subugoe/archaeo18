@@ -665,6 +665,15 @@ footer {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003397}}
 #tableIncices_wrapper a {
   text-decoration: underline; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003400}}
+#tableIncices_wrapper .sorting {
+  background: url("../img/sort_both.png") no-repeat scroll right center transparent; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003403}}
+#tableIncices_wrapper .sorting_asc {
+  background: url("../img/sort_asc.png") no-repeat scroll right center transparent; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003406}}
+#tableIncices_wrapper .sorting_desc {
+  background: url("../img/sort_desc.png") no-repeat scroll right center transparent; }
 
 /*
 #indices_page, 
@@ -677,7 +686,7 @@ footer {
 	margin: 0 auto -315px;
 }
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003414}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003423}}
 h2.head-handwriting {
   visibility: hidden; }
 
