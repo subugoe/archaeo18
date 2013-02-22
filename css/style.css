@@ -666,12 +666,15 @@ footer {
   text-decoration: underline; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003400}}
 #tableIncices_wrapper .sorting {
+  text-align: center;
   background: url("../img/sort_both.png") no-repeat scroll right center transparent; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003403}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003404}}
 #tableIncices_wrapper .sorting_asc {
+  text-align: center;
   background: url("../img/sort_asc.png") no-repeat scroll right center transparent; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003406}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003408}}
 #tableIncices_wrapper .sorting_desc {
+  text-align: center;
   background: url("../img/sort_desc.png") no-repeat scroll right center transparent; }
 
 /*
@@ -685,11 +688,11 @@ footer {
 	margin: 0 auto -315px;
 }
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003423}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003426}}
 h2.head-handwriting {
   visibility: hidden; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003427}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003430}}
 #wrapper {
   min-height: 100%;
   height: auto !important;
@@ -697,7 +700,7 @@ h2.head-handwriting {
   margin: 0 auto -142px;
   /* the bottom margin is the negative value of the footer's height */ }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003434}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nilskwindisch\/htdocs\/archaeo18\/repo\/branches\/archaeo18\/css\/style\.scss}line{font-family:\00003437}}
 .footer, .push {
   height: 142px;
   /* .push must be the same height as .footer */ }
