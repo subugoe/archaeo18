@@ -55,7 +55,6 @@ $('#tableIncices').dataTable( {
 /* MISC */
 
 var filename = location.pathname.substr(location.pathname.lastIndexOf("/")+1,location.pathname.length);
-console.log(filename);
 if (filename == 'start.php') { $('#linkstart').addClass('selected'); }
 if (filename == 'edition.php') { $('#linkedition').addClass('selected'); }
 if (filename == 'indices.php') { $('#linkindices').addClass('selected'); }
