@@ -1,13 +1,4 @@
-/* SVN 299 */
-@import 'reset';
-
-
-/* ===== Primary Styles ========================================================
-   Author:
-   ========================================================================== */
-
-
-/* Vars */
+/* VARS */
 
 $font-default: 'Droid Sans', sans-serif;
 $font-extra: 'Droid Serif', serif;
@@ -20,7 +11,8 @@ $color-content-img-frame-style3: rgb(204, 204, 204);
 $borderradius-footer: 8px;
 $path-img: '../img/';
 
-/* Vars (End) */
+/* VARS (End) */
+
 
 /* ALL */
 
@@ -28,15 +20,11 @@ body {
 	font-family: $font-default;
 	font-weight: normal;
 	font-size: 12pt;
-/* 	padding-bottom: 315px; */
 }
-
-
 
 html, body {
 	height: 100%;
 }
-
 
 address { font-style: normal; }
 
@@ -75,7 +63,6 @@ nav {
 	.selected { background-image: url('../img/header-nav-a-2.png'); }
 }
 
-
 noscript {
 	p {
 		text-align: center;
@@ -87,32 +74,6 @@ noscript {
 		padding: 25px 0;
 	}
 }
-.gridselector { top: 30px; }
-
-/*
-.edition-tools {
-	margin: 0;
-	padding: 0;
-	top: 15px;
-	.button-magneticlink {
-		background-image: url('../img/edition-window-magneticlink.png');
-		background-repeat: no-repeat;
-		background-position: center center;
-		padding: 26px 0 0 26px;
-	}
-	.button-magneticlink:hover { background-image: url('../img/edition-window-magneticlink-hover.png'); }
-	.button-magneticlink:active { background-image: url('../img/edition-window-magneticlink-active.png'); }
-	.button-newwindow {
-		background-image: url('../img/edition-window-new-window.png');
-		background-repeat: no-repeat;
-		background-position: center center;
-		padding: 26px 0 0 26px;
-		margin: 0 0 0 50px;
-	}
-	.button-newwindow:hover { background-image: url('../img/edition-window-new-window-hover.png'); }
-	.button-newwindow:active { background-image: url('../img/edition-window-new-window-active.png'); }
-}
-*/
 
 .header-small {
 	body { background-image: url('../img/header-edition-bg.png'); }
@@ -129,8 +90,6 @@ noscript {
 		a:hover { background-image: url('../img/header-nav-a-2-small.png'); }
 		.selected { background-image: url('../img/header-nav-a-2-small.png'); }
 	}
-	/*.gridselector { top: 90px; } */
-	/* .edition-tools { top: 80px; } */
 }
 
 header {
@@ -168,10 +127,6 @@ header {
 	}
 }
 
-
-
-
-/* SPECIAL */
 
 .content {
 	background-color: $color-content-bg;
@@ -226,16 +181,7 @@ header {
 	}
 }
 
-
-
-
-
 footer {
-/*
-	position:absolute;
-	bottom:0;
-	width:100%;
-*/
 	background-color: rgb(102, 102, 102);
 	background-image: url('../img/footer-border-top.png');
 	background-repeat: repeat-x;
@@ -270,7 +216,6 @@ footer {
 		div:nth-child(3) {
 			width: 285px;
 			margin: 89px 0 0 0;
-			/*background-image: url('/img/footer-bg3.png');*/
 			background-color: rgb(150, 150, 150);
 			padding: 0 20px 20px 20px;
 			border-radius: 0 $borderradius-footer 0 0;
@@ -280,7 +225,6 @@ footer {
 		}
 	}
 	.logos {
-		/*float: left;*/
 		list-style-type: none;
 		text-align: left;
 		padding: 0;
@@ -289,7 +233,6 @@ footer {
 		}
 	}
 }
-
 
 .button-alpha {
 	background-image: url('../img/content-button-down.png');
@@ -420,5 +363,3 @@ h2.head-handwriting {
 }
 
 /* STUFF TO MAKE THE FOOTER STICK TO BOTTOM (end) */
-
-@import 'append';
