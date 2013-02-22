@@ -139,70 +139,83 @@
 	$('#linkstart').click(function(){
 		showDiv('#start_page','#linkstart');
 		location.hash = "?page=#start_page&link=#linkstart";
+		document.title = 'Archaeo 18: Start';
 	});
 
 	$('#linkedition').click(function(){
 		showDiv('#edition_page','#linkedition');
 		EditionGui.gridLayout();
 		location.hash = "?page=#edition_page&link=#linkedition";
+		document.title = 'Archaeo 18: Edition';
 	});
 
 	$('#linkindices').click(function(){
 		showDiv('#indices_page','#linkindices');
 		Indices.checkDisplay();
 		location.hash = "?page=#indices_page&link=#linkindices";
+		document.title = 'Archaeo 18: Indices';
 	});
 
 	$('#linkhandschriften').click(function(){
 		showDiv('#manuscripts_page','#linkhandschriften');
 		location.hash = "?page=#manuscripts_page&link=#linkhandschriften";
+		document.title = 'Archaeo 18: Handischriften';
 	});
 
 	$('#linkstart2').click(function(){
 		showDiv('#start_page','#linkstart');
 		location.hash = "?page=#start_page&link=#linkstart";
+		document.title = 'Archaeo 18: Start';
 	});
 
 	$('#linkedition2').click(function(){
 		showDiv('#edition_page','#linkedition');
 		EditionGui.gridLayout();
 		location.hash = "?page=#edition_page&link=#linkedition";
+		document.title = 'Archaeo 18: Edition';
 	});
 
 	$('#linkindices2').click(function(){
 		showDiv('#indices_page','#linkindices');
 		Indices.checkDisplay();
 		location.hash = "?page=#indices_page&link=#linkindices";
+		document.title = 'Archaeo 18: Indices';
 	});
 
 	$('#linkhandschriften2').click(function(){
 		showDiv('#manuscripts_page','#linkhandschriften');
 		location.hash = "?page=#manuscripts_page&link=#linkhandschriften";
+		document.title = 'Archaeo 18: Handschriften';
 	});
 
 	$('#linkhelp').click(function(){
 		showDiv('#help_page','#linkhelp');
 		location.hash = "?page=#help_page";
+		document.title = 'Archaeo 18: Hilfe';
 	});
 
 	$('#linkterms').click(function(){
 		showDiv('#terms_page','#linkhelp');
 		location.hash = "?page=#terms_page";
+		document.title = 'Archaeo 18: Editionsrichtlinien';
 	});
 
 	$('#linkimprint').click(function(){
 		showDiv('#imprint_page','#linkimprint');
 		location.hash = "?page=#imprint_page";
+		document.title = 'Archaeo 18: Impressum';
 	});
 
 	$('#linkdatabases').click(function(e){
 		showDiv('#databases_page','#linkdatabases',e);
 		location.hash = "?page=#databases_page";
+		document.title = 'Archaeo 18: Datenbanken und Repositorien';
 	});
 
 	$('#linkpeople').click(function(e){
 		showDiv('#people_page','#linkpeople',e);
 		location.hash = "?page=#people_page";
+		document.title = 'Archaeo 18: Projekmitarbeiter';
 	});
 
 	window.onhashchange = function(){
