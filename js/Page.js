@@ -210,5 +210,5 @@ window.onhashchange = function(){
 };
 
 EditionGui.initialize({
-	hyperlinkWindow: false
+	configurationUrl: 'js/Archaeo18Config.js'
 });
