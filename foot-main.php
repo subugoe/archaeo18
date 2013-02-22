@@ -1,7 +1,7 @@
 <div class="push"></div>
 </div>
 
-<footer class="clearfix">
+<footer>
 	<div class="wrap">
 		<div>
 			<!-- <img src="img/footer-lakon.png" /> -->
