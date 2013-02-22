@@ -581,6 +581,7 @@ ant
       <arg value="sass"/>
       <arg value="--watch"/>
       <arg value="--poll"/>
+      <arg value="--debug-info"/>
       <arg value="${css.dir}:${css.dir}"/>
     </java>
   </target>
