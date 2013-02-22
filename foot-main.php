@@ -1,3 +1,6 @@
+<div class="push"></div>
+</div>
+
 <footer class="clearfix">
 	<div class="wrap">
 		<div>

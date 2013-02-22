@@ -39,3 +39,5 @@ if (strstr($_SERVER['SCRIPT_FILENAME'], 'edition.php')) $pageClass = 'edition';
 <noscript>
 	<p>Dieses Angebot setzt aktiviertes JavaScript in Ihrem Browser zwingend voraus.</p>
 </noscript>
+
+<div id="wrapper">
