@@ -26,7 +26,7 @@
 				<li><a href="mailto:heynedigital@sub.uni-goettingen.de">Kontakt</a></li>
 			</ul>
 		</div>
-		<div style="display: inline; float: left;">
+		<div id="logoPanel" style="display: inline; float: left;">
 			<ul class="logos">
 				<li><a href="http://dfg.de" target="_blank" title="Deutsche Forschungsgemeinschaft e.V." hreflang="de"><img src="./img/logo/logo_footer_dfg.jpg" alt="" /></a></li>
 				<li><a href="http://www.sub.uni-goettingen.de" title="Niedersächsische Staats- und Universitätsbibliothek Göttingen" hreflang="de" target="_blank" style="margin: 0 0 0 -5px;"><img src="./img/logo/logo_footer_sub.jpg" alt="" /></a></li>

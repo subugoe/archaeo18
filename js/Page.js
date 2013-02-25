@@ -221,6 +221,17 @@ window.onhashchange = function(){
 	}
 };
 
+var footerWidth = $('#logoPanel').width();
+$(window).resize(function(){
+	var w = Math.max($(window).width(),$('#editionContainer').width());
+	if( footerWidth > w ){
+		$('footer').css('width',footerWidth+'px');
+	}
+	else {
+		$('footer').css('width',w+'px');
+	}
+});	
+
 EditionGui.initialize({
 	configurationUrl: 'js/Archaeo18Config.js',
 	maxTags: 20
