@@ -60,7 +60,7 @@
 
 <!-- include jQCloud plugin -->
 <link href="ropen/lib/jqcloud/jqcloud.css" rel="stylesheet" type="text/css">
-<script type="text/javascript" src="ropen/lib/jqcloud/jqcloud-1.0.0.js"></script> 
+<script type="text/javascript" src="ropen/lib/jqcloud/jqcloud.js"></script>
 
 <!-- include archaeo18 GUI -->
 <link type="text/css" rel="stylesheet" href="ropen/css/archaeo18.css">
