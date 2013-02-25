@@ -222,5 +222,6 @@ window.onhashchange = function(){
 };
 
 EditionGui.initialize({
-	configurationUrl: 'js/Archaeo18Config.js'
+	configurationUrl: 'js/Archaeo18Config.js',
+	maxTags: 20
 });

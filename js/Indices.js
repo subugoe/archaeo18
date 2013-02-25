@@ -127,7 +127,7 @@ var Indices = new function(){
 						"sSearch": "Suche:",
 						"oPaginate": {
 							"sNext": "N&auml;chste Seite",
-							"sPrevious": "Vorherige Seite",
+							"sPrevious": "Vorherige Seite"
 						}
 					}
 				});
@@ -252,7 +252,7 @@ var Indices = new function(){
 };
 
 IndicesProps = {
-	serverTimeout: 10000,	//in ms
+	serverTimeout: 10000	//in ms
 };
 
 Indices.initialize();
