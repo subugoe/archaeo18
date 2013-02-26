@@ -131,7 +131,6 @@ var Indices = new function(){
 						}
 					}
 				});
-				var inputField = $('#tableIncices_filter :input')[0];
 				if( facet.facet.indexOf('placeName') == -1 ){
 					appendStatus(Util.getString('loadTagcloud'));
 					setTimeout(function(){
@@ -189,6 +188,7 @@ var Indices = new function(){
 	};
 
 	this.displayCloud = function(xml){
+		var inputField = $('#tableIncices_filter :input')[0];
 		var tagArray = Util.getTags($(xml).find('tag'));
 		var tagsDiv = $("<div/>").appendTo(section);
 		$(tagsDiv).css('height','200px');
