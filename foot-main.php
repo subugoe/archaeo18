@@ -70,6 +70,7 @@
 <script src="ropen/js/System/DocumentServerConnection.js"></script>
 <script src="ropen/js/System/Util.js"></script>
 <script src="ropen/js/System/BrowserDetect.js"></script>
+<script src="ropen/js/System/DocumentLoader.js"></script>
 <script src="ropen/js/Processors/TEIProcessor.js"></script>
 <script src="ropen/js/Processors/XHTMLProcessor.js"></script>
 <script src="ropen/js/Processors/LinkProcessor.js"></script>
