@@ -81,6 +81,10 @@ $(['img1.jpg','img2.jpg','img3.jpg']).preload();
 
 /* (end) PRELOAD IMAGES */
 
+EditionProperties.applySettings({
+	configurationUrl: 'js/Archaeo18Config.js',
+	maxTags: 20
+});
 
 var showDiv = function(div,link){
 	$('#start_page').css('display','none');
@@ -102,10 +106,30 @@ var showDiv = function(div,link){
 	$(div).css('display','block');
 }
 
+var loadIndices = function(){
+	if( !Indices.initialized ){
+		Indices.initialize();
+	}
+	Indices.checkDisplay();
+}
+
+var loadScripts = function(){
+	if( !Scripts.initialized ){
+		Scripts.initialize();
+	}
+}
+
+var loadEdition = function(){
+	if( !EditionGui.initialized ){
+		EditionGui.initialize();
+	}
+	EditionGui.gridLayout();
+}
+
 var loadPage = function(){
 	if( window.location.href.indexOf('?params') != -1 ){
 		showDiv('#edition_page','#linkedition');
-		EditionGui.gridLayout();
+		loadEdition();
 	} else if( window.location.href.indexOf('?page=') != -1 ){
 		var data = window.location.href.split('?page=')[1];
 		var page = data, link;
@@ -115,6 +139,15 @@ var loadPage = function(){
 			link = data2[1];
 		}
 		showDiv(page,link);
+		if( page.indexOf('edition') != -1 ){
+			loadEdition();
+		}
+		else if( page.indexOf('indices') != -1 ){
+			loadIndices();
+		}
+		else if( page.indexOf('manuscripts') != -1 ){
+			loadScripts();
+		}
 	} else {
 		showDiv('#start_page','#linkstart');
 	}
@@ -129,22 +162,23 @@ $('#linkstart').click(function(){
 
 $('#linkedition').click(function(){
 	showDiv('#edition_page','#linkedition');
-	EditionGui.gridLayout();
 	location.hash = "?page=#edition_page&link=#linkedition";
 	document.title = 'Archaeo 18: Edition';
+	loadEdition();
 });
 
 $('#linkindices').click(function(){
 	showDiv('#indices_page','#linkindices');
-	Indices.checkDisplay();
 	location.hash = "?page=#indices_page&link=#linkindices";
 	document.title = 'Archaeo 18: Indices';
+	loadIndices();
 });
 
 $('#linkhandschriften').click(function(){
 	showDiv('#manuscripts_page','#linkhandschriften');
 	location.hash = "?page=#manuscripts_page&link=#linkhandschriften";
 	document.title = 'Archaeo 18: Handischriften';
+	loadScripts();
 });
 
 $('#linkstart2').click(function(){
@@ -155,34 +189,30 @@ $('#linkstart2').click(function(){
 
 $('#linkedition2').click(function(){
 	showDiv('#edition_page','#linkedition');
-	EditionGui.gridLayout();
 	location.hash = "?page=#edition_page&link=#linkedition";
 	document.title = 'Archaeo 18: Edition';
+	loadEdition();
 });
+
 $('#linkedition3').click(function(){
 	showDiv('#edition_page','#linkedition');
-	EditionGui.gridLayout();
 	location.hash = "?page=#edition_page&link=#linkedition";
 	document.title = 'Archaeo 18: Edition';
-});
-$('#linkedition3').click(function(){
-	showDiv('#edition_page','#linkedition');
-	EditionGui.gridLayout();
-	location.hash = "?page=#edition_page&link=#linkedition";
-	document.title = 'Archaeo 18: Edition';
+	loadEdition();
 });
 
 $('#linkindices2').click(function(){
 	showDiv('#indices_page','#linkindices');
-	Indices.checkDisplay();
 	location.hash = "?page=#indices_page&link=#linkindices";
 	document.title = 'Archaeo 18: Indices';
+	loadIndices();
 });
 
 $('#linkhandschriften2').click(function(){
 	showDiv('#manuscripts_page','#linkhandschriften');
 	location.hash = "?page=#manuscripts_page&link=#linkhandschriften";
 	document.title = 'Archaeo 18: Handschriften';
+	loadScripts();
 });
 
 $('#linkhelp').click(function(){
@@ -230,9 +260,4 @@ $(window).resize(function(){
 	else {
 		$('footer').css('width',w+'px');
 	}
-});	
-
-EditionGui.initialize({
-	configurationUrl: 'js/Archaeo18Config.js',
-	maxTags: 20
 });

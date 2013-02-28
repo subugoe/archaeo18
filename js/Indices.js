@@ -3,6 +3,8 @@
 */
 var Indices = new function(){
 
+	this.initialized = false;
+
 	var section;
 
 	/*
@@ -10,7 +12,16 @@ var Indices = new function(){
 	*/
 	this.initialize = function(){
 		
+		this.initialized = true;
+
 		var gui = this;
+
+		GeoTemConfig.applySettings({
+			language: EditionGui.language,
+			allowFilter: false,
+			highlightEvents : false,
+			selectionEvents : false
+		});
 
 		this.selectionContainer = $("#indicesSelection");
 		$('<h2>'+Util.getString('indexSelection')+'</h2>').appendTo(this.selectionContainer);
@@ -31,22 +42,15 @@ var Indices = new function(){
 
 		this.sectionContainer = $("#sectionContainer");
 
-		var loadFacets = function(){
-			if( Util.facetsLoaded ){
-				for( var i=0; i<Util.facets.length; i++ ){
-					var facet = Util.facets[i];
-					if( facet.render ){
-						$('<option id="'+facet.facet+'">'+Util.getFacetLabel(facet)+'</option>').appendTo(gui.selectionDropdown);
-					}
-				}
-			}
-			else {
-				setTimeout(function(){
-					loadFacets();
-				}, 1000 );
+		if( !Util.facetsLoaded ){
+			Util.loadFacets();
+		}
+		for( var i=0; i<Util.facets.length; i++ ){
+			var facet = Util.facets[i];
+			if( facet.render ){
+				$('<option id="'+facet.facet+'">'+Util.getFacetLabel(facet)+'</option>').appendTo(gui.selectionDropdown);
 			}
 		}
-		loadFacets();
 
 	};
 
@@ -105,14 +109,19 @@ var Indices = new function(){
 					var linkString = 'http://'+location.host+'/archaeo18/edition.php?docParams='+params;
 					$(this).click(function(e){
 						showDiv('#edition_page','#linkedition',e);
+						if( !EditionGui.initialized ){
+							EditionGui.initialize();
+						}
 						EditionGui.gridLayout();
 						var getDoc = function(){
-							if( !Util.docsLoaded ){
-								setTimeout( function(){ getDoc(); }, 1000 );
+							if( Util.docsLoaded != 1 ){
+								setTimeout( function(){ getDoc(); }, 100 );
 							}
-							var doc = Util.getDoc(params[0]);
-							var page = parseInt(params[1]);
-							EditionGui.openDocument(false,doc,page,"pages",undefined,facet.facet);
+							else {
+								var doc = Util.getDoc(params[0]);
+								var page = parseInt(params[1]);
+								EditionGui.openDocument(false,doc,page,"pages",undefined,facet.facet);
+							}
 						}
 						getDoc();
 					});
@@ -254,5 +263,3 @@ var Indices = new function(){
 IndicesProps = {
 	serverTimeout: 10000	//in ms
 };
-
-Indices.initialize();

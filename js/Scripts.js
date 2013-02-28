@@ -3,10 +3,14 @@
 */
 var Scripts = new function(){
 
+	this.initialized = false;
+
 	/*
 	* initialize scripts page; load documents
 	*/
 	this.initialize = function(){
+
+		this.initialized = true;
 		
 		var gui = this;
 
@@ -27,15 +31,18 @@ var Scripts = new function(){
 		});
 
 		var loadDocs = function(){
-			if( Util.docsLoaded ){
+			if( Util.docsLoaded == 1 ){
 				for( var i=0; i<Util.documents.length; i++ ){
 					$('<option id="'+Util.documents[i].title+'">'+Util.documents[i].name+'</option>').appendTo(gui.selectionDropdown);
 				}
 			}
 			else {
+				if( Util.docsLoaded == -1 ){
+					Util.loadDocuments();
+				}
 				setTimeout(function(){
 					loadDocs();
-				}, 1000 );
+				}, 100 );
 			}
 		}
 		loadDocs();
@@ -82,5 +89,3 @@ ScriptsProps = {
 	hwImageHeight: 328,
 	hwImageWidth: 359
 };
-
-Scripts.initialize();
