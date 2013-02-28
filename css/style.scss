@@ -273,7 +273,10 @@ footer {
 }
 
 .content-img-style1 { background-color: $color-content-img-frame-style1; }
-.content-img-style2 { background-color: $color-content-img-frame-style2; }
+.content-img-style2 {
+	background-color: $color-content-img-frame-style2;
+	margin: 0 10px;
+}
 .content-img-style3 { background-color: $color-content-img-frame-style3; }
 
 .font-normal { }
