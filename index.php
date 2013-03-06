@@ -202,6 +202,33 @@
 </div>
 
 
+<!-- Danksagung -->
+
+<div id="acknowledgment_page">
+	<div class="content clearfix">
+		<div class="wrap">
+			<h2>Danksagung</h2>
+			<p>Wir bedanken uns bei allen Institutionen, die dem Projekt  aus ihren Beständen Vorlesungsmitschriften in digitaler Form zur Verfügung gestellt haben.<p>
+			<p>Fertig bearbeitet und in die Webseite integriert sind bereits folgende Mitschriften:</p>
+			<ul>
+				<li><strong><a href="http://www.dainst.org/de/department/bibliothek-rom" title="Bibliothek des Deutschen Archäologischen Instituts, Abteilung Rom" target="_blank">Bibliothek des Deutschen Archäologischen Instituts, Abteilung Rom</a></strong>: Signatur „O 140 Rara“</li>
+				<li><strong><a href="http://www.burgerbib.ch/d/index.html" title="Burgerbibliothek Bern" target="_blank">Burgerbibliothek Bern</a></strong>: Signatur „Mss.Mül.507“</li>
+				<li><strong><a href="http://www.klassik-stiftung.de/einrichtungen/herzogin-anna-amalia-bibliothek/" title="Herzogin Anna Amalia Bibliothek – Klassik Stiftung Weimar" target="_blank">Herzogin Anna Amalia Bibliothek – Klassik Stiftung Weimar</a></strong>: Signatur „Ruppert 2056“</li>
+				<li><strong><a href="http://staatsbibliothek-berlin.de/" title="Staatsbibliothek zu Berlin – Preußischer Kulturbesitz" target="_blank">Staatsbibliothek zu Berlin – Preußischer Kulturbesitz</a></strong>: Signatur „Ms. germ. qu. 1666““</li>
+			</ul>
+			<p>Weitere Mitschriften sind bereits digitalisiert und transkribiert, jedoch noch nicht vollständig erschlossen:<p>
+			<ul>
+			<li><strong><a href="http://www.bnf.fr/fr/acc/x.accueil.html" title="Bibliothèque nationale de France" target="_blank">Bibliothèque nationale de France</a></strong>: Signatur „Ms. f. a. 146“</li>
+			<li><strong><a href="http://www.burgerbib.ch/d/index.html" title="Burgerbibliothek Bern" target="_blank">Burgerbibliothek Bern</a></strong>: Signatur „Mss.h.h.XLV.86.1-3“</li>
+			<li><strong><a href="http://www.kb.dk/da/index.html" title="Det Kongelige Bibliotek, Kopenhagen“" target="_blank">Det Kongelige Bibliotek, Kopenhagen</a></strong>: Signatur „Kall 324 kvart“</li>
+			<li><strong><a href="http://www.klassik-stiftung.de/einrichtungen/goethe-und-schiller-archiv/" title="Goethe- und Schiller-Archiv – Klassik Stiftung Weimar" target="_blank">Goethe- und Schiller-Archiv – Klassik Stiftung Weimar</a></strong>: Signatur „GSA 36/III,13“</li>
+			<li><strong><a href="http://www.slub-dresden.de/startseite/" title="Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden" target="_blank">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</a></strong>: Signatur „Mscr. Dresd. App. 1611“</li>
+			<li><strong><a href="http://nbmgu.ru/" title="Staatliche Lomonossov-Universität Moskau, Wissenschaftliche Bibliothek" target="_blank">Staatliche Lomonossov-Universität Moskau, Wissenschaftliche Bibliothek</a></strong>: Signatur „5 Re 28, 99“</li>
+			<li><strong><a href="http://www.ucl.ac.uk/library/special-coll/" title="University CollUniversitäts- und Landesbibliothek Darmstadt" target="_blank">Universitäts- und Landesbibliothek Darmstadt</a></strong>: Signaturen „Hs 497“ und „Hs 1711“</li>		
+			</ul>
+		</div>
+	</div>
+</div>
 
 
 
