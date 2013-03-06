@@ -94,6 +94,7 @@ var showDiv = function(div,link){
 	$('#help_page').css('display','none');
 	$('#terms_page').css('display','none');
 	$('#databases_page').css('display','none');
+	$('#acknowledgment_page').css('display','none');
 	$('#people_page').css('display','none');
 	$('#imprint_page').css('display','none');
 	$('#linkstart').removeClass('selected');
