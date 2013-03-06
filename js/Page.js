@@ -239,6 +239,12 @@ $('#linkdatabases').click(function(e){
 	document.title = 'Archaeo 18: Datenbanken und Repositorien';
 });
 
+$('#linkacknowledgment').click(function(e){
+	showDiv('#acknowledgment_page','#linkacknowledgment',e);
+	location.hash = "?page=#acknowledgment_page";
+	document.title = 'Archaeo 18: Danksagung';
+});
+
 $('#linkpeople').click(function(e){
 	showDiv('#people_page','#linkpeople',e);
 	location.hash = "?page=#people_page";
