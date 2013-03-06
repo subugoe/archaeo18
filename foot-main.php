@@ -17,6 +17,7 @@
 				<li><a href="javascript:void(0)" id="linkhelp" title="Hilfe" hreflang="de">Hilfe</a></li>
 				<li><a href="javascript:void(0)" id="linkterms" title="Editionsrichtlinien" hreflang="de">Editionsrichtlinien</a></li>
 				<li><a href="javascript:void(0)" id="linkdatabases" title="Datenbanken und Repositorien" hreflang="de">Datenbanken und Repositorien</a></li>
+				<li><a href="javascript:void(0)" id="linkacknowledgment" title="Danksagung" hreflang="de">Danksagung</a></li>
 			</ul>
 		</div>
 		<div class="clearfix">
