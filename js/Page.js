@@ -178,7 +178,7 @@ $('#linkindices').click(function(){
 $('#linkhandschriften').click(function(){
 	showDiv('#manuscripts_page','#linkhandschriften');
 	location.hash = "?page=#manuscripts_page&link=#linkhandschriften";
-	document.title = 'Archaeo 18: Handischriften';
+	document.title = 'Archaeo 18: Handschriften';
 	loadScripts();
 });
 
