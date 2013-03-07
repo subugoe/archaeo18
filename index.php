@@ -181,7 +181,7 @@
 	<div class="content clearfix">
 		<div class="wrap">
 			<h2>Datenbanken</h2>
-			<p>Folgende Datenbanken wurden benutzt, um die identifizierten Entitäten (Personen, Orte, Literatur und Wreke) zu normieren und zu verlinken.</p>
+			<p>Folgende Datenbanken wurden benutzt, um die identifizierten Entitäten (Personen, Orte, Literatur und Werke) zu normieren und zu verlinken.</p>
 			<ul>
 				<li><strong><a href="http://arachne.uni-koeln.de/drupal/" title="Arachne" target="_blank">Arachne</a></strong><br />Objektdatenbank des <a href="http://www.dainst.org/" title="Deutschen Archäologischen Instituts (DAI)" target="_blank">Deutschen Archäologischen Instituts (DAI)</a> und des <a href="http://www.archaeologie.uni-koeln.de/" title="Archäologischen Instituts der Universität zu Köln" target="_blank">Archäologischen Instituts der Universität zu Köln</a><br />(Orte, Werke, Literatur)</li>
 				<li><strong><a href="http://rara.biblhertz.it/" title="Bibliotheka Hertziana – Digital" target="_blank">Bibliotheka Hertziana – Digital</a></strong><br />Digitale Sammlung der <a href="http://www.biblhertz.it/" title="Bibliotheka Hertziana des Max-Plank-Instituts für Kunstgeschichte in Rom" target="_blank">Bibliotheka Hertziana des Max-Plank-Instituts für Kunstgeschichte in Rom</a><br />(Literatur)</li>
