@@ -157,12 +157,14 @@ loadPage();
 
 $('#linkstart').click(function(){
 	showDiv('#start_page','#linkstart');
+	$('html,body').animate({scrollTop:0},0);
 	location.hash = "?page=#start_page&link=#linkstart";
 	document.title = 'Archaeo 18: Start';
 });
 
 $('#linkedition').click(function(){
 	showDiv('#edition_page','#linkedition');
+	$('html,body').animate({scrollTop:0},0);
 	location.hash = "?page=#edition_page&link=#linkedition";
 	document.title = 'Archaeo 18: Edition';
 	loadEdition();
@@ -170,6 +172,7 @@ $('#linkedition').click(function(){
 
 $('#linkindices').click(function(){
 	showDiv('#indices_page','#linkindices');
+	$('html,body').animate({scrollTop:0},0);
 	location.hash = "?page=#indices_page&link=#linkindices";
 	document.title = 'Archaeo 18: Indices';
 	loadIndices();
@@ -177,6 +180,7 @@ $('#linkindices').click(function(){
 
 $('#linkhandschriften').click(function(){
 	showDiv('#manuscripts_page','#linkhandschriften');
+	$('html,body').animate({scrollTop:0},0);
 	location.hash = "?page=#manuscripts_page&link=#linkhandschriften";
 	document.title = 'Archaeo 18: Handschriften';
 	loadScripts();
@@ -184,12 +188,14 @@ $('#linkhandschriften').click(function(){
 
 $('#linkstart2').click(function(){
 	showDiv('#start_page','#linkstart');
+	$('html,body').animate({scrollTop:0},0);
 	location.hash = "?page=#start_page&link=#linkstart";
 	document.title = 'Archaeo 18: Start';
 });
 
 $('#linkedition2').click(function(){
 	showDiv('#edition_page','#linkedition');
+	$('html,body').animate({scrollTop:0},0);
 	location.hash = "?page=#edition_page&link=#linkedition";
 	document.title = 'Archaeo 18: Edition';
 	loadEdition();
@@ -197,6 +203,7 @@ $('#linkedition2').click(function(){
 
 $('#linkedition3').click(function(){
 	showDiv('#edition_page','#linkedition');
+	$('html,body').animate({scrollTop:0},0);
 	location.hash = "?page=#edition_page&link=#linkedition";
 	document.title = 'Archaeo 18: Edition';
 	loadEdition();
@@ -204,6 +211,7 @@ $('#linkedition3').click(function(){
 
 $('#linkindices2').click(function(){
 	showDiv('#indices_page','#linkindices');
+	$('html,body').animate({scrollTop:0},0);
 	location.hash = "?page=#indices_page&link=#linkindices";
 	document.title = 'Archaeo 18: Indices';
 	loadIndices();
@@ -211,6 +219,7 @@ $('#linkindices2').click(function(){
 
 $('#linkhandschriften2').click(function(){
 	showDiv('#manuscripts_page','#linkhandschriften');
+	$('html,body').animate({scrollTop:0},0);
 	location.hash = "?page=#manuscripts_page&link=#linkhandschriften";
 	document.title = 'Archaeo 18: Handschriften';
 	loadScripts();
@@ -218,36 +227,42 @@ $('#linkhandschriften2').click(function(){
 
 $('#linkhelp').click(function(){
 	showDiv('#help_page','#linkhelp');
+	$('html,body').animate({scrollTop:0},0);
 	location.hash = "?page=#help_page";
 	document.title = 'Archaeo 18: Hilfe';
 });
 
 $('#linkterms').click(function(){
 	showDiv('#terms_page','#linkhelp');
+	$('html,body').animate({scrollTop:0},0);
 	location.hash = "?page=#terms_page";
 	document.title = 'Archaeo 18: Editionsrichtlinien';
 });
 
 $('#linkimprint').click(function(){
 	showDiv('#imprint_page','#linkimprint');
+	$('html,body').animate({scrollTop:0},0);
 	location.hash = "?page=#imprint_page";
 	document.title = 'Archaeo 18: Impressum';
 });
 
 $('#linkdatabases').click(function(e){
 	showDiv('#databases_page','#linkdatabases',e);
+	$('html,body').animate({scrollTop:0},0);
 	location.hash = "?page=#databases_page";
 	document.title = 'Archaeo 18: Datenbanken und Repositorien';
 });
 
 $('#linkacknowledgment').click(function(e){
 	showDiv('#acknowledgment_page','#linkacknowledgment',e);
+	$('html,body').animate({scrollTop:0},0);
 	location.hash = "?page=#acknowledgment_page";
 	document.title = 'Archaeo 18: Danksagung';
 });
 
 $('#linkpeople').click(function(e){
 	showDiv('#people_page','#linkpeople',e);
+	$('html,body').animate({scrollTop:0},0);
 	location.hash = "?page=#people_page";
 	document.title = 'Archaeo 18: Projekmitarbeiter';
 });
