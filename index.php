@@ -89,11 +89,11 @@
 			</ul>
 			<h3>Studentische und wissenschaftliche Hilfskräfte</h3>
 			<ul>
-				<li>Stafanie Abraham</li>
+				<li>Stefanie Abraham</li>
 				<li>Judith Dinse</li>
 				<li>Julian Geisler</li>
 				<li>Sarah Schlüter</li>
-				<li>Cecilcia Schröter</li>
+				<li>Cäcilcia Schröter</li>
 				<li>Arne Ulrich</li>
 			</ul>
 			<h3>Technische Umsetzung</h3>
