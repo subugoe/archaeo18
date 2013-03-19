@@ -1,4 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <docs>
+    <doc>
+        <id>berlin-ms-germ-qrt-1666</id>
+        <title>Vorlesungsmitschrift 1775 (Berlin)</title>
+        <titleShort>V 1775 (Berlin)</titleShort>
+        <preview>http://134.76.21.92:8080/images/berlin-ms-germ-qrt-1666/500/00000001.jpeg</preview>
+        <tei>/db/archaeo18/data/tei/berlin-ms-germ-qrt-1666.xml</tei>
+        <teiEnriched>/db/archaeo18/data/tei-enriched/berlin-ms-germ-qrt-1666-enriched.xml</teiEnriched>
+        <mets>/db/archaeo18/data/mets/berlin-ms-germ-qrt-1666.mets.xml</mets>
+        <pageCount>311</pageCount>
+    </doc>
     <doc>
         <id>bern-mss-muel-507</id>
         <title>Vorlesungsmitschrift 1780 (Bern)</title>
@@ -10,19 +21,9 @@
         <pageCount>631</pageCount>
     </doc>
     <doc>
-        <id>berlin-ms-germ-qrt-1666</id>
-        <title>Vorlesungsmitschrift 1775 (Berlin)</title>
-        <titleShort>Vorlesung 1775</titleShort>
-        <preview>http://134.76.21.92:8080/images/berlin-ms-germ-qrt-1666/500/00000001.jpeg</preview>
-        <tei>/db/archaeo18/data/tei/berlin-ms-germ-qrt-1666.xml</tei>
-        <teiEnriched>/db/archaeo18/data/tei-enriched/berlin-ms-germ-qrt-1666-enriched.xml</teiEnriched>
-        <mets>/db/archaeo18/data/mets/berlin-ms-germ-qrt-1666.mets.xml</mets>
-        <pageCount>311</pageCount>
-    </doc>
-    <doc>
         <id>rom-heyne1798</id>
-        <title>1798, „Vorlesungen über die Archäologie“ (Rom)</title>
-        <titleShort/>
+        <title>Vorlesungsmitschrift 1798 (Rom)</title>
+        <titleShort>V 1798 (Rom)</titleShort>
         <preview>http://134.76.21.92:8080/images/rom-heyne1798/500/00000001.jpeg</preview>
         <tei>/db/archaeo18/data/tei/rom-heyne1798.xml</tei>
         <teiEnriched>/db/archaeo18/data/tei-enriched/rom-heyne1798-enriched.xml</teiEnriched>
