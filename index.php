@@ -7,6 +7,7 @@
 	<div class="content clearfix">
 		<div class="wrap">
 			<section>
+				<p></p>
 				<p><FONT SIZE="4"><b>Die <a href="javascript:void(0)" id="linkedition3">Online-Edition</a> „Christian Gottlob Heyne – Vorlesungen über die Archäologie“ stellt Digitalisate und Transkriptionen von Vorlesungsmitschriften zu einer jährlich gehaltenen Vorlesung <a href="#startContentHeyne" title="">Christian Gottlob Heynes</a> zur Verfügung. Die <a href="javascript:void(0)" title="" id="linkedition4">Edition</a> bietet neben dem Zugriff auf die Digitalisate und der Suche in den Volltexten die Möglichkeit, gezielt nach <a href="#?page=#indices_page&link=#linkindices" title="">Personen</a>, <a href="#?page=#indices_page&link=#linkindices" title="">Orten</a>, <a href="#?page=#indices_page&link=#linkindices" title="">Literatur</a> und <a href="#?page=#indices_page&link=#linkindices" title="">Kunstwerken</a> zu suchen. Die identifizierten Entitäten sind durch die Verlinkung in <a href="#?page=#databases_page" title="">externe Datenbanken</a> normiert, die in den Mitschriften genannte Literatur wurde – sofern noch nicht in einem anderen <a href="#?page=#databases_page" title="">Repositorium</a> vorhanden – digitalisiert und ebenfalls mit der entsprechenden Stelle im Volltext verknüpft.</b></FONT></p>
 			</section>
 			<section>
