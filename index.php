@@ -286,11 +286,11 @@
  							</tr>
   							<tr>
     							<td>Person</td>
-    							<td><persName ref="#CerlID:">…</persName></td>
+    							<td> persName ref="#CerlID:"…/persName</td>
   							</tr>
   							<tr>
     							<td>Literaturangabe</td>
-   							<td><bibl><ref target="#http://…">…</ref></bibl></td>
+   							<td>bibl><ref target>…</ref></bibl</td>
   							</tr>
 					</table>
 				</body>
