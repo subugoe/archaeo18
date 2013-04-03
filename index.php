@@ -294,7 +294,10 @@
   							</tr>
 					</table>
 				</body>
-				</html>
+			</html>
+		</ul>
+	</div>
+</div>
 
 
 
