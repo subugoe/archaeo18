@@ -46,9 +46,7 @@ var Scripts = new function(){
 			}
 		}
 		loadDocs();
-
-		this.scriptContainer = $("#scriptContainer");		
-
+		this.scriptContainer = $("#scriptContainer");
 	};
 
 	/*
@@ -74,14 +72,13 @@ var Scripts = new function(){
 				$(xhtml).appendTo(contentDiv);
 				$('span',contentDiv).each(function(){
 					var lang = Util.getAttribute(this,'xml:lang');
-					if( Util.language != lang ){
+					if( Util.language != lang && this.className !== 'tei:date'){
 						$(this).css('display','none');
 					}
 				});
 			}
 		});
-	};	
-
+	};
 };
 
 ScriptsProps = {
