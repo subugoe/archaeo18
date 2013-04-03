@@ -276,26 +276,7 @@
 	<div class="content clearfix">
 		<div class="wrap">
 			<h2>Editionsrichtlinien</h2>
-				<!DOCTYPE html>
-				<html>
-				<body>
-					<table border="1">
- 							<tr>
-    							<th>Bedeutung</th>
-   							<th>Kodierung</th>
- 							</tr>
-  							<tr>
-    							<td>Person</td>
-    							<td> persName ref="#CerlID:"…/persName</td>
-  							</tr>
-  							<tr>
-    							<td>Literaturangabe</td>
-   							<td>bibl><ref target>…</ref></bibl</td>
-  							</tr>
-					</table>
-				</body>
-			</html>
-		</ul>
+		
 	</div>
 </div>
 
