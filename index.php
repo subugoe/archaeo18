@@ -276,12 +276,8 @@
 	<div class="content clearfix">
 		<div class="wrap">
 			<h2>Editionsrichtlinien</h2>
-		
+		</div>
 	</div>
 </div>
-
-
-
-
 
 <?php require_once('foot-main.php');
