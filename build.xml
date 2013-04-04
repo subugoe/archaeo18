@@ -43,11 +43,6 @@
   <property name="html.suffix" value=".html"/>
   <!-- Tiny PNG and images -->
   <property name="img.dir" value="./img"/>
-  <!--
-  <property name="tinypng.endpoint" value="http://api.tinypng.org/api/shrink"/>
-  <property name="img.tiny.dir" value="${target.dir}/img"/>
-  -->
-  <property name="salvador.tinypng.apikey" value="aLqbWi6VBpKM3rGvFVw2W4TTVPFrSEEP"/>
 
   <property name="css.dir" value="./css"/>
   <property name="css.file" value="${css.dir}/style.css"/>
@@ -60,6 +55,8 @@
   <!-- Salvador configuration -->
   <property name="salvador.sass.compile.watch.src" value="./css"/>
   <property name="salvador.sass.compile.watch.dest" value="./css"/>
+  <property name="salvador.tinypng.apikey" value="aLqbWi6VBpKM3rGvFVw2W4TTVPFrSEEP"/>
+
 
   <!-- Test data -->
   <property name="test.dir" value="./testdata"/>
@@ -109,7 +106,7 @@
 
   <target name="help" description="Prints some help">
     <echo>ant help - This help</echo>
-    <echo>ant war.dist - War file for deployment</echo>
+    <echo>ant war.dist - War file for deployment (alias war)</echo>
     <echo>ant war.run - Run War file in jetty (for debugging the war cration process)</echo>
     <echo>ant serve - serve the contenst of this project using Jetty</echo>
     <echo>ant data.downlaod - get new testdatea from the server</echo>
@@ -198,9 +195,6 @@
   <target name="war.dependencies" depends="salvador.base.maven.install, war.structure">
     <artifact:dependencies filesetId="war.classpath">
       <artifact:remoteRepository id="quercus" url="${salvador.php.quercus.repository.url}"/>
-      <!-- This is only used in development
-      <dependency groupId="org.tuckey" artifactId="urlrewritefilter" version="4.0.3"/>
-      -->
       <dependency groupId="${salvador.php.quercus.group.id}" artifactId="${salvador.php.quercus.artifact.id}" version="${salvador.php.quercus.version}">
         <exclusion groupId="javax" artifactId="javaee-api"/>
       </dependency>
@@ -219,34 +213,32 @@
     <salvador.js.yui.compress.js src="${js.target.file}" destfile="${war.dir.js.file}"/>
   </target>
 
-  <!-- TODO: SCCS -->
-  <target name="war.content.css" depends="salvador.js.yui.install, war.structure">
-    <salvador.js.yui.compress.css src="${css.file}" destfile="${war.dir.css.file}"/>
+  <target name="war.content.css" depends="salvador.js.yui.install, salvador.sass.macros, war.structure">
+    <salvador.sass.convert src="${css.file}" destfile="${war.dir.css.file}"/>
+    <salvador.js.yui.compress.css src="${war.dir.css.file}" destfile="${war.dir.css.file}"/>
   </target>
 
-  <!-- TODO: make this work -->
   <target name="war.content.images" depends="salvador.tinypng.install, war.structure">
     <fileset dir="." includes="*.png" id="war.content.images.files"/>
     <salvador.tinypng.compress.dir refid="war.content.images.files" todir="${war.dir.images.dir}"/>
   </target>
 
-  <target name="war.content.php" depends="salvador.php.tasks, war.structure">
-    <!-- TODO: Enable this
+  <target name="war.content.php" depends="salvador.php.macros, war.structure">
     <copy todir="${war.dir}">
-      <fileset dir=".">
+      <fileset dir="${php.dir}">
         <include name="*.php"/>
         <include name="*.html"/>
         <exclude name="build**"/>
         <exclude name="css**"/>
       </fileset>
     </copy>
-     -->
-    <fileset dir="." includes="*.php" id="war.content.php.files"/>
+    <!-- TODO: Enable this
+    <fileset dir="${php.dir}" includes="*.php" id="war.content.php.files"/>
     <salvador.php.compile.dir refid="war.content.php.files" todir="${war.dir}"/>
-
+    -->
   </target>
 
-  <!-- JS stuff currenty deactivated  -->
+  <!-- TODO: JS stuff currenty deactivated  -->
   <target name="war.content" depends="war.content.css, war.content.php, ropen.config.remote, war.content.images">
     <copy todir="${war.dir}">
       <fileset dir=".">
@@ -258,10 +250,16 @@
         <include name="WEB-INF/web.xml"/>
         <exclude name="build**"/>
         <exclude name="css**"/>
+        <exclude name="cookbooks**"/>
+        <exclude name=".git*"/>
+        <exclude name="Vagrantfile"/>
+        <exclude name="README.md"/>
+        <exclude name="LICENSE"/>
       </fileset>
     </copy>
   </target>
 
+  <!-- TODO: Reenable this if everything else works -->
   <target name="war.content.php.filter">
     <!-- Filter PHP & HTML - not used yet -->
     <copy todir="${war.dir}">
@@ -297,12 +295,6 @@
     </copy>
   </target>
 
-  <target name="war.devel" depends="war.content, war.dependencies">
-    <war destfile="${war.file}" webxml="${war.dir}/WEB-INF/web.xml">
-      <fileset dir="${war.dir}"/>
-    </war>
-  </target>
-
   <target name="war.install" depends="war.content, war.dependencies">
     <property name="war.file" value="${war.dir}/${war.install.name}.war"/>
     <war destfile="${war.file}" webxml="${war.dir}/WEB-INF/web.xml">
@@ -310,66 +302,14 @@
     </war>
   </target>
 
-  <!-- SASS Stuff 
-       This is still here fore reference until the functionality is ported to Salvador
+  <!-- 
+  #######################################################
+  # Jetty related targets
+  #######################################################
   -->
-  <!--
-  <target name="scss.compile" depends="sass.download.gem, salvador.base.ant.contrib.install">
-    <foreach target=".scss.compile" param="scss.file">
-      <path>
-        <fileset dir="${css.dir}" includes="**/*.scss" excludes="**/_*"/>
-      </path>
-    </foreach>
-  </target>
-
-
-  <target name="scss.compile.watch" depends="sass.download.gem">
-    <java classname="org.jruby.Main" fork="true" dir="." spawn="true">
-      <sysproperty key="jruby.home" value="${jruby.home}"/>
-      <classpath>
-        <fileset dir="${lib.jruby.dir}" includes="*.jar"/>
-      </classpath>
-      <arg value="-S"/>
-      <arg value="sass"/>
-      <arg value="- -watch"/>
-      <arg value="- -poll"/>
-      <arg value="- -debug-info"/>
-      <arg value="${css.dir}:${css.dir}"/>
-    </java>
-  </target>
-
-  <target name=".scss.compile">
-    <propertyregex property="css.out" input="${scss.file}" regexp="(.*)\.scss" select="\1.css" casesensitive="false"/>
-
-    <java classname="org.jruby.Main" fork="true" dir=".">
-      <sysproperty key="jruby.home" value="${jruby.home}"/>
-      <classpath>
-        <fileset dir="${lib.jruby.dir}" includes="*.jar"/>
-      </classpath>
-      <arg value="-S"/>
-      <arg value="sass"/>
-      <arg value="- -trace"/>
-      <arg value="- -unix-newlines"/>
-      <arg value="${scss.file}"/>
-      <arg value="${css.out}"/>
-    </java>
-  </target>
--->
-  
-  <target name="js.setup">
-    <copy todir="${html.dir}">
-      <fileset dir=".">
-        <include name="**/*.js"/>
-        <exclude name="target/**/*.*"/>
-        <exclude name="build/**/*.*"/>
-      </fileset>
-    </copy>
-  </target>
-
-  <!-- Jetty related targets -->
 
   <!-- This can be used to test the constructed war file -->
-  <target name="war.run" depends="salvador.jetty.download, war.devel">
+  <target name="war.run" depends="salvador.jetty.install, war.install">
     <jetty tempDirectory="${salvador.jetty.tmp.dir}">
       <connectors>
         <selectChannelConnector port="${salvador.jetty.tmp.dir}"/>
@@ -378,36 +318,39 @@
     </jetty>
   </target>
 
-  <target name="jetty.start" depends="salvador.jetty.install">
+  <target name="jetty.start" depends="salvador.jetty.install, ropen.config.local, salvador.urlrewritefilter.download, salvador.php.download">
     <!-- 
     See http://docs.codehaus.org/display/JETTY/Ant+Jetty+Plugin for configuration
     For newer Versions
     http://www.eclipse.org/jetty/documentation/current/jetty-ant.html
     -->
-    <echo>starting Jetty...</echo>
+    <echo>starting Jetty (with local configuration)...</echo>
     <!-- TODO: set the the servlet classpath right -->
+    <artifact:dependencies pathId="servlet.classpath">
+      <artifact:remoteRepository id="quercus" url="${salvador.php.quercus.repository.url}"/>
+      <dependency groupId="org.tuckey" artifactId="urlrewritefilter" version="4.0.3"/>
+      <dependency groupId="${salvador.php.quercus.group.id}" artifactId="${salvador.php.quercus.artifact.id}" version="${salvador.php.quercus.version}">
+        <exclusion groupId="javax" artifactId="javaee-api"/>
+      </dependency>
+    </artifact:dependencies>
     <jetty tempDirectory="${salvador.jetty.tmp.dir}">
       <connectors>
         <selectChannelConnector port="${salvador.jetty.port}"/>
       </connectors>
-      <webapp webXmlFile="${servlet.archaeo18.webxml}" contextPath="/archaeo18" name="archaeo18" warfile="."/>
-      <webapp webXmlFile="${servlet.proxy.webxml}" contextPath="/" name="proxy" warfile="${test.dir}/proxy"/>
+      <webapp webXmlFile="${servlet.archaeo18.webxml}" contextPath="/archaeo18" name="archaeo18" warfile="." scanIntervalSeconds="5">
+        <lib dir="${salvador.php.lib.dir}" includes="*.jar"/>
+      </webapp>
+      <webapp webXmlFile="${servlet.proxy.webxml}" contextPath="/" name="proxy" warfile="${test.dir}/proxy">
+        <lib dir="${salvador.urlrewritefilter.lib.dir}" includes="*.jar"/>
+      </webapp>
     </jetty>
   </target>
 
-  <!-- http://www.webjars.org/ -->
-  <!-- TODO: See if this can be moved to Salvador
-  <target name="war.js.dependencies" depends="salvador.base.maven.install, war.structure">
-    <property name="war.dir.js.dir.lib" value="${war.dir.js.dir}/libs"/>
-    <artifact:dependencies filesetId="war.js.files">
-      <dependency groupId="org.webjars" artifactId="jquery" version="1.8.3"/>
-    </artifact:dependencies>
-    
-    
-  </target>
--->
-
-  <!-- Configuration -->
+  <!-- 
+  #######################################################
+  # Configuration file handling
+  #######################################################
+  -->
 
   <target name="ropen.config.local">
     <copy force="true" overwrite="true" file="${ropen.conf.local}" tofile="${ropen.conf}"/>
@@ -420,7 +363,7 @@
   <!-- Meta targets -->
   <!-- TODO: Get rid of this -->
   <target name="war" depends="war.install"/>
-  <target name="serve" depends="salvador.sass.compile.watch, ropen.config.local, jetty.start"/>
+  <target name="serve" depends="salvador.sass.convert.watch, ropen.config.local, jetty.start"/>
   <target name="devel" depends="serve"/>
   <target name="all.static" depends="clean, war, jsdoc"/>
 
