@@ -231,6 +231,7 @@
   </target>
 
   <target name="war.content.php" depends="salvador.php.tasks, war.structure">
+    <!-- TODO: Enable this
     <copy todir="${war.dir}">
       <fileset dir=".">
         <include name="*.php"/>
@@ -239,10 +240,10 @@
         <exclude name="css**"/>
       </fileset>
     </copy>
-    <!-- TODO: Enable this
+     -->
     <fileset dir="." includes="*.php" id="war.content.php.files"/>
     <salvador.php.compile.dir refid="war.content.php.files" todir="${war.dir}"/>
-     -->
+
   </target>
 
   <!-- JS stuff currenty deactivated  -->
@@ -354,50 +355,7 @@
     </java>
   </target>
 -->
-  <!-- The PHP compiler stuff -->
-
-  <!--
-  <target name="php.compile" depends="salvador.php.download, salvador.jetty.download, salvador.base.ant.contrib.install">
-    <mkdir dir="${html.dir}"/>
-    <foreach target=".php.compile" param="php.file">
-      <path>
-        <fileset dir="${php.dir}" casesensitive="yes" includes="*.php"/>
-      </path>
-    </foreach>
-    <move todir="${html.dir}">
-      <fileset dir=".">
-        <include name="*.html"/>
-      </fileset>
-      <filterchain>
-        <tokenfilter>
-          <replacestring from=".php" to="${html.suffix}"/>
-        </tokenfilter>
-      </filterchain>
-    </move>
-  </target>
-  -->
-
-  <!--
-  <target name=".php.compile">
-    <propertyregex property="php.out" input="${php.file}" regexp="(.*)[\\/](.*)\.php" select="./\2.html" casesensitive="false"/>
-    <path id="quercus.plugin.classpath">
-      <fileset dir="${lib.quercus.dir}" includes="*.jar"/>
-    </path>
-    <path id="jetty.plugin.classpath">
-      <fileset dir="${lib.jetty.dir}" includes="*.jar"/>
-    </path>
-    <echo>Compiling ${php.file} to ${php.out}</echo>
-    <java classname="com.caucho.quercus.CliQuercus" classpathref="quercus.plugin.classpath" outputproperty="compiler.output">
-      <classpath>
-        <path refid="quercus.plugin.classpath"/>
-        <path refid="jetty.plugin.classpath"/>
-      </classpath>
-      <arg value="-f"/>
-      <arg value="${php.file}"/>
-    </java>
-    <echo force="true" encoding="UTF-8" output="${php.out}" append="false" message="${compiler.output}"/>
-  </target>
--->
+  
   <target name="js.setup">
     <copy todir="${html.dir}">
       <fileset dir=".">
@@ -469,7 +427,5 @@
   <target name="jsdoc" depends="salvador.js.jsdoctoolkit.install">
     <!-- See http://www.kajabity.com/2012/02/automating-jsdoc-with-apache-ant/ -->
   </target>
-
-  
 
 </project>
