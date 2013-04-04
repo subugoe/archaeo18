@@ -23,7 +23,10 @@ installiert.
 
 Anschliessend wird im lokalen Archaeo18 Projektverzeichnis die virtuelle Maschine mit 
 >vagrant up 
-gestartet und mit den notwendigen Paketen ausgestattet
+gestartet und mit den notwendigen Paketen ausgestattet.
+
+Anschliessend ist die Archaeo18 Installation unter [http://192.168.33.18:8080/archaeo18](http://192.168.33.18:8080/archaeo18) erreichbar.
+Die Projektdateien werden direkt in die virtuelle Maschine gemountet, so dass sie auf dem lokalen Rechner weiter bearbeitet werden können.
 
 ## Installationspaket
 Mit dem folgenden Kommando lässt sich eine Installationsvariante bereitstellen.
