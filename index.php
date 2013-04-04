@@ -124,6 +124,7 @@
 <div id="help_page">
 	<div class="content clearfix">
 		<div class="wrap">
+		<h2>Hilfe</h2>
 		<h3>Wie kann ich die digitale Edition benutzen?</h3>
 		<p>Über den Menüpunkt „Edition“ gelangen Sie zur Arbeitsoberfläche der Edition. Hier können Sie die Vorlesungsmitschriften in verschiedenen Ansichten öffnen, in ihnen Suchen und über die ausgezeichneten Personen, Orte, Literatur und Werke zu externen Datenbanken gelangen, die weiterführende Informationen zu den jeweiligen Objekten oder die digitalisierte Literatur selbst bereitstellen.
 		<h3>Wie öffne ich eine Vorlesungsmitschrift? Das Browser-Fenster:</h3>

@@ -5,7 +5,7 @@ $font-extra: 'Droid Serif', serif;
 $width-content: 1000px;
 $color-content-bg: rgb(238, 238, 238);
 $color-content-font: rgb(102, 102, 102);
-$color-content-img-frame-style1: rgb(102, 102, 102);
+$color-content-img-frame-style1: $color-content-font;
 $color-content-img-frame-style2: rgb(230, 224, 209);
 $color-content-img-frame-style3: rgb(204, 204, 204);
 $borderradius-footer: 8px;
@@ -29,13 +29,13 @@ html, body {
 address { font-style: normal; }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: "Droid Sans",sans-serif;
+	font-family: $font-default;
 	font-weight: normal;
 	margin: 7px 0 20px 6px;
 }
 
 h3 {
-	font-family: "Droid Sans",sans-serif;
+	font-family: $font-default;
 	font-weight: normal;
 	margin: 7px 0 20px 0;
 }
@@ -57,7 +57,7 @@ a, a:hover, a:visited {
 }
 
 body {
-	background-color: rgb(238, 238, 238);
+	background-color: $color-content-bg;
 	background-repeat: repeat-x;
 	background-image: url('../img/header-index-header-bg.png');
 }
@@ -113,7 +113,7 @@ header {
 		left: 250px;
 		font-family: $font-extra;
 		font-size: 16pt;
-		color: rgb(102, 102, 102);
+		color: $color-content-font;
 		li {
 			width: 100px;
 			display: inline;
@@ -137,7 +137,6 @@ header {
 		left: 950px;
 	}
 }
-
 
 .content {
 	background-color: $color-content-bg;
@@ -193,7 +192,7 @@ header {
 }
 
 footer {
-	background-color: rgb(102, 102, 102);
+	background-color: $color-content-font;
 	background-image: url('../img/footer-border-top.png');
 	background-repeat: repeat-x;
 	color: rgb(255, 255, 255);
@@ -360,7 +359,6 @@ footer {
 #editionContainer {
 	background-color: #EEEEEE;
 }
-
 
 h2.head-handwriting {
 	visibility:hidden;
