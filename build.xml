@@ -24,12 +24,6 @@
 
   <!-- directories for the build system -->
   <property name="target.dir" value="./target"/>
-  <!--
-  <property name="lib.dir" value="${target.dir}/lib"/>
-  <property name="lib.build.dir" value="${lib.dir}/build"/>
-  <property name="lib.jetty.dir" value="${lib.dir}/jetty"/>
-  <property name="jetty.dir.tmp" value="${target.dir}/tmp"/>
-  -->
 
   <!-- Servlet configuration -->
   <property name="servlet.archaeo18.webxml" value="./WEB-INF/web.xml"/>
@@ -49,9 +43,11 @@
   <property name="html.suffix" value=".html"/>
   <!-- Tiny PNG and images -->
   <property name="img.dir" value="./img"/>
+  <!--
   <property name="tinypng.endpoint" value="http://api.tinypng.org/api/shrink"/>
-  <property name="tinypng.apikey" value="aLqbWi6VBpKM3rGvFVw2W4TTVPFrSEEP"/>
   <property name="img.tiny.dir" value="${target.dir}/img"/>
+  -->
+  <property name="salvador.tinypng.apikey" value="aLqbWi6VBpKM3rGvFVw2W4TTVPFrSEEP"/>
 
   <property name="css.dir" value="./css"/>
   <property name="css.file" value="${css.dir}/style.css"/>
@@ -110,6 +106,15 @@
   <property name="exist.search.url" value="${exist.queries.url}/search.xq?query=Trajan&amp;mode=xhtml"/>
   <property name="exist.search.local" value="${data.download.dir.search}/search.xq$query=Trajan&amp;mode=xhtml"/>
 
+
+  <target name="help" description="Prints some help">
+    <echo>ant help - This help</echo>
+    <echo>ant war.dist - War file for deployment</echo>
+    <echo>ant war.run - Run War file in jetty (for debugging the war cration process)</echo>
+    <echo>ant serve - serve the contenst of this project using Jetty</echo>
+    <echo>ant data.downlaod - get new testdatea from the server</echo>
+  </target>
+
   <target name="init" depends="">
     <!-- Let the user override propeties -->
     <!-- See http://ant.apache.org/manual/Tasks/property.html -->
@@ -118,7 +123,7 @@
     <mkdir dir="${js.target.dir}"/>
   </target>
 
-  <target name="clean" depends="ropen.config.remote">
+  <target name="clean" depends="ropen.config.remote, salvador.base.clean">
     <delete dir="${target.dir}"/>
   </target>
 
@@ -174,6 +179,7 @@
     <!-- Installation package -->
     <property name="war.install.file" value="${target.dir}/ROOT.war"/>
     <property name="war.dir.lib" value="${war.dir}/WEB-INF/lib"/>
+    <property name="war.dir.images.dir" value="${war.dir}/${img.dir}"/>
     <property name="war.dir.css.dir" value="${war.dir}/${css.dir}"/>
     <property name="war.dir.css.file" value="${war.dir}/${css.file}"/>
     <property name="war.dir.js.dir" value="${war.dir}/${js.dir}"/>
@@ -220,7 +226,8 @@
 
   <!-- TODO: make this work -->
   <target name="war.content.images" depends="salvador.tinypng.install, war.structure">
-    <fail message="This is currently disabled"/>
+    <fileset dir="." includes="*.png" id="war.content.images.files"/>
+    <salvador.tinypng.compress.dir refid="war.content.images.files" todir="${war.dir.images.dir}"/>
   </target>
 
   <target name="war.content.php" depends="salvador.php.tasks, war.structure">
@@ -239,7 +246,7 @@
   </target>
 
   <!-- JS stuff currenty deactivated  -->
-  <target name="war.content" depends="war.content.css, war.content.php, ropen.config.remote">
+  <target name="war.content" depends="war.content.css, war.content.php, ropen.config.remote, war.content.images">
     <copy todir="${war.dir}">
       <fileset dir=".">
         <include name="*.txt"/>
@@ -401,54 +408,13 @@
     </copy>
   </target>
 
-  <!-- TODO move this completely to Salvador -->
-  <target name="compress.images" depends="salvador.base.ant.httptask.download, salvador.base.ant.contrib.install">
-    <foreach target=".compress.images" param="png.file">
-      <path>
-        <fileset dir="${img.dir}" casesensitive="yes" includes="*.png"/>
-      </path>
-    </foreach>
-  </target>
-
-  <target name=".compress.images">
-    <propertyregex property="png.out.file" input="${png.file}" regexp="(.*)[\\/](.*)\.png" select="./\2.png" casesensitive="false"/>
-    <property name="img.out" value="${img.tiny.dir}/${png.out.file}"/>
-    <!-- 
-    Here is an API key for you to use:
-    aLqbWi6VBpKM3rGvFVw2W4TTVPFrSEEP
-
-    We have some documentation about our API at:
-    https://gist.github.com/1eef650dcfb1609931fc
-
-    The key is valid for one year. There are no limits attached to the API. Feel free to use it to convert a large number of images but keep in mind the service is paid for entirely by donations.
-    -->
-    <http url="${tinypng.endpoint}" method="POST" entityProperty="json.result">
-      <credentials username="api" password="${tinypng.apikey}"/>
-      <entity file="${png.file}" binary="true"/>
-    </http>
-    <!-- Now it get's really ugly - this will fail on Ant below 1.7 or if you are still on Java 5 or earlier -->
-    <!-- We use the embeded JS Runtime from newer Java versions to decode the JSON Snippet -->
-    <!-- Stolen from
-    http://jeffreysambells.com/2012/02/20/using-javascript-to-parse-json-properties-with-ant
-    http://ant.apache.org/manual/Tasks/script.html
-    -->
-    <script language="javascript">
-      <![CDATA[
-      resultJson = project.getProperty("json.result");
-      var struct = eval("(" + resultJson + ")");
-      project.setProperty("tinypng.result.url", struct.output.url);
-    ]]></script>
-    <echo message="Result is at ${tinypng.result.url}, will be saved as ${img.out}"/>
-    <get src="${tinypng.result.url}" dest="${img.out}" usetimestamp="true"/>
-  </target>
-
   <!-- Jetty related targets -->
 
   <!-- This can be used to test the constructed war file -->
   <target name="war.run" depends="salvador.jetty.download, war.devel">
-    <jetty tempDirectory="${jetty.dir.tmp}">
+    <jetty tempDirectory="${salvador.jetty.tmp.dir}">
       <connectors>
-        <selectChannelConnector port="${jetty.port}"/>
+        <selectChannelConnector port="${salvador.jetty.tmp.dir}"/>
       </connectors>
       <webApp name="archaeo18" warfile="${war.file}" contextpath="/archaeo18"/>
     </jetty>
@@ -461,7 +427,8 @@
     http://www.eclipse.org/jetty/documentation/current/jetty-ant.html
     -->
     <echo>starting Jetty...</echo>
-    <jetty tempDirectory="${jetty.dir.tmp}">
+    <!-- TODO: set the the servlet classpath right -->
+    <jetty tempDirectory="${salvador.jetty.tmp.dir}">
       <connectors>
         <selectChannelConnector port="${salvador.jetty.port}"/>
       </connectors>
@@ -503,11 +470,6 @@
     <!-- See http://www.kajabity.com/2012/02/automating-jsdoc-with-apache-ant/ -->
   </target>
 
-  <target name="help" description="Prints some help">
-    <echo>ant help - This help</echo>
-    <echo>ant war.dist - War file for deployment</echo>
-    <echo>ant war.run - Run War file in jetty (for debugging the war cration process)</echo>
-    <echo>ant serve - serve the contenst of this project using Jetty</echo>
-  </target>
+  
 
 </project>
