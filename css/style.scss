@@ -29,13 +29,13 @@ html, body {
 address { font-style: normal; }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: "Droid Sans",sans-serif;
+	font-family: $font-default;
 	font-weight: normal;
 	margin: 7px 0 20px 6px;
 }
 
 h3 {
-	font-family: "Droid Sans",sans-serif;
+	font-family: $font-default;
 	font-weight: normal;
 	margin: 7px 0 20px 0;
 }
@@ -57,7 +57,7 @@ a, a:hover, a:visited {
 }
 
 body {
-	background-color: rgb(238, 238, 238);
+	background-color: $color-content-bg;
 	background-repeat: repeat-x;
 	background-image: url('../img/header-index-header-bg.png');
 }
@@ -137,7 +137,6 @@ header {
 		left: 950px;
 	}
 }
-
 
 .content {
 	background-color: $color-content-bg;
@@ -360,7 +359,6 @@ footer {
 #editionContainer {
 	background-color: #EEEEEE;
 }
-
 
 h2.head-handwriting {
 	visibility:hidden;
