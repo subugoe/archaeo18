@@ -13,6 +13,18 @@ Archaeo18 benutzt Ant um verschiede Aufgaben zu erledigen, dazu zählt die Berei
 Dabei wird Jetty (wenn nicht vorhanden wird er heruntergelden) und SASS (wird ebenfalls heruntergeladen wenn notwendig) gestartet. Abfragen an den eXist Server werden dabei entweder von Jetty mit zwischengespeicherten Daten beantwortet oder an die konfigurierte Instanz weitergeleitet. Die Weiterleitung erfolgt dabei durch einen URLRewriteFilter, das entsprechende Servlet findet sich unter ./testdata/proxy
 Zusätzlich wird die Konfigurationsdatei so angepasst, das das lokale Backend angesprochen wird.
 
+### Vagrant
+
+Eine Variante Archaeo18 zu installieren ist [Vagrant](http://www.vagrantup.com/).
+
+Dazu müssen auf dem Rechner VirtualBox sowie das Vagrant gem installiert sein. Das Vagrant gem wird mit 
+>gem install vagrant 
+installiert.
+
+Anschliessend wird im lokalen Archaeo18 Projektverzeichnis die virtuelle Maschine mit 
+>vagrant up 
+gestartet und mit den notwendigen Paketen ausgestattet
+
 ## Installationspaket
 Mit dem folgenden Kommando lässt sich eine Installationsvariante bereitstellen.
 >ant war.install
