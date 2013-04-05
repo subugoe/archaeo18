@@ -103,7 +103,13 @@
   <property name="exist.search.url" value="${exist.queries.url}/search.xq?query=Trajan&amp;mode=xhtml"/>
   <property name="exist.search.local" value="${data.download.dir.search}/search.xq$query=Trajan&amp;mode=xhtml"/>
 
+  <!-- 
+  #######################################################
+  # Targets needed by the build system 
+  #######################################################
+  -->
 
+  <!-- Simple help -->
   <target name="help" description="Prints some help">
     <echo>ant help - This help</echo>
     <echo>ant war.dist - War file for deployment (alias war)</echo>
@@ -112,6 +118,7 @@
     <echo>ant data.downlaod - get new testdatea from the server</echo>
   </target>
 
+  <!-- Creates the needed directories -->
   <target name="init" depends="">
     <!-- Let the user override propeties -->
     <!-- See http://ant.apache.org/manual/Tasks/property.html -->
@@ -120,9 +127,16 @@
     <mkdir dir="${js.target.dir}"/>
   </target>
 
+  <!-- Removes directories needed by the build system -->
   <target name="clean" depends="ropen.config.remote, salvador.base.clean">
     <delete dir="${target.dir}"/>
   </target>
+
+  <!-- Meta targets (aliases) -->
+  <target name="war" depends="war.install"/>
+  <target name="serve" depends="salvador.sass.convert.watch, ropen.config.local, jetty.start"/>
+  <target name="devel" depends="serve"/>
+  <target name="all.static" depends="clean, war, jsdoc"/>
 
   <!-- 
   #######################################################
@@ -319,20 +333,7 @@
   </target>
 
   <target name="jetty.start" depends="salvador.jetty.install, ropen.config.local, salvador.urlrewritefilter.download, salvador.php.download">
-    <!-- 
-    See http://docs.codehaus.org/display/JETTY/Ant+Jetty+Plugin for configuration
-    For newer Versions
-    http://www.eclipse.org/jetty/documentation/current/jetty-ant.html
-    -->
     <echo>starting Jetty (with local configuration)...</echo>
-    <!-- TODO: set the the servlet classpath right -->
-    <artifact:dependencies pathId="servlet.classpath">
-      <artifact:remoteRepository id="quercus" url="${salvador.php.quercus.repository.url}"/>
-      <dependency groupId="org.tuckey" artifactId="urlrewritefilter" version="4.0.3"/>
-      <dependency groupId="${salvador.php.quercus.group.id}" artifactId="${salvador.php.quercus.artifact.id}" version="${salvador.php.quercus.version}">
-        <exclusion groupId="javax" artifactId="javaee-api"/>
-      </dependency>
-    </artifact:dependencies>
     <jetty tempDirectory="${salvador.jetty.tmp.dir}">
       <connectors>
         <selectChannelConnector port="${salvador.jetty.port}"/>
@@ -359,13 +360,6 @@
   <target name="ropen.config.remote">
     <copy force="true" overwrite="true" file="${ropen.conf.remote}" tofile="${ropen.conf}"/>
   </target>
-
-  <!-- Meta targets -->
-  <!-- TODO: Get rid of this -->
-  <target name="war" depends="war.install"/>
-  <target name="serve" depends="salvador.sass.convert.watch, ropen.config.local, jetty.start"/>
-  <target name="devel" depends="serve"/>
-  <target name="all.static" depends="clean, war, jsdoc"/>
 
   <target name="jsdoc" depends="salvador.js.jsdoctoolkit.install">
     <!-- See http://www.kajabity.com/2012/02/automating-jsdoc-with-apache-ant/ -->
