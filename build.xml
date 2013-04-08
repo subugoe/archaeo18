@@ -1,4 +1,4 @@
-<project name="Archaeo18 Test" basedir="." default="serve" xmlns:artifact="antlib:org.apache.maven.artifact.ant">
+<project name="Archaeo18 Frontend" basedir="." default="serve" xmlns:artifact="antlib:org.apache.maven.artifact.ant">
   <!--
     Usage:
     Run 'ant help'
@@ -7,7 +7,11 @@
     * Look if this should be integrated: https://github.com/h5bp/ant-build-script
   -->
 
-  <!-- Imports -->
+  <!-- 
+  #######################################################
+  # Imports, used Salvador Modules 
+  #######################################################
+  -->
   <import file="./build/build.xml"/>
   <import file="./build/modules/jetty.xml"/>
   <import file="./build/modules/javascript.xml"/>
@@ -18,15 +22,20 @@
   <import file="./build/modules/sass.xml"/>
   <import file="./build/modules/tinypng.xml"/>
 
-  <!-- Settings -->
-  <!-- Jetty settings -->
-  <property name="salvador.jetty.port" value="8080"/>
-
+  <!-- 
+  #######################################################
+  # Settings
+  #######################################################
+  -->
   <!-- directories for the build system -->
+  <!-- This is provided by Salvador
   <property name="target.dir" value="./target"/>
+  -->
 
   <!-- Servlet configuration -->
+  <!-- This one sets up Quercus for PHP -->
   <property name="servlet.archaeo18.webxml" value="./WEB-INF/web.xml"/>
+  <!-- This one sets up the URLRewriteFilter for the local test data -->
   <property name="servlet.proxy.webxml" value="./testdata/proxy/WEB-INF/web.xml"/>
 
   <!-- JavaScript Stuff -->
@@ -52,11 +61,14 @@
   <property name="ropen.conf.local" value="./testdata/conf/Archaeo18Config.local.js"/>
   <property name="ropen.conf.remote" value="./testdata/conf/Archaeo18Config.remote.js"/>
 
-  <!-- Salvador configuration -->
+  <!-- Salvador configuration, this is currently set to the defaults of Salvador,
+       it's just here to avoid searching in the Salvador sources.      
+  -->
   <property name="salvador.sass.compile.watch.src" value="./css"/>
   <property name="salvador.sass.compile.watch.dest" value="./css"/>
   <property name="salvador.tinypng.apikey" value="aLqbWi6VBpKM3rGvFVw2W4TTVPFrSEEP"/>
-
+  <!-- Jetty settings -->
+  <property name="salvador.jetty.port" value="8080"/>
 
   <!-- Test data -->
   <property name="test.dir" value="./testdata"/>
@@ -114,13 +126,13 @@
     <echo>ant help - This help</echo>
     <echo>ant war.dist - War file for deployment (alias war)</echo>
     <echo>ant war.run - Run War file in jetty (for debugging the war cration process)</echo>
-    <echo>ant serve - serve the contenst of this project using Jetty</echo>
-    <echo>ant data.downlaod - get new testdatea from the server</echo>
+    <echo>ant serve - serve the contents of this project using Jetty</echo>
+    <echo>ant data.download - get new testdatea from the server</echo>
   </target>
 
   <!-- Creates the needed directories -->
   <target name="init" depends="">
-    <!-- Let the user override propeties -->
+    <!-- Let the user override propeties, usefull for passwords etc. -->
     <!-- See http://ant.apache.org/manual/Tasks/property.html -->
     <property file="./build.properties"/>
     <mkdir dir="${target.dir}"/>
@@ -185,6 +197,7 @@
 
   <!-- Sets propertiews and creates directories -->
   <target name="war.structure" depends="init">
+    <echo>Setting up directories for war file</echo>
     <property name="war.dir" value="${target.dir}/webapp"/>
     <property name="war.develop.file" value="${target.dir}/archaeo18.war"/>
     <!-- Installation package -->
@@ -207,6 +220,7 @@
   TODO: get rid of quercus, compile PHP static
   -->
   <target name="war.dependencies" depends="salvador.base.maven.install, war.structure">
+    <echo>Getting dependencies for the war file</echo>
     <artifact:dependencies filesetId="war.classpath">
       <artifact:remoteRepository id="quercus" url="${salvador.php.quercus.repository.url}"/>
       <dependency groupId="${salvador.php.quercus.group.id}" artifactId="${salvador.php.quercus.artifact.id}" version="${salvador.php.quercus.version}">
@@ -223,21 +237,26 @@
     <fileset dir="${js.dir}" includes="*.js" id="war.content.js.files">
       <exclude name="plugins.js"/>
     </fileset>
+    <!-- 
     <salvador.js.concat refid="${war.content.js.files}" dest="${js.target.file}"/>
     <salvador.js.yui.compress.js src="${js.target.file}" destfile="${war.dir.js.file}"/>
+    -->
   </target>
 
   <target name="war.content.css" depends="salvador.js.yui.install, salvador.sass.macros, war.structure">
+    <echo>Processing CSS for war file</echo>
     <salvador.sass.convert src="${css.file}" destfile="${war.dir.css.file}"/>
     <salvador.js.yui.compress.css src="${war.dir.css.file}" destfile="${war.dir.css.file}"/>
   </target>
 
   <target name="war.content.images" depends="salvador.tinypng.install, war.structure">
+    <echo>Processing Images for war file</echo>
     <fileset dir="." includes="*.png" id="war.content.images.files"/>
     <salvador.tinypng.compress.dir refid="war.content.images.files" todir="${war.dir.images.dir}"/>
   </target>
 
   <target name="war.content.php" depends="salvador.php.macros, war.structure">
+    <echo>Processing PHP and HTML for war file</echo>
     <copy todir="${war.dir}">
       <fileset dir="${php.dir}">
         <include name="*.php"/>
@@ -260,8 +279,11 @@
         <!-- *.php and *.html are handled by their own target, this way one can plug in a PHP compiler and / or JTidy -->
         <include name="*.ico"/>
         <include name="*.xml"/>
-        <include name="img/**"/>
         <include name="WEB-INF/web.xml"/>
+        <include name="*.png"/>
+        <!-- Images are handled by their own target for compression -->
+        <exclude name="img/**"/>
+        <exclude name="testdata**"/>
         <exclude name="build**"/>
         <exclude name="css**"/>
         <exclude name="cookbooks**"/>
@@ -324,27 +346,27 @@
 
   <!-- This can be used to test the constructed war file -->
   <target name="war.run" depends="salvador.jetty.install, war.install">
-    <jetty tempDirectory="${salvador.jetty.tmp.dir}">
+    <jetty.run tempDirectory="${salvador.jetty.tmp.dir}" scanIntervalSeconds="5">
       <connectors>
         <selectChannelConnector port="${salvador.jetty.tmp.dir}"/>
       </connectors>
-      <webApp name="archaeo18" warfile="${war.file}" contextpath="/archaeo18"/>
-    </jetty>
+      <webApp war="${war.file}" contextpath="/archaeo18"/>
+    </jetty.run>
   </target>
 
   <target name="jetty.start" depends="salvador.jetty.install, ropen.config.local, salvador.urlrewritefilter.download, salvador.php.download">
     <echo>starting Jetty (with local configuration)...</echo>
-    <jetty tempDirectory="${salvador.jetty.tmp.dir}">
+    <jetty.run tempDirectory="${salvador.jetty.tmp.dir}" scanIntervalSeconds="5">
       <connectors>
         <selectChannelConnector port="${salvador.jetty.port}"/>
       </connectors>
-      <webapp webXmlFile="${servlet.archaeo18.webxml}" contextPath="/archaeo18" name="archaeo18" warfile="." scanIntervalSeconds="5">
+      <webapp descriptor="${servlet.archaeo18.webxml}" contextPath="/archaeo18" war=".">
         <lib dir="${salvador.php.lib.dir}" includes="*.jar"/>
       </webapp>
-      <webapp webXmlFile="${servlet.proxy.webxml}" contextPath="/" name="proxy" warfile="${test.dir}/proxy">
+      <webapp descriptor="${servlet.proxy.webxml}" contextPath="/" war="${test.dir}/proxy">
         <lib dir="${salvador.urlrewritefilter.lib.dir}" includes="*.jar"/>
       </webapp>
-    </jetty>
+    </jetty.run>
   </target>
 
   <!-- 
