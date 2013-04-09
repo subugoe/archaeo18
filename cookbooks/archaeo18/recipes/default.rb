@@ -1,5 +1,5 @@
 execute "apt-get update"
-packages = ["ant"]
+packages = ["openjdk-7-jdk", "ant"]
 
 packages.each do |p|
 	package p
