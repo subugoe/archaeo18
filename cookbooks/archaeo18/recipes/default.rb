@@ -17,4 +17,4 @@ cookbook_file "/etc/init/archaeo18.conf" do
 	mode "0644"
 end
 
-execute "ant -f /home/vagrant/archaeo18/build.xml serve > /dev/null 2>&1 &"
+execute "cd /home/vagrant/archaeo18/ && ant serve > /dev/null 2>&1 &"
