@@ -251,7 +251,7 @@
 
   <target name="war.content.images" depends="salvador.tinypng.install, war.structure">
     <echo>Processing Images for war file</echo>
-    <fileset dir="." includes="*.png" id="war.content.images.files"/>
+    <fileset dir="." includes="**/*.png" id="war.content.images.files"/>
     <salvador.tinypng.compress.dir refid="war.content.images.files" todir="${war.dir.images.dir}"/>
   </target>
 
