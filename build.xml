@@ -32,6 +32,10 @@
   <property name="target.dir" value="./target"/>
   -->
 
+  <!-- Deployment Settings -->
+  <!-- This is the name of the war file, without war suffix , result will be in target.dir -->
+  <property name="war.install.name" value="archaeo18"/>
+
   <!-- Servlet configuration -->
   <!-- This one sets up Quercus for PHP -->
   <property name="servlet.archaeo18.webxml" value="./WEB-INF/web.xml"/>
@@ -199,15 +203,14 @@
   <target name="war.structure" depends="init">
     <echo>Setting up directories for war file</echo>
     <property name="war.dir" value="${target.dir}/webapp"/>
-    <property name="war.develop.file" value="${target.dir}/archaeo18.war"/>
     <!-- Installation package -->
-    <property name="war.install.file" value="${target.dir}/ROOT.war"/>
-    <property name="war.dir.lib" value="${war.dir}/WEB-INF/lib"/>
-    <property name="war.dir.images.dir" value="${war.dir}/${img.dir}"/>
-    <property name="war.dir.css.dir" value="${war.dir}/${css.dir}"/>
-    <property name="war.dir.css.file" value="${war.dir}/${css.file}"/>
-    <property name="war.dir.js.dir" value="${war.dir}/${js.dir}"/>
-    <property name="war.dir.js.file" value="${war.dir.js.dir}/${js.merged.file}"/>
+    <property name="war.file" value="${target.dir}/${war.install.name}.war"/>
+    <property name="war.dir.lib" location="${war.dir}/WEB-INF/lib"/>
+    <property name="war.dir.images.dir" location="${war.dir}/${img.dir}"/>
+    <property name="war.dir.css.dir" location="${war.dir}/${css.dir}"/>
+    <property name="war.dir.css.file" location="${war.dir}/${css.file}"/>
+    <property name="war.dir.js.dir" location="${war.dir}/${js.dir}"/>
+    <property name="war.dir.js.file" location="${war.dir.js.dir}/${js.merged.file}"/>
 
     <mkdir dir="${war.dir}"/>
     <mkdir dir="${war.dir.lib}"/>
@@ -237,22 +240,31 @@
     <fileset dir="${js.dir}" includes="*.js" id="war.content.js.files">
       <exclude name="plugins.js"/>
     </fileset>
-    <!-- 
+    <!--
+        TODO: Enable this:
     <salvador.js.concat refid="${war.content.js.files}" dest="${js.target.file}"/>
     <salvador.js.yui.compress.js src="${js.target.file}" destfile="${war.dir.js.file}"/>
     -->
   </target>
 
   <target name="war.content.css" depends="salvador.js.yui.install, salvador.sass.macros, war.structure">
-    <echo>Processing CSS for war file</echo>
+    <echo>Processing CSS for war file (${war.dir.css.file})</echo>
     <salvador.sass.convert src="${css.file}" destfile="${war.dir.css.file}"/>
     <salvador.js.yui.compress.css src="${war.dir.css.file}" destfile="${war.dir.css.file}"/>
   </target>
 
   <target name="war.content.images" depends="salvador.tinypng.install, war.structure">
-    <echo>Processing Images for war file</echo>
+    <echo>Processing Images for war file (to ${war.dir.images.dir})</echo>
+    <copy todir="${war.dir}">
+      <fileset dir=".">
+        <exclude name="img/**"/>
+      </fileset>
+    </copy>
+    <!-- TODO
+         Enable this
     <fileset dir="." includes="**/*.png" id="war.content.images.files"/>
     <salvador.tinypng.compress.dir refid="war.content.images.files" todir="${war.dir.images.dir}"/>
+    -->
   </target>
 
   <target name="war.content.php" depends="salvador.php.macros, war.structure">
@@ -332,11 +344,12 @@
   </target>
 
   <target name="war.install" depends="war.content, war.dependencies">
-    <property name="war.file" value="${war.dir}/${war.install.name}.war"/>
     <war destfile="${war.file}" webxml="${war.dir}/WEB-INF/web.xml">
       <fileset dir="${war.dir}"/>
     </war>
   </target>
+  <!-- Alias -->
+  <target name="war.dist" depends="war.install"/>
 
   <!-- 
   #######################################################
