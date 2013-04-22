@@ -65,6 +65,8 @@
   <property name="ropen.conf.local" value="./testdata/conf/Archaeo18Config.local.js"/>
   <property name="ropen.conf.remote" value="./testdata/conf/Archaeo18Config.remote.js"/>
 
+  <!-- Ropen files -->
+  <property name="ropen.dir" value="./ropen"/>
   <!-- Salvador configuration, this is currently set to the defaults of Salvador,
        it's just here to avoid searching in the Salvador sources.      
   -->
@@ -216,6 +218,7 @@
     <mkdir dir="${war.dir.lib}"/>
     <mkdir dir="${war.dir.css.dir}"/>
     <mkdir dir="${war.dir.js.dir}"/>
+    <mkdir dir="${war.dir}/${ropen.dir}"/>
   </target>
 
   <!-- Get the dependencies -->
@@ -236,10 +239,26 @@
     </copy>
   </target>
 
-  <target name="war.content.js" depends="salvador.js.yui.install, war.structure">
+  <target name="war.content.ropen" depends="war.structure">
+    <copy todir="${war.dir}/${ropen.dir}">
+      <fileset dir="${ropen.dir}">
+        <exclude name="testdata/**"/>
+        <exclude name="build/**"/>
+        <exclude name="WEB-INF/**"/>
+        <exclude name="build.xml"/>
+      </fileset>
+    </copy>
+  </target>
+
+  <target name="war.content.js" depends="salvador.js.yui.install, war.content.ropen">
     <fileset dir="${js.dir}" includes="*.js" id="war.content.js.files">
+      <!-- 
       <exclude name="plugins.js"/>
+       -->
     </fileset>
+    <copy todir="${war.dir}/${js.dir}">
+      <fileset refid="war.content.js.files"/>
+    </copy>
     <!--
         TODO: Enable this:
     <salvador.js.concat refid="${war.content.js.files}" dest="${js.target.file}"/>
@@ -259,7 +278,8 @@
       <fileset dir=".">
         <include name="**/*.png"/>
         <include name="**/*.gif"/>
-        <exclude name="img/**"/>
+        <include name="**/*.jpg"/>
+        <include name="img/**"/>
         <exclude name="build/**"/>
       </fileset>
     </copy>
@@ -288,10 +308,10 @@
 
   <!-- Rewrite the servlet configuration for deployment -->
   <target name="war.content.servlet">
-
     <xslt in="WEB-INF/web.xml" out="${war.dir}/WEB-INF/web.xml">
       <style>
         <!-- This inline stylesheet removes all references to URL rewriting -->
+        <!-- See https://issues.apache.org/bugzilla/show_bug.cgi?id=32461 -->
         <string><![CDATA[
           <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
             <xsl:template match="@*|node()">
@@ -307,7 +327,7 @@
   </target>
 
   <!-- TODO: JS stuff currenty deactivated  -->
-  <target name="war.content" depends="war.content.css, war.content.php, ropen.config.remote, war.content.images, war.content.servlet">
+  <target name="war.content" depends="war.content.css, war.content.php, ropen.config.remote, war.content.images, war.content.servlet, war.content.js">
     <copy todir="${war.dir}">
       <fileset dir=".">
         <include name="*.txt"/>
@@ -316,7 +336,9 @@
         <include name="*.xml"/>
         <!-- This file is copied by war.content.servlet -->
         <exclude name="WEB-INF/web.xml"/>
+        <!--
         <include name="*.png"/>
+        -->
         <!-- Images are handled by their own target for compression -->
         <exclude name="img/**"/>
         <exclude name="testdata**"/>
@@ -330,6 +352,7 @@
         <exclude name="build"/>
         <exclude name="build.xml"/>
         <exclude name="target"/>
+        <exclude name="ropen"/>
       </fileset>
     </copy>
   </target>
