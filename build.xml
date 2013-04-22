@@ -59,6 +59,7 @@
 
   <property name="css.dir" value="./css"/>
   <property name="css.file" value="${css.dir}/style.css"/>
+  <property name="scss.file" value="${css.dir}/style.scss"/>
 
   <!-- Configuration files -->
   <property name="ropen.conf" value="./js/Archaeo18Config.js"/>
@@ -268,8 +269,11 @@
 
   <target name="war.content.css" depends="salvador.js.yui.install, salvador.sass.macros, war.structure">
     <echo>Processing CSS for war file (${war.dir.css.file})</echo>
-    <salvador.sass.convert src="${css.file}" destfile="${war.dir.css.file}"/>
-    <salvador.js.yui.compress.css src="${war.dir.css.file}" destfile="${war.dir.css.file}"/>
+    <salvador.sass.convert src="${scss.file}" destfile="${war.dir.css.file}.tmp"/>
+    <!-- This is needed since the CSS file doesn't seem to be written directly -->
+    <sleep milliseconds="500"/>
+    <salvador.js.yui.compress.css src="${war.dir.css.file}.tmp" destfile="${war.dir.css.file}"/>
+    <delete file="${war.dir.css.file}.tmp"/>
   </target>
 
   <target name="war.content.images" depends="salvador.tinypng.install, war.structure">
