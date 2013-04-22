@@ -286,15 +286,36 @@
     -->
   </target>
 
+  <!-- Rewrite the servlet configuration for deployment -->
+  <target name="war.content.servlet">
+
+    <xslt in="WEB-INF/web.xml" out="${war.dir}/WEB-INF/web.xml">
+      <style>
+        <!-- This inline stylesheet removes all references to URL rewriting -->
+        <string><![CDATA[
+          <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+            <xsl:template match="@*|node()">
+               <xsl:copy>
+                   <xsl:apply-templates select="@*|node()"/>
+               </xsl:copy>
+            </xsl:template>
+            <xsl:template match="//*[./filter-name/text()  = 'UrlRewriteFilter']"/>
+          </xsl:stylesheet>
+          ]]></string>
+      </style>
+    </xslt>
+  </target>
+
   <!-- TODO: JS stuff currenty deactivated  -->
-  <target name="war.content" depends="war.content.css, war.content.php, ropen.config.remote, war.content.images">
+  <target name="war.content" depends="war.content.css, war.content.php, ropen.config.remote, war.content.images, war.content.servlet">
     <copy todir="${war.dir}">
       <fileset dir=".">
         <include name="*.txt"/>
         <!-- *.php and *.html are handled by their own target, this way one can plug in a PHP compiler and / or JTidy -->
         <include name="*.ico"/>
         <include name="*.xml"/>
-        <include name="WEB-INF/web.xml"/>
+        <!-- This file is copied by war.content.servlet -->
+        <exclude name="WEB-INF/web.xml"/>
         <include name="*.png"/>
         <!-- Images are handled by their own target for compression -->
         <exclude name="img/**"/>
@@ -367,7 +388,7 @@
   <target name="war.run" depends="salvador.jetty.install, war.install">
     <jetty.run tempDirectory="${salvador.jetty.tmp.dir}" scanIntervalSeconds="5">
       <connectors>
-        <selectChannelConnector port="${salvador.jetty.tmp.dir}"/>
+        <selectChannelConnector port="${salvador.jetty.port}"/>
       </connectors>
       <webApp war="${war.file}" contextpath="/archaeo18"/>
     </jetty.run>
