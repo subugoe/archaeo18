@@ -7,6 +7,13 @@ Die Niedersächsische Staats- und Universitätsbibliothek Göttingen (SUB) hat i
 Die Edition bietet neben dem Zugriff auf die Digitalisate und der Suche in den Volltexten die Möglichkeit, gezielt nach Personen, Orten, Literatur und Kunstwerken zu suchen. Die identifizierten Entitäten sind durch die Verlinkung in externe Datenbanken normiert, die in den Mitschriften genannte Literatur wurde – sofern noch nicht in einem anderen Repositorium vorhanden – digitalisiert und ebenfalls mit der entsprechenden Stelle im Volltext verknüpft.
 
 ## Entwicklungsumgebung
+### Git
+Das Projekt ist in verschiedene Git Module aufgeteilt, diese müssen vor dem ersten Gebrauch initialisiert werden.
+>git submodule init
+
+>git submodule update 
+
+### Ant
 Archaeo18 benutzt Ant um verschiede Aufgaben zu erledigen, dazu zählt die Bereiststellung einer Entwicklungsumgebung als auch das Erstellen von Installationspaketen. Eine im Browser aufrufbare Umgebung kann mit dem folgenden Kommando bereitgestellt werden.
 > ant serve
 
