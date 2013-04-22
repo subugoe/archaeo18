@@ -257,7 +257,10 @@
     <echo>Processing Images for war file (to ${war.dir.images.dir})</echo>
     <copy todir="${war.dir}">
       <fileset dir=".">
+        <include name="**/*.png"/>
+        <include name="**/*.gif"/>
         <exclude name="img/**"/>
+        <exclude name="build/**"/>
       </fileset>
     </copy>
     <!-- TODO
@@ -298,11 +301,14 @@
         <exclude name="testdata**"/>
         <exclude name="build**"/>
         <exclude name="css**"/>
-        <exclude name="cookbooks**"/>
+        <exclude name="cookbooks"/>
         <exclude name=".git*"/>
         <exclude name="Vagrantfile"/>
         <exclude name="README.md"/>
         <exclude name="LICENSE"/>
+        <exclude name="build"/>
+        <exclude name="build.xml"/>
+        <exclude name="target"/>
       </fileset>
     </copy>
   </target>
