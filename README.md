@@ -33,3 +33,6 @@ Die Projektdateien werden direkt in die virtuelle Maschine gemountet, so dass si
 ## Installationspaket
 Mit dem folgenden Kommando lässt sich eine Installationsvariante bereitstellen.
 >ant war.install
+
+Das Paket kann mit dem folgenden Kommando in Jetty gestartet werden, um zu prüfen ob es im Browser vollständig angezeigt wird:
+> ant war.run
