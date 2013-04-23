@@ -43,3 +43,6 @@ Mit dem folgenden Kommando lässt sich eine Installationsvariante bereitstellen.
 
 Das Paket kann mit dem folgenden Kommando in Jetty gestartet werden, um zu prüfen ob es im Browser vollständig angezeigt wird:
 > ant war.run
+
+## Backend
+Dieses Git Repository beinhaltet nur das Frontend, bestehend aus der Projektseite und [Ropen](https://github.com/subugoe/ROPEN). Das [Ropen Backend](https://github.com/subugoe/ropen-backend) ist ebenfalls via GitHub erhältlich. Die REST Endpunkte des Frontends werden in der Datei "js/Archaeo18Config.js" konfiguriert.
