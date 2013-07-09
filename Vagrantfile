@@ -15,7 +15,6 @@ Vagrant::Config.run do |config|
 
   # Boot with a GUI so you can see the screen. (Default is headless)
   # config.vm.boot_mode = :gui
-  config.vm.customize ["modifyvm", :id, "--memory", "768"]
 
   # Assign this VM to a host-only network IP, allowing you to access it
   # via the IP. Host-only networks can talk to the host machine as well as
@@ -44,5 +43,12 @@ Vagrant::Config.run do |config|
   config.vm.provision :chef_solo do |chef|
      chef.cookbooks_path = "./cookbooks"
      chef.add_recipe "archaeo18"
+  end
+end
+Vagrant.configure("2") do |config|
+  config.vm.define :archaeo18 do |archaeo18|
+    archaeo18.vm.provider :virtualbox do |vb|
+      vb.customize ["modifyvm", :id, "--memory", 768]
+    end
   end
 end
