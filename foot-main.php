@@ -64,8 +64,8 @@
 <script type="text/javascript" src="ropen/lib/jqcloud/jqcloud-1.0.3.js"></script>
 
 <!-- include archaeo18 GUI -->
-<link type="text/css" rel="stylesheet" href="ropen/css/archaeo18.css">
-<link type="text/css" rel="stylesheet" href="ropen/css/tei.css">
+<link type="text/css" rel="stylesheet" href="ropen/Resources/Public/Css/archaeo18.css">
+<link type="text/css" rel="stylesheet" href="ropen/Resources/Public/Css/tei.css">
 <script src="ropen/js/Config/EditionProperties.js"></script>
 <script src="ropen/js/Config/EditionTooltips.js"></script>
 <script src="ropen/js/System/DocumentServerConnection.js"></script>
