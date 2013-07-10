@@ -29,9 +29,9 @@
 		</div>
 		<div id="logoPanel" style="display: inline; float: left;">
 			<ul class="logos">
-				<li><a href="http://dfg.de" target="_blank" title="Deutsche Forschungsgemeinschaft e.V." hreflang="de"><img src="./img/logo/logo_footer_dfg.jpg" alt="" /></a></li>
-				<li><a href="http://www.sub.uni-goettingen.de" title="Niedersächsische Staats- und Universitätsbibliothek Göttingen" hreflang="de" target="_blank" style="margin: 0 0 0 -5px;"><img src="./img/logo/logo_footer_sub.jpg" alt="" /></a></li>
-				<li><a href="http://www.uni-goettingen.de" title="Georg-August-Universität Göttingen" hreflang="de" target="_blank" style="margin: 0 0 0 -5px;"><img src="./img/logo/logo_footer_uni.jpg" alt="" /></a></li>
+				<li><a href="http://dfg.de" target="_blank" title="Deutsche Forschungsgemeinschaft e.V." hreflang="de"><img src="./Resources/Public/Images/logo/logo_footer_dfg.jpg" alt="" /></a></li>
+				<li><a href="http://www.sub.uni-goettingen.de" title="Niedersächsische Staats- und Universitätsbibliothek Göttingen" hreflang="de" target="_blank" style="margin: 0 0 0 -5px;"><img src="./Resources/Public/Images/logo/logo_footer_sub.jpg" alt="" /></a></li>
+				<li><a href="http://www.uni-goettingen.de" title="Georg-August-Universität Göttingen" hreflang="de" target="_blank" style="margin: 0 0 0 -5px;"><img src="./Resources/Public/Images/logo/logo_footer_uni.jpg" alt="" /></a></li>
 			</ul>
 		</div>
 	</div>
@@ -94,11 +94,11 @@
 <script src="ropen/js/Gui/OverlayWindow.js"></script>
 <script src="ropen/js/Gui/Tooltip.js"></script>
 <script src="ropen/js/EditionGui.js"></script>
-<script src="js/Indices.js"></script>
-<script src="js/Scripts.js"></script>
+<script src="Resources/Public/JavaScript/Indices.js"></script>
+<script src="Resources/Public/JavaScript/Scripts.js"></script>
 
-<script src="js/plugins.js"></script>
-<script src="js/Page.js"></script>
+<script src="Resources/Public/JavaScript/plugins.js"></script>
+<script src="Resources/Public/JavaScript/Page.js"></script>
 
 </body>
 </html>

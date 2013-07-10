@@ -20,7 +20,7 @@
 			<section class="contenttype-start textimg clearfix" id="startContentHeyne">
 				<h2>Über Christian Gottlob Heyne</h2>
 				<div>
-					<img class="img" alt="" src="./img/heyne.jpg" class="content-img-style1 fixie" />
+					<img class="img" alt="" src="./Resources/Public/Images/heyne.jpg" class="content-img-style1 fixie" />
 				</div>
 				<div>
 					<p class="font-normal"><p>Christian Gottlob Heyne (1729-1812)</p>

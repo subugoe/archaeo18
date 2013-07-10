@@ -18,7 +18,7 @@ if (strstr($_SERVER['SCRIPT_FILENAME'], 'edition.php')) $pageClass = 'edition';
 	<link rel="shortcut icon" href="./favicon.ico" />
 	<meta name="viewport" content="width=device-width">
 	<link href="ropen/Resources/Public/Css/style.css" rel="stylesheet" type="text/css">
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="Resources/Public/Css/style.css">
 	<link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
 </head>

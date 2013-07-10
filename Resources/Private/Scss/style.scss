@@ -2,6 +2,7 @@
 
 $font-default: 'Droid Sans', sans-serif;
 $font-extra: 'Droid Serif', serif;
+$font-size: 12pt;
 $width-content: 1000px;
 $color-content-bg: rgb(238, 238, 238);
 $color-content-font: rgb(102, 102, 102);
@@ -9,7 +10,9 @@ $color-content-img-frame-style1: $color-content-font;
 $color-content-img-frame-style2: rgb(230, 224, 209);
 $color-content-img-frame-style3: rgb(204, 204, 204);
 $borderradius-footer: 8px;
-$path-img: '../img/';
+$path-img: '../Images/';
+$header-height: 206px;
+
 
 /* VARS (End) */
 
@@ -19,7 +22,7 @@ $path-img: '../img/';
 body {
 	font-family: $font-default;
 	font-weight: normal;
-	font-size: 12pt;
+	font-size: $font-size;
 }
 
 html, body {
@@ -59,19 +62,19 @@ a, a:hover, a:visited {
 body {
 	background-color: $color-content-bg;
 	background-repeat: repeat-x;
-	background-image: url('../img/header-index-header-bg.png');
+	background-image: url($path-img + 'header-index-header-bg.png');
 }
 
 header {
-	height: 206px;
-	background-image: url('../img/header-bg2.png');
+	height: $header-height;
+	background-image: url($path-img + 'header-bg2.png');
 	background-repeat: no-repeat;
 }
 nav {
 	top: 145px;
 	a { padding: 0 0 21px 0; }
-	a:hover { background-image: url('../img/header-nav-a-2.png'); }
-	.selected { background-image: url('../img/header-nav-a-2.png'); }
+	a:hover { background-image: url($path-img + 'header-nav-a-2.png'); }
+	.selected { background-image: url($path-img + 'header-nav-a-2.png'); }
 }
 
 noscript {
@@ -87,19 +90,19 @@ noscript {
 }
 
 .header-small {
-	body { background-image: url('../img/header-edition-bg.png'); }
+	body { background-image: url($path-img + 'header-edition-bg.png'); }
 	header {
-		background-image: url('../img/header-edition-header-bg.png');
+		background-image: url($path-img + 'header-edition-header-bg.png');
 		height: 50px;
 	}
 	nav {
 		top: 4px;
 		a {
 			padding: 0 0 7px 0;
-			font-size: 12pt;
+			font-size: $font-size;
 		}
-		a:hover { background-image: url('../img/header-nav-a-2-small.png'); }
-		.selected { background-image: url('../img/header-nav-a-2-small.png'); }
+		a:hover { background-image: url($path-img + 'header-nav-a-2-small.png'); }
+		.selected { background-image: url($path-img + 'header-nav-a-2-small.png'); }
 	}
 }
 
@@ -193,7 +196,7 @@ header {
 
 footer {
 	background-color: $color-content-font;
-	background-image: url('../img/footer-border-top.png');
+	background-image: url($path-img + 'footer-border-top.png');
 	background-repeat: repeat-x;
 	color: rgb(255, 255, 255);
 	height: 315px;
@@ -210,7 +213,7 @@ footer {
 		font-size: 10pt;
 		div:first-child {
 			width: 245px;
-			background-image: url('../img/footer-bg1.png');
+			background-image: url($path-img + 'footer-bg1.png');
 			float: left;
 			display: inline;
 		}
@@ -248,16 +251,16 @@ footer {
 }
 
 .button-alpha {
-	background-image: url('../img/content-button-down.png');
+	background-image: url($path-img + 'content-button-down.png');
 	background-repeat: no-repeat;
 	padding: 0 25px 25px 30px;
 	margin: 0 10px 0 0;
 }
 
-.header-button-close { background-image: url('../img/header-button-close.png'); }
-.header-button-close:hover { background-image: url('../img/header-button-close-hover.png'); }
-.header-button-open { background-image: url('../img/header-button-open.png'); }
-.header-button-open:hover { background-image: url('../img/header-button-open-hover.png'); }
+.header-button-close { background-image: url($path-img + 'header-button-close.png'); }
+.header-button-close:hover { background-image: url($path-img + 'header-button-close-hover.png'); }
+.header-button-open { background-image: url($path-img + 'header-button-open.png'); }
+.header-button-open:hover { background-image: url($path-img + 'header-button-open-hover.png'); }
 
 .footer-col-bg-gradient {
 	background: rgb(176,176,176);
@@ -344,15 +347,15 @@ footer {
 	}
 	.sorting {
 		text-align: center;
-		background: url("../img/sort_both.png") no-repeat scroll right center transparent;
+		background: url($path-img + 'sort_both.png') no-repeat scroll right center transparent;
 	}
 	.sorting_asc {
 		text-align: center;
-		background: url("../img/sort_asc.png") no-repeat scroll right center transparent;
+		background: url($path-img + 'sort_asc.png') no-repeat scroll right center transparent;
 	}
 	.sorting_desc {
 		text-align: center;
-		background: url("../img/sort_desc.png") no-repeat scroll right center transparent;
+		background: url($path-img + 'sort_desc.png') no-repeat scroll right center transparent;
 	}
 }
 
@@ -376,5 +379,3 @@ h2.head-handwriting {
 .footer, .push {
 	height: 142px; /* .push must be the same height as .footer */
 }
-
-/* STUFF TO MAKE THE FOOTER STICK TO BOTTOM (end) */
