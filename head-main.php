@@ -14,7 +14,7 @@ if (strstr($_SERVER['SCRIPT_FILENAME'], 'edition.php')) $pageClass = 'edition';
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<!-- <base href="http://archaeo18/" /> -->
 	<title>ARCHAEO 18</title>
-	<link rel="apple-touch-icon" href="./apple-touch-icon.png" />
+	<link rel="apple-touch-icon" href="./Resources/Public/Images/Apple/apple-touch-icon.png" />
 	<link rel="shortcut icon" href="./favicon.ico" />
 	<meta name="viewport" content="width=device-width">
 	<link href="ropen/Resources/Public/Css/style.css" rel="stylesheet" type="text/css">
