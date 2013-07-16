@@ -96,7 +96,7 @@ var Indices = new function(){
 				$(xhtml).appendTo(dummy);
 				var table = $($('table',dummy)[0]).appendTo(section);
 				$(table).attr('width','100%');
-				$(table).attr('id','tableIncices');
+				$(table).attr('id','tableIndices');
 				$('span',section).each(function(){
 					var lang = Util.getAttribute(this,'xml:lang');
 					if( Util.language != lang ){
@@ -106,7 +106,7 @@ var Indices = new function(){
 				$('.editionRef',section).each(function(){
 					var params = Util.getAttribute(this,'rel');
 					params = params.split(';');
-					var linkString = 'http://'+location.host+'/archaeo18/edition.php?docParams='+params;
+					var linkString = 'http://' + location.host + '/archaeo18/edition.php?docParams='+params;
 					$(this).click(function(e){
 						showDiv('#edition_page','#linkedition',e);
 						if( !EditionGui.initialized ){
@@ -197,7 +197,7 @@ var Indices = new function(){
 	};
 
 	this.displayCloud = function(xml){
-		var inputField = $('#tableIncices_filter :input')[0];
+		var inputField = $('#tableIndices_filter :input')[0];
 		var tagArray = Util.getTags($(xml).find('tag'));
 		var tagsDiv = $("<div/>").appendTo(section);
 		$(tagsDiv).css('height','200px');

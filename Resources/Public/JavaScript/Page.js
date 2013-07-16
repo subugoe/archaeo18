@@ -34,24 +34,6 @@ $('footer .wrap div:nth-child(3)').height(106);
 
 /* SET FOOTER DIV HEIGHT (end) */
 
-
-/* MAKE TABLES DATA READY */
-
-//$('#tableHandschriften').dataTable();
-/*
-$('#tableIncices').dataTable( {
-	"aoColumns": [
-	null,
-	null,
-	{ "bSortable": false }
-	]
-});
-*/
-//$('#tableIncices').dataTable();
-
-/* MAKE TABLES DATA READY (end) */
-
-
 /* MISC */
 
 var filename = location.pathname.substr(location.pathname.lastIndexOf("/")+1,location.pathname.length);

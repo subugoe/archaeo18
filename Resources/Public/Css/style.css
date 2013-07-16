@@ -1,5 +1,7 @@
-/* VARS */
-/* VARS (End) */
+#indices_page .dataTable {
+  margin-top: 1em;
+}
+
 /* ALL */
 body {
   font-family: "Droid Sans", sans-serif;
@@ -326,7 +328,7 @@ footer .logos li {
   width: 670px;
   float: left;
 }
-.dataTables_wrapper .tableIncices_filter {
+.dataTables_wrapper .tableIndices_filter {
   width: 300px;
   float: right;
 }
