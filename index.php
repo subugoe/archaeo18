@@ -94,20 +94,20 @@
 			 	<li><a href="http://www.sub.uni-goettingen.de/kontakt/personen-a-z/personendetails/person/zeki-mustafa-dogan/">Zeki Mustafa Dogan</a> (SUB, Technische Leitung)</li>
 			 	<li><a href="http://www.sub.uni-goettingen.de/kontakt/personen-a-z/personendetails/person/christian-fieseler/">Dr. Christian Fieseler</a> (SUB, Koordination)</li>
 			 	<li>Julian Geisler (SUB, Studentische Hilfskraft)</li>
-				<li>Dr. Daniel Graepler (Archäologisches Institut, Projektleitung)</li>
+				<li><a href="http://www.uni-goettingen.de/de/136923.html">Dr. Daniel Graepler</a> (Archäologisches Institut, Projektleitung)</li>
 				<li>Stefan Jänicke (SUB, Technische Umsetzung)</li>
 				<li>Thomas Konradi (GBV, Design)</li>
-				<li>Martin Liebetruth (SUB, Digitale Reprodunktion)</li>
-				<li>Christian Mahnke (SUB, Technische Umsetzung)</li>
+				<li><a href="http://www.sub.uni-goettingen.de/kontakt/personen-a-z/personendetails/person/martin-liebetruth/">Martin Liebetruth</a> (SUB, Digitale Reprodunktion)</li>
+				<li><a href="http://www.sub.uni-goettingen.de/kontakt/personen-a-z/personendetails/person/christian-mahnke/">Christian Mahnke</a> (SUB, Technische Umsetzung)</li>
 				<li><a href="http://www.sub.uni-goettingen.de/kontakt/personen-a-z/personendetails/person/ingo-pfennigstorf/">Ingo Pfennigstorf </a>(SUB, Technische Umsetzung)</li>
-				<li>Rolf Röper (SUB, Digitale Reproduktion)</li>
+				<li><a href="http://www.sub.uni-goettingen.de/kontakt/personen-a-z/personendetails/person/rolf-b-roeper/Rolf">Röper</a> (SUB, Digitale Reproduktion)</li>
 				<li><a href="http://www.sub.uni-goettingen.de/kontakt/personen-a-z/personendetails/person/rupert-schaab/">Dr. Rupert Schaab</a> (SUB, Projektleitung)</li>
 				<li>Sarah Schlüter (SUB, Studentische Hilfskraft)</li>
 				<li>Cäcilcia Schröter (SUB, Studentische Hilfskraft)</li>
 				<li>Arne Ulrich (SUB, Studentische Hilfskraft)</li>
 				<li><a href="http://www.sub.uni-goettingen.de/kontakt/personen-a-z/personendetails/person/kristine-voigt/">Kristine Voigt</a> (SUB, Koordination)</li>
 				<li>Dr. Hildegard Wiegel (Archäologisches Institut, Wissenschaftliche Mitarbeiterin)</li>
-				<li>Nils Windisch (SUB, Technische Umsetzung)</li>
+				<li><a href="http://www.sub.uni-goettingen.de/kontakt/personen-a-z/personendetails/person/nils-windisch/">Nils Windisch</a> (SUB, Technische Umsetzung)</li>
 			</ul>
 		</div>
 	</div>
