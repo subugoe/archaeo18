@@ -97,7 +97,7 @@
 				<li>Dr. Daniel Graepler (Archäologisches Institut, Projektleitung)</li>
 				<li>Stefan Jänicke (SUB, Technische Umsetzung)</li>
 				<li>Thomas Konradi (GBV, Design)</li>
-				<li>Martin Liebetruth (SUB, DIgitale Reprodunktion)</li>
+				<li>Martin Liebetruth (SUB, Digitale Reprodunktion)</li>
 				<li>Christian Mahnke (SUB, Technische Umsetzung)</li>
 				<li>Ingo Pfennigstorf (SUB, Technische Umsetzung)</li>
 				<li>Rolf Röper (SUB, Digitale Reproduktion)</li>
