@@ -262,7 +262,7 @@
 	<div class="content clearfix">
 		<div class="wrap">
 			<h2>Danksagung</h2>
-			<p>Wir bedanken uns bei allen Institutionen, die dem Projekt  aus ihren Beständen Vorlesungsmitschriften in digitaler Form zur Verfügung gestellt haben.<p>
+			<p>Wir bedanken uns bei allen Institutionen, die dem Projekt  aus ihren Beständen Vorlesungsmitschriften in digitaler Form zur Verfügung gestellt haben.</p>
 			<p>Fertig bearbeitet und in die Webseite integriert sind bereits folgende Mitschriften:</p>
 			<ul>
 				<li><strong><a href="http://www.dainst.org/de/department/bibliothek-rom" title="Bibliothek des Deutschen Archäologischen Instituts, Abteilung Rom" target="_blank">Bibliothek des Deutschen Archäologischen Instituts, Abteilung Rom</a></strong>: Signatur „O 140 Rara“</li>
@@ -290,6 +290,21 @@
 <div id="terms_page">
 	<div class="content clearfix">
 		<div class="wrap">
+		<h2>Editionsrichtlinien</h2>
+		<p>Die festgelegten Editionsgrundsätze gelten für alle Vorlesungsmitschriften und Ab- bzw. Nachschriften. Wenn für einzelne Handschriften Ausnahmen gemacht wurden, sind diese gesondert angegeben. Die Edition ist so gestaltet, dass sie von möglichst vielen Wissenschaftszweigen genutzt werden kann. Es wurde keine reine philologische Edition angestrebt.</p>
+		
+		<p>Die Erfassung der Texte erfolgte grundsätzlich getreu ihrer Vorlagen im Unicode-Format (Kodierung in UTF-8) des zum Zeitpunkt der Erfassung gültigen Unicode-Standards. Zudem sind die Zeichen, je nach Möglichkeit, gemäß ihrer Semantik abgebildet. In der Regel wurde auf modernisierende Veränderungen des lexikalischen Materials verzichtet, so z. B. bei der Schreibung von Eigennamen. Dementsprechend sind Fehler und Streichungen des Schreibers ¸bernommen und keine Korrektur der Syntax vorgenommen worden. Unleserliche oder nicht entzifferbare Wörter wurden entsprechend gekennzeichnet (<unclear>).</p>
+		<p>Groß- und Kleinschreibung folgen der Vorlage. Ausnahmen: Satzanfänge (auch bei Aufzählungen und unvollständigen Sätzen) und Eigennamen werden immer großgeschrieben. Abgesehen davon werden Eigennamen jedoch entsprechend der Vorlage wiedergegeben.</p>
+		<p>Alle Akzentzeichen werden der Vorlage entsprechend wiedergegeben. Ausnahmen: übergesetzte Vokale wurden als Punkte aufgelöst; Zeichen, die reine Lesehilfe sind, sind entfallen; es wurde nicht festgehalten, wenn beispielsweise Punkte über i und j fehlen.</p>
+		<p>Nasalstriche über Buchstaben, die die darauf folgende Auslassung von m oder n anzeigen, wurden aufgelöst.</p>
+		<p>Die Buchstaben s, ss, ﬂ, sz und z wurden beibehalten.</p>
+		<p>Die Getrennt- und Zusammenschreibung folgt der Vorlage, sofern diese eindeutig ist.</p>
+		<p>Ein doppelter Bindestrich (=) wird als einfacher Bindestrich (-) wiedergegeben.</p>
+		<p>Zahlzeichen werden vorlagengetreu wiedergegeben, es sei denn, dass gewichtige Gründe für eine Auflösung sprechen.</p>
+		<p>Hochgestellte Zeichen und Zahlen sowie Brüche wurden nicht ausgezeichnet und sind damit als normaler Text wiedergegeben.</p>
+		<p>Die Interpunktion wird wie in der Vorlage wiedergegeben; allerdings entfallen mögliche Leerstellen zwischen Satzzeichen und den Wörtern, nach denen erstere stehen. Offensichtlich fehlende Satzzeichen (Punkte, Kommas, Bindestriche etc.), die zum Verständnis notwendig sind, wurden gesetzt und entsprechend gekennzeichnet (<add resp="editor">Ö</add>).</p>
+		<p>Unterführungszeichen, die das Wort oder den Satz in der darüber stehenden Zeile wiederholen, sind stillschweigend aufgelöst worden.</p>
+		<p>Reine Füllstriche am Ende einer Zeile wurden nicht wiedergegeben.</p>
 		</div>
 	</div>
 </div>
