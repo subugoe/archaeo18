@@ -91,7 +91,7 @@
 		
 			 	<li>Stefanie Abraham (SUB, Wissenschaftliche Hilfskraft)</li>
 			 	<li>Judith Dinse (SUB, Wissenschaftliche Hilfskraft)</li>
-			 	<li>Zeki Mustafa Dogan (SUB, Technische Leitung)</li>
+			 	<li><a href="http://www.sub.uni-goettingen.de/kontakt/personen-a-z/personendetails/person/zeki-mustafa-dogan/">Zeki Mustafa Dogan</a> (SUB, Technische Leitung)</li>
 			 	<li><a href="http://www.sub.uni-goettingen.de/kontakt/personen-a-z/personendetails/person/christian-fieseler/">Dr. Christian Fieseler</a> (SUB, Koordination)</li>
 			 	<li>Julian Geisler (SUB, Studentische Hilfskraft)</li>
 				<li>Dr. Daniel Graepler (Archäologisches Institut, Projektleitung)</li>
@@ -99,13 +99,13 @@
 				<li>Thomas Konradi (GBV, Design)</li>
 				<li>Martin Liebetruth (SUB, Digitale Reprodunktion)</li>
 				<li>Christian Mahnke (SUB, Technische Umsetzung)</li>
-				<li>Ingo Pfennigstorf (SUB, Technische Umsetzung)</li>
+				<li><a href="http://www.sub.uni-goettingen.de/kontakt/personen-a-z/personendetails/person/ingo-pfennigstorf/">Ingo Pfennigstorf </a>(SUB, Technische Umsetzung)</li>
 				<li>Rolf Röper (SUB, Digitale Reproduktion)</li>
-				<li>Dr. Rupert Schaab (SUB, Projektleitung)</li>
+				<li><a href="http://www.sub.uni-goettingen.de/kontakt/personen-a-z/personendetails/person/rupert-schaab/">Dr. Rupert Schaab</a> (SUB, Projektleitung)</li>
 				<li>Sarah Schlüter (SUB, Studentische Hilfskraft)</li>
 				<li>Cäcilcia Schröter (SUB, Studentische Hilfskraft)</li>
 				<li>Arne Ulrich (SUB, Studentische Hilfskraft)</li>
-				<li>Kristine Voigt (SUB, Koordination)</li>
+				<li><a href="http://www.sub.uni-goettingen.de/kontakt/personen-a-z/personendetails/person/kristine-voigt/">Kristine Voigt</a> (SUB, Koordination)</li>
 				<li>Dr. Hildegard Wiegel (Archäologisches Institut, Wissenschaftliche Mitarbeiterin)</li>
 				<li>Nils Windisch (SUB, Technische Umsetzung)</li>
 			</ul>
