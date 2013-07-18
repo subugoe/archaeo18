@@ -3,21 +3,29 @@
 		margin-top: 1em;
 		tbody {
 			.even {
-				background-color: #eeeeee;
+				background-color: $oddColor;
+			}
+			a {
+				&:hover {
+					text-decoration: none;
+					color: $hoverColor;
+				}
 			}
 		}
 	}
 	.selectIndices {
 		background-color: white;
+		border: 1px solid $formBorderColor;
 	}
 	#tableIndices_wrapper {
 		background-color: white;
 		padding: 10px;
 		select {
 			background-color: white;
+			border: 1px solid $formBorderColor;
 		}
 		input[type="text"] {
-			border: 1px solid #dedede;
+			border: 1px solid $formBorderColor;
 		}
 	}
 }

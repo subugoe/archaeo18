@@ -4,8 +4,13 @@
 #indices_page .dataTable tbody .even {
   background-color: #eeeeee;
 }
+#indices_page .dataTable tbody a:hover {
+  text-decoration: none;
+  color: #900000;
+}
 #indices_page .selectIndices {
   background-color: white;
+  border: 1px solid #dedede;
 }
 #indices_page #tableIndices_wrapper {
   background-color: white;
@@ -13,8 +18,14 @@
 }
 #indices_page #tableIndices_wrapper select {
   background-color: white;
+  border: 1px solid #dedede;
 }
 #indices_page #tableIndices_wrapper input[type="text"] {
+  border: 1px solid #dedede;
+}
+
+#scriptsSelection select {
+  background-color: white;
   border: 1px solid #dedede;
 }
 
