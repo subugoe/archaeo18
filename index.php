@@ -19,9 +19,7 @@
 			</section>
 			<section class="contenttype-start textimg clearfix" id="startContentHeyne">
 				<h2>Über Christian Gottlob Heyne</h2>
-				<div>
-					<img class="img" alt="" src="./Resources/Public/Images/heyne.jpg" class="content-img-style1 fixie" />
-				</div>
+				<img class="img" alt="" src="./Resources/Public/Images/heyne.jpg" class="content-img-style1 fixie" />
 				<div>
 					<p class="font-normal"><p>Christian Gottlob Heyne (1729-1812)</p>
 					<p>Christian Gottlob Heyne wurde am 25. September 1729 in Chemnitz als Sohn eines Leinewebers geboren und wuchs in großer Armut auf. Dank der Förderung durch einen Paten konnte er ab 1741 das Lyceum seiner Heimatstadt besuchen und 1748 sogar ein Studium an der Universität Leipzig aufnehmen. Er war dort Schüler der Altertumswissenschaftler Johann Friedrich Christ (1701–1756) und Johann August Ernesti (1701–1781) und legte 1752 bei Johann August Bach (1721–1758) mit einer juristischen Dissertation das Magisterexamen ab.</p> 
