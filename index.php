@@ -100,7 +100,7 @@
 				<li><a href="http://www.sub.uni-goettingen.de/kontakt/personen-a-z/personendetails/person/martin-liebetruth/">Martin Liebetruth</a> (SUB, Digitale Reprodunktion)</li>
 				<li><a href="http://www.sub.uni-goettingen.de/kontakt/personen-a-z/personendetails/person/christian-mahnke/">Christian Mahnke</a> (SUB, Technische Umsetzung)</li>
 				<li><a href="http://www.sub.uni-goettingen.de/kontakt/personen-a-z/personendetails/person/ingo-pfennigstorf/">Ingo Pfennigstorf </a>(SUB, Technische Umsetzung)</li>
-				<li><a href="http://www.sub.uni-goettingen.de/kontakt/personen-a-z/personendetails/person/rolf-b-roeper/Rolf">Röper</a> (SUB, Digitale Reproduktion)</li>
+				<li><a href="http://www.sub.uni-goettingen.de/kontakt/personen-a-z/personendetails/person/rolf-b-roeper/">Rolf Röper</a> (SUB, Digitale Reproduktion)</li>
 				<li><a href="http://www.sub.uni-goettingen.de/kontakt/personen-a-z/personendetails/person/rupert-schaab/">Dr. Rupert Schaab</a> (SUB, Projektleitung)</li>
 				<li>Sarah Schlüter (SUB, Studentische Hilfskraft)</li>
 				<li>Cäcilcia Schröter (SUB, Studentische Hilfskraft)</li>
