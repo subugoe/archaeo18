@@ -88,48 +88,26 @@
 	<div class="content clearfix">
 		<div class="wrap">
 			<h2>Projektmitarbeiter</h2>
-			<h3>Projektleitung</h3>
-			<ul>
-				<li>Dr. Daniel Graepler (Archäologisches Institut)</li>
-				<li>Dr. Rupert Schaab (SUB)</li>
-			</ul>
-			<h3>Technische Leitung</h3>
-			<ul>
-				<li>Zeki Mustafa Dogan (SUB)</li>
-			</ul>
-			<h3>Koordination</h3>
-			<ul>
-				<li>Dr. Christian Fieseler (SUB)</li>
-				<li>Kristine Voigt (SUB)</li>
-			</ul>
-			<h3>Wissenschaftliche Mitarbeiterin</h3>
-			<ul>
-				<li>Dr. Hildegard Wiegel (Archäologisches Institut)</li>
-			</ul>
-			<h3>Studentische und wissenschaftliche Hilfskräfte</h3>
-			<ul>
-				<li>Stefanie Abraham</li>
-				<li>Judith Dinse</li>
-				<li>Julian Geisler</li>
-				<li>Sarah Schlüter</li>
-				<li>Cäcilcia Schröter</li>
-				<li>Arne Ulrich</li>
-			</ul>
-			<h3>Technische Umsetzung</h3>
-			<ul>
-				<li>Stefan Jänicke (SUB)</li>
-				<li>Christian Mahnke (SUB)</li>
-				<li>Ingo Pfennigstorf (SUB)</li>
-				<li>Nils Windisch (SUB)</li>
-			</ul>
-			<h3>Digitale Reproduktion</h3>
-			<ul>
-				<li>Martin Liebetruth (SUB)</li>
-				<li>Rolf Röper (SUB)</li>
-			</ul>
-			<h3>Design</h3>
-			<ul>
-				<li>Thomas Konradi (GBV)</li>
+		
+			 	<li>Stefanie Abraham (SUB, Wissenschaftliche Hilfskraft)</li>
+			 	<li>Judith Dinse (SUB, Wissenschaftliche Hilfskraft)</li>
+			 	<li>Zeki Mustafa Dogan (SUB, Technische Leitung)</li>
+			 	<li>Dr. Christian Fieseler (SUB, Koordination)</li>
+			 	<li>Julian Geisler (SUB, Studentische Hilfskraft)</li>
+				<li>Dr. Daniel Graepler (Archäologisches Institut, Projektleitung)</li>
+				<li>Stefan Jänicke (SUB, Technische Umsetzung)</li>
+				<li>Thomas Konradi (GBV, Design)</li>
+				<li>Martin Liebetruth (SUB, DIgitale Reprodunktion)</li>
+				<li>Christian Mahnke (SUB, Technische Umsetzung)</li>
+				<li>Ingo Pfennigstorf (SUB, Technische Umsetzung)</li>
+				<li>Rolf Röper (SUB, Digitale Reproduktion)</li>
+				<li>Dr. Rupert Schaab (SUB, Projektleitung)</li>
+				<li>Sarah Schlüter (SUB, Studentische Hilfskraft)</li>
+				<li>Cäcilcia Schröter (SUB, Studentische Hilfskraft)</li>
+				<li>Arne Ulrich (SUB, Studentische Hilfskraft)</li>
+				<li>Kristine Voigt (SUB, Koordination)</li>
+				<li>Dr. Hildegard Wiegel (Archäologisches Institut, Wissenschaftliche Mitarbeiterin)</li>
+				<li>Nils Windisch (SUB, Technische Umsetzung)</li>
 			</ul>
 		</div>
 	</div>
