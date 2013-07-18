@@ -97,7 +97,7 @@
 				<li><a href="http://www.uni-goettingen.de/de/136923.html">Dr. Daniel Graepler</a> (Archäologisches Institut, Projektleitung)</li>
 				<li>Stefan Jänicke (SUB, Technische Umsetzung)</li>
 				<li>Thomas Konradi (GBV, Design)</li>
-				<li><a href="http://www.sub.uni-goettingen.de/kontakt/personen-a-z/personendetails/person/martin-liebetruth/">Martin Liebetruth</a> (SUB, Digitale Reprodunktion)</li>
+				<li><a href="http://www.sub.uni-goettingen.de/kontakt/personen-a-z/personendetails/person/martin-liebetruth/">Martin Liebetruth</a> (SUB, Digitale Reproduktion)</li>
 				<li><a href="http://www.sub.uni-goettingen.de/kontakt/personen-a-z/personendetails/person/christian-mahnke/">Christian Mahnke</a> (SUB, Technische Umsetzung)</li>
 				<li><a href="http://www.sub.uni-goettingen.de/kontakt/personen-a-z/personendetails/person/ingo-pfennigstorf/">Ingo Pfennigstorf </a>(SUB, Technische Umsetzung)</li>
 				<li><a href="http://www.sub.uni-goettingen.de/kontakt/personen-a-z/personendetails/person/rolf-b-roeper/">Rolf Röper</a> (SUB, Digitale Reproduktion)</li>
