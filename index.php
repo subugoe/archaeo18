@@ -181,17 +181,6 @@
 	</div>
 </div>
 
-
-<!-- NUTZUNGSBEDINGUNGEN -->
-
-<div id="terms_page">
-	<div class="content clearfix">
-		<div class="wrap">
-		</div>
-	</div>
-</div>
-
-
 <!-- IMPRESSUM -->
 
 <div id="imprint_page">
