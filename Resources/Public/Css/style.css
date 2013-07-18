@@ -146,10 +146,16 @@ header .header-button {
 .index table tfoot th {
   text-align: left;
 }
+.index .content .image-in-text-right {
+  float: right;
+}
+.index .content .image-in-text-right figcaption {
+  text-align: center;
+}
 .index .content .img {
   padding: 10px;
-  border-radius: 8px;
-  box-shadow: 0px 2px 2px #999999;
+  border: 1px solid #999999;
+  margin-left: 10px;
 }
 .index .content .wrap {
   margin: 0 auto;

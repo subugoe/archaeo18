@@ -20,9 +20,13 @@
 			<section class="contenttype-start textimg clearfix" id="startContentHeyne">
 				<h2>Über Christian Gottlob Heyne</h2>
 				<div>
-					<img class="img" alt="" src="./Resources/Public/Images/heyne.jpg" class="content-img-style1 fixie" />
-					<p class="font-normal"><p>Christian Gottlob Heyne (1729-1812)</p>
-					<p>Christian Gottlob Heyne wurde am 25. September 1729 in Chemnitz als Sohn eines Leinewebers geboren und wuchs in großer Armut auf. Dank der Förderung durch einen Paten konnte er ab 1741 das Lyceum seiner Heimatstadt besuchen und 1748 sogar ein Studium an der Universität Leipzig aufnehmen. Er war dort Schüler der Altertumswissenschaftler Johann Friedrich Christ (1701–1756) und Johann August Ernesti (1701–1781) und legte 1752 bei Johann August Bach (1721–1758) mit einer juristischen Dissertation das Magisterexamen ab.</p> 
+					<figure class="image-in-text-right">
+						<img alt="" src="./Resources/Public/Images/heyne.jpg" class="img" />
+						<figcaption>
+							Christian Gottlob Heyne (1729-1812)
+						</figcaption>
+					</figure>
+					<p>Christian Gottlob Heyne wurde am 25. September 1729 in Chemnitz als Sohn eines Leinewebers geboren und wuchs in großer Armut auf. Dank der Förderung durch einen Paten konnte er ab 1741 das Lyceum seiner Heimatstadt besuchen und 1748 sogar ein Studium an der Universität Leipzig aufnehmen. Er war dort Schüler der Altertumswissenschaftler Johann Friedrich Christ (1701–1756) und Johann August Ernesti (1701–1781) und legte 1752 bei Johann August Bach (1721–1758) mit einer juristischen Dissertation das Magisterexamen ab.</p>
 					<p>1753 erhielt Heyne eine Anstellung als Kopist an der Bibliothek des Grafen Brühl in Dresden, mit einem Jahresgehalt von nur 100 Talern. Während dieser Zeit lernte er Johann Joachim Winckelmann (1717–1768) kennen, der seit 1748 als Bibliothekar bei Heinrich Graf von Bünau auf Schloss Nöthnitz bei Dresden lebte und im September 1754 nach Dresden umzog. 1755  legte Heyne seine erste altertumswissenschaftliche Publikation vor, eine Edition der Elegien des römischen Dichters Tibull (55-18 v. Chr.). Beim Ausbruch des Siebenjährigen Krieges 1756 verlor Heyne aufgrund der Flucht des Grafen Brühl seine Anstellung und sein festes Einkommen. Unter größten Entbehrungen fristete er als Hauslehrer, Übersetzer und Publizist sein Dasein. Bei der Bombardierung Dresdens durch die Preußen 1760  wurde seine Wohnung getroffen und er verlor seine gesamte Habe, einschließlich aller wissenschaftlichen Unterlagen.</p>
 					<p>1761 heiratete Heyne Therese Weiß, Tochter eines berühmten Lautenvirtuosen. Aus der Ehe gingen drei Kinder hervor, darunter die Tochter Therese (1764–1829), die später den Natur- und Völkerkundler Georg Forster heiratete und nach dessen Tod und erneuter Heirat unter dem Namen Therese Huber eine bekannte Schriftstellerin wurde.</p>
 					<p>1762  erhielt Heyne von dem Dresdner Glaskünstler Philipp Daniel Lippert den Auftrag, den dritten Band von dessen Gemmenpublikation Dactyliotheca Universalis mit einem lateinischen Kommentar zu versehen. Durch diese Arbeit kam der Philologe Heyne erstmals näher mit archäologischen Objekten in Kontakt.</p>

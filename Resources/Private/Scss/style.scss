@@ -136,10 +136,16 @@ header {
 		tfoot th { text-align: left; }
 	}
 	.content {
+		.image-in-text-right {
+			float: right;
+			figcaption {
+				text-align: center;
+			}
+		}
 		.img {
 			padding: 10px;
-			border-radius: 8px;
-			box-shadow: 0px 2px 2px #999999;
+			border: 1px solid #999999;
+			margin-left: 10px;
 		}
 		.wrap {
 			margin: 0 auto;
