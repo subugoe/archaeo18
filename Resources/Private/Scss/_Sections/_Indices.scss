@@ -1,5 +1,23 @@
 #indices_page {
 	.dataTable {
 		margin-top: 1em;
+		tbody {
+			.even {
+				background-color: #eeeeee;
+			}
+		}
+	}
+	.selectIndices {
+		background-color: white;
+	}
+	#tableIndices_wrapper {
+		background-color: white;
+		padding: 10px;
+		select {
+			background-color: white;
+		}
+		input[type="text"] {
+			border: 1px solid #dedede;
+		}
 	}
 }

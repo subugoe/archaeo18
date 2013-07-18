@@ -1,6 +1,22 @@
 #indices_page .dataTable {
   margin-top: 1em;
 }
+#indices_page .dataTable tbody .even {
+  background-color: #eeeeee;
+}
+#indices_page .selectIndices {
+  background-color: white;
+}
+#indices_page #tableIndices_wrapper {
+  background-color: white;
+  padding: 10px;
+}
+#indices_page #tableIndices_wrapper select {
+  background-color: white;
+}
+#indices_page #tableIndices_wrapper input[type="text"] {
+  border: 1px solid #dedede;
+}
 
 /* ALL */
 body {
