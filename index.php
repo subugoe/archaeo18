@@ -92,7 +92,7 @@
 			 	<li>Stefanie Abraham (SUB, Wissenschaftliche Hilfskraft)</li>
 			 	<li>Judith Dinse (SUB, Wissenschaftliche Hilfskraft)</li>
 			 	<li>Zeki Mustafa Dogan (SUB, Technische Leitung)</li>
-			 	<li>Dr. Christian Fieseler (SUB, Koordination)</li>
+			 	<li><a href="http://www.sub.uni-goettingen.de/kontakt/personen-a-z/personendetails/person/christian-fieseler/">Dr. Christian Fieseler</a> (SUB, Koordination)</li>
 			 	<li>Julian Geisler (SUB, Studentische Hilfskraft)</li>
 				<li>Dr. Daniel Graepler (Archäologisches Institut, Projektleitung)</li>
 				<li>Stefan Jänicke (SUB, Technische Umsetzung)</li>
