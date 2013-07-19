@@ -15,13 +15,13 @@ footer {
 		width: $width-content;
 		margin: 0 auto;
 		font-size: 10pt;
-		div:first-child {
+		.heyneSnakeFighter {
 			width: 245px;
 			background-image: url($path-img + 'footer-bg1.png');
 			float: left;
 			display: inline;
 		}
-		div:nth-child(2) {
+		.middle {
 			width: 430px;
 			float: left;
 			display: inline;
@@ -32,7 +32,7 @@ footer {
 				float: left;
 			}
 		}
-		div:nth-child(3) {
+		.right {
 			width: 285px;
 			margin: 89px 0 0 0;
 			background-color: rgb(150, 150, 150);

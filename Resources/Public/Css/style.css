@@ -160,26 +160,26 @@ footer .wrap {
   margin: 0 auto;
   font-size: 10pt;
 }
-footer .wrap div:first-child {
+footer .wrap .heyneSnakeFighter {
   width: 245px;
   background-image: url("../Images/footer-bg1.png");
   float: left;
   display: inline;
 }
-footer .wrap div:nth-child(2) {
+footer .wrap .middle {
   width: 430px;
   float: left;
   display: inline;
   margin: 89px 0 0 0;
 }
-footer .wrap div:nth-child(2) li {
+footer .wrap .middle li {
   padding: 0 0 8px 0;
 }
-footer .wrap div:nth-child(2) ul:first-child {
+footer .wrap .middle ul:first-child {
   width: 150px;
   float: left;
 }
-footer .wrap div:nth-child(3) {
+footer .wrap .right {
   width: 285px;
   margin: 89px 0 0 0;
   background-color: #969696;
@@ -187,7 +187,7 @@ footer .wrap div:nth-child(3) {
   float: left;
   display: inline;
 }
-footer .wrap div:nth-child(3) li {
+footer .wrap .right li {
   padding: 0 0 8px 0;
 }
 footer .logos {
