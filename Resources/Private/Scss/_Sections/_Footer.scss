@@ -1,0 +1,53 @@
+footer {
+	background-color: $color-content-font;
+	background-image: url($path-img + 'footer-border-top.png');
+	background-repeat: repeat-x;
+	color: rgb(255, 255, 255);
+	height: 315px;
+	width: 100%;
+	a, a:hover, a:visited {
+		color: rgb(255, 255, 255);
+	}
+	a:hover {
+		text-decoration: underline;
+	}
+	.wrap {
+		width: $width-content;
+		margin: 0 auto;
+		font-size: 10pt;
+		div:first-child {
+			width: 245px;
+			background-image: url($path-img + 'footer-bg1.png');
+			float: left;
+			display: inline;
+		}
+		div:nth-child(2) {
+			width: 430px;
+			float: left;
+			display: inline;
+			margin: 89px 0 0 0;
+			li { padding: 0 0 8px 0; }
+			ul:first-child {
+				width: 150px;
+				float: left;
+			}
+		}
+		div:nth-child(3) {
+			width: 285px;
+			margin: 89px 0 0 0;
+			background-color: rgb(150, 150, 150);
+			padding: 0 20px 20px 20px;
+			float: left;
+			display: inline;
+			li { padding: 0 0 8px 0; }
+		}
+	}
+	.logos {
+		list-style-type: none;
+		text-align: left;
+		padding: 0;
+		li {
+			display: inline;
+		}
+	}
+}
