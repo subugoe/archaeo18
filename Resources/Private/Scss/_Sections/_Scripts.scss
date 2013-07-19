@@ -4,7 +4,18 @@
 		border: 1px solid $formBorderColor;
 	}
 	h2 {
-		padding: 15px 0 40px 0;
+		padding: 15px 0;
+	}
+	.selectHandschriften {
+		li {
+			a {
+				&:hover {
+					cursor: pointer;
+					text-decoration: none;
+					color: $hoverColor;
+				}
+			}
+		}
 	}
 }
 #scriptContainer {

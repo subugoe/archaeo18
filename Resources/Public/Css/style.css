@@ -126,7 +126,12 @@
   border: 1px solid #dedede;
 }
 #scriptsSelection h2 {
-  padding: 15px 0 40px 0;
+  padding: 15px 0;
+}
+#scriptsSelection .selectHandschriften li a:hover {
+  cursor: pointer;
+  text-decoration: none;
+  color: #900000;
 }
 
 #scriptContainer {

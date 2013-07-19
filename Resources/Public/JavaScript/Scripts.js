@@ -22,7 +22,7 @@ var Scripts = new function(){
 		var loadDocs = function(){
 			if( Util.docsLoaded == 1 ){
 				for (var i = 0; i < Util.documents.length; i++) {
-					$('<li id="' + Util.documents[i].title + '">' + Util.documents[i].name + '</li>').appendTo(gui.selectionDropdown);
+					$('<li id="' + Util.documents[i].title + '"><a>' + Util.documents[i].name + '</a></li>').appendTo(gui.selectionDropdown);
 				}
 				$(".selectHandschriften li").each(function() {
 							console.log(this);
