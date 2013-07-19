@@ -125,6 +125,13 @@
   background-color: white;
   border: 1px solid #dedede;
 }
+#scriptsSelection h2 {
+  padding: 15px 0 40px 0;
+}
+
+#scriptContainer {
+  margin-top: 40px;
+}
 
 /* ALL */
 body {
@@ -435,7 +442,7 @@ footer .logos li {
 }
 
 h2.head-handwriting {
-  visibility: hidden;
+  display: none;
 }
 
 /* STUFF TO MAKE THE FOOTER STICK TO BOTTOM */
