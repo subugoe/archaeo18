@@ -3,7 +3,7 @@
 
 <footer>
 	<div class="wrap">
-		<div>
+		<div class="heyneSnakeFighter">
 			<!-- <img src="img/footer-lakon.png" /> -->
 		</div>
 		<div class="footer-col-bg-gradient clearfix">
