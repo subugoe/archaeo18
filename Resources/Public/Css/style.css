@@ -43,6 +43,7 @@
   background-color: white;
   padding: 10px;
   margin-bottom: 0;
+  position: relative;
 }
 #indices_page #tableIndices_wrapper select {
   background-color: white;
@@ -56,20 +57,26 @@
 #indices_page #tableIndices_wrapper .dataTable,
 #indices_page #tableIndices_wrapper .dataTables_info,
 #indices_page #tableIndices_wrapper .dataTables_paginate {
-  margin: 3px 0;
+  margin: 15px 0;
 }
 #indices_page #tableIndices_wrapper .dataTables_info {
   text-align: right;
+  font-size: 80%;
 }
 #indices_page #tableIndices_wrapper .dataTables_paginate {
   text-align: right;
   font-family: ropen;
+  position: absolute;
+  top: 0;
+  right: 3%;
+  margin-top: 15px;
 }
 #indices_page #tableIndices_wrapper .dataTables_paginate a {
   margin: 0 0 0 10px;
   cursor: pointer;
   text-decoration: none;
-  position: inherit;
+  position: initial;
+  background: none;
 }
 #indices_page #tableIndices_wrapper .dataTables_paginate a:hover {
   color: #900000;
@@ -80,6 +87,8 @@
 #indices_page #tableIndices_wrapper .dataTables_length {
   width: 670px;
   float: left;
+  position: absolute;
+  bottom: 0;
 }
 #indices_page #tableIndices_wrapper .tableIndices_filter {
   width: 300px;
