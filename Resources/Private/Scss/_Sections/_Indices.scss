@@ -86,8 +86,12 @@
 				margin: 0 0 0 10px;
 				cursor: pointer;
 				text-decoration: none;
+				position: inherit;
 				&:hover {
 					color: $hoverColor;
+				}
+				&.paginate_active {
+					border-bottom: 1px solid $hoverColor;
 				}
 			}
 		}
@@ -100,7 +104,7 @@
 			float: right;
 		}
 		a:hover {
-			text-decoration: underline;
+			//text-decoration: underline;
 		}
 	}
 	#indicesSelection {

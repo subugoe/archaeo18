@@ -69,9 +69,13 @@
   margin: 0 0 0 10px;
   cursor: pointer;
   text-decoration: none;
+  position: inherit;
 }
 #indices_page #tableIndices_wrapper .dataTables_paginate a:hover {
   color: #900000;
+}
+#indices_page #tableIndices_wrapper .dataTables_paginate a.paginate_active {
+  border-bottom: 1px solid #900000;
 }
 #indices_page #tableIndices_wrapper .dataTables_length {
   width: 670px;
@@ -80,9 +84,6 @@
 #indices_page #tableIndices_wrapper .tableIndices_filter {
   width: 300px;
   float: right;
-}
-#indices_page #tableIndices_wrapper a:hover {
-  text-decoration: underline;
 }
 #indices_page #indicesSelection .selectIndices {
   background-color: white;

@@ -139,6 +139,7 @@ var Indices = new function(){
 					});
 				});
 				$(table).dataTable({
+					"sPaginationType": "full_numbers",
 					"oLanguage": {
 						"sLengthMenu": "Zeige _MENU_ Eintr&auml;ge je Seite",
 						"sZeroRecords": "Keine Eintr&auml;ge gefunden",
@@ -146,9 +147,10 @@ var Indices = new function(){
 						"sInfoEmpty": "Zeige 0 bis 0 von 0 Eintr&auml;gen",
 						"sInfoFiltered": "(gefiltert aus _MAX_ Eintr&auml;gen insgesamt)",
 						"sSearch": "Suche:",
-						"sPaginationType": "full_numbers",
 						"oPaginate": {
 							"sNext": "",
+							"sFirst": "",
+							"sLast": "",
 							"sPrevious": ""
 						}
 					}
