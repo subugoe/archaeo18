@@ -106,7 +106,7 @@ var Indices = new function(){
 				$('.editionRef',section).each(function(){
 					var params = Util.getAttribute(this, 'rel');
 					params = params.split(';');
-					var linkString = 'http://' + location.host + '/archaeo18/edition.php?docParams='+params;
+					var linkString = location.protocol + '//' + location.host + '/archaeo18/edition.php?docParams='+params;
 					$(this).click(function(e){
 						showDiv(
 								'#edition_page',
