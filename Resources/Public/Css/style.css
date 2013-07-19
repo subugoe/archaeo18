@@ -133,6 +133,9 @@
   text-decoration: none;
   color: #900000;
 }
+#scriptsSelection .selectHandschriften li a.selected {
+  color: #900000;
+}
 
 #scriptContainer {
   margin-top: 40px;

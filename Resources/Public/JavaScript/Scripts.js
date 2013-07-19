@@ -22,17 +22,21 @@ var Scripts = new function(){
 		var loadDocs = function(){
 			if( Util.docsLoaded == 1 ){
 				for (var i = 0; i < Util.documents.length; i++) {
-					$('<li id="' + Util.documents[i].title + '"><a>' + Util.documents[i].name + '</a></li>').appendTo(gui.selectionDropdown);
+					console.log(Util.documents[i]);
+					$('<li id="'
+							  + Util.documents[i].title
+							  + '"><a>'
+							  + Util.documents[i].name
+							  + '</a></li>').appendTo(gui.selectionDropdown);
 				}
 				$(".selectHandschriften li").each(function() {
-							console.log(this);
-							$(this).click(function(){
-								if ($(this).attr('id') != '') {
-									gui.showDocument($(this).attr('id'));
-								}
-							})
-						});
-
+					$(this).click(function() {
+						if ($(this).attr('id') != '') {
+							$("a", this).addClass('selected');
+							gui.showDocument($(this).attr('id'));
+						}
+					})
+				});
 			}
 			else {
 				if( Util.docsLoaded == -1 ){
