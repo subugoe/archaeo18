@@ -3,10 +3,10 @@
 
 <footer>
 	<div class="wrap">
-		<div>
+		<div class="heyneSnakeFighter">
 			<!-- <img src="img/footer-lakon.png" /> -->
 		</div>
-		<div class="footer-col-bg-gradient clearfix">
+		<div class="footer-col-bg-gradient middle clearfix">
 			<ul>
 				<li><a href="javascript:void(0)" id="linkstart2" title="Startseite" hreflang="de">Start</a></li>
 				<li><a href="javascript:void(0)" id="linkhandschriften2" title="Handschriften" hreflang="de">Handschriften</a></li>
@@ -20,7 +20,7 @@
 				<li><a href="javascript:void(0)" id="linkacknowledgment" title="Danksagung" hreflang="de">Danksagung</a></li>
 			</ul>
 		</div>
-		<div class="clearfix">
+		<div class="clearfix right">
 			<ul>
 				<li><a href="javascript:void(0)" id="linkimprint" title="Impressum" hreflang="de">Impressum</a></li>
 				<li><a href="javascript:void(0)" id="linkpeople" title="Projektmitarbeiter" hreflang="de">Projektmitarbeiter</a></li>
