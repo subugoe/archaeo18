@@ -1,20 +1,48 @@
 #indices_page .dataTable {
   margin-top: 1em;
 }
-#indices_page .dataTable tbody .even {
-  background-color: #eeeeee;
+#indices_page .dataTable tbody .even, #indices_page .dataTable tbody .odd {
+  border-bottom: 1px solid #dedede;
+  background-color: white;
+}
+#indices_page .dataTable tbody a {
+  cursor: pointer;
 }
 #indices_page .dataTable tbody a:hover {
   text-decoration: none;
   color: #900000;
 }
-#indices_page .selectIndices {
-  background-color: white;
-  border: 1px solid #dedede;
+#indices_page .dataTable thead tr td {
+  font-weight: bold;
+  border-bottom: 1px solid #999999;
+  margin: 0 0 3px 0;
+  cursor: pointer;
+}
+#indices_page .dataTable thead tr td:first-child {
+  width: 250px !important;
+}
+#indices_page .dataTable thead tr td:nth-child(2) {
+  width: 200px;
+}
+#indices_page .dataTable tfoot {
+  display: none;
+}
+#indices_page .dataTable a:hover {
+  text-decoration: underline;
+}
+#indices_page .dataTable .sorting {
+  background: url("../Images/sort_both.png") no-repeat scroll right center transparent;
+}
+#indices_page .dataTable .sorting_asc {
+  background: url("../Images/sort_asc.png") no-repeat scroll right center transparent;
+}
+#indices_page .dataTable .sorting_desc {
+  background: url("../Images/sort_desc.png") no-repeat scroll right center transparent;
 }
 #indices_page #tableIndices_wrapper {
   background-color: white;
   padding: 10px;
+  margin-bottom: 0;
 }
 #indices_page #tableIndices_wrapper select {
   background-color: white;
@@ -22,6 +50,65 @@
 }
 #indices_page #tableIndices_wrapper input[type="text"] {
   border: 1px solid #dedede;
+}
+#indices_page #tableIndices_wrapper .dataTables_length,
+#indices_page #tableIndices_wrapper .dataTables_filter,
+#indices_page #tableIndices_wrapper .dataTable,
+#indices_page #tableIndices_wrapper .dataTables_info,
+#indices_page #tableIndices_wrapper .dataTables_paginate {
+  margin: 3px 0;
+}
+#indices_page #tableIndices_wrapper .dataTables_info {
+  text-align: right;
+}
+#indices_page #tableIndices_wrapper .dataTables_paginate {
+  text-align: right;
+  font-family: ropen;
+}
+#indices_page #tableIndices_wrapper .dataTables_paginate a {
+  margin: 0 0 0 10px;
+  cursor: pointer;
+  text-decoration: none;
+}
+#indices_page #tableIndices_wrapper .dataTables_paginate a:hover {
+  color: #900000;
+}
+#indices_page #tableIndices_wrapper .dataTables_length {
+  width: 670px;
+  float: left;
+}
+#indices_page #tableIndices_wrapper .tableIndices_filter {
+  width: 300px;
+  float: right;
+}
+#indices_page #tableIndices_wrapper a:hover {
+  text-decoration: underline;
+}
+#indices_page #indicesSelection .selectIndices {
+  background-color: white;
+  border-top: 1px solid white;
+  border-right: 1px solid white;
+  border-bottom: 1px solid #dedede;
+  border-left: 1px solid white;
+  padding: 4px 4px;
+  font-size: 20px;
+}
+#indices_page #indicesSelection .selectIndices:focus, #indices_page #indicesSelection .selectIndices:active {
+  border-top: 1px solid white;
+  border-right: 1px solid white;
+  border-bottom: 1px solid #dedede;
+  border-left: 1px solid white;
+  outline: none;
+}
+#indices_page #indicesSelection.wrap {
+  margin-bottom: 0 !important;
+  padding-bottom: 0;
+}
+#indices_page #indicesSelection p.chooseIndex {
+  display: none;
+}
+#indices_page #sectionContainer h2.facetLabel {
+  display: none;
 }
 
 #scriptsSelection select {
@@ -310,13 +397,6 @@ footer .logos li {
 .footer-col-bg-gradient {
   background: #b0b0b0;
   background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2IwYjBiMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjYjBiMGIwIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzk4OTg5OCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM5ODk4OTgiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
-  background: -moz-linear-gradient(top, #b0b0b0 0%, #b0b0b0 0%, #989898 100%, #989898 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #b0b0b0), color-stop(0%, #b0b0b0), color-stop(100%, #989898), color-stop(100%, #989898));
-  background: -webkit-linear-gradient(top, #b0b0b0 0%, #b0b0b0 0%, #989898 100%, #989898 100%);
-  background: -o-linear-gradient(top, #b0b0b0 0%, #b0b0b0 0%, #989898 100%, #989898 100%);
-  background: -ms-linear-gradient(top, #b0b0b0 0%, #b0b0b0 0%, #989898 100%, #989898 100%);
-  background: linear-gradient(top, #b0b0b0 0%, #b0b0b0 0%, #989898 100%, #989898 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b0b0b0', endColorstr='#989898',GradientType=0 );
 }
 
 .content-img-style1 {
@@ -340,72 +420,6 @@ footer .logos li {
   font-weight: bold;
 }
 
-.dataTables_wrapper .dataTables_length,
-.dataTables_wrapper .dataTables_filter,
-.dataTables_wrapper .dataTable,
-.dataTables_wrapper .dataTables_info,
-.dataTables_wrapper .dataTables_paginate {
-  margin: 3px 0;
-}
-.dataTables_wrapper .dataTables_info {
-  text-align: right;
-}
-.dataTables_wrapper .dataTables_paginate {
-  text-align: right;
-}
-.dataTables_wrapper .dataTables_paginate a {
-  margin: 0 0 0 10px;
-  cursor: pointer;
-}
-.dataTables_wrapper .dataTables_length {
-  width: 670px;
-  float: left;
-}
-.dataTables_wrapper .tableIndices_filter {
-  width: 300px;
-  float: right;
-}
-.dataTables_wrapper a:hover {
-  text-decoration: underline;
-}
-
-.dataTable thead tr td {
-  font-weight: bold;
-  border-bottom: 1px solid #999999;
-  margin: 0 0 3px 0;
-  cursor: pointer;
-}
-.dataTable thead tr td:first-child {
-  width: 250px !important;
-}
-.dataTable thead tr td:nth-child(2) {
-  width: 200px;
-}
-.dataTable tbody .even {
-  background-color: #e1e1e1;
-}
-.dataTable tbody a {
-  cursor: pointer;
-}
-.dataTable tfoot {
-  display: none;
-}
-.dataTable a:hover {
-  text-decoration: underline;
-}
-.dataTable .sorting {
-  text-align: center;
-  background: url("../Images/sort_both.png") no-repeat scroll right center transparent;
-}
-.dataTable .sorting_asc {
-  text-align: center;
-  background: url("../Images/sort_asc.png") no-repeat scroll right center transparent;
-}
-.dataTable .sorting_desc {
-  text-align: center;
-  background: url("../Images/sort_desc.png") no-repeat scroll right center transparent;
-}
-
 #editionContainer {
   background-color: #EEEEEE;
 }
@@ -425,4 +439,8 @@ h2.head-handwriting {
 .footer, .push {
   height: 142px;
   /* .push must be the same height as .footer */
+}
+
+.alertMessage {
+  color: #900000;
 }

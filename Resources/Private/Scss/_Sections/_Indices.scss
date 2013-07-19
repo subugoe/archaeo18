@@ -1,25 +1,62 @@
+@mixin onlyBorderBottom($color, $bottomColor) {
+	border-top: 1px solid $color;
+	border-right: 1px solid $color;
+	border-bottom: 1px solid $bottomColor;
+	border-left: 1px solid $color;
+}
+
+
 #indices_page {
 	.dataTable {
 		margin-top: 1em;
 		tbody {
-			.even {
-				background-color: $oddColor;
+			.even, .odd {
+				border-bottom: 1px solid $formBorderColor;
+				background-color: white;
 			}
 			a {
+				cursor: pointer;
+
 				&:hover {
 					text-decoration: none;
 					color: $hoverColor;
 				}
 			}
 		}
-	}
-	.selectIndices {
-		background-color: white;
-		border: 1px solid $formBorderColor;
+		thead tr {
+			td {
+				font-weight: bold;
+				border-bottom: 1px solid lighten(#666666, 20%);
+				margin: 0 0 3px 0;
+				cursor: pointer;
+			}
+			td:first-child {
+				width: 250px !important;
+			}
+			td:nth-child(2) {
+				width: 200px;
+			}
+		}
+		tfoot {
+			display: none;
+		}
+		a:hover {
+			text-decoration: underline;
+		}
+		.sorting {
+			background: url($path-img + 'sort_both.png') no-repeat scroll right center transparent;
+		}
+		.sorting_asc {
+			background: url($path-img + 'sort_asc.png') no-repeat scroll right center transparent;
+		}
+		.sorting_desc {
+			background: url($path-img + 'sort_desc.png') no-repeat scroll right center transparent;
+		}
 	}
 	#tableIndices_wrapper {
 		background-color: white;
 		padding: 10px;
+		margin-bottom: 0;
 		select {
 			background-color: white;
 			border: 1px solid $formBorderColor;
@@ -27,5 +64,72 @@
 		input[type="text"] {
 			border: 1px solid $formBorderColor;
 		}
+		.dataTables_filter {
+			label {
+				//display: none;
+			}
+		}
+		.dataTables_length,
+		.dataTables_filter,
+		.dataTable,
+		.dataTables_info,
+		.dataTables_paginate {
+			margin: 3px 0;
+		}
+		.dataTables_info {
+			text-align: right;
+		}
+		.dataTables_paginate {
+			text-align: right;
+			font-family: ropen;
+			a {
+				margin: 0 0 0 10px;
+				cursor: pointer;
+				text-decoration: none;
+				&:hover {
+					color: $hoverColor;
+				}
+			}
+		}
+		.dataTables_length {
+			width: 670px;
+			float: left;
+		}
+		.tableIndices_filter {
+			width: 300px;
+			float: right;
+		}
+		a:hover {
+			text-decoration: underline;
+		}
+	}
+	#indicesSelection {
+		.selectIndices {
+			background-color: white;
+			@include onlyBorderBottom(white, $formBorderColor);
+			padding: 4px 4px;
+			font-size: 20px;
+			&:focus, &:active {
+				@include onlyBorderBottom(white, $formBorderColor);
+				outline: none;
+			}
+		}
+		&.wrap {
+			margin-bottom: 0!important;
+			padding-bottom: 0;
+		}
+		p {
+			&.chooseIndex {
+				display: none;
+			}
+		}
+	}
+	#sectionContainer {
+		h2 {
+			&.facetLabel {
+				display: none;
+			}
+		}
+
 	}
 }
