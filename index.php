@@ -59,11 +59,58 @@
 <!-- INDICES -->
 
 <div id="indices_page">
+
+	<script id="indicesSelectionTemplate" type="text/x-handlebars-template">
+		<h2>{{indexSelectionHeader}}</h2>
+		<p class="chooseIndex">{{pleaseSelectIndex}}</p>
+		<form>
+			<fieldset>
+				<select class="selectIndices">
+					<option>{{selectIndex}}</option>
+					{{#options}}
+						<option id="{{id}}">{{title}}</option>
+					{{/options}}
+				</select>
+			</fieldset>
+		</form>
+	</script>
+
+
+	<script id="sectionContainerMessageTemplate" type="text/x-handlebars-template">
+		<div class="message">
+			<p style="margin-top: 20px">{{message}}</p>
+			<img style="padding: 0px; box-shadow: none; margin-left: 10px" src="Resources/Public/Images/ajax-loader2.gif"/>
+			<p class='alertMessage'>{{alertMessage}}</p>
+		</div>
+		<section>
+			<h2 class="facetLabel">{{facetLabel}}</h2>
+		</section>
+	</script>
+
+
+	<script id="sectionContainerTemplate" type="text/x-handlebars-template">
+		<section class="indicesSection">
+			<h2 class="facetLabel">{{facetLabel}}</h2>
+			<div>
+				{{{content}}}
+			</div>
+			<div id="tagCloud" style="height: 200px; margin-top: 50px; margin-bottom: 50px"></div>
+			<div id="indicesMap" style="position: relative; height: 400px; margin-top: 50px; margin-bottom: 50px"></div>
+
+		</section>
+
+	</script>
+
+	<script id="tagCloudTemplate" type="text/x-handlebars-template">
+
+	</script>
+
 	<div class="content clearfix">
-		<div id="indicesSelection" class="wrap">
-		</div>
-		<div id="sectionContainer" class="wrap">
-		</div>
+		<div id="indicesSelection" class="wrap"></div>
+
+		<div id="indicesSectionContainer" class="wrap"></div>
+		<div id="sectionContainerMessage"></div>
+
 	</div>
 </div>
 

@@ -1,3 +1,9 @@
+#indices_page .indicesSection h2.facetLabel {
+  display: none;
+}
+#indices_page #tableIndices {
+  width: 100%;
+}
 #indices_page .dataTable {
   margin-top: 1em;
 }

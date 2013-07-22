@@ -7,6 +7,16 @@
 
 
 #indices_page {
+	.indicesSection {
+		h2 {
+			&.facetLabel {
+				display: none;
+			}
+		}
+	}
+	#tableIndices {
+		width: 100%;
+	}
 	.dataTable {
 		margin-top: 1em;
 		tbody {
