@@ -71,6 +71,23 @@
 <!-- HANDSCHRIFTEN -->
 
 <div id="manuscripts_page">
+
+	<script id="scriptsTemplate" type="text/x-handlebars-template">
+		<h2>{{scriptSelectionHeader}}</h2>
+		<ul class="selectHandschriften">
+		{{#scripts}}
+			<li id="{{id}}"><a>{{title}}</a></li>
+		{{/scripts}}
+		</ul>
+	</script>
+
+	<script id="scriptsContainerTemplate" type="text/x-handlebars-template">
+		<h2 class="head-handwriting" title="{{title}}">{{scriptSelectedHeader}}: {{title}}</h2>
+		<img alt="" height="{{height}}" src="{{src}}" class="content-img-style2" />
+		<div class="scriptsContent">{{{content}}}</div>
+	</script>
+
+
 	<div class="content clearfix">
 		<div class="wrap">
 			<section id="scriptsSelection">
