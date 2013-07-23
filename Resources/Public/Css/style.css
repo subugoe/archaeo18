@@ -149,11 +149,15 @@
   color: #900000;
 }
 
-#scriptContainer {
+#scriptsContainer {
+  float: left;
   margin-top: 40px;
 }
-#scriptContainer .tei\:teiHeader h3 {
+#scriptsContainer .tei\:teiHeader h3:first-child {
   display: none;
+}
+#scriptsContainer img {
+  float: right;
 }
 
 footer {

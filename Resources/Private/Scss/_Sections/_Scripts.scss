@@ -23,11 +23,17 @@
 		}
 	}
 }
-#scriptContainer {
+#scriptsContainer {
+	float: left;
 	margin-top: 40px;
 	.tei\:teiHeader {
 		h3 {
-			display: none;
+			&:first-child {
+				display: none;
+			}
 		}
+	}
+	img {
+		float: right;
 	}
 }

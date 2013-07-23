@@ -126,6 +126,7 @@
 			<li id="{{id}}" class="scriptList"><a class="icon-chevron-right"> {{title}}</a></li>
 		{{/scripts}}
 		</ul>
+		<div id="scriptsContainer"></div>
 	</script>
 
 	<script id="scriptsContainerTemplate" type="text/x-handlebars-template">
@@ -138,8 +139,6 @@
 	<div class="content clearfix">
 		<div class="wrap">
 			<section id="scriptsSelection">
-			</section>
-			<section id="scriptContainer" class="handwriting textimg clearfix">
 			</section>
 		</div>
 	</div>

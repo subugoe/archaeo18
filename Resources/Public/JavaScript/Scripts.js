@@ -100,7 +100,7 @@ var Scripts = new function() {
 				data['content'] = xhtml
 
 				// put data into template
-				$("#scriptContainer").html(
+				$("#scriptsContainer").html(
 					template(data)
 				);
 
