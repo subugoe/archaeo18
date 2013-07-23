@@ -70,7 +70,7 @@ var Scripts = new function() {
 			}
 		}
 		loadDocs();
-		this.scriptContainer = $("#scriptContainer");
+		this.scriptContainer = $("#scriptsContainer");
 	};
 
 
@@ -105,7 +105,7 @@ var Scripts = new function() {
 				);
 
 				// hide english labels
-				$('#scriptContainer span').each(function() {
+				$('#scriptsContainer span').each(function() {
 					var lang = Util.getAttribute(this, 'xml:lang');
 					if (Util.language != lang && this.className !== 'tei:date') {
 						$(this).addClass('visuallyhidden');
