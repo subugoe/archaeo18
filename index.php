@@ -292,6 +292,7 @@
 		<p>Die Interpunktion wird wie in der Vorlage wiedergegeben; allerdings entfallen mögliche Leerstellen zwischen Satzzeichen und den Wörtern, nach denen erstere stehen. Offensichtlich fehlende Satzzeichen (Punkte, Kommas, Bindestriche etc.), die zum Verständnis notwendig sind, wurden gesetzt und entsprechend gekennzeichnet (&lt;add resp=&quot;editor&quot;&gt;…&lt;/add&gt;).</p>
 		<p>Unterführungszeichen, die das Wort oder den Satz in der darüber stehenden Zeile wiederholen, sind stillschweigend aufgelöst worden.</p>
 		<p>Reine Füllstriche am Ende einer Zeile wurden nicht wiedergegeben.</p>
+		<p>Geschwungenen Klammern: Werden mehrere Zeilen von einer geschwungenen Klammer ( { oder } ) eingefaßt, wird dieser Text ohne Auszeichnung wiedergegeben: Steht der Text, der von der Klammer eingefaßt ist, links von der Klammer, kommt ganz an Ende dieses Textes eine geschwungene Klammer ( } ), auf die dann der Text außerhalb der Klammer folgt. Steht der Text, der von der Klammer eingefaßt wird, rechts von der Klammer, so schreibt man zunächst den Text außerhalb der Klammer hin, dann folgt die Klammer ( { ) und sodann der Inhalt derselben.</p>
 		<p></p>
 		<h2>Konventionen der XML-Kodierung nach TEI</h2>
 		<p>Überschriften wurden in &lt;head&gt; eingeschlossen. Zusätzlich wurde das gesamte Kapitel, zu dem die Überschrift gehört in ein &lt;div&gt; eingeschlossen.</p>
