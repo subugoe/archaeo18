@@ -23,16 +23,24 @@ var Indices = new function(){
 			selectionEvents : false
 		});
 
-		// Templating
-		var source = $("#indicesSelectionTemplate").html();
-		var template = Handlebars.compile(source);
-		var data = [];
+		this.selectionContainer = $("#indicesSelection");
+		$('<h2>' + Util.getString('indexSelection') + '</h2>').appendTo(this.selectionContainer);
+		$('<p class="chooseIndex">' + Util.getString('pleaseSelectIndex') + '</p>').appendTo(this.selectionContainer);
 
-		data['indexSelectionHeader'] = Util.getString('indexSelection');
-		data['pleaseSelectIndex'] = Util.getString('pleaseSelectIndex');
-		data['selectIndex'] = Util.getString('selectIndex');
+		var form = $('<form/>').appendTo(this.selectionContainer);
+		var fieldset = $('<fieldset/>').appendTo(form);
+		this.selectionDropdown = $('<select class="selectIndices"/>').appendTo(fieldset);
+		$(this.selectionDropdown).change(function(){
+			$("select option:selected",this.selectionDropdown).each(function(){
+				if ($(this).attr('id').indexOf('tei') != -1) {
+					gui.showFacetSection($(this).attr('id'));
+				}
+			});
+		});
 
-		data['options'] = [];
+		$('<option>' + Util.getString('selectIndex') + '</option>').appendTo(this.selectionDropdown);
+
+		this.sectionContainer = $("#sectionContainer");
 
 		if (!Util.facetsLoaded) {
 			Util.loadFacets();
@@ -40,90 +48,65 @@ var Indices = new function(){
 		for (var i=0; i < Util.facets.length; i++) {
 			var facet = Util.facets[i];
 			if (facet.render) {
-				data['options'][i] = [];
-				data['options'][i]['id'] = facet.facet;
-				data['options'][i]['title'] = Util.getFacetLabel(facet);
+				$('<option id="' + facet.facet + '">' + Util.getFacetLabel(facet) + '</option>').appendTo(gui.selectionDropdown);
 			}
 		}
-		// put data into template
-		$("#indicesSelection").html(
-			template(data)
-		);
 
-		// add function for listening to changes
-		$('.selectIndices').change(function(){
-			$("option:selected", this).each(function(){
-				if ($(this).attr('id').indexOf('tei') != -1) {
-					gui.showFacetSection($(this).attr('id'));
-				}
-			});
-		});
 	};
 
 	/*
 	* show table and tags/map for facet with <facetId>
 	*/
 	this.showFacetSection = function(facetId) {
-
 		if (facetId == Util.getString('selectIndex')) {
 			return;
 		}
-
-		var status = $("#sectionContainerMessage");
-		var appendStatus = function(msg, server) {
-
-			// Templating
-			var source = $("#sectionContainerMessageTemplate").html();
-			var template = Handlebars.compile(source);
-			var data = [];
-
-			data['message'] = msg;
+		var status;
+		var appendStatus = function(msg,server) {
+			status = $('<p>' + msg + '</p>').appendTo(section);
+			$(status).css('margin-top', '20px');
+			var img = $('<img src="Resources/Public/Images/ajax-loader2.gif"/>').appendTo(status);
+			$(img).css('padding', '0px');
+			$(img).css('box-shadow', 'none');
+			$(img).css('margin-left', '10px');
 			if (server) {
-				data['alertMessage'] = Util.getString('busyServer');
+				$("<p class='alertMessage'>" + Util.getString('busyServer') + "</p>").appendTo(status);
 			}
-			// put data into template
-			$("#sectionContainerMessage").html(
-				template(data)
-			);
 		};
-
-		// another templating section
-		var sectionContainerTemplateSource = $("#sectionContainerTemplate").html();
-		var template = Handlebars.compile(sectionContainerTemplateSource);
-		var data = [];
-
-		// $("#sectionContainerMessage").hide();
+		$(this.sectionContainer).empty();
 		var facet = Util.getFacet(facetId);
-
-		data['facetLabel'] = Util.getFacetLabel(facet);
-
-
+		section = $("<section/>").appendTo(this.sectionContainer);
+		$('<h2 class="facetLabel">' + Util.getFacetLabel(facet) + '</h2>').appendTo(section);
 		var tableLoaded = false, cloudLoaded = false;
 		appendStatus(Util.getString('loadTable'));
-		setTimeout(function() {
-			if (!tableLoaded) {
-				$(status).empty();
+		setTimeout(function(){
+			if( !tableLoaded ){
+				$(status).remove();
 				appendStatus(Util.getString('loadTable'), true);
 			}
-		}, IndicesProps.serverTimeout);
-
-
+		}, IndicesProps.serverTimeout );
 		$.ajax({
 			url: EditionProperties.facetTableQuery.replace('FACET_ID', facet.facet),
 			dataType: 'html',
 			success: function(xhtml) {
 				$(status).remove();
-
 				tableLoaded = true;
-
-				$('.indicesSection').empty();
-
-				data['content'] = xhtml;
-
-				$('.indicesSection .editionRef').each(function(){
+				$(this.sectionContainer).empty();
+				var dummy = $('<div/>');
+				$(xhtml).appendTo(dummy);
+				var table = $($('table', dummy)[0]).appendTo(section);
+				$(table).attr('width', '100%');
+				$(table).attr('id', 'tableIndices');
+				$('span',section).each(function(){
+					var lang = Util.getAttribute(this,'xml:lang');
+					if (Util.language != lang) {
+						$(this).css('display', 'none');
+					}
+				});
+				$('.editionRef',section).each(function(){
 					var params = Util.getAttribute(this, 'rel');
 					params = params.split(';');
-					var linkString = location.protocol + '//' + location.host + '/archaeo18/edition.php?docParams=' + params;
+					var linkString = location.protocol + '//' + location.host + '/archaeo18/edition.php?docParams='+params;
 					$(this).click(function(e){
 						showDiv(
 								'#edition_page',
@@ -145,8 +128,7 @@ var Indices = new function(){
 								var page = parseInt(params[1]);
 								EditionGui.openDocument(
 										false,
-										doc,
-										page,
+										doc,page,
 										"pages",
 										undefined,
 										facet.facet
@@ -156,7 +138,23 @@ var Indices = new function(){
 						getDoc();
 					});
 				});
-
+				$(table).dataTable({
+					"sPaginationType": "full_numbers",
+					"oLanguage": {
+						"sLengthMenu": "Zeige _MENU_ Eintr&auml;ge je Seite",
+						"sZeroRecords": "Keine Eintr&auml;ge gefunden",
+						"sInfo": "_START_ - _END_ von _TOTAL_ Eintr&auml;gen",
+						"sInfoEmpty": "Zeige 0 bis 0 von 0 Eintr&auml;gen",
+						"sInfoFiltered": "(gefiltert aus _MAX_ Eintr&auml;gen insgesamt)",
+						"sSearch": "Suche:",
+						"oPaginate": {
+							"sNext": "",
+							"sFirst": "",
+							"sLast": "",
+							"sPrevious": ""
+						}
+					}
+				});
 				if (facet.facet.indexOf('placeName') == -1) {
 					appendStatus(Util.getString('loadTagcloud'));
 					setTimeout(function(){
@@ -209,63 +207,25 @@ var Indices = new function(){
 						}
 					});
 				}
-				// put data into template
-				$("#indicesSectionContainer").html(
-					template(data)
-				);
-
-				// some post processing
-				$('#indicesSectionContainer table')
-					.first()
-					.attr('id', 'tableIndices');
-
-				$('.indicesSection span').each(function() {
-					var lang = Util.getAttribute(this, 'xml:lang');
-					if (Util.language !== lang) {
-						$(this).css('display', 'none');
-					}
-				});
-
-				$('#tableIndices').dataTable({
-					"sPaginationType": "full_numbers",
-					"oLanguage": {
-						"sLengthMenu": "Zeige _MENU_ Eintr&auml;ge je Seite",
-						"sZeroRecords": "Keine Eintr&auml;ge gefunden",
-						"sInfo": "_START_ - _END_ von _TOTAL_ Eintr&auml;gen",
-						"sInfoEmpty": "Zeige 0 bis 0 von 0 Eintr&auml;gen",
-						"sInfoFiltered": "(gefiltert aus _MAX_ Eintr&auml;gen insgesamt)",
-						"sSearch": "Suche:",
-						"oPaginate": {
-							"sNext": "",
-							"sFirst": "",
-							"sLast": "",
-							"sPrevious": ""
-						}
-					}
-				});
 			}
-
 		});
 	};
 
 	this.displayCloud = function(xml) {
-
-		// Templating
-		var source = $("#tagCloudTemplate").html();
-		var template = Handlebars.compile(source);
-		var data = [];
-
 		var inputField = $('#tableIndices_filter :input')[0];
 		var tagArray = Util.getTags($(xml).find('tag'));
-
-		$('#tagCloud').jQCloud(tagArray);
+		var tagsDiv = $("<div/>").appendTo(section);
+		$(tagsDiv).css('height', '200px');
+		$(tagsDiv).css('margin-top', '50px');
+		$(tagsDiv).css('margin-bottom', '50px');
+		$(tagsDiv).jQCloud(tagArray);
 		var clicked = false;
-		$('#tagCloud').mouseenter(function(){
+		$(tagsDiv).mouseenter(function(){
 			if( !clicked ){
 				clicked = true;
 				$('.tagcloudTag', tagsDiv).each(function(){
 					$(this).removeAttr("href");
-					$(this).css('cursor', 'pointer');
+					$(this).css('cursor','pointer');
 					$(this).click(function(evt) {
 						$(inputField).val($(this).html());
 						$(inputField).trigger('keyup');
@@ -273,13 +233,14 @@ var Indices = new function(){
 				});
 			}
 		});
-		// put data into template
-		$("#tagCloud").html(
-			template(data)
-		);
 	};
 
 	this.displayMap = function(kml) {
+		var mapDiv = $("<div/>").appendTo(section);
+		$(mapDiv).css('position', 'relative');
+		$(mapDiv).css('height', '400px');
+		$(mapDiv).css('margin-top', '50px');
+		$(mapDiv).css('margin-bottom', '50px');
 		var loadMap = function(){
 			if (typeof GeoTemConfig == 'undefined') {
 				setTimeout(function() {
@@ -287,7 +248,7 @@ var Indices = new function(){
 				}, 1000 );
 			}
 			var map = new WidgetWrapper();
-			var mapWidget = new MapWidget(map,$('#indicesMap')[0],{
+			var mapWidget = new MapWidget(map,$(mapDiv)[0],{
 				mapWidth: false,
 				mapHeight: false,
 				mapSelection: false,
@@ -317,6 +278,5 @@ var Indices = new function(){
 };
 
 IndicesProps = {
-	//in ms
-	serverTimeout: 10000
+	serverTimeout: 10000	//in ms
 };
