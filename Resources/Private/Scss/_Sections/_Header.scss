@@ -1,0 +1,7 @@
+header {
+	.header-button {
+		&.active {
+			color: $hoverColor;
+		}
+	}
+}

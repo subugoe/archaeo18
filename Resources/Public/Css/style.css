@@ -212,6 +212,10 @@ footer .logos li {
   display: inline;
 }
 
+header .header-button.active {
+  color: #900000;
+}
+
 /* ALL */
 body {
   font-family: "Droid Sans", sans-serif;

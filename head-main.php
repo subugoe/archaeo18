@@ -33,7 +33,7 @@ if (strstr($_SERVER['SCRIPT_FILENAME'], 'edition.php')) $pageClass = 'edition';
 			<li><a href="javascript:void(0)" title="Handschriften" hreflang="de" id="linkhandschriften">Handschriften</a></li>
 		</ul>
 	</nav>
-	<a href="#" title="Hauptmenue ein- oder ausklappen" hreflang="de" class="header-button icon-chevron-up">&nbsp;<span class="visuallyhidden">Close Header</span></a>
+	<a href="#" title="Hauptmenue ein- oder ausklappen" hreflang="de" class="header-button icon-wrench">&nbsp;<span class="visuallyhidden">Close Header</span></a>
 </header>
 
 <noscript>
