@@ -104,10 +104,11 @@ var Scripts = new function() {
 					template(data)
 				);
 
+				// hide english labels
 				$('#scriptContainer span').each(function() {
 					var lang = Util.getAttribute(this, 'xml:lang');
 					if (Util.language != lang && this.className !== 'tei:date') {
-						$(this).css('display', 'none');
+						$(this).addClass('visuallyhidden');
 					}
 				});
 			}
