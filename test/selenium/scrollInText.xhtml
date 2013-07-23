@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://134.76.21.92:8080/" />
+<title>scrollInText</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">scrollInText</td></tr>
+</thead><tbody>
+<!--Test ist nicht fertig, nach 30 Sek. Wartezeit kommt normalerweise die Frage von FF ob das Skript beendet werden soll. Dieser Dialog wird mit Selenium nicht richtig beantwortet.-->
+<tr>
+	<td>open</td>
+	<td>/archaeo18/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=linkedition</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Documents</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Vorlesungsmitschrift 1780 (Bern)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Folder #1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=a.tools-text</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>css=select</td>
+	<td>label=18</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Dazumahl war an Kunst fast nicht zu denken</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeElementPositionTop</td>
+	<td>xpath=//a[@name=&quot;p18&quot;]</td>
+	<td>p18Pos</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${p18Pos}</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://localhost:8080/" />
+<title>folderIcons</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">folderIcons</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/archaeo18/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=linkedition</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Documents</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Vorlesungsmitschrift 1780 (Bern)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Folder #1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=a.tools-pdf</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=a.tools-dfg</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=a.tools-link</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=a.tools-images</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeElementPositionLeft</td>
+	<td>css=a.tools-pdf</td>
+	<td>leftStartPos</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${leftStartPos}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPositionLeft</td>
+	<td>css=a.tools-dfg</td>
+	<td>javascript{parseInt(storedVars['leftStartPos'])+26}</td>
+</tr>
+<tr>
+	<td>verifyElementPositionLeft</td>
+	<td>css=a.tools-link</td>
+	<td>javascript{parseInt(storedVars['leftStartPos'])+52}</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=a.tools-text</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeElementPositionTop</td>
+	<td>css=a.tools-pdf</td>
+	<td>topPosition</td>
+</tr>
+<tr>
+	<td>verifyElementPositionTop</td>
+	<td>css=a.tools-dfg</td>
+	<td>${topPosition}</td>
+</tr>
+<tr>
+	<td>verifyElementPositionTop</td>
+	<td>css=a.tools-link</td>
+	<td>${topPosition}</td>
+</tr>
+</tbody></table>
+</body>
+</html>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://localhost:8080/" />
+<title>linkColor</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">linkColor</td></tr>
+</thead><tbody>
+<tr>
+	<td>setImplicitWaitLocator</td>
+	<td>600000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/archaeo18/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=linkedition</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Documents</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Vorlesungsmitschrift 1780 (Bern)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Folder #1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=a.tools-text</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForNotElementPresent</td>
+	<td>//div[@class=&quot;blockDivOverlay&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>css=select</td>
+	<td>label=38</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=option[value=&quot;38&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForTextPresent</td>
+	<td>4. Zeitalter des Polycrates Tyran zu Samos</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>xpath=/html/body/div/div[2]/div/div[4]/div[2]/div/div/div/div[3]/div/div/div[6]/p[30]/em/a[contains(@style, &quot;255, 140, 0&quot;)]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>xpath=/html/body/div/div[2]/div/div[4]/div[2]/div/div/div/div[3]/div/div/div[6]/p[30]/em[2]/a[contains(@style, &quot;148, 0, 211&quot;)]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>xpath=/html/body/div/div[2]/div/div[4]/div[2]/div/div/div/div[3]/div/div/div[6]/p[30]/a[contains(@style, &quot;255, 20, 147&quot;)]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>xpath=/html/body/div/div[2]/div/div[4]/div[2]/div/div/div/div[3]/div/div/div[6]/p[30]/a[2][contains(@style, &quot;34, 139, 34&quot;)]</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

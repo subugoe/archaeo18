@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://localhost:8080/" />
+<title>browseImages</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">browseImages</td></tr>
+</thead><tbody>
+<!--Browse to the images and verifys that the image of page 1 and 12 is loaded-->
+<tr>
+	<td>open</td>
+	<td>/archaeo18/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=linkedition</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Documents</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForTextPresent</td>
+	<td>Vorlesungsmitschrift 1772 (Weimar)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Vorlesungsmitschrift 1775 (Berlin)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Folder #1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=a.tools-images</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyAttribute</td>
+	<td>xpath=//div[@class=&quot;olMap&quot;]//div[@class=&quot;olLayerDiv&quot;]//img[@class=&quot;olTileImage&quot;]@src</td>
+	<td>http://134.76.21.92:8080/images/berlin-ms-germ-qrt-1666/1200/00000001.jpeg</td>
+</tr>
+<tr>
+	<td>verifyNotElementWidth</td>
+	<td>xpath=//div[@class=&quot;olMap&quot;]//div[@class=&quot;olLayerDiv&quot;]//img[@class=&quot;olTileImage&quot;]</td>
+	<td>&quot;undefined&quot;</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>css=select</td>
+	<td>label=12</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyAttribute</td>
+	<td>xpath=//div[@class=&quot;olMap&quot;]//div[@class=&quot;olLayerDiv&quot;]//img[@class=&quot;olTileImage&quot;]@src</td>
+	<td>http://134.76.21.92:8080/images/berlin-ms-germ-qrt-1666/1200/00000012.jpeg</td>
+</tr>
+<tr>
+	<td>verifyNotElementWidth</td>
+	<td>xpath=//div[@class=&quot;olMap&quot;]//div[@class=&quot;olLayerDiv&quot;]//img[@class=&quot;olTileImage&quot;]</td>
+	<td>&quot;undefined&quot;</td>
+</tr>
+</tbody></table>
+</body>
+</html>
