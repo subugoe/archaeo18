@@ -3,19 +3,22 @@
 var headerState = $.cookie('header');
 if ($.cookie('header') == 'header-small') {
 	$('html').toggleClass('header-small');
-	$('.header-button').addClass('active');
+	$('.header-button').removeClass('icon-chevron-up').addClass('icon-chevron-down');
 }
-$('.header-button').click(function() {;
+$('.header-button').click(function() {
+	//console.log('(1) Header Button clicked');
+	//console.log('(2) Header State: ' + headerState);
+	//console.log('(2) Header State (noch mal): ' + $.cookie('header'));
 	if ($.cookie('header') == 'header-small') {
 		//console.log('(3) make header big');
 		$.cookie('header', '');
 		$('html').toggleClass('header-small', '');
-		$('.header-button').removeClass('active');
+		$('.header-button').removeClass('icon-chevron-down').addClass('icon-chevron-up');
 	} else {
 		//console.log('(3) make header small');
 		$.cookie('header', 'header-small');
 		$('html').toggleClass('header-small');
-		$('.header-button').addClass('active');
+		$('.header-button').removeClass('icon-chevron-up').addClass('icon-chevron-down');
 	}
 });
 
