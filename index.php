@@ -123,7 +123,7 @@
 		<h2>{{scriptSelectionHeader}}</h2>
 		<ul class="selectHandschriften">
 		{{#scripts}}
-			<li id="{{id}}"><a>{{title}}</a></li>
+			<li id="{{id}}" class="scriptList"><a class="icon-chevron-right"> {{title}}</a></li>
 		{{/scripts}}
 		</ul>
 	</script>

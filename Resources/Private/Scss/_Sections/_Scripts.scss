@@ -7,7 +7,9 @@
 		padding: 15px 0;
 	}
 	.selectHandschriften {
+		padding-left: 0;
 		li {
+			list-style-type: none;
 			a {
 				&:hover {
 					cursor: pointer;
@@ -23,4 +25,9 @@
 }
 #scriptContainer {
 	margin-top: 40px;
+	.tei\:teiHeader {
+		h3 {
+			display: none;
+		}
+	}
 }

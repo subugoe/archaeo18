@@ -41,10 +41,20 @@ var Scripts = new function() {
 
 				// listener for clicks on item
 				$(".selectHandschriften li").each(function() {
-					$(this).removeClass('selected');
 					$(this).click(function() {
 						if ($(this).attr('id') != '') {
-							$("a", this).addClass('selected');
+							$(".scriptList a").each(function() {
+								$(this)
+										.removeClass("selected")
+										.removeClass("icon-chevron-down")
+										.addClass("icon-chevron-right");
+							})
+
+							$("a", this)
+									.addClass('selected')
+									.removeClass("icon-chevron-right")
+									.addClass("icon-chevron-down");
+
 							gui.showDocument($(this).attr('id'));
 						}
 					})
