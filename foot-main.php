@@ -59,6 +59,9 @@
 <!-- include jsonlib plugin -->
 <script src="ropen/lib/jsonlib/jsonlib.js"></script>
 
+
+<script src="ropen/lib/handlebars/dist/handlebars.js"></script>
+
 <!-- include jQCloud plugin -->
 <link href="ropen/lib/jqcloud/jqcloud.css" rel="stylesheet" type="text/css">
 <script type="text/javascript" src="ropen/lib/jqcloud/jqcloud-1.0.3.js"></script>

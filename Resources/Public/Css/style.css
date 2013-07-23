@@ -128,6 +128,12 @@
 #scriptsSelection h2 {
   padding: 15px 0;
 }
+#scriptsSelection .selectHandschriften {
+  padding-left: 0;
+}
+#scriptsSelection .selectHandschriften li {
+  list-style-type: none;
+}
 #scriptsSelection .selectHandschriften li a:hover {
   cursor: pointer;
   text-decoration: none;
@@ -137,8 +143,15 @@
   color: #900000;
 }
 
-#scriptContainer {
+#scriptsContainer {
+  float: left;
   margin-top: 40px;
+}
+#scriptsContainer .tei\:teiHeader h3:first-child {
+  display: none;
+}
+#scriptsContainer img {
+  float: right;
 }
 
 footer {

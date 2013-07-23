@@ -3,7 +3,7 @@
 var headerState = $.cookie('header');
 if ($.cookie('header') == 'header-small') {
 	$('html').toggleClass('header-small');
-	$('.header-button').removeClass('header-button-close').addClass('header-button-open');
+	$('.header-button').removeClass('icon-chevron-up').addClass('icon-chevron-down');
 }
 $('.header-button').click(function() {
 	//console.log('(1) Header Button clicked');
@@ -13,12 +13,12 @@ $('.header-button').click(function() {
 		//console.log('(3) make header big');
 		$.cookie('header', '');
 		$('html').toggleClass('header-small', '');
-		$('.header-button').removeClass('header-button-open').addClass('header-button-close');
+		$('.header-button').removeClass('icon-chevron-down').addClass('icon-chevron-up');
 	} else {
 		//console.log('(3) make header small');
 		$.cookie('header', 'header-small');
 		$('html').toggleClass('header-small');
-		$('.header-button').removeClass('header-button-close').addClass('header-button-open');
+		$('.header-button').removeClass('icon-chevron-up').addClass('icon-chevron-down');
 	}
 });
 

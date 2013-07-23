@@ -1,81 +1,114 @@
 /*
-* scripts page implementation
-*/
-var Scripts = new function(){
+ * scripts page implementation
+ */
+var Scripts = new function() {
 
 	this.initialized = false;
 
 	/*
-	* initialize scripts page; load documents
-	*/
-	this.initialize = function(){
+	 * initialize scripts page; load documents
+	 */
+	this.initialize = function() {
+		// templating
+		var source = $("#scriptsTemplate").html();
+
+		var template = Handlebars.compile(source);
+
+		var data = [];
+		data['scriptSelectionHeader'] =  Util.getString('scriptSelection');
+
+		data['scripts'] = [];
 
 		this.initialized = true;
-		
+
 		var gui = this;
 
-		this.selectionContainer = $("#scriptsSelection");
-		$('<h2>' + Util.getString('scriptSelection') + '</h2>').appendTo(this.selectionContainer);
+		var loadDocs = function() {
 
-		this.selectionDropdown = $('<ul class="selectHandschriften"/>').appendTo(this.selectionContainer);
-
-		var loadDocs = function(){
-			if( Util.docsLoaded == 1 ){
+			if (Util.docsLoaded == 1) {
 				for (var i = 0; i < Util.documents.length; i++) {
-					console.log(Util.documents[i]);
-					$('<li id="'
-							  + Util.documents[i].title
-							  + '"><a>'
-							  + Util.documents[i].name
-							  + '</a></li>').appendTo(gui.selectionDropdown);
+					var script = [];
+					script['id'] = Util.documents[i].title;
+					script['title'] = Util.documents[i].name;
+
+					data['scripts'].push(script);
 				}
+
+				// put data into template
+				$("#scriptsSelection").html(
+						template(data)
+				);
+
+				// listener for clicks on item
 				$(".selectHandschriften li").each(function() {
 					$(this).click(function() {
 						if ($(this).attr('id') != '') {
-							$("a", this).addClass('selected');
+							$(".scriptList a").each(function() {
+								$(this)
+										.removeClass("selected")
+										.removeClass("icon-chevron-down")
+										.addClass("icon-chevron-right");
+							})
+
+							$("a", this)
+									.addClass('selected')
+									.removeClass("icon-chevron-right")
+									.addClass("icon-chevron-down");
+
 							gui.showDocument($(this).attr('id'));
 						}
 					})
 				});
 			}
 			else {
-				if( Util.docsLoaded == -1 ){
+				if (Util.docsLoaded == -1) {
 					Util.loadDocuments();
 				}
-				setTimeout(function(){
+				setTimeout(function() {
 					loadDocs();
-				}, 100 );
+				}, 100);
 			}
 		}
 		loadDocs();
-		this.scriptContainer = $("#scriptContainer");
+		this.scriptContainer = $("#scriptsContainer");
 	};
 
+
 	/*
-	* show document with given <title>
-	*/
-	this.showDocument = function(title){
-		if( title == Util.getString('selectHandwriting') ){
-			return;
-		}
+	 * show document with given <title>
+	 */
+	this.showDocument = function(title) {
+
+		// templating
+		var source = $("#scriptsContainerTemplate").html();
+		var template = Handlebars.compile(source);
+
 		var doc = Util.getDoc(title);
 		var gui = this;
 		$(this.scriptContainer).empty();
 		$.ajax({
-			url: EditionProperties.metadataQuery.replace('DOC_ID',title),
+			url: EditionProperties.metadataQuery.replace('DOC_ID', title),
 			dataType: 'html',
-			success: function(xhtml){
-				$('<h2 class="head-handwriting" id=' + title + '>' + Util.getString('handwriting') + ': ' + title + '</h2>').appendTo(gui.scriptContainer);
-				var width = ScriptsProps.hwImageWidth;
-				var height = ScriptsProps.hwImageHeight;
-				var imageDiv = $('<div/>').appendTo(gui.scriptContainer);
-				var image = $('<img alt="" height="' + height + '" src="' + doc.preview + '" class="content-img-style2" />').appendTo(imageDiv);
-				var contentDiv = $('<div/>').appendTo(gui.scriptContainer);
-				$(xhtml).appendTo(contentDiv);
-				$('span',contentDiv).each(function(){
+			success: function(xhtml) {
+				var data = [];
+
+				data['scriptSelectedHeader'] = Util.getString('handwriting');
+				data['title'] = title;
+				data['width'] = ScriptsProps.hwImageWidth;
+				data['height'] = ScriptsProps.hwImageHeight;
+				data['src'] = doc.preview;
+				data['content'] = xhtml
+
+				// put data into template
+				$("#scriptsContainer").html(
+					template(data)
+				);
+
+				// hide english labels
+				$('#scriptsContainer span').each(function() {
 					var lang = Util.getAttribute(this, 'xml:lang');
-					if( Util.language != lang && this.className !== 'tei:date'){
-						$(this).css('display','none');
+					if (Util.language != lang && this.className !== 'tei:date') {
+						$(this).addClass('visuallyhidden');
 					}
 				});
 			}

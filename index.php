@@ -71,11 +71,27 @@
 <!-- HANDSCHRIFTEN -->
 
 <div id="manuscripts_page">
+
+	<script id="scriptsTemplate" type="text/x-handlebars-template">
+		<h2>{{scriptSelectionHeader}}</h2>
+		<ul class="selectHandschriften">
+		{{#scripts}}
+			<li id="{{id}}" class="scriptList"><a class="icon-chevron-right"> {{title}}</a></li>
+		{{/scripts}}
+		</ul>
+		<div id="scriptsContainer"></div>
+	</script>
+
+	<script id="scriptsContainerTemplate" type="text/x-handlebars-template">
+		<h2 class="head-handwriting" title="{{title}}">{{scriptSelectedHeader}}: {{title}}</h2>
+		<img alt="" height="{{height}}" src="{{src}}" class="content-img-style2" />
+		<div class="scriptsContent">{{{content}}}</div>
+	</script>
+
+
 	<div class="content clearfix">
 		<div class="wrap">
 			<section id="scriptsSelection">
-			</section>
-			<section id="scriptContainer" class="handwriting textimg clearfix">
 			</section>
 		</div>
 	</div>
@@ -147,8 +163,8 @@
 		<p>In der <em>«Transkription seitenweise»</em> und der <em>«Transkription-Fließtext»</em>  sind Orte, Literatur, Werke und Personen markiert und – soweit möglich – mit Links zu externen Datenbanken versehen worden. Ohne besondere Einstellungen erscheinen referenzierte Entitäten zunächst blau, unreferenzierte rot. Durch das Setzen eines Hakens bei einer oder mehreren Entitäten (über dem Text) werden Personen orange, Ortsnamen violett, Literatur grün und Werke pink hervorgehoben. Stellenkommentare und Auszeichnungen sind direkt an der relevanten Textstelle als Tooltip aufgelöst. Über diese Tooltips gelangen Sie bei den meisten Auszeichnungen auf eine externe Ressource, die weitere Informationen über den betreffenden Ort, die Person oder das Werk liefert. Bei der ausgewiesenen Literatur gelangen Sie zum Digitalisat des Buches.</p>
 		<h3>Wie öffne ich eine neue Mappe?</h3>
 		<p>Sie haben zwei Möglichkeiten: Entweder wählen Sie im Browser ein Dokument oder ein Suchergebnis aus und nutzen die Option <em>„Öffne Dokument in... Neuer Mappe“</em>. Alternativ können Sie mit dem Button <em>„Neue Mappe“</em> in der linken oberen Ecke der Arbeitsoberfläche eine leere Mappe erstellen.</p>
-		<h3>Wie kann ich einen Zustand meiner Arbeitsoberfläche speichern? Der Magnetic Link:</h3>
-		<p>Wenn Sie ihre geöffneten Dokumente in den gewählten Ansichten zu einem späteren Zeitpunkt wieder aufrufen möchten, um weiterzuarbeiten, können Sie den Zustand mit über den „Magnetic Link“ in der linken oberen Ecke der Arbeitsoberfläche speichern. Ein Klick öffnet ein kleines Fenster, in dem Sie mit einem Klick auf „Erzeuge Magnetic Link“ einen Link erstellen, den Sie sich kopieren und abspeichern können. Rufen Sie diesen Link in Ihrem Web-Browser erneut auf, wird Ihre Arbeitssitzung so wieder hergestellt, wie zu dem Zeitpunkt, als Sie den Link erzeugt haben. Es können beliebig viele Magnetic Links erzeugt werden. </p>
+		<h3>Wie kann ich einen Zustand meiner Arbeitsoberfläche speichern? Das Lesezeichen:</h3>
+		<p>Wenn Sie ihre geöffneten Dokumente in den gewählten Ansichten zu einem späteren Zeitpunkt wieder aufrufen möchten, um weiterzuarbeiten, können Sie den Zustand mit über das „Lesezeichen“ in der linken oberen Ecke der Arbeitsoberfläche speichern. Ein Klick öffnet ein kleines Fenster, in dem Sie mit einem Klick auf „Lesezeichen erstellen“ einen Link erstellen, den Sie sich kopieren und abspeichern können. Rufen Sie diesen Link in Ihrem Web-Browser erneut auf, wird Ihre Arbeitssitzung so wieder hergestellt, wie zu dem Zeitpunkt, als Sie den Link erzeugt haben. Es können beliebig viele Lesezeichen erzeugt werden. </p>
 		<h3>Wie kann ich die Arbeitsoberfläche optimal ausnutzen? Der Vollbildmodus und die automatische Ausrichtung:</h3> 
 		<p>Sie haben die Möglichkeit Ihre Arbeitsoberfläche individuell einzurichten. Es sind beliebig viele Arbeitsmappen zur Dokumentanzeige auf der Arbeitsfläche ablegbar. Die Mappen und der Browser können beliebig auf der Arbeitsoberfläche angeordnet – meint verschoben, vergrößert, verkleinert minimiert – werden. Alternativ können Sie mit Aktivierung des Buttons „automatische Ausrichtung“ in der oberen rechten Ecke der Arbeitsoberfläche alle Mappen nebeneinander anordnen lassen. Einmal aktiviert, werden alle neuen Mappen automatisch ausgerichtet. Der Modus kann jederzeit wieder deaktiviert werden. Mit dem kleinen „Aufwärtspfeil“ ganz oben auf der Projektseite kann außerdem das Menu mit dem Titel der Webseite und der Seitennavigation eingeklappt werden, um so die Arbeitsfläche zu vergrößern. Um die Größe der Arbeitsoberfläche noch weiter zu optimieren, besteht darüber hinaus die Möglichkeit, den Vollbildmodus zu aktivieren (ebenfalls in der oberen rechten Ecke des Arbeitsplatzes). Durch Betätigen der Taste „Escape“ (esc) auf Ihrer Computertastatur können Sie den Vollbildmodus jederzeit wieder verlassen.</p>
 		<h3>Technischer Setup</h3>
@@ -262,19 +278,46 @@
 		<h2>Editionsrichtlinien</h2>
 		<p>Die festgelegten Editionsgrundsätze gelten für alle Vorlesungsmitschriften und Ab- bzw. Nachschriften. Wenn für einzelne Handschriften Ausnahmen gemacht wurden, sind diese gesondert angegeben. Die Edition ist so gestaltet, dass sie von möglichst vielen Wissenschaftszweigen genutzt werden kann. Es wurde keine reine philologische Edition angestrebt.</p>
 		
-		<p>Die Erfassung der Texte erfolgte grundsätzlich getreu ihrer Vorlagen im Unicode-Format (Kodierung in UTF-8) des zum Zeitpunkt der Erfassung gültigen Unicode-Standards. Zudem sind die Zeichen, je nach Möglichkeit, gemäß ihrer Semantik abgebildet. In der Regel wurde auf modernisierende Veränderungen des lexikalischen Materials verzichtet, so z. B. bei der Schreibung von Eigennamen. Dementsprechend sind Fehler und Streichungen des Schreibers ¸bernommen und keine Korrektur der Syntax vorgenommen worden. Unleserliche oder nicht entzifferbare Wörter wurden entsprechend gekennzeichnet (<unclear>).</p>
+		<p>Die Erfassung der Texte erfolgte grundsätzlich getreu ihrer Vorlagen im Unicode-Format (Kodierung in UTF-8) des zum Zeitpunkt der Erfassung gültigen Unicode-Standards. Zudem sind die Zeichen, je nach Möglichkeit, gemäß ihrer Semantik abgebildet. In der Regel wurde auf modernisierende Veränderungen des lexikalischen Materials verzichtet, so z. B. bei der Schreibung von Eigennamen. Dementsprechend sind Fehler und Streichungen des Schreibers ¸bernommen und keine Korrektur der Syntax vorgenommen worden. Unleserliche oder nicht entzifferbare Wörter wurden entsprechend gekennzeichnet (&lt;unclear&gt;).</p>
 		<p>Groß- und Kleinschreibung folgen der Vorlage. Ausnahmen: Satzanfänge (auch bei Aufzählungen und unvollständigen Sätzen) und Eigennamen werden immer großgeschrieben. Abgesehen davon werden Eigennamen jedoch entsprechend der Vorlage wiedergegeben.</p>
 		<p>Alle Akzentzeichen werden der Vorlage entsprechend wiedergegeben. Ausnahmen: übergesetzte Vokale wurden als Punkte aufgelöst; Zeichen, die reine Lesehilfe sind, sind entfallen; es wurde nicht festgehalten, wenn beispielsweise Punkte über i und j fehlen.</p>
+		<p>Gebräuchliche Ligaturen (æ, œ) oder ähnliches blieben erhalten, ungebräuchliche Ligaturen wurden ohne Auszeichnung aufgelöst.</p>
+		<p>Nasalstriche über Buchstaben, die die darauf folgende Auslassung von „m“ oder „n“ anzeigen, wurden aufgelöst.</p>
 		<p>Nasalstriche über Buchstaben, die die darauf folgende Auslassung von m oder n anzeigen, wurden aufgelöst.</p>
 		<p>Die Buchstaben s, ss, ﬂ, sz und z wurden beibehalten.</p>
 		<p>Die Getrennt- und Zusammenschreibung folgt der Vorlage, sofern diese eindeutig ist.</p>
 		<p>Ein doppelter Bindestrich (=) wird als einfacher Bindestrich (-) wiedergegeben.</p>
 		<p>Zahlzeichen werden vorlagengetreu wiedergegeben, es sei denn, dass gewichtige Gründe für eine Auflösung sprechen.</p>
 		<p>Hochgestellte Zeichen und Zahlen sowie Brüche wurden nicht ausgezeichnet und sind damit als normaler Text wiedergegeben.</p>
-		<p>Die Interpunktion wird wie in der Vorlage wiedergegeben; allerdings entfallen mögliche Leerstellen zwischen Satzzeichen und den Wörtern, nach denen erstere stehen. Offensichtlich fehlende Satzzeichen (Punkte, Kommas, Bindestriche etc.), die zum Verständnis notwendig sind, wurden gesetzt und entsprechend gekennzeichnet (<add resp="editor">Ö</add>).</p>
+		<p>Die Interpunktion wird wie in der Vorlage wiedergegeben; allerdings entfallen mögliche Leerstellen zwischen Satzzeichen und den Wörtern, nach denen erstere stehen. Offensichtlich fehlende Satzzeichen (Punkte, Kommas, Bindestriche etc.), die zum Verständnis notwendig sind, wurden gesetzt und entsprechend gekennzeichnet (&lt;add resp=&quot;editor&quot;&gt;…&lt;/add&gt;).</p>
 		<p>Unterführungszeichen, die das Wort oder den Satz in der darüber stehenden Zeile wiederholen, sind stillschweigend aufgelöst worden.</p>
 		<p>Reine Füllstriche am Ende einer Zeile wurden nicht wiedergegeben.</p>
-		</div>
+		<p></p>
+		<h2>Konventionen der XML-Kodierung nach TEI</h2>
+		<p>Überschriften wurden in &lt;head&gt; eingeschlossen. Zusätzlich wurde das gesamte Kapitel, zu dem die Überschrift gehört in ein &lt;div&gt; eingeschlossen.</p>
+		<p> Ein Seitenumbruch wird vor der Seite mit &lt;pb/&gt; gekennzeichnet.</p>
+		<p>Fortlaufende Seitenzahlen wurden nicht wiedergegeben; andere Ordnungszahlen, wie beispielsweise die Vorlesungseinheiten, hingegen schon.</p>
+		<p>Zeilenumbrüche wurden mit &lt;lb/&gt; gekennzeichnet.</p>
+		<p>Absätze wurden mit dem Element &lt;p&gt; für paragraph kodiert.</p>
+		<p>Zitate wurden in &lt;q&gt; eingeschlossen.</p>
+		<p>Literaturangaben wurden in der Erstaufnahme in &lt;bibl&gt;&lt;ref&gt; eingeschlossen.</p>
+		<p>Personennamen wurden in &lt;persName&gt; eingeschlossen.</p>
+		<p>Ortsnamen wurden in &lt;placeName&gt; eingeschlossen.</p>
+		<p>Kunstwerke wie Laokoon wurden in &lt;term/&gt;  eingeschlossen.</p>
+		<p>Datumsangaben wurden in &lt;date&gt; eingeschlossen.</p>
+		<p>Ein Wechsel der Schriftart von z.B. deutscher Kurrentschrift in lateinische Druckbuchstaben wurde in &lt;emph&gt; eingeschlossen. Handelte es sich nur um einzelne Buchstaben am Anfang oder am Ende Wortes, wurde die Schriftart gewählt, in der mehr als die Hälfte des Wortes verfasst ist; eine Auszeichnung erfolgte dementsprechend nur, wenn das Wort daraufhin nicht mehr als in deutscher Kurrentschrift verfasst gilt.</p>
+		<p>Der Wechsel von deutscher Sprache in eine andere Sprache wurde mit &lt;foreign/&gt; umschlossen. Fachtermini wurden von der &lt;foreign&gt;-Kennzeichung ausgeschlossen.</p>
+		<p>Ein erkennbarer Wechsel der Handschrift wurde mit &lt;handshift/&gt; angegeben. Wechselt die Hand wieder zurücke, erfolgte ein weiteres &lt;handshift/&gt;.</p>
+		<p>Anmerkungen wurden in &lt;note&gt; eingeschlossen. Im Attribut place wurde angegeben, wo sich die Anmerkung befindet, ob beispielsweise am Rand oder am Fuß der Seite. Textblöcke, deren Zuordnung zum Haupttext nicht eindeutig erkennbar ist, werden mit &lt;ab&gt; ausgezeichnet.</p>
+		<p>Unterstreichungen wurden mit &lt;hi rend=&quot;underline&quot;&gt;...&lt;/hi&gt; oder &lt;hi rend=&quot;double underline&quot;&gt;...&lt;/hi&gt; markiert.</p>
+		<p>Hochgestellte Zahlen oder Buchstaben wurden mit &lt;hi rend=&quot;sup&quot;&gt;...&lt;/hi&gt; dargestellt.</p>
+		<p>Unsichere Lesungen und Nichtauflösbare Unklarheiten wurden in &lt;unclear&gt; eingeschlossen.</p>
+		<p>Fehlender Text: Fehlt Text (durch zu enge Bindung oder weil der Autor eine offensichtliche Leerstelle gelassen hat), wurde die Stelle mit &lt;gap/&gt; markiert werden.</p>
+		<p>Streichungen wurden grundsätzlich in &lt;del&gt; eingeschlossen. Ist das Gestrichene lesbar, wurde es wiedergegeben, wenn nicht, blieb das &lt;del&gt; leer.</p>
+		<p>Einschübe des Autors werden in &lt;add&gt; eingeschlossen.</p>
+		<p>Endverschleifungen und Abkürzungen werden aufgelöst und in &lt;expan&gt; eingeschlossen. Sie werden in hellgrauer Schriftfarbe wiedergegeben. Immer wiederkehrende Endverschleifungen und Abkürzungen von kurzen und sehr gebräuchlichen Wörtern wurden im Text jedoch stillschweigend aufgelöst.</p>
+		<p>Kustoden wurden wiedergegeben und mit &lt;fw&gt; ausgezeichnet.</p>
+</div>
 	</div>
 </div>
 
