@@ -165,29 +165,29 @@
   <target name="data.download" depends="data.download.entities, data.download.kml, data.download.cloud, data.download.docs, data.download.search"/>
 
   <target name="data.download.kml">
-    <get src="${exist.kml.placeName.url}" dest="${exist.kml.placeName.local}"/>
+    <get src="${exist.kml.placeName.url}" dest="${exist.kml.placeName.local}" verbose="on"/>
   </target>
 
   <target name="data.download.cloud">
-    <get src="${exist.cloud.persName.url}" dest="${exist.cloud.persName.local}"/>
-    <get src="${exist.cloud.placeName.url}" dest="${exist.cloud.placeName.local}"/>
-    <get src="${exist.cloud.term.url}" dest="${exist.cloud.term.local}"/>
+    <get src="${exist.cloud.persName.url}" dest="${exist.cloud.persName.local}" verbose="on"/>
+    <get src="${exist.cloud.placeName.url}" dest="${exist.cloud.placeName.local}" verbose="on"/>
+    <get src="${exist.cloud.term.url}" dest="${exist.cloud.term.local}" verbose="on"/>
   </target>
 
   <target name="data.download.entities">
-    <get src="${exist.entities.persName.url}" dest="${exist.entities.persName.local}"/>
-    <get src="${exist.entities.placeName.url}" dest="${exist.entities.placeName.local}"/>
-    <get src="${exist.entities.term.url}" dest="${exist.entities.term.local}"/>
-    <get src="${exist.entities.bibl.url}" dest="${exist.entities.bibl.local}"/>
+    <get src="${exist.entities.persName.url}" dest="${exist.entities.persName.local}" verbose="on"/>
+    <get src="${exist.entities.placeName.url}" dest="${exist.entities.placeName.local}" verbose="on"/>
+    <get src="${exist.entities.term.url}" dest="${exist.entities.term.local}" verbose="on"/>
+    <get src="${exist.entities.bibl.url}" dest="${exist.entities.bibl.local}" verbose="on"/>
   </target>
 
   <target name="data.download.docs">
-    <get src="${exist.other.facets.url}" dest="${exist.other.facets.local}"/>
-    <get src="${exist.other.docs.url}" dest="${exist.other.docs.local}"/>
+    <get src="${exist.other.facets.url}" dest="${exist.other.facets.local}" verbose="on"/>
+    <get src="${exist.other.docs.url}" dest="${exist.other.docs.local}" verbose="on"/>
   </target>
 
   <target name="data.download.search">
-    <get src="${exist.search.url}" dest="${exist.search.local}"/>
+    <get src="${exist.search.url}" dest="${exist.search.local}" verbose="on"/>
   </target>
 
   <!-- 
