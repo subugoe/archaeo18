@@ -292,6 +292,7 @@
 		<p>Die Interpunktion wird wie in der Vorlage wiedergegeben; allerdings entfallen mögliche Leerstellen zwischen Satzzeichen und den Wörtern, nach denen erstere stehen. Offensichtlich fehlende Satzzeichen (Punkte, Kommas, Bindestriche etc.), die zum Verständnis notwendig sind, wurden gesetzt und entsprechend gekennzeichnet (&lt;add resp=&quot;editor&quot;&gt;…&lt;/add&gt;).</p>
 		<p>Unterführungszeichen, die das Wort oder den Satz in der darüber stehenden Zeile wiederholen, sind stillschweigend aufgelöst worden.</p>
 		<p>Reine Füllstriche am Ende einer Zeile wurden nicht wiedergegeben.</p>
+		<p>Geschwungenen Klammern: Werden mehrere Zeilen von einer geschwungenen Klammer ( { oder } ) eingefaßt, wird dieser Text ohne Auszeichnung wiedergegeben: Steht der Text, der von der Klammer eingefaßt ist, links von der Klammer, kommt ganz an Ende dieses Textes eine geschwungene Klammer ( } ), auf die dann der Text außerhalb der Klammer folgt. Steht der Text, der von der Klammer eingefaßt wird, rechts von der Klammer, so schreibt man zunächst den Text außerhalb der Klammer hin, dann folgt die Klammer ( { ) und sodann der Inhalt derselben.</p>
 		<p></p>
 		<h2>Konventionen der XML-Kodierung nach TEI</h2>
 		<p>Überschriften wurden in &lt;head&gt; eingeschlossen. Zusätzlich wurde das gesamte Kapitel, zu dem die Überschrift gehört in ein &lt;div&gt; eingeschlossen.</p>
@@ -317,6 +318,9 @@
 		<p>Einschübe des Autors werden in &lt;add&gt; eingeschlossen.</p>
 		<p>Endverschleifungen und Abkürzungen werden aufgelöst und in &lt;expan&gt; eingeschlossen. Sie werden in hellgrauer Schriftfarbe wiedergegeben. Immer wiederkehrende Endverschleifungen und Abkürzungen von kurzen und sehr gebräuchlichen Wörtern wurden im Text jedoch stillschweigend aufgelöst.</p>
 		<p>Kustoden wurden wiedergegeben und mit &lt;fw&gt; ausgezeichnet.</p>
+		<p>Mehrspaltigkeit: Besteht eine Seite vollständig aus mehreren Spalten (z. B. bei einem Register) ist vor den Beginn einer jeden Spalte  &lt;cb/&gt; (analog zu den &lt;pb/&gt; vor jeder Seite) zu setzen. Verhält es sich jedoch so, dass auf einer Seite ein- und mehrspaltig geschrieben wurde, muss man noch markieren (für eine saubere Darstellung), wo die Mehrspaltigkeit beginnt und aufhört: (analog zu den &lt;pb/&gt; vor jeder Seite) zu setzen. Verhält es sich jedoch so, dass auf einer Seite ein- und mehrspaltig geschrieben wurde, muss man noch markieren (für eine saubere Darstellung), wo die Mehrspaltigkeit beginnt und aufhört:</p> 
+		<p>&lt;milestone unit=&quot;column&quot; type=&quot;start&quot;/&gt; &lt;cb/&gt; &lt;list&gt; &lt;item&gt;Registereintrag&lt;/item&gt;&lt;item&gt;Regsitereintrag&lt;/item&gt; &lt;item&gt;Registereintrag&lt;/item&gt;&lt;item&gt;Registereintrag&lt;/item&gt; &lt;cb/&gt;&lt;item&gt;Registereintrag&lt;/item&gt;&lt;item&gt;Registereintrag&lt;/item&gt; &lt;item&gt;Registereintrag&lt;/item&gt; &lt;/list&gt;&lt;/cb&gt; &lt;milestone unit=&quot;column&quot;ype=&quot;end&quot;/&gt;</p>
+		<p>Horizontale Linien werden durch &lt;figure place=&quot;inline&quot; type=&quot;line&quot;/&gt; angegeben.</p>
 </div>
 	</div>
 </div>
