@@ -4,3 +4,6 @@
 [submodule "build"]
 	path = build
 	url = https://github.com/subugoe/Salvador.git
+[submodule "ropen-backend"]
+	path = ropen-backend
+	url = https://github.com/subugoe/ropen-backend.git
