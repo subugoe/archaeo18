@@ -62,7 +62,7 @@
   <property name="scss.file" value="${css.dir}/style.scss"/>
 
   <!-- Configuration files -->
-  <property name="ropen.conf" value="./js/Archaeo18Config.js"/>
+  <property name="ropen.conf" value="./Resources/Public/JavaScript/Archaeo18Config.js"/>
   <property name="ropen.conf.local" value="./testdata/conf/Archaeo18Config.local.js"/>
   <property name="ropen.conf.remote" value="./testdata/conf/Archaeo18Config.remote.js"/>
 
