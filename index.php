@@ -146,7 +146,7 @@
 		<p>Über den Button „Dokumente“ werden Ihnen die vorhandenen Mitschriften angezeigt. Über das „Plus“-Symbol vor dem jeweiligen Dokument kann die Struktur der Mitschrift bzw. deren Kapitel als Baumdiagramm dargestellt werden. Klicken Sie auf den Manuskripttitel, wird das Inhaltsverzeichnis des gewählten Manuskriptes in einer beliebigen Mappe geöffnet.  Klicken Sie auf ein Unterkapitel, wird dieses in einer beliebigen Mappe in der Fließtext-Ansicht geöffnet. </p>
 		<p>Bei Auswahl einer Vorlesungsmitschrift oder eines Suchergebnis öffnet sich ein kleines Fenster, in dem Sie auswählen können, ob sie das jeweilige Dokument in einer bereits bestehen Mappe auf der Arbeitsoberfläche bzw. in einer gänzlich neuen Mappe öffnen möchten.</p>
 		<h3>Wie arbeite ich mit den Mitschriften? Die Funktionalität der Mappen:</h3>
-		<iframe width="853" height="480" src="//www.youtube-nocookie.com/embed/LJG0-D2avT&t=8s" frameborder="0" allowfullscreen></iframe>
+		<iframe width="853" height="480" src="//www.youtube-nocookie.com/embed/LJG0-D2avTQ&start=15" frameborder="0" allowfullscreen></iframe>
 		<p>Haben Sie über den Browser mehrere Mitschriften oder Suchergebnisse in einer Mappe geöffnet, so werden diese als Tabs abgelegt. Durch Anwahl eines Tabs können Sie sich das entsprechende Dokument anzeigen lassen. Ein Klick auf das Kreuz rechts neben dem Tab-Namen schließt den jeweiligen Tab. </p>
 		<p>In der unteren Navigationsleiste jeder Mappe sind acht verschiedene Ansichten auf das jeweilige Dokument über Buttons auswählbar. Die Einstellungen beziehen sich immer auf den gerade aktivierten Tab.</p>
 		<h4>Inhaltsverzeichnis</h4>
