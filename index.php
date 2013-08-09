@@ -109,7 +109,7 @@
 			 	<li>Judith Dinse (SUB, Wissenschaftliche Hilfskraft)</li>
 			 	<li><a href="http://www.sub.uni-goettingen.de/kontakt/personen-a-z/personendetails/person/zeki-mustafa-dogan/"title="Zeki Mustafa Dogan" target="_blank">Zeki Mustafa Dogan</a> (SUB, Technische Leitung)</li>
 			 	<li><a href="http://www.sub.uni-goettingen.de/kontakt/personen-a-z/personendetails/person/christian-fieseler/"title="Dr. Christian Fieseler" target="_blank">Dr. Christian Fieseler</a> (SUB, Koordination)</li>
-			 	<li>Julian Geisler (SUB, Studentische Hilfskraft)</li>
+			 	<li>Julian Geisler (SUB, Wissenschaftliche Hilfskraft)</li>
 				<li><a href="http://www.uni-goettingen.de/de/136923.html"title="Dr. Daniel Graepler" target="_blank">Dr. Daniel Graepler</a> (Archäologisches Institut, Projektleitung)</li>
 				<li>Stefan Jänicke (SUB, Technische Umsetzung)</li>
 				<li>Thomas Konradi (GBV, Design)</li>
@@ -119,7 +119,7 @@
 				<li><a href="http://www.sub.uni-goettingen.de/kontakt/personen-a-z/personendetails/person/rolf-b-roeper/"title="Rolf Röper" target="_blank">Rolf Röper</a> (SUB, Digitale Reproduktion)</li>
 				<li><a href="http://www.sub.uni-goettingen.de/kontakt/personen-a-z/personendetails/person/rupert-schaab/"title="Dr. Rupert Schaab" target="_blank">Dr. Rupert Schaab</a> (SUB, Projektleitung)</li>
 				<li>Sarah Schlüter (SUB, Studentische Hilfskraft)</li>
-				<li>Cäcilcia Schröter (SUB, Studentische Hilfskraft)</li>
+				<li>Cäcilia Schröter (SUB, Studentische Hilfskraft)</li>
 				<li>Arne Ulrich (SUB, Studentische Hilfskraft)</li>
 				<li><a href="http://www.sub.uni-goettingen.de/kontakt/personen-a-z/personendetails/person/kristine-voigt/"title="Kristine Voigt" target="_blank">Kristine Voigt</a> (SUB, Koordination)</li>
 				<li>Dr. Hildegard Wiegel (Archäologisches Institut, Wissenschaftliche Mitarbeiterin)</li>
@@ -138,6 +138,7 @@
 		<h3>Wie kann ich die digitale Edition benutzen?</h3>
 		<p>Über den Menüpunkt „Edition“ gelangen Sie zur Arbeitsoberfläche der Edition. Hier können Sie die Vorlesungsmitschriften in verschiedenen Ansichten öffnen, in ihnen Suchen und über die ausgezeichneten Personen, Orte, Literatur und Werke zu externen Datenbanken gelangen, die weiterführende Informationen zu den jeweiligen Objekten oder die digitalisierte Literatur selbst bereitstellen.
 		<h3>Wie öffne ich eine Vorlesungsmitschrift? Das Browser-Fenster:</h3>
+		<iframe width="640" height="360" src="//www.youtube-nocookie.com/embed/LJG0-D2avTQ?rel=0" frameborder="0" allowfullscreen></iframe>
 		<p>Über das Browserfenstern am linken Rand der Arbeitsoberfläche können Sie entweder die Vorlesungsmitschriften durchsuchen oder Vorlesungsmitschriften direkt aufrufen.</p>
 		<p>In das Eingabefeld können ein oder mehrere Begriffe eingegeben werden. Mit der Enter-Taste oder einem Klick auf das Lupen-Symbol am rechten Rand des Eingabefeldes wird die Suche ausgelöst. Bei der Eingabe von mehr als einem Wort wird nach beiden Begriffen gesucht, ohne, dass diese in einem Zusammenhang stehen müssen. Soll nach einer speziellen Wortfolge gesucht werden, setzen Sie diese bitte in Anführungsstriche.</p>
 		<p>Mit der «Erweiterten Suche»  kann in bestimmten Mitschriften gesucht oder auch die Suche auf bestimmte Facetten wie Dokumentstrukturen oder ausgezeichnete Entitäten eingegrenzt werden. Dazu können mit einem Klick auf den runden Button vor „Wähle Dokument“ die Mitschriften aufgerufen werden; mit dem Setzen eines Hakens in eines oder mehrere der Felder vor den Vorlesungsmitschriften können eine oder mehrere Mitschriften ausgewählt werden, die durchsucht werden sollen. Analog dazu führt ein Klick auf den runden Button vor „Facetten“ zu einem Auswahlmenu, mit dem einzelne Abschnitte der Dokumente durchsucht oder bestimmte Entitäten (Personen, Orte, Literatur oder Kunstwerke) gesucht werden können.</p>
@@ -145,16 +146,25 @@
 		<p>Über den Button „Dokumente“ werden Ihnen die vorhandenen Mitschriften angezeigt. Über das „Plus“-Symbol vor dem jeweiligen Dokument kann die Struktur der Mitschrift bzw. deren Kapitel als Baumdiagramm dargestellt werden. Klicken Sie auf den Manuskripttitel, wird das Inhaltsverzeichnis des gewählten Manuskriptes in einer beliebigen Mappe geöffnet.  Klicken Sie auf ein Unterkapitel, wird dieses in einer beliebigen Mappe in der Fließtext-Ansicht geöffnet. </p>
 		<p>Bei Auswahl einer Vorlesungsmitschrift oder eines Suchergebnis öffnet sich ein kleines Fenster, in dem Sie auswählen können, ob sie das jeweilige Dokument in einer bereits bestehen Mappe auf der Arbeitsoberfläche bzw. in einer gänzlich neuen Mappe öffnen möchten.</p>
 		<h3>Wie arbeite ich mit den Mitschriften? Die Funktionalität der Mappen:</h3>
+		<iframe width="640" height="360" src="//www.youtube-nocookie.com/embed/LJG0-D2avTQ?rel=0&start=14" frameborder="0" allowfullscreen></iframe>
 		<p>Haben Sie über den Browser mehrere Mitschriften oder Suchergebnisse in einer Mappe geöffnet, so werden diese als Tabs abgelegt. Durch Anwahl eines Tabs können Sie sich das entsprechende Dokument anzeigen lassen. Ein Klick auf das Kreuz rechts neben dem Tab-Namen schließt den jeweiligen Tab. </p>
 		<p>In der unteren Navigationsleiste jeder Mappe sind acht verschiedene Ansichten auf das jeweilige Dokument über Buttons auswählbar. Die Einstellungen beziehen sich immer auf den gerade aktivierten Tab.</p>
-		<p>1) <em>«Inhaltsverzeichnis»</em> Öffnen Sie eine Mitschrift mit einem Klick auf die Dokumentbezeichnung, gelangen Sie zur Grundstruktur des Dokuments. Ein klassisches Inhaltsverzeichnis liegt bei den Manuskripten nicht vor. Es wurde versucht anhand der Grobstruktur, die durch phänotypische Hervorhebungen im Manuskript erkennbar ist, ein Inhaltsverzeichnis zur Orientierung nachzubilden. Die Auswahl einer Überschrift führt zur entsprechenden Stelle im Dokument in der „Fließtext“-Ansicht. </p>
-		<p>2) <em>«Transkription im Fließtext»</em> Diese Ansicht zeigt das transkribierte und editierte Manuskript als Fließtext. Es kann durch die Seitengescrollt werden. Seitenumbrüche sind durch horizontale Linien gekennzeichnet. Es gibt zusätzlich eine Seitennavigation, welche zum einen angibt, auf welcher Seite Sie sich gerade befinden und Ihnen zum anderen die Direktauswahl einer Seite ermöglicht. </p>
-		<p>3)<em>«Transkription seitenweise»</em> Diese Ansicht zeigt das transkribierte und editierte Manuskript seitenweise. Über die Seitennavigation oben links in der Mappe kann vor- und zurück geblättert werden. Zusätzlich können Seiten direkt ausgewählt werden.</p>
-		<p>4) <em>«Faksimile»</em> Hier wird das digitalisierte Manuskript als Faksimile seitenweise angezeigt. Auch hier gibt es die Seitennavigation, welche zum einen angibt, auf welcher Seite Sie sich gerade befinden und Ihnen zum anderen die Direktauswahl einer Seite ermöglicht. Per Mausklick können Sie das Manuskript verschieben, mit der Plus-Minus-Navigation (oben links neben dem Digitalisat) können Sie bestimmte Bereiche vergrößern und verkleinern.</p>
-		<p>5) <em>«Faksimile-Thumbnails»</em> Diese Ansicht ermöglicht einen Überblick über das Manuskript als Faksimile. Sie können einfach durch die Thumbnails scrollen und sich einen ersten Eindruck von den Seiten verschaffen bzw. besondere optische Merkmale überblicken. Per klick auf ein Thumbnail gelangen Sie auf die «Faksimile»-Ansicht in Großaufnahme.</p>
-		<p>6) <em>«TEI»</em> In der TEI-Ansicht sehen sie die Dokumentstruktur im XML-Format.</p>
-		<p>7) <em>«Kartenansicht»</em> Die Kartenansicht zeigt die Ihnen die Orte, die im Manuskript genannt werden, auf einer Landkarte. Wahlweise werden die Orte seitenweise oder auch für das ganze Manuskript angezeigt. Per Klick auf einen Ort erhalten Sie weitere Informationen über den angewählten Ort. Außerdem können Sie in die Karte hinein- und herauszoomen, indem Sie die Plus- und Minustasten oder den Schieberegler benutzen.</p>
-		<p>8) <em>«Wortwolke»</em> Die Wortwolke visualisiert die Häufigkeit ausgezeichneten Entitäten (Orte, Personen, Literatur, Werke). Die Wortwolke kann Seitenweise oder für das ganze Dokument angezeigt werden.</p>
+		<h4>Inhaltsverzeichnis</h4>
+		<p>Öffnen Sie eine Mitschrift mit einem Klick auf die Dokumentbezeichnung, gelangen Sie zur Grundstruktur des Dokuments. Ein klassisches Inhaltsverzeichnis liegt bei den Manuskripten nicht vor. Es wurde versucht anhand der Grobstruktur, die durch phänotypische Hervorhebungen im Manuskript erkennbar ist, ein Inhaltsverzeichnis zur Orientierung nachzubilden. Die Auswahl einer Überschrift führt zur entsprechenden Stelle im Dokument in der „Fließtext“-Ansicht. </p>
+		<h4>Transkription im Fließtext</h4> 
+		<p>Diese Ansicht zeigt das transkribierte und editierte Manuskript als Fließtext. Es kann durch die Seitengescrollt werden. Seitenumbrüche sind durch horizontale Linien gekennzeichnet. Es gibt zusätzlich eine Seitennavigation, welche zum einen angibt, auf welcher Seite Sie sich gerade befinden und Ihnen zum anderen die Direktauswahl einer Seite ermöglicht. </p>
+		<h4>Transkription seitenweise</h4>
+		<p>Diese Ansicht zeigt das transkribierte und editierte Manuskript seitenweise. Über die Seitennavigation oben links in der Mappe kann vor- und zurück geblättert werden. Zusätzlich können Seiten direkt ausgewählt werden.</p>
+		<h4>Faksimile</h4> 
+		<p>Hier wird das digitalisierte Manuskript als Faksimile seitenweise angezeigt. Auch hier gibt es die Seitennavigation, welche zum einen angibt, auf welcher Seite Sie sich gerade befinden und Ihnen zum anderen die Direktauswahl einer Seite ermöglicht. Per Mausklick können Sie das Manuskript verschieben, mit der Plus-Minus-Navigation (oben links neben dem Digitalisat) können Sie bestimmte Bereiche vergrößern und verkleinern.</p>
+		<h4>Faksimile-Thumbnails</h4> 
+		<p>Diese Ansicht ermöglicht einen Überblick über das Manuskript als Faksimile. Sie können einfach durch die Thumbnails scrollen und sich einen ersten Eindruck von den Seiten verschaffen bzw. besondere optische Merkmale überblicken. Per klick auf ein Thumbnail gelangen Sie auf die «Faksimile»-Ansicht in Großaufnahme.</p>
+		<h4>TEI</h4>  
+		<p>In der TEI-Ansicht sehen sie die Dokumentstruktur im XML-Format.</p>
+		<h4>Kartenansicht</h4> 
+		<p>Die Kartenansicht zeigt die Ihnen die Orte, die im Manuskript genannt werden, auf einer Landkarte. Wahlweise werden die Orte seitenweise oder auch für das ganze Manuskript angezeigt. Per Klick auf einen Ort erhalten Sie weitere Informationen über den angewählten Ort. Außerdem können Sie in die Karte hinein- und herauszoomen, indem Sie die Plus- und Minustasten oder den Schieberegler benutzen.</p>
+		<h4>Wortwolke</h4> 
+		<p>Die Wortwolke visualisiert die Häufigkeit ausgezeichneten Entitäten (Orte, Personen, Literatur, Werke). Die Wortwolke kann Seitenweise oder für das ganze Dokument angezeigt werden.</p>
 		<h3>Wie kann ich Digitalisat und Transkription miteinander vergleichen? Die verknüpfte Sicht:</h3>
 		<p>Bei Aktivierung der verknüpften Sicht zweier oder mehrerer Tabs in unterschiedlichen Mappen werden die betreffenden Ansichten miteinander verknüpft. Um zwei Tabs miteinander zu verknüpfen, aktivieren Sie das Schloss-Symbol am oberen rechten Rand in ebendiesen Tabs (geschlossen = aktiviert). Das bedeutet, es wird in den verknüpften Tabs die gleiche Seite des Manuskriptes angezeigt, auch wenn Sie blättern oder die Ansicht wechseln. Auf diese Weise können Sie z. B. Faksimile und Text direkt miteinander vergleichen. Diese Verknüpfung funktioniert nur innerhalb einer Mitschrift, Sie müssen also eine Mitschrift in mehreren Mappen öffnen, um dann die verschiedenen Ansichten miteinander verknüpfen zu können. </p>
 		<h3>Wie kann ich Digitalisate und Transkriptionen außerhalb Edition bearbeiten? Exportfunktionen:</h3>

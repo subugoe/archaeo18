@@ -38,65 +38,65 @@
 </footer>
 
 <!-- include geotemco -->
-<link rel="stylesheet" href="ropen/lib/GeoTemCo/css/geotemco.css" type="text/css" />
-<script src="ropen/lib/GeoTemCo/geotemco-min.js"></script>
+<link rel="stylesheet" href="ropen/Resources/Public/JavaScript/Libraries/GeoTemCo/css/geotemco.css" type="text/css" />
+<script src="ropen/Resources/Public/JavaScript/Libraries/GeoTemCo/geotemco-min.js"></script>
 
 <!-- include jQuery -->
-<link rel="stylesheet" href="ropen/lib/jquery-ui-1.10.0.custom/css/ui-lightness/jquery-ui-1.10.0.custom.css">
-<script src="ropen/lib/jQuery/jquery-1.5.1.js"></script>
-<script src="ropen/lib/jquery-ui-1.10.0.custom/js/jquery-ui-1.10.0.custom.js"></script>
+<link rel="stylesheet" href="ropen/Resources/Public/JavaScript/Libraries/jquery-ui-1.10.0.custom/css/ui-lightness/jquery-ui-1.10.0.custom.css">
+<script src="ropen/Resources/Public/JavaScript/Libraries/jQuery/jquery-1.5.1.js"></script>
+<script src="ropen/Resources/Public/JavaScript/Libraries/jquery-ui-1.10.0.custom/js/jquery-ui-1.10.0.custom.js"></script>
 
 <!-- include jQuery plugin dynatree -->
-<link href="ropen/lib/dynatree/src/skin/ui.dynatree.css" rel="stylesheet" type="text/css">
-<script src="ropen/lib/dynatree/src/jquery.dynatree.js" type="text/javascript"></script>
+<link href="ropen/Resources/Public/JavaScript/Libraries/dynatree/src/skin/ui.dynatree.css" rel="stylesheet" type="text/css">
+<script src="ropen/Resources/Public/JavaScript/Libraries/dynatree/src/jquery.dynatree.js" type="text/javascript"></script>
 
 <!-- include jQuery plugin lazyloader -->
-<script src="ropen/lib/lazyloader/jquery.lazyloader.js"></script>
+<script src="ropen/Resources/Public/JavaScript/Libraries/lazyloader/jquery.lazyloader.js"></script>
 
 <!-- include jQuery plugin Fullscreen -->
-<script src="ropen/lib/fullscreen/fullscreen.js"></script>
+<script src="ropen/Resources/Public/JavaScript/Libraries/fullscreen/fullscreen.js"></script>
 
 <!-- include jsonlib plugin -->
-<script src="ropen/lib/jsonlib/jsonlib.js"></script>
+<script src="ropen/Resources/Public/JavaScript/Libraries/jsonlib/jsonlib.js"></script>
 
 
-<script src="ropen/lib/handlebars/dist/handlebars.js"></script>
+<script src="ropen/Resources/Public/JavaScript/Libraries/handlebars/dist/handlebars.js"></script>
 
 <!-- include jQCloud plugin -->
-<link href="ropen/lib/jqcloud/jqcloud.css" rel="stylesheet" type="text/css">
-<script type="text/javascript" src="ropen/lib/jqcloud/jqcloud-1.0.3.js"></script>
+<link href="ropen/Resources/Public/JavaScript/Libraries/jqcloud/jqcloud.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="ropen/Resources/Public/JavaScript/Libraries/jqcloud/jqcloud-1.0.3.js"></script>
 
 <!-- include archaeo18 GUI -->
 <link type="text/css" rel="stylesheet" href="ropen/Resources/Public/Css/archaeo18.css">
 <link type="text/css" rel="stylesheet" href="ropen/Resources/Public/Css/tei.css">
-<script src="ropen/js/Config/EditionProperties.js"></script>
-<script src="ropen/js/Config/EditionTooltips.js"></script>
-<script src="ropen/js/System/DocumentServerConnection.js"></script>
-<script src="ropen/js/System/Util.js"></script>
-<script src="ropen/js/System/BrowserDetect.js"></script>
-<script src="ropen/js/System/DocumentLoader.js"></script>
-<script src="ropen/js/Processors/TEIProcessor.js"></script>
-<script src="ropen/js/Processors/XHTMLProcessor.js"></script>
-<script src="ropen/js/Processors/LinkProcessor.js"></script>
-<script src="ropen/js/Gui/Pagination.js"></script>
-<script src="ropen/js/Gui/FacetSelector.js"></script>
-<script src="ropen/js/Document/Document.js"></script>
-<script src="ropen/js/Document/Views/Text.js"></script>
-<script src="ropen/js/Document/Views/Images.js"></script>
-<script src="ropen/js/Document/Views/Pages.js"></script>
-<script src="ropen/js/Document/Views/Outline.js"></script>
-<script src="ropen/js/Document/Views/TEI.js"></script>
-<script src="ropen/js/Document/Views/Thumbnails.js"></script>
-<script src="ropen/js/Document/Views/Places.js"></script>
-<script src="ropen/js/Document/Views/Tags.js"></script>
-<script src="ropen/js/Gui/FrameWindow.js"></script>
-<script src="ropen/js/Gui/Folder.js"></script>
-<script src="ropen/js/Gui/HyperlinkWindow.js"></script>
-<script src="ropen/js/Gui/Browser.js"></script>
-<script src="ropen/js/Gui/DocumentDialog.js"></script>
-<script src="ropen/js/Gui/OverlayWindow.js"></script>
-<script src="ropen/js/Gui/Tooltip.js"></script>
-<script src="ropen/js/EditionGui.js"></script>
+<script src="ropen/Resources/Public/JavaScript/Config/EditionProperties.js"></script>
+<script src="ropen/Resources/Public/JavaScript/Config/EditionTooltips.js"></script>
+<script src="ropen/Resources/Public/JavaScript/System/DocumentServerConnection.js"></script>
+<script src="ropen/Resources/Public/JavaScript/System/Util.js"></script>
+<script src="ropen/Resources/Public/JavaScript/System/BrowserDetect.js"></script>
+<script src="ropen/Resources/Public/JavaScript/System/DocumentLoader.js"></script>
+<script src="ropen/Resources/Public/JavaScript/Processors/TEIProcessor.js"></script>
+<script src="ropen/Resources/Public/JavaScript/Processors/XHTMLProcessor.js"></script>
+<script src="ropen/Resources/Public/JavaScript/Processors/LinkProcessor.js"></script>
+<script src="ropen/Resources/Public/JavaScript/Gui/Pagination.js"></script>
+<script src="ropen/Resources/Public/JavaScript/Gui/FacetSelector.js"></script>
+<script src="ropen/Resources/Public/JavaScript/Document/Document.js"></script>
+<script src="ropen/Resources/Public/JavaScript/Document/Views/Text.js"></script>
+<script src="ropen/Resources/Public/JavaScript/Document/Views/Images.js"></script>
+<script src="ropen/Resources/Public/JavaScript/Document/Views/Pages.js"></script>
+<script src="ropen/Resources/Public/JavaScript/Document/Views/Outline.js"></script>
+<script src="ropen/Resources/Public/JavaScript/Document/Views/TEI.js"></script>
+<script src="ropen/Resources/Public/JavaScript/Document/Views/Thumbnails.js"></script>
+<script src="ropen/Resources/Public/JavaScript/Document/Views/Places.js"></script>
+<script src="ropen/Resources/Public/JavaScript/Document/Views/Tags.js"></script>
+<script src="ropen/Resources/Public/JavaScript/Gui/FrameWindow.js"></script>
+<script src="ropen/Resources/Public/JavaScript/Gui/Folder.js"></script>
+<script src="ropen/Resources/Public/JavaScript/Gui/HyperlinkWindow.js"></script>
+<script src="ropen/Resources/Public/JavaScript/Gui/Browser.js"></script>
+<script src="ropen/Resources/Public/JavaScript/Gui/DocumentDialog.js"></script>
+<script src="ropen/Resources/Public/JavaScript/Gui/OverlayWindow.js"></script>
+<script src="ropen/Resources/Public/JavaScript/Gui/Tooltip.js"></script>
+<script src="ropen/Resources/Public/JavaScript/EditionGui.js"></script>
 <script src="Resources/Public/JavaScript/Indices.js"></script>
 <script src="Resources/Public/JavaScript/Scripts.js"></script>
 
