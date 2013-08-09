@@ -64,7 +64,7 @@ $(['img1.jpg','img2.jpg','img3.jpg']).preload();
 /* (end) PRELOAD IMAGES */
 
 EditionProperties.applySettings({
-	configurationUrl: 'js/Archaeo18Config.js',
+	configurationUrl: 'Resources/Public/JavaScript/Archaeo18Config.js',
 	maxTags: 20
 });
 
