@@ -483,14 +483,14 @@
     <delete dir="${data.mets.dir}"/>
   </target>
 
-  <target name="data.enrich" depends="data.enrich.check, salvador.saxon.install, data.dirs, init" unless="data.entiched.fileset.empty">
+  <target name="data.enrich" depends="data.enrich.check, salvador.saxon.install, init" unless="data.entiched.fileset.empty">
     <property name="data.enrich.output" value="${target.dir}/enrichment-report.xhtml"/>
     <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.enrich}" destfile="${data.enrich.output}"
       params="collection=${basedir}/${data.tei.dir} mets-collection=${basedir}/${data.mets.dir} tei-enriched-collection=${basedir}/${data.tei-enriched.dir}"/>
   </target>
 
-  <!-- A shortcut to disale the generation of enriched TEI files all the time -->
-  <target name="data.enrich.check">
+  <!-- A shortcut to disable the generation of enriched TEI files all the time -->
+  <target name="data.enrich.check" depends="data.dirs">
     <fileset dir="${basedir}/${data.tei-enriched.dir}" id="data.enriched.fileset"/>
     <pathconvert refid="data.enriched.fileset" property="data.entiched.fileset.empty" setonempty="false"/>
   </target>
