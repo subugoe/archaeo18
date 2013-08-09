@@ -21,6 +21,7 @@
   <import file="./build/modules/compass.xml"/>
   <import file="./build/modules/sass.xml"/>
   <import file="./build/modules/tinypng.xml"/>
+  <import file="./build/modules/saxon.xml"/>
 
   <!-- 
   #######################################################
@@ -122,6 +123,19 @@
   <property name="exist.search.url" value="${exist.queries.url}/search.xq?query=Trajan&amp;mode=xhtml"/>
   <property name="exist.search.local" value="${data.download.dir.search}/search.xq$query=Trajan&amp;mode=xhtml"/>
 
+  <!-- Data hanadling -->
+  <property name="data.dir" value="./data/"/>
+  <property name="data.tei.dir" value="${data.dir}tei/"/>
+  <property name="data.tei-enriched.dir" value="${data.dir}tei-enriched/"/>
+  <property name="data.mets.dir" value="${data.dir}mets/"/>
+  <property name="empty.xml" value="${data.dir}empty.xml"/>
+
+  <!-- Stylesheets -->
+  <property name="xslt.enrich" value="./ropen-backend/src/main/xslt/transformations/import.xsl"/>
+  <property name="xslt.overview" value="./ropen-backend/src/main/xslt/transformations/overview.xsl"/>
+
+  <!-- A helper variable that contains the working directory -->
+  <property name="cwd" location="."/>
   <!-- 
   #######################################################
   # Targets needed by the build system 
@@ -147,7 +161,7 @@
   </target>
 
   <!-- Removes directories needed by the build system -->
-  <target name="clean" depends="ropen.config.remote, salvador.base.clean">
+  <target name="clean" depends="ropen.config.remote, salvador.base.clean, data.dir.clean">
     <delete dir="${target.dir}"/>
   </target>
 
@@ -452,6 +466,56 @@
 
   <target name="jsdoc" depends="salvador.js.jsdoctoolkit.install">
     <!-- See http://www.kajabity.com/2012/02/automating-jsdoc-with-apache-ant/ -->
+  </target>
+
+  <!-- 
+  #######################################################
+  # Generate Data
+  #######################################################
+  -->
+  <target name="data.dirs">
+    <mkdir dir="${data.tei-enriched.dir}"/>
+    <mkdir dir="${data.mets.dir}"/>
+  </target>
+
+  <target name="data.dir.clean">
+    <delete dir="${data.tei-enriched.dir}"/>
+    <delete dir="${data.mets.dir}"/>
+  </target>
+
+  <target name="data.enrich" depends="salvador.saxon.install, data.dirs, init">
+    <property name="data.enrich.output" value="${target.dir}/enrichment-report.xhtml"/>
+    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.enrich}" destfile="${data.enrich.output}"
+      params="collection=${basedir}/${data.tei.dir} mets-collection=${basedir}/${data.mets.dir} tei-enriched-collection=${basedir}/${data.tei-enriched.dir}"/>
+  </target>
+
+
+  <!--
+  <target name="data.generate" depends="data.generate.kml, data.generate.cloud, data.generate.index"/>
+
+  <target name="data.generate.kml" depends="salvador.saxon.install, data.enrich">
+    <salvador.saxon.xslt in="" xslt="" dest="exist.kml.placeName.local"/>
+  </target>
+-->
+  <target name="data.generate.cloud" depends="salvador.saxon.install, data.enrich">
+    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}" destfile="${exist.cloud.persName.local}"
+      params="collection-param=${basedir}/${data.tei-enriched.dir} entity-param=TEI:persName mode-param=cloud"/>
+    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}" destfile="${exist.cloud.placeName.local}"
+      params="collection-param=${basedir}/${data.tei-enriched.dir} entity-param=TEI:placeName mode-param=cloud"/>
+    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}" destfile="${exist.cloud.term.local}"
+      params="collection-param=${basedir}/${data.tei-enriched.dir} entity-param=TEI:term mode-param=cloud"/>
+  </target>
+
+  <target name="data.generate.index" depends="salvador.saxon.install, data.enrich">
+    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}" destfile="${exist.entities.persName.local}"
+      params="collection-param=${basedir}/${data.tei-enriched.dir} entity-param=TEI:persName mode-param=xhtml"/>
+    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}" destfile="${exist.entities.placeName.local}"
+      params="collection-param=${basedir}/${data.tei-enriched.dir} entity-param=TEI:placeName mode-param=xhtml"/>
+    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}" destfile="${exist.entities.term.local}"
+      params="collection-param=${basedir}/${data.tei-enriched.dir} entity-param=TEI:term mode-param=xhtml"/>
+    <!--  
+    <salvador.saxon.xslt in="" xslt="" dest="${exist.entities.bibl.local}"/>
+    -->
   </target>
 
 </project>
