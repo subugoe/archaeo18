@@ -67,7 +67,6 @@
 
 <!-- include archaeo18 GUI -->
 <link type="text/css" rel="stylesheet" href="ropen/Resources/Public/Css/archaeo18.css">
-<link type="text/css" rel="stylesheet" href="ropen/Resources/Public/Css/tei.css">
 <script src="ropen/Resources/Public/JavaScript/Config/EditionProperties.js"></script>
 <script src="ropen/Resources/Public/JavaScript/Config/EditionTooltips.js"></script>
 <script src="ropen/Resources/Public/JavaScript/System/DocumentServerConnection.js"></script>
