@@ -1,3 +1,22 @@
+/* Let's get this party started */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ddd8c9;
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(207, 207, 202, 0.3);
+}
+
 #indices_page .dataTable {
   margin-top: 1em;
 }

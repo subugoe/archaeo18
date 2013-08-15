@@ -43,12 +43,11 @@
 
 <!-- include jQuery -->
 <link rel="stylesheet" href="ropen/Resources/Public/JavaScript/Libraries/jquery-ui-1.10.0.custom/css/ui-lightness/jquery-ui-1.10.0.custom.css">
-<script src="ropen/Resources/Public/JavaScript/Libraries/jQuery/jquery-1.5.1.js"></script>
+<script src="ropen/Resources/Public/JavaScript/Libraries/jquery/jquery.js"></script>
 <script src="ropen/Resources/Public/JavaScript/Libraries/jquery-ui-1.10.0.custom/js/jquery-ui-1.10.0.custom.js"></script>
 
 <!-- include jQuery plugin dynatree -->
-<link href="ropen/Resources/Public/JavaScript/Libraries/dynatree/src/skin/ui.dynatree.css" rel="stylesheet" type="text/css">
-<script src="ropen/Resources/Public/JavaScript/Libraries/dynatree/src/jquery.dynatree.js" type="text/javascript"></script>
+<script src="ropen/Resources/Public/JavaScript/Libraries/dynatree/dist/jquery.dynatree.min.js" type="text/javascript"></script>
 
 <!-- include jQuery plugin lazyloader -->
 <script src="ropen/Resources/Public/JavaScript/Libraries/lazyloader/jquery.lazyloader.js"></script>
@@ -60,7 +59,7 @@
 <script src="ropen/Resources/Public/JavaScript/Libraries/jsonlib/jsonlib.js"></script>
 
 
-<script src="ropen/Resources/Public/JavaScript/Libraries/handlebars/dist/handlebars.js"></script>
+<script src="ropen/Resources/Public/JavaScript/Libraries/handlebars/handlebars.js"></script>
 
 <!-- include jQCloud plugin -->
 <link href="ropen/Resources/Public/JavaScript/Libraries/jqcloud/jqcloud.css" rel="stylesheet" type="text/css">
