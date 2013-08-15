@@ -50,7 +50,7 @@
 <script src="ropen/Resources/Public/JavaScript/Libraries/dynatree/dist/jquery.dynatree.min.js" type="text/javascript"></script>
 
 <!-- include jQuery plugin lazyloader -->
-<script src="ropen/Resources/Public/JavaScript/Libraries/lazyloader/jquery.lazyloader.js"></script>
+<script src="ropen/Resources/Public/JavaScript/Libraries/jquery.lazyload/jquery.lazyload.min.js"></script>
 
 <!-- include jQuery plugin Fullscreen -->
 <script src="ropen/Resources/Public/JavaScript/Libraries/fullscreen/fullscreen.js"></script>
