@@ -99,6 +99,8 @@
 <script src="Resources/Public/JavaScript/Scripts.js"></script>
 
 <script src="Resources/Public/JavaScript/plugins.js"></script>
+<script src="Resources/Public/JavaScript/Libraries/jquery.cookie/jquery.cookie.js"></script>
+<script src="Resources/Public/JavaScript/Libraries/datatables/media/js/jquery.dataTables.js"></script>
 <script src="Resources/Public/JavaScript/Page.js"></script>
 
 </body>
