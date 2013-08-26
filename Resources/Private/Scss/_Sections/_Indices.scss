@@ -108,9 +108,17 @@
 			position: absolute;
 			bottom: 0;
 		}
-		.tableIndices_filter {
-			width: 300px;
-			float: right;
+		#tableIndices_filter {
+			label {
+				&:after {
+					content: "\e000";
+					font-family: ropen, Sans-serif;
+					border: 1px solid #dedede;
+					font-size: 17px;
+					height: 26px;
+					border-left: 0;
+				}
+			}
 		}
 	}
 	#indicesSelection {

@@ -141,11 +141,11 @@ var Indices = new function() {
 					   $(table).dataTable({
 											  "sPaginationType": "full_numbers",
 											  "oLanguage": {
-												  "sLengthMenu": "Zeige _MENU_ Eintr&auml;ge je Seite",
-												  "sZeroRecords": "Keine Eintr&auml;ge gefunden",
-												  "sInfo": "_START_ - _END_ von _TOTAL_ Eintr&auml;gen",
-												  "sInfoEmpty": "Zeige 0 bis 0 von 0 Eintr&auml;gen",
-												  "sInfoFiltered": "(gefiltert aus _MAX_ Eintr&auml;gen insgesamt)",
+												  "sLengthMenu": "Zeige _MENU_ Einträge je Seite",
+												  "sZeroRecords": "Keine Einträge gefunden",
+												  "sInfo": "_START_ - _END_ von _TOTAL_ Einträgen",
+												  "sInfoEmpty": "Zeige 0 bis 0 von 0 Einträgen",
+												  "sInfoFiltered": "(gefiltert aus _MAX_ Einträgen insgesamt)",
 												  "sSearch": "Suche:",
 												  "oPaginate": {
 													  "sNext": "",
