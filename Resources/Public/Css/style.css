@@ -121,6 +121,10 @@
   font-size: 17px;
   height: 26px;
   border-left: 0;
+  padding: 4px 4px 3px 4px;
+}
+#indices_page #tableIndices_wrapper #tableIndices_filter input {
+  padding: 4px;
 }
 #indices_page #indicesSelection .selectIndices {
   background-color: white;
