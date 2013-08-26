@@ -73,6 +73,9 @@
 #indices_page #tableIndices_wrapper input[type="text"] {
   border: 1px solid #dedede;
 }
+#indices_page #tableIndices_wrapper input[type="text"]:focus {
+  outline: 0;
+}
 #indices_page #tableIndices_wrapper .dataTables_length,
 #indices_page #tableIndices_wrapper .dataTables_filter,
 #indices_page #tableIndices_wrapper .dataTable,

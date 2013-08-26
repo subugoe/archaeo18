@@ -66,10 +66,8 @@
 		}
 		input[type="text"] {
 			border: 1px solid $formBorderColor;
-		}
-		.dataTables_filter {
-			label {
-				//display: none;
+			&:focus {
+				outline: 0;
 			}
 		}
 		.dataTables_length,
@@ -89,7 +87,6 @@
 			position: absolute;
 			top: 0;
 			right: 3%;
-			//width: 500px;
 			margin-top: 15px;
 			a {
 				margin: 0 0 0 10px;
@@ -114,9 +111,6 @@
 		.tableIndices_filter {
 			width: 300px;
 			float: right;
-		}
-		a:hover {
-			//text-decoration: underline;
 		}
 	}
 	#indicesSelection {
