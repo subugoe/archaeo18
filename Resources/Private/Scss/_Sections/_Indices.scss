@@ -48,9 +48,11 @@
 		}
 		.sorting_asc {
 			background: url($path-img + 'sort_asc.png') no-repeat scroll right center transparent;
+			border-bottom: 1px solid $hoverColor;
 		}
 		.sorting_desc {
 			background: url($path-img + 'sort_desc.png') no-repeat scroll right center transparent;
+			border-bottom: 1px solid $hoverColor;
 		}
 	}
 	#tableIndices_wrapper {

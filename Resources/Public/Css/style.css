@@ -54,9 +54,11 @@
 }
 #indices_page .dataTable .sorting_asc {
   background: url("../Images/sort_asc.png") no-repeat scroll right center transparent;
+  border-bottom: 1px solid #900000;
 }
 #indices_page .dataTable .sorting_desc {
   background: url("../Images/sort_desc.png") no-repeat scroll right center transparent;
+  border-bottom: 1px solid #900000;
 }
 #indices_page #tableIndices_wrapper {
   background-color: white;
