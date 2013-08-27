@@ -156,9 +156,6 @@ var Indices = new function() {
 											  }
 										  });
 
-						// Workaround for datatables' strange nesting of input tag inside the label
-						$('.dataTables_filter label').html('<input type="text" aria-controls="tableIndices" />');
-
 					   if (facet.facet.indexOf('placeName') == -1) {
 						   appendStatus(Util.getString('loadTagcloud'));
 						   setTimeout(function() {
