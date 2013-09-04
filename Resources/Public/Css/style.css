@@ -1,3 +1,22 @@
+/* Let's get this party started */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ddd8c9;
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(207, 207, 202, 0.3);
+}
+
 #indices_page .dataTable {
   margin-top: 1em;
 }
@@ -35,9 +54,11 @@
 }
 #indices_page .dataTable .sorting_asc {
   background: url("../Images/sort_asc.png") no-repeat scroll right center transparent;
+  border-bottom: 1px solid #900000;
 }
 #indices_page .dataTable .sorting_desc {
   background: url("../Images/sort_desc.png") no-repeat scroll right center transparent;
+  border-bottom: 1px solid #900000;
 }
 #indices_page #tableIndices_wrapper {
   background-color: white;
@@ -51,6 +72,9 @@
 }
 #indices_page #tableIndices_wrapper input[type="text"] {
   border: 1px solid #dedede;
+}
+#indices_page #tableIndices_wrapper input[type="text"]:focus {
+  outline: 0;
 }
 #indices_page #tableIndices_wrapper .dataTables_length,
 #indices_page #tableIndices_wrapper .dataTables_filter,
@@ -90,9 +114,17 @@
   position: absolute;
   bottom: 0;
 }
-#indices_page #tableIndices_wrapper .tableIndices_filter {
-  width: 300px;
-  float: right;
+#indices_page #tableIndices_wrapper #tableIndices_filter label:after {
+  content: "\e000";
+  font-family: ropen, Sans-serif;
+  border: 1px solid #dedede;
+  font-size: 17px;
+  height: 26px;
+  border-left: 0;
+  padding: 4px 4px 3px 4px;
+}
+#indices_page #tableIndices_wrapper #tableIndices_filter input {
+  padding: 4px;
 }
 #indices_page #indicesSelection .selectIndices {
   background-color: white;
