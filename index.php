@@ -68,7 +68,8 @@
 		<div id="sectionContainer" class="wrap">
 		</div>
 			<section>
-				<iframe width="640" height="480" src="//www.youtube-nocookie.com/embed/XPHgane-r8s" frameborder="0" allowfullscreen></iframe>
+				<iframe width="640" height="480" src="//www.youtube-nocookie.com/embed/XPHgane-r8s?rel=0" frameborder="0" allowfullscreen></iframe>
+			</section>
 		</div>
 	</div>
 </div>
@@ -100,7 +101,7 @@
 			<section id="scriptsSelection">
 			</section>
 			<section>
-				<iframe width="640" height="480" src="//www.youtube-nocookie.com/embed/XPHgane-r8s?rel=0" frameborder="0" allowfullscreen></iframe>
+			<iframe width="640" height="480" src="//www.youtube-nocookie.com/embed/fh4KL_SeK4c?rel=0" frameborder="0" allowfullscreen></iframe>
 			</section>
 		</div>
 	</div>
