@@ -67,9 +67,9 @@
 		</div>
 		<div id="sectionContainer" class="wrap">
 		</div>
-		</section>
-		<section>
-		<iframe width="640" height="480" src="//www.youtube-nocookie.com/embed/XPHgane-r8s" frameborder="0" allowfullscreen></iframe>
+			<section>
+				<iframe width="640" height="480" src="//www.youtube-nocookie.com/embed/XPHgane-r8s" frameborder="0" allowfullscreen></iframe>
+		</div>
 	</div>
 </div>
 
@@ -98,6 +98,9 @@
 	<div class="content clearfix">
 		<div class="wrap">
 			<section id="scriptsSelection">
+			</section>
+			<section>
+				<iframe width="640" height="480" src="//www.youtube-nocookie.com/embed/XPHgane-r8s?rel=0" frameborder="0" allowfullscreen></iframe>
 			</section>
 		</div>
 	</div>
