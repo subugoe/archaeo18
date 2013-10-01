@@ -66,7 +66,7 @@
 		<div id="indicesSelection" class="wrap">
 		</div>
 		<div id="sectionContainer" class="wrap">
-		</div>
+			<br />
 			<section>
 				<iframe width="640" height="480" src="//www.youtube-nocookie.com/embed/XPHgane-r8s?rel=0" frameborder="0" allowfullscreen></iframe>
 			</section>
