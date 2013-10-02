@@ -104,7 +104,7 @@
 			<section id="scriptsSelection">
 			</section>
 			<section>
-			<iframe width="640" height="480" src="//www.youtube-nocookie.com/embed/fh4KL_SeK4c?rel=0" frameborder="0" allowfullscreen></iframe>
+			<iframe width="480" height="270" src="//www.youtube-nocookie.com/embed/fh4KL_SeK4c?rel=0" frameborder="0" allowfullscreen></iframe>
 			</section>
 		</div>
 	</div>
