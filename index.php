@@ -70,7 +70,7 @@
 		<div class="wrap">
 			<br />
 			<section>
-				<iframe width="640" height="480" src="//www.youtube-nocookie.com/embed/XPHgane-r8s?rel=0" frameborder="0" allowfullscreen></iframe>
+			<iframe width="480" height="360" src="//www.youtube-nocookie.com/embed/XPHgane-r8s?rel=0" frameborder="0" allowfullscreen></iframe>
 			</section>
 		</div>
 
