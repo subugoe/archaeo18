@@ -170,14 +170,14 @@
 		<p>Diese Ansicht zeigt das transkribierte und editierte Manuskript seitenweise. Über die Seitennavigation oben links in der Mappe kann vor- und zurück geblättert werden. Zusätzlich können Seiten direkt ausgewählt werden.</p>
 		<h4>Faksimile</h4> 
 		<p>Hier wird das digitalisierte Manuskript als Faksimile seitenweise angezeigt. Auch hier gibt es die Seitennavigation, welche zum einen angibt, auf welcher Seite Sie sich gerade befinden und Ihnen zum anderen die Direktauswahl einer Seite ermöglicht. Per Mausklick können Sie das Manuskript verschieben, mit der Plus-Minus-Navigation (oben links neben dem Digitalisat) können Sie bestimmte Bereiche vergrößern und verkleinern.</p>
-		<h4>Faksimile-Thumbnails</h4> 
+		<h4>Thumbnails</h4> 
 		<p>Diese Ansicht ermöglicht einen Überblick über das Manuskript als Faksimile. Sie können einfach durch die Thumbnails scrollen und sich einen ersten Eindruck von den Seiten verschaffen bzw. besondere optische Merkmale überblicken. Per klick auf ein Thumbnail gelangen Sie auf die «Faksimile»-Ansicht in Großaufnahme.</p>
 		<h4>TEI</h4>  
 		<p>In der TEI-Ansicht sehen sie die Dokumentstruktur im XML-Format.</p>
-		<h4>Kartenansicht</h4> 
+		<h4>Karte</h4> 
 		<p>Die Kartenansicht zeigt die Ihnen die Orte, die im Manuskript genannt werden, auf einer Landkarte. Wahlweise werden die Orte seitenweise oder auch für das ganze Manuskript angezeigt. Per Klick auf einen Ort erhalten Sie weitere Informationen über den angewählten Ort. Außerdem können Sie in die Karte hinein- und herauszoomen, indem Sie die Plus- und Minustasten oder den Schieberegler benutzen.</p>
 		<h4>Wortwolke</h4> 
-		<p>Die Wortwolke visualisiert die Häufigkeit ausgezeichneten Entitäten (Orte, Personen, Literatur, Werke). Die Wortwolke kann Seitenweise oder für das ganze Dokument angezeigt werden. Zum Anzeigen der Tagcloud wählen Sie bitte einWählen sie mindestens eine Entität aus indem Sie eine oder mehrere Chekboxes aktivieren. </p>
+		<p>Die Wortwolke visualisiert die Häufigkeit ausgezeichneten Entitäten (Orte, Personen, Literatur, Werke). Die Wortwolke kann Seitenweise oder für das ganze Dokument angezeigt werden. Zum Anzeigen der Tagcloud wählen sie mindestens eine Entität aus indem Sie eine oder mehrere Checkboxes aktivieren. </p>
 		<h3>Wie kann ich Digitalisat und Transkription miteinander vergleichen? Die verknüpfte Sicht:</h3>
 		<p>Bei Aktivierung der verknüpften Sicht zweier oder mehrerer Tabs in unterschiedlichen Mappen werden die betreffenden Ansichten miteinander verknüpft. Um zwei Tabs miteinander zu verknüpfen, aktivieren Sie das Schloss-Symbol am oberen rechten Rand in ebendiesen Tabs (geschlossen = aktiviert). Das bedeutet, es wird in den verknüpften Tabs die gleiche Seite des Manuskriptes angezeigt, auch wenn Sie blättern oder die Ansicht wechseln. Auf diese Weise können Sie z. B. Faksimile und Text direkt miteinander vergleichen. Diese Verknüpfung funktioniert nur innerhalb einer Mitschrift, Sie müssen also eine Mitschrift in mehreren Mappen öffnen, um dann die verschiedenen Ansichten miteinander verknüpfen zu können. </p>
 		<h3>Wie kann ich Digitalisate und Transkriptionen außerhalb Edition bearbeiten? Exportfunktionen:</h3>
