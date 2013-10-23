@@ -399,6 +399,16 @@ header .header-button {
 .index .content .image-in-text-right figcaption {
   text-align: center;
 }
+.index .content .image-in-text-left {
+  float: left;
+  margin-right: 10px;
+}
+.index .content .image-in-text-left img {
+  margin-left: 0;
+}
+.index .content .image-in-text-left figcaption {
+  text-align: center;
+}
 .index .content .img {
   padding: 10px;
   border: 1px solid #999999;
