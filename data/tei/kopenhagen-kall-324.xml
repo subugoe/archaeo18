@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<?oxygen SCHSchema="../OxygenArchaeo18/schema/Archaeo18.rng"?>
+<?oxygen RNGSchema="../OxygenArchaeo18/schema/Archaeo18.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ARCHAEO 18 Kopenhagen</title>
+                <title type="display">1767  (Kopenhagen)</title>
+                <author>unbekannt</author>
+                <respStmt><resp>Bearbeitung:</resp> <name>SUB Göttingen und Archäologisches Institut Göttingen</name></respStmt> 
+            </titleStmt>
+            </titleStmt>
+            <editionStmt><p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <p>
+                <ref
+                    target="http://rex.kb.dk/primo_library/libweb/action/dlDisplay.do?vid=KGL&afterPDS=true&institution=KGL&docId=KBH01000006150">Katalogeintrag</ref>
+            </p>
+            </editionStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                     <msIdentifier>
+                        <country>Dänemark</country>
+                        <settlement>Kopenhagen</settlement>
+                        <repository>Bibliothek ausfüllen</repository>
+                        <idno>Kall_324</idno>
+                           <altIdentifier>
+                            <idno>wenn vorhanden, ausfüllen</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <title>Titel ausfüllen</title>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <p>Umfang ausfüllen</p>
+                            <p>ausfüllen</p>
+                        </objectDesc>
+                    </physDesc>                    
+                    <history>
+                        <origin>
+                            <origDate>Datum ausfüllen</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    
