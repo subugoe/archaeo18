@@ -311,7 +311,7 @@
 		<p>Geschwungenen Klammern: Werden mehrere Zeilen von einer geschwungenen Klammer ( { oder } ) eingefaßt, wird dieser Text ohne Auszeichnung wiedergegeben: Steht der Text, der von der Klammer eingefaßt ist, links von der Klammer, kommt ganz an Ende dieses Textes eine geschwungene Klammer ( } ), auf die dann der Text außerhalb der Klammer folgt. Steht der Text, der von der Klammer eingefaßt wird, rechts von der Klammer, so schreibt man zunächst den Text außerhalb der Klammer hin, dann folgt die Klammer ( { ) und sodann der Inhalt derselben.</p>
 		<p></p>
 		<h2>Konventionen der XML-Kodierung nach TEI</h2>
-		<p>Das Heyne Digital ODD-Schema ist über Github <li><strong><a href="https://github.com/subugoe/ropen-backend/blob/master/src/main/odd/config/ropen.odd" title="Github" target="_blank">Github</a></strong>:/li> erreichbar.
+		<p>Das Heyne Digital ODD-Schema ist über <strong><a href="https://github.com/subugoe/ropen-backend/blob/master/src/main/odd/config/ropen.odd" title="Github" target="_blank">Github</a></strong> erreichbar.
 		<p>Überschriften wurden in &lt;head&gt; eingeschlossen. Zusätzlich wurde das gesamte Kapitel, zu dem die Überschrift gehört in ein &lt;div&gt; eingeschlossen.</p>
 		<p> Ein Seitenumbruch wird vor der Seite mit &lt;pb/&gt; gekennzeichnet.</p>
 		<p>Fortlaufende Seitenzahlen wurden nicht wiedergegeben; andere Ordnungszahlen, wie beispielsweise die Vorlesungseinheiten, hingegen schon.</p>
