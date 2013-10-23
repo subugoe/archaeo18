@@ -147,6 +147,16 @@ header {
 				text-align: center;
 			}
 		}
+		.image-in-text-left {
+			float: left;
+			margin-right: 10px;
+			img {
+				margin-left: 0;
+			}
+			figcaption {
+				text-align: center;
+			}
+		}
 		.img {
 			padding: 10px;
 			border: 1px solid #999999;
