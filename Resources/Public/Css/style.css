@@ -175,15 +175,27 @@
   color: #900000;
 }
 
-#scriptsContainer {
+.scriptsContainer {
   float: left;
-  margin-top: 40px;
+  margin-top: 16px;
 }
-#scriptsContainer .tei\:teiHeader h3:first-child {
-  display: none;
-}
-#scriptsContainer img {
+.scriptsContainer img {
   float: right;
+}
+
+#manuscripts_page .scriptContainer h3 {
+  margin-top: 10px;
+}
+#manuscripts_page .scriptsWrapper img {
+  float: right;
+}
+#manuscripts_page .video {
+  margin-top: 16px;
+}
+#manuscripts_page span.icon-youtube-play {
+  margin-left: 6px;
+  position: relative;
+  top: 2px;
 }
 
 footer {
@@ -385,6 +397,34 @@ header .header-button {
 .content {
   background-color: #eeeeee;
   color: #666666;
+}
+
+.two-columns {
+  float: left;
+  width: 100%;
+}
+.two-columns .subnav {
+  float: left;
+  width: 31%;
+  margin-right: 1%;
+}
+.two-columns .subnav ul {
+  padding-left: 0;
+}
+.two-columns .subnav ul li {
+  list-style-type: none;
+}
+.two-columns .subnav ul li a:hover {
+  cursor: pointer !important;
+  text-decoration: none !important;
+  color: #900000 !important;
+}
+.two-columns .subnav ul li a.selected {
+  color: #900000 !important;
+}
+.two-columns .maincontent {
+  width: 67%;
+  float: left;
 }
 
 .index table thead th {
