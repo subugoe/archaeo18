@@ -190,7 +190,7 @@ $('#linkhelp').click(function() {
 	$('html,body').animate({scrollTop: 0}, 0);
 	location.hash = "?page=#help_page";
 	document.title = 'Archaeo 18: Hilfe';
-	initializeSubNavigation(divToShow);
+	initializeHelpNavigation(divToShow);
 });
 
 $('#linkterms').click(function() {
@@ -247,10 +247,9 @@ $(window).resize(function() {
 
 
 // Navigation with side bar
-var initializeSubNavigation = function(div) {
-	console.log(div);
+var initializeHelpNavigation = function(div) {
 
-	var mainContentContainer = div + ' .maincontent';
+	var mainContentContainer = div + ' .maincontent .helptopics';
 	var subNavigationContainer = div + ' .subnav';
 
 	$('.helptopic').hide();
@@ -262,7 +261,6 @@ var initializeSubNavigation = function(div) {
 
 	firstActive();
 
-	this.initialized = true;
 	// listener for clicks on item
 	$(subNavigationContainer + ' li').click(function() {
 		var scriptId = $('a', this).attr('id')
@@ -273,9 +271,8 @@ var initializeSubNavigation = function(div) {
 				$(this).removeClass("selected");
 			});
 
-			$("a", this).addClass('selected');
-			$(mainContentContainer).hide();
-
+			$('a', this).addClass('selected');
+			$('.helptopic').hide();
 			$(mainContentContainer).append($('.' + scriptId).show());
 			return false;
 		}

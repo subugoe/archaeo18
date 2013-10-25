@@ -741,6 +741,7 @@
 		</ul>
 	</div>
 	<div class="maincontent">
+	<div class="helptopics">
 	<div class="helptopic help-arbeiten-mit-der-edition">
 
 		<h3>Wie kann ich die digitale Edition benutzen?</h3>
@@ -1005,7 +1006,7 @@
 	</div>
 	</div>
 	</div>
-
+	</div>
 	<!-- IMPRESSUM -->
 
 	<div id="imprint_page">
