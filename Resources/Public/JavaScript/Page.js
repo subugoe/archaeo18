@@ -63,6 +63,39 @@ var showDiv = function(div, link) {
 	$(div).css('display', 'block');
 }
 
+var loadHelp = function(div) {
+
+	var mainContentContainer = div + ' .maincontent .helptopics';
+	var subNavigationContainer = div + ' .subnav';
+
+	$('.helptopic').hide();
+
+	var firstActive = function() {
+		$('.helptopic:first').show();
+		$(subNavigationContainer + ' a:first').addClass('selected');
+	}
+
+	firstActive();
+
+	// listener for clicks on item
+	$(subNavigationContainer + ' li').click(function() {
+		var scriptId = $('a', this).attr('id')
+
+		console.log(scriptId);
+		if (scriptId != '') {
+			$(subNavigationContainer + ' a').each(function() {
+				$(this).removeClass("selected");
+			});
+
+			$('a', this).addClass('selected');
+			$('.helptopic').hide();
+			$(mainContentContainer).append($('.' + scriptId).show());
+			return false;
+		}
+	});
+
+};
+
 var loadIndices = function() {
 	if (!Indices.initialized) {
 		Indices.initialize();
@@ -107,7 +140,10 @@ var loadPage = function() {
 				else
 					if (page.indexOf('manuscripts') != -1) {
 						loadScripts();
-					}
+					} else
+						if (page.indexOf('help') != -1) {
+							loadHelp('#help_page');
+						}
 		} else {
 			showDiv('#start_page', '#linkstart');
 		}
@@ -190,7 +226,7 @@ $('#linkhelp').click(function() {
 	$('html,body').animate({scrollTop: 0}, 0);
 	location.hash = "?page=#help_page";
 	document.title = 'Archaeo 18: Hilfe';
-	initializeHelpNavigation(divToShow);
+	loadHelp(divToShow);
 });
 
 $('#linkterms').click(function() {
@@ -244,38 +280,3 @@ $(window).resize(function() {
 		$('footer').css('width', w + 'px');
 	}
 });
-
-
-// Navigation with side bar
-var initializeHelpNavigation = function(div) {
-
-	var mainContentContainer = div + ' .maincontent .helptopics';
-	var subNavigationContainer = div + ' .subnav';
-
-	$('.helptopic').hide();
-
-	var firstActive = function() {
-		$('.helptopic:first').show();
-		$(subNavigationContainer + ' a:first').addClass('selected');
-	}
-
-	firstActive();
-
-	// listener for clicks on item
-	$(subNavigationContainer + ' li').click(function() {
-		var scriptId = $('a', this).attr('id')
-
-		console.log(scriptId);
-		if (scriptId != '') {
-			$(subNavigationContainer + ' a').each(function() {
-				$(this).removeClass("selected");
-			});
-
-			$('a', this).addClass('selected');
-			$('.helptopic').hide();
-			$(mainContentContainer).append($('.' + scriptId).show());
-			return false;
-		}
-	});
-
-};
