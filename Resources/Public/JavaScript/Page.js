@@ -69,6 +69,7 @@ var loadHelp = function(div) {
 	var subNavigationContainer = div + ' .subnav';
 
 	$('.helptopic').hide();
+	$(subNavigationContainer + ' a').removeClass('selected');
 
 	var firstActive = function() {
 		$('.helptopic:first').show();
@@ -80,8 +81,6 @@ var loadHelp = function(div) {
 	// listener for clicks on item
 	$(subNavigationContainer + ' li').click(function() {
 		var scriptId = $('a', this).attr('id')
-
-		console.log(scriptId);
 		if (scriptId != '') {
 			$(subNavigationContainer + ' a').each(function() {
 				$(this).removeClass("selected");
