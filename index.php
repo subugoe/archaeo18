@@ -813,7 +813,7 @@
 		Arbeitsoberfläche bzw. in einer gänzlich neuen Mappe öffnen möchten.</p>
 
 	<h3>Wie arbeite ich mit den Mitschriften? Die Funktionalität der Mappen:</h3>
-	<iframe width="640" height="360" src="//www.youtube-nocookie.com/embed/LJG0-D2avTQ?rel=0&start=14" frameborder="0" allowfullscreen></iframe>
+
 	<p>Haben Sie über den Browser mehrere Mitschriften oder Suchergebnisse in einer Mappe geöffnet, so
 		werden diese als Tabs abgelegt. Durch Anwahl eines Tabs können Sie sich das entsprechende
 		Dokument
