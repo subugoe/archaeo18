@@ -776,17 +776,9 @@
 			Zusammenhang stehen müssen. Soll nach einer speziellen Wortfolge gesucht werden, setzen Sie
 			diese
 			bitte in Anführungsstriche.</p>
-	</div>
-
-	<div class="helptopic help-lesezeichen-speichern">
-
-	<p>In das Eingabefeld können ein oder mehrere Begriffe eingegeben werden. Mit der Enter-Taste oder
-		einem
-		Klick auf das Lupen-Symbol am rechten Rand des Eingabefeldes wird die Suche ausgelöst. Bei der
-		Eingabe von mehr als einem Wort wird nach beiden Begriffen gesucht, ohne, dass diese in einem
-		Zusammenhang stehen müssen. Soll nach einer speziellen Wortfolge gesucht werden, setzen Sie
-		diese
-		bitte in Anführungsstriche.</p>
+		</div>
+		
+	<div class="helptopic help-erweiterte-suche">
 	<p>Mit der «Erweiterten Suche» kann in bestimmten Mitschriften gesucht oder auch die Suche auf
 		bestimmte
 		Facetten wie Dokumentstrukturen oder ausgezeichnete Entitäten eingegrenzt werden. Dazu können
@@ -801,27 +793,16 @@
 		Dokumente
 		durchsucht oder bestimmte Entitäten (Personen, Orte, Literatur oder Kunstwerke) gesucht werden
 		können.</p>
-	<p>Die Suchergebnisse werden nach Manuskripttitel sortiert im Browserfenster ausgegeben.</p>
-	<p>Über den Button „Dokumente“ werden Ihnen die vorhandenen Mitschriften angezeigt. Über das
-		„Plus“-Symbol vor dem jeweiligen Dokument kann die Struktur der Mitschrift bzw. deren Kapitel
-		als
-		Baumdiagramm dargestellt werden. Klicken Sie auf den Manuskripttitel, wird das
-		Inhaltsverzeichnis
-		des gewählten Manuskriptes in einer beliebigen Mappe geöffnet. Klicken Sie auf ein Unterkapitel,
-		wird dieses in einer beliebigen Mappe in der Fließtext-Ansicht geöffnet. </p>
-	<p>Bei Auswahl einer Vorlesungsmitschrift oder eines Suchergebnis öffnet sich ein kleines Fenster,
-		in
-		dem Sie auswählen können, ob sie das jeweilige Dokument in einer bereits bestehen Mappe auf der
-		Arbeitsoberfläche bzw. in einer gänzlich neuen Mappe öffnen möchten.</p>
-
-	<h3>Wie arbeite ich mit den Mitschriften? Die Funktionalität der Mappen:</h3>
-
-	<p>Haben Sie über den Browser mehrere Mitschriften oder Suchergebnisse in einer Mappe geöffnet, so
+		</div>
+		
+		<div class="helptopic help-arbeiten-mit-den-handschriften"></div>
+		<h3>Wie arbeite ich mit den Mitschriften? Die Funktionalität der Mappen:</h3>
+		<p>Haben Sie über den Browser mehrere Mitschriften oder Suchergebnisse in einer Mappe geöffnet, so
 		werden diese als Tabs abgelegt. Durch Anwahl eines Tabs können Sie sich das entsprechende
 		Dokument
 		anzeigen lassen. Ein Klick auf das Kreuz rechts neben dem Tab-Namen schließt den jeweiligen
-		Tab. </p>
-	<p>In der unteren Navigationsleiste jeder Mappe sind acht verschiedene Ansichten auf das jeweilige
+		Tab.</p>
+		<p>In der unteren Navigationsleiste jeder Mappe sind acht verschiedene Ansichten auf das jeweilige
 		Dokument über Buttons auswählbar. Die Einstellungen beziehen sich immer auf den gerade
 		aktivierten
 		Tab.</p>
@@ -852,6 +833,58 @@
 		verschieben, mit der Plus-Minus-Navigation (oben links neben dem Digitalisat) können Sie
 		bestimmte
 		Bereiche vergrößern und verkleinern.</p>
+		</div>
+		
+		<div class="helptopic help-informationen-zu-personen-orten-etc"></div>
+		<h3>Wie erhalte ich Informationen zu Personen, Orten, Literatur und Kunstwerken in den Mitschriften?
+		Die
+		ausgezeichneten Entitäten in der Transkription:</h3>
+	<p>In der <em>«Transkription seitenweise»</em> und der <em>«Transkription-Fließtext»</em> sind Orte,
+		Literatur, Werke und Personen markiert und – soweit möglich – mit Links zu externen Datenbanken
+		versehen worden. Ohne besondere Einstellungen erscheinen referenzierte Entitäten zunächst blau,
+		unreferenzierte rot. Durch das Setzen eines Hakens bei einer oder mehreren Entitäten (über dem
+		Text)
+		werden Personen orange, Ortsnamen violett, Literatur grün und Werke pink hervorgehoben.
+		Stellenkommentare und Auszeichnungen sind direkt an der relevanten Textstelle als Tooltip
+		aufgelöst.</p>
+		</div>
+		
+		<div class="helptopic help-aufrufen-externer-quellen">
+		<p>Über diese Tooltips gelangen Sie bei den meisten Auszeichnungen auf eine externe Ressource, die
+		weitere Informationen über den betreffenden Ort, die Person oder das Werk liefert. Bei der
+		ausgewiesenen Literatur gelangen Sie zum Digitalisat des Buches.</p>
+		</div>
+		
+		<div class="helptopic help-weitere-ansichten"></div>
+			<h4>Thumbnails</h4>
+	<p>Diese Ansicht ermöglicht einen Überblick über das Manuskript als Faksimile. Sie können einfach
+		durch
+		die Thumbnails scrollen und sich einen ersten Eindruck von den Seiten verschaffen bzw. besondere
+		optische Merkmale überblicken. Per klick auf ein Thumbnail gelangen Sie auf die
+		«Faksimile»-Ansicht
+		in Großaufnahme.</p>
+	<h4>TEI</h4>
+	<p>In der TEI-Ansicht sehen sie die Dokumentstruktur im XML-Format.</p>
+	<h4>Karte</h4>
+	<p>Die Kartenansicht zeigt die Ihnen die Orte, die im Manuskript genannt werden, auf einer
+		Landkarte.
+		Wahlweise werden die Orte seitenweise oder auch für das ganze Manuskript angezeigt. Per Klick
+		auf
+		einen Ort erhalten Sie weitere Informationen über den angewählten Ort. Außerdem können Sie in
+		die
+		Karte hinein- und herauszoomen, indem Sie die Plus- und Minustasten oder den Schieberegler
+		benutzen.</p>
+	<h4>Wortwolke</h4>
+	<p>Die Wortwolke visualisiert die Häufigkeit ausgezeichneten Entitäten (Orte, Personen, Literatur,
+		Werke). Die Wortwolke kann Seitenweise oder für das ganze Dokument angezeigt werden. Zum
+		Anzeigen
+		der Tagcloud wählen sie mindestens eine Entität aus, indem Sie eine oder mehrere Checkboxes
+		aktivieren. </p>
+		</div>
+		
+	<div class="helptopic help-lesezeichen-speichern">
+
+
 	<h4>Thumbnails</h4>
 	<p>Diese Ansicht ermöglicht einen Überblick über das Manuskript als Faksimile. Sie können einfach
 		durch
@@ -897,21 +930,6 @@
 	<p>Über die Navigation in der oberen rechten Ecke einer Mappe kann das Digitalisat der Mitschrift im
 		DFG-Viewer betrachtet werden. Zudem kann die Transkription als PDF-Dokument heruntergeladen
 		werden.</p>
-
-	<h3>Wie erhalte ich Informationen zu Personen, Orten, Literatur und Kunstwerken in den Mitschriften?
-		Die
-		ausgezeichneten Entitäten in der Transkription:</h3>
-	<p>In der <em>«Transkription seitenweise»</em> und der <em>«Transkription-Fließtext»</em> sind Orte,
-		Literatur, Werke und Personen markiert und – soweit möglich – mit Links zu externen Datenbanken
-		versehen worden. Ohne besondere Einstellungen erscheinen referenzierte Entitäten zunächst blau,
-		unreferenzierte rot. Durch das Setzen eines Hakens bei einer oder mehreren Entitäten (über dem
-		Text)
-		werden Personen orange, Ortsnamen violett, Literatur grün und Werke pink hervorgehoben.
-		Stellenkommentare und Auszeichnungen sind direkt an der relevanten Textstelle als Tooltip
-		aufgelöst.
-		Über diese Tooltips gelangen Sie bei den meisten Auszeichnungen auf eine externe Ressource, die
-		weitere Informationen über den betreffenden Ort, die Person oder das Werk liefert. Bei der
-		ausgewiesenen Literatur gelangen Sie zum Digitalisat des Buches.</p>
 
 	<h3>Wie öffne ich eine neue Mappe?</h3>
 	<p>Sie haben zwei Möglichkeiten: Entweder wählen Sie im Browser ein Dokument oder ein Suchergebnis
