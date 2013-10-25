@@ -48,7 +48,7 @@ end
 Vagrant.configure("2") do |config|
   config.vm.define :archaeo18 do |archaeo18|
     archaeo18.vm.provider :virtualbox do |vb|
-      vb.customize ["modifyvm", :id, "--memory", 768]
+      vb.customize ["modifyvm", :id, "--memory", 1024]
     end
   end
 end

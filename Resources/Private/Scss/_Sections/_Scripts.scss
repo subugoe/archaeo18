@@ -23,17 +23,34 @@
 		}
 	}
 }
-#scriptsContainer {
+.scriptsContainer {
 	float: left;
-	margin-top: 40px;
+	margin-top: 16px;
 	.tei\:teiHeader {
 		h3 {
 			&:first-child {
-				display: none;
+			//	display: none;
 			}
 		}
 	}
 	img {
 		float: right;
+	}
+}
+
+
+#manuscripts_page {
+	.scriptContainer {
+		h3 {
+			margin-top: 10px;
+		}
+	}
+	.scriptsWrapper {
+		img {
+			float: right;
+		}
+	}
+	.video {
+		margin-top: 16px;
 	}
 }

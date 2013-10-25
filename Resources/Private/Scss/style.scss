@@ -135,6 +135,19 @@ header {
 	color: $color-content-font;
 }
 
+.two-columns {
+	float: left;
+	width: 100%;
+	.subnav {
+		float: left;
+		width: 32%;
+	}
+	.maincontent {
+		width: 67%;
+		float: left;
+	}
+}
+
 .index {
 	table {
 		thead th { text-align: left; }
