@@ -3,6 +3,7 @@
 @import '_Sections/Indices';
 @import '_Sections/Scripts';
 @import '_Sections/Footer';
+@import '_Sections/Help';
 /* ALL */
 
 body {
@@ -141,6 +142,22 @@ header {
 	.subnav {
 		float: left;
 		width: 32%;
+		ul {
+			padding-left: 0;
+			li {
+				list-style-type: none;
+				a {
+					&:hover {
+						cursor: pointer!important;
+						text-decoration: none!important;
+						color: $hoverColor!important;
+					}
+					&.selected {
+						color: $hoverColor!important;
+					}
+				}
+			}
+		}
 	}
 	.maincontent {
 		width: 67%;

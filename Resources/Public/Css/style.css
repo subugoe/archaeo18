@@ -402,6 +402,20 @@ header .header-button {
   float: left;
   width: 32%;
 }
+.two-columns .subnav ul {
+  padding-left: 0;
+}
+.two-columns .subnav ul li {
+  list-style-type: none;
+}
+.two-columns .subnav ul li a:hover {
+  cursor: pointer !important;
+  text-decoration: none !important;
+  color: #900000 !important;
+}
+.two-columns .subnav ul li a.selected {
+  color: #900000 !important;
+}
 .two-columns .maincontent {
   width: 67%;
   float: left;
