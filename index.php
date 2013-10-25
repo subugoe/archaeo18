@@ -753,11 +753,31 @@
 	</div>
 
 	<div class="helptopic help-vorlesungsmitschrift-oeffnen">
-
-	<h3>Wie öffne ich eine Vorlesungsmitschrift? Das Browser-Fenster:</h3>
-	<iframe width="640" height="360" src="//www.youtube-nocookie.com/embed/LJG0-D2avTQ?rel=0" frameborder="0" allowfullscreen></iframe>
-	<p>Über das Browserfenstern am linken Rand der Arbeitsoberfläche können Sie entweder die
+		<h3>Wie öffne ich eine Vorlesungsmitschrift? Das Browser-Fenster:</h3>
+		<p>Über das Browserfenstern am linken Rand der Arbeitsoberfläche können Sie entweder die
 		Vorlesungsmitschriften durchsuchen oder Vorlesungsmitschriften direkt aufrufen.</p>
+		
+	</div>
+	
+	<div class="help-arbeiten-mit-mehreren-tabs">
+		<p> Die Mitschriften können in einer neuen Mappe geöffnet oder in ein und derselben Mappe als mehrere Tybs abgelegt werden</p>
+	</div>
+	
+	<div class="help-suchen">
+		<p>In das Eingabefeld können ein oder mehrere Begriffe eingegeben werden. Mit der Enter-Taste oder
+		einem Klick auf das Lupen-Symbol am rechten Rand des Eingabefeldes wird die Suche ausgelöst.</p> 
+	
+	</div>
+	
+	<div class="help-suchen-mit-mehreren-begriffen">
+		<p>Bei der Eingabe von mehr als einem Wort wird nach beiden Begriffen gesucht, ohne, dass diese in einem
+		Zusammenhang stehen müssen. Soll nach einer speziellen Wortfolge gesucht werden, setzen Sie
+		diese
+		bitte in Anführungsstriche.</p>
+	</div>
+	
+	<div class="help-lesezeichen-speichern">
+
 	<p>In das Eingabefeld können ein oder mehrere Begriffe eingegeben werden. Mit der Enter-Taste oder
 		einem
 		Klick auf das Lupen-Symbol am rechten Rand des Eingabefeldes wird die Suche ausgelöst. Bei der
