@@ -716,249 +716,274 @@
 
 	<div id="help_page">
 	<div class="content clearfix">
-		<div class="wrap">
-			<h2>Hilfe</h2>
+	<div class="wrap">
+	<h2>Hilfe</h2>
 
-			<div class="two-columns">
-				<div class="subnav">
-					<ul>
-						<li><a href="#">Arbeiten mit der Edition</a></li>
-						<li><a href="#">Vorlesungsmitschrift öffnen</a></li>
-						<li><a href="#">Arbeiten mit mehreren Tabs</a></li>
-						<li><a href="#">Suchen</a></li>
-						<li><a href="#">Suchen mit mehreren Begriffen</a></li>
-						<li><a href="#">Erweiterte Suche</a></li>
-						<li><a href="#">Arbeiten mit den Mitschriften</a></li>
-						<li><a href="#">Informationen zu Personen Orten etc.</a></li>
-						<li><a href="#">Aufrufen Externer Quellen</a></li>
-						<li><a href="#">Weitere Ansichten</a></li>
-						<li><a href="#">Verknüpfung der Mappen</a></li>
-						<li><a href="#">PDF Export</a></li>
-						<li><a href="#">DFG Viewer</a></li>
-						<li><a href="#">Automatiche Ausrichtung</a></li>
-						<li><a href="#">Manuelle Ausrichtung</a></li>
-						<li><a href="#">Lesezeichen speichern</a></li>
-					</ul>
-				</div>
-				<div class="maincontent">
-					<h3>Wie kann ich die digitale Edition benutzen?</h3>
-					<p>Über den Menüpunkt „Edition“ gelangen Sie zur Arbeitsoberfläche der Edition. Hier können Sie die
-						Vorlesungsmitschriften in verschiedenen Ansichten öffnen, in ihnen Suchen und über die
-						ausgezeichneten Personen, Orte, Literatur und Werke zu externen Datenbanken gelangen, die
-						weiterführende Informationen zu den jeweiligen Objekten oder die digitalisierte Literatur selbst
-						bereitstellen.
+	<div class="two-columns">
+	<div class="subnav">
+		<ul>
+			<li><a href="#" id="help-arbeiten-mit-der-edition">Arbeiten mit der Edition</a></li>
+			<li><a href="#" id="help-vorlesungsmitschrift-oeffnen">Vorlesungsmitschrift öffnen</a></li>
+			<li><a href="#" id="help-arbeiten-mit-mehreren-tabs">Arbeiten mit mehreren Tabs</a></li>
+			<li><a href="#" id="help-suchen">Suchen</a></li>
+			<li><a href="#" id="help-suchen-mit-mehreren-begriffen">Suchen mit mehreren Begriffen</a></li>
+			<li><a href="#" id="help-erweiterte-suche">Erweiterte Suche</a></li>
+			<li><a href="#" id="help-arbeiten-mit-den-handschriften">Arbeiten mit den Mitschriften</a></li>
+			<li><a href="#" id="help-informationen-zu-personen-orten-etc">Informationen zu Personen Orten etc.</a></li>
+			<li><a href="#" id="help-aufrufen-externer-quellen">Aufrufen Externer Quellen</a></li>
+			<li><a href="#" id="help-weitere-ansichten">Weitere Ansichten</a></li>
+			<li><a href="#" id="help-verknuepfung-der-mappen">Verknüpfung der Mappen</a></li>
+			<li><a href="#" id="help-pdf-export">PDF Export</a></li>
+			<li><a href="#" id="help-dfg-viewer">DFG Viewer</a></li>
+			<li><a href="#" id="help-automatische-ausrichtung">Automatiche Ausrichtung</a></li>
+			<li><a href="#" id="help-manuelle-ausrichtung">Manuelle Ausrichtung</a></li>
+			<li><a href="#" id="help-lesezeichen-speichern">Lesezeichen speichern</a></li>
+		</ul>
+	</div>
+	<div class="maincontent">
+	<div class="helptopic help-arbeiten-mit-der-edition">
 
-					<h3>Wie öffne ich eine Vorlesungsmitschrift? Das Browser-Fenster:</h3>
-					<iframe width="640" height="360" src="//www.youtube-nocookie.com/embed/LJG0-D2avTQ?rel=0" frameborder="0" allowfullscreen></iframe>
-					<p>Über das Browserfenstern am linken Rand der Arbeitsoberfläche können Sie entweder die
-						Vorlesungsmitschriften durchsuchen oder Vorlesungsmitschriften direkt aufrufen.</p>
-					<p>In das Eingabefeld können ein oder mehrere Begriffe eingegeben werden. Mit der Enter-Taste oder
-						einem
-						Klick auf das Lupen-Symbol am rechten Rand des Eingabefeldes wird die Suche ausgelöst. Bei der
-						Eingabe von mehr als einem Wort wird nach beiden Begriffen gesucht, ohne, dass diese in einem
-						Zusammenhang stehen müssen. Soll nach einer speziellen Wortfolge gesucht werden, setzen Sie
-						diese
-						bitte in Anführungsstriche.</p>
-					<p>Mit der «Erweiterten Suche» kann in bestimmten Mitschriften gesucht oder auch die Suche auf
-						bestimmte
-						Facetten wie Dokumentstrukturen oder ausgezeichnete Entitäten eingegrenzt werden. Dazu können
-						mit
-						einem Klick auf den runden Button vor „Wähle Dokument“ die Mitschriften aufgerufen werden; mit
-						dem
-						Setzen eines Hakens in eines oder mehrere der Felder vor den Vorlesungsmitschriften können eine
-						oder
-						mehrere Mitschriften ausgewählt werden, die durchsucht werden sollen. Analog dazu führt ein
-						Klick
-						auf den runden Button vor „Facetten“ zu einem Auswahlmenu, mit dem einzelne Abschnitte der
-						Dokumente
-						durchsucht oder bestimmte Entitäten (Personen, Orte, Literatur oder Kunstwerke) gesucht werden
-						können.</p>
-					<p>Die Suchergebnisse werden nach Manuskripttitel sortiert im Browserfenster ausgegeben.</p>
-					<p>Über den Button „Dokumente“ werden Ihnen die vorhandenen Mitschriften angezeigt. Über das
-						„Plus“-Symbol vor dem jeweiligen Dokument kann die Struktur der Mitschrift bzw. deren Kapitel
-						als
-						Baumdiagramm dargestellt werden. Klicken Sie auf den Manuskripttitel, wird das
-						Inhaltsverzeichnis
-						des gewählten Manuskriptes in einer beliebigen Mappe geöffnet. Klicken Sie auf ein Unterkapitel,
-						wird dieses in einer beliebigen Mappe in der Fließtext-Ansicht geöffnet. </p>
-					<p>Bei Auswahl einer Vorlesungsmitschrift oder eines Suchergebnis öffnet sich ein kleines Fenster,
-						in
-						dem Sie auswählen können, ob sie das jeweilige Dokument in einer bereits bestehen Mappe auf der
-						Arbeitsoberfläche bzw. in einer gänzlich neuen Mappe öffnen möchten.</p>
+		<h3>Wie kann ich die digitale Edition benutzen?</h3>
+		<p>Über den Menüpunkt „Edition“ gelangen Sie zur Arbeitsoberfläche der Edition. Hier können Sie die
+			Vorlesungsmitschriften in verschiedenen Ansichten öffnen, in ihnen Suchen und über die
+			ausgezeichneten Personen, Orte, Literatur und Werke zu externen Datenbanken gelangen, die
+			weiterführende Informationen zu den jeweiligen Objekten oder die digitalisierte Literatur selbst
+			bereitstellen.</p>
 
-					<h3>Wie arbeite ich mit den Mitschriften? Die Funktionalität der Mappen:</h3>
-					<iframe width="640" height="360" src="//www.youtube-nocookie.com/embed/LJG0-D2avTQ?rel=0&start=14" frameborder="0" allowfullscreen></iframe>
-					<p>Haben Sie über den Browser mehrere Mitschriften oder Suchergebnisse in einer Mappe geöffnet, so
-						werden diese als Tabs abgelegt. Durch Anwahl eines Tabs können Sie sich das entsprechende
-						Dokument
-						anzeigen lassen. Ein Klick auf das Kreuz rechts neben dem Tab-Namen schließt den jeweiligen
-						Tab. </p>
-					<p>In der unteren Navigationsleiste jeder Mappe sind acht verschiedene Ansichten auf das jeweilige
-						Dokument über Buttons auswählbar. Die Einstellungen beziehen sich immer auf den gerade
-						aktivierten
-						Tab.</p>
-					<h4>Inhaltsverzeichnis</h4>
-					<p>Öffnen Sie eine Mitschrift mit einem Klick auf die Dokumentbezeichnung, gelangen Sie zur
-						Grundstruktur des Dokuments. Ein klassisches Inhaltsverzeichnis liegt bei den Manuskripten nicht
-						vor. Es wurde versucht anhand der Grobstruktur, die durch phänotypische Hervorhebungen im
-						Manuskript
-						erkennbar ist, ein Inhaltsverzeichnis zur Orientierung nachzubilden. Die Auswahl einer
-						Überschrift
-						führt zur entsprechenden Stelle im Dokument in der „Fließtext“-Ansicht. </p>
-					<h4>Transkription im Fließtext</h4>
-					<p>Diese Ansicht zeigt das transkribierte und editierte Manuskript als Fließtext. Es kann durch die
-						Seitengescrollt werden. Seitenumbrüche sind durch horizontale Linien gekennzeichnet. Es gibt
-						zusätzlich eine Seitennavigation, welche zum einen angibt, auf welcher Seite Sie sich gerade
-						befinden und Ihnen zum anderen die Direktauswahl einer Seite ermöglicht. </p>
-					<h4>Transkription seitenweise</h4>
-					<p>Diese Ansicht zeigt das transkribierte und editierte Manuskript seitenweise. Über die
-						Seitennavigation oben links in der Mappe kann vor- und zurück geblättert werden. Zusätzlich
-						können
-						Seiten direkt ausgewählt werden.</p>
-					<h4>Faksimile</h4>
-					<p>Hier wird das digitalisierte Manuskript als Faksimile seitenweise angezeigt. Auch hier gibt es
-						die
-						Seitennavigation, welche zum einen angibt, auf welcher Seite Sie sich gerade befinden und Ihnen
-						zum
-						anderen die Direktauswahl einer Seite ermöglicht. Per Mausklick können Sie das Manuskript
-						verschieben, mit der Plus-Minus-Navigation (oben links neben dem Digitalisat) können Sie
-						bestimmte
-						Bereiche vergrößern und verkleinern.</p>
-					<h4>Thumbnails</h4>
-					<p>Diese Ansicht ermöglicht einen Überblick über das Manuskript als Faksimile. Sie können einfach
-						durch
-						die Thumbnails scrollen und sich einen ersten Eindruck von den Seiten verschaffen bzw. besondere
-						optische Merkmale überblicken. Per klick auf ein Thumbnail gelangen Sie auf die
-						«Faksimile»-Ansicht
-						in Großaufnahme.</p>
-					<h4>TEI</h4>
-					<p>In der TEI-Ansicht sehen sie die Dokumentstruktur im XML-Format.</p>
-					<h4>Karte</h4>
-					<p>Die Kartenansicht zeigt die Ihnen die Orte, die im Manuskript genannt werden, auf einer
-						Landkarte.
-						Wahlweise werden die Orte seitenweise oder auch für das ganze Manuskript angezeigt. Per Klick
-						auf
-						einen Ort erhalten Sie weitere Informationen über den angewählten Ort. Außerdem können Sie in
-						die
-						Karte hinein- und herauszoomen, indem Sie die Plus- und Minustasten oder den Schieberegler
-						benutzen.</p>
-					<h4>Wortwolke</h4>
-					<p>Die Wortwolke visualisiert die Häufigkeit ausgezeichneten Entitäten (Orte, Personen, Literatur,
-						Werke). Die Wortwolke kann Seitenweise oder für das ganze Dokument angezeigt werden. Zum
-						Anzeigen
-						der Tagcloud wählen sie mindestens eine Entität aus, indem Sie eine oder mehrere Checkboxes
-						aktivieren. </p>
+	</div>
 
-					<h3>Wie kann ich Digitalisat und Transkription miteinander vergleichen? Die verknüpfte Sicht:</h3>
-					<p>Bei Aktivierung der verknüpften Sicht zweier oder mehrerer Tabs in unterschiedlichen Mappen
-						werden
-						die betreffenden Ansichten miteinander verknüpft. Um zwei Tabs miteinander zu verknüpfen,
-						aktivieren
-						Sie das Schloss-Symbol am oberen rechten Rand in ebendiesen Tabs (geschlossen = aktiviert). Das
-						bedeutet, es wird in den verknüpften Tabs die gleiche Seite des Manuskriptes angezeigt, auch
-						wenn
-						Sie blättern oder die Ansicht wechseln. Auf diese Weise können Sie z. B. Faksimile und Text
-						direkt
-						miteinander vergleichen. Diese Verknüpfung funktioniert nur innerhalb einer Mitschrift, Sie
-						müssen
-						also eine Mitschrift in mehreren Mappen öffnen, um dann die verschiedenen Ansichten miteinander
-						verknüpfen zu können. </p>
+	<div class="helptopic help-vorlesungsmitschrift-oeffnen">
 
-					<h3>Wie kann ich Digitalisate und Transkriptionen außerhalb Edition bearbeiten?
-						Exportfunktionen:</h3>
-					<p>Über die Navigation in der oberen rechten Ecke einer Mappe kann das Digitalisat der Mitschrift im
-						DFG-Viewer betrachtet werden. Zudem kann die Transkription als PDF-Dokument heruntergeladen
-						werden.</p>
+	<h3>Wie öffne ich eine Vorlesungsmitschrift? Das Browser-Fenster:</h3>
+	<iframe width="640" height="360" src="//www.youtube-nocookie.com/embed/LJG0-D2avTQ?rel=0" frameborder="0" allowfullscreen></iframe>
+	<p>Über das Browserfenstern am linken Rand der Arbeitsoberfläche können Sie entweder die
+		Vorlesungsmitschriften durchsuchen oder Vorlesungsmitschriften direkt aufrufen.</p>
+	<p>In das Eingabefeld können ein oder mehrere Begriffe eingegeben werden. Mit der Enter-Taste oder
+		einem
+		Klick auf das Lupen-Symbol am rechten Rand des Eingabefeldes wird die Suche ausgelöst. Bei der
+		Eingabe von mehr als einem Wort wird nach beiden Begriffen gesucht, ohne, dass diese in einem
+		Zusammenhang stehen müssen. Soll nach einer speziellen Wortfolge gesucht werden, setzen Sie
+		diese
+		bitte in Anführungsstriche.</p>
+	<p>Mit der «Erweiterten Suche» kann in bestimmten Mitschriften gesucht oder auch die Suche auf
+		bestimmte
+		Facetten wie Dokumentstrukturen oder ausgezeichnete Entitäten eingegrenzt werden. Dazu können
+		mit
+		einem Klick auf den runden Button vor „Wähle Dokument“ die Mitschriften aufgerufen werden; mit
+		dem
+		Setzen eines Hakens in eines oder mehrere der Felder vor den Vorlesungsmitschriften können eine
+		oder
+		mehrere Mitschriften ausgewählt werden, die durchsucht werden sollen. Analog dazu führt ein
+		Klick
+		auf den runden Button vor „Facetten“ zu einem Auswahlmenu, mit dem einzelne Abschnitte der
+		Dokumente
+		durchsucht oder bestimmte Entitäten (Personen, Orte, Literatur oder Kunstwerke) gesucht werden
+		können.</p>
+	<p>Die Suchergebnisse werden nach Manuskripttitel sortiert im Browserfenster ausgegeben.</p>
+	<p>Über den Button „Dokumente“ werden Ihnen die vorhandenen Mitschriften angezeigt. Über das
+		„Plus“-Symbol vor dem jeweiligen Dokument kann die Struktur der Mitschrift bzw. deren Kapitel
+		als
+		Baumdiagramm dargestellt werden. Klicken Sie auf den Manuskripttitel, wird das
+		Inhaltsverzeichnis
+		des gewählten Manuskriptes in einer beliebigen Mappe geöffnet. Klicken Sie auf ein Unterkapitel,
+		wird dieses in einer beliebigen Mappe in der Fließtext-Ansicht geöffnet. </p>
+	<p>Bei Auswahl einer Vorlesungsmitschrift oder eines Suchergebnis öffnet sich ein kleines Fenster,
+		in
+		dem Sie auswählen können, ob sie das jeweilige Dokument in einer bereits bestehen Mappe auf der
+		Arbeitsoberfläche bzw. in einer gänzlich neuen Mappe öffnen möchten.</p>
 
-					<h3>Wie erhalte ich Informationen zu Personen, Orten, Literatur und Kunstwerken in den Mitschriften?
-						Die
-						ausgezeichneten Entitäten in der Transkription:</h3>
-					<p>In der <em>«Transkription seitenweise»</em> und der <em>«Transkription-Fließtext»</em> sind Orte,
-						Literatur, Werke und Personen markiert und – soweit möglich – mit Links zu externen Datenbanken
-						versehen worden. Ohne besondere Einstellungen erscheinen referenzierte Entitäten zunächst blau,
-						unreferenzierte rot. Durch das Setzen eines Hakens bei einer oder mehreren Entitäten (über dem
-						Text)
-						werden Personen orange, Ortsnamen violett, Literatur grün und Werke pink hervorgehoben.
-						Stellenkommentare und Auszeichnungen sind direkt an der relevanten Textstelle als Tooltip
-						aufgelöst.
-						Über diese Tooltips gelangen Sie bei den meisten Auszeichnungen auf eine externe Ressource, die
-						weitere Informationen über den betreffenden Ort, die Person oder das Werk liefert. Bei der
-						ausgewiesenen Literatur gelangen Sie zum Digitalisat des Buches.</p>
+	<h3>Wie arbeite ich mit den Mitschriften? Die Funktionalität der Mappen:</h3>
+	<iframe width="640" height="360" src="//www.youtube-nocookie.com/embed/LJG0-D2avTQ?rel=0&start=14" frameborder="0" allowfullscreen></iframe>
+	<p>Haben Sie über den Browser mehrere Mitschriften oder Suchergebnisse in einer Mappe geöffnet, so
+		werden diese als Tabs abgelegt. Durch Anwahl eines Tabs können Sie sich das entsprechende
+		Dokument
+		anzeigen lassen. Ein Klick auf das Kreuz rechts neben dem Tab-Namen schließt den jeweiligen
+		Tab. </p>
+	<p>In der unteren Navigationsleiste jeder Mappe sind acht verschiedene Ansichten auf das jeweilige
+		Dokument über Buttons auswählbar. Die Einstellungen beziehen sich immer auf den gerade
+		aktivierten
+		Tab.</p>
+	<h4>Inhaltsverzeichnis</h4>
+	<p>Öffnen Sie eine Mitschrift mit einem Klick auf die Dokumentbezeichnung, gelangen Sie zur
+		Grundstruktur des Dokuments. Ein klassisches Inhaltsverzeichnis liegt bei den Manuskripten nicht
+		vor. Es wurde versucht anhand der Grobstruktur, die durch phänotypische Hervorhebungen im
+		Manuskript
+		erkennbar ist, ein Inhaltsverzeichnis zur Orientierung nachzubilden. Die Auswahl einer
+		Überschrift
+		führt zur entsprechenden Stelle im Dokument in der „Fließtext“-Ansicht. </p>
+	<h4>Transkription im Fließtext</h4>
+	<p>Diese Ansicht zeigt das transkribierte und editierte Manuskript als Fließtext. Es kann durch die
+		Seitengescrollt werden. Seitenumbrüche sind durch horizontale Linien gekennzeichnet. Es gibt
+		zusätzlich eine Seitennavigation, welche zum einen angibt, auf welcher Seite Sie sich gerade
+		befinden und Ihnen zum anderen die Direktauswahl einer Seite ermöglicht. </p>
+	<h4>Transkription seitenweise</h4>
+	<p>Diese Ansicht zeigt das transkribierte und editierte Manuskript seitenweise. Über die
+		Seitennavigation oben links in der Mappe kann vor- und zurück geblättert werden. Zusätzlich
+		können
+		Seiten direkt ausgewählt werden.</p>
+	<h4>Faksimile</h4>
+	<p>Hier wird das digitalisierte Manuskript als Faksimile seitenweise angezeigt. Auch hier gibt es
+		die
+		Seitennavigation, welche zum einen angibt, auf welcher Seite Sie sich gerade befinden und Ihnen
+		zum
+		anderen die Direktauswahl einer Seite ermöglicht. Per Mausklick können Sie das Manuskript
+		verschieben, mit der Plus-Minus-Navigation (oben links neben dem Digitalisat) können Sie
+		bestimmte
+		Bereiche vergrößern und verkleinern.</p>
+	<h4>Thumbnails</h4>
+	<p>Diese Ansicht ermöglicht einen Überblick über das Manuskript als Faksimile. Sie können einfach
+		durch
+		die Thumbnails scrollen und sich einen ersten Eindruck von den Seiten verschaffen bzw. besondere
+		optische Merkmale überblicken. Per klick auf ein Thumbnail gelangen Sie auf die
+		«Faksimile»-Ansicht
+		in Großaufnahme.</p>
+	<h4>TEI</h4>
+	<p>In der TEI-Ansicht sehen sie die Dokumentstruktur im XML-Format.</p>
+	<h4>Karte</h4>
+	<p>Die Kartenansicht zeigt die Ihnen die Orte, die im Manuskript genannt werden, auf einer
+		Landkarte.
+		Wahlweise werden die Orte seitenweise oder auch für das ganze Manuskript angezeigt. Per Klick
+		auf
+		einen Ort erhalten Sie weitere Informationen über den angewählten Ort. Außerdem können Sie in
+		die
+		Karte hinein- und herauszoomen, indem Sie die Plus- und Minustasten oder den Schieberegler
+		benutzen.</p>
+	<h4>Wortwolke</h4>
+	<p>Die Wortwolke visualisiert die Häufigkeit ausgezeichneten Entitäten (Orte, Personen, Literatur,
+		Werke). Die Wortwolke kann Seitenweise oder für das ganze Dokument angezeigt werden. Zum
+		Anzeigen
+		der Tagcloud wählen sie mindestens eine Entität aus, indem Sie eine oder mehrere Checkboxes
+		aktivieren. </p>
 
-					<h3>Wie öffne ich eine neue Mappe?</h3>
-					<p>Sie haben zwei Möglichkeiten: Entweder wählen Sie im Browser ein Dokument oder ein Suchergebnis
-						aus
-						und nutzen die Option <em>„Öffne Dokument in... Neuer Mappe“</em>. Alternativ können Sie mit dem
-						Button <em>„Neue Mappe“</em> in der linken oberen Ecke der Arbeitsoberfläche eine leere Mappe
-						erstellen.</p>
+	<h3>Wie kann ich Digitalisat und Transkription miteinander vergleichen? Die verknüpfte Sicht:</h3>
+	<p>Bei Aktivierung der verknüpften Sicht zweier oder mehrerer Tabs in unterschiedlichen Mappen
+		werden
+		die betreffenden Ansichten miteinander verknüpft. Um zwei Tabs miteinander zu verknüpfen,
+		aktivieren
+		Sie das Schloss-Symbol am oberen rechten Rand in ebendiesen Tabs (geschlossen = aktiviert). Das
+		bedeutet, es wird in den verknüpften Tabs die gleiche Seite des Manuskriptes angezeigt, auch
+		wenn
+		Sie blättern oder die Ansicht wechseln. Auf diese Weise können Sie z. B. Faksimile und Text
+		direkt
+		miteinander vergleichen. Diese Verknüpfung funktioniert nur innerhalb einer Mitschrift, Sie
+		müssen
+		also eine Mitschrift in mehreren Mappen öffnen, um dann die verschiedenen Ansichten miteinander
+		verknüpfen zu können. </p>
 
-					<h3>Wie kann ich einen Zustand meiner Arbeitsoberfläche speichern? Das Lesezeichen:</h3>
-					<p>Wenn Sie ihre geöffneten Dokumente in den gewählten Ansichten zu einem späteren Zeitpunkt wieder
-						aufrufen möchten, um weiterzuarbeiten, können Sie den Zustand mit über das „Lesezeichen“ in der
-						linken oberen Ecke der Arbeitsoberfläche speichern. Ein Klick öffnet ein kleines Fenster, in dem
-						Sie
-						mit einem Klick auf „Lesezeichen erstellen“ einen Link erstellen, den Sie sich kopieren und
-						abspeichern können. Rufen Sie diesen Link in Ihrem Web-Browser erneut auf, wird Ihre
-						Arbeitssitzung
-						so wieder hergestellt, wie zu dem Zeitpunkt, als Sie den Link erzeugt haben. Es können beliebig
-						viele Lesezeichen erzeugt werden. </p>
+	<h3>Wie kann ich Digitalisate und Transkriptionen außerhalb Edition bearbeiten?
+		Exportfunktionen:</h3>
+	<p>Über die Navigation in der oberen rechten Ecke einer Mappe kann das Digitalisat der Mitschrift im
+		DFG-Viewer betrachtet werden. Zudem kann die Transkription als PDF-Dokument heruntergeladen
+		werden.</p>
 
-					<h3>Wie kann ich die Arbeitsoberfläche optimal ausnutzen? Der Vollbildmodus und die automatische
-						Ausrichtung:</h3>
-					<p>Sie haben die Möglichkeit Ihre Arbeitsoberfläche individuell einzurichten. Es sind beliebig viele
-						Arbeitsmappen zur Dokumentanzeige auf der Arbeitsfläche ablegbar. Die Mappen und der Browser
-						können
-						beliebig auf der Arbeitsoberfläche angeordnet – meint verschoben, vergrößert, verkleinert
-						minimiert
-						– werden. Alternativ können Sie mit Aktivierung des Buttons „automatische Ausrichtung“ in der
-						oberen
-						rechten Ecke der Arbeitsoberfläche alle Mappen nebeneinander anordnen lassen. Einmal aktiviert,
-						werden alle neuen Mappen automatisch ausgerichtet. Der Modus kann jederzeit wieder deaktiviert
-						werden. Mit dem kleinen „Aufwärtspfeil“ ganz oben auf der Projektseite kann außerdem das Menu
-						mit
-						dem Titel der Webseite und der Seitennavigation eingeklappt werden, um so die Arbeitsfläche zu
-						vergrößern. Um die Größe der Arbeitsoberfläche noch weiter zu optimieren, besteht darüber hinaus
-						die
-						Möglichkeit, den Vollbildmodus zu aktivieren (ebenfalls in der oberen rechten Ecke des
-						Arbeitsplatzes). Durch Betätigen der Taste „Escape“ (esc) auf Ihrer Computertastatur können Sie
-						den
-						Vollbildmodus jederzeit wieder verlassen.</p>
+	<h3>Wie erhalte ich Informationen zu Personen, Orten, Literatur und Kunstwerken in den Mitschriften?
+		Die
+		ausgezeichneten Entitäten in der Transkription:</h3>
+	<p>In der <em>«Transkription seitenweise»</em> und der <em>«Transkription-Fließtext»</em> sind Orte,
+		Literatur, Werke und Personen markiert und – soweit möglich – mit Links zu externen Datenbanken
+		versehen worden. Ohne besondere Einstellungen erscheinen referenzierte Entitäten zunächst blau,
+		unreferenzierte rot. Durch das Setzen eines Hakens bei einer oder mehreren Entitäten (über dem
+		Text)
+		werden Personen orange, Ortsnamen violett, Literatur grün und Werke pink hervorgehoben.
+		Stellenkommentare und Auszeichnungen sind direkt an der relevanten Textstelle als Tooltip
+		aufgelöst.
+		Über diese Tooltips gelangen Sie bei den meisten Auszeichnungen auf eine externe Ressource, die
+		weitere Informationen über den betreffenden Ort, die Person oder das Werk liefert. Bei der
+		ausgewiesenen Literatur gelangen Sie zum Digitalisat des Buches.</p>
 
-					<h3>Technischer Setup</h3>
+	<h3>Wie öffne ich eine neue Mappe?</h3>
+	<p>Sie haben zwei Möglichkeiten: Entweder wählen Sie im Browser ein Dokument oder ein Suchergebnis
+		aus
+		und nutzen die Option <em>„Öffne Dokument in... Neuer Mappe“</em>. Alternativ können Sie mit dem
+		Button <em>„Neue Mappe“</em> in der linken oberen Ecke der Arbeitsoberfläche eine leere Mappe
+		erstellen.</p>
 
-					<h3>Was kann die Edition? Die wesentlichen Features:</h3>
-					<p>Jede einzelne Vorlesungsmitschrift wird in folgenden unterschiedlichen Darstellungsformen
-						angeboten:
-						als <em>«Inhaltsverzeichnis»</em>, als <em>«Transkription im Fließtext»</em>, als <em>«Transkription
-							seitenweise»</em> als <em>«Faksimile»</em>, als <em>«Faksimile-Thumbnailansicht»</em>, als
-						<em>«TEI-Ansicht»</em>,
-						als <em>«Tagcloud-Ansicht»</em> und als Kartenansicht. Ein kontextuelles Menü ermöglicht Ihnen,
-						im
-						Text Markierungen unterschiedlicher Farbe für Personen, Orte, Literatur und Werke einzeln oder
-						für
-						ganze Kategorien einzublenden. Stellenkommentare und Auszeichnungen sind direkt an der
-						relevanten
-						Textstelle als Tooltip aufgelöst. Über diese Tooltips gelangen Sie bei den meisten
-						Auszeichnungen
-						auf eine externe Ressource, die weitere Informationen über den betreffenden Ort, die Person oder
-						das
-						Werk liefert, bzw. bei der ausgewiesenen Literatur zu der relevanten Textstelle referenziert.
-						Sind
-						die Markierungen nicht aktiviert, erscheinen referenzierte Auszeichnungen blau und
-						unreferenzierte
-						rot. Sie haben die Möglichkeit Ihre Arbeitsoberfläche individuell einzurichten. Es sind beliebig
-						viele Arbeitsmappen zur Dokumentanzeige auf der Arbeitsfläche ablegbar. Diese können beliebig
-						auf
-						der Arbeitsoberfläche angeordnet – meint verschoben, vergrößert, verkleinert minimiert – werden.
-						Ferner besteht die Möglichkeit die Mappen miteinander zu verknüpfen, so dass Sie dieselbe Seite
-						eines Dokumentes in verschiedenen Ansichten vergleichen können. Sie können auf das
-						Individualisierungs-Feature verzichten indem Sie die Gitterausrichtung aktivieren, so dass die
-						Mappen initial nach einem vorgegebenen Schema ausgerichtet werden. </p>
-				</div>
+	<h3>Wie kann ich einen Zustand meiner Arbeitsoberfläche speichern? Das Lesezeichen:</h3>
+	<p>Wenn Sie ihre geöffneten Dokumente in den gewählten Ansichten zu einem späteren Zeitpunkt wieder
+		aufrufen möchten, um weiterzuarbeiten, können Sie den Zustand mit über das „Lesezeichen“ in der
+		linken oberen Ecke der Arbeitsoberfläche speichern. Ein Klick öffnet ein kleines Fenster, in dem
+		Sie
+		mit einem Klick auf „Lesezeichen erstellen“ einen Link erstellen, den Sie sich kopieren und
+		abspeichern können. Rufen Sie diesen Link in Ihrem Web-Browser erneut auf, wird Ihre
+		Arbeitssitzung
+		so wieder hergestellt, wie zu dem Zeitpunkt, als Sie den Link erzeugt haben. Es können beliebig
+		viele Lesezeichen erzeugt werden. </p>
+
+	<h3>Wie kann ich die Arbeitsoberfläche optimal ausnutzen? Der Vollbildmodus und die automatische
+		Ausrichtung:</h3>
+	<p>Sie haben die Möglichkeit Ihre Arbeitsoberfläche individuell einzurichten. Es sind beliebig viele
+		Arbeitsmappen zur Dokumentanzeige auf der Arbeitsfläche ablegbar. Die Mappen und der Browser
+		können
+		beliebig auf der Arbeitsoberfläche angeordnet – meint verschoben, vergrößert, verkleinert
+		minimiert
+		– werden. Alternativ können Sie mit Aktivierung des Buttons „automatische Ausrichtung“ in der
+		oberen
+		rechten Ecke der Arbeitsoberfläche alle Mappen nebeneinander anordnen lassen. Einmal aktiviert,
+		werden alle neuen Mappen automatisch ausgerichtet. Der Modus kann jederzeit wieder deaktiviert
+		werden. Mit dem kleinen „Aufwärtspfeil“ ganz oben auf der Projektseite kann außerdem das Menu
+		mit
+		dem Titel der Webseite und der Seitennavigation eingeklappt werden, um so die Arbeitsfläche zu
+		vergrößern. Um die Größe der Arbeitsoberfläche noch weiter zu optimieren, besteht darüber hinaus
+		die
+		Möglichkeit, den Vollbildmodus zu aktivieren (ebenfalls in der oberen rechten Ecke des
+		Arbeitsplatzes). Durch Betätigen der Taste „Escape“ (esc) auf Ihrer Computertastatur können Sie
+		den
+		Vollbildmodus jederzeit wieder verlassen.</p>
+
+	<h3>Technischer Setup</h3>
+
+	<h3>Was kann die Edition? Die wesentlichen Features:</h3>
+	<p>Jede einzelne Vorlesungsmitschrift wird in folgenden unterschiedlichen Darstellungsformen
+		angeboten:
+		als <em>«Inhaltsverzeichnis»</em>, als <em>«Transkription im Fließtext»</em>, als <em>«Transkription
+			seitenweise»</em> als <em>«Faksimile»</em>, als <em>«Faksimile-Thumbnailansicht»</em>, als
+		<em>«TEI-Ansicht»</em>,
+		als <em>«Tagcloud-Ansicht»</em> und als Kartenansicht. Ein kontextuelles Menü ermöglicht Ihnen,
+		im
+		Text Markierungen unterschiedlicher Farbe für Personen, Orte, Literatur und Werke einzeln oder
+		für
+		ganze Kategorien einzublenden. Stellenkommentare und Auszeichnungen sind direkt an der
+		relevanten
+		Textstelle als Tooltip aufgelöst. Über diese Tooltips gelangen Sie bei den meisten
+		Auszeichnungen
+		auf eine externe Ressource, die weitere Informationen über den betreffenden Ort, die Person oder
+		das
+		Werk liefert, bzw. bei der ausgewiesenen Literatur zu der relevanten Textstelle referenziert.
+		Sind
+		die Markierungen nicht aktiviert, erscheinen referenzierte Auszeichnungen blau und
+		unreferenzierte
+		rot. Sie haben die Möglichkeit Ihre Arbeitsoberfläche individuell einzurichten. Es sind beliebig
+		viele Arbeitsmappen zur Dokumentanzeige auf der Arbeitsfläche ablegbar. Diese können beliebig
+		auf
+		der Arbeitsoberfläche angeordnet – meint verschoben, vergrößert, verkleinert minimiert – werden.
+		Ferner besteht die Möglichkeit die Mappen miteinander zu verknüpfen, so dass Sie dieselbe Seite
+		eines Dokumentes in verschiedenen Ansichten vergleichen können. Sie können auf das
+		Individualisierungs-Feature verzichten indem Sie die Gitterausrichtung aktivieren, so dass die
+		Mappen initial nach einem vorgegebenen Schema ausgerichtet werden. </p>
 
 
-			</div>
-		</div>
+	</div>
+	<div class="helptopic help-arbeiten-mit-mehreren-tabs"></div>
+	<div class="helptopic help-suchen"></div>
+	<div class="helptopic help-suchen-mit-mehreren-begriffen"></div>
+	<div class="helptopic help-erweiterte-suche"></div>
+	<div class="helptopic help-arbeiten-mit-den-handschriften"></div>
+	<div class="helptopic help-informationen-zu-personen-orten-etc"></div>
+	<div class="helptopic help-aufrufen-externer-quellen"></div>
+	<div class="helptopic help-weitere-ansichten"></div>
+	<div class="helptopic help-verknuepfung-der-mappen"></div>
+	<div class="helptopic help-pdf-export"></div>
+	<div class="helptopic help-dfg-viewer"></div>
+	<div class="helptopic help-automatische-ausrichtung"></div>
+	<div class="helptopic help-manuelle-ausrichtung"></div>
+	<div class="helptopic help-lesezeichen-speichern"></div>
+
+
+	</div>
+
+
+	</div>
+	</div>
 	</div>
 
 	<!-- IMPRESSUM -->
