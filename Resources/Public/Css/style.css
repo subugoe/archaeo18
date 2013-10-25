@@ -192,6 +192,11 @@
 #manuscripts_page .video {
   margin-top: 16px;
 }
+#manuscripts_page span.icon-youtube-play {
+  margin-left: 6px;
+  position: relative;
+  top: 2px;
+}
 
 footer {
   background-color: #666666;

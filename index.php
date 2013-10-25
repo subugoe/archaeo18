@@ -191,7 +191,7 @@
 		<ul class="selectHandschriften">
 
 			<li id="allgemeine-handschriften-informationen" class="scriptList">
-				<a href="#">Allgemeine Informationen</a>
+				<a href="#">Allgemeine Informationen</a><span class="icon-youtube-play"></span>
 			</li>
 
 			<li id="berlin-ms-germ-qrt-1666" class="scriptList">

@@ -23,21 +23,14 @@
 		}
 	}
 }
+
 .scriptsContainer {
 	float: left;
 	margin-top: 16px;
-	.tei\:teiHeader {
-		h3 {
-			&:first-child {
-			//	display: none;
-			}
-		}
-	}
 	img {
 		float: right;
 	}
 }
-
 
 #manuscripts_page {
 	.scriptContainer {
@@ -52,5 +45,12 @@
 	}
 	.video {
 		margin-top: 16px;
+	}
+	span {
+		&.icon-youtube-play {
+			margin-left: 6px;
+			position: relative;
+			top: 2px;
+		}
 	}
 }
