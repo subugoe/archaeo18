@@ -9,3 +9,8 @@ mehreren Entitäten (über dem Text) werden Personen orange, Ortsnamen
 violett, Literatur grün und Werke pink hervorgehoben. Stellenkommentare
 und Auszeichnungen sind direkt an der relevanten Textstelle als Tooltip
 aufgelöst.
+
+Über diese Tooltips gelangen Sie bei den meisten Auszeichnungen auf eine
+externe Ressource, die weitere Informationen über den betreffenden Ort,
+die Person oder das Werk liefert. Bei der ausgewiesenen Literatur
+gelangen Sie zum Digitalisat des Buches.
