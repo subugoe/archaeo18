@@ -58,7 +58,6 @@
 <!-- include jsonlib plugin -->
 <script src="ropen/Resources/Public/JavaScript/Libraries/jsonlib/jsonlib.js"></script>
 
-
 <script src="ropen/Resources/Public/JavaScript/Libraries/handlebars/handlebars.js"></script>
 
 <!-- include jQCloud plugin -->
@@ -101,6 +100,7 @@
 <script src="Resources/Public/JavaScript/plugins.js"></script>
 <script src="Resources/Public/JavaScript/Libraries/jquery.cookie/jquery.cookie.js"></script>
 <script src="Resources/Public/JavaScript/Libraries/datatables/media/js/jquery.dataTables.js"></script>
+<script src="Resources/Public/JavaScript/Libraries/markdown/lib/markdown.js"></script>
 <script src="Resources/Public/JavaScript/Page.js"></script>
 
 </body>
