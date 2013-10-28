@@ -1,15 +1,15 @@
-###Wie suche ich in den Handschriften?
+##Wie suche ich in den Handschriften?
 
-##Die einfache Suche
+###Die einfache Suche
 In das Eingabefeld können ein oder mehrere Begriffe eingegeben werden. Mit der Enter-Taste oder
 einem Klick auf das Lupen-Symbol am rechten Rand des Eingabefeldes wird die Suche ausgelöst.
 
-##Die Suche nach mehreren Begriffen
+###Die Suche nach mehreren Begriffen
 
 
 
 
-##Die erweiterte Suche
+###Die erweiterte Suche
 Mit der «Erweiterten Suche» kann in bestimmten Mitschriften gesucht oder
 auch die Suche auf bestimmte Facetten wie Dokumentstrukturen oder
 ausgezeichnete Entitäten eingegrenzt werden. Dazu können mit einem Klick
