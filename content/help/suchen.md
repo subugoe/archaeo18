@@ -1,5 +1,7 @@
 ##Wie suche ich in den Handschriften?
 
+<iframe width="480" height="360" src="//www.youtube-nocookie.com/embed/iyHBtjJ9l7M?rel=0&start=122&end=303" frameborder="0" allowfullscreen></iframe>
+
 ###Die einfache Suche
 In das Eingabefeld können ein oder mehrere Begriffe eingegeben werden. Mit der Enter-Taste oder
 einem Klick auf das Lupen-Symbol am rechten Rand des Eingabefeldes wird die Suche ausgelöst.
