@@ -52,7 +52,7 @@
 							<div class="subnav">
 								<ul class="selectHandschriften">
 
-									<li id="allgemeine-handschriften-informationen" class="scriptList">
+									<li id="index" class="scriptList">
 										<a href="#">Allgemeine Informationen</a><span class="icon-youtube-play"></span>
 									</li>
 
@@ -73,18 +73,7 @@
 							</div>
 
 							<div class="maincontent">
-								<div class="scriptsWrapper">
-									<div class="scriptsContainer allgemeine-handschriften-informationen">
-										<section class="video">
-											<iframe width="480" height="270" src="//www.youtube-nocookie.com/embed/fh4KL_SeK4c?rel=0" frameborder="0" allowfullscreen></iframe>
-										</section>
-									</div>
-									<div class="scriptsContainer">
-
-									</div>
-
-								</div>
-
+								<div class="scriptsWrapper"></div>
 							</div>
 						</div>
 					</section>
