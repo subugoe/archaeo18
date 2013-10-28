@@ -48,6 +48,8 @@ Manuskript verschieben, mit der Plus-Minus-Navigation (oben links neben
 dem Digitalisat) können Sie bestimmte Bereiche vergrößern und
 verkleinern.
 
+<iframe width="480" height="270" src="//www.youtube-nocookie.com/embed/iyHBtjJ9l7M?rel=0&start=292&end=394" frameborder="0" allowfullscreen="" /></iframe>
+
 #### Thumbnails
 
 Diese Ansicht ermöglicht einen Überblick über das Manuskript als
