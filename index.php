@@ -722,6 +722,7 @@
 	<div class="two-columns">
 	<div class="subnav">
 		<ul>
+			<li><a href="#" id="help-einführung">Einführung</a></li>
 			<li><a href="#" id="help-arbeiten-mit-der-edition">Arbeiten mit der Edition</a></li>
 			<li><a href="#" id="help-vorlesungsmitschrift-oeffnen">Vorlesungsmitschrift öffnen</a></li>
 			<li><a href="#" id="help-arbeiten-mit-mehreren-tabs">Arbeiten mit mehreren Tabs</a></li>
@@ -742,6 +743,38 @@
 	</div>
 	<div class="maincontent">
 	<div class="helptopics">
+	<div class="helptopic einführung">
+	<h3>Was kann die Edition? Die wesentlichen Features:</h3>
+	<p>Jede einzelne Vorlesungsmitschrift wird in folgenden unterschiedlichen Darstellungsformen
+		angeboten:
+		als <em>«Inhaltsverzeichnis»</em>, als <em>«Transkription im Fließtext»</em>, als <em>«Transkription
+			seitenweise»</em> als <em>«Faksimile»</em>, als <em>«Faksimile-Thumbnailansicht»</em>, als
+		<em>«TEI-Ansicht»</em>,
+		als <em>«Tagcloud-Ansicht»</em> und als Kartenansicht. Ein kontextuelles Menü ermöglicht Ihnen,
+		im
+		Text Markierungen unterschiedlicher Farbe für Personen, Orte, Literatur und Werke einzeln oder
+		für
+		ganze Kategorien einzublenden. Stellenkommentare und Auszeichnungen sind direkt an der
+		relevanten
+		Textstelle als Tooltip aufgelöst. Über diese Tooltips gelangen Sie bei den meisten
+		Auszeichnungen
+		auf eine externe Ressource, die weitere Informationen über den betreffenden Ort, die Person oder
+		das
+		Werk liefert, bzw. bei der ausgewiesenen Literatur zu der relevanten Textstelle referenziert.
+		Sind
+		die Markierungen nicht aktiviert, erscheinen referenzierte Auszeichnungen blau und
+		unreferenzierte
+		rot. Sie haben die Möglichkeit Ihre Arbeitsoberfläche individuell einzurichten. Es sind beliebig
+		viele Arbeitsmappen zur Dokumentanzeige auf der Arbeitsfläche ablegbar. Diese können beliebig
+		auf
+		der Arbeitsoberfläche angeordnet – meint verschoben, vergrößert, verkleinert minimiert – werden.
+		Ferner besteht die Möglichkeit die Mappen miteinander zu verknüpfen, so dass Sie dieselbe Seite
+		eines Dokumentes in verschiedenen Ansichten vergleichen können. Sie können auf das
+		Individualisierungs-Feature verzichten indem Sie die Gitterausrichtung aktivieren, so dass die
+		Mappen initial nach einem vorgegebenen Schema ausgerichtet werden. </p>
+		</div>
+	
+	
 	<div class="helptopic help-arbeiten-mit-der-edition">
 
 		<h3>Wie kann ich die digitale Edition benutzen?</h3>
@@ -882,35 +915,8 @@
 		aktivieren. </p>
 		</div>
 		
-	<div class="helptopic help-lesezeichen-speichern">
-
-
-	<h4>Thumbnails</h4>
-	<p>Diese Ansicht ermöglicht einen Überblick über das Manuskript als Faksimile. Sie können einfach
-		durch
-		die Thumbnails scrollen und sich einen ersten Eindruck von den Seiten verschaffen bzw. besondere
-		optische Merkmale überblicken. Per klick auf ein Thumbnail gelangen Sie auf die
-		«Faksimile»-Ansicht
-		in Großaufnahme.</p>
-	<h4>TEI</h4>
-	<p>In der TEI-Ansicht sehen sie die Dokumentstruktur im XML-Format.</p>
-	<h4>Karte</h4>
-	<p>Die Kartenansicht zeigt die Ihnen die Orte, die im Manuskript genannt werden, auf einer
-		Landkarte.
-		Wahlweise werden die Orte seitenweise oder auch für das ganze Manuskript angezeigt. Per Klick
-		auf
-		einen Ort erhalten Sie weitere Informationen über den angewählten Ort. Außerdem können Sie in
-		die
-		Karte hinein- und herauszoomen, indem Sie die Plus- und Minustasten oder den Schieberegler
-		benutzen.</p>
-	<h4>Wortwolke</h4>
-	<p>Die Wortwolke visualisiert die Häufigkeit ausgezeichneten Entitäten (Orte, Personen, Literatur,
-		Werke). Die Wortwolke kann Seitenweise oder für das ganze Dokument angezeigt werden. Zum
-		Anzeigen
-		der Tagcloud wählen sie mindestens eine Entität aus, indem Sie eine oder mehrere Checkboxes
-		aktivieren. </p>
-
-	<h3>Wie kann ich Digitalisat und Transkription miteinander vergleichen? Die verknüpfte Sicht:</h3>
+		<div class="helptopic help-verknuepfung-der-mappen">
+		<h3>Wie kann ich Digitalisat und Transkription miteinander vergleichen? Die verknüpfte Sicht:</h3>
 	<p>Bei Aktivierung der verknüpften Sicht zweier oder mehrerer Tabs in unterschiedlichen Mappen
 		werden
 		die betreffenden Ansichten miteinander verknüpft. Um zwei Tabs miteinander zu verknüpfen,
@@ -924,41 +930,24 @@
 		müssen
 		also eine Mitschrift in mehreren Mappen öffnen, um dann die verschiedenen Ansichten miteinander
 		verknüpfen zu können. </p>
-
-	<h3>Wie kann ich Digitalisate und Transkriptionen außerhalb Edition bearbeiten?
+		</div>
+		
+		<div class="helptopic help-pdf-export">
+		<h3>Wie kann ich Digitalisate und Transkriptionen außerhalb Edition bearbeiten?
 		Exportfunktionen:</h3>
-	<p>Über die Navigation in der oberen rechten Ecke einer Mappe kann das Digitalisat der Mitschrift im
+	
+		<div class="helptopic help-dfg-viewer">
+		<p>Über die Navigation in der oberen rechten Ecke einer Mappe kann das Digitalisat der Mitschrift im
 		DFG-Viewer betrachtet werden. Zudem kann die Transkription als PDF-Dokument heruntergeladen
 		werden.</p>
-
-	<h3>Wie öffne ich eine neue Mappe?</h3>
-	<p>Sie haben zwei Möglichkeiten: Entweder wählen Sie im Browser ein Dokument oder ein Suchergebnis
-		aus
-		und nutzen die Option <em>„Öffne Dokument in... Neuer Mappe“</em>. Alternativ können Sie mit dem
-		Button <em>„Neue Mappe“</em> in der linken oberen Ecke der Arbeitsoberfläche eine leere Mappe
-		erstellen.</p>
-
-	<h3>Wie kann ich einen Zustand meiner Arbeitsoberfläche speichern? Das Lesezeichen:</h3>
-	<p>Wenn Sie ihre geöffneten Dokumente in den gewählten Ansichten zu einem späteren Zeitpunkt wieder
-		aufrufen möchten, um weiterzuarbeiten, können Sie den Zustand mit über das „Lesezeichen“ in der
-		linken oberen Ecke der Arbeitsoberfläche speichern. Ein Klick öffnet ein kleines Fenster, in dem
-		Sie
-		mit einem Klick auf „Lesezeichen erstellen“ einen Link erstellen, den Sie sich kopieren und
-		abspeichern können. Rufen Sie diesen Link in Ihrem Web-Browser erneut auf, wird Ihre
-		Arbeitssitzung
-		so wieder hergestellt, wie zu dem Zeitpunkt, als Sie den Link erzeugt haben. Es können beliebig
-		viele Lesezeichen erzeugt werden. </p>
-
-	<h3>Wie kann ich die Arbeitsoberfläche optimal ausnutzen? Der Vollbildmodus und die automatische
+		</div>
+		
+		<div class="helptopic help-automatische-ausrichtung"></div>
+			<h3>Wie kann ich die Arbeitsoberfläche optimal ausnutzen? Der Vollbildmodus und die automatische
 		Ausrichtung:</h3>
-	<p>Sie haben die Möglichkeit Ihre Arbeitsoberfläche individuell einzurichten. Es sind beliebig viele
-		Arbeitsmappen zur Dokumentanzeige auf der Arbeitsfläche ablegbar. Die Mappen und der Browser
-		können
-		beliebig auf der Arbeitsoberfläche angeordnet – meint verschoben, vergrößert, verkleinert
-		minimiert
-		– werden. Alternativ können Sie mit Aktivierung des Buttons „automatische Ausrichtung“ in der
+	<p> Mit der Aktivierung des Buttons „automatische Ausrichtung“ in der
 		oberen
-		rechten Ecke der Arbeitsoberfläche alle Mappen nebeneinander anordnen lassen. Einmal aktiviert,
+		rechten Ecke der Arbeitsoberfläche können Sie alle Mappen nebeneinander anordnen lassen. Einmal aktiviert,
 		werden alle neuen Mappen automatisch ausgerichtet. Der Modus kann jederzeit wieder deaktiviert
 		werden. Mit dem kleinen „Aufwärtspfeil“ ganz oben auf der Projektseite kann außerdem das Menu
 		mit
@@ -969,54 +958,29 @@
 		Arbeitsplatzes). Durch Betätigen der Taste „Escape“ (esc) auf Ihrer Computertastatur können Sie
 		den
 		Vollbildmodus jederzeit wieder verlassen.</p>
-
-	<h3>Technischer Setup</h3>
-
-	<h3>Was kann die Edition? Die wesentlichen Features:</h3>
-	<p>Jede einzelne Vorlesungsmitschrift wird in folgenden unterschiedlichen Darstellungsformen
-		angeboten:
-		als <em>«Inhaltsverzeichnis»</em>, als <em>«Transkription im Fließtext»</em>, als <em>«Transkription
-			seitenweise»</em> als <em>«Faksimile»</em>, als <em>«Faksimile-Thumbnailansicht»</em>, als
-		<em>«TEI-Ansicht»</em>,
-		als <em>«Tagcloud-Ansicht»</em> und als Kartenansicht. Ein kontextuelles Menü ermöglicht Ihnen,
-		im
-		Text Markierungen unterschiedlicher Farbe für Personen, Orte, Literatur und Werke einzeln oder
-		für
-		ganze Kategorien einzublenden. Stellenkommentare und Auszeichnungen sind direkt an der
-		relevanten
-		Textstelle als Tooltip aufgelöst. Über diese Tooltips gelangen Sie bei den meisten
-		Auszeichnungen
-		auf eine externe Ressource, die weitere Informationen über den betreffenden Ort, die Person oder
-		das
-		Werk liefert, bzw. bei der ausgewiesenen Literatur zu der relevanten Textstelle referenziert.
-		Sind
-		die Markierungen nicht aktiviert, erscheinen referenzierte Auszeichnungen blau und
-		unreferenzierte
-		rot. Sie haben die Möglichkeit Ihre Arbeitsoberfläche individuell einzurichten. Es sind beliebig
-		viele Arbeitsmappen zur Dokumentanzeige auf der Arbeitsfläche ablegbar. Diese können beliebig
-		auf
-		der Arbeitsoberfläche angeordnet – meint verschoben, vergrößert, verkleinert minimiert – werden.
-		Ferner besteht die Möglichkeit die Mappen miteinander zu verknüpfen, so dass Sie dieselbe Seite
-		eines Dokumentes in verschiedenen Ansichten vergleichen können. Sie können auf das
-		Individualisierungs-Feature verzichten indem Sie die Gitterausrichtung aktivieren, so dass die
-		Mappen initial nach einem vorgegebenen Schema ausgerichtet werden. </p>
-
-
-	</div>
-	<div class="helptopic help-arbeiten-mit-mehreren-tabs"></div>
-	<div class="helptopic help-suchen"></div>
-	<div class="helptopic help-suchen-mit-mehreren-begriffen"></div>
-	<div class="helptopic help-erweiterte-suche"></div>
-	<div class="helptopic help-arbeiten-mit-den-handschriften"></div>
-	<div class="helptopic help-informationen-zu-personen-orten-etc"></div>
-	<div class="helptopic help-aufrufen-externer-quellen"></div>
-	<div class="helptopic help-weitere-ansichten"></div>
-	<div class="helptopic help-verknuepfung-der-mappen"></div>
-	<div class="helptopic help-pdf-export"></div>
-	<div class="helptopic help-dfg-viewer"></div>
-	<div class="helptopic help-automatische-ausrichtung"></div>
-	<div class="helptopic help-manuelle-ausrichtung"></div>
-	<div class="helptopic help-lesezeichen-speichern"></div>
+		</div>
+		
+		<div class="helptopic help-manuelle-ausrichtung"></div>
+		<p> Sie haben die Möglichkeit Ihre Arbeitsoberfläche individuell einzurichten. Es sind beliebig viele
+		Arbeitsmappen zur Dokumentanzeige auf der Arbeitsfläche ablegbar. Die Mappen und der Browser
+		können
+		beliebig auf der Arbeitsoberfläche angeordnet – meint verschoben, vergrößert, verkleinert
+		minimiert
+		– werden.
+		</div>
+		
+	<div class="helptopic help-lesezeichen-speichern">
+	<h3>Wie kann ich einen Zustand meiner Arbeitsoberfläche speichern? Das Lesezeichen:</h3>
+	<p>Wenn Sie ihre geöffneten Dokumente in den gewählten Ansichten zu einem späteren Zeitpunkt wieder
+		aufrufen möchten, um weiterzuarbeiten, können Sie den Zustand mit über das „Lesezeichen“ in der
+		linken oberen Ecke der Arbeitsoberfläche speichern. Ein Klick öffnet ein kleines Fenster, in dem
+		Sie
+		mit einem Klick auf „Lesezeichen erstellen“ einen Link erstellen, den Sie sich kopieren und
+		abspeichern können. Rufen Sie diesen Link in Ihrem Web-Browser erneut auf, wird Ihre
+		Arbeitssitzung
+		so wieder hergestellt, wie zu dem Zeitpunkt, als Sie den Link erzeugt haben. Es können beliebig
+		viele Lesezeichen erzeugt werden. </p>
+		</div>
 
 
 	</div>
