@@ -1,0 +1,1 @@
+Die Mitschriften können in einer neuen Mappe geöffnet oder in ein und derselben Mappe als mehrere Tybs abgelegt werden

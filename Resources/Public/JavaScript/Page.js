@@ -71,13 +71,6 @@ var loadHelp = function(div) {
 	$('.helptopic').hide();
 	$(subNavigationContainer + ' a').removeClass('selected');
 
-	var firstActive = function() {
-		$('.helptopic:first').show();
-		$(subNavigationContainer + ' a:first').addClass('selected');
-	}
-
-	firstActive();
-
 	// listener for clicks on item
 	$(subNavigationContainer + ' li').click(function() {
 		var scriptId = $('a', this).attr('id')
@@ -88,10 +81,30 @@ var loadHelp = function(div) {
 
 			$('a', this).addClass('selected');
 			$('.helptopic').hide();
-			$(mainContentContainer).append($('.' + scriptId).show());
+
+			var idToMarkdown = function(id) {
+				var pathParts = id.split('-');
+				var firstPartOfPath = pathParts[0];
+				pathParts.splice(0, 1);
+
+				var fileName = firstPartOfPath + '/' + pathParts.join('-');
+				return fileName;
+			}
+
+			var pageUrl = 'content/' + idToMarkdown(scriptId) + '.md';
+
+			$.ajax({
+			  url: pageUrl
+			})
+					.done(function(html) {
+						var helpContent = markdown.toHTML(html);
+						$(mainContentContainer).html(helpContent);
+			  });
 			return false;
 		}
 	});
+
+	$(subNavigationContainer + ' li:first').click();
 
 };
 
