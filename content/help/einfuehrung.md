@@ -1,6 +1,6 @@
 ### Was kann die Edition? Die wesentlichen Features:
 
-[[youtube-iyHBtjJ9l7M-480x270]]
+<iframe width="480" height="270" src="//www.youtube-nocookie.com/embed/iyHBtjJ9l7M?rel=0" frameborder="0" allowfullscreen="" /></iframe>
 
 Jede einzelne Vorlesungsmitschrift wird in folgenden unterschiedlichen
 Darstellungsformen angeboten:

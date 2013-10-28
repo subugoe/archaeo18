@@ -65,7 +65,7 @@ var showDiv = function(div, link) {
 
 var loadHelp = function(div) {
 
-	var mainContentContainer = div + ' .maincontent .helptopics';
+	var mainContentContainer = $(div + ' .maincontent .helptopics');
 	var subNavigationContainer = div + ' .subnav';
 
 	$('.helptopic').hide();
@@ -95,10 +95,8 @@ var loadHelp = function(div) {
 
 			$.ajax({
 			  url: pageUrl
-			})
-					.done(function(html) {
-						var helpContent = markdown.toHTML(html);
-						$(mainContentContainer).html(helpContent);
+			}).done(function(html) {
+					mainContentContainer.html(markdown.toHTML(html), 'md_tree');
 			  });
 			return false;
 		}
