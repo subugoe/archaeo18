@@ -1,5 +1,7 @@
 ### Wie arbeite ich mit den Mitschriften? Die Funktionalität der Mappen:
 
+<iframe width="480" height="270" src="//www.youtube-nocookie.com/embed/iyHBtjJ9l7M?rel=0&start=188&end=247" frameborder="0" allowfullscreen="" /></iframe>
+
 Haben Sie über den Browser mehrere Mitschriften oder Suchergebnisse in
 einer Mappe geöffnet, so werden diese als Tabs abgelegt. Durch Anwahl
 eines Tabs können Sie sich das entsprechende Dokument anzeigen lassen.
