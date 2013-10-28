@@ -726,8 +726,6 @@
 			<li><a href="#" id="help-arbeiten-mit-der-edition">Arbeiten mit der Edition</a></li>
 			<li><a href="#" id="help-vorlesungsmitschrift-oeffnen">Vorlesungsmitschrift öffnen</a></li>
 			<li><a href="#" id="help-suchen">Suchen</a></li>
-			<li><a href="#" id="help-suchen-mit-mehreren-begriffen">Suchen mit mehreren Begriffen</a></li>
-			<li><a href="#" id="help-erweiterte-suche">Erweiterte Suche</a></li>
 			<li><a href="#" id="help-arbeiten-mit-den-handschriften">Arbeiten mit den Mitschriften</a></li>
 			<li><a href="#" id="help-informationen-zu-personen-orten-etc">Informationen zu Personen Orten etc.</a></li>
 			<li><a href="#" id="help-aufrufen-externer-quellen">Aufrufen Externer Quellen</a></li>
