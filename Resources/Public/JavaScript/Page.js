@@ -108,6 +108,23 @@ var loadHelp = function(div) {
 
 };
 
+var loadContent = function(page) {
+
+	var pageUrl = 'content/' + page + '/index.md';
+
+	var container = '#' + page + '_page';
+
+	$.ajax({
+			  url: pageUrl
+			})
+					.done(function(html) {
+								  console.log($(container + ' .wrap'));
+								  var container = $(container + ' .wrap').0;
+								  container.innerHTML(markdown.toHTML(html));
+			  });
+}
+
+
 var loadIndices = function() {
 	if (!Indices.initialized) {
 		Indices.initialize();
@@ -155,7 +172,11 @@ var loadPage = function() {
 					} else
 						if (page.indexOf('help') != -1) {
 							loadHelp('#help_page');
-						}
+						} else
+							if (page.indexOf('start') !== -1) {
+								showDiv('#start_page', '#linkstart');
+								loadContent('start');
+							}
 		} else {
 			showDiv('#start_page', '#linkstart');
 		}
