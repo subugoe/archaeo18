@@ -1,5 +1,7 @@
 ### Was kann die Edition? Die wesentlichen Features:
 
+<object width="480" height="270" style="float:right;padding: 10px; margin-left:10px;" src="//www.youtube-nocookie.com/embed/iyHBtjJ9l7M?rel=0" frameborder="0" allowfullscreen></object>
+
 Jede einzelne Vorlesungsmitschrift wird in folgenden unterschiedlichen
 Darstellungsformen angeboten:
 
