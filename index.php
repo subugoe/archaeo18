@@ -725,6 +725,7 @@
 			<li><a href="#" id="help-einfuehrung">Einführung</a></li>
 			<li><a href="#" id="help-arbeiten-mit-der-edition">Arbeiten mit der Edition</a></li>
 			<li><a href="#" id="help-vorlesungsmitschrift-oeffnen">Vorlesungsmitschrift öffnen</a></li>
+			<li><a href="#" id="arbeiten-mit-merheren-tabs">Arbeiten mit mehreren Tabs</a></li>
 			<li><a href="#" id="help-suchen">Suchen</a></li>
 			<li><a href="#" id="help-arbeiten-mit-den-handschriften">Arbeiten mit den Mitschriften</a></li>
 			<li><a href="#" id="help-informationen-zu-personen-orten-etc">Informationen zu Personen Orten etc.</a></li>
