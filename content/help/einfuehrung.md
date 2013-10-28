@@ -1,5 +1,7 @@
 ### Was kann die Edition? Die wesentlichen Features:
 
+<iframe width="480" height="270" src="//www.youtube-nocookie.com/embed/iyHBtjJ9l7M?rel=0" frameborder="0" allowfullscreen="" /></iframe>
+
 Jede einzelne Vorlesungsmitschrift wird in folgenden unterschiedlichen
 Darstellungsformen angeboten:
 
@@ -10,7 +12,7 @@ Darstellungsformen angeboten:
 + als *«Faksimile-Thumbnailansicht»*,
 + als *«TEI-Ansicht»*,
 + als *«Tagcloud-Ansicht»* und
-+ als Kartenansicht.
++ als *«Kartenansicht»*
 
 Ein kontextuelles Menü ermöglicht Ihnen, im Text Markierungen unterschiedlicher Farbe für Personen,
 Orte, Literatur und Werke einzeln oder für ganze Kategorien einzublenden. Stellenkommentare und Auszeichnungen

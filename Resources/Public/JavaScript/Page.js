@@ -65,7 +65,7 @@ var showDiv = function(div, link) {
 
 var loadHelp = function(div) {
 
-	var mainContentContainer = div + ' .maincontent .helptopics';
+	var mainContentContainer = $(div + ' .maincontent .helptopics');
 	var subNavigationContainer = div + ' .subnav';
 
 	$('.helptopic').hide();
@@ -94,12 +94,10 @@ var loadHelp = function(div) {
 			var pageUrl = 'content/' + idToMarkdown(scriptId) + '.md';
 
 			$.ajax({
-			  url: pageUrl
-			})
-					.done(function(html) {
-						var helpContent = markdown.toHTML(html);
-						$(mainContentContainer).html(helpContent);
-			  });
+					   url: pageUrl
+				   }).done(function(html) {
+							   mainContentContainer.html(markdown.toHTML(html), 'md_tree');
+						   });
 			return false;
 		}
 	});
@@ -109,19 +107,22 @@ var loadHelp = function(div) {
 };
 
 var loadContent = function(page) {
-
+console.log(page);
 	var pageUrl = 'content/' + page + '/index.md';
 
-	var container = '#' + page + '_page';
+	var content = this;
+
+	content.container = function() {
+		return '#' + page + '_page';
+	}
 
 	$.ajax({
-			  url: pageUrl
-			})
-					.done(function(html) {
-								  console.log($(container + ' .wrap'));
-								  var container = $(container + ' .wrap').0;
-								  container.innerHTML(markdown.toHTML(html));
-			  });
+			   url: pageUrl
+		   })
+			.done(function(html) {
+					  var container = $(content.container() + ' .wrap');
+					  container.html(markdown.toHTML(html));
+				  });
 }
 
 
@@ -152,6 +153,10 @@ var loadPage = function() {
 	} else
 		if (window.location.href.indexOf('?page=') != -1) {
 			var data = window.location.href.split('?page=')[1];
+
+			// get path to be loaded from the "CMS"
+			var pagePath = data.split('_page')[0].replace('#', '');
+
 			var page = data, link;
 			if (data.indexOf('&link=') != -1) {
 				var data2 = data.split('&link=');
@@ -159,6 +164,8 @@ var loadPage = function() {
 				link = data2[1];
 			}
 			showDiv(page, link);
+			loadContent(pagePath);
+
 			if (page.indexOf('edition') != -1) {
 				loadEdition();
 			}
@@ -170,13 +177,10 @@ var loadPage = function() {
 					if (page.indexOf('manuscripts') != -1) {
 						loadScripts();
 					} else
-						if (page.indexOf('help') != -1) {
-							loadHelp('#help_page');
-						} else
-							if (page.indexOf('start') !== -1) {
-								showDiv('#start_page', '#linkstart');
-								loadContent('start');
-							}
+						if (page.indexOf('start') !== -1) {
+							showDiv('#start_page', '#linkstart');
+							loadContent('start');
+						}
 		} else {
 			showDiv('#start_page', '#linkstart');
 		}

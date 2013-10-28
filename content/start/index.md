@@ -1,9 +1,6 @@
 Christian Gottlob Heynes Vorlesungen über die Archäologie
 ---------------------------------------------------------
 
-<iframe width="480" height="270" style="float:right;padding: 10px; margin-left:10px;" src="//www.youtube-nocookie.com/embed/_PWeiNO9Yeg?rel=0" frameborder="0" allowfullscreen></iframe>
-
-
 Die [Online-Edition](javascript:void(0)) „Christian Gottlob Heyne –
 Vorlesungen über die Archäologie“ stellt Digitalisate und
 Transkriptionen von Vorlesungsmitschriften zu einer jährlich gehaltenen
@@ -22,6 +19,7 @@ ebenfalls mit der entsprechenden Stelle im Volltext verknüpft.
 
 Über das Projekt
 ----------------
+<iframe width="480" height="270" style="float:right;padding: 10px; margin-left:10px;" src="//www.youtube-nocookie.com/embed/_PWeiNO9Yeg?rel=0" frameborder="0" allowfullscreen></iframe>
 
 Von 1767 bis 1804 hielt Christian Gottlob Heyne an der Universität
 Göttingen in fast jedem Sommersemester eine Vorlesung mit dem Titel „Die
@@ -55,9 +53,12 @@ Leipzig aufnehmen. Er war dort Schüler der Altertumswissenschaftler
 Johann Friedrich Christ (1701–1756) und Johann August Ernesti
 (1701–1781) und legte 1752 bei Johann August Bach (1721–1758) mit einer
 juristischen Dissertation das Magisterexamen ab.
-![](./Resources/Public/Images/heyne.jpg)
-
-Christian Gottlob Heyne (1729-1812)
+<figure class="image-in-text-left">
+	<img alt="" src="./Resources/Public/Images/heyne.jpg" class="img">
+	<figcaption>
+		Christian Gottlob Heyne (1729-1812)
+	</figcaption>
+</figure>
 
 1753 erhielt Heyne eine Anstellung als Kopist an der Bibliothek des
 Grafen Brühl in Dresden, mit einem Jahresgehalt von nur 100 Talern.

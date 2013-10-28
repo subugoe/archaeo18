@@ -5,9 +5,7 @@
 
 	<div id="start_page">
 		<div class="content clearfix">
-			<div class="wrap">
-
-			</div>
+			<div class="wrap"></div>
 		</div>
 	</div>
 
@@ -44,475 +42,55 @@
 
 	<div id="manuscripts_page">
 
-	<div class="content clearfix">
-	<div class="wrap">
-	<section id="scriptsSelection">
-	<section>
-	<h2>Informationen zu den Handschriften</h2>
+		<div class="content clearfix">
+			<div class="wrap">
+				<section id="scriptsSelection">
+					<section>
+						<h2>Informationen zu den Handschriften</h2>
 
-	<div class="two-columns">
-	<div class="subnav">
-		<ul class="selectHandschriften">
+						<div class="two-columns">
+							<div class="subnav">
+								<ul class="selectHandschriften">
 
-			<li id="allgemeine-handschriften-informationen" class="scriptList">
-				<a href="#">Allgemeine Informationen</a><span class="icon-youtube-play"></span>
-			</li>
+									<li id="allgemeine-handschriften-informationen" class="scriptList">
+										<a href="#">Allgemeine Informationen</a><span class="icon-youtube-play"></span>
+									</li>
 
-			<li id="berlin-ms-germ-qrt-1666" class="scriptList">
-				<a href="#">Vorlesungsmitschrift 1775 (Berlin)</a>
-			</li>
+									<li id="berlin-ms-germ-qrt-1666" class="scriptList">
+										<a href="#">Vorlesungsmitschrift 1775 (Berlin)</a>
+									</li>
 
-			<li id="rom-heyne1798" class="scriptList"><a href="#">
-					Vorlesungsmitschrift 1798 (Rom)</a></li>
+									<li id="rom-heyne1798" class="scriptList"><a href="#">
+											Vorlesungsmitschrift 1798 (Rom)</a></li>
 
-			<li id="weimar-hs-2056" class="scriptList"><a href="#">
-					Vorlesungsmitschrift 1772 (Weimar)</a></li>
+									<li id="weimar-hs-2056" class="scriptList"><a href="#">
+											Vorlesungsmitschrift 1772 (Weimar)</a></li>
 
-			<li id="bern-mss-muel-507" class="scriptList"><a href="#">
-					Vorlesungsmitschrift 1780 (Bern)</a></li>
+									<li id="bern-mss-muel-507" class="scriptList"><a href="#">
+											Vorlesungsmitschrift 1780 (Bern)</a></li>
 
-		</ul>
-	</div>
+								</ul>
+							</div>
 
-	<div class="maincontent">
-	<div class="scriptsWrapper">
-	<div class="scriptsContainer allgemeine-handschriften-informationen">
-		<section class="video">
-			<iframe width="480" height="270" src="//www.youtube-nocookie.com/embed/fh4KL_SeK4c?rel=0" frameborder="0" allowfullscreen></iframe>
-		</section>
-	</div>
-	<div class="scriptsContainer berlin-ms-germ-qrt-1666">
+							<div class="maincontent">
+								<div class="scriptsWrapper">
+									<div class="scriptsContainer allgemeine-handschriften-informationen">
+										<section class="video">
+											<iframe width="480" height="270" src="//www.youtube-nocookie.com/embed/fh4KL_SeK4c?rel=0" frameborder="0" allowfullscreen></iframe>
+										</section>
+									</div>
+									<div class="scriptsContainer">
 
-		<div class="scriptsContent">
+									</div>
 
-			<div class="tei:teiHeader"><h3>Vorlesungsmitschrift 1775 (Berlin)</h3>
-				<img alt="" height="328" src="http://134.76.21.92:8080/images/berlin-ms-germ-qrt-1666/500/00000001.jpeg" class="content-img-style2">
+								</div>
 
-				<div class="tei:repository">
-					<span xml:lang="en" class="tei:hi-bold visuallyhidden">Library</span><span xml:lang="de" class="tei:hi-bold">Bibliothek</span>:
-					Staatsbibliothek zu Berlin – Preußischer Kulturbesitz
-				</div>
-				<div class="tei:idno">
-					<span xml:lang="en" class="tei:hi-bold visuallyhidden">Shelf mark</span><span xml:lang="de" class="tei:hi-bold">Signatur</span>:
-					Ms. Germ qrt 1666
-				</div>
-				<div class="tei:author">
-					<span xml:lang="en" class="tei:hi-bold visuallyhidden">Author / Copyist / Owner</span><span xml:lang="de" class="tei:hi-bold">Autor / Kopist / Besitzer</span>:
-					unbekannt
-				</div>
-				<div class="tei:origDate">
-					<span xml:lang="en" class="tei:hi-bold visuallyhidden">Date</span><span xml:lang="de" class="tei:hi-bold">Datum</span>:
-					1775
-				</div>
-				<div class="tei:objectDesc">
-					<span xml:lang="en" class="tei:hi-bold visuallyhidden">Extent</span><span xml:lang="de" class="tei:hi-bold">Umfang</span>:
-					318 Seiten
-				</div>
-				<div class="tei:msIdentifier" style="display: none;">
-					<span xml:lang="en" class="tei:hi-bold visuallyhidden">Location</span><span xml:lang="de" class="tei:hi-bold">Standort</span>:
-					BerlinBerlinBerlinBerlino, DeutschlandDeutschlandDeutschlandBundesrepublik
-					DeutschlandBRDGermanyFederal Republic of GermanyAllemagneRépublique fédérale
-					d'AllemagneRepública Federal de
-					AlemaniaAlemaniaAlemanhaDuitslandGermaniaDEUDEISO276GM00Deutsches
-					ReichISO280German
-				</div>
-				<h3>
-					<span xml:lang="de">Wissenschaftliche Informationen</span><span xml:lang="en" class="visuallyhidden">Scientific Informationen</span>
-				</h3>
-
-				<div class="tei:editionStmt"><p class="tei:p">Laut Titelblatt gibt die
-						Handschrift Heynes Archäologie-Vorlesung des Sommersemesters 1775
-						wieder. Nach dem relativ gleichmäßigen Schriftbild und den sehr
-						systematisch angelegten Kolumnentiteln handelt es sich um eine
-						Abschrift, möglicherweise um eine Reinschrift, die der unbekannte Autor
-						selbst von seinen Vorlesungsnotizen gemacht hat. Offenbar handelt es
-						sich um einen wenig geübten und mit dem Gegenstand kaum vertrauten
-						Hörer, der vieles nur halb verstanden hat. Auffällig ist die
-						Fehlerhaftigkeit in der Orthographie fremdsprachiger Zitate (a wird sehr
-						oft als u missverstanden, z.B. pur statt par, ideus statt ideas), auch
-						die Schreibung von Fremdworten ist sehr fehlerhaltig, z.B. Hieroglypfe.
-						Dem Gedankengang Heynes kann der Mitschreiber offensichtlich nur mit
-						Mühe folgen, besonders die eher theoretisch ausgerichteten Abschnitte am
-						Anfang wirken stark entstellt. Von der von Heyne verarbeiteten Literatur
-						und von dem behandelten Stoff gibt das Manuskript dennoch einen guten
-						Eindruck.</p><p class="tei:p">Zur Provenienz der Handschrift vgl.
-						Hermann Degering, Kurzes Verzeichnis der germanischen Handschriften der
-						Preussischen Staatsbibliothek. II. Die Handschriften in Quartformat.
-						Leipzig 1926, Seite b301 an: „von Rumohr, Rundhof, Kreis Flensburg“.</p>
-				</div>
-				<div class="tei:encodingDesc"></div>
+							</div>
+						</div>
+					</section>
+				</section>
 			</div>
 		</div>
-	</div>
-
-
-	<div class="scriptsContainer rom-heyne1798">
-		<h2 class="head-handwriting" title="rom-heyne1798">Handschrift: rom-heyne1798</h2>
-
-		<div class="scriptsContent">
-
-			<div class="tei:teiHeader"><h3>Vorlesungsmitschrift 1798 (Rom)</h3>
-				<img alt="" height="328" src="http://134.76.21.92:8080/images/rom-heyne1798/500/00000001.jpeg" class="content-img-style2">
-
-				<div class="tei:repository">
-					<span xml:lang="en" class="tei:hi-bold visuallyhidden">Library</span><span xml:lang="de" class="tei:hi-bold">Bibliothek</span>:
-					Deutsches Archäologisches Institut
-				</div>
-				<div class="tei:idno">
-					<span xml:lang="en" class="tei:hi-bold visuallyhidden">Shelf mark</span><span xml:lang="de" class="tei:hi-bold">Signatur</span>:
-					1959, 974
-				</div>
-				<div class="tei:author">
-					<span xml:lang="en" class="tei:hi-bold visuallyhidden">Author / Copyist / Owner</span><span xml:lang="de" class="tei:hi-bold">Autor / Kopist / Besitzer</span>:
-					unbekannt
-				</div>
-				<div class="tei:origDate">
-					<span xml:lang="en" class="tei:hi-bold visuallyhidden">Date</span><span xml:lang="de" class="tei:hi-bold">Datum</span>:
-					1798
-				</div>
-				<div class="tei:objectDesc">
-					<span xml:lang="en" class="tei:hi-bold visuallyhidden">Extent</span><span xml:lang="de" class="tei:hi-bold">Umfang</span>:
-					252 Seiten
-				</div>
-				<div class="tei:msIdentifier" style="display: none;">
-					<span xml:lang="en" class="tei:hi-bold visuallyhidden">Location</span><span xml:lang="de" class="tei:hi-bold">Standort</span>:
-					RomRomaRomaUrbeRomeRomRoman, ItalienItaliaItaliaRepubblica
-					italianaRepubblica ItalianaItalyItalian RepublicItalieRépublique
-					italienneItalienItáliaItaliëITAITISO380IT00EsperiaItalian
-				</div>
-				<h3>
-					<span xml:lang="de">Wissenschaftliche Informationen</span><span xml:lang="en" class="visuallyhidden">Scientific Informationen</span>
-				</h3>
-
-				<div class="tei:editionStmt"><p class="tei:p">Die Mitschrift von unbekannter
-						Hand entstand laut Titelblatt im Sommer 1798. Es handelt sich um eine
-						recht gleichmäßig geschriebene Abschrift, vermutlich eine vom Autor
-						selbst angefertigte Reinschrift, worauf häufige Verbesserungen im Text
-						und das sorgfältig angelegte Inhaltsverzeichnis nebst Literaturliste am
-						Ende des Textes hinweisen könnten. Typische Kopistenfehler sind nicht
-						erkennbar. Wenige Stellen im fortlaufenden Text könnten auf eine zweite
-						Hand hindeuten (S. 175-176).</p><p class="tei:p">Die Handschrift gehört
-						zwar zu den kürzeren Mitschriften von Heynes Vorlesung, doch ist sie
-						inhaltlich ergiebig, da der Gedankengang meist konzis und verständlich
-						wiedergegeben ist.</p><p class="tei:p">In späterer Zeit wurde das
-						Manuskript von fremder Hand (wahrscheinlich sogar von verschiedenen
-						Personen) mit zahlreichen Zusätzen und Literaturnachträgen versehen.
-						Diese Zusätze sind größtenteils auf Englisch abgefasst, was darauf
-						hindeuten könnte, dass sich das Manuskript später in britischem Besitz
-						befand. Der jüngste Literaturnachtrag ist: „Tour to the Sepulchres of
-						etruria in 1839. By Mrs. Hamilton Gray. With numerous illustrations.
-						London 1840. Lond. &amp; P.Obs. January 3. 1841.“</p><p class="tei:p">
-						Die Handschrift wurde der Bibliothek des Deutschen Archäologischen
-						Instituts laut eingeklebtem Zettel von „Giorgio Sangiorgi,
-						Comm[endatore], Roma“ „in omaggio e in memoria del professor Ludwig
-						Curtius“ geschenkt. Nach der Inventarnummer geschah dies 1959. Mehr ist
-						über die Provenienz nicht bekannt.</p></div>
-				<div class="tei:encodingDesc"></div>
-			</div>
-		</div>
-	</div>
-
-	<div class="scriptsContainer weimar-hs-2056">
-		<h2 class="head-handwriting" title="weimar-hs-2056">Handschrift: weimar-hs-2056</h2>
-
-		<div class="scriptsContent">
-			<div class="tei:teiHeader"><h3>Vorlesungsmitschrift 1772 (Weimar)</h3>
-				<img alt="" height="328" src="http://134.76.21.92:8080/images/weimar-hs-2056/500/00000001.jpeg" class="content-img-style2">
-
-				<div class="tei:repository">
-					<span xml:lang="en" class="tei:hi-bold visuallyhidden">Library</span><span xml:lang="de" class="tei:hi-bold">Bibliothek</span>:
-					Herzogin Bibliothek
-				</div>
-				<div class="tei:idno">
-					<span xml:lang="en" class="tei:hi-bold visuallyhidden">Shelf mark</span><span xml:lang="de" class="tei:hi-bold">Signatur</span>:
-					Ruppert 2056
-				</div>
-				<div class="tei:idno">
-					<span xml:lang="en" class="tei:hi-bold visuallyhidden">Shelf mark</span><span xml:lang="de" class="tei:hi-bold">Signatur</span>:
-					wenn vorhanden, ausfüllen
-				</div>
-				<div class="tei:author">
-					<span xml:lang="en" class="tei:hi-bold visuallyhidden">Author / Copyist / Owner</span><span xml:lang="de" class="tei:hi-bold">Autor / Kopist / Besitzer</span>:
-					unbekannt
-				</div>
-				<div class="tei:origDate">
-					<span xml:lang="en" class="tei:hi-bold visuallyhidden">Date</span><span xml:lang="de" class="tei:hi-bold">Datum</span>:
-					1772
-				</div>
-				<div class="tei:objectDesc">
-					<span xml:lang="en" class="tei:hi-bold visuallyhidden">Extent</span><span xml:lang="de" class="tei:hi-bold">Umfang</span>:
-					430 Seiten
-				</div>
-				<div class="tei:msIdentifier" style="display: none;">
-					<span xml:lang="en" class="tei:hi-bold visuallyhidden">Location</span><span xml:lang="de" class="tei:hi-bold">Standort</span>:
-					WeimarWeimarWeimarWimare, DeutschlandDeutschlandDeutschlandBundesrepublik
-					DeutschlandBRDGermanyFederal Republic of GermanyAllemagneRépublique fédérale
-					d'AllemagneRepública Federal de
-					AlemaniaAlemaniaAlemanhaDuitslandGermaniaDEUDEISO276GM00Deutsches
-					ReichISO280German
-				</div>
-				<h3>
-					<span xml:lang="de">Wissenschaftliche Informationen</span><span xml:lang="en" class="visuallyhidden">Scientific Informationen</span>
-				</h3>
-
-				<div class="tei:editionStmt"><p class="tei:p">Bei der Handschrift Weimar Ruppert
-						2056 aus Goethes Besitz (nach H. Ruppert, Goethes Bibliothek [1958] S.
-						297 aus der Bibliothek von Goethes Vater stammend) handelt es sich um
-						die Abschrift einer unbekannten Vorlage. Wie die eingehende Untersuchung
-						des Manuskripts durch H. Bräuning-Oktavio (H. Bräuning-Oktavio,
-						Christian Gottlob Heynes Vorlesungen über die Kunst der Antike und ihr
-						Einfluß auf Johann Heinrich Merck, Herder und Goethe [1971], 12–33)
-						ergeben hat, ist der Text nahezu identisch mit Abschrift in der
-						Hessischen Landesbibliothek in Darmstadt (Hs 1711), die vermutlich im
-						Herbst 1772 von Johann Heinrich Merck unter Mithilfe eines Schreibers
-						angefertigt wurde. Die Darmstädter Fassung ist an einigen Stellen kürzer
-						als Weimar 2056 und kann daher nicht als Vorlage gedient haben. Die
-						beiden Abschriften (möglicherweise über weitere Zwischenstufen) zugrunde
-						liegende originale Mitschrift aus dem Sommersemester 1772 dürfte laut
-						Bräuning-Oktavio aufgrund dialektaler Eigenheiten von einem Studenten
-						aus Hessen-Darmstadt abgefasst worden sein, der sich aber nicht
-						namentlich bestimmen lässt.</p><p class="tei:p">Zu den dialektal
-						bedingten Fehlschreibungen insbesondere von Eigennamen in der Vorlage
-						gesellen sich, wie Bräuning-Oktavio gezeigt hat, zahlreiche
-						Abschreibefehler des offenbar mit den Inhalten der Vorlesung in keiner
-						Weise vertrauten Abschreibers. Dieser Kopist hat den größten Teil der
-						Handschrift in einer sehr gleichmäßigen, ornamental ausgeschmückten
-						Kurrentschrift mit sehr deutlichem Kontrast zwischen Haar- und
-						Schattenstrichen angefertigt. Wie Bräuning-Oktavio zeigen konnte, sind
-						an fünf Stellen im hinteren Teil des Manuskripts insgesamt etwa 50
-						Seiten von einer anderen, gleichmäßigeren Hand geschrieben. Man darf
-						vermuten, dass es sich in beiden Fällen um Berufsschreiber ohne
-						akademischen Hintergrund handelt.</p><p class="tei:p">Dem Manuskript
-						vorangestellt ist Heynes gedruckte „Einleitung in das Studium der
-						Antike“ von 1772. Die Gliederung des Manuskripts in Kapitel und
-						Paragraphen folgt weitgehend dieser Vorlage, weicht an einigen Stellen
-						jedoch davon ab. Einige wenige der in der gedruckten Version
-						vorgesehenen Abschnitte sind ausgelassen. Besonders in den
-						Anfangsabschnitten folgt der handgeschriebene Text den Formulierungen
-						der gedruckten Einleitung, die jedoch in der Regel durch mehr oder
-						weniger ausführliche Zusätze erweitert werden. Teilweise ist jedoch der
-						stichwortartige Aufbau der gedruckten Paragraphen beibehalten. Das wirkt
-						nicht, als ob der Vorlagentext eine unmittelbar im Hörsaal entstandene
-						Mitschrift wiedergeben würde, sondern eher eine anhand der gedruckten
-						„Einleitung“ angefertigte nachträgliche Rekonstruktion des von Heyne
-						mündlich vorgetragenen Stoffes darstellen dürfte.</p><p class="tei:p">
-						Wie eng sich Heyne im Sommer 1772 an die eben in diesem Semester von ihm
-						für den Gebrauch in seinen Vorlesungen publizierte Einleitung gehalten
-						hat, ob er z.B. Sätze daraus wörtlich vorgelesen oder gar diktiert hat,
-						wäre noch zu untersuchen. Auffällig ist jedenfalls, dass schon die
-						Vorlesungsmitschriften des folgenden Jahres (Sommer 1773) nicht mehr so
-						eng an der „Einleitung“ orientiert sind.</p></div>
-				<div class="tei:encodingDesc"></div>
-			</div>
-		</div>
-	</div>
-
-	<div class="scriptsContainer bern-mss-muel-507">
-		<h2 class="head-handwriting" title="bern-mss-muel-507">Handschrift:
-			bern-mss-muel-507</h2>
-
-		<div class="scriptsContent">
-			<div class="tei:teiHeader"><h3>Vorlesungsmitschrift 1780 (Bern)</h3>
-				<img alt="" height="328" src="http://134.76.21.92:8080/images/bern-mss-muel-507/500/00000001.jpeg" class="content-img-style2">
-
-				<div class="tei:repository">
-					<span xml:lang="en" class="tei:hi-bold visuallyhidden">Library</span><span xml:lang="de" class="tei:hi-bold">Bibliothek</span>:
-					Burgerbibliothek
-				</div>
-				<div class="tei:idno">
-					<span xml:lang="en" class="tei:hi-bold visuallyhidden">Shelf mark</span><span xml:lang="de" class="tei:hi-bold">Signatur</span>:
-					Mss. Mül. 507
-				</div>
-				<div class="tei:origDate">
-					<span xml:lang="en" class="tei:hi-bold visuallyhidden">Date</span><span xml:lang="de" class="tei:hi-bold">Datum</span>:
-					1780
-				</div>
-				<div class="tei:objectDesc">
-					<span xml:lang="en" class="tei:hi-bold visuallyhidden">Extent</span><span xml:lang="de" class="tei:hi-bold">Umfang</span>:
-					628 Seiten
-				</div>
-				<div class="tei:msIdentifier" style="display: none;">
-					<span xml:lang="en" class="tei:hi-bold visuallyhidden">Location</span><span xml:lang="de" class="tei:hi-bold">Standort</span>:
-					BernBernBernBerneBerna, SchweizSchweizSchweizSchweizerishe
-					EidgenossenschaftSuisseLa SuisseConfédération suisseConfédération
-					SuisseConfédération HelvétiqueSvizzeraConfederazione SvizzeraConfederazione
-					ElveticaSvizzraConfederaziun HelveticaHelvetiaHelvetic
-					RepublicSwitzerlandSwiss ConfederationHelvetic
-					ConfederationSuizaZwitserlandSuíçaCHECHISO756SZ00RhaetiaSwiss
-				</div>
-				<h3>
-					<span xml:lang="de">Wissenschaftliche Informationen</span><span xml:lang="en" class="visuallyhidden">Scientific Informationen</span>
-				</h3>
-
-				<div class="tei:editionStmt"><p class="tei:p">
-						<a class="tei:placeName" target="_blank" type="gn:name" href="http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7007557">Bern<span class="tei:addName visuallyhidden" style="display: none;">Bern</span></a>,
-						Burgerbibliothek, Mss.Mül.507: Archeologie von
-						<a class="tei:persName" target="_blank" type="foaf:name" about="http://d-nb.info/gnd/11855073X" href="http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259384">Heine<span class="tei:addName visuallyhidden" style="display: none;">Heyne, Christian Gottlieb</span></a>,
-						<span class="tei:date">1780</span></p><p class="tei:p">Die vorliegende
-						Mitschrift von
-						<a class="tei:persName" target="_blank" type="foaf:name" about="http://d-nb.info/gnd/11855073X" href="http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259384">Heynes<span class="tei:addName visuallyhidden" style="display: none;">Heyne, Christian Gottlieb</span></a>
-						Archäologie-Vorlesung aus dem Sommersemester
-						<span class="tei:date" property="dc:date" content="">1780</span> stammt
-						laut dem auf den <span class="tei:date" property="dc:date" content="">1.5.1820</span>
-						datierten „Vorbericht“ auf dem Vorsatzblatt von
-						<a class="tei:persName" target="_blank" type="foaf:name" about="http://d-nb.info/gnd/117166111" href="http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01084713">Niklaus
-							Friedrich von
-							Mülinen<span class="tei:addName visuallyhidden" style="display: none;">Mülinen, Nikolaus Friedrich ¬von¬</span></a>,
-						der sie
-						(<span class="tei:date" property="dc:date" content="">1820</span>?) dem
-						befreundeten Berner Kupferstecher und Kunstförderer
-						<a class="tei:persName" target="_blank" type="foaf:name" about="http://d-nb.info/gnd/100685005" href="http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00148599">Sigmund
-							von
-							Wagner<span class="tei:addName visuallyhidden" style="display: none;">Wagner, Sigismund ¬von¬</span></a>
-						(<span class="tei:date">1759–1835</span>) schenkte. Dieser wollte sie
-						zunächst der „Academischen Zeichnungsanstalt“ seiner Heimatstadt
-						vermachen, überließ sie <span class="tei:date">1834</span> aber nach dem
-						Tode
-						<a class="tei:persName" target="_blank" type="foaf:name" about="http://d-nb.info/gnd/117166111" href="http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01084713">Mülinens<span class="tei:addName visuallyhidden" style="display: none;">Mülinen, Nikolaus Friedrich ¬von¬</span></a>
-						dessen Sohn
-						<a class="tei:persName" target="_blank" type="foaf:name" about="http://d-nb.info/gnd/142234427" href="http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01271644">Gottfried<span class="tei:addName visuallyhidden" style="display: none;">Mülinen, Gottfried ¬von¬</span></a>
-						(<span class="tei:date">1790-1840</span>). Mit dem Familienarchiv von
-						<a class="tei:persName" target="_blank" type="foaf:name" about="http://d-nb.info/gnd/117166111" href="http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01084713">Mülinen<span class="tei:addName visuallyhidden" style="display: none;">Mülinen, Nikolaus Friedrich ¬von¬</span></a>
-						gelangte das Manuskript
-						<span class="tei:date" property="dc:date" content="">1937</span> in die
-						Burgerbibliothek
-						<a class="tei:placeName" target="_blank" type="gn:name" href="http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7007557">Bern<span class="tei:addName visuallyhidden" style="display: none;">Bern</span></a>.
-					</p><p class="tei:p">
-						<a class="tei:persName" target="_blank" type="foaf:name" about="http://d-nb.info/gnd/117166111" href="http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01084713">Niklaus
-							Friedrich von
-							Mülinen<span class="tei:addName visuallyhidden" style="display: none;">Mülinen, Nikolaus Friedrich ¬von¬</span></a>
-						(<span class="tei:date">1760–1833</span>) entstammte dem Berner
-						Patriziat und wurde
-						<span class="tei:date" property="dc:date" content="">1803</span>
-						Schultheiß seiner Heimatstadt. Er spielte eine wichtige Rolle im Kampf
-						gegen das napoleonische
-						<a class="tei:placeName" target="_blank" type="gn:name" href="http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=1000070">Frankreich<span class="tei:addName visuallyhidden" style="display: none;">France</span></a>
-						und wurde
-						<span class="tei:date" property="dc:date" content="">1816</span> in den
-						österreichischen Grafenstand erhoben. Verdienste erwarb er sich auch als
-						Historiker.</p><p class="tei:p">
-						<a class="tei:persName" target="_blank" type="foaf:name" about="http://d-nb.info/gnd/117166111" href="http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01084713">Mülinen<span class="tei:addName visuallyhidden" style="display: none;">Mülinen, Nikolaus Friedrich ¬von¬</span></a>
-						studierte vom Sommersemester
-						<span class="tei:date" property="dc:date" content="">1779</span> bis zum
-						Sommersemester
-						<span class="tei:date" property="dc:date" content="">1780</span> in
-						<a class="tei:placeName" target="_blank" type="gn:name" href="http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7005246">Göttingen<span class="tei:addName visuallyhidden" style="display: none;">Göttingen</span></a>,
-						„wo er juristische, historische und auch naturwissenschaftliche Studien
-						betrieb,
-						<a class="tei:persName" target="_blank" type="foaf:name" about="http://d-nb.info/gnd/116221364" href="http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00385531">Böhmer<span class="tei:addName visuallyhidden" style="display: none;">Böhmer, Georg Wilhelm</span></a>,
-						<a class="tei:persName" target="_blank" type="foaf:name" href="http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00362083"><span class="tei:persName visuallyhidden" target="_blank" type="foaf:name" xlink:to="http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00387828">Meister</span></a>,
-						<a class="tei:persName" target="_blank" type="foaf:name" about="http://d-nb.info/gnd/118608339" href="http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01260550">Schlözer<span class="tei:addName visuallyhidden" style="display: none;">Schlözer, August Ludwig von</span></a>,
-						<a class="tei:persName" target="_blank" type="foaf:name">Federer</a> und
-						<a class="tei:persName" target="_blank" type="foaf:name" about="http://d-nb.info/gnd/115367918" href="http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00373068">Gatterer<span class="tei:addName visuallyhidden" style="display: none;">Gatterer, Johann Christoph</span></a>
-						hörte und auch bei
-						<a class="tei:persName" target="_blank" type="foaf:name" about="http://d-nb.info/gnd/11855073X" href="http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259384">Heyne<span class="tei:addName visuallyhidden" style="display: none;">Heyne, Christian Gottlieb</span></a>
-						und insbesondere in
-						<a class="tei:persName" target="_blank" type="foaf:name" about="http://d-nb.info/gnd/116208503" href="http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259920">Blumenbach<span class="tei:addName visuallyhidden" style="display: none;">Blumenbach, Johann Friedrich</span></a>’s
-						Hause freundliche Aufnahme fand, mit dem und dessen Gattin er später
-						noch lange Zeit in Briefwechsel blieb“
-						(<a class="tei:bibl" target="_blank" type="bibo:Book">G. von Wyß, ADB
-							22, 1885, 783</a>).</p><p class="tei:p">S. 1–233 des Mss stammen von
-						<a class="tei:persName" target="_blank" type="foaf:name" about="http://d-nb.info/gnd/117166111" href="http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01084713">Mülinens<span class="tei:addName visuallyhidden" style="display: none;">Mülinen, Nikolaus Friedrich ¬von¬</span></a>
-						eigener Hand. Dem zügigen Schriftduktus, den abgekürzten Endungen und
-						den häufigen Verbesserungen nach handelt es sich eindeutig um eine
-						während der Vorlesung entstandene Mitschrift. Der Text endet im
-						Abschnitt über römische Portraitstatuen bei der Besprechung der
-						Portraits des
-						<a class="tei:persName" target="_blank" type="foaf:name" about="http://d-nb.info/gnd/118501097" href="http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00977487">Agrippa<span class="tei:addName visuallyhidden" style="display: none;">Vipsanius Agrippa, Marcus</span></a>
-						und des Freigelassenen
-						<a class="tei:persName" target="_blank" type="foaf:name" href="http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01303748">Bathyllus<span class="tei:addName visuallyhidden" style="display: none;">Bathyllus , C. Iulius</span></a>.
-					</p><p class="tei:p">Nach drei Leerseiten folgt von S. 237–628 ein
-						thematisch ungefähr, aber nicht genau anschließender Text, der sich
-						deutlich von
-						<a class="tei:persName" target="_blank" type="foaf:name" about="http://d-nb.info/gnd/117166111" href="http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01084713">Mülinens<span class="tei:addName visuallyhidden" style="display: none;">Mülinen, Nikolaus Friedrich ¬von¬</span></a>
-						Mitschrift unterscheidet. Die sehr regelmäßige und saubere Handschrift
-						stammt offenbar von einem professionellen Kopisten ohne vertiefte
-						altertumskundliche Vorkenntnisse. Darauf deuten zahlreiche, z.T. stark
-						sinnentstellende Lesefehler (z.B. S. 252 Schreibe wollen statt
-						Schreibrollen, serutio statt scrinium, 260 Telemous statt
-						<a class="tei:persName" target="_blank" type="foaf:name" href="http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300399">Telamons<span class="tei:addName visuallyhidden" style="display: none;">Telamon</span></a>,
-						263 Beonini statt
-						<a class="tei:persName" target="_blank" type="foaf:name" about="http://d-nb.info/gnd/118509926" href="http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00543952">Bernini<span class="tei:addName visuallyhidden" style="display: none;">Bernini, Gian Lorenzo</span></a>,
-						272 Boucheordon statt
-						<a class="tei:persName" target="_blank" type="foaf:name" about="http://d-nb.info/gnd/118659456" href="http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00397554">Bouchardon<span class="tei:addName visuallyhidden" style="display: none;">Bouchardon, Edme</span></a>,
-						353 M. Auge statt
-						<a class="tei:persName" target="_blank" type="foaf:name" about="http://d-nb.info/gnd/118582143" href="http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00559773">M.
-							Ange[lo]<span class="tei:addName visuallyhidden" style="display: none;">Michelangelo</span></a>,
-						356 Saussoni statt
-						<a class="tei:placeName" target="_blank" type="gn:name" href="http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7004463">Sanssouci<span class="tei:addName visuallyhidden" style="display: none;">Potsdam</span></a>,
-						381 Torentice statt Toreutice, 589 Menphacum statt Nimphäum). Auf
-						fehlende Griechischkenntnisse des Kopisten könnte eine Textlücke auf S.
-						300 hinweisen, die offenbar bewusst frei gelassen wurde, da der
-						Abschreiber einen griechischen Fachterminus nicht lesen konnte.</p>
-					<p class="tei:p">Die Abschrift beginnt auf S. 237 mit dem Abschnitt
-						„Historische Personen“ und der <a class="tei:term" target="_blank">Statue
-							des Sardanapal</a> und überschneidet sich damit inhaltlich
-						geringfügig mit
-						<a class="tei:persName" target="_blank" type="foaf:name" about="http://d-nb.info/gnd/117166111" href="http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01084713">Mülinens<span class="tei:addName visuallyhidden" style="display: none;">Mülinen, Nikolaus Friedrich ¬von¬</span></a>
-						Mitschrift, in der der entsprechende Sinnabschnitt bereits auf S. 228
-						begann. Dass es sich bei dem zweiten Teil des Manuskripts auf keinen
-						Fall um eine Kopie nach weiteren Aufzeichnungen
-						<a class="tei:persName" target="_blank" type="foaf:name" about="http://d-nb.info/gnd/117166111" href="http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01084713">Mülinens<span class="tei:addName visuallyhidden" style="display: none;">Mülinen, Nikolaus Friedrich ¬von¬</span></a>
-						handeln kann, ergibt sich außer aus dieser Überschneidung auch aus
-						deutlichen Unterschieden in der Orthographie sowie aus der elaborierten
-						Gliederung des Textes, die jeweils in Marginalien und in einer Kopfzeile
-						über dem Text wiederholt wird. Worauf sich diese Gliederung bezieht, ist
-						unklar. Sie entspricht nicht
-						<a class="tei:persName" target="_blank" type="foaf:name" about="http://d-nb.info/gnd/11855073X" href="http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259384">Heynes<span class="tei:addName visuallyhidden" style="display: none;">Heyne, Christian Gottlieb</span></a>
-						gedrucktem Schema von
-						<span class="tei:date" property="dc:date" content="">1772</span>. Sie
-						beginnt mit „Th. II Abschn. 1. Cap. II. 19. Histor. Figuren Sardanapal.“
-					</p><p class="tei:p">Vermutlich erwarb
-						<a class="tei:persName" target="_blank" type="foaf:name" about="http://d-nb.info/gnd/117166111" href="http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01084713">Mülinen<span class="tei:addName visuallyhidden" style="display: none;">Mülinen, Nikolaus Friedrich ¬von¬</span></a>
-						einen Teil der Kopie einer ausgearbeiteten Vorlesungsmitschrift, um
-						seine eigenen Aufzeichnungen zu vervollständigen (möglicherweise weil er
-						diesen Teil der Vorlesung nicht mehr selbst hören konnte). Ob dieser
-						Teil aus einem vollständigen Manuskript herausgetrennt wurde oder ob
-						<a class="tei:persName" target="_blank" type="foaf:name" about="http://d-nb.info/gnd/117166111" href="http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01084713">Mülinen<span class="tei:addName visuallyhidden" style="display: none;">Mülinen, Nikolaus Friedrich ¬von¬</span></a>
-						gezielt eine Kopie der ihn interessierenden Teile in Auftrag gab, ist
-						nicht sicher zu entscheiden. Nicht eindeutig klar ist auch die Datierung
-						des zweiten Manuskriptteils. Gegen eine Entstehung im
-						<span class="tei:date" property="dc:date" content="">Sommer 1780</span>
-						scheint der folgende Befund zu sprechen: Auf S. 350 heißt es: „Berühmt
-						sind die <a class="tei:term" target="_blank">[Löwen] am Eingang des
-							Arsenals zu
-							<span class="tei:placeName visuallyhidden" type="gn:name" xlink:to="http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7018159">Venedig<span class="tei:addName visuallyhidden" style="display: none;">Venezia</span></span></a>,
-						die Ao. <span class="tei:date" property="dc:date" content="">1782</span>
-						von
-						<a class="tei:placeName" target="_blank" type="gn:name" href="http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7001393">Athen<span class="tei:addName visuallyhidden" style="display: none;">Athínai</span></a>
-						weggenommen wurden.“ Hier muss es sich jedoch um einen Schreibfehler
-						handeln, da der fragliche Vorgang in Wahrheit schon
-						<span class="tei:date" property="dc:date" content="">1687</span>
-						stattfand. An zwei Stellen des Manuskripts (S. 312 und S. 568) wird auf
-						Funde des Jahres <span class="tei:date" property="dc:date" content="">1780</span>
-						verwiesen, was in einer
-						<span class="tei:date" property="dc:date" content="">1780</span>
-						gehaltenen Vorlesung erstaunlich anmuten mag. Doch heißt es auf S. 581
-						explizit: „Vor 2. Jahren Ao
-						<span class="tei:date" property="dc:date" content="">1778</span>. …“
-						Damit dürfte der der Abschrift zugrunde liegende Text in der Tat im Jahr
-						<span class="tei:date" property="dc:date" content="">1780</span>
-						entstanden sein.</p><p class="tei:p">Im Gegensatz zu den häufig
-						stichwortartigen Notizen
-						<a class="tei:persName" target="_blank" type="foaf:name" about="http://d-nb.info/gnd/117166111" href="http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01084713">Mülinens<span class="tei:addName visuallyhidden" style="display: none;">Mülinen, Nikolaus Friedrich ¬von¬</span></a>
-						bemüht sich der Autor des zweiten Teils stärker um einen lesbaren Text
-						in vollständigen Sätzen. Zusammen mit der elaborierten Gliederung und
-						Auszeichnung könnte dies darauf hindeuten, dass es sich um eine eigens
-						für den Verkauf aufbereitete Fassung handelt.</p></div>
-				<div class="tei:encodingDesc"></div>
-			</div>
-		</div>
-	</div>
-	</div>
-
-	</div>
-	</div>
-	</section>
-
-	</section>
-
-	</div>
-	</div>
 	</div>
 
 
@@ -521,57 +99,7 @@
 	<div id="people_page">
 		<div class="content clearfix">
 			<div class="wrap">
-				<h2>Projektmitarbeiter</h2>
 
-				<li>Stefanie Abraham (SUB, Wissenschaftliche Hilfskraft)</li>
-				<li>Judith Dinse (SUB, Wissenschaftliche Hilfskraft)</li>
-				<li>
-					<a href="http://www.sub.uni-goettingen.de/kontakt/personen-a-z/personendetails/person/zeki-mustafa-dogan/" title="Zeki Mustafa Dogan" target="_blank">Zeki
-						Mustafa Dogan</a> (SUB, Technische Leitung)
-				</li>
-				<li>
-					<a href="http://www.sub.uni-goettingen.de/kontakt/personen-a-z/personendetails/person/christian-fieseler/" title="Dr. Christian Fieseler" target="_blank">Dr.
-						Christian Fieseler</a> (SUB, Koordination)
-				</li>
-				<li>Julian Geisler (SUB, Wissenschaftliche Hilfskraft)</li>
-				<li><a href="http://www.uni-goettingen.de/de/136923.html" title="Dr. Daniel Graepler" target="_blank">Dr.
-						Daniel Graepler</a> (Archäologisches Institut, Projektleitung)
-				</li>
-				<li>Stefan Jänicke (SUB, Technische Umsetzung)</li>
-				<li>Thomas Konradi (GBV, Design)</li>
-				<li>
-					<a href="http://www.sub.uni-goettingen.de/kontakt/personen-a-z/personendetails/person/martin-liebetruth/" title="Martin Liebetruth" target="_blank">Martin
-						Liebetruth</a> (SUB, Digitale Reproduktion)
-				</li>
-				<li>
-					<a href="http://www.sub.uni-goettingen.de/kontakt/personen-a-z/personendetails/person/christian-mahnke/" title="Christian Mahnke" target="_blank">Christian
-						Mahnke</a> (SUB, Technische Umsetzung)
-				</li>
-				<li>
-					<a href="http://www.sub.uni-goettingen.de/kontakt/personen-a-z/personendetails/person/ingo-pfennigstorf/" title="Ingo Pfennigstorf" target="_blank">Ingo
-						Pfennigstorf </a>(SUB, Technische Umsetzung)
-				</li>
-				<li>
-					<a href="http://www.sub.uni-goettingen.de/kontakt/personen-a-z/personendetails/person/rolf-b-roeper/" title="Rolf Röper" target="_blank">Rolf
-						Röper</a> (SUB, Digitale Reproduktion)
-				</li>
-				<li>
-					<a href="http://www.sub.uni-goettingen.de/kontakt/personen-a-z/personendetails/person/rupert-schaab/" title="Dr. Rupert Schaab" target="_blank">Dr.
-						Rupert Schaab</a> (SUB, Projektleitung)
-				</li>
-				<li>Sarah Schlüter (SUB, Studentische Hilfskraft)</li>
-				<li>Cäcilia Schröter (SUB, Studentische Hilfskraft)</li>
-				<li>Arne Ulrich (SUB, Studentische Hilfskraft)</li>
-				<li>
-					<a href="http://www.sub.uni-goettingen.de/kontakt/personen-a-z/personendetails/person/kristine-voigt/" title="Kristine Voigt" target="_blank">Kristine
-						Voigt</a> (SUB, Koordination)
-				</li>
-				<li>Dr. Hildegard Wiegel (Archäologisches Institut, Wissenschaftliche Mitarbeiterin)</li>
-				<li>
-					<a href="http://www.sub.uni-goettingen.de/kontakt/personen-a-z/personendetails/person/nils-windisch/" title="Nils Windisch" target="_blank">Nils
-						Windisch</a> (SUB, Technische Umsetzung)
-				</li>
-				</ul>
 			</div>
 		</div>
 	</div>
@@ -579,137 +107,45 @@
 	<!-- HILFE -->
 
 	<div id="help_page">
-	<div class="content clearfix">
-	<div class="wrap">
-	<h2>Hilfe</h2>
+		<div class="content clearfix">
+			<div class="wrap">
+				<h2>Hilfe</h2>
 
-	<div class="two-columns">
-	<div class="subnav">
-		<ul>
-			<li><a href="#" id="help-einfuehrung">Einführung</a></li>
-			<li><a href="#" id="help-arbeiten-mit-der-edition">Arbeiten mit der Edition</a></li>
-			<li><a href="#" id="help-vorlesungsmitschrift-oeffnen">Vorlesungsmitschrift öffnen</a></li>
-			<li><a href="#" id="help-arbeiten-mit-mehreren-tabs">Arbeiten mit mehreren Tabs</a></li>
-			<li><a href="#" id="help-suchen">Suchen</a></li>
-			<li><a href="#" id="help-suchen-mit-mehreren-begriffen">Suchen mit mehreren Begriffen</a></li>
-			<li><a href="#" id="help-erweiterte-suche">Erweiterte Suche</a></li>
-			<li><a href="#" id="help-arbeiten-mit-den-handschriften">Arbeiten mit den Mitschriften</a></li>
-			<li><a href="#" id="help-informationen-zu-personen-orten-etc">Informationen zu Personen Orten etc.</a></li>
-			<li><a href="#" id="help-aufrufen-externer-quellen">Aufrufen Externer Quellen</a></li>
-			<li><a href="#" id="help-weitere-ansichten">Weitere Ansichten</a></li>
-			<li><a href="#" id="help-verknuepfung-der-mappen">Verknüpfung der Mappen</a></li>
-			<li><a href="#" id="help-pdf-export">PDF Export</a></li>
-			<li><a href="#" id="help-dfg-viewer">DFG Viewer</a></li>
-			<li><a href="#" id="help-automatische-ausrichtung">Automatiche Ausrichtung</a></li>
-			<li><a href="#" id="help-manuelle-ausrichtung">Manuelle Ausrichtung</a></li>
-			<li><a href="#" id="help-lesezeichen-speichern">Lesezeichen speichern</a></li>
-		</ul>
-	</div>
-	<div class="maincontent">
-	<div class="helptopics">
+				<div class="two-columns">
+					<div class="subnav">
+						<ul>
+							<li><a href="#" id="help-einfuehrung">Einführung</a></li>
+							<li><a href="#" id="help-arbeiten-mit-der-edition">Arbeiten mit der Edition</a></li>
+							<li><a href="#" id="help-vorlesungsmitschrift-oeffnen">Vorlesungsmitschrift öffnen</a></li>
+							<li><a href="#" id="help-suchen">Suchen</a></li>
+							<li><a href="#" id="help-arbeiten-mit-den-handschriften">Arbeiten mit den Mitschriften</a>
+							</li>
+							<li><a href="#" id="help-informationen-zu-personen-orten-etc">Informationen zu Personen
+									Orten etc.</a></li>
+							<li><a href="#" id="help-aufrufen-externer-quellen">Aufrufen Externer Quellen</a></li>
+							<li><a href="#" id="help-weitere-ansichten">Weitere Ansichten</a></li>
+							<li><a href="#" id="help-verknuepfung-der-mappen">Verknüpfung der Mappen</a></li>
+							<li><a href="#" id="help-dfg-viewer-und-pdf-export">DFG Viewer und PDF Export</a></li>
+							<li><a href="#" id="help-automatische-ausrichtung">Automatiche Ausrichtung</a></li>
+							<li><a href="#" id="help-manuelle-ausrichtung">Manuelle Ausrichtung</a></li>
+							<li><a href="#" id="help-lesezeichen-speichern">Lesezeichen speichern</a></li>
+						</ul>
+					</div>
+					<div class="maincontent">
+						<div class="helptopics">
 
-	</div>
-	</div>
-	</div>
-	</div>
-	</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 	<!-- IMPRESSUM -->
 
 	<div id="imprint_page">
 		<div class="content clearfix">
 			<div class="wrap">
-				<h2>Impressum / Anbieterhinweis</h2>
-				<p>Die nachstehenden Informationen enthalten die gesetzlich vorgesehenen Pflichtangaben zur
-					Anbieterkennzeichnung zu den datenschutzrechtlichen Informationspflichten sowie weitere wichtige
-					rechtliche Hinweise zur Internetpräsenz der digitalen Edition "Christian Gottlob Heyne Vorlesungen
-					über die Archäologie".</p>
 
-				<h3>Anbieter</h3>
-				<p>Anbieter dieser Internetpräsenz ist im Rechtsinne die Niedersächsische Staats- und
-					Universitätsbibliothek Göttingen.</p>
-
-				<h3>Adresse</h3>
-				<p>Niedersächsische Staats- und Universitätsbibliothek Göttingen<br/>Georg-August-Universität
-					Göttingen<br/>Platz der Göttinger Sieben 1<br/>37073 Göttingen<br/>Tel.: +49 (0)551 / 39-5212<br/>Fax:
-					+49 (0)551 / 39-5222<br/>E-Mail:
-					<a href="mailto:sekretariat@sub.uni-goettingen.de" title="E-Mail an das Sekretariat der SUB Göttingen">sekretariat@sub.uni-goettingen.de</a><br/>Internet:
-					<a href="www.sub.uni-goettingen.de" title="Niedersächsische Staats- und Universitätsbibliothek Göttingen" hreflang="de" target="_blank">www.sub.uni-goettingen.de</a>
-				</p>
-
-				<h3>Vertreter</h3>
-				<p>Die Niedersächsische Staats- und Universitätsbibliothek Göttingen (SUB) wird vertreten durch den
-					Leitenden Direktor Prof. Dr. Norbert Lossau.</p>
-				<p>Die SUB Göttingen ist als zentrale Einrichtung eine organisatorische, rechtlich nicht selbständige
-					Einheit der Georg-August-Universität Göttingen. Die Georg-August-Universität Göttingen ist eine
-					Körperschaft des öffentlichen Rechts. Sie wird durch die Präsidentin Prof. Dr. Ulrike Beisiegel
-					gesetzlich vertreten. </p>
-
-				<h3>Zuständige Aufsichtsbehörde</h3>
-				<p>Georg-August-Universität Göttingen Stiftung Öffentlichen Rechts, Stiftungsausschuss Universität,
-					Wilhelmsplatz 1, 37073 Göttingen</p>
-
-				<h3>Umsatzsteueridentifikationsnummer</h3>
-				<p>Die Umsatzsteueridentifikationsnummer der SUB Göttingen lautet: DE286005408</p>
-
-				<h3>Haftung für Inhalte</h3>
-				<p>Die Niedersächsische Staats- und Universitätsbibliothek Göttingen (SUB Göttingen) ist als
-					Diensteanbieterin für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich.
-					Die SUB Göttingen ist um Richtigkeit und Aktualität der hier bereitgestellten Informationen bemüht.
-					Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt, dennoch können Fehler und
-					Unklarheiten nicht vollständig ausgeschlossen werden. Die SUB Göttingen übernimmt daher keine Gewähr
-					für die Aktualität, Richtigkeit, Vollständigkeit oder Qualität der bereitgestellten
-					Informationen.</p>
-				<p>Insbesondere sind wir als Diensteanbieter nicht verpflichtet, übermittelte oder gespeicherte fremde
-					Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit
-					hinweisen. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend
-					entfernen.</p>
-				<p>Für Schäden materieller oder immaterieller Art, die durch die Nutzung oder Nichtnutzung der
-					dargebotenen Informationen bzw. durch die Nutzung fehlerhafter und unvollständiger Informationen
-					unmittelbar oder mittelbar verursacht werden, haftet die SUB Göttingen nicht, sofern ihr nicht
-					nachweislich vorsätzliches oder grob fahrlässiges Verschulden zur Last fällt. Gleiches gilt für
-					kostenlos zum Download bereitgehaltene Software.</p>
-				<p>Die SUB Göttingen behält es sich vor, Teile des Internetangebots oder das gesamte Angebot ohne
-					gesonderte Ankündigung zu verändern, zu ergänzen, zu löschen oder die Veröffentlichung zeitweise
-					oder endgültig einzustellen.</p>
-
-				<h3>Haftung für Links</h3>
-				<p>Unser Angebot enthält Verknüpfungen (Links) zu Webseiten von anderen Einrichtungen der Universität
-					und zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Für die Inhalte der
-					verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die SUB
-					Göttingen identifiziert sich deshalb ausdrücklich nicht mit dem Inhalt der verlinkten Seiten und
-					macht sich die fremden Inhalte nicht zu Eigen.</p>
-				<p>Die gesetzten Links werden im wissenschaftlichen Sinne zitiert und zur Information für Studium,
-					Forschung und Lehre zur Verfügung gestellt. Wir haben die verlinkten Seiten zum Zeitpunkt der
-					erstmaligen Verknüpfung auf mögliche Rechtsverstöße überprüft. Inhalte, durch die eine mögliche
-					zivil- oder strafrechtliche Verantwortlichkeit ausgelöst wird, waren zum Zeitpunkt der Verlinkung
-					nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne
-					konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar.</p>
-				<p>Wenn die SUB Göttingen feststellt oder von anderen darauf hingewiesen wird, dass ein externes
-					Angebot, auf das sie per Link verknüpft hat, eine zivil- oder strafrechtliche Verantwortlichkeit
-					auslöst, wird sie diesen Link umgehend entfernen. Die SUB Göttingen distanziert sich ausdrücklich
-					von derartigen Inhalten.</p>
-
-				<h3>Hinweis zum Urheber- und Kennzeichnungsrecht</h3>
-				<p>Die SUB Göttingen ist bestrebt, in allen Publikationen die Urheberrechte der verwendeten Grafiken,
-					Tondokumente, Videosequenzen und Texte zu beachten, von ihr selbst erstellte Grafiken, Tondokumente,
-					Videosequenzen und Texte zu nutzen oder auf lizenzfreie Grafiken, Tondokumente, Videosequenzen und
-					Texte zurückzugreifen.</p>
-				<p>Alle innerhalb des Internetangebotes genannten und ggf. durch Dritte geschützten Marken- und
-					Warenzeichen unterliegen uneingeschränkt den Bestimmungen des jeweils gültigen Kennzeichenrechts und
-					den Besitzrechten der jeweiligen eingetragenen Eigentümer. Allein aufgrund der bloßen Nennung ist
-					nicht der Schluss zu ziehen, dass Markenzeichen nicht durch Rechte Dritter geschützt sind.</p>
-				<p>Das Layout der Homepage, die verwendeten Grafiken sowie die sonstigen Inhalte der Internetpräsenz der
-					SUB Göttingen sind urheberrechtlich geschützt.</p>
-				<p>Jede vom Urheberrechtsgesetz nicht zugelassene Verwertung bedarf vorheriger ausdrücklicher Zustimmung
-					der SUB Göttingen. Dies gilt insbesondere für Vervielfältigung, Bearbeitung, Übersetzung,
-					Einspeicherung, Verarbeitung bzw. Wiedergabe von Inhalten in Datenbanken oder anderen elektronischen
-					Medien und Systemen. Fotokopien und Downloads von Web-Seiten für den privaten, wissenschaftlichen
-					und nicht kommerziellen Gebrauch dürfen hergestellt werden.</p>
-				<p>Das Urheberrecht für das Universitätssiegel liegt ausdrücklich bei der Georg-August-Universität
-					Göttingen.</p>
-				<p>Wir erlauben ausdrücklich und begrüßen das Zitieren unserer Dokumente und Webseiten sowie das Setzen
-					von Links auf unsere Website.</p>
 			</div>
 		</div>
 	</div>
@@ -720,74 +156,7 @@
 	<div id="databases_page">
 		<div class="content clearfix">
 			<div class="wrap">
-				<h2>Datenbanken</h2>
-				<p>Folgende Datenbanken wurden benutzt, um die identifizierten Entitäten (Personen, Orte, Literatur und
-					Werke) zu normieren und zu verlinken.</p>
-				<ul>
-					<li>
-						<strong><a href="http://arachne.uni-koeln.de/drupal/" title="Arachne" target="_blank">Arachne</a></strong><br/>Objektdatenbank
-						des
-						<a href="http://www.dainst.org/" title="Deutschen Archäologischen Instituts (DAI)" target="_blank">Deutschen
-							Archäologischen Instituts (DAI)</a> und des
-						<a href="http://www.archaeologie.uni-koeln.de/" title="Archäologischen Instituts der Universität zu Köln" target="_blank">Archäologischen
-							Instituts der Universität zu Köln</a><br/>(Orte, Werke, Literatur)
-					</li>
-					<li>
-						<strong><a href="http://rara.biblhertz.it/" title="Bibliotheka Hertziana – Digital" target="_blank">Bibliotheka
-								Hertziana – Digital</a></strong><br/>Digitale Sammlung der
-						<a href="http://www.biblhertz.it/" title="Bibliotheka Hertziana des Max-Plank-Instituts für Kunstgeschichte in Rom" target="_blank">Bibliotheka
-							Hertziana des Max-Plank-Instituts für Kunstgeschichte in Rom</a><br/>(Literatur)
-					</li>
-					<li>
-						<strong><a href="http://census.bbaw.de/" title="Census of Antique Works of Art and Architecture Known in the Renaissance" target="_blank">Census
-								of Antique Works of Art and Architecture Known in the Renaissance</a></strong><br/>Forschungsdatenbank
-						der
-						<a href="http://www.bbaw.de/" title="Berlin-Brandenburgischen Akademie der Wissenschaften" target="_blank">Berlin-Brandenburgischen
-							Akademie der Wissenschaften</a> und der
-						<a href="http://www.hu-berlin.de" title="Humboldt Universität zu Berlin" target="_blank">Humbold
-							Universität zu Berlin</a><br/>(Werke)
-					</li>
-					<li><strong><a href="http://thesaurus.cerl.org/" title="CERL-Thesaurus" target="_blank">CERL-Thesaurus</a></strong><br/>Personennamendatenbank
-						des
-						<a href="http://www.cerl.org/" title="Consortium of European Research Libraries" target="_blank">Consortium
-							of European Research Libraries</a><br/>(Personen)
-					</li>
-					<li>
-						<strong><a href="http://www.getty.edu/research/tools/vocabularies/tgn/index.html" title="Getty Thesaurus of Geographic Names Online" target="_blank" target="_blank">Getty
-								Thesaurus of Geographic Names Online</a></strong><br/>Ortsnamendatenbank
-						<a href="http://www.getty.edu/" title="Getty Research Institute" target="_blank">Getty Research
-							Institute</a><br/>(Orte)
-					</li>
-				</ul>
-				<h2>Digitalisierte Literatur</h2>
-				<ul>
-					<li>
-						<strong><a href="http://arachne.uni-koeln.de/drupal/?q=de/books" title="Arachne Digitalisierte Drucke" target="_blank">Arachne
-								Digitalisierte Drucke</a></strong><br/>Digitalisiert Drucke aus der Zeit von 1500 und
-						1830; Teil der zentralen Objektdatenbank des
-						<a href="http://www.dainst.org/" title="Deutschen Archaologischen Instituts (DAI)" target="_blank">Deutschen
-							Archaologischen Instituts (DAI)</a> und des <a href="http://www.archaeologie.uni-koeln.de/">Archäologischen
-							Instituts der Universität zu Köln</a></li>
-					<li>
-						<strong><a href="http://gdz.sub.uni-goettingen.de" title="Göttinger Digitalisierungszentrum (GDZ)" target="_blank">Göttinger
-								Digitalisierungszentrum (GDZ)</a></strong><br/>Digitale Bibliothek der
-						<a href="http://www.sub.uni-goettingen.de" title="Niedersächsischen Staats- und Universitätsbibliothek Göttingen" target="_blank">Niedersächsischen
-							Staats- und Universitätsbibliothek Göttingen</a></li>
-					<li><strong><a href="http://www.hathitrust.org" title="Hathi Trust Digital Library" target="_blank">Hathi
-								Trust Digital Library</a></strong><br/>Literaturrepositorium des
-						<a href="http://www.cic.net/" title="Committee on Institutional Cooperation" target="_blank">Committee
-							on Institutional Cooperation</a></li>
-					<li>
-						<strong><a href="http://hd-historische-bestaende-digital.uni-hd.de" title="Heidelberger historische Bestände Digital" target="_blank">Heidelberger
-								historische Bestände Digital</a></strong><br/>Digitale Bibliothek der
-						<a href="http:/ www.ub.uni-heidelberg.de/" title="Universitätsbibliothek Heidelberg" target="_blank">Universitätsbibliothek
-							Heidelberg</a></li>
-					<li>
-						<strong><a href="http://www.digitale-sammlungen.de/" title="Münchner Digitalisierungszentrum (MDZ)" target="_blank">Münchner
-								Digitalisierungszentrum (MDZ)</a></strong><br/>Digitale Bibliothek der
-						<a href="http://www.ub.uni-muenchen.de/" title="Bayrischen Staatsbibliothek München" target="_blank">Bayrischen
-							Staatsbibliothek München</a></li>
-				</ul>
+
 			</div>
 		</div>
 	</div>
@@ -798,63 +167,7 @@
 	<div id="acknowledgment_page">
 		<div class="content clearfix">
 			<div class="wrap">
-				<h2>Danksagung</h2>
-				<p>Wir bedanken uns bei allen Institutionen, die dem Projekt aus ihren Beständen Vorlesungsmitschriften
-					in digitaler Form zur Verfügung gestellt haben.</p>
-				<p>Fertig bearbeitet und in die Webseite integriert sind bereits folgende Mitschriften:</p>
-				<ul>
-					<li>
-						<strong><a href="http://www.dainst.org/de/department/bibliothek-rom" title="Bibliothek des Deutschen Archäologischen Instituts, Abteilung Rom" target="_blank">Bibliothek
-								des Deutschen Archäologischen Instituts, Abteilung Rom</a></strong>: Signatur „O 140
-						Rara“
-					</li>
-					<li>
-						<strong><a href="http://www.burgerbib.ch/d/index.html" title="Burgerbibliothek Bern" target="_blank">Burgerbibliothek
-								Bern</a></strong>: Signatur „Mss.Mül.507“
-					</li>
-					<li>
-						<strong><a href="http://www.klassik-stiftung.de/einrichtungen/herzogin-anna-amalia-bibliothek/" title="Herzogin Anna Amalia Bibliothek – Klassik Stiftung Weimar" target="_blank">Herzogin
-								Anna Amalia Bibliothek – Klassik Stiftung Weimar</a></strong>: Signatur „Ruppert 2056“
-					</li>
-					<li>
-						<strong><a href="http://staatsbibliothek-berlin.de/" title="Staatsbibliothek zu Berlin – Preußischer Kulturbesitz" target="_blank">Staatsbibliothek
-								zu Berlin – Preußischer Kulturbesitz</a></strong>: Signatur „Ms. germ. qu. 1666““
-					</li>
-				</ul>
-				<p>Weitere Mitschriften sind bereits digitalisiert und transkribiert, jedoch noch nicht vollständig
-					erschlossen:<p>
-				<ul>
-					<li>
-						<strong><a href="http://www.bnf.fr/fr/acc/x.accueil.html" title="Bibliothèque nationale de France" target="_blank">Bibliothèque
-								nationale de France</a></strong>: Signatur „Ms. f. a. 146“
-					</li>
-					<li>
-						<strong><a href="http://www.burgerbib.ch/d/index.html" title="Burgerbibliothek Bern" target="_blank">Burgerbibliothek
-								Bern</a></strong>: Signatur „Mss.h.h.XLV.86.1-3“
-					</li>
-					<li>
-						<strong><a href="http://www.kb.dk/da/index.html" title="Det Kongelige Bibliotek, Kopenhagen“" target="_blank">Det
-								Kongelige Bibliotek, Kopenhagen</a></strong>: Signatur „Kall 324 kvart“
-					</li>
-					<li>
-						<strong><a href="http://www.klassik-stiftung.de/einrichtungen/goethe-und-schiller-archiv/" title="Goethe- und Schiller-Archiv – Klassik Stiftung Weimar" target="_blank">Goethe-
-								und Schiller-Archiv – Klassik Stiftung Weimar</a></strong>: Signatur „GSA 36/III,13“
-					</li>
-					<li>
-						<strong><a href="http://www.slub-dresden.de/startseite/" title="Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden" target="_blank">Sächsische
-								Landesbibliothek – Staats- und Universitätsbibliothek Dresden</a></strong>: Signatur
-						„Mscr. Dresd. App. 1611“
-					</li>
-					<li>
-						<strong><a href="http://nbmgu.ru/" title="Staatliche Lomonossov-Universität Moskau, Wissenschaftliche Bibliothek" target="_blank">Staatliche
-								Lomonossov-Universität Moskau, Wissenschaftliche Bibliothek</a></strong>: Signatur „5 Re
-						28, 99“
-					</li>
-					<li>
-						<strong><a href="http://www.ucl.ac.uk/library/special-coll/" title="University CollUniversitäts- und Landesbibliothek Darmstadt" target="_blank">Universitäts-
-								und Landesbibliothek Darmstadt</a></strong>: Signaturen „Hs 497“ und „Hs 1711“
-					</li>
-				</ul>
+
 			</div>
 		</div>
 	</div>

@@ -8,106 +8,106 @@ Die Edition ist so gestaltet, dass sie von möglichst vielen
 Wissenschaftszweigen genutzt werden kann. Es wurde keine reine
 philologische Edition angestrebt.
 
-                <p>Die Erfassung der Texte erfolgte grundsätzlich getreu ihrer Vorlagen im Unicode-Format
-        (Kodierung in
-        UTF-8) des zum Zeitpunkt der Erfassung gültigen Unicode-Standards. Zudem sind die Zeichen, je nach
-        Möglichkeit, gemäß ihrer Semantik abgebildet. In der Regel wurde auf modernisierende Veränderungen
-        des lexikalischen Materials verzichtet, so z. B. bei der Schreibung von Eigennamen. Dementsprechend
-        sind Fehler und Streichungen des Schreibers ¸bernommen und keine Korrektur der Syntax vorgenommen
-        worden. Unleserliche oder nicht entzifferbare Wörter wurden entsprechend gekennzeichnet (&lt;unclear&gt;).</p>
-        <p>Groß- und Kleinschreibung folgen der Vorlage. Ausnahmen: Satzanfänge (auch bei Aufzählungen und
-        unvollständigen Sätzen) und Eigennamen werden immer großgeschrieben. Abgesehen davon werden
-        Eigennamen jedoch entsprechend der Vorlage wiedergegeben.</p>
-        <p>Alle Akzentzeichen werden der Vorlage entsprechend wiedergegeben. Ausnahmen: übergesetzte Vokale
-        wurden als Punkte aufgelöst; Zeichen, die reine Lesehilfe sind, sind entfallen; es wurde nicht
-        festgehalten, wenn beispielsweise Punkte über i und j fehlen.</p>
-        <p>Gebräuchliche Ligaturen (æ, œ) oder ähnliches blieben erhalten, ungebräuchliche Ligaturen wurden ohne
-        Auszeichnung aufgelöst.</p>
-        <p>Nasalstriche über Buchstaben, die die darauf folgende Auslassung von „m“ oder „n“ anzeigen, wurden
-        aufgelöst.</p>
-        <p>Nasalstriche über Buchstaben, die die darauf folgende Auslassung von m oder n anzeigen, wurden
-        aufgelöst.</p>
-        <p>Die Buchstaben s, ss, ﬂ, sz und z wurden beibehalten.</p>
-        <p>Die Getrennt- und Zusammenschreibung folgt der Vorlage, sofern diese eindeutig ist.</p>
-        <p>Ein doppelter Bindestrich (=) wird als einfacher Bindestrich (-) wiedergegeben.</p>
-        <p>Zahlzeichen werden vorlagengetreu wiedergegeben, es sei denn, dass gewichtige Gründe für eine
-        Auflösung sprechen.</p>
-        <p>Hochgestellte Zeichen und Zahlen sowie Brüche wurden nicht ausgezeichnet und sind damit als normaler
-        Text wiedergegeben.</p>
-        <p>Die Interpunktion wird wie in der Vorlage wiedergegeben; allerdings entfallen mögliche Leerstellen
-        zwischen Satzzeichen und den Wörtern, nach denen erstere stehen. Offensichtlich fehlende Satzzeichen
-        (Punkte, Kommas, Bindestriche etc.), die zum Verständnis notwendig sind, wurden gesetzt und
-        entsprechend gekennzeichnet (&lt;add resp=&quot;editor&quot;&gt;…&lt;/add&gt;).</p>
-        <p>Unterführungszeichen, die das Wort oder den Satz in der darüber stehenden Zeile wiederholen, sind
-        stillschweigend aufgelöst worden.</p>
-        <p>Reine Füllstriche am Ende einer Zeile wurden nicht wiedergegeben.</p>
-        <p>Geschwungenen Klammern: Werden mehrere Zeilen von einer geschwungenen Klammer ( { oder } ) eingefaßt,
-        wird dieser Text ohne Auszeichnung wiedergegeben: Steht der Text, der von der Klammer eingefaßt ist,
-        links von der Klammer, kommt ganz an Ende dieses Textes eine geschwungene Klammer ( } ), auf die
-        dann der Text außerhalb der Klammer folgt. Steht der Text, der von der Klammer eingefaßt wird,
-        rechts von der Klammer, so schreibt man zunächst den Text außerhalb der Klammer hin, dann folgt die
-        Klammer ( { ) und sodann der Inhalt derselben.</p>
-        <p></p>
+<p>Die Erfassung der Texte erfolgte grundsätzlich getreu ihrer Vorlagen im Unicode-Format
+(Kodierung in
+UTF-8) des zum Zeitpunkt der Erfassung gültigen Unicode-Standards. Zudem sind die Zeichen, je nach
+Möglichkeit, gemäß ihrer Semantik abgebildet. In der Regel wurde auf modernisierende Veränderungen
+des lexikalischen Materials verzichtet, so z. B. bei der Schreibung von Eigennamen. Dementsprechend
+sind Fehler und Streichungen des Schreibers ¸bernommen und keine Korrektur der Syntax vorgenommen
+worden. Unleserliche oder nicht entzifferbare Wörter wurden entsprechend gekennzeichnet (&lt;unclear&gt;).</p>
+<p>Groß- und Kleinschreibung folgen der Vorlage. Ausnahmen: Satzanfänge (auch bei Aufzählungen und
+unvollständigen Sätzen) und Eigennamen werden immer großgeschrieben. Abgesehen davon werden
+Eigennamen jedoch entsprechend der Vorlage wiedergegeben.</p>
+<p>Alle Akzentzeichen werden der Vorlage entsprechend wiedergegeben. Ausnahmen: übergesetzte Vokale
+wurden als Punkte aufgelöst; Zeichen, die reine Lesehilfe sind, sind entfallen; es wurde nicht
+festgehalten, wenn beispielsweise Punkte über i und j fehlen.</p>
+<p>Gebräuchliche Ligaturen (æ, œ) oder ähnliches blieben erhalten, ungebräuchliche Ligaturen wurden ohne
+Auszeichnung aufgelöst.</p>
+<p>Nasalstriche über Buchstaben, die die darauf folgende Auslassung von „m“ oder „n“ anzeigen, wurden
+aufgelöst.</p>
+<p>Nasalstriche über Buchstaben, die die darauf folgende Auslassung von m oder n anzeigen, wurden
+aufgelöst.</p>
+<p>Die Buchstaben s, ss, ﬂ, sz und z wurden beibehalten.</p>
+<p>Die Getrennt- und Zusammenschreibung folgt der Vorlage, sofern diese eindeutig ist.</p>
+<p>Ein doppelter Bindestrich (=) wird als einfacher Bindestrich (-) wiedergegeben.</p>
+<p>Zahlzeichen werden vorlagengetreu wiedergegeben, es sei denn, dass gewichtige Gründe für eine
+Auflösung sprechen.</p>
+<p>Hochgestellte Zeichen und Zahlen sowie Brüche wurden nicht ausgezeichnet und sind damit als normaler
+Text wiedergegeben.</p>
+<p>Die Interpunktion wird wie in der Vorlage wiedergegeben; allerdings entfallen mögliche Leerstellen
+zwischen Satzzeichen und den Wörtern, nach denen erstere stehen. Offensichtlich fehlende Satzzeichen
+(Punkte, Kommas, Bindestriche etc.), die zum Verständnis notwendig sind, wurden gesetzt und
+entsprechend gekennzeichnet (&lt;add resp=&quot;editor&quot;&gt;…&lt;/add&gt;).</p>
+<p>Unterführungszeichen, die das Wort oder den Satz in der darüber stehenden Zeile wiederholen, sind
+stillschweigend aufgelöst worden.</p>
+<p>Reine Füllstriche am Ende einer Zeile wurden nicht wiedergegeben.</p>
+<p>Geschwungenen Klammern: Werden mehrere Zeilen von einer geschwungenen Klammer ( { oder } ) eingefaßt,
+wird dieser Text ohne Auszeichnung wiedergegeben: Steht der Text, der von der Klammer eingefaßt ist,
+links von der Klammer, kommt ganz an Ende dieses Textes eine geschwungene Klammer ( } ), auf die
+dann der Text außerhalb der Klammer folgt. Steht der Text, der von der Klammer eingefaßt wird,
+rechts von der Klammer, so schreibt man zunächst den Text außerhalb der Klammer hin, dann folgt die
+Klammer ( { ) und sodann der Inhalt derselben.</p>
+<p></p>
 
-        <h2>Konventionen der XML-Kodierung nach TEI</h2>
-        <p>Das Heyne Digital ODD-Schema ist über
-        <strong><a href="https://github.com/subugoe/ropen-backend/blob/master/src/main/odd/config/ropen.odd"
-        title="Github" target="_blank">Github</a></strong>
-        erreichbar.
-        <p>Überschriften wurden in &lt;head&gt; eingeschlossen. Zusätzlich wurde das gesamte Kapitel, zu dem
-        die
-        Überschrift gehört in ein &lt;div&gt; eingeschlossen.</p>
-        <p> Ein Seitenumbruch wird vor der Seite mit &lt;pb/&gt; gekennzeichnet.</p>
-        <p>Fortlaufende Seitenzahlen wurden nicht wiedergegeben; andere Ordnungszahlen, wie beispielsweise die
-        Vorlesungseinheiten, hingegen schon.</p>
-        <p>Zeilenumbrüche wurden mit &lt;lb/&gt; gekennzeichnet.</p>
-        <p>Absätze wurden mit dem Element &lt;p&gt; für paragraph kodiert.</p>
-        <p>Zitate wurden in &lt;q&gt; eingeschlossen.</p>
-        <p>Literaturangaben wurden in der Erstaufnahme in &lt;bibl&gt;&lt;ref&gt; eingeschlossen.</p>
-        <p>Personennamen wurden in &lt;persName&gt; eingeschlossen.</p>
-        <p>Ortsnamen wurden in &lt;placeName&gt; eingeschlossen.</p>
-        <p>Kunstwerke wie Laokoon wurden in &lt;term/&gt; eingeschlossen.</p>
-        <p>Datumsangaben wurden in &lt;date&gt; eingeschlossen.</p>
-        <p>Ein Wechsel der Schriftart von z.B. deutscher Kurrentschrift in lateinische Druckbuchstaben wurde in
-        &lt;emph&gt; eingeschlossen. Handelte es sich nur um einzelne Buchstaben am Anfang oder am Ende
-        Wortes, wurde die Schriftart gewählt, in der mehr als die Hälfte des Wortes verfasst ist; eine
-        Auszeichnung erfolgte dementsprechend nur, wenn das Wort daraufhin nicht mehr als in deutscher
-        Kurrentschrift verfasst gilt.</p>
-        <p>Der Wechsel von deutscher Sprache in eine andere Sprache wurde mit &lt;foreign/&gt; umschlossen.
-        Fachtermini wurden von der &lt;foreign&gt;-Kennzeichung ausgeschlossen.</p>
-        <p>Ein erkennbarer Wechsel der Handschrift wurde mit &lt;handshift/&gt; angegeben. Wechselt die Hand
-        wieder zurücke, erfolgte ein weiteres &lt;handshift/&gt;.</p>
-        <p>Anmerkungen wurden in &lt;note&gt; eingeschlossen. Im Attribut place wurde angegeben, wo sich die
-        Anmerkung befindet, ob beispielsweise am Rand oder am Fuß der Seite. Textblöcke, deren Zuordnung zum
-        Haupttext nicht eindeutig erkennbar ist, werden mit &lt;ab&gt; ausgezeichnet.</p>
-        <p>Unterstreichungen wurden mit &lt;hi rend=&quot;underline&quot;&gt;...&lt;/hi&gt;
-        oder &lt;hi rend=&quot;double
-        underline&quot;&gt;...&lt;/hi&gt; markiert.</p>
-        <p>Hochgestellte Zahlen oder Buchstaben wurden mit &lt;hi rend=&quot;sup&quot;&gt;...&lt;/hi&gt;
-        dargestellt.</p>
-        <p>Unsichere Lesungen und Nichtauflösbare Unklarheiten wurden in &lt;unclear&gt; eingeschlossen.</p>
-        <p>Fehlender Text: Fehlt Text (durch zu enge Bindung oder weil der Autor eine offensichtliche Leerstelle
-        gelassen hat), wurde die Stelle mit &lt;gap/&gt; markiert werden.</p>
-        <p>Streichungen wurden grundsätzlich in &lt;del&gt; eingeschlossen. Ist das Gestrichene lesbar, wurde
-        es
-        wiedergegeben, wenn nicht, blieb das &lt;del&gt; leer.</p>
-        <p>Einschübe des Autors werden in &lt;add&gt; eingeschlossen.</p>
-        <p>Endverschleifungen und Abkürzungen werden aufgelöst und in &lt;expan&gt; eingeschlossen. Sie werden
-        in hellgrauer Schriftfarbe wiedergegeben. Immer wiederkehrende Endverschleifungen und Abkürzungen
-        von kurzen und sehr gebräuchlichen Wörtern wurden im Text jedoch stillschweigend aufgelöst.</p>
-        <p>Kustoden wurden wiedergegeben und mit &lt;fw&gt; ausgezeichnet.</p>
-        <p>Mehrspaltigkeit: Besteht eine Seite vollständig aus mehreren Spalten (z. B. bei einem Register) ist
-        vor den Beginn einer jeden Spalte &lt;cb/&gt; (analog zu den &lt;pb/&gt; vor jeder Seite) zu setzen.
-        Verhält es sich jedoch so, dass auf einer Seite ein- und mehrspaltig geschrieben wurde, muss man
-        noch markieren (für eine saubere Darstellung), wo die Mehrspaltigkeit beginnt und aufhört: (analog
-        zu den &lt;pb/&gt; vor jeder Seite) zu setzen. Verhält es sich jedoch so, dass auf einer Seite ein-
-        und mehrspaltig geschrieben wurde, muss man noch markieren (für eine saubere Darstellung), wo die
-        Mehrspaltigkeit beginnt und aufhört:</p>
-        <p>&lt;milestone unit=&quot;column&quot; type=&quot;start&quot;/&gt; &lt;cb/&gt;
-        &lt;list&gt; &lt;item&gt;Registereintrag&lt;/item&gt;&lt;item&gt;Regsitereintrag&lt;/item&gt;
-        &lt;item&gt;Registereintrag&lt;/item&gt;&lt;item&gt;Registereintrag&lt;/item&gt;
-        &lt;cb/&gt;&lt;item&gt;Registereintrag&lt;/item&gt;&lt;item&gt;Registereintrag&lt;/item&gt;
-        &lt;item&gt;Registereintrag&lt;/item&gt; &lt;/list&gt;&lt;/cb&gt; &lt;milestone
-        unit=&quot;column&quot;ype=&quot;end&quot;/&gt;</p>
-        <p>Horizontale Linien werden durch &lt;figure place=&quot;inline&quot; type=&quot;line&quot;/&gt;
-        angegeben.</p>
+<h2>Konventionen der XML-Kodierung nach TEI</h2>
+<p>Das Heyne Digital ODD-Schema ist über
+<strong><a href="https://github.com/subugoe/ropen-backend/blob/master/src/main/odd/config/ropen.odd"
+title="Github" target="_blank">Github</a></strong>
+erreichbar.
+<p>Überschriften wurden in &lt;head&gt; eingeschlossen. Zusätzlich wurde das gesamte Kapitel, zu dem
+die
+Überschrift gehört in ein &lt;div&gt; eingeschlossen.</p>
+<p> Ein Seitenumbruch wird vor der Seite mit &lt;pb/&gt; gekennzeichnet.</p>
+<p>Fortlaufende Seitenzahlen wurden nicht wiedergegeben; andere Ordnungszahlen, wie beispielsweise die
+Vorlesungseinheiten, hingegen schon.</p>
+<p>Zeilenumbrüche wurden mit &lt;lb/&gt; gekennzeichnet.</p>
+<p>Absätze wurden mit dem Element &lt;p&gt; für paragraph kodiert.</p>
+<p>Zitate wurden in &lt;q&gt; eingeschlossen.</p>
+<p>Literaturangaben wurden in der Erstaufnahme in &lt;bibl&gt;&lt;ref&gt; eingeschlossen.</p>
+<p>Personennamen wurden in &lt;persName&gt; eingeschlossen.</p>
+<p>Ortsnamen wurden in &lt;placeName&gt; eingeschlossen.</p>
+<p>Kunstwerke wie Laokoon wurden in &lt;term/&gt; eingeschlossen.</p>
+<p>Datumsangaben wurden in &lt;date&gt; eingeschlossen.</p>
+<p>Ein Wechsel der Schriftart von z.B. deutscher Kurrentschrift in lateinische Druckbuchstaben wurde in
+&lt;emph&gt; eingeschlossen. Handelte es sich nur um einzelne Buchstaben am Anfang oder am Ende
+Wortes, wurde die Schriftart gewählt, in der mehr als die Hälfte des Wortes verfasst ist; eine
+Auszeichnung erfolgte dementsprechend nur, wenn das Wort daraufhin nicht mehr als in deutscher
+Kurrentschrift verfasst gilt.</p>
+<p>Der Wechsel von deutscher Sprache in eine andere Sprache wurde mit &lt;foreign/&gt; umschlossen.
+Fachtermini wurden von der &lt;foreign&gt;-Kennzeichung ausgeschlossen.</p>
+<p>Ein erkennbarer Wechsel der Handschrift wurde mit &lt;handshift/&gt; angegeben. Wechselt die Hand
+wieder zurücke, erfolgte ein weiteres &lt;handshift/&gt;.</p>
+<p>Anmerkungen wurden in &lt;note&gt; eingeschlossen. Im Attribut place wurde angegeben, wo sich die
+Anmerkung befindet, ob beispielsweise am Rand oder am Fuß der Seite. Textblöcke, deren Zuordnung zum
+Haupttext nicht eindeutig erkennbar ist, werden mit &lt;ab&gt; ausgezeichnet.</p>
+<p>Unterstreichungen wurden mit &lt;hi rend=&quot;underline&quot;&gt;...&lt;/hi&gt;
+oder &lt;hi rend=&quot;double
+underline&quot;&gt;...&lt;/hi&gt; markiert.</p>
+<p>Hochgestellte Zahlen oder Buchstaben wurden mit &lt;hi rend=&quot;sup&quot;&gt;...&lt;/hi&gt;
+dargestellt.</p>
+<p>Unsichere Lesungen und Nichtauflösbare Unklarheiten wurden in &lt;unclear&gt; eingeschlossen.</p>
+<p>Fehlender Text: Fehlt Text (durch zu enge Bindung oder weil der Autor eine offensichtliche Leerstelle
+gelassen hat), wurde die Stelle mit &lt;gap/&gt; markiert werden.</p>
+<p>Streichungen wurden grundsätzlich in &lt;del&gt; eingeschlossen. Ist das Gestrichene lesbar, wurde
+es
+wiedergegeben, wenn nicht, blieb das &lt;del&gt; leer.</p>
+<p>Einschübe des Autors werden in &lt;add&gt; eingeschlossen.</p>
+<p>Endverschleifungen und Abkürzungen werden aufgelöst und in &lt;expan&gt; eingeschlossen. Sie werden
+in hellgrauer Schriftfarbe wiedergegeben. Immer wiederkehrende Endverschleifungen und Abkürzungen
+von kurzen und sehr gebräuchlichen Wörtern wurden im Text jedoch stillschweigend aufgelöst.</p>
+<p>Kustoden wurden wiedergegeben und mit &lt;fw&gt; ausgezeichnet.</p>
+<p>Mehrspaltigkeit: Besteht eine Seite vollständig aus mehreren Spalten (z. B. bei einem Register) ist
+vor den Beginn einer jeden Spalte &lt;cb/&gt; (analog zu den &lt;pb/&gt; vor jeder Seite) zu setzen.
+Verhält es sich jedoch so, dass auf einer Seite ein- und mehrspaltig geschrieben wurde, muss man
+noch markieren (für eine saubere Darstellung), wo die Mehrspaltigkeit beginnt und aufhört: (analog
+zu den &lt;pb/&gt; vor jeder Seite) zu setzen. Verhält es sich jedoch so, dass auf einer Seite ein-
+und mehrspaltig geschrieben wurde, muss man noch markieren (für eine saubere Darstellung), wo die
+Mehrspaltigkeit beginnt und aufhört:</p>
+<p>&lt;milestone unit=&quot;column&quot; type=&quot;start&quot;/&gt; &lt;cb/&gt;
+&lt;list&gt; &lt;item&gt;Registereintrag&lt;/item&gt;&lt;item&gt;Regsitereintrag&lt;/item&gt;
+&lt;item&gt;Registereintrag&lt;/item&gt;&lt;item&gt;Registereintrag&lt;/item&gt;
+&lt;cb/&gt;&lt;item&gt;Registereintrag&lt;/item&gt;&lt;item&gt;Registereintrag&lt;/item&gt;
+&lt;item&gt;Registereintrag&lt;/item&gt; &lt;/list&gt;&lt;/cb&gt; &lt;milestone
+unit=&quot;column&quot;ype=&quot;end&quot;/&gt;</p>
+<p>Horizontale Linien werden durch &lt;figure place=&quot;inline&quot; type=&quot;line&quot;/&gt;
+angegeben.</p>
