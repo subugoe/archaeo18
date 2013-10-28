@@ -1,6 +1,6 @@
 ##Wie suche ich in den Handschriften?
 
-<iframe width="480" height="270" src="//www.youtube-nocookie.com/embed/iyHBtjJ9l7M?rel=0" frameborder="0&start=122&end=303" allowfullscreen="" /></iframe>
+<iframe width="480" height="270" src="//www.youtube-nocookie.com/embed/iyHBtjJ9l7M?rel=0" frameborder="0&start=82&end=183" allowfullscreen="" /></iframe>
 
 ###Die einfache Suche
 In das Eingabefeld können ein oder mehrere Begriffe eingegeben werden. Mit der Enter-Taste oder
