@@ -2,6 +2,7 @@
 
 <iframe width="480" height="270" src="//www.youtube-nocookie.com/embed/iyHBtjJ9l7M?rel=0&start=248&end=290" frameborder="0" allowfullscreen="" /></iframe>
 
+
 In der *«Transkription seitenweise»* und der *«Transkription-Fließtext»*
 sind Orte, Literatur, Werke und Personen markiert und – soweit möglich –
 mit Links zu externen Datenbanken versehen worden. Ohne besondere
