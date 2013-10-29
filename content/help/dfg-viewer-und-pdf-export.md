@@ -1,4 +1,4 @@
-###DFG-viewer und PDF Export
+###DFG-Viewer und PDF Export
 
 <iframe width="480" height="270" src="//www.youtube-nocookie.com/embed/iyHBtjJ9l7M?rel=0&start=444&end=471" frameborder="0" allowfullscreen="" /></iframe>
 

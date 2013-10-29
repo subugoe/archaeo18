@@ -1,4 +1,4 @@
-###Wie kann ich mir die Arbeitsoberfläche individuell einrichten? Die manuelle Ausrichtung
+###Wie kann ich mir die Arbeitsoberfläche individuell einrichten? Die manuelle Ausrichtung:
 
 <iframe width="480" height="270" src="//www.youtube-nocookie.com/embed/iyHBtjJ9l7M?rel=0&start=507&end=525" frameborder="0" allowfullscreen="" /></iframe>
 
