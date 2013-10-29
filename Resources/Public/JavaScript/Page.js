@@ -191,6 +191,15 @@ var loadPage = function() {
 }
 loadPage();
 
+var addGeoTemCo = function() {
+	if (typeof(GeoTemConfig) === 'undefined') {
+		var css, js;
+		css = '<link rel="stylesheet" href="ropen/Resources/Public/JavaScript/Libraries/GeoTemCo/css/geotemco.css" type="text/css" />';
+		js = '<script src="ropen/Resources/Public/JavaScript/Libraries/GeoTemCo/geotemco-min.js"></script>';
+		$('head').append(css + js);
+	}
+}
+
 $('#linkstart').click(function() {
 	showDiv('#start_page', '#linkstart');
 	$('html,body').animate({scrollTop: 0}, 0);
@@ -202,6 +211,7 @@ $('#linkedition').click(function() {
 	showDiv('#edition_page', '#linkedition');
 	$('html,body').animate({scrollTop: 0}, 0);
 	location.hash = "?page=#edition_page&link=#linkedition";
+	addGeoTemCo();
 	document.title = 'Archaeo 18: Edition';
 	loadEdition();
 });
@@ -210,6 +220,7 @@ $('#linkindices').click(function() {
 	showDiv('#indices_page', '#linkindices');
 	$('html,body').animate({scrollTop: 0}, 0);
 	location.hash = "?page=#indices_page&link=#linkindices";
+	addGeoTemCo();
 	document.title = 'Archaeo 18: Indices';
 	loadIndices();
 });

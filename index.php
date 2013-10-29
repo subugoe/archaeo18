@@ -82,7 +82,6 @@
 		</div>
 	</div>
 
-
 	<!-- PEOPLE -->
 
 	<div id="people_page">
