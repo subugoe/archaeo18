@@ -13,4 +13,8 @@
         <from>^(.*)/testdata/(.*)\?(.*)$</from>
         <to>$1/testdata/$2\$$3</to>
     </rule>
+    <rule match-type="wildcard">
+        <from>^/beta**$</from>
+        <to type="redirect">http://134.76.21.92:8080/archaeo18/</to>
+    </rule>
 </urlrewrite>
