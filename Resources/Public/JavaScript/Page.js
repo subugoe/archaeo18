@@ -183,6 +183,7 @@ var loadPage = function() {
 						}
 		} else {
 			showDiv('#start_page', '#linkstart');
+			loadContent('start');
 		}
 }
 loadPage();
