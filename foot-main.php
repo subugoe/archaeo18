@@ -37,10 +37,6 @@
 	</div>
 </footer>
 
-<!-- include geotemco -->
-<link rel="stylesheet" href="ropen/Resources/Public/JavaScript/Libraries/GeoTemCo/css/geotemco.css" type="text/css" />
-<script src="ropen/Resources/Public/JavaScript/Libraries/GeoTemCo/geotemco-min.js"></script>
-
 <!-- include jQuery -->
 <link rel="stylesheet" href="ropen/Resources/Public/JavaScript/Libraries/jquery-ui-1.10.0.custom/css/ui-lightness/jquery-ui-1.10.0.custom.css">
 <script src="ropen/Resources/Public/JavaScript/Libraries/jquery/jquery.js"></script>

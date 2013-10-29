@@ -82,7 +82,6 @@
 		</div>
 	</div>
 
-
 	<!-- PEOPLE -->
 
 	<div id="people_page">
@@ -107,8 +106,6 @@
 							<li><a href="#" id="help-suchen">Suchen</a></li>
 							<li><a href="#" id="help-arbeiten-mit-den-handschriften">Arbeiten mit den Mitschriften</a></li>
 							<li><a href="#" id="help-informationen-zu-personen-orten-etc">Informationen zu Personen Orten etc.</a></li>
-							<li><a href="#" id="help-aufrufen-externer-quellen">Aufrufen Externer Quellen</a></li>
-							<li><a href="#" id="help-weitere-ansichten">Weitere Ansichten</a></li>
 							<li><a href="#" id="help-verknuepfung-der-mappen">Verknüpfung der Mappen</a></li>
 							<li><a href="#" id="help-dfg-viewer-und-pdf-export">DFG Viewer und PDF Export</a></li>
 							<li><a href="#" id="help-automatische-ausrichtung">Automatische Ausrichtung</a></li>
