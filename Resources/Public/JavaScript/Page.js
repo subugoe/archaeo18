@@ -94,10 +94,10 @@ var loadHelp = function(div) {
 			var pageUrl = 'content/' + idToMarkdown(scriptId) + '.md';
 
 			$.ajax({
-			  url: pageUrl
-			}).done(function(html) {
-					mainContentContainer.html(markdown.toHTML(html), 'md_tree');
-			  });
+					   url: pageUrl
+				   }).done(function(html) {
+							   mainContentContainer.html(markdown.toHTML(html), 'md_tree');
+						   });
 			return false;
 		}
 	});
@@ -105,6 +105,26 @@ var loadHelp = function(div) {
 	$(subNavigationContainer + ' li:first').click();
 
 };
+
+var loadContent = function(page) {
+console.log(page);
+	var pageUrl = 'content/' + page + '/index.md';
+
+	var content = this;
+
+	content.container = function() {
+		return '#' + page + '_page';
+	}
+
+	$.ajax({
+		url: pageUrl
+		})
+			.done(function(html) {
+					  var container = $(content.container() + ' .wrap');
+					  container.html(markdown.toHTML(html));
+				  });
+}
+
 
 var loadIndices = function() {
 	if (!Indices.initialized) {
@@ -133,6 +153,10 @@ var loadPage = function() {
 	} else
 		if (window.location.href.indexOf('?page=') != -1) {
 			var data = window.location.href.split('?page=')[1];
+
+			// get path to be loaded from the "CMS"
+			var pagePath = data.split('_page')[0].replace('#', '');
+
 			var page = data, link;
 			if (data.indexOf('&link=') != -1) {
 				var data2 = data.split('&link=');
@@ -140,6 +164,8 @@ var loadPage = function() {
 				link = data2[1];
 			}
 			showDiv(page, link);
+			loadContent(pagePath);
+
 			if (page.indexOf('edition') != -1) {
 				loadEdition();
 			}
@@ -151,11 +177,13 @@ var loadPage = function() {
 					if (page.indexOf('manuscripts') != -1) {
 						loadScripts();
 					} else
-						if (page.indexOf('help') != -1) {
-							loadHelp('#help_page');
+						if (page.indexOf('start') !== -1) {
+							showDiv('#start_page', '#linkstart');
+							loadContent('start');
 						}
 		} else {
 			showDiv('#start_page', '#linkstart');
+			loadContent('start');
 		}
 }
 loadPage();

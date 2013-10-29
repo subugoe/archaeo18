@@ -11,13 +11,6 @@ var Scripts = new function() {
 	this.initialize = function() {
 		$('.scriptsContainer').hide();
 
-		var firstActive = function() {
-			$('.scriptsContainer:first').show();
-			$(".scriptList a:first").addClass('selected');
-		}
-
-		firstActive();
-
 		this.initialized = true;
 		// listener for clicks on item
 		$(".selectHandschriften li").click(function() {
@@ -32,10 +25,18 @@ var Scripts = new function() {
 				$("a", this).addClass('selected');
 				$('.scriptsContainer').hide();
 
-				$(".scriptsWrapper").append($('.' + scriptId).show());
+				var pageUrl = 'content/manuscripts/' + scriptId + '.html';
+
+				$.ajax({
+						url: pageUrl
+				}).done(function(html) {
+					$(".scriptsWrapper").html(html);
+				});
 				return false;
 			}
 		});
+
+		$('.selectHandschriften li:first').click();
 
 	};
 };

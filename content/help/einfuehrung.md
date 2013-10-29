@@ -12,7 +12,7 @@ Darstellungsformen angeboten:
 + als *«Faksimile-Thumbnailansicht»*,
 + als *«TEI-Ansicht»*,
 + als *«Tagcloud-Ansicht»* und
-+ als Kartenansicht.
++ als *«Kartenansicht»*
 
 Ein kontextuelles Menü ermöglicht Ihnen, im Text Markierungen unterschiedlicher Farbe für Personen,
 Orte, Literatur und Werke einzeln oder für ganze Kategorien einzublenden. Stellenkommentare und Auszeichnungen

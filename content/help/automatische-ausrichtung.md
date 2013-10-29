@@ -1,5 +1,7 @@
 ### Wie kann ich die Arbeitsoberfläche optimal ausnutzen? Der Vollbildmodus und die automatische Ausrichtung:
 
+<iframe width="480" height="270" src="//www.youtube-nocookie.com/embed/iyHBtjJ9l7M?rel=0&start=474&end=505" frameborder="0" allowfullscreen="" /></iframe>
+
 Mit der Aktivierung des Buttons „automatische Ausrichtung“ in der oberen
 rechten Ecke der Arbeitsoberfläche können Sie alle Mappen nebeneinander
 anordnen lassen. Einmal aktiviert, werden alle neuen Mappen automatisch
