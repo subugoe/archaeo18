@@ -111,7 +111,7 @@
 							<li><a href="#" id="help-weitere-ansichten">Weitere Ansichten</a></li>
 							<li><a href="#" id="help-verknuepfung-der-mappen">Verknüpfung der Mappen</a></li>
 							<li><a href="#" id="help-dfg-viewer-und-pdf-export">DFG Viewer und PDF Export</a></li>
-							<li><a href="#" id="help-automatische-ausrichtung">Automatiche Ausrichtung</a></li>
+							<li><a href="#" id="help-automatische-ausrichtung">Automatische Ausrichtung</a></li>
 							<li><a href="#" id="help-manuelle-ausrichtung">Manuelle Ausrichtung</a></li>
 							<li><a href="#" id="help-lesezeichen-speichern">Lesezeichen speichern</a></li>
 						</ul>
