@@ -1,6 +1,6 @@
 ### Was kann die Edition? Die wesentlichen Features:
 
-Das Videotutorial liefert einen Überblick über die wesentlichen Features der Edition. Alternativ können Sie in der Nvigation links gezielt einzelne Kapitel auswählen. Dort finden sie neben der Textanleitung ein kurzes Video zu diesem Kapitel. 
+Das Videotutorial liefert einen Überblick über die wesentlichen Features der Edition. Alternativ können Sie in der Navigation links gezielt einzelne Kapitel auswählen. Dort finden sie neben der Textanleitung ein kurzes Video zu diesem Kapitel. 
 <iframe width="480" height="270" src="//www.youtube-nocookie.com/embed/iyHBtjJ9l7M?rel=0" frameborder="0" allowfullscreen="" /></iframe>
 
 
