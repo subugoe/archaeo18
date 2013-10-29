@@ -129,13 +129,16 @@
   <property name="data.tei-enriched.dir" value="${data.dir}tei-enriched/"/>
   <property name="data.mets.dir" value="${data.dir}mets/"/>
   <property name="empty.xml" value="${data.dir}empty.xml"/>
+  <property name="data.manuscripts.directory" value="./content/manuscripts/"/>
 
   <!-- Stylesheets -->
   <property name="xslt.enrich" value="./ropen-backend/src/main/xslt/transformations/import/import.xsl"/>
   <property name="xslt.statistics" value="./ropen-backend/src/main/xslt/transformations/statistics.xsl"/>
+  <property name="xslt.description" value="./ropen-backend/src/main/xslt/transformations/description.xsl"/>
   <property name="xslt.indexes" value="./ropen-backend/src/main/xslt/transformations/import/indexes.xsl"/>
   <property name="xslt.overview" value="./ropen-backend/src/main/xslt/transformations/overview.xsl"/>
   <property name="xslt.list" value="./ropen-backend/src/main/xslt/transformations/list-docs.xsl"/>
+  <property name="xslt.split" value="./ropen-backend/src/main/xslt/transformations/split-pages.xsl"/>
 
   <!-- A helper variable that contains the working directory -->
   <property name="cwd" location="."/>
@@ -212,11 +215,8 @@
   # Downloads image data 
   #######################################################  
   -->
-  
-  <target name="images.download" depends="data.generate.mets">
-    
-    
-  </target>
+
+  <target name="images.download" depends="data.generate.mets"> </target>
 
 
   <!-- 
@@ -497,11 +497,10 @@
     <delete dir="${data.tei-enriched.dir}"/>
     <delete dir="${data.mets.dir}"/>
   </target>
-  
+
   <target name="data.statistics" depends="salvador.saxon.install, init">
-    <property name="data.enrich.output" value="${target.dir}/statistics-report.xhtml"/>
-    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.statistics}" destfile="${data.enrich.output}"
-      params="collection=${basedir}/${data.tei.dir}"/>
+    <property name="data.statistics.output" value="${target.dir}/statistics-report.xhtml"/>
+    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.statistics}" destfile="${data.statistics.output}" params="collection=${basedir}/${data.tei.dir}"/>
   </target>
 
   <target name="data.enrich" depends="data.enrich.check, salvador.saxon.install, init" unless="data.entiched.fileset.empty">
@@ -509,18 +508,28 @@
     <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.enrich}" destfile="${data.enrich.output}"
       params="collection=${basedir}/${data.tei.dir} mets-collection=${basedir}/${data.mets.dir} tei-enriched-collection=${basedir}/${data.tei-enriched.dir}"/>
   </target>
-  
+
   <!-- Alias for METS Files -->
   <target name="data.generate.mets" depends="data.enrich"/>
-  
+
+  <!-- Page splitting -->
+  <target name="data.tei.split" depends="data.enrich">
+    <!-- TODO: Fix this -->
+    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.statistics}" destfile="${data.statistics.output}" params="collection=${basedir}/${data.tei.dir}"/>
+  </target>
+
+  <target name="data.generate.descriptions" depends="salvador.saxon.install, init">
+    <property name="data.descriptions.output" value="${target.dir}/descriptions-report.xhtml"/>
+    <property name="data.descriptions.collection" value="./content/manuscripts/"/>
+    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.description}" destfile="${data.descriptions.output}"
+      params="input-collection=${basedir}/${data.tei.dir} output-collection=${data.descriptions.collection}"/>
+  </target>
+
   <!-- A shortcut to disable the generation of enriched TEI files all the time -->
   <target name="data.enrich.check" depends="data.dirs">
     <fileset dir="${basedir}/${data.tei-enriched.dir}" id="data.enriched.fileset"/>
     <pathconvert refid="data.enriched.fileset" property="data.entiched.fileset.empty" setonempty="false"/>
   </target>
-
-  <!-- Target for all data -->
-  <target name="data.generate" depends="data.generate.kml, data.generate.cloud, data.generate.index"/>
 
   <target name="data.generate.kml" depends="salvador.saxon.install, data.enrich">
     <salvador.saxon.xslt in="" xslt="" dest="exist.kml.placeName.local"/>
@@ -547,6 +556,10 @@
     <salvador.saxon.xslt in="" xslt="" dest="${exist.entities.bibl.local}"/>
     -->
   </target>
-  
+
+  <!-- Target for all data -->
+  <!-- Enable data.generate.kml, -->
+  <target name="data.generate" depends="data.enrich, data.statistics, data.generate.cloud, data.generate.index"/>
+
 
 </project>
