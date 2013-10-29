@@ -180,7 +180,10 @@ var loadPage = function() {
 						if (page.indexOf('start') !== -1) {
 							showDiv('#start_page', '#linkstart');
 							loadContent('start');
-						}
+						} else
+							if (page.indexOf('help') !== -1) {
+								loadHelp('#help_page');
+							}
 		} else {
 			showDiv('#start_page', '#linkstart');
 			loadContent('start');
