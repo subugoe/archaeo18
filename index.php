@@ -162,7 +162,7 @@
 						</ul>
 					</div>
 				<div class="maincontent">
-				<div class="termtopics"></div>
+				<div class="termstopics"></div>
 			</div>
 		</div>
 	</div>
