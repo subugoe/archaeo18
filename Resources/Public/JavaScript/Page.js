@@ -33,15 +33,6 @@ setHeaderSize();
 
 /* HEADER (end) */
 
-
-/* SET FOOTER DIV HEIGHT */
-
-$('footer .wrap div:first-child').height(215);
-$('footer .wrap div:nth-child(2)').height(126);
-$('footer .wrap div:nth-child(3)').height(106);
-
-/* SET FOOTER DIV HEIGHT (end) */
-
 /* MISC */
 
 $('.selectHandschriften').change(function() {

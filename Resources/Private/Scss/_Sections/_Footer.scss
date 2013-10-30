@@ -21,6 +21,17 @@ footer {
 			float: left;
 			display: inline;
 		}
+		div {
+			&:first-child {
+				height: 215px;
+			}
+			&:nth-child(2) {
+				height: 126px;
+			}
+			&:nth-child(3) {
+				height: 106px;
+			}
+		}
 		.middle {
 			width: 430px;
 			float: left;
