@@ -12,8 +12,8 @@ GNU Affero General Public License (AGPL)
 
 Der Quellcode ist auf GitHub verfügbar.
 
-**[ROPEN Backend][]**
-**[ROPEN Frontend][]**
++ **[ROPEN Backend][]**
++ **[ROPEN Frontend][]**
 
 [ROPEN Backend]: https://github.com/subugoe/ROPEN
     "Backend"
