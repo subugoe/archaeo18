@@ -18,6 +18,6 @@ Der Quellcode ist auf GitHub verfügbar.
 [ROPEN Backend]: https://github.com/subugoe/ROPEN
     "Backend"
     
-[ROPEN Frontend]: 
+[ROPEN Frontend]: https://github.com/subugoe/ropen-backend
     "Frontend"
 
