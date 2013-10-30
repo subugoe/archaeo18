@@ -20,6 +20,8 @@ var setHeaderSize = function() {
 	var headerButton = function() {
 		if (headerState === 'small') {
 			$('.header-button').removeClass('icon-chevron-down').addClass('icon-chevron-up');
+		} else {
+			$('.header-button').removeClass('icon-chevron-up').addClass('icon-chevron-down');
 		}
 	}
 
