@@ -21,7 +21,10 @@
 	<!-- INDICES -->
 
 	<div id="indices_page" class="page">
-	 <p> Hier erhalten Sie eine Tabellenansicht der ausgezeichneten Personen, Orte, Werke und Literatur. Sie können die Tabelle sortieren und nach bestimmten Begriffen suchen. Klicken Sie auf eine Seitenzahl, gelangen Sie an die entsprechende Stelle in der Edition.</p>
+		<p> Hier erhalten Sie eine Tabellenansicht der ausgezeichneten Personen, Orte, Werke und Literatur. Sie können
+			die Tabelle sortieren und nach bestimmten Begriffen suchen. Klicken Sie auf eine Seitenzahl, gelangen Sie an
+			die entsprechende Stelle in der Edition.</p>
+
 		<div class="content clearfix">
 			<div id="indicesSelection" class="wrap">
 			</div>
@@ -105,8 +108,10 @@
 							<li><a href="#" id="help-vorlesungsmitschrift-oeffnen">Vorlesungsmitschrift öffnen</a></li>
 							<li><a href="#" id="help-arbeiten-mit-mehreren-tabs">Arbeiten mit mehreren Tabs</a></li>
 							<li><a href="#" id="help-suchen">Suchen</a></li>
-							<li><a href="#" id="help-arbeiten-mit-den-handschriften">Arbeiten mit den Mitschriften</a></li>
-							<li><a href="#" id="help-informationen-zu-personen-orten-etc">Informationen zu Personen Orten etc.</a></li>
+							<li><a href="#" id="help-arbeiten-mit-den-handschriften">Arbeiten mit den Mitschriften</a>
+							</li>
+							<li><a href="#" id="help-informationen-zu-personen-orten-etc">Informationen zu Personen
+									Orten etc.</a></li>
 							<li><a href="#" id="help-verknuepfung-der-mappen">Verknüpfung der Mappen</a></li>
 							<li><a href="#" id="help-dfg-viewer-und-pdf-export">DFG Viewer und PDF Export</a></li>
 							<li><a href="#" id="help-automatische-ausrichtung">Automatische Ausrichtung</a></li>
@@ -115,7 +120,7 @@
 						</ul>
 					</div>
 					<div class="maincontent">
-						<div class="helptopics"></div>
+						<div class="topics"></div>
 					</div>
 				</div>
 			</div>
@@ -152,17 +157,19 @@
 
 	<div id="terms_page" class="page">
 		<div class="content clearfix">
-			<div class="wrap"></div>
+			<div class="wrap">
 				<div class="two-columns">
 					<div class="subnav">
 						<ul>
 							<li><a href="#" id="terms-editionsrichtlinien">Editionsrichtlinien</a></li>
-							<li><a href="#" id="terms-konventionen-der-XML-Kodierung-nach-TEI">Konventionen der XML-Kodierung nach TEI</a></li>
+							<li><a href="#" id="terms-konventionen-der-xml-kodierung-nach-tei">Konventionen der XML-Kodierung nach TEI</a></li>
 							<li><a href="#" id="terms-technisches-setup">Technisches Setup</a></li>
 						</ul>
 					</div>
-				<div class="maincontent">
-				<div class="termstopics"></div>
+					<div class="maincontent">
+						<div class="topics"></div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
