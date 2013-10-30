@@ -21,7 +21,7 @@
 	<!-- INDICES -->
 
 	<div id="indices_page" class="page">
-	 <p> Hieer erhalten Sie eine Tabbelansicht der ausgezeichneten Personen, Orte, Werke und Literatur. Sie können die Tabelle sortieren und nach bestimmten Begriffen suchen. Klicken Sie auf eine Seitenzahl, gelangen Sie an die entsprechende Stelle in der Edition.</p>
+	 <p> Hier erhalten Sie eine Tabellenansicht der ausgezeichneten Personen, Orte, Werke und Literatur. Sie können die Tabelle sortieren und nach bestimmten Begriffen suchen. Klicken Sie auf eine Seitenzahl, gelangen Sie an die entsprechende Stelle in der Edition.</p>
 		<div class="content clearfix">
 			<div id="indicesSelection" class="wrap">
 			</div>
