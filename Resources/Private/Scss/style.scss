@@ -50,6 +50,10 @@ a, a:hover, a:visited {
 	}
 }
 
+.page {
+	display: none;
+}
+
 body {
 	background-color: $color-content-bg;
 	background-repeat: repeat-x;

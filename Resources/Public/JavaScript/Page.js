@@ -1,33 +1,37 @@
 /* HEADER */
 
-var headerState = $.cookie('header');
-if ($.cookie('header') == 'header-small') {
-	$('html').toggleClass('header-small');
-	$('.header-button').removeClass('icon-chevron-up').addClass('icon-chevron-down');
-}
 $('.header-button').click(function() {
-	if ($.cookie('header') == 'header-small') {
-		$.cookie('header', '');
-		$('html').toggleClass('header-small', '');
-		$('.header-button').removeClass('icon-chevron-down').addClass('icon-chevron-up');
-	} else {
-		$.cookie('header', 'header-small');
-		$('html').toggleClass('header-small');
+	if (localStorage.getItem('headerState') === 'small') {
+		$('html').removeClass('header-small').addClass('header-large');
 		$('.header-button').removeClass('icon-chevron-up').addClass('icon-chevron-down');
+		localStorage.setItem('headerState', 'large');
+	} else {
+		$('html').removeClass('header-large').addClass('header-small');
+		$('.header-button').removeClass('icon-chevron-down').addClass('icon-chevron-up');
+		localStorage.setItem('headerState', 'small');
 	}
+	return false;
 });
 
+var setHeaderSize = function() {
+
+	var headerState = localStorage.getItem('headerState');
+
+	var headerButton = function() {
+		if (headerState === 'small') {
+			$('.header-button').removeClass('icon-chevron-down').addClass('icon-chevron-up');
+		} else {
+			$('.header-button').removeClass('icon-chevron-up').addClass('icon-chevron-down');
+		}
+	}
+
+	$('html').addClass('header-' + headerState);
+	headerButton();
+}
+
+setHeaderSize();
+
 /* HEADER (end) */
-
-
-
-/* SET FOOTER DIV HEIGHT */
-
-$('footer .wrap div:first-child').height(215);
-$('footer .wrap div:nth-child(2)').height(126);
-$('footer .wrap div:nth-child(3)').height(106);
-
-/* SET FOOTER DIV HEIGHT (end) */
 
 /* MISC */
 
@@ -107,7 +111,6 @@ var loadHelp = function(div) {
 };
 
 var loadContent = function(page) {
-console.log(page);
 	var pageUrl = 'content/' + page + '/index.md';
 
 	var content = this;
@@ -146,6 +149,15 @@ var loadEdition = function() {
 	EditionGui.gridLayout();
 }
 
+var addGeoTemCo = function() {
+	if (typeof(GeoTemConfig) === 'undefined') {
+		var css, js;
+		css = '<link rel="stylesheet" href="ropen/Resources/Public/JavaScript/Libraries/GeoTemCo/css/geotemco.css" type="text/css" />';
+		js = '<script src="ropen/Resources/Public/JavaScript/Libraries/GeoTemCo/geotemco-min.js"></script>';
+		$('head').append(css + js);
+	}
+}
+
 var loadPage = function() {
 	if (window.location.href.indexOf('?params') != -1) {
 		showDiv('#edition_page', '#linkedition');
@@ -164,13 +176,17 @@ var loadPage = function() {
 				link = data2[1];
 			}
 			showDiv(page, link);
-			loadContent(pagePath);
+			if (pagePath !== 'edition' && pagePath !== 'indices' && pagePath !== 'manuscripts') {
+				loadContent(pagePath);
+			}
 
 			if (page.indexOf('edition') != -1) {
+				addGeoTemCo();
 				loadEdition();
 			}
 			else
 				if (page.indexOf('indices') != -1) {
+					addGeoTemCo();
 					loadIndices();
 				}
 				else
@@ -190,15 +206,6 @@ var loadPage = function() {
 		}
 }
 loadPage();
-
-var addGeoTemCo = function() {
-	if (typeof(GeoTemConfig) === 'undefined') {
-		var css, js;
-		css = '<link rel="stylesheet" href="ropen/Resources/Public/JavaScript/Libraries/GeoTemCo/css/geotemco.css" type="text/css" />';
-		js = '<script src="ropen/Resources/Public/JavaScript/Libraries/GeoTemCo/geotemco-min.js"></script>';
-		$('head').append(css + js);
-	}
-}
 
 $('#linkstart').click(function() {
 	showDiv('#start_page', '#linkstart');

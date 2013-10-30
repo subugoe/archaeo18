@@ -223,6 +223,15 @@ footer .wrap .heyneSnakeFighter {
   float: left;
   display: inline;
 }
+footer .wrap div:first-child {
+  height: 215px;
+}
+footer .wrap div:nth-child(2) {
+  height: 126px;
+}
+footer .wrap div:nth-child(3) {
+  height: 106px;
+}
 footer .wrap .middle {
   width: 430px;
   float: left;
@@ -299,6 +308,10 @@ a, a:hover, a:visited {
 }
 #wrapper a:hover {
   text-decoration: underline;
+}
+
+.page {
+  display: none;
 }
 
 body {
