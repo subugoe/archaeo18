@@ -35,17 +35,35 @@ oder n anzeigen, wurden aufgelöst.
 
 Die Buchstaben s, ss, ﬂ, sz und z wurden beibehalten.
 
-Die Getrennt- und Zusammenschreibung folgt der Vorlage, sofern diese eindeutig ist.
+Die Getrennt- und Zusammenschreibung folgt der Vorlage, sofern diese
+eindeutig ist.
 
-Ein doppelter Bindestrich (=) wird als einfacher Bindestrich (-) wiedergegeben.
+Ein doppelter Bindestrich (=) wird als einfacher Bindestrich (-)
+wiedergegeben.
 
-Zahlzeichen werden vorlagengetreu wiedergegeben, es sei denn, dass gewichtige Gründe für eine Auflösung sprechen.
-Hochgestellte Zeichen und Zahlen sowie Brüche wurden nicht ausgezeichnet und sind damit als normaler Text wiedergegeben.
+Zahlzeichen werden vorlagengetreu wiedergegeben, es sei denn, dass
+gewichtige Gründe für eine Auflösung sprechen.
 
-Die Interpunktion wird wie in der Vorlage wiedergegeben; allerdings entfallen mögliche Leerstellen zwischen Satzzeichen und den Wörtern, nach denen erstere stehen. Offensichtlich fehlende Satzzeichen (Punkte, Kommas, Bindestriche etc.), die zum Verständnis notwendig sind, wurden gesetzt und entsprechend gekennzeichnet (<add resp="editor">…</add>).
+Hochgestellte Zeichen und Zahlen sowie Brüche wurden nicht ausgezeichnet
+und sind damit als normaler Text wiedergegeben.
 
-Unterführungszeichen, die das Wort oder den Satz in der darüber stehenden Zeile wiederholen, sind stillschweigend aufgelöst worden.
+Die Interpunktion wird wie in der Vorlage wiedergegeben; allerdings
+entfallen mögliche Leerstellen zwischen Satzzeichen und den Wörtern,
+nach denen erstere stehen. Offensichtlich fehlende Satzzeichen (Punkte,
+Kommas, Bindestriche etc.), die zum Verständnis notwendig sind, wurden
+gesetzt und entsprechend gekennzeichnet (\<add
+resp="editor"\>…\</add\>).
+
+Unterführungszeichen, die das Wort oder den Satz in der darüber
+stehenden Zeile wiederholen, sind stillschweigend aufgelöst worden.
 
 Reine Füllstriche am Ende einer Zeile wurden nicht wiedergegeben.
 
-Geschwungenen Klammern: Werden mehrere Zeilen von einer geschwungenen Klammer ( { oder } ) eingefaßt, wird dieser Text ohne Auszeichnung wiedergegeben: Steht der Text, der von der Klammer eingefaßt ist, links von der Klammer, kommt ganz an Ende dieses Textes eine geschwungene Klammer ( } ), auf die dann der Text außerhalb der Klammer folgt. Steht der Text, der von der Klammer eingefaßt wird, rechts von der Klammer, so schreibt man zunächst den Text außerhalb der Klammer hin, dann folgt die Klammer ( { ) und sodann der Inhalt derselben.
+Geschwungenen Klammern: Werden mehrere Zeilen von einer geschwungenen
+Klammer ( { oder } ) eingefaßt, wird dieser Text ohne Auszeichnung
+wiedergegeben: Steht der Text, der von der Klammer eingefaßt ist, links
+von der Klammer, kommt ganz an Ende dieses Textes eine geschwungene
+Klammer ( } ), auf die dann der Text außerhalb der Klammer folgt. Steht
+der Text, der von der Klammer eingefaßt wird, rechts von der Klammer, so
+schreibt man zunächst den Text außerhalb der Klammer hin, dann folgt die
+Klammer ( { ) und sodann der Inhalt derselben.
