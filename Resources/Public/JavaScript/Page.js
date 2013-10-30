@@ -107,7 +107,6 @@ var loadHelp = function(div) {
 };
 
 var loadContent = function(page) {
-console.log(page);
 	var pageUrl = 'content/' + page + '/index.md';
 
 	var content = this;
@@ -146,6 +145,15 @@ var loadEdition = function() {
 	EditionGui.gridLayout();
 }
 
+var addGeoTemCo = function() {
+	if (typeof(GeoTemConfig) === 'undefined') {
+		var css, js;
+		css = '<link rel="stylesheet" href="ropen/Resources/Public/JavaScript/Libraries/GeoTemCo/css/geotemco.css" type="text/css" />';
+		js = '<script src="ropen/Resources/Public/JavaScript/Libraries/GeoTemCo/geotemco-min.js"></script>';
+		$('head').append(css + js);
+	}
+}
+
 var loadPage = function() {
 	if (window.location.href.indexOf('?params') != -1) {
 		showDiv('#edition_page', '#linkedition');
@@ -164,13 +172,17 @@ var loadPage = function() {
 				link = data2[1];
 			}
 			showDiv(page, link);
-			loadContent(pagePath);
+			if (pagePath !== 'edition' && pagePath !== 'indices' && pagePath !== 'manuscripts') {
+				loadContent(pagePath);
+			}
 
 			if (page.indexOf('edition') != -1) {
+				addGeoTemCo();
 				loadEdition();
 			}
 			else
 				if (page.indexOf('indices') != -1) {
+					addGeoTemCo();
 					loadIndices();
 				}
 				else
@@ -190,15 +202,6 @@ var loadPage = function() {
 		}
 }
 loadPage();
-
-var addGeoTemCo = function() {
-	if (typeof(GeoTemConfig) === 'undefined') {
-		var css, js;
-		css = '<link rel="stylesheet" href="ropen/Resources/Public/JavaScript/Libraries/GeoTemCo/css/geotemco.css" type="text/css" />';
-		js = '<script src="ropen/Resources/Public/JavaScript/Libraries/GeoTemCo/geotemco-min.js"></script>';
-		$('head').append(css + js);
-	}
-}
 
 $('#linkstart').click(function() {
 	showDiv('#start_page', '#linkstart');
