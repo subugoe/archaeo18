@@ -15,9 +15,9 @@ Der Quellcode ist auf GitHub verfügbar.
 **[ROPEN Backend][]**
 **[ROPEN Frontend][]**
 
-[ROPEN Backend]: https://github.com/subugoe/ropen-backend/blob/master/src/main/odd/config/ropen.odd
+[ROPEN Backend]: https://github.com/subugoe/ROPEN
     "Backend"
     
-[ROPEN Frontend]: https://github.com/subugoe/ropen-backend/blob/master/src/main/odd/config/ropen.odd
+[ROPEN Frontend]: 
     "Frontend"
 
