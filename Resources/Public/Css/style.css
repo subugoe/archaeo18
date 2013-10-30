@@ -301,6 +301,10 @@ a, a:hover, a:visited {
   text-decoration: underline;
 }
 
+.page {
+  display: none;
+}
+
 body {
   background-color: #eeeeee;
   background-repeat: repeat-x;

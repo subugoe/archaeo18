@@ -3,7 +3,7 @@
 
 	<!-- START -->
 
-	<div id="start_page">
+	<div id="start_page" class="page">
 		<div class="content clearfix">
 			<div class="wrap"></div>
 		</div>
@@ -12,7 +12,7 @@
 
 	<!-- EDITION -->
 
-	<div id="edition_page">
+	<div id="edition_page" class="page">
 		<div id="editionContainer" class="edition" style="position:relative;overflow:hidden;">
 		</div>
 	</div>
@@ -20,7 +20,7 @@
 
 	<!-- INDICES -->
 
-	<div id="indices_page">
+	<div id="indices_page" class="page">
 		<div class="content clearfix">
 			<div id="indicesSelection" class="wrap">
 			</div>
@@ -40,7 +40,7 @@
 
 	<!-- HANDSCHRIFTEN -->
 
-	<div id="manuscripts_page">
+	<div id="manuscripts_page" class="page">
 
 		<div class="content clearfix">
 			<div class="wrap">
@@ -84,7 +84,7 @@
 
 	<!-- PEOPLE -->
 
-	<div id="people_page">
+	<div id="people_page" class="page">
 		<div class="content clearfix">
 			<div class="wrap"></div>
 		</div>
@@ -92,7 +92,7 @@
 
 	<!-- HILFE -->
 
-	<div id="help_page">
+	<div id="help_page" class="page">
 		<div class="content clearfix">
 			<div class="wrap">
 				<h2>Hilfe</h2>
@@ -122,7 +122,7 @@
 	</div>
 	<!-- IMPRESSUM -->
 
-	<div id="imprint_page">
+	<div id="imprint_page" class="page">
 		<div class="content clearfix">
 			<div class="wrap"></div>
 		</div>
@@ -131,7 +131,7 @@
 
 	<!-- DATENBANKEN UND DIGITALEN REPOSITORIEN -->
 
-	<div id="databases_page">
+	<div id="databases_page" class="page">
 		<div class="content clearfix">
 			<div class="wrap"></div>
 		</div>
@@ -140,7 +140,7 @@
 
 	<!-- DANKSAGUNG -->
 
-	<div id="acknowledgment_page">
+	<div id="acknowledgment_page" class="page">
 		<div class="content clearfix">
 			<div class="wrap"></div>
 		</div>
@@ -149,7 +149,7 @@
 
 	<!-- EDITIONSRICHTLINIEN -->
 
-	<div id="terms_page">
+	<div id="terms_page" class="page">
 		<div class="content clearfix">
 			<div class="wrap"></div>
 		</div>
