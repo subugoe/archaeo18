@@ -153,6 +153,17 @@
 	<div id="terms_page" class="page">
 		<div class="content clearfix">
 			<div class="wrap"></div>
+				<div class="two-columns">
+					<div class="subnav">
+						<ul>
+							<li><a href="#" id="terms-editionsrichtlinien">Editionsrichtlinien</a></li>
+							<li><a href="#" id="terms-konventionen-der-XML-Kodierung-nach-TEI">Konventionen der XML-Kodierung nach TEI</a></li>
+							<li><a href="#" id="terms-technisches-setup">Technisches Setup</a></li>
+						</ul>
+					</div>
+				<div class="maincontent">
+				<div class="termtopics"></div>
+			</div>
 		</div>
 	</div>
 
