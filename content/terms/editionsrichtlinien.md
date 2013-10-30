@@ -4,18 +4,34 @@
 Die festgelegten Editionsgrundsätze gelten für alle Vorlesungsmitschriften und Ab- bzw. Nachschriften. 
 Wenn für einzelne Handschriften Ausnahmen gemacht wurden, sind diese gesondert angegeben.Die Edition ist so gestaltet, dass sie von möglichst vielen Wissenschaftszweigen genutzt werden kann. Es wurde keine reine philologische Edition angestrebt.
 
-Die Erfassung der Texte erfolgte grundsätzlich getreu ihrer Vorlagen im Unicode-Format (Kodierung in UTF-8) 
-des zum Zeitpunkt der Erfassung gültigen Unicode-Standards.
-Zudem sind die Zeichen, je nach Möglichkeit, gemäß ihrer Semantik abgebildet. In der Regel wurde auf modernisierende Veränderungen des lexikalischen Materials verzichtet, so z. B. bei der Schreibung von Eigennamen. Dementsprechend sind Fehler und Streichungen des Schreibers ¸bernommen und keine Korrektur der Syntax vorgenommen worden. Unleserliche oder nicht entzifferbare Wörter wurden entsprechend gekennzeichnet (<unclear>).
+Die Erfassung der Texte erfolgte grundsätzlich getreu ihrer Vorlagen im
+Unicode-Format (Kodierung in UTF-8) des zum Zeitpunkt der Erfassung
+gültigen Unicode-Standards. Zudem sind die Zeichen, je nach Möglichkeit,
+gemäß ihrer Semantik abgebildet. In der Regel wurde auf modernisierende
+Veränderungen des lexikalischen Materials verzichtet, so z. B. bei der
+Schreibung von Eigennamen. Dementsprechend sind Fehler und Streichungen
+des Schreibers ¸bernommen und keine Korrektur der Syntax vorgenommen
+worden. Unleserliche oder nicht entzifferbare Wörter wurden entsprechend
+gekennzeichnet (\<unclear\>).
 
-Groß- und Kleinschreibung folgen der Vorlage. Ausnahmen: Satzanfänge (auch bei Aufzählungen und unvollständigen Sätzen) und Eigennamen werden immer großgeschrieben. Abgesehen davon werden Eigennamen jedoch entsprechend der Vorlage wiedergegeben.
+Groß- und Kleinschreibung folgen der Vorlage. Ausnahmen: Satzanfänge
+(auch bei Aufzählungen und unvollständigen Sätzen) und Eigennamen werden
+immer großgeschrieben. Abgesehen davon werden Eigennamen jedoch
+entsprechend der Vorlage wiedergegeben.
 
-Alle Akzentzeichen werden der Vorlage entsprechend wiedergegeben. Ausnahmen: übergesetzte Vokale wurden als Punkte aufgelöst; Zeichen, die reine Lesehilfe sind, sind entfallen; es wurde nicht festgehalten, wenn beispielsweise Punkte über i und j fehlen.
-Gebräuchliche Ligaturen (æ, œ) oder ähnliches blieben erhalten, ungebräuchliche Ligaturen wurden ohne Auszeichnung aufgelöst.
+Alle Akzentzeichen werden der Vorlage entsprechend wiedergegeben.
+Ausnahmen: übergesetzte Vokale wurden als Punkte aufgelöst; Zeichen, die
+reine Lesehilfe sind, sind entfallen; es wurde nicht festgehalten, wenn
+beispielsweise Punkte über i und j fehlen.
 
-Nasalstriche über Buchstaben, die die darauf folgende Auslassung von „m“ oder „n“ anzeigen, wurden aufgelöst.
+Gebräuchliche Ligaturen (æ, œ) oder ähnliches blieben erhalten,
+ungebräuchliche Ligaturen wurden ohne Auszeichnung aufgelöst.
 
-Nasalstriche über Buchstaben, die die darauf folgende Auslassung von m oder n anzeigen, wurden aufgelöst.
+Nasalstriche über Buchstaben, die die darauf folgende Auslassung von „m“
+oder „n“ anzeigen, wurden aufgelöst.
+
+Nasalstriche über Buchstaben, die die darauf folgende Auslassung von m
+oder n anzeigen, wurden aufgelöst.
 
 Die Buchstaben s, ss, ﬂ, sz und z wurden beibehalten.
 
