@@ -69,5 +69,33 @@ Gestrichene lesbar, wurde es wiedergegeben, wenn nicht, blieb das
 
 Einschübe des Autors werden in \<add\> eingeschlossen.
 
+Endverschleifungen und Abkürzungen werden aufgelöst und in \<expan\>
+eingeschlossen. Sie werden in hellgrauer Schriftfarbe wiedergegeben.
+Immer wiederkehrende Endverschleifungen und Abkürzungen von kurzen und
+sehr gebräuchlichen Wörtern wurden im Text jedoch stillschweigend
+aufgelöst.
+
+Kustoden wurden wiedergegeben und mit \<fw\> ausgezeichnet.
+
+Mehrspaltigkeit: Besteht eine Seite vollständig aus mehreren Spalten (z.
+B. bei einem Register) ist vor den Beginn einer jeden Spalte \<cb/\>
+(analog zu den \<pb/\> vor jeder Seite) zu setzen. Verhält es sich
+jedoch so, dass auf einer Seite ein- und mehrspaltig geschrieben wurde,
+muss man noch markieren (für eine saubere Darstellung), wo die
+Mehrspaltigkeit beginnt und aufhört: (analog zu den \<pb/\> vor jeder
+Seite) zu setzen. Verhält es sich jedoch so, dass auf einer Seite ein-
+und mehrspaltig geschrieben wurde, muss man noch markieren (für eine
+saubere Darstellung), wo die Mehrspaltigkeit beginnt und aufhört:
+
+\<milestone unit="column" type="start"/\> \<cb/\> \<list\>
+\<item\>Registereintrag\</item\>\<item\>Regsitereintrag\</item\>
+\<item\>Registereintrag\</item\>\<item\>Registereintrag\</item\>
+\<cb/\>\<item\>Registereintrag\</item\>\<item\>Registereintrag\</item\>
+\<item\>Registereintrag\</item\> \</list\>\</cb\> \<milestone
+unit="column"ype="end"/\>
+
+Horizontale Linien werden durch \<figure place="inline" type="line"/\>
+angegeben.
+
   [Github]: https://github.com/subugoe/ropen-backend/blob/master/src/main/odd/config/ropen.odd
     "Github"
