@@ -149,8 +149,8 @@ var Indices = new function() {
 												  "sSearch": "Suche:",
 												  "oPaginate": {
 													  "sNext": "",
-													  "sFirst": "",
-													  "sLast": "",
+													  "sFirst": "",
+													  "sLast": "",
 													  "sPrevious": ""
 												  }
 											  }
