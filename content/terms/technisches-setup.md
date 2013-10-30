@@ -12,6 +12,6 @@ GNU Affero General Public License (AGPL)
 
 Der Quellcode ist auf GitHub verfügbar.
 
-+Backend
-+Frontend
-+Beispiel für eine Projektseite: ARCHAEO18
+**[Backend][]**
+**[Frontend][]**
+
