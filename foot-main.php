@@ -105,9 +105,9 @@
 <!-- Easter egg -->
 <script type="text/javascript">
 <!--
-$('body').keypress(function(e){
-    alert(e.which);
-    if(e.which == 27){
+var KEYCODE_ESC = 27;
+$('body').keyup(function(e){
+    if(e.keyCode == KEYCODE_ESC){
         $('.easterEgg').show();
     }
 });
