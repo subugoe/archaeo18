@@ -102,5 +102,15 @@
 <script src="Resources/Public/JavaScript/Libraries/markdown/lib/markdown.js"></script>
 <script src="Resources/Public/JavaScript/Page.js"></script>
 
+<!-- Easter egg -->
+<script type="text/javascript">
+<!--
+$('body').keypress(function(e){
+    alert(e.which);
+    if(e.which == 27){
+        $('.easterEgg').show();
+    }
+});
+-->
 </body>
 </html>
