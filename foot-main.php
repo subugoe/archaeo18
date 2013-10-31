@@ -112,5 +112,6 @@ $('body').keypress(function(e){
     }
 });
 -->
+</script>
 </body>
 </html>
