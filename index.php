@@ -114,7 +114,7 @@
 						</ul>
 					</div>
 					<div class="maincontent">
-						<div class="helptopics"></div>
+						<div class="topics"></div>
 					</div>
 				</div>
 			</div>
@@ -151,7 +151,20 @@
 
 	<div id="terms_page" class="page">
 		<div class="content clearfix">
-			<div class="wrap"></div>
+			<div class="wrap">
+				<div class="two-columns">
+					<div class="subnav">
+						<ul>
+							<li><a href="#" id="terms-editionsrichtlinien">Editionsrichtlinien</a></li>
+							<li><a href="#" id="terms-konventionen-der-xml-kodierung-nach-tei">Konventionen der XML-Kodierung nach TEI</a></li>
+							<li><a href="#" id="terms-technisches-setup">Technisches Setup</a></li>
+						</ul>
+					</div>
+					<div class="maincontent">
+						<div class="topics"></div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 

@@ -67,12 +67,10 @@ var showDiv = function(div, link) {
 	$(div).css('display', 'block');
 }
 
-var loadHelp = function(div) {
-
-	var mainContentContainer = $(div + ' .maincontent .helptopics');
+var loadTwoColumns = function(div) {
+	var mainContentContainer = $(div + ' .maincontent .topics');
 	var subNavigationContainer = div + ' .subnav';
 
-	$('.helptopic').hide();
 	$(subNavigationContainer + ' a').removeClass('selected');
 
 	// listener for clicks on item
@@ -84,7 +82,6 @@ var loadHelp = function(div) {
 			});
 
 			$('a', this).addClass('selected');
-			$('.helptopic').hide();
 
 			var idToMarkdown = function(id) {
 				var pathParts = id.split('-');
@@ -107,8 +104,7 @@ var loadHelp = function(div) {
 	});
 
 	$(subNavigationContainer + ' li:first').click();
-
-};
+}
 
 var loadContent = function(page) {
 	var pageUrl = 'content/' + page + '/index.md';
@@ -120,12 +116,12 @@ var loadContent = function(page) {
 	}
 
 	$.ajax({
-		url: pageUrl
-		})
-			.done(function(html) {
-					  var container = $(content.container() + ' .wrap');
-					  container.html(markdown.toHTML(html));
-				  });
+			   url: pageUrl
+		   }).done(function(html) {
+				var container = $(content.container() + ' .wrap');
+				container.html(markdown.toHTML(html));
+				$('a[href^="http://"]').attr('target','_blank');
+			});
 }
 
 
@@ -176,7 +172,7 @@ var loadPage = function() {
 				link = data2[1];
 			}
 			showDiv(page, link);
-			if (pagePath !== 'edition' && pagePath !== 'indices' && pagePath !== 'manuscripts') {
+			if (pagePath !== 'edition' && pagePath !== 'indices' && pagePath !== 'manuscripts' && pagePath !== 'terms') {
 				loadContent(pagePath);
 			}
 
@@ -198,8 +194,11 @@ var loadPage = function() {
 							loadContent('start');
 						} else
 							if (page.indexOf('help') !== -1) {
-								loadHelp('#help_page');
-							}
+								loadTwoColumns('#help_page');
+							} else
+								if (page.indexOf('terms') !== -1) {
+									loadTwoColumns('#terms_page');
+								}
 		} else {
 			showDiv('#start_page', '#linkstart');
 			loadContent('start');
@@ -285,7 +284,7 @@ $('#linkhelp').click(function() {
 	$('html,body').animate({scrollTop: 0}, 0);
 	location.hash = "?page=#help_page";
 	document.title = 'Archaeo 18: Hilfe';
-	loadHelp(divToShow);
+	loadTwoColumns(divToShow);
 });
 
 $('#linkterms').click(function() {
@@ -293,6 +292,7 @@ $('#linkterms').click(function() {
 	$('html,body').animate({scrollTop: 0}, 0);
 	location.hash = "?page=#terms_page";
 	document.title = 'Archaeo 18: Editionsrichtlinien';
+	loadTwoColumns('#terms_page');
 });
 
 $('#linkimprint').click(function() {

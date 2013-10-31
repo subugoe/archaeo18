@@ -25,6 +25,7 @@ var Indices = new function() {
 
 		this.selectionContainer = $("#indicesSelection");
 		$('<h2>' + Util.getString('indexSelection') + '</h2>').appendTo(this.selectionContainer);
+		$('<p>' + Util.getString('indexIntro') + '</p>').appendTo(this.selectionContainer);
 		$('<p class="chooseIndex">' + Util.getString('pleaseSelectIndex') + '</p>').appendTo(this.selectionContainer);
 
 		var form = $('<form/>').appendTo(this.selectionContainer);
@@ -149,8 +150,8 @@ var Indices = new function() {
 												  "sSearch": "Suche:",
 												  "oPaginate": {
 													  "sNext": "",
-													  "sFirst": "",
-													  "sLast": "",
+													  "sFirst": "",
+													  "sLast": "",
 													  "sPrevious": ""
 												  }
 											  }

@@ -22,7 +22,7 @@ Projektmitarbeiter
     Mahnke](http://www.sub.uni-goettingen.de/kontakt/personen-a-z/personendetails/person/christian-mahnke/ "Christian Mahnke")
     (SUB, Technische Umsetzung)
 -   [Ingo
-    Pfennigstorf](http://www.sub.uni-goettingen.de/kontakt/personen-a-z/personendetails/person/ingo-pfennigstorf/ "Ingo Pfennigstorf")(SUB,
+    Pfennigstorf](http://www.sub.uni-goettingen.de/kontakt/personen-a-z/personendetails/person/ingo-pfennigstorf/ "Ingo Pfennigstorf") (SUB,
     Technische Umsetzung)
 -   [Rolf
     Röper](http://www.sub.uni-goettingen.de/kontakt/personen-a-z/personendetails/person/rolf-b-roeper/ "Rolf Röper")
@@ -31,7 +31,7 @@ Projektmitarbeiter
     Schaab](http://www.sub.uni-goettingen.de/kontakt/personen-a-z/personendetails/person/rupert-schaab/ "Dr. Rupert Schaab")
     (SUB, Projektleitung)
 -   Sarah Schlüter (SUB, Studentische Hilfskraft)
--   Cäcilia Schröter (SUB, Studentische Hilfskraft)
+-   Cäcilia Schröer (SUB, Studentische Hilfskraft)
 -   Arne Ulrich (SUB, Studentische Hilfskraft)
 -   [Kristine
     Voigt](http://www.sub.uni-goettingen.de/kontakt/personen-a-z/personendetails/person/kristine-voigt/ "Kristine Voigt")
