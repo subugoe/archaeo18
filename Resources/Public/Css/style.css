@@ -588,4 +588,10 @@ h2.head-handwriting {
     text-align: center;
     font-family: "Times New Roman", Times, serif;
     animation: blink 1s steps(5, start) infinite;
+    color: black;
+}
+@keyframes blink {
+    to {
+        visibility: hidden;
+    }
 }
