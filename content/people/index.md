@@ -22,7 +22,7 @@ Projektmitarbeiter
     Mahnke](http://www.sub.uni-goettingen.de/kontakt/personen-a-z/personendetails/person/christian-mahnke/ "Christian Mahnke")
     (SUB, Technische Umsetzung)
 -   [Ingo
-    Pfennigstorf](http://www.sub.uni-goettingen.de/kontakt/personen-a-z/personendetails/person/ingo-pfennigstorf/ "Ingo Pfennigstorf")(SUB,
+    Pfennigstorf](http://www.sub.uni-goettingen.de/kontakt/personen-a-z/personendetails/person/ingo-pfennigstorf/ "Ingo Pfennigstorf") (SUB,
     Technische Umsetzung)
 -   [Rolf
     Röper](http://www.sub.uni-goettingen.de/kontakt/personen-a-z/personendetails/person/rolf-b-roeper/ "Rolf Röper")
