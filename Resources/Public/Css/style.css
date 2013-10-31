@@ -588,7 +588,7 @@ h2.head-handwriting {
     text-align: center;
     font-family: "Times New Roman", Times, serif;
     animation: blink 1s steps(5, start) infinite;
-    animation: marquee 50s linear infinite;
+    /* animation: marquee 50s linear infinite; */
     color: black;
 }
 
@@ -602,7 +602,9 @@ h2.head-handwriting {
     }
 }
 
+/*
 @keyframes marquee {
     0%   { text-indent: 27.5em }
     100% { text-indent: -105em }
 }
+*/
