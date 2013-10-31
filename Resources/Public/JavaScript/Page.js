@@ -116,11 +116,12 @@ var loadContent = function(page) {
 	}
 
 	$.ajax({
-		url: pageUrl
-		}).done(function(html) {
-			var container = $(content.container() + ' .wrap');
-			container.html(markdown.toHTML(html));
-		});
+			   url: pageUrl
+		   }).done(function(html) {
+				var container = $(content.container() + ' .wrap');
+				container.html(markdown.toHTML(html));
+				$('a[href^="http://"]').attr('target','_blank');
+			});
 }
 
 
