@@ -5,7 +5,7 @@ Die [Online-Edition](javascript:void(0)) „Christian Gottlob Heyne –
 Vorlesungen über die Archäologie“ stellt Digitalisate und
 Transkriptionen von Vorlesungsmitschriften zu einer jährlich gehaltenen
 Vorlesung [Christian Gottlob Heynes](#startContentHeyne) zur Verfügung.
-Die [Edition](javascript:void(0)) bietet neben dem Zugriff auf die
+Die [Edition](#?page=#edition_page&link=#linkedition) bietet neben dem Zugriff auf die
 Digitalisate und der Suche in den Volltexten die Möglichkeit, gezielt
 nach [Personen](#?page=#indices_page&link=#linkindices),
 [Orten](#?page=#indices_page&link=#linkindices),
