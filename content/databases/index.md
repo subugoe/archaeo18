@@ -55,7 +55,7 @@ Digitalisierte Literatur
 -   **[Heidelberger historische Bestände
     Digital](http://hd-historische-bestaende-digital.uni-hd.de "Heidelberger historische Bestände Digital")**
     Digitale Bibliothek der [Universitätsbibliothek
-    Heidelberg](http:/%20www.ub.uni-heidelberg.de/ "Universitätsbibliothek Heidelberg")
+    Heidelberg](http://www.ub.uni-heidelberg.de/ "Universitätsbibliothek Heidelberg")
 -   **[Münchner Digitalisierungszentrum
     (MDZ)](http://www.digitale-sammlungen.de/ "Münchner Digitalisierungszentrum (MDZ)")**
     Digitale Bibliothek der [Bayrischen Staatsbibliothek
