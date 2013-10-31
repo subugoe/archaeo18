@@ -582,3 +582,10 @@ h2.head-handwriting {
 .alertMessage {
   color: #900000;
 }
+
+.easterEgg {
+    font-weight: bold;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    animation: blink 1s steps(5, start) infinite;
+}
