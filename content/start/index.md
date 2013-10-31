@@ -42,7 +42,7 @@ Stellung von Heynes Lehrveranstaltung im Gefüge der archäologischen
 Wissensproduktion des 18. Jahrhunderts sichtbar und für weitere
 wissenschaftliche Studien zugänglich zu machen.
 
-Über Christian Gottlob Heyne
+<a name="startContentHeyne"></a>Über Christian Gottlob Heyne
 ----------------------------
 
 Christian Gottlob Heyne wurde am 25. September 1729 in Chemnitz als Sohn

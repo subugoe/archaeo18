@@ -117,11 +117,10 @@ var loadContent = function(page) {
 
 	$.ajax({
 		url: pageUrl
-		})
-			.done(function(html) {
-					  var container = $(content.container() + ' .wrap');
-					  container.html(markdown.toHTML(html));
-				  });
+		}).done(function(html) {
+			var container = $(content.container() + ' .wrap');
+			container.html(markdown.toHTML(html));
+		});
 }
 
 
