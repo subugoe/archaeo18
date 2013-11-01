@@ -92,12 +92,12 @@ var loadTwoColumns = function(div) {
 				return fileName;
 			}
 
-			var pageUrl = 'content/' + idToMarkdown(scriptId) + '.md';
+			var pageUrl = 'content/' + idToMarkdown(scriptId) + '.html';
 
 			$.ajax({
 					   url: pageUrl
 				   }).done(function(html) {
-							   mainContentContainer.html(markdown.toHTML(html), 'md_tree');
+							   mainContentContainer[0].innerHTML = html;
 						   });
 			return false;
 		}
@@ -107,7 +107,9 @@ var loadTwoColumns = function(div) {
 }
 
 var loadContent = function(page) {
-	var pageUrl = 'content/' + page + '/index.md';
+
+	var suffix = arguments[1] === 'md' ? 'md' : 'html';
+	var pageUrl = 'content/' + page + '/index.' + suffix;
 
 	var content = this;
 
@@ -119,7 +121,15 @@ var loadContent = function(page) {
 			   url: pageUrl
 		   }).done(function(html) {
 				var container = $(content.container() + ' .wrap');
-				container.html(markdown.toHTML(html));
+
+				var containerContent;
+
+				if (suffix === 'md') {
+					containerContent = markdown.toHTML(html);
+				} else {
+					container.html(html);
+				}
+
 				$('a[href^="http://"]').attr('target','_blank');
 			});
 }
@@ -191,7 +201,7 @@ var loadPage = function() {
 					} else
 						if (page.indexOf('start') !== -1) {
 							showDiv('#start_page', '#linkstart');
-							loadContent('start');
+							loadContent('start', 'html');
 						} else
 							if (page.indexOf('help') !== -1) {
 								loadTwoColumns('#help_page');
