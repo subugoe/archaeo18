@@ -115,16 +115,5 @@
 <script src="Resources/Public/JavaScript/Libraries/markdown/lib/markdown.js"></script>
 <script src="Resources/Public/JavaScript/Page.js"></script>
 
-<!-- Easter egg -->
-<script type="text/javascript">
-	<!--
-	var KEYCODE_ESC = 27;
-	$('body').keyup(function(e) {
-		if (e.keyCode == KEYCODE_ESC) {
-			$('.easterEgg').toggle();
-		}
-	});
-	-->
-</script>
 </body>
 </html>

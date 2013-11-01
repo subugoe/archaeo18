@@ -349,3 +349,10 @@ $(window).resize(function() {
 		$('footer').css('width', w + 'px');
 	}
 });
+
+var KEYCODE_ESC = 27;
+$('body').keyup(function(e) {
+	if (e.keyCode == KEYCODE_ESC) {
+		$('.easterEgg').toggle();
+	}
+});
