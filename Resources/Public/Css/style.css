@@ -584,27 +584,28 @@ h2.head-handwriting {
 }
 
 .easterEgg {
-    font-weight: bold;
-    text-align: center;
-    font-family: "Times New Roman", Times, serif;
-    animation: blink 1s steps(5, start) infinite;
-    /* animation: marquee 50s linear infinite; */
-    color: black;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  animation: blink 1s steps(5, start) infinite;
+  color: black;
 }
-
 .easterEgg:hover {
-    animation-play-state: paused
+  animation-play-state: paused;
 }
 
 @keyframes blink {
-    to {
-        visibility: hidden;
-    }
+  to {
+    visibility: hidden;
+  }
 }
 
-/*
 @keyframes marquee {
-    0%   { text-indent: 27.5em }
-    100% { text-indent: -105em }
+  0% {
+    text-indent: 27.5em;
+  }
+
+  100% {
+    text-indent: -105em;
+  }
 }
-*/

@@ -1,9 +1,9 @@
 @import 'Settings';
-
 @import '_Sections/Indices';
 @import '_Sections/Scripts';
 @import '_Sections/Footer';
 @import '_Sections/Help';
+
 /* ALL */
 
 body {
@@ -16,7 +16,9 @@ html, body {
 	height: 100%;
 }
 
-address { font-style: normal; }
+address {
+	font-style: normal;
+}
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: $font-default;
@@ -36,7 +38,7 @@ h4 {
 	margin: 7px 0 20px 0;
 }
 
-a, a:hover, a:visited { 
+a, a:hover, a:visited {
 	color: $color-content-font;
 	text-decoration: none;
 }
@@ -65,11 +67,18 @@ header {
 	background-image: url($path-img + 'header-bg2.png');
 	background-repeat: no-repeat;
 }
+
 nav {
 	top: 145px;
-	a { padding: 0 0 21px 0; }
-	a:hover { background-image: url($path-img + 'header-nav-a-2.png'); }
-	.selected { background-image: url($path-img + 'header-nav-a-2.png'); }
+	a {
+		padding: 0 0 21px 0;
+	}
+	a:hover {
+		background-image: url($path-img + 'header-nav-a-2.png');
+	}
+	.selected {
+		background-image: url($path-img + 'header-nav-a-2.png');
+	}
 }
 
 noscript {
@@ -85,7 +94,9 @@ noscript {
 }
 
 .header-small {
-	body { background-image: url($path-img + 'header-edition-bg.png'); }
+	body {
+		background-image: url($path-img + 'header-edition-bg.png');
+	}
 	header {
 		height: 50px;
 	}
@@ -95,8 +106,12 @@ noscript {
 			padding: 0 0 7px 0;
 			font-size: $font-size;
 		}
-		a:hover { background-image: url($path-img + 'header-nav-a-2-small.png'); }
-		.selected { background-image: url($path-img + 'header-nav-a-2-small.png'); }
+		a:hover {
+			background-image: url($path-img + 'header-nav-a-2-small.png');
+		}
+		.selected {
+			background-image: url($path-img + 'header-nav-a-2-small.png');
+		}
 	}
 }
 
@@ -120,9 +135,14 @@ header {
 			background-repeat: no-repeat;
 			background-position: center bottom;
 		}
-		a:hover { color: $color-content-font; }
-		a:visited { color: $color-content-font; }
-		.selected { }
+		a:hover {
+			color: $color-content-font;
+		}
+		a:visited {
+			color: $color-content-font;
+		}
+		.selected {
+		}
 	}
 	.header-button {
 		background-repeat: no-repeat;
@@ -153,12 +173,12 @@ header {
 				list-style-type: none;
 				a {
 					&:hover {
-						cursor: pointer!important;
-						text-decoration: none!important;
-						color: $hoverColor!important;
+						cursor: pointer !important;
+						text-decoration: none !important;
+						color: $hoverColor !important;
 					}
 					&.selected {
-						color: $hoverColor!important;
+						color: $hoverColor !important;
 					}
 				}
 			}
@@ -172,8 +192,12 @@ header {
 
 .index {
 	table {
-		thead th { text-align: left; }
-		tfoot th { text-align: left; }
+		thead th {
+			text-align: left;
+		}
+		tfoot th {
+			text-align: left;
+		}
 	}
 	.content {
 		.image-in-text-right {
@@ -207,7 +231,9 @@ header {
 			margin: 0;
 			padding: 15px 0 10px 0;
 		}
-		h3 { font-size: 16pt; }
+		h3 {
+			font-size: 16pt;
+		}
 		h4 {
 			font-size: 110%;
 		}
@@ -229,11 +255,17 @@ header {
 			h3 {
 				font-size: 16pt;
 				margin: 0 0 10px 0;
-				.default { padding: 0 0 10px 0; }
+				.default {
+					padding: 0 0 10px 0;
+				}
 			}
-			p { padding: 0 0 10px 0; }
+			p {
+				padding: 0 0 10px 0;
+			}
 		}
-		.handwriting h3 { border-bottom: 1px solid rgb(153, 153, 153); }
+		.handwriting h3 {
+			border-bottom: 1px solid rgb(153, 153, 153);
+		}
 	}
 }
 
@@ -244,25 +276,49 @@ header {
 	margin: 0 10px 0 0;
 }
 
-.header-button-close { background-image: url($path-img + 'header-button-close.png'); }
-.header-button-close:hover { background-image: url($path-img + 'header-button-close-hover.png'); }
-.header-button-open { background-image: url($path-img + 'header-button-open.png'); }
-.header-button-open:hover { background-image: url($path-img + 'header-button-open-hover.png'); }
-
-.footer-col-bg-gradient {
-	background: rgb(176,176,176);
+.header-button-close {
+	background-image: url($path-img + 'header-button-close.png');
 }
 
-.content-img-style1 { background-color: $color-content-img-frame-style1; }
+.header-button-close:hover {
+	background-image: url($path-img + 'header-button-close-hover.png');
+}
+
+.header-button-open {
+	background-image: url($path-img + 'header-button-open.png');
+}
+
+.header-button-open:hover {
+	background-image: url($path-img + 'header-button-open-hover.png');
+}
+
+.footer-col-bg-gradient {
+	background: rgb(176, 176, 176);
+}
+
+.content-img-style1 {
+	background-color: $color-content-img-frame-style1;
+}
+
 .content-img-style2 {
 	background-color: $color-content-img-frame-style2;
 	margin: 0 10px;
 }
-.content-img-style3 { background-color: $color-content-img-frame-style3; }
 
-.font-normal { }
-.font-italic { font-style: italic; }
-.font-bold { font-weight: bold; }
+.content-img-style3 {
+	background-color: $color-content-img-frame-style3;
+}
+
+.font-normal {
+}
+
+.font-italic {
+	font-style: italic;
+}
+
+.font-bold {
+	font-weight: bold;
+}
 
 #editionContainer {
 	background-color: #EEEEEE;
@@ -287,4 +343,30 @@ h2.head-handwriting {
 
 .alertMessage {
 	color: $hoverColor;
+}
+
+.easterEgg {
+	font-weight: bold;
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+	animation: blink 1s steps(5, start) infinite;
+	color: black;
+	&:hover {
+		animation-play-state: paused;
+	}
+}
+
+@keyframes blink {
+	to {
+		visibility: hidden;
+	}
+}
+
+@keyframes marquee {
+	0% {
+		text-indent: 27.5em
+	}
+	100% {
+		text-indent: -105em
+	}
 }
