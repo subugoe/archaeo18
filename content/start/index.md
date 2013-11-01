@@ -1,7 +1,7 @@
 Christian Gottlob Heynes Vorlesungen über die Archäologie
 ---------------------------------------------------------
 
-Die [Online-Edition](javascript:void(0)) „Christian Gottlob Heyne –
+Die [Online-Edition](#?page=#edition_page&link=#linkedition) „Christian Gottlob Heyne –
 Vorlesungen über die Archäologie“ stellt Digitalisate und
 Transkriptionen von Vorlesungsmitschriften zu einer jährlich gehaltenen
 Vorlesung [Christian Gottlob Heynes](#startContentHeyne) zur Verfügung.
@@ -17,8 +17,8 @@ genannte Literatur wurde – sofern noch nicht in einem anderen
 [Repositorium](#?page=#databases_page) vorhanden – digitalisiert und
 ebenfalls mit der entsprechenden Stelle im Volltext verknüpft.
 
-Über das Projekt
-----------------
+### Über das Projekt
+
 <iframe width="480" height="270" style="float:right;padding: 10px; margin-left:10px;" src="//www.youtube-nocookie.com/embed/_PWeiNO9Yeg?rel=0" frameborder="0" allowfullscreen></iframe>
 
 Von 1767 bis 1804 hielt Christian Gottlob Heyne an der Universität
@@ -42,8 +42,7 @@ Stellung von Heynes Lehrveranstaltung im Gefüge der archäologischen
 Wissensproduktion des 18. Jahrhunderts sichtbar und für weitere
 wissenschaftliche Studien zugänglich zu machen.
 
-<a name="startContentHeyne"></a>Über Christian Gottlob Heyne
-----------------------------
+### <a name="startContentHeyne"></a> Über Christian Gottlob Heyne
 
 Christian Gottlob Heyne wurde am 25. September 1729 in Chemnitz als Sohn
 eines Leinewebers geboren und wuchs in großer Armut auf. Dank der
