@@ -3,7 +3,9 @@
 
 <footer>
 	<div class="easterEgg" style="display: none!important;">
-		heyne-digital.de ist optimiert für Netscape und Explorer ab Version 4.7, (Ausnahme: Netscape ab 6.0 unter Macintosh); bitte aktivieren Sie "Java" unter Voreinstellungen. AOL-Browser: Bitte deaktivieren Sie in den Voreinstellungen ("mein AOL"/Präferenzen) die Option "komprimierte Bilder".
+		heyne-digital.de ist optimiert für Netscape und Explorer ab Version 4.7, (Ausnahme: Netscape ab 6.0 unter
+		Macintosh); bitte aktivieren Sie "Java" unter Voreinstellungen. AOL-Browser: Bitte deaktivieren Sie in den
+		Voreinstellungen ("mein AOL"/Präferenzen) die Option "komprimierte Bilder".
 	</div>
 	<div class="wrap">
 		<div class="heyneSnakeFighter">
@@ -12,29 +14,40 @@
 		<div class="footer-col-bg-gradient middle clearfix">
 			<ul>
 				<li><a href="javascript:void(0)" id="linkstart2" title="Startseite" hreflang="de">Start</a></li>
-				<li><a href="javascript:void(0)" id="linkhandschriften2" title="Handschriften" hreflang="de">Handschriften</a></li>
+				<li><a href="javascript:void(0)" id="linkhandschriften2" title="Handschriften" hreflang="de">Handschriften</a>
+				</li>
 				<li><a href="javascript:void(0)" id="linkindices2" title="Indices" hreflang="de">Indices</a></li>
 				<li><a href="javascript:void(0)" id="linkedition2" title="Edition" hreflang="de">Edition</a></li>
 			</ul>
 			<ul>
 				<li><a href="javascript:void(0)" id="linkhelp" title="Hilfe" hreflang="de">Hilfe</a></li>
-				<li><a href="javascript:void(0)" id="linkterms" title="Editionsrichtlinien" hreflang="de">Editionsrichtlinien</a></li>
-				<li><a href="javascript:void(0)" id="linkdatabases" title="Datenbanken und Repositorien" hreflang="de">Datenbanken und Repositorien</a></li>
-				<li><a href="javascript:void(0)" id="linkacknowledgment" title="Danksagung" hreflang="de">Danksagung</a></li>
+				<li><a href="javascript:void(0)" id="linkterms" title="Editionsrichtlinien" hreflang="de">Editionsrichtlinien</a>
+				</li>
+				<li><a href="javascript:void(0)" id="linkdatabases" title="Datenbanken und Repositorien" hreflang="de">Datenbanken
+						und Repositorien</a></li>
+				<li><a href="javascript:void(0)" id="linkacknowledgment" title="Danksagung" hreflang="de">Danksagung</a>
+				</li>
 			</ul>
 		</div>
 		<div class="clearfix right">
 			<ul>
 				<li><a href="javascript:void(0)" id="linkimprint" title="Impressum" hreflang="de">Impressum</a></li>
-				<li><a href="javascript:void(0)" id="linkpeople" title="Projektmitarbeiter" hreflang="de">Projektmitarbeiter</a></li>
+				<li><a href="javascript:void(0)" id="linkpeople" title="Projektmitarbeiter" hreflang="de">Projektmitarbeiter</a>
+				</li>
 				<li><a href="mailto:heynedigital@sub.uni-goettingen.de">Kontakt</a></li>
 			</ul>
 		</div>
 		<div id="logoPanel" style="display: inline; float: left;">
 			<ul class="logos">
-				<li><a href="http://dfg.de" target="_blank" title="Deutsche Forschungsgemeinschaft e.V." hreflang="de"><img src="./Resources/Public/Images/logo/logo_footer_dfg.jpg" alt="" /></a></li>
-				<li><a href="http://www.sub.uni-goettingen.de" title="Niedersächsische Staats- und Universitätsbibliothek Göttingen" hreflang="de" target="_blank" style="margin: 0 0 0 -5px;"><img src="./Resources/Public/Images/logo/logo_footer_sub.jpg" alt="" /></a></li>
-				<li><a href="http://www.uni-goettingen.de" title="Georg-August-Universität Göttingen" hreflang="de" target="_blank" style="margin: 0 0 0 -5px;"><img src="./Resources/Public/Images/logo/logo_footer_uni.jpg" alt="" /></a></li>
+				<li>
+					<a href="http://dfg.de" target="_blank" title="Deutsche Forschungsgemeinschaft e.V." hreflang="de"><img src="./Resources/Public/Images/logo/logo_footer_dfg.jpg" alt=""/></a>
+				</li>
+				<li>
+					<a href="http://www.sub.uni-goettingen.de" title="Niedersächsische Staats- und Universitätsbibliothek Göttingen" hreflang="de" target="_blank" style="margin: 0 0 0 -5px;"><img src="./Resources/Public/Images/logo/logo_footer_sub.jpg" alt=""/></a>
+				</li>
+				<li>
+					<a href="http://www.uni-goettingen.de" title="Georg-August-Universität Göttingen" hreflang="de" target="_blank" style="margin: 0 0 0 -5px;"><img src="./Resources/Public/Images/logo/logo_footer_uni.jpg" alt=""/></a>
+				</li>
 			</ul>
 		</div>
 	</div>
@@ -104,14 +117,31 @@
 
 <!-- Easter egg -->
 <script type="text/javascript">
-<!--
-var KEYCODE_ESC = 27;
-$('body').keyup(function(e){
-    if(e.keyCode == KEYCODE_ESC){
-        $('.easterEgg').toggle();
-    }
-});
--->
+	<!--
+	var KEYCODE_ESC = 27;
+	$('body').keyup(function(e) {
+		if (e.keyCode == KEYCODE_ESC) {
+			$('.easterEgg').toggle();
+		}
+	});
+	-->
+</script>
+<script>
+	(function(i, s, o, g, r, a, m) {
+		i['GoogleAnalyticsObject'] = r;
+		i[r] = i[r] || function() {
+			(i[r].q = i[r].q || []).push(arguments)
+		}, i[r].l = 1 * new Date();
+		a = s.createElement(o),
+				m = s.getElementsByTagName(o)[0];
+		a.async = 1;
+		a.src = g;
+		m.parentNode.insertBefore(a, m)
+	})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+	ga('create', 'UA-45353748-1', 'heyne-digital.de');
+	ga('send', 'pageview');
+
 </script>
 </body>
 </html>
