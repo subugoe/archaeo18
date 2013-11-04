@@ -109,7 +109,6 @@
   border-bottom: 1px solid #900000;
 }
 #indices_page #tableIndices_wrapper .dataTables_paginate a.first, #indices_page #tableIndices_wrapper .dataTables_paginate a.previous, #indices_page #tableIndices_wrapper .dataTables_paginate a.next, #indices_page #tableIndices_wrapper .dataTables_paginate a.last {
-  font-size: 80%;
   font-family: ropen, "Droid Sans", sans-serif;
 }
 #indices_page #tableIndices_wrapper .dataTables_length {
