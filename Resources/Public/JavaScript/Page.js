@@ -166,6 +166,7 @@ var addGeoTemCo = function() {
 
 var loadPage = function() {
 	if (window.location.href.indexOf('?params') != -1) {
+		addGeoTemCo();
 		showDiv('#edition_page', '#linkedition');
 		loadEdition();
 	} else
