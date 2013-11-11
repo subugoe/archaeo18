@@ -83,7 +83,7 @@
 		}
 		.dataTables_paginate {
 			text-align: right;
-			font-family: ropen;
+			font-family: $font-default;
 			position: absolute;
 			top: 0;
 			right: 3%;
@@ -100,7 +100,11 @@
 				&.paginate_active {
 					border-bottom: 1px solid $hoverColor;
 				}
+				&.first, &.previous, &.next, &.last {
+					font-family: $font-custom, $font-default;
+				}
 			}
+
 		}
 		.dataTables_length {
 			width: 670px;

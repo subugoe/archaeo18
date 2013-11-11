@@ -141,3 +141,25 @@ Georg-August-Universität Göttingen.
 
 Wir erlauben ausdrücklich und begrüßen das Zitieren unserer Dokumente
 und Webseiten sowie das Setzen von Links auf unsere Website.
+
+### Statistische Daten für den Betreiber der Website
+
+Diese Website nutzt die Open-Source-Software Piwik für die statistische Auswertung von Besucherzugriffen. Piwik ist datenschutzkonform konfiguriert, Daten werden anonymisiert gespeichert. Die zu diesem Zweck verwendeten „Sitzungs-Cookies“ sind Textdateien, die auf Ihrem Computer gespeichert werden und die eine Analyse der Benutzung der Webseite durch Sie ermöglichen. Die durch den Cookie erzeugten Informationen über Ihre Benutzung dieses Internetangebotes werden auf dem Server der GWDG gespeichert. Die IP-Adresse wird sofort nach der Verarbeitung und vor deren Speicherung anonymisiert. Die von Piwik erfassten Daten werden in anonymisierter Form dazu verwendet, unser Angebot zu verbessern. IP-Adressen werden in Piwik ohne das letzte Tupel gespeichert. Wir wissen aus welchem Netz eine Anfrage kam, nicht jedoch von welchem Rechner.
+
+Diese „Sitzungs-Cookies“ beinhalten keine personenbezogenen Daten und verfallen nach Ablauf der Sitzung. Techniken, wie zum Beispiel Java-Applets oder Active-X-Controls, die es ermöglichen, das Zugriffsverhalten der Nutzer nachzuvollziehen, werden nicht eingesetzt.
+
+Im Einzelnen werden über jeden Zugriff/Abruf folgende Daten gespeichert:
+
++ die ersten beiden Teile der IP-Adresse
++ Datum und Uhrzeit
++ User-Agent der verwendeten Software
++ aufgerufene Seite/Name der abgerufenen Datei
++ übertragene Datenmenge
++ Meldung, ob der Zugriff/Abruf erfolgreich war.
+
+Sie können sich hier entscheiden, ob in Ihrem Browser ein eindeutiger Webanalyse-Cookie abgelegt werden darf, um dem Betreiber der Webseite die Erfassung und Analyse verschiedener statistischer Daten zu ermöglichen.
+
+Durch die Nutzung dieser Website erklären Sie sich mit der Bearbeitung der über Sie erhobenen Daten durch Piwik in der zuvor beschriebenen Art und Weise und zu dem zuvor benannten Zweck einverstanden.
+Wenn Sie sich dagegen entscheiden möchten, klicken Sie den folgenden Link, um den Piwik-Deaktivierungs-Cookie in Ihrem Browser abzulegen.
+
+<iframe frameborder="no" width="600px" height="200px" src="http://piwik.gwdg.de/index.php?module=CoreAdminHome&amp;action=optOut&amp;language=de"></iframe>

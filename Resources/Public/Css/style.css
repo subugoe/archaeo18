@@ -89,7 +89,7 @@
 }
 #indices_page #tableIndices_wrapper .dataTables_paginate {
   text-align: right;
-  font-family: ropen;
+  font-family: "Droid Sans", sans-serif;
   position: absolute;
   top: 0;
   right: 3%;
@@ -107,6 +107,9 @@
 }
 #indices_page #tableIndices_wrapper .dataTables_paginate a.paginate_active {
   border-bottom: 1px solid #900000;
+}
+#indices_page #tableIndices_wrapper .dataTables_paginate a.first, #indices_page #tableIndices_wrapper .dataTables_paginate a.previous, #indices_page #tableIndices_wrapper .dataTables_paginate a.next, #indices_page #tableIndices_wrapper .dataTables_paginate a.last {
+  font-family: ropen, "Droid Sans", sans-serif;
 }
 #indices_page #tableIndices_wrapper .dataTables_length {
   width: 670px;

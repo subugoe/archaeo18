@@ -149,10 +149,10 @@ var Indices = new function() {
 												  "sInfoFiltered": "(gefiltert aus _MAX_ Einträgen insgesamt)",
 												  "sSearch": "Suche:",
 												  "oPaginate": {
-													  "sNext": "",
-													  "sFirst": "",
-													  "sLast": "",
-													  "sPrevious": ""
+													  "sNext": "",
+													  "sFirst": "",
+													  "sLast": "",
+													  "sPrevious": ""
 												  }
 											  }
 										  });
