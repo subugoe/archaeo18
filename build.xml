@@ -127,6 +127,10 @@
   <property name="data.dir" value="./data/"/>
   <property name="data.tei.dir" value="${data.dir}tei/"/>
   <property name="data.tei-enriched.dir" value="${data.dir}tei-enriched/"/>
+  <property name="data.tei-pages.dir" value="${data.dir}tei-pages/"/>
+  <property name="data.xhtml-pages.dir" value="${data.dir}xhtml-pages/"/>
+  <property name="data.kml-pages.dir" value="${data.dir}kml-pages/"/>
+  <property name="data.cloud-pages.dir" value="${data.dir}cloud-pages/"/>
   <property name="data.mets.dir" value="${data.dir}mets/"/>
   <property name="empty.xml" value="${data.dir}empty.xml"/>
   <property name="data.manuscripts.directory" value="./content/manuscripts/"/>
@@ -490,20 +494,27 @@
   -->
   <target name="data.dirs">
     <mkdir dir="${data.tei-enriched.dir}"/>
+    <mkdir dir="${data.tei-pages.dir}"/>
+    <mkdir dir="${data.xhtml-pages.dir}"/>
     <mkdir dir="${data.mets.dir}"/>
   </target>
 
   <target name="data.dir.clean">
     <delete dir="${data.tei-enriched.dir}"/>
+    <delete dir="${data.tei-pages.dir}"/>
+    <delete dir="${data.xhtml-pages.dir}"/>
     <delete dir="${data.mets.dir}"/>
   </target>
+  
+  <!-- Alias -->
+  <target name="data.clean" depends="data.dir.clean"/>
 
   <target name="data.statistics" depends="salvador.saxon.install, init">
     <property name="data.statistics.output" value="${target.dir}/statistics-report.xhtml"/>
     <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.statistics}" destfile="${data.statistics.output}" params="collection=${basedir}/${data.tei.dir}"/>
   </target>
 
-  <target name="data.enrich" depends="data.enrich.check, salvador.saxon.install, init" unless="data.entiched.fileset.empty">
+  <target name="data.enrich" depends="data.dirs, data.enrich.check, salvador.saxon.install, init" unless="data.entiched.fileset.empty">
     <property name="data.enrich.output" value="${target.dir}/enrichment-report.xhtml"/>
     <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.enrich}" destfile="${data.enrich.output}"
       params="collection=${basedir}/${data.tei.dir} mets-collection=${basedir}/${data.mets.dir} tei-enriched-collection=${basedir}/${data.tei-enriched.dir}"/>
@@ -513,10 +524,15 @@
   <target name="data.generate.mets" depends="data.enrich"/>
 
   <!-- Page splitting -->
-  <target name="data.tei.split" depends="data.enrich">
-    <!-- TODO: Fix this -->
-    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.statistics}" destfile="${data.statistics.output}" params="collection=${basedir}/${data.tei.dir}"/>
+  <target name="data.split" depends="data.enrich, data.dirs">
+    <property name="data.split.output" value="${target.dir}/split-report.xhtml"/>
+    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.split}" destfile="${data.split.output}" params="input-collection=${basedir}/${data.tei-enriched.dir} output-collection=${basedir}/${data.tei-pages.dir} mode=tei"/>
+    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.split}" destfile="${data.split.output}" params="input-collection=${basedir}/${data.tei-enriched.dir} output-collection=${basedir}/${data.xhtml-pages.dir} mode=xhtml"/>
   </target>
+  
+  <!-- Aliases -->
+  <target name="data.tei.split" depends="data.split"/>
+  <target name="data.xhtml.split" depends="data.split"/>
 
   <target name="data.generate.descriptions" depends="salvador.saxon.install, init">
     <property name="data.descriptions.output" value="${target.dir}/descriptions-report.xhtml"/>
