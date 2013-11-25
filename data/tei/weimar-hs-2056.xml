@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?> 
-<?oxygen SCHSchema="../OxygenArchaeo18/schema/Archaeo18.rng"?>
-<?oxygen RNGSchema="../OxygenArchaeo18/schema/Archaeo18.rng" type="xml"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen SCHSchema="../OxygenArchaeo18/schema/Archaeo18.rng"?><?oxygen RNGSchema="../OxygenArchaeo18/schema/Archaeo18.rng" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -55,12 +52,12 @@
     <text>
         <body>
             <div>
-            <pb facs="weimar_1_001r.jpg" n="1"/>
-                <pb facs="weimar_1_001v.jpg" n="2"/>
-                <pb facs="weimar_1_002r.jpg" n="3"/>     
-                <pb facs="weimar_1_002v.jpg" n="4"/>    
-                <pb facs="weimar_1_003r.jpg" n="5"/>
-                <pb facs="weimar_1_003v.jpg" n="6"/>               
+            <!-- <pb facs="weimar_1_001r.jpg" n="1"/> -->
+                <pb n="1"/>
+                <pb n="2"/>     
+                <pb n="3"/>    
+                <pb n="4"/>
+                <pb n="5"/>               
             </div>
              <div>
                 <head>Vorbericht.</head>
@@ -78,8 +75,8 @@
                     die Materie von denen Statuen beßer<lb/> 
                     ausgefallen seyn solle. </p>
                  </div>
-            <pb facs="weimar_1_004r.jpg" n="7"/>
-            <pb facs="weimar_1_004v.jpg" n="8"/>
+            <pb n="6"/>
+            <pb n="7"/>
              <div>
                 <p>Einleitung <lb/> 
                     in das <lb/> 
@@ -101,8 +98,8 @@
                 <lb/>
                     <placeName ref="#GettyID:7005246">Göttingen</placeName> und <placeName ref="#GettyID:7005938">Gotha</placeName>, <lb/>
                     bey <persName ref="#CerlID:cnp00956019">Johann Christian Dieterich</persName>.</p>
-                 <pb facs="weimar_1_005r.jpg" n="9"/> 
-                 <pb facs="weimar_1_005v.jpg" n="10"/>
+                 <pb n="8"/> 
+                 <pb n="9"/>
                  
                 <div><head>Inhalt.</head>
                 <head>Einleitung <lb/>
@@ -129,7 +126,7 @@
             <lb/>
             <lb/>
             <fw>A 2     I, Ab-</fw></div>
-                 <pb facs="weimar_1_006r.jpg" n="11"/>
+                 <pb n="10"/>
                  
             <div><head>I. Abschnitt.</head>
             <div><head>Von <lb/>
@@ -156,7 +153,7 @@
             dienen sich Tanzkunst, Schauspielkunst, Be- <lb/>
             redsamkeit, Dichtkunst, Tonkunst; oder <lb/>
             <fw>dauer-</fw>
-                <pb facs="weimar_1_006v.jpg" n="12"/>
+                <pb n="11"/>
                 
             dauerhafte und beständige, diese sind Bil- <lb/>
             derschrift, Hieroglyphen, Buchstaben- <lb/>
@@ -185,7 +182,7 @@
             schriften und auf Münzen, auch zuweilen bey <lb/>
             den übrigen Kunstwerken des Alterthums.</p>
                 <fw>A 3 Ohne</fw>
-                <pb facs="weimar_1_007r.jpg" n="13"/>
+                <pb n="12"/>
                 
             <p>Ohne Formen und Zeichen, blos in Ord- <lb/>
             nung, Ebenmaaß und Uebereinstimmung der <lb/>
@@ -213,7 +210,7 @@
             Schönheit, d. i. sichtliche Vollkommenheit <lb/>
             auszudrücken; und dieß war auch das höchste <lb/>
                 <fw>Gesetz</fw>
-                <pb facs="weimar_1_007v.jpg" n="14"/>
+                <pb n="13"/>
                 
             Gesetz der großen Künstler des Alterthums. <lb/>
             Erforderliche Einschränkung des Satzes.</p> <lb/>
@@ -244,7 +241,7 @@
             Studium mit Geschmack, und zur Schärfung <lb/>
             und Aufklärung des Verstandes, getrieben wer- <lb/>
             den kann. <lb/>
-                <fw>A 4     Ein</fw></p> <pb facs="weimar_1_008r.jpg" n="15"/>
+                <fw>A 4     Ein</fw></p> <pb n="14"/>
                 
             <p>Ein noch weitläufigerer Gesichtskreiß ist, <lb/>
             wenn man alles hineinzieht, nicht nur, was aus <lb/>
@@ -274,7 +271,7 @@
             wenn es nicht mangelhaft seyn soll, eine anti- <lb/>
             quarische Kenntniß der Werke voraus, oder muß <lb/>
             damit verbunden werden. Und diese antiqua- <lb/>
-                <fw>rische</fw><pb facs="weimar_1_008v.jpg" n="16"/>
+                <fw>rische</fw><pb n="15"/>
                 
             rische Kenntniß kann wiederum jener weitläufi- <lb/>
             gern Kenntniß des Alterthums überhaupt, auch <lb/>
@@ -304,7 +301,7 @@
             sich zu vergnügen, und sich des Genusses der ed- <lb/>
             leren Vergnügungen fähig zu machen. <lb/>
             <fw>A 5     II. Ab-</fw></p></div></div></div>
-                 <pb facs="weimar_1_009r.jpg" n="17"/> 
+                 <pb n="16"/> 
                  
             <div><head>II. Abschnitt.</head>
             <div><head>Geschichte der Kunst, <lb/>
@@ -332,7 +329,7 @@
             davon. <lb/>
             <lb/>
             <fw>§. 3.</fw></p></div>
-                <pb facs="weimar_1_009v.jpg" n="18"/>
+                <pb n="17"/>
                 
             <div><head>§. 3.</head>
             <p>Die Aegyptier haben den Ruhm des höch- <lb/>
@@ -362,7 +359,7 @@
             bunden. Spuren ihrer Macht, ihres Reich- <lb/>
             thums und ihres Geschmacks in den Ueberbleib- <lb/>
             seln ihrer Kunstwerke. Sie waren ein gesitte- <lb/>
-                <fw>tes,</fw> <pb facs="weimar_1_010r.jpg" n="19"/>
+                <fw>tes,</fw> <pb n="18"/>
                 
                 tes, reiches und mächtiges Volk, ehe noch <placeName ref="#GettyID:7000874">Rom</placeName> <lb/>
             gebaut war, und sie hörten auf eine Nation zu <lb/>
@@ -390,7 +387,7 @@
             nesischen Krieges.</p> <lb/>
             <p>Zweyte Periode unter des <persName ref="#CerlID:cnp00587048">Pericles</persName> Staats- <lb/>
                 verwaltung zu <placeName ref="#GettyID:7001393">Athen</placeName>. Epoche des großen Ge- <lb/>
-                <fw>schmacks,</fw> <pb facs="weimar_1_010v.jpg" n="20"/>
+                <fw>schmacks,</fw> <pb n="19"/>
                 
             schmacks und Stils. Seit <date>Ol. 80, I.</date> <date>v. <lb/>
             C. G. 460.</date></p> <lb/>
@@ -420,7 +417,7 @@
                 (s. §. 4.) und <placeName ref="#GettyID:1000074">Griechenlands</placeName>, und Weg- <lb/>
             führung der griechischen Kunstwerke, vornehm- <lb/>
             lich vom Triumph des <persName ref="#CerlID:cnp00285235">Mummius</persName> an, nach <lb/>
-                <fw>Zer-</fw> <pb facs="weimar_1_011r.jpg" n="21"/>
+                <fw>Zer-</fw> <pb n="20"/>
                 
                 Zerstörung der Stadt <placeName ref="#GettyID:7010734">Corinth</placeName>, und Trennung <lb/>
             des achäischen Bundes, <date>Olymp.158,3.</date><date>v.C.G. <lb/>
@@ -444,7 +441,7 @@
             Von den Bildsäulen.</head>
             <p>Da auch diese Bildsäulen bald ganze Kör- <lb/>
             per <note place="bottom">statuae, signa.</note>, bald nur Bruststücke <note place="bottom">imagines.</note> oder Kö- <lb/>
-                <fw>pfe</fw> <pb facs="weimar_1_011v.jpg" n="22"/>
+                <fw>pfe</fw> <pb n="21"/>
                 
             pfe vorstellen, so zerfällt auch dieser Abschnitt in <lb/>
             zwey Theile: von den ganzen Bildsäulen, <lb/>
@@ -470,7 +467,7 @@
             sche Nachrichten von diesen Werken.</p> <lb/>
             <lb/>
             <fw>§. 3.</fw></div>
-                <pb facs="weimar_1_012r.jpg" n="23"/>
+                <pb n="22"/>
                 
             <div><head>§. 3.</head>
                 <p>Woher so viele Statuen nach <placeName ref="#GettyID:7000874">Rom</placeName> gekom- <lb/>
@@ -497,7 +494,7 @@
             die andren Nebenumstände bey den Bildsäulen. <lb/>
             <lb/> </p>
             <fw>§. 7.</fw></div> 
-                <pb facs="weimar_1_012v.jpg" n="24"/>
+                <pb n="23"/>
                 
             <div><head>§. 7.</head>
             <p>Von der Ergänzung der gefundenen ver- <lb/>
@@ -529,7 +526,7 @@
             <p>Erklärung der verschiednen Gattungen, <lb/>
             Maase, und Benennungen der halben Bilder. <lb/>
             <fw>B   §. 2.</fw></p></div>
-                <pb facs="weimar_1_013r.jpg" n="25"/>
+                <pb n="24"/>
                 
             <div><head>§. 2.</head>
             <p>Die Massen, aus denen sie verfertiget <lb/>
@@ -556,7 +553,7 @@
             tiefter Arbeit.</head>
             <p>Da diese entweder Werke in größern Mas- <lb/>
             sen, oder Werke in edlen Steinen sind, so läßt <lb/>
-                <fw>B 2     sich</fw> <pb facs="weimar_1_013v.jpg" n="26"/>
+                <fw>B 2     sich</fw> <pb n="25"/>
                 
             sich alles unter zween Hauptstücke bringen, <lb/>
             Schnitzwerke und geschnittene Steine.</p> <lb/> 
@@ -583,7 +580,7 @@
             der Art, die noch vorhanden sind. Die Schrif- <lb/>
             ten und die Kupferwerke dazu. <lb/> </p>
             <fw>B 2     §. 5.</fw></div>
-                <pb facs="weimar_1_014r.jpg" n="27"/>
+                <pb n="26"/>
                 
             <div><head>§. 5.</head>
             <p>Der sehr verschiedne Werth der alten erhob- <lb/>
@@ -613,7 +610,7 @@
             Arbeit, ehemaligem Gebrauch und jetziger Be- <lb/>
             stimmung. <lb/>
             <fw>§. 2.</fw></p></div>
-                <pb facs="weimar_1_014v.jpg" n="28"/>
+                <pb n="27"/>
                 
             <div><head>§. 3.</head>
             <p>Gebrauch der Steine bey den Alten zum <lb/>
@@ -644,7 +641,7 @@
             Art alter Kunstwerke vor den neuern, und <lb/>
             Ursachen davon. <lb/>
             <fw>B 3     §. 6.</fw></p></div>
-                <pb facs="weimar_1_015r.jpg" n="29"/>
+                <pb n="28"/>
                 
             <div><head>§. 6.</head>
             <p>Geschichte dieser Kunst bey den verschied- <lb/>
@@ -675,7 +672,7 @@
             <div><head>§. 9.</head>
             <p>Anleitung zur gelehrten Erklärung der <lb/>
             Steine, nach den verschiednen Vorstellungen, <lb/>
-                <fw>die</fw> <pb facs="weimar_1_015v.jpg" n="30"/>
+                <fw>die</fw> <pb n="29"/>
                 
             die sich darauf befinden; Regeln und Hülfs- <lb/>
             mittel dazu.</p> <lb/> </div>
@@ -704,7 +701,7 @@
             Alten und der Neuern von ihren Werken. <lb/>
             <lb/>
             <fw>§.</fw></p></div>
-                <pb facs="weimar_1_016r.jpg" n="31"/>
+                <pb n="30"/>
                 
             <div><head>§. 4.</head>
             <p>Gattungen der alten Malerey, und Ver- <lb/>
@@ -733,7 +730,7 @@
             und ihren Werth. Antiquarische Nachrichten da- <lb/>
             von. Erhaltne Werke dieser Art. Kupfer <lb/>
             und Schriften darüber.</p></div></div></div></div></div>
-            <pb facs="weimar_1_016v.jpg" n="32"/>
+            <pb n="31"/>
             
             <div><head><emph>Index Auctorum</emph></head>
   <div><head><emph>A.</emph></head>
@@ -783,7 +780,7 @@
                  <bibl><ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN635731460">Bellori veter. Ilust. philosoph.; <lb/>
                            Imagines</ref></bibl> p. <ref target="#p242">242</ref>. <lb/>
                  <bibl><ref target="#http://digi.ub.uni-heidelberg.de/diglit/bellori1690">Bellori Veteres arcus augu- <lb/>
-                               storum.</ref></bibl> &amp;p. <ref target="#p265">265</ref>.</emph><pb facs="weimar_1_017r.jpg" n="33"/>
+                               storum.</ref></bibl> &amp;p. <ref target="#p265">265</ref>.</emph><pb n="32"/>
       
                         <emph><bibl><ref target="#http://digi.ub.uni-heidelberg.de/diglit/menestrier1765">Bellino. Columna Theod</ref></bibl>: <lb/>
                                   p. <ref target="#p368">368</ref>. <lb/>
@@ -846,7 +843,7 @@
                                 <bibl><ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN644392010">Cuperi Harpocrates.</ref></bibl> pag. <ref target="#p176">176</ref>. <lb/>
                             <bibl><ref target="#http://digi.ub.uni-heidelberg.de/diglit/ciampini1690ga">Ciambini. (Ant.I.) Vet. monum. <lb/>
                             opera Mission:</ref></bibl> pag. <ref target="#p372">372</ref>. <lb/>
-                            <bibl><ref target="#http://d-nb.info/gnd/4241620-6">Cicero in Verrem.</ref></bibl> p. <ref target="#p206">206</ref>.</emph></p></div><pb facs="weimar_1_017v.jpg" n="34"/>
+                            <bibl><ref target="#http://d-nb.info/gnd/4241620-6">Cicero in Verrem.</ref></bibl> p. <ref target="#p206">206</ref>.</emph></p></div><pb n="33"/>
                 
    <div><head><emph><hi rend="double underline">D.</hi></emph></head>
        <p><emph><bibl><ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN647621118">Demontrojeus. de vet. Sculptur: <lb/>
@@ -884,7 +881,7 @@
           Bachi.</ref></bibl> pag. <ref target="#p286">286</ref>. <lb/>
           <bibl><ref target="#http://opac.sub.uni-goettingen.de/DB=1/PPNSET?PPN=14568895X">Episcopius.</ref></bibl> p. <ref target="#p27">27</ref>. <lb/>
           <bibl><ref target="#http://opac.sub.uni-goettingen.de/DB=1/PPNSET?PPN=14568895X">Episcopius Signorum veterum <lb/>
-          Urb. Romae.</ref></bibl> pag. <ref target="#p175">175</ref>.</emph></p></div><pb facs="weimar_1_018r.jpg" n="35"/>
+          Urb. Romae.</ref></bibl> pag. <ref target="#p175">175</ref>.</emph></p></div><pb n="34"/>
                 
   <div><head><emph><hi rend="double underline">F.</hi></emph></head>
       <p><emph><bibl><ref target="#http://www.zvdd.de/dms/load/met/?PPN=urn%3Anbn%3Ade%3Abvb%3A12-bsb10484271-0">Faber. bibliogr. antiq.</ref></bibl> pag. <ref target="#p240">240</ref>. <lb/>
@@ -927,7 +924,7 @@
           <bibl><ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN666491127">Graevii Thesaurus.</ref></bibl> pag. <ref target="#p185">185</ref>. <lb/>
           <bibl><ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN651736196">Gronov. Thesaurus.</ref></bibl> p. <ref target="#p185">185</ref>. <ref target="#p243">243</ref>. <lb/>
           <bibl><ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN644237309">Greavers Pyramidographica.</ref></bibl> p. <lb/>
-          <ref target="#p388">388</ref>.</emph></p></div><pb facs="weimar_1_018v.jpg" n="36"/>
+          <ref target="#p388">388</ref>.</emph></p></div><pb n="35"/>
                 
   <div><head><emph><hi rend="double underline">H.</hi></emph></head>
       <p><emph><bibl><ref target="#">Havercamp. Catalogus.</ref></bibl> pag. <ref target="#p321">321</ref>. <lb/>
@@ -948,7 +945,7 @@
           pietro pretiosi degl´ant.</ref></bibl> <ref target="#p225">225</ref>. <ref target="#p283">283</ref>. <lb/>
           <bibl><ref target="#http://hdl.handle.net/2027/ucm.5326180812">Iournal de Trevoux</ref></bibl> p. <ref target="#p318">318</ref>. <lb/>
           <bibl><ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN627108172">Iombere. elem ens des peintures &amp;</ref></bibl> <lb/>
-          p. <ref target="#p352">352</ref>.</emph></p></div><pb facs="weimar_1_019r.jpg" n="37"/>
+          p. <ref target="#p352">352</ref>.</emph></p></div><pb n="36"/>
                 
   <div><head><emph><hi rend="double underline">K.</hi></emph></head>
       <p><emph><bibl><ref target="#http://catalog.hathitrust.org/Record/009711746">Kennedy. p. <ref target="#p117">117</ref>. (James) Bustos <lb/>
@@ -978,7 +975,7 @@
           <bibl><ref target="#http://www.archive.org/stream/trattatodellarte00loma%23page/n6/mode/1up">Lomazzo (Paolo.) dell arte della <lb/>
           pittura.</ref></bibl> pag. <ref target="#p352">352</ref>. <lb/>
           <bibl><ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN644239743">Luchese (Francke) Theorie nella <lb/>
-              Pittura.</ref></bibl> p. <ref target="#p352">352</ref>.</emph></p></div><pb facs="weimar_1_019v.jpg" n="38"/>
+              Pittura.</ref></bibl> p. <ref target="#p352">352</ref>.</emph></p></div><pb n="37"/>
                 
   <div><head><emph><hi rend="double underline">M.</hi></emph></head>
       <p><emph><bibl><ref target="#http://arachne.uni-koeln.de/books/Macarius1657a">Macarii Canon Aric:</ref></bibl> pag. <ref target="#p338">338</ref>. <lb/>
@@ -1041,7 +1038,7 @@
               morie dell museo d. Lud.Maec.</ref></bibl> <lb/>
           <bibl><ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN660921685">Moulinet Cabinet de Sta Ge- <lb/>
               noveve.</ref></bibl> p. <ref target="#p313">313</ref>. <lb/>
-          <bibl><ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN659355981">Muratori. Thes. Insc:</ref></bibl> p. <ref target="#p324">324</ref>.<pb facs="weimar_1_020r.jpg" n="39"/>
+          <bibl><ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN659355981">Muratori. Thes. Insc:</ref></bibl> p. <ref target="#p324">324</ref>.<pb n="38"/>
           
           <bibl><ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN660697920">Musellio. (Marchese) Antiquit: <lb/>
               reliquis.</ref></bibl> p. <ref target="#p178">178</ref>. <lb/>
@@ -1060,7 +1057,7 @@
           <bibl><ref target="#http://catalog.hathitrust.org/Record/009019122">Nessel. Catalog.</ref></bibl> pag. <ref target="#p348">348</ref>. <lb/>
           <bibl><ref target="#http://www.archive.org/stream/LapidaryOrTheHistoryOfPretiousStones/LapidaryOrTheHistoryOfPretiousStones-ThomasNicols1652%23page/n0/mode/1up">Nicoles (Thom.) a lapidary or <lb/>
           the history of pretions Sto- <lb/>
-          nes.</ref></bibl> pag. <ref target="#p283">283</ref>.</emph></p></div><pb facs="weimar_1_020v.jpg" n="40"/>
+          nes.</ref></bibl> pag. <ref target="#p283">283</ref>.</emph></p></div><pb n="39"/>
                 
           <div><head><emph><hi rend="double underline">O.</hi></emph></head>
           <p><emph><bibl><ref target="#http://digi.ub.uni-heidelberg.de/diglit/overbeke1709ga">d´Overbeck (Bonav.) Restes <lb/>
@@ -1099,7 +1096,7 @@
           <ref target="#p268">268</ref>. <lb/>
           <bibl><ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN641553188">de Pites. oevres diverses.</ref></bibl> <ref target="#p352">352</ref>. <lb/>
           <bibl><ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN665260393">Piti (Abbat. Tit.) nuovo stu- <lb/>
-          dio de pittura.</ref></bibl> pag. <ref target="#p359">359</ref>.<pb facs="weimar_1_021r.jpg" n="41"/>
+          dio de pittura.</ref></bibl> pag. <ref target="#p359">359</ref>.<pb n="40"/>
                                 
           <bibl><ref target="#http://www.base-search.net/index.php?q=%20%20Le%20Pitture%20Antiche%20D%27Ercolano%20E%20Contorni%20Incise%20Con%20Qualche%20Spiegazione">Pitture d´ercolano.</ref></bibl> pag. <ref target="#p82">82</ref>. <lb/>
           <bibl><ref target="#http://arachne.uni-koeln.de/books/Perrier1638a">Perrier.</ref></bibl> pag. <ref target="#p27">27</ref>. <lb/>
@@ -1119,7 +1116,7 @@
           niani.</ref></bibl> pag. <ref target="#p370">370</ref>. <lb/>
           <bibl><ref target="#http://d-nb.info/gnd/4202886-3">Propertius.</ref></bibl> pag. <ref target="#p117">117</ref>.</emph></p></div><cb/>
           <div><head><emph><hi rend="double underline">Q.</hi></emph></head>
-          <p><emph><bibl><ref target="#">Quintilianus.</ref></bibl> pag. <ref target="#p203">203</ref>. <ref target="#p212">212</ref>.</emph></p></div><pb facs="weimar_1_021v.jpg" n="42"/>
+          <p><emph><bibl><ref target="#">Quintilianus.</ref></bibl> pag. <ref target="#p203">203</ref>. <ref target="#p212">212</ref>.</emph></p></div><pb n="41"/>
                 
           <div><head><emph>R.</emph></head>
           <p><emph><bibl><ref target="#http://opac.sub.uni-goettingen.de/DB=1/PPNSET?PPN=172154626">Reinei Reineccii Historia Ita- <lb/>
@@ -1180,7 +1177,7 @@
           pag. <ref target="#p366">366</ref>. <lb/>
           <bibl><ref target="#http://katalog.ub.uni-heidelberg.de/titel/ppn803001886">Spence.</ref></bibl> pag. <ref target="#p32">32</ref>. <lb/>
           <bibl><ref target="#">Spence labores Herculis.</ref></bibl> pag. <lb/>
-          <ref target="#p269">269</ref>.<pb facs="weimar_1_022r.jpg" n="43"/>
+          <ref target="#p269">269</ref>.<pb n="42"/>
                        
           <bibl><ref target="#http://www.zvdd.de/dms/load/met/?PPN=urn%3Anbn%3Ade%3Abvb%3A12-bsb10211936-0">Spoos Misc: ant. erudit.</ref></bibl> p. <ref target="#p182">182</ref>. <lb/>
           <bibl><ref target="#http://digi.ub.uni-heidelberg.de/diglit/spon1683">Spoos Recherches curieuses.</ref></bibl> p. <lb/>
@@ -1215,7 +1212,7 @@
           <bibl><ref target="#http://arachne.uni-koeln.de/books/Tristan1657Vol1">Tristan (Iean) Commentaires <lb/>
           his loriques.</ref></bibl> pag. <ref target="#p347">347</ref>. <lb/>
           <bibl><ref target="#http://arachne.uni-koeln.de/books/Turnbull1740">Turnbull ancient painting.</ref></bibl> p. <lb/>
-          <ref target="#p354">354</ref>.</emph></p></div><pb facs="weimar_1_022v.jpg" n="44"/>
+          <ref target="#p354">354</ref>.</emph></p></div><pb n="43"/>
                 
                              <div><head><emph><hi rend="double underline">U.</hi></emph></head>
                              <p><emph><bibl><ref target="#http://digi.ub.uni-heidelberg.de/diglit/ursinus1570">Ursinus. illustrium imagi- <lb/>
@@ -1239,7 +1236,7 @@
                             <ref target="#p351">351</ref>. <lb/>
                             <bibl><ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN663517230">Vettori. diss. glyptogr.</ref></bibl> pag. <ref target="#p293">293</ref>. <lb/>
                             <bibl><ref target="#http://d-nb.info/gnd/4099391-7">Virgilius. Aeneid.</ref></bibl> pag.
-                            <ref target="#p91">91</ref>.</emph></p></div><pb facs="weimar_1_023r.jpg" n="45"/>
+                            <ref target="#p91">91</ref>.</emph></p></div><pb n="44"/>
                
           <div><head><emph><hi rend="double underline">W.</hi></emph></head>
           <p><emph><bibl><ref target="#">Warburton. divine leg. of Mo- <lb/>
@@ -1259,12 +1256,12 @@
           pag. <ref target="#p315">315</ref>. <lb/>
           <bibl><ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN663097282">Zanotti (Giamo Pietro Caraz- <lb/>
           zone.) Incaminamento al- <lb/>
-          la Pittura.</ref></bibl> pag. <ref target="#p352">352</ref>.</emph></p></div><pb facs="weimar_1_023v.jpg" n="46"/>   
+          la Pittura.</ref></bibl> pag. <ref target="#p352">352</ref>.</emph></p></div><pb n="45"/>   
                 
-                <pb facs="weimar_1_024r.jpg" n="47"/>
-                <pb facs="weimar_1_024v.jpg" n="48"/>
-                <pb facs="weimar_1_025r.jpg" n="49"/>
-                <pb facs="weimar_1_025v.jpg" n="50"/></div>
+                <pb n="46"/>
+                <pb n="47"/>
+                <pb n="48"/>
+                <pb n="49"/></div>
         <div><div><head><hi rend="double underline">Vorerinnerung</hi></head>
             <div><head><hi rend="double underline">I. Abschnitt</hi></head>
             <p><emph>Einige Sätze in welchen die Gegen-</emph> <lb/>
@@ -1294,7 +1291,7 @@
             <hi rend="underline">gehende</hi>, Gebehrden, Bewegungen, <lb/>
             Ton. Unter den vorübergehen- <lb/>
             den herrschet mehrentheils eine Ver- <lb/>
-                mischung, und die sich darauf grün-<pb facs="weimar_1_026r.jpg" n="51"/>
+                mischung, und die sich darauf grün-<pb n="50"/>
                 
             gründende Künste, helfen sich un- <lb/>
             tereinander selbst. Oder <hi rend="underline">dau</hi>- <lb/>
@@ -7868,7 +7865,7 @@
                                                     <emph>Seculo</emph></date> noch herrliche Überbleibsel der al- <lb/>
                                                     ten Kunst zu <emph><placeName ref="#GettyID:7002473">Constantinopel</placeName></emph> zur Zeit des <lb/>
                                                     <emph><persName ref="#CerlID:cnp00955752">Zetza</persName></emph> war noch der <term><emph><persName ref="#CerlID:cnp00542641">Apoll</persName></emph> des <emph><persName ref="#CerlID:cnp00562418">Phidias</persName></emph><note type="certainty" resp="Wiegel">literarisch überliefert</note></term> im <lb/>
-                                                    Kaißerl<expan>ichen</expan> Pallast. Der <term><persName ref="#CerlID:cnp00574918">Herkules</persName> vom <emph><persName ref="#CerlID:cnp01288186">Ageladas</persName></emph><note type="certainty" resp="Wiegel">literarisch überliefert</note>></term> <lb/>
+                                                    Kaißerl<expan>ichen</expan> Pallast. Der <term><persName ref="#CerlID:cnp00574918">Herkules</persName> vom <emph><persName ref="#CerlID:cnp01288186">Ageladas</persName></emph><note type="certainty" resp="Wiegel">literarisch überliefert</note>&gt;</term> <lb/>
                                                     dem Meister des <emph><persName ref="#CerlID:cnp00562418">Phidias</persName></emph>, und <term>die <emph><persName ref="#CerlID:cnp00542952">Pallas</persName></emph> von <lb/>
                                                         <emph>Lindus</emph><note type="certainty" resp="Wiegel">literarisch überliefert</note></term> aus der Insel <emph><placeName ref="#GettyID:7011266">Rhodus</placeName></emph>. Alles das gieng<pb/>
                                                     
@@ -16078,16 +16075,16 @@
                                      p. <ref target="#p9">9</ref>. deßen Kunstgeschichte mangelhaft. p. <ref target="#p19">19</ref>. <lb/>
                                      Wölfinn (die säugende) mit dem <emph><persName ref="#CerlID:cnp00545090">Romulus</persName></emph> <lb/>
                                      und <emph><persName ref="#CerlID:cnp00545090">Remus</persName></emph>. <emph>pag.</emph> <ref target="#p145">145</ref>.<lb/></p>
-     <pb facs="weimar_1_242r.jpg" n="483"/>
-    <pb facs="weimar_1_242v.jpg" n="484"/>
-    <pb facs="weimar_1_243r.jpg" n="485"/>
-    <pb facs="weimar_1_243v.jpg" n="486"/>
-    <pb facs="weimar_1_244r.jpg" n="487"/>
-    <pb facs="weimar_1_244v.jpg" n="488"/>
-    <pb facs="weimar_1_245r.jpg" n="489"/>
-    <pb facs="weimar_1_245v.jpg" n="490"/>
-    <pb facs="weimar_1_246r.jpg" n="491"/>
-    <pb facs="weimar_1_246v.jpg" n="492"/>
+     <pb n="482"/>
+    <pb n="483"/>
+    <pb n="484"/>
+    <pb n="485"/>
+    <pb n="486"/>
+    <pb n="487"/>
+    <pb n="488"/>
+    <pb n="489"/>
+    <pb n="490"/>
+    <pb n="491"/>
 </div></div></div>
         </body>
     </text>
