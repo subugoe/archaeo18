@@ -70,7 +70,7 @@
 											<li id="dresden_1794" class="scriptList"><a href="#">Vorlesungsmitschrift 1794 (Dresden)</a></li>
 											<li id="göttingen_1773" class="scriptList"><a href="#">Vorlesungsmitschrift 1773 (Göttingen)</a></li>
 											<li id="göttingen_1803" class="scriptList"><a href="#">Vorlesungsmitschrift 1803 (Göttingen)</a></li>
-											<li id="kopenhagen_1789_1792" class="scriptList"><a href="#">Vorlesungsmitschrift 1803 (Göttingen)</a></li>
+											<li id="kopenhagen_1789_1792" class="scriptList"><a href="#">Vorlesungsmitschrift 1803 (Kopenhagen)</a></li>
 											<li id="london_1791" class="scriptList"><a href="#">Vorlesungsmitschrift 1791 (London)</a></li>
 											<li id="moskau_1803" class="scriptList"><a href="#">Vorlesungsmitschrift 1803 (Moskau)</a></li>
 											<li id="paris_1793" class="scriptList"><a href="#">Vorlesungsmitschrift 1793 (Paris)</a></li>
