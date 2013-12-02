@@ -132,8 +132,14 @@
   <property name="data.kml-pages.dir" value="${data.dir}kml-pages/"/>
   <property name="data.cloud-pages.dir" value="${data.dir}cloud-pages/"/>
   <property name="data.mets.dir" value="${data.dir}mets/"/>
+  <property name="data.indices.dir" value="${data.dir}indices/"/>
+  <property name="data.cloud.dir" value="${data.dir}cloud/"/>
   <property name="empty.xml" value="${data.dir}empty.xml"/>
   <property name="data.manuscripts.directory" value="./content/manuscripts/"/>
+  <property name="data.indices.persName.file" value="${data.indices.dir}tei:persName.xhtml"/>
+  <property name="data.indices.placeName.file" value="${data.indices.dir}tei:placeName.xhtml"/>
+  <property name="data.indices.term.file" value="${data.indices.dir}tei:term.xhtml"/>
+  <property name="data.indices.bibl.file" value="${data.indices.dir}tei:bibl.xhtml"/>
 
   <!-- Stylesheets -->
   <property name="xslt.enrich" value="./ropen-backend/src/main/xslt/transformations/import/import.xsl"/>
@@ -497,6 +503,8 @@
     <mkdir dir="${data.tei-pages.dir}"/>
     <mkdir dir="${data.xhtml-pages.dir}"/>
     <mkdir dir="${data.mets.dir}"/>
+    <mkdir dir="${data.indices.dir}"/>
+    <mkdir dir="${data.cloud.dir}"/>
   </target>
 
   <target name="data.dir.clean">
@@ -504,6 +512,8 @@
     <delete dir="${data.tei-pages.dir}"/>
     <delete dir="${data.xhtml-pages.dir}"/>
     <delete dir="${data.mets.dir}"/>
+    <delete dir="${data.indices.dir}"/>
+    <delete dir="${data.cloud.dir}"/>
   </target>
   
   <!-- Alias -->
@@ -558,19 +568,19 @@
       params="collection-param=${basedir}/${data.tei-enriched.dir} entity-param=TEI:placeName mode-param=cloud"/>
     <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}" destfile="${exist.cloud.term.local}"
       params="collection-param=${basedir}/${data.tei-enriched.dir} entity-param=TEI:term mode-param=cloud"/>
+    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}" destfile="${exist.cloud.bibl.local}"
+      params="collection-param=${basedir}/${data.tei-enriched.dir} entity-param=TEI:bibl mode-param=cloud"/>
   </target>
 
   <target name="data.generate.index" depends="salvador.saxon.install, data.enrich">
-    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}" destfile="${exist.entities.persName.local}"
+    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}" destfile="${data.indices.persName.file}"
       params="collection-param=${basedir}/${data.tei-enriched.dir} entity-param=TEI:persName mode-param=xhtml"/>
-    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}" destfile="${exist.entities.placeName.local}"
+    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}" destfile="${data.indices.placeName.file}"
       params="collection-param=${basedir}/${data.tei-enriched.dir} entity-param=TEI:placeName mode-param=xhtml"/>
-    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}" destfile="${exist.entities.term.local}"
+    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}" destfile="${data.indices.term.file}"
       params="collection-param=${basedir}/${data.tei-enriched.dir} entity-param=TEI:term mode-param=xhtml"/>
-    <!--
-      TODO: Index of Books still missing
-    <salvador.saxon.xslt in="" xslt="" dest="${exist.entities.bibl.local}"/>
-    -->
+    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}" destfile="${data.indices.bibl.file}"
+      params="collection-param=${basedir}/${data.tei-enriched.dir} entity-param=TEI:bibl mode-param=xhtml"/>
   </target>
 
   <!-- Target for all data -->
