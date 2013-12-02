@@ -2,8 +2,8 @@
 <docs>
     <doc>
         <id>null</id>
-        <title>Generate ste staic document listing by running 'ant data.generate'</title>
-        <titleShort>Generate ste staic document listing by running 'ant data.generate'</titleShort>
+        <title>Generate the static document listing by running 'ant data.generate'</title>
+        <titleShort>Generate the static document listing by running 'ant data.generate'</titleShort>
         <preview>/Public/Images/content-handschrift1.png</preview>
         <tei>/content/docs/list-docs.xml</tei>
         <teiEnriched>/content/docs/list-docs.xml</teiEnriched>
