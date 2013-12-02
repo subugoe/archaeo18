@@ -124,7 +124,7 @@
   <property name="exist.search.local" value="${data.download.dir.search}/search.xq$query=Trajan&amp;mode=xhtml"/>
 
   <!-- Data hanadling -->
-  <property name="data.dir" value="./data/"/>
+  <property name="data.dir" value="./content/"/>
   <property name="data.tei.dir" value="${data.dir}tei/"/>
   <property name="data.tei-enriched.dir" value="${data.dir}tei-enriched/"/>
   <property name="data.tei-pages.dir" value="${data.dir}tei-pages/"/>
