@@ -32,7 +32,7 @@ jedoch noch nicht vollständig erschlossen:
     Signatur „Mss.h.h.XLV.86.1-3“
 -   **[Det Kongelige Bibliotek,
     Kopenhagen](http://www.kb.dk/da/index.html "Det Kongelige Bibliotek, Kopenhagen“")**:
-    Signatur „Kall 324 kvart“
+    Signatur „NKS 420 c kvart“
 -   **[Goethe- und Schiller-Archiv – Klassik Stiftung
     Weimar](http://www.klassik-stiftung.de/einrichtungen/goethe-und-schiller-archiv/ "Goethe- und Schiller-Archiv – Klassik Stiftung Weimar")**:
     Signatur „GSA 36/III,13“
