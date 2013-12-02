@@ -55,20 +55,20 @@
 									<li id="index" class="scriptList">
 										<a href="#">Allgemeine Informationen</a><span class="icon-youtube-play"></span>
 									</li>
-
-									<li id="berlin-ms-germ-qrt-1666" class="scriptList">
-										<a href="#">Vorlesungsmitschrift 1775 (Berlin)</a>
+									<li class="scriptSubHeader">Transkribierte Vorlesungsmitschriften
+										<ul>
+											<li id="berlin-ms-germ-qrt-1666" class="scriptList"><a href="#">Vorlesungsmitschrift 1775 (Berlin)</a></li>
+											<li id="rom-heyne1798" class="scriptList"><a href="#">Vorlesungsmitschrift 1798 (Rom)</a></li>
+											<li id="weimar-hs-2056" class="scriptList"><a href="#">Vorlesungsmitschrift 1772 (Weimar)</a></li>
+											<li id="bern-mss-muel-507" class="scriptList"><a href="#">Vorlesungsmitschrift 1780 (Bern)</a></li>
+										</ul>
 									</li>
-
-									<li id="rom-heyne1798" class="scriptList"><a href="#">
-											Vorlesungsmitschrift 1798 (Rom)</a></li>
-
-									<li id="weimar-hs-2056" class="scriptList"><a href="#">
-											Vorlesungsmitschrift 1772 (Weimar)</a></li>
-
-									<li id="bern-mss-muel-507" class="scriptList"><a href="#">
-											Vorlesungsmitschrift 1780 (Bern)</a></li>
-
+									<li class="scriptSubHeader">Untranskribierte Vorlesungsmitschriften
+										<ul>
+											<li id="bern_1785" class="scriptList"><a href="#">Vorlesungsmitschrift 1785 (Bern)</a></li>
+											<li id="darmstadt_1772" class="scriptList"><a href="#">Vorlesungsmitschrift 1772 (Darmstadt)</a></li>
+										</ul>
+									</li>
 								</ul>
 							</div>
 

@@ -186,6 +186,9 @@
   float: right;
 }
 
+#manuscripts_page .scriptSubHeader {
+  margin-top: 1em;
+}
 #manuscripts_page .scriptContainer h3 {
   margin-top: 10px;
 }
