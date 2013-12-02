@@ -61,6 +61,7 @@
 									<li id="weimar-hs-2056" class="scriptList"><a href="#">Vorlesungsmitschrift 1772 (Weimar)</a></li>
 									<li id="bern-mss-muel-507" class="scriptList"><a href="#">Vorlesungsmitschrift 1780 (Bern)</a></li>
 									<li id="bern_1785" class="scriptList"><a href="#">Vorlesungsmitschrift 1785 (Bern)</a></li>
+									<li id="darmstadt_1772" class="scriptList"><a href="#">Vorlesungsmitschrift 1772 (Darmstadt)</a></li>
 								</ul>
 							</div>
 
