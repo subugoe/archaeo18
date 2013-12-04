@@ -13,6 +13,6 @@
 		"mapQuery":		"/exist/rest/db/archaeo18/queries/experimental/listEntities.xq?facet=FACET_ID&format=kml",
 		"tagcloudPageQuery":	"/exist/rest/db/archaeo18/queries/getText.xq?doc=DOC_ID&page=PAGE_ID&format=cloud&facet=FACET_ID",
 		"kmlQuery": 		"/exist/rest/db/archaeo18/queries/getText.xq?format=kml&doc=DOC_ID&page=PAGE_ID",
-		"teiUri": 		"/exist/rest/db/archaeo18/data/tei/DOC_ID.xml",
-		"metsUri": 		"/exist/rest/db/archaeo18/data/mets/DOC_ID.mets.xml"
+		"teiUri": 		"content/app/tei/DOC_ID.xml",
+		"metsUri": 		"content/app/mets/DOC_ID.mets.xml"
 }
