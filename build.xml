@@ -22,6 +22,7 @@
   <import file="./build/modules/sass.xml"/>
   <import file="./build/modules/tinypng.xml"/>
   <import file="./build/modules/saxon.xml"/>
+  <import file="./build/modules/solr.xml"/>
 
   <!-- 
   #######################################################
@@ -124,12 +125,23 @@
   <property name="exist.search.local" value="${data.download.dir.search}/search.xq$query=Trajan&amp;mode=xhtml"/>
 
   <!-- Data hanadling -->
-  <property name="data.dir" value="./data/"/>
+  <property name="data.dir" value="./content/app/"/>
   <property name="data.tei.dir" value="${data.dir}tei/"/>
   <property name="data.tei-enriched.dir" value="${data.dir}tei-enriched/"/>
+  <property name="data.tei-pages.dir" value="${data.dir}tei-pages/"/>
+  <property name="data.xhtml-pages.dir" value="${data.dir}xhtml-pages/"/>
+  <property name="data.kml-pages.dir" value="${data.dir}kml-pages/"/>
+  <property name="data.cloud-pages.dir" value="${data.dir}cloud-pages/"/>
   <property name="data.mets.dir" value="${data.dir}mets/"/>
-  <property name="empty.xml" value="${data.dir}empty.xml"/>
+  <property name="data.indices.dir" value="${data.dir}indices/"/>
+  <property name="data.cloud.dir" value="${data.dir}cloud/"/>
+  <property name="empty.xml" value="./Resources/Private/Xml/empty.xml"/>
   <property name="data.manuscripts.directory" value="./content/manuscripts/"/>
+  <property name="data.indices.persName.file" value="${data.indices.dir}tei:persName.xhtml"/>
+  <property name="data.indices.placeName.file" value="${data.indices.dir}tei:placeName.xhtml"/>
+  <property name="data.indices.term.file" value="${data.indices.dir}tei:term.xhtml"/>
+  <property name="data.indices.bibl.file" value="${data.indices.dir}tei:bibl.xhtml"/>
+  <property name="data.docs.list" value="${data.dir}docs/list-docs.xml"/>
 
   <!-- Stylesheets -->
   <property name="xslt.enrich" value="./ropen-backend/src/main/xslt/transformations/import/import.xsl"/>
@@ -154,7 +166,8 @@
     <echo>ant war.dist - War file for deployment (alias war)</echo>
     <echo>ant war.run - Run War file in jetty (for debugging the war cration process)</echo>
     <echo>ant serve - serve the contents of this project using Jetty</echo>
-    <echo>ant data.download - get new testdatea from the server</echo>
+    <echo>ant data.download - get new testdata from the server (shouldn't be used anymore)</echo>
+    <echo>ant data.generate - generates the Testdata</echo>
   </target>
 
   <!-- Creates the needed directories -->
@@ -181,8 +194,9 @@
   #######################################################
   # Downloads the test data from eXist 
   #######################################################
+  entities are disabled, they can be generated now
   -->
-  <target name="data.download" depends="data.download.entities, data.download.kml, data.download.cloud, data.download.docs, data.download.search"/>
+  <target name="data.download" depends="data.download.kml, data.download.cloud, data.download.docs, data.download.search"/>
 
   <target name="data.download.kml">
     <get src="${exist.kml.placeName.url}" dest="${exist.kml.placeName.local}" verbose="on"/>
@@ -192,13 +206,6 @@
     <get src="${exist.cloud.persName.url}" dest="${exist.cloud.persName.local}" verbose="on"/>
     <get src="${exist.cloud.placeName.url}" dest="${exist.cloud.placeName.local}" verbose="on"/>
     <get src="${exist.cloud.term.url}" dest="${exist.cloud.term.local}" verbose="on"/>
-  </target>
-
-  <target name="data.download.entities">
-    <get src="${exist.entities.persName.url}" dest="${exist.entities.persName.local}" verbose="on"/>
-    <get src="${exist.entities.placeName.url}" dest="${exist.entities.placeName.local}" verbose="on"/>
-    <get src="${exist.entities.term.url}" dest="${exist.entities.term.local}" verbose="on"/>
-    <get src="${exist.entities.bibl.url}" dest="${exist.entities.bibl.local}" verbose="on"/>
   </target>
 
   <target name="data.download.docs">
@@ -485,25 +492,43 @@
 
   <!-- 
   #######################################################
+  # Solr handling
+  #######################################################
+  -->
+  <target name="solr" depends="salvador.solr.download"></target>
+
+  <!-- 
+  #######################################################
   # Generate Data
   #######################################################
   -->
   <target name="data.dirs">
     <mkdir dir="${data.tei-enriched.dir}"/>
+    <mkdir dir="${data.tei-pages.dir}"/>
+    <mkdir dir="${data.xhtml-pages.dir}"/>
     <mkdir dir="${data.mets.dir}"/>
+    <mkdir dir="${data.indices.dir}"/>
+    <mkdir dir="${data.cloud.dir}"/>
   </target>
 
   <target name="data.dir.clean">
     <delete dir="${data.tei-enriched.dir}"/>
+    <delete dir="${data.tei-pages.dir}"/>
+    <delete dir="${data.xhtml-pages.dir}"/>
     <delete dir="${data.mets.dir}"/>
+    <delete dir="${data.indices.dir}"/>
+    <delete dir="${data.cloud.dir}"/>
   </target>
+  
+  <!-- Alias -->
+  <target name="data.clean" depends="data.dir.clean"/>
 
   <target name="data.statistics" depends="salvador.saxon.install, init">
     <property name="data.statistics.output" value="${target.dir}/statistics-report.xhtml"/>
     <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.statistics}" destfile="${data.statistics.output}" params="collection=${basedir}/${data.tei.dir}"/>
   </target>
 
-  <target name="data.enrich" depends="data.enrich.check, salvador.saxon.install, init" unless="data.entiched.fileset.empty">
+  <target name="data.enrich" depends="data.dirs, data.enrich.check, salvador.saxon.install, init" unless="data.entiched.fileset.empty">
     <property name="data.enrich.output" value="${target.dir}/enrichment-report.xhtml"/>
     <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.enrich}" destfile="${data.enrich.output}"
       params="collection=${basedir}/${data.tei.dir} mets-collection=${basedir}/${data.mets.dir} tei-enriched-collection=${basedir}/${data.tei-enriched.dir}"/>
@@ -513,10 +538,15 @@
   <target name="data.generate.mets" depends="data.enrich"/>
 
   <!-- Page splitting -->
-  <target name="data.tei.split" depends="data.enrich">
-    <!-- TODO: Fix this -->
-    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.statistics}" destfile="${data.statistics.output}" params="collection=${basedir}/${data.tei.dir}"/>
+  <target name="data.split" depends="data.enrich, data.dirs">
+    <property name="data.split.output" value="${target.dir}/split-report.xhtml"/>
+    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.split}" destfile="${data.split.output}" params="input-collection=${basedir}/${data.tei-enriched.dir} output-collection=${basedir}/${data.tei-pages.dir} mode=tei"/>
+    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.split}" destfile="${data.split.output}" params="input-collection=${basedir}/${data.tei-enriched.dir} output-collection=${basedir}/${data.xhtml-pages.dir} mode=xhtml"/>
   </target>
+  
+  <!-- Aliases -->
+  <target name="data.tei.split" depends="data.split"/>
+  <target name="data.xhtml.split" depends="data.split"/>
 
   <target name="data.generate.descriptions" depends="salvador.saxon.install, init">
     <property name="data.descriptions.output" value="${target.dir}/descriptions-report.xhtml"/>
@@ -542,19 +572,19 @@
       params="collection-param=${basedir}/${data.tei-enriched.dir} entity-param=TEI:placeName mode-param=cloud"/>
     <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}" destfile="${exist.cloud.term.local}"
       params="collection-param=${basedir}/${data.tei-enriched.dir} entity-param=TEI:term mode-param=cloud"/>
+    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}" destfile="${exist.cloud.bibl.local}"
+      params="collection-param=${basedir}/${data.tei-enriched.dir} entity-param=TEI:bibl mode-param=cloud"/>
   </target>
 
   <target name="data.generate.index" depends="salvador.saxon.install, data.enrich">
-    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}" destfile="${exist.entities.persName.local}"
+    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}" destfile="${data.indices.persName.file}"
       params="collection-param=${basedir}/${data.tei-enriched.dir} entity-param=TEI:persName mode-param=xhtml"/>
-    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}" destfile="${exist.entities.placeName.local}"
+    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}" destfile="${data.indices.placeName.file}"
       params="collection-param=${basedir}/${data.tei-enriched.dir} entity-param=TEI:placeName mode-param=xhtml"/>
-    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}" destfile="${exist.entities.term.local}"
+    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}" destfile="${data.indices.term.file}"
       params="collection-param=${basedir}/${data.tei-enriched.dir} entity-param=TEI:term mode-param=xhtml"/>
-    <!--
-      TODO: Index of Books still missing
-    <salvador.saxon.xslt in="" xslt="" dest="${exist.entities.bibl.local}"/>
-    -->
+    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}" destfile="${data.indices.bibl.file}"
+      params="collection-param=${basedir}/${data.tei-enriched.dir} entity-param=TEI:bibl mode-param=xhtml"/>
   </target>
 
   <!-- Target for all data -->
