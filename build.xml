@@ -22,6 +22,7 @@
   <import file="./build/modules/sass.xml"/>
   <import file="./build/modules/tinypng.xml"/>
   <import file="./build/modules/saxon.xml"/>
+  <import file="./build/modules/solr.xml"/>
 
   <!-- 
   #######################################################
@@ -124,7 +125,7 @@
   <property name="exist.search.local" value="${data.download.dir.search}/search.xq$query=Trajan&amp;mode=xhtml"/>
 
   <!-- Data hanadling -->
-  <property name="data.dir" value="./content/"/>
+  <property name="data.dir" value="./content/app/"/>
   <property name="data.tei.dir" value="${data.dir}tei/"/>
   <property name="data.tei-enriched.dir" value="${data.dir}tei-enriched/"/>
   <property name="data.tei-pages.dir" value="${data.dir}tei-pages/"/>
@@ -140,6 +141,7 @@
   <property name="data.indices.placeName.file" value="${data.indices.dir}tei:placeName.xhtml"/>
   <property name="data.indices.term.file" value="${data.indices.dir}tei:term.xhtml"/>
   <property name="data.indices.bibl.file" value="${data.indices.dir}tei:bibl.xhtml"/>
+  <property name="data.docs.list" value="${data.dir}docs/list-docs.xml"/>
 
   <!-- Stylesheets -->
   <property name="xslt.enrich" value="./ropen-backend/src/main/xslt/transformations/import/import.xsl"/>
@@ -487,6 +489,13 @@
   <target name="jsdoc" depends="salvador.js.jsdoctoolkit.install">
     <!-- See http://www.kajabity.com/2012/02/automating-jsdoc-with-apache-ant/ -->
   </target>
+
+  <!-- 
+  #######################################################
+  # Solr handling
+  #######################################################
+  -->
+  <target name="solr" depends="salvador.solr.download"></target>
 
   <!-- 
   #######################################################
