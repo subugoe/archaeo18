@@ -218,12 +218,13 @@
                 <xsl:value-of select="1"></xsl:value-of>
             </xsl:when>
             <!-- No numbers -->
-            <xsl:when test="not($node/preceding::TEI:pb[1]/@n)">
-                <xsl:value-of select="count($node/preceding::TEI:pb) + 1"></xsl:value-of>
-            </xsl:when>
             <xsl:otherwise>
-                <xsl:value-of select="$node/preceding::TEI:pb[1]/@n"></xsl:value-of>
-            </xsl:otherwise>
+<!--             <xsl:when test="not($node/preceding::TEI:pb[1]/@n)"> -->
+                <xsl:value-of select="count($node/preceding::TEI:pb) + 1"></xsl:value-of>
+            <!-- </xsl:when> -->
+            <!-- <xsl:otherwise>     stimmt nicht immer mit der sum preceding::TEI:pb ueberein
+                <xsl:value-of select="$node/preceding::TEI:pb[1]/@n"></xsl:value-of> -->
+            </xsl:otherwise> 
         </xsl:choose>
     </xsl:function>
 
