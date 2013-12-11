@@ -9,11 +9,12 @@
         </xd:desc>
     </xd:doc>
     <!-- Name of the document -->
-    <xsl:param name="document"/>
+    <xsl:param name="document" as="xs:string"/>
     <!-- Guess document name, this uses the document-uri function -->
     <xsl:param name="use-uri" as="xs:boolean" select="true()"></xsl:param>
     <!-- For one document per page set this to 'page' otherwise a solr doc is generated per document structure -->
     <xsl:param name="mode" as="xs:string" select="'structure'"/>
+    <!-- This only works for text nodes: cdata-section-elements="field" -->
     <xsl:output method="xml" indent="yes"/>
     <xsl:strip-space elements="TEI:placeName TEI:persName TEI:addName TEI:bibl TEI:note TEI:head"/>
     <xsl:template match="//TEI:body">
