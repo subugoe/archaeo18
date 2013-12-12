@@ -8,50 +8,48 @@
     
     
     <xsl:template match="/response">
-
-            <xsl:text>    
-            </xsl:text>
         <xsl:for-each-group select="result/doc" group-by="str[@name='document']">
             <xsl:value-of select="str[@name='document']" />
             <xsl:text>    
             </xsl:text>
-                        
-            <xsl:apply-templates select="current-group()"> 
-            <xsl:sort select="str[@name='path']" data-type="text" order="ascending" />  
-            </xsl:apply-templates>
-            <xsl:text>
-            </xsl:text>
+            <xsl:variable name="sequence" as="element(doc)+" >
+                <xsl:perform-sort select="current-group()">
+                    <xsl:sort select="str[@name='path']" order="ascending"/>
+                    </xsl:perform-sort>
+            </xsl:variable>
+            <xsl:for-each select="current-group()">
+                <xsl:sort select="str[@name='path']" data-type="text" order="ascending" />  
+                <xsl:variable name="next" select="position()+1" />      
+                <xsl:choose>
+                    <xsl:when test="not(contains($sequence[$next]/str[@name='path'], ./str[@name='path']))" >
+                      <xsl:apply-templates  select="."/>
+                    </xsl:when>
+                </xsl:choose>
+            </xsl:for-each>  
         </xsl:for-each-group>
-        
     </xsl:template>
         
-        
-            <xsl:template match="doc">
-                <xsl:variable name="sequence" select="current-group()" />
-                <xsl:variable name="next" select="position()+1" />
-         
-             <!--   <xsl:choose>
-                    <xsl:when test="not(contains($sequence[$next]/str[@name='path'], ./str[@name='path']))" >-->
+
+         <xsl:template match="doc">        
                         <xsl:text>    </xsl:text>
                         <xsl:value-of select="./str[@name='path']"/>
                         <xsl:text>    </xsl:text>
                         <xsl:value-of select="./str[@name='page-nr']"/>
-                        <xsl:text>    
+                      <xsl:text>    
                             </xsl:text>                        
-                        <!-- <xsl:value-of select="./str[@name='content']"/>
+             <!-- <xsl:value-of select="./str[@name='content']"/>
                        
                         <xsl:text>    
-                            
-                            
-                            
-                            
-                           
+                       
            </xsl:text>-->
-<!--                    </xsl:when>
-                </xsl:choose> -->
-            </xsl:template>
-         
-  
+    </xsl:template>
+                            
+
+
+
+
+
+
         
     
 </xsl:stylesheet>
