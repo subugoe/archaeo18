@@ -9,14 +9,11 @@
         </xd:desc>
     </xd:doc>
     <!-- Name of the document -->
-    <xsl:param name="document" as="xs:string"/>
+    <xsl:param name="document"/>
     <!-- Guess document name, this uses the document-uri function -->
-    <xsl:param name="use-uri" as="xs:boolean" select="true()"/>
+    <xsl:param name="use-uri" as="xs:boolean" select="true()"></xsl:param>
     <!-- For one document per page set this to 'page' otherwise a solr doc is generated per document structure -->
     <xsl:param name="mode" as="xs:string" select="'structure'"/>
-    <!-- Should Pagenumbers be counted or taken from input file -->
-    <xsl:param name="count-pages" select="true()" as="xs:boolean"/>
-    <!-- This only works for text nodes: cdata-section-elements="field" -->
     <xsl:output method="xml" indent="yes"/>
     <xsl:strip-space elements="TEI:placeName TEI:persName TEI:addName TEI:bibl TEI:note TEI:head"/>
     <xsl:template match="//TEI:body">
@@ -67,7 +64,7 @@
                 </xsl:when>
                 <!-- Structure mode -->
                 <xsl:otherwise>
-                    <xsl:for-each select="//TEI:div|TEI:p">
+                    <xsl:for-each select="//TEI:div|//TEI:p">
                         <!-- TODO: check if there are page breaks in here an generate a <doc/> for each page -->
                         <doc>
                             <xsl:variable name="id" select="concat(a18:document-name(.), '-', generate-id(.))"/>
@@ -99,7 +96,7 @@
                                 <xsl:text disable-output-escaping="yes">&lt;![CDATA[</xsl:text>
                                 <xsl:copy-of select="."/>
                                 <xsl:text disable-output-escaping="yes">]]&gt;</xsl:text>
-
+ 
                             </field>
                         </doc>
                     </xsl:for-each>
@@ -129,7 +126,7 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:function>
-
+    
     <!-- Get file name of a node -->
     <xsl:function name="a18:document-name" as="xs:string">
         <xsl:param name="node" as="node()"/>
@@ -142,9 +139,9 @@
                 <xsl:value-of select="''"/>
             </xsl:otherwise>
         </xsl:choose>
-    </xsl:function>
-
-    <!--    <xsl:function name="a18:document-name">
+    </xsl:function>    
+    
+<!--    <xsl:function name="a18:document-name">
         <xsl:param name="node" as="node()"></xsl:param>
         <xsl:choose>
             <xsl:when test="$use-uri">
@@ -193,7 +190,7 @@
             <xsl:when test="$numbers">
                 <xsl:for-each select="$node/ancestor::*">
                     <xsl:value-of select="name()"/>
-                    <xsl:variable name="parent" select="."/>
+                    <xsl:variable name="parent" select="."></xsl:variable>
                     <xsl:variable name="siblings" select="count(preceding-sibling::*[name()=name($parent)])"/>
                     <xsl:if test="$siblings">
                         <xsl:value-of select="concat('[', $siblings + 1, ']')"/>
@@ -212,23 +209,22 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:function>
-
-    <xsl:function name="a18:get-page-nr" as="xs:integer">
-        <xsl:param name="node" as="node()"/>
+    
+    <xsl:function name="a18:get-page-nr" as="xs:string">
+        <xsl:param name="node" as="node()"></xsl:param>
         <xsl:choose>
             <!-- First page -->
             <xsl:when test="not($node/preceding::TEI:pb)">
-                <xsl:value-of select="1"/>
+                <xsl:value-of select="1"></xsl:value-of>
             </xsl:when>
-            <!--  stimmt nicht immer mit der sum preceding::TEI:pb ueberein -->
-            <xsl:when test="not($count-pages) and $node/preceding::TEI:pb[1]/@n castable as xs:integer">
-                <xsl:value-of select="$node/preceding::TEI:pb[1]/@n"/>
-            </xsl:when>
-            <!-- No numbers or recount -->
-            <!-- $count-pages or not($node/preceding::TEI:pb[1]/@n) -->
+            <!-- No numbers -->
             <xsl:otherwise>
-                <xsl:value-of select="count($node/preceding::TEI:pb) + 1"/>
-            </xsl:otherwise>
+<!--             <xsl:when test="not($node/preceding::TEI:pb[1]/@n)"> -->
+                <xsl:value-of select="count($node/preceding::TEI:pb) + 1"></xsl:value-of>
+            <!-- </xsl:when> -->
+            <!-- <xsl:otherwise>     stimmt nicht immer mit der sum preceding::TEI:pb ueberein
+                <xsl:value-of select="$node/preceding::TEI:pb[1]/@n"></xsl:value-of> -->
+            </xsl:otherwise> 
         </xsl:choose>
     </xsl:function>
 
