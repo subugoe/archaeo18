@@ -135,13 +135,14 @@
   <property name="data.mets.dir" value="${data.dir}mets/"/>
   <property name="data.indices.dir" value="${data.dir}indices/"/>
   <property name="data.cloud.dir" value="${data.dir}cloud/"/>
+  <property name="data.xhtml.structure.dir" value="${data.dir}/xhtml-structure/"/>
   <property name="empty.xml" value="./Resources/Private/Xml/empty.xml"/>
   <property name="data.manuscripts.directory" value="./content/manuscripts/"/>
   <property name="data.indices.persName.file" value="${data.indices.dir}tei:persName.xhtml"/>
   <property name="data.indices.placeName.file" value="${data.indices.dir}tei:placeName.xhtml"/>
   <property name="data.indices.term.file" value="${data.indices.dir}tei:term.xhtml"/>
   <property name="data.indices.bibl.file" value="${data.indices.dir}tei:bibl.xhtml"/>
-  <property name="data.docs.list" value="${data.dir}docs/list-docs.xml"/>
+  <property name="data.docs.list" value="${data.dir}/list-docs.xml"/>
 
   <!-- Stylesheets -->
   <property name="xslt.enrich" value="./ropen-backend/src/main/xslt/transformations/import/import.xsl"/>
@@ -151,6 +152,11 @@
   <property name="xslt.overview" value="./ropen-backend/src/main/xslt/transformations/overview.xsl"/>
   <property name="xslt.list" value="./ropen-backend/src/main/xslt/transformations/list-docs.xsl"/>
   <property name="xslt.split" value="./ropen-backend/src/main/xslt/transformations/split-pages.xsl"/>
+  <property name="xslt.xhtml" value="./ropen-backend/src/main/xslt/transformations/TEI2XHTML.xsl"/>
+  <!-- Solr related Stylesheets -->
+  <!-- TODO, integrate into ropen-backend -->
+  <property name="xslt.solr.synonyms" value="./data/solr/synonymelist.xsl"/>
+  <property name="xslt.solr.docs" value="./data/solr/solr.xsl"/>
 
   <!-- A helper variable that contains the working directory -->
   <property name="cwd" location="."/>
@@ -495,7 +501,30 @@
   # Solr handling
   #######################################################
   -->
-  <target name="solr" depends="salvador.solr.download"></target>
+  <target name="solr.init" depends="init, salvador.solr.download">
+    <property name="solr.dir" value="${target.dir}/sorl"/>
+    <property name="solr.docs.dir" value="${solr.dir}/docs"/>
+    <property name="solr.synonym.list" value="${solr.dir}/synonyms.txt"/>
+    <mkdir dir="${solr.dir}"/>
+    <mkdir dir="${solr.docs.dir}"/>
+  </target>
+
+  <target name="solr.clean">
+    <delete dir="${solr.dir}"/>
+  </target>
+
+  <target name="sol.synonyms" depends="salvador.saxon.install, data.enrich, solr.init">
+    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.solr.synonyms}" destfile="${solr.synonym.list}"
+      params="collection=${basedir}/${data.tei.dir}"
+    />
+  </target>
+
+  <target name="sol.docs" depends="salvador.saxon.install, solr.init">
+    
+    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.enrich}" destfile="${data.enrich.output}"
+      params="collection=${basedir}/${data.tei.dir} mets-collection=${basedir}/${data.mets.dir} tei-enriched-collection=${basedir}/${data.tei-enriched.dir} document-listing=${basedir}/${data.docs.list}"
+    />
+  </target>
 
   <!-- 
   #######################################################
@@ -509,6 +538,7 @@
     <mkdir dir="${data.mets.dir}"/>
     <mkdir dir="${data.indices.dir}"/>
     <mkdir dir="${data.cloud.dir}"/>
+    <mkdir dir="${data.xhtml.structure.dir}"/>
   </target>
 
   <target name="data.dir.clean">
@@ -518,8 +548,9 @@
     <delete dir="${data.mets.dir}"/>
     <delete dir="${data.indices.dir}"/>
     <delete dir="${data.cloud.dir}"/>
+    <delete dir="${data.xhtml.structure.dir}"/>
   </target>
-  
+
   <!-- Alias -->
   <target name="data.clean" depends="data.dir.clean"/>
 
@@ -530,8 +561,20 @@
 
   <target name="data.enrich" depends="data.dirs, data.enrich.check, salvador.saxon.install, init" unless="data.entiched.fileset.empty">
     <property name="data.enrich.output" value="${target.dir}/enrichment-report.xhtml"/>
+    <echo message="Importing TEI"/>
+    <echo message="Input collection: ${basedir}/${data.tei.dir}"/>
+    <echo message="METS collection: ${basedir}/${data.mets.dir}"/>  
+    <echo message="Enriched TEI collection: ${basedir}/${data.tei-enriched.dir}"/>
+    <echo message="Document listing: ${basedir}/${data.docs.list}"/>
+    <echo message="Structure collection: ${basedir}/${data.xhtml.structure.dir}"/>
     <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.enrich}" destfile="${data.enrich.output}"
-      params="collection=${basedir}/${data.tei.dir} mets-collection=${basedir}/${data.mets.dir} tei-enriched-collection=${basedir}/${data.tei-enriched.dir}"/>
+      params="collection=${basedir}/${data.tei.dir} mets-collection=${basedir}/${data.mets.dir} tei-enriched-collection=${basedir}/${data.tei-enriched.dir} document-listing=${basedir}/${data.docs.list} structure-collection=${basedir}/${data.xhtml.structure.dir}"
+    />
+    <!--
+    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.enrich}" destfile="${data.enrich.output}"
+      params="collection=${basedir}/${data.tei.dir} mets-collection=${basedir}/${data.mets.dir} tei-enriched-collection=${basedir}/${data.tei-enriched.dir} document-listing=${basedir}/${data.docs.list} structure-collection=${basedir}/${data.xhtml.structure.dir}"
+    />
+    -->
   </target>
 
   <!-- Alias for METS Files -->
@@ -540,10 +583,12 @@
   <!-- Page splitting -->
   <target name="data.split" depends="data.enrich, data.dirs">
     <property name="data.split.output" value="${target.dir}/split-report.xhtml"/>
-    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.split}" destfile="${data.split.output}" params="input-collection=${basedir}/${data.tei-enriched.dir} output-collection=${basedir}/${data.tei-pages.dir} mode=tei"/>
-    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.split}" destfile="${data.split.output}" params="input-collection=${basedir}/${data.tei-enriched.dir} output-collection=${basedir}/${data.xhtml-pages.dir} mode=xhtml"/>
+    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.split}" destfile="${data.split.output}"
+      params="input-collection=${basedir}/${data.tei-enriched.dir} output-collection=${basedir}/${data.tei-pages.dir} mode=tei"/>
+    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.split}" destfile="${data.split.output}"
+      params="input-collection=${basedir}/${data.tei-enriched.dir} output-collection=${basedir}/${data.xhtml-pages.dir} mode=xhtml"/>
   </target>
-  
+
   <!-- Aliases -->
   <target name="data.tei.split" depends="data.split"/>
   <target name="data.xhtml.split" depends="data.split"/>
