@@ -117,7 +117,6 @@
   <property name="exist.cloud.term.local" value="${data.download.dir.cloud}/listEntities.xq$facet=tei:term&amp;format=cloud"/>
   <!-- Other data like facets -->
   <property name="exist.other.facets.url" value="${exist.queries.url}/getFacets.xq"/>
-  <property name="exist.other.docs.url" value="${exist.queries.url}/listDocs.xquery"/>
   <property name="exist.other.facets.local" value="${data.download.dir.docs}/getFacets.xq"/>
   <property name="exist.other.docs.local" value="${data.download.dir.docs}/listDocs.xquery"/>
   <!-- Search data -->
@@ -135,7 +134,7 @@
   <property name="data.mets.dir" value="${data.dir}mets/"/>
   <property name="data.indices.dir" value="${data.dir}indices/"/>
   <property name="data.cloud.dir" value="${data.dir}cloud/"/>
-  <property name="data.xhtml.structure.dir" value="${data.dir}/xhtml-structure/"/>
+  <property name="data.xhtml.structure.dir" value="${data.dir}/structure/"/>
   <property name="empty.xml" value="./Resources/Private/Xml/empty.xml"/>
   <property name="data.manuscripts.directory" value="./content/manuscripts/"/>
   <property name="data.indices.persName.file" value="${data.indices.dir}tei:persName.xhtml"/>
@@ -202,7 +201,7 @@
   #######################################################
   entities are disabled, they can be generated now
   -->
-  <target name="data.download" depends="data.download.kml, data.download.cloud, data.download.docs, data.download.search"/>
+  <target name="data.download" depends="data.download.kml, data.download.cloud, data.download.docs"/>
 
   <target name="data.download.kml">
     <get src="${exist.kml.placeName.url}" dest="${exist.kml.placeName.local}" verbose="on"/>
@@ -216,20 +215,7 @@
 
   <target name="data.download.docs">
     <get src="${exist.other.facets.url}" dest="${exist.other.facets.local}" verbose="on"/>
-    <get src="${exist.other.docs.url}" dest="${exist.other.docs.local}" verbose="on"/>
   </target>
-
-  <target name="data.download.search">
-    <get src="${exist.search.url}" dest="${exist.search.local}" verbose="on"/>
-  </target>
-
-  <!-- 
-  #######################################################
-  # Downloads image data 
-  #######################################################  
-  -->
-
-  <target name="images.download" depends="data.generate.mets"> </target>
 
 
   <!-- 
