@@ -551,6 +551,22 @@
     <delete dir="${data.xhtml.structure.dir}"/>
   </target>
 
+  <!-- Test if data was generated (but not if it's complete) -->
+  <!-- TODO: Finish this, integrate it with jetty  -->
+  <target name="data.dir.check" depends="init">
+    <condition property="data.dir.exist">
+      <and>
+        <available file="${data.tei-enriched.dir}" type="dir"/>
+        <available file="${data.tei-pages.dir}" type="dir"/>
+        <available file="${data.xhtml-pages.dir}" type="dir"/>
+        <available file="${data.mets.dir}" type="dir"/>
+        <available file="${data.indices.dir}" type="dir"/>
+        <available file="${data.cloud.dir}" type="dir"/>
+        <available file="${data.xhtml.structure.dir}" type="dir"/>
+      </and>
+    </condition>
+  </target>
+
   <!-- Alias -->
   <target name="data.clean" depends="data.dir.clean"/>
 
