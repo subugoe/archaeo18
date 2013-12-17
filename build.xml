@@ -526,7 +526,6 @@
     <mkdir dir="${data.tei-enriched.dir}"/>
     <mkdir dir="${data.tei-pages.dir}"/>
     <mkdir dir="${data.xhtml-pages.dir}"/>
-    <mkdir dir="${data.mets.dir}"/>
     <mkdir dir="${data.indices.dir}"/>
     <mkdir dir="${data.cloud.dir}"/>
     <mkdir dir="${data.xhtml.structure.dir}"/>
@@ -538,6 +537,10 @@
     <delete dir="${data.tei-pages.dir}"/>
     <delete dir="${data.xhtml-pages.dir}"/>
     <delete dir="${data.mets.dir}"/>
+    <!-- Keep the empty METS file -->
+    <delete>
+      <fileset dir="${data.mets.dir}" includes="**/*.xml" excludes="null.xml"/>
+    </delete>
     <delete dir="${data.indices.dir}"/>
     <delete dir="${data.cloud.dir}"/>
     <delete dir="${data.xhtml.structure.dir}"/>
