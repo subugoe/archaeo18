@@ -644,7 +644,7 @@
 
   <!-- Target for all data -->
   <!-- Enable data.generate.kml, -->
-  <target name="data.generate" depends="data.enrich, data.statistics, data.generate.cloud, data.generate.index"/>
+  <target name="data.generate" depends="data.enrich, data.statistics, data.generate.cloud, data.generate.index, data.split"/>
 
 
 </project>
