@@ -135,6 +135,7 @@
   <property name="data.indices.dir" value="${data.dir}indices/"/>
   <property name="data.cloud.dir" value="${data.dir}cloud/"/>
   <property name="data.xhtml.structure.dir" value="${data.dir}/structure/"/>
+  <property name="data.xhtml.dir" value="${data.dir}/xhtml/"/>
   <property name="empty.xml" value="./Resources/Private/Xml/empty.xml"/>
   <property name="data.manuscripts.directory" value="./content/manuscripts/"/>
   <property name="data.indices.persName.file" value="${data.indices.dir}tei:persName.xhtml"/>
@@ -525,6 +526,7 @@
     <mkdir dir="${data.indices.dir}"/>
     <mkdir dir="${data.cloud.dir}"/>
     <mkdir dir="${data.xhtml.structure.dir}"/>
+    <mkdir dir="${data.xhtml.dir}"/>
   </target>
 
   <target name="data.dir.clean">
@@ -535,6 +537,7 @@
     <delete dir="${data.indices.dir}"/>
     <delete dir="${data.cloud.dir}"/>
     <delete dir="${data.xhtml.structure.dir}"/>
+    <delete dir="${data.xhtml.dir}"/>
   </target>
 
   <!-- Test if data was generated (but not if it's complete) -->
@@ -549,6 +552,7 @@
         <available file="${data.indices.dir}" type="dir"/>
         <available file="${data.cloud.dir}" type="dir"/>
         <available file="${data.xhtml.structure.dir}" type="dir"/>
+        <available file="${data.xhtml.dir}" type="dir"/>
       </and>
     </condition>
   </target>
@@ -588,7 +592,7 @@
     <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.split}" destfile="${data.split.output}"
       params="input-collection=${basedir}/${data.tei-enriched.dir} output-collection=${basedir}/${data.tei-pages.dir} mode=tei"/>
     <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.split}" destfile="${data.split.output}"
-      params="input-collection=${basedir}/${data.tei-enriched.dir} output-collection=${basedir}/${data.xhtml-pages.dir} mode=xhtml"/>
+      params="input-collection=${basedir}/${data.tei-enriched.dir} output-collection=${basedir}/${data.xhtml-pages.dir} debug-output-collection=${basedir}/${data.xhtml.dir} mode=xhtml"/>
   </target>
 
   <!-- Aliases -->
