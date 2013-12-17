@@ -2,7 +2,7 @@
 		"hyperlinkWindow":	false,
 		"documentEndpoint": 	"content/app/list-docs.xml",
 		"textQuery": 		"/exist/rest/db/archaeo18/queries/getText.xq?mode=raw&format=xhtml&doc=DOC_ID&page=0",
-		"pageQuery": 		"/exist/rest/db/archaeo18/queries/getText.xq?mode=raw&format=xhtml&doc=DOC_ID&page=PAGE_ID",
+		"pageQuery": 		"content/app/xhtml-pages/DOC_ID-PAGE_ID.xhtml",
 		"outlineQuery": 		"content/app/structure/DOC_ID.xml",
 		"searchQuery": 		"/exist/rest/db/archaeo18/queries/search.xq?query=QUERY_ID&mode=xhtml",
 		"facetsQuery": 		"content/app/facets.xml",
