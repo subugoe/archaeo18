@@ -547,13 +547,11 @@
     <delete dir="${data.xhtml.dir}"/>
   </target>
 
-  <!-- Test if data was generated (but not if it's complete) -->
-  <target name="data.dir.check" depends="init">
+  <!-- Test if data was generated (only existing directories) This will fail if data was once genrated only in prts-->
+  <target name="data.dir.check">
     <condition property="data.dir.exist">
       <and>
         <available file="${data.tei-enriched.dir}" type="dir"/>
-        <available file="${data.tei-pages.dir}" type="dir"/>
-        <available file="${data.xhtml-pages.dir}" type="dir"/>
         <available file="${data.mets.dir}" type="dir"/>
         <available file="${data.indices.dir}" type="dir"/>
         <available file="${data.cloud.dir}" type="dir"/>
@@ -562,11 +560,24 @@
       </and>
     </condition>
   </target>
+  
+  <target name="data.pages.check">
+    <condition property="data.pages.exist">
+      <and>
+        <available file="${data.tei-pages.dir}" type="dir"/>
+        <available file="${data.xhtml-pages.dir}" type="dir"/>
+        <!--
+        <available file="${data.kml-pages.dir}" type="dir"/>
+        <available file="${data.cloud-pages.dir}" type="dir"/>
+        -->
+      </and>
+    </condition>
+  </target>
 
   <!-- Alias -->
   <target name="data.clean" depends="data.dir.clean"/>
 
-  <target name="data.statistics" depends="salvador.saxon.install, init">
+  <target name="data.statistics" depends="data.dir.check, salvador.saxon.install, init" unless="data.dir.exist">
     <property name="data.statistics.output" value="${target.dir}/statistics-report.xhtml"/>
     <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.statistics}" destfile="${data.statistics.output}" params="collection=${basedir}/${data.tei.dir}"/>
   </target>
@@ -590,7 +601,7 @@
     -->
   </target>
   
-  <target name="data.structure" depends="data.enrich">
+  <target name="data.structure" depends="data.dir.check, data.enrich" unless="data.dir.exist">
     <property name="data.structure.output" value="${target.dir}/structure-target.xhtml"/>
     <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.xhtml.structure}" destfile="${data.structure.output}"
       params="collection=${basedir}/${data.tei-enriched.dir} output-collection=${basedir}/${data.xhtml.structure.dir} output-param=xhtml"
@@ -601,7 +612,7 @@
   <target name="data.generate.mets" depends="data.enrich"/>
 
   <!-- Page splitting -->
-  <target name="data.split" depends="data.enrich, data.dirs">
+  <target name="data.split" depends="data.pages.check, data.enrich, data.dirs" unless="data.pages.exist">
     <property name="data.split.output" value="${target.dir}/split-report.xhtml"/>
     <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.split}" destfile="${data.split.output}"
       params="input-collection=${basedir}/${data.tei-enriched.dir} output-collection=${basedir}/${data.tei-pages.dir} mode=tei"/>
@@ -613,7 +624,7 @@
   <target name="data.tei.split" depends="data.split"/>
   <target name="data.xhtml.split" depends="data.split"/>
 
-  <target name="data.generate.descriptions" depends="salvador.saxon.install, init">
+  <target name="data.generate.descriptions" depends="data.dir.check, salvador.saxon.install, init" unless="data.dir.exist">
     <property name="data.descriptions.output" value="${target.dir}/descriptions-report.xhtml"/>
     <property name="data.descriptions.collection" value="./content/manuscripts/"/>
     <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.description}" destfile="${data.descriptions.output}"
@@ -630,7 +641,7 @@
     <salvador.saxon.xslt in="" xslt="" dest="exist.kml.placeName.local"/>
   </target>
 
-  <target name="data.generate.cloud" depends="salvador.saxon.install, data.enrich">
+  <target name="data.generate.cloud" depends="data.dir.check, salvador.saxon.install, data.enrich" unless="data.dir.exist">
     <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}" destfile="${data.cloud.persName.file}"
       params="collection-param=${basedir}/${data.tei-enriched.dir} entity-param=TEI:persName mode-param=cloud"/>
     <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}" destfile="${data.cloud.placeName.file}"
@@ -641,7 +652,7 @@
       params="collection-param=${basedir}/${data.tei-enriched.dir} entity-param=TEI:bibl mode-param=cloud"/>
   </target>
 
-  <target name="data.generate.index" depends="salvador.saxon.install, data.enrich">
+  <target name="data.generate.index" depends="data.dir.check, salvador.saxon.install, data.enrich" unless="data.dir.exist">
     <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}" destfile="${data.indices.persName.file}"
       params="collection-param=${basedir}/${data.tei-enriched.dir} entity-param=TEI:persName mode-param=xhtml"/>
     <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}" destfile="${data.indices.placeName.file}"
