@@ -27,7 +27,7 @@
         solr.RAMDirectoryFactory is memory based, not persistent, and doesn't work with replication. -->
   <directoryFactory name="DirectoryFactory" class="${solr.directoryFactory:solr.StandardDirectoryFactory}"/>
 
-  <dataDir>${solr.core1.data.dir:}</dataDir>
+  <dataDir>${solr.data.dir:/opt/solr/example/solr/archaeo18/data}</dataDir>
 
   <updateHandler class="solr.DirectUpdateHandler2">
     <updateLog>
@@ -41,6 +41,10 @@
   <requestHandler name="/get" class="solr.RealTimeGetHandler">
     <lst name="defaults">
       <str name="omitHeader">true</str>
+	<!-- Highlighting defaults -->
+			<str name="hl">on</str>
+			<str name="hl.fl">title content</str>
+			<str name="f.name.hl.fragsize">0</str>
     </lst>
   </requestHandler>
   
@@ -64,6 +68,20 @@
     </lst>
   </requestHandler>
 
+	  <requestHandler name="/select" class="solr.SearchHandler" />
+<requestHandler name="/query" class="solr.SearchHandler" />
+
+	
+    <!-- Lazy Field Loading
+
+         If true, stored fields that are not requested will be loaded
+         lazily.  This can result in a significant speed improvement
+         if the usual case is to not load all stored fields,
+         especially if the skipped fields are large compressed text
+         fields.
+    -->
+    <enableLazyFieldLoading>true</enableLazyFieldLoading>
+
 <!-- XSLT response writer transforms the XML output by any xslt file found
      in Solr's conf/xslt directory.  Changes to xslt files are checked for
      every xsltCacheLifetimeSeconds.  
@@ -71,6 +89,47 @@
 <queryResponseWriter name="xslt" class="org.apache.solr.response.XSLTResponseWriter">
   <int name="xsltCacheLifetimeSeconds">5</int>
 </queryResponseWriter>
+
+  <!-- <searchComponent class="solr.HighlightComponent" name="highlight">-->
+	  <searchComponent class="org.apache.solr.handler.component.HighlightComponent" name="highlight">
+
+<highlighting>
+   <!-- Configure the standard fragmenter -->
+   <!-- This could most likely be commented out in the "default" case -->
+   <fragmenter name="gap" class="org.apache.solr.highlight.GapFragmenter" default="true">
+    <lst name="defaults">
+     <int name="hl.fragsize">100</int>
+    </lst>
+   </fragmenter>
+
+   <!-- A regular-expression-based fragmenter (f.i., for sentence extraction) -->
+   <fragmenter name="regex" class="org.apache.solr.highlight.RegexFragmenter">
+    <lst name="defaults">
+      <!-- slightly smaller fragsizes work better because of slop -->
+      <int name="hl.fragsize">70</int>
+      <!-- allow 50% slop on fragment sizes -->
+      <float name="hl.regex.slop">0.5</float>
+      <!-- a basic sentence pattern -->
+      <str name="hl.regex.pattern">[-\w ,/\n\"']{20,200}</str>
+    </lst>
+   </fragmenter>
+
+   <!-- Configure the standard formatter -->
+   <formatter name="html" class="org.apache.solr.highlight.HtmlFormatter" default="true">
+    <lst name="defaults">
+     <str name="hl.simple.pre"><![CDATA[<em>]]></str>
+     <str name="hl.simple.post"><![CDATA[</em>]]></str>
+   <str name="hl.fl">content</str>
+   <bool name="hl.useFastVectorHighlighter">true</bool>
+   <str name="hl.encoder">html</str>
+   <str name="f.content.hl.fragsize">0</str>
+    </lst>
+   </formatter>
+  </highlighting>
+
+</searchComponent>
+
+
 
   <!-- config for the admin interface --> 
   <admin>
