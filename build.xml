@@ -575,13 +575,14 @@
   <target name="data.enrich" depends="data.dirs, data.enrich.check, salvador.saxon.install, init" unless="data.entiched.fileset.empty">
     <property name="data.enrich.output" value="${target.dir}/enrichment-report.xhtml"/>
     <echo message="Importing TEI"/>
+    <echo message="Base directory: ${basedir}"/>
     <echo message="Input collection: ${basedir}/${data.tei.dir}"/>
     <echo message="METS collection: ${basedir}/${data.mets.dir}"/>  
     <echo message="Enriched TEI collection: ${basedir}/${data.tei-enriched.dir}"/>
     <echo message="Document listing: ${basedir}/${data.docs.list}"/>
     <echo message="Structure collection: ${basedir}/${data.xhtml.structure.dir}"/>
     <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.enrich}" destfile="${data.enrich.output}"
-      params="collection=${basedir}/${data.tei.dir} mets-collection=${basedir}/${data.mets.dir} tei-enriched-collection=${basedir}/${data.tei-enriched.dir} document-listing-file=${basedir}/${data.docs.list} structure-collection=${basedir}/${data.xhtml.structure.dir}"
+      params="collection=${basedir}/${data.tei.dir} mets-collection=${basedir}/${data.mets.dir} tei-enriched-collection=${basedir}/${data.tei-enriched.dir} document-listing-file=${basedir}/${data.docs.list} structure-collection=${basedir}/${data.xhtml.structure.dir} replace-prefix=${basedir}./"
     />
     <!--
     <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.enrich}" destfile="${data.enrich.output}"
