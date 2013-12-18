@@ -135,7 +135,8 @@
   <property name="data.indices.dir" value="${data.dir}indices/"/>
   <property name="data.cloud.dir" value="${data.dir}cloud/"/>
   <property name="data.xhtml.structure.dir" value="${data.dir}/structure/"/>
-  <property name="data.xhtml.dir" value="${data.dir}/xhtml/"/>
+  <property name="data.xhtml.content.dir" value="${data.dir}/content/"/>
+  <property name="data.xhtml.header.dir" value="${data.dir}/structure/"/>
   <property name="empty.xml" value="./Resources/Private/Xml/empty.xml"/>
   <property name="data.manuscripts.directory" value="./content/manuscripts/"/>
   <property name="data.indices.persName.file" value="${data.indices.dir}tei:persName.xhtml"/>
@@ -162,6 +163,9 @@
   <!-- TODO, integrate into ropen-backend -->
   <property name="xslt.solr.synonyms" value="./data/solr/synonymelist.xsl"/>
   <property name="xslt.solr.docs" value="./data/solr/solr.xsl"/>
+
+  <!-- METS related settings -->
+  <property name="data.docs.mets.base.uri" value="http://134.76.21.92:8080/images/"/>
 
   <!-- A helper variable that contains the working directory -->
   <property name="cwd" location="."/>
@@ -530,7 +534,8 @@
     <mkdir dir="${data.indices.dir}"/>
     <mkdir dir="${data.cloud.dir}"/>
     <mkdir dir="${data.xhtml.structure.dir}"/>
-    <mkdir dir="${data.xhtml.dir}"/>
+    <mkdir dir="${data.xhtml.content.dir}"/>
+    <mkdir dir="${data.xhtml.header.dir}"/>
   </target>
 
   <target name="data.dir.clean">
@@ -544,7 +549,8 @@
     <delete dir="${data.indices.dir}"/>
     <delete dir="${data.cloud.dir}"/>
     <delete dir="${data.xhtml.structure.dir}"/>
-    <delete dir="${data.xhtml.dir}"/>
+    <delete dir="${data.xhtml.content.dir}"/>
+    <delete dir="${data.xhtml.header.dir}"/>
   </target>
 
   <!-- Test if data was generated (only existing directories) This will fail if data was once genrated only in prts-->
@@ -590,15 +596,13 @@
     <echo message="METS collection: ${basedir}/${data.mets.dir}"/>  
     <echo message="Enriched TEI collection: ${basedir}/${data.tei-enriched.dir}"/>
     <echo message="Document listing: ${basedir}/${data.docs.list}"/>
-    <echo message="Structure collection: ${basedir}/${data.xhtml.structure.dir}"/>
+    <echo message="XHTML Structure collection: ${basedir}/${data.xhtml.structure.dir}"/>
+    <echo message="XHTML content collection: ${basedir}/${data.xhtml.content.dir}"/>
+    <echo message="XHTML header collection: ${basedir}/${data.xhtml.header.dir}"/>
+    <echo message="METS base URL: ${data.docs.mets.base.uri}"/>
     <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.enrich}" destfile="${data.enrich.output}"
-      params="collection=${basedir}/${data.tei.dir} mets-collection=${basedir}/${data.mets.dir} tei-enriched-collection=${basedir}/${data.tei-enriched.dir} document-listing-file=${basedir}/${data.docs.list} replace-prefix=${basedir}./"
+      params="collection=${basedir}/${data.tei.dir} mets-collection=${basedir}/${data.mets.dir} tei-enriched-collection=${basedir}/${data.tei-enriched.dir} document-listing-file=${basedir}/${data.docs.list} xhtml-collection=${basedir}/${data.xhtml.content.dir} xhtml-header-collection=${basedir}/${data.xhtml.header.dir} url-prefix=${data.docs.mets.base.uri} replace-prefix=${basedir}./"
     />
-    <!--
-    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.enrich}" destfile="${data.enrich.output}"
-      params="collection=${basedir}/${data.tei.dir} mets-collection=${basedir}/${data.mets.dir} tei-enriched-collection=${basedir}/${data.tei-enriched.dir} document-listing=${basedir}/${data.docs.list} structure-collection=${basedir}/${data.xhtml.structure.dir}"
-    />
-    -->
   </target>
   
   <target name="data.structure" depends="data.dir.check, data.enrich" unless="data.dir.exist">
