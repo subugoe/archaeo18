@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<METS:mets xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:METS="http://www.loc.gov/METS/" xmlns:MODS="http://www.loc.gov/mods/v3"
+    xmlns:DC="http://purl.org/dc/elements/1.1/" xmlns:DV="http://dfg-viewer.de/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
+    <!--Replace the string 'REPLACEME' with the real dentifier using sed, if no
+                    param was given-->
+    <METS:dmdSec ID="dmdSec_00000001">
+        <METS:mdWrap MDTYPE="MODS">
+            <METS:xmlData>
+                <MODS:mods>
+                    <MODS:titleInfo>
+                        <MODS:title>Generate data by running 'ant data.generate'</MODS:title>
+                    </MODS:titleInfo>
+                </MODS:mods>
+            </METS:xmlData>
+        </METS:mdWrap>
+    </METS:dmdSec>
+    <METS:amdSec ID="amdSec_00000001"/> 
+    <METS:fileSec/> 
+    <METS:structMap TYPE="LOGICAL">
+        <METS:div TYPE="Monograph" DMDID="dmdSec_00000001" ADMID="amdSec_00000001" ID="loc_00000001">
+            <METS:div xmlns:xhtml="http://www.w3.org/1999/xhtml" ID="loc_00000005" TYPE="chapter" LABEL="Please generate the data first!"/>
+
+        </METS:div>
+    </METS:structMap>
+    <METS:structMap TYPE="PHYSICAL"/> 
+    <METS:structLink>/</METS:structLink>
+</METS:mets>
