@@ -536,7 +536,6 @@
     <delete dir="${data.tei-enriched.dir}"/>
     <delete dir="${data.tei-pages.dir}"/>
     <delete dir="${data.xhtml-pages.dir}"/>
-    <delete dir="${data.mets.dir}"/>
     <!-- Keep the empty METS file -->
     <delete>
       <fileset dir="${data.mets.dir}" includes="**/*.xml" excludes="null.xml"/>
