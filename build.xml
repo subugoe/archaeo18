@@ -136,7 +136,7 @@
   <property name="data.cloud.dir" value="${data.dir}cloud/"/>
   <property name="data.xhtml.structure.dir" value="${data.dir}/structure/"/>
   <property name="data.xhtml.content.dir" value="${data.dir}/content/"/>
-  <property name="data.xhtml.header.dir" value="${data.dir}/structure/"/>
+  <property name="data.xhtml.header.dir" value="${data.dir}/header/"/>
   <property name="empty.xml" value="./Resources/Private/Xml/empty.xml"/>
   <property name="data.manuscripts.directory" value="./content/manuscripts/"/>
   <property name="data.indices.persName.file" value="${data.indices.dir}tei:persName.xhtml"/>
