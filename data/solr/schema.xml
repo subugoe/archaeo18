@@ -5,7 +5,7 @@
     
     <fields>
         <!-- Metadata -->
-        <field name="id" type="string" indexed="true" stored="false" required="true" multiValued="false"/>
+        <field name="id" type="string" indexed="true" stored="true" required="true" multiValued="false"/>
         <field name="page-nr" type="string" indexed="true" stored="true" required="true" multiValued="false"/>
         <field name="document" type="string" indexed="true" stored="true" required="true" multiValued="false"/>
       <field name="path" type="string" indexed="true" stored="true" required="true" multiValued="false" />
@@ -16,7 +16,6 @@
             termVectors="true" termPositions="true" termOffsets="true"/>
         <field name="person" type="text_de" indexed="true" stored="true" required="false" multiValued="true"
             termVectors="true" termPositions="true" termOffsets="true"/>
-        <!-- was ist term? -->
         <field name="term" type="string" indexed="true" stored="true" required="false" multiValued="true"
             termVectors="true" termPositions="true" termOffsets="true"/>
         <field name="bibl" type="text_de" indexed="true" stored="true" required="false" multiValued="true" 
@@ -27,7 +26,8 @@
         <field name="note" type="text_de" indexed="true" stored="true" required="false" multiValued="true"/>
         <field name="highlighted" type="text_de" indexed="true" stored="true" required="false" multiValued="true"/>
         <!-- Content -->
-        <field name="content" type="text_de" indexed="true" stored="true" required="true" multiValued="false"/>
+        <field name="content" type="text_de" indexed="true" stored="true" required="true" multiValued="false" 
+		 termVectors="true" termPositions="true" termOffsets="true"/>
   
       <!-- necessary for transaction log -->
 	   <field name="_version_" type="long" indexed="true" stored="true"/>
@@ -38,7 +38,7 @@
 <!--     <defaultSearchField>content</defaultSearchField> deprecated --> 
     
 
-    <types>
+   <types>
   	<fieldType name="long" class="solr.TrieLongField" precisionStep="0" positionIncrementGap="0"/>
         <fieldType name="string" class="solr.StrField" sortMissingLast="true" omitNorms="true"/>
     <!-- nur index oder beides? -> ohne type automatisch beides -->
