@@ -568,11 +568,19 @@
   </target>
   
   <target name="data.pages.check">
+    <fileset dir="${data.tei-pages.dir}" id="tei.files">
+      <include name="**/*.xml"/>
+    </fileset>
+    <fileset dir="${data.xhtml-pages.dir}" id="xhtml.files">
+      <include name="**/*.xml"/>
+    </fileset>
     <condition property="data.pages.exist">
       <and>
+        <resourcecount refid="tei.files" when="greater" count="0" />
+        <resourcecount refid="xhtml.files" when="greater" count="0" />
+        <!--
         <available file="${data.tei-pages.dir}" type="dir"/>
         <available file="${data.xhtml-pages.dir}" type="dir"/>
-        <!--
         <available file="${data.kml-pages.dir}" type="dir"/>
         <available file="${data.cloud-pages.dir}" type="dir"/>
         -->
