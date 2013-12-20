@@ -558,11 +558,9 @@
     <condition property="data.dir.exist">
       <and>
         <available file="${data.tei-enriched.dir}" type="dir"/>
-        <available file="${data.mets.dir}" type="dir"/>
         <available file="${data.indices.dir}" type="dir"/>
         <available file="${data.cloud.dir}" type="dir"/>
         <available file="${data.xhtml.structure.dir}" type="dir"/>
-        <available file="${data.xhtml.dir}" type="dir"/>
       </and>
     </condition>
   </target>
@@ -572,7 +570,7 @@
       <include name="**/*.xml"/>
     </fileset>
     <fileset dir="${data.xhtml-pages.dir}" id="xhtml.files">
-      <include name="**/*.xml"/>
+      <include name="**/*.xhtml"/>
     </fileset>
     <condition property="data.pages.exist">
       <and>
@@ -629,7 +627,7 @@
   <target name="data.generate.mets" depends="data.enrich"/>
 
   <!-- Page splitting -->
-  <target name="data.split" depends="data.pages.check, data.enrich, data.dirs" unless="data.pages.exist">
+  <target name="data.split" depends="data.pages.check, data.enrich" unless="data.pages.exist">
     <property name="data.split.output" value="${target.dir}/split-report.xhtml"/>
     <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.split}" destfile="${data.split.output}"
       params="input-collection=${basedir}/${data.tei-enriched.dir} output-collection=${basedir}/${data.tei-pages.dir} mode=tei"/>
