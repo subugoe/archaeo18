@@ -14,12 +14,15 @@
     <xsl:param name="use-uri" as="xs:boolean" select="true()"></xsl:param>
     <!-- For one document per page set this to 'page' otherwise a solr doc is generated per document structure -->
     <xsl:param name="mode" as="xs:string" select="'structure'"/>
+    <!--  set to 'includetags' to include xml tags to the content field of the index -->
+    <xsl:param name="tags" as="xs:string" select="'none'"/> 
+    
     <xsl:output method="xml" indent="yes"/>
     <xsl:strip-space elements="TEI:placeName TEI:persName TEI:addName TEI:bibl TEI:note TEI:head"/>
     <xsl:template match="//TEI:body">
         <add>
             <xsl:choose>
-                <xsl:when test="$mode = 'page'">
+              <xsl:when test="$mode = 'page'">
                     <xsl:for-each select="//TEI:pb">
                         <xsl:variable name="pos" select="position()" as="xs:integer"/>
                         <xsl:variable name="page" as="node()*">
@@ -47,7 +50,6 @@
                             <field name="document">
                                 <xsl:value-of select="a18:document-name(.)"/>
                             </field>
-                            <!-- TODO: check line breaks -->
                             <!-- Entities -->
                             <xsl:copy-of select="a18:entity-fields($page)"/>
                             <!-- Document structure -->
@@ -55,27 +57,87 @@
                             <!-- Content -->
                             <xsl:comment>Content</xsl:comment>
                             <field name="content">
+                                <xsl:choose>
+                                    <xsl:when test="$tags = 'includetags'">
+                                        
                                 <xsl:text disable-output-escaping="yes">&lt;![CDATA[</xsl:text>
                                 <xsl:copy-of select="$page"/>
                                 <xsl:text disable-output-escaping="yes">]]&gt;</xsl:text>
-                            </field>
+                                    </xsl:when>
+                                        <xsl:otherwise>
+                                            <xsl:apply-templates select="." mode="filter" />
+                                        </xsl:otherwise>
+                                    </xsl:choose>
+                            </field>                
                         </doc>
                     </xsl:for-each>
                 </xsl:when>
-                <!-- Structure mode -->
+             <xsl:when test="$mode = 'page-and-structure'">                 
+                <xsl:for-each select="//TEI:div|//TEI:p">
+                     <xsl:variable name="currentnode" select="." />                
+                    <xsl:choose>  <!-- TODO cut div/p--> 
+                        <xsl:when test="./TEI:pb">
+
+                    <xsl:for-each select="./TEI:pb">                                           
+                        <xsl:variable name="pos" select="count(./preceding::TEI:pb) + 1" as="xs:integer"/>
+                        <xsl:variable name="page" as="node()*" >
+                        
+
+                        </xsl:variable>
+                            <doc>
+                                                         <field name="id">
+                                <xsl:value-of select="concat(a18:document-name(.), '-', $pos)"/>
+                            </field>
+                            <field name="page-nr">
+                                <xsl:value-of select="$pos"/>
+                            </field>
+                            <field name="document">
+                                <xsl:value-of select="a18:document-name(.)"/>
+                            </field>
+                            <!-- Entities -->
+                            <xsl:copy-of select="a18:entity-fields($page)"/>
+                            <!-- Document structure -->
+                            <xsl:copy-of select="a18:structure-fields($page)"/>
+                            <!-- Content -->
+                            <xsl:comment>Content</xsl:comment>
+                              <field name="content">
+                                <xsl:choose>
+                                    <xsl:when test="$tags = 'includetags'">
+                                <xsl:text disable-output-escaping="yes">&lt;![CDATA[</xsl:text>
+                                <!-- <xsl:copy-of select="$page"/>  -->
+                                <xsl:text disable-output-escaping="yes">]]&gt;</xsl:text>
+                                    </xsl:when>
+                                    <xsl:otherwise>
+                                        <xsl:copy-of select="$page" />
+                                    </xsl:otherwise>
+                                 </xsl:choose>
+                            </field>
+                            </doc>
+                            
+                    <!-- <xsl:value-of select="a18:chunk(preceding-sibling::first(), ., $currentnode)" /> -->
+                        <!-- <xsl:apply-templates select="$currentnode"/>-->
+                            
+                    </xsl:for-each>
+                        </xsl:when>
+                        <xsl:otherwise>  <!-- no page breaks in here -->
+                             <xsl:apply-templates select="."/>
+                        </xsl:otherwise>
+                    </xsl:choose>        
+                </xsl:for-each>
+                </xsl:when>
+                <!-- Structure only mode -->
                 <xsl:otherwise>
                     <xsl:for-each select="//TEI:div|//TEI:p">
-                        <!-- TODO: check if there are page breaks in here an generate a <doc/> for each page -->
-                        <doc>
+                         <doc>
                             <xsl:variable name="id" select="concat(a18:document-name(.), '-', generate-id(.))"/>
                             <!-- Metadata -->
                             <xsl:comment>Metadata</xsl:comment>
                             <field name="id">
                                 <xsl:value-of select="$id"/>
                             </field>
-                            <field name="page-nr">
+                             <field name="page-nr">
                                 <xsl:value-of select="a18:get-page-nr(.)"/>
-                            </field>
+                            </field> 
                             <field name="document">
                                 <xsl:value-of select="a18:document-name(.)"/>
                             </field>
@@ -93,10 +155,19 @@
                             <!-- Content -->
                             <xsl:comment>Content</xsl:comment>
                             <field name="content">
+                                <xsl:choose>
+                                    <xsl:when test="$tags = 'includetags'">
                                 <xsl:text disable-output-escaping="yes">&lt;![CDATA[</xsl:text>
                                 <xsl:copy-of select="."/>
                                 <xsl:text disable-output-escaping="yes">]]&gt;</xsl:text>
- 
+                                    </xsl:when>
+                                    <xsl:otherwise>
+                                        <!-- <xsl:text disable-output-escaping="yes">&lt;![CDATA[</xsl:text> -->
+                                        <!-- <xsl:apply-templates select="." mode="filter" />-->
+                                        <xsl:value-of select=".//text()"/>
+                                       <!-- <xsl:text disable-output-escaping="yes">]]&gt;</xsl:text>-->
+                                    </xsl:otherwise>
+                                 </xsl:choose>
                             </field>
                         </doc>
                     </xsl:for-each>
@@ -104,14 +175,17 @@
             </xsl:choose>
         </add>
     </xsl:template>
+
     <xsl:template match="TEI:addName" mode="filter" priority="1"/>
     <xsl:template match="TEI:*" mode="filter">
         <xsl:apply-templates mode="filter"/>
     </xsl:template>
+   
     <xsl:template match="text()" mode="filter">
         <xsl:value-of select="."/>
     </xsl:template>
     <xsl:template match="text()"/>
+    
     <xsl:template match="comment()" mode="filter"/>
     <!-- Functions -->
     <xsl:function name="a18:normalize-space" as="xs:string">
