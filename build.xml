@@ -134,9 +134,9 @@
   <property name="data.mets.dir" value="${data.dir}mets/"/>
   <property name="data.indices.dir" value="${data.dir}indices/"/>
   <property name="data.cloud.dir" value="${data.dir}cloud/"/>
-  <property name="data.xhtml.structure.dir" value="${data.dir}/structure/"/>
-  <property name="data.xhtml.content.dir" value="${data.dir}/content/"/>
-  <property name="data.xhtml.header.dir" value="${data.dir}/header/"/>
+  <property name="data.xhtml.structure.dir" value="${data.dir}structure/"/>
+  <property name="data.xhtml.content.dir" value="${data.dir}content/"/>
+  <property name="data.xhtml.header.dir" value="${data.dir}header/"/>
   <property name="empty.xml" value="./Resources/Private/Xml/empty.xml"/>
   <property name="data.manuscripts.directory" value="./content/manuscripts/"/>
   <property name="data.indices.persName.file" value="${data.indices.dir}tei:persName.xhtml"/>
@@ -601,8 +601,13 @@
     <echo message="XHTML header collection: ${basedir}/${data.xhtml.header.dir}"/>
     <echo message="METS base URL: ${data.docs.mets.base.uri}"/>
     <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.enrich}" destfile="${data.enrich.output}"
+      params="collection=${basedir}/${data.tei.dir} mets-collection=${basedir}/${data.mets.dir} tei-enriched-collection=${basedir}/${data.tei-enriched.dir} document-listing-file=${basedir}/${data.docs.list} xhtml-header-collection=${basedir}/${data.xhtml.header.dir} url-prefix=${data.docs.mets.base.uri} replace-prefix=${basedir}./"
+    />
+    <!--
+    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.enrich}" destfile="${data.enrich.output}"
       params="collection=${basedir}/${data.tei.dir} mets-collection=${basedir}/${data.mets.dir} tei-enriched-collection=${basedir}/${data.tei-enriched.dir} document-listing-file=${basedir}/${data.docs.list} xhtml-collection=${basedir}/${data.xhtml.content.dir} xhtml-header-collection=${basedir}/${data.xhtml.header.dir} url-prefix=${data.docs.mets.base.uri} replace-prefix=${basedir}./"
     />
+    -->
   </target>
   
   <target name="data.structure" depends="data.dir.check, data.enrich" unless="data.dir.exist">
@@ -627,6 +632,7 @@
   <!-- Aliases -->
   <target name="data.tei.split" depends="data.split"/>
   <target name="data.xhtml.split" depends="data.split"/>
+  <target name="data.pages" depends="data.split"/>
 
   <target name="data.generate.descriptions" depends="data.dir.check, salvador.saxon.install, init" unless="data.dir.exist">
     <property name="data.descriptions.output" value="${target.dir}/descriptions-report.xhtml"/>
