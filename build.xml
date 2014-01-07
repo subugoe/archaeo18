@@ -497,8 +497,8 @@
   # Solr handling
   #######################################################
   -->
-  <target name="solr.init" depends="init, salvador.solr.download">
-    <property name="solr.dir" value="${target.dir}/sorl"/>
+  <target name="solr.init" depends="init, salvador.solr.install">
+    <property name="solr.dir" value="${target.dir}/solr"/>
     <property name="solr.docs.dir" value="${solr.dir}/docs"/>
     <property name="solr.synonym.list" value="${solr.dir}/synonyms.txt"/>
     <mkdir dir="${solr.dir}"/>
@@ -514,8 +514,22 @@
       params="collection=${basedir}/${data.tei.dir}"
     />
   </target>
+  
+  <target name="solr.start" depends="solr.init, salvador.jetty.install, salvador.solr.install">
+    <!--
+    <jetty.run tempDirectory="${salvador.jetty.tmp.dir}" scanIntervalSeconds="5">
+      <connectors>
+        <selectChannelConnector port="${salvador.jetty.port}"/>
+      </connectors>
+      <webapp descriptor="${servlet.archaeo18.webxml}" contextPath="/solr" war=".">
+        <lib dir="${salvador.php.lib.dir}" includes="*.jar"/>
+      </webapp>
+      
+    </jetty.run>
+    -->
+  </target>
 
-  <target name="sol.docs" depends="salvador.saxon.install, solr.init">
+  <target name="solr.docs" depends="salvador.saxon.install, solr.init">
     
     <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.enrich}" destfile="${data.enrich.output}"
       params="collection=${basedir}/${data.tei.dir} mets-collection=${basedir}/${data.mets.dir} tei-enriched-collection=${basedir}/${data.tei-enriched.dir} document-listing=${basedir}/${data.docs.list}"
