@@ -520,18 +520,8 @@
     <property name="solrhome" value="${salvador.solr.home.dir}/"/>
     <salvador.solr.setup solrhome="${solrhome}" core="archaeo18" config="./data/solr/"/>
     <salvador.solr.run/>
-    
-    <!--
-    <jetty.run tempDirectory="${salvador.jetty.tmp.dir}" scanIntervalSeconds="5">
-      <connectors>
-        <selectChannelConnector port="${salvador.jetty.port}"/>
-      </connectors>
-      <webapp descriptor="${servlet.archaeo18.webxml}" contextPath="/solr" war=".">
-        <lib dir="${salvador.php.lib.dir}" includes="*.jar"/>
-      </webapp>
-      
-    </jetty.run>
-    -->
+    <!-- TODO: Index stuff -->
+
   </target>
 
   <target name="solr.docs" depends="salvador.saxon.install, solr.init">
@@ -642,8 +632,29 @@
     />
   </target>
 
-  <!-- Alias for METS Files -->
-  <target name="data.generate.mets" depends="data.enrich"/>
+  <!-- Fix for METS Files -->
+  <target name="data.generate.mets" depends="data.enrich, salvador.base.ant.contrib.install">
+    <property name="data.mets.tmp.dir" value="${salvador.base.dir.tmp}/${data.mets.dir}"></property>
+    <mkdir dir="${data.mets.tmp.dir}"/>
+    <copy todir="${data.mets.tmp.dir}">
+      <fileset dir="${basedir}/${data.mets.dir}"/>
+    </copy>
+    <!-- Copy back with filter for each file name -->
+    <for param="file">
+      <path>
+        <fileset dir="${data.mets.tmp.dir}" includes="**/*" />
+      </path>
+      <sequential>
+        <var name="identifier" unset="true"/>
+        <propertyregex property="identifier" input="@{file}" regexp="^.*/(.*?)\..*$" select="\1" casesensitive="false" />
+        <echo message="Fixing @{file} with identifier '${identifier}'"></echo>
+        <replace file="@{file}" token="REPLACEME" value="${identifier}"/>
+        <copy todir="${basedir}/${data.mets.dir}">
+          <file file="@{file}"/>
+        </copy>
+      </sequential>
+    </for>
+  </target>
 
   <!-- Page splitting -->
   <target name="data.split" depends="data.pages.check, data.enrich" unless="data.pages.exist">
@@ -672,6 +683,7 @@
     <pathconvert refid="data.enriched.fileset" property="data.entiched.fileset.empty" setonempty="false"/>
   </target>
 
+  <!-- TODO: Finish this -->
   <target name="data.generate.kml" depends="salvador.saxon.install, data.enrich">
     <salvador.saxon.xslt in="" xslt="" dest="exist.kml.placeName.local"/>
   </target>
@@ -700,7 +712,6 @@
 
   <!-- Target for all data -->
   <!-- Enable data.generate.kml, -->
-  <target name="data.generate" depends="data.dir.check, data.enrich, data.statistics, data.generate.cloud, data.generate.index, data.split, data.structure" unless="data.dir.exist"/>
-
+  <target name="data.generate" depends="data.dir.check, data.enrich, data.statistics, data.generate.cloud, data.generate.index, data.split, data.structure, data.generate.mets" unless="data.dir.exist"/>
 
 </project>
