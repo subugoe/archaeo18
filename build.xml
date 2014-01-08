@@ -23,7 +23,6 @@
   <import file="./build/modules/tinypng.xml"/>
   <import file="./build/modules/saxon.xml"/>
   <import file="./build/modules/solr.xml"/>
-
   <!-- 
   #######################################################
   # Settings
@@ -503,6 +502,7 @@
   </target>
 
   <target name="sol.synonyms" depends="salvador.saxon.install, data.enrich, solr.init">
+    <!-- TODO: Finish this -->
     <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.solr.synonyms}" destfile="${solr.synonym.list}"
       params="collection=${basedir}/${data.tei.dir}"
     />
@@ -519,16 +519,13 @@
     <salvador.solr.run/>
   </target>
   
-  <target name="solr.index" depends="solr.start, solr.docs">
-    <for param="file">
-      <path>
+  <target name="solr.index" depends="solr.start, solr.docs, salvador.http.macros">
+    <property name="solr.url" value="http://localhost:8983/solr/archaeo18/update"></property>
+    <salvador.solr.index endpoint="">
+      <files>
         <fileset dir="${solr.docs.dir}" includes="**/*" />
-      </path>
-      <sequential>
-        <echo message="Indexing @{file}"></echo>
-        <!-- TODO: Index stuff -->
-      </sequential>
-    </for>
+      </files>
+    </salvador.solr.index>
   </target>
 
   <target name="solr.docs" depends="data.enrich, solr.init">
