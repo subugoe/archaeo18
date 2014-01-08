@@ -30,7 +30,7 @@
                 <xsl:for-each select="collection(concat($collection, '/?select=*.xml'))">
                     <xsl:variable name="in-file" select="tokenize(document-uri(.), '/')[last()]" as="xs:string"/>
                     <xsl:variable name="solr-file" select="ropen:concat-path($output, $in-file)" as="xs:anyURI"/>
-                    <xsl:message>Generating index file for ${in-file} in ${solr-file}</xsl:message>
+                    <xsl:message>Generating index file for <xsl:value-of select="$in-file"/> in <xsl:value-of select="$solr-file"/></xsl:message>
                     <xsl:result-document href="{$solr-file}">
                         <xsl:apply-templates select="document(document-uri(.))//TEI:body"/>
                     </xsl:result-document>
