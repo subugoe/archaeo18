@@ -515,7 +515,12 @@
     />
   </target>
   
-  <target name="solr.start" depends="solr.init, salvador.jetty.install, salvador.solr.install">
+  <target name="solr.start" depends="solr.init, salvador.solr.install">
+    <property name="name" value="archaeo18"/>
+    <property name="solrhome" value="${salvador.solr.home.dir}/"/>
+    <salvador.solr.setup solrhome="${solrhome}" core="archaeo18" config="./data/solr/"/>
+    <salvador.solr.run/>
+    
     <!--
     <jetty.run tempDirectory="${salvador.jetty.tmp.dir}" scanIntervalSeconds="5">
       <connectors>
