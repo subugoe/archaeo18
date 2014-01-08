@@ -499,6 +499,7 @@
 
   <target name="solr.clean">
     <delete dir="${solr.dir}"/>
+    <delete dir="${solr.docs.dir}"/>
   </target>
 
   <target name="sol.synonyms" depends="salvador.saxon.install, data.enrich, solr.init">
@@ -507,20 +508,32 @@
     />
   </target>
   
+  <target name="solr.run" depends="solr.start">
+    <input>Press Return key to stop Solr...</input>
+  </target>
+  
   <target name="solr.start" depends="solr.init, salvador.solr.install">
     <property name="name" value="archaeo18"/>
     <property name="solrhome" value="${salvador.solr.home.dir}/"/>
     <salvador.solr.setup solrhome="${solrhome}" core="archaeo18" config="./data/solr/"/>
     <salvador.solr.run/>
-    <input>Press Return key to stop Solr...</input>
-    <!-- TODO: Index stuff -->
-
+  </target>
+  
+  <target name="solr.index" depends="solr.start, solr.docs">
+    <for param="file">
+      <path>
+        <fileset dir="${solr.docs.dir}" includes="**/*" />
+      </path>
+      <sequential>
+        <echo message="Indexing @{file}"></echo>
+        <!-- TODO: Index stuff -->
+      </sequential>
+    </for>
   </target>
 
   <target name="solr.docs" depends="data.enrich, solr.init">
-    <property name="index.dir" value="${salvador.base.dir.tmp}/solr"></property>
     <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.solr}" destfile="${data.enrich.output}"
-      params="collection=${basedir}/${data.tei-enriched.dir} output=${index.dir}"
+      params="collection=${basedir}/${data.tei-enriched.dir} output=${solr.docs.dir}"
     />
   </target>
 
