@@ -155,6 +155,7 @@
   <property name="xslt.split" value="./ropen-backend/src/main/xslt/transformations/split-pages.xsl"/>
   <property name="xslt.xhtml" value="./ropen-backend/src/main/xslt/transformations/TEI2XHTML.xsl"/>
   <property name="xslt.xhtml.structure" value="./ropen-backend/src/main/xslt/transformations/structure-extractor.xsl"/>
+  <property name="xslt.solr" value="./data/solr/solr.xsl"/>
   <!-- Solr related Stylesheets -->
   <!-- TODO, integrate into ropen-backend -->
   <property name="xslt.solr.synonyms" value="./data/solr/synonymelist.xsl"/>
@@ -511,14 +512,15 @@
     <property name="solrhome" value="${salvador.solr.home.dir}/"/>
     <salvador.solr.setup solrhome="${solrhome}" core="archaeo18" config="./data/solr/"/>
     <salvador.solr.run/>
+    <input>Press Return key to stop Solr...</input>
     <!-- TODO: Index stuff -->
 
   </target>
 
-  <target name="solr.docs" depends="salvador.saxon.install, solr.init">
-    
-    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.enrich}" destfile="${data.enrich.output}"
-      params="collection=${basedir}/${data.tei.dir} mets-collection=${basedir}/${data.mets.dir} tei-enriched-collection=${basedir}/${data.tei-enriched.dir} document-listing=${basedir}/${data.docs.list}"
+  <target name="solr.docs" depends="data.enrich, solr.init">
+    <property name="index.dir" value="${salvador.base.dir.tmp}/solr"></property>
+    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.solr}" destfile="${data.enrich.output}"
+      params="collection=${basedir}/${data.tei-enriched.dir} output=${index.dir}"
     />
   </target>
 
