@@ -115,10 +115,6 @@
   <property name="exist.cloud.persName.local" value="${data.download.dir.cloud}/listEntities.xq$facet=tei:persName&amp;format=cloud"/>
   <property name="exist.cloud.placeName.local" value="${data.download.dir.cloud}/listEntities.xq$facet=tei:placeName&amp;format=cloud"/>
   <property name="exist.cloud.term.local" value="${data.download.dir.cloud}/listEntities.xq$facet=tei:term&amp;format=cloud"/>
-  <!-- Other data like facets -->
-  <property name="exist.other.facets.url" value="${exist.queries.url}/getFacets.xq"/>
-  <property name="exist.other.facets.local" value="${data.download.dir.docs}/getFacets.xq"/>
-  <property name="exist.other.docs.local" value="${data.download.dir.docs}/listDocs.xquery"/>
   <!-- Search data -->
   <property name="exist.search.url" value="${exist.queries.url}/search.xq?query=Trajan&amp;mode=xhtml"/>
   <property name="exist.search.local" value="${data.download.dir.search}/search.xq$query=Trajan&amp;mode=xhtml"/>
@@ -211,7 +207,7 @@
   #######################################################
   entities are disabled, they can be generated now
   -->
-  <target name="data.download" depends="data.download.kml, data.download.cloud, data.download.docs"/>
+  <target name="data.download" depends="data.download.kml, data.download.cloud"/>
 
   <target name="data.download.kml">
     <get src="${exist.kml.placeName.url}" dest="${exist.kml.placeName.local}" verbose="on"/>
@@ -222,11 +218,6 @@
     <get src="${exist.cloud.placeName.url}" dest="${exist.cloud.placeName.local}" verbose="on"/>
     <get src="${exist.cloud.term.url}" dest="${exist.cloud.term.local}" verbose="on"/>
   </target>
-
-  <target name="data.download.docs">
-    <get src="${exist.other.facets.url}" dest="${exist.other.facets.local}" verbose="on"/>
-  </target>
-
 
   <!-- 
   #######################################################
@@ -290,7 +281,7 @@
   </target>
 
   <target name="war.content.js" depends="salvador.js.yui.install, war.content.ropen">
-    <fileset dir="${js.dir}" includes="*.js" id="war.content.js.files">
+    <fileset dir="${js.dir}" includes="**/*.js" id="war.content.js.files">
       <!-- 
       <exclude name="plugins.js"/>
        -->
