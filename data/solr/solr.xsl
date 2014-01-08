@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
-    xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt" xmlns:TEI="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="xs xd" version="2.0">
+    xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt" xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt" xmlns:TEI="http://www.tei-c.org/ns/1.0"
+    exclude-result-prefixes="xs xd" version="2.0">
     <xd:doc scope="stylesheet">
         <xd:desc>
             <xd:p><xd:b>Created on:</xd:b> Nov 18, 2013</xd:p>
@@ -16,9 +17,30 @@
     <xsl:param name="mode" as="xs:string" select="'structure'"/>
     <!--  set to 'includetags' to include xml tags to the content field of the index -->
     <xsl:param name="tags" as="xs:string" select="'none'"/>
-
+    <!-- Use this param to handle a whole collection -->
+    <xsl:param name="collection" select="''" as="xs:string"/>
+    <!-- If a collection is proccesed, where shhould the results go? -->
+    <xsl:param name="output" select="''" as="xs:string"/>
     <xsl:output method="xml" indent="yes"/>
     <xsl:strip-space elements="TEI:placeName TEI:persName TEI:addName TEI:bibl TEI:note TEI:head"/>
+
+    <xsl:template match="/">
+        <xsl:choose>
+            <xsl:when test="not(empty($collection))">
+                <xsl:for-each select="collection(concat($collection, '/?select=*.xml'))">
+                    <xsl:variable name="in-file" select="tokenize(document-uri(.), '/')[last()]" as="xs:string"/>
+                    <xsl:variable name="solr-file" select="ropen:concat-path($output, $in-file)" as="xs:anyURI"/>
+                    <xsl:result-document href="{$solr-file}">
+                        <xsl:apply-templates select="document(document-uri(.))//TEI:body"/>
+                    </xsl:result-document>
+                </xsl:for-each>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:apply-templates/>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+
     <xsl:template match="//TEI:body">
         <add>
             <xsl:choose>
@@ -367,7 +389,6 @@
             <xsl:variable name="content" select="a18:apply-templates-filter(.)"/>
             <xsl:copy-of select="a18:field('date', a18:normalize-space($content))"/>
         </xsl:for-each>
-
     </xsl:function>
 
     <xsl:function name="a18:structure-fields" as="node()*">
@@ -386,7 +407,23 @@
             <xsl:variable name="content" select="a18:add-whitespace(a18:apply-templates-filter(.))"/>
             <xsl:copy-of select="a18:field('highlighted', a18:normalize-space($content))"/>
         </xsl:for-each>
+    </xsl:function>
 
+    <!-- 
+        TODO: Move some functions to a library
+    -->
+
+    <xsl:function name="ropen:concat-path" as="xs:anyURI">
+        <xsl:param name="path" as="xs:string"/>
+        <xsl:param name="filename" as="xs:string"/>
+        <xsl:choose>
+            <xsl:when test="ends-with($path, '/') or starts-with($filename, '/')">
+                <xsl:value-of select="concat($path, $filename)"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:value-of select="concat($path, '/', $filename)"/>
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:function>
 
 </xsl:stylesheet>
