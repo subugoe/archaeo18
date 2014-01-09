@@ -1,5 +1,7 @@
 /* HEADER */
 
+sessionStorage.clear();
+
 $('.header-button').click(function() {
 	if (localStorage.getItem('headerState') === 'small') {
 		$('html').removeClass('header-small').addClass('header-large');
