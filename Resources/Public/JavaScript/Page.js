@@ -1,5 +1,7 @@
 /* HEADER */
 
+sessionStorage.clear();
+
 $('.header-button').click(function() {
 	if (localStorage.getItem('headerState') === 'small') {
 		$('html').removeClass('header-small').addClass('header-large');
@@ -153,6 +155,18 @@ var loadEdition = function() {
 		EditionGui.initialize();
 	}
 	EditionGui.gridLayout();
+
+	var documentName = 'berlin-ms-germ-qrt-1666';
+	var documentTitle = 'Berlin 1775';
+
+	var document = Util.loadDocumentSync(documentName, documentTitle);
+
+	var types = ['text', 'images'];
+
+	for (var i = 0; i < types.length; i++) {
+		EditionGui.openDocument(false, document, 1, types[i], false, '', i);
+	}
+
 }
 
 var addGeoTemCo = function() {

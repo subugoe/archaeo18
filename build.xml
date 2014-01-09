@@ -23,7 +23,6 @@
   <import file="./build/modules/tinypng.xml"/>
   <import file="./build/modules/saxon.xml"/>
   <import file="./build/modules/solr.xml"/>
-
   <!-- 
   #######################################################
   # Settings
@@ -115,10 +114,6 @@
   <property name="exist.cloud.persName.local" value="${data.download.dir.cloud}/listEntities.xq$facet=tei:persName&amp;format=cloud"/>
   <property name="exist.cloud.placeName.local" value="${data.download.dir.cloud}/listEntities.xq$facet=tei:placeName&amp;format=cloud"/>
   <property name="exist.cloud.term.local" value="${data.download.dir.cloud}/listEntities.xq$facet=tei:term&amp;format=cloud"/>
-  <!-- Other data like facets -->
-  <property name="exist.other.facets.url" value="${exist.queries.url}/getFacets.xq"/>
-  <property name="exist.other.facets.local" value="${data.download.dir.docs}/getFacets.xq"/>
-  <property name="exist.other.docs.local" value="${data.download.dir.docs}/listDocs.xquery"/>
   <!-- Search data -->
   <property name="exist.search.url" value="${exist.queries.url}/search.xq?query=Trajan&amp;mode=xhtml"/>
   <property name="exist.search.local" value="${data.download.dir.search}/search.xq$query=Trajan&amp;mode=xhtml"/>
@@ -159,6 +154,7 @@
   <property name="xslt.split" value="./ropen-backend/src/main/xslt/transformations/split-pages.xsl"/>
   <property name="xslt.xhtml" value="./ropen-backend/src/main/xslt/transformations/TEI2XHTML.xsl"/>
   <property name="xslt.xhtml.structure" value="./ropen-backend/src/main/xslt/transformations/structure-extractor.xsl"/>
+  <property name="xslt.solr" value="./data/solr/solr.xsl"/>
   <!-- Solr related Stylesheets -->
   <!-- TODO, integrate into ropen-backend -->
   <property name="xslt.solr.synonyms" value="./data/solr/synonymelist.xsl"/>
@@ -211,7 +207,7 @@
   #######################################################
   entities are disabled, they can be generated now
   -->
-  <target name="data.download" depends="data.download.kml, data.download.cloud, data.download.docs"/>
+  <target name="data.download" depends="data.download.kml, data.download.cloud"/>
 
   <target name="data.download.kml">
     <get src="${exist.kml.placeName.url}" dest="${exist.kml.placeName.local}" verbose="on"/>
@@ -222,11 +218,6 @@
     <get src="${exist.cloud.placeName.url}" dest="${exist.cloud.placeName.local}" verbose="on"/>
     <get src="${exist.cloud.term.url}" dest="${exist.cloud.term.local}" verbose="on"/>
   </target>
-
-  <target name="data.download.docs">
-    <get src="${exist.other.facets.url}" dest="${exist.other.facets.local}" verbose="on"/>
-  </target>
-
 
   <!-- 
   #######################################################
@@ -290,7 +281,7 @@
   </target>
 
   <target name="war.content.js" depends="salvador.js.yui.install, war.content.ropen">
-    <fileset dir="${js.dir}" includes="*.js" id="war.content.js.files">
+    <fileset dir="${js.dir}" includes="**/*.js" id="war.content.js.files">
       <!-- 
       <exclude name="plugins.js"/>
        -->
@@ -497,8 +488,8 @@
   # Solr handling
   #######################################################
   -->
-  <target name="solr.init" depends="init, salvador.solr.download">
-    <property name="solr.dir" value="${target.dir}/sorl"/>
+  <target name="solr.init" depends="init, salvador.solr.install">
+    <property name="solr.dir" value="${target.dir}/solr"/>
     <property name="solr.docs.dir" value="${solr.dir}/docs"/>
     <property name="solr.synonym.list" value="${solr.dir}/synonyms.txt"/>
     <mkdir dir="${solr.dir}"/>
@@ -507,18 +498,39 @@
 
   <target name="solr.clean">
     <delete dir="${solr.dir}"/>
+    <delete dir="${solr.docs.dir}"/>
   </target>
 
   <target name="sol.synonyms" depends="salvador.saxon.install, data.enrich, solr.init">
+    <!-- TODO: Finish this -->
     <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.solr.synonyms}" destfile="${solr.synonym.list}"
       params="collection=${basedir}/${data.tei.dir}"
     />
   </target>
+  
+  <target name="solr.run" depends="solr.start">
+    <input>Press Return key to stop Solr...</input>
+  </target>
+  
+  <target name="solr.start" depends="solr.init, salvador.solr.install">
+    <property name="name" value="archaeo18"/>
+    <property name="solrhome" value="${salvador.solr.home.dir}/"/>
+    <salvador.solr.setup solrhome="${solrhome}" core="archaeo18" config="./data/solr/"/>
+    <salvador.solr.run/>
+  </target>
+  
+  <target name="solr.index" depends="solr.start, solr.docs, salvador.http.macros">
+    <property name="solr.url" value="http://localhost:8983/solr/archaeo18/update"></property>
+    <salvador.solr.index endpoint="">
+      <files>
+        <fileset dir="${solr.docs.dir}" includes="**/*" />
+      </files>
+    </salvador.solr.index>
+  </target>
 
-  <target name="sol.docs" depends="salvador.saxon.install, solr.init">
-    
-    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.enrich}" destfile="${data.enrich.output}"
-      params="collection=${basedir}/${data.tei.dir} mets-collection=${basedir}/${data.mets.dir} tei-enriched-collection=${basedir}/${data.tei-enriched.dir} document-listing=${basedir}/${data.docs.list}"
+  <target name="solr.docs" depends="data.enrich, solr.init">
+    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.solr}" destfile="${data.enrich.output}"
+      params="collection=${basedir}/${data.tei-enriched.dir} output=${solr.docs.dir}"
     />
   </target>
 
@@ -558,11 +570,9 @@
     <condition property="data.dir.exist">
       <and>
         <available file="${data.tei-enriched.dir}" type="dir"/>
-        <available file="${data.mets.dir}" type="dir"/>
         <available file="${data.indices.dir}" type="dir"/>
         <available file="${data.cloud.dir}" type="dir"/>
         <available file="${data.xhtml.structure.dir}" type="dir"/>
-        <available file="${data.xhtml.dir}" type="dir"/>
       </and>
     </condition>
   </target>
@@ -572,7 +582,7 @@
       <include name="**/*.xml"/>
     </fileset>
     <fileset dir="${data.xhtml-pages.dir}" id="xhtml.files">
-      <include name="**/*.xml"/>
+      <include name="**/*.xhtml"/>
     </fileset>
     <condition property="data.pages.exist">
       <and>
@@ -625,11 +635,32 @@
     />
   </target>
 
-  <!-- Alias for METS Files -->
-  <target name="data.generate.mets" depends="data.enrich"/>
+  <!-- Fix for METS Files -->
+  <target name="data.generate.mets" depends="data.enrich, salvador.base.ant.contrib.install">
+    <property name="data.mets.tmp.dir" value="${salvador.base.dir.tmp}/${data.mets.dir}"></property>
+    <mkdir dir="${data.mets.tmp.dir}"/>
+    <copy todir="${data.mets.tmp.dir}">
+      <fileset dir="${basedir}/${data.mets.dir}"/>
+    </copy>
+    <!-- Copy back with filter for each file name -->
+    <for param="file">
+      <path>
+        <fileset dir="${data.mets.tmp.dir}" includes="**/*" />
+      </path>
+      <sequential>
+        <var name="identifier" unset="true"/>
+        <propertyregex property="identifier" input="@{file}" regexp="^.*/(.*?)\..*$" select="\1" casesensitive="false" />
+        <echo message="Fixing @{file} with identifier '${identifier}'"></echo>
+        <replace file="@{file}" token="REPLACEME" value="${identifier}"/>
+        <copy todir="${basedir}/${data.mets.dir}">
+          <file file="@{file}"/>
+        </copy>
+      </sequential>
+    </for>
+  </target>
 
   <!-- Page splitting -->
-  <target name="data.split" depends="data.pages.check, data.enrich, data.dirs" unless="data.pages.exist">
+  <target name="data.split" depends="data.pages.check, data.enrich" unless="data.pages.exist">
     <property name="data.split.output" value="${target.dir}/split-report.xhtml"/>
     <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.split}" destfile="${data.split.output}"
       params="input-collection=${basedir}/${data.tei-enriched.dir} output-collection=${basedir}/${data.tei-pages.dir} mode=tei"/>
@@ -655,6 +686,7 @@
     <pathconvert refid="data.enriched.fileset" property="data.entiched.fileset.empty" setonempty="false"/>
   </target>
 
+  <!-- TODO: Finish this -->
   <target name="data.generate.kml" depends="salvador.saxon.install, data.enrich">
     <salvador.saxon.xslt in="" xslt="" dest="exist.kml.placeName.local"/>
   </target>
@@ -683,7 +715,6 @@
 
   <!-- Target for all data -->
   <!-- Enable data.generate.kml, -->
-  <target name="data.generate" depends="data.dir.check, data.enrich, data.statistics, data.generate.cloud, data.generate.index, data.split, data.structure" unless="data.dir.exist"/>
-
+  <target name="data.generate" depends="data.dir.check, data.enrich, data.statistics, data.generate.cloud, data.generate.index, data.split, data.structure, data.generate.mets" unless="data.dir.exist"/>
 
 </project>

@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <METS:mets xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:METS="http://www.loc.gov/METS/" xmlns:MODS="http://www.loc.gov/mods/v3"
     xmlns:DC="http://purl.org/dc/elements/1.1/" xmlns:DV="http://dfg-viewer.de/" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
-    <!--Replace the string 'REPLACEME' with the real dentifier using sed, if no
-                    param was given-->
     <METS:dmdSec ID="dmdSec_00000001">
         <METS:mdWrap MDTYPE="MODS">
             <METS:xmlData>

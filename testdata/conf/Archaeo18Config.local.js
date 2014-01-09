@@ -13,5 +13,7 @@
 		"tagcloudPageQuery":	"/exist/rest/db/archaeo18/queries/getText.xq?doc=DOC_ID&page=PAGE_ID&format=cloud&facet=FACET_ID",
 		"kmlQuery": 		"/exist/rest/db/archaeo18/queries/getText.xq?format=kml&doc=DOC_ID&page=PAGE_ID",
 		"teiUri": 		"content/app/tei/DOC_ID.xml",
-		"metsUri": 		"content/app/mets/DOC_ID.xml"
+		"metsUri": 		"content/app/mets/DOC_ID.xml",
+		"openDocumentsOnStart": true,
+		"documentOnStart": "berlin-ms-germ-qrt-1666"
 }
