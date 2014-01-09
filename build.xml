@@ -521,7 +521,7 @@
   
   <target name="solr.index" depends="solr.start, solr.docs, salvador.http.macros">
     <property name="solr.url" value="http://localhost:8983/solr/archaeo18/update"></property>
-    <salvador.solr.index endpoint="">
+    <salvador.solr.index endpoint="${solr.url}">
       <files>
         <fileset dir="${solr.docs.dir}" includes="**/*" />
       </files>
