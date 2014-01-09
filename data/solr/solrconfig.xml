@@ -71,7 +71,32 @@
 	  <requestHandler name="/select" class="solr.SearchHandler" />
 		      <searchComponent name="query"     class="solr.QueryComponent" />
        <searchComponent name="facet"     class="solr.FacetComponent" />
-	       <searchComponent name="highlight" class="solr.HighlightComponent" />
+
+	       <searchComponent name="highlight" class="solr.HighlightComponent">
+ <highlighting>
+      <!-- Configure the standard formatter -->
+      <formatter name="html" 
+                 default="true"
+                 class="solr.highlight.HtmlFormatter">
+        <lst name="defaults">
+          <str name="hl.simple.pre"><![CDATA[<em>]]></str>
+          <str name="hl.simple.post"><![CDATA[</em>]]></str>
+          <int name="hl.fragsize">0</int>
+        </lst>
+      </formatter>
+
+      <boundaryScanner name="default" 
+                       default="true"
+                       class="solr.highlight.SimpleBoundaryScanner">
+        <lst name="defaults">
+          <str name="hl.bs.maxScan">10</str>
+          <str name="hl.bs.chars">.,!? &#9;&#10;&#13;</str>
+        </lst>
+      </boundaryScanner>
+
+    </highlighting>
+
+</searchComponent>
 
    <arr name="components">
          <str>query</str>
