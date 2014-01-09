@@ -29,7 +29,7 @@
 
     <xsl:template match="/">
         <xsl:choose>
-            <xsl:when test="not(empty($collection))">
+            <xsl:when test="not(empty($collection)) and $collection != ''">
                 <xsl:for-each select="collection(concat($collection, '/?select=*.xml'))">
                     <xsl:variable name="in-file" select="tokenize(document-uri(.), '/')[last()]" as="xs:string"/>
                     <xsl:variable name="solr-file" select="ropen:concat-path($output, $in-file)" as="xs:anyURI"/>
@@ -188,10 +188,10 @@
                                 <xsl:text disable-output-escaping="yes">]]&gt;</xsl:text>
                                     </xsl:when>
                                     <xsl:otherwise>
-                                        <!-- <xsl:text disable-output-escaping="yes">&lt;![CDATA[</xsl:text> -->
-                                        <!-- <xsl:apply-templates select="." mode="filter" />-->
-                                        <xsl:value-of select=".//text()"/>
-                                       <!-- <xsl:text disable-output-escaping="yes">]]&gt;</xsl:text>-->
+                                        <xsl:variable name="content">
+                                            <xsl:apply-templates mode="filter"></xsl:apply-templates>
+                                        </xsl:variable>
+                                        <xsl:value-of select="$content//text()"/>
                                     </xsl:otherwise>
                                  </xsl:choose>
                             </field>
