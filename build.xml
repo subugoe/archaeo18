@@ -529,7 +529,8 @@
   </target>
 
   <target name="solr.docs" depends="data.enrich, solr.init">
-    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.solr}" destfile="${data.enrich.output}"
+    <property name="data.solr.output" value="${target.dir}/solr-report.xhtml"/>
+    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.solr}" destfile="${data.solr.output}"
       params="collection=${basedir}/${data.tei-enriched.dir} output=${solr.docs.dir}"
     />
   </target>
