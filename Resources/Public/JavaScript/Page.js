@@ -122,18 +122,18 @@ var loadContent = function(page) {
 	$.ajax({
 			   url: pageUrl
 		   }).done(function(html) {
-				var container = $(content.container() + ' .wrap');
+					   var container = $(content.container() + ' .wrap');
 
-				var containerContent;
+					   var containerContent;
 
-				if (suffix === 'md') {
-					containerContent = markdown.toHTML(html);
-				} else {
-					container.html(html);
-				}
+					   if (suffix === 'md') {
+						   containerContent = markdown.toHTML(html);
+					   } else {
+						   container.html(html);
+					   }
 
-				$('a[href^="http://"]').attr('target','_blank');
-			});
+					   $('a[href^="http://"]').attr('target', '_blank');
+				   });
 }
 
 
@@ -156,17 +156,33 @@ var loadEdition = function() {
 	}
 	EditionGui.gridLayout();
 
-	var documentName = 'berlin-ms-germ-qrt-1666';
-	var documentTitle = '1775 (Berlin)';
+	var loadFirstDocument = function(data) {
+		var doc = new Document(data.title, data.name, data.nameShort, data.preview, data.pages, true);
+		doc.imagePath = Util.getImagePath(data.preview);
+		var images = [];
+		images.push(doc.imagePath .substring(doc.imagePath .lastIndexOf("/") + 1));
 
-	var document = Util.loadDocumentSync(documentName, documentTitle);
+		var types = ['text', 'images'];
 
-	var types = ['text', 'images'];
+		for (var i = 0; i < types.length; i++) {
+			EditionGui.openDocument(false, doc, 1, types[i], false, '', i);
+		}
 
-	for (var i = 0; i < types.length; i++) {
-		EditionGui.openDocument(false, document, 1, types[i], false, '', i);
+	};
+
+	var loadDoc = function() {
+		var callStorage = 0;
+
+		Util.loadDocuments(function(data) {
+			if (callStorage === 0) {
+				callStorage++;
+				loadFirstDocument(data);
+
+			}
+		})
 	}
 
+	loadDoc();
 }
 
 var addGeoTemCo = function() {
