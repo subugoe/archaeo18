@@ -160,6 +160,12 @@
   <property name="xslt.solr.synonyms" value="./data/solr/synonymelist.xsl"/>
   <property name="xslt.solr.docs" value="./data/solr/solr.xsl"/>
 
+  <!-- Solr settings -->
+  <property name="solr.dir" value="${target.dir}/solr"/>
+  <property name="solr.docs.dir" value="${solr.dir}/docs"/>
+  <property name="solr.synonym.list" value="${solr.dir}/synonyms.txt"/>
+  <property name="solr.url" value="http://localhost:8983/solr/archaeo18/update"/>
+
   <!-- METS related settings -->
   <property name="data.docs.mets.base.uri" value="http://134.76.21.92:8080/images/"/>
 
@@ -489,9 +495,6 @@
   #######################################################
   -->
   <target name="solr.init" depends="init, salvador.solr.install">
-    <property name="solr.dir" value="${target.dir}/solr"/>
-    <property name="solr.docs.dir" value="${solr.dir}/docs"/>
-    <property name="solr.synonym.list" value="${solr.dir}/synonyms.txt"/>
     <mkdir dir="${solr.dir}"/>
     <mkdir dir="${solr.docs.dir}"/>
   </target>
@@ -503,36 +506,31 @@
 
   <target name="sol.synonyms" depends="salvador.saxon.install, data.enrich, solr.init">
     <!-- TODO: Finish this -->
-    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.solr.synonyms}" destfile="${solr.synonym.list}"
-      params="collection=${basedir}/${data.tei.dir}"
-    />
+    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.solr.synonyms}" destfile="${solr.synonym.list}" params="collection=${basedir}/${data.tei.dir}"/>
   </target>
-  
+
   <target name="solr.run" depends="solr.start">
     <input>Press Return key to stop Solr...</input>
   </target>
-  
+
   <target name="solr.start" depends="solr.init, salvador.solr.install">
     <property name="name" value="archaeo18"/>
     <property name="solrhome" value="${salvador.solr.home.dir}/"/>
     <salvador.solr.setup solrhome="${solrhome}" core="archaeo18" config="./data/solr/"/>
     <salvador.solr.run/>
   </target>
-  
+
   <target name="solr.index" depends="solr.start, solr.docs, salvador.http.macros">
-    <property name="solr.url" value="http://localhost:8983/solr/archaeo18/update"></property>
-    <salvador.solr.index endpoint="${solr.url}">
-      <files>
-        <fileset dir="${solr.docs.dir}" includes="**/*" />
-      </files>
-    </salvador.solr.index>
+    <salvador.solr.index.files endpoint="${solr.url}">
+      <fileset dir="${solr.docs.dir}" includes="*.xml"/>
+    </salvador.solr.index.files>
   </target>
 
   <target name="solr.docs" depends="data.enrich, solr.init">
     <property name="data.solr.output" value="${target.dir}/solr-report.xhtml"/>
-    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.solr}" destfile="${data.solr.output}"
-      params="collection=${basedir}/${data.tei-enriched.dir} output=${solr.docs.dir}"
-    />
+    <echo level="verbose">collection=${basedir}/${data.tei-enriched.dir}</echo>
+    <echo level="verbose">output=${solr.docs.dir}</echo>
+    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.solr}" destfile="${data.solr.output}" params="collection=${basedir}/${data.tei-enriched.dir} output=${basedir}/${solr.docs.dir}"/>
   </target>
 
   <!-- 
@@ -577,7 +575,7 @@
       </and>
     </condition>
   </target>
-  
+
   <target name="data.pages.check">
     <fileset dir="${data.tei-pages.dir}" id="tei.files">
       <include name="**/*.xml"/>
@@ -587,8 +585,8 @@
     </fileset>
     <condition property="data.pages.exist">
       <and>
-        <resourcecount refid="tei.files" when="greater" count="0" />
-        <resourcecount refid="xhtml.files" when="greater" count="0" />
+        <resourcecount refid="tei.files" when="greater" count="0"/>
+        <resourcecount refid="xhtml.files" when="greater" count="0"/>
         <!--
         <available file="${data.tei-pages.dir}" type="dir"/>
         <available file="${data.xhtml-pages.dir}" type="dir"/>
@@ -609,36 +607,34 @@
 
   <target name="data.enrich" depends="data.dirs, data.enrich.check, salvador.saxon.install, init" unless="data.entiched.fileset.empty">
     <property name="data.enrich.output" value="${target.dir}/enrichment-report.xhtml"/>
-    <echo message="Importing TEI"/>
-    <echo message="Base directory: ${basedir}"/>
-    <echo message="Input collection: ${basedir}/${data.tei.dir}"/>
-    <echo message="METS collection: ${basedir}/${data.mets.dir}"/>  
-    <echo message="Enriched TEI collection: ${basedir}/${data.tei-enriched.dir}"/>
-    <echo message="Document listing: ${basedir}/${data.docs.list}"/>
-    <echo message="XHTML Structure collection: ${basedir}/${data.xhtml.structure.dir}"/>
-    <echo message="XHTML content collection: ${basedir}/${data.xhtml.content.dir}"/>
-    <echo message="XHTML header collection: ${basedir}/${data.xhtml.header.dir}"/>
-    <echo message="METS base URL: ${data.docs.mets.base.uri}"/>
+    <echo level="verbose" message="Importing TEI"/>
+    <echo level="verbose" message="Base directory: ${basedir}"/>
+    <echo level="verbose" message="Input collection: ${basedir}/${data.tei.dir}"/>
+    <echo level="verbose" message="METS collection: ${basedir}/${data.mets.dir}"/>
+    <echo level="verbose" message="Enriched TEI collection: ${basedir}/${data.tei-enriched.dir}"/>
+    <echo level="verbose" message="Document listing: ${basedir}/${data.docs.list}"/>
+    <echo level="verbose" message="XHTML Structure collection: ${basedir}/${data.xhtml.structure.dir}"/>
+    <echo level="verbose" message="XHTML content collection: ${basedir}/${data.xhtml.content.dir}"/>
+    <echo level="verbose" message="XHTML header collection: ${basedir}/${data.xhtml.header.dir}"/>
+    <echo level="verbose" message="METS base URL: ${data.docs.mets.base.uri}"/>
     <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.enrich}" destfile="${data.enrich.output}"
-      params="collection=${basedir}/${data.tei.dir} mets-collection=${basedir}/${data.mets.dir} tei-enriched-collection=${basedir}/${data.tei-enriched.dir} document-listing-file=${basedir}/${data.docs.list} url-prefix=${data.docs.mets.base.uri} replace-prefix=${basedir}./"
-    />
+      params="collection=${basedir}/${data.tei.dir} mets-collection=${basedir}/${data.mets.dir} tei-enriched-collection=${basedir}/${data.tei-enriched.dir} document-listing-file=${basedir}/${data.docs.list} url-prefix=${data.docs.mets.base.uri} replace-prefix=${basedir}./"/>
     <!--
     <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.enrich}" destfile="${data.enrich.output}"
       params="collection=${basedir}/${data.tei.dir} mets-collection=${basedir}/${data.mets.dir} tei-enriched-collection=${basedir}/${data.tei-enriched.dir} document-listing-file=${basedir}/${data.docs.list} xhtml-collection=${basedir}/${data.xhtml.content.dir} xhtml-header-collection=${basedir}/${data.xhtml.header.dir} url-prefix=${data.docs.mets.base.uri} replace-prefix=${basedir}./"
     />
     -->
   </target>
-  
+
   <target name="data.structure" depends="data.dir.check, data.enrich" unless="data.dir.exist">
     <property name="data.structure.output" value="${target.dir}/structure-target.xhtml"/>
     <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.xhtml.structure}" destfile="${data.structure.output}"
-      params="collection=${basedir}/${data.tei-enriched.dir} output-collection=${basedir}/${data.xhtml.structure.dir} output-param=xhtml"
-    />
+      params="collection=${basedir}/${data.tei-enriched.dir} output-collection=${basedir}/${data.xhtml.structure.dir} output-param=xhtml"/>
   </target>
 
   <!-- Fix for METS Files -->
   <target name="data.generate.mets" depends="data.enrich, salvador.base.ant.contrib.install">
-    <property name="data.mets.tmp.dir" value="${salvador.base.dir.tmp}/${data.mets.dir}"></property>
+    <property name="data.mets.tmp.dir" value="${salvador.base.dir.tmp}/${data.mets.dir}"/>
     <mkdir dir="${data.mets.tmp.dir}"/>
     <copy todir="${data.mets.tmp.dir}">
       <fileset dir="${basedir}/${data.mets.dir}"/>
@@ -646,12 +642,12 @@
     <!-- Copy back with filter for each file name -->
     <for param="file">
       <path>
-        <fileset dir="${data.mets.tmp.dir}" includes="**/*" />
+        <fileset dir="${data.mets.tmp.dir}" includes="**/*"/>
       </path>
       <sequential>
         <var name="identifier" unset="true"/>
-        <propertyregex property="identifier" input="@{file}" regexp="^.*/(.*?)\..*$" select="\1" casesensitive="false" />
-        <echo message="Fixing @{file} with identifier '${identifier}'"></echo>
+        <propertyregex property="identifier" input="@{file}" regexp="^.*/(.*?)\..*$" select="\1" casesensitive="false"/>
+        <echo message="Fixing @{file} with identifier '${identifier}'"/>
         <replace file="@{file}" token="REPLACEME" value="${identifier}"/>
         <copy todir="${basedir}/${data.mets.dir}">
           <file file="@{file}"/>
