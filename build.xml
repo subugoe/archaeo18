@@ -661,6 +661,7 @@
 
   <!-- Page splitting -->
   <target name="data.split" depends="data.pages.check, data.enrich" unless="data.pages.exist">
+    <echo>If this fails with a memory error, try to increase the Memory useable by ant: 'ANT_OPTS="-Xms256m -Xmx1024m -XX:MaxPermSize=120m" ant</echo>
     <property name="data.split.output" value="${target.dir}/split-report.xhtml"/>
     <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.split}" destfile="${data.split.output}"
       params="input-collection=${basedir}/${data.tei-enriched.dir} output-collection=${basedir}/${data.tei-pages.dir} mode=tei"/>
