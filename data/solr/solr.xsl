@@ -30,14 +30,35 @@
     <xsl:template match="/">
         <xsl:choose>
             <xsl:when test="not(empty($collection)) and $collection != ''">
-                <xsl:for-each select="collection(concat($collection, '/?select=*.xml'))">
-                    <xsl:variable name="in-file" select="tokenize(document-uri(.), '/')[last()]" as="xs:string"/>
-                    <xsl:variable name="solr-file" select="ropen:concat-path($output, $in-file)" as="xs:anyURI"/>
-                    <xsl:message>Generating index file for <xsl:value-of select="$in-file"/> in <xsl:value-of select="$solr-file"/></xsl:message>
-                    <xsl:result-document href="{$solr-file}">
-                        <xsl:apply-templates select="document(document-uri(.))//TEI:body"/>
-                    </xsl:result-document>
-                </xsl:for-each>
+                <html xmlns="http://www.w3.org/1999/xhtml">
+                    <head>
+                        <title>Solr report</title>
+                    </head>
+                    <body>
+                        <table>
+                            <thead>
+                                <td>Input path</td>
+                                <td>Output path</td>
+                            </thead>
+                            <xsl:for-each select="collection(concat($collection, '/?select=*.xml'))">
+                                <xsl:variable name="in-file" select="tokenize(document-uri(.), '/')[last()]" as="xs:string"/>
+                                <xsl:variable name="solr-file" select="ropen:concat-path($output, $in-file)" as="xs:anyURI"/>
+                                <xsl:message>Generating index file for <xsl:value-of select="$in-file"/> in <xsl:value-of select="$solr-file"/></xsl:message>
+                                <xsl:result-document href="{$solr-file}">
+                                    <xsl:apply-templates select="document(document-uri(.))//TEI:body"/>
+                                </xsl:result-document>
+                                <tr>
+                                    <td>
+                                        <xsl:value-of select="$in-file"/>
+                                    </td>
+                                    <td>
+                                        <xsl:value-of select="$solr-file"/>
+                                    </td>
+                                </tr>
+                            </xsl:for-each>
+                        </table>
+                    </body>
+                </html>
             </xsl:when>
             <xsl:otherwise>
                 <xsl:apply-templates/>
