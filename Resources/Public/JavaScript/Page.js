@@ -157,7 +157,7 @@ var loadEdition = function() {
 	EditionGui.gridLayout();
 
 	var documentName = 'berlin-ms-germ-qrt-1666';
-	var documentTitle = 'Berlin 1775';
+	var documentTitle = '1775 (Berlin)';
 
 	var document = Util.loadDocumentSync(documentName, documentTitle);
 
