@@ -68,7 +68,14 @@
     </lst>
   </requestHandler>
 
-	  <requestHandler name="/select" class="solr.SearchHandler" />
+	   <requestHandler name="/select" class="solr.SearchHandler" >
+                <lst>
+                        <str name="df">content</str>
+                </lst>
+        </requestHandler>
+
+
+
 		      <searchComponent name="query"     class="solr.QueryComponent" />
        <searchComponent name="facet"     class="solr.FacetComponent" />
 
@@ -79,7 +86,9 @@
                  default="true"
                  class="solr.highlight.HtmlFormatter">
         <lst name="defaults">
-          <str name="hl.simple.pre"><![CDATA[<span class="em:match">]]></str>
+          <!-- <str name="hl.simple.pre"><![CDATA[<em>]]></str>
+          <str name="hl.simple.post"><![CDATA[</em>]]></str>-->
+          <str name="hl.simple.pre"><![CDATA[<span class="solr:match>]]></str>
           <str name="hl.simple.post"><![CDATA[</span>]]></str>
           <int name="hl.fragsize">0</int>
         </lst>
