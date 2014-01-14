@@ -106,7 +106,6 @@
                             <field name="content">
                                 <xsl:choose>
                                     <xsl:when test="$tags = 'includetags'">
-
                                         <xsl:text disable-output-escaping="yes">&lt;![CDATA[</xsl:text>
                                         <xsl:copy-of select="$page"/>
                                         <xsl:text disable-output-escaping="yes">]]&gt;</xsl:text>
@@ -386,7 +385,7 @@
         <xsl:comment>entities</xsl:comment>
         <xsl:for-each select="$node//TEI:placeName">
             <xsl:variable name="content" select="a18:apply-templates-filter(.)"/>
-            <xsl:copy-of select="a18:field('place', a18:normalize-space($content))"/>
+            <xsl:copy-of select="a18:field('placeName', a18:normalize-space($content))"/>
         </xsl:for-each>
         <!-- <xsl:for-each select="$node//TEI:placeName//TEI:addName">
             <field name="place-variant">
@@ -395,7 +394,7 @@
         </xsl:for-each>-->
         <xsl:for-each select="$node//TEI:persName">
             <xsl:variable name="content" select="a18:apply-templates-filter(.)"/>
-            <xsl:copy-of select="a18:field('person', a18:normalize-space($content))"/>
+            <xsl:copy-of select="a18:field('persName', a18:normalize-space($content))"/>
         </xsl:for-each>
         <!-- <xsl:for-each select="$node//TEI:persName//TEI:addName">
             <field name="person-variant">
@@ -423,7 +422,7 @@
         <xsl:comment>Document structure</xsl:comment>
         <xsl:for-each select="$node//TEI:head">
             <xsl:variable name="content" select="a18:add-whitespace(a18:apply-templates-filter(.))"/>
-            <xsl:copy-of select="a18:field('heading', a18:normalize-space($content))"/>
+            <xsl:copy-of select="a18:field('head', a18:normalize-space($content))"/>
         </xsl:for-each>
         <xsl:for-each select="$node//TEI:note">
             <xsl:variable name="content" select="a18:add-whitespace(a18:apply-templates-filter(.))"/>
@@ -431,7 +430,7 @@
         </xsl:for-each>
         <xsl:for-each select="$node//TEI:hi">
             <xsl:variable name="content" select="a18:add-whitespace(a18:apply-templates-filter(.))"/>
-            <xsl:copy-of select="a18:field('highlighted', a18:normalize-space($content))"/>
+            <xsl:copy-of select="a18:field('hi', a18:normalize-space($content))"/>
         </xsl:for-each>
     </xsl:function>
 
