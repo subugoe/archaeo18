@@ -197,7 +197,7 @@
   </target>
 
   <!-- Removes directories needed by the build system -->
-  <target name="clean" depends="ropen.config.remote, salvador.base.clean, data.dir.clean">
+  <target name="clean" depends="ropen.config.remote, salvador.base.clean, data.dir.clean, solr.clean">
     <delete dir="${target.dir}"/>
   </target>
 
