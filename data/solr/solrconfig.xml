@@ -71,6 +71,7 @@
 	   <requestHandler name="/select" class="solr.SearchHandler" >
                 <lst name="defaults">
                         <str name="df">content</str>
+      			<str name="echoParams">all</str>
                 </lst>
         </requestHandler>
 
@@ -88,8 +89,10 @@
         <lst name="defaults">
           <!-- <str name="hl.simple.pre"><![CDATA[<em>]]></str>
           <str name="hl.simple.post"><![CDATA[</em>]]></str>-->
-          <str name="hl.simple.pre"><![CDATA[<span class="solr:match>]]></str>
-          <str name="hl.simple.post"><![CDATA[</span>]]></str>
+          <!-- <str name="hl.simple.pre"><![CDATA[<span class="solr:match>"]]></str>
+          <str name="hl.simple.post"><![CDATA[</span>]]></str> -->
+		<str name="hl.simple.pre" />
+		<str name="hl.simple.post" />
           <int name="hl.fragsize">0</int>
         </lst>
       </formatter>
