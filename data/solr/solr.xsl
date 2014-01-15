@@ -30,14 +30,35 @@
     <xsl:template match="/">
         <xsl:choose>
             <xsl:when test="not(empty($collection)) and $collection != ''">
-                <xsl:for-each select="collection(concat($collection, '/?select=*.xml'))">
-                    <xsl:variable name="in-file" select="tokenize(document-uri(.), '/')[last()]" as="xs:string"/>
-                    <xsl:variable name="solr-file" select="ropen:concat-path($output, $in-file)" as="xs:anyURI"/>
-                    <xsl:message>Generating index file for <xsl:value-of select="$in-file"/> in <xsl:value-of select="$solr-file"/></xsl:message>
-                    <xsl:result-document href="{$solr-file}">
-                        <xsl:apply-templates select="document(document-uri(.))//TEI:body"/>
-                    </xsl:result-document>
-                </xsl:for-each>
+                <html xmlns="http://www.w3.org/1999/xhtml">
+                    <head>
+                        <title>Solr report</title>
+                    </head>
+                    <body>
+                        <table>
+                            <thead>
+                                <td>Input path</td>
+                                <td>Output path</td>
+                            </thead>
+                            <xsl:for-each select="collection(concat($collection, '/?select=*.xml'))">
+                                <xsl:variable name="in-file" select="tokenize(document-uri(.), '/')[last()]" as="xs:string"/>
+                                <xsl:variable name="solr-file" select="ropen:concat-path($output, $in-file)" as="xs:anyURI"/>
+                                <xsl:message>Generating index file for <xsl:value-of select="$in-file"/> in <xsl:value-of select="$solr-file"/></xsl:message>
+                                <xsl:result-document href="{$solr-file}">
+                                    <xsl:apply-templates select="document(document-uri(.))//TEI:body"/>
+                                </xsl:result-document>
+                                <tr>
+                                    <td>
+                                        <xsl:value-of select="$in-file"/>
+                                    </td>
+                                    <td>
+                                        <xsl:value-of select="$solr-file"/>
+                                    </td>
+                                </tr>
+                            </xsl:for-each>
+                        </table>
+                    </body>
+                </html>
             </xsl:when>
             <xsl:otherwise>
                 <xsl:apply-templates/>
@@ -85,7 +106,6 @@
                             <field name="content">
                                 <xsl:choose>
                                     <xsl:when test="$tags = 'includetags'">
-
                                         <xsl:text disable-output-escaping="yes">&lt;![CDATA[</xsl:text>
                                         <xsl:copy-of select="$page"/>
                                         <xsl:text disable-output-escaping="yes">]]&gt;</xsl:text>
@@ -365,7 +385,7 @@
         <xsl:comment>entities</xsl:comment>
         <xsl:for-each select="$node//TEI:placeName">
             <xsl:variable name="content" select="a18:apply-templates-filter(.)"/>
-            <xsl:copy-of select="a18:field('place', a18:normalize-space($content))"/>
+            <xsl:copy-of select="a18:field('placeName', a18:normalize-space($content))"/>
         </xsl:for-each>
         <!-- <xsl:for-each select="$node//TEI:placeName//TEI:addName">
             <field name="place-variant">
@@ -374,7 +394,7 @@
         </xsl:for-each>-->
         <xsl:for-each select="$node//TEI:persName">
             <xsl:variable name="content" select="a18:apply-templates-filter(.)"/>
-            <xsl:copy-of select="a18:field('person', a18:normalize-space($content))"/>
+            <xsl:copy-of select="a18:field('persName', a18:normalize-space($content))"/>
         </xsl:for-each>
         <!-- <xsl:for-each select="$node//TEI:persName//TEI:addName">
             <field name="person-variant">
@@ -402,7 +422,7 @@
         <xsl:comment>Document structure</xsl:comment>
         <xsl:for-each select="$node//TEI:head">
             <xsl:variable name="content" select="a18:add-whitespace(a18:apply-templates-filter(.))"/>
-            <xsl:copy-of select="a18:field('heading', a18:normalize-space($content))"/>
+            <xsl:copy-of select="a18:field('head', a18:normalize-space($content))"/>
         </xsl:for-each>
         <xsl:for-each select="$node//TEI:note">
             <xsl:variable name="content" select="a18:add-whitespace(a18:apply-templates-filter(.))"/>
@@ -410,7 +430,7 @@
         </xsl:for-each>
         <xsl:for-each select="$node//TEI:hi">
             <xsl:variable name="content" select="a18:add-whitespace(a18:apply-templates-filter(.))"/>
-            <xsl:copy-of select="a18:field('highlighted', a18:normalize-space($content))"/>
+            <xsl:copy-of select="a18:field('hi', a18:normalize-space($content))"/>
         </xsl:for-each>
     </xsl:function>
 
