@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE urlrewrite PUBLIC "-//tuckey.org//DTD UrlRewrite 3.2//EN"
+        "http://www.tuckey.org/res/dtds/urlrewrite3.2.dtd">
+
+<!--
+
+    Configuration file for UrlRewriteFilter
+    http://www.tuckey.org/urlrewrite/
+
+-->
+<urlrewrite use-query-string="true">
+    <rule>
+        <from>^/exist/(.*?)$</from>
+        <to type="proxy">http://134.76.21.92:8080/exist/$1</to>
+    </rule>
+    <rule>
+        <from>^/search/(.*?)$</from>
+        <to type="proxy"
+            >http://localhost:8983/solr/archaeo18/select?wt=xslt&amp;indent=true&amp;hl=true&amp;hl.fl=content&amp;hl.simple.pre=&lt;em&gt;&amp;hl.simple.post=&lt;%2Fem&gt;&amp;hl.fragsize=0&amp;tr=solrresponse.xsl&amp;q=</to>
+    </rule>
+    <!-- Rewrite frum eXist to Solr URLs
+        Person:
+        persName
+        search.xq?query=TraJAN&mode=xhtml&facet=persName -> persName
+        search.xq?query=TraJAN&mode=xhtml&facet=placeName -> placeName
+        search.xq?query=TraJAN&mode=xhtml&facet=bibl -> bibl
+        search.xq?query=TraJAN&mode=xhtml&facet=term -> term
+        search.xq?query=TraJAN&mode=xhtml&facet=date -> date
+        search.xq?query=TraJAN&mode=xhtml&facet=head -> head
+        search.xq?query=TraJAN&mode=xhtml&facet=teiHeader -> will not be mapped
+        search.xq?query=TraJAN&mode=xhtml&facet=note -> note
+        search.xq?query=TraJAN&mode=xhtml&facet=hi -> hi
+    -->
+    <rule>
+        <from>^/search?query=(.*?)&amp;mode=xhtml&amp;facet=(.*?)$</from>
+        <to>/solr/archaeo18/select?wt=xslt&amp;indent=true&amp;hl=true&amp;hl.fl=content&amp;hl.simple.pre=&lt;em&gt;&amp;hl.simple.post=&lt;%2Fem&gt;&amp;hl.fragsize=0&amp;tr=solrresponse.xsl&amp;q=$2:$1</to>
+    </rule>
+
+</urlrewrite>
