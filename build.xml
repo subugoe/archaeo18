@@ -468,7 +468,7 @@
     <salvador.solr.write.env jetty-env="${jetty-env}" solrhome="${solr.home.dir}"/>
     <!-- Location of the URL rewriting -->
     <property name="rewrite.dir" value="./Resources/Private/Jetty"/>
-    <jetty.run tempDirectory="${salvador.jetty.tmp.dir}" scanIntervalSeconds="5">
+    <jetty.run tempDirectory="${salvador.jetty.tmp.dir}" scanIntervalSeconds="5" daemon="true">
       <connectors>
         <selectChannelConnector port="${salvador.jetty.port}"/>
       </connectors>
@@ -484,6 +484,8 @@
         <lib dir="${salvador.saxon.lib.dir}" includes="*.jar"/>
       </webApp>
     </jetty.run>
+    <antcall target="salvador.base.splash.sound"/>
+    <input>Press Return key to stop Jetty...</input>
   </target>
 
   <!-- 
