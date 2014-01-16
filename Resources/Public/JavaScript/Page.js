@@ -158,10 +158,10 @@ var loadEdition = function() {
 
 	var loadFirstDocument = function(data) {
 		var doc = new Document(data.title, data.name, data.nameShort, data.preview, data.pages, true);
-		doc.imagePath = Util.getImagePath(data.preview);
-		var images = [];
-		images.push(doc.imagePath .substring(doc.imagePath .lastIndexOf("/") + 1));
-
+		doc.imagePath = data.imagePath.replace('REPLACEME', data.title);
+		var images = data.images
+		//images.push(doc.imagePath .substring(doc.imagePath .lastIndexOf("/") + 1));
+		doc.images = images;
 		var types = ['text', 'images'];
 
 		for (var i = 0; i < types.length; i++) {
