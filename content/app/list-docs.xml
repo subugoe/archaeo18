@@ -1,15 +1,47 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <docs>
-    <doc>
-        <id>null</id>
-        <title>Generate the static document listing by running 'ant data.generate'</title>
-        <titleShort>Generate the static document listing by running 'ant data.generate'</titleShort>
-        <preview>/Public/Images/content-handschrift1.png</preview>
-        <tei>/content/docs/list-docs.xml</tei>
-        <teiEnriched>/content/docs/list-docs.xml</teiEnriched>
-        <mets>/content/docs/list-docs.xml</mets>
-        <pageCount>0</pageCount>
-        <origDate>0</origDate>
-        <fulltext>false</fulltext>
-    </doc>
+	<doc>
+		<id>berlin-ms-germ-qrt-1666</id>
+		<title>Vorlesungsmitschrift 1775 (Berlin)</title>
+		<titleShort>1775 (Berlin)</titleShort>
+		<mets>/home/ingop/repo/archaeo18/./content/app/mets/berlin-ms-germ-qrt-1666.xml</mets>
+		<preview/>
+		<tei>/home/ingop/repo/archaeo18/./content/app/tei/berlin-ms-germ-qrt-1666.xml</tei>
+		<teiEnriched>/home/ingop/repo/archaeo18/./content/app/tei-enriched/berlin-ms-germ-qrt-1666.xml</teiEnriched>
+		<pageCount>314</pageCount>
+		<fulltext>true</fulltext>
+	</doc>
+	<doc>
+		<id>bern-mss-muel-507</id>
+		<title>Vorlesungsmitschrift 1780 (Bern)</title>
+		<titleShort>1780 (Bern)</titleShort>
+		<mets>/home/ingop/repo/archaeo18/./content/app/mets/bern-mss-muel-507.xml</mets>
+		<preview/>
+		<tei>/home/ingop/repo/archaeo18/./content/app/tei/bern-mss-muel-507.xml</tei>
+		<teiEnriched>/home/ingop/repo/archaeo18/./content/app/tei-enriched/bern-mss-muel-507.xml</teiEnriched>
+		<pageCount>631</pageCount>
+		<fulltext>true</fulltext>
+	</doc>
+	<doc>
+		<id>weimar-hs-2056</id>
+		<title>Vorlesungsmitschrift 1772 (Weimar)</title>
+		<titleShort>1772 (Weimar)</titleShort>
+		<mets>/home/ingop/repo/archaeo18/./content/app/mets/weimar-hs-2056.xml</mets>
+		<preview/>
+		<tei>/home/ingop/repo/archaeo18/./content/app/tei/weimar-hs-2056.xml</tei>
+		<teiEnriched>/home/ingop/repo/archaeo18/./content/app/tei-enriched/weimar-hs-2056.xml</teiEnriched>
+		<pageCount>491</pageCount>
+		<fulltext>true</fulltext>
+	</doc>
+	<doc>
+		<id>rom-heyne1798</id>
+		<title>Vorlesungsmitschrift 1798 (Rom)</title>
+		<titleShort>1798 (Rom)</titleShort>
+		<mets>/home/ingop/repo/archaeo18/./content/app/mets/rom-heyne1798.xml</mets>
+		<preview/>
+		<tei>/home/ingop/repo/archaeo18/./content/app/tei/rom-heyne1798.xml</tei>
+		<teiEnriched>/home/ingop/repo/archaeo18/./content/app/tei-enriched/rom-heyne1798.xml</teiEnriched>
+		<pageCount>269</pageCount>
+		<fulltext>true</fulltext>
+	</doc>
 </docs>
