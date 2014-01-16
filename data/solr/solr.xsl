@@ -14,8 +14,9 @@
     <xsl:param name="document"/>
     <!-- Guess document name, this uses the document-uri function -->
     <xsl:param name="use-uri" as="xs:boolean" select="true()"/>
-    <!-- For one document per page set this to 'page' otherwise a solr doc is generated per document structure -->
-    <xsl:param name="mode" as="xs:string" select="'structure'"/>
+    <!-- For one document per page set this to 'page' otherwise a solr doc is generated per document structure, 
+        if set to page-and-structure the docs are generated from the structures splitted by pagebreaks. -->
+    <xsl:param name="mode" as="xs:string" select="'page'"/>
     <!--  set to 'includetags' to include xml tags to the content field of the index -->
     <xsl:param name="tags" as="xs:string" select="'none'"/>
     <!-- Use this param to handle a whole collection -->
@@ -70,156 +71,177 @@
         <add>
             <xsl:choose>
                 <xsl:when test="$mode = 'page'">
+                    <xsl:comment>page-based document  structure</xsl:comment>
                     <xsl:for-each select="//TEI:pb">
                         <xsl:variable name="pos" select="position()" as="xs:integer"/>
                         <xsl:variable name="page" as="node()*">
                             <xsl:choose>
                                 <xsl:when test="position() = 1">
+                                    <!--    geht so nicht... weil das body/* komplett ausgeschnitten wird nicht nur bis zum 
+                                    ersten pb -->
                                     <xsl:copy-of select="a18:chunk(./ancestor::TEI:body/child::*[1], ., //TEI:body)"/>
                                 </xsl:when>
-                                <xsl:when test="position() = last()">
+                                <!-- moved <xsl:when test="position() = last()">
                                     <xsl:copy-of select="./following::*"/>
-                                </xsl:when>
+                                </xsl:when> -->
                                 <xsl:otherwise>
-                                    <xsl:copy-of select="a18:chunk(./preceding::TEI:pb[1], ., //TEI:body)"/>
+                                    <xsl:copy-of select="a18:chunk(./preceding::TEI:pb[1], ., //TEI:body)"/>   
                                 </xsl:otherwise>
                             </xsl:choose>
                         </xsl:variable>
-                        <doc>
-                            <!-- Metadata -->
-                            <xsl:comment>Metadata</xsl:comment>
-                            <field name="id">
-                                <xsl:value-of select="concat(a18:document-name(.), '-', $pos)"/>
-                            </field>
-                            <field name="page-nr">
-                                <xsl:value-of select="$pos"/>
-                            </field>
-                            <field name="document">
-                                <xsl:value-of select="a18:document-name(.)"/>
-                            </field>
-                            <!-- Entities -->
-                            <xsl:copy-of select="a18:entity-fields($page)"/>
-                            <!-- Document structure -->
-                            <xsl:copy-of select="a18:structure-fields($page)"/>
-                            <!-- Content -->
-                            <xsl:comment>Content</xsl:comment>
-                            <field name="content">
-                                <xsl:choose>
-                                    <xsl:when test="$tags = 'includetags'">
-                                        <xsl:text disable-output-escaping="yes">&lt;![CDATA[</xsl:text>
-                                        <xsl:copy-of select="$page"/>
-                                        <xsl:text disable-output-escaping="yes">]]&gt;</xsl:text>
-                                    </xsl:when>
-                                    <xsl:otherwise>
-                                        <xsl:apply-templates select="." mode="filter"/>
-                                    </xsl:otherwise>
-                                </xsl:choose>
-                            </field>
-                        </doc>
+                        
+                        <xsl:call-template name="doc">
+                            <xsl:with-param name="id"><xsl:value-of select="concat(a18:document-name(.), '-', $pos)" /></xsl:with-param> 
+                            <xsl:with-param name="page-nr"><xsl:value-of select="$pos"/></xsl:with-param>
+                            <xsl:with-param name="document"><xsl:value-of select="a18:document-name(.)"/></xsl:with-param>
+                            <xsl:with-param name="path"><xsl:value-of select="a18:generate-xpath(.., true())"/></xsl:with-param>
+                            <xsl:with-param name="depth"><xsl:value-of select="count(../ancestor::*) + 1"/></xsl:with-param>
+                            <xsl:with-param name="node"><xsl:copy-of select="$page"/></xsl:with-param>
+                        </xsl:call-template>                      
                     </xsl:for-each>
+                   
+                   <!-- last page -->
+                    <xsl:variable name="pos" as="xs:integer"><xsl:value-of select="count((//TEI:pb)[last()]/preceding::TEI:pb) + 1" /></xsl:variable> 
+                            <xsl:variable name="page" as="node()*">
+                                <xsl:copy-of select="(//TEI:pb)[last()]/following::*"/>
+                            </xsl:variable>
+                            <xsl:call-template name="doc">
+                                <xsl:with-param name="id"><xsl:value-of select="concat(a18:document-name((//TEI:pb)[last()]), '-', $pos)" /></xsl:with-param> 
+                                <xsl:with-param name="page-nr"><xsl:value-of select="$pos"/></xsl:with-param>
+                                <xsl:with-param name="document"><xsl:value-of select="a18:document-name((//TEI:pb)[last()])"/></xsl:with-param>
+                                <xsl:with-param name="path"><xsl:value-of select="a18:generate-xpath((//TEI:pb)[last()]/parent::*, true())"/></xsl:with-param> 
+                                <xsl:with-param name="depth"><xsl:value-of select="count((//TEI:pb)[last()]/ancestor::*)"/></xsl:with-param>
+                                <xsl:with-param name="node"><xsl:copy-of select="$page"/></xsl:with-param>
+                            </xsl:call-template>
+                    
                 </xsl:when>
                 <xsl:when test="$mode = 'page-and-structure'">
+                    <xsl:comment>page- and structure-based document structure</xsl:comment>         
                     <xsl:for-each select="//TEI:div|//TEI:p">
                         <xsl:variable name="currentnode" select="."/>
                         <xsl:choose>
-                            <!-- TODO cut div/p-->
+                            <!-- TODO cut div/p at last sub level-->
                             <xsl:when test="./TEI:pb">
-
+                                <xsl:element name="wrapperel"><xsl:element name="parent" ><xsl:value-of select="$currentnode" />
+                                </xsl:element></xsl:element>
                                 <xsl:for-each select="./TEI:pb">
                                     <xsl:variable name="pos" select="count(./preceding::TEI:pb) + 1" as="xs:integer"/>
-                                    <xsl:variable name="page" as="node()*"> </xsl:variable>
-                                    <doc>
-                                        <field name="id">
-                                            <xsl:value-of select="concat(a18:document-name(.), '-', $pos)"/>
-                                        </field>
-                                        <field name="page-nr">
-                                            <xsl:value-of select="$pos"/>
-                                        </field>
-                                        <field name="document">
-                                            <xsl:value-of select="a18:document-name(.)"/>
-                                        </field>
-                                        <!-- Entities -->
-                                        <xsl:copy-of select="a18:entity-fields($page)"/>
-                                        <!-- Document structure -->
-                                        <xsl:copy-of select="a18:structure-fields($page)"/>
-                                        <!-- Content -->
-                                        <xsl:comment>Content</xsl:comment>
-                                        <field name="content">
-                                            <xsl:choose>
-                                                <xsl:when test="$tags = 'includetags'">
-                                                    <xsl:text disable-output-escaping="yes">&lt;![CDATA[</xsl:text>
-                                                    <!-- <xsl:copy-of select="$page"/>  -->
-                                                    <xsl:text disable-output-escaping="yes">]]&gt;</xsl:text>
-                                                </xsl:when>
-                                                <xsl:otherwise>
-                                                    <xsl:copy-of select="$page"/>
-                                                </xsl:otherwise>
-                                            </xsl:choose>
-                                        </field>
-                                    </doc>
-
+                                    <!-- <xsl:variable name="page" as="node()*"> was muss hier rein ? -->
+                                    
+                                    <xsl:variable name="page" as="node()*" select="a18:chunk(wrapperel/parent, ., wrapperel)" />  
+                                    
+                                    <xsl:call-template name="doc">
+                                        <xsl:with-param name="id"><xsl:value-of select="concat(a18:document-name(.), '-', $pos)" /></xsl:with-param> 
+                                        <xsl:with-param name="page-nr"><xsl:value-of select="$pos"/></xsl:with-param>
+                                        <xsl:with-param name="document"><xsl:value-of select="a18:document-name(.)"/></xsl:with-param>
+                                        <xsl:with-param name="path"><xsl:value-of select="a18:generate-xpath(.., true())"/></xsl:with-param>
+                                        <xsl:with-param name="depth"><xsl:value-of select="count(../ancestor::*) + 1"/></xsl:with-param>
+                                        <xsl:with-param name="node"><xsl:copy-of select="$page"/></xsl:with-param>
+                                    </xsl:call-template>                      
                                     <!-- <xsl:value-of select="a18:chunk(preceding-sibling::first(), ., $currentnode)" /> -->
-                                    <!-- <xsl:apply-templates select="$currentnode"/>-->
-
+                                    <!-- <xsl:apply-templates select="$currentnode"/> -->
                                 </xsl:for-each>
+                                
                             </xsl:when>
                             <xsl:otherwise>
                                 <!-- no page breaks in here -->
-                                <xsl:apply-templates select="."/>
+                                <xsl:call-template name="doc">
+                                    <xsl:with-param name="id"><xsl:value-of select="concat(a18:document-name(.), '-', generate-id(.))" /></xsl:with-param> 
+                                    <xsl:with-param name="page-nr"><xsl:value-of select="a18:get-page-nr(.)"/></xsl:with-param>
+                                    <xsl:with-param name="document"><xsl:value-of select="a18:document-name(.)"/></xsl:with-param>
+                                    <xsl:with-param name="path"><xsl:value-of select="a18:generate-xpath(., true())"/></xsl:with-param>
+                                    <xsl:with-param name="depth"><xsl:value-of select="count(./ancestor::*) + 1"/></xsl:with-param>
+                                    <xsl:with-param name="node"><xsl:copy-of select="."/></xsl:with-param>
+                                </xsl:call-template>
                             </xsl:otherwise>
                         </xsl:choose>
-                    </xsl:for-each>
+                        
+                        <!-- last page in the selected structure -->
+                        <xsl:variable name="pos" as="xs:integer"><xsl:value-of select="count((//TEI:pb)[last()]/preceding::TEI:pb) + 1" /></xsl:variable> 
+                        <xsl:variable name="page" as="node()*">
+                            <xsl:copy-of select="(//TEI:pb)[last()]/following::*"/>
+                        </xsl:variable>
+                        <xsl:call-template name="doc">
+                            <xsl:with-param name="id"><xsl:value-of select="concat(a18:document-name((//TEI:pb)[last()]), '-', $pos)" /></xsl:with-param> 
+                            <xsl:with-param name="page-nr"><xsl:value-of select="$pos"/></xsl:with-param>
+                            <xsl:with-param name="document"><xsl:value-of select="a18:document-name((//TEI:pb)[last()])"/></xsl:with-param>
+                            <xsl:with-param name="path"><xsl:value-of select="a18:generate-xpath((//TEI:pb)[last()]/parent::*, true())"/></xsl:with-param> 
+                            <xsl:with-param name="depth"><xsl:value-of select="count((//TEI:pb)[last()]/ancestor::*)"/></xsl:with-param>
+                            <xsl:with-param name="node"><xsl:copy-of select="$page"/></xsl:with-param>
+                        </xsl:call-template>
+                    </xsl:for-each>  <!-- End foreach div/p -->            
                 </xsl:when>
                 <!-- Structure only mode -->
                 <xsl:otherwise>
-                    <xsl:for-each select="//TEI:div|//TEI:p">
-                        <doc>
-                            <xsl:variable name="id" select="concat(a18:document-name(.), '-', generate-id(.))"/>
-                            <!-- Metadata -->
-                            <xsl:comment>Metadata</xsl:comment>
-                            <field name="id">
-                                <xsl:value-of select="$id"/>
-                            </field>
-                            <field name="page-nr">
-                                <xsl:value-of select="a18:get-page-nr(.)"/>
-                            </field>
-                            <field name="document">
-                                <xsl:value-of select="a18:document-name(.)"/>
-                            </field>
-                            <field name="path">
-                                <xsl:value-of select="a18:generate-xpath(., true())"/>
-                            </field>
-                            <field name="depth">
-                                <xsl:value-of select="count(./ancestor::*) + 1"/>
-                            </field>
-
-                            <!-- Entities -->
-                            <xsl:copy-of select="a18:entity-fields(.)"/>
-                            <!-- Structure -->
-                            <xsl:copy-of select="a18:structure-fields(.)"/>
-                            <!-- Content -->
-                            <xsl:comment>Content</xsl:comment>
-                            <field name="content">
-                                <xsl:choose>
-                                    <xsl:when test="$tags = 'includetags'">
-                                        <xsl:text disable-output-escaping="yes">&lt;![CDATA[</xsl:text>
-                                        <xsl:copy-of select="."/>
-                                        <xsl:text disable-output-escaping="yes">]]&gt;</xsl:text>
-                                    </xsl:when>
-                                    <xsl:otherwise>
-                                        <xsl:variable name="content">
-                                            <xsl:apply-templates mode="filter"/>
-                                        </xsl:variable>
-                                        <xsl:value-of select="$content//text()"/>
-                                    </xsl:otherwise>
-                                </xsl:choose>
-                            </field>
-                        </doc>
+                <xsl:comment>structure-based document structure</xsl:comment>
+                    <xsl:for-each select="//TEI:body//TEI:div|//TEI:body//TEI:p">
+                        <xsl:call-template name="doc">
+                            <xsl:with-param name="id"><xsl:value-of select="concat(a18:document-name(.), '-', generate-id(.))" /></xsl:with-param> 
+                            <xsl:with-param name="page-nr"><xsl:value-of select="a18:get-page-nr(.)"/></xsl:with-param>
+                            <xsl:with-param name="document"><xsl:value-of select="a18:document-name(.)"/></xsl:with-param>
+                            <xsl:with-param name="path"><xsl:value-of select="a18:generate-xpath(., true())"/></xsl:with-param>
+                            <xsl:with-param name="depth"><xsl:value-of select="count(./ancestor::*) + 1"/></xsl:with-param>
+                            <xsl:with-param name="node"><xsl:copy-of select="."/></xsl:with-param>
+                        </xsl:call-template>
                     </xsl:for-each>
                 </xsl:otherwise>
             </xsl:choose>
         </add>
     </xsl:template>
+
+    <xsl:template name="doc">
+    <xsl:param name="id" />
+    <xsl:param name="page-nr" />
+    <xsl:param name="document" />
+    <xsl:param name="path" />
+    <xsl:param name="depth" />
+    <xsl:param name="node" as="node()"/>
+    
+    <doc>
+        <xsl:variable name="id" select="concat(a18:document-name(.), '-', generate-id(.))"/>
+        <!-- Metadata -->
+        <xsl:comment>Metadata</xsl:comment>
+        <field name="id">
+            <xsl:value-of select="$id"/>
+        </field>
+        <field name="page-nr">
+            <xsl:value-of select="$page-nr"/>
+        </field>
+        <field name="document">
+            <xsl:value-of select="$document"/>
+        </field>
+        <field name="path">
+            <xsl:value-of select="$path"/>
+        </field>
+        <field name="depth">
+            <xsl:value-of select="$depth"/>
+        </field>
+        
+        <!-- Entities -->
+        <xsl:copy-of select="a18:entity-fields($node)"/>
+        <!-- Structure -->
+        <xsl:copy-of select="a18:structure-fields($node)"/>
+        <!-- Content -->
+        <xsl:comment>Content</xsl:comment>
+        <field name="content">
+            <xsl:choose>
+                <xsl:when test="$tags = 'includetags'">
+                    <xsl:text disable-output-escaping="yes">&lt;![CDATA[</xsl:text>
+                    <xsl:copy-of select="$node"/>
+                    <xsl:text disable-output-escaping="yes">]]&gt;</xsl:text>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:variable name="content">
+                        <xsl:apply-templates select="$node" mode="filter"/>
+                    </xsl:variable>
+                    <xsl:value-of select="$content//text()"/>
+                </xsl:otherwise>
+            </xsl:choose>
+        </field>
+    </doc>
+    
+</xsl:template>
+
 
     <xsl:template match="TEI:addName" mode="filter" priority="1"/>
     <xsl:template match="TEI:*" mode="filter">
@@ -381,9 +403,9 @@
     </xsl:function>
 
     <xsl:function name="a18:entity-fields" as="node()*">
-        <xsl:param name="node" as="node()*"/>
+        <xsl:param name="entnode"/>
         <xsl:comment>entities</xsl:comment>
-        <xsl:for-each select="$node//TEI:placeName">
+        <xsl:for-each select="$entnode//TEI:placeName">
             <xsl:variable name="content" select="a18:apply-templates-filter(.)"/>
             <xsl:copy-of select="a18:field('placeName', a18:normalize-space($content))"/>
         </xsl:for-each>
@@ -392,7 +414,7 @@
                 <xsl:apply-templates mode="filter"/>
             </field>
         </xsl:for-each>-->
-        <xsl:for-each select="$node//TEI:persName">
+        <xsl:for-each select="$entnode//TEI:persName">
             <xsl:variable name="content" select="a18:apply-templates-filter(.)"/>
             <xsl:copy-of select="a18:field('persName', a18:normalize-space($content))"/>
         </xsl:for-each>
@@ -401,15 +423,15 @@
                 <xsl:apply-templates mode="filter"/>
             </field> 
         </xsl:for-each> -->
-        <xsl:for-each select="$node//TEI:term">
+        <xsl:for-each select="$entnode//TEI:term">
             <xsl:variable name="content" select="a18:apply-templates-filter(.)"/>
             <xsl:copy-of select="a18:field('term', a18:normalize-space($content))"/>
         </xsl:for-each>
-        <xsl:for-each select="$node//TEI:bibl">
+        <xsl:for-each select="$entnode//TEI:bibl">
             <xsl:variable name="content" select="a18:apply-templates-filter(.)"/>
             <xsl:copy-of select="a18:field('bibl', a18:normalize-space($content))"/>
         </xsl:for-each>
-        <xsl:for-each select="$node//TEI:date">
+        <xsl:for-each select="$entnode//TEI:date">
             <xsl:variable name="content" select="a18:apply-templates-filter(.)"/>
             <xsl:copy-of select="a18:field('date', a18:normalize-space($content))"/>
         </xsl:for-each>
