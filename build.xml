@@ -458,11 +458,16 @@
       <webApp war="${war.file}" contextpath="/archaeo18"/>
     </jetty.run>
   </target>
+  
+  <!-- Alias -->
+  <target name="jetty.run" depends="jetty.start"></target>
 
   <target name="jetty.start" depends="data.generate, salvador.jetty.install, ropen.config.local, salvador.urlrewritefilter.download, salvador.php.download, salvador.solr.install">
     <echo>starting Jetty (with local configuration)...</echo>
     <property name="jetty-env" value="${solr.dir}/jetty-env.xml"/>
     <salvador.solr.write.env jetty-env="${jetty-env}" solrhome="${solr.home.dir}"/>
+    <!-- Location of the URL rewriting -->
+    <property name="rewrite.dir" value="./Resources/Private/Jetty"/>
     <jetty.run tempDirectory="${salvador.jetty.tmp.dir}" scanIntervalSeconds="5">
       <connectors>
         <selectChannelConnector port="${salvador.jetty.port}"/>
@@ -470,7 +475,7 @@
       <webapp descriptor="${servlet.archaeo18.webxml}" contextPath="/archaeo18" war=".">
         <lib dir="${salvador.php.lib.dir}" includes="*.jar"/>
       </webapp>
-      <webapp descriptor="${servlet.proxy.webxml}" contextPath="/" war="${test.dir}/proxy">
+      <webapp descriptor="${servlet.proxy.webxml}" contextPath="/" war="${rewrite.dir}">
         <lib dir="${salvador.urlrewritefilter.lib.dir}" includes="*.jar"/>
       </webapp>
       <webApp war="${salvador.solr.war.file}" contextpath="/solr" jettyEnvXml="${jetty-env}">
