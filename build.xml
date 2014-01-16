@@ -461,8 +461,8 @@
 
   <target name="jetty.start" depends="data.generate, salvador.jetty.install, ropen.config.local, salvador.urlrewritefilter.download, salvador.php.download, salvador.solr.install">
     <echo>starting Jetty (with local configuration)...</echo>
-    <property name="jetty-env" value="${salvador.solr.war.dir}/jetty-env.xml"/>
-    <salvador.solr.write.env jetty-env="${jetty-env}"/>
+    <property name="jetty-env" value="${solr.dir}/jetty-env.xml"/>
+    <salvador.solr.write.env jetty-env="${jetty-env}" solrhome="${solr.home.dir}"/>
     <jetty.run tempDirectory="${salvador.jetty.tmp.dir}" scanIntervalSeconds="5">
       <connectors>
         <selectChannelConnector port="${salvador.jetty.port}"/>
