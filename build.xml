@@ -163,8 +163,11 @@
   <!-- Solr settings -->
   <property name="solr.dir" value="${target.dir}/solr"/>
   <property name="solr.docs.dir" value="${solr.dir}/docs"/>
+  <property name="solr.home.dir" value="${solr.dir}/home"/>
   <property name="solr.synonym.list" value="${solr.dir}/synonyms.txt"/>
   <property name="solr.url" value="http://localhost:8983/solr/archaeo18/update"/>
+  <property name="solr.core.name" value="archaeo18"/>
+  <property name="solr.core.data" value="data"/>
 
   <!-- METS related settings -->
   <property name="data.docs.mets.base.uri" value="http://134.76.21.92:8080/images/"/>
@@ -456,8 +459,10 @@
     </jetty.run>
   </target>
 
-  <target name="jetty.start" depends="data.generate, salvador.jetty.install, ropen.config.local, salvador.urlrewritefilter.download, salvador.php.download">
+  <target name="jetty.start" depends="data.generate, salvador.jetty.install, ropen.config.local, salvador.urlrewritefilter.download, salvador.php.download, salvador.solr.install">
     <echo>starting Jetty (with local configuration)...</echo>
+    <property name="jetty-env" value="${salvador.solr.war.dir}/jetty-env.xml"/>
+    <salvador.solr.write.env jetty-env="${jetty-env}"/>
     <jetty.run tempDirectory="${salvador.jetty.tmp.dir}" scanIntervalSeconds="5">
       <connectors>
         <selectChannelConnector port="${salvador.jetty.port}"/>
@@ -468,6 +473,11 @@
       <webapp descriptor="${servlet.proxy.webxml}" contextPath="/" war="${test.dir}/proxy">
         <lib dir="${salvador.urlrewritefilter.lib.dir}" includes="*.jar"/>
       </webapp>
+      <webApp war="${salvador.solr.war.file}" contextpath="/solr" jettyEnvXml="${jetty-env}">
+        <lib dir="${salvador.solr.lib.dir}" includes="*.jar"/>
+        <lib dir="${salvador.solr.war.dir}" includes="*.jar"/>
+        <lib dir="${salvador.saxon.lib.dir}" includes="*.jar"/>
+      </webApp>
     </jetty.run>
   </target>
 
@@ -497,11 +507,18 @@
   <target name="solr.init" depends="init, salvador.solr.install">
     <mkdir dir="${solr.dir}"/>
     <mkdir dir="${solr.docs.dir}"/>
+    <mkdir dir="${solr.home.dir}"/>
+  </target>
+
+  <!-- Sets up an instance if not alredy existing -->
+  <target name="solr.setup" depends="solr.init, solr.home.check, salvador.solr.install">
+    <salvador.solr.setup solrhome="${solr.home.dir}" core="${solr.core.name}" data="${solr.core.data}" config="./data/solr/"/>
   </target>
 
   <target name="solr.clean">
     <delete dir="${solr.dir}"/>
     <delete dir="${solr.docs.dir}"/>
+    <delete dir="${solr.home.dir}"/>
   </target>
 
   <target name="sol.synonyms" depends="salvador.saxon.install, data.enrich, solr.init">
@@ -513,26 +530,58 @@
     <input>Press Return key to stop Solr...</input>
   </target>
 
-  <target name="solr.start" depends="solr.init, salvador.solr.install">
-    <property name="name" value="archaeo18"/>
-    <property name="solrhome" value="${salvador.solr.home.dir}/"/>
-    <salvador.solr.setup solrhome="${solrhome}" core="archaeo18" config="./data/solr/"/>
-    <salvador.solr.run/>
+  <target name="solr.start" depends="solr.setup">
+    <salvador.solr.run solrhome="${solr.home.dir}"/>
   </target>
 
-  <target name="solr.index" depends="solr.start, solr.docs, salvador.http.macros">
+  <target name="solr.index" depends="solr.home.check, solr.start, solr.docs, salvador.http.macros" unless="solr.home.exist">
     <salvador.solr.index.files endpoint="${solr.url}">
       <fileset dir="${solr.docs.dir}" includes="*.xml"/>
     </salvador.solr.index.files>
+    <salvador.solr.stop/>
   </target>
 
-  <target name="solr.docs" depends="data.enrich, solr.init">
+  <target name="solr.docs" depends="data.enrich, solr.init, solr.docs.check" unless="solr.docs.exist">
     <property name="data.solr.output" value="${target.dir}/solr-report.xhtml"/>
     <echo level="verbose">collection=${basedir}/${data.tei-enriched.dir}</echo>
     <echo level="verbose">output=${solr.docs.dir}</echo>
     <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.solr}" destfile="${data.solr.output}" params="collection=${basedir}/${data.tei-enriched.dir} output=${basedir}/${solr.docs.dir}"/>
   </target>
-
+  
+  <!-- Checks if the index files were generated -->
+  <target name="solr.docs.check" depends="solr.init">
+    <fileset dir="${solr.docs.dir}" id="solr.docs.files">
+      <include name="*.xml"/>
+    </fileset>
+    <condition property="solr.docs.exist">
+      <and>
+        <resourcecount refid="solr.docs.files" when="greater" count="0"/>
+      </and>
+    </condition>
+  </target> 
+  
+  <!-- Checks if the core was set up and index files were generated -->
+  <target name="solr.home.check" depends="solr.init">
+    <!--
+    <fileset dir="${solr.home.dir}" id="solr.core.files">
+      <include name="**/*.*"/>
+    </fileset>
+    -->
+    <property name="solr.index.dir" value="${solr.home.dir}/${solr.core.name}/${solr.core.data}"/>
+    <mkdir dir="${solr.index.dir}"/>
+    <fileset dir="${solr.index.dir}" id="solr.index.files">
+      <include name="**/*.*"/>
+    </fileset>
+    <condition property="solr.home.exist">
+      <and>
+        <!--
+        <resourcecount refid="solr.core.files" when="greater" count="0"/>
+        -->
+        <resourcecount refid="solr.index.files" when="greater" count="0"/>
+      </and>
+    </condition>
+  </target>
+  
   <!-- 
   #######################################################
   # Generate Data
@@ -564,7 +613,7 @@
     <delete dir="${data.xhtml.header.dir}"/>
   </target>
 
-  <!-- Test if data was generated (only existing directories) This will fail if data was once genrated only in prts-->
+  <!-- Test if data was generated (only existing directories) This will fail if data was once generated only in prts-->
   <target name="data.dir.check">
     <condition property="data.dir.exist">
       <and>
