@@ -445,6 +445,20 @@
 
   <!-- 
   #######################################################
+  # Tomcat deploment related targets
+  #######################################################
+  -->
+  <!-- See  http://wiki.apache.org/tomcat/AntDeploy -->
+
+  <!-- Get login data -->
+
+  <!-- Deploy -->
+  <target name="tomcat.deploy" >
+    <deploy url="${deploy.url}" username="${deploy.user}" password="${deploy.pass}" path="${deploy.context}" war="file:${deploy.war}"/>                   
+  </target>
+
+  <!-- 
+  #######################################################
   # Jetty related targets
   #######################################################
   -->
