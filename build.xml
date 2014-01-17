@@ -484,7 +484,9 @@
         <lib dir="${salvador.saxon.lib.dir}" includes="*.jar"/>
       </webApp>
     </jetty.run>
-    <antcall target="salvador.base.splash.sound"/>
+    <!--
+    <antcall target="salvador.base.splash.sound"/
+    -->
     <input>Press Return key to stop Jetty...</input>
   </target>
 
