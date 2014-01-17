@@ -24,10 +24,7 @@ Zusätzlich wird die Konfigurationsdatei so angepasst, das das lokale Backend an
 
 Eine Variante Archaeo18 zu installieren ist [Vagrant](http://www.vagrantup.com/).
 
-Dazu müssen auf dem Rechner VirtualBox sowie das Vagrant gem installiert sein. Das Vagrant gem wird mit 
->gem install vagrant 
-
-installiert.
+Dazu müssen auf dem Rechner VirtualBox sowie Vagrant installiert sein. Vagrant Downloads für eine Vielzahl von Systemen sind unter http://www.vagrantup.com/downloads.html zu finden
 
 Anschliessend wird im lokalen Archaeo18 Projektverzeichnis die virtuelle Maschine mit 
 >vagrant up 
