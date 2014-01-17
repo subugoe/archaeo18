@@ -1,5 +1,10 @@
 execute "apt-get update"
-packages = ["openjdk-7-jdk", "ant"]
+
+# http://askubuntu.com/questions/146921/how-do-i-apt-get-y-dist-upgrade-without-a-grub-config-prompt
+execute 'DEBIAN_FRONTEND=noninteractive apt-get -y -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confold" upgrade'
+execute 'DEBIAN_FRONTEND=noninteractive apt-get -y -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confold" dist-upgrade'
+
+packages = ["openjdk-7-jdk", "ant", "libjaxp1.3", "htop", "git"]
 
 packages.each do |p|
 	package p
