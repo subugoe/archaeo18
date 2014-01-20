@@ -4,7 +4,7 @@
 		"textQuery": 		"/exist/rest/db/archaeo18/queries/getText.xq?mode=raw&format=xhtml&doc=DOC_ID&page=0",
 		"pageQuery": 		"/exist/rest/db/archaeo18/queries/getText.xq?mode=raw&format=xhtml&doc=DOC_ID&page=PAGE_ID",
 		"outlineQuery": 		"content/app/structure/DOC_ID.html",
-		"searchQuery": 		"/exist/rest/db/archaeo18/queries/search.xq?query=QUERY_ID&mode=xhtml",
+		"searchQuery": 		"/solr/archaeo18/select?q=content%3AQUERY_ID&wt=xslt&indent=true&hl=true&hl.fl=content&hl.fragsize=0&tr=solrresponse.xsl",
 		"facetsQuery": 		"/exist/rest/db/archaeo18/queries/getFacets.xq",
 		"metadataQuery": 		"/exist/rest/db/archaeo18/queries/getText.xq?mode=header&format=xhtml&doc=DOC_ID",
 		"facetTableQuery":	"/exist/rest/db/archaeo18/queries/experimental/listEntities.xq?facet=FACET_ID&format=xhtml",
