@@ -77,12 +77,6 @@
                         <xsl:variable name="page" as="node()*">
                             <xsl:choose>
                                 <xsl:when test="position() != 1 ">
-                                    <!--    geht so nicht... weil das body/* komplett ausgeschnitten wird nicht nur bis zum 
-                                    ersten pb -->
-                                    <!-- <xsl:copy-of select="a18:chunk(./ancestor::TEI:body/child::*[1], ., //TEI:body)"/> -->
-                                <!-- moved <xsl:when test="position() = last()">
-                                    <xsl:copy-of select="./following::*"/>
-                                </xsl:when> -->
                                     <xsl:copy-of select="a18:chunk(./preceding::TEI:pb[1], ., //TEI:body)"/>   
                                 </xsl:when>
                             </xsl:choose>
@@ -240,7 +234,69 @@
     
 </xsl:template>
 
-
+    <xsl:template name="doc_strbased">
+        <xsl:param name="id"/>
+        <xsl:param name="page-nr"/>
+        <xsl:param name="document"/>
+        <xsl:param name="path"/>
+        <xsl:param name="depth"/>
+        <xsl:param name="content" as="xs:string"/>       
+        <doc>
+            <xsl:variable name="id" select="concat(a18:document-name(.), '-', generate-id(.))"/>
+            <!-- Metadata -->
+            <xsl:comment>Metadata</xsl:comment>
+            <field name="id">
+                <xsl:value-of select="$id"/>
+            </field>
+            <field name="page-nr">
+                <xsl:value-of select="$page-nr"/>
+            </field>
+            <field name="document">
+                <xsl:value-of select="$document"/>
+            </field>
+            <field name="path">
+                <xsl:value-of select="$path"/>
+            </field>
+            <field name="depth">
+                <xsl:value-of select="$depth"/>
+            </field>
+            <!-- Entitie Fields -->
+            <xsl:copy-of
+                select="a18:extract_fieldval($content, '&lt;/?(TEI:)?persName(\s+[a-zA-Z#&quot;:0-9]+)*&gt;', 'persName')"/>
+            <xsl:copy-of
+                select="a18:extract_fieldval($content, '&lt;/?(TEI:)?placeName(\s+[a-zA-Z#&quot;:0-9]+)*&gt;', 'placeName')"/>
+            <xsl:copy-of
+                select="a18:extract_fieldval($content, '&lt;/?(TEI:)?term(\s+[a-zA-Z#&quot;:0-9]+)*&gt;', 'term')"/>
+            <xsl:copy-of
+                select="a18:extract_fieldval($content, '&lt;/?(TEI:)?bibl(\s+[a-zA-Z#&quot;:0-9]+)*&gt;', 'bibl')"/>
+            <xsl:copy-of
+                select="a18:extract_fieldval($content, '&lt;/?(TEI:)?date(\s+[a-zA-Z#&quot;:0-9]+)*&gt;', 'date')"/>
+            
+            <!-- Structure Fields hi note head-->
+            <xsl:copy-of
+                select="a18:extract_fieldval($content, '&lt;/?(TEI:)?head(\s+[a-zA-Z#&quot;:0-9]+)*&gt;', 'head')"/>       
+            <xsl:copy-of
+                select="a18:extract_fieldval($content, '&lt;/?(TEI:)?note(\s+[a-zA-Z#&quot;:0-9]+)*&gt;', 'note')"/>
+            <xsl:copy-of
+                select="a18:extract_fieldval($content, '&lt;/?(TEI:)?hi(\s+[a-zA-Z#&quot;:0-9]+)*&gt;', 'hi')"/>
+            
+            <!-- <xsl:value-of select="tokenize($str_all, '&lt;*pb')[1]" />-->
+            <field name="content">
+                <xsl:choose>
+                    <xsl:when test="$tags = 'includetags'">
+                        <xsl:text disable-output-escaping="yes">&lt;![CDATA[</xsl:text>
+                        <xsl:value-of select="$content"/>
+                        <xsl:text disable-output-escaping="yes">]]&gt;</xsl:text>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:value-of select="replace($content, '(&lt;(/?)\w+(:?)\w+(/?)&gt;)', '')"
+                        />
+                    </xsl:otherwise>
+                </xsl:choose>
+            </field>
+        </doc>      
+    </xsl:template>
+    
     <xsl:template match="TEI:addName" mode="filter" priority="1"/>
     <xsl:template match="TEI:*" mode="filter">
         <xsl:apply-templates mode="filter"/>
@@ -359,6 +415,7 @@
             <!-- No numbers -->
             <xsl:otherwise>
                 <!--             <xsl:when test="not($node/preceding::TEI:pb[1]/@n)"> -->
+                <!-- not +1 because of the pb0-Element -->
                 <xsl:value-of select="count($node/preceding::TEI:pb)"/>
                 <!-- </xsl:when> -->
                 <!-- <xsl:otherwise>     stimmt nicht immer mit der sum preceding::TEI:pb ueberein
@@ -436,6 +493,29 @@
 
     </xsl:function>
 
+    <!-- recursivively extracts all values of $pattern from str -->
+    <xsl:function name="a18:extract_fieldval">
+        <xsl:param name="str"/>
+        <xsl:param name="pattern"/>
+        <xsl:param name="fieldname"/>
+        <xsl:choose>
+            <xsl:when test="count(tokenize($str, $pattern))>1">
+                <xsl:element name="field">
+                    <xsl:attribute name="name">
+                        <xsl:value-of select="$fieldname"/>
+                    </xsl:attribute>
+                    <xsl:value-of select="replace(tokenize($str, $pattern)[2], '(&lt;(/?)\w+(:?)\w+(/?)&gt;)', '')"/>
+                </xsl:element>
+            </xsl:when>
+        </xsl:choose>
+        <xsl:choose>
+            <xsl:when test="count(tokenize($str, $pattern))>2">
+                <xsl:copy-of
+                    select="a18:extract_fieldval(string-join(tokenize($str, $pattern)[position()>2], '=='), '==', $fieldname)"
+                />
+            </xsl:when>
+        </xsl:choose>
+    </xsl:function>
     <xsl:function name="a18:structure-fields" as="node()*">
         <xsl:param name="node" as="node()*"/>
         <!-- Document structure -->
