@@ -16,7 +16,7 @@
     <xsl:param name="use-uri" as="xs:boolean" select="true()"/>
     <!-- For one document per page set this to 'page' otherwise a solr doc is generated per document structure, 
         if set to page-and-structure the docs are generated from the structures splitted by pagebreaks. -->
-    <xsl:param name="mode" as="xs:string" select="'structure'"/>
+    <xsl:param name="mode" as="xs:string" select="'page'"/>
     <!--  set to 'includetags' to include xml tags to the content field of the index -->
     <xsl:param name="tags" as="xs:string" select="'none'"/>
     <!-- Use this param to handle a whole collection -->
@@ -76,15 +76,18 @@
                         <xsl:variable name="pos" select="position()" as="xs:integer"/>
                         <xsl:variable name="page" as="node()*">
                             <xsl:choose>
-                                <xsl:when test="position() != 1 ">
-                                    <xsl:copy-of select="a18:chunk(./preceding::TEI:pb[1], ., //TEI:body)"/>   
+                                <xsl:when test="position() = 1 ">
+                                    <xsl:copy-of select="a18:chunk(./preceding::TEI:milestone[1], ., //TEI:body)"/>   
                                 </xsl:when>
+                                <xsl:otherwise>
+                                    <xsl:copy-of select="a18:chunk(./preceding::TEI:pb[1], ., //TEI:body)"/>   
+                                </xsl:otherwise>
                             </xsl:choose>
                         </xsl:variable>
                         
                         <xsl:call-template name="doc">
-                            <xsl:with-param name="id"><xsl:value-of select="concat(a18:document-name(.), '-', $pos -1)" /></xsl:with-param> 
-                            <xsl:with-param name="page-nr"><xsl:value-of select="$pos -1"/></xsl:with-param>
+                            <xsl:with-param name="id"><xsl:value-of select="concat(a18:document-name(.), '-', $pos)" /></xsl:with-param> 
+                            <xsl:with-param name="page-nr"><xsl:value-of select="$pos"/></xsl:with-param>
                             <xsl:with-param name="document"><xsl:value-of select="a18:document-name(.)"/></xsl:with-param>
                             <xsl:with-param name="path"><xsl:value-of select="a18:generate-xpath(.., true())"/></xsl:with-param>
                             <xsl:with-param name="depth"><xsl:value-of select="count(../ancestor::*) + 1"/></xsl:with-param>
@@ -93,7 +96,7 @@
                     </xsl:for-each>
                    
                    <!-- last page -->
-                    <xsl:variable name="pos" as="xs:integer"><xsl:value-of select="count((//TEI:pb)[last()]/preceding::TEI:pb)" /></xsl:variable> 
+                    <xsl:variable name="pos" as="xs:integer"><xsl:value-of select="count((//TEI:pb)[last()]/preceding::TEI:pb)+2" /></xsl:variable> 
                             <xsl:variable name="page" as="node()*">
                                 <xsl:copy-of select="(//TEI:pb)[last()]/following::*"/>
                             </xsl:variable>
@@ -410,13 +413,13 @@
         <xsl:choose>
             <!-- First page -->
             <xsl:when test="not($node/preceding::TEI:pb)">
-                <xsl:value-of select="0"/>
+                <xsl:value-of select="1"/>
             </xsl:when>
             <!-- No numbers -->
             <xsl:otherwise>
                 <!--             <xsl:when test="not($node/preceding::TEI:pb[1]/@n)"> -->
                 <!-- not +1 because of the pb0-Element -->
-                <xsl:value-of select="count($node/preceding::TEI:pb)"/>
+                <xsl:value-of select="count($node/preceding::TEI:pb)+1"/>
                 <!-- </xsl:when> -->
                 <!-- <xsl:otherwise>     stimmt nicht immer mit der sum preceding::TEI:pb ueberein
                 <xsl:value-of select="$node/preceding::TEI:pb[1]/@n"></xsl:value-of> -->
