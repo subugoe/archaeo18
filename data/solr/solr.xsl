@@ -96,9 +96,9 @@
                     </xsl:for-each>
                    
                    <!-- last page -->
-                    <xsl:variable name="pos" as="xs:integer"><xsl:value-of select="count((//TEI:pb)[last()]/preceding::TEI:pb)+2" /></xsl:variable> 
+                    <xsl:variable name="pos" as="xs:integer"><xsl:value-of select="count(//TEI:pb)+1" /></xsl:variable> 
                             <xsl:variable name="page" as="node()*">
-                                <xsl:copy-of select="(//TEI:pb)[last()]/following::*"/>
+                                <xsl:copy-of select="a18:chunk((//TEI:pb)[last()], (//TEI:milestone)[last()], //TEI:body)"/>  
                             </xsl:variable>
                             <xsl:call-template name="doc">
                                 <xsl:with-param name="id"><xsl:value-of select="concat(a18:document-name((//TEI:pb)[last()]), '-', $pos)" /></xsl:with-param> 
@@ -107,24 +107,20 @@
                                 <xsl:with-param name="path"><xsl:value-of select="a18:generate-xpath((//TEI:pb)[last()]/parent::*, true())"/></xsl:with-param> 
                                 <xsl:with-param name="depth"><xsl:value-of select="count((//TEI:pb)[last()]/ancestor::*)"/></xsl:with-param>
                                 <xsl:with-param name="node"><xsl:copy-of select="$page"/></xsl:with-param>
-                            </xsl:call-template>
-                    
+                            </xsl:call-template>  
                 </xsl:when>
                 <xsl:when test="$mode = 'page-and-structure'">
                     <xsl:comment>page- and structure-based document structure</xsl:comment>         
+                            <!-- TODO cut div/p at last sub level pb based + div|p ohne children::div|p  mit ./pb-->
                     <xsl:for-each select="//TEI:div|//TEI:p">
                         <xsl:variable name="currentnode" select="."/>
                         <xsl:choose>
-                            <!-- TODO cut div/p at last sub level-->
                             <xsl:when test="./TEI:pb">
                                 <xsl:element name="wrapperel"><xsl:element name="parent" ><xsl:value-of select="$currentnode" />
                                 </xsl:element></xsl:element>
                                 <xsl:for-each select="./TEI:pb">
                                     <xsl:variable name="pos" select="count(./preceding::TEI:pb) + 1" as="xs:integer"/>
-                                    <!-- <xsl:variable name="page" as="node()*"> was muss hier rein ? -->
-                                    
-                                    <xsl:variable name="page" as="node()*" select="a18:chunk(wrapperel/parent, ., wrapperel)" />  
-                                    
+                                    <xsl:variable name="page" as="node()*" select="a18:chunk(wrapperel/parent, ., wrapperel)" />                                 
                                     <xsl:call-template name="doc">
                                         <xsl:with-param name="id"><xsl:value-of select="concat(a18:document-name(.), '-', $pos)" /></xsl:with-param> 
                                         <xsl:with-param name="page-nr"><xsl:value-of select="$pos"/></xsl:with-param>
@@ -133,10 +129,7 @@
                                         <xsl:with-param name="depth"><xsl:value-of select="count(../ancestor::*) + 1"/></xsl:with-param>
                                         <xsl:with-param name="node"><xsl:copy-of select="$page"/></xsl:with-param>
                                     </xsl:call-template>                      
-                                    <!-- <xsl:value-of select="a18:chunk(preceding-sibling::first(), ., $currentnode)" /> -->
-                                    <!-- <xsl:apply-templates select="$currentnode"/> -->
                                 </xsl:for-each>
-                                
                             </xsl:when>
                             <xsl:otherwise>
                                 <!-- no page breaks in here -->
@@ -507,7 +500,7 @@
                     <xsl:attribute name="name">
                         <xsl:value-of select="$fieldname"/>
                     </xsl:attribute>
-                    <xsl:value-of select="replace(tokenize($str, $pattern)[2], '(&lt;(/?)\w+(:?)\w+(/?)&gt;)', '')"/>
+                    <xsl:value-of select="replace(tokenize($str, $pattern)[2], '(&lt;(/?)\w+(:?)\w+(\s+[a-zA-Z#&quot;:0-9]+)*(/?)&gt;)', '')"/>
                 </xsl:element>
             </xsl:when>
         </xsl:choose>
