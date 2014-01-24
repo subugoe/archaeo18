@@ -24,7 +24,6 @@
     <!-- If a collection is proccesed, where shhould the results go? -->
     <xsl:param name="output" select="''" as="xs:string"/>
 
-
     <xsl:output method="xml" indent="yes"/>
     <xsl:strip-space elements="TEI:placeName TEI:persName TEI:addName TEI:bibl TEI:note TEI:head"/>
 
@@ -91,6 +90,7 @@
                             <xsl:with-param name="document"><xsl:value-of select="a18:document-name(.)"/></xsl:with-param>
                             <xsl:with-param name="path"><xsl:value-of select="a18:generate-xpath(.., true())"/></xsl:with-param>
                             <xsl:with-param name="depth"><xsl:value-of select="count(../ancestor::*) + 1"/></xsl:with-param>
+                            <xsl:with-param name="pageflag">page</xsl:with-param>
                             <xsl:with-param name="node"><xsl:copy-of select="$page"/></xsl:with-param>
                         </xsl:call-template>                      
                     </xsl:for-each>
@@ -106,6 +106,7 @@
                                 <xsl:with-param name="document"><xsl:value-of select="a18:document-name((//TEI:pb)[last()])"/></xsl:with-param>
                                 <xsl:with-param name="path"><xsl:value-of select="a18:generate-xpath((//TEI:pb)[last()]/parent::*, true())"/></xsl:with-param> 
                                 <xsl:with-param name="depth"><xsl:value-of select="count((//TEI:pb)[last()]/ancestor::*)"/></xsl:with-param>
+                                <xsl:with-param name="pageflag">page</xsl:with-param>
                                 <xsl:with-param name="node"><xsl:copy-of select="$page"/></xsl:with-param>
                             </xsl:call-template>  
                 </xsl:when>
@@ -127,6 +128,7 @@
                                         <xsl:with-param name="document"><xsl:value-of select="a18:document-name(.)"/></xsl:with-param>
                                         <xsl:with-param name="path"><xsl:value-of select="a18:generate-xpath(.., true())"/></xsl:with-param>
                                         <xsl:with-param name="depth"><xsl:value-of select="count(../ancestor::*) + 1"/></xsl:with-param>
+                                        <xsl:with-param name="pageflag">page</xsl:with-param>
                                         <xsl:with-param name="node"><xsl:copy-of select="$page"/></xsl:with-param>
                                     </xsl:call-template>                      
                                 </xsl:for-each>
@@ -169,6 +171,7 @@
                             <xsl:with-param name="document"><xsl:value-of select="a18:document-name(.)"/></xsl:with-param>
                             <xsl:with-param name="path"><xsl:value-of select="a18:generate-xpath(., true())"/></xsl:with-param>
                             <xsl:with-param name="depth"><xsl:value-of select="count(./ancestor::*) + 1"/></xsl:with-param>
+                            <xsl:with-param name="pageflag">structure</xsl:with-param>
                             <xsl:with-param name="node"><xsl:copy-of select="."/></xsl:with-param>
                         </xsl:call-template>
                     </xsl:for-each>
@@ -183,6 +186,7 @@
     <xsl:param name="document" />
     <xsl:param name="path" />
     <xsl:param name="depth" />
+        <xsl:param name="pageflag" />
     <xsl:param name="node" as="node()"/>
     
     <doc>
@@ -204,9 +208,13 @@
         <field name="depth">
             <xsl:value-of select="$depth"/>
         </field>
+        <field name="pageflag">
+            <xsl:value-of select="$pageflag"/>
+        </field>
         <field name="mode">
             <xsl:value-of select="$mode"/>
         </field>
+        
         
         <!-- Entities -->
         <xsl:copy-of select="a18:entity-fields($node)"/>
@@ -239,6 +247,7 @@
         <xsl:param name="document"/>
         <xsl:param name="path"/>
         <xsl:param name="depth"/>
+        <xsl:param name="pageflag" />
         <xsl:param name="content" as="xs:string"/>       
         <doc>
             <xsl:variable name="id" select="concat(a18:document-name(.), '-', generate-id(.))"/>
@@ -258,6 +267,12 @@
             </field>
             <field name="depth">
                 <xsl:value-of select="$depth"/>
+            </field>
+            <field name="mode">
+                <xsl:value-of select="$mode"/>
+            </field>
+            <field name="pageflag">
+                <xsl:value-of select="$pageflag"/>
             </field>
             <!-- Entitie Fields -->
             <xsl:copy-of
