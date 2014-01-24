@@ -204,6 +204,9 @@
         <field name="depth">
             <xsl:value-of select="$depth"/>
         </field>
+        <field name="mode">
+            <xsl:value-of select="$mode"/>
+        </field>
         
         <!-- Entities -->
         <xsl:copy-of select="a18:entity-fields($node)"/>

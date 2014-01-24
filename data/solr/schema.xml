@@ -3,10 +3,11 @@
   <fields>
     <!-- Metadata -->
     <field name="id" type="string" indexed="true" stored="true" required="true" multiValued="false"/>
-    <field name="page-nr" type="string" indexed="true" stored="true" required="true" multiValued="false"/>
-    <field name="document" type="string" indexed="true" stored="true" required="true" multiValued="false"/>
-    <field name="path" type="string" indexed="true" stored="true" required="true" multiValued="false"/>
-    <field name="depth" type="string" indexed="true" stored="true" required="true" multiValued="false"/>
+    <field name="page-nr" type="string" indexed="false" stored="true" required="true" multiValued="false"/>
+    <field name="document" type="string" indexed="false" stored="true" required="true" multiValued="false"/>
+    <field name="path" type="string" indexed="false" stored="true" required="true" multiValued="false"/>
+    <field name="depth" type="string" indexed="false" stored="true" required="true" multiValued="false"/>
+    <field name="mode" type="string" indexed="false" stored="true" required="false" multiValued="false"/> 
     <!-- Dokument name? -->
     <!-- Entities -->
     <field name="placeName" type="text_de" indexed="true" stored="true" required="false" multiValued="true" termVectors="true" termPositions="true" termOffsets="true"/>
