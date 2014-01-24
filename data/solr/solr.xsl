@@ -112,26 +112,65 @@
                 </xsl:when>
                 <xsl:when test="$mode = 'page-and-structure'">
                     <xsl:comment>page- and structure-based document structure</xsl:comment>         
-                            <!-- TODO cut div/p at last sub level pb based + div|p ohne children::div|p  mit ./pb-->
                     <xsl:for-each select="//TEI:div|//TEI:p">
                         <xsl:variable name="currentnode" select="."/>
                         <xsl:choose>
-                            <xsl:when test="./TEI:pb">
-                                <xsl:element name="wrapperel"><xsl:element name="parent" ><xsl:value-of select="$currentnode" />
-                                </xsl:element></xsl:element>
+                            <xsl:when test="./TEI:pb and not(.//TEI:div|.//TEI:p)">
                                 <xsl:for-each select="./TEI:pb">
                                     <xsl:variable name="pos" select="count(./preceding::TEI:pb) + 1" as="xs:integer"/>
-                                    <xsl:variable name="page" as="node()*" select="a18:chunk(wrapperel/parent, ., wrapperel)" />                                 
-                                    <xsl:call-template name="doc">
+                                    <xsl:choose>
+                                        <xsl:when test="position()=1">
+                                      <xsl:variable name="str_all">
+                                        <xsl:apply-templates select="./parent::*" mode="serialize"/>
+                                      </xsl:variable>
+                                    <xsl:variable name="thispage" as="node()">
+                                    <xsl:value-of select="tokenize($str_all, '&lt;*pb')[1]"/>
+                                </xsl:variable>
+                                    <xsl:call-template name="doc_strbased">
                                         <xsl:with-param name="id"><xsl:value-of select="concat(a18:document-name(.), '-', $pos)" /></xsl:with-param> 
                                         <xsl:with-param name="page-nr"><xsl:value-of select="$pos"/></xsl:with-param>
                                         <xsl:with-param name="document"><xsl:value-of select="a18:document-name(.)"/></xsl:with-param>
                                         <xsl:with-param name="path"><xsl:value-of select="a18:generate-xpath(.., true())"/></xsl:with-param>
                                         <xsl:with-param name="depth"><xsl:value-of select="count(../ancestor::*) + 1"/></xsl:with-param>
                                         <xsl:with-param name="pageflag">page</xsl:with-param>
-                                        <xsl:with-param name="node"><xsl:copy-of select="$page"/></xsl:with-param>
-                                    </xsl:call-template>                      
+                                        <xsl:with-param name="content"><xsl:value-of select="$thispage" /></xsl:with-param>
+                                    </xsl:call-template>
+                                        </xsl:when>
+                                        <xsl:when test="position() = last()">
+                                        <!-- last page in the selected structure -->
+                                            <xsl:variable name="str_all">
+                                                <xsl:apply-templates select="./parent::*" mode="serialize"/>
+                                            </xsl:variable>
+                                            <xsl:variable name="thispage" as="node()">
+                                                <xsl:value-of select="tokenize($str_all, '&lt;*pb')[last()]"/>
+                                            </xsl:variable>
+                                            <xsl:call-template name="doc_strbased">
+                                                <xsl:with-param name="id"><xsl:value-of select="concat(a18:document-name(.), '-', $pos)" /></xsl:with-param> 
+                                                <xsl:with-param name="page-nr"><xsl:value-of select="$pos"/></xsl:with-param>
+                                                <xsl:with-param name="document"><xsl:value-of select="a18:document-name(.)"/></xsl:with-param>
+                                                <xsl:with-param name="path"><xsl:value-of select="a18:generate-xpath(.., true())"/></xsl:with-param>
+                                                <xsl:with-param name="depth"><xsl:value-of select="count(../ancestor::*) + 1"/></xsl:with-param>
+                                                <xsl:with-param name="pageflag">page</xsl:with-param>
+                                                <xsl:with-param name="content"><xsl:value-of select="$thispage" /></xsl:with-param>
+                                            </xsl:call-template>
+                                        </xsl:when>
+                                            <xsl:otherwise>
+                                            <xsl:variable name="page" as="node()*">
+                                                        <xsl:copy-of select="a18:chunk(./preceding::TEI:pb[1], ., //TEI:body)"/>   
+                                            </xsl:variable>
+                                            <xsl:call-template name="doc">
+                                                <xsl:with-param name="id"><xsl:value-of select="concat(a18:document-name(.), '-', $pos)" /></xsl:with-param> 
+                                                <xsl:with-param name="page-nr"><xsl:value-of select="$pos"/></xsl:with-param>
+                                                <xsl:with-param name="document"><xsl:value-of select="a18:document-name(.)"/></xsl:with-param>
+                                                <xsl:with-param name="path"><xsl:value-of select="a18:generate-xpath(.., true())"/></xsl:with-param>
+                                                <xsl:with-param name="depth"><xsl:value-of select="count(../ancestor::*) + 1"/></xsl:with-param>
+                                                <xsl:with-param name="pageflag">page</xsl:with-param>
+                                                <xsl:with-param name="node"><xsl:copy-of select="$page"/></xsl:with-param>
+                                            </xsl:call-template>  
+                                        </xsl:otherwise>
+                                    </xsl:choose>
                                 </xsl:for-each>
+                                
                             </xsl:when>
                             <xsl:otherwise>
                                 <!-- no page breaks in here -->
@@ -141,24 +180,11 @@
                                     <xsl:with-param name="document"><xsl:value-of select="a18:document-name(.)"/></xsl:with-param>
                                     <xsl:with-param name="path"><xsl:value-of select="a18:generate-xpath(., true())"/></xsl:with-param>
                                     <xsl:with-param name="depth"><xsl:value-of select="count(./ancestor::*) + 1"/></xsl:with-param>
+                                    <xsl:with-param name="pageflag">structure</xsl:with-param>
                                     <xsl:with-param name="node"><xsl:copy-of select="."/></xsl:with-param>
                                 </xsl:call-template>
                             </xsl:otherwise>
                         </xsl:choose>
-                        
-                        <!-- last page in the selected structure -->
-                        <xsl:variable name="pos" as="xs:integer"><xsl:value-of select="count((//TEI:pb)[last()]/preceding::TEI:pb) + 1" /></xsl:variable> 
-                        <xsl:variable name="page" as="node()*">
-                            <xsl:copy-of select="(//TEI:pb)[last()]/following::*"/>
-                        </xsl:variable>
-                        <xsl:call-template name="doc">
-                            <xsl:with-param name="id"><xsl:value-of select="concat(a18:document-name((//TEI:pb)[last()]), '-', $pos)" /></xsl:with-param> 
-                            <xsl:with-param name="page-nr"><xsl:value-of select="$pos"/></xsl:with-param>
-                            <xsl:with-param name="document"><xsl:value-of select="a18:document-name((//TEI:pb)[last()])"/></xsl:with-param>
-                            <xsl:with-param name="path"><xsl:value-of select="a18:generate-xpath((//TEI:pb)[last()]/parent::*, true())"/></xsl:with-param> 
-                            <xsl:with-param name="depth"><xsl:value-of select="count((//TEI:pb)[last()]/ancestor::*)"/></xsl:with-param>
-                            <xsl:with-param name="node"><xsl:copy-of select="$page"/></xsl:with-param>
-                        </xsl:call-template>
                     </xsl:for-each>  <!-- End foreach div/p -->            
                 </xsl:when>
                 <!-- Structure only mode -->
@@ -316,6 +342,16 @@
         <xsl:apply-templates mode="filter"/>
     </xsl:template>
 
+    <xsl:template match="*" mode="serialize">
+        <xsl:text>&lt;</xsl:text>
+        <xsl:value-of select="name(.)"/>
+        <xsl:text>&gt;</xsl:text>
+        <xsl:apply-templates mode="serialize"/>
+        <xsl:text>&lt;/</xsl:text>
+        <xsl:value-of select="name(.)"/>
+        <xsl:text>&gt;</xsl:text>
+    </xsl:template>
+    
     <xsl:template match="text()" mode="filter">
         <xsl:value-of select="."/>
     </xsl:template>
