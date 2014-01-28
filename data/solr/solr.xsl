@@ -118,7 +118,7 @@
                         <xsl:choose>
                             <xsl:when test="./TEI:pb and not(.//TEI:div|.//TEI:p)">
                                 <xsl:for-each select="./TEI:pb">
-                                    <xsl:variable name="pos" select="count(./preceding::TEI:pb)" as="xs:integer"/>
+                                    <xsl:variable name="pos" select="count(./preceding::TEI:pb) +1" as="xs:integer"/>
                                     <xsl:choose>
                                         <xsl:when test="position()=1">
                                       <xsl:variable name="str_all">
@@ -159,7 +159,7 @@
                                     <xsl:variable name="thispage" as="node()">
                                         <xsl:value-of select="tokenize($str_all, '&lt;(TEI:)?pb')[last()]"/>
                                     </xsl:variable>
-                                    <xsl:variable name="pos" select="count(($currentnode/TEI:pb)[last()]/preceding::TEI:pb) +1" as="xs:integer"/>
+                                    <xsl:variable name="pos" select="count(($currentnode/TEI:pb)[last()]/preceding::TEI:pb) +2" as="xs:integer"/>
                                     <xsl:call-template name="doc_strbased">
                                         <xsl:with-param name="id"><xsl:value-of select="concat(a18:document-name(.), '-', $pos)" /></xsl:with-param> 
                                         <xsl:with-param name="page-nr"><xsl:value-of select="$pos"/></xsl:with-param>
@@ -327,7 +327,7 @@
                         <xsl:text disable-output-escaping="yes">]]&gt;</xsl:text>
                     </xsl:when>
                     <xsl:otherwise>
-                        <xsl:value-of select="replace($content, '(&lt;(/?)\w+(:?)\w+(/?)&gt;)', '')"
+                        <xsl:value-of select="replace(replace($content, '(&lt;(/?)\w+(:?)\w+(/?)&gt;)', ''), '&gt;', '')"
                         />
                     </xsl:otherwise>
                 </xsl:choose>
@@ -435,16 +435,12 @@
                     <xsl:value-of select="name()"/>
                     <xsl:variable name="parent" select="."/>
                     <xsl:variable name="siblings" select="count(preceding-sibling::*[name()=name($parent)])"/>
-                    <xsl:if test="$siblings">
-                        <xsl:value-of select="concat('[', $siblings + 1, ']')"/>
-                    </xsl:if>
+                    <xsl:value-of select="concat('[', $siblings + 1, ']')"/>
                     <xsl:value-of select="'/'"/>
                 </xsl:for-each>
                 <xsl:value-of select="name($node)"/>
                 <xsl:variable name="siblings" select="count($node/preceding-sibling::*[name()=name($node)])"/>
-                <xsl:if test="$siblings">
                     <xsl:value-of select="concat('[', $siblings + 1, ']')"/>
-                </xsl:if>
             </xsl:when>
             <xsl:otherwise>
                 <xsl:value-of select="$node/ancestor::*/name()" separator="/"/>
