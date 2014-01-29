@@ -721,7 +721,7 @@
         <propertyregex property="identifier" input="@{file}" regexp="^.*/(.*?)\..*$" select="\1" casesensitive="false"/>
         <echo message="Fixing @{file} with identifier '${identifier}'"/>
         <replace file="@{file}" token="REPLACEME" value="${identifier}"/>
-        <copy todir="${basedir}/${data.mets.dir}">
+        <copy todir="${basedir}/${data.mets.dir}" overwrite="true">
           <file file="@{file}"/>
         </copy>
       </sequential>
