@@ -152,6 +152,7 @@
                                             </xsl:call-template>  
                                         </xsl:otherwise>
                                     </xsl:choose>
+                                </xsl:for-each>
                                     <!-- last page in the selected structure -->
                                     <xsl:variable name="str_all">
                                         <xsl:apply-templates select="$currentnode" mode="serialize"/>
@@ -161,7 +162,7 @@
                                     </xsl:variable>
                                     <xsl:variable name="pos" select="count(($currentnode/TEI:pb)[last()]/preceding::TEI:pb) +2" as="xs:integer"/>
                                     <xsl:call-template name="doc_strbased">
-                                        <xsl:with-param name="id"><xsl:value-of select="concat(a18:document-name(.), '-', $pos)" /></xsl:with-param> 
+                                        <xsl:with-param name="id"><xsl:value-of select="concat(a18:document-name(.), '-', $pos+2)" /></xsl:with-param> 
                                         <xsl:with-param name="page-nr"><xsl:value-of select="$pos"/></xsl:with-param>
                                         <xsl:with-param name="document"><xsl:value-of select="a18:document-name(.)"/></xsl:with-param>
                                         <xsl:with-param name="path"><xsl:value-of select="a18:generate-xpath(.., true())"/></xsl:with-param>
@@ -169,8 +170,6 @@
                                         <xsl:with-param name="pageflag">page</xsl:with-param>
                                         <xsl:with-param name="content"><xsl:value-of select="$thispage" /></xsl:with-param>
                                     </xsl:call-template>
-                                </xsl:for-each>
-                                
                             </xsl:when>
                         </xsl:choose>
                         <!-- no page breaks in here -->
@@ -212,7 +211,7 @@
     <xsl:param name="depth" />
         <xsl:param name="pageflag" />
     <xsl:param name="node" as="node()"/>
-    
+        
     <doc>
         <xsl:variable name="id" select="concat(a18:document-name(.), '-', generate-id(.))"/>
         <!-- Metadata -->
@@ -272,7 +271,10 @@
         <xsl:param name="path"/>
         <xsl:param name="depth"/>
         <xsl:param name="pageflag" />
-        <xsl:param name="content" as="xs:string"/>       
+        <xsl:param name="content" as="xs:string"/>   
+        
+        <xsl:choose>
+        <xsl:when test="string-length($content) != 0" >
         <doc>
             <xsl:variable name="id" select="concat(a18:document-name(.), '-', generate-id(.))"/>
             <!-- Metadata -->
@@ -332,7 +334,10 @@
                     </xsl:otherwise>
                 </xsl:choose>
             </field>
-        </doc>      
+        </doc>     
+        </xsl:when>
+        </xsl:choose>
+        
     </xsl:template>
     
     <xsl:template match="TEI:addName" mode="filter" priority="1"/>
