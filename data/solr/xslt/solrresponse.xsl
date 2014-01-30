@@ -25,23 +25,38 @@
 
                 <results>
                     <xsl:for-each-group select="result/doc" group-by="str[@name='document']">
-                        <!-- <xsl:value-of select="str[@name='document']"/>
-            <xsl:text>    
-            </xsl:text> -->
                         <xsl:variable name="sequence" as="element(doc)+">
                             <xsl:perform-sort select="current-group()">
                                 <xsl:sort select="str[@name='path']" order="ascending"/>
+                                <xsl:sort select="str[@name='pageflag']" data-type="text"
+                                    order="descending"/>
                             </xsl:perform-sort>
                         </xsl:variable>
 
                         <xsl:for-each select="current-group()">
-                            <!--                 <xsl:sort select="str[@name='path']" data-type="text" order="ascending" />  -->
+                            <xsl:sort select="str[@name='path']" data-type="text" order="ascending"/>
+                            <xsl:sort select="str[@name='pageflag']" data-type="text"
+                                order="descending"/>
                             <xsl:variable name="next" select="position()+1"/>
                             <xsl:choose>
                                 <xsl:when
+                                    test="$sequence[$next]/str[@name='path'] = ./str[@name='path']">
+                                    <xsl:choose>
+                                        <!-- if not page, the pagemode-doc will written be next round-->
+                                        <xsl:when test="./str[@name='pageflag'] = 'page'">
+                                            <result>
+                                                <xsl:call-template name="doc">
+                                                  <xsl:with-param name="pos">
+                                                  <xsl:value-of select="$next"/>
+                                                  </xsl:with-param>
+                                                </xsl:call-template>
+                                            </result>
+                                        </xsl:when>
+                                    </xsl:choose>
+                                </xsl:when>
+                                <xsl:when
                                     test="not(contains($sequence[$next]/str[@name='path'], ./str[@name='path']))">
                                     <result>
-                                        <!-- <xsl:apply-templates  select="."/> -->
                                         <xsl:call-template name="doc">
                                             <xsl:with-param name="pos">
                                                 <xsl:value-of select="index-of($resultarray,.)"/>
@@ -67,11 +82,6 @@
         </doc>
         <xsl:text>    
                             </xsl:text>
-
-        <!-- debug -->
-        <!-- <xsl:text>    </xsl:text>
-        <xsl:value-of select="./str[@name='path']"/>
-        <xsl:text>   </xsl:text> -->
         <page>
             <xsl:value-of select="./str[@name='page-nr']"/>
         </page>
@@ -89,7 +99,6 @@
         <xsl:text>              
  
            </xsl:text>
-
     </xsl:template>
 
 </xsl:stylesheet>
