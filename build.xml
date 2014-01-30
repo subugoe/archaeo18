@@ -264,16 +264,10 @@
   <!-- 
   TODO: get rid of quercus, compile PHP static
   -->
-  <target name="war.dependencies" depends="salvador.base.maven.install, war.structure">
+  <target name="war.dependencies" depends="salvador.php.download, salvador.base.maven.install, war.structure">
     <echo>Getting dependencies for the war file</echo>
-    <artifact:dependencies filesetId="war.classpath">
-      <artifact:remoteRepository id="quercus" url="${salvador.php.quercus.repository.url}"/>
-      <dependency groupId="${salvador.php.quercus.group.id}" artifactId="${salvador.php.quercus.artifact.id}" version="${salvador.php.quercus.version}">
-        <exclusion groupId="javax" artifactId="javaee-api"/>
-      </dependency>
-    </artifact:dependencies>
     <copy todir="${war.dir.lib}">
-      <fileset refid="war.classpath"/>
+      <fileset refid="salvador.php.classpath"/>
       <mapper type="flatten"/>
     </copy>
   </target>
