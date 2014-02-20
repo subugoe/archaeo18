@@ -17,3 +17,4 @@
 		"openDocumentsOnStart": true,
 		"documentOnStart": "berlin-ms-germ-qrt-1666"
 }
+
