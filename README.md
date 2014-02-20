@@ -13,6 +13,14 @@ Das Projekt ist in verschiedene Git Module aufgeteilt, diese müssen vor dem ers
 
 >git submodule update 
 
+Um die submodule auf den atkuellen Stand zu bringen, muss der Pointer auf die jeweils aktuelle Version gesetzt werden.
+> git submodule foreach git checkout master
+Dann holen. 
+> git submodule foreach git pull
+Den Pointer committen und pushen.
+> git commit -am "Raised submodule pointer"
+> git push
+
 ### Ant
 Archaeo18 benutzt Ant um verschiede Aufgaben zu erledigen, dazu zählt die Bereiststellung einer Entwicklungsumgebung als auch das Erstellen von Installationspaketen. Eine im Browser aufrufbare Umgebung kann mit dem folgenden Kommando bereitgestellt werden.
 > ant serve
