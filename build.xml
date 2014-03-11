@@ -684,7 +684,7 @@
     <echo level="verbose" message="XHTML header collection: ${basedir}/${data.xhtml.header.dir}"/>
     <echo level="verbose" message="METS base URL: ${data.docs.mets.base.uri}"/>
     <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.enrich}" destfile="${data.enrich.output}"
-      params="collection=${basedir}/${data.tei.dir} mets-collection=${basedir}/${data.mets.dir} tei-enriched-collection=${basedir}/${data.tei-enriched.dir} document-listing-file=${basedir}/${data.docs.list} url-prefix=${data.docs.mets.base.uri} replace-prefix=${basedir}./"/>
+      params="collection=${basedir}/${data.tei.dir} mets-collection=${basedir}/${data.mets.dir} tei-enriched-collection=${basedir}/${data.tei-enriched.dir} document-listing-file=${basedir}/${data.docs.list} xhtml-collection=${basedir}/${data.xhtml.content.dir} url-prefix=${data.docs.mets.base.uri} replace-prefix=${basedir}./"/>
     <!--
     <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.enrich}" destfile="${data.enrich.output}"
       params="collection=${basedir}/${data.tei.dir} mets-collection=${basedir}/${data.mets.dir} tei-enriched-collection=${basedir}/${data.tei-enriched.dir} document-listing-file=${basedir}/${data.docs.list} xhtml-collection=${basedir}/${data.xhtml.content.dir} xhtml-header-collection=${basedir}/${data.xhtml.header.dir} url-prefix=${data.docs.mets.base.uri} replace-prefix=${basedir}./"
