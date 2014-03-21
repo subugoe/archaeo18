@@ -621,7 +621,7 @@
     <delete dir="${data.xhtml-pages.dir}"/>
     <!-- Keep the empty METS file -->
     <delete>
-      <fileset dir="${data.mets.dir}" includes="**/*.xml" excludes="null.xml"/>
+      <fileset dir="${data.mets.dir}" includes="**/*.xml" excludes="null.xml"/> 
     </delete>
     <delete dir="${data.indices.dir}"/>
     <delete dir="${data.cloud.dir}"/>
@@ -703,12 +703,13 @@
     <property name="data.mets.tmp.dir" value="${salvador.base.dir.tmp}/${data.mets.dir}"/>
     <mkdir dir="${data.mets.tmp.dir}"/>
     <copy todir="${data.mets.tmp.dir}">
-      <fileset dir="${basedir}/${data.mets.dir}"/>
+      <fileset dir="${basedir}/${data.mets.dir}"/> 
+<mapper type="flatten"/>
     </copy>
     <!-- Copy back with filter for each file name -->
     <for param="file">
       <path>
-        <fileset dir="${data.mets.tmp.dir}" includes="**/*"/>
+         <fileset dir="${data.mets.tmp.dir}" includes="**/*"/> 
       </path>
       <sequential>
         <var name="identifier" unset="true"/>
@@ -717,6 +718,7 @@
         <replace file="@{file}" token="REPLACEME" value="${identifier}"/>
         <copy todir="${basedir}/${data.mets.dir}" overwrite="true">
           <file file="@{file}"/>
+	  <mapper type="flatten"/>
         </copy>
       </sequential>
     </for>
