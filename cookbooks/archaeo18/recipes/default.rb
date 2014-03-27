@@ -1,6 +1,6 @@
 execute "apt-get update"
 
-packages = ["openjdk-7-jdk", "ant", "libjaxp1.3", "htop", "git", "vim", "language-pack-de"]
+packages = ["openjdk-7-jdk", "ant", "libjaxp1.3", "htop", "git", "vim", "language-pack-de", "bash-completion"]
 
 packages.each do |p|
 	package p

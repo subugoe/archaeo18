@@ -558,6 +558,10 @@
     <salvador.solr.stop/>
   </target>
 
+  <target name="test">
+    <!-- stub -->
+  </target>
+
   <target name="solr.docs" depends="data.enrich, solr.init, solr.docs.check" unless="solr.docs.exist">
     <property name="data.solr.output" value="${target.dir}/solr-report.xhtml"/>
     <echo level="verbose">collection=${basedir}/${data.tei-enriched.dir}</echo>
