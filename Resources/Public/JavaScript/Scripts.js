@@ -1,28 +1,35 @@
 /*
  * scripts page implementation
  */
-var Scripts = new function() {
+var Scripts = (function() {
+	"use strict";
+	var script = {};
 
-	this.initialized = false;
+	script.properties = {
+		// default size if manuscripts page image
+		hwImageHeight: 328,
+		hwImageWidth: 359
+	};
+
+	script.initialized = false;
 
 	/*
 	 * initialize scripts page; load documents
 	 */
-	this.initialize = function() {
+	script.initialize = function() {
 		$('.scriptsContainer').hide();
 
-		this.initialized = true;
+		script.initialized = true;
 		// listener for clicks on item
 		$(".selectHandschriften li").click(function() {
-			var scriptId = $(this).attr('id')
+			var scriptId = $(this).attr('id');
 
-			console.log(scriptId);
-			if (scriptId != '') {
+			if (scriptId !== '') {
 				$(".scriptList a").each(function() {
 					$(this).removeClass("selected");
 				});
 
-				$("a", this).addClass('selected');
+				$("a", script).addClass('selected');
 				$('.scriptsContainer').hide();
 
 				var pageUrl = 'content/manuscripts/' + scriptId + '.html';
@@ -39,10 +46,5 @@ var Scripts = new function() {
 		$('.selectHandschriften li:first').click();
 
 	};
-};
-
-ScriptsProps = {
-	// default size if manuscripts page image 
-	hwImageHeight: 328,
-	hwImageWidth: 359
-};
+	return script;
+})();

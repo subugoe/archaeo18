@@ -1,40 +1,4 @@
-/* HEADER */
-
-sessionStorage.clear();
-
-$('.header-button').click(function() {
-	if (localStorage.getItem('headerState') === 'small') {
-		$('html').removeClass('header-small').addClass('header-large');
-		$('.header-button').removeClass('icon-chevron-up').addClass('icon-chevron-down');
-		localStorage.setItem('headerState', 'large');
-	} else {
-		$('html').removeClass('header-large').addClass('header-small');
-		$('.header-button').removeClass('icon-chevron-down').addClass('icon-chevron-up');
-		localStorage.setItem('headerState', 'small');
-	}
-	return false;
-});
-
-var setHeaderSize = function() {
-
-	var headerState = localStorage.getItem('headerState');
-
-	var headerButton = function() {
-		if (headerState === 'small') {
-			$('.header-button').removeClass('icon-chevron-down').addClass('icon-chevron-up');
-		} else {
-			$('.header-button').removeClass('icon-chevron-up').addClass('icon-chevron-down');
-		}
-	}
-
-	$('html').addClass('header-' + headerState);
-	headerButton();
-}
-
-setHeaderSize();
-
-/* HEADER (end) */
-
+PageLoader.run();
 /* MISC */
 
 $('.selectHandschriften').change(function() {
@@ -48,27 +12,6 @@ EditionProperties.applySettings({
 									maxTags: 20
 								});
 
-var showDiv = function(div, link) {
-	$('#start_page').css('display', 'none');
-	$('#edition_page').css('display', 'none');
-	$('#indices_page').css('display', 'none');
-	$('#manuscripts_page').css('display', 'none');
-	$('#help_page').css('display', 'none');
-	$('#terms_page').css('display', 'none');
-	$('#databases_page').css('display', 'none');
-	$('#acknowledgment_page').css('display', 'none');
-	$('#people_page').css('display', 'none');
-	$('#imprint_page').css('display', 'none');
-	$('#linkstart').removeClass('selected');
-	$('#linkedition').removeClass('selected');
-	$('#linkindices').removeClass('selected');
-	$('#linkhandschriften').removeClass('selected');
-	if (typeof link != 'undefined') {
-		$(link).addClass('selected');
-	}
-	$(div).css('display', 'block');
-}
-
 var loadTwoColumns = function(div) {
 	var mainContentContainer = $(div + ' .maincontent .topics');
 	var subNavigationContainer = div + ' .subnav';
@@ -78,7 +21,7 @@ var loadTwoColumns = function(div) {
 	// listener for clicks on item
 	$(subNavigationContainer + ' li').click(function() {
 		var scriptId = $('a', this).attr('id')
-		if (scriptId != '') {
+		if (scriptId !== '') {
 			$(subNavigationContainer + ' a').each(function() {
 				$(this).removeClass("selected");
 			});
@@ -92,98 +35,34 @@ var loadTwoColumns = function(div) {
 
 				var fileName = firstPartOfPath + '/' + pathParts.join('-');
 				return fileName;
-			}
+			};
 
 			var pageUrl = 'content/' + idToMarkdown(scriptId) + '.html';
 
 			$.ajax({
-					   url: pageUrl
-				   }).done(function(html) {
-							   mainContentContainer[0].innerHTML = html;
-						   });
+				url: pageUrl
+			}).done(function(html) {
+				mainContentContainer[0].innerHTML = html;
+			});
 			return false;
 		}
 	});
 
 	$(subNavigationContainer + ' li:first').click();
-}
-
-var loadContent = function(page) {
-
-	var suffix = arguments[1] === 'md' ? 'md' : 'html';
-	var pageUrl = 'content/' + page + '/index.' + suffix;
-
-	var content = this;
-
-	content.container = function() {
-		return '#' + page + '_page';
-	}
-
-	$.ajax({
-			   url: pageUrl
-		   }).done(function(html) {
-					   var container = $(content.container() + ' .wrap');
-
-					   var containerContent;
-
-					   if (suffix === 'md') {
-						   containerContent = markdown.toHTML(html);
-					   } else {
-						   container.html(html);
-					   }
-
-					   $('a[href^="http://"]').attr('target', '_blank');
-				   });
-}
-
+};
 
 var loadIndices = function() {
 	if (!Indices.initialized) {
 		Indices.initialize();
 	}
 	Indices.checkDisplay();
-}
+};
 
 var loadScripts = function() {
 	if (!Scripts.initialized) {
 		Scripts.initialize();
 	}
-}
-
-var loadEdition = function() {
-	if (!EditionGui.initialized) {
-		EditionGui.initialize();
-	}
-	EditionGui.gridLayout();
-
-	var loadFirstDocument = function(data) {
-		var doc = new Document(data.title, data.name, data.nameShort, data.preview, data.pages, true);
-		doc.imagePath = data.imagePath.replace('REPLACEME', data.title);
-		var images = data.images
-		//images.push(doc.imagePath .substring(doc.imagePath .lastIndexOf("/") + 1));
-		doc.images = images;
-		var types = ['text', 'images'];
-
-		for (var i = 0; i < types.length; i++) {
-			EditionGui.openDocument(false, doc, 1, types[i], false, '', i);
-		}
-
-	};
-
-	var loadDoc = function() {
-		var callStorage = 0;
-
-		Util.loadDocuments(function(data) {
-			if (callStorage === 0) {
-				callStorage++;
-				loadFirstDocument(data);
-
-			}
-		})
-	}
-
-	loadDoc();
-}
+};
 
 var addGeoTemCo = function() {
 	if (typeof(GeoTemConfig) === 'undefined') {
@@ -195,44 +74,44 @@ var addGeoTemCo = function() {
 }
 
 var loadPage = function() {
-	if (window.location.href.indexOf('?params') != -1) {
+	if (window.location.href.indexOf('?params') !== -1) {
 		addGeoTemCo();
-		showDiv('#edition_page', '#linkedition');
-		loadEdition();
+		ContentLoader.showDiv('#edition_page', '#linkedition');
+		EditionLoader.load();
 	} else
-		if (window.location.href.indexOf('?page=') != -1) {
+		if (window.location.href.indexOf('?page=') !== -1) {
 			var data = window.location.href.split('?page=')[1];
 
 			// get path to be loaded from the "CMS"
 			var pagePath = data.split('_page')[0].replace('#', '');
 
 			var page = data, link;
-			if (data.indexOf('&link=') != -1) {
+			if (data.indexOf('&link=') !== -1) {
 				var data2 = data.split('&link=');
 				page = data2[0];
 				link = data2[1];
 			}
-			showDiv(page, link);
+			ContentLoader.showDiv(page, link);
 			if (pagePath !== 'edition' && pagePath !== 'indices' && pagePath !== 'manuscripts' && pagePath !== 'terms') {
-				loadContent(pagePath);
+				ContentLoader.load(pagePath);
 			}
 
-			if (page.indexOf('edition') != -1) {
+			if (page.indexOf('edition') !== -1) {
 				addGeoTemCo();
-				loadEdition();
+				EditionLoader.load();
 			}
 			else
-				if (page.indexOf('indices') != -1) {
+				if (page.indexOf('indices') !== -1) {
 					addGeoTemCo();
 					loadIndices();
 				}
 				else
-					if (page.indexOf('manuscripts') != -1) {
+					if (page.indexOf('manuscripts') !== -1) {
 						loadScripts();
 					} else
 						if (page.indexOf('start') !== -1) {
-							showDiv('#start_page', '#linkstart');
-							loadContent('start', 'html');
+							ContentLoader.showDiv('#start_page', '#linkstart');
+							ContentLoader.load('start', 'html');
 						} else
 							if (page.indexOf('help') !== -1) {
 								loadTwoColumns('#help_page');
@@ -241,131 +120,15 @@ var loadPage = function() {
 									loadTwoColumns('#terms_page');
 								}
 		} else {
-			showDiv('#start_page', '#linkstart');
-			loadContent('start');
+			ContentLoader.showDiv('#start_page', '#linkstart');
+			ContentLoader.load('start');
 		}
-}
+};
 loadPage();
 
-$('#linkstart').click(function() {
-	showDiv('#start_page', '#linkstart');
-	$('html,body').animate({scrollTop: 0}, 0);
-	location.hash = "?page=#start_page&link=#linkstart";
-	document.title = 'Archaeo 18: Start';
-});
-
-$('#linkedition').click(function() {
-	showDiv('#edition_page', '#linkedition');
-	$('html,body').animate({scrollTop: 0}, 0);
-	location.hash = "?page=#edition_page&link=#linkedition";
-	addGeoTemCo();
-	document.title = 'Archaeo 18: Edition';
-	loadEdition();
-});
-
-$('#linkindices').click(function() {
-	showDiv('#indices_page', '#linkindices');
-	$('html,body').animate({scrollTop: 0}, 0);
-	location.hash = "?page=#indices_page&link=#linkindices";
-	addGeoTemCo();
-	document.title = 'Archaeo 18: Indices';
-	loadIndices();
-});
-
-$('#linkhandschriften').click(function() {
-	showDiv('#manuscripts_page', '#linkhandschriften');
-	$('html,body').animate({scrollTop: 0}, 0);
-	location.hash = "?page=#manuscripts_page&link=#linkhandschriften";
-	document.title = 'Archaeo 18: Handschriften';
-	loadScripts();
-});
-
-$('#linkstart2').click(function() {
-	showDiv('#start_page', '#linkstart');
-	$('html,body').animate({scrollTop: 0}, 0);
-	location.hash = "?page=#start_page&link=#linkstart";
-	document.title = 'Archaeo 18: Start';
-});
-
-$('#linkedition2').click(function() {
-	showDiv('#edition_page', '#linkedition');
-	$('html,body').animate({scrollTop: 0}, 0);
-	location.hash = "?page=#edition_page&link=#linkedition";
-	document.title = 'Archaeo 18: Edition';
-	loadEdition();
-});
-
-$('#linkedition3').click(function() {
-	showDiv('#edition_page', '#linkedition');
-	$('html,body').animate({scrollTop: 0}, 0);
-	location.hash = "?page=#edition_page&link=#linkedition";
-	document.title = 'Archaeo 18: Edition';
-	loadEdition();
-});
-
-$('#linkindices2').click(function() {
-	showDiv('#indices_page', '#linkindices');
-	$('html,body').animate({scrollTop: 0}, 0);
-	location.hash = "?page=#indices_page&link=#linkindices";
-	document.title = 'Archaeo 18: Indices';
-	loadIndices();
-});
-
-$('#linkhandschriften2').click(function() {
-	showDiv('#manuscripts_page', '#linkhandschriften');
-	$('html,body').animate({scrollTop: 0}, 0);
-	location.hash = "?page=#manuscripts_page&link=#linkhandschriften";
-	document.title = 'Archaeo 18: Handschriften';
-	loadScripts();
-});
-
-$('#linkhelp').click(function() {
-	var divToShow = '#help_page';
-	showDiv(divToShow, '#linkhelp');
-	$('html,body').animate({scrollTop: 0}, 0);
-	location.hash = "?page=#help_page";
-	document.title = 'Archaeo 18: Hilfe';
-	loadTwoColumns(divToShow);
-});
-
-$('#linkterms').click(function() {
-	showDiv('#terms_page', '#linkhelp');
-	$('html,body').animate({scrollTop: 0}, 0);
-	location.hash = "?page=#terms_page";
-	document.title = 'Archaeo 18: Editionsrichtlinien';
-	loadTwoColumns('#terms_page');
-});
-
-$('#linkimprint').click(function() {
-	showDiv('#imprint_page', '#linkimprint');
-	$('html,body').animate({scrollTop: 0}, 0);
-	location.hash = "?page=#imprint_page";
-	document.title = 'Archaeo 18: Impressum';
-});
-
-$('#linkdatabases').click(function(e) {
-	showDiv('#databases_page', '#linkdatabases', e);
-	$('html,body').animate({scrollTop: 0}, 0);
-	location.hash = "?page=#databases_page";
-	document.title = 'Archaeo 18: Datenbanken und Repositorien';
-});
-
-$('#linkacknowledgment').click(function(e) {
-	showDiv('#acknowledgment_page', '#linkacknowledgment', e);
-	$('html,body').animate({scrollTop: 0}, 0);
-	location.hash = "?page=#acknowledgment_page";
-	document.title = 'Archaeo 18: Danksagung';
-});
-
-$('#linkpeople').click(function(e) {
-	showDiv('#people_page', '#linkpeople', e);
-	$('html,body').animate({scrollTop: 0}, 0);
-	location.hash = "?page=#people_page";
-	document.title = 'Archaeo 18: Projekmitarbeiter';
-});
 
 window.onhashchange = function() {
-	if (location.hash.indexOf('?') != -1) {
+	if (location.hash.indexOf('?') !== -1) {
 		loadPage();
 	}
 };

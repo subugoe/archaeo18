@@ -1,47 +1,72 @@
 /*
  * indices page implementation
  */
-var Indices = new function() {
+var Indices = (function() {
+	"use strict";
 
-	this.initialized = false;
+	var index = {};
+
+	var indexProperties = {
+		serverTimeout: 10000,
+		geoTemco: {
+			language: EditionGui.language,
+			allowFilter: false,
+			highlightEvents: false,
+			selectionEvents: false
+		},
+		dataTables: {
+			"sPaginationType": "full_numbers",
+			"oLanguage": {
+				"sLengthMenu": "Zeige _MENU_ Einträge je Seite",
+				"sZeroRecords": "Keine Einträge gefunden",
+				"sInfo": "_START_ - _END_ von _TOTAL_ Einträgen",
+				"sInfoEmpty": "Zeige 0 bis 0 von 0 Einträgen",
+				"sInfoFiltered": "(gefiltert aus _MAX_ Einträgen insgesamt)",
+				"sSearch": "Suche:",
+				"oPaginate": {
+					"sNext": "",
+					"sFirst": "",
+					"sLast": "",
+					"sPrevious": ""
+				}
+			}
+		}
+	};
+
+	index.initialized = false;
 
 	var section;
 
 	/*
 	 * initialize indices page; load facets
 	 */
-	this.initialize = function() {
+	index.initialize = function() {
 
-		this.initialized = true;
+		index.initialized = true;
 
 		var gui = this;
 
-		GeoTemConfig.applySettings({
-									   language: EditionGui.language,
-									   allowFilter: false,
-									   highlightEvents: false,
-									   selectionEvents: false
-								   });
+		GeoTemConfig.applySettings(indexProperties.geoTemco);
 
-		this.selectionContainer = $("#indicesSelection");
-		$('<h2>' + Util.getString('indexSelection') + '</h2>').appendTo(this.selectionContainer);
-		$('<p>' + Util.getString('indexIntro') + '</p>').appendTo(this.selectionContainer);
-		$('<p class="chooseIndex">' + Util.getString('pleaseSelectIndex') + '</p>').appendTo(this.selectionContainer);
+		index.selectionContainer = $("#indicesSelection");
+		$('<h2>' + Util.getString('indexSelection') + '</h2>').appendTo(index.selectionContainer);
+		$('<p>' + Util.getString('indexIntro') + '</p>').appendTo(index.selectionContainer);
+		$('<p class="chooseIndex">' + Util.getString('pleaseSelectIndex') + '</p>').appendTo(index.selectionContainer);
 
-		var form = $('<form/>').appendTo(this.selectionContainer);
+		var form = $('<form/>').appendTo(index.selectionContainer);
 		var fieldset = $('<fieldset/>').appendTo(form);
-		this.selectionDropdown = $('<select class="selectIndices"/>').appendTo(fieldset);
-		$(this.selectionDropdown).change(function() {
+		index.selectionDropdown = $('<select class="selectIndices"/>').appendTo(fieldset);
+		$(index.selectionDropdown).change(function() {
 			$("select option:selected", this.selectionDropdown).each(function() {
-				if ($(this).attr('id').indexOf('tei') != -1) {
+				if ($(this).attr('id').indexOf('tei') !== -1) {
 					gui.showFacetSection($(this).attr('id'));
 				}
 			});
 		});
 
-		$('<option>' + Util.getString('selectIndex') + '</option>').appendTo(this.selectionDropdown);
+		$('<option>' + Util.getString('selectIndex') + '</option>').appendTo(index.selectionDropdown);
 
-		this.sectionContainer = $("#sectionContainer");
+		index.sectionContainer = $("#sectionContainer");
 
 		if (!Util.facetsLoaded) {
 			Util.loadFacets();
@@ -58,8 +83,8 @@ var Indices = new function() {
 	/*
 	 * show table and tags/map for facet with <facetId>
 	 */
-	this.showFacetSection = function(facetId) {
-		if (facetId == Util.getString('selectIndex')) {
+	index.showFacetSection = function(facetId) {
+		if (facetId === Util.getString('selectIndex')) {
 			return;
 		}
 		var status;
@@ -85,135 +110,116 @@ var Indices = new function() {
 				$(status).remove();
 				appendStatus(Util.getString('loadTable'), true);
 			}
-		}, IndicesProps.serverTimeout);
+		}, indexProperties.serverTimeout);
 		$.ajax({
-				   url: EditionProperties.facetTableQuery.replace('FACET_ID', facet.facet),
-				   dataType: 'html',
-				   success: function(xhtml) {
-					   $(status).remove();
-					   tableLoaded = true;
-					   $(this.sectionContainer).empty();
-					   var dummy = $('<div/>');
-					   $(xhtml).appendTo(dummy);
-					   var table = $($('table', dummy)[0]).appendTo(section);
-					   $(table).attr('width', '100%');
-					   $(table).attr('id', 'tableIndices');
-					   $('span', section).each(function() {
-						   var lang = Util.getAttribute(this, 'xml:lang');
-						   if (Util.language != lang) {
-							   $(this).css('display', 'none');
-						   }
-					   });
-					   $('.editionRef', section).each(function() {
-						   var params = Util.getAttribute(this, 'rel');
-						   params = params.split(';');
-						   var linkString = location.protocol + '//' + location.host + '/archaeo18/edition.php?docParams=' + params;
-						   $(this).click(function(e) {
-							   showDiv(
-									   '#edition_page',
-									   '#linkedition',
-									   e
-							   );
-							   if (!EditionGui.initialized) {
-								   EditionGui.initialize();
-							   }
-							   EditionGui.gridLayout();
-							   var getDoc = function() {
-								   if (Util.docsLoaded != 1) {
-									   setTimeout(function() {
-										   getDoc();
-									   }, 100);
-								   }
-								   else {
-									   var doc = Util.getDoc(params[0]);
-									   var page = parseInt(params[1]);
-									   EditionGui.openDocument(
-											   false,
-											   doc, page,
-											   "pages",
-											   undefined,
-											   facet.facet
-									   );
-								   }
-							   }
-							   getDoc();
-						   });
-					   });
-					   $(table).dataTable({
-											  "sPaginationType": "full_numbers",
-											  "oLanguage": {
-												  "sLengthMenu": "Zeige _MENU_ Einträge je Seite",
-												  "sZeroRecords": "Keine Einträge gefunden",
-												  "sInfo": "_START_ - _END_ von _TOTAL_ Einträgen",
-												  "sInfoEmpty": "Zeige 0 bis 0 von 0 Einträgen",
-												  "sInfoFiltered": "(gefiltert aus _MAX_ Einträgen insgesamt)",
-												  "sSearch": "Suche:",
-												  "oPaginate": {
-													  "sNext": "",
-													  "sFirst": "",
-													  "sLast": "",
-													  "sPrevious": ""
-												  }
-											  }
-										  });
+				url: EditionProperties.facetTableQuery.replace('FACET_ID', facet.facet),
+				dataType: 'html',
+				success: function(xhtml) {
+					$(status).remove();
+					tableLoaded = true;
+					$(this.sectionContainer).empty();
+					var dummy = $('<div/>');
+					$(xhtml).appendTo(dummy);
+					var table = $($('table', dummy)[0]).appendTo(section);
+					$(table).attr('width', '100%');
+					$(table).attr('id', 'tableIndices');
+					$('span', section).each(function() {
+						var lang = Util.getAttribute(this, 'xml:lang');
+						if (Util.language !== lang) {
+							$(this).css('display', 'none');
+						}
+					});
+					$('.editionRef', section).each(function() {
+						var params = Util.getAttribute(this, 'rel');
+						params = params.split(';');
+						var linkString = location.protocol + '//' + location.host + '/archaeo18/edition.php?docParams=' + params;
+						$(this).click(function(e) {
+							ContentLoader.showDiv(
+									'#edition_page',
+									'#linkedition',
+									e
+							);
+							if (!EditionGui.initialized) {
+								EditionGui.initialize();
+							}
+							EditionGui.gridLayout();
+							var getDoc = function() {
+								if (Util.docsLoaded !== 1) {
+									setTimeout(function() {
+										getDoc();
+									}, 100);
+								}
+								else {
+									var doc = Util.getDoc(params[0]);
+									var page = parseInt(params[1]);
+									EditionGui.openDocument(
+											false,
+											doc, page,
+											"pages",
+											undefined,
+											facet.facet
+									);
+								}
+							};
+							getDoc();
+						});
+					});
+					$(table).dataTable(indexProperties.dataTables);
 
-					   if (facet.facet.indexOf('placeName') == -1) {
-						   appendStatus(Util.getString('loadTagcloud'));
-						   setTimeout(function() {
-							   if (!cloudLoaded) {
-								   $(status).remove();
-								   appendStatus(Util.getString('loadTagcloud'), true);
-							   }
-						   }, IndicesProps.serverTimeout);
-						   $.ajax({
-									  url: EditionProperties.tagcloudQuery.replace('FACET_ID', facet.facet),
-									  dataType: 'xml',
-									  success: function(xml) {
-										  cloudLoaded = true;
-										  if ($("#indices_page").css('display') == 'none') {
-											  Indices.data = {
-												  type: 'cloud',
-												  data: xml
-											  };
-										  }
-										  else {
-											  Indices.displayCloud(xml);
-										  }
-										  $(status).remove();
-									  }
-								  });
-					   }
-					   else {
-						   appendStatus(Util.getString('loadMap'));
-						   setTimeout(function() {
-							   if (!cloudLoaded) {
-								   $(status).remove();
-								   appendStatus(Util.getString('loadMap'), true);
-							   }
-						   }, IndicesProps.serverTimeout);
-						   $.ajax({
-									  url: EditionProperties.mapQuery.replace('FACET_ID', facet.facet),
-									  dataType: 'xml',
-									  success: function(kml) {
-										  cloudLoaded = true;
-										  if ($("#indices_page").css('display') == 'none') {
-											  Indices.data = {
-												  type: 'map',
-												  data: kml
-											  };
-										  }
-										  else {
-											  Indices.displayMap(kml);
-										  }
-										  $(status).remove();
-									  }
-								  });
-					   }
-				   }
-			   });
+					if (facet.facet.indexOf('placeName') === -1) {
+						appendStatus(Util.getString('loadTagcloud'));
+						setTimeout(function() {
+							if (!cloudLoaded) {
+								$(status).remove();
+								appendStatus(Util.getString('loadTagcloud'), true);
+							}
+						}, indexProperties.serverTimeout);
+						$.ajax({
+							url: EditionProperties.tagcloudQuery.replace('FACET_ID', facet.facet),
+							dataType: 'xml',
+							success: function(xml) {
+								cloudLoaded = true;
+								if ($("#indices_page").css('display') === 'none') {
+									Indices.data = {
+										type: 'cloud',
+										data: xml
+									};
+								} else {
+									Indices.displayCloud(xml);
+								}
+								$(status).remove();
+							}
+						});
+					} else {
+						appendStatus(Util.getString('loadMap'));
+						setTimeout(function() {
+							if (!cloudLoaded) {
+								$(status).remove();
+								appendStatus(Util.getString('loadMap'), true);
+							}
+						}, indexProperties.serverTimeout);
+						$.ajax({
+							url: EditionProperties.mapQuery.replace('FACET_ID', facet.facet),
+							dataType: 'xml',
+							success: function(kml) {
+								cloudLoaded = true;
+								if ($("#indices_page").css('display') == 'none') {
+									Indices.data = {
+										type: 'map',
+										data: kml
+									};
+								} else {
+									Indices.displayMap(kml);
+								}
+								$(status).remove();
+							}
+						});
+					}
+				}
+			});
 	};
 
-	this.displayCloud = function(xml) {
+	index.displayCloud = function(xml) {
 		var inputField = $('#tableIndices_filter :input')[0];
 		var tagArray = Util.getTags($(xml).find('tag'));
 		var tagsDiv = $("<div/>").appendTo(section);
@@ -237,14 +243,14 @@ var Indices = new function() {
 		});
 	};
 
-	this.displayMap = function(kml) {
+	index.displayMap = function(kml) {
 		var mapDiv = $("<div/>").appendTo(section);
 		$(mapDiv).css('position', 'relative');
 		$(mapDiv).css('height', '400px');
 		$(mapDiv).css('margin-top', '50px');
 		$(mapDiv).css('margin-bottom', '50px');
 		var loadMap = function() {
-			if (typeof GeoTemConfig == 'undefined') {
+			if (typeof GeoTemConfig === 'undefined') {
 				setTimeout(function() {
 					loadMap();
 				}, 1000);
@@ -261,24 +267,20 @@ var Indices = new function() {
 				maxPlaceLabels: 8
 			});
 			map.display([new Dataset(GeoTemConfig.loadKml(kml))]);
-		}
+		};
 		loadMap();
 	};
 
-	this.checkDisplay = function() {
-		if (typeof this.data != 'undefined') {
-			if (this.data.type == 'cloud') {
+	index.checkDisplay = function() {
+		if (typeof this.data !== 'undefined') {
+			if (this.data.type === 'cloud') {
 				this.displayCloud(this.data.data);
 			}
-			if (this.data.type == 'map') {
+			if (this.data.type === 'map') {
 				this.displayMap(this.data.data);
 			}
 			this.data = undefined;
 		}
 	};
-
-};
-
-IndicesProps = {
-	serverTimeout: 10000
-};
+	return index;
+})();
