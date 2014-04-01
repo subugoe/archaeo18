@@ -113,6 +113,9 @@
 <script src="Resources/Public/JavaScript/Libraries/jquery.cookie/jquery.cookie.js"></script>
 <script src="Resources/Public/JavaScript/Libraries/datatables/media/js/jquery.dataTables.js"></script>
 <script src="Resources/Public/JavaScript/Libraries/markdown/lib/markdown.js"></script>
+<script src="Resources/Public/JavaScript/PageLoader.js"></script>
+<script src="Resources/Public/JavaScript/ContentLoader.js"></script>
+<script src="Resources/Public/JavaScript/EditionLoader.js"></script>
 <script src="Resources/Public/JavaScript/Page.js"></script>
 <!-- Piwik -->
 <script type="text/javascript">

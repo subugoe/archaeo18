@@ -1,0 +1,15 @@
+language: java
+
+jdk:
+  - oraclejdk7
+  - oraclejdk8
+
+deploy:
+  provider: openshift
+  user: i.pfennigstorf@gmail.com
+  password:
+    secure: fFh167xty6P+ozAPvyrWwqBDOhLAoJdDsL+THh/jt5TYSBEhdmhIugqe0gnHmXg/lN4dffPKu2ywbypQE1BD/idYF0IcVsnhCHbRybVifu/QpZE1k2arpAqXpKBMRSgHNJXT0ZIKF4xcCgT3b25Y5vGoPstxddfdOla6MRlkQwQ=
+  app: archaeo18
+  domain: ipf
+  on:
+    repo: subugoe/archaeo18

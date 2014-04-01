@@ -57,3 +57,5 @@ Das Paket kann mit dem folgenden Kommando in Jetty gestartet werden, um zu prüf
 
 ## Backend
 Dieses Git Repository beinhaltet nur das Frontend, bestehend aus der Projektseite und [Ropen](https://github.com/subugoe/ROPEN). Das [Ropen Backend](https://github.com/subugoe/ropen-backend) ist ebenfalls via GitHub erhältlich. Die REST Endpunkte des Frontends werden in der Datei "js/Archaeo18Config.js" konfiguriert.
+
+[![Build Status](https://travis-ci.org/subugoe/archaeo18.svg?branch=master)](https://travis-ci.org/subugoe/archaeo18)

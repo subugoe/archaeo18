@@ -44,7 +44,7 @@
   <property name="servlet.proxy.webxml" value="./testdata/proxy/WEB-INF/web.xml"/>
 
   <!-- JavaScript Stuff -->
-  <property name="js.dir" value="./js"/>
+  <property name="js.dir" value="./Resources/Public/JavaScript"/>
   <property name="js.merged.file" value="script.js"/>
   <property name="js.target.dir" value="${target.dir}/${js.dir}"/>
   <property name="js.target.file" value="${js.target.dir}/${js.merged.file}"/>
@@ -556,6 +556,10 @@
       <fileset dir="${solr.docs.dir}" includes="*.xml"/>
     </salvador.solr.index.files>
     <salvador.solr.stop/>
+  </target>
+
+  <target name="test">
+    <!-- stub -->
   </target>
 
   <target name="solr.docs" depends="data.enrich, solr.init, solr.docs.check" unless="solr.docs.exist">
