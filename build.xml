@@ -781,6 +781,6 @@
 
   <!-- Target for all data -->
   <!-- Enable data.generate.kml, -->
-  <target name="data.generate" depends="data.dir.check, data.enrich, data.statistics, data.generate.cloud, data.generate.index, data.split, data.structure, data.generate.mets" unless="data.dir.exist"/>
+  <target name="data.generate" depends="data.dir.check, data.enrich, data.statistics, data.generate.cloud, data.generate.index, data.split, data.structure, data.generate.mets, solr.index" unless="data.dir.exist"/>
 
 </project>
