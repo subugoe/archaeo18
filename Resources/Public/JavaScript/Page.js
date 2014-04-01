@@ -1,9 +1,7 @@
 PageLoader.run();
 /* MISC */
 
-$('.selectHandschriften').change(function() {
-	$('#scriptsSelection option:selected').val();
-});
+
 
 /* MISC (end) */
 
@@ -126,27 +124,15 @@ var loadPage = function() {
 };
 loadPage();
 
-
 window.onhashchange = function() {
 	if (location.hash.indexOf('?') !== -1) {
 		loadPage();
 	}
 };
 
-var footerWidth = $('#logoPanel').width();
-$(window).resize(function() {
-	var w = Math.max($(window).width(), $('#editionContainer').width());
-	if (footerWidth > w) {
-		$('footer').css('width', footerWidth + 'px');
-	}
-	else {
-		$('footer').css('width', w + 'px');
-	}
-});
-
 var KEYCODE_ESC = 27;
 $('body').keyup(function(e) {
-	if (e.keyCode == KEYCODE_ESC) {
+	if (e.keyCode === KEYCODE_ESC) {
 		$('.easterEgg').toggle();
 	}
 });

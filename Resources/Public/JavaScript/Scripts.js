@@ -29,7 +29,7 @@ var Scripts = (function() {
 					$(this).removeClass("selected");
 				});
 
-				$("a", script).addClass('selected');
+				$("a", this).addClass('selected');
 				$('.scriptsContainer').hide();
 
 				var pageUrl = 'content/manuscripts/' + scriptId + '.html';
@@ -42,7 +42,9 @@ var Scripts = (function() {
 				return false;
 			}
 		});
-
+		$('.selectHandschriften').change(function() {
+			$('#scriptsSelection option:selected').val();
+		});
 		$('.selectHandschriften li:first').click();
 
 	};

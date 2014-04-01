@@ -25,9 +25,18 @@ var PageLoader = (function(){
 			}
 			localStorage.setItem('headerState', headerState);
 		});
-
-
 	};
+
+	var footerWidth = $('#logoPanel').width();
+	$(window).resize(function() {
+		var w = Math.max($(window).width(), $('#editionContainer').width());
+		if (footerWidth > w) {
+			$('footer').css('width', footerWidth + 'px');
+		}
+		else {
+			$('footer').css('width', w + 'px');
+		}
+	});
 
 	page.run = function() {
 		clearStorage();
