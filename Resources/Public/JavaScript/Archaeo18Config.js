@@ -1,7 +1,6 @@
 {
 		"hyperlinkWindow":	false,
 		"documentEndpoint": 	"content/app/list-docs.xml",
-		//"textQuery": 		"/exist/rest/db/archaeo18/queries/getText.xq?mode=raw&format=xhtml&doc=DOC_ID&page=0",
 		"textQuery": 		"content/app/content/DOC_ID.xml",
 		"pageQuery": 		"content/app/xhtml-pages/DOC_ID-PAGE_ID.xhtml",
 		"outlineQuery": 		"content/app/structure/DOC_ID.xml",
