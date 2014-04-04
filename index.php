@@ -57,24 +57,24 @@
 									</li>
 									<li class="scriptSubHeader">Vorlesungsmitschriften in der Online-Edition
 										<ul>
-											<li id="berlin-ms-germ-qrt-1666" class="scriptList"><a href="#">Vorlesungsmitschrift 1775 (Berlin)</a></li>
-											<li id="rom-heyne1798" class="scriptList"><a href="#">Vorlesungsmitschrift 1798 (Rom)</a></li>
 											<li id="weimar-hs-2056" class="scriptList"><a href="#">Vorlesungsmitschrift 1772 (Weimar)</a></li>
+											<li id="berlin-ms-germ-qrt-1666" class="scriptList"><a href="#">Vorlesungsmitschrift 1775 (Berlin)</a></li>
 											<li id="bern-mss-muel-507" class="scriptList"><a href="#">Vorlesungsmitschrift 1780 (Bern)</a></li>
+											<li id="rom-heyne1798" class="scriptList"><a href="#">Vorlesungsmitschrift 1798 (Rom)</a></li>
 										</ul>
 									</li> Weitere identifiziere Vorlesungsmitschriften
 										<ul>
-											<li id="bern_1785" class="scriptList"><a href="#">Vorlesungsmitschrift 1785 (Bern)</a></li>
 											<li id="darmstadt_1772" class="scriptList"><a href="#">Vorlesungsmitschrift 1772 (Darmstadt)</a></li>
+											<li id="weimar_1773" class="scriptList"><a href="#">Vorlesungsmitschrift 1773 (Weimar)</a></li>
+											<li id="bern_1785" class="scriptList"><a href="#">Vorlesungsmitschrift 1785 (Bern)</a></li>
+											<li id="goettingen_1787" class="scriptList"><a href="#">Vorlesungsmitschrift 1787 (Göttingen)</a></li>
+											<li id="london_1791" class="scriptList"><a href="#">Vorlesungsmitschrift 1791 (London)</a></li>
+											<li id="paris_1773" class="scriptList"><a href="#">Vorlesungsmitschrift 1793 (Paris)</a></li>
 											<li id="darmstadt_1794" class="scriptList"><a href="#">Vorlesungsmitschrift 1794 (Darmstadt)</a></li>
 											<li id="dresden_1794" class="scriptList"><a href="#">Vorlesungsmitschrift 1794 (Dresden)</a></li>
-											<li id="goettingen_1787" class="scriptList"><a href="#">Vorlesungsmitschrift 1787 (Göttingen)</a></li>
 											<li id="goettingen_1803" class="scriptList"><a href="#">Vorlesungsmitschrift 1803 (Göttingen)</a></li>
 											<li id="kopenhagen_1789_1792" class="scriptList"><a href="#">Vorlesungsmitschrift 1803 (Kopenhagen)</a></li>
-											<li id="london_1791" class="scriptList"><a href="#">Vorlesungsmitschrift 1791 (London)</a></li>
 											<li id="moskau_1803" class="scriptList"><a href="#">Vorlesungsmitschrift 1803 (Moskau)</a></li>
-											<li id="paris_1773" class="scriptList"><a href="#">Vorlesungsmitschrift 1793 (Paris)</a></li>
-											<li id="weimar_1773" class="scriptList"><a href="#">Vorlesungsmitschrift 1773 (Weimar)</a></li>
 										</ul>
 									</li>
 								</ul>
