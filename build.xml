@@ -145,15 +145,16 @@
   <property name="data.docs.list" value="${data.dir}/list-docs.xml"/>
 
   <!-- Stylesheets -->
-  <property name="xslt.enrich" value="./ropen-backend/src/main/xslt/transformations/import/import.xsl"/>
-  <property name="xslt.statistics" value="./ropen-backend/src/main/xslt/transformations/statistics.xsl"/>
-  <property name="xslt.description" value="./ropen-backend/src/main/xslt/transformations/description.xsl"/>
-  <property name="xslt.indexes" value="./ropen-backend/src/main/xslt/transformations/import/indexes.xsl"/>
-  <property name="xslt.overview" value="./ropen-backend/src/main/xslt/transformations/overview.xsl"/>
-  <property name="xslt.list" value="./ropen-backend/src/main/xslt/transformations/list-docs.xsl"/>
-  <property name="xslt.split" value="./ropen-backend/src/main/xslt/transformations/split-pages.xsl"/>
-  <property name="xslt.xhtml" value="./ropen-backend/src/main/xslt/transformations/TEI2XHTML.xsl"/>
-  <property name="xslt.xhtml.structure" value="./ropen-backend/src/main/xslt/transformations/structure-extractor.xsl"/>
+  <property name="ropen-backend.dir" value="./ropen-backend"/>
+  <property name="xslt.enrich" value="${ropen-backend.dir}/src/main/xslt/transformations/import/import.xsl"/>
+  <property name="xslt.statistics" value="${ropen-backend.dir}/src/main/xslt/transformations/statistics.xsl"/>
+  <property name="xslt.description" value="${ropen-backend.dir}/src/main/xslt/transformations/description.xsl"/>
+  <property name="xslt.indexes" value="${ropen-backend.dir}/src/main/xslt/transformations/import/indexes.xsl"/>
+  <property name="xslt.overview" value="${ropen-backend.dir}/src/main/xslt/transformations/overview.xsl"/>
+  <property name="xslt.list" value="${ropen-backend.dir}/src/main/xslt/transformations/list-docs.xsl"/>
+  <property name="xslt.split" value="${ropen-backend.dir}/src/main/xslt/transformations/split-pages.xsl"/>
+  <property name="xslt.xhtml" value="${ropen-backend.dir}/src/main/xslt/transformations/TEI2XHTML.xsl"/>
+  <property name="xslt.xhtml.structure" value="${ropen-backend.dir}/src/main/xslt/transformations/structure-extractor.xsl"/>
   <property name="xslt.solr" value="./data/solr/solr.xsl"/>
   <!-- Solr related Stylesheets -->
   <!-- TODO, integrate into ropen-backend -->
@@ -634,7 +635,7 @@
     <delete dir="${data.xhtml.header.dir}"/>
   </target>
 
-  <!-- Test if data was generated (only existing directories) This will fail if data was once generated only in prts-->
+  <!-- Test if data was generated (only existing directories) This will fail if data was once generated only in parts-->
   <target name="data.dir.check">
     <condition property="data.dir.exist">
       <and>
