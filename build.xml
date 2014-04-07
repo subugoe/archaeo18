@@ -143,6 +143,11 @@
   <property name="data.cloud.term.file" value="${data.cloud.dir}tei:term.xhtml"/>
   <property name="data.cloud.bibl.file" value="${data.cloud.dir}tei:bibl.xhtml"/>
   <property name="data.docs.list" value="${data.dir}/list-docs.xml"/>
+  
+  <!-- Checksum related directories -->
+  <property name="data.checksum.dir" value="${target.dir}/checksums"/>
+  <property name="data.checksum.backend.dir" value="${data.checksum.dir}/${ropen-backend.dir}"/>
+  <property name="data.checksum.data.tei.dir" value="${data.checksum.dir}/${data.tei.dir}"/>
 
   <!-- Stylesheets -->
   <property name="ropen-backend.dir" value="./ropen-backend"/>
@@ -448,8 +453,8 @@
   <!-- Get login data -->
 
   <!-- Deploy -->
-  <target name="tomcat.deploy" >
-    <deploy url="${deploy.url}" username="${deploy.user}" password="${deploy.pass}" path="${deploy.context}" war="file:${deploy.war}"/>                   
+  <target name="tomcat.deploy">
+    <deploy url="${deploy.url}" username="${deploy.user}" password="${deploy.pass}" path="${deploy.context}" war="file:${deploy.war}"/>
   </target>
 
   <!-- 
@@ -467,9 +472,9 @@
       <webApp war="${war.file}" contextpath="/archaeo18"/>
     </jetty.run>
   </target>
-  
+
   <!-- Alias -->
-  <target name="jetty.run" depends="jetty.start"></target>
+  <target name="jetty.run" depends="jetty.start"/>
 
   <target name="jetty.start" depends="data.generate, salvador.jetty.install, ropen.config.local, salvador.urlrewritefilter.download, salvador.php.download, salvador.solr.install">
     <echo>starting Jetty (with local configuration)...</echo>
