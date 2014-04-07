@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <documents>
-    <document id="weimar-hs-2056" metsUrl="http://gdz.sub.uni-goettingen.de/mets_export.php?PPN=f" gdzId="f"/>
-    <document id="rom-heyne1798" metsUrl="http://gdz.sub.uni-goettingen.de/mets_export.php?PPN=b" gdzId="b"/>
-    <document id="berlin-ms-germ-qrt-1666" metsUrl="http://gdz.sub.uni-goettingen.de/mets_export.php?PPN=d" gdzId="d"/>
-    <document id="bern-mss-muel-507" metsUrl="http://gdz.sub.uni-goettingen.de/mets_export.php?PPN=h" gdzId="h"/>
+    <document id="weimar-hs-2056" metsUrl="http://gdz.sub.uni-goettingen.de/mets_export.php?PPN=f" gdzId="f"
+        pdfUrl="gdz-lucene.tc.sub.uni-goettingen.de/gcs/gcs?action=pdf&amp;metsFile=f&amp;divID=LOG_0000&amp;pagesize=original&amp;pdfTitlePage=http://gdz.sub.uni-goettingen.de/dms/load/pdftitle/?metsFile=f%7C&amp;targetFileName=weimar-hs-2056.pdf"/>
+    <document id="rom-heyne1798" metsUrl="http://gdz.sub.uni-goettingen.de/mets_export.php?PPN=b" gdzId="b"
+        pdfUrl="gdz-lucene.tc.sub.uni-goettingen.de/gcs/gcs?action=pdf&amp;metsFile=b&amp;divID=LOG_0000&amp;pagesize=original&amp;pdfTitlePage=http://gdz.sub.uni-goettingen.de/dms/load/pdftitle/?metsFile=b%7C&amp;targetFileName=rom-heyne1798.pdf"/>
+    <document id="berlin-ms-germ-qrt-1666" metsUrl="http://gdz.sub.uni-goettingen.de/mets_export.php?PPN=d" gdzId="d"
+        pdfUrl="gdz-lucene.tc.sub.uni-goettingen.de/gcs/gcs?action=pdf&amp;metsFile=d&amp;divID=LOG_0000&amp;pagesize=original&amp;pdfTitlePage=http://gdz.sub.uni-goettingen.de/dms/load/pdftitle/?metsFile=d%7C&amp;targetFileName=berlin-ms-germ-qrt-1666.pdf"/>
+    <document id="bern-mss-muel-507" metsUrl="http://gdz.sub.uni-goettingen.de/mets_export.php?PPN=h" gdzId="h"
+        pdfUrl="gdz-lucene.tc.sub.uni-goettingen.de/gcs/gcs?action=pdf&amp;metsFile=h&amp;divID=LOG_0000&amp;pagesize=original&amp;pdfTitlePage=http://gdz.sub.uni-goettingen.de/dms/load/pdftitle/?metsFile=h%7C&amp;targetFileName=bern-mss-muel-507.pdf"
+    />
 </documents>
