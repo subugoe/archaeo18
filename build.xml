@@ -143,6 +143,11 @@
   <property name="data.cloud.term.file" value="${data.cloud.dir}tei:term.xhtml"/>
   <property name="data.cloud.bibl.file" value="${data.cloud.dir}tei:bibl.xhtml"/>
   <property name="data.docs.list" value="${data.dir}/list-docs.xml"/>
+  
+  <!-- Checksum related directories -->
+  <property name="data.checksum.dir" value="${target.dir}/checksums"/>
+  <property name="data.checksum.backend.dir" value="${data.checksum.dir}/${ropen-backend.dir}"/>
+  <property name="data.checksum.data.tei.dir" value="${data.checksum.dir}/${data.tei.dir}"/>
 
   <!-- Stylesheets -->
   <property name="ropen-backend.dir" value="./ropen-backend"/>
@@ -445,12 +450,7 @@
   -->
   <!-- See  http://wiki.apache.org/tomcat/AntDeploy -->
 
-  <!-- Get login data -->
-
-  <!-- Deploy -->
-  <target name="tomcat.deploy" >
-    <deploy url="${deploy.url}" username="${deploy.user}" password="${deploy.pass}" path="${deploy.context}" war="file:${deploy.war}"/>                   
-  </target>
+  <!-- These have been removed, since they weren't complete and deployent will be done by Jenkins -->
 
   <!-- 
   #######################################################
@@ -467,11 +467,11 @@
       <webApp war="${war.file}" contextpath="/archaeo18"/>
     </jetty.run>
   </target>
-  
-  <!-- Alias -->
-  <target name="jetty.run" depends="jetty.start"></target>
 
-  <target name="jetty.start" depends="data.generate, salvador.jetty.install, ropen.config.local, salvador.urlrewritefilter.download, salvador.php.download, salvador.solr.install">
+  <!-- Alias -->
+  <target name="jetty.run" depends="jetty.start"/>
+
+  <target name="jetty.start" depends="data.generate, solr.index, salvador.jetty.install, ropen.config.local, salvador.urlrewritefilter.download, salvador.php.download, salvador.solr.install">
     <echo>starting Jetty (with local configuration)...</echo>
     <property name="jetty-env" value="${solr.dir}/jetty-env.xml"/>
     <salvador.solr.write.env jetty-env="${jetty-env}" solrhome="${solr.home.dir}"/>
@@ -647,6 +647,53 @@
     </condition>
   </target>
 
+  <!-- Checksum based regeneration, to avoid recreation of data from jenkins etc -->
+  <!-- TODO: This is work in progress -->
+  <target name="data.checksum.init">
+    <mkdir dir="${data.checksum.backend.dir}"/>
+    <mkdir dir="${data.checksum.data.tei.dir}"/>
+  </target>
+
+  <!-- This should be called before data generate, to check if files used for data genaration have been changed, if so always regenerate -->
+  <target name="data.checksum.generate" depends="data.checksum.init">
+    <checksum todir="${data.checksum.backend.dir}" forceOverwrite="yes">
+      <fileset dir="${ropen-backend.dir}">
+        <include name="**/*.*"/>
+      </fileset>
+    </checksum>
+    <checksum todir="${data.checksum.data.tei.dir}" forceOverwrite="yes">
+      <fileset dir="${data.tei.dir}">
+        <include name="**/*.*"/>
+      </fileset>
+    </checksum>
+  </target>
+
+  <!-- Set's the property data.not.changed if no change, otherwise (or if no checksums are set), this isn't set and thus not even present -->
+  <target name="data.checksum.check" depends="data.checksum.init">
+    <condition property="data.not.changed">
+      <and>
+        <checksum todir="${data.checksum.backend.dir}">
+          <fileset dir="${ropen-backend.dir}">
+            <include name="**/*.*"/>
+          </fileset>
+        </checksum>
+        <checksum todir="${data.checksum.data.tei.dir}">
+          <fileset dir="${data.tei.dir}">
+            <include name="**/*.*"/>
+          </fileset>
+        </checksum>
+      </and>
+    </condition>
+    <echo message="data.not.changed: ${data.not.changed}"/>
+  </target>
+  
+  <target name="data.change.cleanup" depends="data.checksum.check" unless="data.not.changed">
+    <!-- forward call to clean to get rid of old generated files -->
+    <antcall target="data.dir.clean"/>
+    <!-- regenerate checksums -->
+    <antcall target="data.checksum.generate"/>
+  </target>
+
   <target name="data.pages.check">
     <fileset dir="${data.tei-pages.dir}" id="tei.files">
       <include name="**/*.xml"/>
@@ -786,6 +833,6 @@
 
   <!-- Target for all data -->
   <!-- Enable data.generate.kml, -->
-  <target name="data.generate" depends="data.dir.check, data.enrich, data.statistics, data.generate.cloud, data.generate.index, data.split, data.structure, data.generate.mets" unless="data.dir.exist"/>
+  <target name="data.generate" depends="data.change.cleanup, data.enrich, data.statistics, data.generate.cloud, data.generate.index, data.split, data.structure, data.generate.mets" unless="data.dir.exist"/>
 
 </project>
