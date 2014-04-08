@@ -105,7 +105,7 @@
   <!-- KML data download - ->
   <property name="exist.kml.url" value="${exist.queries.url}/experimental/listEntities.xq?format=kml&amp;facet="/>
   <property name="exist.kml.placeName.url" value="${exist.kml.url}tei:placeName"/>
-  <property name="exist.kml.placeName.local" value="${data.download.dir.kml}/listEntities.xq$facet=tei:placeName&amp;format=kml"/>
+  <property name="exist.kml.placeName.local" value="${data.download.dir.kml}/listEntities.xq$facet=tei:placeName&amp;format=kml"/> -->
   <!-- cloud data download -->
   <property name="exist.cloud.url" value="${exist.queries.url}/experimental/listEntities.xq?format=cloud&amp;facet="/>
   <property name="exist.cloud.persName.url" value="${exist.cloud.url}tei:persName"/>
