@@ -349,7 +349,9 @@
   </target>
 
   <!-- Rewrite the servlet configuration for deployment -->
-  <target name="war.content.servlet">
+  <target name="war.content.web.xml">
+    <!-- TODO: this needs to be able to merge the web.xml files for several servlets (PHP as long as neede, Solr, and maybe more like URL rewriting and content generation) -->
+    
     <xslt in="WEB-INF/web.xml" out="${war.dir}/WEB-INF/web.xml">
       <style>
         <!-- This inline stylesheet removes all references to URL rewriting -->
@@ -369,7 +371,7 @@
   </target>
 
   <!-- TODO: JS stuff currenty deactivated  -->
-  <target name="war.content" depends="war.content.css, war.content.php, ropen.config.remote, war.content.images, war.content.servlet, war.content.js">
+  <target name="war.content" depends="war.content.css, war.content.php, ropen.config.remote, war.content.images, war.content.web.xml, war.content.js">
     <copy todir="${war.dir}">
       <fileset dir=".">
         <include name="*.txt"/>
@@ -549,6 +551,7 @@
   </target>
 
   <target name="solr.start" depends="solr.setup">
+    <echo level="warn" message="This currently doesn't work on Java 8!!!"></echo>
     <salvador.solr.run solrhome="${solr.home.dir}"/>
   </target>
 
