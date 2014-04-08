@@ -1,15 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<docs>
-    <doc>
-        <id>null</id>
-        <title>Generate the static document listing by running 'ant data.generate'</title>
-        <titleShort>Generate the static document listing by running 'ant data.generate'</titleShort>
-        <preview>/Public/Images/content-handschrift1.png</preview>
-        <tei>/content/docs/list-docs.xml</tei>
-        <teiEnriched>/content/docs/list-docs.xml</teiEnriched>
-        <mets>/content/docs/list-docs.xml</mets>
-        <pageCount>0</pageCount>
-        <origDate>0</origDate>
-        <fulltext>false</fulltext>
-    </doc>
-</docs>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><docs><doc><id>weimar-hs-2056</id><title>Vorlesungsmitschrift 1772 (Weimar)</title><titleShort>1772 (Weimar)</titleShort><mets>/home/tech/archaeo18/archaeo18/./content/app/mets/weimar-hs-2056.xml</mets>
