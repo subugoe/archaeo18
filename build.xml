@@ -687,10 +687,10 @@
         </checksum>
       </and>
     </condition>
-    <echo message="data.not.changed: ${data.not.changed}"/>
   </target>
   
   <target name="data.change.cleanup" depends="data.checksum.check" unless="data.not.changed">
+    <echo>Data or backend has changed (or first checkout), regeneration of data will be enforced!</echo>
     <!-- forward call to clean to get rid of old generated files -->
     <antcall target="data.dir.clean"/>
     <!-- regenerate checksums -->
