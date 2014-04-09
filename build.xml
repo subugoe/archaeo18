@@ -23,6 +23,7 @@
   <import file="./build/modules/tinypng.xml"/>
   <import file="./build/modules/saxon.xml"/>
   <import file="./build/modules/solr.xml"/>
+  <import file="./build/modules/servlet.xml"/>
   <!-- 
   #######################################################
   # Settings
@@ -105,7 +106,7 @@
   <!-- KML data download -->
   <property name="exist.kml.url" value="${exist.queries.url}/experimental/listEntities.xq?format=kml&amp;facet="/>
   <property name="exist.kml.placeName.url" value="${exist.kml.url}tei:placeName"/>
-  <property name="exist.kml.placeName.local" value="${data.download.dir.kml}/listEntities.xq$facet=tei:placeName&amp;format=kml"/> 
+  <property name="exist.kml.placeName.local" value="${data.download.dir.kml}/listEntities.xq$facet=tei:placeName&amp;format=kml"/>
   <!-- cloud data download -->
   <property name="exist.cloud.url" value="${exist.queries.url}/experimental/listEntities.xq?format=cloud&amp;facet="/>
   <property name="exist.cloud.persName.url" value="${exist.cloud.url}tei:persName"/>
@@ -143,7 +144,7 @@
   <property name="data.cloud.term.file" value="${data.cloud.dir}tei:term.xhtml"/>
   <property name="data.cloud.bibl.file" value="${data.cloud.dir}tei:bibl.xhtml"/>
   <property name="data.docs.list" value="${data.dir}/list-docs.xml"/>
-  
+
   <!-- Checksum related directories -->
   <property name="data.checksum.dir" value="${target.dir}/checksums"/>
   <property name="data.checksum.backend.dir" value="${data.checksum.dir}/${ropen-backend.dir}"/>
@@ -177,6 +178,10 @@
 
   <!-- METS related settings -->
   <property name="data.docs.mets.base.uri" value="http://134.76.21.92:8080/images/"/>
+
+  <!-- Jetty and servlet related properties -->
+  <!-- Location of the URL rewriting -->
+  <property name="rewrite.dir" value="./Resources/Private/Jetty"/>
 
   <!-- A helper variable that contains the working directory -->
   <property name="cwd" location="."/>
@@ -349,25 +354,30 @@
   </target>
 
   <!-- Rewrite the servlet configuration for deployment -->
-  <target name="war.content.web.xml">
+  <target name="war.content.web.xml" depends="salvador.urlrewritefilter.download, salvador.solr.war.download, salvador.servlet.install">
     <!-- TODO: this needs to be able to merge the web.xml files for several servlets (PHP as long as neede, Solr, and maybe more like URL rewriting and content generation) -->
-    
-    <xslt in="WEB-INF/web.xml" out="${war.dir}/WEB-INF/web.xml">
-      <style>
-        <!-- This inline stylesheet removes all references to URL rewriting -->
-        <!-- See https://issues.apache.org/bugzilla/show_bug.cgi?id=32461 -->
-        <string><![CDATA[
-          <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
-            <xsl:template match="@*|node()">
-               <xsl:copy>
-                   <xsl:apply-templates select="@*|node()"/>
-               </xsl:copy>
-            </xsl:template>
-            <xsl:template match="//*[./filter-name/text()  = 'UrlRewriteFilter']"/>
-          </xsl:stylesheet>
-          ]]></string>
-      </style>
-    </xslt>
+    <property name="war.web.xml.dir" value="${target.dir}/web.xml"/>
+    <property name="web.xml" value="WEB-INF/web.xml"/>
+    <mkdir dir="${war.web.xml.dir}"/>
+    <!-- Archaeo18 -->
+    <copy todir="${war.web.xml.dir}" file="./${web.xml}"/>
+    <move file="${war.web.xml.dir}/web.xml" tofile="${war.web.xml.dir}/archaeo18-web.xml"/>
+    <!-- Rewrite -->
+    <copy todir="${war.web.xml.dir}" file="${rewrite.dir}/${web.xml}"/>
+    <move file="${war.web.xml.dir}/web.xml" tofile="${war.web.xml.dir}/rewrite-web.xml"/>
+    <!-- Solr -->
+    <unzip src="${salvador.solr.war.file}" dest="${war.web.xml.dir}">
+      <patternset>
+        <include name="${web.xml}"/>
+      </patternset>
+      <mapper type="flatten"/>
+    </unzip>
+    <move file="${war.web.xml.dir}/web.xml" tofile="${war.web.xml.dir}/solr-web.xml"/>
+    <salvador.servlet.merge out="${war.web.xml.dir}/web.xml">
+      <fileset dir="${war.web.xml.dir}">
+        <include name="*-web.xml"/>
+      </fileset>
+    </salvador.servlet.merge>
   </target>
 
   <!-- TODO: JS stuff currenty deactivated  -->
@@ -477,8 +487,6 @@
     <echo>starting Jetty (with local configuration)...</echo>
     <property name="jetty-env" value="${solr.dir}/jetty-env.xml"/>
     <salvador.solr.write.env jetty-env="${jetty-env}" solrhome="${solr.home.dir}"/>
-    <!-- Location of the URL rewriting -->
-    <property name="rewrite.dir" value="./Resources/Private/Jetty"/>
     <jetty.run tempDirectory="${salvador.jetty.tmp.dir}" scanIntervalSeconds="5" daemon="true">
       <connectors>
         <selectChannelConnector port="${salvador.jetty.port}"/>
@@ -551,7 +559,7 @@
   </target>
 
   <target name="solr.start" depends="solr.setup">
-    <echo level="warn" message="This currently doesn't work on Java 8!!!"></echo>
+    <echo level="warn" message="This currently doesn't work on Java 8!!!"/>
     <salvador.solr.run solrhome="${solr.home.dir}"/>
   </target>
 
@@ -688,7 +696,7 @@
       </and>
     </condition>
   </target>
-  
+
   <target name="data.change.cleanup" depends="data.checksum.check" unless="data.not.changed">
     <echo>Data or backend has changed (or first checkout), regeneration of data will be enforced!</echo>
     <!-- forward call to clean to get rid of old generated files -->
@@ -836,6 +844,7 @@
 
   <!-- Target for all data -->
   <!-- Enable data.generate.kml, -->
-  <target name="data.generate" depends="data.change.cleanup, data.enrich, data.statistics, data.generate.cloud, data.generate.index, data.split, data.structure, data.generate.mets" unless="data.dir.exist"/>
+  <target name="data.generate" depends="data.change.cleanup, data.enrich, data.statistics, data.generate.cloud, data.generate.index, data.split, data.structure, data.generate.mets"
+    unless="data.dir.exist"/>
 
 </project>
