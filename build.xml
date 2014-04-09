@@ -755,7 +755,8 @@
     -->
   </target>
 
-  <target name="data.structure" depends="data.dir.check, data.enrich" unless="data.dir.exist">
+  <!-- <target name="data.structure" depends="data.dir.check, data.enrich" unless="data.dir.exist"> -->
+  <target name="data.structure" depends="data.dir.check, data.enrich" >
     <property name="data.structure.output" value="${target.dir}/structure-target.xhtml"/>
     <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.xhtml.structure}" destfile="${data.structure.output}"
       params="collection=${basedir}/${data.tei-enriched.dir} output-collection=${basedir}/${data.xhtml.structure.dir} output-param=xhtml"/>
