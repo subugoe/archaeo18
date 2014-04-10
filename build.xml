@@ -746,8 +746,16 @@
     <echo level="verbose" message="XHTML content collection: ${basedir}/${data.xhtml.content.dir}"/>
     <echo level="verbose" message="XHTML header collection: ${basedir}/${data.xhtml.header.dir}"/>
     <echo level="verbose" message="METS base URL: ${data.docs.mets.base.uri}"/>
+    <!-- <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.enrich}" destfile="${data.enrich.output}"
+      params="collection=${basedir}/${data.tei.dir} mets-collection=${basedir}/${data.mets.dir} tei-enriched-collection=${basedir}/${data.tei-enriched.dir} document-listing-file=${basedir}/${data.docs.list} xhtml-collection=${basedir}/${data.xhtml.content.dir} url-prefix=${data.docs.mets.base.uri} replace-prefix=${basedir}./"/> -->
+
+   <!-- enrichment -->
     <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.enrich}" destfile="${data.enrich.output}"
-      params="collection=${basedir}/${data.tei.dir} mets-collection=${basedir}/${data.mets.dir} tei-enriched-collection=${basedir}/${data.tei-enriched.dir} document-listing-file=${basedir}/${data.docs.list} xhtml-collection=${basedir}/${data.xhtml.content.dir} url-prefix=${data.docs.mets.base.uri} replace-prefix=${basedir}./"/>
+      params="collection=${basedir}/${data.tei.dir} mets-collection=${basedir}/${data.mets.dir} tei-enriched-collection=${basedir}/${data.tei-enriched.dir} document-listing-file=${basedir}/${data.docs.list} url-prefix=${data.docs.mets.base.uri} replace-prefix=${basedir}./"/>
+   <!-- generate xhtml content (runnning text)-->
+    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.enrich}" destfile="${data.enrich.output}"
+      params="collection=${basedir}/${data.tei-enriched.dir} xhtml-collection=${basedir}/${data.xhtml.content.dir}"/>
+
     <!--
     <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.enrich}" destfile="${data.enrich.output}"
       params="collection=${basedir}/${data.tei.dir} mets-collection=${basedir}/${data.mets.dir} tei-enriched-collection=${basedir}/${data.tei-enriched.dir} document-listing-file=${basedir}/${data.docs.list} xhtml-collection=${basedir}/${data.xhtml.content.dir} xhtml-header-collection=${basedir}/${data.xhtml.header.dir} url-prefix=${data.docs.mets.base.uri} replace-prefix=${basedir}./"
@@ -755,7 +763,6 @@
     -->
   </target>
 
-  <!-- <target name="data.structure" depends="data.dir.check, data.enrich" unless="data.dir.exist"> -->
   <target name="data.structure" depends="data.dir.check, data.enrich" >
     <property name="data.structure.output" value="${target.dir}/structure-target.xhtml"/>
     <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.xhtml.structure}" destfile="${data.structure.output}"
