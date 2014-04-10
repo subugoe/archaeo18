@@ -373,15 +373,14 @@
       <mapper type="flatten"/>
     </unzip>
     <move file="${war.web.xml.dir}/web.xml" tofile="${war.web.xml.dir}/solr-web.xml"/>
-    <salvador.servlet.merge out="${war.web.xml.dir}/web.xml">
-      <fileset dir="${war.web.xml.dir}">
-        <include name="*-web.xml"/>
-      </fileset>
-    </salvador.servlet.merge>
+    <fileset dir="${war.web.xml.dir}" id="war.content.web.xml.files">
+      <include name="*-web.xml"/>
+    </fileset>
+    <salvador.servlet.merge refid="war.content.web.xml.files" out="${war.web.xml.dir}/web.xml"/>
   </target>
 
   <!-- TODO: JS stuff currenty deactivated  -->
-  <target name="war.content" depends="war.content.css, war.content.php, ropen.config.remote, war.content.images, war.content.web.xml, war.content.js">
+  <target name="war.content" depends="war.content.css, war.content.php, ropen.config.remote, war.content.images, war.content.web.xml, war.content.js, salvador.solr.war.download">
     <copy todir="${war.dir}">
       <fileset dir=".">
         <include name="*.txt"/>
@@ -409,6 +408,12 @@
         <exclude name="ropen"/>
       </fileset>
     </copy>
+    <!-- Extract Solr files -->
+    <unzip src="${salvador.solr.war.file}" dest="${war.dir}">
+      <patternset>
+        <include name="**/*.*"/>
+      </patternset>
+    </unzip>
   </target>
 
   <!-- TODO: Reenable this if everything else works -->
