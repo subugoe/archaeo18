@@ -4,7 +4,7 @@
     <!-- Metadata -->
     <field name="id" type="string" indexed="true" stored="true" required="true" multiValued="false"/>
     <field name="page-nr" type="string" indexed="false" stored="true" required="true" multiValued="false"/>
-    <field name="document" type="string" indexed="false" stored="true" required="true" multiValued="false"/>
+    <field name="document" type="string" indexed="true" stored="true" required="true" multiValued="false"/>
     <field name="path" type="string" indexed="false" stored="true" required="true" multiValued="false"/>
     <field name="depth" type="string" indexed="false" stored="true" required="true" multiValued="false"/>
         <field name="mode" type="string" indexed="false" stored="false" required="false" multiValued="false"/>
