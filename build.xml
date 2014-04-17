@@ -488,7 +488,7 @@
   <!-- Alias -->
   <target name="jetty.run" depends="jetty.start"/>
 
-  <target name="jetty.start" depends="data.generate, solr.index, salvador.jetty.install, ropen.config.local, salvador.urlrewritefilter.download, salvador.php.download, salvador.solr.install">
+  <target name="jetty.start" depends="data.generate, salvador.jetty.install, ropen.config.local, salvador.urlrewritefilter.download, salvador.php.download, salvador.solr.install">
     <echo>starting Jetty (with local configuration)...</echo>
     <property name="jetty-env" value="${solr.dir}/jetty-env.xml"/>
     <salvador.solr.write.env jetty-env="${jetty-env}" solrhome="${solr.home.dir}"/>
