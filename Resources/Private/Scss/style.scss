@@ -71,7 +71,7 @@ header {
 nav {
 	top: 145px;
 	a {
-		padding: 0 0 21px 0;
+		padding: 0 0 22px 0; // Fix for marker position in chrome
 	}
 	a:hover {
 		background-image: url($path-img + 'header-nav-a-2.png');
