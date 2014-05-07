@@ -15,6 +15,7 @@
 		"teiUri": 		"content/app/tei/DOC_ID.xml",
 		"metsUri": 		"content/app/mets/DOC_ID.xml",
 		"openDocumentsOnStart": true,
-		"documentOnStart": "berlin-ms-germ-qrt-1666"
+		"documentOnStart": "berlin-ms-germ-qrt-1666",
+		"pdfLink": "content/app/pdf/DOC_ID-800.pdf"
 }
 
