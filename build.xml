@@ -125,11 +125,12 @@
   <property name="data.tei-enriched.dir" value="${data.dir}tei-enriched/"/>
   <property name="data.tei-pages.dir" value="${data.dir}tei-pages/"/>
   <property name="data.xhtml-pages.dir" value="${data.dir}xhtml-pages/"/>
-  <property name="data.kml-pages.dir" value="${data.dir}kml-pages/"/>
-  <property name="data.cloud-pages.dir" value="${data.dir}cloud-pages/"/>
   <property name="data.mets.dir" value="${data.dir}mets/"/>
   <property name="data.indices.dir" value="${data.dir}indices/"/>
   <property name="data.cloud.dir" value="${data.dir}cloud/"/>
+  <property name="data.kml.dir" value="${data.dir}kml/"/>
+  <property name="data.kml-pages.dir" value="${data.dir}kml-pages/"/>
+  <property name="data.cloud-pages.dir" value="${data.dir}cloud-pages/"/>
   <property name="data.xhtml.structure.dir" value="${data.dir}structure/"/>
   <property name="data.xhtml.content.dir" value="${data.dir}content/"/>
   <property name="data.xhtml.header.dir" value="${data.dir}header/"/>
@@ -631,6 +632,9 @@
     <mkdir dir="${data.xhtml-pages.dir}"/>
     <mkdir dir="${data.indices.dir}"/>
     <mkdir dir="${data.cloud.dir}"/>
+    <mkdir dir="${data.cloud-pages.dir}"/>
+    <mkdir dir="${data.kml.dir}"/>
+    <mkdir dir="${data.kml-pages.dir}"/>
     <mkdir dir="${data.xhtml.structure.dir}"/>
     <mkdir dir="${data.xhtml.content.dir}"/>
     <mkdir dir="${data.xhtml.header.dir}"/>
@@ -646,6 +650,9 @@
     </delete>
     <delete dir="${data.indices.dir}"/>
     <delete dir="${data.cloud.dir}"/>
+    <delete dir="${data.kml.dir}"/>
+    <delete dir="${data.cloud-pages.dir}"/>
+    <delete dir="${data.kml-pages.dir}"/>
     <delete dir="${data.xhtml.structure.dir}"/>
     <delete dir="${data.xhtml.content.dir}"/>
     <delete dir="${data.xhtml.header.dir}"/>
@@ -721,9 +728,9 @@
       <and>
         <resourcecount refid="tei.files" when="greater" count="0"/>
         <resourcecount refid="xhtml.files" when="greater" count="0"/>
-        <!--
         <available file="${data.tei-pages.dir}" type="dir"/>
         <available file="${data.xhtml-pages.dir}" type="dir"/>
+        <!--
         <available file="${data.kml-pages.dir}" type="dir"/>
         <available file="${data.cloud-pages.dir}" type="dir"/>
         -->
@@ -833,7 +840,7 @@
     <salvador.saxon.xslt in="" xslt="" dest="exist.kml.placeName.local"/>
   </target>
 
-  <target name="data.generate.cloud" depends="data.dir.check, salvador.saxon.install, data.enrich" unless="data.dir.exist">
+  <target name="data.generate.cloud" depends="data.dir.check, salvador.saxon.install, data.enrich">
     <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}" destfile="${data.cloud.persName.file}"
       params="collection-param=${basedir}/${data.tei-enriched.dir} entity-param=TEI:persName mode-param=cloud"/>
     <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}" destfile="${data.cloud.placeName.file}"
@@ -844,7 +851,7 @@
       params="collection-param=${basedir}/${data.tei-enriched.dir} entity-param=TEI:bibl mode-param=cloud"/>
   </target>
 
-  <target name="data.generate.index" depends="data.dir.check, salvador.saxon.install, data.enrich" unless="data.dir.exist">
+  <target name="data.generate.index" depends="data.dir.check, salvador.saxon.install, data.enrich">
     <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}" destfile="${data.indices.persName.file}"
       params="collection-param=${basedir}/${data.tei-enriched.dir} entity-param=TEI:persName mode-param=xhtml"/>
     <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}" destfile="${data.indices.placeName.file}"
