@@ -580,7 +580,7 @@
     <!-- stub -->
   </target>
 
-  <target name="solr.docs" depends="data.enrich, solr.init, solr.docs.check" unless="solr.docs.exist">
+  <target name="solr.docs" depends="data.enrich, solr.init, solr.docs.check" >
     <property name="data.solr.output" value="${target.dir}/solr-report.xhtml"/>
     <echo level="verbose">collection=${basedir}/${data.tei-enriched.dir}</echo>
     <echo level="verbose">output=${solr.docs.dir}</echo>
@@ -864,7 +864,7 @@
 
   <!-- Target for all data -->
   <!-- Enable data.generate.kml, -->
-  <target name="data.generate" depends="data.change.cleanup, data.enrich, data.statistics, data.generate.cloud, data.generate.index, data.split, data.structure, data.generate.mets"
+  <target name="data.generate" depends="data.change.cleanup, data.enrich, data.statistics, data.generate.cloud, data.generate.index, data.split, data.structure, data.generate.mets, solr.docs"
     unless="data.dir.exist"/>
 
 </project>
