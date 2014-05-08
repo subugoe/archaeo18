@@ -538,7 +538,7 @@
   # Solr handling
   #######################################################
   -->
-  <target name="solr.init" depends="init, salvador.solr.install">
+  <target name="solr.init" depends="init">
     <mkdir dir="${solr.dir}"/>
     <mkdir dir="${solr.docs.dir}"/>
     <mkdir dir="${solr.home.dir}"/>
