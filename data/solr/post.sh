@@ -16,7 +16,7 @@
 
 FILES=$*
 #URL=http://localhost:8983/solr/update
-URL=http://localhost:8080/solr-example/archaeo18/update
+URL=http://localhost:8080/solr/archaeo18/update
 
 for f in $FILES; do
   echo Posting file $f to $URL
