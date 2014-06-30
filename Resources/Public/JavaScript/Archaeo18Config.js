@@ -11,10 +11,11 @@
 		"tagcloudQuery":		"content/app/cloud/FACET_ID.xhtml",
 		"mapQuery":		"./testdata/kml/listEntities.xq?facet=FACET_ID&format=kml",
 		"tagcloudPageQuery":	"/exist/rest/db/archaeo18/queries/getText.xq?doc=DOC_ID&page=PAGE_ID&format=cloud&facet=FACET_ID",
-		"kmlQuery": 		"/exist/rest/db/archaeo18/queries/getText.xq?format=kml&doc=DOC_ID&page=PAGE_ID",
+		"kmlQuery": 		"content/app/kml-pages/DOC_ID-PAGE_ID.kml",
 		"teiUri": 		"content/app/tei/DOC_ID.xml",
 		"metsUri": 		"content/app/mets/DOC_ID.xml",
 		"openDocumentsOnStart": true,
+		"pdfLink":	"content/app/pdf/DOC_ID-800.pdf",
 		"documentOnStart": "berlin-ms-germ-qrt-1666"
 }
 
