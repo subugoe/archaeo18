@@ -1,4 +1,5 @@
 var EditionLoader = (function() {
+
 	"use strict";
 	var edition = {};
 
@@ -14,7 +15,6 @@ var EditionLoader = (function() {
 			var images = data.images;
 			doc.images = images;
 			var types = ['text', 'images'];
-
 			for (var i = 0; i < types.length; i++) {
 				EditionGui.openDocument(false, doc, 1, types[i], false, '', i);
 			}
@@ -23,7 +23,6 @@ var EditionLoader = (function() {
 
 		var loadDoc = function() {
 			var callStorage = 0;
-
 			Util.loadDocuments(function(data) {
 				if (callStorage === 0) {
 					callStorage++;
@@ -36,4 +35,5 @@ var EditionLoader = (function() {
 	};
 
 	return edition;
+
 })();
