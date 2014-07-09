@@ -130,7 +130,7 @@
   <property name="data.cloud.dir" value="${data.dir}cloud/"/>
   <property name="data.kml.dir" value="${data.dir}kml/"/>
   <property name="data.kml-pages.dir" value="${data.dir}kml-pages/"/>
-  <property name="data.cloud-pages.dir" value="${data.dir}cloud-pages/"/>
+<!--   <property name="data.cloud-pages.dir" value="${data.dir}cloud-pages/"/> -->
   <property name="data.xhtml.structure.dir" value="${data.dir}structure/"/>
   <property name="data.xhtml.content.dir" value="${data.dir}content/"/>
   <property name="data.xhtml.header.dir" value="${data.dir}header/"/>
@@ -634,7 +634,6 @@
     <mkdir dir="${data.xhtml-pages.dir}"/>
     <mkdir dir="${data.indices.dir}"/>
     <mkdir dir="${data.cloud.dir}"/>
-    <mkdir dir="${data.cloud-pages.dir}"/>
     <mkdir dir="${data.kml.dir}"/>
     <mkdir dir="${data.kml-pages.dir}"/>
     <mkdir dir="${data.xhtml.structure.dir}"/>
@@ -653,7 +652,7 @@
     <delete dir="${data.indices.dir}"/>
     <delete dir="${data.cloud.dir}"/>
     <delete dir="${data.kml.dir}"/>
-    <delete dir="${data.cloud-pages.dir}"/>
+    <!-- <delete dir="${data.cloud-pages.dir}"/> -->
     <delete dir="${data.kml-pages.dir}"/>
     <delete dir="${data.xhtml.structure.dir}"/>
     <delete dir="${data.xhtml.content.dir}"/>
@@ -734,7 +733,6 @@
         <available file="${data.xhtml-pages.dir}" type="dir"/>
         <!--
         <available file="${data.kml-pages.dir}" type="dir"/>
-        <available file="${data.cloud-pages.dir}" type="dir"/>
         -->
       </and>
     </condition>
@@ -845,24 +843,45 @@
   </target>
 
   <target name="data.generate.cloud" depends="data.dir.check, salvador.saxon.install, data.enrich">
-    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}" destfile="${data.cloud.persName.file}"
+	<property name="data.split.output" value="${target.dir}/cloud-report.xhtml"/>
+    <!-- <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}" destfile="${data.cloud.persName.file}"
       params="collection-param=${basedir}/${data.tei-enriched.dir} entity-param=TEI:persName mode-param=cloud"/>
     <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}" destfile="${data.cloud.placeName.file}"
       params="collection-param=${basedir}/${data.tei-enriched.dir} entity-param=TEI:placeName mode-param=cloud"/>
     <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}" destfile="${data.cloud.term.file}"
       params="collection-param=${basedir}/${data.tei-enriched.dir} entity-param=TEI:term mode-param=cloud"/>
     <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}" destfile="${data.cloud.bibl.file}"
-      params="collection-param=${basedir}/${data.tei-enriched.dir} entity-param=TEI:bibl mode-param=cloud"/>
+      params="collection-param=${basedir}/${data.tei-enriched.dir} entity-param=TEI:bibl mode-param=cloud"/> -->
+
+	<!-- for document -->
+    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}"  destfile="${data.cloud.output}"
+      params="collection-param=${basedir}/${data.tei-enriched.dir} entity-param=TEI:persName mode-param=cloud cloudout-param=${data.cloud.dir} pages=0"/>
+    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}"  destfile="${data.cloud.output}"
+      params="collection-param=${basedir}/${data.tei-enriched.dir} entity-param=TEI:placeName mode-param=cloud cloudout-param=${data.cloud.dir} pages=0"/>
+    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}"  destfile="${data.cloud.output}"
+      params="collection-param=${basedir}/${data.tei-enriched.dir} entity-param=TEI:term mode-param=cloud cloudout-param=${data.cloud.dir} pages=0"/>
+    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}"  destfile="${data.cloud.output}"
+      params="collection-param=${basedir}/${data.tei-enriched.dir} entity-param=TEI:bibl mode-param=cloud cloudout-param=${data.cloud.dir} pages=0"/>
+   
+	<!-- for pages -->
+   <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}"  destfile="${data.cloud.output}"
+      params="collection-param=${basedir}/${data.tei-pages.dir} entity-param=TEI:persName mode-param=cloud cloudout-param=${data.cloud.dir}"/>
+   <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}"  destfile="${data.cloud.output}"
+      params="collection-param=${basedir}/${data.tei-pages.dir} entity-param=TEI:placeName mode-param=cloud cloudout-param=${data.cloud.dir}"/>
+   <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}"  destfile="${data.cloud.output}"
+      params="collection-param=${basedir}/${data.tei-pages.dir} entity-param=TEI:term mode-param=cloud cloudout-param=${data.cloud.dir}"/>
+   <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}"  destfile="${data.cloud.output}"
+      params="collection-param=${basedir}/${data.tei-pages.dir} entity-param=TEI:bibl mode-param=cloud cloudout-param=${data.cloud.dir}"/>
   </target>
 
   <target name="data.generate.index" depends="data.dir.check, salvador.saxon.install, data.enrich">
-    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}" destfile="${data.indices.persName.file}"
+    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}" destfile="${data.cloud.output}"
       params="collection-param=${basedir}/${data.tei-enriched.dir} entity-param=TEI:persName mode-param=xhtml"/>
-    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}" destfile="${data.indices.placeName.file}"
+    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}" destfile="${data.cloud.output}"
       params="collection-param=${basedir}/${data.tei-enriched.dir} entity-param=TEI:placeName mode-param=xhtml"/>
-    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}" destfile="${data.indices.term.file}"
+    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}" destfile="${data.cloud.output}"
       params="collection-param=${basedir}/${data.tei-enriched.dir} entity-param=TEI:term mode-param=xhtml"/>
-    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}" destfile="${data.indices.bibl.file}"
+    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}" destfile="${data.cloud.output}"
       params="collection-param=${basedir}/${data.tei-enriched.dir} entity-param=TEI:bibl mode-param=xhtml"/>
   </target>
 
