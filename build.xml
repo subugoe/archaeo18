@@ -843,15 +843,15 @@
   </target>
 
   <target name="data.generate.cloud" depends="data.dir.check, salvador.saxon.install, data.enrich">
-	<property name="data.split.output" value="${target.dir}/cloud-report.xhtml"/>
-    <!-- <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}" destfile="${data.cloud.persName.file}"
+	<property name="data.cloud.output" value="${target.dir}/cloud-report.xhtml"/>
+     <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}" destfile="${data.cloud.persName.file}"
       params="collection-param=${basedir}/${data.tei-enriched.dir} entity-param=TEI:persName mode-param=cloud"/>
     <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}" destfile="${data.cloud.placeName.file}"
       params="collection-param=${basedir}/${data.tei-enriched.dir} entity-param=TEI:placeName mode-param=cloud"/>
     <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}" destfile="${data.cloud.term.file}"
       params="collection-param=${basedir}/${data.tei-enriched.dir} entity-param=TEI:term mode-param=cloud"/>
     <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}" destfile="${data.cloud.bibl.file}"
-      params="collection-param=${basedir}/${data.tei-enriched.dir} entity-param=TEI:bibl mode-param=cloud"/> -->
+      params="collection-param=${basedir}/${data.tei-enriched.dir} entity-param=TEI:bibl mode-param=cloud"/> 
 
 	<!-- for document -->
     <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}"  destfile="${data.cloud.output}"
