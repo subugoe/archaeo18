@@ -129,7 +129,7 @@
   <property name="data.indices.dir" value="${data.dir}indices/"/>
   <property name="data.cloud.dir" value="${data.dir}cloud/"/>
   <property name="data.kml.dir" value="${data.dir}kml/"/>
-  <property name="data.kml-pages.dir" value="${data.dir}kml-pages/"/>
+
 <!--   <property name="data.cloud-pages.dir" value="${data.dir}cloud-pages/"/> -->
   <property name="data.xhtml.structure.dir" value="${data.dir}structure/"/>
   <property name="data.xhtml.content.dir" value="${data.dir}content/"/>
@@ -160,6 +160,7 @@
   <property name="xslt.overview" value="${ropen-backend.dir}/src/main/xslt/transformations/overview.xsl"/>
   <property name="xslt.list" value="${ropen-backend.dir}/src/main/xslt/transformations/list-docs.xsl"/>
   <property name="xslt.split" value="${ropen-backend.dir}/src/main/xslt/transformations/split-pages.xsl"/>
+  <property name="xslt.kml" value="${ropen-backend.dir}/src/main/xslt/transformations/generatekml.xsl"/>
   <property name="xslt.xhtml" value="${ropen-backend.dir}/src/main/xslt/transformations/TEI2XHTML.xsl"/>
   <property name="xslt.xhtml.structure" value="${ropen-backend.dir}/src/main/xslt/transformations/structure-extractor.xsl"/>
   <property name="xslt.solr" value="./data/solr/solr.xsl"/>
@@ -635,7 +636,6 @@
     <mkdir dir="${data.indices.dir}"/>
     <mkdir dir="${data.cloud.dir}"/>
     <mkdir dir="${data.kml.dir}"/>
-    <mkdir dir="${data.kml-pages.dir}"/>
     <mkdir dir="${data.xhtml.structure.dir}"/>
     <mkdir dir="${data.xhtml.content.dir}"/>
     <mkdir dir="${data.xhtml.header.dir}"/>
@@ -653,7 +653,6 @@
     <delete dir="${data.cloud.dir}"/>
     <delete dir="${data.kml.dir}"/>
     <!-- <delete dir="${data.cloud-pages.dir}"/> -->
-    <delete dir="${data.kml-pages.dir}"/>
     <delete dir="${data.xhtml.structure.dir}"/>
     <delete dir="${data.xhtml.content.dir}"/>
     <delete dir="${data.xhtml.header.dir}"/>
@@ -731,9 +730,6 @@
         <resourcecount refid="xhtml.files" when="greater" count="0"/>
         <available file="${data.tei-pages.dir}" type="dir"/>
         <available file="${data.xhtml-pages.dir}" type="dir"/>
-        <!--
-        <available file="${data.kml-pages.dir}" type="dir"/>
-        -->
       </and>
     </condition>
   </target>
@@ -816,7 +812,7 @@
     <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.split}" destfile="${data.split.output}"
       params="input-collection=${basedir}/${data.tei-enriched.dir} output-collection=${basedir}/${data.xhtml-pages.dir} debug-output-collection=${basedir}/${data.xhtml.dir} mode=xhtml"/>
 <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.split}" destfile="${data.split.output}"
-      params="input-collection=${basedir}/${data.tei-enriched.dir} output-collection=${basedir}/${data.kml-pages.dir} debug-output-collection=${basedir}/${data.kml.dir} mode=kml"/>
+      params="input-collection=${basedir}/${data.tei-enriched.dir} output-collection=${basedir}/${data.kml.dir} debug-output-collection=${basedir}/${data.kml.dir} mode=kml"/>
   </target>
 
   <!-- Aliases -->
@@ -839,7 +835,9 @@
 
   <!-- TODO: Finish this -->
   <target name="data.generate.kml" depends="salvador.saxon.install, data.enrich">
-    <salvador.saxon.xslt in="" xslt="" dest="exist.kml.placeName.local"/>
+	<property name="data.kml.output"  value="${target.dir}/kml-report.xhtml"/>
+    <salvador.saxon.xslt.params  in="${empty.xml}" style="${xslt.kml}" destfile="${data.kml.output}"
+	params="input-collection=${basedir}/${data.tei-enriched.dir}  output-collection=${data.kml.dir} mode=kml" />
   </target>
 
   <target name="data.generate.cloud" depends="data.dir.check, salvador.saxon.install, data.enrich">
@@ -887,7 +885,7 @@
 
   <!-- Target for all data -->
   <!-- Enable data.generate.kml, -->
-  <target name="data.generate" depends="data.change.cleanup, data.enrich, data.statistics, data.generate.cloud, data.generate.index, data.split, data.structure, data.generate.mets, solr.docs"
+  <target name="data.generate" depends="data.change.cleanup, data.enrich, data.statistics, data.generate.cloud, data.generate.index, data.split, data.generate.kml, data.structure, data.generate.mets, solr.docs"
     unless="data.dir.exist"/>
 
 </project>

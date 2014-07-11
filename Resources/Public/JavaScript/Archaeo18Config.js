@@ -10,7 +10,7 @@
 		"tagcloudQuery":		"content/app/cloud/FACET_ID.xhtml",
 		"mapQuery":		"./testdata/kml/listEntities.xq?facet=FACET_ID&format=kml",
 		"tagcloudPageQuery":	"content/app/cloud/DOC_ID-PAGE_ID-FACET_ID.xml",
-                "kmlQuery":	"content/app/kml-pages/DOC_ID-PAGE_ID.kml",
+                "kmlQuery":	"content/app/kml/DOC_ID-PAGE_ID.kml",
 		"teiUri": 		"content/app/tei/DOC_ID.xml",
 		"metsUri": 		"content/app/mets/DOC_ID.xml",
                 "pdfLink":	"content/app/pdf/DOC_ID-800.pdf",
