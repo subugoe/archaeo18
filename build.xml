@@ -840,8 +840,8 @@
 	params="input-collection=${basedir}/${data.tei-enriched.dir}  output-collection=${data.kml.dir} mode=kml" />
   </target>
 
-  <target name="data.generate.cloud" depends="data.dir.check, salvador.saxon.install, data.enrich">
 	<property name="data.cloud.output" value="${target.dir}/cloud-report.xhtml"/>
+  <target name="data.generate.cloud" depends="data.dir.check, salvador.saxon.install, data.enrich">
      <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}" destfile="${data.cloud.persName.file}"
       params="collection-param=${basedir}/${data.tei-enriched.dir} entity-param=TEI:persName mode-param=cloud"/>
     <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}" destfile="${data.cloud.placeName.file}"
