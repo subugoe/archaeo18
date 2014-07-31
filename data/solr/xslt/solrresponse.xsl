@@ -33,27 +33,16 @@
                             </xsl:perform-sort>
                         </xsl:variable>
 
+
                         <xsl:for-each select="current-group()">
                             <xsl:sort select="str[@name='path']" data-type="text" order="ascending"/>
                             <xsl:sort select="str[@name='pageflag']" data-type="text"
                                 order="descending"/>
                             <xsl:variable name="next" select="position()+1"/>
+
                             <xsl:choose>
                                 <xsl:when
-                                    test="$sequence[$next]/str[@name='path'] = ./str[@name='path']">
-                                    <xsl:choose>
-                                        <!-- if not page, the pagemode-doc will written be next round-->
-                                        <xsl:when test="./str[@name='pageflag'] = 'page'">
-                                            <result>
-                                                <xsl:call-template name="doc">
-                                                  <xsl:with-param name="pos">
-                                                  <xsl:value-of select="$next"/>
-                                                  </xsl:with-param>
-                                                </xsl:call-template>
-                                            </result>
-                                        </xsl:when>
-                                    </xsl:choose>
-                                </xsl:when>
+                                    test="$sequence[$next]/str[@name='path'] = ./str[@name='path'] "/>
                                 <xsl:when
                                     test="not(contains($sequence[$next]/str[@name='path'], ./str[@name='path']))">
                                     <result>
