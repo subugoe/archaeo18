@@ -4,7 +4,7 @@
 		"textQuery": 		"content/app/content/DOC_ID.xml",
 		"pageQuery": 		"content/app/xhtml-pages/DOC_ID-PAGE_ID.xhtml",
 		"outlineQuery": 		"content/app/structure/DOC_ID.xml",
-		"searchQuery": 		"/solr/archaeo18/select?q=content%3AQUERY_ID&wt=xslt&indent=true&hl=true&hl.fl=content&hl.fragsize=0&tr=solrresponse.xsl",
+		"searchQuery": 		"/solr/archaeo18/select?q=content%3AQUERY_ID&trows=30&wt=xslt&indent=true&hl=true&hl.fl=content&hl.fragsize=0&tr=solrresponse.xsl",
 		"facetsQuery": 		"content/app/facets.xml",
 		"facetTableQuery":	"content/app/indices/FACET_ID.xhtml",
 		"tagcloudQuery":		"content/app/cloud/FACET_ID.xhtml",
