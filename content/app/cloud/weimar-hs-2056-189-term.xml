@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-189.tei.xml-d10983e16">
+     
+     Mond aufm Kopf</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Marciana</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/37495</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/37495">
+            <persName ref="#CerlID:cnp00558584" key="#PND:118577514">Murciana<addName type="display">Marciana</addName>
+               <addName>Olpia Marciana</addName>
+            </persName>. Buste</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/17892</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/17892">54.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/22230</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/22230">20.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Plotina (Römisches Reich, Kaiserin)Traianus, Marcus Ulpius</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/16299</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/16299">
+            <persName ref="#CerlID:cnp00562740" key="#PND:118595172">Plotina<addName type="display">Plotina (Römisches Reich, Kaiserin)</addName>
+               <addName>Pompeia Plotina</addName>
+            </persName>, <persName ref="#CerlID:cnp00917510" key="#PND:118623567">Trajani<addName type="display">Traianus, Marcus Ulpius</addName>
+               <addName>Marcus Ulpius Traianus</addName>
+               <addName>Traian</addName>
+               <addName>Traiano Imperatore</addName>
+               <addName>Traiano</addName>
+               <addName>Marcus U. Traianus</addName>
+               <addName>Traianus Epigrammaticus</addName>
+               <addName>Traianus Imperator</addName>
+               <addName>Traianus Romanus</addName>
+               <addName>Trajan Kaiser</addName>
+               <addName>Trajan Plinius-Korrespondent</addName>
+               <addName>Trajanus</addName>
+               <addName>Trajanus Imperator</addName>
+               <addName>Trajanus Imperium Romanum, Imperator</addName>
+               <addName>Ulpius Traianus</addName>
+               <addName>Ulpius</addName>
+            </persName> Gemahlin. Büste</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Sabina, VibiaAdrià (emperador de Roma, 76-138)</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/19657</link>
+      <count>4</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/19657">
+            <persName ref="#CerlID:cnp00589162" key="#PND:118793934">Sabina<addName type="display">Sabina, Vibia</addName>
+               <addName>Vibia Sabina</addName>
+            </persName>, die Tochter. <persName ref="#CerlID:cnp00871103" key="#PND:118544373">Hadrians<addName type="display">Adrià (emperador de Roma, 76-138)</addName>
+               <addName>Publius Aelius Hadrianus</addName>
+               <addName>Adriano Imperatore</addName>
+               <addName>Adriano</addName>
+               <addName>Adriano emperador de Roma 76-138</addName>
+               <addName>Adrianus</addName>
+               <addName>Publius Aelius Adrianus</addName>
+               <addName>Adrianus Augustus</addName>
+               <addName>Adrianus Monachus</addName>
+               <addName>Publi Eli Adrià</addName>
+               <addName>Adrià, Publi Eli emperador de Roma 76-138</addName>
+               <addName>Aelius Hadrianus</addName>
+               <addName>Publius Aelius Hadrian</addName>
+               <addName>Hadrian Emperor of Rome</addName>
+               <addName>Hadrian Kaiser</addName>
+               <addName>Hadrian Rom, Kaiser</addName>
+               <addName>Hadrian Rome, Emperor</addName>
+               <addName>Hadrian Römisches Reich, Kaiser</addName>
+               <addName>Hadrian emperador de Roma 76-138</addName>
+               <addName>Hadriano Imperatore</addName>
+               <addName>Hadriano</addName>
+               <addName>Hadrianus, Publius Aelius emperador de Roma 76-138</addName>
+               <addName>Hadrianus Augustus</addName>
+               <addName>Hadrianus Emperor of Rome</addName>
+               <addName>Hadrianus Epigrammaticus</addName>
+               <addName>Hadrianus Imperator</addName>
+               <addName>Hadrianus Kaiser</addName>
+               <addName>Hadrianus Monachus</addName>
+               <addName>Hadrianus Romanus</addName>
+               <addName>Hadrianus Rome, Emperor</addName>
+               <addName>Hadrianus Römisches Reich, Kaiser</addName>
+               <addName>Hadrianus emperador de Roma 76-138</addName>
+               <addName>Hadrianus Augustus Imperium Romanum, Imperator</addName>
+               <addName>Hadrien Empereur</addName>
+               <addName>Hadrien</addName>
+               <addName>Hadrien emperador de Roma 76-138</addName>
+               <addName>Publi Eli Adrià emperador de Roma 76-138</addName>
+            </persName> Gemahlin 
+                                  in <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000134">Orti Mattei</term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000134</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000134">Orti Mattei</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Della Porta, Guglielmo</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-189.tei.xml-d10983e321">Religion des <persName ref="#CerlID:cnp00584689" key="#PND:11867935X">della Porta<addName type="display">Della Porta, Guglielmo</addName>
+               <addName>Guglielmo Della Porta</addName>
+               <addName>Gulielmo della Porta</addName>
+               <addName>Gulielmo</addName>
+               <addName>Guglielmo Della Porta di Porlezza</addName>
+               <addName>Della Porta di Porlezza</addName>
+               <addName>Guglielmo DellaPorta</addName>
+               <addName>DellaPorta</addName>
+               <addName>Guglielmo della Porta di Porlezza</addName>
+               <addName>Porlezza</addName>
+               <addName>Guglielmo della Porta di Polrezza</addName>
+               <addName>Porta di Polrezza</addName>
+               <addName>Guglielmo della Porta</addName>
+               <addName>Porta</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-189.tei.xml-d10983e362">Eine aehnliche biß  
+                                      auf den Kopfputz und dem Cothurn</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Wallmodi- schen Samlung</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-189.tei.xml-d10983e456">Büste in der <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000632">Wallmodi- 
+                                  schen Samlung</term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000632</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000632">Wallmodi- 
+                                  schen Samlung</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/16298</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/16298">ist vermuthlich eine Copie</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/39358</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/39358">Eine andere</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-189.tei.xml-d10983e482">und</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-189.tei.xml-d10983e490">345.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/16300</link>
+      <count>4</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/16300">Büste</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pudicitia</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/15928</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/15928">als <persName ref="#CerlID:cnp01300380">Pudicitia<addName type="display">Pudicitia</addName>
+               <addName>Pudicilia</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Palazzo. Capitolino</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-189.tei.xml-d10983e705">Statue im <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000358">Palazzo. 
+                                      Capitolino</term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000358</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000358">Palazzo. 
+                                      Capitolino</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pudicitia</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-189.tei.xml-d10983e719">Von der <persName ref="#CerlID:cnp01300380">Pudicilia<addName type="display">Pudicitia</addName>
+               <addName>Pudicilia</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Faustina (Römisches Reich, Kaiserin, I.)</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-189.tei.xml-d10983e947">Kopf 
+                                      als <persName ref="#CerlID:cnp00584987" key="#PND:118686240">Faustina<addName type="display">Faustina (Römisches Reich, Kaiserin, I.)</addName>
+               <addName>Faustina die Ältere</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+</tags>

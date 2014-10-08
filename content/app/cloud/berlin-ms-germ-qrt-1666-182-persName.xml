@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/berlin-ms-germ-qrt-1666-182.tei.xml-d12205e74">Balthasa Parmo-
+                ser.</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Elbeuf, Charles de Lorraine ¬d'¬</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01013402</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01013402">Prinz d'Elboens<addName type="display">Elbeuf, Charles de Lorraine ¬d'¬</addName>
+            <addName>Charles de Lorraine d' Elbeuf</addName>
+            <addName>Charles Elboeuf, Duc, II.</addName>
+            <addName>Charles</addName>
+            <addName>Charles II. ^de Lorraine ^Duc ^d Elbeuf</addName>
+            <addName>Charles II. ^de Lorraine Duc d' Elbeuf</addName>
+            <addName>Charles de L. d' Elbeuf</addName>
+            <addName>Charles II. Lorraine ^Duc ^d'Elbeuf</addName>
+            <addName>Lorraine ^Duc ^d'Elbeuf</addName>
+            <addName>Charles de Lorraine d'Elboeuf</addName>
+            <addName>Lorraine d'Elboeuf</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Savoyen-Carignan, Eugen ¬von¬</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00396391</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00396391"
+                       key="#PND:118605941">Prinz Eugen<addName type="display">Savoyen-Carignan, Eugen ¬von¬</addName>
+            <addName>Eugen von Savoyen-Carignan</addName>
+            <addName>Eugène François Savoyen, Prinz</addName>
+            <addName>Eugène François</addName>
+            <addName>Eugène Prince</addName>
+            <addName>Eugène</addName>
+            <addName>Eugène Savoie, Prince</addName>
+            <addName>Eugen Franz Savoyen, Prinz</addName>
+            <addName>Eugen Franz</addName>
+            <addName>Eugen Prinz</addName>
+            <addName>Eugen</addName>
+            <addName>Eugen Savoye, Duc</addName>
+            <addName>Eugen Savoyen und Piemont, Prinz</addName>
+            <addName>Eugen Savoyen, Herzog</addName>
+            <addName>Eugen Savoyen, Prinz</addName>
+            <addName>Eugen Savoyen-Carignan, Prinz</addName>
+            <addName>Eugene Savoy, Prince</addName>
+            <addName>Eugene</addName>
+            <addName>Eugene Savoye, Prince</addName>
+            <addName>Eugene Savoyen, Herzog</addName>
+            <addName>Eugenius Franciscus Sabaudia, Princeps</addName>
+            <addName>Eugenius Franciscus</addName>
+            <addName>Eugenius Franciscus Savoy und Piemont, Prinz</addName>
+            <addName>Eugenius Franciscus Savoyen und Piemont, Herzog</addName>
+            <addName>Eugenius Franciscus Savoyen, Herzog</addName>
+            <addName>Eugenius Frantz Savoyen und Piemont, Prinz</addName>
+            <addName>Eugenius Frantz</addName>
+            <addName>Eugenius Sabadus, Dux</addName>
+            <addName>Eugenius</addName>
+            <addName>Eugenius Savoyen, Prins</addName>
+            <addName>Eugenius Savoyen, Prinz</addName>
+            <addName>Franc̨ois Eugène Savoie, Prince</addName>
+            <addName>Franc̨ois Eugène</addName>
+            <addName>Franciscus Eugenius Savoyen und Piemont, Herzog</addName>
+            <addName>Franciscus Eugenius</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

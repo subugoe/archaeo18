@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Commodus (Imperium Romanum, Imperator)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00394493</link>
+      <count>4</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00394493"
+                       key="#PND:118521713">Commodus<addName type="display">Commodus (Imperium Romanum, Imperator)</addName>
+            <addName>Commodus Imperator</addName>
+            <addName>Lucius Aelius Aurelius Gaius Augustus Imperator Caesar</addName>
+            <addName>Lucius Aelius Aurelius Gaius Augustus</addName>
+            <addName>Marcus Aurelius Gaius Antoninus</addName>
+            <addName>Marcus Aurelius Gaius Antoninus Augustus Imperator Caesar</addName>
+            <addName>Marcus Aurelius Gaius Antoninus Augustus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Amor</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00542364</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00542364"
+                       key="#PND:11850262X">Amor<addName type="display">Amor</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Hylas</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00564698</link>
+      <count>4</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00564698"
+                       key="#PND:121408094">Hylas<addName type="display">Hylas</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Herakles</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00574918</link>
+      <count>6</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00574918"
+                       key="#PND:118639552">Herkules<addName type="display">Herakles</addName>
+            <addName>Ercole</addName>
+            <addName>Heracles</addName>
+            <addName>Hercules</addName>
+            <addName>Herkules</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Ajax (der Telamonier)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00541974</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00541974"
+                       key="#PND:118501194">Ajax<addName type="display">Ajax (der Telamonier)</addName>
+            <addName>Ajaz</addName>
+            <addName>Aias der Große</addName>
+            <addName>Aias</addName>
+            <addName>Aias der Telamonier</addName>
+            <addName>Ajax der Große</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Telamon</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300399</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300399">Tele-
+          
+          mous<addName type="display">Telamon</addName>
+            <addName>Telamonis</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-264.tei.xml-d14371e203">Julia Severi</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Anthemius (Imperium Romanum, Imperator)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00283382</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00283382"
+                       key="#PND:102379726">Kayser Anthenius<addName type="display">Anthemius (Imperium Romanum, Imperator)</addName>
+            <addName>Anthemius Imperator</addName>
+            <addName>Anthemius Patricius</addName>
+            <addName>Anthemius Weströmischer Kaiser</addName>
+            <addName>Anthemius von Konstantinopel</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/26950</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/26950">152.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/19909</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/19909">1. 32.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/130736</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/130736">20.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/26864</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/26864">64</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/17864</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/17864">64.</term>
+      </nodes>
+   </tag>
+</tags>

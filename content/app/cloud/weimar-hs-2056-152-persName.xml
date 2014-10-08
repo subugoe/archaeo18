@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Pandora</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300360</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300360">Pandora<addName type="display">Pandora</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Danaiden</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300265</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300265">Danaide<addName type="display">Danaiden</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Raphaël</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01270961</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01270961"
+                   key="#PND:118597787">Raphael<addName type="display">Raphaël</addName>
+            <addName>Raffael</addName>
+            <addName>Raphael Urbinas</addName>
+            <addName>Raffaello Santi</addName>
+            <addName>Santi</addName>
+            <addName>Sanzio</addName>
+            <addName>Urbinas</addName>
+            <addName>Rafael de Urbino 1483-1520</addName>
+            <addName>Rafael von Urbino</addName>
+            <addName>Rafaele d'Urbino</addName>
+            <addName>Rafaele</addName>
+            <addName>Rafaello 1483-1520</addName>
+            <addName>Rafaello</addName>
+            <addName>Raffael Santi</addName>
+            <addName>Raffaele Sanzio</addName>
+            <addName>Raffaele</addName>
+            <addName>Raffaelle di Vrbino</addName>
+            <addName>Raffaelle 1483-1520</addName>
+            <addName>Raffaelle</addName>
+            <addName>Raffaelle d'Urbino 1483-1520</addName>
+            <addName>Raffaello Sanzio 1483-1520</addName>
+            <addName>Raffaello 1483-1520</addName>
+            <addName>Raffaello da Urbino</addName>
+            <addName>Raffaello da Urbino 1483-1520</addName>
+            <addName>Raffaello di Urbino</addName>
+            <addName>Raffaello d'Urbino</addName>
+            <addName>Raffaelo Santi</addName>
+            <addName>Raffaelo</addName>
+            <addName>Raffaelo Sanzio</addName>
+            <addName>Raph. Sanctius</addName>
+            <addName>Raph.</addName>
+            <addName>Raphaël d'Urbine</addName>
+            <addName>Raphael</addName>
+            <addName>Raphael 1483-1520</addName>
+            <addName>Raphael di Urbino</addName>
+            <addName>Raphael Pictor</addName>
+            <addName>Raphael Sanctius Urbinas</addName>
+            <addName>Raphael Sanctus</addName>
+            <addName>Raphael Santius Urbinas</addName>
+            <addName>Raphael Sanzio</addName>
+            <addName>Raphael Urbin</addName>
+            <addName>Raphael Urbino</addName>
+            <addName>Raphael Urbinus</addName>
+            <addName>Raphael von Urbino</addName>
+            <addName>Raphaello</addName>
+            <addName>Raphael Sancius</addName>
+            <addName>Sancius, Raphael 1483-1520</addName>
+            <addName>Sancius</addName>
+            <addName>Sanctius</addName>
+            <addName>Sanctius, Raph. 1483-1520</addName>
+            <addName>Sanctius Urbinus</addName>
+            <addName>Raffaello Santius</addName>
+            <addName>Santius</addName>
+            <addName>Raphael Santius</addName>
+            <addName>Raffaello Sanzi</addName>
+            <addName>Sanzi</addName>
+            <addName>Rafael Sanzio</addName>
+            <addName>Sanzio, Rafael 1483-1520</addName>
+            <addName>Sanzio, Raffaello 1483-1520</addName>
+            <addName>Rafael Urbinas</addName>
+            <addName>Urbinas, Rafael 1483-1520</addName>
+            <addName>Raphael S. Urbinas</addName>
+            <addName>Rafael Urbino</addName>
+            <addName>Urbino, Rafael 1483-1520</addName>
+            <addName>Urbino</addName>
+            <addName>Raf. Vrb</addName>
+            <addName>Vrb, Raf. 1483-1520</addName>
+            <addName>Vrb</addName>
+            <addName>R. Vrbinas</addName>
+            <addName>Vrbinas, R. 1483-1520</addName>
+            <addName>Vrbinas</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Somnus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00539256</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00539256"
+                   key="#PND:118817108">Somnus<addName type="display">Somnus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Amor</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00542364</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00542364"
+                   key="#PND:11850262X">Amor<addName type="display">Amor</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Vittoria, Vincenzo</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01001676</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01001676">Vincenz: Vittoria<addName type="display">Vittoria, Vincenzo</addName>
+            <addName>Vincenzo Vittoria</addName>
+            <addName>Vincentius Victoria</addName>
+            <addName>Victoria</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Hymenaios</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300299</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300299">Hymenaeus<addName type="display">Hymenaios</addName>
+            <addName>Hymenaeus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Algardi, Alessandro</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00400934</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00400934"
+                   key="#PND:118808761">Algardi<addName type="display">Algardi, Alessandro</addName>
+            <addName>Alessandro Algardi</addName>
+            <addName>Algarti</addName>
+            <addName>Aless. Algardi</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Montfaucon, Bernard ¬de¬</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00119823</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00119823"
+                   key="#PND:100310923">Montfaucon<addName type="display">Montfaucon, Bernard ¬de¬</addName>
+            <addName>Bernard de Montfaucon</addName>
+            <addName>Bernard De Montfaucon</addName>
+            <addName>De Montfaucon</addName>
+            <addName>Bernardus de Monfaucon</addName>
+            <addName>Monfaucon</addName>
+            <addName>Bernardus de Montefalconius</addName>
+            <addName>Montefalconius</addName>
+            <addName>Bernardus de Montefaucon</addName>
+            <addName>Montefaucon</addName>
+            <addName>Bernardus de Montfalconius</addName>
+            <addName>Montfalconius</addName>
+            <addName>Bern. de Montfaucon</addName>
+            <addName>Bernard Montfaucon</addName>
+            <addName>Bernardi Montfaucon</addName>
+            <addName>Bernardo de Montfaucon</addName>
+            <addName>Bernardo di Montfaucon</addName>
+            <addName>Bernardus de Montfaucon</addName>
+            <addName>Bernhard de Montfaucon</addName>
+            <addName>Bernhard von Montfaucon</addName>
+            <addName>Montfaucon Father Bernard</addName>
+            <addName>Bernardus Montfauconius</addName>
+            <addName>Montfauconius</addName>
+            <addName>Bernard de Montfocon</addName>
+            <addName>Montfocon</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

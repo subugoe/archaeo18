@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Wright. Reisen nach Frkr. u It. 1730. 4to.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://www.zvdd.de/dms/load/met/?PPN=urn%3Anbn%3Ade%3Abvb%3A12-bsb10366782-1</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://www.zvdd.de/dms/load/met/?PPN=urn%3Anbn%3Ade%3Abvb%3A12-bsb10366782-1">Wright. Reisen nach Frkr. u It. 1730. 4to.</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Clainville R. nach Hol. Deutsch. Schweiz und Italien übersezt von Köhler 3. Tom. 4to.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://www.mdz-nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb10366574-7</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://www.mdz-nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb10366574-7">Clainville R. nach Hol. Deutsch. Schweiz und Italien
+          
+          übersezt von Köhler 3. Tom. 4to.</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Cochin. Voy. d‘ Italie 1758. 8vo.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://www.mdz-nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb10468943-8 http://www.mdz-nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb10468944-3</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://www.mdz-nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb10468943-8 #http://www.mdz-nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb10468944-3">Cochin. Voy. d‘ Italie 1758. 8vo.</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>N. Memoires de deux Gentilh: Suedois par Mr. Grosley raisonniert a tor. &amp; a travers</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN252546091</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN252546091">N. Memoires de deux Gentilh: Suedois par Mr. Grosley
+          
+          raisonniert a tor. &amp; a travers</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Richard Observations sur l’Italie</tag>
+      <facet>tei:bibl</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-139.tei.xml-d13966e447">Richard Observations sur l’Italie</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>La Lande</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN252490614</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN252490614">La Lande</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Übers. v. Volkmann</tag>
+      <facet>tei:bibl</facet>
+      <link>http://www.mdz-nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb10468476-7</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://www.mdz-nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb10468476-7">Übers. v. Volkmann</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+</tags>

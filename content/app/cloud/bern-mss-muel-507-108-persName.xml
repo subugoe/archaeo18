@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Traianus, Marcus Ulpius</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00917510</link>
+      <count>4</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00917510"
+                       key="#PND:118623567">Traians<addName type="display">Traianus, Marcus Ulpius</addName>
+            <addName>Marcus Ulpius Traianus</addName>
+            <addName>Traian</addName>
+            <addName>Traiano Imperatore</addName>
+            <addName>Traiano</addName>
+            <addName>Marcus U. Traianus</addName>
+            <addName>Traianus Epigrammaticus</addName>
+            <addName>Traianus Imperator</addName>
+            <addName>Traianus Romanus</addName>
+            <addName>Trajan Kaiser</addName>
+            <addName>Trajan Plinius-Korrespondent</addName>
+            <addName>Trajanus</addName>
+            <addName>Trajanus Imperator</addName>
+            <addName>Trajanus Imperium Romanum, Imperator</addName>
+            <addName>Ulpius Traianus</addName>
+            <addName>Ulpius</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Titus (Imperium Romanum, Imperator)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00396707</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00396707"
+                       key="#PND:118622951">Titus<addName type="display">Titus (Imperium Romanum, Imperator)</addName>
+            <addName>Flavius Vespasianus Titus</addName>
+            <addName>Titus Flavius Vespasianus</addName>
+            <addName>Flavius Vespasianus</addName>
+            <addName>Titus Vespasianus Augustus</addName>
+            <addName>Titus Vespasianus</addName>
+            <addName>Titus Imperator</addName>
+            <addName>Titus Römisches Reich, Kaiser</addName>
+            <addName>Titus Romanus</addName>
+            <addName>Vespasianus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Raphaël</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01270961</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01270961"
+                       key="#PND:118597787">Raphael<addName type="display">Raphaël</addName>
+            <addName>Raffael</addName>
+            <addName>Raphael Urbinas</addName>
+            <addName>Raffaello Santi</addName>
+            <addName>Santi</addName>
+            <addName>Sanzio</addName>
+            <addName>Urbinas</addName>
+            <addName>Rafael de Urbino 1483-1520</addName>
+            <addName>Rafael von Urbino</addName>
+            <addName>Rafaele d'Urbino</addName>
+            <addName>Rafaele</addName>
+            <addName>Rafaello 1483-1520</addName>
+            <addName>Rafaello</addName>
+            <addName>Raffael Santi</addName>
+            <addName>Raffaele Sanzio</addName>
+            <addName>Raffaele</addName>
+            <addName>Raffaelle di Vrbino</addName>
+            <addName>Raffaelle 1483-1520</addName>
+            <addName>Raffaelle</addName>
+            <addName>Raffaelle d'Urbino 1483-1520</addName>
+            <addName>Raffaello Sanzio 1483-1520</addName>
+            <addName>Raffaello 1483-1520</addName>
+            <addName>Raffaello da Urbino</addName>
+            <addName>Raffaello da Urbino 1483-1520</addName>
+            <addName>Raffaello di Urbino</addName>
+            <addName>Raffaello d'Urbino</addName>
+            <addName>Raffaelo Santi</addName>
+            <addName>Raffaelo</addName>
+            <addName>Raffaelo Sanzio</addName>
+            <addName>Raph. Sanctius</addName>
+            <addName>Raph.</addName>
+            <addName>Raphaël d'Urbine</addName>
+            <addName>Raphael</addName>
+            <addName>Raphael 1483-1520</addName>
+            <addName>Raphael di Urbino</addName>
+            <addName>Raphael Pictor</addName>
+            <addName>Raphael Sanctius Urbinas</addName>
+            <addName>Raphael Sanctus</addName>
+            <addName>Raphael Santius Urbinas</addName>
+            <addName>Raphael Sanzio</addName>
+            <addName>Raphael Urbin</addName>
+            <addName>Raphael Urbino</addName>
+            <addName>Raphael Urbinus</addName>
+            <addName>Raphael von Urbino</addName>
+            <addName>Raphaello</addName>
+            <addName>Raphael Sancius</addName>
+            <addName>Sancius, Raphael 1483-1520</addName>
+            <addName>Sancius</addName>
+            <addName>Sanctius</addName>
+            <addName>Sanctius, Raph. 1483-1520</addName>
+            <addName>Sanctius Urbinus</addName>
+            <addName>Raffaello Santius</addName>
+            <addName>Santius</addName>
+            <addName>Raphael Santius</addName>
+            <addName>Raffaello Sanzi</addName>
+            <addName>Sanzi</addName>
+            <addName>Rafael Sanzio</addName>
+            <addName>Sanzio, Rafael 1483-1520</addName>
+            <addName>Sanzio, Raffaello 1483-1520</addName>
+            <addName>Rafael Urbinas</addName>
+            <addName>Urbinas, Rafael 1483-1520</addName>
+            <addName>Raphael S. Urbinas</addName>
+            <addName>Rafael Urbino</addName>
+            <addName>Urbino, Rafael 1483-1520</addName>
+            <addName>Urbino</addName>
+            <addName>Raf. Vrb</addName>
+            <addName>Vrb, Raf. 1483-1520</addName>
+            <addName>Vrb</addName>
+            <addName>R. Vrbinas</addName>
+            <addName>Vrbinas, R. 1483-1520</addName>
+            <addName>Vrbinas</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Laokoon</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00556829</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00556829"
+                       key="#PND:118569651">Laocoon<addName type="display">Laokoon</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

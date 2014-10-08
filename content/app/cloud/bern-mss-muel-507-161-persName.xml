@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Apollon</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00542641</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00542641"
+                       key="#PND:118503642">Apoll<addName type="display">Apollon</addName>
+            <addName>Apoll</addName>
+            <addName>Apollo</addName>
+            <addName>Phoebus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Keller, Balthasar</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00569986</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00569986"
+                       key="#PND:122495772">Keller<addName type="display">Keller, Balthasar</addName>
+            <addName>Balthasar Keller</addName>
+            <addName>Balthasar Keller vom Steinbock</addName>
+            <addName>Keller vom Steinbock</addName>
+            <addName>Johann Balthasar Keller</addName>
+            <addName>Balthasar Quailer</addName>
+            <addName>Quailer</addName>
+            <addName>Johann Balthasar Quailer</addName>
+            <addName>Balthasar Quelair</addName>
+            <addName>Quelair</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Vacca, Flaminio</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00628322</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00628322"
+                       key="#PND:129766909">Flam: Vacca<addName type="display">Vacca, Flaminio</addName>
+            <addName>Flaminio Vacca</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Strozzi , Leone</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300408</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300408">Leo Strozzi<addName type="display">Strozzi , Leone</addName>
+            <addName>Leone Strozzi</addName>
+            <addName>Leon Strozzi</addName>
+            <addName>Strozzi</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

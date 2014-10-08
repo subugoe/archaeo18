@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Hygieia</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00541757</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00541757"
+                   key="#PND:118900293">Hygiéa<addName type="display">Hygieia</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Telesphoros</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300398</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300398">Teles-
+                                        phorus<addName type="display">Telesphoros</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pacetti, Vicenzo</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00568214</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00568214"
+                   key="#PND:122154312">Paceppi<addName type="display">Pacetti, Vicenzo</addName>
+            <addName>Vicenzo Pacetti</addName>
+            <addName>Vincenzo Pacetti</addName>
+            <addName>Paceppi</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Vulcanus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00588165</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00588165"
+                   key="#PND:118770462">Vulcan<addName type="display">Vulcanus</addName>
+            <addName>Volcanus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Alkamenes</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00542208</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00542208"
+                   key="#PND:11850200X">Aleamenes<addName type="display">Alkamenes</addName>
+            <addName>Aleamenes</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

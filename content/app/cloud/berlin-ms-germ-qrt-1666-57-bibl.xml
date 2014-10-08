@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Mus. Florent 48.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/gori1734bd3/0084</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://digi.ub.uni-heidelberg.de/diglit/gori1734bd3/0084">Mus. Florent 48.</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>ibid 49.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/gori1734bd3/0085</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://digi.ub.uni-heidelberg.de/diglit/gori1734bd3/0085">ibid 49.</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>ibid 50</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/gori1734bd3/0086</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://digi.ub.uni-heidelberg.de/diglit/gori1734bd3/0086">ibid 50</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>ibid 51.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/gori1734bd3/0087</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://digi.ub.uni-heidelberg.de/diglit/gori1734bd3/0087">ibid 51.</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>52.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/gori1734bd3/0088</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://digi.ub.uni-heidelberg.de/diglit/gori1734bd3/0088">52.</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>53.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/gori1734bd3/0089</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://digi.ub.uni-heidelberg.de/diglit/gori1734bd3/0089">53.</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+</tags>

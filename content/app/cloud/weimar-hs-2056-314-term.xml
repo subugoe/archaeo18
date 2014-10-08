@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Titus (Imperium Romanum, Imperator)</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:150958 CensusID:226598 CensusID:152799 CensusID:152474 CensusID:153211 CensusID:152801 CensusID:153210 CensusID:150962 http://arachne.uni-koeln.de/item/bauwerk/2100070</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:150958 #CensusID:226598 #CensusID:152799 #CensusID:152474 #CensusID:153211 #CensusID:152801 #CensusID:153210 #CensusID:150962 #http://arachne.uni-koeln.de/item/bauwerk/2100070">Der Bogen des <persName ref="#CerlID:cnp00396707" key="#PND:118622951">Titus<addName type="display">Titus (Imperium Romanum, Imperator)</addName>
+               <addName>Flavius Vespasianus Titus</addName>
+               <addName>Titus Flavius Vespasianus</addName>
+               <addName>Flavius Vespasianus</addName>
+               <addName>Titus Vespasianus Augustus</addName>
+               <addName>Titus Vespasianus</addName>
+               <addName>Titus Imperator</addName>
+               <addName>Titus Römisches Reich, Kaiser</addName>
+               <addName>Titus Romanus</addName>
+               <addName>Vespasianus</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Cam- po Vaccio</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/bauwerk/2100064</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/bauwerk/2100064">Der Arcus Septimii Severi im <placeName ref="#http://arachne.uni-koeln.de/item/topographie/500003">Cam- 
+                                 po Vaccio</placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:150975 CensusID:150979 CensusID:154311 CensusID:154310 CensusID:150978 CensusID:150976 CensusID:150984 CensusID:150983 CensusID:150986 CensusID:150989 http://arachne.uni-koeln.de/item/objekt/28620</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:150975 #CensusID:150979 #CensusID:154311 #CensusID:154310 #CensusID:150978 #CensusID:150976 #CensusID:150984 #CensusID:150983 #CensusID:150986 #CensusID:150989 #http://arachne.uni-koeln.de/item/objekt/28620">Arco di St Georgio</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-314.tei.xml-d4593e248">der nahe 
+                                     gelegenen Kirche</term>
+      </nodes>
+   </tag>
+</tags>

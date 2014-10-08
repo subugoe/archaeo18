@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Villa Borghese</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/36569</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/objekt/36569">Noch ist eine in <TEI:term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000238">Villa Borghese</TEI:term>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000238</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/sammlungen/1000238">Villa Borghese</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Euterpe</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-340.tei.xml-d18435e157">ist eher eine <TEI:persName ref="#CerlID:cnp00581429" key="#PND:124538401">Euterpe<addName type="display">Euterpe</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Klio</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-340.tei.xml-d18435e174">
+            <TEI:persName ref="#CerlID:cnp00581430" key="#PND:124538487">Clio Me-
+          
+          ditans<addName type="display">Klio</addName>
+               <addName>Clio</addName>
+               <addName>Kleio</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-340.tei.xml-d18435e213">Sie</TEI:term>
+      </nodes>
+   </tag>
+</tags>

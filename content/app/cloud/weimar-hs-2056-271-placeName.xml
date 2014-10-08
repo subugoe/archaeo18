@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Tivoli</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7006968</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7006968">Tibur<addName type="display">Tivoli</addName>
+            <addName>Tivoli</addName>
+            <addName>Tibur</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Attikí</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7002681</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7002681">Attica<addName type="display">Attikí</addName>
+            <addName>Attikí</addName>
+            <addName>Attiki</addName>
+            <addName>Attike</addName>
+            <addName>Attica</addName>
+            <addName>Attikí department</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Thásos</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7011070</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7011070">Thasos<addName type="display">Thásos</addName>
+            <addName>Thásos</addName>
+            <addName>Thasos</addName>
+            <addName>Odonis</addName>
+            <addName>Thásos island</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Sakarya Ağzı</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=1129421</link>
+      <count>6</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:1129421">Corallis<addName type="display">Sakarya Ağzı</addName>
+            <addName>Sakarya Ağzı</addName>
+            <addName>Sakarya</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Phrygia</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7002613</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7002613">Phry- 
+                                            gien<addName type="display">Phrygia</addName>
+            <addName>Phrygia</addName>
+            <addName>Hellespontine Phrygia</addName>
+         </placeName>
+      </nodes>
+   </tag>
+</tags>

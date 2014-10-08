@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:159319 http://arachne.uni-koeln.de/item/objekt/15956</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:159319 #http://arachne.uni-koeln.de/item/objekt/15956">Mus. Cap. 39.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/5840</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/5840">Flor. 16</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/22214</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/22214">Statue di Venezia. 14.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:10010557 http://arachne.uni-koeln.de/item/objekt/12666</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:10010557 #http://arachne.uni-koeln.de/item/objekt/12666">im Hause Barberini</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/15957</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/15957">Mnemosine</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Musen</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/30766 http://arachne.uni-koeln.de/item/objekt/30767 http://arachne.uni-koeln.de/item/objekt/30768 http://arachne.uni-koeln.de/item/objekt/30769 http://arachne.uni-koeln.de/item/objekt/30770 http://arachne.uni-koeln.de/item/objekt/94563 http://arachne.uni-koeln.de/item/objekt/130319 http://arachne.uni-koeln.de/item/objekt/130320 http://arachne.uni-koeln.de/item/objekt/130321 http://arachne.uni-koeln.de/item/objekt/130322 http://arachne.uni-koeln.de/item/objekt/130326 http://arachne.uni-koeln.de/item/objekt/130327</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/30766 #http://arachne.uni-koeln.de/item/objekt/30767 #http://arachne.uni-koeln.de/item/objekt/30768 #http://arachne.uni-koeln.de/item/objekt/30769 #http://arachne.uni-koeln.de/item/objekt/30770 #http://arachne.uni-koeln.de/item/objekt/94563 #http://arachne.uni-koeln.de/item/objekt/130319 #http://arachne.uni-koeln.de/item/objekt/130320 #http://arachne.uni-koeln.de/item/objekt/130321 #http://arachne.uni-koeln.de/item/objekt/130322 #http://arachne.uni-koeln.de/item/objekt/130326 #http://arachne.uni-koeln.de/item/objekt/130327">Suite von <persName ref="#CerlID:cnp00539388" key="#PND:118820656">Musen<addName type="display">Musen</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/30761 http://arachne.uni-koeln.de/item/objekt/131310</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/30761 #http://arachne.uni-koeln.de/item/objekt/131310">Apollo Citharoedus</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Otricoli</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/20410 http://arachne.uni-koeln.de/item/objekt/20411</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/20410 #http://arachne.uni-koeln.de/item/objekt/20411">zu <placeName ref="#GettyID:7005141">Ocricoli<addName type="display">Otricoli</addName>
+               <addName>Otricoli</addName>
+               <addName>Ocriculum</addName>
+            </placeName> 2. ausgegraben</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/20975</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/20975">24</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/21175</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/21175">25.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Juno</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-166.tei.xml-d19057e185">
+            <persName ref="#CerlID:cnp00589422" key="#PND:118800574">Juno<addName type="display">Juno</addName>
+               <addName>Cupra</addName>
+               <addName>Pronuba</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+</tags>

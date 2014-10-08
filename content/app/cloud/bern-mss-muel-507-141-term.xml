@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1005934</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/sammlungen/1005934">Schönste Sammlung</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000243</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/sammlungen/1000243">Gallerie Chigi</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Savoyen-Carignan, Eugen ¬von¬</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1002363</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/sammlungen/1002363">Samml. des <TEI:persName ref="#CerlID:cnp00396391" key="#PND:118605941">Pr. Eugen<addName type="display">Savoyen-Carignan, Eugen ¬von¬</addName>
+               <addName>Eugen von Savoyen-Carignan</addName>
+               <addName>Eugène François Savoyen, Prinz</addName>
+               <addName>Eugène François</addName>
+               <addName>Eugène Prince</addName>
+               <addName>Eugène</addName>
+               <addName>Eugène Savoie, Prince</addName>
+               <addName>Eugen Franz Savoyen, Prinz</addName>
+               <addName>Eugen Franz</addName>
+               <addName>Eugen Prinz</addName>
+               <addName>Eugen</addName>
+               <addName>Eugen Savoye, Duc</addName>
+               <addName>Eugen Savoyen und Piemont, Prinz</addName>
+               <addName>Eugen Savoyen, Herzog</addName>
+               <addName>Eugen Savoyen, Prinz</addName>
+               <addName>Eugen Savoyen-Carignan, Prinz</addName>
+               <addName>Eugene Savoy, Prince</addName>
+               <addName>Eugene</addName>
+               <addName>Eugene Savoye, Prince</addName>
+               <addName>Eugene Savoyen, Herzog</addName>
+               <addName>Eugenius Franciscus Sabaudia, Princeps</addName>
+               <addName>Eugenius Franciscus</addName>
+               <addName>Eugenius Franciscus Savoy und Piemont, Prinz</addName>
+               <addName>Eugenius Franciscus Savoyen und Piemont, Herzog</addName>
+               <addName>Eugenius Franciscus Savoyen, Herzog</addName>
+               <addName>Eugenius Frantz Savoyen und Piemont, Prinz</addName>
+               <addName>Eugenius Frantz</addName>
+               <addName>Eugenius Sabadus, Dux</addName>
+               <addName>Eugenius</addName>
+               <addName>Eugenius Savoyen, Prins</addName>
+               <addName>Eugenius Savoyen, Prinz</addName>
+               <addName>Franc̨ois Eugène Savoie, Prince</addName>
+               <addName>Franc̨ois Eugène</addName>
+               <addName>Franciscus Eugenius Savoyen und Piemont, Herzog</addName>
+               <addName>Franciscus Eugenius</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Alexander (Magnus)</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/rezeption/350622</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/rezeption/350622">
+            <TEI:persName ref="#CerlID:cnp01259691" key="#PND:118501828">Alexander<addName type="display">Alexander (Magnus)</addName>
+               <addName>Ałekʹsandr Makedonacʹi</addName>
+               <addName>Alejandro Magno</addName>
+               <addName>Alejandro</addName>
+               <addName>Aleksandr</addName>
+               <addName>Alessandro Magno</addName>
+               <addName>Alessandro</addName>
+               <addName>Alexander de Grote</addName>
+               <addName>Alexander der Große</addName>
+               <addName>Alexander der Grosse</addName>
+               <addName>Alexander Epistolographus</addName>
+               <addName>Alexander III 3 koning van Macedonië</addName>
+               <addName>Alexander Kaiser</addName>
+               <addName>Alexander Macedonia, Rex, III.</addName>
+               <addName>Alexander Macedonis</addName>
+               <addName>Alexander Mazedonien, König, III.</addName>
+               <addName>Alexander of Macedon</addName>
+               <addName>Alexander Rex</addName>
+               <addName>Alexandre le Grand</addName>
+               <addName>Alexandre</addName>
+               <addName>Alexandros</addName>
+               <addName>Alexandros der Große</addName>
+               <addName>Alexandru cel Mare</addName>
+               <addName>Alexandru</addName>
+               <addName>Alexandrus Magnus</addName>
+               <addName>Alexandrus</addName>
+               <addName>Megalexandros</addName>
+               <addName>Pseudo-Alexander Magnus</addName>
+               <addName>Pseudo-Alexander</addName>
+               <addName>Grote</addName>
+               <addName>Alexandros Megas</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Agrippina, Iulia (Minor)</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/5391</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/objekt/5391">
+            <TEI:persName ref="#CerlID:cnp00397192" key="#PND:11864405X">Agripina<addName type="display">Agrippina, Iulia (Minor)</addName>
+               <addName>Iulia Agrippina</addName>
+               <addName>Iulia Agrippina Minor</addName>
+               <addName>Agrippina Minor</addName>
+               <addName>Agrippina Frau des Claudius</addName>
+               <addName>Agrippina Mutter des Nero</addName>
+               <addName>Agrippina Tochter des Germanicus</addName>
+               <addName>Iulia</addName>
+               <addName>Julia Agrippina</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Duccia</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/rezeption/350305</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/rezeption/350305">
+            <TEI:persName ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-141.tei.xml-d12103e406">Duccia</TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/rezeption/302150</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/rezeption/302150">Silen</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Venus</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/5275</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/objekt/5275">
+            <TEI:persName ref="#CerlID:cnp00588078" key="#PND:11876800X">Venus Medica<addName type="display">Venus</addName>
+               <addName>Anadyomene  Beiname</addName>
+               <addName>Anadyomene</addName>
+               <addName>Arelatensis  Beiname</addName>
+               <addName>Arelatensis</addName>
+               <addName>aurea  Beiname</addName>
+               <addName>aurea</addName>
+               <addName>coelestis  Beiname</addName>
+               <addName>coelestis</addName>
+               <addName>Gnidia  Beiname</addName>
+               <addName>Gnidia</addName>
+               <addName>Marina  Beiname</addName>
+               <addName>Marina</addName>
+               <addName>Pelasgia  Beiname</addName>
+               <addName>Pelasgia</addName>
+               <addName>Pontia  Beiname</addName>
+               <addName>Pontia</addName>
+               <addName>Urania  Beiname</addName>
+               <addName>Urania</addName>
+               <addName>Victrix  Beiname</addName>
+               <addName>Victrix</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Minerva</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/rezeption/300727 http://arachne.uni-koeln.de/item/rezeption/300725</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/rezeption/300727 #http://arachne.uni-koeln.de/item/rezeption/300725">2. <TEI:persName ref="#CerlID:cnp00544188" key="#PND:118986155">Minerven<addName type="display">Minerva</addName>
+               <addName>Sospitatrix</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Merkur</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/rezeption/301730</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/rezeption/301730">
+            <TEI:persName ref="#CerlID:cnp00575540" key="#PND:118641077">Merkur<addName type="display">Merkur</addName>
+               <addName>Mercurius</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/214805</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/objekt/214805">Vase mit einem 
+                                    Bachanal</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Herakles</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-141.tei.xml-d12103e533">Ara quadrilatera mit einem <TEI:persName ref="#CerlID:cnp00574918" key="#PND:118639552">Herkules<addName type="display">Herakles</addName>
+               <addName>Ercole</addName>
+               <addName>Heracles</addName>
+               <addName>Hercules</addName>
+               <addName>Herkules</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-141.tei.xml-d12103e558">Ara triangularis</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/5418</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/objekt/5418">Sarkophag mit einem 
+                                    Bachanal</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Kassel</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000643</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/sammlungen/1000643">
+            <TEI:placeName ref="#GettyID:7004431">Cassel<addName type="display">Kassel</addName>
+               <addName>Kassel</addName>
+               <addName>Cassel</addName>
+               <addName>Casle</addName>
+               <addName>Chassala</addName>
+               <addName>Chassela</addName>
+            </TEI:placeName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Commodus (Imperium Romanum, Imperator)</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-141.tei.xml-d12103e632">Ein <TEI:persName ref="#CerlID:cnp00394493" key="#PND:118521713">Comodus<addName type="display">Commodus (Imperium Romanum, Imperator)</addName>
+               <addName>Commodus Imperator</addName>
+               <addName>Lucius Aelius Aurelius Gaius Augustus Imperator Caesar</addName>
+               <addName>Lucius Aelius Aurelius Gaius Augustus</addName>
+               <addName>Marcus Aurelius Gaius Antoninus</addName>
+               <addName>Marcus Aurelius Gaius Antoninus Augustus Imperator Caesar</addName>
+               <addName>Marcus Aurelius Gaius Antoninus Augustus</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Faunus</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-141.tei.xml-d12103e655">
+            <TEI:persName ref="#CerlID:cnp00542358" key="#PND:11892088X">Faun<addName type="display">Faunus</addName>
+               <addName>Faun</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Apis</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-141.tei.xml-d12103e666">
+            <TEI:persName ref="#CerlID:cnp01288196">Apis<addName type="display">Apis</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Homer</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-141.tei.xml-d12103e678">Ein <TEI:persName ref="#CerlID:cnp01259620" key="#PND:11855333X">Homer<addName type="display">Homer</addName>
+               <addName>Gomer</addName>
+               <addName>Hūmīrūs</addName>
+               <addName>Hūmar</addName>
+               <addName>Hūmir</addName>
+               <addName>Hōmar</addName>
+               <addName>Hômêrôs</addName>
+               <addName>Homère</addName>
+               <addName>Homēros</addName>
+               <addName>Homérosz</addName>
+               <addName>Homēros</addName>
+               <addName>Homère</addName>
+               <addName>Homere</addName>
+               <addName>Homero</addName>
+               <addName>Homeros</addName>
+               <addName>Homeros Tragiker</addName>
+               <addName>Homerosi</addName>
+               <addName>Homerus Colophonius</addName>
+               <addName>Homerus Colophonus</addName>
+               <addName>Homerus Dramatiker</addName>
+               <addName>Homerus Epicus</addName>
+               <addName>Omēros</addName>
+               <addName>Omero</addName>
+               <addName>Omiros</addName>
+               <addName>Pseudo-Homerus</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Adrià (emperador de Roma, 76-138)</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/37436</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/objekt/37436">
+            <TEI:persName ref="#CerlID:cnp00871103" key="#PND:118544373">Adrian<addName type="display">Adrià (emperador de Roma, 76-138)</addName>
+               <addName>Publius Aelius Hadrianus</addName>
+               <addName>Adriano Imperatore</addName>
+               <addName>Adriano</addName>
+               <addName>Adriano emperador de Roma 76-138</addName>
+               <addName>Adrianus</addName>
+               <addName>Publius Aelius Adrianus</addName>
+               <addName>Adrianus Augustus</addName>
+               <addName>Adrianus Monachus</addName>
+               <addName>Publi Eli Adrià</addName>
+               <addName>Adrià, Publi Eli emperador de Roma 76-138</addName>
+               <addName>Aelius Hadrianus</addName>
+               <addName>Publius Aelius Hadrian</addName>
+               <addName>Hadrian Emperor of Rome</addName>
+               <addName>Hadrian Kaiser</addName>
+               <addName>Hadrian Rom, Kaiser</addName>
+               <addName>Hadrian Rome, Emperor</addName>
+               <addName>Hadrian Römisches Reich, Kaiser</addName>
+               <addName>Hadrian emperador de Roma 76-138</addName>
+               <addName>Hadriano Imperatore</addName>
+               <addName>Hadriano</addName>
+               <addName>Hadrianus, Publius Aelius emperador de Roma 76-138</addName>
+               <addName>Hadrianus Augustus</addName>
+               <addName>Hadrianus Emperor of Rome</addName>
+               <addName>Hadrianus Epigrammaticus</addName>
+               <addName>Hadrianus Imperator</addName>
+               <addName>Hadrianus Kaiser</addName>
+               <addName>Hadrianus Monachus</addName>
+               <addName>Hadrianus Romanus</addName>
+               <addName>Hadrianus Rome, Emperor</addName>
+               <addName>Hadrianus Römisches Reich, Kaiser</addName>
+               <addName>Hadrianus emperador de Roma 76-138</addName>
+               <addName>Hadrianus Augustus Imperium Romanum, Imperator</addName>
+               <addName>Hadrien Empereur</addName>
+               <addName>Hadrien</addName>
+               <addName>Hadrien emperador de Roma 76-138</addName>
+               <addName>Publi Eli Adrià emperador de Roma 76-138</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Sabina, Vibia</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-141.tei.xml-d12103e821">
+            <TEI:persName ref="#CerlID:cnp00589162" key="#PND:118793934">Sabina<addName type="display">Sabina, Vibia</addName>
+               <addName>Vibia Sabina</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Diogenes (Sinopensis)</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-141.tei.xml-d12103e831">
+            <TEI:persName ref="#CerlID:cnp00394588" key="#PND:118525867">Diogenes<addName type="display">Diogenes (Sinopensis)</addName>
+               <addName>Diogenes von Sinope</addName>
+               <addName>Diogenes Cynicus</addName>
+               <addName>Diogenes Philosophus</addName>
+               <addName>Diogenes Tragicus</addName>
+               <addName>Diogenes der Hund</addName>
+               <addName>Diogenes der Kyniker</addName>
+               <addName>Diogenes of Sinope</addName>
+               <addName>Diogène de Sinope</addName>
+               <addName>Diogène</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Socrates</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/16023</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/objekt/16023">
+            <TEI:persName ref="#CerlID:cnp01259742" key="#PND:118615270">Socrates<addName type="display">Socrates</addName>
+               <addName>Pseudo-Socrates</addName>
+               <addName>Socrate</addName>
+               <addName>Socrate Philosophe</addName>
+               <addName>Socrate d'Alopèce</addName>
+               <addName>Socrate dÁlopèce</addName>
+               <addName>Socrate di Alopece</addName>
+               <addName>Socrate dÁlopèce</addName>
+               <addName>Socrates Philosophus</addName>
+               <addName>Sokrates</addName>
+               <addName>Sokrates von Alopeke</addName>
+               <addName>Sokrates von Athen</addName>
+               <addName>Sōkratēs</addName>
+               <addName>Suqrāṭ</addName>
+               <addName>Suqrāṭīs</addName>
+               <addName>Sōkratēs</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pertinax (Römisches Reich, Kaiser)</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-141.tei.xml-d12103e901">
+            <TEI:persName ref="#CerlID:cnp00588991" key="#PND:11879048X">Pertinax<addName type="display">Pertinax (Römisches Reich, Kaiser)</addName>
+               <addName>Publius Helvius Pertinax</addName>
+               <addName>Pertinax Imperium Romanum, Imperator</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+</tags>

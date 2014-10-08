@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>G. Manilli Villa Borghese. Rom. 1650. 8.vo</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/books/Manilli1650</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://arachne.uni-koeln.de/books/Manilli1650">G. Manilli Villa Borghese. Rom. 1650. 8.vo</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Theat. Antiq. Ital. T. 8.</tag>
+      <facet>tei:bibl</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-133.tei.xml-d5726e27">Theat. Antiq. Ital. T. 8.</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Domenicho Montelatici. V. Borgh. Rom 1700. 8vo.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/books/Montelatici1700</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://arachne.uni-koeln.de/books/Montelatici1700">Domenicho Montelatici. V. Borgh. Rom 1700. 8vo.</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Brigenzi Villa Borgh. Rom. 1760. 8vo.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://www.mdz-nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb10608818-7</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://www.mdz-nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb10608818-7">Brigenzi Villa Borgh. Rom. 1760. 8vo.</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>La Lande Tom V. pag 300.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN647734346</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN647734346">La Lande Tom V. pag 300.</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+</tags>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Recueil de pierres antiques gravées. Paris 1732. 4. II. Vol. I. Vol. 101. pl. II. 104 pl.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN635306824</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN635306824">Recueil de pierres antiques gravées. Paris 
+                                            1732. 4. II. Vol. I. Vol. 101. pl. II. 104 pl.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Gemmae antiquae caelatae or - a Colle- ction of Gems by Y. Ogle Esquire engraved by C. du Bosque II. Edit. Londen 1741. 4.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN635315386</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN635315386">Gemmae antiquae caelatae or - a Colle- 
+                                            ction of Gems by Y. Ogle Esquire engraved by 
+                                            C. du Bosque II. Edit. Londen 1741. 4.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Caussei Museo Romano Vol. I.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/books/LaChausse1746Vol1</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://arachne.uni-koeln.de/books/LaChausse1746Vol1">Caussei Museo 
+                                            Romano Vol. I.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Le gemme antiche Figurate di M. A. Caus- seo Rom. 1700. 4. 65 pl.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/books/LaChausse1700</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://arachne.uni-koeln.de/books/LaChausse1700">Le gemme antiche Figurate di M. A. Caus- 
+                                            seo Rom. 1700. 4. 65 pl.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+</tags>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/20051</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/20051">Gehöret dazu.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000007</link>
+      <count>4</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000007">Barberini</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Barberini (Familie)</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/31739</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/31739">
+            <persName ref="#CerlID:cnp01098876" key="#PND:132850303">
+               <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000007">Barberini</term>
+               <addName type="display">Barberini (Familie)</addName>
+            </persName>. Ein Sacrophagus mit einem 
+                                     männlichen und weiblilchen Bilde, vom Zodiaco um  
+                                     geben</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Bacchus</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/41103</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/41103">
+            <persName ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-325.tei.xml-d17843e101">Cardin: Caspiati</persName>. <persName ref="#CerlID:cnp00579062" key="#PND:118651439">Bachus<addName type="display">Bacchus</addName>
+            </persName> auf einem  
+                                     Panther, die vier Jahres Zeiten mit Flügeln</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/11753</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/11753">Apotheosis Claudii</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/11124</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/11124">Apotheosis Homeri</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Horti Medici</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/6039</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/6039">
+            <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000435">Horti Medici</term>. Brantopfer.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000435</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000435">Horti Medici</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/205219</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/205219">Gemählde</term>
+      </nodes>
+   </tag>
+</tags>

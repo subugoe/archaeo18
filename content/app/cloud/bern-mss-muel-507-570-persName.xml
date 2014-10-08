@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-570.tei.xml-d22189e53">Medina</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-570.tei.xml-d22189e88">Anton Sabatini</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Mariette, Pierre Jean</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00464596</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00464596"
+                       key="#PND:123185823">Mariette<addName type="display">Mariette, Pierre Jean</addName>
+            <addName>Pierre Jean Mariette</addName>
+            <addName>Jean Pierre Mariette</addName>
+            <addName>P. J. Mariette</addName>
+            <addName>Pierre J. Mariette</addName>
+            <addName>Pierre-Jean Mariette</addName>
+            <addName>Pietro Mariette</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Louis (France, Roi, XIV.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259882</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01259882"
+                       key="#PND:118816829 118816829">Ludwig XIV.<addName type="display">Louis (France, Roi, XIV.)</addName>
+            <addName>Leon van Arragon</addName>
+            <addName>Leon</addName>
+            <addName>Lewis France, King, XIV.</addName>
+            <addName>Lewis</addName>
+            <addName>Ljudovik XIV</addName>
+            <addName>Ljudovik</addName>
+            <addName>XIV Lodewijk</addName>
+            <addName>Lodewijk, XIV 14 koning van Frankrijk</addName>
+            <addName>Lodewijk</addName>
+            <addName>Lodewĳk XIV 14 koning van Frankrĳk</addName>
+            <addName>Lodewĳk</addName>
+            <addName>Louis France, King, XIV.</addName>
+            <addName>Louis France, Roi, XIIII.</addName>
+            <addName>Louis France-Navarra, Roi, XIV.</addName>
+            <addName>Louis Frankreich, König, XIV.</addName>
+            <addName>Louis Vrankryk en Navarre, Koning, XIV.</addName>
+            <addName>Louis Vrankryk, Koning, XIV.</addName>
+            <addName>Louis XIV.</addName>
+            <addName>Louis le Grand</addName>
+            <addName>Louis XIV</addName>
+            <addName>Louys France, Roi, XIV.</addName>
+            <addName>Louys</addName>
+            <addName>Louys August France, Roi, XIV.</addName>
+            <addName>Louys August</addName>
+            <addName>Loys France, Roi, XIV.</addName>
+            <addName>Loys</addName>
+            <addName>Ludewig Frankreich, König, XIV.</addName>
+            <addName>Ludewig</addName>
+            <addName>Ludovici XIV.</addName>
+            <addName>Ludovici</addName>
+            <addName>Magnus Ludovicus</addName>
+            <addName>Ludovicus</addName>
+            <addName>Ludovicus Francia et Navarra, Rex, XIV.</addName>
+            <addName>Ludovicus Francia, Rex, XIV.</addName>
+            <addName>Ludovicus Franckreich, König, XIV.</addName>
+            <addName>Ludovicus Frankreich, König, XIV.</addName>
+            <addName>Ludovicus Frankreich, König, XIV</addName>
+            <addName>Ludovicus Frankreich, König, XIV.</addName>
+            <addName>Ludovicus Gallia et Navarra, Rex, XIV.</addName>
+            <addName>Ludovicus Gallia, Rex, XIV.</addName>
+            <addName>Ludovicus Magnus</addName>
+            <addName>Ludovicus XIV.</addName>
+            <addName>XIV Ludwig</addName>
+            <addName>Ludwig, XIV 14 koning van Frankrijk</addName>
+            <addName>Ludwig Franckreich, König, XIV.</addName>
+            <addName>Ludwig Frankreich, König, XIV.</addName>
+            <addName>Ludwig König, XIV.</addName>
+            <addName>Ludwig Sonnenkönig</addName>
+            <addName>Ludwig XIV 14 koning van Frankrĳk</addName>
+            <addName>Ludwig der Große</addName>
+            <addName>Ludwig" Frankreich, König, XIV.</addName>
+            <addName>Ludwig"</addName>
+            <addName>XIV Luigi</addName>
+            <addName>Luigi, XIV 14 koning van Frankrijk</addName>
+            <addName>Luigi</addName>
+            <addName>Luigi Francia, Re, XIV.</addName>
+            <addName>Luigi XIV 14 koning van Frankrĳk</addName>
+            <addName>Luis France, Roi, XIV.</addName>
+            <addName>Luis</addName>
+            <addName>Roi Soleil</addName>
+            <addName>Sonnenkönig</addName>
+            <addName>Sun King</addName>
+            <addName>De Zonnekoning</addName>
+            <addName>Zonnekoning</addName>
+            <addName>Anjou Hertog van</addName>
+            <addName>Anjou</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Colbert, Jean Baptiste</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01256113</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01256113"
+                       key="#PND:118521470">Colbert<addName type="display">Colbert, Jean Baptiste</addName>
+            <addName>Jean Baptiste Colbert</addName>
+            <addName>Jean-Baptiste Colbert</addName>
+            <addName>Joannes Baptista Colbert</addName>
+            <addName>Jean-Baptiste Colbert de Seignelay</addName>
+            <addName>Seignelay</addName>
+            <addName>Iean Baptiste Colbert</addName>
+            <addName>Jean B. Colbert</addName>
+            <addName>Jean-Baptiste de Colbert</addName>
+            <addName>Colbert, Jean-Baptiste Politiker, 1619-1683</addName>
+            <addName>Johannes Baptista Colbert</addName>
+            <addName>Johannes Baptista Colbertus</addName>
+            <addName>Colbertus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Louvois, François-Michel Le Tellier ¬de¬</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00112095</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00112095"
+                       key="#PND:100194109">Marquis de Louvois<addName type="display">Louvois, François-Michel Le Tellier ¬de¬</addName>
+            <addName>François-Michel Le Tellier de Louvois</addName>
+            <addName>François-Michel Le Tellier de Louvois</addName>
+            <addName>Louvais</addName>
+            <addName>Louvois Marquis de</addName>
+            <addName>François Michel de Chaville</addName>
+            <addName>Chaville</addName>
+            <addName>François Michel Le Tellier de Louvois</addName>
+            <addName>Le Tellier de Louvois</addName>
+            <addName>François Michel Le Tellier de Louvois</addName>
+            <addName>François Michel LeTellier de Louvois</addName>
+            <addName>LeTellier de Louvois</addName>
+            <addName>François-Michel LeTellier de Louvois</addName>
+            <addName>François Michel LeTellier de Louvois</addName>
+            <addName>François-Michel LeTellier de Louvois</addName>
+            <addName>François Michel LeTellier de Louvais</addName>
+            <addName>François-Michel LeTellier de Louvais</addName>
+            <addName>François Michel LeTellier de Louvais</addName>
+            <addName>François-Michel LeTellier de Louvais</addName>
+            <addName>de Louvois</addName>
+            <addName>Louvois,  de Margraf</addName>
+            <addName>François Michel de Louvois</addName>
+            <addName>François-Michel de Louvois</addName>
+            <addName>François M. de Louvois</addName>
+            <addName>François-Michel de Louvois</addName>
+            <addName>Francois Michel de Louvois</addName>
+            <addName>François Michel le Tellier de Louvois</addName>
+            <addName>Tellier de Louvois</addName>
+            <addName>François-Michel le Tellier de Louvois</addName>
+            <addName>François Michel le Tellier de Louvois</addName>
+            <addName>François-Michel le Tellier de Louvois</addName>
+            <addName>François-Michel de Louvois le Tellier</addName>
+            <addName>Tellier</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Toussaint Lauthier</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01303755</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01303755">Lauthier<addName type="display">Toussaint Lauthier</addName>
+            <addName>St Lauthier</addName>
+            <addName>Lauthier</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Peiresc, Nicolas Claude Fabri ¬de¬</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00890641</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00890641"
+                       key="#PND:118739840">Peirescius<addName type="display">Peiresc, Nicolas Claude Fabri ¬de¬</addName>
+            <addName>Nicolas Claude Fabri de Peiresc</addName>
+            <addName>Nicolas-Claude Fabri de Peiresc</addName>
+            <addName>Nicolas Fabri de Peiresc</addName>
+            <addName>Fabri de Peiresc</addName>
+            <addName>Nicolas Claude Fabri/de Peiresc</addName>
+            <addName>Fabri/de Peiresc</addName>
+            <addName>Nicolas-Claude Fabrio</addName>
+            <addName>Fabrio</addName>
+            <addName>Peiresc</addName>
+            <addName>Claude-Nicolas Fabri de Peiresc</addName>
+            <addName>Nicholas Claude Fabri de Peiresc</addName>
+            <addName>Nicolas Claude Peiresc</addName>
+            <addName>Nicolas Claude Fabri von Peiresc</addName>
+            <addName>Nicolas F. de Peiresc</addName>
+            <addName>Nicolas Fabri Peiresc</addName>
+            <addName>Nicolas-Claude Peiresc</addName>
+            <addName>Nicolas-Claude de Peiresc</addName>
+            <addName>Nicolaus C. de Peiresc</addName>
+            <addName>Nicolaus Claudius Fabricius de Peiresc</addName>
+            <addName>Nicolaus F. Peirescius</addName>
+            <addName>Peirescius</addName>
+            <addName>Nicolaus Fabricius Peirescius</addName>
+            <addName>Nicolaus Fabritius Peirescius</addName>
+            <addName>Fabritius Peireskius</addName>
+            <addName>Peireskius</addName>
+            <addName>Nicolaus Peyrescius</addName>
+            <addName>Peyrescius</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-570.tei.xml-d22189e553">Bijarris</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Le Gros, Pierre</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00410549</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00410549"
+                       key="#PND:120193752">Gros de Bosse<addName type="display">Le Gros, Pierre</addName>
+            <addName>Pierre Le Gros</addName>
+            <addName>Pierre le Gros</addName>
+            <addName>Gros</addName>
+            <addName>Pierre LeGros</addName>
+            <addName>LeGros</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Thubières, Anne Claude Philippe ¬de¬</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01099958</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01099958">Cailus<addName type="display">Thubières, Anne Claude Philippe ¬de¬</addName>
+            <addName>Anne Claude Philippe de Thubières</addName>
+            <addName>Caylus Graf</addName>
+            <addName>Caylus</addName>
+            <addName>Thubières, Anne Claude Philippe de Comte de Caylus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

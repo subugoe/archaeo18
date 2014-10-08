@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Sámos</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-618.tei.xml-d12335e440">Tempel des Jupiters zu <TEI:placeName ref="#GettyID:1042201">Samos<addName type="display">Sámos</addName>
+               <addName>Sámos</addName>
+               <addName>Samos</addName>
+               <addName>Vathy harbor</addName>
+               <addName>Vathy</addName>
+               <addName>Port Vathi</addName>
+               <addName>Limín Vathéos</addName>
+               <addName>Limén Vathéos</addName>
+               <addName>Liman Vathéos</addName>
+               <addName>Tigani</addName>
+            </TEI:placeName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Roma</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-618.tei.xml-d12335e470">Tempel des Friedens zu <TEI:placeName ref="#GettyID:7000874">Rom<addName type="display">Roma</addName>
+               <addName>Roma</addName>
+               <addName>Urbe</addName>
+               <addName>Rome</addName>
+               <addName>Rom</addName>
+               <addName>Roman</addName>
+            </TEI:placeName>
+         </TEI:term>
+      </nodes>
+   </tag>
+</tags>

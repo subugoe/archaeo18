@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Raccolta. N. 2.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/maffei1704/0019</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://digi.ub.uni-heidelberg.de/diglit/maffei1704/0019">Raccolta. N. 2.</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Episcop. I. 4.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://opac.sub.uni-goettingen.de/DB=1/PPNSET?PPN=14568895X</link>
+      <count>4</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://opac.sub.uni-goettingen.de/DB=1/PPNSET?PPN=14568895X">Episcop. I. 4.</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Sandrath. M.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/sandrart1675b/0019</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://digi.ub.uni-heidelberg.de/diglit/sandrart1675b/0019">Sandrath. M.</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Perrier. 30.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/item/buchseite/182581</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://arachne.uni-koeln.de/item/buchseite/182581">Perrier. 30.</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>31.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/item/buchseite/182584</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://arachne.uni-koeln.de/item/buchseite/182584">31.</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Spenser. p III.</tag>
+      <facet>tei:bibl</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-159.tei.xml-d23624e99">Spenser. p III.</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Wink: G. d. K.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/winckelmann1764</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://digi.ub.uni-heidelberg.de/diglit/winckelmann1764">Wink: G. d. K.</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+</tags>

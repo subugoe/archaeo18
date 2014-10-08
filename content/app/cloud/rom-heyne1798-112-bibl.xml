@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Briguenzi tab. 89.</tag>
+      <facet>tei:bibl</facet>
+      <link/>
+      <count>4</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#">Briguenzi tab. 89.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Beger spicil. p. 106.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://reader.digitale-sammlungen.de/de/fs1/object/display/bsb10211504_00120.html</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://reader.digitale-sammlungen.de/de/fs1/object/display/bsb10211504_00120.html">
+               <term ref="#http://arachne.uni-koeln.de/item/objekt/28077">Beger spicil. p. 106.</term>
+            </ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Columbar. Liviæ 2. 13.(von Gori)</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN668381418</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN668381418">
+               <term ref="#http://arachne.uni-koeln.de/item/objekt/28077">Columbar. Liviæ 2. 13.</term> (von Gori)</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Clem. 1. 29.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/visconti1782bd1/0143 </link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/visconti1782bd1/0143 ">
+               <term ref="#http://arachne.uni-koeln.de/item/objekt/19892">Clem. 1. 29.</term>
+            </ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Mus. Cap. IV. 24.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/item/buchseite/6266</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://arachne.uni-koeln.de/item/buchseite/6266">
+               <term ref="#http://arachne.uni-koeln.de/item/objekt/16392">Mus. Cap.
+                                            IV. 24</term>.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Wink. Mon. N. 110.169.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://dfg-viewer.de/v2/?set[image]=407&amp;set[zoom]=default&amp;set[debug]=0&amp;set[double]=0&amp;set[mets]=http%3A%2F%2Fgdz.sub.uni-goettingen.de%2Fmets_export.php%3FPPN%3DPPN636574237</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://dfg-viewer.de/v2/?set[image]=407&amp;set[zoom]=default&amp;set[debug]=0&amp;set[double]=0&amp;set[mets]=http%3A%2F%2Fgdz.sub.uni-goettingen.de%2Fmets_export.php%3FPPN%3DPPN636574237">
+               <term ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-112.tei.xml-d22712e546">Wink. Mon. N. 110.169.</term>
+            </ref>
+         </bibl>
+      </nodes>
+   </tag>
+</tags>

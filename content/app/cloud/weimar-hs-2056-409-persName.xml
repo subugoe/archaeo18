@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Bachelier, Jean-Jacques</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00567141</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00567141"
+                   key="#PND:121955435">Bachelier<addName type="display">Bachelier, Jean-Jacques</addName>
+            <addName>Jean-Jacques Bachelier</addName>
+            <addName>Jean Jacques Bachelier</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Lorrain , Louis Joseph le</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300322</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300322">le Lorraine<addName type="display">Lorrain , Louis Joseph le</addName>
+            <addName>Louis Joseph le Lorrain</addName>
+            <addName>le Lorraine</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Thubières, Anne Claude Philippe ¬de¬</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01099958</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01099958">Caylus<addName type="display">Thubières, Anne Claude Philippe ¬de¬</addName>
+            <addName>Anne Claude Philippe de Thubières</addName>
+            <addName>Caylus Graf</addName>
+            <addName>Caylus</addName>
+            <addName>Thubières, Anne Claude Philippe de Comte de Caylus</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:10008700 http://arachne.uni-koeln.de/item/objekt/14982</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:10008700 #http://arachne.uni-koeln.de/item/objekt/14982">
+                                            Diadem</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/215888</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/215888">56.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/15853</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/15853">57.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-123.tei.xml-d7799e29">tab. 24.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Potsdam</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-123.tei.xml-d7799e36">Bronce zu <placeName ref="#GettyID:7004463">Sanssouci<addName type="display">Potsdam</addName>
+               <addName>Potsdam</addName>
+               <addName>Poztupimi</addName>
+               <addName>Poczdam</addName>
+               <addName>Potstamp</addName>
+               <addName>Postupim</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Dresden</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-123.tei.xml-d7799e137">in <placeName ref="#GettyID:7004455">Dresden<addName type="display">Dresden</addName>
+               <addName>Dresden</addName>
+               <addName>Dresde</addName>
+               <addName>Ďrežd'ane</addName>
+               <addName>Drezdane</addName>
+               <addName>Drezdzany</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Cincinnatus, Lucius Quinctius</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:156431 http://arachne.uni-koeln.de/item/objekt/14706</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:156431 #http://arachne.uni-koeln.de/item/objekt/14706">
+            <persName ref="#CerlID:cnp00583167" key="#PND:124874576">Quinctius Cincinnatus<addName type="display">Cincinnatus, Lucius Quinctius</addName>
+               <addName>Lucius Quinctius Cincinnatus</addName>
+               <addName>Quinticus Cincinnatus</addName>
+               <addName>Lucio Quinzio Cincinnato</addName>
+               <addName>Cincinnato</addName>
+               <addName>Quinctius Cincinnatus</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Papirius Praetextatus, Lucius</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/gruppen/401268 http://arachne.uni-koeln.de/item/objekt/16992 http://arachne.uni-koeln.de/item/objekt/16993</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/gruppen/401268 #http://arachne.uni-koeln.de/item/objekt/16992 #http://arachne.uni-koeln.de/item/objekt/16993">
+            <persName ref="#CerlID:cnp00574887" key="#PND:123326060">Papirius<addName type="display">Papirius Praetextatus, Lucius</addName>
+               <addName>Lucius Papirius Praetextatus</addName>
+               <addName>Praetextatus</addName>
+            </persName> mit seiner Mutter</term>
+      </nodes>
+   </tag>
+</tags>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>JunoLucina  (Göttin)InoBacchus</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/28066</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/28066">Eine <persName ref="#CerlID:cnp00589422" key="#PND:118800574">Juno<addName type="display">Juno</addName>
+               <addName>Cupra</addName>
+               <addName>Pronuba</addName>
+            </persName> Lucina oder <persName ref="#CerlID:cnp01300268">Rumilia<addName type="display">Lucina  (Göttin)</addName>
+               <addName>Dea Lucina</addName>
+               <addName>Rumilia</addName>
+            </persName>, oder 
+                                                     nach seiner neuen Vermuthung eine <persName ref="#CerlID:cnp00553936" key="#PND:119362511">Leu- 
+                                                     cothea<addName type="display">Ino</addName>
+               <addName>Leucothea</addName>
+            </persName> mit dem jungen <persName ref="#CerlID:cnp00579062" key="#PND:118651439">Bachus<addName type="display">Bacchus</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Campidoglio</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:157791 http://arachne.uni-koeln.de/item/objekt/26117</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:157791 #http://arachne.uni-koeln.de/item/objekt/26117">Der runde Altar im <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000358">Campidoglio</term> mit 
+                                                     den 12. Gottheiten</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000358</link>
+      <count>6</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000358">Campidoglio</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>ApollonMerkurDiana</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:10011345 http://arachne.uni-koeln.de/item/objekt/39423</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:10011345 #http://arachne.uni-koeln.de/item/objekt/39423">Ein runder Altar im <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000358">Campidoglio</term>
+                                                     mit dem <persName ref="#CerlID:cnp00542641" key="#PND:118503642">Apollo<addName type="display">Apollon</addName>
+               <addName>Apoll</addName>
+               <addName>Apollo</addName>
+               <addName>Phoebus</addName>
+            </persName>, <persName ref="#CerlID:cnp00575540" key="#PND:118641077">Mercur<addName type="display">Merkur</addName>
+               <addName>Mercurius</addName>
+            </persName> und der <persName ref="#CerlID:cnp00584638" key="#PND:118678132">Diana<addName type="display">Diana</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Herakles</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/39176</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/39176">Ein viereckigter Altar mit den 12 
+                                                     Arbeiten des <persName ref="#CerlID:cnp00574918" key="#PND:118639552">Herckules<addName type="display">Herakles</addName>
+               <addName>Ercole</addName>
+               <addName>Heracles</addName>
+               <addName>Hercules</addName>
+               <addName>Herkules</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>JunoMartial</tag>
+      <facet>tei:term</facet>
+      <link>http://census.bbaw.de/easydb/censusID=151639</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0" ref="#CensusID:151639">Eine <persName ref="#CerlID:cnp00589422" key="#PND:118800574">Junu<addName type="display">Juno</addName>
+               <addName>Cupra</addName>
+               <addName>Pronuba</addName>
+            </persName> mit der Zange, <persName ref="#CerlID:cnp01237014" key="#PND:11857826X">Martialis<addName type="display">Martial</addName>
+               <addName>Marc Valeri Marcial</addName>
+               <addName>M. Valerius Martialis</addName>
+               <addName>Marcus Valerius Martialis</addName>
+               <addName>Marco Valerio Marcial</addName>
+               <addName>Marziale</addName>
+               <addName>Marco Valerio Marziale</addName>
+               <addName>M. Vale. Mar</addName>
+               <addName>M. Vale. Martialis</addName>
+               <addName>M.V. Martialis</addName>
+               <addName>M. Valeri Marcial</addName>
+               <addName>Marcial, M. Valeri ca. 38-ca. 104</addName>
+               <addName>M. Valerio Marcial</addName>
+               <addName>Marcial, M. Valerio ca. 38-ca. 104</addName>
+               <addName>Marc Valeri, Marcial</addName>
+               <addName>Marcial, Marc Valeri, ca. 38-ca. 104</addName>
+               <addName>Marcial, Marco Valerio 38-41-ca. 104</addName>
+               <addName>Marcial, Marco Valerio ca. 38-ca. 104</addName>
+               <addName>Mark Valerij Marcial</addName>
+               <addName>Marcial ca. 38-ca. 104</addName>
+               <addName>Marcus Valerius Marcialis</addName>
+               <addName>Marcialis</addName>
+               <addName>Marko Valerio Marcialo</addName>
+               <addName>Marcialo</addName>
+               <addName>Marcjalis</addName>
+               <addName>Marek W. Marcyalis</addName>
+               <addName>Marcyalis</addName>
+               <addName>Marek Waleryus Marcyalis</addName>
+               <addName>Martial</addName>
+               <addName>M. V. Martial</addName>
+               <addName>M. Val. Martial</addName>
+               <addName>Marcus V. Martial</addName>
+               <addName>Marcus Valerius Martial</addName>
+               <addName>Martial de Bibilis</addName>
+               <addName>Martial de Bilbilis</addName>
+               <addName>Martial Poète Satirique</addName>
+               <addName>M. Val. Martialis</addName>
+               <addName>Martialis, M. Val. ca. 38-ca. 104</addName>
+               <addName>Marcus V. Martialis</addName>
+               <addName>Martialis, Marcus Valerius ca. 38-ca. 104</addName>
+               <addName>Markus Valerius Martialis</addName>
+               <addName>P. V. Martialis</addName>
+               <addName>P. Valerius Martialis</addName>
+               <addName>Valerius Martialis</addName>
+               <addName>Martialis Bilbilitanus</addName>
+               <addName>Martialis Epigrammaticus</addName>
+               <addName>Martialis ex Hispania</addName>
+               <addName>Martialis ex Hispania Tarraconensis</addName>
+               <addName>Martialis Poet</addName>
+               <addName>Martialis Tarraconensis</addName>
+               <addName>Martiall</addName>
+               <addName>Martiall</addName>
+               <addName>Marko Valerij Martijal</addName>
+               <addName>Martijal</addName>
+               <addName>Marziale</addName>
+               <addName>M. Marziale</addName>
+               <addName>M. Valerius Marziale</addName>
+               <addName>Marziale, Marco Valerio ca. 38-ca. 104</addName>
+               <addName>Valerius</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+</tags>

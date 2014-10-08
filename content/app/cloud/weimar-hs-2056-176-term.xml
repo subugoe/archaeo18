@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/130736</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/130736">20.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/13278</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/13278">18.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/26950</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/26950">152.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://census.bbaw.de/easydb/censusID=160866</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0" ref="#CensusID:160866">7.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://census.bbaw.de/easydb/censusID=160657</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0" ref="#CensusID:160657">8.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Hekate</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/22306 http://arachne.uni-koeln.de/item/objekt/53974</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/22306 #http://arachne.uni-koeln.de/item/objekt/53974">Eine <persName ref="#CerlID:cnp00541782" key="#PND:118901419">Hecate<addName type="display">Hekate</addName>
+               <addName>Hecate</addName>
+            </persName> als Herme</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>DianaEndymion</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/56765</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/56765">Relief von <persName ref="#CerlID:cnp00584638" key="#PND:118678132">Diana<addName type="display">Diana</addName>
+            </persName> und <persName ref="#CerlID:cnp01303729">Endymion<addName type="display">Endymion</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Nymphen</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/17864</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/17864">Idee einer <persName ref="#CerlID:cnp01300353">Nymphe<addName type="display">Nymphen</addName>
+               <addName>Nymphe</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/26864</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/26864">Die besten</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-176.tei.xml-d5869e247">eine liegende</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-176.tei.xml-d5869e267">eine schöne 
+                                       schlafende</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Nymphen</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-176.tei.xml-d5869e276">Eine vermeynte <persName ref="#CerlID:cnp01300353">Nymphe<addName type="display">Nymphen</addName>
+               <addName>Nymphe</addName>
+            </persName>
+                                   im <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000001">Farnesischen Pallast</term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000001</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000001">Farnesischen Pallast</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Venus</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/7182</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/7182">Die <persName ref="#CerlID:cnp00588078" key="#PND:11876800X">Venus<addName type="display">Venus</addName>
+               <addName>Anadyomene  Beiname</addName>
+               <addName>Anadyomene</addName>
+               <addName>Arelatensis  Beiname</addName>
+               <addName>Arelatensis</addName>
+               <addName>aurea  Beiname</addName>
+               <addName>aurea</addName>
+               <addName>coelestis  Beiname</addName>
+               <addName>coelestis</addName>
+               <addName>Gnidia  Beiname</addName>
+               <addName>Gnidia</addName>
+               <addName>Marina  Beiname</addName>
+               <addName>Marina</addName>
+               <addName>Pelasgia  Beiname</addName>
+               <addName>Pelasgia</addName>
+               <addName>Pontia  Beiname</addName>
+               <addName>Pontia</addName>
+               <addName>Urania  Beiname</addName>
+               <addName>Urania</addName>
+               <addName>Victrix  Beiname</addName>
+               <addName>Victrix</addName>
+            </persName> liegend im <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000632">Wallmodishen</term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000632</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000632">Wallmodishen</term>
+      </nodes>
+   </tag>
+</tags>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Mus. Cap. 39.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/item/buchseite/5755</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://arachne.uni-koeln.de/item/buchseite/5755">
+               <term ref="#CensusID:159319 #http://arachne.uni-koeln.de/item/objekt/15956">Mus. Cap. 39.</term>
+            </ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Flor. 16</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/gori1734bd3/0052</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/gori1734bd3/0052">
+               <term ref="#http://arachne.uni-koeln.de/item/objekt/5840">Flor. 16</term>
+            </ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Statue di Venezia. 14.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/zanetti1743bd2/0029</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/zanetti1743bd2/0029">
+               <term ref="#http://arachne.uni-koeln.de/item/objekt/22214">Statue di Venezia. 14.</term>
+            </ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Cap.Clem. 28</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/visconti1782bd1/0142</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/visconti1782bd1/0142">Cap.Clem.
+                                                28</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Clem.24</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/visconti1782bd1/0138</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/visconti1782bd1/0138">Clem. <term ref="#http://arachne.uni-koeln.de/item/objekt/20975">24</term>
+            </ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>25.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/visconti1782bd1/0139</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/visconti1782bd1/0139">
+               <term ref="#http://arachne.uni-koeln.de/item/objekt/21175">25.</term>
+            </ref>
+         </bibl>
+      </nodes>
+   </tag>
+</tags>

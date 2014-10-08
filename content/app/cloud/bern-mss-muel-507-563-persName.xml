@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Thubières, Anne Claude Philippe ¬de¬</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01099958</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01099958">Cailus<addName type="display">Thubières, Anne Claude Philippe ¬de¬</addName>
+            <addName>Anne Claude Philippe de Thubières</addName>
+            <addName>Caylus Graf</addName>
+            <addName>Caylus</addName>
+            <addName>Thubières, Anne Claude Philippe de Comte de Caylus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Mithras</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300347</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300347">Myidras<addName type="display">Mithras</addName>
+            <addName>Mythres</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Jahwe</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00554040</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00554040"
+                       key="#PND:118556703">Jehova<addName type="display">Jahwe</addName>
+            <addName>Jahve</addName>
+            <addName>Jehova</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>L'Heureux, Jean</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01147085</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01147085"
+                       key="#PND:135923123">J. Macarius<addName type="display">L'Heureux, Jean</addName>
+            <addName>Jean L'Heureux</addName>
+            <addName>Johannes Macarius</addName>
+            <addName>Jean l' Heureux</addName>
+            <addName>Heureux</addName>
+            <addName>Joannes L'Heureux</addName>
+            <addName>Joannes Macarius L'Heureux</addName>
+            <addName>Johannes L'Heureux</addName>
+            <addName>Joannes de Macar</addName>
+            <addName>Macar</addName>
+            <addName>Ioannes Macarius</addName>
+            <addName>Joannes Macarius</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Medusa</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00543010</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00543010"
+                   key="#PND:118943936">Medusa<addName type="display">Medusa</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Wallmoden-Gimborn, Johann Ludwig ¬von¬</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00664371</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00664371"
+                   key="#PND:130253219">Wallmoden<addName type="display">Wallmoden-Gimborn, Johann Ludwig ¬von¬</addName>
+            <addName>Johann Ludwig von Wallmoden-Gimborn</addName>
+            <addName>Johann L. von Gimborn</addName>
+            <addName>Gimborn</addName>
+            <addName>Johann Ludwig Gimborn</addName>
+            <addName>Johann Ludwig von Wallmoden- Gimborn</addName>
+            <addName>Ludwig von Wallmoden- Gimborn</addName>
+            <addName>Johann Ludwig von Wallmoden</addName>
+            <addName>Wallmoden</addName>
+            <addName>Johann L. von Wallmoden-Gimborn</addName>
+            <addName>Ludwig von Wallmoden-Gimborn</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Solon (Steinschneider)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300403</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300403">Solon<addName type="display">Solon (Steinschneider)</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Iole</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300301</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300301">Jole<addName type="display">Iole</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Omphale (Sagengestalt)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00622914</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00622914"
+                   key="#PND:129702978">Omphale<addName type="display">Omphale (Sagengestalt)</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Deianeira</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00543911</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00543911"
+                   key="#PND:118977164">Dejanira<addName type="display">Deianeira</addName>
+            <addName>Deianira</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Herakles</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00574918</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00574918"
+                   key="#PND:118639552">Hercules<addName type="display">Herakles</addName>
+            <addName>Ercole</addName>
+            <addName>Heracles</addName>
+            <addName>Hercules</addName>
+            <addName>Herkules</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Firmian, Carlo</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00545556</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00545556"
+                   key="#PND:119036037">Firmiani<addName type="display">Firmian, Carlo</addName>
+            <addName>Carlo Firmian</addName>
+            <addName>Graf Firmiani</addName>
+            <addName>Carl Gotthard zu Firmian</addName>
+            <addName>Carl Joseph Gotthard zu Firmian</addName>
+            <addName>Carl zu Firmian</addName>
+            <addName>Carlo Giuseppe di Firmian</addName>
+            <addName>Carlo Gottardo Firmian</addName>
+            <addName>Carlo di Firmian</addName>
+            <addName>Carolus a Firmian</addName>
+            <addName>Karl Gotthard zu Firmian</addName>
+            <addName>Karl J. von Firmian</addName>
+            <addName>Karl Joseph von Firmian</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

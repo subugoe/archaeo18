@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Natter p. 10 Vorrede</tag>
+      <facet>tei:bibl</facet>
+      <link>http://opac.sub.uni-goettingen.de/DB=1/PPNSET?PPN=133484483</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://opac.sub.uni-goettingen.de/DB=1/PPNSET?PPN=133484483">Natter p. 10 Vorrede</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Mariette pag: 203</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/item/buchseite/230857</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://arachne.uni-koeln.de/item/buchseite/230857">Mariette pag: 203</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Vettori pag: 100</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN663517230</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN663517230">Vettori pag: 100</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Iannon di St Laur. p. 11. Diss. III.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN668371781</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN668371781">Iannon di St Laur. p. 11. Diss. III.</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Rosmann, remarques sur le Cachet de M. A. p. 7. 8.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://www.mdz-nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb10257537-7 http://www.mdz-nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb10257537-7</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://www.mdz-nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb10257537-7 #http://www.mdz-nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb10257537-7">Rosmann, remarques sur le Cachet
+                de M. A. p. 7. 8.</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Kloz p. 45.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN601144201</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN601144201">Kloz p. 45.</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+</tags>

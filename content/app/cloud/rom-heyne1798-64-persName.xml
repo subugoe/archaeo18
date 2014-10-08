@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Apollon</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00542641</link>
+      <count>10</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00542641"
+                   key="#PND:118503642">Apollo<addName type="display">Apollon</addName>
+            <addName>Apoll</addName>
+            <addName>Apollo</addName>
+            <addName>Phoebus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Python</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300385</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300385">Python<addName type="display">Python</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Myron (Künstler)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00586879</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00586879"
+                   key="#PND:118735497">Myron<addName type="display">Myron (Künstler)</addName>
+            <addName>Miron</addName>
+            <addName>Myron von Eleutherae</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Skopas</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00589299</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00589299"
+                   key="#PND:118797522">Scopas<addName type="display">Skopas</addName>
+            <addName>Scopas</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Praxiteles</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00589123</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00589123"
+                   key="#PND:118793241">Praxiteles<addName type="display">Praxiteles</addName>
+            <addName>Prassitele</addName>
+            <addName>Praxitèle</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pythagoras (von Rhegion)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00589153</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00589153"
+                   key="#PND:118793756">Pythagoras<addName type="display">Pythagoras (von Rhegion)</addName>
+            <addName>Phythagoras</addName>
+            <addName>Pytagoras Reginus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pytheus (Historicus)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00285695</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00285695"
+                   key="#PND:102404879">Pytheus<addName type="display">Pytheus (Historicus)</addName>
+            <addName>Pytheos Architekt</addName>
+            <addName>Pytheos</addName>
+            <addName>Pytheos Bildhauer</addName>
+            <addName>Pytheos Historiker</addName>
+            <addName>Pytheus-Satyrus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Kalamis</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00547172</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00547172"
+                   key="#PND:119097087">Calamis<addName type="display">Kalamis</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

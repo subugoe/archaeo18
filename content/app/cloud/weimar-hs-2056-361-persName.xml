@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Leda</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300313</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300313">Leda<addName type="display">Leda</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Balduin II. (von Courtenay)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01288203</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01288203">König Balduin<addName type="display">Balduin II. (von Courtenay)</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Livia Drusilla (Römisches Reich, Kaiserin)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00550548</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00550548"
+                   key="#PND:119226014">Livia<addName type="display">Livia Drusilla (Römisches Reich, Kaiserin)</addName>
+            <addName>Iulia Augusta</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Tiberius, Julius Caesar Augustus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00917337</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00917337"
+                   key="#PND:118622501">Tiberius<addName type="display">Tiberius, Julius Caesar Augustus</addName>
+            <addName>Julius Caesar Augustus Tiberius</addName>
+            <addName>Claudius Tiberius Nero Imperium Romanum, Imperator</addName>
+            <addName>Claudius Tiberius Nero</addName>
+            <addName>Claudius Nero Tiberius</addName>
+            <addName>Claudius</addName>
+            <addName>Iulius Tiberius</addName>
+            <addName>Iulius</addName>
+            <addName>Kaiser Tiberius</addName>
+            <addName>Nero Tiberius</addName>
+            <addName>Claudius T. Nero</addName>
+            <addName>Nero</addName>
+            <addName>Tiberio Imperatore</addName>
+            <addName>Tiberio</addName>
+            <addName>Tiberius Caesar</addName>
+            <addName>Tiberius Iulius Caesar Augustus</addName>
+            <addName>Tiberius Nero</addName>
+            <addName>Tiberius Caesar Augustus</addName>
+            <addName>Tiberius Imperator</addName>
+            <addName>Tiberius Medicus</addName>
+            <addName>Tiberius Römischer Kaiser</addName>
+            <addName>Tiberius Romanus</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

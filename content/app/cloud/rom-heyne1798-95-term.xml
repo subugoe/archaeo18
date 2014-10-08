@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Kassel</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-95.tei.xml-d3591e345">der Broncene in <placeName ref="#GettyID:7004431">Cassel<addName type="display">Kassel</addName>
+               <addName>Kassel</addName>
+               <addName>Cassel</addName>
+               <addName>Casle</addName>
+               <addName>Chassala</addName>
+               <addName>Chassela</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:156669 http://arachne.uni-koeln.de/item/objekt/6564</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:156669 #http://arachne.uni-koeln.de/item/objekt/6564">der im Pallaste Pitti</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:156663 http://arachne.uni-koeln.de/item/objekt/232288</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:156663 #http://arachne.uni-koeln.de/item/objekt/232288">18.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/15312</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/15312">Colossalfigur 12 f. hoch aus Basalt</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Capitol</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/26191</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/26191">in Bronce auf dem <placeName ref="#http://arachne.uni-koeln.de/item/topographie/500002">Capitol</placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Roma</tag>
+      <facet>tei:term</facet>
+      <link>http://census.bbaw.de/easydb/censusID=150870</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0" ref="#CensusID:150870">
+            <placeName ref="#GettyID:7000874">Forum Boarium<addName type="display">Roma</addName>
+               <addName>Roma</addName>
+               <addName>Urbe</addName>
+               <addName>Rome</addName>
+               <addName>Rom</addName>
+               <addName>Roman</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://census.bbaw.de/easydb/censusID=151136</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0" ref="#CensusID:151136">ara maxima Herculis</term>
+      </nodes>
+   </tag>
+</tags>

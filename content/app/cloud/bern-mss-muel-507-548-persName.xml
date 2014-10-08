@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Germanicus, Caesar</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00980264</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00980264"
+                       key="#PND:118538748">Germanicus<addName type="display">Germanicus, Caesar</addName>
+            <addName>Caesar Germanicus</addName>
+            <addName>Iulius C. Germanicus</addName>
+            <addName>Julius C. Germanicus</addName>
+            <addName>Caesar</addName>
+            <addName>Claudius Caesar</addName>
+            <addName>Claudius</addName>
+            <addName>Germanico</addName>
+            <addName>Gaius Iulius Germanicus</addName>
+            <addName>Gaius Iulius Caesar Germanicus</addName>
+            <addName>Gajus Julius Germanicus</addName>
+            <addName>Iulius Caesar Germanicus</addName>
+            <addName>Julius Caesar Germanicus</addName>
+            <addName>Nero Claudius Germanicus</addName>
+            <addName>Germanicus Adoptivsohn des Tiberius</addName>
+            <addName>Germanicus Epigrammaticus</addName>
+            <addName>Iulius Caesar</addName>
+            <addName>Nero Claudius</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Tiberius, Julius Caesar Augustus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00917337</link>
+      <count>4</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00917337"
+                       key="#PND:118622501">Tiberius<addName type="display">Tiberius, Julius Caesar Augustus</addName>
+            <addName>Julius Caesar Augustus Tiberius</addName>
+            <addName>Claudius Tiberius Nero Imperium Romanum, Imperator</addName>
+            <addName>Claudius Tiberius Nero</addName>
+            <addName>Claudius Nero Tiberius</addName>
+            <addName>Claudius</addName>
+            <addName>Iulius Tiberius</addName>
+            <addName>Iulius</addName>
+            <addName>Kaiser Tiberius</addName>
+            <addName>Nero Tiberius</addName>
+            <addName>Claudius T. Nero</addName>
+            <addName>Nero</addName>
+            <addName>Tiberio Imperatore</addName>
+            <addName>Tiberio</addName>
+            <addName>Tiberius Caesar</addName>
+            <addName>Tiberius Iulius Caesar Augustus</addName>
+            <addName>Tiberius Nero</addName>
+            <addName>Tiberius Caesar Augustus</addName>
+            <addName>Tiberius Imperator</addName>
+            <addName>Tiberius Medicus</addName>
+            <addName>Tiberius Römischer Kaiser</addName>
+            <addName>Tiberius Romanus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Viktoria (Göttin)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00588089</link>
+      <count>4</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00588089"
+                       key="#PND:118768344">Victoria<addName type="display">Viktoria (Göttin)</addName>
+            <addName>Victoria</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Augustus (Emperor of Rome)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00971385</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00971385"
+                       key="#PND:118505122">August<addName type="display">Augustus (Emperor of Rome)</addName>
+            <addName>Auguste Empereur</addName>
+            <addName>Auguste</addName>
+            <addName>Caio Giulio Cesare Ottaviano Augusto</addName>
+            <addName>Augusto</addName>
+            <addName>Cesare Augusto</addName>
+            <addName>Cesare Ottaviano Augusto</addName>
+            <addName>Ottaviano Augusto</addName>
+            <addName>Augustus Caesar</addName>
+            <addName>Caesar Augustus</addName>
+            <addName>Caesar Octavianus Augustus</addName>
+            <addName>Caius J. Augustus</addName>
+            <addName>Caius Julius Caesar Augustus</addName>
+            <addName>Cesar Octavianus Augustus</addName>
+            <addName>Gaius I. Augustus</addName>
+            <addName>Gaius Iulius Caesar Augustus</addName>
+            <addName>Gaius Iulius Caesar Octavianus Augustus</addName>
+            <addName>Gaius Julius Augustus</addName>
+            <addName>Gaius Julius Caesar Octavianus Augustus</addName>
+            <addName>Gaius Octavius Augustus</addName>
+            <addName>Iulius Caesar Octavianus Augustus</addName>
+            <addName>Octavianus Augustus</addName>
+            <addName>Octavius Caesar Augustus</addName>
+            <addName>Augustus Divus</addName>
+            <addName>Augustus Imperator</addName>
+            <addName>Augustus Imperium Romanum, Caesar</addName>
+            <addName>Augustus Kaiser</addName>
+            <addName>Augustus Römisches Reich, Kaiser</addName>
+            <addName>Augustus Roemisches Reich, Kaiser</addName>
+            <addName>Augustus Romanus</addName>
+            <addName>Augustus Verfasser der Res Gestae</addName>
+            <addName>Caius Octavianus Imperium Romanum, Imperator</addName>
+            <addName>Caius Octavianus</addName>
+            <addName>Caius Oktavius Imperium Romanum, Augustus</addName>
+            <addName>Caius Oktavius</addName>
+            <addName>Caius Oktavius Imperium Romanum, Imperator</addName>
+            <addName>Gaius Julius Caesar Octavianus</addName>
+            <addName>Gaius Octavius</addName>
+            <addName>Gaius Octavius Emperor of Rome</addName>
+            <addName>Octavian</addName>
+            <addName>Octavianus</addName>
+            <addName>Octavius</addName>
+            <addName>Octavius Caesar Emperor of Rome</addName>
+            <addName>Octavius Caesar</addName>
+            <addName>Octavius Augustus</addName>
+            <addName>Ottaviano</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Livia Drusilla (Römisches Reich, Kaiserin)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00550548</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00550548"
+                       key="#PND:119226014">Livia<addName type="display">Livia Drusilla (Römisches Reich, Kaiserin)</addName>
+            <addName>Iulia Augusta</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Jupiter</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00554429</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00554429"
+                       key="#PND:118558897">Jupiter<addName type="display">Jupiter</addName>
+            <addName>Iupiter</addName>
+            <addName>Juppiter</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Juno</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00589422</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00589422"
+                       key="#PND:118800574">Juno<addName type="display">Juno</addName>
+            <addName>Cupra</addName>
+            <addName>Pronuba</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Marcellus, Marcus Claudius (Politiker, 42 v.Chr.-23 v.Chr.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01198164</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01198164">Marcellus<addName type="display">Marcellus, Marcus Claudius (Politiker, 42 v.Chr.-23 v.Chr.)</addName>
+            <addName>Marcus Claudius Marcellus</addName>
+            <addName>Claudius Marcellus, Marcus Politiker, 42 v.Chr.-23 v.Chr.</addName>
+            <addName>Claudius Marcellus</addName>
+            <addName>Marcus Claudius Marcellus Politiker, 42 v.Chr.-23 v.Chr.</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Octavia (Minor)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00564732</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00564732"
+                       key="#PND:121421287">Octavia<addName type="display">Octavia (Minor)</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Julia (Tochter des Augustus)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00586102</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00586102"
+                       key="#PND:118714058">Julia<addName type="display">Julia (Tochter des Augustus)</addName>
+            <addName>Iulia Tochter des Augustus</addName>
+            <addName>Iulia</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

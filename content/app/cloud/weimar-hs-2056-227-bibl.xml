@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>II. Vol: Fol.</tag>
+      <facet>tei:bibl</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#">
+                                                
+                                                II. Vol: Fol.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Borrioni Collectanea Ant: rom: Rom: 1736. Fol. 100. pl.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/venuti1736</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/venuti1736">Borrioni Collectanea Ant: rom: Rom: 1736.
+                                                Fol. 100. pl.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Lettera nella quale vengono espressi colle Figure in Roma edilucitati colle annotazione dal P. Gangr. Scar- so vari antichi monumenti. Ven: 1739. 4.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN654906629</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN654906629">Lettera nella quale vengono espressi 
+                                                colle Figure in Roma edilucitati 
+                                                colle annotazione dal P. Gangr. Scar- 
+                                                so vari antichi monumenti. Ven: 
+                                                1739. 4.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Antiquitatis Reliquiæ à March: I: Mu- selio. Veron: 1756. Fol.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN660697920</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN660697920">Antiquitatis Reliquiæ à March: I: Mu- 
+                                                selio. Veron: 1756. Fol.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Musei Kirkeriani in romano Societis</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/contucci1763</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/contucci1763">Musei Kirkeriani in romano Societis</ref>
+         </bibl>
+      </nodes>
+   </tag>
+</tags>

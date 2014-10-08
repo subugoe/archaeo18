@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Augsburg</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7004324</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7004324">Augsburg<addName type="display">Augsburg</addName>
+            <addName>Augsburg</addName>
+            <addName>Augsbourg</addName>
+            <addName>Augusta Vindelicorum</addName>
+            <addName>Augusta Vindelicensis</addName>
+            <addName>Augusta Vindelicum</addName>
+            <addName>Augusta Vindelica</addName>
+            <addName>Augusta Vindelicia</addName>
+            <addName>Augusta Raetorum</addName>
+            <addName>Augusta Genannia</addName>
+            <addName>Augustidunum</addName>
+            <addName>Zigaris</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Volterra</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7006305</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7006305">Volaterra<addName type="display">Volterra</addName>
+            <addName>Volterra</addName>
+            <addName>Volaterrae</addName>
+            <addName>Volterrae</addName>
+            <addName>Velathri</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+</tags>

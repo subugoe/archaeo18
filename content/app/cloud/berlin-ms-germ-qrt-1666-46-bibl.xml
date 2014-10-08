@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>no 14.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/item/buchseite/5730</link>
+      <link>http://arachne.uni-koeln.de/item/gruppen/400206</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://arachne.uni-koeln.de/item/buchseite/5730">
+               <TEI:term ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/berlin-ms-germ-qrt-1666-46.tei.xml-d14454e14"
+                         target="#http://arachne.uni-koeln.de/item/gruppen/400206">no 14.</TEI:term>
+            </TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Winckelmann G.d.K.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/winckelmann1764</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://digi.ub.uni-heidelberg.de/diglit/winckelmann1764">Winckelmann G.d.K.</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>no 15.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/item/buchseite/5731</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://arachne.uni-koeln.de/item/buchseite/5731">
+               <TEI:term ref="#http://arachne.uni-koeln.de/item/objekt/37747">no 15.</TEI:term>
+            </TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Mus. Florentinum III</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/gori1734bd3</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://digi.ub.uni-heidelberg.de/diglit/gori1734bd3">Mus. Florentinum III</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>8</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/gori1734bd3/0044</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://digi.ub.uni-heidelberg.de/diglit/gori1734bd3/0044">8</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>9</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/gori1734bd3/0045</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://digi.ub.uni-heidelberg.de/diglit/gori1734bd3/0045">9</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>10.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/gori1734bd3/0046</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://digi.ub.uni-heidelberg.de/diglit/gori1734bd3/0046">10.</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>11.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/gori1734bd3/0047</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://digi.ub.uni-heidelberg.de/diglit/gori1734bd3/0047">11.</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>12.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/gori1734bd3/0048</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://digi.ub.uni-heidelberg.de/diglit/gori1734bd3/0048">12.</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Richardson. 82.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://reader.digitale-sammlungen.de/de/fs1/object/display/bsb10258738_00188.html</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://reader.digitale-sammlungen.de/de/fs1/object/display/bsb10258738_00188.html">Richardson. 82.</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+</tags>

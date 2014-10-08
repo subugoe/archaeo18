@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Warburton Sendung Moses.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://catalog.hathitrust.org/Record/008728109</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://catalog.hathitrust.org/Record/008728109">Warburton Sendung Moses.</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Rec. de Caylus tome 7d.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://www.zvdd.de/dms/load/toc/?PPN=urn%3Anbn%3Ade%3Absz%3A16-diglit-26326</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://www.zvdd.de/dms/load/toc/?PPN=urn%3Anbn%3Ade%3Absz%3A16-diglit-26326">Rec. de Caylus tome 7d.</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pocoke</tag>
+      <facet>tei:bibl</facet>
+      <link>http://opac.sub.uni-goettingen.de/DB=1/PPNSET?PPN=135187540</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://opac.sub.uni-goettingen.de/DB=1/PPNSET?PPN=135187540">Pocoke</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+</tags>

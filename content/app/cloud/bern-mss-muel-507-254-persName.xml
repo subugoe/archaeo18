@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Germanicus, Caesar</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00980264</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00980264"
+                       key="#PND:118538748">Germanicus<addName type="display">Germanicus, Caesar</addName>
+            <addName>Caesar Germanicus</addName>
+            <addName>Iulius C. Germanicus</addName>
+            <addName>Julius C. Germanicus</addName>
+            <addName>Caesar</addName>
+            <addName>Claudius Caesar</addName>
+            <addName>Claudius</addName>
+            <addName>Germanico</addName>
+            <addName>Gaius Iulius Germanicus</addName>
+            <addName>Gaius Iulius Caesar Germanicus</addName>
+            <addName>Gajus Julius Germanicus</addName>
+            <addName>Iulius Caesar Germanicus</addName>
+            <addName>Julius Caesar Germanicus</addName>
+            <addName>Nero Claudius Germanicus</addName>
+            <addName>Germanicus Adoptivsohn des Tiberius</addName>
+            <addName>Germanicus Epigrammaticus</addName>
+            <addName>Iulius Caesar</addName>
+            <addName>Nero Claudius</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Kleomenes (Künstler, 1. Hälfte 1. Jh. v. Chr.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00833795</link>
+      <count>4</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00833795"
+                       key="#PND:131851330">Cleomenes<addName type="display">Kleomenes (Künstler, 1. Hälfte 1. Jh. v. Chr.)</addName>
+            <addName>Kleomenes 3</addName>
+            <addName>Kleomenes Athenaios</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Herbert, Thomas</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00368551</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00368551"
+                       key="#PND:104340932">Pembrocke<addName type="display">Herbert, Thomas</addName>
+            <addName>Thomas Herbert</addName>
+            <addName>Thomas Pembrochiae</addName>
+            <addName>Pembrochiae</addName>
+            <addName>Thomas Pembroke</addName>
+            <addName>Pembroke</addName>
+            <addName>Thomas Herbert Pembroke</addName>
+            <addName>Thomas Herbert of Pembroke</addName>
+            <addName>Thomas of Pembroke</addName>
+            <addName>Thomas Pembroke, Earl, VIII.</addName>
+            <addName>Thomas</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

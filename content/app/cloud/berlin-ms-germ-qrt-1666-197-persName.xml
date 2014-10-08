@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Iulia Mamaea (Römisches Reich, Kaiserin)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00578209</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00578209"
+                       key="#PND:123946298">Julia mammae<addName type="display">Iulia Mamaea (Römisches Reich, Kaiserin)</addName>
+            <addName>Julia Mamaea Römisches Reich, Kaiserin</addName>
+            <addName>Julia Mamaea</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Severus Alexander (Emperor of Rome)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00914937</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00914937"
+                       key="#PND:11861357X">Alexandri Severi<addName type="display">Severus Alexander (Emperor of Rome)</addName>
+            <addName>Marcus A. Alexander Severus</addName>
+            <addName>Alexander Severus</addName>
+            <addName>Marcus Aurelius Alexander Severus</addName>
+            <addName>Alexander Severus Emperor of Rome</addName>
+            <addName>Alexander Severus Imperium Romanum, Imperator</addName>
+            <addName>Alexander Severus Römisches Reich, Kaiser</addName>
+            <addName>Alexandrus Severus</addName>
+            <addName>Gessius B. Alexianus</addName>
+            <addName>Alexianus</addName>
+            <addName>Gessius Bassianus Alexianus</addName>
+            <addName>Marco Aurelio Severo Alessandro</addName>
+            <addName>Marcus Aurelius Severus Alexander</addName>
+            <addName>Alexander S. Marcus Aurelius</addName>
+            <addName>Marcus Aurelius</addName>
+            <addName>Severo Alessandro</addName>
+            <addName>Marcus A. Severus Alexander</addName>
+            <addName>Severus Alexander Imperium Romanum, Imperator</addName>
+            <addName>Severus Alexandrus</addName>
+            <addName>Severus</addName>
+            <addName>Severus Alexandrinus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Iulia Domna (Römisches Reich, Kaiserin)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00554396</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00554396"
+                       key="#PND:118558668">Julia Domma<addName type="display">Iulia Domna (Römisches Reich, Kaiserin)</addName>
+            <addName>Iulia Pia</addName>
+            <addName>Julia Domna Römisches Reich, Kaiserin</addName>
+            <addName>Julia Domna</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Septime Sévère (empereur romain)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01239912</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01239912"
+                       key="#PND:118764659">Severi<addName type="display">Septime Sévère (empereur romain)</addName>
+            <addName>Lucius Septimius Severus Pertinax</addName>
+            <addName>Lucius Septimius Severus</addName>
+            <addName>Septimius Severus empereur romain</addName>
+            <addName>L. Septimius Severus Pertinax Augustus</addName>
+            <addName>Lucius Septimius Severus Pertinax Augustus</addName>
+            <addName>Septime Sévère/Septimius Severus</addName>
+            <addName>Septimus Severus</addName>
+            <addName>Settimio Severo</addName>
+            <addName>Seuerus</addName>
+            <addName>Severus</addName>
+            <addName>Lucius S. Severus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Sabina, Vibia</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00589162</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00589162"
+                       key="#PND:118793934">Sabina<addName type="display">Sabina, Vibia</addName>
+            <addName>Vibia Sabina</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Sibylla</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00095955</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp00095955">Sibillen<addName type="display">Sibylla</addName>
+            <addName>Sybilla</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Agrippina (die Ältere)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00541941</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00541941"
+                       key="#PND:118501100">Agripina<addName type="display">Agrippina (die Ältere)</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/berlin-ms-germ-qrt-1666-197.tei.xml-d18297e269">Praefica</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Hekabe</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300291</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300291">Hecuba<addName type="display">Hekabe</addName>
+            <addName>Hecuba</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

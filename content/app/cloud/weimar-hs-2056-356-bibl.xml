@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>94.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN663517230</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN663517230">
+                                         
+                                         94.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Lippert 1. 2. 290.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/item/buchseite/96510</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://arachne.uni-koeln.de/item/buchseite/96510">Lippert 1. 2. 290.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>365.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/item/buchseite/96516</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://arachne.uni-koeln.de/item/buchseite/96516">365.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>423.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/item/buchseite/96521</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://arachne.uni-koeln.de/item/buchseite/96521">423.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Natter p: 31.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://opac.sub.uni-goettingen.de/DB=1/PPNSET?PPN=133484483</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://opac.sub.uni-goettingen.de/DB=1/PPNSET?PPN=133484483">Natter p: 31.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+</tags>

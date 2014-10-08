@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-260.tei.xml-d7097e105">turma Alexandri</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Alexander (Magnus)</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-260.tei.xml-d7097e199">Das Pferd des <persName ref="#CerlID:cnp01259691" key="#PND:118501828">Alexanders<addName type="display">Alexander (Magnus)</addName>
+               <addName>Ałekʹsandr Makedonacʹi</addName>
+               <addName>Alejandro Magno</addName>
+               <addName>Alejandro</addName>
+               <addName>Aleksandr</addName>
+               <addName>Alessandro Magno</addName>
+               <addName>Alessandro</addName>
+               <addName>Alexander de Grote</addName>
+               <addName>Alexander der Große</addName>
+               <addName>Alexander der Grosse</addName>
+               <addName>Alexander Epistolographus</addName>
+               <addName>Alexander III 3 koning van Macedonië</addName>
+               <addName>Alexander Kaiser</addName>
+               <addName>Alexander Macedonia, Rex, III.</addName>
+               <addName>Alexander Macedonis</addName>
+               <addName>Alexander Mazedonien, König, III.</addName>
+               <addName>Alexander of Macedon</addName>
+               <addName>Alexander Rex</addName>
+               <addName>Alexandre le Grand</addName>
+               <addName>Alexandre</addName>
+               <addName>Alexandros</addName>
+               <addName>Alexandros der Große</addName>
+               <addName>Alexandru cel Mare</addName>
+               <addName>Alexandru</addName>
+               <addName>Alexandrus Magnus</addName>
+               <addName>Alexandrus</addName>
+               <addName>Megalexandros</addName>
+               <addName>Pseudo-Alexander Magnus</addName>
+               <addName>Pseudo-Alexander</addName>
+               <addName>Grote</addName>
+               <addName>Alexandros Megas</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Dioskuren</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:154692 http://arachne.uni-koeln.de/item/gruppen/400740 http://arachne.uni-koeln.de/item/objekt/18124 http://arachne.uni-koeln.de/item/objekt/56543 http://arachne.uni-koeln.de/item/objekt/56544 http://arachne.uni-koeln.de/item/objekt/56545</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:154692 #http://arachne.uni-koeln.de/item/gruppen/400740 #http://arachne.uni-koeln.de/item/objekt/18124 #http://arachne.uni-koeln.de/item/objekt/56543 #http://arachne.uni-koeln.de/item/objekt/56544 #http://arachne.uni-koeln.de/item/objekt/56545">Pferden der <persName ref="#CerlID:cnp00543824" key="#PND:118973878">dioscuren<addName type="display">Dioskuren</addName>
+               <addName>Castor und Pollux</addName>
+               <addName>Kastor und Pollux</addName>
+            </persName> vor dem Cam- 
+                                    pidoglio</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Herakles</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-260.tei.xml-d7097e302">
+            <persName ref="#CerlID:cnp00574918" key="#PND:118639552">Hercules<addName type="display">Herakles</addName>
+               <addName>Ercole</addName>
+               <addName>Heracles</addName>
+               <addName>Hercules</addName>
+               <addName>Herkules</addName>
+            </persName>επιλραπεξιοσ</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-260.tei.xml-d7097e364">Vulneratus deficiens</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:10034075 http://arachne.uni-koeln.de/item/objekt/15852</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:10034075 #http://arachne.uni-koeln.de/item/objekt/15852">sterbenden Gladiator</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Perikles</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-260.tei.xml-d7097e383">
+            <persName ref="#CerlID:cnp00587048" key="#PND:118739972">Pericles<addName type="display">Perikles</addName>
+               <addName>Pericles</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-260.tei.xml-d7097e441">eine Amazone</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>DianaEphesus</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:155924 http://arachne.uni-koeln.de/item/bauwerk/270095</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:155924 #http://arachne.uni-koeln.de/item/bauwerk/270095">Tempel der <persName ref="#CerlID:cnp00584638" key="#PND:118678132">Diana<addName type="display">Diana</addName>
+            </persName> zu <placeName ref="#GettyID:7002499">Ephesus<addName type="display">Ephesus</addName>
+               <addName>Ephesus</addName>
+               <addName>Ephesos</addName>
+               <addName>Ephèse</addName>
+               <addName>Efes</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-260.tei.xml-d7097e511">Hauptwerck aus Marmor 
+                                        dem Symplegma</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:156379 http://arachne.uni-koeln.de/item/gruppen/400097 http://arachne.uni-koeln.de/item/objekt/5897 http://arachne.uni-koeln.de/item/objekt/34735</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:156379 #http://arachne.uni-koeln.de/item/gruppen/400097 #http://arachne.uni-koeln.de/item/objekt/5897 #http://arachne.uni-koeln.de/item/objekt/34735">Ringern</term>
+      </nodes>
+   </tag>
+</tags>

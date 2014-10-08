@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Lessings Laocoon.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://opac.sub.uni-goettingen.de/DB=1/PPNSET?PPN=13736234X</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://opac.sub.uni-goettingen.de/DB=1/PPNSET?PPN=13736234X">Lessings Laocoon.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Herder Kritische Wälder. Bd. 1.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://opac.sub.uni-goettingen.de/DB=1/PPNSET?PPN=146981898</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://opac.sub.uni-goettingen.de/DB=1/PPNSET?PPN=146981898">Herder Kritische Wälder. Bd. 1.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Racolta 48.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/maffei1704/0065</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/maffei1704/0065">Racolta 48.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Perrier 124.100.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/item/buchseite/182721</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://arachne.uni-koeln.de/item/buchseite/182721">Perrier 124.100.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Sandrart. 2. 10.z.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/sandrart1679b/0032</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/sandrart1679b/0032">Sandrart. 2. 10.z.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Ficaroni vestigia di Roma. 2. c. 7.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/ficoroni1744/0295</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/ficoroni1744/0295">Ficaroni vestigia di Roma. 2. c. 7.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+</tags>

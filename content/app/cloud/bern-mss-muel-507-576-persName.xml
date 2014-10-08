@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Herakles</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00574918</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00574918"
+                       key="#PND:118639552">Hercules<addName type="display">Herakles</addName>
+            <addName>Ercole</addName>
+            <addName>Heracles</addName>
+            <addName>Hercules</addName>
+            <addName>Herkules</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Kerberos</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300248</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300248">Cerberus<addName type="display">Kerberos</addName>
+            <addName>Cerberus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Dioskurides</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300274</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300274">Dioscorides<addName type="display">Dioskurides</addName>
+            <addName>Dioscorides</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Friedrich (Preußen, König, I.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00394800</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00394800"
+                       key="#PND:118535730">Friderich I.<addName type="display">Friedrich (Preußen, König, I.)</addName>
+            <addName>Friderich Brandenburg, Marggraf, III.</addName>
+            <addName>Friderich</addName>
+            <addName>Friderich Preußen, König</addName>
+            <addName>Fridericus Borussia, Rex, III.</addName>
+            <addName>Fridericus</addName>
+            <addName>Fridericus Prussia, Rex</addName>
+            <addName>Friederich Brandenburg, Marggraff</addName>
+            <addName>Friederich</addName>
+            <addName>Friederich Preußen, König</addName>
+            <addName>Fridericus Borussia, Rex</addName>
+            <addName>Fredericus Preußen, König, I.</addName>
+            <addName>Fredericus</addName>
+            <addName>Fridericus Preußen, König, I.</addName>
+            <addName>Friedrich Brandenburg, Kurfürst, III.</addName>
+            <addName>Friedrich Brandenburgk, Churfürst</addName>
+            <addName>Friedrich Brandenburgk, Churfürst, III.</addName>
+            <addName>... Brandenbourg, Prince Electoral</addName>
+            <addName>...</addName>
+            <addName>Frederic Prusse, Roi, I.</addName>
+            <addName>Frederic</addName>
+            <addName>Frederic Prusse, Roy, I.</addName>
+            <addName>Frederick Brandenburgh, Elector</addName>
+            <addName>Frederick</addName>
+            <addName>Frederick Brandenburgh, Elector, III.</addName>
+            <addName>Fredericus Brandenburgum, Elector, III.</addName>
+            <addName>Fredericus Brandenburgum, Marchio, III.</addName>
+            <addName>Fredericus Elector, III.</addName>
+            <addName>Fredericus Magnus</addName>
+            <addName>Frideric Brandenbourg, Prince Electoral</addName>
+            <addName>Frideric</addName>
+            <addName>Frideric Prusse, Roi, I.</addName>
+            <addName>Friderich Brandenburg, Churfürst</addName>
+            <addName>Friderich Brandenburg, Kurfürst, III.</addName>
+            <addName>Friderich Brandenburg, Kurprinz</addName>
+            <addName>Friderich Brandenburg, Marck-Graf, III.</addName>
+            <addName>Friderich Brandenburg, Marggraff, III.</addName>
+            <addName>Friderich Brandenburg, Markgraf, III.</addName>
+            <addName>Friderich Preußen, König, I.</addName>
+            <addName>Fridericus Borussia, Rex, I.</addName>
+            <addName>Fridericus Brandenburgia, Elector, III.</addName>
+            <addName>Fridericus Brandenburgum, Elector, III.</addName>
+            <addName>Fridericus Brandenburgum, Marchio, III.</addName>
+            <addName>Fridericus Preussen, König, I.</addName>
+            <addName>Fridericus Prussia, Dux, III.</addName>
+            <addName>Fridericus Regum Borussia, Rex, I</addName>
+            <addName>Fridericus III. Preussen</addName>
+            <addName>Fridericus III.</addName>
+            <addName>Fridrich Preußen, König, I.</addName>
+            <addName>Fridrich</addName>
+            <addName>Friederich Brandenburg, Churfürst, III.</addName>
+            <addName>Friederich Brandenburg, Marggraff, III.</addName>
+            <addName>Friederich Brandenburg, Markgraf, III.</addName>
+            <addName>Friedericus Brandenburgia, Elector, III.</addName>
+            <addName>Friedericus</addName>
+            <addName>Friedrich Brandenburg, Churfürst, III.</addName>
+            <addName>Friedrich Brandenburg, Kurprinz</addName>
+            <addName>Friedrich Brandenburg, Markgraf, III.</addName>
+            <addName>Friedrich Brandenburg, Prinz</addName>
+            <addName>Friedrich Brandenburgum, Elector, III.</addName>
+            <addName>Friedrich Elector, III.</addName>
+            <addName>Friedrich Magnus</addName>
+            <addName>Friedrich Preussen, Kurfürst, III.</addName>
+            <addName>Friedrich Preußen, Kurfürst, III.</addName>
+            <addName>Friedrich Preußen, König</addName>
+            <addName>Friedrich von Hohenzollern</addName>
+            <addName>Friedrich III. Brandenburg, Preussen, Kurfürst, III.</addName>
+            <addName>Friedrich III.</addName>
+            <addName>Frédéric Brandebourg, Prince Electoral</addName>
+            <addName>Frédéric</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01261252</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01261252">Friderich II.</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-576.tei.xml-d10009e256">Graf Odan</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Stosch, Philipp von</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00391048</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00391048"
+                       key="#PND:117673870">Stosch<addName type="display">Stosch, Philipp von</addName>
+            <addName>Philipp von Stosch</addName>
+            <addName>Filippo De Stosch</addName>
+            <addName>De Stosch</addName>
+            <addName>Filippo de Stosch</addName>
+            <addName>Philippe de Stosch</addName>
+            <addName>Filipp de Stosch</addName>
+            <addName>Philippus Stosch</addName>
+            <addName>Philippus de Stosch</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Picart, Étienne</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01017892</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01017892">Piccart<addName type="display">Picart, Étienne</addName>
+            <addName>Étienne Picart</addName>
+            <addName>Stefano Picard</addName>
+            <addName>Picard, Stefano il Romano</addName>
+            <addName>Picard</addName>
+            <addName>Picart, Étienne le Romain</addName>
+            <addName>Picart, Étienne Romanus</addName>
+            <addName>Etienne Picart</addName>
+            <addName>Stephanus Picart</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-576.tei.xml-d10009e425">Mor-
+          
+          tuscher</TEI:persName>
+      </nodes>
+   </tag>
+</tags>

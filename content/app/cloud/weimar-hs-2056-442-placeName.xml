@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Etruria</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7024113</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7024113">Hetrurien<addName type="display">Etruria</addName>
+            <addName>Etruria</addName>
+            <addName>Rashna</addName>
+            <addName>Rasna</addName>
+            <addName>Tuscia</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Orvieto</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7005124</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7005124">Volscinium<addName type="display">Orvieto</addName>
+            <addName>Orvieto</addName>
+            <addName>Urbsvetus</addName>
+            <addName>Ourbibenton</addName>
+            <addName>Urbs Vetus</addName>
+            <addName>Volsinii Veteres</addName>
+            <addName>Volsinii</addName>
+            <addName>Volsinii Nova</addName>
+            <addName>Velzna</addName>
+            <addName>Velsna</addName>
+            <addName>Velsuna</addName>
+            <addName>Salpinum</addName>
+         </placeName>
+      </nodes>
+   </tag>
+</tags>

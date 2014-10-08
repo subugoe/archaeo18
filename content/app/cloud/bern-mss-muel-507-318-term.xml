@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-318.tei.xml-d8845e201">Museo Vaticano</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Kleopatra (Ägypten, Königin, VII.)</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-318.tei.xml-d8845e331">Eine zweite <TEI:persName ref="#CerlID:cnp00395483" key="#PND:11856322X">Cleopatra<addName type="display">Kleopatra (Ägypten, Königin, VII.)</addName>
+               <addName>Cleopatra Ägypten, Königin, VII.</addName>
+               <addName>Cleopatra</addName>
+               <addName>Cleopatra die Grosse</addName>
+               <addName>Cleopatra Medica</addName>
+               <addName>Cleopatra Philopator, VII.</addName>
+               <addName>Cleopatra Ptolemais, Regina, VII.</addName>
+               <addName>Kleopatra die Grosse</addName>
+               <addName>Kleopatra Königin der Ptolemaier, VII.</addName>
+               <addName>Kleopatra Philopator</addName>
+               <addName>Kleopatra Tochter des Ptolemaios XII.</addName>
+            </TEI:persName> steht in <TEI:term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000435">Villa Medici</TEI:term>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000435</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/sammlungen/1000435">Villa Medici</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Museo Odesc- chalchi</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-318.tei.xml-d8845e378">Eine dritte stand sonst in <TEI:term ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-318.tei.xml-d8845e380">Museo Odesc-
+          
+          chalchi</TEI:term>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-318.tei.xml-d8845e380">Museo Odesc-
+          
+          chalchi</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-318.tei.xml-d8845e403">Eine Colossal Figur liegend</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Kleopatra (Ägypten, Königin, VII.)</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-318.tei.xml-d8845e430">Noch eine <TEI:persName ref="#CerlID:cnp00395483" key="#PND:11856322X">Kleopatra<addName type="display">Kleopatra (Ägypten, Königin, VII.)</addName>
+               <addName>Cleopatra Ägypten, Königin, VII.</addName>
+               <addName>Cleopatra</addName>
+               <addName>Cleopatra die Grosse</addName>
+               <addName>Cleopatra Medica</addName>
+               <addName>Cleopatra Philopator, VII.</addName>
+               <addName>Cleopatra Ptolemais, Regina, VII.</addName>
+               <addName>Kleopatra die Grosse</addName>
+               <addName>Kleopatra Königin der Ptolemaier, VII.</addName>
+               <addName>Kleopatra Philopator</addName>
+               <addName>Kleopatra Tochter des Ptolemaios XII.</addName>
+            </TEI:persName> ist im <TEI:term ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-318.tei.xml-d8845e460">Pallast Farnesi</TEI:term>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-318.tei.xml-d8845e460">Pallast Farnesi</TEI:term>
+      </nodes>
+   </tag>
+</tags>

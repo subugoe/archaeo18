@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Winckelmann Gesch. der Kunst p. 260.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/winckelmann1764/0310</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://digi.ub.uni-heidelberg.de/diglit/winckelmann1764/0310">Winckelmann Gesch. der Kunst p. 260.</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Win- kelmann l. c.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/winckelmann1764</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://digi.ub.uni-heidelberg.de/diglit/winckelmann1764">Win-
+          
+          kelmann l. c.</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>N. CXLII.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/leplat1733/0147</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://digi.ub.uni-heidelberg.de/diglit/leplat1733/0147">N. CXLII.</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Buonarotti Observ. soprale Medaiglioni præf. p. 21.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN635101238</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN635101238">Buonarotti Observ. soprale
+            
+                   
+          Medaiglioni præf. p. 21.</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Junius de Pittura p. 292.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN660711885</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN660711885">Junius de Pittura p. 292.</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Cailus Recueil T. III. N. XXVI. p. 96.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/caylus1759bd3/0160 http://digi.ub.uni-heidelberg.de/diglit/caylus1759bd3/0162</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://digi.ub.uni-heidelberg.de/diglit/caylus1759bd3/0160 #http://digi.ub.uni-heidelberg.de/diglit/caylus1759bd3/0162">Cailus Recueil T. III. N. XXVI. p. 96.</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+</tags>

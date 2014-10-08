@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Bellona</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-185.tei.xml-d7455e18">
+            <persName ref="#CerlID:cnp01288205">Bellona<addName type="display">Bellona</addName>
+               <addName>Duellona</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>orti Ferrari</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-185.tei.xml-d7455e52">in <term ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-185.tei.xml-d7455e56"
+                  type="collection">orti Ferrari</term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-185.tei.xml-d7455e56"
+               type="collection">orti Ferrari</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-185.tei.xml-d7455e66">nur 2. Fuß Hoch</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Capitol</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:159518 http://arachne.uni-koeln.de/item/objekt/15938</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:159518 #http://arachne.uni-koeln.de/item/objekt/15938">im <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000358">Capitol</term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000358</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000358">Capitol</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Bernini, Gian Lorenzo</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-185.tei.xml-d7455e107">das Stück des <persName ref="#CerlID:cnp00543952" key="#PND:118509926">Bernini<addName type="display">Bernini, Gian Lorenzo</addName>
+               <addName>Gian Lorenzo Bernini</addName>
+               <addName>Gianlorenzo Bernin</addName>
+               <addName>Bernin</addName>
+               <addName>Gian L. Bernini</addName>
+               <addName>Gianlorenzo Bernini</addName>
+               <addName>Giovanni L. Bernini</addName>
+               <addName>Giovanni Lorenzo Bernini</addName>
+               <addName>Jean Laurent Bernini</addName>
+               <addName>Laurentius Bernini</addName>
+               <addName>Lorenzo Bernini</addName>
+               <addName>Giovanni Lorenzo Bernino</addName>
+               <addName>Bernino</addName>
+               <addName>Joans. Laurentius Berninus</addName>
+               <addName>Berninus</addName>
+            </persName> in den <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000003">Lu- 
+                                    dovischen Gärten</term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000003</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000003">Lu- 
+                                    dovischen Gärten</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Mediceischen Gärten</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/6552 http://arachne.uni-koeln.de/item/objekt/212102</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/6552 #http://arachne.uni-koeln.de/item/objekt/212102">In den <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000435">Mediceischen Gärten</term>.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000435</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000435">Mediceischen Gärten</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Villa Alba- ni</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-185.tei.xml-d7455e237">in <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000297">Villa Alba- 
+                                    ni</term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000297</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000297">Villa Alba- 
+                                    ni</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/36650</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/36650">Auf einem Löwen sitzend</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-185.tei.xml-d7455e284">Auf einem Widder</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Belvedere</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-185.tei.xml-d7455e294">Im <term ref="#http://arachne.uni-koeln.de/item/bauwerk/2100311">Belvedere</term> stehend mit dem Thurm 
+                                        aufm Kopf</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/bauwerk/2100311</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/bauwerk/2100311">Belvedere</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-185.tei.xml-d7455e309">Eben so als Büste</term>
+      </nodes>
+   </tag>
+</tags>

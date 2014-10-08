@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:150812 http://arachne.uni-koeln.de/item/bauwerk/2100093</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CensusID:150812 #http://arachne.uni-koeln.de/item/bauwerk/2100093">Thermæ Diocletianæ</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:156615 http://arachne.uni-koeln.de/item/topographie/8004660 http://arachne.uni-koeln.de/item/bauwerk/2107035 http://arachne.uni-koeln.de/item/bauwerk/2107081 http://arachne.uni-koeln.de/item/bauwerk/2107083 http://arachne.uni-koeln.de/item/bauwerk/2107085 http://arachne.uni-koeln.de/item/bauwerk/2107086</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CensusID:156615 #http://arachne.uni-koeln.de/item/topographie/8004660 #http://arachne.uni-koeln.de/item/bauwerk/2107035 #http://arachne.uni-koeln.de/item/bauwerk/2107081 #http://arachne.uni-koeln.de/item/bauwerk/2107083 #http://arachne.uni-koeln.de/item/bauwerk/2107085 #http://arachne.uni-koeln.de/item/bauwerk/2107086">schöne Ruinen</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/topographie/8002354</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/topographie/8002354">einen kayserl. Pallast</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/topographie/8002225</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/topographie/8002225">fora</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/bauwerk/2100233</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/bauwerk/2100233">Sophientempel</TEI:term>
+      </nodes>
+   </tag>
+</tags>

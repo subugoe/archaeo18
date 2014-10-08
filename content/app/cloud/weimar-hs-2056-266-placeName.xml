@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Arezzo</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7003162</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7003162">Arezzo<addName type="display">Arezzo</addName>
+            <addName>Arezzo</addName>
+            <addName>Arezzo, Provincia di</addName>
+            <addName>Arezzo province</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Thebes</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7001297</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7001297">Theben<addName type="display">Thebes</addName>
+            <addName>Thebes</addName>
+            <addName>Tebe</addName>
+            <addName>Thèbes</addName>
+            <addName>Thebae</addName>
+            <addName>Thebae Aegypti</addName>
+            <addName>Thēvai</addName>
+            <addName>Thiva</addName>
+            <addName>Theben</addName>
+            <addName>Thebai</addName>
+            <addName>Thívai</addName>
+            <addName>Diospolis Magna</addName>
+            <addName>Diospolis</addName>
+            <addName>Nowe</addName>
+            <addName>Nuwe</addName>
+            <addName>No</addName>
+            <addName>Wase</addName>
+            <addName>Woʻse</addName>
+            <addName>Theban</addName>
+         </placeName>
+      </nodes>
+   </tag>
+</tags>

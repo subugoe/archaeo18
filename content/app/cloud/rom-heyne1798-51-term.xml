@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/bauwerk/2103250</link>
+      <count>8</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/bauwerk/2103250">Bibliothek</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/topographie/500010 http://arachne.uni-koeln.de/item/bauwerk/2105113 http://arachne.uni-koeln.de/item/bauwerk/2104440</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/topographie/500010 #http://arachne.uni-koeln.de/item/bauwerk/2105113 #http://arachne.uni-koeln.de/item/bauwerk/2104440">Pallast</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://census.bbaw.de/easydb/censusID=155286</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0" ref="#CensusID:155286">Serapeum</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Bacchus</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-51.tei.xml-d9533e199">Pompa <persName ref="#CerlID:cnp00579062" key="#PND:118651439">Bachi<addName type="display">Bacchus</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+</tags>

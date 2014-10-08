@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-124.tei.xml-d4387e34">in Villa
+                                        Pamphili</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Arria (die Ältere)Caecina Paetus</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/17009 http://arachne.uni-koeln.de/item/objekt/17010</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/17009 #http://arachne.uni-koeln.de/item/objekt/17010">
+            <persName ref="#CerlID:cnp01288199">Aria<addName type="display">Arria (die Ältere)</addName>
+               <addName>Aria</addName>
+            </persName> und <persName ref="#CerlID:cnp01300358">Pätus<addName type="display">Caecina Paetus</addName>
+               <addName>Lucius Paetus</addName>
+               <addName>Paetus</addName>
+            </persName>. in der <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000003">Villa Ludovisi</term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000003</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000003">Villa Ludovisi</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Capitol</tag>
+      <facet>tei:term</facet>
+      <link>http://census.bbaw.de/easydb/censusID=155719</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0" ref="#CensusID:155719">Eine Statue aus Bronce auf dem <term ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-124.tei.xml-d4387e213">
+               <placeName ref="#http://arachne.uni-koeln.de/item/topographie/500002">Capitol</placeName>
+            </term>, die sich
+                                    einen Dorn auszieht</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Capitol</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-124.tei.xml-d4387e213">
+            <placeName ref="#http://arachne.uni-koeln.de/item/topographie/500002">Capitol</placeName>
+         </term>
+      </nodes>
+   </tag>
+</tags>

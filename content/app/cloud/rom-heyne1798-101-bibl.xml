@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Racolta 135</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/maffei1704/0152</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/maffei1704/0152">Racolta 135</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Spence tab. 1.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://katalog.ub.uni-heidelberg.de/titel/ppn803001886</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://katalog.ub.uni-heidelberg.de/titel/ppn803001886">Spence tab. 1.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Mus. Clem. tab. 1.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/visconti1782bd1/0115</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/visconti1782bd1/0115">Mus. Clem. tab. 1.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Mus. Cap.2.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/item/buchseite/5718</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://arachne.uni-koeln.de/item/buchseite/5718">Mus. Cap. <term ref="#http://arachne.uni-koeln.de/item/objekt/15884">2.</term>
+            </ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>3.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/item/buchseite/5719</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://arachne.uni-koeln.de/item/buchseite/5719">
+               <term ref="#http://arachne.uni-koeln.de/item/objekt/15897">3.</term>
+            </ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>4.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/item/buchseite/5720</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://arachne.uni-koeln.de/item/buchseite/5720">
+               <term ref="#http://arachne.uni-koeln.de/item/objekt/15883">4.</term>
+            </ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Flor. 1.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/gori1734bd3/0037</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/gori1734bd3/0037">
+               <term ref="#http://arachne.uni-koeln.de/item/objekt/5796">Flor. 1.</term>
+            </ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Gall. Giust. 105.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/giustiniani1640bd1/0106</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/giustiniani1640bd1/0106">
+               <term ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-101.tei.xml-d19516e168">Gall. Giust.
+                                        105.</term>
+            </ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Marbre de Dr. 6.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/leplat1733/0012</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/leplat1733/0012">
+               <term ref="#http://arachne.uni-koeln.de/item/objekt/5220">Marbre de Dr. 6.</term>
+            </ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>8.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/leplat1733/0014</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/leplat1733/0014">
+               <term ref="#http://arachne.uni-koeln.de/item/objekt/5192">8.</term>
+            </ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>139.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/leplat1733/0144</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/leplat1733/0144">
+               <term ref="#http://arachne.uni-koeln.de/item/objekt/5243">139.</term>
+            </ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Lettre 57 de Lady Montagué.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://reader.digitale-sammlungen.de/de/fs1/object/display/bsb10467561_00154.html</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://reader.digitale-sammlungen.de/de/fs1/object/display/bsb10467561_00154.html">Lettre 57 de Lady Montagué.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Thomas- sin P. 13.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN663503019</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN663503019">Thomas-
+                                    sin P. 13.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Bartels Br. Th. 2. p. 285 u f.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://reader.digitale-sammlungen.de/de/fs1/object/display/bsb10466283_00321.html</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://reader.digitale-sammlungen.de/de/fs1/object/display/bsb10466283_00321.html">Bartels Br. Th. 2. p. 285 u f.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pio Clem. T. 6. N. 1.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/visconti1792bd6/0111</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/visconti1792bd6/0111">
+               <term ref="#http://arachne.uni-koeln.de/item/objekt/21092">Pio Clem. T. 6. N. 1.</term>
+            </ref>
+         </bibl>
+      </nodes>
+   </tag>
+</tags>

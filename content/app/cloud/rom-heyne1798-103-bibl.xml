@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Pio Clem. II. 1.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/visconti1784bd2/0125</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/visconti1784bd2/0125">
+               <term ref="#http://arachne.uni-koeln.de/item/objekt/20079 #http://arachne.uni-koeln.de/item/gruppen/400611">Pio Clem. II. 1.</term>
+            </ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Clem. VI. 14.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/visconti1792bd6/0124</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/visconti1792bd6/0124">Clem. VI. 14.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Lucerne sepulcr. Bartoli. P. 2. 6.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/bartoli1702/0087</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/bartoli1702/0087">
+               <term ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-103.tei.xml-d8646e172">Lucerne sepulcr. Bartoli. P. 2. 6.</term>
+            </ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>7.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/bartoli1702/0088</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/bartoli1702/0088">
+               <term ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-103.tei.xml-d8646e178">7.</term>
+            </ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>8.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/bartoli1702/0089</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/bartoli1702/0089">
+               <term ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-103.tei.xml-d8646e184">8.</term>
+            </ref>
+         </bibl>
+      </nodes>
+   </tag>
+</tags>

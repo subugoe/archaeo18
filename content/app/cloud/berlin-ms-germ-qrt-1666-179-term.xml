@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000087</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/sammlungen/1000087">Wiltonhouse</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/berlin-ms-germ-qrt-1666-179.tei.xml-d9237e15">sitzend hängend den Ca-
+                sarium</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/berlin-ms-germ-qrt-1666-179.tei.xml-d9237e27">fontana palestrina
+                no. 7.</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/rezeption/350989</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/rezeption/350989">Venez. 1.5.</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/berlin-ms-germ-qrt-1666-179.tei.xml-d9237e59">Kopf</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/berlin-ms-germ-qrt-1666-179.tei.xml-d9237e64">Relief in Silber</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000297</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/sammlungen/1000297">villa Alba-
+                ni</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000285</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/sammlungen/1000285">Pallast Giust</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Siena</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/30387 http://arachne.uni-koeln.de/item/objekt/30388 http://arachne.uni-koeln.de/item/objekt/30389</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/objekt/30387 #http://arachne.uni-koeln.de/item/objekt/30388 #http://arachne.uni-koeln.de/item/objekt/30389">3. Grazien sind zu<TEI:placeName ref="#GettyID:7011179">Sienna<addName type="display">Siena</addName>
+               <addName>Siena</addName>
+               <addName>Sienna</addName>
+               <addName>Senae</addName>
+               <addName>Sanna</addName>
+               <addName>Saena Julia</addName>
+               <addName>Sena Julia</addName>
+               <addName>Sena</addName>
+               <addName>Sienese</addName>
+            </TEI:placeName> im <TEI:term ref="#http://arachne.uni-koeln.de/item/bauwerk/2103112">Dom</TEI:term>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/bauwerk/2103112</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/bauwerk/2103112">Dom</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000238</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/sammlungen/1000238">Villa Borghese.</TEI:term>
+      </nodes>
+   </tag>
+</tags>

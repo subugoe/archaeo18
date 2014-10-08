@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Psyche (Literarische Gestalt)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00553935</link>
+      <count>4</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00553935"
+                       key="#PND:119362503">Psiche<addName type="display">Psyche (Literarische Gestalt)</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Amor</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00542364</link>
+      <count>12</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00542364"
+                       key="#PND:11850262X">Amor<addName type="display">Amor</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Apuleius, Lucius</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01260639</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01260639"
+                       key="#PND:11850374X">Apulejus<addName type="display">Apuleius, Lucius</addName>
+            <addName>Lucius Apuleius</addName>
+            <addName>Apulejus</addName>
+            <addName>Abūljūs</addName>
+            <addName>Lūkjūs Abūljūs al-Madaurī</addName>
+            <addName>Abūljūs al-Madaurī</addName>
+            <addName>Appuleius</addName>
+            <addName>Lucius Appuleius</addName>
+            <addName>Appuleius Philosopher</addName>
+            <addName>Lucius Appuleius Madaurensis</addName>
+            <addName>Appuleius Madaurensis</addName>
+            <addName>Appulejus</addName>
+            <addName>Apulegio</addName>
+            <addName>Apuleio</addName>
+            <addName>Lucio Apuleio</addName>
+            <addName>Apuleio Neosofista</addName>
+            <addName>L. Apuleius</addName>
+            <addName>Apuleius, Lucius von Madaura</addName>
+            <addName>Madaurensis Apuleius</addName>
+            <addName>Apuleius Afer</addName>
+            <addName>Apuleius Barbarus</addName>
+            <addName>Apuleius Celsus</addName>
+            <addName>Apuleius Philosophus</addName>
+            <addName>Apuleius Physician</addName>
+            <addName>Apuleius Platonicus</addName>
+            <addName>Apuleius Platonicus Madaurensis</addName>
+            <addName>Apuleius Platoniker</addName>
+            <addName>Apuleius Scriptor Botanicus</addName>
+            <addName>Apuleius Sophist</addName>
+            <addName>Apuleius of Madaura</addName>
+            <addName>Apuleius of Madauros</addName>
+            <addName>Apuleius van Madauros</addName>
+            <addName>Apuleius von Madaura</addName>
+            <addName>Apuleius von Madauros</addName>
+            <addName>Apuleius Africanus</addName>
+            <addName>Lucius Apuleius Madaurensis</addName>
+            <addName>Apuleius Madaurensis Afer</addName>
+            <addName>Apuleius Madaurensis Platonicus</addName>
+            <addName>Lucius Apuleius Madaurensis Platonicus</addName>
+            <addName>Lucius Apuleius Marcellus</addName>
+            <addName>Apuleius Marcellus</addName>
+            <addName>Lucius Apuleius-Madaurensis</addName>
+            <addName>Apuleius-Madaurensis</addName>
+            <addName>Lucius Apulejus</addName>
+            <addName>Apulejus von Madaura</addName>
+            <addName>Lucius Apulejus Madaurensis</addName>
+            <addName>Apulejus Madaurensis</addName>
+            <addName>Apulejusz z Madaury</addName>
+            <addName>Apulejusz</addName>
+            <addName>Apuleo</addName>
+            <addName>Lucio Apuleyo</addName>
+            <addName>Apuleyo</addName>
+            <addName>Apuleyo de Madauros</addName>
+            <addName>Apulée</addName>
+            <addName>Apulée de Madaure</addName>
+            <addName>Apulée de Numidie</addName>
+            <addName>Lucius Apullius</addName>
+            <addName>Apullius</addName>
+            <addName>Apulée</addName>
+            <addName>Luce Apulée</addName>
+            <addName>Apulée de Madaure</addName>
+            <addName>Apulée de Numidie</addName>
+            <addName>Lucio</addName>
+            <addName>Lucius Madaurensis</addName>
+            <addName>Lucius</addName>
+            <addName>Lūkjūs Abūljūs</addName>
+            <addName>Lucius A. von Madaura</addName>
+            <addName>Madaura</addName>
+            <addName>Lucius Apuleius Madaura</addName>
+            <addName>Madaurensis</addName>
+            <addName>Pseudo-Apuleius</addName>
+            <addName>Pseudo-Apuleius Medicus</addName>
+            <addName>Lūkiyūs Abūluyūs</addName>
+            <addName>Abūluyūs</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

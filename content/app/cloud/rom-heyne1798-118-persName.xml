@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Agasias (Sohn des Dositheos)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00539445</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00539445"
+                   key="#PND:118822217">Agasias<addName type="display">Agasias (Sohn des Dositheos)</addName>
+            <addName>Aesilaus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Paul (V, pape)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01238319</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01238319"
+                   key="#PND:118739530">Paul 5<addName type="display">Paul (V, pape)</addName>
+            <addName>Camillo Borghese</addName>
+            <addName>Borghese</addName>
+            <addName>Paolo V pape</addName>
+            <addName>Paolo</addName>
+            <addName>Paulus V pape</addName>
+            <addName>Borghese, Camillo 1552-1621</addName>
+            <addName>Camilus Borghesius</addName>
+            <addName>Borghesius</addName>
+            <addName>Camillus Burghesius</addName>
+            <addName>Paolo Papa, V.</addName>
+            <addName>Paolo Pontefice, V.</addName>
+            <addName>Paolo V</addName>
+            <addName>Paolo V.</addName>
+            <addName>Paolo V. Papa</addName>
+            <addName>Paul Pape, V.</addName>
+            <addName>Paul V</addName>
+            <addName>Paul V.</addName>
+            <addName>Paul V., Borghese</addName>
+            <addName>Paul V. Papa</addName>
+            <addName>Paulo V papa 1552-1621</addName>
+            <addName>Paulo</addName>
+            <addName>Paulus Papst, V.</addName>
+            <addName>Paulus Paus, V.</addName>
+            <addName>Paulus Pontifex Maximus, V.</addName>
+            <addName>Paulus Pontifex, V.</addName>
+            <addName>Paulus Pontifice Massimo, Quintus</addName>
+            <addName>Paulus V</addName>
+            <addName>Paulus V papa 1552-1621</addName>
+            <addName>Paulus V.</addName>
+            <addName>V Paulus papa</addName>
+            <addName>Paulus papa</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

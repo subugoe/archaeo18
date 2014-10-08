@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Dioskurides</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/207380</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/207380">Stein 
+                                        des <persName ref="#CerlID:cnp01300274">Dioscorides<addName type="display">Dioskurides</addName>
+               <addName>Dioscorides</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Devonshire, William Cavendish (duc de)</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000048</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000048">
+            <persName ref="#CerlID:cnp00048784">Herzog von Devonshire<addName type="display">Devonshire, William Cavendish (duc de)</addName>
+               <addName>William Cavendish Devonshire</addName>
+               <addName>William Cavendish</addName>
+               <addName>Herzog von Devonshire</addName>
+               <addName>Marquis de Hartington</addName>
+               <addName>Hartington</addName>
+               <addName>Cavendish, William Duke of Devonshire</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Solon (Steinschneider)</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-351.tei.xml-d3095e76">
+            <persName ref="#CerlID:cnp01300403">Solon<addName type="display">Solon (Steinschneider)</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/207386</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/207386">Das andere</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Maecenas, Gaius Cilnius</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-351.tei.xml-d3095e121">Kopf des <persName ref="#CerlID:cnp00946708" key="#PND:118730053">Maecens<addName type="display">Maecenas, Gaius Cilnius</addName>
+               <addName>Gaius Cilnius Maecenas</addName>
+               <addName>Maecen</addName>
+               <addName>Cilnius Maecenas</addName>
+               <addName>Cilnius</addName>
+               <addName>Mècène</addName>
+               <addName>Mècène dÁrretium</addName>
+               <addName>Mäcenas</addName>
+               <addName>Maecenas</addName>
+               <addName>Caius Cilnius Maecenas</addName>
+               <addName>Gaius Maecenas</addName>
+               <addName>Maecenas Politiker</addName>
+               <addName>C. Cilnius Maecenatas</addName>
+               <addName>Maecenatas</addName>
+               <addName>Caio Cilnio Mecenate</addName>
+               <addName>Mecenate</addName>
+               <addName>Gaio Cilnio Mecenate</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Solon (Steinschneider)</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-351.tei.xml-d3095e169">Kopf des <persName ref="#CerlID:cnp01300403">Solons<addName type="display">Solon (Steinschneider)</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Maecenas, Gaius Cilnius</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-351.tei.xml-d3095e208">Kopf des <persName ref="#CerlID:cnp00946708" key="#PND:118730053">Maezens<addName type="display">Maecenas, Gaius Cilnius</addName>
+               <addName>Gaius Cilnius Maecenas</addName>
+               <addName>Maecen</addName>
+               <addName>Cilnius Maecenas</addName>
+               <addName>Cilnius</addName>
+               <addName>Mècène</addName>
+               <addName>Mècène dÁrretium</addName>
+               <addName>Mäcenas</addName>
+               <addName>Maecenas</addName>
+               <addName>Caius Cilnius Maecenas</addName>
+               <addName>Gaius Maecenas</addName>
+               <addName>Maecenas Politiker</addName>
+               <addName>C. Cilnius Maecenatas</addName>
+               <addName>Maecenatas</addName>
+               <addName>Caio Cilnio Mecenate</addName>
+               <addName>Mecenate</addName>
+               <addName>Gaio Cilnio Mecenate</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Dioskurides</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-351.tei.xml-d3095e349">Eben derßelbe Kopf hat 
+                                            sich vom <persName ref="#CerlID:cnp01300274">Dioscorides<addName type="display">Dioskurides</addName>
+               <addName>Dioscorides</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-351.tei.xml-d3095e384">Muse in einer alten Poste</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Allion</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-351.tei.xml-d3095e395">die vom <persName ref="#CerlID:cnp01427494">Allion<addName type="display">Allion</addName>
+               <addName>Allione</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+</tags>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>theus a J. Chifletio Antwerpen 1657. 4o mit 28. Tafeln</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/books/Macarius1657a</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://arachne.uni-koeln.de/books/Macarius1657a">theus a J. Chifletio Antwerpen 1657. 4o mit
+          
+          28. Tafeln</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pas- seri de Gemmis Basilidianis</tag>
+      <facet>tei:bibl</facet>
+      <link>http://www.zvdd.de/dms/load/met/?PPN=urn%3Anbn%3Ade%3Abvb%3A12-bsb10221603-0</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://www.zvdd.de/dms/load/met/?PPN=urn%3Anbn%3Ade%3Abvb%3A12-bsb10221603-0">Pas-
+            
+          
+          seri de Gemmis Basilidianis</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Gemmis Astriforis von Gorry T. II.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN656492821</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN656492821">Gemmis Astriforis von Gorry T. II.</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Monfaucon T. II. P. CLXXV. e.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/montfaucon1722b/0253</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://digi.ub.uni-heidelberg.de/diglit/montfaucon1722b/0253">Monfaucon T. II. P. CLXXV. e.</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>CLXXIV f.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/montfaucon1722b/0249</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://digi.ub.uni-heidelberg.de/diglit/montfaucon1722b/0249">CLXXIV f.</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Prodromus Iconicus Venedig 1702. fol. mit 42. Planchen</tag>
+      <facet>tei:bibl</facet>
+      <link>http://www.zvdd.de/dms/load/met/?PPN=urn%3Anbn%3Ade%3Abvb%3A12-bsb10211873-2</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://www.zvdd.de/dms/load/met/?PPN=urn%3Anbn%3Ade%3Abvb%3A12-bsb10211873-2">Prodromus Iconicus Venedig
+            
+          
+          1702. fol. mit 42. Planchen</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+</tags>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Pavia</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7006026</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7006026">Pavia<addName type="display">Pavia</addName>
+            <addName>Pavia</addName>
+            <addName>Papia</addName>
+            <addName>Ticinum</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Toscana</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7009760</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7009760">Toscana<addName type="display">Toscana</addName>
+            <addName>Toscana</addName>
+            <addName>Tuscany</addName>
+            <addName>Tuscia</addName>
+            <addName>Tuscan</addName>
+            <addName>Toscan</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Wien</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7003321</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7003321">Wien<addName type="display">Wien</addName>
+            <addName>Wien</addName>
+            <addName>Vienna</addName>
+            <addName>Vienne</addName>
+            <addName>Beç</addName>
+            <addName>Videṉ</addName>
+            <addName>Wienis</addName>
+            <addName>Wenia</addName>
+            <addName>Vindobona</addName>
+            <addName>Vindobna</addName>
+            <addName>Vindomana</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+</tags>

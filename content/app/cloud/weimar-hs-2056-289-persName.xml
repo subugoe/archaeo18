@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Boulenger, Jules César</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00103373</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00103373"
+                   key="#PND:100062873">Bulinger<addName type="display">Boulenger, Jules César</addName>
+            <addName>Jules César Boulenger</addName>
+            <addName>Jules César Boulenger</addName>
+            <addName>Bulinger</addName>
+            <addName>Jules Caesar Boulanger</addName>
+            <addName>Boulanger</addName>
+            <addName>Jules César Boulanger</addName>
+            <addName>Jules-César Boulenger</addName>
+            <addName>Julius C. Boulenger</addName>
+            <addName>Julius Caesar Boulenger</addName>
+            <addName>Julius C. Boulengerus</addName>
+            <addName>Boulengerus</addName>
+            <addName>Julius Caesar Boulengerus</addName>
+            <addName>Jules César Boullenger</addName>
+            <addName>Boullenger</addName>
+            <addName>Julius Caesar Boullenger</addName>
+            <addName>Julius C. Bulenger</addName>
+            <addName>Bulenger</addName>
+            <addName>Julius Caesar Bulenger</addName>
+            <addName>Julius C. Bulengerius</addName>
+            <addName>Bulengerius</addName>
+            <addName>Julius Caesar Bulengerius</addName>
+            <addName>Giulio Cesare Bulengero</addName>
+            <addName>Bulengero</addName>
+            <addName>Iulius Caesar Bulengerus</addName>
+            <addName>Bulengerus</addName>
+            <addName>Julius Caesar Bulengerus</addName>
+            <addName>Bulengerus, Julius Caesar Juliodunensis</addName>
+            <addName>Julius Caesarius Bulengerus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-289.tei.xml-d21571e83">Trigelius</persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Apollon</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00542641</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00542641"
+                   key="#PND:118503642">Apoll<addName type="display">Apollon</addName>
+            <addName>Apoll</addName>
+            <addName>Apollo</addName>
+            <addName>Phoebus</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

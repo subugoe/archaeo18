@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Firenze</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7000457</link>
+      <count>4</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7000457">Florenz<addName type="display">Firenze</addName>
+            <addName>Firenze</addName>
+            <addName>Florence</addName>
+            <addName>Florencia</addName>
+            <addName>Florenz</addName>
+            <addName>Fiorenza</addName>
+            <addName>Florentia</addName>
+            <addName>Florentine</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>San Ildefonso o La Granja</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7007905</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7007905">S. Ildefonso<addName type="display">San Ildefonso o La Granja</addName>
+            <addName>San Ildefonso o La Granja</addName>
+            <addName>La Granja de San Ildefonso</addName>
+            <addName>San Ildefonso</addName>
+            <addName>Granja, La</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Roma</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7000874</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7000874">Rom<addName type="display">Roma</addName>
+            <addName>Roma</addName>
+            <addName>Urbe</addName>
+            <addName>Rome</addName>
+            <addName>Rom</addName>
+            <addName>Roman</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:placeName</facet>
+      <link>http://arachne.uni-koeln.de/item/topographie/500002</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0"
+                    ref="#http://arachne.uni-koeln.de/item/topographie/500002">Capitol</placeName>
+      </nodes>
+   </tag>
+</tags>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Recueil des Figures, Groupes, thermes, de Versailles Amsterdam 1695. 4.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN663503019</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN663503019">Recueil des Figures, Groupes, thermes, 
+                                         de Versailles Amsterdam 1695. 4.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Versailles immortalisée par Mr. de Moni- card Paris 1720 II. Vol: 4.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN636514161 </link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN636514161 ">Versailles immortalisée par Mr. de Moni- 
+                                         card Paris 1720 II. Vol: 4.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Herbert II. 349.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN656167483</link>
+      <count>8</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN656167483">Herbert  
+                                         II. 349.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Mellan, ClaudeBaudet, Etienne</tag>
+      <facet>tei:bibl</facet>
+      <link>http://opac.sub.uni-goettingen.de/DB=1/PPNSET?PPN=145688984</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://opac.sub.uni-goettingen.de/DB=1/PPNSET?PPN=145688984">Aus einer Schönen Kupfer Sam- 
+                                         lung in gros Fol. die ohne Titul etwa 
+                                         um 1670. von <persName ref="#CerlID:cnp00402341" key="#PND:118949373">Mettan<addName type="display">Mellan, Claude</addName>
+                  <addName>Claude Mellan</addName>
+                  <addName>Mettan</addName>
+                  <addName>Claude Melan</addName>
+                  <addName>Melan</addName>
+               </persName> und <persName ref="#CerlID:cnp00571815" key="#PND:122828011">Baudet<addName type="display">Baudet, Etienne</addName>
+                  <addName>Etienne Baudet</addName>
+               </persName> gesto- 
+                                         chen</ref>
+         </bibl>
+      </nodes>
+   </tag>
+</tags>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Bartoli Sepolchri anticchi. Rom 1697.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN635662051</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN635662051">Bartoli Sepolchri anticchi. Rom 1697.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Thes. ant. rom. Grævii. T. II.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN666491127</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN666491127">Thes. ant. rom. Grævii. T. II.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Columbarium Liviæinvia Appiav. Gori. Florenz. 1727. fol. mit Kupfern.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN668381418</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN668381418">
+               <term ref="#CensusID:216303 #http://arachne.uni-koeln.de/item/bauwerk/2109313">Columbarium Liviæ</term> in <term ref="#CensusID:250394 #http://arachne.uni-koeln.de/item/topographie/8002124">via Appia</term> v. Gori.
+                                Florenz. 1727. fol. mit Kupfern.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Mon. Scipionum v. Piranesi.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://www.e-rara.ch/doi/10.3931/e-rara-5377</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://www.e-rara.ch/doi/10.3931/e-rara-5377">Mon. Scipionum v. Piranesi.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Admiranda Romanar. antiquitatum v. Petro S. Bartoli.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/bartoli1693</link>
+      <count>4</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/bartoli1693">Admiranda Romanar. antiquitatum v. Petro S.
+                                Bartoli.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>ohne Jahrszahl, mit 81. Platten</tag>
+      <facet>tei:bibl</facet>
+      <link>http://opac.sub.uni-goettingen.de/DB=1/PPNSET?PPN=134306325</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://opac.sub.uni-goettingen.de/DB=1/PPNSET?PPN=134306325">ohne Jahrszahl, mit 81. Platten</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Mus. Capit. T. IV.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/books/MuseiCapitolini1782Vol4</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://arachne.uni-koeln.de/books/MuseiCapitolini1782Vol4">Mus. Capit. T. IV.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pio Clement. T. IV.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/visconti1788bd4</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/visconti1788bd4">Pio Clement. T. IV.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+</tags>

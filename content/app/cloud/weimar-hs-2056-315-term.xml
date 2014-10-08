@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://census.bbaw.de/easydb/censusID=151814</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0" ref="#CensusID:151814">Arcus Galieni</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:150908 CensusID:154297 CensusID:154299 http://arachne.uni-koeln.de/item/bauwerk/2100038</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:150908 #CensusID:154297 #CensusID:154299 #http://arachne.uni-koeln.de/item/bauwerk/2100038">Arcus Constantini</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Traianus, Marcus Ulpius</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/bauwerk/2100303</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/bauwerk/2100303">Bogen des <persName ref="#CerlID:cnp00917510" key="#PND:118623567">Tra- 
+                                    jani<addName type="display">Traianus, Marcus Ulpius</addName>
+               <addName>Marcus Ulpius Traianus</addName>
+               <addName>Traian</addName>
+               <addName>Traiano Imperatore</addName>
+               <addName>Traiano</addName>
+               <addName>Marcus U. Traianus</addName>
+               <addName>Traianus Epigrammaticus</addName>
+               <addName>Traianus Imperator</addName>
+               <addName>Traianus Romanus</addName>
+               <addName>Trajan Kaiser</addName>
+               <addName>Trajan Plinius-Korrespondent</addName>
+               <addName>Trajanus</addName>
+               <addName>Trajanus Imperator</addName>
+               <addName>Trajanus Imperium Romanum, Imperator</addName>
+               <addName>Ulpius Traianus</addName>
+               <addName>Ulpius</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:150900 http://arachne.uni-koeln.de/item/objekt/18250 http://arachne.uni-koeln.de/item/objekt/18251 http://arachne.uni-koeln.de/item/objekt/18252 http://arachne.uni-koeln.de/item/objekt/26246 http://arachne.uni-koeln.de/item/objekt/26247 http://arachne.uni-koeln.de/item/objekt/26248</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:150900 #http://arachne.uni-koeln.de/item/objekt/18250 #http://arachne.uni-koeln.de/item/objekt/18251 #http://arachne.uni-koeln.de/item/objekt/18252 #http://arachne.uni-koeln.de/item/objekt/26246 #http://arachne.uni-koeln.de/item/objekt/26247 #http://arachne.uni-koeln.de/item/objekt/26248">Arcus Marci Aurelii et Lucii Veri - 
+                                    Arco di Portogallo</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Campidoglio</tag>
+      <facet>tei:term</facet>
+      <link>http://census.bbaw.de/easydb/censusID=150902 #150903 #150907</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:150902 #CensusID:150903 #CensusID:150907">Diese sind im <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000358">Campidoglio</term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000358</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000358">Campidoglio</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Susa</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:155918 http://arachne.uni-koeln.de/item/bauwerk/2100180</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:155918 #http://arachne.uni-koeln.de/item/bauwerk/2100180">Der Arcus zu <placeName ref="#GettyID:7058540">Susa</placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Benevento</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:152232 http://arachne.uni-koeln.de/item/bauwerk/2100246</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:152232 #http://arachne.uni-koeln.de/item/bauwerk/2100246">Der Arcus Trajani zu <placeName ref="#GettyID:7004393">Benevent<addName type="display">Benevento</addName>
+               <addName>Benevento</addName>
+               <addName>Beneventum</addName>
+               <addName>Maleventum</addName>
+               <addName>Maloenton</addName>
+               <addName>Maluentum</addName>
+               <addName>Malies</addName>
+               <addName>Colonia Iulia Concordia Augusta Felix Beneventum</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:151057 http://arachne.uni-koeln.de/item/bauwerk/2100089</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:151057 #http://arachne.uni-koeln.de/item/bauwerk/2100089">Columna Trajana.</term>
+      </nodes>
+   </tag>
+</tags>

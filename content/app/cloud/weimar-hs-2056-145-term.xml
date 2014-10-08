@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-145.tei.xml-d2173e21">nackt, vergöttert und ver- 
+                                jüngt</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/5832</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/5832">94.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Wallmoden-Gimborn, Johann Ludwig ¬von¬</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000632</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000632">Samlung des <persName ref="#CerlID:cnp00664371" key="#PND:130253219">General Wallmoden<addName type="display">Wallmoden-Gimborn, Johann Ludwig ¬von¬</addName>
+               <addName>Johann Ludwig von Wallmoden-Gimborn</addName>
+               <addName>Johann L. von Gimborn</addName>
+               <addName>Gimborn</addName>
+               <addName>Johann Ludwig Gimborn</addName>
+               <addName>Johann Ludwig von Wallmoden- Gimborn</addName>
+               <addName>Ludwig von Wallmoden- Gimborn</addName>
+               <addName>Johann Ludwig von Wallmoden</addName>
+               <addName>Wallmoden</addName>
+               <addName>Johann L. von Wallmoden-Gimborn</addName>
+               <addName>Ludwig von Wallmoden-Gimborn</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Commodus (Imperium Romanum, Imperator)Herakles</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:151507 http://arachne.uni-koeln.de/item/gruppen/400191 http://arachne.uni-koeln.de/item/objekt/20076</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:151507 #http://arachne.uni-koeln.de/item/gruppen/400191 #http://arachne.uni-koeln.de/item/objekt/20076">
+            <persName ref="#CerlID:cnp00394493" key="#PND:118521713">Commodus<addName type="display">Commodus (Imperium Romanum, Imperator)</addName>
+               <addName>Commodus Imperator</addName>
+               <addName>Lucius Aelius Aurelius Gaius Augustus Imperator Caesar</addName>
+               <addName>Lucius Aelius Aurelius Gaius Augustus</addName>
+               <addName>Marcus Aurelius Gaius Antoninus</addName>
+               <addName>Marcus Aurelius Gaius Antoninus Augustus Imperator Caesar</addName>
+               <addName>Marcus Aurelius Gaius Antoninus Augustus</addName>
+            </persName>. So wird eine Statue  
+                            von vielen genannt die die Gestallt und At-  
+                            tribute des <persName ref="#CerlID:cnp00574918" key="#PND:118639552">Herculis<addName type="display">Herakles</addName>
+               <addName>Ercole</addName>
+               <addName>Heracles</addName>
+               <addName>Hercules</addName>
+               <addName>Herkules</addName>
+            </persName>, aber ein kleines Kind 
+                            im Arm hat</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/bauwerk/2100311</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/bauwerk/2100311">Belvede-  
+                            re</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>HeraklesRoma</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-145.tei.xml-d2173e273">einem Collossalischen <persName ref="#CerlID:cnp00574918" key="#PND:118639552">Herkules<addName type="display">Herakles</addName>
+               <addName>Ercole</addName>
+               <addName>Heracles</addName>
+               <addName>Hercules</addName>
+               <addName>Herkules</addName>
+            </persName> in <placeName ref="#GettyID:7000874">Rom<addName type="display">Roma</addName>
+               <addName>Roma</addName>
+               <addName>Urbe</addName>
+               <addName>Rome</addName>
+               <addName>Rom</addName>
+               <addName>Roman</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+</tags>

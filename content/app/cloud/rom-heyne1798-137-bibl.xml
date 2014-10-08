@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Mus. Cap.</tag>
+      <facet>tei:bibl</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#">Mus. Cap.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Wink. mon. 175.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://dfg-viewer.de/v2/?set[image]=415&amp;set[zoom]=default&amp;set[debug]=0&amp;set[double]=0&amp;set[mets]=http%3A%2F%2Fgdz.sub.uni-goettingen.de%2Fmets_export.php%3FPPN%3DPPN636574237</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://dfg-viewer.de/v2/?set[image]=415&amp;set[zoom]=default&amp;set[debug]=0&amp;set[double]=0&amp;set[mets]=http%3A%2F%2Fgdz.sub.uni-goettingen.de%2Fmets_export.php%3FPPN%3DPPN636574237">
+               <term ref="#http://arachne.uni-koeln.de/item/objekt/15994">Wink. mon. 175.</term>
+            </ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Mon.2. p. 7.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/item/buchseite/237918</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://arachne.uni-koeln.de/item/buchseite/237918">Mon. <term ref="#CensusID:10007647 #http://arachne.uni-koeln.de/item/objekt/98195">2. p. 7.</term>
+            </ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Stosch Gemmæ t. 55.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/item/buchseite/205986</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://arachne.uni-koeln.de/item/buchseite/205986">Stosch Gemmæ t. 55.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Guatani mon. 1784. T. 1.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN668844728</link>
+      <count>4</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN668844728">Guatani mon. 1784. T. 1.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Marbre de Dresde 122.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/leplat1733/0127</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/leplat1733/0127">
+               <term ref="#http://arachne.uni-koeln.de/item/objekt/5195">Marbre de Dresde 122.</term>
+            </ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Mon. Math. 97.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://opac.sub.uni-goettingen.de/DB=1/PPNSET?PPN=137355998</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://opac.sub.uni-goettingen.de/DB=1/PPNSET?PPN=137355998">
+               <term ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-137.tei.xml-d19136e603">Mon. Math. 97.</term>
+            </ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Mus. Cap. 49.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/item/buchseite/5765</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://arachne.uni-koeln.de/item/buchseite/5765">
+               <term ref="#http://arachne.uni-koeln.de/item/objekt/15872">Mus. Cap. 49.</term>
+            </ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Ercolano p. 233.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/ercolano1771bd6/0249</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/ercolano1771bd6/0249">Ercolano
+                                    p. 233.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+</tags>

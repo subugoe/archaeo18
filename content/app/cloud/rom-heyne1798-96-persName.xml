@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Herakles</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00574918</link>
+      <count>14</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00574918"
+                   key="#PND:118639552">Hercules Aventinus<addName type="display">Herakles</addName>
+            <addName>Ercole</addName>
+            <addName>Heracles</addName>
+            <addName>Hercules</addName>
+            <addName>Herkules</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Juno</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00589422</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00589422"
+                   key="#PND:118800574">Juno<addName type="display">Juno</addName>
+            <addName>Cupra</addName>
+            <addName>Pronuba</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>LībiyāOmphale (Sagengestalt)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00622914</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00622914"
+                   key="#PND:129702978">Omphale, Königin
+                                    von <placeName ref="#GettyID:1000172">Lybyen<addName type="display">Lībiyā</addName>
+               <addName>Lībiyā</addName>
+               <addName>al-Jamāhīrīyah al-ʻArabīyah al-Lībīyah ash-Shaʻbīyah al-Ishtirākīyah</addName>
+               <addName>Libia</addName>
+               <addName>Libya</addName>
+               <addName>Libyan Arab Jamahiriya</addName>
+               <addName>Socialist People's Libyan Arab Jamahiriya</addName>
+               <addName>Socialist Peoples' Libyan Arab Republic</addName>
+               <addName>The Great Socialist People's Libyan Arab Jamahiriya</addName>
+               <addName>Libye</addName>
+               <addName>Libie</addName>
+               <addName>Libyenne, Jamahiriya Arabe</addName>
+               <addName>Jamahiriya arabe libyenne populaire et socialiste</addName>
+               <addName>Libië</addName>
+               <addName>Libyen</addName>
+               <addName>Líbia</addName>
+               <addName>LBY</addName>
+               <addName>LY</addName>
+               <addName>ISO434</addName>
+               <addName>LY00</addName>
+               <addName>Kingdom of Libya</addName>
+               <addName>United Kingdom of Libya</addName>
+               <addName>Libyan</addName>
+            </placeName>
+            <addName type="display">Omphale (Sagengestalt)</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Iole</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300301</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300301">Jole<addName type="display">Iole</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

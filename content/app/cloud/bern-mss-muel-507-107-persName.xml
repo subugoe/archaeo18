@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Titus (Imperium Romanum, Imperator)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00396707</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00396707"
+                       key="#PND:118622951">Titus<addName type="display">Titus (Imperium Romanum, Imperator)</addName>
+            <addName>Flavius Vespasianus Titus</addName>
+            <addName>Titus Flavius Vespasianus</addName>
+            <addName>Flavius Vespasianus</addName>
+            <addName>Titus Vespasianus Augustus</addName>
+            <addName>Titus Vespasianus</addName>
+            <addName>Titus Imperator</addName>
+            <addName>Titus Römisches Reich, Kaiser</addName>
+            <addName>Titus Romanus</addName>
+            <addName>Vespasianus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Aurelius Antoninus, Marcus (Emperor of Rome)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259662</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01259662"
+                       key="#PND:118577468">M Aurelius<addName type="display">Aurelius Antoninus, Marcus (Emperor of Rome)</addName>
+            <addName>Marcus Aurelius Antoninus</addName>
+            <addName>Marcus Annius Verus</addName>
+            <addName>Annius Verus</addName>
+            <addName>Marc Antonin</addName>
+            <addName>Antonin</addName>
+            <addName>Marcus Antonin</addName>
+            <addName>Mark Avrelij Antonin</addName>
+            <addName>Marc Aurelio Antonino</addName>
+            <addName>Antonino</addName>
+            <addName>Marco Aurelio Antonino</addName>
+            <addName>Markos Antoninos Autokrator</addName>
+            <addName>Antoninos Autokrator</addName>
+            <addName>Marcus Antoninus</addName>
+            <addName>Antoninus</addName>
+            <addName>Marcus A. Antoninus</addName>
+            <addName>Antoninus, Marcus Aurelius Emperor of Rome</addName>
+            <addName>Antoninus, Marcus Aurelius Imperium Romanum, Imperator</addName>
+            <addName>Marcus Antonius</addName>
+            <addName>Antonius</addName>
+            <addName>Marcus Annius Verus Antonius</addName>
+            <addName>Marcus Aurelius Antonius</addName>
+            <addName>Marc Aurèle</addName>
+            <addName>Aurèle</addName>
+            <addName>Marc- Aurèle</addName>
+            <addName>Marc Aurel</addName>
+            <addName>Aurel</addName>
+            <addName>Marco Aurelio</addName>
+            <addName>Aurelio</addName>
+            <addName>Aurelius</addName>
+            <addName>Aurelius, Marcus Emperor of Rome</addName>
+            <addName>Aurelius, Marcus Imperium Romanum, Imperator</addName>
+            <addName>Marc Antonin Empereur</addName>
+            <addName>Marc Antonin Empire Romain, Empereur</addName>
+            <addName>Marc Aurèle Antonin Empire Romain, Empereur</addName>
+            <addName>Marc Aurèle Antonin</addName>
+            <addName>Marc Aurèle Empereur</addName>
+            <addName>Marc Aurèle</addName>
+            <addName>Marc Aurele Antonin Empereur</addName>
+            <addName>Marc Aurele Antonin</addName>
+            <addName>Marc</addName>
+            <addName>Marc-Aurèle</addName>
+            <addName>Marc-Aurèle</addName>
+            <addName>Marc-Aurèle de Rome</addName>
+            <addName>Marc-Aurele</addName>
+            <addName>Marco</addName>
+            <addName>Marco Aurelio Antonous</addName>
+            <addName>Marco Filosofo Stoico</addName>
+            <addName>Marco Imperatore Romano</addName>
+            <addName>Marcus Annius Catilius Severus</addName>
+            <addName>Marcus Annius</addName>
+            <addName>Marcus Antoninus Emperor of Rome</addName>
+            <addName>Marcus Antoninus Imperator</addName>
+            <addName>Marcus Antoninus Imperium Romanum, Imperator</addName>
+            <addName>Marcus Antoninus Philosophus</addName>
+            <addName>Marcus Antonius Imperium Romanum, Imperator</addName>
+            <addName>Marcus Aurelius Antoninus Emperor of Rome</addName>
+            <addName>Marcus Aurelius Antoninus Imperator</addName>
+            <addName>Marcus Aurelius Antoninus Philosophus</addName>
+            <addName>Marcus Aurelius Antoninus Römisches Reich, Kaiser</addName>
+            <addName>Antoninus Marcus Aurelius</addName>
+            <addName>Marcus Aurelius Imperium Romanum, Imperator</addName>
+            <addName>Marcus Aurelius Kaiser</addName>
+            <addName>Marcus Aurelius Philosoph</addName>
+            <addName>Marcus Aurelius Philosophus</addName>
+            <addName>Marcus</addName>
+            <addName>Marcus Aurel</addName>
+            <addName>Marcus Aurelius Severus Antoninus</addName>
+            <addName>Mark Anthony Imperium Romanum, Imperator</addName>
+            <addName>Mark Anthony</addName>
+            <addName>Mark Aurel Römisches Reich, Kaiser</addName>
+            <addName>Mark-Aurel</addName>
+            <addName>Markos Antōninos</addName>
+            <addName>Markos Antōninos Autokratōr</addName>
+            <addName>Markos Antoninos Emperor of Rome</addName>
+            <addName>Markos Antoninos</addName>
+            <addName>Markos Antōnios</addName>
+            <addName>Markos</addName>
+            <addName>Markos Antōnios</addName>
+            <addName>Marqus ʾAvrelyus ʾAnṭoninus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Verus, Lucius Aurelius</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00994597</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00994597"
+                       key="#PND:118643150">Lucius Verus<addName type="display">Verus, Lucius Aurelius</addName>
+            <addName>Lucius Aurelius Verus</addName>
+            <addName>Lucius Aelius Aurelius Commodus</addName>
+            <addName>Aelius Aurelius Commodus</addName>
+            <addName>Aurelius Commodus</addName>
+            <addName>Aurelius Verus</addName>
+            <addName>Caesar Lucius Aurelius Verus Augustus</addName>
+            <addName>Caesar Lucius Aurelius Verus</addName>
+            <addName>Lucius Ceionius Commodus</addName>
+            <addName>Ceionius Commodus</addName>
+            <addName>Commodus</addName>
+            <addName>Lucius Verus Imperium Romanum, Imperator</addName>
+            <addName>Lucius Verus</addName>
+            <addName>Lucius Verus Römisches Reich, Kaiser</addName>
+            <addName>Verus Emperor</addName>
+            <addName>Verus Imperator</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Faustina (Römisches Reich, Kaiserin, I.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00584987</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00584987"
+                       key="#PND:118686240">Faustine<addName type="display">Faustina (Römisches Reich, Kaiserin, I.)</addName>
+            <addName>Faustina die Ältere</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Septime Sévère (empereur romain)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01239912</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01239912"
+                       key="#PND:118764659">Sept. Severus<addName type="display">Septime Sévère (empereur romain)</addName>
+            <addName>Lucius Septimius Severus Pertinax</addName>
+            <addName>Lucius Septimius Severus</addName>
+            <addName>Septimius Severus empereur romain</addName>
+            <addName>L. Septimius Severus Pertinax Augustus</addName>
+            <addName>Lucius Septimius Severus Pertinax Augustus</addName>
+            <addName>Septime Sévère/Septimius Severus</addName>
+            <addName>Septimus Severus</addName>
+            <addName>Settimio Severo</addName>
+            <addName>Seuerus</addName>
+            <addName>Severus</addName>
+            <addName>Lucius S. Severus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Caracalla (Imperium Romanum, Imperator)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00397692</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00397692"
+                       key="#PND:118667041">Caracalla<addName type="display">Caracalla (Imperium Romanum, Imperator)</addName>
+            <addName>Aurelius Antoninus Caesar</addName>
+            <addName>Aurelius Antoninus</addName>
+            <addName>Aurelius Severus Antoninus Augustus</addName>
+            <addName>Aurelius Severus Antoninus</addName>
+            <addName>Bassianus</addName>
+            <addName>Caracalla Imperator</addName>
+            <addName>Caracalla Römischer Kaiser</addName>
+            <addName>Lucius Septimius Bassianus</addName>
+            <addName>Marcus Aurelius Antoninus</addName>
+            <addName>Marcus Aurelius Antoninus Caesar</addName>
+            <addName>Marcus Aurelius Severus Antoninus Augustus</addName>
+            <addName>Marcus Aurelius Severus Antoninus</addName>
+            <addName>Septimius Bassianus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Geta (Römisches Reich, Kaiser)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00586224</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00586224"
+                       key="#PND:118717154">Geta<addName type="display">Geta (Römisches Reich, Kaiser)</addName>
+            <addName>Lucius Septimius Geta</addName>
+            <addName>Publius Septimius Geta</addName>
+            <addName>Geta Imperium Romanum, Imperator</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Constantinus (Imperium Romanum, Imperator, I.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00945275</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00945275"
+                       key="#PND:118565184">Constantin<addName type="display">Constantinus (Imperium Romanum, Imperator, I.)</addName>
+            <addName>Aurelius Claudius</addName>
+            <addName>Claudius Valerius</addName>
+            <addName>Constantin der Große</addName>
+            <addName>Constantin</addName>
+            <addName>Constantin der Grosse</addName>
+            <addName>Constantin Empereur</addName>
+            <addName>Constantin Kaiser</addName>
+            <addName>Constantin Varsovie, Grand-Duc</addName>
+            <addName>Constantine Emperor, I.</addName>
+            <addName>Constantine</addName>
+            <addName>Constantine the Great</addName>
+            <addName>Flavius Valerius Constantinus Augustus</addName>
+            <addName>Constantinus Augustus</addName>
+            <addName>Flavius Valerius Constantinus</addName>
+            <addName>I. Constantinus</addName>
+            <addName>Constantinus, I. Imperator</addName>
+            <addName>Constantinus Constantinopolitanus</addName>
+            <addName>Constantinus der Große</addName>
+            <addName>Constantinus der Grosse</addName>
+            <addName>Constantinus Imperator</addName>
+            <addName>Constantinus Imperator, I.</addName>
+            <addName>Constantinus Magnus</addName>
+            <addName>Costantino il Grande</addName>
+            <addName>Costantino</addName>
+            <addName>Flavius Valerius</addName>
+            <addName>Konstantin Veliki</addName>
+            <addName>Konstantin den Stores</addName>
+            <addName>Konstantin der Große</addName>
+            <addName>Konstantin der Grosse</addName>
+            <addName>Konstantin Römisches Reich, Kaiser, I.</addName>
+            <addName>Konstantin Römischer Kaiser</addName>
+            <addName>Konstantinus Imperium Romanum, Imperator, I.</addName>
+            <addName>Konstantinus</addName>
+            <addName>Konstantyn de Groote</addName>
+            <addName>Konstantyn</addName>
+            <addName>Valerius Aurelis</addName>
+            <addName>Valerius Constantinus Augustus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

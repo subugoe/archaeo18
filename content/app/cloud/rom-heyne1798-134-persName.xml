@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Neptun</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00558205</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00558205"
+                   key="#PND:11952354X">Neptuns<addName type="display">Neptun</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Amphitrite</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00576691</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00576691"
+                   key="#PND:12362195X">Amphytrite<addName type="display">Amphitrite</addName>
+            <addName>Amphytrite</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Ramdohr, Friedrich Wilhelm Basilius ¬von¬</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01077779</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01077779"
+                   key="#PND:119016753">Ramdohr<addName type="display">Ramdohr, Friedrich Wilhelm Basilius ¬von¬</addName>
+            <addName>Friedrich Wilhelm Basilius von Ramdohr</addName>
+            <addName>Fried. Wilh. Basil. von Ramdohr</addName>
+            <addName>Friederich Wilhelm Basilius von Ramdohr</addName>
+            <addName>Friedrich Wilhelm Basilius Ramdohr</addName>
+            <addName>Friedrich Wilhelm Basilius de Ramdohr</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Assurbanipal (Assyrien, König)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00394117</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00394117"
+                   key="#PND:118504746">Sardanapal<addName type="display">Assurbanipal (Assyrien, König)</addName>
+            <addName>Ashurbanipal</addName>
+            <addName>Assurbanaplu Assyrien, König</addName>
+            <addName>Assurbanaplu</addName>
+            <addName>Assurbanipol</addName>
+            <addName>Sardanapal Assyrien, König</addName>
+            <addName>Sardanapal</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

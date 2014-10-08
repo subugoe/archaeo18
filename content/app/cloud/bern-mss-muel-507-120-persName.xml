@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Mazarin, Jules</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01099927</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01099927"
+                       key="#PND:132961903 118579703">Herz. Mazarin<addName type="display">Mazarin, Jules</addName>
+            <addName>Jules Mazarin</addName>
+            <addName>Giulio Mazarini</addName>
+            <addName>Marzarinus</addName>
+            <addName>Iulius Masarini</addName>
+            <addName>Masarini</addName>
+            <addName>Iulles Mazarein</addName>
+            <addName>Mazarein</addName>
+            <addName>Mazarin</addName>
+            <addName>Iules Mazarin</addName>
+            <addName>Iulle Mazarin</addName>
+            <addName>Jule Mazarin</addName>
+            <addName>Julius Mazarin</addName>
+            <addName>Julles Mazarin</addName>
+            <addName>Mazarin Cardinal</addName>
+            <addName>Mazarin Kardinal</addName>
+            <addName>Jules Mazarine</addName>
+            <addName>Mazarine</addName>
+            <addName>Džulio Mazarini</addName>
+            <addName>Giulo Mazarini</addName>
+            <addName>Guilio Mazarini</addName>
+            <addName>Iulius Mazarini</addName>
+            <addName>Jules Mazarini</addName>
+            <addName>Julio Mazarini</addName>
+            <addName>Julius Mazarini</addName>
+            <addName>Mazarini Cardinalis</addName>
+            <addName>Jules Mazarinns</addName>
+            <addName>Mazarinns</addName>
+            <addName>Giulio Raimondo Mazarino</addName>
+            <addName>Mazarino</addName>
+            <addName>Iulius Mazarinus</addName>
+            <addName>Mazarinus</addName>
+            <addName>Jul. Mazarinus</addName>
+            <addName>Julius Mazarinus</addName>
+            <addName>Mazarinus Cardinalis</addName>
+            <addName>Julio Mazerino</addName>
+            <addName>Mazerino</addName>
+            <addName>Giulio Mazzarini</addName>
+            <addName>Mazzarini</addName>
+            <addName>Iulius Mazzarini</addName>
+            <addName>Julius Mazzarini</addName>
+            <addName>Mazzarino</addName>
+            <addName>Giulio Mazzarino</addName>
+            <addName>Giulio R. Mazzarino</addName>
+            <addName>Giulio Raimondo Mazzarino</addName>
+            <addName>Guilio Mazzarino</addName>
+            <addName>Jules Mazzarino</addName>
+            <addName>Iulius Mazzarinus</addName>
+            <addName>Mazzarinus</addName>
+            <addName>Julius Mazzarinus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Appennino</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7008531</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7008531">Apennins<addName type="display">Appennino</addName>
+            <addName>Appennino</addName>
+            <addName>Apennines</addName>
+            <addName>Apeninos</addName>
+            <addName>Apenninen</addName>
+            <addName>Apennins</addName>
+            <addName>Mons Apenninus</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Campania</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7003005</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7003005">Campanien<addName type="display">Campania</addName>
+            <addName>Campania</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Veio</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7009104</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7009104">Veii<addName type="display">Veio</addName>
+            <addName>Veio</addName>
+            <addName>Veii</addName>
+            <addName>Veji</addName>
+            <addName>Vejo</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Tarquinia</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7006776</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7006776">Tarquinii<addName type="display">Tarquinia</addName>
+            <addName>Tarquinia</addName>
+            <addName>Tarquinii</addName>
+            <addName>Tarxuna</addName>
+            <addName>Turchinal</addName>
+            <addName>Tarkunia</addName>
+            <addName>Tarxna</addName>
+            <addName>Tarchuna</addName>
+            <addName>Tárchuna</addName>
+            <addName>Tarchna</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Civita Castellana</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7006788</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7006788">Falerii<addName type="display">Civita Castellana</addName>
+            <addName>Civita Castellana</addName>
+            <addName>Cività Castellana</addName>
+            <addName>Falerii Veteres</addName>
+            <addName>Falerii</addName>
+            <addName>Faleri</addName>
+            <addName>Old Falerii</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Etruria</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7024113</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7024113">Etrurien<addName type="display">Etruria</addName>
+            <addName>Etruria</addName>
+            <addName>Rashna</addName>
+            <addName>Rasna</addName>
+            <addName>Tuscia</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Ellás</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=1000074</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:1000074">Griechenlands<addName type="display">Ellás</addName>
+            <addName>Ellás</addName>
+            <addName>Ellas</addName>
+            <addName>Ellinikí Dimokratía</addName>
+            <addName>Elliniki Dimokratia</addName>
+            <addName>Elliniki Dhimokratia</addName>
+            <addName>Greece</addName>
+            <addName>Hellenic Republic</addName>
+            <addName>Grèce</addName>
+            <addName>République hellénique</addName>
+            <addName>Griechenland</addName>
+            <addName>Grecia</addName>
+            <addName>Griekenland</addName>
+            <addName>Grécia</addName>
+            <addName>GRC</addName>
+            <addName>GR</addName>
+            <addName>ISO300</addName>
+            <addName>GR00</addName>
+            <addName>Kingdom of Greece</addName>
+            <addName>Hellas</addName>
+            <addName>Greek</addName>
+            <addName>Hellenic</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+</tags>

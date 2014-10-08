@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Marciana</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00558584</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00558584"
+                   key="#PND:118577514">Murciana<addName type="display">Marciana</addName>
+            <addName>Olpia Marciana</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Plotina (Römisches Reich, Kaiserin)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00562740</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00562740"
+                   key="#PND:118595172">Plotina<addName type="display">Plotina (Römisches Reich, Kaiserin)</addName>
+            <addName>Pompeia Plotina</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Traianus, Marcus Ulpius</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00917510</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00917510"
+                   key="#PND:118623567">Trajani<addName type="display">Traianus, Marcus Ulpius</addName>
+            <addName>Marcus Ulpius Traianus</addName>
+            <addName>Traian</addName>
+            <addName>Traiano Imperatore</addName>
+            <addName>Traiano</addName>
+            <addName>Marcus U. Traianus</addName>
+            <addName>Traianus Epigrammaticus</addName>
+            <addName>Traianus Imperator</addName>
+            <addName>Traianus Romanus</addName>
+            <addName>Trajan Kaiser</addName>
+            <addName>Trajan Plinius-Korrespondent</addName>
+            <addName>Trajanus</addName>
+            <addName>Trajanus Imperator</addName>
+            <addName>Trajanus Imperium Romanum, Imperator</addName>
+            <addName>Ulpius Traianus</addName>
+            <addName>Ulpius</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Sabina, Vibia</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00589162</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00589162"
+                   key="#PND:118793934">Sabina<addName type="display">Sabina, Vibia</addName>
+            <addName>Vibia Sabina</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Adrià (emperador de Roma, 76-138)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00871103</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00871103"
+                   key="#PND:118544373">Hadrians<addName type="display">Adrià (emperador de Roma, 76-138)</addName>
+            <addName>Publius Aelius Hadrianus</addName>
+            <addName>Adriano Imperatore</addName>
+            <addName>Adriano</addName>
+            <addName>Adriano emperador de Roma 76-138</addName>
+            <addName>Adrianus</addName>
+            <addName>Publius Aelius Adrianus</addName>
+            <addName>Adrianus Augustus</addName>
+            <addName>Adrianus Monachus</addName>
+            <addName>Publi Eli Adrià</addName>
+            <addName>Adrià, Publi Eli emperador de Roma 76-138</addName>
+            <addName>Aelius Hadrianus</addName>
+            <addName>Publius Aelius Hadrian</addName>
+            <addName>Hadrian Emperor of Rome</addName>
+            <addName>Hadrian Kaiser</addName>
+            <addName>Hadrian Rom, Kaiser</addName>
+            <addName>Hadrian Rome, Emperor</addName>
+            <addName>Hadrian Römisches Reich, Kaiser</addName>
+            <addName>Hadrian emperador de Roma 76-138</addName>
+            <addName>Hadriano Imperatore</addName>
+            <addName>Hadriano</addName>
+            <addName>Hadrianus, Publius Aelius emperador de Roma 76-138</addName>
+            <addName>Hadrianus Augustus</addName>
+            <addName>Hadrianus Emperor of Rome</addName>
+            <addName>Hadrianus Epigrammaticus</addName>
+            <addName>Hadrianus Imperator</addName>
+            <addName>Hadrianus Kaiser</addName>
+            <addName>Hadrianus Monachus</addName>
+            <addName>Hadrianus Romanus</addName>
+            <addName>Hadrianus Rome, Emperor</addName>
+            <addName>Hadrianus Römisches Reich, Kaiser</addName>
+            <addName>Hadrianus emperador de Roma 76-138</addName>
+            <addName>Hadrianus Augustus Imperium Romanum, Imperator</addName>
+            <addName>Hadrien Empereur</addName>
+            <addName>Hadrien</addName>
+            <addName>Hadrien emperador de Roma 76-138</addName>
+            <addName>Publi Eli Adrià emperador de Roma 76-138</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Livia Drusilla (Römisches Reich, Kaiserin)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00550548</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00550548"
+                   key="#PND:119226014">Livia Augu-  
+                                  sti<addName type="display">Livia Drusilla (Römisches Reich, Kaiserin)</addName>
+            <addName>Iulia Augusta</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Faustina (Römisches Reich, Kaiserin, I.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00584987</link>
+      <count>8</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00584987"
+                   key="#PND:118686240">Faustina<addName type="display">Faustina (Römisches Reich, Kaiserin, I.)</addName>
+            <addName>Faustina die Ältere</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Melpomene</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00581431</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00581431"
+                   key="#PND:124538517">Melpomene<addName type="display">Melpomene</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Richardson, Jonathan</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00961950</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00961950"
+                   key="#PND:119006227 100854893">Richardson<addName type="display">Richardson, Jonathan</addName>
+            <addName>Jonathan Richardson</addName>
+            <addName>J. R.</addName>
+            <addName>R.</addName>
+            <addName>Richardson</addName>
+            <addName>J. Richardson</addName>
+            <addName>John Richardson</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Della Porta, Guglielmo</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00584689</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00584689"
+                   key="#PND:11867935X">della Porta<addName type="display">Della Porta, Guglielmo</addName>
+            <addName>Guglielmo Della Porta</addName>
+            <addName>Gulielmo della Porta</addName>
+            <addName>Gulielmo</addName>
+            <addName>Guglielmo Della Porta di Porlezza</addName>
+            <addName>Della Porta di Porlezza</addName>
+            <addName>Guglielmo DellaPorta</addName>
+            <addName>DellaPorta</addName>
+            <addName>Guglielmo della Porta di Porlezza</addName>
+            <addName>Porlezza</addName>
+            <addName>Guglielmo della Porta di Polrezza</addName>
+            <addName>Porta di Polrezza</addName>
+            <addName>Guglielmo della Porta</addName>
+            <addName>Porta</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Antoninus, Augustus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01260638</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01260638"
+                   key="#PND:118503499">Antonini 
+                                  Pii<addName type="display">Antoninus, Augustus</addName>
+            <addName>Augustus Antoninus</addName>
+            <addName>Antonin le Pieux</addName>
+            <addName>Antonin</addName>
+            <addName>Antonino Pio</addName>
+            <addName>Titus A. Antoninus</addName>
+            <addName>Titus Aurelius Fulvius Bojonius Pius Antoninus</addName>
+            <addName>Antoninus Imperium Romanum, Imperator</addName>
+            <addName>Antoninus Aug.</addName>
+            <addName>Titus Antoninus Pius</addName>
+            <addName>Antoninus Pius Rome, Emperor</addName>
+            <addName>Antoninus Pius Römisches Reich, Kaiser</addName>
+            <addName>Antonius Augustus</addName>
+            <addName>Antonius</addName>
+            <addName>Antonius Pius</addName>
+            <addName>Antonius Pius Imperium Romanum, Imperator</addName>
+            <addName>Marcus Aurelius Antoninus</addName>
+            <addName>Pius</addName>
+            <addName>Pius Imperium Romanum, Imperator</addName>
+            <addName>Titus Aelius Hadrianus Antoninus</addName>
+            <addName>Titus Aelius Hadrianus</addName>
+            <addName>Titus Aelius Hadrianus Antoninus Imperium Romanum, Imperator</addName>
+            <addName>Titus Aurelius Fulvus Boionius Arrius Antoninus</addName>
+            <addName>Titus Aurelius Fulvus Boionius Arrius</addName>
+            <addName>Titus Aurelius Fulvus Boionus Arrius Antoninus</addName>
+            <addName>Titus Aurelius Fulvus Boionus Arrius</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Faustina (Römisches Reich, Kaiserin, II.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00548797</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00548797"
+                   key="#PND:118532111">Faustina minor<addName type="display">Faustina (Römisches Reich, Kaiserin, II.)</addName>
+            <addName>Faustina die Jüngere</addName>
+            <addName>Faustina Minor</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Aurelius Antoninus, Marcus (Emperor of Rome)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259662</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01259662"
+                   key="#PND:118577468">Antonini Philosophi<addName type="display">Aurelius Antoninus, Marcus (Emperor of Rome)</addName>
+            <addName>Marcus Aurelius Antoninus</addName>
+            <addName>Marcus Annius Verus</addName>
+            <addName>Annius Verus</addName>
+            <addName>Marc Antonin</addName>
+            <addName>Antonin</addName>
+            <addName>Marcus Antonin</addName>
+            <addName>Mark Avrelij Antonin</addName>
+            <addName>Marc Aurelio Antonino</addName>
+            <addName>Antonino</addName>
+            <addName>Marco Aurelio Antonino</addName>
+            <addName>Markos Antoninos Autokrator</addName>
+            <addName>Antoninos Autokrator</addName>
+            <addName>Marcus Antoninus</addName>
+            <addName>Antoninus</addName>
+            <addName>Marcus A. Antoninus</addName>
+            <addName>Antoninus, Marcus Aurelius Emperor of Rome</addName>
+            <addName>Antoninus, Marcus Aurelius Imperium Romanum, Imperator</addName>
+            <addName>Marcus Antonius</addName>
+            <addName>Antonius</addName>
+            <addName>Marcus Annius Verus Antonius</addName>
+            <addName>Marcus Aurelius Antonius</addName>
+            <addName>Marc Aurèle</addName>
+            <addName>Aurèle</addName>
+            <addName>Marc- Aurèle</addName>
+            <addName>Marc Aurel</addName>
+            <addName>Aurel</addName>
+            <addName>Marco Aurelio</addName>
+            <addName>Aurelio</addName>
+            <addName>Aurelius</addName>
+            <addName>Aurelius, Marcus Emperor of Rome</addName>
+            <addName>Aurelius, Marcus Imperium Romanum, Imperator</addName>
+            <addName>Marc Antonin Empereur</addName>
+            <addName>Marc Antonin Empire Romain, Empereur</addName>
+            <addName>Marc Aurèle Antonin Empire Romain, Empereur</addName>
+            <addName>Marc Aurèle Antonin</addName>
+            <addName>Marc Aurèle Empereur</addName>
+            <addName>Marc Aurèle</addName>
+            <addName>Marc Aurele Antonin Empereur</addName>
+            <addName>Marc Aurele Antonin</addName>
+            <addName>Marc</addName>
+            <addName>Marc-Aurèle</addName>
+            <addName>Marc-Aurèle</addName>
+            <addName>Marc-Aurèle de Rome</addName>
+            <addName>Marc-Aurele</addName>
+            <addName>Marco</addName>
+            <addName>Marco Aurelio Antonous</addName>
+            <addName>Marco Filosofo Stoico</addName>
+            <addName>Marco Imperatore Romano</addName>
+            <addName>Marcus Annius Catilius Severus</addName>
+            <addName>Marcus Annius</addName>
+            <addName>Marcus Antoninus Emperor of Rome</addName>
+            <addName>Marcus Antoninus Imperator</addName>
+            <addName>Marcus Antoninus Imperium Romanum, Imperator</addName>
+            <addName>Marcus Antoninus Philosophus</addName>
+            <addName>Marcus Antonius Imperium Romanum, Imperator</addName>
+            <addName>Marcus Aurelius Antoninus Emperor of Rome</addName>
+            <addName>Marcus Aurelius Antoninus Imperator</addName>
+            <addName>Marcus Aurelius Antoninus Philosophus</addName>
+            <addName>Marcus Aurelius Antoninus Römisches Reich, Kaiser</addName>
+            <addName>Antoninus Marcus Aurelius</addName>
+            <addName>Marcus Aurelius Imperium Romanum, Imperator</addName>
+            <addName>Marcus Aurelius Kaiser</addName>
+            <addName>Marcus Aurelius Philosoph</addName>
+            <addName>Marcus Aurelius Philosophus</addName>
+            <addName>Marcus</addName>
+            <addName>Marcus Aurel</addName>
+            <addName>Marcus Aurelius Severus Antoninus</addName>
+            <addName>Mark Anthony Imperium Romanum, Imperator</addName>
+            <addName>Mark Anthony</addName>
+            <addName>Mark Aurel Römisches Reich, Kaiser</addName>
+            <addName>Mark-Aurel</addName>
+            <addName>Markos Antōninos</addName>
+            <addName>Markos Antōninos Autokratōr</addName>
+            <addName>Markos Antoninos Emperor of Rome</addName>
+            <addName>Markos Antoninos</addName>
+            <addName>Markos Antōnios</addName>
+            <addName>Markos</addName>
+            <addName>Markos Antōnios</addName>
+            <addName>Marqus ʾAvrelyus ʾAnṭoninus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pudicitia</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300380</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300380">Pudicitia<addName type="display">Pudicitia</addName>
+            <addName>Pudicilia</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Michel-Ange</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00559773</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00559773"
+                   key="#PND:118582143">Mich: Angelo<addName type="display">Michel-Ange</addName>
+            <addName>Michel-Ange Bonaroti</addName>
+            <addName>Bonaroti</addName>
+            <addName>Michel Agnolo Buonarroti</addName>
+            <addName>Buonarroti</addName>
+            <addName>Michel-Ange Buonarroti</addName>
+            <addName>Michelagniolo Buonarroti</addName>
+            <addName>Angelo Bonaroti</addName>
+            <addName>Angelo</addName>
+            <addName>Michiel Angielo Bona Rotta</addName>
+            <addName>Bona Rotta</addName>
+            <addName>Michael Angelus Bonarota</addName>
+            <addName>Bonarota</addName>
+            <addName>Michel Angelo Bonarota</addName>
+            <addName>Michael Angelo Bonaroti</addName>
+            <addName>Michael̈ Angelo Bonaroti</addName>
+            <addName>Michel Angelo Bonaroti</addName>
+            <addName>Michele Angelo Bonaroti</addName>
+            <addName>Michiel Angelo Bonaroti</addName>
+            <addName>Michael Angelus Bonarotus</addName>
+            <addName>Bonarotus</addName>
+            <addName>Michel Angelo Bunaroti</addName>
+            <addName>Bunaroti</addName>
+            <addName>Michael Angelo Buonaroti</addName>
+            <addName>Buonaroti</addName>
+            <addName>Michel Angelo Buonaroti</addName>
+            <addName>Michelangelo Buonaroti</addName>
+            <addName>Michiel Angelo Buonaroti</addName>
+            <addName>Michel Angelo Buonarotti</addName>
+            <addName>Buonarotti</addName>
+            <addName>Michel-Angelo Buonarotti</addName>
+            <addName>Michelangelo Buonarotti</addName>
+            <addName>Michel Angelo Buonarroti</addName>
+            <addName>Michelagniolo di L. Buonarroti</addName>
+            <addName>Michelagnolo Buonarroti</addName>
+            <addName>Buonarroti, Michelangelo 1475-1564</addName>
+            <addName>Michelangiolo Buonarroti</addName>
+            <addName>Mikelandželo Buonarroti</addName>
+            <addName>Michel A. Buonarrotti</addName>
+            <addName>Buonarrotti</addName>
+            <addName>Michel Agnolo Buonarrotti</addName>
+            <addName>Michelagniolo Buonarrotti</addName>
+            <addName>Michelangelo Buonarrotti</addName>
+            <addName>Michelangiolo Buonarrotti</addName>
+            <addName>Michelagnolo Buonarruoti</addName>
+            <addName>Buonarruoti</addName>
+            <addName>L' Impastato</addName>
+            <addName>Impastato</addName>
+            <addName>L' Impostato</addName>
+            <addName>Impostato</addName>
+            <addName>L'Impastato</addName>
+            <addName>L'Impostato</addName>
+            <addName>Micchel-Angelo</addName>
+            <addName>Micha/l Anio/l</addName>
+            <addName>Michael Angelo</addName>
+            <addName>Michael Angelus</addName>
+            <addName>Michael-Angelo Buonaroti</addName>
+            <addName>Michael-Angelo</addName>
+            <addName>Michał Anioł</addName>
+            <addName>Michel Angelo</addName>
+            <addName>Michel Angelus Bonarotus</addName>
+            <addName>Michel Angelus</addName>
+            <addName>Michel Angielo Bona Rotta</addName>
+            <addName>Michelagelo Buonarroti</addName>
+            <addName>Michelagelo</addName>
+            <addName>Michelagniolo Buonaroti</addName>
+            <addName>Michelagniolo</addName>
+            <addName>Michelagniolo di Ludovico di Lionardo Buonarroti-Simoni</addName>
+            <addName>Michelagniolo di Ludovico di Lionardo di Buonarroti Simoni</addName>
+            <addName>Michelagnolo</addName>
+            <addName>Michelagnolo Buonarotti</addName>
+            <addName>Michelangelo</addName>
+            <addName>Buonarroti Michelangelo</addName>
+            <addName>Michelangelo Buonarroti 1475-1564</addName>
+            <addName>Michelangelus</addName>
+            <addName>Buonarroti Michelangiolo</addName>
+            <addName>Michelangiolo</addName>
+            <addName>Michiel Angielo</addName>
+            <addName>Miguel Angel</addName>
+            <addName>Mikel'andželo</addName>
+            <addName>Mikelandelo</addName>
+            <addName>Mikelandželo</addName>
+            <addName>Mikelandželo Buonarroti</addName>
+            <addName>Mikelandželo</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

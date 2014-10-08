@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Wallmoden-Gimborn, Johann Ludwig ¬von¬</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00664371</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00664371"
+                   key="#PND:130253219">Wallmoden<addName type="display">Wallmoden-Gimborn, Johann Ludwig ¬von¬</addName>
+            <addName>Johann Ludwig von Wallmoden-Gimborn</addName>
+            <addName>Johann L. von Gimborn</addName>
+            <addName>Gimborn</addName>
+            <addName>Johann Ludwig Gimborn</addName>
+            <addName>Johann Ludwig von Wallmoden- Gimborn</addName>
+            <addName>Ludwig von Wallmoden- Gimborn</addName>
+            <addName>Johann Ludwig von Wallmoden</addName>
+            <addName>Wallmoden</addName>
+            <addName>Johann L. von Wallmoden-Gimborn</addName>
+            <addName>Ludwig von Wallmoden-Gimborn</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Minerva</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00544188</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00544188"
+                   key="#PND:118986155">Minerva<addName type="display">Minerva</addName>
+            <addName>Sospitatrix</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Athena</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00542952</link>
+      <count>6</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00542952"
+                   key="#PND:118504851">Athene<addName type="display">Athena</addName>
+            <addName>Athene</addName>
+            <addName>Pallas Athene</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Salus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00552254</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00552254"
+                   key="#PND:119295113">Salus<addName type="display">Salus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Jupiter</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00554429</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00554429"
+                   key="#PND:118558897">Jupiters<addName type="display">Jupiter</addName>
+            <addName>Iupiter</addName>
+            <addName>Juppiter</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Phidias</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00562418</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00562418"
+                   key="#PND:118593765">Phidias<addName type="display">Phidias</addName>
+            <addName>Pheidias</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

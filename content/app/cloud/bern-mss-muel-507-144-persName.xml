@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Venus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00588078</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00588078"
+                       key="#PND:11876800X">Venus<addName type="display">Venus</addName>
+            <addName>Anadyomene  Beiname</addName>
+            <addName>Anadyomene</addName>
+            <addName>Arelatensis  Beiname</addName>
+            <addName>Arelatensis</addName>
+            <addName>aurea  Beiname</addName>
+            <addName>aurea</addName>
+            <addName>coelestis  Beiname</addName>
+            <addName>coelestis</addName>
+            <addName>Gnidia  Beiname</addName>
+            <addName>Gnidia</addName>
+            <addName>Marina  Beiname</addName>
+            <addName>Marina</addName>
+            <addName>Pelasgia  Beiname</addName>
+            <addName>Pelasgia</addName>
+            <addName>Pontia  Beiname</addName>
+            <addName>Pontia</addName>
+            <addName>Urania  Beiname</addName>
+            <addName>Urania</addName>
+            <addName>Victrix  Beiname</addName>
+            <addName>Victrix</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-144.tei.xml-d17741e67">Covston</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Merkur</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00575540</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00575540"
+                       key="#PND:118641077">Mercur<addName type="display">Merkur</addName>
+            <addName>Mercurius</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pigalle, Jean Baptiste</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01320618</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01320618"
+                       key="#PND:118792113">Pigalle<addName type="display">Pigalle, Jean Baptiste</addName>
+            <addName>Jean Baptiste Pigalle</addName>
+            <addName>Jean-Baptiste Pigalle</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-144.tei.xml-d17741e175">Hrn.Batenbrok</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-144.tei.xml-d17741e214">Meland</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-144.tei.xml-d17741e218">Bandet</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Thomassin, Simon</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00448214</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00448214"
+                       key="#PND:122076419">Thomassin<addName type="display">Thomassin, Simon</addName>
+            <addName>Simon Thomassin</addName>
+            <addName>Thomasin</addName>
+            <addName>Simon Thomasin</addName>
+            <addName>Simon Thomasinus</addName>
+            <addName>Thomasinus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Monicart, Jean Baptiste ¬de¬</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00424396</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00424396"
+                       key="#PND:120970627">Mr. de Monicard<addName type="display">Monicart, Jean Baptiste ¬de¬</addName>
+            <addName>Jean Baptiste de Monicart</addName>
+            <addName>J.-B. de Monicart</addName>
+            <addName>Jean B. de Monicart</addName>
+            <addName>Jean-Baptiste de Monicart</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

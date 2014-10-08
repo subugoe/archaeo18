@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Lempereur, Jean Denis</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01303750</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01303750">Mr: L´Empereur<addName type="display">Lempereur, Jean Denis</addName>
+            <addName>Jean Denis Lempereur</addName>
+            <addName>L'Empereur</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Lalive de Jully , Ange Laurent</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01303751</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01303751">Mr. 
+                                            Lernde Lully<addName type="display">Lalive de Jully , Ange Laurent</addName>
+            <addName>Ange Laurent Lalive de Jully</addName>
+            <addName>Lernde Lully</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Apollon</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00542641</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00542641"
+                   key="#PND:118503642">Apolls<addName type="display">Apollon</addName>
+            <addName>Apoll</addName>
+            <addName>Apollo</addName>
+            <addName>Phoebus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Diana</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00584638</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00584638"
+                   key="#PND:118678132">Dianae<addName type="display">Diana</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Saturnus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300393</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300393">Saturns<addName type="display">Saturnus</addName>
+            <addName>Saturn</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Raphaël</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01270961</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01270961"
+                   key="#PND:118597787">Raphaels<addName type="display">Raphaël</addName>
+            <addName>Raffael</addName>
+            <addName>Raphael Urbinas</addName>
+            <addName>Raffaello Santi</addName>
+            <addName>Santi</addName>
+            <addName>Sanzio</addName>
+            <addName>Urbinas</addName>
+            <addName>Rafael de Urbino 1483-1520</addName>
+            <addName>Rafael von Urbino</addName>
+            <addName>Rafaele d'Urbino</addName>
+            <addName>Rafaele</addName>
+            <addName>Rafaello 1483-1520</addName>
+            <addName>Rafaello</addName>
+            <addName>Raffael Santi</addName>
+            <addName>Raffaele Sanzio</addName>
+            <addName>Raffaele</addName>
+            <addName>Raffaelle di Vrbino</addName>
+            <addName>Raffaelle 1483-1520</addName>
+            <addName>Raffaelle</addName>
+            <addName>Raffaelle d'Urbino 1483-1520</addName>
+            <addName>Raffaello Sanzio 1483-1520</addName>
+            <addName>Raffaello 1483-1520</addName>
+            <addName>Raffaello da Urbino</addName>
+            <addName>Raffaello da Urbino 1483-1520</addName>
+            <addName>Raffaello di Urbino</addName>
+            <addName>Raffaello d'Urbino</addName>
+            <addName>Raffaelo Santi</addName>
+            <addName>Raffaelo</addName>
+            <addName>Raffaelo Sanzio</addName>
+            <addName>Raph. Sanctius</addName>
+            <addName>Raph.</addName>
+            <addName>Raphaël d'Urbine</addName>
+            <addName>Raphael</addName>
+            <addName>Raphael 1483-1520</addName>
+            <addName>Raphael di Urbino</addName>
+            <addName>Raphael Pictor</addName>
+            <addName>Raphael Sanctius Urbinas</addName>
+            <addName>Raphael Sanctus</addName>
+            <addName>Raphael Santius Urbinas</addName>
+            <addName>Raphael Sanzio</addName>
+            <addName>Raphael Urbin</addName>
+            <addName>Raphael Urbino</addName>
+            <addName>Raphael Urbinus</addName>
+            <addName>Raphael von Urbino</addName>
+            <addName>Raphaello</addName>
+            <addName>Raphael Sancius</addName>
+            <addName>Sancius, Raphael 1483-1520</addName>
+            <addName>Sancius</addName>
+            <addName>Sanctius</addName>
+            <addName>Sanctius, Raph. 1483-1520</addName>
+            <addName>Sanctius Urbinus</addName>
+            <addName>Raffaello Santius</addName>
+            <addName>Santius</addName>
+            <addName>Raphael Santius</addName>
+            <addName>Raffaello Sanzi</addName>
+            <addName>Sanzi</addName>
+            <addName>Rafael Sanzio</addName>
+            <addName>Sanzio, Rafael 1483-1520</addName>
+            <addName>Sanzio, Raffaello 1483-1520</addName>
+            <addName>Rafael Urbinas</addName>
+            <addName>Urbinas, Rafael 1483-1520</addName>
+            <addName>Raphael S. Urbinas</addName>
+            <addName>Rafael Urbino</addName>
+            <addName>Urbino, Rafael 1483-1520</addName>
+            <addName>Urbino</addName>
+            <addName>Raf. Vrb</addName>
+            <addName>Vrb, Raf. 1483-1520</addName>
+            <addName>Vrb</addName>
+            <addName>R. Vrbinas</addName>
+            <addName>Vrbinas, R. 1483-1520</addName>
+            <addName>Vrbinas</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Herbert, Thomas</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00368551</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00368551"
+                   key="#PND:104340932">Grafen von Pembro-  
+                                            cke<addName type="display">Herbert, Thomas</addName>
+            <addName>Thomas Herbert</addName>
+            <addName>Thomas Pembrochiae</addName>
+            <addName>Pembrochiae</addName>
+            <addName>Thomas Pembroke</addName>
+            <addName>Pembroke</addName>
+            <addName>Thomas Herbert Pembroke</addName>
+            <addName>Thomas Herbert of Pembroke</addName>
+            <addName>Thomas of Pembroke</addName>
+            <addName>Thomas Pembroke, Earl, VIII.</addName>
+            <addName>Thomas</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

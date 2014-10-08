@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Caylus Zeichnung desselben. T. 27. der Acad. d. Ins. p. 21.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://catalog.hathitrust.org/Record/009328277</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://catalog.hathitrust.org/Record/009328277">Caylus Zeichnung desselben. T. 27. der Acad. d. Ins. p. 21.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Poivin Apologie d'Homère.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN647534053</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN647534053">Poivin Apologie d'Homère.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pope Homer.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://katalog.ub.uni-heidelberg.de/titel/ppn802029426 http://katalog.ub.uni-heidelberg.de/titel/ppn802029450</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://katalog.ub.uni-heidelberg.de/titel/ppn802029426 #http://katalog.ub.uni-heidelberg.de/titel/ppn802029450">Pope Homer.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Chairon, Mdmslle.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://dfg-viewer.de/v2/?set[image]=11&amp;set[mets]=http%3A%2F%2Fgdz.sub.uni-goettingen.de%2Fmets_export.php%3FPPN%3DPPN660163853&amp;set[zoom]=default&amp;set[debug]=0&amp;set[double]=0&amp;set[style]=</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://dfg-viewer.de/v2/?set[image]=11&amp;set[mets]=http%3A%2F%2Fgdz.sub.uni-goettingen.de%2Fmets_export.php%3FPPN%3DPPN660163853&amp;set[zoom]=default&amp;set[debug]=0&amp;set[double]=0&amp;set[style]=">Chairon, Mdmslle.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Lessing im Laocoon.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://opac.sub.uni-goettingen.de/DB=1/PPNSET?PPN=13736234X</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://opac.sub.uni-goettingen.de/DB=1/PPNSET?PPN=13736234X">Lessing im Laocoon.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Caylus. 1. c.</tag>
+      <facet>tei:bibl</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#">Caylus. 1. c.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+</tags>

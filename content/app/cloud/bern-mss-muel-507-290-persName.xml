@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Venus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00588078</link>
+      <count>10</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00588078"
+                       key="#PND:11876800X">Venus<addName type="display">Venus</addName>
+            <addName>Anadyomene  Beiname</addName>
+            <addName>Anadyomene</addName>
+            <addName>Arelatensis  Beiname</addName>
+            <addName>Arelatensis</addName>
+            <addName>aurea  Beiname</addName>
+            <addName>aurea</addName>
+            <addName>coelestis  Beiname</addName>
+            <addName>coelestis</addName>
+            <addName>Gnidia  Beiname</addName>
+            <addName>Gnidia</addName>
+            <addName>Marina  Beiname</addName>
+            <addName>Marina</addName>
+            <addName>Pelasgia  Beiname</addName>
+            <addName>Pelasgia</addName>
+            <addName>Pontia  Beiname</addName>
+            <addName>Pontia</addName>
+            <addName>Urania  Beiname</addName>
+            <addName>Urania</addName>
+            <addName>Victrix  Beiname</addName>
+            <addName>Victrix</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Innocenci (papa, 1611-1689)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00395302</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00395302"
+                       key="#PND:118555677">Innocenz XI.<addName type="display">Innocenci (papa, 1611-1689)</addName>
+            <addName>Innocent Pape, XI.</addName>
+            <addName>Innocent</addName>
+            <addName>Innocent Pope, XI.</addName>
+            <addName>Innocent XI. Pope</addName>
+            <addName>Innocentio XI papa 1611-1689</addName>
+            <addName>Innocentio</addName>
+            <addName>Innocentius Episcopus</addName>
+            <addName>Innocentius Papa, XI</addName>
+            <addName>Innocentius XI papa 1611-1689.</addName>
+            <addName>Innocentius XI.</addName>
+            <addName>Innocenz XI.</addName>
+            <addName>Innocenz</addName>
+            <addName>Innocenzo Papa, XI.</addName>
+            <addName>Innocenzo</addName>
+            <addName>Innocenzo XI.</addName>
+            <addName>Innozenz XI.</addName>
+            <addName>Innozenz XI. Papa</addName>
+            <addName>Innozenzo XI</addName>
+            <addName>Innozenzo</addName>
+            <addName>Innozenzo XI.</addName>
+            <addName>Inocencio XI papa 1611-1689</addName>
+            <addName>Inocencio</addName>
+            <addName>Benedetto Odescalchi</addName>
+            <addName>Odescalchi</addName>
+            <addName>Odescalchi, Benedetto 1611-1689</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Amor</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00542364</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00542364"
+                       key="#PND:11850262X">Amors<addName type="display">Amor</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

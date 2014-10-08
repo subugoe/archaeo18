@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Bentley, Thomas</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00552506</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00552506"
+                   key="#PND:119304503">Bentley<addName type="display">Bentley, Thomas</addName>
+            <addName>Thomas Bentley</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Wedgwood, Josiah</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00404957</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00404957"
+                   key="#PND:119248212">Wegdgewood<addName type="display">Wedgwood, Josiah</addName>
+            <addName>Josiah Wedgwood</addName>
+            <addName>Josiah Wedgewood</addName>
+            <addName>Wedgewood</addName>
+            <addName>Wedgwood</addName>
+            <addName>Josias Wedgwood</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Tassie, James</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00437062</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00437062"
+                   key="#PND:121531139">Dassy<addName type="display">Tassie, James</addName>
+            <addName>James Tassie</addName>
+            <addName>Dassy</addName>
+            <addName>J. Tassie</addName>
+            <addName>Tassie, J. James</addName>
+            <addName>Jacques Tassie</addName>
+            <addName>Tassie, James 1735-1799</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Mithridates (Pontisches Reich, König, VI.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00586837</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00586837"
+                   key="#PND:118734210">Mithridates<addName type="display">Mithridates (Pontisches Reich, König, VI.)</addName>
+            <addName>Mithradates Pontus, König, VI.</addName>
+            <addName>Mithradates</addName>
+            <addName>Mithridates VI Eupator, $cKing of Pontus, $dca. 132-63 B.C.</addName>
+            <addName>Mithradates Eupator</addName>
+            <addName>Mithridate Roi du Pont</addName>
+            <addName>Mithridate</addName>
+            <addName>Mithridate VI., Eupator</addName>
+            <addName>Mithridates Eupator</addName>
+            <addName>Mithridates Medicus</addName>
+            <addName>Mithridates VI., Eupator</addName>
+            <addName>Mithridates der Grosse</addName>
+            <addName>Mitridat Car' pontijskij</addName>
+            <addName>Mitridat</addName>
+            <addName>Mitridat Evpator</addName>
+            <addName>Mitridat VI., Evpator</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Licinius Lucullus, Lucius</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00400045</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00400045"
+                   key="#PND:118780697">Lucull<addName type="display">Licinius Lucullus, Lucius</addName>
+            <addName>Lucius Licinius Lucullus</addName>
+            <addName>Licinius</addName>
+            <addName>Licinius Lucullus, Lucius 0117?-0057? av. J.-C.</addName>
+            <addName>Lucjusz Licyniusz Lukullus</addName>
+            <addName>Licyniusz Lukullus</addName>
+            <addName>Lucio Licinio Lucullo</addName>
+            <addName>Lucullo</addName>
+            <addName>Lucullus Historicus</addName>
+            <addName>Lucullus Historiker</addName>
+            <addName>Lucullus Politiker</addName>
+            <addName>Lukullus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01261255</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01261255">J. Cäsar</persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Farnese (Familie)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00542682</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00542682"
+                   key="#PND:118932462">Hauses Farnese<addName type="display">Farnese (Familie)</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

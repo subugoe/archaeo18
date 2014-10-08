@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Etruria</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7024113</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7024113">Etrurien<addName type="display">Etruria</addName>
+            <addName>Etruria</addName>
+            <addName>Rashna</addName>
+            <addName>Rasna</addName>
+            <addName>Tuscia</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Napoli</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7003013</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7003013">Neapolitanischen<addName type="display">Napoli</addName>
+            <addName>Napoli</addName>
+            <addName>Napoli province</addName>
+            <addName>Napoli, Provincia di</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Sicilia</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7030363</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7030363">Sicilien<addName type="display">Sicilia</addName>
+            <addName>Sicilia</addName>
+            <addName>Sicily</addName>
+            <addName>Sizilien</addName>
+            <addName>Trinacria</addName>
+            <addName>Thrinacria</addName>
+            <addName>Sikanie</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Assos</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7002375</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7002375">Assus<addName type="display">Assos</addName>
+            <addName>Assos</addName>
+            <addName>Assus</addName>
+            <addName>Assus Troadis</addName>
+            <addName>Assum</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Mysia</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7016748</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7016748">Lysien<addName type="display">Mysia</addName>
+            <addName>Mysia</addName>
+         </placeName>
+      </nodes>
+   </tag>
+</tags>

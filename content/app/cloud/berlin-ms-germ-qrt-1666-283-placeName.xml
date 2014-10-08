@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Rossiya</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7002435</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7002435">Rußland<addName type="display">Rossiya</addName>
+            <addName>Rossiya</addName>
+            <addName>Rossiyskaya Federatsiya</addName>
+            <addName>Rossiyskaya</addName>
+            <addName>Russia</addName>
+            <addName>Russian Federation</addName>
+            <addName>Russie</addName>
+            <addName>Fédération de Russie</addName>
+            <addName>Russland</addName>
+            <addName>Rusia</addName>
+            <addName>Rusland</addName>
+            <addName>Rússia</addName>
+            <addName>RUS</addName>
+            <addName>RU</addName>
+            <addName>ISO643</addName>
+            <addName>RS00</addName>
+            <addName>Rossijskaja Sovetskaja Federativnaja Socialističeskaja Respublika</addName>
+            <addName>Rossiyskaya SFSR</addName>
+            <addName>Russian Soviet Federated Socialist Republic</addName>
+            <addName>Russian SFSR</addName>
+            <addName>R. S. F. S. R.</addName>
+            <addName>Russian</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>İstanbul</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7002473</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7002473">Constantino<addName type="display">İstanbul</addName>
+            <addName>İstanbul</addName>
+            <addName>Istanbul</addName>
+            <addName>Estambul</addName>
+            <addName>Tsarigrad</addName>
+            <addName>Tsargrad</addName>
+            <addName>Constantinople</addName>
+            <addName>Konstantinopel</addName>
+            <addName>Costantinopoli</addName>
+            <addName>Constantinopolis</addName>
+            <addName>New Rome</addName>
+            <addName>Byzantium</addName>
+            <addName>Mikligard</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+</tags>

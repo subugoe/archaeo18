@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Philipp (Makedonien, König, II.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00396112</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00396112"
+                   key="#PND:118593838">Philipp von Macedonien<addName type="display">Philipp (Makedonien, König, II.)</addName>
+            <addName>Philipp Mazedonien, König, II.</addName>
+            <addName>Philipp von Makedonien</addName>
+            <addName>Philippe Macédonie, Roi, II.</addName>
+            <addName>Philippe</addName>
+            <addName>Philippos König der Makedonen, II.</addName>
+            <addName>Philippos</addName>
+            <addName>Philippus Epistolographus</addName>
+            <addName>Philippus</addName>
+            <addName>Philippus Macedonia, Rex, II.</addName>
+            <addName>Philippus Macedoniae Rex, II.</addName>
+            <addName>Philippus Macedonius</addName>
+            <addName>Philippus Makedonien, König, II.</addName>
+            <addName>Philippus Mazedonien, König, II.</addName>
+            <addName>Philippus Rex Macedonum, II.</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Attalos (Pergamenisches Reich, König, I.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00562332</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00562332"
+                   key="#PND:12089260X">Königs Attilus von Pergamus<addName type="display">Attalos (Pergamenisches Reich, König, I.)</addName>
+            <addName>Attalos I. Soter</addName>
+            <addName>Attalus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Iulius Sabinus, Gaius</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300307</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300307">Julius Sabinus<addName type="display">Iulius Sabinus, Gaius</addName>
+            <addName>Gaius Iulius Sabinus</addName>
+            <addName>Julius Sabinus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Vespasian (Römisches Reich, Kaiser)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00984011</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00984011"
+                   key="#PND:11862671X">Vespasian<addName type="display">Vespasian (Römisches Reich, Kaiser)</addName>
+            <addName>Titus Flavius Vespasianus</addName>
+            <addName>Caesar Vespasianus Augustus</addName>
+            <addName>Caesar Vespasianus</addName>
+            <addName>Flavius Vespasianus</addName>
+            <addName>Titus Flavius Vespasian</addName>
+            <addName>Vespasian Imperator</addName>
+            <addName>Vespasian Kaiser</addName>
+            <addName>Vespasian Römisches Reich, Kaiser</addName>
+            <addName>Vespasiano Imperatore</addName>
+            <addName>Vespasiano</addName>
+            <addName>Vespasien Empereur</addName>
+            <addName>Vespasien</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Titus (Imperium Romanum, Imperator)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00396707</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00396707"
+                   key="#PND:118622951">Titus<addName type="display">Titus (Imperium Romanum, Imperator)</addName>
+            <addName>Flavius Vespasianus Titus</addName>
+            <addName>Titus Flavius Vespasianus</addName>
+            <addName>Flavius Vespasianus</addName>
+            <addName>Titus Vespasianus Augustus</addName>
+            <addName>Titus Vespasianus</addName>
+            <addName>Titus Imperator</addName>
+            <addName>Titus Römisches Reich, Kaiser</addName>
+            <addName>Titus Romanus</addName>
+            <addName>Vespasianus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Domitien (empereur romain)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00397834</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00397834"
+                   key="#PND:118672231">Domitian<addName type="display">Domitien (empereur romain)</addName>
+            <addName>Titus Flavius Domitianus</addName>
+            <addName>Domitian Kaiser</addName>
+            <addName>Gaius Flavius Domitianus</addName>
+            <addName>Domitianus Kaiser</addName>
+            <addName>Domitianus Römischer Kaiser</addName>
+            <addName>Domizian Römisches Reich, Kaiser</addName>
+            <addName>Domizian</addName>
+            <addName>Flavius Domitianus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Commodus (Imperium Romanum, Imperator)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00394493</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00394493"
+                   key="#PND:118521713">Commodus<addName type="display">Commodus (Imperium Romanum, Imperator)</addName>
+            <addName>Commodus Imperator</addName>
+            <addName>Lucius Aelius Aurelius Gaius Augustus Imperator Caesar</addName>
+            <addName>Lucius Aelius Aurelius Gaius Augustus</addName>
+            <addName>Marcus Aurelius Gaius Antoninus</addName>
+            <addName>Marcus Aurelius Gaius Antoninus Augustus Imperator Caesar</addName>
+            <addName>Marcus Aurelius Gaius Antoninus Augustus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Nero (Imperium Romanum, Imperator)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00982828</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00982828"
+                   key="#PND:118586998">Nero<addName type="display">Nero (Imperium Romanum, Imperator)</addName>
+            <addName>Nero Claudius Caesar</addName>
+            <addName>Claudius Caesar</addName>
+            <addName>Claudius Nero</addName>
+            <addName>Claudius Nero Caesar</addName>
+            <addName>Domitius Ahenobarbus</addName>
+            <addName>Lucius Domitius Ahenobarbus Nero Claudius Caesar Augustus Germanicus</addName>
+            <addName>Néron Empereur</addName>
+            <addName>Néron</addName>
+            <addName>Néron Empereur</addName>
+            <addName>Néron</addName>
+            <addName>Nero Claudius</addName>
+            <addName>Nero Claudius Caesar Augustus Germanicus Imperator</addName>
+            <addName>Nero Claudius Caesar Augustus Germanicus</addName>
+            <addName>Nero Tiberius Claudius Imperator</addName>
+            <addName>Nero Tiberius Claudius</addName>
+            <addName>Claudius C. Nero</addName>
+            <addName>Nero Caesar</addName>
+            <addName>Nero Emperor of Rome</addName>
+            <addName>Nero Imperator</addName>
+            <addName>Nero Römisches Reich, Kaiser</addName>
+            <addName>Nero Römischer Kaiser</addName>
+            <addName>Nero Romanus</addName>
+            <addName>Klavdij Cezarʹ Neron</addName>
+            <addName>Neron</addName>
+            <addName>Neron Imperator Rismkij</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

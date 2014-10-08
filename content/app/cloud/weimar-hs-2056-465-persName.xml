@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Kalamis</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00547172</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00547172"
+                   key="#PND:119097087">Calamis<addName type="display">Kalamis</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Caracalla (Imperium Romanum, Imperator)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00397692</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00397692"
+                   key="#PND:118667041">Caraccala<addName type="display">Caracalla (Imperium Romanum, Imperator)</addName>
+            <addName>Aurelius Antoninus Caesar</addName>
+            <addName>Aurelius Antoninus</addName>
+            <addName>Aurelius Severus Antoninus Augustus</addName>
+            <addName>Aurelius Severus Antoninus</addName>
+            <addName>Bassianus</addName>
+            <addName>Caracalla Imperator</addName>
+            <addName>Caracalla Römischer Kaiser</addName>
+            <addName>Lucius Septimius Bassianus</addName>
+            <addName>Marcus Aurelius Antoninus</addName>
+            <addName>Marcus Aurelius Antoninus Caesar</addName>
+            <addName>Marcus Aurelius Severus Antoninus Augustus</addName>
+            <addName>Marcus Aurelius Severus Antoninus</addName>
+            <addName>Septimius Bassianus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Kepheus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300246</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300246">Cepheus<addName type="display">Kepheus</addName>
+            <addName>Cepheus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Andromeda</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00578206</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00578206"
+                   key="#PND:118649302">Andromeda<addName type="display">Andromeda</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Kephisodotos</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300247</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300247">Cephisodorus<addName type="display">Kephisodotos</addName>
+            <addName>Cephissodorus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Praxiteles</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00589123</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00589123"
+                   key="#PND:118793241">Praxitelis<addName type="display">Praxiteles</addName>
+            <addName>Prassitele</addName>
+            <addName>Praxitèle</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Ceres (Göttin)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00540610</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00540610"
+                   key="#PND:118862294">Ceres<addName type="display">Ceres (Göttin)</addName>
+            <addName>Demeter</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Cicero, Marcus Tullius</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259298</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01259298"
+                   key="#PND:118520814">Cicero<addName type="display">Cicero, Marcus Tullius</addName>
+            <addName>Marcus Tullius Cicero</addName>
+            <addName>M. Tullius Cicero</addName>
+            <addName>M. T. Cicero</addName>
+            <addName>M. Tul Cicero</addName>
+            <addName>M. T. Ciceron</addName>
+            <addName>Ciceron</addName>
+            <addName>Marek Tullius Ciceron</addName>
+            <addName>Mark Tullij Ciceron</addName>
+            <addName>Cicerone</addName>
+            <addName>M. T. Cicerone</addName>
+            <addName>Marco Tullio Cicerone</addName>
+            <addName>M. Tulli Ciceronis</addName>
+            <addName>Ciceronis</addName>
+            <addName>Cycero</addName>
+            <addName>M. Tuljusz Cycero</addName>
+            <addName>M. Tulljusz Cycero</addName>
+            <addName>Marek Tullius Cycero</addName>
+            <addName>M. T. C.</addName>
+            <addName>Cecéron</addName>
+            <addName>Marcus Tullius Cic.</addName>
+            <addName>Cic.</addName>
+            <addName>Cicéron</addName>
+            <addName>Marcus T. Cicéron</addName>
+            <addName>Cicéron d'Arpinium</addName>
+            <addName>Cicéron d'Arpinum</addName>
+            <addName>Marcus Tullius Ciccero</addName>
+            <addName>Ciccero</addName>
+            <addName>Cicéron</addName>
+            <addName>Marcus T. Cicéron</addName>
+            <addName>Cicéron d'Arpinium</addName>
+            <addName>Cicéron d'Arpinum</addName>
+            <addName>Cicero</addName>
+            <addName>M. Tvllus Cicero</addName>
+            <addName>Marcus T. Cicero</addName>
+            <addName>Marcus Tullus Cicero</addName>
+            <addName>Marcus Tvllius Cicero</addName>
+            <addName>Markus Tullius Cicero</addName>
+            <addName>Cicero Arpinius</addName>
+            <addName>Cicero Orator</addName>
+            <addName>Cicero Philosopher</addName>
+            <addName>Cicero Philosophus</addName>
+            <addName>Cicero von Arpinium</addName>
+            <addName>Cicero von Arpinum</addName>
+            <addName>Ciceron</addName>
+            <addName>M. Tulij Ciceron</addName>
+            <addName>Marco T. Ciceron</addName>
+            <addName>Marcus T. Ciceron</addName>
+            <addName>Marcus Tullius Ciceron</addName>
+            <addName>Cicerone</addName>
+            <addName>Marco T. Cicerone</addName>
+            <addName>Marco Tvllio Cicerone</addName>
+            <addName>Marcus T. Cicerone</addName>
+            <addName>M. T. Ciceronis</addName>
+            <addName>M. Tullii Ciceronis</addName>
+            <addName>Marci Tulli Ciceronis</addName>
+            <addName>M. T. Cycero</addName>
+            <addName>Marek T. Cycero</addName>
+            <addName>Marek Tuliusz Cycero</addName>
+            <addName>Cyceron</addName>
+            <addName>M. T. Cyceron</addName>
+            <addName>Marek Tuliusz Cyceron</addName>
+            <addName>Marek Tulliusz Cyceron</addName>
+            <addName>Markos Tyllios Kikerō</addName>
+            <addName>Kikerō</addName>
+            <addName>Markos Tyllios Kikero</addName>
+            <addName>Kikero</addName>
+            <addName>Markos Tyllios Kikerō</addName>
+            <addName>Kikerō</addName>
+            <addName>M.T.C.</addName>
+            <addName>Pseudo Ciccero</addName>
+            <addName>Pseudo Cicero</addName>
+            <addName>Pseudocicero</addName>
+            <addName>Pseudo-Cicero</addName>
+            <addName>Tullius Cicero</addName>
+            <addName>Tullius</addName>
+            <addName>Marcus Tullius</addName>
+            <addName>Tully</addName>
+            <addName>M. Tullio Cicerone</addName>
+            <addName>M.T. Cicero</addName>
+            <addName>Marco Tullio Ciceram</addName>
+            <addName>Ciceram</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Kleopatra (Ägypten, Königin, VII.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00395483</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00395483"
+                   key="#PND:11856322X">Cleopatra<addName type="display">Kleopatra (Ägypten, Königin, VII.)</addName>
+            <addName>Cleopatra Ägypten, Königin, VII.</addName>
+            <addName>Cleopatra</addName>
+            <addName>Cleopatra die Grosse</addName>
+            <addName>Cleopatra Medica</addName>
+            <addName>Cleopatra Philopator, VII.</addName>
+            <addName>Cleopatra Ptolemais, Regina, VII.</addName>
+            <addName>Kleopatra die Grosse</addName>
+            <addName>Kleopatra Königin der Ptolemaier, VII.</addName>
+            <addName>Kleopatra Philopator</addName>
+            <addName>Kleopatra Tochter des Ptolemaios XII.</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Jupiter</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00554429</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00554429"
+                   key="#PND:118558897">Jupiter<addName type="display">Jupiter</addName>
+            <addName>Iupiter</addName>
+            <addName>Juppiter</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Commodus (Imperium Romanum, Imperator)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00394493</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00394493"
+                   key="#PND:118521713">Commodus<addName type="display">Commodus (Imperium Romanum, Imperator)</addName>
+            <addName>Commodus Imperator</addName>
+            <addName>Lucius Aelius Aurelius Gaius Augustus Imperator Caesar</addName>
+            <addName>Lucius Aelius Aurelius Gaius Augustus</addName>
+            <addName>Marcus Aurelius Gaius Antoninus</addName>
+            <addName>Marcus Aurelius Gaius Antoninus Augustus Imperator Caesar</addName>
+            <addName>Marcus Aurelius Gaius Antoninus Augustus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Constantinus (Imperium Romanum, Imperator, I.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00945275</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00945275"
+                   key="#PND:118565184">Constantinus Magnus<addName type="display">Constantinus (Imperium Romanum, Imperator, I.)</addName>
+            <addName>Aurelius Claudius</addName>
+            <addName>Claudius Valerius</addName>
+            <addName>Constantin der Große</addName>
+            <addName>Constantin</addName>
+            <addName>Constantin der Grosse</addName>
+            <addName>Constantin Empereur</addName>
+            <addName>Constantin Kaiser</addName>
+            <addName>Constantin Varsovie, Grand-Duc</addName>
+            <addName>Constantine Emperor, I.</addName>
+            <addName>Constantine</addName>
+            <addName>Constantine the Great</addName>
+            <addName>Flavius Valerius Constantinus Augustus</addName>
+            <addName>Constantinus Augustus</addName>
+            <addName>Flavius Valerius Constantinus</addName>
+            <addName>I. Constantinus</addName>
+            <addName>Constantinus, I. Imperator</addName>
+            <addName>Constantinus Constantinopolitanus</addName>
+            <addName>Constantinus der Große</addName>
+            <addName>Constantinus der Grosse</addName>
+            <addName>Constantinus Imperator</addName>
+            <addName>Constantinus Imperator, I.</addName>
+            <addName>Constantinus Magnus</addName>
+            <addName>Costantino il Grande</addName>
+            <addName>Costantino</addName>
+            <addName>Flavius Valerius</addName>
+            <addName>Konstantin Veliki</addName>
+            <addName>Konstantin den Stores</addName>
+            <addName>Konstantin der Große</addName>
+            <addName>Konstantin der Grosse</addName>
+            <addName>Konstantin Römisches Reich, Kaiser, I.</addName>
+            <addName>Konstantin Römischer Kaiser</addName>
+            <addName>Konstantinus Imperium Romanum, Imperator, I.</addName>
+            <addName>Konstantinus</addName>
+            <addName>Konstantyn de Groote</addName>
+            <addName>Konstantyn</addName>
+            <addName>Valerius Aurelis</addName>
+            <addName>Valerius Constantinus Augustus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Crispina , Bruttia</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300260</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300260">Crispina<addName type="display">Crispina , Bruttia</addName>
+            <addName>Bruttia Crispina</addName>
+            <addName>Crispina Augusta</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Kresilas</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300261</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300261">Ctesilaus<addName type="display">Kresilas</addName>
+            <addName>Ctesilaus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Curtius , Marcus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300262</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300262">Curtius<addName type="display">Curtius , Marcus</addName>
+            <addName>Marcus Curtius</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Kybele</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00575273</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00575273"
+                   key="#PND:118640283">Cybele<addName type="display">Kybele</addName>
+            <addName>Cybele</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Kypselos</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300263</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300263">Cypselus<addName type="display">Kypselos</addName>
+            <addName>Cypselus</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

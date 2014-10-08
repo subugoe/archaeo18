@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/16364</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/objekt/16364">Tabula Isiaca</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/137334 http://arachne.uni-koeln.de/item/objekt/137335</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/objekt/137334 #http://arachne.uni-koeln.de/item/objekt/137335">Memnon</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Roma</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-18.tei.xml-d18571e275">Sphynxe von Basalt in <TEI:placeName ref="#GettyID:7000874">Rom<addName type="display">Roma</addName>
+               <addName>Roma</addName>
+               <addName>Urbe</addName>
+               <addName>Rome</addName>
+               <addName>Rom</addName>
+               <addName>Roman</addName>
+            </TEI:placeName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pocoke</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-18.tei.xml-d18571e297">sizende
+          
+          Figuren in <TEI:bibl>
+               <TEI:ref target="#http://opac.sub.uni-goettingen.de/DB=1/PPNSET?PPN=135187540">Pocoke</TEI:ref>
+            </TEI:bibl>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>P. BarberiniAlbani</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-18.tei.xml-d18571e315">Osiris mit dem Sper-
+          
+          berskopf in <TEI:term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000007">P. Barberini</TEI:term> und <TEI:term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000297">Albani</TEI:term>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000007</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/sammlungen/1000007">P. Barberini</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000297</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/sammlungen/1000297">Albani</TEI:term>
+      </nodes>
+   </tag>
+</tags>

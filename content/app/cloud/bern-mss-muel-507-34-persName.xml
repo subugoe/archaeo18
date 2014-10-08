@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Homer</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259620</link>
+      <count>4</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01259620"
+                       key="#PND:11855333X">Homer<addName type="display">Homer</addName>
+            <addName>Gomer</addName>
+            <addName>Hūmīrūs</addName>
+            <addName>Hūmar</addName>
+            <addName>Hūmir</addName>
+            <addName>Hōmar</addName>
+            <addName>Hômêrôs</addName>
+            <addName>Homère</addName>
+            <addName>Homēros</addName>
+            <addName>Homérosz</addName>
+            <addName>Homēros</addName>
+            <addName>Homère</addName>
+            <addName>Homere</addName>
+            <addName>Homero</addName>
+            <addName>Homeros</addName>
+            <addName>Homeros Tragiker</addName>
+            <addName>Homerosi</addName>
+            <addName>Homerus Colophonius</addName>
+            <addName>Homerus Colophonus</addName>
+            <addName>Homerus Dramatiker</addName>
+            <addName>Homerus Epicus</addName>
+            <addName>Omēros</addName>
+            <addName>Omero</addName>
+            <addName>Omiros</addName>
+            <addName>Pseudo-Homerus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Theseus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00569362</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00569362"
+                       key="#PND:11862184X">Theseus<addName type="display">Theseus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pausanias</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00396071</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00396071"
+                       key="#PND:118592246">Pausanias<addName type="display">Pausanias</addName>
+            <addName>Pausania</addName>
+            <addName>Pausania il Periegeta</addName>
+            <addName>Pausanias Periegetos</addName>
+            <addName>Pausanias Damascenus</addName>
+            <addName>Pausanias de Magnésie</addName>
+            <addName>Pausanias de Magnésie</addName>
+            <addName>Pausanias der Perieget</addName>
+            <addName>Pausanias der Periegete</addName>
+            <addName>Pausanias Géographe</addName>
+            <addName>Pausanias Géographe</addName>
+            <addName>Pausanias Geographus</addName>
+            <addName>Pausanias Lydius</addName>
+            <addName>Pausanias Perieget</addName>
+            <addName>Pausanias Reiseschriftsteller</addName>
+            <addName>Pausanias Schriftsteller</addName>
+            <addName>Pauzanija</addName>
+            <addName>Periegeta</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

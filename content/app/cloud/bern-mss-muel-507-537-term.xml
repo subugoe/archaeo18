@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Ptolemaios XIV. (Philopator)Aulos</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-537.tei.xml-d6669e35">Kopf von <TEI:persName ref="#CerlID:cnp01427510">Ptolomäus Philopater<addName type="display">Ptolemaios XIV. (Philopator)</addName>
+               <addName>Ptolomäus Philopater</addName>
+            </TEI:persName>, Stein des <TEI:persName ref="#CerlID:cnp01427509">Aulus<addName type="display">Aulos</addName>
+               <addName>Aulus</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Jupiter</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-537.tei.xml-d6669e104">
+            <TEI:persName ref="#CerlID:cnp00554429" key="#PND:118558897">Jupiter<addName type="display">Jupiter</addName>
+               <addName>Iupiter</addName>
+               <addName>Juppiter</addName>
+            </TEI:persName>
+          
+          Tempel</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-537.tei.xml-d6669e142">Gou</TEI:term>
+      </nodes>
+   </tag>
+</tags>

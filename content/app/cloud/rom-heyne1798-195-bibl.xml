@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Bartoli anticchi lucerne. Rom. 16811691.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/bartoli1691</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/bartoli1691">Bartoli anticchi lucerne. Rom. 16811691.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Thesaur. ant. rom.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN666491127</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN666491127">Thesaur. ant. rom.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pasceri lucernæ fictiles musei Passerii. Pessaro 1739. fol. 3 Vol.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://www.archive.org/stream/lucernaefictiles00pass%23page/n3/mode/2up http://www.archive.org/stream/lucernaefictiles01pass%23page/n5/mode/2up http://www.archive.org/stream/lucernaefictiles00pass%23page/n4/mode/1up</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://www.archive.org/stream/lucernaefictiles00pass%23page/n3/mode/2up #http://www.archive.org/stream/lucernaefictiles01pass%23page/n5/mode/2up #http://www.archive.org/stream/lucernaefictiles00pass%23page/n4/mode/1up">Pasceri lucernæ fictiles musei Passerii. Pessaro 1739. fol.
+                            3 Vol.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Lycetus de lucernis antiquorum. Udino 1652. fol.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN661236110</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN661236110">Lycetus de lucernis antiquorum. Udino 1652. fol.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pio Clem. T. IV.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/visconti1788bd4</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/visconti1788bd4">Pio Clem. T. IV.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>CavaceppiT. 3. tab. 58.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://dfg-viewer.de/v2/?set[image]=143&amp;set[zoom]=default&amp;set[debug]=0&amp;set[double]=0&amp;set[mets]=http%3A%2F%2Fgdz.sub.uni-goettingen.de%2Fmets_export.php%3FPPN%3DPPN63573740X</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://dfg-viewer.de/v2/?set[image]=143&amp;set[zoom]=default&amp;set[debug]=0&amp;set[double]=0&amp;set[mets]=http%3A%2F%2Fgdz.sub.uni-goettingen.de%2Fmets_export.php%3FPPN%3DPPN63573740X">Cavaceppi <term ref="#CensusID:10039588 #http://arachne.uni-koeln.de/item/objekt/21203">T. 3. tab. 58.</term>
+            </ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>59.</tag>
+      <facet>tei:bibl</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#">
+               <term ref="#CensusID:10039602 #http://arachne.uni-koeln.de/item/objekt/21204">59.</term>
+            </ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Bronci d'Ercolano</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/ercolano1757ga</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/ercolano1757ga">Bronci d'Ercolano</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Bracci Gemme. tab3.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN668527684</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN668527684">Bracci
+                                Gemme. tab <term ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-195.tei.xml-d12424e136">3.</term>
+            </ref>
+         </bibl>
+      </nodes>
+   </tag>
+</tags>

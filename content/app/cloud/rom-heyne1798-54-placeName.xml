@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Ródos, Nísos</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7011266</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7011266">Rhodus<addName type="display">Ródos, Nísos</addName>
+            <addName>Ródos, Nísos</addName>
+            <addName>Ródhos</addName>
+            <addName>Rodhos</addName>
+            <addName>Rodos</addName>
+            <addName>Rhodos</addName>
+            <addName>Rodi</addName>
+            <addName>Rodas</addName>
+            <addName>Rhodes</addName>
+            <addName>Ródhos island</addName>
+            <addName>Rhodus</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Sicilia</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7030363</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7030363">Sicilien<addName type="display">Sicilia</addName>
+            <addName>Sicilia</addName>
+            <addName>Sicily</addName>
+            <addName>Sizilien</addName>
+            <addName>Trinacria</addName>
+            <addName>Thrinacria</addName>
+            <addName>Sikanie</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Siracusa</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7003794</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7003794">Syracus<addName type="display">Siracusa</addName>
+            <addName>Siracusa</addName>
+            <addName>Syracusa</addName>
+            <addName>Síracusa</addName>
+            <addName>Syracuse</addName>
+            <addName>Syracusae</addName>
+            <addName>Syrakusai</addName>
+            <addName>Siracisae</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Agrigento</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7003808</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7003808">Girgendi (Aggrigent.)<addName type="display">Agrigento</addName>
+            <addName>Agrigento</addName>
+            <addName>Girgenti</addName>
+            <addName>Agrigentum</addName>
+            <addName>Acragas</addName>
+            <addName>Akragas</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Segesta</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7003856</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7003856">Segesta<addName type="display">Segesta</addName>
+            <addName>Segesta</addName>
+            <addName>Segeste</addName>
+            <addName>Egesta</addName>
+            <addName>Dicaeopolis</addName>
+            <addName>Acesta</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Taormina</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7003902</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7003902">Taormina<addName type="display">Taormina</addName>
+            <addName>Taormina</addName>
+            <addName>Mu'izzīyah</addName>
+            <addName>Tauromenium</addName>
+            <addName>Tauromenion</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Catania</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7003947</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7003947">Catanea<addName type="display">Catania</addName>
+            <addName>Catania</addName>
+            <addName>Catana</addName>
+            <addName>Catane</addName>
+            <addName>Catina</addName>
+            <addName>Katane</addName>
+            <addName>Katana</addName>
+         </placeName>
+      </nodes>
+   </tag>
+</tags>

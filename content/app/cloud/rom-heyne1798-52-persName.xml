@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Ptolemaeus (Ägypten, König, III.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00983874</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00983874"
+                   key="#PND:119132893">Ptolemäus Euergetes<addName type="display">Ptolemaeus (Ägypten, König, III.)</addName>
+            <addName>Ptolemaeus Epigrammaticus</addName>
+            <addName>Ptolemaeus Euergetes, I.</addName>
+            <addName>Ptolemaeus Euergetes, Rex, III.</addName>
+            <addName>Ptolemaeus Evergetae, Rex, III.</addName>
+            <addName>Ptolemaeus Evergetes, I.</addName>
+            <addName>Ptolemaeus III., Evergetes, I.</addName>
+            <addName>Ptolemaios Euergetes</addName>
+            <addName>Ptolemaios III., Evergetes, I.</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Cosmas (Indicopleustes)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00929174</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00929174"
+                   key="#PND:119156652">Cosimus<addName type="display">Cosmas (Indicopleustes)</addName>
+            <addName>Cosma Indicopleusta</addName>
+            <addName>Indicopleusta</addName>
+            <addName>Kosmas Aigyptios Monachos</addName>
+            <addName>Kosmas Indicopleustes</addName>
+            <addName>Kosmas Monachus</addName>
+            <addName>Kozma Indikoplov</addName>
+            <addName>Kozma</addName>
+            <addName>Kozmas Indikoplov</addName>
+            <addName>Kozmas</addName>
+            <addName>Cosma</addName>
+            <addName>Cosmas Aegyptius</addName>
+            <addName>Cosmas Monachus</addName>
+            <addName>Indicopleustes</addName>
+            <addName>Kosma Aigiptios</addName>
+            <addName>Kosma</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

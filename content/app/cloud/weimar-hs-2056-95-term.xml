@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Portici</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-95.tei.xml-d8553e20">jungen sitzenden, und mit weit übern Kopf 
+              geschlagenem Arm schlafenden Satyr aus Bron- 
+                  zo im <term ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-95.tei.xml-d8553e30"
+                  type="collection">Museo herculano</term> zu <placeName ref="#GettyID:7006841">portici<addName type="display">Portici</addName>
+               <addName>Portici</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-95.tei.xml-d8553e30"
+               type="collection">Museo herculano</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-95.tei.xml-d8553e50">alter Trunckener</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>villa Albani</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-95.tei.xml-d8553e78">Kindlichen Satyr 
+              von einem Jahr in Lebens Größe. Basre- 
+                  liefs in <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000297">villa Albani</term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000297</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000297">villa Albani</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/5211 http://arachne.uni-koeln.de/item/objekt/5333 http://arachne.uni-koeln.de/item/objekt/5358 http://arachne.uni-koeln.de/item/objekt/5331</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/5211 #http://arachne.uni-koeln.de/item/objekt/5333 #http://arachne.uni-koeln.de/item/objekt/5358 #http://arachne.uni-koeln.de/item/objekt/5331">Der mit einer Nymphe scherzende Satyr</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Bacchus</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/gruppen/400017 http://arachne.uni-koeln.de/item/objekt/14746 http://arachne.uni-koeln.de/item/objekt/34693</link>
+      <count>4</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/gruppen/400017 #http://arachne.uni-koeln.de/item/objekt/14746 #http://arachne.uni-koeln.de/item/objekt/34693">Der Borghesishe mit dem kleinen <persName ref="#CerlID:cnp00579062" key="#PND:118651439">Bachus<addName type="display">Bacchus</addName>
+            </persName>
+              im Arm</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/gruppen/400174 http://arachne.uni-koeln.de/item/objekt/34692 http://arachne.uni-koeln.de/item/objekt/34695 http://arachne.uni-koeln.de/item/objekt/19591 http://arachne.uni-koeln.de/item/objekt/19592</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/gruppen/400174 #http://arachne.uni-koeln.de/item/objekt/34692 #http://arachne.uni-koeln.de/item/objekt/34695 #http://arachne.uni-koeln.de/item/objekt/19591 #http://arachne.uni-koeln.de/item/objekt/19592">Zwey im Hauße Raspali</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>villa Medicis</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-95.tei.xml-d8553e196">Zwey aus Bronzo in <term ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-95.tei.xml-d8553e199"
+                  type="collection">villa  Medicis</term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-95.tei.xml-d8553e199"
+               type="collection">villa  Medicis</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/topographie/8004518</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/topographie/8004518">hortis  
+              Salustiis</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000606</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000606">Versailles</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-95.tei.xml-d8553e225">eine vor alt ausgegebene in Bronzo</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pal: Farnese</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:156363 http://arachne.uni-koeln.de/item/objekt/13424 http://arachne.uni-koeln.de/item/objekt/13425</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:156363 #http://arachne.uni-koeln.de/item/objekt/13424 #http://arachne.uni-koeln.de/item/objekt/13425">in anderer Stellung 
+              im <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000001">Pal: Farnese</term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000001</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000001">Pal: Farnese</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Venezia</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/22178</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/22178">Ein paar alte zu <placeName ref="#GettyID:7018159">Venedig<addName type="display">Venezia</addName>
+               <addName>Venezia</addName>
+               <addName>Venecia</addName>
+               <addName>Venedig</addName>
+               <addName>Venice</addName>
+               <addName>Venise</addName>
+               <addName>République de Venise</addName>
+               <addName>Venetia</addName>
+               <addName>Vinegia</addName>
+               <addName>Venetian</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+</tags>

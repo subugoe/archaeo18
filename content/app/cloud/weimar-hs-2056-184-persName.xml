@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Hygieia</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00541757</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00541757"
+                   key="#PND:118900293">Hygiea<addName type="display">Hygieia</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Salus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00552254</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00552254"
+                   key="#PND:119295113">Salus<addName type="display">Salus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Circe</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00584563</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00584563"
+                   key="#PND:118676202">Circe<addName type="display">Circe</addName>
+            <addName>Kirke</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Palmerston, Henry Temple (vicomte)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00548573</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00548573"
+                   key="#PND:119151928">Milord Palmer- 
+                                  ston<addName type="display">Palmerston, Henry Temple (vicomte)</addName>
+            <addName>Henry Temple Palmerston</addName>
+            <addName>Henry Temple</addName>
+            <addName>Palmarton Milord</addName>
+            <addName>Palmarton</addName>
+            <addName>Temple, Henry vicomte Palmerston</addName>
+            <addName>Temple, Henry Viscount Palmerston</addName>
+            <addName>Temple Palmerston</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Nemesis</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00542468</link>
+      <count>6</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00542468"
+                   key="#PND:118924850">Nemesis<addName type="display">Nemesis</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Fortuna (Göttin)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00549285</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00549285"
+                   key="#PND:118534467">Fortuna<addName type="display">Fortuna (Göttin)</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Viktoria (Göttin)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00588089</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00588089"
+                   key="#PND:118768344">Victoria<addName type="display">Viktoria (Göttin)</addName>
+            <addName>Victoria</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Amor</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00542364</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00542364"
+                   key="#PND:11850262X">Amor<addName type="display">Amor</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

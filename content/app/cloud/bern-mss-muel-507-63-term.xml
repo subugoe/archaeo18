@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Adrià (emperador de Roma, 76-138)Theseus</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/bauwerk/2103928</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/bauwerk/2103928">ein Bogen der <TEI:persName ref="#CerlID:cnp00871103" key="#PND:118544373">Adrians<addName type="display">Adrià (emperador de Roma, 76-138)</addName>
+               <addName>Publius Aelius Hadrianus</addName>
+               <addName>Adriano Imperatore</addName>
+               <addName>Adriano</addName>
+               <addName>Adriano emperador de Roma 76-138</addName>
+               <addName>Adrianus</addName>
+               <addName>Publius Aelius Adrianus</addName>
+               <addName>Adrianus Augustus</addName>
+               <addName>Adrianus Monachus</addName>
+               <addName>Publi Eli Adrià</addName>
+               <addName>Adrià, Publi Eli emperador de Roma 76-138</addName>
+               <addName>Aelius Hadrianus</addName>
+               <addName>Publius Aelius Hadrian</addName>
+               <addName>Hadrian Emperor of Rome</addName>
+               <addName>Hadrian Kaiser</addName>
+               <addName>Hadrian Rom, Kaiser</addName>
+               <addName>Hadrian Rome, Emperor</addName>
+               <addName>Hadrian Römisches Reich, Kaiser</addName>
+               <addName>Hadrian emperador de Roma 76-138</addName>
+               <addName>Hadriano Imperatore</addName>
+               <addName>Hadriano</addName>
+               <addName>Hadrianus, Publius Aelius emperador de Roma 76-138</addName>
+               <addName>Hadrianus Augustus</addName>
+               <addName>Hadrianus Emperor of Rome</addName>
+               <addName>Hadrianus Epigrammaticus</addName>
+               <addName>Hadrianus Imperator</addName>
+               <addName>Hadrianus Kaiser</addName>
+               <addName>Hadrianus Monachus</addName>
+               <addName>Hadrianus Romanus</addName>
+               <addName>Hadrianus Rome, Emperor</addName>
+               <addName>Hadrianus Römisches Reich, Kaiser</addName>
+               <addName>Hadrianus emperador de Roma 76-138</addName>
+               <addName>Hadrianus Augustus Imperium Romanum, Imperator</addName>
+               <addName>Hadrien Empereur</addName>
+               <addName>Hadrien</addName>
+               <addName>Hadrien emperador de Roma 76-138</addName>
+               <addName>Publi Eli Adrià emperador de Roma 76-138</addName>
+            </TEI:persName>
+          
+          oder <TEI:persName ref="#CerlID:cnp00569362" key="#PND:11862184X">Theseus<addName type="display">Theseus</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Hérode Atticus</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/bauwerk/2103936</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/bauwerk/2103936">Ruinen eines Stadiums von <TEI:persName ref="#CerlID:cnp00976345" key="#PND:118549839">Heradus atticus<addName type="display">Hérode Atticus</addName>
+               <addName>Hīrṓdīs ho ʼAttikós</addName>
+               <addName>Hērṓdēs ho ʼAttikós</addName>
+               <addName>Atticus Herodes</addName>
+               <addName>Atticus Marathonius</addName>
+               <addName>Claudius Herodes</addName>
+               <addName>Erode Attico</addName>
+               <addName>Hipparchus Herodes</addName>
+               <addName>Lucius Vibullius Hipparchus Tiberius Claudius Atticus Herodes</addName>
+               <addName>Tiberius Herodes</addName>
+               <addName>Vibullius Herodes</addName>
+               <addName>Ἡρώδης ὁ Άττικός</addName>
+               <addName>Atticus</addName>
+               <addName>Tiberius Claudius Atticus Herodes</addName>
+               <addName>Claudius Atticus Herodes</addName>
+               <addName>Erode</addName>
+               <addName>Tiberius C. Herodes</addName>
+               <addName>Tiberius Claudius Herodes</addName>
+               <addName>Herodes Atheniensis</addName>
+               <addName>Herodes Attikos</addName>
+               <addName>Herodes Historicus</addName>
+               <addName>Herodes Rhetor</addName>
+               <addName>Herodes Romanus</addName>
+               <addName>Herodes Sophist</addName>
+               <addName>Herodes Sophista</addName>
+               <addName>Herodes von Attika</addName>
+               <addName>Herodes von Marathon</addName>
+               <addName>Lucius Vibullus Hipparchus Tiberius Claudius Herodes Atticus</addName>
+               <addName>Tiberius Claudius Atticus Herodes Atticus</addName>
+               <addName>Hérode Atticus</addName>
+               <addName>Hérode</addName>
+               <addName>Hérode de Marathon</addName>
+               <addName>Hērōdēs Attikos</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>BacchusSiğacik</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/bauwerk/2100258</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/bauwerk/2100258">Tempel des <TEI:persName ref="#CerlID:cnp00579062" key="#PND:118651439">Bachus<addName type="display">Bacchus</addName>
+            </TEI:persName> zu <TEI:placeName ref="#GettyID:5003765">Theos<addName type="display">Siğacik</addName>
+               <addName>Siğacik</addName>
+               <addName>Sigacik</addName>
+               <addName>Sigacak</addName>
+               <addName>Teos</addName>
+            </TEI:placeName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>MinervaTurunçlar</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/bauwerk/2100336</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/bauwerk/2100336">den von der <TEI:persName ref="#CerlID:cnp00544188" key="#PND:118986155">Minerva Polias<addName type="display">Minerva</addName>
+               <addName>Sospitatrix</addName>
+            </TEI:persName> zu <TEI:placeName ref="#GettyID:7016803">Briena<addName type="display">Turunçlar</addName>
+               <addName>Turunçlar</addName>
+               <addName>Turunglar</addName>
+               <addName>Samsun Kale</addName>
+               <addName>Priene</addName>
+               <addName>Kelebec</addName>
+               <addName>Gulubahce</addName>
+            </TEI:placeName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Apollon</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/bauwerk/2100251 http://arachne.uni-koeln.de/item/bauwerk/2106481</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/bauwerk/2100251 #http://arachne.uni-koeln.de/item/bauwerk/2106481">den von dem<TEI:persName ref="#CerlID:cnp00542641" key="#PND:118503642">Appollo Dydimeos<addName type="display">Apollon</addName>
+               <addName>Apoll</addName>
+               <addName>Apollo</addName>
+               <addName>Phoebus</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+</tags>

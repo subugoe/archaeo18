@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Allion</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01427494</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01427494">Allion<addName type="display">Allion</addName>
+            <addName>Allione</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Dioskurides</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300274</link>
+      <count>4</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300274">Diascorides<addName type="display">Dioskurides</addName>
+            <addName>Dioscorides</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Solon (Steinschneider)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300403</link>
+      <count>6</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300403">Solon<addName type="display">Solon (Steinschneider)</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Diomedes (Argos, König)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00552771</link>
+      <count>4</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00552771"
+                       key="#PND:119315238">Diomed<addName type="display">Diomedes (Argos, König)</addName>
+            <addName>Diomedes Sohn des Tydeus</addName>
+            <addName>Diomedes von Argos</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Hyllos</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300294</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300294">Hillus<addName type="display">Hyllos</addName>
+            <addName>Hillus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Lippert, Philipp Daniel</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00824618</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00824618"
+                       key="#PND:117044504">Lippert<addName type="display">Lippert, Philipp Daniel</addName>
+            <addName>Philipp Daniel Lippert</addName>
+            <addName>P. D. Lippert</addName>
+            <addName>Phil. Dan. Lippert</addName>
+            <addName>Phil. Daniel Lippert</addName>
+            <addName>Philipp D. Lippert</addName>
+            <addName>Philippus Dan. Lippert</addName>
+            <addName>Philippus Daniel Lippert</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Stosch, Philipp von</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00391048</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00391048"
+                       key="#PND:117673870">Stosch<addName type="display">Stosch, Philipp von</addName>
+            <addName>Philipp von Stosch</addName>
+            <addName>Filippo De Stosch</addName>
+            <addName>De Stosch</addName>
+            <addName>Filippo de Stosch</addName>
+            <addName>Philippe de Stosch</addName>
+            <addName>Filipp de Stosch</addName>
+            <addName>Philippus Stosch</addName>
+            <addName>Philippus de Stosch</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/berlin-ms-germ-qrt-1666-294.tei.xml-d14673e153">Felix</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Polyclitus (Argivus)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00587101</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00587101"
+                       key="#PND:118741438">Polyclet<addName type="display">Polyclitus (Argivus)</addName>
+            <addName>Poliotitus</addName>
+            <addName>Polyctet</addName>
+            <addName>Polyclitus Philosophus</addName>
+            <addName>Polykleitos Erzgießer</addName>
+            <addName>Polykleitos</addName>
+            <addName>Polykleitos Künstler</addName>
+            <addName>Polykleitos von Argos</addName>
+            <addName>Polyklet</addName>
+            <addName>Polyklet von Argos</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Niemand</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00561330</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00561330"
+                       key="#PND:118589385">Uliss<addName type="display">Niemand</addName>
+            <addName>Nemo</addName>
+            <addName>Ulixes</addName>
+            <addName>Ulysses</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Strozzi , Leone</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300408</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300408">Familie Stroz-
+                zi<addName type="display">Strozzi , Leone</addName>
+            <addName>Leone Strozzi</addName>
+            <addName>Leon Strozzi</addName>
+            <addName>Strozzi</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/berlin-ms-germ-qrt-1666-294.tei.xml-d14673e266">Sosicles</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/berlin-ms-germ-qrt-1666-294.tei.xml-d14673e272">Hydrus</TEI:persName>
+      </nodes>
+   </tag>
+</tags>

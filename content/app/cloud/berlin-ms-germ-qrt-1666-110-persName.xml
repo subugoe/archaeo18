@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00394357 #cnp01300419</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00394357 #CerlID:cnp01300419">Brutus</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/berlin-ms-germ-qrt-1666-110.tei.xml-d6221e35">Melchius</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Nero (Imperium Romanum, Imperator)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00982828</link>
+      <count>4</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00982828"
+                       key="#PND:118586998">Nero<addName type="display">Nero (Imperium Romanum, Imperator)</addName>
+            <addName>Nero Claudius Caesar</addName>
+            <addName>Claudius Caesar</addName>
+            <addName>Claudius Nero</addName>
+            <addName>Claudius Nero Caesar</addName>
+            <addName>Domitius Ahenobarbus</addName>
+            <addName>Lucius Domitius Ahenobarbus Nero Claudius Caesar Augustus Germanicus</addName>
+            <addName>Néron Empereur</addName>
+            <addName>Néron</addName>
+            <addName>Néron Empereur</addName>
+            <addName>Néron</addName>
+            <addName>Nero Claudius</addName>
+            <addName>Nero Claudius Caesar Augustus Germanicus Imperator</addName>
+            <addName>Nero Claudius Caesar Augustus Germanicus</addName>
+            <addName>Nero Tiberius Claudius Imperator</addName>
+            <addName>Nero Tiberius Claudius</addName>
+            <addName>Claudius C. Nero</addName>
+            <addName>Nero Caesar</addName>
+            <addName>Nero Emperor of Rome</addName>
+            <addName>Nero Imperator</addName>
+            <addName>Nero Römisches Reich, Kaiser</addName>
+            <addName>Nero Römischer Kaiser</addName>
+            <addName>Nero Romanus</addName>
+            <addName>Klavdij Cezarʹ Neron</addName>
+            <addName>Neron</addName>
+            <addName>Neron Imperator Rismkij</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Agostini, Leonardo</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00480145</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00480145"
+                       key="#PND:124658458">Leonh. Augustinus<addName type="display">Agostini, Leonardo</addName>
+            <addName>Leonardo Agostini</addName>
+            <addName>Leonardus Agostini</addName>
+            <addName>Lionardo Agostini</addName>
+            <addName>Leonardus Augustinus</addName>
+            <addName>Augustinus</addName>
+            <addName>Leonhardus Augustinus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Marsyas</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00588624</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00588624"
+                       key="#PND:118782193">Marsius<addName type="display">Marsyas</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

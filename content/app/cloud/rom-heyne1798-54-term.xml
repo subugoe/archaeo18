@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-54.tei.xml-d4867e47">Sonne</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/bauwerk/2107965</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/bauwerk/2107965">Amphiteater</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/bauwerk/2109330</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/bauwerk/2109330">Tempel der
+                        Minerva</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Theron (von Akragas)</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/bauwerk/2108128</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/bauwerk/2108128">Grabmal
+                                von dem <persName ref="#CerlID:cnp01300413">Thero<addName type="display">Theron (von Akragas)</addName>
+               <addName>Thero</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Minerva</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/bauwerk/2100000</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/bauwerk/2100000">
+            <persName ref="#CerlID:cnp00544188" key="#PND:118986155">Minerven<addName type="display">Minerva</addName>
+               <addName>Sospitatrix</addName>
+            </persName>tempel</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Segesta</tag>
+      <facet>tei:term</facet>
+      <link>http://census.bbaw.de/easydb/censusID=8005519</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0" ref="#CensusID:8005519">Ruinen von <placeName ref="#GettyID:7003856">Segesta<addName type="display">Segesta</addName>
+               <addName>Segesta</addName>
+               <addName>Segeste</addName>
+               <addName>Egesta</addName>
+               <addName>Dicaeopolis</addName>
+               <addName>Acesta</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Taormina</tag>
+      <facet>tei:term</facet>
+      <link>http://census.bbaw.de/easydb/censusID=8005423</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0" ref="#CensusID:8005423">
+            <placeName ref="#GettyID:7003902">Taormina<addName type="display">Taormina</addName>
+               <addName>Taormina</addName>
+               <addName>Mu'izzīyah</addName>
+               <addName>Tauromenium</addName>
+               <addName>Tauromenion</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Catania</tag>
+      <facet>tei:term</facet>
+      <link>http://census.bbaw.de/easydb/censusID=8005393 #8005438</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:8005393 #CensusID:8005438">
+            <placeName ref="#GettyID:7003947">Catanea<addName type="display">Catania</addName>
+               <addName>Catania</addName>
+               <addName>Catana</addName>
+               <addName>Catane</addName>
+               <addName>Catina</addName>
+               <addName>Katane</addName>
+               <addName>Katana</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+</tags>

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>57.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://opac.sub.uni-goettingen.de/DB=1/PPNSET?PPN=14568895X</link>
+      <count>4</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://opac.sub.uni-goettingen.de/DB=1/PPNSET?PPN=14568895X">
+             
+             57.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Gall: Giust: I.129.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/giustiniani1640bd1/0130</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/giustiniani1640bd1/0130">Gall: Giust: I. <term ref="#http://arachne.uni-koeln.de/item/objekt/26719">129.</term>
+            </ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Perrier45.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/item/buchseite/182612</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://arachne.uni-koeln.de/item/buchseite/182612">Perrier<term ref="#http://arachne.uni-koeln.de/item/objekt/21158">45.</term>
+            </ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Mus: Cap:31.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/item/buchseite/5747</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://arachne.uni-koeln.de/item/buchseite/5747">Mus: Cap:<term ref="#http://arachne.uni-koeln.de/item/objekt/15886">31.</term>
+            </ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>32.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/item/buchseite/5748</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://arachne.uni-koeln.de/item/buchseite/5748">
+               <term ref="#http://arachne.uni-koeln.de/item/objekt/15892">32.</term>
+            </ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>33.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/item/buchseite/5749</link>
+      <count>4</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://arachne.uni-koeln.de/item/buchseite/5749">
+               <term ref="#http://arachne.uni-koeln.de/item/objekt/15898">33.</term>
+            </ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>34.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/item/buchseite/5750</link>
+      <count>4</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://arachne.uni-koeln.de/item/buchseite/5750">
+               <term ref="#http://arachne.uni-koeln.de/item/objekt/15885">34.</term>
+            </ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Gall: de Dresde39.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/leplat1733/0045</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/leplat1733/0045">Gall: de Dresde<term ref="#http://arachne.uni-koeln.de/item/objekt/5212">39.</term>
+            </ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Maffei 80.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/maffei1704/0097</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/maffei1704/0097">Maffei 80.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Perrier 48.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/item/buchseite/182617</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://arachne.uni-koeln.de/item/buchseite/182617">Perrier
+                     48.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Gall: Giust: I. 32.131.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/giustiniani1640bd1/0132</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/giustiniani1640bd1/0132">Gall: 
+             Giust: I. 32.131.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>28.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://dfg-viewer.de/v2/?set[image]=83&amp;set[zoom]=default&amp;set[debug]=0&amp;set[double]=0&amp;set[mets]=http%3A%2F%2Fgdz.sub.uni-goettingen.de%2Fmets_export.php%3FPPN%3DPPN635735547</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://dfg-viewer.de/v2/?set[image]=83&amp;set[zoom]=default&amp;set[debug]=0&amp;set[double]=0&amp;set[mets]=http%3A%2F%2Fgdz.sub.uni-goettingen.de%2Fmets_export.php%3FPPN%3DPPN635735547">28.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Cavalleriis II. 81.</tag>
+      <facet>tei:bibl</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#">Cavalleriis II. 81.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Gall: de Dresde16.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/leplat1733/0022</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/leplat1733/0022">Gall: de Dresde<term ref="#http://arachne.uni-koeln.de/item/objekt/5208">16.</term>
+            </ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>67.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/leplat1733/0073</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/leplat1733/0073">
+               <term ref="#http://arachne.uni-koeln.de/item/objekt/5344 #http://arachne.uni-koeln.de/item/objekt/5362">67.</term>
+            </ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>68.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/leplat1733/0074</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/leplat1733/0074">
+               <term ref="#http://arachne.uni-koeln.de/item/objekt/5344 #http://arachne.uni-koeln.de/item/objekt/5362">68.</term>
+            </ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>80</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/leplat1733/0086</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/leplat1733/0086">
+               <term ref="#http://arachne.uni-koeln.de/item/gruppen/400905 #http://arachne.uni-koeln.de/item/objekt/5346 #http://arachne.uni-koeln.de/item/objekt/5347">80</term>
+            </ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Gall: Giust.67.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/giustiniani1640bd1/0068</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/giustiniani1640bd1/0068">Gall: Giust.<term ref="#http://arachne.uni-koeln.de/item/objekt/26700">67.</term>
+            </ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Thomasin 26.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN663503019</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN663503019">Thomasin 26.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+</tags>

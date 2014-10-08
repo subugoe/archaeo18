@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Mem: des Inscr: I. 273.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://hdl.handle.net/2027/ucm.5326181916?urlappend=%3Bseq=313</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://hdl.handle.net/2027/ucm.5326181916?urlappend=%3Bseq=313">Mem: 
+                                                    des Inscr: I. 273.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Mem: I. 278.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://hdl.handle.net/2027/ucm.5326181916?urlappend=%3Bseq=320</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://hdl.handle.net/2027/ucm.5326181916?urlappend=%3Bseq=320">Mem: I. 278.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Mem: I. 276.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://hdl.handle.net/2027/ucm.5326181916?urlappend=%3Bseq=316</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://hdl.handle.net/2027/ucm.5326181916?urlappend=%3Bseq=316">Mem: I. 276.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Natter pref: p: 36.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://opac.sub.uni-goettingen.de/DB=1/PPNSET?PPN=133484483</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://opac.sub.uni-goettingen.de/DB=1/PPNSET?PPN=133484483">Natter pref: p: 36.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Trattato della pittura di Lionh: da Vinci Pa- rigi 1701.1651. Fol.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN65951091X</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN65951091X">Trattato della pittura di Lionh: da Vinci Pa- 
+                                                    rigi 1701.1651. Fol.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Napoli 1755.</tag>
+      <facet>tei:bibl</facet>
+      <link/>
+      <count>4</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#">Napoli 1755.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+</tags>

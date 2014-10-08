@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Laokoon</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00556829</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00556829"
+                       key="#PND:118569651">Laocoon<addName type="display">Laokoon</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Apollon</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00542641</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00542641"
+                       key="#PND:118503642">Appol<addName type="display">Apollon</addName>
+            <addName>Apoll</addName>
+            <addName>Apollo</addName>
+            <addName>Phoebus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Antinous</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00578329</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00578329"
+                       key="#PND:118649639">Antinous<addName type="display">Antinous</addName>
+            <addName>Antinoos</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Clemens (Papa, XIV.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00905328</link>
+      <count>4</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00905328"
+                       key="#PND:119215152">Clemens XIV.<addName type="display">Clemens (Papa, XIV.)</addName>
+            <addName>Clemens Papa, XIIII.</addName>
+            <addName>Clemens Papst, XIV.</addName>
+            <addName>Clemens XIV Pope</addName>
+            <addName>Clemens XIV.</addName>
+            <addName>Clement Pape, XIV.</addName>
+            <addName>Clemente Papa, XIV.</addName>
+            <addName>Clemente</addName>
+            <addName>Clemenz Papa, XIV.</addName>
+            <addName>Clemenz</addName>
+            <addName>Clément Papa, XIV</addName>
+            <addName>Clément</addName>
+            <addName>Clément XIV.</addName>
+            <addName>Clément XIVe Pape</addName>
+            <addName>Ganganelli</addName>
+            <addName>Clemens Ganganelli</addName>
+            <addName>Giovanni V. Ganganelli</addName>
+            <addName>Giovanni Vincenzo Antonio Ganganelli</addName>
+            <addName>Giovanni Vincenzo Antonio Lorenzo Ganganelli</addName>
+            <addName>Laurent Ganganelli</addName>
+            <addName>Lorenzo Ganganelli</addName>
+            <addName>Iklīmanḍūs Bābā, XIV.</addName>
+            <addName>Iklīmanḍūs</addName>
+            <addName>Iklīminḍūs Bābā, XIV.</addName>
+            <addName>Iklīminḍūs</addName>
+            <addName>Klemens Papa, XIV.</addName>
+            <addName>Klemens XIV. Papa</addName>
+            <addName>Lorenzo Fra</addName>
+            <addName>Lorenzo</addName>
+            <addName>Lorenzo Mönch</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Mengs, Anton Raphael</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00400145</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00400145"
+                       key="#PND:118783270">Mengs<addName type="display">Mengs, Anton Raphael</addName>
+            <addName>Anton Raphael Mengs</addName>
+            <addName>Mengs</addName>
+            <addName>Anthony R. Mengs</addName>
+            <addName>Anthony Raphael Mengs</addName>
+            <addName>Antoine R. Mengs</addName>
+            <addName>Antoine-Raphael Mengs</addName>
+            <addName>Anton R. Mengs</addName>
+            <addName>Anton Raffaele Mengs</addName>
+            <addName>Anton Raphaël Mengs</addName>
+            <addName>Antonio R. Mengs</addName>
+            <addName>Antonio Rafael Mengs</addName>
+            <addName>Antonio Raffaello Mengs</addName>
+            <addName>R. Mengs</addName>
+            <addName>Rafael Mengs</addName>
+            <addName>Raphael Mengs</addName>
+            <addName>Antonio R. Mengz</addName>
+            <addName>Mengz</addName>
+            <addName>Antonio Raffaele Mengz</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Meleagros (Sagengestalt)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00570957</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00570957"
+                       key="#PND:122695712">Meleager<addName type="display">Meleagros (Sagengestalt)</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Jupiter</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00554429</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00554429"
+                       key="#PND:118558897">Jupiter<addName type="display">Jupiter</addName>
+            <addName>Iupiter</addName>
+            <addName>Juppiter</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Narziss</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00560695</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00560695"
+                       key="#PND:118586467">Narciss<addName type="display">Narziss</addName>
+            <addName>Narcissus</addName>
+            <addName>Narkissos</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Juno</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00589422</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00589422"
+                       key="#PND:118800574">Juno<addName type="display">Juno</addName>
+            <addName>Cupra</addName>
+            <addName>Pronuba</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Melpomene</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00581431</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00581431"
+                       key="#PND:124538517">Melpomene<addName type="display">Melpomene</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Assurbanipal (Assyrien, König)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00394117</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00394117"
+                       key="#PND:118504746">Sardanapalus<addName type="display">Assurbanipal (Assyrien, König)</addName>
+            <addName>Ashurbanipal</addName>
+            <addName>Assurbanaplu Assyrien, König</addName>
+            <addName>Assurbanaplu</addName>
+            <addName>Assurbanipol</addName>
+            <addName>Sardanapal Assyrien, König</addName>
+            <addName>Sardanapal</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Augustus (Emperor of Rome)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00971385</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00971385"
+                       key="#PND:118505122">Augustus<addName type="display">Augustus (Emperor of Rome)</addName>
+            <addName>Auguste Empereur</addName>
+            <addName>Auguste</addName>
+            <addName>Caio Giulio Cesare Ottaviano Augusto</addName>
+            <addName>Augusto</addName>
+            <addName>Cesare Augusto</addName>
+            <addName>Cesare Ottaviano Augusto</addName>
+            <addName>Ottaviano Augusto</addName>
+            <addName>Augustus Caesar</addName>
+            <addName>Caesar Augustus</addName>
+            <addName>Caesar Octavianus Augustus</addName>
+            <addName>Caius J. Augustus</addName>
+            <addName>Caius Julius Caesar Augustus</addName>
+            <addName>Cesar Octavianus Augustus</addName>
+            <addName>Gaius I. Augustus</addName>
+            <addName>Gaius Iulius Caesar Augustus</addName>
+            <addName>Gaius Iulius Caesar Octavianus Augustus</addName>
+            <addName>Gaius Julius Augustus</addName>
+            <addName>Gaius Julius Caesar Octavianus Augustus</addName>
+            <addName>Gaius Octavius Augustus</addName>
+            <addName>Iulius Caesar Octavianus Augustus</addName>
+            <addName>Octavianus Augustus</addName>
+            <addName>Octavius Caesar Augustus</addName>
+            <addName>Augustus Divus</addName>
+            <addName>Augustus Imperator</addName>
+            <addName>Augustus Imperium Romanum, Caesar</addName>
+            <addName>Augustus Kaiser</addName>
+            <addName>Augustus Römisches Reich, Kaiser</addName>
+            <addName>Augustus Roemisches Reich, Kaiser</addName>
+            <addName>Augustus Romanus</addName>
+            <addName>Augustus Verfasser der Res Gestae</addName>
+            <addName>Caius Octavianus Imperium Romanum, Imperator</addName>
+            <addName>Caius Octavianus</addName>
+            <addName>Caius Oktavius Imperium Romanum, Augustus</addName>
+            <addName>Caius Oktavius</addName>
+            <addName>Caius Oktavius Imperium Romanum, Imperator</addName>
+            <addName>Gaius Julius Caesar Octavianus</addName>
+            <addName>Gaius Octavius</addName>
+            <addName>Gaius Octavius Emperor of Rome</addName>
+            <addName>Octavian</addName>
+            <addName>Octavianus</addName>
+            <addName>Octavius</addName>
+            <addName>Octavius Caesar Emperor of Rome</addName>
+            <addName>Octavius Caesar</addName>
+            <addName>Octavius Augustus</addName>
+            <addName>Ottaviano</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Kleopatra (Ägypten, Königin, VII.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00395483</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00395483"
+                       key="#PND:11856322X">Cleopatra<addName type="display">Kleopatra (Ägypten, Königin, VII.)</addName>
+            <addName>Cleopatra Ägypten, Königin, VII.</addName>
+            <addName>Cleopatra</addName>
+            <addName>Cleopatra die Grosse</addName>
+            <addName>Cleopatra Medica</addName>
+            <addName>Cleopatra Philopator, VII.</addName>
+            <addName>Cleopatra Ptolemais, Regina, VII.</addName>
+            <addName>Kleopatra die Grosse</addName>
+            <addName>Kleopatra Königin der Ptolemaier, VII.</addName>
+            <addName>Kleopatra Philopator</addName>
+            <addName>Kleopatra Tochter des Ptolemaios XII.</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

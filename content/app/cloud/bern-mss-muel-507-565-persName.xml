@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Gori, Antonio Francesco</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00402479</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00402479"
+                       key="#PND:118964925">Gorry<addName type="display">Gori, Antonio Francesco</addName>
+            <addName>Antonio Francesco Gori</addName>
+            <addName>A. F. Gori</addName>
+            <addName>Adame François Gori</addName>
+            <addName>Adame François Gori</addName>
+            <addName>Ant. Francesco Gori</addName>
+            <addName>Antoine François Gori</addName>
+            <addName>Antoine François Gori</addName>
+            <addName>Anton Francesco Gori</addName>
+            <addName>Anton Franz Gori</addName>
+            <addName>Antonius Franc. Gori</addName>
+            <addName>Antonio Francisco Gorius</addName>
+            <addName>Gorius</addName>
+            <addName>Antonius Gorius</addName>
+            <addName>Antonius Franciscus Gorius</addName>
+            <addName>Antonius Franciscus Gorus</addName>
+            <addName>Gorus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

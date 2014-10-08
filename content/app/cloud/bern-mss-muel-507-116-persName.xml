@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Pescennius Niger (Römisches Reich, Kaiser, Gegenkaiser)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00588992</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00588992"
+                       key="#PND:118790498">Pescenius Niger<addName type="display">Pescennius Niger (Römisches Reich, Kaiser, Gegenkaiser)</addName>
+            <addName>Gaius Pescennius Niger Iustus</addName>
+            <addName>Pescennius Niger Iustus</addName>
+            <addName>Gaius Pescennius Niger</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Caracalla (Imperium Romanum, Imperator)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00397692</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00397692"
+                       key="#PND:118667041">Caracalla<addName type="display">Caracalla (Imperium Romanum, Imperator)</addName>
+            <addName>Aurelius Antoninus Caesar</addName>
+            <addName>Aurelius Antoninus</addName>
+            <addName>Aurelius Severus Antoninus Augustus</addName>
+            <addName>Aurelius Severus Antoninus</addName>
+            <addName>Bassianus</addName>
+            <addName>Caracalla Imperator</addName>
+            <addName>Caracalla Römischer Kaiser</addName>
+            <addName>Lucius Septimius Bassianus</addName>
+            <addName>Marcus Aurelius Antoninus</addName>
+            <addName>Marcus Aurelius Antoninus Caesar</addName>
+            <addName>Marcus Aurelius Severus Antoninus Augustus</addName>
+            <addName>Marcus Aurelius Severus Antoninus</addName>
+            <addName>Septimius Bassianus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Macrinus (Römisches Reich, Kaiser)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00546563</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00546563"
+                       key="#PND:119072645">Macrinus<addName type="display">Macrinus (Römisches Reich, Kaiser)</addName>
+            <addName>Marcus Opellius Macrinus</addName>
+            <addName>Macrinus Imperium Romanum, Imperator</addName>
+            <addName>Marcus Opellius Severus Macrinus</addName>
+            <addName>Marcus Opellius Severus Macrinus Augustus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Elagabal (Römisches Reich, Kaiser)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00574696</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00574696"
+                       key="#PND:118638890">Helogabalus<addName type="display">Elagabal (Römisches Reich, Kaiser)</addName>
+            <addName>Heliogabal</addName>
+            <addName>Varius Avitus Bassianus</addName>
+            <addName>Bassianus</addName>
+            <addName>Heliogabalus Römisches Reich, Kaiser</addName>
+            <addName>Heliogabalus</addName>
+            <addName>Marcus Aurelius Antoninus Heliogabalus</addName>
+            <addName>Varius Avitus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Severus Alexander (Emperor of Rome)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00914937</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00914937"
+                       key="#PND:11861357X">Alexander Severus<addName type="display">Severus Alexander (Emperor of Rome)</addName>
+            <addName>Marcus A. Alexander Severus</addName>
+            <addName>Alexander Severus</addName>
+            <addName>Marcus Aurelius Alexander Severus</addName>
+            <addName>Alexander Severus Emperor of Rome</addName>
+            <addName>Alexander Severus Imperium Romanum, Imperator</addName>
+            <addName>Alexander Severus Römisches Reich, Kaiser</addName>
+            <addName>Alexandrus Severus</addName>
+            <addName>Gessius B. Alexianus</addName>
+            <addName>Alexianus</addName>
+            <addName>Gessius Bassianus Alexianus</addName>
+            <addName>Marco Aurelio Severo Alessandro</addName>
+            <addName>Marcus Aurelius Severus Alexander</addName>
+            <addName>Alexander S. Marcus Aurelius</addName>
+            <addName>Marcus Aurelius</addName>
+            <addName>Severo Alessandro</addName>
+            <addName>Marcus A. Severus Alexander</addName>
+            <addName>Severus Alexander Imperium Romanum, Imperator</addName>
+            <addName>Severus Alexandrus</addName>
+            <addName>Severus</addName>
+            <addName>Severus Alexandrinus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Iulia Mamaea (Römisches Reich, Kaiserin)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00578209</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00578209"
+                       key="#PND:123946298">Julia Mamæa<addName type="display">Iulia Mamaea (Römisches Reich, Kaiserin)</addName>
+            <addName>Julia Mamaea Römisches Reich, Kaiserin</addName>
+            <addName>Julia Mamaea</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pupienus (Römisches Reich, Kaiser)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00589147</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00589147"
+                       key="#PND:118793691">Bupienus<addName type="display">Pupienus (Römisches Reich, Kaiser)</addName>
+            <addName>Marcus Clodius Pupienus Maximus</addName>
+            <addName>Pupienus Maximus</addName>
+            <addName>Pupienus Imperium Romanum, Imperator</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Gallienus (Römisches Reich, Kaiser)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00549952</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00549952"
+                       key="#PND:118537334">Galieni<addName type="display">Gallienus (Römisches Reich, Kaiser)</addName>
+            <addName>Publius Licinius Egnatius Gallienus</addName>
+            <addName>Egnatius Gallienus</addName>
+            <addName>Gallienus Imperium Romanum, Imperator</addName>
+            <addName>Licinius Egnatius Gallienus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Aurelian (Römisches Reich, Kaiser)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00578940</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00578940"
+                       key="#PND:11865117X">Aurelian<addName type="display">Aurelian (Römisches Reich, Kaiser)</addName>
+            <addName>Lucius Domitius Aurelianus</addName>
+            <addName>Aurelianus</addName>
+            <addName>Aurelianus Imperium Romanum, Imperator</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Winkelman von der Nachahmung 23.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/winckelmann1756/0029</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/winckelmann1756/0029">Winkelman von der Nachahmung 23.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Mariette sur les pierres gravées. p. 66.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/item/buchseite/230716</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://arachne.uni-koeln.de/item/buchseite/230716">Mariette sur les pierres gravées. p. 66.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Cava- ceppi nel discorso prælim.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://dfg-viewer.de/v2?set[mets]=http%3A%2F%2Fgdz.sub.uni-goettingen.de%2Fmets_export.php%3FPPN%3DPPN63573740X&amp;set[image]=7</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://dfg-viewer.de/v2?set[mets]=http%3A%2F%2Fgdz.sub.uni-goettingen.de%2Fmets_export.php%3FPPN%3DPPN63573740X&amp;set[image]=7">Cava- 
+                                         ceppi nel discorso prælim.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Illustrium imagines ex antiquis marmori- bus et gemmis expressae a Fulv: Ursino ed: II. Antw: 1604.1606.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/ursinus1606</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/ursinus1606">Illustrium imagines ex antiquis marmori- 
+                                         bus et gemmis expressae a Fulv: Ursino 
+                                         ed: II. Antw: 1604.1606.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Rom: 1569.1570.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/ursinus1570</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/ursinus1570">Rom: 1569.1570.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Iconographia di Giovano Angelo Canini Rom: 1669. Fol.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/item/buch/2023</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://arachne.uni-koeln.de/item/buch/2023">Iconographia di Giovano Angelo Canini Rom: 
+                                         1669. Fol.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+</tags>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Domenichino</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01001598</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01001598"
+                   key="#PND:118638831">Dominechini<addName type="display">Domenichino</addName>
+            <addName>Domenico Zampieri</addName>
+            <addName>Dominechini</addName>
+            <addName>Domenichino Zampieri</addName>
+            <addName>Dominiquin</addName>
+            <addName>Domenico Giampieri</addName>
+            <addName>Giampieri</addName>
+            <addName>Il Domenichino</addName>
+            <addName>Le Dominiquin</addName>
+            <addName>Dominique Zampieri</addName>
+            <addName>Dominicus Zampierius</addName>
+            <addName>Zampierius</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Jupiter</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00554429</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00554429"
+                   key="#PND:118558897">Jupiter<addName type="display">Jupiter</addName>
+            <addName>Iupiter</addName>
+            <addName>Juppiter</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Messalina (Römisches Reich, Kaiserin)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00544185</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00544185"
+                   key="#PND:118511114">Messaline<addName type="display">Messalina (Römisches Reich, Kaiserin)</addName>
+            <addName>Valeria Messalina</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Kleopatra (Ägypten, Königin, VII.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00395483</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00395483"
+                   key="#PND:11856322X">Cleopatra<addName type="display">Kleopatra (Ägypten, Königin, VII.)</addName>
+            <addName>Cleopatra Ägypten, Königin, VII.</addName>
+            <addName>Cleopatra</addName>
+            <addName>Cleopatra die Grosse</addName>
+            <addName>Cleopatra Medica</addName>
+            <addName>Cleopatra Philopator, VII.</addName>
+            <addName>Cleopatra Ptolemais, Regina, VII.</addName>
+            <addName>Kleopatra die Grosse</addName>
+            <addName>Kleopatra Königin der Ptolemaier, VII.</addName>
+            <addName>Kleopatra Philopator</addName>
+            <addName>Kleopatra Tochter des Ptolemaios XII.</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Peruzzi, Baldassarre</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00399292</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00399292"
+                   key="#PND:118740091">Balthas. de Siena<addName type="display">Peruzzi, Baldassarre</addName>
+            <addName>Baldassarre Peruzzi</addName>
+            <addName>Balthas. de Siena</addName>
+            <addName>Balthas.</addName>
+            <addName>Baldassare da Siena</addName>
+            <addName>Baldassare</addName>
+            <addName>Baldassare da Volterra</addName>
+            <addName>Baldassare T. Perucci</addName>
+            <addName>Perucci</addName>
+            <addName>Baldassare T. Perucio</addName>
+            <addName>Perucio</addName>
+            <addName>Baldassare T. Perugo</addName>
+            <addName>Perugo</addName>
+            <addName>Baldassare T. Perutio</addName>
+            <addName>Perutio</addName>
+            <addName>Baldassare T. Peruzzi</addName>
+            <addName>Baldassare Tommaso Peruzzi</addName>
+            <addName>Baldassare Peruzzi</addName>
+            <addName>Baldassare T. Petrucci</addName>
+            <addName>Petrucci</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Massimo , Pietro</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01303749</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01303749">Petr: 
+                                     de Maximis<addName type="display">Massimo , Pietro</addName>
+            <addName>Pietro Massimo</addName>
+            <addName>Petr: de Maximis</addName>
+            <addName>de Maximis</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Fontana, Carlo</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00398140</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00398140"
+                   key="#PND:118684175">Fontana<addName type="display">Fontana, Carlo</addName>
+            <addName>Carlo Fontana</addName>
+            <addName>Fontana, Carlo Cavall.</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Albani (Familie)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00560587</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00560587"
+                   key="#PND:120444585">Fami- 
+                                     lie Albani<addName type="display">Albani (Familie)</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Mattei di Giove, Asdrubale</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00581108</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00581108"
+                   key="#PND:124474357">Herzoge Asdr: 
+                                     Mattei<addName type="display">Mattei di Giove, Asdrubale</addName>
+            <addName>Asdrubale Mattei di Giove</addName>
+            <addName>Asdr. Mattei</addName>
+            <addName>Mattei, Asdr. Herzog</addName>
+            <addName>Mattei</addName>
+            <addName>Asdrubale Mattei Di Giove</addName>
+            <addName>Di Giove</addName>
+            <addName>Giove</addName>
+            <addName>Asdrubale Mattei</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Maderno, Carlo</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00588586</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00588586"
+                   key="#PND:118781197">Carlo Materno<addName type="display">Maderno, Carlo</addName>
+            <addName>Carlo Maderno</addName>
+            <addName>Carlo Materno</addName>
+            <addName>Materno</addName>
+            <addName>Carlo Maderna</addName>
+            <addName>Maderna</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

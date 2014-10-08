@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/berlin-ms-germ-qrt-1666-295.tei.xml-d9993e14">Rosa</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/berlin-ms-germ-qrt-1666-295.tei.xml-d9993e56">Piepin</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Bacchus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00579062</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00579062"
+                       key="#PND:118651439">Bachus<addName type="display">Bacchus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Charlemagne (empereur d'Occident)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00000503</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00000503"
+                       key="#PND:118560034 118560034">Carl der
+                    Große<addName type="display">Charlemagne (empereur d'Occident)</addName>
+            <addName>Carlo Magno I empereur d'Occident</addName>
+            <addName>Carlo Magno</addName>
+            <addName>Carlo Magno I roi des Francs</addName>
+            <addName>Carolus I empereur d'Occident</addName>
+            <addName>Carolus</addName>
+            <addName>Carolus I roi des Francs</addName>
+            <addName>Carolus Magnus empereur d'Occident</addName>
+            <addName>Carolus Magnus</addName>
+            <addName>Charles Ier empereur d'Occident</addName>
+            <addName>Charles</addName>
+            <addName>Charles Ier roi des Francs</addName>
+            <addName>Charles le Grand empereur d'Occident</addName>
+            <addName>Charles le Grand</addName>
+            <addName>Charles le Grand roi des Francs</addName>
+            <addName>Karl I empereur d'Occident</addName>
+            <addName>Karl I roi des Francs</addName>
+            <addName>Karl der Grosse empereur d'Occident</addName>
+            <addName>Karl der Grosse</addName>
+            <addName>Karl der Grosse roi des Francs</addName>
+            <addName>Carl Römisch-Deutsches Reich, Kaiser, I.</addName>
+            <addName>Carl</addName>
+            <addName>Carl der Große</addName>
+            <addName>Carlo</addName>
+            <addName>Carlomagno</addName>
+            <addName>Carolus Francorum, Rex, I.</addName>
+            <addName>Carolus Germania, Imperator, I.</addName>
+            <addName>Carolus I</addName>
+            <addName>Carolus Imperium Romanum-Germanicum, Imperator, I.</addName>
+            <addName>Carolus Rex</addName>
+            <addName>Carolus Römisch-Deutsches Reich, Kaiser, I.</addName>
+            <addName>Charlemagne roi des Francs et empereur d'occident</addName>
+            <addName>Charlemegne</addName>
+            <addName>Charles I</addName>
+            <addName>Charles the Great</addName>
+            <addName>Karel de Groote</addName>
+            <addName>Karel de Grutte</addName>
+            <addName>Karl Deutschland, Kaiser, I.</addName>
+            <addName>Karl Fränkisches Reich, König, I.</addName>
+            <addName>Karl Magnus</addName>
+            <addName>Karl Römischer Kaiser, I.</addName>
+            <addName>Karl Römisches Reich, Kaiser I.</addName>
+            <addName>Karolus Magnus</addName>
+            <addName>Karolus</addName>
+            <addName>Grote</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Martin (V, pape)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00395768</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00395768"
+                       key="#PND:118578286">Martin V.<addName type="display">Martin (V, pape)</addName>
+            <addName>Oddone Colonna</addName>
+            <addName>Colonna</addName>
+            <addName>Martino V pape</addName>
+            <addName>Martino</addName>
+            <addName>Martinus V pape</addName>
+            <addName>Oddo Colonna</addName>
+            <addName>Martino Papa, V.</addName>
+            <addName>Martino V/Oddone Colonna</addName>
+            <addName>Martinus Papst, V.</addName>
+            <addName>Martinus V</addName>
+            <addName>Martinus papa quintus</addName>
+            <addName>Martinus quintus ro. pont.</addName>
+            <addName>Oddo</addName>
+            <addName>Oddone</addName>
+            <addName>Odo Colonna</addName>
+            <addName>Odo</addName>
+            <addName>Odon Colonna</addName>
+            <addName>Odon</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Paul (V, pape)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01238319</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01238319"
+                       key="#PND:118739530">Paul
+                V.<addName type="display">Paul (V, pape)</addName>
+            <addName>Camillo Borghese</addName>
+            <addName>Borghese</addName>
+            <addName>Paolo V pape</addName>
+            <addName>Paolo</addName>
+            <addName>Paulus V pape</addName>
+            <addName>Borghese, Camillo 1552-1621</addName>
+            <addName>Camilus Borghesius</addName>
+            <addName>Borghesius</addName>
+            <addName>Camillus Burghesius</addName>
+            <addName>Paolo Papa, V.</addName>
+            <addName>Paolo Pontefice, V.</addName>
+            <addName>Paolo V</addName>
+            <addName>Paolo V.</addName>
+            <addName>Paolo V. Papa</addName>
+            <addName>Paul Pape, V.</addName>
+            <addName>Paul V</addName>
+            <addName>Paul V.</addName>
+            <addName>Paul V., Borghese</addName>
+            <addName>Paul V. Papa</addName>
+            <addName>Paulo V papa 1552-1621</addName>
+            <addName>Paulo</addName>
+            <addName>Paulus Papst, V.</addName>
+            <addName>Paulus Paus, V.</addName>
+            <addName>Paulus Pontifex Maximus, V.</addName>
+            <addName>Paulus Pontifex, V.</addName>
+            <addName>Paulus Pontifice Massimo, Quintus</addName>
+            <addName>Paulus V</addName>
+            <addName>Paulus V papa 1552-1621</addName>
+            <addName>Paulus V.</addName>
+            <addName>V Paulus papa</addName>
+            <addName>Paulus papa</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Medici, Lorenzo de'</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01237200</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01237200"
+                       key="#PND:118574418">Lorenzio de Medicis<addName type="display">Medici, Lorenzo de'</addName>
+            <addName>Lorenzo de' Medici</addName>
+            <addName>Lorenz von Medicis</addName>
+            <addName>von Medicis</addName>
+            <addName>Lorenzo De' Medici</addName>
+            <addName>De' Medici</addName>
+            <addName>Lorenzo De Medici</addName>
+            <addName>De Medici</addName>
+            <addName>Lorenzo De'Medici</addName>
+            <addName>De'Medici</addName>
+            <addName>Lorenzo DeMedici</addName>
+            <addName>DeMedici</addName>
+            <addName>Lauren the Magnificent</addName>
+            <addName>Lauren</addName>
+            <addName>Laurens de Medicis</addName>
+            <addName>Laurens</addName>
+            <addName>Laurent de Medicis</addName>
+            <addName>Laurent</addName>
+            <addName>Laurent le Magnifique</addName>
+            <addName>Laurent the Magnificent</addName>
+            <addName>Laurentius de Medicis</addName>
+            <addName>Laurentius</addName>
+            <addName>Laurentius de medicis</addName>
+            <addName>Laurentius Magnificus</addName>
+            <addName>Laurentius Medices</addName>
+            <addName>Laurentius Mediceus</addName>
+            <addName>Laurenzo de'Medici</addName>
+            <addName>Laurenzo</addName>
+            <addName>Lorenzo de Medici</addName>
+            <addName>Lorenzo dei Medici</addName>
+            <addName>Lorenzo</addName>
+            <addName>Lorenzo de'Medici</addName>
+            <addName>Lorenzo der Grossmächtige</addName>
+            <addName>Lorenzo der Prächtige</addName>
+            <addName>Lorenzo il Magnifico</addName>
+            <addName>Lorenzo the Magnificent</addName>
+            <addName>Medices</addName>
+            <addName>Lorenzino de' Medici</addName>
+            <addName>Lorenzo Medici</addName>
+            <addName>Medici, Lorenzo de', called il Magnifico</addName>
+            <addName>Medici, Lorenzo de', called the Magnificent</addName>
+            <addName>Medici, Lorenzo de', detto il Magnifico</addName>
+            <addName>Medici, Lorenzo de', the Elder, called the Magnificent</addName>
+            <addName>Medicis</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

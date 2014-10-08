@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Erato</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:159362 http://arachne.uni-koeln.de/item/objekt/11673</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:159362 #http://arachne.uni-koeln.de/item/objekt/11673">
+            <persName ref="#CerlID:cnp00581427" key="#PND:124538398">Erato<addName type="display">Erato</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Polyhymnia</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/11676</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/11676">
+            <persName ref="#CerlID:cnp00581432" key="#PND:124538533">Polyhymnia<addName type="display">Polyhymnia</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Kalliope</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/11656</link>
+      <count>4</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/11656">
+            <persName ref="#CerlID:cnp00565009" key="#PND:12148565X">Calliope<addName type="display">Kalliope</addName>
+               <addName>Calliope</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Urania</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:159389 http://arachne.uni-koeln.de/item/objekt/11674</link>
+      <count>4</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:159389 #http://arachne.uni-koeln.de/item/objekt/11674">
+            <persName ref="#CerlID:cnp00581436" key="#PND:124538673">Urania<addName type="display">Urania</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Thalia</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/16543</link>
+      <count>4</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/16543">
+            <persName ref="#CerlID:cnp00581434" key="#PND:124538657">Thalia<addName type="display">Thalia</addName>
+               <addName>Thaleia</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000358</link>
+      <count>4</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000358">Palazzo 
+                              Capitolino</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/15957</link>
+      <count>4</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/15957">die</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000087</link>
+      <count>4</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000087">Wiltouhouse</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-180.tei.xml-d3889e149">Aus Bronzo</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Cavaceppi, Bartolomeo</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/130214</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/130214">Eine vom <persName ref="#CerlID:cnp00404698" key="#PND:119217597">Cavaceppi<addName type="display">Cavaceppi, Bartolomeo</addName>
+               <addName>Bartolomeo Cavaceppi</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/rezeption/300972</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/rezeption/300972">21.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/5319</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/5319">110.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/5318</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/5318">138.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/31558</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/31558">13.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/5848</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/5848">14.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/130513</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/130513">15.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Herbert, Thomas</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/23409</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/23409">in der <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000087">Samlung 
+                              des <persName ref="#CerlID:cnp00368551" key="#PND:104340932">Milords Pembrocke<addName type="display">Herbert, Thomas</addName>
+                  <addName>Thomas Herbert</addName>
+                  <addName>Thomas Pembrochiae</addName>
+                  <addName>Pembrochiae</addName>
+                  <addName>Thomas Pembroke</addName>
+                  <addName>Pembroke</addName>
+                  <addName>Thomas Herbert Pembroke</addName>
+                  <addName>Thomas Herbert of Pembroke</addName>
+                  <addName>Thomas of Pembroke</addName>
+                  <addName>Thomas Pembroke, Earl, VIII.</addName>
+                  <addName>Thomas</addName>
+               </persName>
+            </term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/24255</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/24255">eine sitzende Persohn den Kopf auf die Hand 
+                              gestützt</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Terpsichore</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:159390 http://arachne.uni-koeln.de/item/objekt/11657</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:159390 #http://arachne.uni-koeln.de/item/objekt/11657">
+            <persName ref="#CerlID:cnp00581433" key="#PND:124538584">Terpsichore<addName type="display">Terpsichore</addName>
+               <addName>Tersicore</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/24254</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/24254">7.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Euterpe</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/11653</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/11653">
+            <persName ref="#CerlID:cnp00581429" key="#PND:124538401">Euterpe<addName type="display">Euterpe</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Campidoglio</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-180.tei.xml-d3889e436">Eine im <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000358">Campidoglio</term> ste- 
+                                  hend</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/80183</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/80183">zwey</term>
+      </nodes>
+   </tag>
+</tags>

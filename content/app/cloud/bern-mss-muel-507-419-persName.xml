@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Terence</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259902</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01259902"
+                       key="#PND:118621335 118621335">Terenz<addName type="display">Terence</addName>
+            <addName>Publius Terentius Afer</addName>
+            <addName>P. Terentius</addName>
+            <addName>Publius T. Afer</addName>
+            <addName>Afer</addName>
+            <addName>P. T.</addName>
+            <addName>T.</addName>
+            <addName>Térence</addName>
+            <addName>Térence</addName>
+            <addName>Térence de Carthage</addName>
+            <addName>Terencij</addName>
+            <addName>Terencio</addName>
+            <addName>Terencius</addName>
+            <addName>Terentiano</addName>
+            <addName>Terentio</addName>
+            <addName>Terentio</addName>
+            <addName>Terentios</addName>
+            <addName>Terentius Afer</addName>
+            <addName>P. Terentius Afer</addName>
+            <addName>Publius Terentius Africanus</addName>
+            <addName>Terentius Africanus</addName>
+            <addName>Publius Terentius Apher</addName>
+            <addName>Terentius Apher</addName>
+            <addName>Publius Terentius Aphrus</addName>
+            <addName>Terentius Aphrus</addName>
+            <addName>Publius Terentius Carthaginiensis Afer</addName>
+            <addName>Terentius Carthaginiensis Afer</addName>
+            <addName>Publius Terentius</addName>
+            <addName>Publius A. Terentius</addName>
+            <addName>Publius S. Terentius</addName>
+            <addName>Terentius Comicus</addName>
+            <addName>Terentius Komödiendichter</addName>
+            <addName>Terentius von Karthago</addName>
+            <addName>Terentius von Libyen</addName>
+            <addName>Terentius Writer of Comedy</addName>
+            <addName>Terentz</addName>
+            <addName>Terenz</addName>
+            <addName>Terenz</addName>
+            <addName>Terenzio</addName>
+            <addName>Publio Terenzio Africano</addName>
+            <addName>Terenzio Africano</addName>
+            <addName>P. Terenzio Afro</addName>
+            <addName>Terenzio Afro</addName>
+            <addName>Publio Terenzio Afro</addName>
+            <addName>Publio Terenzio</addName>
+            <addName>Publio Afro Terenzio</addName>
+            <addName>Publius Terenzius</addName>
+            <addName>Terenzius</addName>
+            <addName>Ternetius Afer</addName>
+            <addName>Publius Ternetius Apher</addName>
+            <addName>Ternetius Apher</addName>
+            <addName>Therencius</addName>
+            <addName>Therentius</addName>
+            <addName>Therentius Comicus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Satyros</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01427429</link>
+      <count>4</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01427429">Sileni<addName type="display">Satyros</addName>
+            <addName>Satyr</addName>
+            <addName>Silen</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Faunus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00542358</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00542358"
+                       key="#PND:11892088X">Fauni<addName type="display">Faunus</addName>
+            <addName>Faun</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

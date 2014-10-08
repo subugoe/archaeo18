@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Dict. encycl. Art. Encaustique.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://find.galegroup.com/mome/retrieve.do?tabID=T001&amp;prodId=MOME&amp;retrieveFormat=MULTIPAGE_DOCUMENT&amp;docId=U3602255212&amp;currentPosition=0&amp;userGroupName=nsub&amp;docLevel=FASCIMILE&amp;resultListType=RESULT_LIST&amp;inPS=true&amp;scale=0.33&amp;currentPosition=1&amp;workId=19010098700105&amp;relevancePageBatch=U102255210&amp;contentSet=MOMEArticles&amp;callistoContentSet=MOMEArticles&amp;resultListType=RESULT_LIST&amp;reformatPage=N&amp;retrieveFormat=&amp;scale=0.33&amp;orientation=&amp;lastPageIndex=3&amp;showLOI=&amp;quickSearchTerm=&amp;stwFuzzy=&amp;forRelevantNavigation=true&amp;pageNumber=607</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://find.galegroup.com/mome/retrieve.do?tabID=T001&amp;prodId=MOME&amp;retrieveFormat=MULTIPAGE_DOCUMENT&amp;docId=U3602255212&amp;currentPosition=0&amp;userGroupName=nsub&amp;docLevel=FASCIMILE&amp;resultListType=RESULT_LIST&amp;inPS=true&amp;scale=0.33&amp;currentPosition=1&amp;workId=19010098700105&amp;relevancePageBatch=U102255210&amp;contentSet=MOMEArticles&amp;callistoContentSet=MOMEArticles&amp;resultListType=RESULT_LIST&amp;reformatPage=N&amp;retrieveFormat=&amp;scale=0.33&amp;orientation=&amp;lastPageIndex=3&amp;showLOI=&amp;quickSearchTerm=&amp;stwFuzzy=&amp;forRelevantNavigation=true&amp;pageNumber=607">Dict. encycl. Art. Encaustique.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+</tags>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01261252</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01261252">Friedrich
+                            dG.</persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Adam, Lambert-Sigisbert</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00566452</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00566452"
+                   key="#PND:121782174">H. v. Adam<addName type="display">Adam, Lambert-Sigisbert</addName>
+            <addName>Lambert-Sigisbert Adam</addName>
+            <addName>Lambert Sigisbert Adam</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Stosch, Philipp von</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00391048</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00391048"
+                   key="#PND:117673870">H. von Stosch<addName type="display">Stosch, Philipp von</addName>
+            <addName>Philipp von Stosch</addName>
+            <addName>Filippo De Stosch</addName>
+            <addName>De Stosch</addName>
+            <addName>Filippo de Stosch</addName>
+            <addName>Philippe de Stosch</addName>
+            <addName>Filipp de Stosch</addName>
+            <addName>Philippus Stosch</addName>
+            <addName>Philippus de Stosch</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Tassie, James</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00437062</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00437062"
+                   key="#PND:121531139">Tassie<addName type="display">Tassie, James</addName>
+            <addName>James Tassie</addName>
+            <addName>Dassy</addName>
+            <addName>J. Tassie</addName>
+            <addName>Tassie, J. James</addName>
+            <addName>Jacques Tassie</addName>
+            <addName>Tassie, James 1735-1799</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Josef II. Römisch-deutscher Kaiser</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00910377</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp00910377">Joseph 2.<addName type="display">Josef II. Römisch-deutscher Kaiser</addName>
+            <addName>II. Jószef</addName>
+            <addName>Josef II. Kaiser v. Deutschland</addName>
+            <addName>Josef II. Kaiser von Deutschland</addName>
+            <addName>Josef II. Roemisch-deutscher Kaiser</addName>
+            <addName>Josef II. Roemischer Kaiser</addName>
+            <addName>Joseph II. Kaiser von Österreich</addName>
+            <addName>Joseph II. Römisch-deutscher Kaiser</addName>
+            <addName>Josephus II. Imperator Romanus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Eckhel, Joseph Hilarius</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00107058</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00107058"
+                   key="#PND:100118569">Ekhel<addName type="display">Eckhel, Joseph Hilarius</addName>
+            <addName>Joseph Hilarius Eckhel</addName>
+            <addName>Ekhel</addName>
+            <addName>Iosephus Eckhel</addName>
+            <addName>Johann Eckhel</addName>
+            <addName>Johann H. Eckhel</addName>
+            <addName>Johann Joseph Hilarius Eckhel</addName>
+            <addName>Josef Eckhel</addName>
+            <addName>Josef Hilarius Eckhel</addName>
+            <addName>Joseph Eckhel</addName>
+            <addName>Joseph H. Eckhel</addName>
+            <addName>Joseph H. von Eckhel</addName>
+            <addName>Joseph Hilarius von Eckhel</addName>
+            <addName>Joseph-Hilaire Eckhel</addName>
+            <addName>Josephus Eckhel</addName>
+            <addName>Josephus Eckhelius</addName>
+            <addName>Eckhelius</addName>
+            <addName>Iosephus Ekhelius</addName>
+            <addName>Ekhelius</addName>
+            <addName>Josephus Ekhelius</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Hess, Joachim A. ¬von¬</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00176581</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00176581"
+                   key="#PND:101090803">H. v. Guß<addName type="display">Hess, Joachim A. ¬von¬</addName>
+            <addName>Joachim A. von Hess</addName>
+            <addName>Guß</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Dioskurides</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300274</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300274">Dioscorides<addName type="display">Dioskurides</addName>
+            <addName>Dioscorides</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Hemsterhuis, François</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00395124</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00395124"
+                   key="#PND:118549073">Hamsterhuys<addName type="display">Hemsterhuis, François</addName>
+            <addName>François Hemsterhuis</addName>
+            <addName>François Hemsterhuis</addName>
+            <addName>Frans Hemsterhuis</addName>
+            <addName>Hamsterhuys</addName>
+            <addName>Hemsterhuis, François 1721-1790</addName>
+            <addName>Franciscus Hemsterhuis</addName>
+            <addName>Franz Hemsterhuis</addName>
+            <addName>Franziscus Hemsterhuis</addName>
+            <addName>Franciscus Hemsterhusius</addName>
+            <addName>Hemsterhusius</addName>
+            <addName>Hemsterhuys</addName>
+            <addName>François Hemsterhuys</addName>
+            <addName>François Hemsterhuys</addName>
+            <addName>Franciscus Hemsterhuys</addName>
+            <addName>Franz Hemsterhuys</addName>
+            <addName>Socrate</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Bentinck-von Aldenburg, Charlotte Sophie</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00555727</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00555727"
+                   key="#PND:119435659">Familie Bentink<addName type="display">Bentinck-von Aldenburg, Charlotte Sophie</addName>
+            <addName>Charlotte Sophie Bentinck-von Aldenburg</addName>
+            <addName>Charlotte Sophie von Aldenburg</addName>
+            <addName>Aldenburg</addName>
+            <addName>Charlotte Sophie Bentinck von Aldenburg</addName>
+            <addName>Charlotte Sophie Bentinck- von Aldenburg</addName>
+            <addName>Charlotte Sophie von Früherer Name Aldenburg</addName>
+            <addName>Charlotte S. von Bentinck</addName>
+            <addName>Bentinck</addName>
+            <addName>Charlotte Sophie von Bentinck</addName>
+            <addName>Bentinck- von Aldenburg</addName>
+            <addName>Charlotte Sophie Bentinck-Von Aldenburg</addName>
+            <addName>Bentinck-Von Aldenburg</addName>
+            <addName>Bentinck-Von Aldenburg, Charlotte Sophie 1715-1800.</addName>
+            <addName>Charlotte Sophie von Bentink</addName>
+            <addName>Bentink</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

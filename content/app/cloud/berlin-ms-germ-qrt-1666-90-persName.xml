@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Gori, Antonio Francesco</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00402479</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00402479"
+                       key="#PND:118964925">Gori<addName type="display">Gori, Antonio Francesco</addName>
+            <addName>Antonio Francesco Gori</addName>
+            <addName>A. F. Gori</addName>
+            <addName>Adame François Gori</addName>
+            <addName>Adame François Gori</addName>
+            <addName>Ant. Francesco Gori</addName>
+            <addName>Antoine François Gori</addName>
+            <addName>Antoine François Gori</addName>
+            <addName>Anton Francesco Gori</addName>
+            <addName>Anton Franz Gori</addName>
+            <addName>Antonius Franc. Gori</addName>
+            <addName>Antonio Francisco Gorius</addName>
+            <addName>Gorius</addName>
+            <addName>Antonius Gorius</addName>
+            <addName>Antonius Franciscus Gorius</addName>
+            <addName>Antonius Franciscus Gorus</addName>
+            <addName>Gorus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/berlin-ms-germ-qrt-1666-90.tei.xml-d10375e66">GrafDenhof</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Cavalieri, Giovanni Battista</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01232819</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01232819"
+                       key="#PND:12391664X 12391664X">Cavalieri<addName type="display">Cavalieri, Giovanni Battista</addName>
+            <addName>Giovanni Battista Cavalieri</addName>
+            <addName>Baptista de Cavalerijs</addName>
+            <addName>Cavalerijs</addName>
+            <addName>Ioannes Baptista de Cavalleriis</addName>
+            <addName>Cavalleriis</addName>
+            <addName>Giovanbattista de Cavallieri</addName>
+            <addName>Cavallieri</addName>
+            <addName>Cavalier</addName>
+            <addName>Giovanni Battista Cavaleriis</addName>
+            <addName>Cavaleriis</addName>
+            <addName>Joanes Baptista de Cavaleriis</addName>
+            <addName>Joannes B. de Cavaleriis</addName>
+            <addName>Joannes Baptista de Cavaleriis</addName>
+            <addName>Johannes Baptista de Cavaleriis</addName>
+            <addName>Io. Baptista de Cavalerijs</addName>
+            <addName>Johannes Battista de Cavalerius</addName>
+            <addName>Cavalerius</addName>
+            <addName>Giovanni Battista de Cavalieri</addName>
+            <addName>Giovanni Battista de Cavalleriis</addName>
+            <addName>Io. Baptista de Cavalleriis</addName>
+            <addName>Joannes Baptista Cavalleriis</addName>
+            <addName>Joannes Baptista de Cavalleriis</addName>
+            <addName>Johannes Baptista Cavalleriis</addName>
+            <addName>Johannes Baptista de Cavalleriis</addName>
+            <addName>Johannes Battista Cavalleriis</addName>
+            <addName>Baptista de Cavallerijs</addName>
+            <addName>Cavallerijs</addName>
+            <addName>Joannes Baptista de Cavalleris</addName>
+            <addName>Cavalleris</addName>
+            <addName>Jo. B. de Cavallerius</addName>
+            <addName>Cavallerius</addName>
+            <addName>Johannes Baptista Cavallerius</addName>
+            <addName>Johannes Baptista de Cavallerys</addName>
+            <addName>Cavallerys</addName>
+            <addName>Giovan Battista de Cavallieri</addName>
+            <addName>Giovanni B. Cavallieri</addName>
+            <addName>Giovanni Battista Cavallieri</addName>
+            <addName>Giovanni Battista de Cavallieri</addName>
+            <addName>Ioannes Baptista De Cavalleriis</addName>
+            <addName>De Cavalleriis</addName>
+            <addName>Jo. Baptista de Cavalleriis</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Nahl, Johann August</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00917980</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00917980"
+                       key="#PND:119244853">Nahl<addName type="display">Nahl, Johann August</addName>
+            <addName>Johann August Nahl</addName>
+            <addName>Johann A. Nahl</addName>
+            <addName>Johannes August Nahl</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

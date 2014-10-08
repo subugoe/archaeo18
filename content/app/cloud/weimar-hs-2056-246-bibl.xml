@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>I. M. Suaresii Præneste antiqua Rom: 1655. 4.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/books/Suares1655</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://arachne.uni-koeln.de/books/Suares1655">I. M. 
+                                                Suaresii Præneste antiqua Rom: 1655. 4.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Thes: Jtal. T. I.VIII. p. 4.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://hdl.handle.net/2027/ucm.5317969432?urlappend=%3Bseq=282</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://hdl.handle.net/2027/ucm.5317969432?urlappend=%3Bseq=282">Thes: Jtal. T. I.VIII. p. 4.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Ph. Morgen VI. Tafeln von Paestrum.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://opac.sub.uni-goettingen.de/DB=1/PPNSET?PPN=137369956</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://opac.sub.uni-goettingen.de/DB=1/PPNSET?PPN=137369956">Ph. Morgen VI. Tafeln 
+                                                von Paestrum.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>The ruins of Paestrum by Miller Lond. 1767.</tag>
+      <facet>tei:bibl</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#">The ruins of Paestrum by 
+                                                Miller Lond. 1767.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>R. Major. Lond: 1768.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN663765285</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN663765285">R. Major. Lond: 1768.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Antiquitates Puteolanen- ses a P. A. Paoli</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/books/Natali1768</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://arachne.uni-koeln.de/books/Natali1768">Antiquitates Puteolanen- 
+                                                ses a P. A. Paoli</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Plinius XXXV. 43.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://d-nb.info/gnd/4196444-5</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://d-nb.info/gnd/4196444-5">Plinius XXXV. 43.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Caylus Mem: des Inscr: XXV. 304.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://hdl.handle.net/2027/ucm.5319456911?urlappend=%3Bseq=624</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://hdl.handle.net/2027/ucm.5319456911?urlappend=%3Bseq=624">Caylus Mem: des Inscr: 
+                                                XXV. 304.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+</tags>

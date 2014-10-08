@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Abundantia</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01288183</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01288183">Abundantia<addName type="display">Abundantia</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Ceres (Göttin)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00540610</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00540610"
+                   key="#PND:118862294">Ceres<addName type="display">Ceres (Göttin)</addName>
+            <addName>Demeter</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Della Porta, Guglielmo</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00584689</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00584689"
+                   key="#PND:11867935X">Guilielmo della Porta<addName type="display">Della Porta, Guglielmo</addName>
+            <addName>Guglielmo Della Porta</addName>
+            <addName>Gulielmo della Porta</addName>
+            <addName>Gulielmo</addName>
+            <addName>Guglielmo Della Porta di Porlezza</addName>
+            <addName>Della Porta di Porlezza</addName>
+            <addName>Guglielmo DellaPorta</addName>
+            <addName>DellaPorta</addName>
+            <addName>Guglielmo della Porta di Porlezza</addName>
+            <addName>Porlezza</addName>
+            <addName>Guglielmo della Porta di Polrezza</addName>
+            <addName>Porta di Polrezza</addName>
+            <addName>Guglielmo della Porta</addName>
+            <addName>Porta</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Flora (Göttin)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00585223</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00585223"
+                   key="#PND:118691880">Flora<addName type="display">Flora (Göttin)</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Chloris</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300252</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300252">Chloris<addName type="display">Chloris</addName>
+            <addName>Flora</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Kephalos</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00822555</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00822555"
+                   key="#PND:131717715">Cephalus<addName type="display">Kephalos</addName>
+            <addName>Cephalus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pomona (Göttin)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00570681</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00570681"
+                   key="#PND:122641248">Pomona<addName type="display">Pomona (Göttin)</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Fortuna (Göttin)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00549285</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00549285"
+                   key="#PND:118534467">Fortuna<addName type="display">Fortuna (Göttin)</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

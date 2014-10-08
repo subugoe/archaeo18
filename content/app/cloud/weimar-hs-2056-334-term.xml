@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Arsinoë (Ägypten, Königin, II.)</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-334.tei.xml-d19303e67">
+            <persName ref="#CerlID:cnp00578639" key="#PND:118650513">Arsinoe<addName type="display">Arsinoë (Ägypten, Königin, II.)</addName>
+               <addName>Arsinoe Ägypten, Königin, II.</addName>
+               <addName>Arsinoe</addName>
+               <addName>Arsinoë II. Philadelphos</addName>
+            </persName> eine Statue</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/bauwerk/2100372</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/bauwerk/2100372">Basilica Petri</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Mithridates (Pontisches Reich, König, VI.)</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-334.tei.xml-d19303e348">Becher des <persName ref="#CerlID:cnp00586837" key="#PND:118734210">Mithridatis<addName type="display">Mithridates (Pontisches Reich, König, VI.)</addName>
+               <addName>Mithradates Pontus, König, VI.</addName>
+               <addName>Mithradates</addName>
+               <addName>Mithridates VI Eupator, $cKing of Pontus, $dca. 132-63 B.C.</addName>
+               <addName>Mithradates Eupator</addName>
+               <addName>Mithridate Roi du Pont</addName>
+               <addName>Mithridate</addName>
+               <addName>Mithridate VI., Eupator</addName>
+               <addName>Mithridates Eupator</addName>
+               <addName>Mithridates Medicus</addName>
+               <addName>Mithridates VI., Eupator</addName>
+               <addName>Mithridates der Grosse</addName>
+               <addName>Mitridat Car' pontijskij</addName>
+               <addName>Mitridat</addName>
+               <addName>Mitridat Evpator</addName>
+               <addName>Mitridat VI., Evpator</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Köln</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-334.tei.xml-d19303e397">Zu <placeName ref="#GettyID:7004446">Cölln<addName type="display">Köln</addName>
+               <addName>Köln</addName>
+               <addName>Cologne</addName>
+               <addName>Colonia</addName>
+               <addName>Coln</addName>
+               <addName>Keulen</addName>
+               <addName>Colonia Agrippina</addName>
+               <addName>Colonia Agrippinensis</addName>
+               <addName>Colonia Claudia Ara Agrippinensium</addName>
+               <addName>Oppidum Ubiorum</addName>
+               <addName>Oppidum</addName>
+               <addName>Ubiorum</addName>
+               <addName>Ubiopolis</addName>
+               <addName>Agrippina colonia</addName>
+            </placeName> ist ein Onyx</term>
+      </nodes>
+   </tag>
+</tags>

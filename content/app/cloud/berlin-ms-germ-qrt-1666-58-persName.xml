@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Sansovino, Jacopo</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01337074</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01337074"
+                       key="#PND:118794485">Datti Sancovani<addName type="display">Sansovino, Jacopo</addName>
+            <addName>Jacopo Sansovino</addName>
+            <addName>Iacopo Sansovino</addName>
+            <addName>Giacono Dalti</addName>
+            <addName>Dalti</addName>
+            <addName>Il Sansovino</addName>
+            <addName>Sansovino, Il Künstler, 1486-1570</addName>
+            <addName>Iacopo Tatti</addName>
+            <addName>Tatti</addName>
+            <addName>Jacopo Tatti</addName>
+            <addName>Jacopo d'Antonio Tatti</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Urban (Papst, VIII.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01262515</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01262515"
+                       key="#PND:118625586">Urban 8.<addName type="display">Urban (Papst, VIII.)</addName>
+            <addName>Maffaeus Barberini</addName>
+            <addName>Barberini</addName>
+            <addName>Maffeo Barberini</addName>
+            <addName>Maffeo Vincenzo Barberini</addName>
+            <addName>Barberini, Maffeo Vincenzo 1568-1644</addName>
+            <addName>Maphaeus Barberini</addName>
+            <addName>Maffeo Barberino</addName>
+            <addName>Barberino</addName>
+            <addName>Maffaeus Barberinus</addName>
+            <addName>Barberinus</addName>
+            <addName>Maffeus Barberinus</addName>
+            <addName>Maphaeus Barberinus</addName>
+            <addName>Maphaeus Cardinalis</addName>
+            <addName>Maphaeus</addName>
+            <addName>Urbain Pape, VIII.</addName>
+            <addName>Urbain</addName>
+            <addName>Urbain VIII 8</addName>
+            <addName>Urbain VIII pape 1568-1644</addName>
+            <addName>Urban Papa, VIII.</addName>
+            <addName>Urban VIII 8</addName>
+            <addName>Urban VIII pope</addName>
+            <addName>Urbano VIII</addName>
+            <addName>Urbano</addName>
+            <addName>Urbano VIII papa 1568-1644</addName>
+            <addName>Urbano VIII al secolo Maffeo Barberini</addName>
+            <addName>Urbano VIII papa</addName>
+            <addName>Urbanus Pontifex Maximus, VIII.</addName>
+            <addName>Urbanus VIII Pope</addName>
+            <addName>Urbanus VIII papa 1568-1644</addName>
+            <addName>Urbanus VIII papa 1568-1644.</addName>
+            <addName>Urbanus VIII</addName>
+            <addName>Urbanus VIII papa</addName>
+            <addName>Vrbano VIII</addName>
+            <addName>Vrbano</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Bacchus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00579062</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00579062"
+                       key="#PND:118651439">Bachus<addName type="display">Bacchus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

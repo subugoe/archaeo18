@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-610.tei.xml-d9971e48">Diphilus</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Ptolemaeus (Ägypten, König, I.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00396191</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00396191"
+                       key="#PND:118596926">Ptolomeus<addName type="display">Ptolemaeus (Ägypten, König, I.)</addName>
+            <addName>Ptolemaeus Lagus Historicus</addName>
+            <addName>Ptolemaeus Lagus</addName>
+            <addName>Ptolemaeus Aegyptus, Rex, I.</addName>
+            <addName>Ptolemaeus Eordaeus</addName>
+            <addName>Ptolemaeus Historicus</addName>
+            <addName>Ptolemaeus Historiker</addName>
+            <addName>Ptolemaeus I.</addName>
+            <addName>Ptolemaeus I., Soter</addName>
+            <addName>Ptolemaeus Lagi</addName>
+            <addName>Ptolemaeus Lagi Filius</addName>
+            <addName>Ptolemaeus Lagu</addName>
+            <addName>Ptolemaeus Soter</addName>
+            <addName>Ptolemaios General Alexanders des Großen</addName>
+            <addName>Ptolemaios I., Lagu</addName>
+            <addName>Ptolemaios I., Soter</addName>
+            <addName>Ptolemaios Lagu</addName>
+            <addName>Ptolemaios Soter</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Sarapis</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00575918</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00575918"
+                       key="#PND:118642227">Serapis<addName type="display">Sarapis</addName>
+            <addName>Serapis</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Calades</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01427512</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01427512">Calades<addName type="display">Calades</addName>
+            <addName>Calaces</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

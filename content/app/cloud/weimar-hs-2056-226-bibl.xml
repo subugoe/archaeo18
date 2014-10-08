@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Marchese Lucatelli Mus: Capit: Rom: 1745.1750. 4.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/books/Locatelli1750</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://arachne.uni-koeln.de/books/Locatelli1750">Marchese Lucatelli Mus: Capit:  
+                                                  Rom: 1745.1750. 4.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Galleria Giustiniana II. Volumina gros Fol. 1633. Vol. I. 153. pl.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/giustiniani1640bd1</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/giustiniani1640bd1">Galleria Giustiniana II. Volumina gros 
+                                                 Fol. 1633. Vol. I. 153. pl.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Voll. II. 169. pl.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/giustiniani1640bd2</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/giustiniani1640bd2">Voll. II. 169. pl.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Museum Romanum. Opera Mich: Angelo Causei /: la Chaussee :/ Rom: 1690. Fol.</tag>
+      <facet>tei:bibl</facet>
+      <link/>
+      <count>4</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#">Museum Romanum. Opera Mich: Angelo 
+                                                 Causei /: la Chaussee :/ Rom: 1690. Fol.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>le grand Cabinett Romaine. Amsterd: 1706. Fol:/</tag>
+      <facet>tei:bibl</facet>
+      <link>http://katalog.ub.uni-heidelberg.de/cgi-bin/titel.cgi?katkey=66104759</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://katalog.ub.uni-heidelberg.de/cgi-bin/titel.cgi?katkey=66104759">le grand Cabinett 
+                                                 Romaine. Amsterd: 1706. Fol:/</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Haupt Ausgabe ist von 1707.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/lachausse1707</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/lachausse1707">Haupt 
+                                                 Ausgabe ist von 1707.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Die drit- te Edition Rom: 1746.Fol. II. V.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://katalog.ub.uni-heidelberg.de/titel/66862465</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://katalog.ub.uni-heidelberg.de/titel/66862465">Die drit- 
+                                                 te Edition Rom: 1746.Fol. II. V. </ref>
+         </bibl>
+      </nodes>
+   </tag>
+</tags>

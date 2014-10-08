@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Sulzer, Johann Georg</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01262146</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01262146"
+                   key="#PND:11879941X">Sulzer<addName type="display">Sulzer, Johann Georg</addName>
+            <addName>Johann Georg Sulzer</addName>
+            <addName>Jean George Sulzer</addName>
+            <addName>Johann Georg Sultzer</addName>
+            <addName>Sultzer</addName>
+            <addName>Sulzer</addName>
+            <addName>Ioh. George Sulzer</addName>
+            <addName>Jean G. Sulzer</addName>
+            <addName>Johann G. Sulzer</addName>
+            <addName>Johann George Sulzer</addName>
+            <addName>Johannes Georg Sulzer</addName>
+            <addName>Iohannes Georgius Sulzerus</addName>
+            <addName>Sulzerus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Philipp (Makedonien, König, V.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00400433</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00400433"
+                   key="#PND:118791885">Philipps<addName type="display">Philipp (Makedonien, König, V.)</addName>
+            <addName>Philippos König der Makedonen, V.</addName>
+            <addName>Philippos</addName>
+            <addName>Philippus Mazedonien, König, V.</addName>
+            <addName>Philippus</addName>
+            <addName>Philippus Epigrammaticus</addName>
+            <addName>Philippus Macedonia, Rex, V.</addName>
+            <addName>Philippus Macedoniae Rex, V.</addName>
+            <addName>Philippus Macedonius</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

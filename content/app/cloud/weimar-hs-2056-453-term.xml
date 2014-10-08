@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000236</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000236">Samlung</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000466</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000466">Vaticanishen Bibliothec</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>La Valette, Jean Parisot ¬de¬</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-453.tei.xml-d19313e180"
+               type="collection">Samlung des <persName ref="#CerlID:cnp00382003" key="#PND:115791361">Joh: Valetta<addName type="display">La Valette, Jean Parisot ¬de¬</addName>
+               <addName>Jean Parisot de La Valette</addName>
+               <addName>Jean La Valette</addName>
+               <addName>Jean-Parisot de La Valette</addName>
+               <addName>La Valette Jean</addName>
+               <addName>Jean LaValette</addName>
+               <addName>LaValette</addName>
+               <addName>Jean Parisot de LaValette</addName>
+               <addName>Jean-Parisot de LaValette</addName>
+               <addName>Jean Parisot de Lavalette</addName>
+               <addName>Lavalette</addName>
+               <addName>Ioannes de Valeta</addName>
+               <addName>Valeta</addName>
+               <addName>Ioannes Valetta</addName>
+               <addName>Valetta</addName>
+               <addName>Johannes Valetta</addName>
+               <addName>Jean de la Valette</addName>
+               <addName>Valette</addName>
+               <addName>Jean Parisot de la Valette</addName>
+               <addName>Jean-Parisot de la Valette</addName>
+               <addName>Jean de la Valette-Parisot</addName>
+               <addName>Valette-Parisot</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Gualtieri, Filippo Antonio</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000401</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000401">Samlung 
+                                                         des <persName ref="#CerlID:cnp00348223" key="#PND:10406157X">Gualtieri<addName type="display">Gualtieri, Filippo Antonio</addName>
+               <addName>Filippo Antonio Gualtieri</addName>
+               <addName>Gualtieri Cardinal</addName>
+               <addName>Filoppo A. Gualtieri</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Mastrilli, Felice Maria</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-453.tei.xml-d19313e257"
+               type="collection">Samlung des <persName ref="#CerlID:cnp00835367" key="#PND:131873814">Grafen Mastrilli<addName type="display">Mastrilli, Felice Maria</addName>
+               <addName>Felice Maria Mastrilli</addName>
+               <addName>Mastrilli Graf</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000247</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000247">Samlung</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Hamilton, William</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000269</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000269">Die Samlung des <persName ref="#CerlID:cnp00398448" key="#PND:118701231">Milords Hamiltons<addName type="display">Hamilton, William</addName>
+               <addName>William Hamilton</addName>
+               <addName>Gulielmus Hamilton</addName>
+               <addName>Hamilton, William Sir,  1730-1803</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+</tags>

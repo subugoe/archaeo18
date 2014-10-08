@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Pudicitia</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300380</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300380">Pudicitia<addName type="display">Pudicitia</addName>
+            <addName>Pudicilia</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Sabina, Vibia</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00589162</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00589162"
+                       key="#PND:118793934">Sabina<addName type="display">Sabina, Vibia</addName>
+            <addName>Vibia Sabina</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Faustina (Römisches Reich, Kaiserin, I.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00584987</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00584987"
+                       key="#PND:118686240">Faustina<addName type="display">Faustina (Römisches Reich, Kaiserin, I.)</addName>
+            <addName>Faustina die Ältere</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Mars</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00586722</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00586722"
+                       key="#PND:118731181">Mars<addName type="display">Mars</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Venus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00588078</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00588078"
+                       key="#PND:11876800X">Venus<addName type="display">Venus</addName>
+            <addName>Anadyomene  Beiname</addName>
+            <addName>Anadyomene</addName>
+            <addName>Arelatensis  Beiname</addName>
+            <addName>Arelatensis</addName>
+            <addName>aurea  Beiname</addName>
+            <addName>aurea</addName>
+            <addName>coelestis  Beiname</addName>
+            <addName>coelestis</addName>
+            <addName>Gnidia  Beiname</addName>
+            <addName>Gnidia</addName>
+            <addName>Marina  Beiname</addName>
+            <addName>Marina</addName>
+            <addName>Pelasgia  Beiname</addName>
+            <addName>Pelasgia</addName>
+            <addName>Pontia  Beiname</addName>
+            <addName>Pontia</addName>
+            <addName>Urania  Beiname</addName>
+            <addName>Urania</addName>
+            <addName>Victrix  Beiname</addName>
+            <addName>Victrix</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Crispina , Bruttia</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300260</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300260">Crispina<addName type="display">Crispina , Bruttia</addName>
+            <addName>Bruttia Crispina</addName>
+            <addName>Crispina Augusta</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Commodus (Imperium Romanum, Imperator)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00394493</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00394493"
+                       key="#PND:118521713">Commodus<addName type="display">Commodus (Imperium Romanum, Imperator)</addName>
+            <addName>Commodus Imperator</addName>
+            <addName>Lucius Aelius Aurelius Gaius Augustus Imperator Caesar</addName>
+            <addName>Lucius Aelius Aurelius Gaius Augustus</addName>
+            <addName>Marcus Aurelius Gaius Antoninus</addName>
+            <addName>Marcus Aurelius Gaius Antoninus Augustus Imperator Caesar</addName>
+            <addName>Marcus Aurelius Gaius Antoninus Augustus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Ceres (Göttin)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00540610</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00540610"
+                       key="#PND:118862294">Ceres<addName type="display">Ceres (Göttin)</addName>
+            <addName>Demeter</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Didia Clara</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01427486</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01427486">Didia Clara<addName type="display">Didia Clara</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Didius Julianus (Römisches Reich, Kaiser)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00544460</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00544460"
+                       key="#PND:118996452">Didius Julianus<addName type="display">Didius Julianus (Römisches Reich, Kaiser)</addName>
+            <addName>Didius Iulianus Imperium Romanum, Imperator</addName>
+            <addName>Didius Iulianus</addName>
+            <addName>Marcus Didius Severus Iulianus</addName>
+            <addName>Didius Severus Iulianus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Iulia Mamaea (Römisches Reich, Kaiserin)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00578209</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00578209"
+                       key="#PND:123946298">Julia Mamea<addName type="display">Iulia Mamaea (Römisches Reich, Kaiserin)</addName>
+            <addName>Julia Mamaea Römisches Reich, Kaiserin</addName>
+            <addName>Julia Mamaea</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00914937</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00914937"
+                   key="#PND:11861357X">Alexander Seve- </persName>
+      </nodes>
+   </tag>
+</tags>

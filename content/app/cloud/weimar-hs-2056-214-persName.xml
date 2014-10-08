@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Penthièvre, Louis Jean Marie de Bourbon (duc de)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00556470</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00556470"
+                   key="#PND:119465647">Grafen d´Eu<addName type="display">Penthièvre, Louis Jean Marie de Bourbon (duc de)</addName>
+            <addName>Louis Jean Marie de Bourbon Penthièvre</addName>
+            <addName>Louis Jean Marie de Bourbon de Penthièvre</addName>
+            <addName>Louis Jean Marie de Bourbon</addName>
+            <addName>Bourbon, Louis Jean Marie de duc de Penthièvre</addName>
+            <addName>Bourbon</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Puget, Pierre</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00399344</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00399344"
+                   key="#PND:118742930">Ruget<addName type="display">Puget, Pierre</addName>
+            <addName>Pierre Puget</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Thubières, Anne Claude Philippe ¬de¬</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01099958</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01099958">Grafen Caylus<addName type="display">Thubières, Anne Claude Philippe ¬de¬</addName>
+            <addName>Anne Claude Philippe de Thubières</addName>
+            <addName>Caylus Graf</addName>
+            <addName>Caylus</addName>
+            <addName>Thubières, Anne Claude Philippe de Comte de Caylus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Blondel de Gagny, Augustin</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01288209</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01288209">Mr Blondel de Gag- 
+                                         ny<addName type="display">Blondel de Gagny, Augustin</addName>
+            <addName>Augustin Blondel de Gagny</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Blondel d'Azincourt</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01288208</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01288208">Mr. Blondel d´Azincurt<addName type="display">Blondel d'Azincourt</addName>
+            <addName>Blondel d'Azincurt</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Jullienne , Jean de</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300306</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300306">Mr: de Julienne<addName type="display">Jullienne , Jean de</addName>
+            <addName>Jean de Jullienne</addName>
+            <addName>de Julienne</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

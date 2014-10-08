@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Villa Borghese</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/gruppen/400017</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/gruppen/400017">Ein schöner
+          
+          in der <TEI:term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000238">Villa Borghese</TEI:term>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000238</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/sammlungen/1000238">Villa Borghese</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Hause Cuspoli</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-175.tei.xml-d10835e47">Zwey im <TEI:term ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-175.tei.xml-d10835e49">Hause Cuspoli</TEI:term>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-175.tei.xml-d10835e49">Hause Cuspoli</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Villa Medici</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-175.tei.xml-d10835e55">zwey
+          
+          in der <TEI:term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000435">Villa Medici</TEI:term>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000435</link>
+      <count>4</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/sammlungen/1000435">Villa Medici</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Cavalieri, Giovanni Battista</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-175.tei.xml-d10835e67">Einer bey <TEI:persName ref="#CerlID:cnp01232819" key="#PND:12391664X 12391664X">March. Cavalieri<addName type="display">Cavalieri, Giovanni Battista</addName>
+               <addName>Giovanni Battista Cavalieri</addName>
+               <addName>Baptista de Cavalerijs</addName>
+               <addName>Cavalerijs</addName>
+               <addName>Ioannes Baptista de Cavalleriis</addName>
+               <addName>Cavalleriis</addName>
+               <addName>Giovanbattista de Cavallieri</addName>
+               <addName>Cavallieri</addName>
+               <addName>Cavalier</addName>
+               <addName>Giovanni Battista Cavaleriis</addName>
+               <addName>Cavaleriis</addName>
+               <addName>Joanes Baptista de Cavaleriis</addName>
+               <addName>Joannes B. de Cavaleriis</addName>
+               <addName>Joannes Baptista de Cavaleriis</addName>
+               <addName>Johannes Baptista de Cavaleriis</addName>
+               <addName>Io. Baptista de Cavalerijs</addName>
+               <addName>Johannes Battista de Cavalerius</addName>
+               <addName>Cavalerius</addName>
+               <addName>Giovanni Battista de Cavalieri</addName>
+               <addName>Giovanni Battista de Cavalleriis</addName>
+               <addName>Io. Baptista de Cavalleriis</addName>
+               <addName>Joannes Baptista Cavalleriis</addName>
+               <addName>Joannes Baptista de Cavalleriis</addName>
+               <addName>Johannes Baptista Cavalleriis</addName>
+               <addName>Johannes Baptista de Cavalleriis</addName>
+               <addName>Johannes Battista Cavalleriis</addName>
+               <addName>Baptista de Cavallerijs</addName>
+               <addName>Cavallerijs</addName>
+               <addName>Joannes Baptista de Cavalleris</addName>
+               <addName>Cavalleris</addName>
+               <addName>Jo. B. de Cavallerius</addName>
+               <addName>Cavallerius</addName>
+               <addName>Johannes Baptista Cavallerius</addName>
+               <addName>Johannes Baptista de Cavallerys</addName>
+               <addName>Cavallerys</addName>
+               <addName>Giovan Battista de Cavallieri</addName>
+               <addName>Giovanni B. Cavallieri</addName>
+               <addName>Giovanni Battista Cavallieri</addName>
+               <addName>Giovanni Battista de Cavallieri</addName>
+               <addName>Ioannes Baptista De Cavalleriis</addName>
+               <addName>De Cavalleriis</addName>
+               <addName>Jo. Baptista de Cavalleriis</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Versailles</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-175.tei.xml-d10835e163">Einer zu <TEI:placeName ref="#GettyID:7008070">Versailles<addName type="display">Versailles</addName>
+               <addName>Versailles</addName>
+            </TEI:placeName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Bacchus</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-175.tei.xml-d10835e182">Einer mit dem jungen<TEI:persName ref="#CerlID:cnp00579062" key="#PND:118651439">Bachus<addName type="display">Bacchus</addName>
+            </TEI:persName> auf der Schulter</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Hausefarnese</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-175.tei.xml-d10835e195">Im <TEI:term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000001">Hausefarnese</TEI:term>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000001</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/sammlungen/1000001">Hausefarnese</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-175.tei.xml-d10835e218">Ein Silen mit dem Schlauch</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>V. Medici</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-175.tei.xml-d10835e226">Liegend auf dem
+          
+          Schlauch in der <TEI:term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000435">V. Medici</TEI:term>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/26768</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/objekt/26768">Ähnlich</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-175.tei.xml-d10835e270">der schöne</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Marc: Bibl zu Venedig</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-175.tei.xml-d10835e279">Einer in der <TEI:term ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-175.tei.xml-d10835e281">Marc: Bibl zu Venedig</TEI:term>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-175.tei.xml-d10835e281">Marc: Bibl zu Venedig</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Quirinale</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-175.tei.xml-d10835e350">Sie wurde auf dem <TEI:placeName ref="#GettyID:4012799">Quirinal<addName type="display">Quirinale</addName>
+               <addName>Quirinale</addName>
+            </TEI:placeName> ausgegraben</TEI:term>
+      </nodes>
+   </tag>
+</tags>

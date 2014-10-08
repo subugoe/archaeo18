@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Plin: XXXIV. 10.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://d-nb.info/gnd/4196444-5</link>
+      <count>4</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://d-nb.info/gnd/4196444-5">Plin: XXXIV. 10.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Boerner de Statuis Achilleis 1759. Lips: 4.</tag>
+      <facet>tei:bibl</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#">Boerner de 
+                                        Statuis Achilleis 1759. Lips: 4.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Winckel mann Geschichte. der. Kunst. 335.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/winckelmann1764/0385</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/winckelmann1764/0385">Winckel 
+                                        mann Geschichte. der. Kunst. 335.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Vi- truv. I. I.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://d-nb.info/gnd/4099392-9</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://d-nb.info/gnd/4099392-9">Vi- 
+                                        truv. I. I.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Winckelmann Vorrede. zur Allegorie</tag>
+      <facet>tei:bibl</facet>
+      <link>http://diglib.hab.de/drucke/ud-4f-85-2s/start.htm?image=00006</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://diglib.hab.de/drucke/ud-4f-85-2s/start.htm?image=00006">Winckelmann Vorrede. zur Allegorie</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Anmerckung. 55.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/winckelmann1767/0083</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/winckelmann1767/0083">Anmerckung. 55.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+</tags>

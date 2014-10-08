@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/5823</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/5823">Athlet mit einer Vase als Preis</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/5820</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/5820">Il. Discobolo</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/13153 http://arachne.uni-koeln.de/item/objekt/13155</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/13153 #http://arachne.uni-koeln.de/item/objekt/13155">2 Ringer aus Bronce</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Kassel</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-89.tei.xml-d12409e52">In <placeName ref="#GettyID:7004431">Cassel<addName type="display">Kassel</addName>
+               <addName>Kassel</addName>
+               <addName>Cassel</addName>
+               <addName>Casle</addName>
+               <addName>Chassala</addName>
+               <addName>Chassela</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-89.tei.xml-d12409e81">Cavaceppi 457</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-89.tei.xml-d12409e93">T. 3. 5.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Dresden</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/5234</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/5234">der in <placeName ref="#GettyID:7004455">Dresden<addName type="display">Dresden</addName>
+               <addName>Dresden</addName>
+               <addName>Dresde</addName>
+               <addName>Ďrežd'ane</addName>
+               <addName>Drezdane</addName>
+               <addName>Drezdzany</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/15950</link>
+      <count>4</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/15950">Mus. Flor. 45.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Kassel</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-89.tei.xml-d12409e238">in <placeName ref="#GettyID:7004431">Cassel<addName type="display">Kassel</addName>
+               <addName>Kassel</addName>
+               <addName>Cassel</addName>
+               <addName>Casle</addName>
+               <addName>Chassala</addName>
+               <addName>Chassela</addName>
+            </placeName>dder Abguß in Bronce</term>
+      </nodes>
+   </tag>
+</tags>

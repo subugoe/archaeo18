@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Demosthenes (Feldherr)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00584388</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00584388"
+                   key="#PND:11867143X">Demosthenes der Feldherr<addName type="display">Demosthenes (Feldherr)</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Demosthenes</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00394563</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00394563"
+                   key="#PND:118524658">Demosthenes<addName type="display">Demosthenes</addName>
+            <addName>Dēmosthenēs</addName>
+            <addName>Dēmosthenus</addName>
+            <addName>Démosthène</addName>
+            <addName>Démosthène dÁthènes</addName>
+            <addName>Démosthène dÁthènes</addName>
+            <addName>Démosthène Orateur</addName>
+            <addName>Démosthene</addName>
+            <addName>Dēmosthenus</addName>
+            <addName>Démosthène</addName>
+            <addName>Démosthène dÁthènes</addName>
+            <addName>Démosthène Orateur</addName>
+            <addName>Démosthene</addName>
+            <addName>Demostene</addName>
+            <addName>Demostene di Peania</addName>
+            <addName>Demostene Oratore</addName>
+            <addName>Demostenes</addName>
+            <addName>Demosthenes Atheniensis</addName>
+            <addName>Demosthenes Attischer Redner</addName>
+            <addName>Demosthenes Orator</addName>
+            <addName>Demosthenes Politiker</addName>
+            <addName>Demosthenes Pseudo-</addName>
+            <addName>Demosthenes Redner</addName>
+            <addName>Demosthenes Rhetor</addName>
+            <addName>Demosthenes Sohn des Demosthenes</addName>
+            <addName>Demosthenes von Athen</addName>
+            <addName>Demosthenes von Paiania</addName>
+            <addName>Demosthenus</addName>
+            <addName>Pseudo-Demosthenes</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Diogenes (Sinopensis)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00394588</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00394588"
+                   key="#PND:118525867">Diogenes Cynicus<addName type="display">Diogenes (Sinopensis)</addName>
+            <addName>Diogenes von Sinope</addName>
+            <addName>Diogenes Cynicus</addName>
+            <addName>Diogenes Philosophus</addName>
+            <addName>Diogenes Tragicus</addName>
+            <addName>Diogenes der Hund</addName>
+            <addName>Diogenes der Kyniker</addName>
+            <addName>Diogenes of Sinope</addName>
+            <addName>Diogène de Sinope</addName>
+            <addName>Diogène</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Euripides</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00018169</link>
+      <count>8</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00018169"
+                   key="#PND:118531395 118531395">Euripides<addName type="display">Euripides</addName>
+            <addName>Eurípides</addName>
+            <addName>Euripedes</addName>
+            <addName>Euripid</addName>
+            <addName>Euripide</addName>
+            <addName>Euripide de Salamine</addName>
+            <addName>Euripidē</addName>
+            <addName>Euripides Alcestis</addName>
+            <addName>Euripides Atheniensis</addName>
+            <addName>Euripides Pseudo-</addName>
+            <addName>Euripides Sohn des Mnesarchides</addName>
+            <addName>Euripides Sohn des Mnesarchos</addName>
+            <addName>Euripides Tragicus</addName>
+            <addName>Euripides Tragiker</addName>
+            <addName>Euripides von Athen</addName>
+            <addName>Euripides von Salamis</addName>
+            <addName>Euripidis</addName>
+            <addName>Euripidis"</addName>
+            <addName>Eurypides</addName>
+            <addName>Evripede</addName>
+            <addName>Evripede"</addName>
+            <addName>Evripid"</addName>
+            <addName>Evripides</addName>
+            <addName>Eyripidēs</addName>
+            <addName>Pseudo-Euripides</addName>
+            <addName>Yūrıb̄idıs̄</addName>
+            <addName>Yūrībidīs</addName>
+            <addName>Yūrı̄bidı̄s"</addName>
+            <addName>Yūrībidīs"</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Barnes, Joshua</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00475518</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00475518"
+                   key="#PND:12427000X">Barnesii<addName type="display">Barnes, Joshua</addName>
+            <addName>Joshua Barnes</addName>
+            <addName>Giosuè Barnes</addName>
+            <addName>Josua Barnes</addName>
+            <addName>Jusua Barnes</addName>
+            <addName>Barnesius</addName>
+            <addName>Josua Barnesius</addName>
+            <addName>Philargyrius Cantab.</addName>
+            <addName>Cantab.</addName>
+            <addName>Philargyrius</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Epicurus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00394680</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00394680"
+                   key="#PND:118530585">Epicurus<addName type="display">Epicurus</addName>
+            <addName>Epicure</addName>
+            <addName>Epicure de Samos</addName>
+            <addName>Epicuro</addName>
+            <addName>Epicurus Atheniensis</addName>
+            <addName>Epicurus Philosophus</addName>
+            <addName>Epicurus Samius</addName>
+            <addName>Epikouros</addName>
+            <addName>Epikur</addName>
+            <addName>Epikuros</addName>
+            <addName>Epikuros Philosoph</addName>
+            <addName>Epikuros Sohn des Neokles</addName>
+            <addName>Epikuros Sohn eines Atheners</addName>
+            <addName>Epikuros von Samos</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Herodotus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00884119</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00884119"
+                   key="#PND:118549855">Herodot<addName type="display">Herodotus</addName>
+            <addName>Ērodotos</addName>
+            <addName>Ērodotos</addName>
+            <addName>Erodot</addName>
+            <addName>Erodoto</addName>
+            <addName>Erodoto Alicarnasseo</addName>
+            <addName>Erodoto di Alicarnasso</addName>
+            <addName>Erodotus Alikarnassēos</addName>
+            <addName>Erodotus</addName>
+            <addName>Gerodot</addName>
+            <addName>Gerodot iz Galikarnassa</addName>
+            <addName>Hīrūdūt</addName>
+            <addName>Hérodote</addName>
+            <addName>Hérodote d' Halicarnasse</addName>
+            <addName>Hérodote de Halicarnasse</addName>
+            <addName>Hérodote d'Halicarnasse</addName>
+            <addName>Hérodotosz</addName>
+            <addName>Hérodote de Halicarnasse</addName>
+            <addName>Hérodote</addName>
+            <addName>Hérodote d'Halicarnasse</addName>
+            <addName>Herodatus</addName>
+            <addName>Herodoot</addName>
+            <addName>Herodoot van Halikarnassus</addName>
+            <addName>Herodot von Halikarnass</addName>
+            <addName>Herodot</addName>
+            <addName>Herodot Halicarnassei</addName>
+            <addName>Herodot iz Halikarnasu</addName>
+            <addName>Herodot the Historian</addName>
+            <addName>Herodot von Halicarnass</addName>
+            <addName>Herodot von Halikarnaß</addName>
+            <addName>Herodot von Halikarnassos</addName>
+            <addName>Herodot von Halikarnassus</addName>
+            <addName>Herodote</addName>
+            <addName>Herodoto</addName>
+            <addName>Herodoto Alicarnaseo</addName>
+            <addName>Herodoto Halicarnasseo</addName>
+            <addName>Herodotos</addName>
+            <addName>Herodotos van Halicarnassos</addName>
+            <addName>Herodotos Historiker</addName>
+            <addName>Herodotos Sohn des Lyxes</addName>
+            <addName>Herodotos von Halikarnassos</addName>
+            <addName>Herodotus Halincarnassensis</addName>
+            <addName>Herodotus Halicarnassei</addName>
+            <addName>Herodotus Halicarnassensis</addName>
+            <addName>Herodotus Halicarnasseus</addName>
+            <addName>Herodotus Halikarnassēos</addName>
+            <addName>Herodotus Historicus</addName>
+            <addName>Herodotus ho Halikarnasseos</addName>
+            <addName>Herodotus ho Halikarnasseus</addName>
+            <addName>Herodotus of Halicarnassus</addName>
+            <addName>Herodotus the Historian</addName>
+            <addName>Herodotus Thurius</addName>
+            <addName>Herodotus von Halicarnassos</addName>
+            <addName>Herodotus von Halikarnassos</addName>
+            <addName>Herodotus von Halikarnassus</addName>
+            <addName>Hirūdut</addName>
+            <addName>Hirūdut</addName>
+            <addName>Pseudo-Herodotus Biographus</addName>
+            <addName>Pseudo-Herodotus</addName>
+            <addName>Pseudo-Herodotus Halicarnassensis</addName>
+            <addName>Pseudo-Herodotus Historicus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Homer</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259620</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01259620"
+                   key="#PND:11855333X">Homerus<addName type="display">Homer</addName>
+            <addName>Gomer</addName>
+            <addName>Hūmīrūs</addName>
+            <addName>Hūmar</addName>
+            <addName>Hūmir</addName>
+            <addName>Hōmar</addName>
+            <addName>Hômêrôs</addName>
+            <addName>Homère</addName>
+            <addName>Homēros</addName>
+            <addName>Homérosz</addName>
+            <addName>Homēros</addName>
+            <addName>Homère</addName>
+            <addName>Homere</addName>
+            <addName>Homero</addName>
+            <addName>Homeros</addName>
+            <addName>Homeros Tragiker</addName>
+            <addName>Homerosi</addName>
+            <addName>Homerus Colophonius</addName>
+            <addName>Homerus Colophonus</addName>
+            <addName>Homerus Dramatiker</addName>
+            <addName>Homerus Epicus</addName>
+            <addName>Omēros</addName>
+            <addName>Omero</addName>
+            <addName>Omiros</addName>
+            <addName>Pseudo-Homerus</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

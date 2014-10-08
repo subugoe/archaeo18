@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Bembo, Pietro</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01231349</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01231349"
+                   key="#PND:118658115">Cardinal Bembo<addName type="display">Bembo, Pietro</addName>
+            <addName>Pietro Bembo</addName>
+            <addName>P Bembo</addName>
+            <addName>Pierre Bembe</addName>
+            <addName>Bembe</addName>
+            <addName>Pierre Bembo</addName>
+            <addName>Pierre de Bembo</addName>
+            <addName>Petrus Bembus</addName>
+            <addName>Bembus</addName>
+            <addName>Petrus Bembo</addName>
+            <addName>Bembus</addName>
+            <addName>P. Bembus</addName>
+            <addName>Bembus, P. Pietro</addName>
+            <addName>Petrus</addName>
+            <addName>Petrus Cardinalis Bembus</addName>
+            <addName>Pierre</addName>
+            <addName>Bembo Pietro</addName>
+            <addName>Pietro</addName>
+            <addName>Pietro Bembus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Vico, Enea</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01241051</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01241051"
+                   key="#PND:119099950">Renatus 
+                                                Vico<addName type="display">Vico, Enea</addName>
+            <addName>Enea Vico</addName>
+            <addName>Aeneas Vicus</addName>
+            <addName>Aeneas Vicus Parmensis</addName>
+            <addName>Vico Enea</addName>
+            <addName>Enea</addName>
+            <addName>Enea Vico da Parma</addName>
+            <addName>Enea Vico parmigiano</addName>
+            <addName>Vico, Enea Parmigiano</addName>
+            <addName>Aeneas Vico Parmigiano</addName>
+            <addName>Vico Parmigiano</addName>
+            <addName>Enea Vico Parmigiano</addName>
+            <addName>Vicus</addName>
+            <addName>Enea Vicus</addName>
+            <addName>Aeneas Vicus Parmense</addName>
+            <addName>Vicus Parmense</addName>
+            <addName>Vicus Parmensis</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pignoria, Lorenzo</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00385413</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00385413"
+                   key="#PND:116185341">Laurent: 
+                                                Pignorius<addName type="display">Pignoria, Lorenzo</addName>
+            <addName>Lorenzo Pignoria</addName>
+            <addName>Lorenzo Pegnoria</addName>
+            <addName>Pegnoria</addName>
+            <addName>Laurentius Pignoria</addName>
+            <addName>Laurentius Pignorius</addName>
+            <addName>Pignorius</addName>
+            <addName>Laurenzius Pignorius</addName>
+            <addName>Lorenzo Pignorius</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Kircher, Athanasius</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00395467</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00395467"
+                   key="#PND:118562347">Kir- 
+                                                cher<addName type="display">Kircher, Athanasius</addName>
+            <addName>Athanasius Kircher</addName>
+            <addName>Atanasio Chircher</addName>
+            <addName>Chircher</addName>
+            <addName>Athanasius Chircher</addName>
+            <addName>Atanasio Chircherus</addName>
+            <addName>Chircherus</addName>
+            <addName>Athanase Kirchère</addName>
+            <addName>Kirchère</addName>
+            <addName>Atanasio Kircher</addName>
+            <addName>Atanasius Kircher</addName>
+            <addName>Athan. Kircher</addName>
+            <addName>Athanase Kirchere</addName>
+            <addName>Kirchere</addName>
+            <addName>Kircherus</addName>
+            <addName>Athanasius Kircherus</addName>
+            <addName>Athanasius Kirchner</addName>
+            <addName>Kirchner</addName>
+            <addName>Athanasius Kirchnerus</addName>
+            <addName>Kirchnerus</addName>
+            <addName>Athanase Kirker</addName>
+            <addName>Kirker</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

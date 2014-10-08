@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Midas (Phrygien, König)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00542449</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00542449"
+                   key="#PND:118924176">Midas<addName type="display">Midas (Phrygien, König)</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Deus Lunus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300271</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300271">Lunus<addName type="display">Deus Lunus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Attis</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00574151</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00574151"
+                   key="#PND:118637754">Atys<addName type="display">Attis</addName>
+            <addName>Atys</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Kybele</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00575273</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00575273"
+                   key="#PND:118640283">Cybeles<addName type="display">Kybele</addName>
+            <addName>Cybele</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Paris (Sagengestalt)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00587024</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00587024"
+                   key="#PND:118739301">Paris<addName type="display">Paris (Sagengestalt)</addName>
+            <addName>Alexandros</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Ganymed</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00549963</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00549963"
+                   key="#PND:118537520">Ganymed<addName type="display">Ganymed</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Wallmoden-Gimborn, Johann Ludwig ¬von¬</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00664371</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00664371"
+                   key="#PND:130253219">Wallmoden<addName type="display">Wallmoden-Gimborn, Johann Ludwig ¬von¬</addName>
+            <addName>Johann Ludwig von Wallmoden-Gimborn</addName>
+            <addName>Johann L. von Gimborn</addName>
+            <addName>Gimborn</addName>
+            <addName>Johann Ludwig Gimborn</addName>
+            <addName>Johann Ludwig von Wallmoden- Gimborn</addName>
+            <addName>Ludwig von Wallmoden- Gimborn</addName>
+            <addName>Johann Ludwig von Wallmoden</addName>
+            <addName>Wallmoden</addName>
+            <addName>Johann L. von Wallmoden-Gimborn</addName>
+            <addName>Ludwig von Wallmoden-Gimborn</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Leochares</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00588518</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00588518"
+                   key="#PND:118779532">Leocrates<addName type="display">Leochares</addName>
+            <addName>Leocrates</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

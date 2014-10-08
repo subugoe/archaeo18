@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Livia Drusilla (Römisches Reich, Kaiserin)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00550548</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00550548"
+                   key="#PND:119226014">Livia<addName type="display">Livia Drusilla (Römisches Reich, Kaiserin)</addName>
+            <addName>Iulia Augusta</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Marcellus, Marcus Claudius (Feldherr)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00588604</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00588604"
+                   key="#PND:118781766">Marcellus<addName type="display">Marcellus, Marcus Claudius (Feldherr)</addName>
+            <addName>Marcus Claudius Marcellus</addName>
+            <addName>Claudius Marcellus, Marcus Feldherr</addName>
+            <addName>Claudius Marcellus</addName>
+            <addName>Marcus Claudius Marcellus Feldherr</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Caesar, Gaius Iulius (20 v. Chr.-4)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00540857</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00540857"
+                   key="#PND:118869965">C<addName type="display">Caesar, Gaius Iulius (20 v. Chr.-4)</addName>
+            <addName>Gaius Iulius Caesar</addName>
+            <addName>Gajus Julius Caesar</addName>
+            <addName>Caesar, Gajus Julius 20 v. Chr.-4</addName>
+            <addName>Iulius Caesar, Gaius 20 v. Chr.-4</addName>
+            <addName>Iulius Caesar</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Caesar, Lucius Iulius</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00401618</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00401618"
+                   key="#PND:118869833">L. Cæsar<addName type="display">Caesar, Lucius Iulius</addName>
+            <addName>Lucius Iulius Caesar</addName>
+            <addName>Lucius Julius Caesar</addName>
+            <addName>Iulius Caesar</addName>
+            <addName>Iulius</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Agrippina (die Ältere)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00541941</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00541941"
+                   key="#PND:118501100">Agrippina die aeltere<addName type="display">Agrippina (die Ältere)</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Caligula (Imperium Romanum, Imperator)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00984012</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00984012"
+                   key="#PND:118518410">Caligula<addName type="display">Caligula (Imperium Romanum, Imperator)</addName>
+            <addName>Gaius Iulius Caligula Caesar Germanicus</addName>
+            <addName>Caesar Germanicus</addName>
+            <addName>Gaius Caligula Iulius Caesar Germanicus</addName>
+            <addName>Caligula Iulius Caesar Germanicus</addName>
+            <addName>Caius Caligula</addName>
+            <addName>Gaius Caligula</addName>
+            <addName>Caligula Römischer Kaiser</addName>
+            <addName>Gaius Iulius Caesar Germanicus</addName>
+            <addName>Germanicus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Ptolemaios Apion</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300379</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300379">Ptolo- 
+                                      meus Apion<addName type="display">Ptolemaios Apion</addName>
+            <addName>Ptolomeus Apion</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Berenike (Ägypten, Königin, I.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00557319</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00557319"
+                   key="#PND:119494108">Berenice<addName type="display">Berenike (Ägypten, Königin, I.)</addName>
+            <addName>Berenice die Ältere</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Ptolemaeus (Ägypten, König, II.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00400483</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00400483"
+                   key="#PND:11879356X">Ptolomeus Philadel- 
+                                      phus<addName type="display">Ptolemaeus (Ägypten, König, II.)</addName>
+            <addName>Ptolomeus Philadelphus</addName>
+            <addName>Ptolemaeus Epistolographus</addName>
+            <addName>Ptolemaeus Philadelphus, Rex</addName>
+            <addName>Ptolemaios II., Philadelphos</addName>
+            <addName>Ptolemaios Philadelphos</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Berenike (Ägypten, Königin, II.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00580639</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00580639"
+                   key="#PND:118655833">Berenice<addName type="display">Berenike (Ägypten, Königin, II.)</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Ptolemaeus (Ägypten, König, III.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00983874</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00983874"
+                   key="#PND:119132893">Ptolo- 
+                                      maei Evergetis<addName type="display">Ptolemaeus (Ägypten, König, III.)</addName>
+            <addName>Ptolemaeus Epigrammaticus</addName>
+            <addName>Ptolemaeus Euergetes, I.</addName>
+            <addName>Ptolemaeus Euergetes, Rex, III.</addName>
+            <addName>Ptolemaeus Evergetae, Rex, III.</addName>
+            <addName>Ptolemaeus Evergetes, I.</addName>
+            <addName>Ptolemaeus III., Evergetes, I.</addName>
+            <addName>Ptolemaios Euergetes</addName>
+            <addName>Ptolemaios III., Evergetes, I.</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Ptolemaier (Familie)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300378</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300378">Ptolomaeer<addName type="display">Ptolemaier (Familie)</addName>
+            <addName>Ptolomaeer</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Ptolemaios (Ägypten, König, VI.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00563162</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00563162"
+                   key="#PND:118596934">Ptolomaei. Philometor<addName type="display">Ptolemaios (Ägypten, König, VI.)</addName>
+            <addName>Ptolomaeus Philometor</addName>
+            <addName>Ptolomaeus</addName>
+            <addName>Ptolemaios Philometor</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Ptolemaeus (Ägypten, König, IX.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01100820</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01100820"
+                   key="#PND:133072568">Ptolomaeus, Lathurus<addName type="display">Ptolemaeus (Ägypten, König, IX.)</addName>
+            <addName>Ptolemaeus Philometer Soter, II.</addName>
+            <addName>Ptolemaios Lathyros Physkon</addName>
+            <addName>Ptolemaios Philometer Soter, II.</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Ptolemaios X.</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01288187</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01288187">Königs Alexanders von Lygeon<addName type="display">Ptolemaios X.</addName>
+            <addName>Alexander von Lygeon</addName>
+            <addName>Ptolemaios X. Alexandros I.</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Iuba (Mauretania, König, II.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00284917</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00284917"
+                   key="#PND:102396493">Iuba<addName type="display">Iuba (Mauretania, König, II.)</addName>
+            <addName>Gaius Iulius Iuba</addName>
+            <addName>Iuba Historicus</addName>
+            <addName>Iuba Mauretania, Rex, II.</addName>
+            <addName>Iuba Mauretanicus</addName>
+            <addName>Iuba Rex Mauretaniae</addName>
+            <addName>Iuba von Mauretanien</addName>
+            <addName>Iulius Iuba</addName>
+            <addName>Juba Mauretania, King, II.</addName>
+            <addName>Juba Mauretanicus</addName>
+            <addName>Juba Mauretanien, König, II.</addName>
+            <addName>Juba von Mauretanien</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Kleopatra (Ägypten, Königin, VII.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00395483</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00395483"
+                   key="#PND:11856322X">Cleopatra<addName type="display">Kleopatra (Ägypten, Königin, VII.)</addName>
+            <addName>Cleopatra Ägypten, Königin, VII.</addName>
+            <addName>Cleopatra</addName>
+            <addName>Cleopatra die Grosse</addName>
+            <addName>Cleopatra Medica</addName>
+            <addName>Cleopatra Philopator, VII.</addName>
+            <addName>Cleopatra Ptolemais, Regina, VII.</addName>
+            <addName>Kleopatra die Grosse</addName>
+            <addName>Kleopatra Königin der Ptolemaier, VII.</addName>
+            <addName>Kleopatra Philopator</addName>
+            <addName>Kleopatra Tochter des Ptolemaios XII.</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

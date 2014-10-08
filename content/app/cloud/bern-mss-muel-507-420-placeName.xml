@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Frattócchie</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=1044704</link>
+      <count>4</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:1044704">Fra-
+            
+                    
+          tochi<addName type="display">Frattócchie</addName>
+            <addName>Frattócchie</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Albano, Lago</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7007034</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7007034">Lago Albano<addName type="display">Albano, Lago</addName>
+            <addName>Albano, Lago</addName>
+            <addName>Lago di Albano</addName>
+            <addName>Albano, Lago di</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Turunçlar</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7016803</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7016803">Prierie<addName type="display">Turunçlar</addName>
+            <addName>Turunçlar</addName>
+            <addName>Turunglar</addName>
+            <addName>Samsun Kale</addName>
+            <addName>Priene</addName>
+            <addName>Kelebec</addName>
+            <addName>Gulubahce</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7232897</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7232897">Jonien</TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Ólimbos</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7011019</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7011019">Olymp<addName type="display">Ólimbos</addName>
+            <addName>Ólimbos</addName>
+            <addName>Olimpo</addName>
+            <addName>Olymp</addName>
+            <addName>Olympus</addName>
+            <addName>Mount Olympus</addName>
+            <addName>Olympus, Mount</addName>
+            <addName>Olympe, Mont</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+</tags>

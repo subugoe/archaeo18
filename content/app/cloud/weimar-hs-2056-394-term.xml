@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Sixte (IV, pape)</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-394.tei.xml-d16435e399">Capelle <persName ref="#CerlID:cnp00917194" key="#PND:118797476">Sixti IV.<addName type="display">Sixte (IV, pape)</addName>
+               <addName>IV Sixtus</addName>
+               <addName>Francesco Della Rovere</addName>
+               <addName>Della Rovere</addName>
+               <addName>Sisto IV pape</addName>
+               <addName>Sisto</addName>
+               <addName>Sixtus IV pape</addName>
+               <addName>Francesco d' Albescola della Rovere</addName>
+               <addName>Albescola della Rovere</addName>
+               <addName>Francesco d'Albescola Della Rovere</addName>
+               <addName>Della Rovere, Francesco 1414-1484</addName>
+               <addName>Franceso Della Rovere</addName>
+               <addName>Francesco d'Albescola DellaRovere</addName>
+               <addName>DellaRovere</addName>
+               <addName>Francesco DellaRovere</addName>
+               <addName>François delle Rovere</addName>
+               <addName>François</addName>
+               <addName>Francesco della Rovere</addName>
+               <addName>Francesco</addName>
+               <addName>Francesco di Savona</addName>
+               <addName>François delle Rovere</addName>
+               <addName>François</addName>
+               <addName>Franciscus de Rovere</addName>
+               <addName>Franciscus</addName>
+               <addName>Francesco d'Albescola della Rovere</addName>
+               <addName>Rovere</addName>
+               <addName>Sisto IV papa 1414-1484</addName>
+               <addName>Sisto Papa, IV.</addName>
+               <addName>Sixte IV</addName>
+               <addName>Sixte Pape, IV.</addName>
+               <addName>Sixtus IV. Papa</addName>
+               <addName>Sixtus Episcopus</addName>
+               <addName>Sixtus IV papa 1414-1484</addName>
+               <addName>Sixtus IV pope</addName>
+               <addName>IV Xystus</addName>
+               <addName>Xystus</addName>
+               <addName>Xystus Papa, IV.</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>JuditHolophernes</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-394.tei.xml-d16435e486">
+            <persName ref="#CerlID:cnp00554385" key="#PND:118558544">Iudith<addName type="display">Judit</addName>
+               <addName>Iudith</addName>
+               <addName>Judith</addName>
+            </persName> die mit dem Kopf 
+                                                     des <persName ref="#CerlID:cnp01300297">Holofernes<addName type="display">Holophernes</addName>
+               <addName>Holofernes</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+</tags>

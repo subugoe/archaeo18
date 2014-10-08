@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Homer</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259620</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01259620"
+                       key="#PND:11855333X">Homers<addName type="display">Homer</addName>
+            <addName>Gomer</addName>
+            <addName>Hūmīrūs</addName>
+            <addName>Hūmar</addName>
+            <addName>Hūmir</addName>
+            <addName>Hōmar</addName>
+            <addName>Hômêrôs</addName>
+            <addName>Homère</addName>
+            <addName>Homēros</addName>
+            <addName>Homérosz</addName>
+            <addName>Homēros</addName>
+            <addName>Homère</addName>
+            <addName>Homere</addName>
+            <addName>Homero</addName>
+            <addName>Homeros</addName>
+            <addName>Homeros Tragiker</addName>
+            <addName>Homerosi</addName>
+            <addName>Homerus Colophonius</addName>
+            <addName>Homerus Colophonus</addName>
+            <addName>Homerus Dramatiker</addName>
+            <addName>Homerus Epicus</addName>
+            <addName>Omēros</addName>
+            <addName>Omero</addName>
+            <addName>Omiros</addName>
+            <addName>Pseudo-Homerus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>SámosPolykrates (Tyrann)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00862535</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00862535"
+                       key="#PND:132258900">Policrates von <TEI:placeName ref="#GettyID:1042201">Samos<addName type="display">Sámos</addName>
+               <addName>Sámos</addName>
+               <addName>Samos</addName>
+               <addName>Vathy harbor</addName>
+               <addName>Vathy</addName>
+               <addName>Port Vathi</addName>
+               <addName>Limín Vathéos</addName>
+               <addName>Limén Vathéos</addName>
+               <addName>Liman Vathéos</addName>
+               <addName>Tigani</addName>
+            </TEI:placeName>
+            <addName type="display">Polykrates (Tyrann)</addName>
+            <addName>Polykrates von Samos</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Augustus (Emperor of Rome)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00971385</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00971385"
+                       key="#PND:118505122">Augusts<addName type="display">Augustus (Emperor of Rome)</addName>
+            <addName>Auguste Empereur</addName>
+            <addName>Auguste</addName>
+            <addName>Caio Giulio Cesare Ottaviano Augusto</addName>
+            <addName>Augusto</addName>
+            <addName>Cesare Augusto</addName>
+            <addName>Cesare Ottaviano Augusto</addName>
+            <addName>Ottaviano Augusto</addName>
+            <addName>Augustus Caesar</addName>
+            <addName>Caesar Augustus</addName>
+            <addName>Caesar Octavianus Augustus</addName>
+            <addName>Caius J. Augustus</addName>
+            <addName>Caius Julius Caesar Augustus</addName>
+            <addName>Cesar Octavianus Augustus</addName>
+            <addName>Gaius I. Augustus</addName>
+            <addName>Gaius Iulius Caesar Augustus</addName>
+            <addName>Gaius Iulius Caesar Octavianus Augustus</addName>
+            <addName>Gaius Julius Augustus</addName>
+            <addName>Gaius Julius Caesar Octavianus Augustus</addName>
+            <addName>Gaius Octavius Augustus</addName>
+            <addName>Iulius Caesar Octavianus Augustus</addName>
+            <addName>Octavianus Augustus</addName>
+            <addName>Octavius Caesar Augustus</addName>
+            <addName>Augustus Divus</addName>
+            <addName>Augustus Imperator</addName>
+            <addName>Augustus Imperium Romanum, Caesar</addName>
+            <addName>Augustus Kaiser</addName>
+            <addName>Augustus Römisches Reich, Kaiser</addName>
+            <addName>Augustus Roemisches Reich, Kaiser</addName>
+            <addName>Augustus Romanus</addName>
+            <addName>Augustus Verfasser der Res Gestae</addName>
+            <addName>Caius Octavianus Imperium Romanum, Imperator</addName>
+            <addName>Caius Octavianus</addName>
+            <addName>Caius Oktavius Imperium Romanum, Augustus</addName>
+            <addName>Caius Oktavius</addName>
+            <addName>Caius Oktavius Imperium Romanum, Imperator</addName>
+            <addName>Gaius Julius Caesar Octavianus</addName>
+            <addName>Gaius Octavius</addName>
+            <addName>Gaius Octavius Emperor of Rome</addName>
+            <addName>Octavian</addName>
+            <addName>Octavianus</addName>
+            <addName>Octavius</addName>
+            <addName>Octavius Caesar Emperor of Rome</addName>
+            <addName>Octavius Caesar</addName>
+            <addName>Octavius Augustus</addName>
+            <addName>Ottaviano</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Plinius Secundus, C.</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01238749</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01238749"
+                       key="#PND:118595083">Plinius<addName type="display">Plinius Secundus, C.</addName>
+            <addName>C. Plinius Secundus</addName>
+            <addName>Caius Plinius Secundus</addName>
+            <addName>Gaius Plinius Secundus</addName>
+            <addName>C. Plinio Secondo</addName>
+            <addName>C. Plinius Secundus veronensis</addName>
+            <addName>C. Plynius Secundus</addName>
+            <addName>Caio Plinio Secondo</addName>
+            <addName>Caio Plinio veronese</addName>
+            <addName>Caius Plinius Secundus Major</addName>
+            <addName>Cajus Plinius Secundus</addName>
+            <addName>G. Plinio Secondo</addName>
+            <addName>Pline</addName>
+            <addName>Pline</addName>
+            <addName>Caius Pline</addName>
+            <addName>Pline l'Ancien</addName>
+            <addName>Pline l'ancien</addName>
+            <addName>Pline lA´ncien</addName>
+            <addName>Pline le Naturaliste</addName>
+            <addName>Pline lÁncien</addName>
+            <addName>C. Pline Second</addName>
+            <addName>Pline Second</addName>
+            <addName>Pline l'Ancien 23-79</addName>
+            <addName>Plinij</addName>
+            <addName>Plinio</addName>
+            <addName>Gaio Secondo Plinio</addName>
+            <addName>Plinio Napoletano</addName>
+            <addName>Plinio el Viejo</addName>
+            <addName>Plinio il Vecchio</addName>
+            <addName>Plinio il vecchio</addName>
+            <addName>Plinio Secondo</addName>
+            <addName>Gaio Plinio Secondo</addName>
+            <addName>Caio Plinio Secundo</addName>
+            <addName>Plinio Secundo</addName>
+            <addName>Cayo Plinio Segundo</addName>
+            <addName>Plinio Segundo</addName>
+            <addName>Plinio il vecchio/C. Plinius Secundus</addName>
+            <addName>Plinius</addName>
+            <addName>C. Plinius</addName>
+            <addName>Caius Plinius</addName>
+            <addName>Caius Secundus Plinius</addName>
+            <addName>Plinius Florentino-Pragensis</addName>
+            <addName>Plinius Florentinus-Pragensis</addName>
+            <addName>Plinius Maior</addName>
+            <addName>Plinius Major</addName>
+            <addName>Plinius Rerum Naturalium Scriptor</addName>
+            <addName>Plinius Senior</addName>
+            <addName>Plinius der Ältere</addName>
+            <addName>Plinius starší</addName>
+            <addName>Plinius Secundus</addName>
+            <addName>C Plinius Secundus</addName>
+            <addName>Plinius Secundus, Caius Major</addName>
+            <addName>Plinius Secundus, Gaius Maior</addName>
+            <addName>Gajus Plinius Secundus</addName>
+            <addName>Plinius Secundus Maior</addName>
+            <addName>Plinius Secundus der Ältere</addName>
+            <addName>C. Plinius Secundus Maior</addName>
+            <addName>Plinius Secundus Novocomenis</addName>
+            <addName>Plinius d. Ä.</addName>
+            <addName>Pliniusz</addName>
+            <addName>K. Starszy Pliniusz</addName>
+            <addName>Pliniusz Starszy</addName>
+            <addName>Pliniusz Starszy K.</addName>
+            <addName>Plinjusz</addName>
+            <addName>Caius Plynius Secundus</addName>
+            <addName>Plynius Secundus</addName>
+            <addName>Gaius Plynius Secundus</addName>
+            <addName>Caius P. Secundus</addName>
+            <addName>Secundus</addName>
+            <addName>Gaius P. Secundus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Theodoros (von Samos)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300412</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300412">Theo-
+                    dors<addName type="display">Theodoros (von Samos)</addName>
+            <addName>Theodor</addName>
+            <addName>Theodorus</addName>
+            <addName>Theodorus  aus Samos</addName>
+            <addName>Theodorus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Sámos</tag>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/berlin-ms-germ-qrt-1666-271.tei.xml-d3487e426">Decocles aus <TEI:placeName ref="#GettyID:1042201">Samos<addName type="display">Sámos</addName>
+               <addName>Sámos</addName>
+               <addName>Samos</addName>
+               <addName>Vathy harbor</addName>
+               <addName>Vathy</addName>
+               <addName>Port Vathi</addName>
+               <addName>Limín Vathéos</addName>
+               <addName>Limén Vathéos</addName>
+               <addName>Liman Vathéos</addName>
+               <addName>Tigani</addName>
+            </TEI:placeName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/berlin-ms-germ-qrt-1666-271.tei.xml-d3487e462">Cle-
+                mens Alex</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Alexander (Magnus)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259691</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01259691"
+                       key="#PND:118501828">Ale-
+                xanders<addName type="display">Alexander (Magnus)</addName>
+            <addName>Ałekʹsandr Makedonacʹi</addName>
+            <addName>Alejandro Magno</addName>
+            <addName>Alejandro</addName>
+            <addName>Aleksandr</addName>
+            <addName>Alessandro Magno</addName>
+            <addName>Alessandro</addName>
+            <addName>Alexander de Grote</addName>
+            <addName>Alexander der Große</addName>
+            <addName>Alexander der Grosse</addName>
+            <addName>Alexander Epistolographus</addName>
+            <addName>Alexander III 3 koning van Macedonië</addName>
+            <addName>Alexander Kaiser</addName>
+            <addName>Alexander Macedonia, Rex, III.</addName>
+            <addName>Alexander Macedonis</addName>
+            <addName>Alexander Mazedonien, König, III.</addName>
+            <addName>Alexander of Macedon</addName>
+            <addName>Alexander Rex</addName>
+            <addName>Alexandre le Grand</addName>
+            <addName>Alexandre</addName>
+            <addName>Alexandros</addName>
+            <addName>Alexandros der Große</addName>
+            <addName>Alexandru cel Mare</addName>
+            <addName>Alexandru</addName>
+            <addName>Alexandrus Magnus</addName>
+            <addName>Alexandrus</addName>
+            <addName>Megalexandros</addName>
+            <addName>Pseudo-Alexander Magnus</addName>
+            <addName>Pseudo-Alexander</addName>
+            <addName>Grote</addName>
+            <addName>Alexandros Megas</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

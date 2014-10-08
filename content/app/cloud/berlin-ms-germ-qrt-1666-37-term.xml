@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Titien</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/berlin-ms-germ-qrt-1666-37.tei.xml-d3415e568">
+            <TEI:persName ref="#CerlID:cnp01240520" key="#PND:118622994 189566248">Titians<addName type="display">Titien</addName>
+               <addName>Le Titien</addName>
+               <addName>Titian</addName>
+               <addName>Titianus</addName>
+               <addName>Il Tiziano</addName>
+               <addName>Tiziano Vecelli</addName>
+               <addName>Vecelli</addName>
+               <addName>Tician</addName>
+               <addName>Ticiano Večellio</addName>
+               <addName>Ticianus</addName>
+               <addName>Titiaan</addName>
+               <addName>Titiano</addName>
+               <addName>Titianus Vecellius</addName>
+               <addName>Tizian</addName>
+               <addName>Vecellio Tiziano</addName>
+               <addName>Tiziano Vecellio, Künstler, 1477-1576</addName>
+               <addName>Titiano Vecelli</addName>
+               <addName>Titiano Vecellio</addName>
+               <addName>Titien Vecellio</addName>
+            </TEI:persName> Charickatur vom Laocoon</TEI:term>
+      </nodes>
+   </tag>
+</tags>

@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/berlin-ms-germ-qrt-1666-301.tei.xml-d15855e8">Fr. Ghiaghi</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300256 #cnp01300257 #cnp01300258</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01300256 #CerlID:cnp01300257 #CerlID:cnp01300258">Costanzi</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Costanzi , Johann</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300257</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300257">Johannes<addName type="display">Costanzi , Johann</addName>
+            <addName>Johann Costanzi</addName>
+            <addName>Giovanni Constanzi</addName>
+            <addName>Constanzi</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Costanzi , Thomas</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300258</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300258">Thomas<addName type="display">Costanzi , Thomas</addName>
+            <addName>Thomas Costanzi</addName>
+            <addName>Thomaso Constanzi</addName>
+            <addName>Constanzi</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Costanzi , Carlo</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300256</link>
+      <count>4</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300256">Caroly<addName type="display">Costanzi , Carlo</addName>
+            <addName>Carlo Costanzi</addName>
+            <addName>Carlo Constanzi</addName>
+            <addName>Constanzi</addName>
+            <addName>Carlo Costangis</addName>
+            <addName>Costangis</addName>
+            <addName>Costanzi</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Benoît (XIV, pape)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00397457</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00397457"
+                       key="#PND:118655434">Bened: 14.<addName type="display">Benoît (XIV, pape)</addName>
+            <addName>XIV Benedictus</addName>
+            <addName>Benedetto XIV pape</addName>
+            <addName>Benedetto</addName>
+            <addName>Benedictus XIV pape</addName>
+            <addName>Prospero Lambertini</addName>
+            <addName>Lambertini</addName>
+            <addName>Bénoit Pontife, XIV.</addName>
+            <addName>Bénoit</addName>
+            <addName>Bénoit XIV.</addName>
+            <addName>Bénoit XIV.</addName>
+            <addName>Bénoit</addName>
+            <addName>XIV Benedetto</addName>
+            <addName>Benedetto, XIV 14 paus</addName>
+            <addName>Benedetto Papa, XIV.</addName>
+            <addName>Benedict Papa, XIV.</addName>
+            <addName>Benedict</addName>
+            <addName>Benedictus Papa, XIV</addName>
+            <addName>Benedictus XIV.</addName>
+            <addName>Benedikt Papa, XIV.</addName>
+            <addName>Benedito Papa, XIV.</addName>
+            <addName>Benedito</addName>
+            <addName>XIV=14 Benoît</addName>
+            <addName>Benoît Pape, XIV.</addName>
+            <addName>Benoît</addName>
+            <addName>Benoit Pape, XIV.</addName>
+            <addName>Benoit</addName>
+            <addName>Benoit Pope, XIV.</addName>
+            <addName>Prosper Lambertini</addName>
+            <addName>Prospero L. Lambertini</addName>
+            <addName>Prosperus Lambertinus</addName>
+            <addName>Lambertinus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Petrus (Apostel)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00396091</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00396091"
+                       key="#PND:118593323">Peter<addName type="display">Petrus (Apostel)</addName>
+            <addName>Peter the Apostle, Saint</addName>
+            <addName>Peter</addName>
+            <addName>Piotr święty</addName>
+            <addName>Piotr</addName>
+            <addName>Kefas</addName>
+            <addName>Kephas</addName>
+            <addName>Kēfā Apostolus</addName>
+            <addName>Kēfā</addName>
+            <addName>Kēfā Apostolus</addName>
+            <addName>Kēfā</addName>
+            <addName>Petros Apostel</addName>
+            <addName>Petros</addName>
+            <addName>Petros Apostolos</addName>
+            <addName>Petros Aṙak'yal</addName>
+            <addName>Petros Märtyrer</addName>
+            <addName>Petros Märtyrer</addName>
+            <addName>Petros der Fels</addName>
+            <addName>Petrus Bischof</addName>
+            <addName>Petrus Papa</addName>
+            <addName>Petrus Papa, I.</addName>
+            <addName>Petrus Papst</addName>
+            <addName>Petrus Sanctus</addName>
+            <addName>Pierre Apôtre</addName>
+            <addName>Pierre</addName>
+            <addName>Pierre Apôtre</addName>
+            <addName>Pierre Saint</addName>
+            <addName>Pseudo-Petrus Apostel</addName>
+            <addName>Pseudo-Petrus</addName>
+            <addName>Pseudo-Petrus Apostolus</addName>
+            <addName>Simon Kefas</addName>
+            <addName>Simon</addName>
+            <addName>Simon Kephas</addName>
+            <addName>Simon Petrus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Paulus (Apostel)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01266644</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01266644"
+                       key="#PND:118641549">Paul<addName type="display">Paulus (Apostel)</addName>
+            <addName>Šāûĺ Apostolus</addName>
+            <addName>Šāûĺ</addName>
+            <addName>Pablo San</addName>
+            <addName>Pablo</addName>
+            <addName>Paolo di Tarso</addName>
+            <addName>Paolo</addName>
+            <addName>Paolo S.</addName>
+            <addName>Paul Apôtre</addName>
+            <addName>Paul</addName>
+            <addName>Paul Apostle</addName>
+            <addName>Paul de Tarse</addName>
+            <addName>Paul Saint</addName>
+            <addName>Paul St.</addName>
+            <addName>Paullus</addName>
+            <addName>Paulos</addName>
+            <addName>Paulus Apostolus, Pseudo-</addName>
+            <addName>Paulus Apostulus</addName>
+            <addName>Paulus Divus</addName>
+            <addName>Paulus Sanctus</addName>
+            <addName>Paulus Sardensis</addName>
+            <addName>Paulus St.</addName>
+            <addName>Paulus Theologe</addName>
+            <addName>Paulus von Tarsos</addName>
+            <addName>Paulus von Tarsus</addName>
+            <addName>Pavel Apostol</addName>
+            <addName>Pavel</addName>
+            <addName>Pavel Svatý</addName>
+            <addName>Pawel Swatý</addName>
+            <addName>Pawel</addName>
+            <addName>Phòil</addName>
+            <addName>Pól Aspal</addName>
+            <addName>Pól</addName>
+            <addName>Pseudo-Paulus Apostel</addName>
+            <addName>Pseudo-Paulus</addName>
+            <addName>Pseudo-Paulus Apostolus</addName>
+            <addName>Saulus</addName>
+            <addName>Saulus Apostolus</addName>
+            <addName>Saulus van Tarsis</addName>
+            <addName>Saulus van Tarsus</addName>
+            <addName>Saulus von Tarsus</addName>
+            <addName>Šā{́}ul Apostolus</addName>
+            <addName>Šā{́}ul</addName>
+            <addName>Tarsus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>RossiyaCatherine (II, Empress of Russia)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00906650</link>
+      <count>4</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00906650"
+                       key="#PND:118560565">Kayserin von <TEI:placeName ref="#GettyID:7002435">Rußland<addName type="display">Rossiya</addName>
+               <addName>Rossiya</addName>
+               <addName>Rossiyskaya Federatsiya</addName>
+               <addName>Rossiyskaya</addName>
+               <addName>Russia</addName>
+               <addName>Russian Federation</addName>
+               <addName>Russie</addName>
+               <addName>Fédération de Russie</addName>
+               <addName>Russland</addName>
+               <addName>Rusia</addName>
+               <addName>Rusland</addName>
+               <addName>Rússia</addName>
+               <addName>RUS</addName>
+               <addName>RU</addName>
+               <addName>ISO643</addName>
+               <addName>RS00</addName>
+               <addName>Rossijskaja Sovetskaja Federativnaja Socialističeskaja Respublika</addName>
+               <addName>Rossiyskaya SFSR</addName>
+               <addName>Russian Soviet Federated Socialist Republic</addName>
+               <addName>Russian SFSR</addName>
+               <addName>R. S. F. S. R.</addName>
+               <addName>Russian</addName>
+            </TEI:placeName>
+            <addName type="display">Catherine (II, Empress of Russia)</addName>
+            <addName>II Ekaterina</addName>
+            <addName>Catherina II.</addName>
+            <addName>Catarina II Empress of Russia</addName>
+            <addName>Catarina</addName>
+            <addName>Caterina Russia, Imperatrice, II.</addName>
+            <addName>Caterina</addName>
+            <addName>Caterina Russia, Zarina, II.</addName>
+            <addName>II Catharina</addName>
+            <addName>Catharina, II 2 tsarina van Rusland</addName>
+            <addName>Catharina</addName>
+            <addName>Catharina II.</addName>
+            <addName>Catharina Russia, Imperatrix, II.</addName>
+            <addName>Catharina Russland, Kaiserin, II.</addName>
+            <addName>Catharina Russland, Zarin, II.</addName>
+            <addName>Catharina de Grote</addName>
+            <addName>Catharina Alexiewna Rußland, Großfürstin</addName>
+            <addName>Catharina Alexiewna</addName>
+            <addName>Catharine II Empress of Russia</addName>
+            <addName>Catharine</addName>
+            <addName>Catharine Russland, Kaiserin, II.</addName>
+            <addName>Catharine Alexéievna</addName>
+            <addName>II, Empress of Russia, 1729-1796 Catherine</addName>
+            <addName>II Catherine</addName>
+            <addName>Catherine, II 2 Empress of Russia</addName>
+            <addName>Catherine II,  Empress of Russia,</addName>
+            <addName>Catherine Russia, Empress, II.</addName>
+            <addName>Catherine Russie, Impératrice, II.</addName>
+            <addName>Catherine the Great</addName>
+            <addName>Catherine the Great, Empress of Russia</addName>
+            <addName>Cathe´rine Russland, Zarin, II.</addName>
+            <addName>Cathe´rine</addName>
+            <addName>Cathérine II.</addName>
+            <addName>Cathérine</addName>
+            <addName>Cathirine II.</addName>
+            <addName>Cathirine</addName>
+            <addName>Cathirine Russland, Zarin, II.</addName>
+            <addName>Cathirine Alexiievna Russie, Grand-Duchesse</addName>
+            <addName>Cathirine Alexiievna</addName>
+            <addName>Cathérine II.</addName>
+            <addName>Cathérine</addName>
+            <addName>Cathérine Russland, Zarin, II.</addName>
+            <addName>Cathérine Alexe´ievna Russie, Grande-Duchesse</addName>
+            <addName>Cathérine Alexe´ievna</addName>
+            <addName>Cathérine Alexéievna Russie, Grande-Duchesse</addName>
+            <addName>Cathérine Alexéievna</addName>
+            <addName>Ecaterina II Empress of Russia</addName>
+            <addName>Ecaterina</addName>
+            <addName>Ecaterina II.</addName>
+            <addName>Velikaja Ekaterina</addName>
+            <addName>Ekaterina II., Kaiserin von Russland</addName>
+            <addName>Ekaterina Russland, Zarin, II.</addName>
+            <addName>Ekaterina Alekseevna Rossija, Carica, II.</addName>
+            <addName>Ekaterina Alekseevna</addName>
+            <addName>Ekaterina Alekseevna Rossija, Imperatrica, II.</addName>
+            <addName>Ekaterina Alekseevna Russland, Zarin</addName>
+            <addName>Ekaterina Aleksievna Rossija, Imperatrica, II.</addName>
+            <addName>Ekaterina Aleksievna</addName>
+            <addName>Ekaterina II. Kaiserin von Russland</addName>
+            <addName>Jekaterina Alexejewna Rossija, Carica, II.</addName>
+            <addName>Jekaterina Alexejewna</addName>
+            <addName>Katarzyna II. carowa Rosji</addName>
+            <addName>Katarzyna</addName>
+            <addName>Kateřina II.</addName>
+            <addName>Kateřina</addName>
+            <addName>Kateřina Veliká</addName>
+            <addName>II Katharina</addName>
+            <addName>Katharina, II 2 tsarina van Rusland</addName>
+            <addName>Katharina II.</addName>
+            <addName>Katharina Russland, Kaiserin, II.</addName>
+            <addName>Katharina Rußland, Kaiserin, II.</addName>
+            <addName>Katharina die Große</addName>
+            <addName>Katharina Alexejewna Russland, Zarin</addName>
+            <addName>Katharina Alexejewna</addName>
+            <addName>Katharina Alexiewna Anhalt, Fürstin</addName>
+            <addName>Katharina Alexiewna</addName>
+            <addName>Katharina Alexiewna Ascanien, Gräfin</addName>
+            <addName>Katharina Alexiewna Engern, Herzogin</addName>
+            <addName>Katharina Alexiewna Sachsen, Herzogin</addName>
+            <addName>Katharina Alexiewna Westphalen, Herzogin</addName>
+            <addName>Katherina de Groote</addName>
+            <addName>Katherina</addName>
+            <addName>Lover of truth</addName>
+            <addName>Sophie Friederike Auguste Anhalt-Zerbst, Prinzessin</addName>
+            <addName>Sophie Friederike Auguste</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Scipion l'Africain</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00566495</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00566495"
+                       key="#PND:118612336">Scipio<addName type="display">Scipion l'Africain</addName>
+            <addName>Publius Cornelius Scipio</addName>
+            <addName>Publius Cornelius Scipio Africanus</addName>
+            <addName>Publius Cornelius Scipio Africanus Maior</addName>
+            <addName>Africanus Maior</addName>
+            <addName>Cornelius Scipio Africanus Maior</addName>
+            <addName>Publius C. Scipio</addName>
+            <addName>Scipio, Publius C. Africanus, der Ältere</addName>
+            <addName>Publius Cornelius Africanus Scipio</addName>
+            <addName>Scipio Africanus, der Ältere</addName>
+            <addName>Scipio Historicus</addName>
+            <addName>Scipio Maior</addName>
+            <addName>Scipio der Ältere</addName>
+            <addName>Scipio Africanus</addName>
+            <addName>Scipio Africanus Historicus</addName>
+            <addName>Scipio Africanus Maior</addName>
+            <addName>Publius Cornelius Scipio Maior</addName>
+            <addName>Scipio Maior Historicus</addName>
+            <addName>Scipio Maior Romanus</addName>
+            <addName>Publio Cornelio Scipione</addName>
+            <addName>Scipione, Publio Cornelio Africano Maggiore</addName>
+            <addName>Scipione</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/berlin-ms-germ-qrt-1666-301.tei.xml-d15855e959">Cajet. Toricelli</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/berlin-ms-germ-qrt-1666-301.tei.xml-d15855e966">Josepho</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Massimo, Carlo Camillo</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00558764</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00558764"
+                       key="#PND:119542315">C. Massini<addName type="display">Massimo, Carlo Camillo</addName>
+            <addName>Carlo Camillo Massimo</addName>
+            <addName>Massini  Card.</addName>
+            <addName>Massini</addName>
+            <addName>Camillus Kardinal</addName>
+            <addName>Camillus</addName>
+            <addName>Camillo de' Massimi</addName>
+            <addName>Massimi</addName>
+            <addName>Camillo Massimi</addName>
+            <addName>Camillo Massimo</addName>
+            <addName>Camillus Maximus</addName>
+            <addName>Maximus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/berlin-ms-germ-qrt-1666-301.tei.xml-d15855e1017">Scarletto</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/berlin-ms-germ-qrt-1666-301.tei.xml-d15855e1020">Pazzoni</TEI:persName>
+      </nodes>
+   </tag>
+</tags>

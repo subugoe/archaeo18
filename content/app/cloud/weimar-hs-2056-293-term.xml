@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Merkur</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-293.tei.xml-d6677e80">Der 
+                                             Kopf des <persName ref="#CerlID:cnp00575540" key="#PND:118641077">Merkurs<addName type="display">Merkur</addName>
+               <addName>Mercurius</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Venus</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-293.tei.xml-d6677e200">einer die <persName ref="#CerlID:cnp00588078" key="#PND:11876800X">Venus Urania<addName type="display">Venus</addName>
+               <addName>Anadyomene  Beiname</addName>
+               <addName>Anadyomene</addName>
+               <addName>Arelatensis  Beiname</addName>
+               <addName>Arelatensis</addName>
+               <addName>aurea  Beiname</addName>
+               <addName>aurea</addName>
+               <addName>coelestis  Beiname</addName>
+               <addName>coelestis</addName>
+               <addName>Gnidia  Beiname</addName>
+               <addName>Gnidia</addName>
+               <addName>Marina  Beiname</addName>
+               <addName>Marina</addName>
+               <addName>Pelasgia  Beiname</addName>
+               <addName>Pelasgia</addName>
+               <addName>Pontia  Beiname</addName>
+               <addName>Pontia</addName>
+               <addName>Urania  Beiname</addName>
+               <addName>Urania</addName>
+               <addName>Victrix  Beiname</addName>
+               <addName>Victrix</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Minerva</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/211382</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/211382">
+            <persName ref="#CerlID:cnp00544188" key="#PND:118986155">Minerva<addName type="display">Minerva</addName>
+               <addName>Sospitatrix</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+</tags>

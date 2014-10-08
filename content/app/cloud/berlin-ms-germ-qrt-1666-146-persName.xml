@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Herakles</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00574918</link>
+      <count>4</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00574918"
+                       key="#PND:118639552">Hercules<addName type="display">Herakles</addName>
+            <addName>Ercole</addName>
+            <addName>Heracles</addName>
+            <addName>Hercules</addName>
+            <addName>Herkules</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Amor</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00542364</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00542364"
+                       key="#PND:11850262X">Amor<addName type="display">Amor</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Winckelmann, Johann Joachim</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00396916</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00396916"
+                       key="#PND:118633600">Winckelmann<addName type="display">Winckelmann, Johann Joachim</addName>
+            <addName>Johann Joachim Winckelmann</addName>
+            <addName>Ioann Vinkelman</addName>
+            <addName>Vinkelman</addName>
+            <addName>Ioann. Vinkelman</addName>
+            <addName>Jochan Joachim Vinkelman</addName>
+            <addName>Johann Vinkelmann</addName>
+            <addName>Vinkelmann</addName>
+            <addName>I. I. Vinkelʹman</addName>
+            <addName>Vinkelʹman</addName>
+            <addName>Iogann Ioachim Vinkelʹman</addName>
+            <addName>Iogann-Ioachim Vinkelʹman</addName>
+            <addName>Winckelman</addName>
+            <addName>Johann Joachim Winckelman</addName>
+            <addName>Winckelman abbé Johann Joachim</addName>
+            <addName>Winckelmann</addName>
+            <addName>G. G. Winckelmann</addName>
+            <addName>G.G. Winckelmann</addName>
+            <addName>Giovanni Winckelmann</addName>
+            <addName>Giovanni Gioacchino Winckelmann</addName>
+            <addName>J Winckelmann</addName>
+            <addName>J. J. Winckelmann</addName>
+            <addName>Jean Joachim Winckelmann</addName>
+            <addName>Jean-Joachim Winckelmann</addName>
+            <addName>Joachim Johann Winckelmann</addName>
+            <addName>Joh. Jac. Winckelmann</addName>
+            <addName>Johann Winckelmann</addName>
+            <addName>Johann J. Winckelmann</addName>
+            <addName>Winckelmann, Johann Joachim 1717-1768</addName>
+            <addName>Johannes Joachim Winckelmann</addName>
+            <addName>Jojannes Joachim Winckelmann</addName>
+            <addName>Johannes Winckelmannus</addName>
+            <addName>Winckelmannus</addName>
+            <addName>Johannes J. Winckelmannus</addName>
+            <addName>Johannes Joachimus Winckelmannus</addName>
+            <addName>Johan̄ Winckelman̄</addName>
+            <addName>Winckelman̄</addName>
+            <addName>Johann Joachim Winkelman</addName>
+            <addName>Winkelman</addName>
+            <addName>Winkelman abbé Johann Joachim</addName>
+            <addName>Winkelmann</addName>
+            <addName>Giovanni Winkelmann</addName>
+            <addName>Hans J. Winkelmann</addName>
+            <addName>Ioh. Winkelmann</addName>
+            <addName>Johann Winkelmann</addName>
+            <addName>Johann J. Winkelmann</addName>
+            <addName>Johann Joachim Winkelmann</addName>
+            <addName>Winkelmann 1717-1768</addName>
+            <addName>Winkelmann abbé Johann Joachim</addName>
+            <addName>Joannes Winkelmannus</addName>
+            <addName>Winkelmannus</addName>
+            <addName>Johann J. Winkelmannus</addName>
+            <addName>Johannes Joachimus Wynckelmann</addName>
+            <addName>Wynckelmann</addName>
+            <addName>Hans J. Wynkelmann</addName>
+            <addName>Wynkelmann</addName>
+            <addName>Johann J. Wynkelmann</addName>
+            <addName>Johann Joachim Wynkelmann</addName>
+            <addName>Yôhân Yo'akim Wînqelman</addName>
+            <addName>Wînqelman</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Ajax (der Telamonier)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00541974</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00541974"
+                       key="#PND:118501194">Agax<addName type="display">Ajax (der Telamonier)</addName>
+            <addName>Ajaz</addName>
+            <addName>Aias der Große</addName>
+            <addName>Aias</addName>
+            <addName>Aias der Telamonier</addName>
+            <addName>Ajax der Große</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Commodus (Imperium Romanum, Imperator)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00394493</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00394493"
+                       key="#PND:118521713">Commodus<addName type="display">Commodus (Imperium Romanum, Imperator)</addName>
+            <addName>Commodus Imperator</addName>
+            <addName>Lucius Aelius Aurelius Gaius Augustus Imperator Caesar</addName>
+            <addName>Lucius Aelius Aurelius Gaius Augustus</addName>
+            <addName>Marcus Aurelius Gaius Antoninus</addName>
+            <addName>Marcus Aurelius Gaius Antoninus Augustus Imperator Caesar</addName>
+            <addName>Marcus Aurelius Gaius Antoninus Augustus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Philostratus, Flavius</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00396124</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00396124"
+                       key="#PND:118594044">Philo-
+                status<addName type="display">Philostratus, Flavius</addName>
+            <addName>Flavius Philostratus</addName>
+            <addName>Filóstrato</addName>
+            <addName>Flavio Filostrato</addName>
+            <addName>Filostrato</addName>
+            <addName>Filostrato di Lemno</addName>
+            <addName>Filostrato Maggiore</addName>
+            <addName>Filostrato Sofista</addName>
+            <addName>Flavius Philostratus der Ältere</addName>
+            <addName>Flavius</addName>
+            <addName>Flavius Philostrat</addName>
+            <addName>Philostrat</addName>
+            <addName>Philostrate d'Athènes</addName>
+            <addName>Philostrate</addName>
+            <addName>Philostrate d'Athènes</addName>
+            <addName>Philostrate Lemnien</addName>
+            <addName>Philostrate Polygraphe</addName>
+            <addName>Philostratos</addName>
+            <addName>Flavius Philostratos</addName>
+            <addName>Lemnius Philostratus</addName>
+            <addName>Philostratus der Ältere</addName>
+            <addName>Philostratus der Ältere</addName>
+            <addName>Philostratus II.</addName>
+            <addName>Philostratus Lemnius</addName>
+            <addName>Philostratus Maior</addName>
+            <addName>Philostratus Sohn des Philostratus</addName>
+            <addName>Philostratus Sophista</addName>
+            <addName>Philostratus von Lemnos</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/berlin-ms-germ-qrt-1666-146.tei.xml-d4351e330">Heroidis</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pindar</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00396128</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00396128"
+                       key="#PND:118594427">Pindarus<addName type="display">Pindar</addName>
+            <addName>Pindare</addName>
+            <addName>Pindare de Cynocéphales</addName>
+            <addName>Pindare de Cynocéphales</addName>
+            <addName>Pindaro</addName>
+            <addName>Pindaros</addName>
+            <addName>Pindaros Chorlyriker</addName>
+            <addName>Pindaros Dichter</addName>
+            <addName>Pindaros von Böotien</addName>
+            <addName>Pindaros von Kynoskephalai</addName>
+            <addName>Pindaros von Theben</addName>
+            <addName>Pindarus Boeotus</addName>
+            <addName>Pindarus Boetus</addName>
+            <addName>Pindarus Iunior</addName>
+            <addName>Pindarus Lyricus</addName>
+            <addName>Pindarus Lyricus Thebanus</addName>
+            <addName>Pindarus Thebanus</addName>
+            <addName>Pyndarus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/berlin-ms-germ-qrt-1666-146.tei.xml-d4351e380">Julia Severi</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Anthemius (Imperium Romanum, Imperator)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00283382</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00283382"
+                       key="#PND:102379726">Anthe-<addName type="display">Anthemius (Imperium Romanum, Imperator)</addName>
+            <addName>Anthemius Imperator</addName>
+            <addName>Anthemius Patricius</addName>
+            <addName>Anthemius Weströmischer Kaiser</addName>
+            <addName>Anthemius von Konstantinopel</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Boleni Tratt. in diss. der Acad. von Tortona.T. 1. Pp. 2.</tag>
+      <facet>tei:bibl</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#">Boleni Tratt. in diss. der Acad. von Tortona.T. 1. Pp. 2.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Caylus T. 30. acad. d. I. p. 428 sq.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://hdl.handle.net/2027/ucm.5326971568?urlappend=%3Bseq=464</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://hdl.handle.net/2027/ucm.5326971568?urlappend=%3Bseq=464">Caylus T. 30. acad. d. I. p. 428 sq.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Chandler travels in Asia ch. 35.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://reader.digitale-sammlungen.de/de/fs1/object/display/bsb10366610_00156.html</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://reader.digitale-sammlungen.de/de/fs1/object/display/bsb10366610_00156.html">Chandler travels in Asia ch. 35.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Choiseul voyage de la Grèce. Vol. 1.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/choiseul1782a</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/choiseul1782a">Choiseul voyage de la Grèce. Vol. 1.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Vitruve par Perreau.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://www.archive.org/stream/architecturegene00vitr%23page/n6/mode/1up</link>
+      <count>4</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://www.archive.org/stream/architecturegene00vitr%23page/n6/mode/1up">Vitruve par Perreau.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Caylus. T. 26. Memoir. p. 321.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://hdl.handle.net/2027/ucm.5323543944?urlappend=%3Bseq=347</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://hdl.handle.net/2027/ucm.5323543944?urlappend=%3Bseq=347">Caylus. T. 26. Memoir. p. 321.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Choiseul voy. de la Gréce. planche 98.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/choiseul1782a/0257</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/choiseul1782a/0257">Choiseul voy. de la Gréce. planche 98.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+</tags>

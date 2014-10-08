@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Lambecii Bibliotheca Cæsarea Vendobonensi</tag>
+      <facet>tei:bibl</facet>
+      <link>http://opac.sub.uni-goettingen.de/DB=1/PPNSET?PPN=535719434</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://opac.sub.uni-goettingen.de/DB=1/PPNSET?PPN=535719434">Lambecii Bibliotheca
+            
+          
+          Cæsarea Vendobonensi</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Les Merveilles des Indes Orientales Paris 1679. par Robert de Bergen</tag>
+      <facet>tei:bibl</facet>
+      <link>http://han.sub.uni-goettingen.de/han/Makingofthemodernworld/galenet.galegroup.com/servlet/MOME?af=RN&amp;ae=U103923115&amp;srchtp=a&amp;ste=14</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://han.sub.uni-goettingen.de/han/Makingofthemodernworld/galenet.galegroup.com/servlet/MOME?af=RN&amp;ae=U103923115&amp;srchtp=a&amp;ste=14">Les Merveilles des Indes
+            
+          
+          Orientales Paris 1679. par Robert de Bergen</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>V. Mariette p. 91., 170.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/item/buchseite/230741 http://arachne.uni-koeln.de/item/buchseite/230824</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://arachne.uni-koeln.de/item/buchseite/230741 #http://arachne.uni-koeln.de/item/buchseite/230824">V. Mariette p. 91., 170.</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>V. Gorry Dissert. Glyptographica p. 47, 208.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN663517230</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN663517230">V. Gorry Dissert. Glyptographica p. 47, 208.</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+</tags>

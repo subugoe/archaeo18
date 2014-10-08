@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Isis</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/211534</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/211534">
+            <persName ref="#CerlID:cnp00542688" key="#PND:118932640">Jsis<addName type="display">Isis</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/20595</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/20595">Das Hauptstück davon</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Villa Adriani</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/211535</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/211535">Das 
+                                                aus der <term ref="#CensusID:151574 #http://arachne.uni-koeln.de/item/topographie/8002083">Villa Adriani</term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:151574 http://arachne.uni-koeln.de/item/topographie/8002083</link>
+      <count>6</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:151574 #http://arachne.uni-koeln.de/item/topographie/8002083">Villa Adriani</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Tivoli</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/56299</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/56299">beyden vor dem Bishöf- 
+                                                lichen Pallast zu <placeName ref="#GettyID:7006968">Tivoli<addName type="display">Tivoli</addName>
+               <addName>Tivoli</addName>
+               <addName>Tibur</addName>
+            </placeName> von Colossal 
+                                                größe aus Granit</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-428.tei.xml-d7023e113">Andere mit Staab und Peitsche</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Anubis</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/20583</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/20583">
+            <persName ref="#CerlID:cnp00578362" key="#PND:118649752">Anubis<addName type="display">Anubis</addName>
+            </persName>. Einer aus schwarzem Marmor ex <term ref="#CensusID:151574 #http://arachne.uni-koeln.de/item/topographie/8002083">Villa Adriani</term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Villa Albani</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/20597</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/20597">Ein ande- 
+                                                rer von schwärzlichen Granit wie die 
+                                                Statue gros in <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000297">Villa Albani</term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000297</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000297">Villa Albani</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pallast Barberini</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-428.tei.xml-d7023e193">Ein berühmter aus schwärzlichen 
+                                                    Granit im <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000007">Pallast Barberini</term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000007</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000007">Pallast Barberini</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Harpokrates</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/15895</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/15895">
+            <persName ref="#CerlID:cnp00842043" key="#PND:131971026">Harpocrates<addName type="display">Harpokrates</addName>
+               <addName>Har-pa-chered</addName>
+               <addName>Harpakhrad</addName>
+               <addName>Harpocrates</addName>
+               <addName>Heru-Pa-Khret</addName>
+               <addName>Heru-pa-Khered</addName>
+               <addName>Hor-Pa-Khred</addName>
+               <addName>Horus das Kind</addName>
+               <addName>Horus</addName>
+            </persName>. Von weisem Marmor 
+                                                aus der <term ref="#CensusID:151574 #http://arachne.uni-koeln.de/item/topographie/8002083">Villa Adriani</term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/26709</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/26709">mit dem Cornu copiae, auf 
+                                                welchem oben ein Kind ist sich auf einer 
+                                                schlang umgewundenen Säule stuzendt</term>
+      </nodes>
+   </tag>
+</tags>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>England</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7002445</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7002445">Englandt<addName type="display">England</addName>
+            <addName>England</addName>
+            <addName>Angleterre</addName>
+            <addName>Inglaterra</addName>
+            <addName>Inghilterra</addName>
+            <addName>English</addName>
+            <addName>Anglia</addName>
+            <addName>Britannia Romana</addName>
+            <addName>Britannia maior</addName>
+            <addName>Britannia propria</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>London</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7011781</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7011781">London<addName type="display">London</addName>
+            <addName>London</addName>
+            <addName>Londres</addName>
+            <addName>Londra</addName>
+            <addName>Lundin</addName>
+            <addName>Lundres</addName>
+            <addName>Lundenceaster</addName>
+            <addName>Lundenne</addName>
+            <addName>Lundene</addName>
+            <addName>Lundenburg</addName>
+            <addName>Lundenwic</addName>
+            <addName>Lundonia</addName>
+            <addName>Londinium</addName>
+            <addName>Lundinium</addName>
+            <addName>Londinion</addName>
+            <addName>Londinium Augusta</addName>
+            <addName>Londinos</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Marseille</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7008781</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7008781">Marseille<addName type="display">Marseille</addName>
+            <addName>Marseille</addName>
+            <addName>Marseilles</addName>
+            <addName>Marsella</addName>
+            <addName>Massalia</addName>
+            <addName>Massilia</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7240920</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7240920">Fontenay</placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Riemst</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=1026695</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:1026695">Laffeld<addName type="display">Riemst</addName>
+            <addName>Riemst</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Roma</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7000874</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7000874">Rom<addName type="display">Roma</addName>
+            <addName>Roma</addName>
+            <addName>Urbe</addName>
+            <addName>Rome</addName>
+            <addName>Rom</addName>
+            <addName>Roman</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Steiermark</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7003028</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7003028">Steiermarck<addName type="display">Steiermark</addName>
+            <addName>Steiermark</addName>
+            <addName>Stiermarken</addName>
+            <addName>Styria</addName>
+            <addName>Styrie</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Dresden</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7004455</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7004455">Dresden<addName type="display">Dresden</addName>
+            <addName>Dresden</addName>
+            <addName>Dresde</addName>
+            <addName>Ďrežd'ane</addName>
+            <addName>Drezdane</addName>
+            <addName>Drezdzany</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Paris</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7008038</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7008038">Paris<addName type="display">Paris</addName>
+            <addName>Paris</addName>
+            <addName>Parigi</addName>
+            <addName>París</addName>
+            <addName>Parisii</addName>
+            <addName>Lutetia</addName>
+            <addName>Lutetia Parisiorum</addName>
+            <addName>Lutetia Parisii</addName>
+            <addName>Parisius</addName>
+            <addName>parisien</addName>
+            <addName>parisienne</addName>
+            <addName>Parisian</addName>
+         </placeName>
+      </nodes>
+   </tag>
+</tags>

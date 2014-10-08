@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Miscell. erud. antiquitatis p.352.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://www.zvdd.de/dms/load/met/?PPN=urn%3Anbn%3Ade%3Abvb%3A12-bsb10211936-0</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://www.zvdd.de/dms/load/met/?PPN=urn%3Anbn%3Ade%3Abvb%3A12-bsb10211936-0">Miscell. erud. antiquitatis
+                                p.352.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Essai historique sur la biblioth. du roi.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://catalog.hathitrust.org/Record/001165311</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://catalog.hathitrust.org/Record/001165311">Essai historique sur la biblioth. du roi.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Hist. de l'ac. des inscr. T. 9. 256.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://hdl.handle.net/2027/ucm.5319456822</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://hdl.handle.net/2027/ucm.5319456822">Hist. de l'ac. des inscr. T. 9. 256.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Essai hist. p. 288.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://hdl.handle.net/2027/mdp.39015033915334?urlappend=%3Bseq=304</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://hdl.handle.net/2027/mdp.39015033915334?urlappend=%3Bseq=304">Essai hist. p. 288.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Dodwell de parma Woodwarthiana. Oxon. 1713. 8.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://www.zvdd.de/dms/load/met/?PPN=urn%3Anbn%3Ade%3Abvb%3A12-bsb10256701-5</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://www.zvdd.de/dms/load/met/?PPN=urn%3Anbn%3Ade%3Abvb%3A12-bsb10256701-5">Dodwell de parma Woodwarthiana. Oxon. 1713. 8.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+</tags>

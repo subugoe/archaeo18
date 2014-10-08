@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Astyanax</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01288200</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01288200">Asty- 
+                                        anax<addName type="display">Astyanax</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Raphaël</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01270961</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01270961"
+                   key="#PND:118597787">Raphaels<addName type="display">Raphaël</addName>
+            <addName>Raffael</addName>
+            <addName>Raphael Urbinas</addName>
+            <addName>Raffaello Santi</addName>
+            <addName>Santi</addName>
+            <addName>Sanzio</addName>
+            <addName>Urbinas</addName>
+            <addName>Rafael de Urbino 1483-1520</addName>
+            <addName>Rafael von Urbino</addName>
+            <addName>Rafaele d'Urbino</addName>
+            <addName>Rafaele</addName>
+            <addName>Rafaello 1483-1520</addName>
+            <addName>Rafaello</addName>
+            <addName>Raffael Santi</addName>
+            <addName>Raffaele Sanzio</addName>
+            <addName>Raffaele</addName>
+            <addName>Raffaelle di Vrbino</addName>
+            <addName>Raffaelle 1483-1520</addName>
+            <addName>Raffaelle</addName>
+            <addName>Raffaelle d'Urbino 1483-1520</addName>
+            <addName>Raffaello Sanzio 1483-1520</addName>
+            <addName>Raffaello 1483-1520</addName>
+            <addName>Raffaello da Urbino</addName>
+            <addName>Raffaello da Urbino 1483-1520</addName>
+            <addName>Raffaello di Urbino</addName>
+            <addName>Raffaello d'Urbino</addName>
+            <addName>Raffaelo Santi</addName>
+            <addName>Raffaelo</addName>
+            <addName>Raffaelo Sanzio</addName>
+            <addName>Raph. Sanctius</addName>
+            <addName>Raph.</addName>
+            <addName>Raphaël d'Urbine</addName>
+            <addName>Raphael</addName>
+            <addName>Raphael 1483-1520</addName>
+            <addName>Raphael di Urbino</addName>
+            <addName>Raphael Pictor</addName>
+            <addName>Raphael Sanctius Urbinas</addName>
+            <addName>Raphael Sanctus</addName>
+            <addName>Raphael Santius Urbinas</addName>
+            <addName>Raphael Sanzio</addName>
+            <addName>Raphael Urbin</addName>
+            <addName>Raphael Urbino</addName>
+            <addName>Raphael Urbinus</addName>
+            <addName>Raphael von Urbino</addName>
+            <addName>Raphaello</addName>
+            <addName>Raphael Sancius</addName>
+            <addName>Sancius, Raphael 1483-1520</addName>
+            <addName>Sancius</addName>
+            <addName>Sanctius</addName>
+            <addName>Sanctius, Raph. 1483-1520</addName>
+            <addName>Sanctius Urbinus</addName>
+            <addName>Raffaello Santius</addName>
+            <addName>Santius</addName>
+            <addName>Raphael Santius</addName>
+            <addName>Raffaello Sanzi</addName>
+            <addName>Sanzi</addName>
+            <addName>Rafael Sanzio</addName>
+            <addName>Sanzio, Rafael 1483-1520</addName>
+            <addName>Sanzio, Raffaello 1483-1520</addName>
+            <addName>Rafael Urbinas</addName>
+            <addName>Urbinas, Rafael 1483-1520</addName>
+            <addName>Raphael S. Urbinas</addName>
+            <addName>Rafael Urbino</addName>
+            <addName>Urbino, Rafael 1483-1520</addName>
+            <addName>Urbino</addName>
+            <addName>Raf. Vrb</addName>
+            <addName>Vrb, Raf. 1483-1520</addName>
+            <addName>Vrb</addName>
+            <addName>R. Vrbinas</addName>
+            <addName>Vrbinas, R. 1483-1520</addName>
+            <addName>Vrbinas</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Lucretia</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00558029</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00558029"
+                   key="#PND:118574817">Lucretia<addName type="display">Lucretia</addName>
+            <addName>Lukretia</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Venus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00588078</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00588078"
+                   key="#PND:11876800X">Venus<addName type="display">Venus</addName>
+            <addName>Anadyomene  Beiname</addName>
+            <addName>Anadyomene</addName>
+            <addName>Arelatensis  Beiname</addName>
+            <addName>Arelatensis</addName>
+            <addName>aurea  Beiname</addName>
+            <addName>aurea</addName>
+            <addName>coelestis  Beiname</addName>
+            <addName>coelestis</addName>
+            <addName>Gnidia  Beiname</addName>
+            <addName>Gnidia</addName>
+            <addName>Marina  Beiname</addName>
+            <addName>Marina</addName>
+            <addName>Pelasgia  Beiname</addName>
+            <addName>Pelasgia</addName>
+            <addName>Pontia  Beiname</addName>
+            <addName>Pontia</addName>
+            <addName>Urania  Beiname</addName>
+            <addName>Urania</addName>
+            <addName>Victrix  Beiname</addName>
+            <addName>Victrix</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Jupiter</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00554429</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00554429"
+                   key="#PND:118558897">Jupiter<addName type="display">Jupiter</addName>
+            <addName>Iupiter</addName>
+            <addName>Juppiter</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Äneas</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00541852</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00541852"
+                   key="#PND:11850083X">Aeneas<addName type="display">Äneas</addName>
+            <addName>Aeneas</addName>
+            <addName>Aineias</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Giulio (Romano, Künstler)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00397023</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00397023"
+                   key="#PND:118639242">Giulio<addName type="display">Giulio (Romano, Künstler)</addName>
+            <addName>Giulio Romano</addName>
+            <addName>Giulio di Pietro de' Giannuzzi</addName>
+            <addName>Giannuzzi</addName>
+            <addName>Giulio di Pietro de' Gianuzzi</addName>
+            <addName>Gianuzzi</addName>
+            <addName>Giulio Pippi</addName>
+            <addName>Giulio Pippi Giulio Romano</addName>
+            <addName>Giulio di Pietro de'Gianuzzi</addName>
+            <addName>Giulio Romano, Künstler</addName>
+            <addName>Jules Romain</addName>
+            <addName>Jules</addName>
+            <addName>Julius Romanus</addName>
+            <addName>Julius</addName>
+            <addName>Pietro de' Gianuzzi</addName>
+            <addName>Giulio Pippi Romano</addName>
+            <addName>Pippi Romano</addName>
+            <addName>Pippi</addName>
+            <addName>Giulio Romano Pippi</addName>
+            <addName>Julius Pippius Romanus</addName>
+            <addName>Pippius Romanus</addName>
+            <addName>Iulius Pippius</addName>
+            <addName>Pippius</addName>
+            <addName>Romain</addName>
+            <addName>Giulio Pipi Romano</addName>
+            <addName>Romano, Giulio 1499-1546.</addName>
+            <addName>Giulo Romano</addName>
+            <addName>Giulio Romao</addName>
+            <addName>Romao</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Tityos</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00623878</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00623878"
+                   key="#PND:12971268X">Titius<addName type="display">Tityos</addName>
+            <addName>Tityus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Carracci, Annibale</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00394423</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00394423"
+                   key="#PND:118519255">An: Caracci<addName type="display">Carracci, Annibale</addName>
+            <addName>Annibale Carracci</addName>
+            <addName>Annibale Caracci</addName>
+            <addName>Caracci</addName>
+            <addName>Annibal Caraccius</addName>
+            <addName>Caraccius</addName>
+            <addName>Carracci, Annibale 1560-1609</addName>
+            <addName>Hannibal Carracci</addName>
+            <addName>Annibale Carraccio</addName>
+            <addName>Carraccio</addName>
+            <addName>Hannibale Carraccio</addName>
+            <addName>Carraccius</addName>
+            <addName>Annibal Carraccius</addName>
+            <addName>Annibal Carrache</addName>
+            <addName>Carrache</addName>
+            <addName>Annibal Carracio</addName>
+            <addName>Carracio</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

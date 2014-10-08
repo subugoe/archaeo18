@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Prodromus iconicus Sculptilium gemmarum basilidianae, amuletii atque Talismanniei generis de Museo Antonii Capelli. Venet: 1702. Fol. 42. pl. 272. Steine.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://www.zvdd.de/dms/load/met/?PPN=urn%3Anbn%3Ade%3Abvb%3A12-bsb10211873-2</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://www.zvdd.de/dms/load/met/?PPN=urn%3Anbn%3Ade%3Abvb%3A12-bsb10211873-2">Prodromus iconicus Sculptilium 
+                                                 gemmarum basilidianae, amuletii atque 
+                                                 Talismanniei generis de Museo Antonii 
+                                                 Capelli. Venet: 1702. Fol. 42. pl. 272. Steine.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Clemens Alex- ander Paedagog: III. 9.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://dfg-viewer.de/v2?set[mets]=http%3A%2F%2Fgdz.sub.uni-goettingen.de%2Fmets_export.php%3FPPN%3DPPN654094039&amp;set[image]=9</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://dfg-viewer.de/v2?set[mets]=http%3A%2F%2Fgdz.sub.uni-goettingen.de%2Fmets_export.php%3FPPN%3DPPN654094039&amp;set[image]=9">Clemens Alex- 
+                                                 ander Paedagog: III. 9.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Spoon Recherches curieuses p: 167.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/spon1683/0184</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/spon1683/0184">Spoon Recherches curieuses p: 167.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+</tags>

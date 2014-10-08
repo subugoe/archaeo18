@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>France</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=1000070</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:1000070">Frankreich<addName type="display">France</addName>
+            <addName>France</addName>
+            <addName>République française</addName>
+            <addName>République Française</addName>
+            <addName>French Republic</addName>
+            <addName>Francia</addName>
+            <addName>Frankreich</addName>
+            <addName>Frankrijk</addName>
+            <addName>França</addName>
+            <addName>FRA</addName>
+            <addName>FR</addName>
+            <addName>ISO250</addName>
+            <addName>FR00</addName>
+            <addName>Gaule</addName>
+            <addName>Gaul</addName>
+            <addName>Gallia</addName>
+            <addName>French</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Yerushalayim</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7001371</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7001371">Jerusalem<addName type="display">Yerushalayim</addName>
+            <addName>Yerushalayim</addName>
+            <addName>Al-Quds</addName>
+            <addName>Al Quds</addName>
+            <addName>El Quds Esh Sherif</addName>
+            <addName>Al-Muqaddas</addName>
+            <addName>Jérusalem</addName>
+            <addName>Jerusalem</addName>
+            <addName>Gerusalemme</addName>
+            <addName>Jerusalén</addName>
+            <addName>City of David</addName>
+            <addName>City of the Great King</addName>
+            <addName>Aelia Capitolina</addName>
+            <addName>Colonia Aelia Capitolina</addName>
+            <addName>Hierosolyma</addName>
+            <addName>Mount Zion</addName>
+            <addName>Urusalim</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Poissy</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7008066</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7008066">Passy<addName type="display">Poissy</addName>
+            <addName>Poissy</addName>
+            <addName>Pinciacum</addName>
+         </placeName>
+      </nodes>
+   </tag>
+</tags>

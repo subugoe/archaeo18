@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Spada, Bernardino</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/29770</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/29770">Ein sitzender alter Philosoph im <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1005932">Pallast des <persName ref="#CerlID:cnp00574172" key="#PND:123220998">Cardinals Spada<addName type="display">Spada, Bernardino</addName>
+                  <addName>Bernardino Spada</addName>
+               </persName>
+            </term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Spada, Bernardino</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1005932</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1005932">Pallast des <persName ref="#CerlID:cnp00574172" key="#PND:123220998">Cardinals Spada<addName type="display">Spada, Bernardino</addName>
+               <addName>Bernardino Spada</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Domitien (empereur romain)</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:10021668 http://arachne.uni-koeln.de/item/objekt/26628</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:10021668 #http://arachne.uni-koeln.de/item/objekt/26628">
+            <persName ref="#CerlID:cnp00397834" key="#PND:118672231">Domitianus<addName type="display">Domitien (empereur romain)</addName>
+               <addName>Titus Flavius Domitianus</addName>
+               <addName>Domitian Kaiser</addName>
+               <addName>Gaius Flavius Domitianus</addName>
+               <addName>Domitianus Kaiser</addName>
+               <addName>Domitianus Römischer Kaiser</addName>
+               <addName>Domizian Römisches Reich, Kaiser</addName>
+               <addName>Domizian</addName>
+               <addName>Flavius Domitianus</addName>
+            </persName>; Im <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000285">Palazzo Giust.</term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000285</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000285">Palazzo Giust.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/8523</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/8523">ganz bekleidet</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/16086</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/16086">Ein Schöner Kopf</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Domitien (empereur romain)</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/37862</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/37862">eine ungezweifelte Statue 
+                            des <persName ref="#CerlID:cnp00397834" key="#PND:118672231">Domitians<addName type="display">Domitien (empereur romain)</addName>
+               <addName>Titus Flavius Domitianus</addName>
+               <addName>Domitian Kaiser</addName>
+               <addName>Gaius Flavius Domitianus</addName>
+               <addName>Domitianus Kaiser</addName>
+               <addName>Domitianus Römischer Kaiser</addName>
+               <addName>Domizian Römisches Reich, Kaiser</addName>
+               <addName>Domizian</addName>
+               <addName>Flavius Domitianus</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-141.tei.xml-d8041e624"
+               type="collection">Villa Al- 
+                            bani</term>
+      </nodes>
+   </tag>
+</tags>

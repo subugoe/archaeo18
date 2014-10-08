@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Egeria</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00546579</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00546579"
+                   key="#PND:119073293">Egeria<addName type="display">Egeria</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Kleopatra (Ägypten, Königin, VII.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00395483</link>
+      <count>6</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00395483"
+                   key="#PND:11856322X">Cleopatra<addName type="display">Kleopatra (Ägypten, Königin, VII.)</addName>
+            <addName>Cleopatra Ägypten, Königin, VII.</addName>
+            <addName>Cleopatra</addName>
+            <addName>Cleopatra die Grosse</addName>
+            <addName>Cleopatra Medica</addName>
+            <addName>Cleopatra Philopator, VII.</addName>
+            <addName>Cleopatra Ptolemais, Regina, VII.</addName>
+            <addName>Kleopatra die Grosse</addName>
+            <addName>Kleopatra Königin der Ptolemaier, VII.</addName>
+            <addName>Kleopatra Philopator</addName>
+            <addName>Kleopatra Tochter des Ptolemaios XII.</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Visconti, Giambattista Antonio</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00347395</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00347395"
+                   key="#PND:10404974X">Visconti<addName type="display">Visconti, Giambattista Antonio</addName>
+            <addName>Giambattista Antonio Visconti</addName>
+            <addName>Giambattista Visconti</addName>
+            <addName>Giovanni Antonio Battista Visconti</addName>
+            <addName>Giovanni Battista Visconti</addName>
+            <addName>Giovanni Battista Antonio Visconti</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Ariadne</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00576873</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00576873"
+                   key="#PND:118645676">Ariadne<addName type="display">Ariadne</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Mengs, Anton Raphael</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00400145</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00400145"
+                   key="#PND:118783270">Mengs<addName type="display">Mengs, Anton Raphael</addName>
+            <addName>Anton Raphael Mengs</addName>
+            <addName>Mengs</addName>
+            <addName>Anthony R. Mengs</addName>
+            <addName>Anthony Raphael Mengs</addName>
+            <addName>Antoine R. Mengs</addName>
+            <addName>Antoine-Raphael Mengs</addName>
+            <addName>Anton R. Mengs</addName>
+            <addName>Anton Raffaele Mengs</addName>
+            <addName>Anton Raphaël Mengs</addName>
+            <addName>Antonio R. Mengs</addName>
+            <addName>Antonio Rafael Mengs</addName>
+            <addName>Antonio Raffaello Mengs</addName>
+            <addName>R. Mengs</addName>
+            <addName>Rafael Mengs</addName>
+            <addName>Raphael Mengs</addName>
+            <addName>Antonio R. Mengz</addName>
+            <addName>Mengz</addName>
+            <addName>Antonio Raffaele Mengz</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

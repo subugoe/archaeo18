@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Raspe verfertigte einen Generalcatalog</tag>
+      <facet>tei:bibl</facet>
+      <link>http://www.archive.org/stream/descriptivecatal01rasp%23page/n8/mode/1up http://www.archive.org/stream/descriptivecatal02rasp%23page/n7/mode/1up</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://www.archive.org/stream/descriptivecatal01rasp%23page/n8/mode/1up #http://www.archive.org/stream/descriptivecatal02rasp%23page/n7/mode/1up">Raspe verfertigte einen Generalcatalog</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Aeneas Vigo Tabula gemmar. antiquarum. 1560.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN635412659</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN635412659">Aeneas Vigo Tabula gemmar. antiquarum. 1560.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Abr. Gorlæus Dactyliotheca, mit schlechtem Geschmak. 1609. 2 T. 4.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN647621118</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN647621118">Abr. Gorlæus Dactyliotheca, mit schlechtem Geschmak. 1609.
+                                2 T. 4.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Iac. Gronov., ohne Geschmak, blos mit Gelehrsamkeit. 1695.- 1707.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN667355189 http://arachne.uni-koeln.de/books/Goorle1707Part1 http://arachne.uni-koeln.de/books/Goorle1707Part2</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN667355189 #http://arachne.uni-koeln.de/books/Goorle1707Part1 #http://arachne.uni-koeln.de/books/Goorle1707Part2">Iac. Gronov., ohne
+                                Geschmak, blos mit Gelehrsamkeit. 1695.- 1707.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Agostino (zu Siena) Gemme ant. figurate. Rom 1667. 4. 1669.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN63884942X</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN63884942X">Agostino (zu Siena) Gemme ant. figurate. Rom 1667. 4.
+                                1669.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Gravelle (Eveque de) Pierres gravées. 2 T. 4. 1732. 34.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN635306824</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN635306824">Gravelle (Eveque de) Pierres gravées. 2 T. 4. 1732. 34.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Cheron (Mademoiselle de) pierres gravées.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN660163853</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN660163853">Cheron (Mademoiselle de) pierres gravées.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+</tags>

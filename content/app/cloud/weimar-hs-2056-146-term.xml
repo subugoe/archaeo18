@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Commodus (Imperium Romanum, Imperator)</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:156224 http://arachne.uni-koeln.de/item/gruppen/401153 http://arachne.uni-koeln.de/item/objekt/13444 http://arachne.uni-koeln.de/item/objekt/13445</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:156224 #http://arachne.uni-koeln.de/item/gruppen/401153 #http://arachne.uni-koeln.de/item/objekt/13444 #http://arachne.uni-koeln.de/item/objekt/13445">
+            <persName ref="#CerlID:cnp00394493" key="#PND:118521713">Commodus<addName type="display">Commodus (Imperium Romanum, Imperator)</addName>
+               <addName>Commodus Imperator</addName>
+               <addName>Lucius Aelius Aurelius Gaius Augustus Imperator Caesar</addName>
+               <addName>Lucius Aelius Aurelius Gaius Augustus</addName>
+               <addName>Marcus Aurelius Gaius Antoninus</addName>
+               <addName>Marcus Aurelius Gaius Antoninus Augustus Imperator Caesar</addName>
+               <addName>Marcus Aurelius Gaius Antoninus Augustus</addName>
+            </persName> komt noch als Gladiator im <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000001">Pallast Farnese</term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000001</link>
+      <count>4</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000001">Pallast Farnese</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Caracalla (Imperium Romanum, Imperator)</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/13019</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/13019">
+            <persName ref="#CerlID:cnp00397692" key="#PND:118667041">Caracalla<addName type="display">Caracalla (Imperium Romanum, Imperator)</addName>
+               <addName>Aurelius Antoninus Caesar</addName>
+               <addName>Aurelius Antoninus</addName>
+               <addName>Aurelius Severus Antoninus Augustus</addName>
+               <addName>Aurelius Severus Antoninus</addName>
+               <addName>Bassianus</addName>
+               <addName>Caracalla Imperator</addName>
+               <addName>Caracalla Römischer Kaiser</addName>
+               <addName>Lucius Septimius Bassianus</addName>
+               <addName>Marcus Aurelius Antoninus</addName>
+               <addName>Marcus Aurelius Antoninus Caesar</addName>
+               <addName>Marcus Aurelius Severus Antoninus Augustus</addName>
+               <addName>Marcus Aurelius Severus Antoninus</addName>
+               <addName>Septimius Bassianus</addName>
+            </persName>, im <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000001">Pallast Farnese</term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pescennius Niger (Römisches Reich, Kaiser, Gegenkaiser)</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/28127 http://arachne.uni-koeln.de/item/objekt/28130</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/28127 #http://arachne.uni-koeln.de/item/objekt/28130">
+            <persName ref="#CerlID:cnp00588992" key="#PND:118790498">Pescennius niger<addName type="display">Pescennius Niger (Römisches Reich, Kaiser, Gegenkaiser)</addName>
+               <addName>Gaius Pescennius Niger Iustus</addName>
+               <addName>Pescennius Niger Iustus</addName>
+               <addName>Gaius Pescennius Niger</addName>
+            </persName> im <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000254">Palaz 
+                             zo Altieri</term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000254</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000254">Palaz 
+                             zo Altieri</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Septime Sévère (empereur romain)</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/3198 http://arachne.uni-koeln.de/item/objekt/36087</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/3198 #http://arachne.uni-koeln.de/item/objekt/36087">
+            <persName ref="#CerlID:cnp01239912" key="#PND:118764659">Septimius severus<addName type="display">Septime Sévère (empereur romain)</addName>
+               <addName>Lucius Septimius Severus Pertinax</addName>
+               <addName>Lucius Septimius Severus</addName>
+               <addName>Septimius Severus empereur romain</addName>
+               <addName>L. Septimius Severus Pertinax Augustus</addName>
+               <addName>Lucius Septimius Severus Pertinax Augustus</addName>
+               <addName>Septime Sévère/Septimius Severus</addName>
+               <addName>Septimus Severus</addName>
+               <addName>Settimio Severo</addName>
+               <addName>Seuerus</addName>
+               <addName>Severus</addName>
+               <addName>Lucius S. Severus</addName>
+            </persName>, Na- 
+                             ckend aus Bronzo im <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000007">Pallast Barbarini</term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000007</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000007">Pallast Barbarini</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Constantinus (Imperium Romanum, Imperator, I.)</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/56630</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/56630">
+            <persName ref="#CerlID:cnp00945275" key="#PND:118565184">Constantinus Magnus<addName type="display">Constantinus (Imperium Romanum, Imperator, I.)</addName>
+               <addName>Aurelius Claudius</addName>
+               <addName>Claudius Valerius</addName>
+               <addName>Constantin der Große</addName>
+               <addName>Constantin</addName>
+               <addName>Constantin der Grosse</addName>
+               <addName>Constantin Empereur</addName>
+               <addName>Constantin Kaiser</addName>
+               <addName>Constantin Varsovie, Grand-Duc</addName>
+               <addName>Constantine Emperor, I.</addName>
+               <addName>Constantine</addName>
+               <addName>Constantine the Great</addName>
+               <addName>Flavius Valerius Constantinus Augustus</addName>
+               <addName>Constantinus Augustus</addName>
+               <addName>Flavius Valerius Constantinus</addName>
+               <addName>I. Constantinus</addName>
+               <addName>Constantinus, I. Imperator</addName>
+               <addName>Constantinus Constantinopolitanus</addName>
+               <addName>Constantinus der Große</addName>
+               <addName>Constantinus der Grosse</addName>
+               <addName>Constantinus Imperator</addName>
+               <addName>Constantinus Imperator, I.</addName>
+               <addName>Constantinus Magnus</addName>
+               <addName>Costantino il Grande</addName>
+               <addName>Costantino</addName>
+               <addName>Flavius Valerius</addName>
+               <addName>Konstantin Veliki</addName>
+               <addName>Konstantin den Stores</addName>
+               <addName>Konstantin der Große</addName>
+               <addName>Konstantin der Grosse</addName>
+               <addName>Konstantin Römisches Reich, Kaiser, I.</addName>
+               <addName>Konstantin Römischer Kaiser</addName>
+               <addName>Konstantinus Imperium Romanum, Imperator, I.</addName>
+               <addName>Konstantinus</addName>
+               <addName>Konstantyn de Groote</addName>
+               <addName>Konstantyn</addName>
+               <addName>Valerius Aurelis</addName>
+               <addName>Valerius Constantinus Augustus</addName>
+            </persName>, 
+                             im <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000358">Campidoglio</term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000358</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000358">Campidoglio</term>
+      </nodes>
+   </tag>
+</tags>

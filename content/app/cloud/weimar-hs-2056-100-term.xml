@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/5794</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/5794">Der Florentinische</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>palazza Barberini</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/21203</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/21203">Der im <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000007">palazza Barberini</term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000007</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000007">palazza Barberini</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:10012828 http://arachne.uni-koeln.de/item/objekt/16695</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:10012828 #http://arachne.uni-koeln.de/item/objekt/16695">dem Ludowisischen</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Campi- doglio</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-100.tei.xml-d8771e76">auf einem runden Wercke im <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000358">Campi- 
+                      doglio</term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000358</link>
+      <count>6</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000358">Campi- 
+                      doglio</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>orti Medicei</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-100.tei.xml-d8771e92">Einer aus den <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000435">orti 
+                          Medicei</term>, Gradivus</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000435</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000435">orti 
+                          Medicei</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/gruppen/400168 http://arachne.uni-koeln.de/item/objekt/5890 http://arachne.uni-koeln.de/item/objekt/5892</link>
+      <count>4</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/gruppen/400168 #http://arachne.uni-koeln.de/item/objekt/5890 #http://arachne.uni-koeln.de/item/objekt/5892">36.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:10012839 http://arachne.uni-koeln.de/item/gruppen/400332 http://arachne.uni-koeln.de/item/objekt/15958 http://arachne.uni-koeln.de/item/objekt/15959</link>
+      <count>4</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:10012839 #http://arachne.uni-koeln.de/item/gruppen/400332 #http://arachne.uni-koeln.de/item/objekt/15958 #http://arachne.uni-koeln.de/item/objekt/15959">20.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:10012854 http://arachne.uni-koeln.de/item/gruppen/400016 http://arachne.uni-koeln.de/item/objekt/14734 http://arachne.uni-koeln.de/item/objekt/14735</link>
+      <count>6</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:10012854 #http://arachne.uni-koeln.de/item/gruppen/400016 #http://arachne.uni-koeln.de/item/objekt/14734 #http://arachne.uni-koeln.de/item/objekt/14735">21.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>orti Borghesi</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:10012854 http://arachne.uni-koeln.de/item/gruppen/400016 http://arachne.uni-koeln.de/item/objekt/14734 http://arachne.uni-koeln.de/item/objekt/14735 http://arachne.uni-koeln.de/item/gruppen/401214 http://arachne.uni-koeln.de/item/objekt/15786 http://arachne.uni-koeln.de/item/objekt/15781</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:10012854 #http://arachne.uni-koeln.de/item/gruppen/400016 #http://arachne.uni-koeln.de/item/objekt/14734 #http://arachne.uni-koeln.de/item/objekt/14735 #http://arachne.uni-koeln.de/item/gruppen/401214 #http://arachne.uni-koeln.de/item/objekt/15786 #http://arachne.uni-koeln.de/item/objekt/15781">in <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000238">orti Borghesi</term> drei verschiedene Grup- 
+                  pen</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000238</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000238">orti Borghesi</term>
+      </nodes>
+   </tag>
+</tags>

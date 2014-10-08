@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Traianus, Marcus Ulpius</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00917510</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00917510"
+                       key="#PND:118623567">Trajans<addName type="display">Traianus, Marcus Ulpius</addName>
+            <addName>Marcus Ulpius Traianus</addName>
+            <addName>Traian</addName>
+            <addName>Traiano Imperatore</addName>
+            <addName>Traiano</addName>
+            <addName>Marcus U. Traianus</addName>
+            <addName>Traianus Epigrammaticus</addName>
+            <addName>Traianus Imperator</addName>
+            <addName>Traianus Romanus</addName>
+            <addName>Trajan Kaiser</addName>
+            <addName>Trajan Plinius-Korrespondent</addName>
+            <addName>Trajanus</addName>
+            <addName>Trajanus Imperator</addName>
+            <addName>Trajanus Imperium Romanum, Imperator</addName>
+            <addName>Ulpius Traianus</addName>
+            <addName>Ulpius</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Antonius, Marcus (Triumvir)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00394081</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00394081"
+                       key="#PND:118503529">Antonius<addName type="display">Antonius, Marcus (Triumvir)</addName>
+            <addName>Marcus Antonius</addName>
+            <addName>Antonius Triumvir</addName>
+            <addName>Marcus</addName>
+            <addName>Mark Anton</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Antoninus, Augustus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01260638</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01260638"
+                       key="#PND:118503499">Antoninus<addName type="display">Antoninus, Augustus</addName>
+            <addName>Augustus Antoninus</addName>
+            <addName>Antonin le Pieux</addName>
+            <addName>Antonin</addName>
+            <addName>Antonino Pio</addName>
+            <addName>Titus A. Antoninus</addName>
+            <addName>Titus Aurelius Fulvius Bojonius Pius Antoninus</addName>
+            <addName>Antoninus Imperium Romanum, Imperator</addName>
+            <addName>Antoninus Aug.</addName>
+            <addName>Titus Antoninus Pius</addName>
+            <addName>Antoninus Pius Rome, Emperor</addName>
+            <addName>Antoninus Pius Römisches Reich, Kaiser</addName>
+            <addName>Antonius Augustus</addName>
+            <addName>Antonius</addName>
+            <addName>Antonius Pius</addName>
+            <addName>Antonius Pius Imperium Romanum, Imperator</addName>
+            <addName>Marcus Aurelius Antoninus</addName>
+            <addName>Pius</addName>
+            <addName>Pius Imperium Romanum, Imperator</addName>
+            <addName>Titus Aelius Hadrianus Antoninus</addName>
+            <addName>Titus Aelius Hadrianus</addName>
+            <addName>Titus Aelius Hadrianus Antoninus Imperium Romanum, Imperator</addName>
+            <addName>Titus Aurelius Fulvus Boionius Arrius Antoninus</addName>
+            <addName>Titus Aurelius Fulvus Boionius Arrius</addName>
+            <addName>Titus Aurelius Fulvus Boionus Arrius Antoninus</addName>
+            <addName>Titus Aurelius Fulvus Boionus Arrius</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Perseus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00588989</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00588989"
+                       key="#PND:118790455">Perseus<addName type="display">Perseus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Dioskurides</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300274</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300274">Dioscorides<addName type="display">Dioskurides</addName>
+            <addName>Dioscorides</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Diomedes (Argos, König)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00552771</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00552771"
+                       key="#PND:119315238">Diomed<addName type="display">Diomedes (Argos, König)</addName>
+            <addName>Diomedes Sohn des Tydeus</addName>
+            <addName>Diomedes von Argos</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Orpheus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00931153</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00931153"
+                       key="#PND:118590278">Orpheus<addName type="display">Orpheus</addName>
+            <addName>Orfeo</addName>
+            <addName>Orfeus</addName>
+            <addName>Orpée</addName>
+            <addName>Orphée</addName>
+            <addName>Orphas</addName>
+            <addName>Orphée</addName>
+            <addName>Orpheus Dichter</addName>
+            <addName>Orpheus Legendary Poet</addName>
+            <addName>Orpheus Paradoxographus</addName>
+            <addName>Orpheus Sänger</addName>
+            <addName>Orpheus von Kroton</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

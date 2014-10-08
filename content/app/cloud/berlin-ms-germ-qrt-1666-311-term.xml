@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/berlin-ms-germ-qrt-1666-311.tei.xml-d12225e9">Cabinet</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Lucretia</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/berlin-ms-germ-qrt-1666-311.tei.xml-d12225e55">
+            <TEI:persName ref="#CerlID:cnp00558029" key="#PND:118574817">Lucretin<addName type="display">Lucretia</addName>
+               <addName>Lukretia</addName>
+            </TEI:persName> sich töd-
+                tend.</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>VenusJupiter</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/berlin-ms-germ-qrt-1666-311.tei.xml-d12225e68">
+            <TEI:persName ref="#CerlID:cnp00588078" key="#PND:11876800X">Venus<addName type="display">Venus</addName>
+               <addName>Anadyomene  Beiname</addName>
+               <addName>Anadyomene</addName>
+               <addName>Arelatensis  Beiname</addName>
+               <addName>Arelatensis</addName>
+               <addName>aurea  Beiname</addName>
+               <addName>aurea</addName>
+               <addName>coelestis  Beiname</addName>
+               <addName>coelestis</addName>
+               <addName>Gnidia  Beiname</addName>
+               <addName>Gnidia</addName>
+               <addName>Marina  Beiname</addName>
+               <addName>Marina</addName>
+               <addName>Pelasgia  Beiname</addName>
+               <addName>Pelasgia</addName>
+               <addName>Pontia  Beiname</addName>
+               <addName>Pontia</addName>
+               <addName>Urania  Beiname</addName>
+               <addName>Urania</addName>
+               <addName>Victrix  Beiname</addName>
+               <addName>Victrix</addName>
+            </TEI:persName> die sich beym <TEI:persName ref="#CerlID:cnp00554429" key="#PND:118558897">Jupi-
+                ter<addName type="display">Jupiter</addName>
+               <addName>Iupiter</addName>
+               <addName>Juppiter</addName>
+            </TEI:persName> beschwert</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Titus (Imperium Romanum, Imperator)</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/berlin-ms-germ-qrt-1666-311.tei.xml-d12225e146">
+            <TEI:persName ref="#CerlID:cnp00396707" key="#PND:118622951">Tity<addName type="display">Titus (Imperium Romanum, Imperator)</addName>
+               <addName>Flavius Vespasianus Titus</addName>
+               <addName>Titus Flavius Vespasianus</addName>
+               <addName>Flavius Vespasianus</addName>
+               <addName>Titus Vespasianus Augustus</addName>
+               <addName>Titus Vespasianus</addName>
+               <addName>Titus Imperator</addName>
+               <addName>Titus Römisches Reich, Kaiser</addName>
+               <addName>Titus Romanus</addName>
+               <addName>Vespasianus</addName>
+            </TEI:persName> mit dem Geyer</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/berlin-ms-germ-qrt-1666-311.tei.xml-d12225e436">Cabinet</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:156663 http://arachne.uni-koeln.de/item/objekt/23288</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CensusID:156663 #http://arachne.uni-koeln.de/item/objekt/23288">Hercules quiescens</TEI:term>
+      </nodes>
+   </tag>
+</tags>

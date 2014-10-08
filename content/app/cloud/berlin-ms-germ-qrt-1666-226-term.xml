@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Titus (Imperium Romanum, Imperator)</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:150958 CensusID:226598 CensusID:152799 CensusID:152474 CensusID:153211 CensusID:152801 CensusID:153210 CensusID:150962 http://arachne.uni-koeln.de/item/bauwerk/2100070</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CensusID:150958 #CensusID:226598 #CensusID:152799 #CensusID:152474 #CensusID:153211 #CensusID:152801 #CensusID:153210 #CensusID:150962 #http://arachne.uni-koeln.de/item/bauwerk/2100070">Triumpfbögen des <TEI:persName ref="#CerlID:cnp00396707" key="#PND:118622951">Titus<addName type="display">Titus (Imperium Romanum, Imperator)</addName>
+               <addName>Flavius Vespasianus Titus</addName>
+               <addName>Titus Flavius Vespasianus</addName>
+               <addName>Flavius Vespasianus</addName>
+               <addName>Titus Vespasianus Augustus</addName>
+               <addName>Titus Vespasianus</addName>
+               <addName>Titus Imperator</addName>
+               <addName>Titus Römisches Reich, Kaiser</addName>
+               <addName>Titus Romanus</addName>
+               <addName>Vespasianus</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:150908 CensusID:154297 CensusID:154299 http://arachne.uni-koeln.de/item/bauwerk/2100038</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CensusID:150908 #CensusID:154297 #CensusID:154299 #http://arachne.uni-koeln.de/item/bauwerk/2100038">del Arco Constantini</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/berlin-ms-germ-qrt-1666-226.tei.xml-d2525e218">Ore fontis</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/bauwerk/2100311</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/bauwerk/2100311">Belvidire</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000435</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/sammlungen/1000435">Villa Medices</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/berlin-ms-germ-qrt-1666-226.tei.xml-d2525e249">Salii mit dem apex</TEI:term>
+      </nodes>
+   </tag>
+</tags>

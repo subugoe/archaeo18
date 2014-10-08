@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Nymphen</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300353</link>
+      <count>6</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300353">Nimphen<addName type="display">Nymphen</addName>
+            <addName>Nymphe</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Grazien</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00574851</link>
+      <count>4</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00574851"
+                       key="#PND:11863934X">Grazien<addName type="display">Grazien</addName>
+            <addName>Suade</addName>
+            <addName>Gratiae</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Wallmoden-Gimborn, Johann Ludwig ¬von¬</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00664371</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00664371"
+                       key="#PND:130253219">Walmoden<addName type="display">Wallmoden-Gimborn, Johann Ludwig ¬von¬</addName>
+            <addName>Johann Ludwig von Wallmoden-Gimborn</addName>
+            <addName>Johann L. von Gimborn</addName>
+            <addName>Gimborn</addName>
+            <addName>Johann Ludwig Gimborn</addName>
+            <addName>Johann Ludwig von Wallmoden- Gimborn</addName>
+            <addName>Ludwig von Wallmoden- Gimborn</addName>
+            <addName>Johann Ludwig von Wallmoden</addName>
+            <addName>Wallmoden</addName>
+            <addName>Johann L. von Wallmoden-Gimborn</addName>
+            <addName>Ludwig von Wallmoden-Gimborn</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Galateia</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300286</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300286">Galathea<addName type="display">Galateia</addName>
+            <addName>Galatea</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Mengs, Anton Raphael</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00400145</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00400145"
+                       key="#PND:118783270">Mengs<addName type="display">Mengs, Anton Raphael</addName>
+            <addName>Anton Raphael Mengs</addName>
+            <addName>Mengs</addName>
+            <addName>Anthony R. Mengs</addName>
+            <addName>Anthony Raphael Mengs</addName>
+            <addName>Antoine R. Mengs</addName>
+            <addName>Antoine-Raphael Mengs</addName>
+            <addName>Anton R. Mengs</addName>
+            <addName>Anton Raffaele Mengs</addName>
+            <addName>Anton Raphaël Mengs</addName>
+            <addName>Antonio R. Mengs</addName>
+            <addName>Antonio Rafael Mengs</addName>
+            <addName>Antonio Raffaello Mengs</addName>
+            <addName>R. Mengs</addName>
+            <addName>Rafael Mengs</addName>
+            <addName>Raphael Mengs</addName>
+            <addName>Antonio R. Mengz</addName>
+            <addName>Mengz</addName>
+            <addName>Antonio Raffaele Mengz</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

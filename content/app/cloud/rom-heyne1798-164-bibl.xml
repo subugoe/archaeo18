@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Gall. Giust.7.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/giustiniani1640bd1/0008</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/giustiniani1640bd1/0008">Gall. Giust. <term ref="#http://arachne.uni-koeln.de/item/rezeption/300767">7.</term>
+            </ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Mus. Cap. IV. tab. 26.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/item/buchseite/6268</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://arachne.uni-koeln.de/item/buchseite/6268">
+               <term ref="#http://arachne.uni-koeln.de/item/objekt/15233">Mus. Cap. IV. tab. 26.</term>
+            </ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pio Clem. 1. am Ende.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/visconti1782bd1/0168</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/visconti1782bd1/0168">
+               <term ref="#http://arachne.uni-koeln.de/item/objekt/15233">Pio Clem. 1. am Ende.</term>
+            </ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>T. 4. tab. 14..</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/visconti1788bd4/0135</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/visconti1788bd4/0135">
+               <term ref="#http://arachne.uni-koeln.de/item/objekt/19509">T. 4.
+                                                    tab. 14.</term>.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Mathæiana III.16.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://opac.sub.uni-goettingen.de/DB=1/PPNSET?PPN=137356013</link>
+      <count>4</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://opac.sub.uni-goettingen.de/DB=1/PPNSET?PPN=137356013">Mathæiana III. <term ref="#CensusID:154331 #http://arachne.uni-koeln.de/item/objekt/17554">16.</term>
+            </ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Ercolano. T. II. No. 1.</tag>
+      <facet>tei:bibl</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#">
+               <term ref="#http://arachne.uni-koeln.de/item/objekt/130638 #http://arachne.uni-koeln.de/item/objekt/130639 #http://arachne.uni-koeln.de/item/objekt/130640 #http://arachne.uni-koeln.de/item/objekt/130641 #http://arachne.uni-koeln.de/item/objekt/130642 #http://arachne.uni-koeln.de/item/objekt/130643 #http://arachne.uni-koeln.de/item/objekt/130644">Ercolano. T. II. No. 1.</term>
+            </ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Rac. 112 sq.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/maffei1704/0129</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/maffei1704/0129">Rac. 112 sq.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pio Clem.1. No. 17.u. f.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/visconti1782bd1/0131</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/visconti1782bd1/0131">Pio Clem. <term ref="#http://arachne.uni-koeln.de/item/objekt/20973">1. No. 17.</term>
+               <term ref="#http://arachne.uni-koeln.de/item/objekt/205186">u. f.</term>
+            </ref>
+         </bibl>
+      </nodes>
+   </tag>
+</tags>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>England</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7002445</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7002445">England<addName type="display">England</addName>
+            <addName>England</addName>
+            <addName>Angleterre</addName>
+            <addName>Inglaterra</addName>
+            <addName>Inghilterra</addName>
+            <addName>English</addName>
+            <addName>Anglia</addName>
+            <addName>Britannia Romana</addName>
+            <addName>Britannia maior</addName>
+            <addName>Britannia propria</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Livorno</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7006074</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7006074">Livorno<addName type="display">Livorno</addName>
+            <addName>Livorno</addName>
+            <addName>Livourne</addName>
+            <addName>Leghorn</addName>
+            <addName>Liburnum</addName>
+            <addName>Liburni Portus</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Holland</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=1003759</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:1003759">Holland<addName type="display">Holland</addName>
+            <addName>Holland</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>France</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=1000070</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:1000070">Franckreich<addName type="display">France</addName>
+            <addName>France</addName>
+            <addName>République française</addName>
+            <addName>République Française</addName>
+            <addName>French Republic</addName>
+            <addName>Francia</addName>
+            <addName>Frankreich</addName>
+            <addName>Frankrijk</addName>
+            <addName>França</addName>
+            <addName>FRA</addName>
+            <addName>FR</addName>
+            <addName>ISO250</addName>
+            <addName>FR00</addName>
+            <addName>Gaule</addName>
+            <addName>Gaul</addName>
+            <addName>Gallia</addName>
+            <addName>French</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Versailles, Château de</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=1100363</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:1100363">Versailles<addName type="display">Versailles, Château de</addName>
+            <addName>Versailles, Château de</addName>
+            <addName>Château de Versailles</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Aix-en-Provence</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7010786</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7010786">AixAix<addName type="display">Aix-en-Provence</addName>
+            <addName>Aix-en-Provence</addName>
+            <addName>Aix</addName>
+            <addName>Aquae Sextiae</addName>
+            <addName>Aquae Sextiae Salluviorum</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Provence</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7012209</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7012209">Provence<addName type="display">Provence</addName>
+            <addName>Provence</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+</tags>

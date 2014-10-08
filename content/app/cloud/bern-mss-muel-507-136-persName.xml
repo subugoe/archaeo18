@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Carlos (España, Infante)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00545908</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00545908"
+                       key="#PND:118519123">Don Carlos<addName type="display">Carlos (España, Infante)</addName>
+            <addName>Carlos España, Principe</addName>
+            <addName>Don Carlos</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>NapoliFerdinand (Neapel, König, IV.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00876665</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00876665"
+                       key="#PND:11895363X">König von <TEI:placeName ref="#GettyID:7004474">Neapel<addName type="display">Napoli</addName>
+               <addName>Napoli</addName>
+               <addName>Nápoles</addName>
+               <addName>Naples</addName>
+               <addName>Neapel</addName>
+               <addName>Neapolis</addName>
+               <addName>Parthenope</addName>
+            </TEI:placeName>
+            <addName type="display">Ferdinand (Neapel, König, IV.)</addName>
+            <addName>Ferdinand von Bourbon</addName>
+            <addName>Bourbon, Ferdinand von 1751-1825</addName>
+            <addName>Bourbon</addName>
+            <addName>Ferdinand beider Sizilien, König, I.</addName>
+            <addName>Ferdinand Beider Sizilien, König, I.</addName>
+            <addName>Ferdinand I,  King of the Two Sicilies,  1751-1825</addName>
+            <addName>Ferdinand Neapel, König, IV.</addName>
+            <addName>Ferdinand Neapel, König, I., 1751-1825</addName>
+            <addName>Ferdinand Sizilien, König, I.</addName>
+            <addName>Ferdinand Sizilien, König, IV.</addName>
+            <addName>Ferdinand Two Sicilies, King, I.</addName>
+            <addName>Ferdinando di Borbone</addName>
+            <addName>Ferdinando Due Sicilie, Re, I.</addName>
+            <addName>Ferdinando Due Sicilie, Re, VI.</addName>
+            <addName>Ferdinando Sicilia, Re, I.</addName>
+            <addName>Ferdinando Sicilia, Re, III.</addName>
+            <addName>Ferdinando Sicilia, Re, IV.</addName>
+            <addName>Ferdinandus Sicilia, Rex, IV.</addName>
+            <addName>Ferdinandus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Cosimo (I, grand duc de Toscane)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01237196</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01237196"
+                       key="#PND:118638521">groß Herzogs<addName type="display">Cosimo (I, grand duc de Toscane)</addName>
+            <addName>Cosimo de' Medici</addName>
+            <addName>Casmus I.</addName>
+            <addName>Cosmg I.</addName>
+            <addName>Cosmus I.</addName>
+            <addName>Cosimo I</addName>
+            <addName>Cosimo de'Medici duc de Florence</addName>
+            <addName>Cosimo de'Medici</addName>
+            <addName>Cosimo de'Medici grand duc de Toscane</addName>
+            <addName>Medici, Cosimo de' I grand duc de Toscane</addName>
+            <addName>Cosme de Medicis</addName>
+            <addName>Medicis, Cosme de duc de Florence</addName>
+            <addName>Medicis</addName>
+            <addName>Medicis, Cosme de grand duc de Toscane</addName>
+            <addName>Cosimo Florenz, Herzog, I.</addName>
+            <addName>Cosimo I de'Medici</addName>
+            <addName>Cosimo Toscana, Großherzog, I.</addName>
+            <addName>Cosimo Tuscany, Grand-Duke, I.</addName>
+            <addName>Cosimo de' Medici, I.</addName>
+            <addName>Cosimo dei Medici, I.</addName>
+            <addName>Cosimo granduca di Toscana 1</addName>
+            <addName>gran duc de Toscane Cosimo I</addName>
+            <addName>grand duke of Tuscany Cosimo I</addName>
+            <addName>Cosimo I, de Medici, Il Grande, grand duke of Tuscany</addName>
+            <addName>Cosimo de Medici</addName>
+            <addName>Cosimo de Medici il vecchio</addName>
+            <addName>Cosmus Medices</addName>
+            <addName>Cosmus</addName>
+            <addName>Cosimo De' Medici</addName>
+            <addName>De' Medici</addName>
+            <addName>Cosimo De'Medici</addName>
+            <addName>De'Medici</addName>
+            <addName>Kosma I Medyceusz</addName>
+            <addName>Medices</addName>
+            <addName>Medici, Cosimo de' 1519-1574</addName>
+            <addName>Cosimo dei Medici</addName>
+            <addName>Cosimo de' granduca di Toscana Medici</addName>
+            <addName>Cosmo Medici</addName>
+            <addName>Cosmo de Medici</addName>
+            <addName>Medici, Cosimo I. de', grand duke of Tuscany</addName>
+            <addName>Kosma Medyceusz</addName>
+            <addName>Medyceusz</addName>
+            <addName>Cosimo deiMedici</addName>
+            <addName>deiMedici</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Venus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00588078</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00588078"
+                       key="#PND:11876800X">Venus<addName type="display">Venus</addName>
+            <addName>Anadyomene  Beiname</addName>
+            <addName>Anadyomene</addName>
+            <addName>Arelatensis  Beiname</addName>
+            <addName>Arelatensis</addName>
+            <addName>aurea  Beiname</addName>
+            <addName>aurea</addName>
+            <addName>coelestis  Beiname</addName>
+            <addName>coelestis</addName>
+            <addName>Gnidia  Beiname</addName>
+            <addName>Gnidia</addName>
+            <addName>Marina  Beiname</addName>
+            <addName>Marina</addName>
+            <addName>Pelasgia  Beiname</addName>
+            <addName>Pelasgia</addName>
+            <addName>Pontia  Beiname</addName>
+            <addName>Pontia</addName>
+            <addName>Urania  Beiname</addName>
+            <addName>Urania</addName>
+            <addName>Victrix  Beiname</addName>
+            <addName>Victrix</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Faunus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00542358</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00542358"
+                       key="#PND:11892088X">Faun<addName type="display">Faunus</addName>
+            <addName>Faun</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Bacchus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00579062</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00579062"
+                       key="#PND:118651439">Bachus<addName type="display">Bacchus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

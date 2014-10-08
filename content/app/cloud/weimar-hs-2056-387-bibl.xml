@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>I. Macarii Canon Ariensis Abraxas Seu Aristopistus quae est antiquorum de gemmis basidianis disquisitio. Accedit Abra- xas Proteus Seu multiformis gemmarum basi- dianarum portentosa varietas exhibita et Commentario illustrata a Io: Chiffletio. Antw. 1657. 4.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/books/Macarius1657a</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://arachne.uni-koeln.de/books/Macarius1657a">I. Macarii Canon Ariensis Abraxas 
+                                                Seu Aristopistus quae est antiquorum de 
+                                                gemmis basidianis disquisitio. Accedit Abra- 
+                                                xas Proteus Seu multiformis gemmarum basi- 
+                                                dianarum portentosa varietas exhibita et 
+                                                Commentario illustrata a Io: Chiffletio. Antw. 
+                                                1657. 4.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Diatribe de gemmis basidianis in Gori Thes: gemm: astrif: T. II.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN656492929</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN656492929">Diatribe de gemmis 
+                                                basidianis in Gori Thes: gemm: astrif: T. II.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Gori Thes: gem: astrif:</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN656492821</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN656492821">Gori Thes: gem: astrif:</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Bononi p: 18. tab: 22.</tag>
+      <facet>tei:bibl</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#">Bononi p: 18. 
+                                                tab: 22.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Gori T. III. 168.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN656493054</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN656493054">Gori T. III. 168.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Spoon Miscell. 297.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://reader.digitale-sammlungen.de/de/fs1/object/display/bsb10211936_00309.html</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://reader.digitale-sammlungen.de/de/fs1/object/display/bsb10211936_00309.html">Spoon 
+                                                Miscell. 297.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Recherches curieeches. 125.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/spon1683/0142</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/spon1683/0142">Recherches curieeches. 125.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+</tags>

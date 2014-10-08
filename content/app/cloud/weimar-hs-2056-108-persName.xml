@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Herakles</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00574918</link>
+      <count>8</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00574918"
+                   key="#PND:118639552">Herkules<addName type="display">Herakles</addName>
+            <addName>Ercole</addName>
+            <addName>Heracles</addName>
+            <addName>Hercules</addName>
+            <addName>Herkules</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Beger, Lorenz</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00385127</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00385127"
+                   key="#PND:116109114">Beger<addName type="display">Beger, Lorenz</addName>
+            <addName>Lorenz Beger</addName>
+            <addName>Laurentius Begerus</addName>
+            <addName>Begerus</addName>
+            <addName>Daphnäus Arcuarius</addName>
+            <addName>Arcuarius</addName>
+            <addName>L. Beger</addName>
+            <addName>Laurentius Beger</addName>
+            <addName>Laurentius Begerius</addName>
+            <addName>Begerius</addName>
+            <addName>L. Begerus</addName>
+            <addName>Lorenz Begerus</addName>
+            <addName>Laurentius Böger</addName>
+            <addName>Böger</addName>
+            <addName>Lorenz Böger</addName>
+            <addName>Laurentius Böger</addName>
+            <addName>Böger</addName>
+            <addName>Lorenz Böger</addName>
+            <addName>Der deutsche Petrarcha</addName>
+            <addName>Der teutsche Petrarcha</addName>
+            <addName>der Deutsche Petrarcha</addName>
+            <addName>Deutsche Petrarcha</addName>
+            <addName>Petrarcha der Deutsche</addName>
+            <addName>Petrarcha</addName>
+            <addName>Petrarcha der Teutsche</addName>
+            <addName>der Teutsche Petrarcha</addName>
+            <addName>Teutsche Petrarcha</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Apollon</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00542641</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00542641"
+                   key="#PND:118503642">Apolls<addName type="display">Apollon</addName>
+            <addName>Apoll</addName>
+            <addName>Apollo</addName>
+            <addName>Phoebus</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Herakles</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-17.tei.xml-d1851e43">
+            <persName ref="#CerlID:cnp00574918" key="#PND:118639552">Hercules<addName type="display">Herakles</addName>
+               <addName>Ercole</addName>
+               <addName>Heracles</addName>
+               <addName>Hercules</addName>
+               <addName>Herkules</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Jupiter</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/200780 CensusID:10005083</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/200780 #CensusID:10005083">
+            <persName ref="#CerlID:cnp00554429" key="#PND:118558897">Jupiters<addName type="display">Jupiter</addName>
+               <addName>Iupiter</addName>
+               <addName>Juppiter</addName>
+            </persName> zu <placeName ref="#GettyID:7235450">Olympia</placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Apollon</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/19437 CensusID:150779</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/19437 #CensusID:150779">
+            <persName ref="#CerlID:cnp00542641" key="#PND:118503642">Apoll<addName type="display">Apollon</addName>
+               <addName>Apoll</addName>
+               <addName>Apollo</addName>
+               <addName>Phoebus</addName>
+            </persName> von <placeName ref="#http://arachne.uni-koeln.de/item/bauwerk/2100311">Belvedere</placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Venus</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-17.tei.xml-d1851e153">
+            <persName ref="#CerlID:cnp00588078" key="#PND:11876800X">Venus<addName type="display">Venus</addName>
+               <addName>Anadyomene  Beiname</addName>
+               <addName>Anadyomene</addName>
+               <addName>Arelatensis  Beiname</addName>
+               <addName>Arelatensis</addName>
+               <addName>aurea  Beiname</addName>
+               <addName>aurea</addName>
+               <addName>coelestis  Beiname</addName>
+               <addName>coelestis</addName>
+               <addName>Gnidia  Beiname</addName>
+               <addName>Gnidia</addName>
+               <addName>Marina  Beiname</addName>
+               <addName>Marina</addName>
+               <addName>Pelasgia  Beiname</addName>
+               <addName>Pelasgia</addName>
+               <addName>Pontia  Beiname</addName>
+               <addName>Pontia</addName>
+               <addName>Urania  Beiname</addName>
+               <addName>Urania</addName>
+               <addName>Victrix  Beiname</addName>
+               <addName>Victrix</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Niobe</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/5880 CensusID:160868</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/5880 #CensusID:160868">
+            <persName ref="#CerlID:cnp01300351">Niobe<addName type="display">Niobe</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Laokoon</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/146910 http://arachne.uni-koeln.de/item/objekt/146912 http://arachne.uni-koeln.de/item/objekt/146913 http://arachne.uni-koeln.de/item/gruppen/400123 CensusID:219823</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/146910 #http://arachne.uni-koeln.de/item/objekt/146912 #http://arachne.uni-koeln.de/item/objekt/146913 #http://arachne.uni-koeln.de/item/gruppen/400123 #CensusID:219823">
+            <persName ref="#CerlID:cnp00556829" key="#PND:118569651">Laocoon<addName type="display">Laokoon</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+</tags>

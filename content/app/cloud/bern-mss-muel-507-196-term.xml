@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Pal. Borghese</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-196.tei.xml-d5431e10">Einer im <TEI:term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000238">Pal. Borghese</TEI:term>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000238</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/sammlungen/1000238">Pal. Borghese</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>MarsVenus</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-196.tei.xml-d5431e26">
+            <TEI:persName ref="#CerlID:cnp00586722" key="#PND:118731181">Mars<addName type="display">Mars</addName>
+            </TEI:persName> mit der <TEI:persName ref="#CerlID:cnp00588078" key="#PND:11876800X">Venus<addName type="display">Venus</addName>
+               <addName>Anadyomene  Beiname</addName>
+               <addName>Anadyomene</addName>
+               <addName>Arelatensis  Beiname</addName>
+               <addName>Arelatensis</addName>
+               <addName>aurea  Beiname</addName>
+               <addName>aurea</addName>
+               <addName>coelestis  Beiname</addName>
+               <addName>coelestis</addName>
+               <addName>Gnidia  Beiname</addName>
+               <addName>Gnidia</addName>
+               <addName>Marina  Beiname</addName>
+               <addName>Marina</addName>
+               <addName>Pelasgia  Beiname</addName>
+               <addName>Pelasgia</addName>
+               <addName>Pontia  Beiname</addName>
+               <addName>Pontia</addName>
+               <addName>Urania  Beiname</addName>
+               <addName>Urania</addName>
+               <addName>Victrix  Beiname</addName>
+               <addName>Victrix</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>MarsVerus, Lucius Aurelius</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-196.tei.xml-d5431e97">ein <TEI:persName ref="#CerlID:cnp00586722" key="#PND:118731181">Mars<addName type="display">Mars</addName>
+            </TEI:persName> der eher
+          
+          ein <TEI:persName ref="#CerlID:cnp00994597" key="#PND:118643150">Luc: Verus<addName type="display">Verus, Lucius Aurelius</addName>
+               <addName>Lucius Aurelius Verus</addName>
+               <addName>Lucius Aelius Aurelius Commodus</addName>
+               <addName>Aelius Aurelius Commodus</addName>
+               <addName>Aurelius Commodus</addName>
+               <addName>Aurelius Verus</addName>
+               <addName>Caesar Lucius Aurelius Verus Augustus</addName>
+               <addName>Caesar Lucius Aurelius Verus</addName>
+               <addName>Lucius Ceionius Commodus</addName>
+               <addName>Ceionius Commodus</addName>
+               <addName>Commodus</addName>
+               <addName>Lucius Verus Imperium Romanum, Imperator</addName>
+               <addName>Lucius Verus</addName>
+               <addName>Lucius Verus Römisches Reich, Kaiser</addName>
+               <addName>Verus Emperor</addName>
+               <addName>Verus Imperator</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Villa Medici</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-196.tei.xml-d5431e150">Ein Moderner in der <TEI:term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000435">Villa Medici</TEI:term> in Bronze</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000435</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/sammlungen/1000435">Villa Medici</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>MarsVenus</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-196.tei.xml-d5431e237">Eine Gruppe von <TEI:persName ref="#CerlID:cnp00586722" key="#PND:118731181">Mars<addName type="display">Mars</addName>
+            </TEI:persName> und <TEI:persName ref="#CerlID:cnp00588078" key="#PND:11876800X">Venus<addName type="display">Venus</addName>
+               <addName>Anadyomene  Beiname</addName>
+               <addName>Anadyomene</addName>
+               <addName>Arelatensis  Beiname</addName>
+               <addName>Arelatensis</addName>
+               <addName>aurea  Beiname</addName>
+               <addName>aurea</addName>
+               <addName>coelestis  Beiname</addName>
+               <addName>coelestis</addName>
+               <addName>Gnidia  Beiname</addName>
+               <addName>Gnidia</addName>
+               <addName>Marina  Beiname</addName>
+               <addName>Marina</addName>
+               <addName>Pelasgia  Beiname</addName>
+               <addName>Pelasgia</addName>
+               <addName>Pontia  Beiname</addName>
+               <addName>Pontia</addName>
+               <addName>Urania  Beiname</addName>
+               <addName>Urania</addName>
+               <addName>Victrix  Beiname</addName>
+               <addName>Victrix</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pyrrhus (Epirus, König)</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/15896</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/objekt/15896">Der <TEI:persName ref="#CerlID:cnp00587177" key="#PND:118743058">Pyrrhus<addName type="display">Pyrrhus (Epirus, König)</addName>
+               <addName>Pirr carʹ Ėpira</addName>
+               <addName>Pirr</addName>
+               <addName>Pirro Epiro, Re</addName>
+               <addName>Pirro</addName>
+               <addName>Pyrrhos Epeiros, König</addName>
+               <addName>Pyrrhos</addName>
+               <addName>Pyrrhos Epirus, König</addName>
+               <addName>Pyrrhos König der Molosser</addName>
+               <addName>Pyrrhos Sohn des Aiakides</addName>
+               <addName>Pyrrhos von Epeiros</addName>
+               <addName>Pyrrhos von Epirus</addName>
+               <addName>Pyrrhus Epirota</addName>
+               <addName>Pyrrhus Epirotes</addName>
+               <addName>Pyrrhus Historicus</addName>
+               <addName>Pyrrhus King of Epirus</addName>
+               <addName>Pyrrhus Rex</addName>
+            </TEI:persName> im <TEI:term ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-196.tei.xml-d5431e364">Pal. Massimi nella Valle</TEI:term>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-196.tei.xml-d5431e364">Pal. Massimi nella Valle</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-196.tei.xml-d5431e370">Mus Cap:</TEI:term>
+      </nodes>
+   </tag>
+</tags>

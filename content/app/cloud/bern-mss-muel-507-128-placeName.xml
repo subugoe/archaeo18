@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Torino</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7005688</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7005688">Turin<addName type="display">Torino</addName>
+            <addName>Torino</addName>
+            <addName>Turin</addName>
+            <addName>Augusta Taurinorum</addName>
+            <addName>Julia Taurinorum</addName>
+            <addName>Taurasia</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>France</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=1000070</link>
+      <count>4</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:1000070">Frankreich<addName type="display">France</addName>
+            <addName>France</addName>
+            <addName>République française</addName>
+            <addName>République Française</addName>
+            <addName>French Republic</addName>
+            <addName>Francia</addName>
+            <addName>Frankreich</addName>
+            <addName>Frankrijk</addName>
+            <addName>França</addName>
+            <addName>FRA</addName>
+            <addName>FR</addName>
+            <addName>ISO250</addName>
+            <addName>FR00</addName>
+            <addName>Gaule</addName>
+            <addName>Gaul</addName>
+            <addName>Gallia</addName>
+            <addName>French</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Saint-Dizier</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7009619</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7009619">St. Dizier<addName type="display">Saint-Dizier</addName>
+            <addName>Saint-Dizier</addName>
+            <addName>Desiderii Fanum</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Joinville</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7009244</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7009244">Joinvilles<addName type="display">Joinville</addName>
+            <addName>Joinville</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Champagne-Ardenne</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7002880</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7002880">Champagne<addName type="display">Champagne-Ardenne</addName>
+            <addName>Champagne-Ardenne</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Nîmes</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7008371</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7008371">Nimes<addName type="display">Nîmes</addName>
+            <addName>Nîmes</addName>
+            <addName>Nimes</addName>
+            <addName>Nismes</addName>
+            <addName>Nemausus</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Arles</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7008775</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7008775">Arles<addName type="display">Arles</addName>
+            <addName>Arles</addName>
+            <addName>Arles sur Rhône</addName>
+            <addName>Arelas</addName>
+            <addName>Arelate</addName>
+            <addName>Theline</addName>
+            <addName>Arelatensis colonia</addName>
+            <addName>Arelatum</addName>
+            <addName>Constantia</addName>
+            <addName>Arelate Sextanorum</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>España</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=1000095</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:1000095">Spanien<addName type="display">España</addName>
+            <addName>España</addName>
+            <addName>Reino de España</addName>
+            <addName>Estado Español</addName>
+            <addName>Spain</addName>
+            <addName>Kingdom of Spain</addName>
+            <addName>Spanish State</addName>
+            <addName>Espagne</addName>
+            <addName>Royaume d'Espagne</addName>
+            <addName>Spanien</addName>
+            <addName>Spanje</addName>
+            <addName>Espanha</addName>
+            <addName>Spagna</addName>
+            <addName>ESP</addName>
+            <addName>ES</addName>
+            <addName>ISO724</addName>
+            <addName>SP00</addName>
+            <addName>Hispana</addName>
+            <addName>Hispania</addName>
+            <addName>Iberia</addName>
+            <addName>Spanish</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Nederland</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7016845</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7016845">Niederlanden<addName type="display">Nederland</addName>
+            <addName>Nederland</addName>
+            <addName>Koninkrijk der Nederlanden</addName>
+            <addName>Netherlands</addName>
+            <addName>Netherlands, The</addName>
+            <addName>The Netherlands</addName>
+            <addName>Kingdom of the Netherlands</addName>
+            <addName>Niederlande</addName>
+            <addName>Pays-Bas</addName>
+            <addName>Royaume des Pays-Bas</addName>
+            <addName>Países Bajos</addName>
+            <addName>Países Baixos</addName>
+            <addName>Paesi Bassi</addName>
+            <addName>Holland</addName>
+            <addName>Holanda</addName>
+            <addName>Olanda</addName>
+            <addName>NLD</addName>
+            <addName>NL</addName>
+            <addName>ISO528</addName>
+            <addName>NL00</addName>
+            <addName>Batavian Republic</addName>
+            <addName>United Provinces</addName>
+            <addName>United Provinces of the Netherlands</addName>
+            <addName>Dutch Republic</addName>
+            <addName>United Netherlands</addName>
+            <addName>Netherlands, United</addName>
+            <addName>Frisia</addName>
+            <addName>Dutch</addName>
+            <addName>Netherlandish</addName>
+            <addName>Hollandish</addName>
+            <addName>Netherlandic</addName>
+            <addName>Netherlandian</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Magyarország</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7006278</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7006278">Ungarn<addName type="display">Magyarország</addName>
+            <addName>Magyarország</addName>
+            <addName>Magyar Köztársaság</addName>
+            <addName>Ungarn</addName>
+            <addName>Hungary</addName>
+            <addName>Hongrie</addName>
+            <addName>Hongarije</addName>
+            <addName>Hungría</addName>
+            <addName>Hungria</addName>
+            <addName>Ungheria</addName>
+            <addName>HUN</addName>
+            <addName>HU</addName>
+            <addName>ISO348</addName>
+            <addName>HU00</addName>
+            <addName>Magyar Népköztársaság</addName>
+            <addName>Hungarian People's Republic</addName>
+            <addName>Republic of Hungary</addName>
+            <addName>Hungarian</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Deutschland</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7000084</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7000084">Deutschland<addName type="display">Deutschland</addName>
+            <addName>Deutschland</addName>
+            <addName>Bundesrepublik Deutschland</addName>
+            <addName>BRD</addName>
+            <addName>Germany</addName>
+            <addName>Federal Republic of Germany</addName>
+            <addName>Allemagne</addName>
+            <addName>République fédérale d'Allemagne</addName>
+            <addName>República Federal de Alemania</addName>
+            <addName>Alemania</addName>
+            <addName>Alemanha</addName>
+            <addName>Duitsland</addName>
+            <addName>Germania</addName>
+            <addName>DEU</addName>
+            <addName>DE</addName>
+            <addName>ISO276</addName>
+            <addName>GM00</addName>
+            <addName>Deutsches Reich</addName>
+            <addName>ISO280</addName>
+            <addName>German</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>England</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7002445</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7002445">England<addName type="display">England</addName>
+            <addName>England</addName>
+            <addName>Angleterre</addName>
+            <addName>Inglaterra</addName>
+            <addName>Inghilterra</addName>
+            <addName>English</addName>
+            <addName>Anglia</addName>
+            <addName>Britannia Romana</addName>
+            <addName>Britannia maior</addName>
+            <addName>Britannia propria</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7038573</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7038573">Tiber</TEI:placeName>
+      </nodes>
+   </tag>
+</tags>

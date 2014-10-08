@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/5883</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/5883">Florentische</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Roma</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/gruppen/401272 http://arachne.uni-koeln.de/item/objekt/16998 http://arachne.uni-koeln.de/item/objekt/16999</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/gruppen/401272 #http://arachne.uni-koeln.de/item/objekt/16998 #http://arachne.uni-koeln.de/item/objekt/16999">Jn den <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000003">Orti Ludovisi</term> zu <placeName ref="#GettyID:7000874">Rom<addName type="display">Roma</addName>
+               <addName>Roma</addName>
+               <addName>Urbe</addName>
+               <addName>Rome</addName>
+               <addName>Rom</addName>
+               <addName>Roman</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000003</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000003">Orti Ludovisi</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Capitol</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/39677</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/39677">Im <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000358">Capitol</term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000358</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000358">Capitol</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Dresden</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/5197</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/5197">Co- 
+             pie zu <placeName ref="#GettyID:7004455">Dreßden<addName type="display">Dresden</addName>
+               <addName>Dresden</addName>
+               <addName>Dresde</addName>
+               <addName>Ďrežd'ane</addName>
+               <addName>Drezdane</addName>
+               <addName>Drezdzany</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Palazzo Farnese</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/15310</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/15310">Jm <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000001">Palazzo Farnese</term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000001</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000001">Palazzo Farnese</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Palazzo Barberini</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:10017691 http://arachne.uni-koeln.de/item/objekt/12533</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:10017691 #http://arachne.uni-koeln.de/item/objekt/12533">schlafender im <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000007">Palazzo Barberini</term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000007</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000007">Palazzo Barberini</term>
+      </nodes>
+   </tag>
+</tags>

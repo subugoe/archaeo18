@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Epicurus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00394680</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00394680"
+                       key="#PND:118530585">Epicur<addName type="display">Epicurus</addName>
+            <addName>Epicure</addName>
+            <addName>Epicure de Samos</addName>
+            <addName>Epicuro</addName>
+            <addName>Epicurus Atheniensis</addName>
+            <addName>Epicurus Philosophus</addName>
+            <addName>Epicurus Samius</addName>
+            <addName>Epikouros</addName>
+            <addName>Epikur</addName>
+            <addName>Epikuros</addName>
+            <addName>Epikuros Philosoph</addName>
+            <addName>Epikuros Sohn des Neokles</addName>
+            <addName>Epikuros Sohn eines Atheners</addName>
+            <addName>Epikuros von Samos</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Metrodorus (Lampsacenus)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00588680</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00588680"
+                       key="#PND:11878353X">Methrodorus<addName type="display">Metrodorus (Lampsacenus)</addName>
+            <addName>Metrodores Epicureus</addName>
+            <addName>Metrodores</addName>
+            <addName>Metrodores Lampsacenus</addName>
+            <addName>Metrodoro Scolaro di Epicuro</addName>
+            <addName>Metrodoro</addName>
+            <addName>Metrodoro di Lampsaco</addName>
+            <addName>Metrodoros Epikureer</addName>
+            <addName>Metrodoros</addName>
+            <addName>Metrodoros Freund des Epikuros</addName>
+            <addName>Metrodoros Schüler des Epikuros</addName>
+            <addName>Metrodoros von Lampsakos</addName>
+            <addName>Metrodorus Epicurean Philosopher</addName>
+            <addName>Metrodorus Epicureus</addName>
+            <addName>Metrodorus Philosophus</addName>
+            <addName>Metrodorus of Lampsacus</addName>
+            <addName>Metrodorus von Lampsakos</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Cicero, Marcus Tullius</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259298</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01259298"
+                       key="#PND:118520814">Cicero’s<addName type="display">Cicero, Marcus Tullius</addName>
+            <addName>Marcus Tullius Cicero</addName>
+            <addName>M. Tullius Cicero</addName>
+            <addName>M. T. Cicero</addName>
+            <addName>M. Tul Cicero</addName>
+            <addName>M. T. Ciceron</addName>
+            <addName>Ciceron</addName>
+            <addName>Marek Tullius Ciceron</addName>
+            <addName>Mark Tullij Ciceron</addName>
+            <addName>Cicerone</addName>
+            <addName>M. T. Cicerone</addName>
+            <addName>Marco Tullio Cicerone</addName>
+            <addName>M. Tulli Ciceronis</addName>
+            <addName>Ciceronis</addName>
+            <addName>Cycero</addName>
+            <addName>M. Tuljusz Cycero</addName>
+            <addName>M. Tulljusz Cycero</addName>
+            <addName>Marek Tullius Cycero</addName>
+            <addName>M. T. C.</addName>
+            <addName>Cecéron</addName>
+            <addName>Marcus Tullius Cic.</addName>
+            <addName>Cic.</addName>
+            <addName>Cicéron</addName>
+            <addName>Marcus T. Cicéron</addName>
+            <addName>Cicéron d'Arpinium</addName>
+            <addName>Cicéron d'Arpinum</addName>
+            <addName>Marcus Tullius Ciccero</addName>
+            <addName>Ciccero</addName>
+            <addName>Cicéron</addName>
+            <addName>Marcus T. Cicéron</addName>
+            <addName>Cicéron d'Arpinium</addName>
+            <addName>Cicéron d'Arpinum</addName>
+            <addName>Cicero</addName>
+            <addName>M. Tvllus Cicero</addName>
+            <addName>Marcus T. Cicero</addName>
+            <addName>Marcus Tullus Cicero</addName>
+            <addName>Marcus Tvllius Cicero</addName>
+            <addName>Markus Tullius Cicero</addName>
+            <addName>Cicero Arpinius</addName>
+            <addName>Cicero Orator</addName>
+            <addName>Cicero Philosopher</addName>
+            <addName>Cicero Philosophus</addName>
+            <addName>Cicero von Arpinium</addName>
+            <addName>Cicero von Arpinum</addName>
+            <addName>Ciceron</addName>
+            <addName>M. Tulij Ciceron</addName>
+            <addName>Marco T. Ciceron</addName>
+            <addName>Marcus T. Ciceron</addName>
+            <addName>Marcus Tullius Ciceron</addName>
+            <addName>Cicerone</addName>
+            <addName>Marco T. Cicerone</addName>
+            <addName>Marco Tvllio Cicerone</addName>
+            <addName>Marcus T. Cicerone</addName>
+            <addName>M. T. Ciceronis</addName>
+            <addName>M. Tullii Ciceronis</addName>
+            <addName>Marci Tulli Ciceronis</addName>
+            <addName>M. T. Cycero</addName>
+            <addName>Marek T. Cycero</addName>
+            <addName>Marek Tuliusz Cycero</addName>
+            <addName>Cyceron</addName>
+            <addName>M. T. Cyceron</addName>
+            <addName>Marek Tuliusz Cyceron</addName>
+            <addName>Marek Tulliusz Cyceron</addName>
+            <addName>Markos Tyllios Kikerō</addName>
+            <addName>Kikerō</addName>
+            <addName>Markos Tyllios Kikero</addName>
+            <addName>Kikero</addName>
+            <addName>Markos Tyllios Kikerō</addName>
+            <addName>Kikerō</addName>
+            <addName>M.T.C.</addName>
+            <addName>Pseudo Ciccero</addName>
+            <addName>Pseudo Cicero</addName>
+            <addName>Pseudocicero</addName>
+            <addName>Pseudo-Cicero</addName>
+            <addName>Tullius Cicero</addName>
+            <addName>Tullius</addName>
+            <addName>Marcus Tullius</addName>
+            <addName>Tully</addName>
+            <addName>M. Tullio Cicerone</addName>
+            <addName>M.T. Cicero</addName>
+            <addName>Marco Tullio Ciceram</addName>
+            <addName>Ciceram</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Winckelmann, Johann Joachim</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00396916</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00396916"
+                       key="#PND:118633600">Winkelmann<addName type="display">Winckelmann, Johann Joachim</addName>
+            <addName>Johann Joachim Winckelmann</addName>
+            <addName>Ioann Vinkelman</addName>
+            <addName>Vinkelman</addName>
+            <addName>Ioann. Vinkelman</addName>
+            <addName>Jochan Joachim Vinkelman</addName>
+            <addName>Johann Vinkelmann</addName>
+            <addName>Vinkelmann</addName>
+            <addName>I. I. Vinkelʹman</addName>
+            <addName>Vinkelʹman</addName>
+            <addName>Iogann Ioachim Vinkelʹman</addName>
+            <addName>Iogann-Ioachim Vinkelʹman</addName>
+            <addName>Winckelman</addName>
+            <addName>Johann Joachim Winckelman</addName>
+            <addName>Winckelman abbé Johann Joachim</addName>
+            <addName>Winckelmann</addName>
+            <addName>G. G. Winckelmann</addName>
+            <addName>G.G. Winckelmann</addName>
+            <addName>Giovanni Winckelmann</addName>
+            <addName>Giovanni Gioacchino Winckelmann</addName>
+            <addName>J Winckelmann</addName>
+            <addName>J. J. Winckelmann</addName>
+            <addName>Jean Joachim Winckelmann</addName>
+            <addName>Jean-Joachim Winckelmann</addName>
+            <addName>Joachim Johann Winckelmann</addName>
+            <addName>Joh. Jac. Winckelmann</addName>
+            <addName>Johann Winckelmann</addName>
+            <addName>Johann J. Winckelmann</addName>
+            <addName>Winckelmann, Johann Joachim 1717-1768</addName>
+            <addName>Johannes Joachim Winckelmann</addName>
+            <addName>Jojannes Joachim Winckelmann</addName>
+            <addName>Johannes Winckelmannus</addName>
+            <addName>Winckelmannus</addName>
+            <addName>Johannes J. Winckelmannus</addName>
+            <addName>Johannes Joachimus Winckelmannus</addName>
+            <addName>Johan̄ Winckelman̄</addName>
+            <addName>Winckelman̄</addName>
+            <addName>Johann Joachim Winkelman</addName>
+            <addName>Winkelman</addName>
+            <addName>Winkelman abbé Johann Joachim</addName>
+            <addName>Winkelmann</addName>
+            <addName>Giovanni Winkelmann</addName>
+            <addName>Hans J. Winkelmann</addName>
+            <addName>Ioh. Winkelmann</addName>
+            <addName>Johann Winkelmann</addName>
+            <addName>Johann J. Winkelmann</addName>
+            <addName>Johann Joachim Winkelmann</addName>
+            <addName>Winkelmann 1717-1768</addName>
+            <addName>Winkelmann abbé Johann Joachim</addName>
+            <addName>Joannes Winkelmannus</addName>
+            <addName>Winkelmannus</addName>
+            <addName>Johann J. Winkelmannus</addName>
+            <addName>Johannes Joachimus Wynckelmann</addName>
+            <addName>Wynckelmann</addName>
+            <addName>Hans J. Wynkelmann</addName>
+            <addName>Wynkelmann</addName>
+            <addName>Johann J. Wynkelmann</addName>
+            <addName>Johann Joachim Wynkelmann</addName>
+            <addName>Yôhân Yo'akim Wînqelman</addName>
+            <addName>Wînqelman</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Horace</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259307</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01259307"
+                       key="#PND:118553569 118553569">Horatz’s<addName type="display">Horace</addName>
+            <addName>Q. Horatius Flaccus</addName>
+            <addName>Quintus Horatius Flaccus</addName>
+            <addName>Flaccus</addName>
+            <addName>Horatius</addName>
+            <addName>Orazio</addName>
+            <addName>Qu. Horatius Flaccus</addName>
+            <addName>Quintus H. Flaccus</addName>
+            <addName>Quintus Horatius Flaccvs</addName>
+            <addName>Flaccvs</addName>
+            <addName>Gorat︠s︡{̄}i</addName>
+            <addName>Kvint Goraz Flakk</addName>
+            <addName>Goraz Flakk</addName>
+            <addName>Hūrās</addName>
+            <addName>Ho-la-tz'ŭ</addName>
+            <addName>Horace</addName>
+            <addName>Horace de Venouse</addName>
+            <addName>Horace Flacce</addName>
+            <addName>Horacego</addName>
+            <addName>Horacij</addName>
+            <addName>Horacio</addName>
+            <addName>Quinto Horacio Flaco</addName>
+            <addName>Horacio Flaco</addName>
+            <addName>Kvinto Horacio Flako</addName>
+            <addName>Horacio Flako</addName>
+            <addName>Quintus Horacius Flakus</addName>
+            <addName>Horacius Flakus</addName>
+            <addName>Kwintus Horacjusz Flakkus</addName>
+            <addName>Horacjusz Flakkus</addName>
+            <addName>Horacy</addName>
+            <addName>Horacyusz</addName>
+            <addName>Q. Horatii Flacci</addName>
+            <addName>Horatii Flacci</addName>
+            <addName>Horatio Flacco</addName>
+            <addName>Quinto Horatio Flacco</addName>
+            <addName>Horatio</addName>
+            <addName>Q. Horatius F.</addName>
+            <addName>Horatius F.</addName>
+            <addName>Horatius Flaccus</addName>
+            <addName>Quinctus Horatius Flaccus</addName>
+            <addName>Quintus Horatius</addName>
+            <addName>Horatius Poeta</addName>
+            <addName>Horats</addName>
+            <addName>Horatz</addName>
+            <addName>Horaz</addName>
+            <addName>Quintus Horazius Flaccus</addName>
+            <addName>Horazius Flaccus</addName>
+            <addName>Quintus Horazius Flakkus</addName>
+            <addName>Horazius Flakkus</addName>
+            <addName>Quintus Horazius Flakus</addName>
+            <addName>Horazius Flakus</addName>
+            <addName>Hūrās</addName>
+            <addName>Kvint Khorat︠s︡iĭ Flak</addName>
+            <addName>Khorat︠s︡iĭ Flak</addName>
+            <addName>Khorat︠s︡iĭ</addName>
+            <addName>Oracio</addName>
+            <addName>Oracius Flaccus</addName>
+            <addName>Oratio</addName>
+            <addName>Oratius</addName>
+            <addName>Orazio Flacco</addName>
+            <addName>Q. Orazio Flacco</addName>
+            <addName>Quinto Orazio Flacco</addName>
+            <addName>Quintus Orazjus Flaccus</addName>
+            <addName>Orazjus Flaccus</addName>
+            <addName>Q. Horatius Flaccus Venusinus</addName>
+            <addName>Kvint Goracij Flakk</addName>
+            <addName>Goracij Flakk</addName>
+            <addName>Quinto Horacio Flacco</addName>
+            <addName>Horacio Flacco</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>La Valette, Jean Parisot ¬de¬</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00382003</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00382003"
+                       key="#PND:115791361">Cardinal Valetta<addName type="display">La Valette, Jean Parisot ¬de¬</addName>
+            <addName>Jean Parisot de La Valette</addName>
+            <addName>Jean La Valette</addName>
+            <addName>Jean-Parisot de La Valette</addName>
+            <addName>La Valette Jean</addName>
+            <addName>Jean LaValette</addName>
+            <addName>LaValette</addName>
+            <addName>Jean Parisot de LaValette</addName>
+            <addName>Jean-Parisot de LaValette</addName>
+            <addName>Jean Parisot de Lavalette</addName>
+            <addName>Lavalette</addName>
+            <addName>Ioannes de Valeta</addName>
+            <addName>Valeta</addName>
+            <addName>Ioannes Valetta</addName>
+            <addName>Valetta</addName>
+            <addName>Johannes Valetta</addName>
+            <addName>Jean de la Valette</addName>
+            <addName>Valette</addName>
+            <addName>Jean Parisot de la Valette</addName>
+            <addName>Jean-Parisot de la Valette</addName>
+            <addName>Jean de la Valette-Parisot</addName>
+            <addName>Valette-Parisot</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Herbert, Thomas</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00368551</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00368551"
+                       key="#PND:104340932">Gr. Pembrock<addName type="display">Herbert, Thomas</addName>
+            <addName>Thomas Herbert</addName>
+            <addName>Thomas Pembrochiae</addName>
+            <addName>Pembrochiae</addName>
+            <addName>Thomas Pembroke</addName>
+            <addName>Pembroke</addName>
+            <addName>Thomas Herbert Pembroke</addName>
+            <addName>Thomas Herbert of Pembroke</addName>
+            <addName>Thomas of Pembroke</addName>
+            <addName>Thomas Pembroke, Earl, VIII.</addName>
+            <addName>Thomas</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Hippocrates</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00397037</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00397037"
+                       key="#PND:118639633">Hypocrates<addName type="display">Hippocrates</addName>
+            <addName>Abuqrāṭ</addName>
+            <addName>Abuqrāṭ</addName>
+            <addName>Bocràt</addName>
+            <addName>Buqrāṭ</addName>
+            <addName>Buqrāṭ</addName>
+            <addName>Hipoócrates</addName>
+            <addName>Hippocrate</addName>
+            <addName>Hippocrate de Chios</addName>
+            <addName>Coi Hippocrates</addName>
+            <addName>Hippocrates Coi</addName>
+            <addName>Hippocrates Mathematician</addName>
+            <addName>Hippocrates Mathematicus</addName>
+            <addName>Hippocrates of Chios</addName>
+            <addName>Hippokrates</addName>
+            <addName>Hippokrates Astronom</addName>
+            <addName>Hippokrates Mathematiker</addName>
+            <addName>Hippokrates von Chios</addName>
+            <addName>Hippoocratis</addName>
+            <addName>Hypocrate</addName>
+            <addName>Hyppocrates</addName>
+            <addName>Ibuqrāṭ</addName>
+            <addName>Ibuqrāṭ</addName>
+            <addName>Ippocrate</addName>
+            <addName>Ippocrate Astronomo</addName>
+            <addName>Ippocrate di Chio</addName>
+            <addName>Ippocrate Matematico</addName>
+            <addName>Ippokrates</addName>
+            <addName>Ypocras</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Moehsen, Johann Karl Wilhelm</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01194085</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01194085"
+                       key="#PND:10116033X">Mösen<addName type="display">Moehsen, Johann Karl Wilhelm</addName>
+            <addName>Johann Karl Wilhelm Moehsen</addName>
+            <addName>Johann Carl Wilhelm Möhsen</addName>
+            <addName>Möhsen</addName>
+            <addName>Johann Karl Wilhelm Möhsen</addName>
+            <addName>Johannes Carolus Vilhelmus Möhsen</addName>
+            <addName>Io. Car. Vilelmus Moehsen</addName>
+            <addName>Ioannes Carolus Vilelmus Moehsen</addName>
+            <addName>Iohannes C. Moehsen</addName>
+            <addName>J. C. W. Moehsen</addName>
+            <addName>Jean C. Moehsen</addName>
+            <addName>Joan. Carol. Vilelm. Moehsen</addName>
+            <addName>Joannes C. Moehsen</addName>
+            <addName>Joannes Carolus Vilelmus Moehsen</addName>
+            <addName>Joannes Carolus Vilhelmus Moehsen</addName>
+            <addName>Joh. Car. Wilh. Moehsen</addName>
+            <addName>Johann C. W. Moehsen</addName>
+            <addName>Johann Carl Wilhelm Moehsen</addName>
+            <addName>Johannes Carolus Wilhelmus Moehsen</addName>
+            <addName>Johannes Karl Wilhelm Moehsen</addName>
+            <addName>Ioannes Carolus Wilhelmus Moehsenius</addName>
+            <addName>Moehsenius</addName>
+            <addName>Johann Carl Wilhelm Moese</addName>
+            <addName>Moese</addName>
+            <addName>Johann Karl Wilhelm Moese</addName>
+            <addName>Johannes C. Moesen</addName>
+            <addName>Moesen</addName>
+            <addName>Johann Carl Wilhelm Möhsen</addName>
+            <addName>Möhsen</addName>
+            <addName>Johann Karl Wilhelm Möhsen</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

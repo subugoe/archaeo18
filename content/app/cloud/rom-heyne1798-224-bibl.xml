@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Mem. de l'acad. T. 12.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://hdl.handle.net/2027/ucm.5319456840</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://hdl.handle.net/2027/ucm.5319456840">Mem. de l'acad. T. 12.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Dict. encycl. Art. Pate.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://find.galegroup.com/mome/retrieve.do?tabID=T001&amp;prodId=MOME&amp;retrieveFormat=MULTIPAGE_DOCUMENT&amp;docId=U3601564089&amp;currentPosition=0&amp;userGroupName=nsub&amp;docLevel=FASCIMILE&amp;resultListType=RESULT_LIST&amp;inPS=true&amp;scale=0.33&amp;currentPosition=0&amp;workId=19010099400112&amp;relevancePageBatch=U101564080&amp;contentSet=MOMEArticles&amp;callistoContentSet=MOMEArticles&amp;resultListType=RESULT_LIST&amp;reformatPage=N&amp;retrieveFormat=MULTIPAGE_DOCUMENT&amp;scale=0.33&amp;orientation=&amp;lastPageIndex=10&amp;showLOI=&amp;quickSearchTerm=&amp;stwFuzzy=&amp;forRelevantNavigation=true&amp;pageNumber=163</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://find.galegroup.com/mome/retrieve.do?tabID=T001&amp;prodId=MOME&amp;retrieveFormat=MULTIPAGE_DOCUMENT&amp;docId=U3601564089&amp;currentPosition=0&amp;userGroupName=nsub&amp;docLevel=FASCIMILE&amp;resultListType=RESULT_LIST&amp;inPS=true&amp;scale=0.33&amp;currentPosition=0&amp;workId=19010099400112&amp;relevancePageBatch=U101564080&amp;contentSet=MOMEArticles&amp;callistoContentSet=MOMEArticles&amp;resultListType=RESULT_LIST&amp;reformatPage=N&amp;retrieveFormat=MULTIPAGE_DOCUMENT&amp;scale=0.33&amp;orientation=&amp;lastPageIndex=10&amp;showLOI=&amp;quickSearchTerm=&amp;stwFuzzy=&amp;forRelevantNavigation=true&amp;pageNumber=163">Dict. encycl. Art. Pate.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Mariette p. 209 sq.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/item/buchseite/230865</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://arachne.uni-koeln.de/item/buchseite/230865">Mariette
+                            p. 209 sq.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Winkelmann Catalog des Stoschischen Cabinets.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/books/Winckelmann1760a</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://arachne.uni-koeln.de/books/Winckelmann1760a">Winkelmann Catalog des Stoschischen Cabinets.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+</tags>

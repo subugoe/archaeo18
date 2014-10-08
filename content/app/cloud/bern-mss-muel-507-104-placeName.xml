@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Ellás</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=1000074</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:1000074">Griechenland<addName type="display">Ellás</addName>
+            <addName>Ellás</addName>
+            <addName>Ellas</addName>
+            <addName>Ellinikí Dimokratía</addName>
+            <addName>Elliniki Dimokratia</addName>
+            <addName>Elliniki Dhimokratia</addName>
+            <addName>Greece</addName>
+            <addName>Hellenic Republic</addName>
+            <addName>Grèce</addName>
+            <addName>République hellénique</addName>
+            <addName>Griechenland</addName>
+            <addName>Grecia</addName>
+            <addName>Griekenland</addName>
+            <addName>Grécia</addName>
+            <addName>GRC</addName>
+            <addName>GR</addName>
+            <addName>ISO300</addName>
+            <addName>GR00</addName>
+            <addName>Kingdom of Greece</addName>
+            <addName>Hellas</addName>
+            <addName>Greek</addName>
+            <addName>Hellenic</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Asia</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=1000004</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:1000004">Asien<addName type="display">Asia</addName>
+            <addName>Asia</addName>
+            <addName>Asie</addName>
+            <addName>Asien</addName>
+            <addName>Azië</addName>
+            <addName>Asian</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Anzio</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7015535</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7015535">Antium<addName type="display">Anzio</addName>
+            <addName>Anzio</addName>
+            <addName>Porto d'Anzio</addName>
+            <addName>Antium</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+</tags>

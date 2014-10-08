@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Döll, Friedrich Wilhelm</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00559296</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00559296"
+                   key="#PND:119560100">Döll<addName type="display">Döll, Friedrich Wilhelm</addName>
+            <addName>Friedrich Wilhelm Döll</addName>
+            <addName>Friedrich Wilhelm Doell</addName>
+            <addName>Doell</addName>
+            <addName>Friedrich Wilhelm Eugen Döll</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Cellini, Benvenuto</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01232872</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01232872"
+                   key="#PND:118519875">Cellini<addName type="display">Cellini, Benvenuto</addName>
+            <addName>Benvenuto Cellini</addName>
+            <addName>Beneventino Allirio</addName>
+            <addName>Allirio</addName>
+            <addName>Benevenuto Cellini</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pacetti, Vicenzo</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00568214</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00568214"
+                   key="#PND:122154312">Pacetti<addName type="display">Pacetti, Vicenzo</addName>
+            <addName>Vicenzo Pacetti</addName>
+            <addName>Vincenzo Pacetti</addName>
+            <addName>Paceppi</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Mithras</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300347</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300347">Mythres<addName type="display">Mithras</addName>
+            <addName>Mythres</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

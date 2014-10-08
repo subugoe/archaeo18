@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-523.tei.xml-d2905e22">Cachet de Michel Ange</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Perseus</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-523.tei.xml-d2905e183">
+            <TEI:persName ref="#CerlID:cnp00588989" key="#PND:118790455">Perseus<addName type="display">Perseus</addName>
+            </TEI:persName> in den Lippertschen Vasten</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Orpheus</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-523.tei.xml-d2905e231">
+            <TEI:persName ref="#CerlID:cnp00931153" key="#PND:118590278">Orpheus<addName type="display">Orpheus</addName>
+               <addName>Orfeo</addName>
+               <addName>Orfeus</addName>
+               <addName>Orpée</addName>
+               <addName>Orphée</addName>
+               <addName>Orphas</addName>
+               <addName>Orphée</addName>
+               <addName>Orpheus Dichter</addName>
+               <addName>Orpheus Legendary Poet</addName>
+               <addName>Orpheus Paradoxographus</addName>
+               <addName>Orpheus Sänger</addName>
+               <addName>Orpheus von Kroton</addName>
+            </TEI:persName> beim Graf Einsiedel</TEI:term>
+      </nodes>
+   </tag>
+</tags>

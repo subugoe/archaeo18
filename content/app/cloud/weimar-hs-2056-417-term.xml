@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-417.tei.xml-d4323e131">Fußboden in 
+                                                            seinem Zelte</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Hieron (Syrakus, Tyrann, II.)</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-417.tei.xml-d4323e140">der in dem großen Schife des <persName ref="#CerlID:cnp00585734" key="#PND:118704672">Königs Hiero<addName type="display">Hieron (Syrakus, Tyrann, II.)</addName>
+               <addName>Hiero König</addName>
+               <addName>Hiero</addName>
+               <addName>Hieron Syrakus, König</addName>
+               <addName>Hieronymus Syrakus, Tyrann, II.</addName>
+               <addName>Hieronymus</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pilatus, Pontius</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-417.tei.xml-d4323e181">die λιδοσρατα im Hauße des <persName ref="#CerlID:cnp00589068" key="#PND:118792172">Pilatus<addName type="display">Pilatus, Pontius</addName>
+               <addName>Pontius Pilatus</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+</tags>

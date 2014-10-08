@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Traianus, Marcus Ulpius</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/bauwerk/2100074</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/bauwerk/2100074">Basreliefs des <TEI:persName ref="#CerlID:cnp00917510" key="#PND:118623567">Traians<addName type="display">Traianus, Marcus Ulpius</addName>
+               <addName>Marcus Ulpius Traianus</addName>
+               <addName>Traian</addName>
+               <addName>Traiano Imperatore</addName>
+               <addName>Traiano</addName>
+               <addName>Marcus U. Traianus</addName>
+               <addName>Traianus Epigrammaticus</addName>
+               <addName>Traianus Imperator</addName>
+               <addName>Traianus Romanus</addName>
+               <addName>Trajan Kaiser</addName>
+               <addName>Trajan Plinius-Korrespondent</addName>
+               <addName>Trajanus</addName>
+               <addName>Trajanus Imperator</addName>
+               <addName>Trajanus Imperium Romanum, Imperator</addName>
+               <addName>Ulpius Traianus</addName>
+               <addName>Ulpius</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/bauwerk/2100269 http://arachne.uni-koeln.de/item/bauwerk/2100180</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/bauwerk/2100269 #http://arachne.uni-koeln.de/item/bauwerk/2100180">solche Triumf Bogen</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>BeneventoTraianus, Marcus Ulpius</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:152232 http://arachne.uni-koeln.de/item/bauwerk/2100246</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CensusID:152232 #http://arachne.uni-koeln.de/item/bauwerk/2100246">zu <TEI:placeName ref="#GettyID:7004393">Benevent<addName type="display">Benevento</addName>
+               <addName>Benevento</addName>
+               <addName>Beneventum</addName>
+               <addName>Maleventum</addName>
+               <addName>Maloenton</addName>
+               <addName>Maluentum</addName>
+               <addName>Malies</addName>
+               <addName>Colonia Iulia Concordia Augusta Felix Beneventum</addName>
+            </TEI:placeName> ist einer zu Ehren <TEI:persName ref="#CerlID:cnp00917510" key="#PND:118623567">Trayans<addName type="display">Traianus, Marcus Ulpius</addName>
+               <addName>Marcus Ulpius Traianus</addName>
+               <addName>Traian</addName>
+               <addName>Traiano Imperatore</addName>
+               <addName>Traiano</addName>
+               <addName>Marcus U. Traianus</addName>
+               <addName>Traianus Epigrammaticus</addName>
+               <addName>Traianus Imperator</addName>
+               <addName>Traianus Romanus</addName>
+               <addName>Trajan Kaiser</addName>
+               <addName>Trajan Plinius-Korrespondent</addName>
+               <addName>Trajanus</addName>
+               <addName>Trajanus Imperator</addName>
+               <addName>Trajanus Imperium Romanum, Imperator</addName>
+               <addName>Ulpius Traianus</addName>
+               <addName>Ulpius</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Titus (Imperium Romanum, Imperator)</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/bauwerk/2105614</link>
+      <count>4</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/bauwerk/2105614">Thermen des <TEI:persName ref="#CerlID:cnp00396707" key="#PND:118622951">Titus<addName type="display">Titus (Imperium Romanum, Imperator)</addName>
+               <addName>Flavius Vespasianus Titus</addName>
+               <addName>Titus Flavius Vespasianus</addName>
+               <addName>Flavius Vespasianus</addName>
+               <addName>Titus Vespasianus Augustus</addName>
+               <addName>Titus Vespasianus</addName>
+               <addName>Titus Imperator</addName>
+               <addName>Titus Römisches Reich, Kaiser</addName>
+               <addName>Titus Romanus</addName>
+               <addName>Vespasianus</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Laokoon</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:219823 http://arachne.uni-koeln.de/item/objekt/146910 http://arachne.uni-koeln.de/item/objekt/146912 http://arachne.uni-koeln.de/item/objekt/146913 http://arachne.uni-koeln.de/item/gruppen/400123</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CensusID:219823 #http://arachne.uni-koeln.de/item/objekt/146910 #http://arachne.uni-koeln.de/item/objekt/146912 #http://arachne.uni-koeln.de/item/objekt/146913 #http://arachne.uni-koeln.de/item/gruppen/400123">
+            <TEI:persName ref="#CerlID:cnp00556829" key="#PND:118569651">Laocoon<addName type="display">Laokoon</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+</tags>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>H. Henninges Theatrum genealogicum. Magdeb: 1598. VI. Tom: Fol.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://www.zvdd.de/dms/load/met/?PPN=urn%3Anbn%3Ade%3Abvb%3A12-bsb10143208-2</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://www.zvdd.de/dms/load/met/?PPN=urn%3Anbn%3Ade%3Abvb%3A12-bsb10143208-2">H. Henninges Theatrum 
+                    genealogicum. Magdeb: 1598. VI. Tom: Fol.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Reineri Reineccii Historia Julia Helmst : 1594. 3. B. Fol.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://opac.sub.uni-goettingen.de/DB=1/PPNSET?PPN=172154626</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://opac.sub.uni-goettingen.de/DB=1/PPNSET?PPN=172154626">Reineri Reineccii Historia Julia Helmst : 
+                    1594. 3. B. Fol.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Bianchini Istoria universale</tag>
+      <facet>tei:bibl</facet>
+      <link>http://www.archive.org/details/laistoriauniver00biangoog</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://www.archive.org/details/laistoriauniver00biangoog">Bianchini Istoria universale</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Baudeloft d´Avival de l´utilité des Voyages. Paris 1686.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN636407608</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN636407608">Baudeloft d´Avival de l´utilité 
+                    des Voyages. Paris 1686.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Rouen 1727. 8. I.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://www.zvdd.de/dms/load/met/?PPN=urn%3Anbn%3Ade%3Abvb%3A12-bsb10468925-8</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://www.zvdd.de/dms/load/met/?PPN=urn%3Anbn%3Ade%3Abvb%3A12-bsb10468925-8">Rouen 1727. 8. I.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>II.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://www.zvdd.de/dms/load/met/?PPN=urn%3Anbn%3Ade%3Abvb%3A12-bsb10468926-3</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://www.zvdd.de/dms/load/met/?PPN=urn%3Anbn%3Ade%3Abvb%3A12-bsb10468926-3">II.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Movier Histoire beaux arts. Paris1689.1698. 8</tag>
+      <facet>tei:bibl</facet>
+      <link>http://visualiseur.bnf.fr/CadresFenetre?O=NUMM-74873&amp;I=3&amp;M=tdm</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://visualiseur.bnf.fr/CadresFenetre?O=NUMM-74873&amp;I=3&amp;M=tdm">Movier Histoire beaux arts. Paris1689.1698. 8</ref>
+         </bibl>
+      </nodes>
+   </tag>
+</tags>

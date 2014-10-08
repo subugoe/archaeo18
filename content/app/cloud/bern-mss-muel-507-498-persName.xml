@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Engelhard, Daniel (Steinschneider)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01427497</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01427497">Daniel Engelhard<addName type="display">Engelhard, Daniel (Steinschneider)</addName>
+            <addName>Daniel Engelhard</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Rodolphe (II, empereur germanique)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00396342</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00396342"
+                       key="#PND:118603701">Rudolph II.<addName type="display">Rodolphe (II, empereur germanique)</addName>
+            <addName>Rudolf von Habsburg</addName>
+            <addName>Rodolphe de Habsbourg</addName>
+            <addName>Habsbourg</addName>
+            <addName>Rodolphe archiduc d'Autriche</addName>
+            <addName>Rodolphe II roi de Bohême</addName>
+            <addName>Rodolphe roi de Bohême</addName>
+            <addName>Rodolphe roi de Hongrie</addName>
+            <addName>Rodolphe V archiduc d'Autriche</addName>
+            <addName>Rudolf archiduc d'Autriche</addName>
+            <addName>Rudolf II empereur germanique</addName>
+            <addName>Rudolf II roi de Bohême</addName>
+            <addName>Rudolf roi de Bohême</addName>
+            <addName>Rudolf roi de Hongrie</addName>
+            <addName>Rudolf V archiduc d'Autriche</addName>
+            <addName>Rudolphus II empereur germanique</addName>
+            <addName>Rudolphus</addName>
+            <addName>Rudolf Habsburg</addName>
+            <addName>Habsburg, Rudolf II.</addName>
+            <addName>Rudolph Habsburg</addName>
+            <addName>Habsburg, Rudolph II.</addName>
+            <addName>Kaiser Rudolf II.</addName>
+            <addName>Kayser Rudolphi II</addName>
+            <addName>Rodolfo Cesare</addName>
+            <addName>Rodolfo</addName>
+            <addName>Rodolphe II</addName>
+            <addName>Rodolphus Germania, Imperator</addName>
+            <addName>Rodolphus</addName>
+            <addName>Rodolphus Romanorum, Imperator, II.</addName>
+            <addName>Rudolf Böhmen, König</addName>
+            <addName>Rudolf II Habsburg</addName>
+            <addName>Rudolf II Römischer Kaiser 1552-1612.</addName>
+            <addName>Rudolf Österreich, Erzherzog</addName>
+            <addName>Rudolf Ungarn, König</addName>
+            <addName>Rudolff der Ander</addName>
+            <addName>Rudolff Römisch-Deutsches Reich, Kaiser, II.</addName>
+            <addName>Rudolff</addName>
+            <addName>Rudolph Römisch-Deutsches Reich, Kaiser, II.</addName>
+            <addName>Rudolph</addName>
+            <addName>Rudolphus II Caesar</addName>
+            <addName>Rudolphus rex Ungariae</addName>
+            <addName>Rudolphus Caesar, II.</addName>
+            <addName>Rudolphus Germania, Imperator, II.</addName>
+            <addName>Rudolphus Imperator Romanus, II.</addName>
+            <addName>Rudolphus Imperator, II.</addName>
+            <addName>Rudolphus Imperium Romano-Germanicum, Imperator, II.</addName>
+            <addName>Rudolphus Kaiser, II.</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Dorsch, Christoph</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00569991</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00569991"
+                       key="#PND:122496523">Christoph
+            
+                    
+          Dorsch<addName type="display">Dorsch, Christoph</addName>
+            <addName>Christoph Dorsch</addName>
+            <addName>Johann Christoph Dorsch</addName>
+            <addName>Christophorus Dorscheus</addName>
+            <addName>Dorscheus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-498.tei.xml-d8833e228">Oenemeyer</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Preißler, Susanna Maria</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00568947</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00568947"
+                       key="#PND:122320964">Susanna Maria<addName type="display">Preißler, Susanna Maria</addName>
+            <addName>Susanna Maria Preißler</addName>
+            <addName>Johanna Maria Dorsch</addName>
+            <addName>Dorsch</addName>
+            <addName>Susanna Maria Dorsch</addName>
+            <addName>Susanne Maria Dorsch</addName>
+            <addName>Susanna Maria Graff</addName>
+            <addName>Graff</addName>
+            <addName>Susanna Maria Preisler</addName>
+            <addName>Preisler</addName>
+            <addName>Susanne Maria Preisler</addName>
+            <addName>Susanna Mar. Preissler</addName>
+            <addName>Preissler</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Preißler, Johann Daniel</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00385739</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00385739"
+                       key="#PND:116282061">Preißler<addName type="display">Preißler, Johann Daniel</addName>
+            <addName>Johann Daniel Preißler</addName>
+            <addName>Johann Daniel Preisler</addName>
+            <addName>Preisler</addName>
+            <addName>Iohann Daniel Preisler</addName>
+            <addName>Johann D. Preisler</addName>
+            <addName>Iohann Daniel Preissler</addName>
+            <addName>Preissler</addName>
+            <addName>Preißler</addName>
+            <addName>J. D. Preißler</addName>
+            <addName>Johann D. Preißler</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Natter, Johann Laurent</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00920062</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00920062"
+                       key="#PND:118738143">Lorenz Natter<addName type="display">Natter, Johann Laurent</addName>
+            <addName>Johann Laurent Natter</addName>
+            <addName>Johann Lorenz Natter</addName>
+            <addName>Laurent Natter</addName>
+            <addName>Lorenz Natter</addName>
+            <addName>Johann L. Natter</addName>
+            <addName>Johann Laurenz Natter</addName>
+            <addName>Laurentius Natter</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Stosch, Philipp von</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00391048</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00391048"
+                       key="#PND:117673870">Stosch<addName type="display">Stosch, Philipp von</addName>
+            <addName>Philipp von Stosch</addName>
+            <addName>Filippo De Stosch</addName>
+            <addName>De Stosch</addName>
+            <addName>Filippo de Stosch</addName>
+            <addName>Philippe de Stosch</addName>
+            <addName>Filipp de Stosch</addName>
+            <addName>Philippus Stosch</addName>
+            <addName>Philippus de Stosch</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pichler, Johann Anton</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00533067</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00533067"
+                       key="#PND:129181854">Anton Bichler<addName type="display">Pichler, Johann Anton</addName>
+            <addName>Johann Anton Pichler</addName>
+            <addName>J.A. Pichler</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>FrancePhilipp (Frankreich, Regent)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01101264</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01101264"
+                       key="#PND:118820214">Regent von <TEI:placeName ref="#GettyID:1000070">Franckreich<addName type="display">France</addName>
+               <addName>France</addName>
+               <addName>République française</addName>
+               <addName>République Française</addName>
+               <addName>French Republic</addName>
+               <addName>Francia</addName>
+               <addName>Frankreich</addName>
+               <addName>Frankrijk</addName>
+               <addName>França</addName>
+               <addName>FRA</addName>
+               <addName>FR</addName>
+               <addName>ISO250</addName>
+               <addName>FR00</addName>
+               <addName>Gaule</addName>
+               <addName>Gaul</addName>
+               <addName>Gallia</addName>
+               <addName>French</addName>
+            </TEI:placeName>
+            <addName type="display">Philipp (Frankreich, Regent)</addName>
+            <addName>Herzog von Orleans</addName>
+            <addName>Philippe d' Orléans</addName>
+            <addName>Orléans</addName>
+            <addName>Philippe d' Orléans</addName>
+            <addName>Orléans, Philippe d' 1674-1723</addName>
+            <addName>Orléans</addName>
+            <addName>Philipp Orléans, Herzog, II.</addName>
+            <addName>Philippe de Bourbon</addName>
+            <addName>Philippe d'Orléans</addName>
+            <addName>Philippe Frankreich, Prinz, II.</addName>
+            <addName>Philippe le Régent</addName>
+            <addName>Philippe Orléans</addName>
+            <addName>Philippe Orléans, Duc, II.</addName>
+            <addName>Philippe Orléans, Duc, II</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Homberg, Wilhelm</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00449676</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00449676"
+                       key="#PND:122149335">Hom-
+                berg<addName type="display">Homberg, Wilhelm</addName>
+            <addName>Wilhelm Homberg</addName>
+            <addName>Wilhelmus Homberg</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

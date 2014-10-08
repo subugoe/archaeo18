@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Pontos</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7029624</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7029624">Pontus<addName type="display">Pontos</addName>
+            <addName>Pontos</addName>
+            <addName>Pontus</addName>
+            <addName>Pontian</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Baʻlabakk</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7002856</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7002856">Balbek<addName type="display">Baʻlabakk</addName>
+            <addName>Baʻlabakk</addName>
+            <addName>Ba'labakk</addName>
+            <addName>Balabakk</addName>
+            <addName>Baalbek</addName>
+            <addName>Baʻalbek</addName>
+            <addName>Heliopolis</addName>
+            <addName>Heliopolis Syriae</addName>
+            <addName>Colonia Iulia Augusta Felix Heliopolis</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Palmyra</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7018835</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7018835">Palmyra<addName type="display">Palmyra</addName>
+            <addName>Palmyra</addName>
+            <addName>Palmyre</addName>
+            <addName>Tadmur</addName>
+            <addName>Tadmor</addName>
+            <addName>Tamar</addName>
+            <addName>Tabmur</addName>
+            <addName>Tedmor</addName>
+            <addName>Tudmur</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+</tags>

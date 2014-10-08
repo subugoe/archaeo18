@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Osservazioni sopra alcuni fram- menti di Vasi antichi di Vetro ornati di figure trovati nel Cimetrio di Roma du Fil Buonarotti. Fir. 1716. 4.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://www.zvdd.de/dms/load/met/?PPN=urn%3Anbn%3Ade%3Abvb%3A12-bsb10221743-6</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://www.zvdd.de/dms/load/met/?PPN=urn%3Anbn%3Ade%3Abvb%3A12-bsb10221743-6">Osservazioni sopra alcuni fram- 
+                                menti di Vasi antichi di Vetro ornati di 
+                                figure trovati nel Cimetrio di Roma du 
+                                Fil Buonarotti. Fir. 1716. 4.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>XXXVI. 44.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://d-nb.info/gnd/4196444-5</link>
+      <count>6</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://d-nb.info/gnd/4196444-5">XXXVI. 44.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+</tags>

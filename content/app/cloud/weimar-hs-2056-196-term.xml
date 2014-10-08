@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Roma</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-196.tei.xml-d11611e19">Das Natürlichste ist von <placeName ref="#GettyID:7000874">Rom<addName type="display">Roma</addName>
+               <addName>Roma</addName>
+               <addName>Urbe</addName>
+               <addName>Rome</addName>
+               <addName>Rom</addName>
+               <addName>Roman</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:151259 http://arachne.uni-koeln.de/item/bauwerk/2100061</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:151259 #http://arachne.uni-koeln.de/item/bauwerk/2100061">Die Engelsburg, auf dem Grund der Molis Hadriani erbauet</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000466</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000466">Palazzo Vaticano</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://census.bbaw.de/easydb/censusID=151080</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0" ref="#CensusID:151080">grose Obeliscus</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/bauwerk/2100311</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/bauwerk/2100311">Belvedere</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Laokoon</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:219823 http://arachne.uni-koeln.de/item/gruppen/400123 http://arachne.uni-koeln.de/item/objekt/146910 http://arachne.uni-koeln.de/item/objekt/146912 http://arachne.uni-koeln.de/item/objekt/146913</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:219823 #http://arachne.uni-koeln.de/item/gruppen/400123 #http://arachne.uni-koeln.de/item/objekt/146910 #http://arachne.uni-koeln.de/item/objekt/146912 #http://arachne.uni-koeln.de/item/objekt/146913">
+            <persName ref="#CerlID:cnp00556829" key="#PND:118569651">Laokoon<addName type="display">Laokoon</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Apollon</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:150779 http://arachne.uni-koeln.de/item/objekt/19437</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:150779 #http://arachne.uni-koeln.de/item/objekt/19437">
+            <persName ref="#CerlID:cnp00542641" key="#PND:118503642">Apoll<addName type="display">Apollon</addName>
+               <addName>Apoll</addName>
+               <addName>Apollo</addName>
+               <addName>Phoebus</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Commodus (Imperium Romanum, Imperator)HeraklesAntaios</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/gruppen/400141 http://arachne.uni-koeln.de/item/objekt/6569 http://arachne.uni-koeln.de/item/objekt/6570</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/gruppen/400141 #http://arachne.uni-koeln.de/item/objekt/6569 #http://arachne.uni-koeln.de/item/objekt/6570">
+            <persName ref="#CerlID:cnp00394493" key="#PND:118521713">Commodus<addName type="display">Commodus (Imperium Romanum, Imperator)</addName>
+               <addName>Commodus Imperator</addName>
+               <addName>Lucius Aelius Aurelius Gaius Augustus Imperator Caesar</addName>
+               <addName>Lucius Aelius Aurelius Gaius Augustus</addName>
+               <addName>Marcus Aurelius Gaius Antoninus</addName>
+               <addName>Marcus Aurelius Gaius Antoninus Augustus Imperator Caesar</addName>
+               <addName>Marcus Aurelius Gaius Antoninus Augustus</addName>
+            </persName> als <persName ref="#CerlID:cnp00574918" key="#PND:118639552">Hercules<addName type="display">Herakles</addName>
+               <addName>Ercole</addName>
+               <addName>Heracles</addName>
+               <addName>Hercules</addName>
+               <addName>Herkules</addName>
+            </persName> mit dem <persName ref="#CerlID:cnp01288192">Antæus<addName type="display">Antaios</addName>
+               <addName>Antaeus</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Antinous</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:151514 http://arachne.uni-koeln.de/item/objekt/19443</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:151514 #http://arachne.uni-koeln.de/item/objekt/19443">
+            <persName ref="#CerlID:cnp00578329" key="#PND:118649639">Antinous<addName type="display">Antinous</addName>
+               <addName>Antinoos</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Kleopatra (Ägypten, Königin, VII.)</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:152103 http://arachne.uni-koeln.de/item/objekt/21171</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:152103 #http://arachne.uni-koeln.de/item/objekt/21171">
+            <persName ref="#CerlID:cnp00395483" key="#PND:11856322X">Cleopatra<addName type="display">Kleopatra (Ägypten, Königin, VII.)</addName>
+               <addName>Cleopatra Ägypten, Königin, VII.</addName>
+               <addName>Cleopatra</addName>
+               <addName>Cleopatra die Grosse</addName>
+               <addName>Cleopatra Medica</addName>
+               <addName>Cleopatra Philopator, VII.</addName>
+               <addName>Cleopatra Ptolemais, Regina, VII.</addName>
+               <addName>Kleopatra die Grosse</addName>
+               <addName>Kleopatra Königin der Ptolemaier, VII.</addName>
+               <addName>Kleopatra Philopator</addName>
+               <addName>Kleopatra Tochter des Ptolemaios XII.</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Nīl, Nahr an-</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/19520</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/19520">
+            <placeName ref="#GettyID:1127805">Nil<addName type="display">Nīl, Nahr an-</addName>
+               <addName>Nīl, Nahr an-</addName>
+               <addName>Nahr an-Nīl</addName>
+               <addName>Baẖr an-Nil</addName>
+               <addName>Al-Bahr</addName>
+               <addName>Nile</addName>
+               <addName>Nile River</addName>
+               <addName>Nil</addName>
+               <addName>Nilo</addName>
+               <addName>Nijl</addName>
+               <addName>Nilus</addName>
+               <addName>Aigyptos</addName>
+               <addName>Neilos</addName>
+               <addName>Iaro</addName>
+               <addName>Ar</addName>
+               <addName>Aur</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/21138</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/21138">Tiber</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000358</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000358">Campidiglio</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-196.tei.xml-d11611e706">zwey Löwen aus schwärtzlichem Marmor</term>
+      </nodes>
+   </tag>
+</tags>

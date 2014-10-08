@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Philipp (Makedonien, König, II.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00396112</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00396112"
+                   key="#PND:118593838">Philipp<addName type="display">Philipp (Makedonien, König, II.)</addName>
+            <addName>Philipp Mazedonien, König, II.</addName>
+            <addName>Philipp von Makedonien</addName>
+            <addName>Philippe Macédonie, Roi, II.</addName>
+            <addName>Philippe</addName>
+            <addName>Philippos König der Makedonen, II.</addName>
+            <addName>Philippos</addName>
+            <addName>Philippus Epistolographus</addName>
+            <addName>Philippus</addName>
+            <addName>Philippus Macedonia, Rex, II.</addName>
+            <addName>Philippus Macedoniae Rex, II.</addName>
+            <addName>Philippus Macedonius</addName>
+            <addName>Philippus Makedonien, König, II.</addName>
+            <addName>Philippus Mazedonien, König, II.</addName>
+            <addName>Philippus Rex Macedonum, II.</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

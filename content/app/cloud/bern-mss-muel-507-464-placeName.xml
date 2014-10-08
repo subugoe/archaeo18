@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Ródos, Nísos</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7011266</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7011266">Rhodus<addName type="display">Ródos, Nísos</addName>
+            <addName>Ródos, Nísos</addName>
+            <addName>Ródhos</addName>
+            <addName>Rodhos</addName>
+            <addName>Rodos</addName>
+            <addName>Rhodos</addName>
+            <addName>Rodi</addName>
+            <addName>Rodas</addName>
+            <addName>Rhodes</addName>
+            <addName>Ródhos island</addName>
+            <addName>Rhodus</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Maggiore, Lago</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7006062</link>
+      <count>4</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7006062">Lago Magiore<addName type="display">Maggiore, Lago</addName>
+            <addName>Maggiore, Lago</addName>
+            <addName>Lago Maggiore</addName>
+            <addName>Maggiore, Lake</addName>
+            <addName>Lake Maggiore</addName>
+            <addName>Verbano, Lago</addName>
+            <addName>Verbano, Lake</addName>
+            <addName>Lake Verbano</addName>
+            <addName>Lacus Verbanus</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Milano</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7005903</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7005903">Mailand<addName type="display">Milano</addName>
+            <addName>Milano</addName>
+            <addName>Milan</addName>
+            <addName>Mailand</addName>
+            <addName>Milanese</addName>
+            <addName>Mediolanum</addName>
+            <addName>Mediolanium</addName>
+            <addName>Mediolanum Insubrum</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Kassel</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7004431</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7004431">Cassel<addName type="display">Kassel</addName>
+            <addName>Kassel</addName>
+            <addName>Cassel</addName>
+            <addName>Casle</addName>
+            <addName>Chassala</addName>
+            <addName>Chassela</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Roma</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7000874</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7000874">Rom<addName type="display">Roma</addName>
+            <addName>Roma</addName>
+            <addName>Urbe</addName>
+            <addName>Rome</addName>
+            <addName>Rom</addName>
+            <addName>Roman</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+</tags>

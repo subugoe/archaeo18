@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Wallmoden-Gimborn, Johann Ludwig ¬von¬</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00664371</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00664371"
+                   key="#PND:130253219">
+            <term ref="#CensusID:100018516">Wallmoden</term>
+            <addName type="display">Wallmoden-Gimborn, Johann Ludwig ¬von¬</addName>
+            <addName>Johann Ludwig von Wallmoden-Gimborn</addName>
+            <addName>Johann L. von Gimborn</addName>
+            <addName>Gimborn</addName>
+            <addName>Johann Ludwig Gimborn</addName>
+            <addName>Johann Ludwig von Wallmoden- Gimborn</addName>
+            <addName>Ludwig von Wallmoden- Gimborn</addName>
+            <addName>Johann Ludwig von Wallmoden</addName>
+            <addName>Wallmoden</addName>
+            <addName>Johann L. von Wallmoden-Gimborn</addName>
+            <addName>Ludwig von Wallmoden-Gimborn</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Dioskurides</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300274</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300274">Dioscorides<addName type="display">Dioskurides</addName>
+            <addName>Dioscorides</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Medici (Familie)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00586758</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00586758"
+                   key="#PND:118732455">Medicis<addName type="display">Medici (Familie)</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Belli, Valerio</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00571292</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00571292"
+                   key="#PND:122739531">Valerio von Vicenza<addName type="display">Belli, Valerio</addName>
+            <addName>Valerio Belli</addName>
+            <addName>Valerio Belli Vicentino</addName>
+            <addName>Belli Vicentino</addName>
+            <addName>Vicentino</addName>
+            <addName>Valerio Vicentino</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>delle Carniuole , Giovanni</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01303734</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01303734">Joh. Carricagliole<addName type="display">delle Carniuole , Giovanni</addName>
+            <addName>Giovanni delle Carniuole</addName>
+            <addName>Joh. Carricagliole</addName>
+            <addName>Carricagliole</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Compagnie dei Camei , Domenico</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300275</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300275">Diomenico
+                                    delle Camei<addName type="display">Compagnie dei Camei , Domenico</addName>
+            <addName>Domenico Compagnie dei Camei</addName>
+            <addName>de Lamei</addName>
+            <addName>Diomenico delle Camei</addName>
+            <addName>Domenico de Carmei</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-221.tei.xml-d3437e156">Cinquecenti</persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Serbaldi , Pier Maria (da Pescia)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300367</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300367">Pierre
+                            Maria de Brescia<addName type="display">Serbaldi , Pier Maria (da Pescia)</addName>
+            <addName>Pier Maria Serbaldi</addName>
+            <addName>Pierre Maria de Brescia</addName>
+            <addName>Brescia</addName>
+            <addName>Pietro Maria di Pescia</addName>
+            <addName>Pescia</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Michel-Ange</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00559773</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00559773"
+                   key="#PND:118582143">Michel Angelo<addName type="display">Michel-Ange</addName>
+            <addName>Michel-Ange Bonaroti</addName>
+            <addName>Bonaroti</addName>
+            <addName>Michel Agnolo Buonarroti</addName>
+            <addName>Buonarroti</addName>
+            <addName>Michel-Ange Buonarroti</addName>
+            <addName>Michelagniolo Buonarroti</addName>
+            <addName>Angelo Bonaroti</addName>
+            <addName>Angelo</addName>
+            <addName>Michiel Angielo Bona Rotta</addName>
+            <addName>Bona Rotta</addName>
+            <addName>Michael Angelus Bonarota</addName>
+            <addName>Bonarota</addName>
+            <addName>Michel Angelo Bonarota</addName>
+            <addName>Michael Angelo Bonaroti</addName>
+            <addName>Michael̈ Angelo Bonaroti</addName>
+            <addName>Michel Angelo Bonaroti</addName>
+            <addName>Michele Angelo Bonaroti</addName>
+            <addName>Michiel Angelo Bonaroti</addName>
+            <addName>Michael Angelus Bonarotus</addName>
+            <addName>Bonarotus</addName>
+            <addName>Michel Angelo Bunaroti</addName>
+            <addName>Bunaroti</addName>
+            <addName>Michael Angelo Buonaroti</addName>
+            <addName>Buonaroti</addName>
+            <addName>Michel Angelo Buonaroti</addName>
+            <addName>Michelangelo Buonaroti</addName>
+            <addName>Michiel Angelo Buonaroti</addName>
+            <addName>Michel Angelo Buonarotti</addName>
+            <addName>Buonarotti</addName>
+            <addName>Michel-Angelo Buonarotti</addName>
+            <addName>Michelangelo Buonarotti</addName>
+            <addName>Michel Angelo Buonarroti</addName>
+            <addName>Michelagniolo di L. Buonarroti</addName>
+            <addName>Michelagnolo Buonarroti</addName>
+            <addName>Buonarroti, Michelangelo 1475-1564</addName>
+            <addName>Michelangiolo Buonarroti</addName>
+            <addName>Mikelandželo Buonarroti</addName>
+            <addName>Michel A. Buonarrotti</addName>
+            <addName>Buonarrotti</addName>
+            <addName>Michel Agnolo Buonarrotti</addName>
+            <addName>Michelagniolo Buonarrotti</addName>
+            <addName>Michelangelo Buonarrotti</addName>
+            <addName>Michelangiolo Buonarrotti</addName>
+            <addName>Michelagnolo Buonarruoti</addName>
+            <addName>Buonarruoti</addName>
+            <addName>L' Impastato</addName>
+            <addName>Impastato</addName>
+            <addName>L' Impostato</addName>
+            <addName>Impostato</addName>
+            <addName>L'Impastato</addName>
+            <addName>L'Impostato</addName>
+            <addName>Micchel-Angelo</addName>
+            <addName>Micha/l Anio/l</addName>
+            <addName>Michael Angelo</addName>
+            <addName>Michael Angelus</addName>
+            <addName>Michael-Angelo Buonaroti</addName>
+            <addName>Michael-Angelo</addName>
+            <addName>Michał Anioł</addName>
+            <addName>Michel Angelo</addName>
+            <addName>Michel Angelus Bonarotus</addName>
+            <addName>Michel Angelus</addName>
+            <addName>Michel Angielo Bona Rotta</addName>
+            <addName>Michelagelo Buonarroti</addName>
+            <addName>Michelagelo</addName>
+            <addName>Michelagniolo Buonaroti</addName>
+            <addName>Michelagniolo</addName>
+            <addName>Michelagniolo di Ludovico di Lionardo Buonarroti-Simoni</addName>
+            <addName>Michelagniolo di Ludovico di Lionardo di Buonarroti Simoni</addName>
+            <addName>Michelagnolo</addName>
+            <addName>Michelagnolo Buonarotti</addName>
+            <addName>Michelangelo</addName>
+            <addName>Buonarroti Michelangelo</addName>
+            <addName>Michelangelo Buonarroti 1475-1564</addName>
+            <addName>Michelangelus</addName>
+            <addName>Buonarroti Michelangiolo</addName>
+            <addName>Michelangiolo</addName>
+            <addName>Michiel Angielo</addName>
+            <addName>Miguel Angel</addName>
+            <addName>Mikel'andželo</addName>
+            <addName>Mikelandelo</addName>
+            <addName>Mikelandželo</addName>
+            <addName>Mikelandželo Buonarroti</addName>
+            <addName>Mikelandželo</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Cesati, Alessandro</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01232942</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01232942">Alessandro Cesari<addName type="display">Cesati, Alessandro</addName>
+            <addName>Alessandro Cesati</addName>
+            <addName>Alessandro detto il Greco Cesari</addName>
+            <addName>Cesari</addName>
+            <addName>Alessandro Cesari</addName>
+            <addName>Alessandro detto il Grechetto Cesati</addName>
+            <addName>Alessandro detto il Greco Cesati</addName>
+            <addName>Alessandro Cesati/Cesari</addName>
+            <addName>Cesati/Cesari</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Dorsch, Christoph</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00569991</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00569991"
+                   key="#PND:122496523">Dorsch<addName type="display">Dorsch, Christoph</addName>
+            <addName>Christoph Dorsch</addName>
+            <addName>Johann Christoph Dorsch</addName>
+            <addName>Christophorus Dorscheus</addName>
+            <addName>Dorscheus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Preißler, Barbara Helene</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01156599</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01156599"
+                   key="#PND:136642802">Preislers Tochter<addName type="display">Preißler, Barbara Helene</addName>
+            <addName>Barbara Helene Preißler</addName>
+            <addName>Barbara Helena Oeding</addName>
+            <addName>Oeding</addName>
+            <addName>Barbara Julia Oeding</addName>
+            <addName>Barbara Helena Preißler</addName>
+            <addName>Barbara Julia Preißler</addName>
+            <addName>Barbara Helena Preisler</addName>
+            <addName>Preisler</addName>
+            <addName>Barbara Helene Preisler</addName>
+            <addName>Barbara Julia Preisler</addName>
+            <addName>Barbara Helene Preissler</addName>
+            <addName>Preissler</addName>
+            <addName>Barbara Julia Preissler</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Christ, Johann Friedrich</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00156863</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00156863"
+                   key="#PND:10079114X">Prof. Christ<addName type="display">Christ, Johann Friedrich</addName>
+            <addName>Johann Friedrich Christ</addName>
+            <addName>Jean-Frédéric Christ</addName>
+            <addName>Johannes Fridericus Christ</addName>
+            <addName>Johannes Friedrich Christ</addName>
+            <addName>Joh. F. Christen</addName>
+            <addName>Christen</addName>
+            <addName>Joh. Frieder. Christen</addName>
+            <addName>Johann Friedrich Christen</addName>
+            <addName>Johannes Friedrich Christen</addName>
+            <addName>Iohannes Fridericus Christius</addName>
+            <addName>Christius</addName>
+            <addName>Joannes Fridericus Christius</addName>
+            <addName>Johann Friedrich Christius</addName>
+            <addName>Johannes Fridericus Christius</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Natter, Johann Laurent</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00920062</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00920062"
+                   key="#PND:118738143">Natter<addName type="display">Natter, Johann Laurent</addName>
+            <addName>Johann Laurent Natter</addName>
+            <addName>Johann Lorenz Natter</addName>
+            <addName>Laurent Natter</addName>
+            <addName>Lorenz Natter</addName>
+            <addName>Johann L. Natter</addName>
+            <addName>Johann Laurenz Natter</addName>
+            <addName>Laurentius Natter</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pichler, Johann Anton</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00533067</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00533067"
+                   key="#PND:129181854">Pichler aus Steyermark<addName type="display">Pichler, Johann Anton</addName>
+            <addName>Johann Anton Pichler</addName>
+            <addName>J.A. Pichler</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-221.tei.xml-d3437e966">Meiner</persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>France , Joseph de</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300267</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300267">Mr de France<addName type="display">France , Joseph de</addName>
+            <addName>Joseph de France</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Weber, Lorenz Maria</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300329</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300329">Weber<addName type="display">Weber, Lorenz Maria</addName>
+            <addName>Lorenz Maria Weber</addName>
+            <addName>Lorenz Weber</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

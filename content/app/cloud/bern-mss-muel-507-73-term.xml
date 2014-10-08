@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Pallaste Conti</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:10011039 http://arachne.uni-koeln.de/item/objekt/8267</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CensusID:10011039 #http://arachne.uni-koeln.de/item/objekt/8267">Anderer in <TEI:term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000372">Pallaste Conti</TEI:term>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000372</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/sammlungen/1000372">Pallaste Conti</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Villa Albani</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/rezeption/350289</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/rezeption/350289">Figur in <TEI:term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000297">Villa Albani</TEI:term>.</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000297</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/sammlungen/1000297">Villa Albani</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Villa Mattei</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-73.tei.xml-d11371e41">Schwangere Frau in der <TEI:term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000134">Villa Mattei</TEI:term>.</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000134</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/sammlungen/1000134">Villa Mattei</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>DianaPortici</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-73.tei.xml-d11371e52">
+            <TEI:persName ref="#CerlID:cnp00584638" key="#PND:118678132">Diana<addName type="display">Diana</addName>
+            </TEI:persName> zu <TEI:placeName ref="#GettyID:7006841">Portici<addName type="display">Portici</addName>
+               <addName>Portici</addName>
+            </TEI:placeName>.</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-73.tei.xml-d11371e78">Verstümmelte weibl: Figur.</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/6346</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/objekt/6346">Chimära in Bronze.</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:157791 http://arachne.uni-koeln.de/item/objekt/26117</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CensusID:157791 #http://arachne.uni-koeln.de/item/objekt/26117">Ara</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000358</link>
+      <count>4</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/sammlungen/1000358">Campidoglio</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:10011345 http://arachne.uni-koeln.de/item/objekt/39423</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CensusID:10011345 #http://arachne.uni-koeln.de/item/objekt/39423">Andere runde Ara</TEI:term>
+      </nodes>
+   </tag>
+</tags>

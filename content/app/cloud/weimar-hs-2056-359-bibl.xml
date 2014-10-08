@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Mariette I. 226.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/item/buchseite/230882</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://arachne.uni-koeln.de/item/buchseite/230882">Mariette I. 226.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Senec. ep: 19.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://d-nb.info/gnd/4203762-1</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://d-nb.info/gnd/4203762-1">Senec. ep: 19.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Mem. d´Acad. des Scienc. XII.</tag>
+      <facet>tei:bibl</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#">Mem. d´Acad. des 
+                                        Scienc. XII.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Mariette I. 209-229</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/item/buchseite/230865</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://arachne.uni-koeln.de/item/buchseite/230865">Mariette I. 209-229</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Dict: Encycl: art: pate.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://find.galegroup.com/mome/retrieve.do?tabID=T001&amp;prodId=MOME&amp;retrieveFormat=MULTIPAGE_DOCUMENT&amp;docId=U3601564089&amp;currentPosition=0&amp;userGroupName=nsub&amp;docLevel=FASCIMILE&amp;resultListType=RESULT_LIST&amp;inPS=true&amp;scale=0.33&amp;currentPosition=0&amp;workId=19010099400112&amp;relevancePageBatch=U101564080&amp;contentSet=MOMEArticles&amp;callistoContentSet=MOMEArticles&amp;resultListType=RESULT_LIST&amp;reformatPage=N&amp;retrieveFormat=MULTIPAGE_DOCUMENT&amp;scale=0.33&amp;orientation=&amp;lastPageIndex=10&amp;showLOI=&amp;quickSearchTerm=&amp;stwFuzzy=&amp;forRelevantNavigation=true&amp;pageNumber=163</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://find.galegroup.com/mome/retrieve.do?tabID=T001&amp;prodId=MOME&amp;retrieveFormat=MULTIPAGE_DOCUMENT&amp;docId=U3601564089&amp;currentPosition=0&amp;userGroupName=nsub&amp;docLevel=FASCIMILE&amp;resultListType=RESULT_LIST&amp;inPS=true&amp;scale=0.33&amp;currentPosition=0&amp;workId=19010099400112&amp;relevancePageBatch=U101564080&amp;contentSet=MOMEArticles&amp;callistoContentSet=MOMEArticles&amp;resultListType=RESULT_LIST&amp;reformatPage=N&amp;retrieveFormat=MULTIPAGE_DOCUMENT&amp;scale=0.33&amp;orientation=&amp;lastPageIndex=10&amp;showLOI=&amp;quickSearchTerm=&amp;stwFuzzy=&amp;forRelevantNavigation=true&amp;pageNumber=163">Dict: Encycl: art: pate.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+</tags>

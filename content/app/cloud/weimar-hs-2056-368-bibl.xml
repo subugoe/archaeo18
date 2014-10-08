@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Mariette I. 307.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/item/buchseite/230963</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://arachne.uni-koeln.de/item/buchseite/230963">Mariette I. 307.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>II. præf. 6.</tag>
+      <facet>tei:bibl</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#">II. præf. 6.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Baudelots utili- te de voyages</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN636407608</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN636407608">Baudelots utili- 
+                                            te de voyages</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Diss: de Ptolome Autletes. Dissert: sur une Pierre gravée antiq: du Cabinet de Madame Paris 1698.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN643796169</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN643796169">Diss: de Ptolome 
+                                            Autletes. Dissert: sur une Pierre gravée 
+                                            antiq: du Cabinet de Madame Paris 1698.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+</tags>

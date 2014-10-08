@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Nero (Imperium Romanum, Imperator)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00982828</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00982828"
+                       key="#PND:118586998">Nero<addName type="display">Nero (Imperium Romanum, Imperator)</addName>
+            <addName>Nero Claudius Caesar</addName>
+            <addName>Claudius Caesar</addName>
+            <addName>Claudius Nero</addName>
+            <addName>Claudius Nero Caesar</addName>
+            <addName>Domitius Ahenobarbus</addName>
+            <addName>Lucius Domitius Ahenobarbus Nero Claudius Caesar Augustus Germanicus</addName>
+            <addName>Néron Empereur</addName>
+            <addName>Néron</addName>
+            <addName>Néron Empereur</addName>
+            <addName>Néron</addName>
+            <addName>Nero Claudius</addName>
+            <addName>Nero Claudius Caesar Augustus Germanicus Imperator</addName>
+            <addName>Nero Claudius Caesar Augustus Germanicus</addName>
+            <addName>Nero Tiberius Claudius Imperator</addName>
+            <addName>Nero Tiberius Claudius</addName>
+            <addName>Claudius C. Nero</addName>
+            <addName>Nero Caesar</addName>
+            <addName>Nero Emperor of Rome</addName>
+            <addName>Nero Imperator</addName>
+            <addName>Nero Römisches Reich, Kaiser</addName>
+            <addName>Nero Römischer Kaiser</addName>
+            <addName>Nero Romanus</addName>
+            <addName>Klavdij Cezarʹ Neron</addName>
+            <addName>Neron</addName>
+            <addName>Neron Imperator Rismkij</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Cassius Dio Cocceianus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00547463</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00547463"
+                       key="#PND:118525824">Dio Cassius<addName type="display">Cassius Dio Cocceianus</addName>
+            <addName>Dio C. Cocceianus</addName>
+            <addName>Cocceianus</addName>
+            <addName>Casio Dion</addName>
+            <addName>Casio</addName>
+            <addName>Cassio Dione</addName>
+            <addName>Cassio</addName>
+            <addName>Dion Cassius</addName>
+            <addName>Cassius Dion</addName>
+            <addName>Cassius Historicus</addName>
+            <addName>Cassius Dio Historicus</addName>
+            <addName>Cassius Dio Historiker</addName>
+            <addName>Cassius Dio von Nikaia</addName>
+            <addName>Dionysius Cassius Nicaeus</addName>
+            <addName>Cassius Nicaeus</addName>
+            <addName>Cassius D. Cocceianus</addName>
+            <addName>Dio</addName>
+            <addName>Dio Cassius Cocceianus</addName>
+            <addName>Dio Cocceianus</addName>
+            <addName>Dion</addName>
+            <addName>Kassij Dion</addName>
+            <addName>Dion Casio</addName>
+            <addName>Dion Cassius Nicaeus</addName>
+            <addName>Dion Kassij</addName>
+            <addName>Dion Kassios</addName>
+            <addName>Dion Nicaeus</addName>
+            <addName>Dion Cassius Cocceianus</addName>
+            <addName>Dione Cassio</addName>
+            <addName>Dione</addName>
+            <addName>Dionysius Cassius</addName>
+            <addName>Cassius Dionysius Nicaeus</addName>
+            <addName>Dionysius Nicaeus</addName>
+            <addName>Kassij</addName>
+            <addName>Kassios</addName>
+            <addName>Kassios Dion</addName>
+            <addName>Philiscus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Barberini (Familie)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01098876</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01098876"
+                       key="#PND:132850303">Barberinische Päbste<addName type="display">Barberini (Familie)</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01234722 #cnp00398140</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01234722 #CerlID:cnp00398140">Cavalier Fon-
+                tana</TEI:persName>
+      </nodes>
+   </tag>
+</tags>

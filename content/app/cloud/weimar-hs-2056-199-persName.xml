@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Severus Alexander (Emperor of Rome)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00914937</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00914937"
+                   key="#PND:11861357X">Alexandri Severi<addName type="display">Severus Alexander (Emperor of Rome)</addName>
+            <addName>Marcus A. Alexander Severus</addName>
+            <addName>Alexander Severus</addName>
+            <addName>Marcus Aurelius Alexander Severus</addName>
+            <addName>Alexander Severus Emperor of Rome</addName>
+            <addName>Alexander Severus Imperium Romanum, Imperator</addName>
+            <addName>Alexander Severus Römisches Reich, Kaiser</addName>
+            <addName>Alexandrus Severus</addName>
+            <addName>Gessius B. Alexianus</addName>
+            <addName>Alexianus</addName>
+            <addName>Gessius Bassianus Alexianus</addName>
+            <addName>Marco Aurelio Severo Alessandro</addName>
+            <addName>Marcus Aurelius Severus Alexander</addName>
+            <addName>Alexander S. Marcus Aurelius</addName>
+            <addName>Marcus Aurelius</addName>
+            <addName>Severo Alessandro</addName>
+            <addName>Marcus A. Severus Alexander</addName>
+            <addName>Severus Alexander Imperium Romanum, Imperator</addName>
+            <addName>Severus Alexandrus</addName>
+            <addName>Severus</addName>
+            <addName>Severus Alexandrinus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Borghese, Scipione</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00582983</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00582983"
+                   key="#PND:118661809">Cardinal Scip. 
+                                   Borghese<addName type="display">Borghese, Scipione</addName>
+            <addName>Scipione Borghese</addName>
+            <addName>Scipione Caffarelli Borghese</addName>
+            <addName>Scipione Burghesius</addName>
+            <addName>Burghesius</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

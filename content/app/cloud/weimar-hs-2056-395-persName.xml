@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Bacchus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00579062</link>
+      <count>8</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00579062"
+                   key="#PND:118651439">Bachus<addName type="display">Bacchus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Mariette, Pierre Jean</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00464596</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00464596"
+                   key="#PND:123185823">Mariette<addName type="display">Mariette, Pierre Jean</addName>
+            <addName>Pierre Jean Mariette</addName>
+            <addName>Jean Pierre Mariette</addName>
+            <addName>P. J. Mariette</addName>
+            <addName>Pierre J. Mariette</addName>
+            <addName>Pierre-Jean Mariette</addName>
+            <addName>Pietro Mariette</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Baudelot de Dairval, Charles-César</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00367129</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00367129"
+                   key="#PND:104323450">Baudelot<addName type="display">Baudelot de Dairval, Charles-César</addName>
+            <addName>Charles-César Baudelot de Dairval</addName>
+            <addName>Baudelot de Dairval</addName>
+            <addName>Charles César Baudelot de Dairval</addName>
+            <addName>Charles César de Baudelot de Dairval</addName>
+            <addName>Charles-César de Baudelot de Dairval</addName>
+            <addName>Carolus Caesar Baudelot</addName>
+            <addName>Baudelot</addName>
+            <addName>Charles César Baudelot</addName>
+            <addName>Charles-César Baudelot</addName>
+            <addName>Dairval</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Theseus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00569362</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00569362"
+                   key="#PND:11862184X">Theseus<addName type="display">Theseus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Alexander (Magnus)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259691</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01259691"
+                   key="#PND:118501828">Alexanders<addName type="display">Alexander (Magnus)</addName>
+            <addName>Ałekʹsandr Makedonacʹi</addName>
+            <addName>Alejandro Magno</addName>
+            <addName>Alejandro</addName>
+            <addName>Aleksandr</addName>
+            <addName>Alessandro Magno</addName>
+            <addName>Alessandro</addName>
+            <addName>Alexander de Grote</addName>
+            <addName>Alexander der Große</addName>
+            <addName>Alexander der Grosse</addName>
+            <addName>Alexander Epistolographus</addName>
+            <addName>Alexander III 3 koning van Macedonië</addName>
+            <addName>Alexander Kaiser</addName>
+            <addName>Alexander Macedonia, Rex, III.</addName>
+            <addName>Alexander Macedonis</addName>
+            <addName>Alexander Mazedonien, König, III.</addName>
+            <addName>Alexander of Macedon</addName>
+            <addName>Alexander Rex</addName>
+            <addName>Alexandre le Grand</addName>
+            <addName>Alexandre</addName>
+            <addName>Alexandros</addName>
+            <addName>Alexandros der Große</addName>
+            <addName>Alexandru cel Mare</addName>
+            <addName>Alexandru</addName>
+            <addName>Alexandrus Magnus</addName>
+            <addName>Alexandrus</addName>
+            <addName>Megalexandros</addName>
+            <addName>Pseudo-Alexander Magnus</addName>
+            <addName>Pseudo-Alexander</addName>
+            <addName>Grote</addName>
+            <addName>Alexandros Megas</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Lippert, Philipp Daniel</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00824618</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00824618"
+                   key="#PND:117044504">Lippert<addName type="display">Lippert, Philipp Daniel</addName>
+            <addName>Philipp Daniel Lippert</addName>
+            <addName>P. D. Lippert</addName>
+            <addName>Phil. Dan. Lippert</addName>
+            <addName>Phil. Daniel Lippert</addName>
+            <addName>Philipp D. Lippert</addName>
+            <addName>Philippus Dan. Lippert</addName>
+            <addName>Philippus Daniel Lippert</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Homer</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259620</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01259620"
+                   key="#PND:11855333X">Homer<addName type="display">Homer</addName>
+            <addName>Gomer</addName>
+            <addName>Hūmīrūs</addName>
+            <addName>Hūmar</addName>
+            <addName>Hūmir</addName>
+            <addName>Hōmar</addName>
+            <addName>Hômêrôs</addName>
+            <addName>Homère</addName>
+            <addName>Homēros</addName>
+            <addName>Homérosz</addName>
+            <addName>Homēros</addName>
+            <addName>Homère</addName>
+            <addName>Homere</addName>
+            <addName>Homero</addName>
+            <addName>Homeros</addName>
+            <addName>Homeros Tragiker</addName>
+            <addName>Homerosi</addName>
+            <addName>Homerus Colophonius</addName>
+            <addName>Homerus Colophonus</addName>
+            <addName>Homerus Dramatiker</addName>
+            <addName>Homerus Epicus</addName>
+            <addName>Omēros</addName>
+            <addName>Omero</addName>
+            <addName>Omiros</addName>
+            <addName>Pseudo-Homerus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Allion</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01427494</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01427494">Allion<addName type="display">Allion</addName>
+            <addName>Allione</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/berlin-ms-germ-qrt-1666-282.tei.xml-d3955e11">Carlos</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Gori, Antonio Francesco</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00402479</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00402479"
+                       key="#PND:118964925">Gori<addName type="display">Gori, Antonio Francesco</addName>
+            <addName>Antonio Francesco Gori</addName>
+            <addName>A. F. Gori</addName>
+            <addName>Adame François Gori</addName>
+            <addName>Adame François Gori</addName>
+            <addName>Ant. Francesco Gori</addName>
+            <addName>Antoine François Gori</addName>
+            <addName>Antoine François Gori</addName>
+            <addName>Anton Francesco Gori</addName>
+            <addName>Anton Franz Gori</addName>
+            <addName>Antonius Franc. Gori</addName>
+            <addName>Antonio Francisco Gorius</addName>
+            <addName>Gorius</addName>
+            <addName>Antonius Gorius</addName>
+            <addName>Antonius Franciscus Gorius</addName>
+            <addName>Antonius Franciscus Gorus</addName>
+            <addName>Gorus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/berlin-ms-germ-qrt-1666-282.tei.xml-d3955e69">Ambrosius Caradosso</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pius (II, papież)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01321976</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01321976"
+                       key="#PND:118594702 139285385 118594702">Pius 11.<addName type="display">Pius (II, papież)</addName>
+            <addName>Pius Enea Silvio Piccolomini</addName>
+            <addName>II Pius</addName>
+            <addName>Papst Pius II.</addName>
+            <addName>Eneásse Sylwia Senenského</addName>
+            <addName>Senenského</addName>
+            <addName>Eneas Sylvins Senenský</addName>
+            <addName>Senenský</addName>
+            <addName>Eneas Silvius</addName>
+            <addName>Pius II papa 1405-1464.</addName>
+            <addName>Sylvius Aeneas Piccolomineus</addName>
+            <addName>Aeneas Silvius</addName>
+            <addName>Aeneas Sylvius</addName>
+            <addName>Aeneas Silvius Piccolominibus</addName>
+            <addName>Piccolominibus</addName>
+            <addName>Aeneas Sylvius Piccolominus</addName>
+            <addName>Piccolominus</addName>
+            <addName>Pio II pape</addName>
+            <addName>Pio</addName>
+            <addName>Pius II pape</addName>
+            <addName>Aeneas</addName>
+            <addName>Bartholomaeus Piccolomineus Aeneas Silvius</addName>
+            <addName>Aeneas Silvius Piccolomini</addName>
+            <addName>Aeneas Sylvius Piccolhomineus</addName>
+            <addName>Aeneas Sylvius Piccolominaeus</addName>
+            <addName>Aeneas Sylvius Piccolomineus</addName>
+            <addName>Aeneas Sylvius Piccolomini</addName>
+            <addName>Aeneas Sylvius Picolhominaeus</addName>
+            <addName>Aeneas Sylvius Senensis</addName>
+            <addName>Aeneas Sylvius de Piccolomini</addName>
+            <addName>Aeneas Sylwius</addName>
+            <addName>Enea Silvio De Piccolomini</addName>
+            <addName>De Piccolomini</addName>
+            <addName>Enaeas Pius Senensis</addName>
+            <addName>Enaeas Pius</addName>
+            <addName>Enea Piccolomini</addName>
+            <addName>Enea</addName>
+            <addName>Enea Piccolhoumini</addName>
+            <addName>Enea Silvio</addName>
+            <addName>Enea Silvio de' Piccolomini</addName>
+            <addName>Enea Silvio de'Piccolomini</addName>
+            <addName>Enea Silvio de Piccolomini</addName>
+            <addName>Enea-Silvio Piccolomini</addName>
+            <addName>Enea-Silvio</addName>
+            <addName>Eneas</addName>
+            <addName>Eneas Pius Senensis</addName>
+            <addName>Eneas Pius</addName>
+            <addName>Eneas Silvius Piccolomini</addName>
+            <addName>Eneass Sylwius</addName>
+            <addName>Eneass</addName>
+            <addName>Eneáš Sylvius Senenský</addName>
+            <addName>Papa Pio</addName>
+            <addName>Papa Pio II</addName>
+            <addName>Papa Pius</addName>
+            <addName>Piccolhomineus</addName>
+            <addName>Aeneas Sylvius Bartholomaeus Piccolominaeus</addName>
+            <addName>Piccolominaeus</addName>
+            <addName>Aeneas Siluius Piccolomineus</addName>
+            <addName>Piccolomineus</addName>
+            <addName>Aeneas Silvius Piccolomineus</addName>
+            <addName>Enea Silvius Piccolomineus</addName>
+            <addName>Æneas Sylvius Piccolomineus</addName>
+            <addName>Aeneas Silius Piccolomini</addName>
+            <addName>Aeneas Sylivius Piccolomini</addName>
+            <addName>Aeneas Sylvio Piccolomini</addName>
+            <addName>Aeneas Sylvius Bartholomaeus Piccolomini</addName>
+            <addName>Aeneas Sylvius Bartholomeus Piccolomini</addName>
+            <addName>Bartolomeo de' Piccolomini</addName>
+            <addName>E. S. Piccolomini</addName>
+            <addName>Piccolomini, Enea Silvio 1405-1464</addName>
+            <addName>Enea Silvio Bartolomeo de Piccolomini</addName>
+            <addName>Eneas Silvio Piccolomini</addName>
+            <addName>Pie Pape, II.</addName>
+            <addName>II Pio</addName>
+            <addName>Pio Papa, II.</addName>
+            <addName>Pio Sammo Pontefice, II.</addName>
+            <addName>papa Pio II</addName>
+            <addName>Pio II</addName>
+            <addName>Pio II sommo pontefice</addName>
+            <addName>Pio II. Papa</addName>
+            <addName>Pius Pontifex Maximus, II.</addName>
+            <addName>pope Pius II</addName>
+            <addName>Pius II</addName>
+            <addName>Pius II. papa</addName>
+            <addName>Pius Pont. Max.</addName>
+            <addName>Pius Secundus Pontifex Max.</addName>
+            <addName>Pius papa</addName>
+            <addName>Pius papa II</addName>
+            <addName>Pius secundus</addName>
+            <addName>Pío II papa 1405-1464</addName>
+            <addName>Pío</addName>
+            <addName>Eneáš Sylwius Senenský</addName>
+            <addName>Aeneas Sylvius Picolhominaeus von Senis</addName>
+            <addName>Senis</addName>
+            <addName>Silvius</addName>
+            <addName>Silvius Piccolomini</addName>
+            <addName>Sylvius</addName>
+            <addName>Eneas Sylvius</addName>
+            <addName>Sylvius Piccolomini</addName>
+            <addName>Sylwius</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/berlin-ms-germ-qrt-1666-282.tei.xml-d3955e335">Ulas</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>José (Portugal, Rei, I.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00968753</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00968753"
+                       key="#PND:101081715">König von Portugal<addName type="display">José (Portugal, Rei, I.)</addName>
+            <addName>Giuseppe Portugal, Rei, I.</addName>
+            <addName>Giuseppe</addName>
+            <addName>José Emanuel Portugal, König, I.</addName>
+            <addName>José Emanuel</addName>
+            <addName>José Emanuel Portugal, Rei, I.</addName>
+            <addName>José Manuel Portugal, König, I.</addName>
+            <addName>José Manuel</addName>
+            <addName>José Portugal, König, I.</addName>
+            <addName>Josef Portugal, König, I.</addName>
+            <addName>Josef</addName>
+            <addName>José Emanuel Portugal, König, I.</addName>
+            <addName>José Emanuel</addName>
+            <addName>José Emanuel Portugal, Rei, I.</addName>
+            <addName>José Manuel Portugal, König, I.</addName>
+            <addName>José Manuel</addName>
+            <addName>José Portugal, König, I.</addName>
+            <addName>Joseph Emanuel Portugal, König, I.</addName>
+            <addName>Joseph Emanuel</addName>
+            <addName>Joseph Portugal, Rei, I.</addName>
+            <addName>Joseph</addName>
+            <addName>Josephus Portugal, König, I.</addName>
+            <addName>Josephus</addName>
+            <addName>Josephus Portugallia, Rex, I.</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

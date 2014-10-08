@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Paris</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:150779 http://arachne.uni-koeln.de/item/objekt/19437</link>
+      <count>4</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:150779 #http://arachne.uni-koeln.de/item/objekt/19437">die ao 97 aus dem Belvedere nach <placeName ref="#GettyID:7008038">Paris<addName type="display">Paris</addName>
+               <addName>Paris</addName>
+               <addName>Parigi</addName>
+               <addName>París</addName>
+               <addName>Parisii</addName>
+               <addName>Lutetia</addName>
+               <addName>Lutetia Parisiorum</addName>
+               <addName>Lutetia Parisii</addName>
+               <addName>Parisius</addName>
+               <addName>parisien</addName>
+               <addName>parisienne</addName>
+               <addName>Parisian</addName>
+            </placeName> gebrachte</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-154.tei.xml-d4449e72">Gnidia</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/26908</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/26908">43.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/rezeption/301408</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/rezeption/301408">44.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/rezeption/301424</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/rezeption/301424">144.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/5385</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/5385">133.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-154.tei.xml-d4449e117">34.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/6585</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/6585">mit
+                                    der Muschel</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>VenusDu Plessis, Armand Jean (Cardinal, Duc de Richelieu)</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-154.tei.xml-d4449e175">
+            <persName ref="#CerlID:cnp00588078" key="#PND:11876800X">Venus<addName type="display">Venus</addName>
+               <addName>Anadyomene  Beiname</addName>
+               <addName>Anadyomene</addName>
+               <addName>Arelatensis  Beiname</addName>
+               <addName>Arelatensis</addName>
+               <addName>aurea  Beiname</addName>
+               <addName>aurea</addName>
+               <addName>coelestis  Beiname</addName>
+               <addName>coelestis</addName>
+               <addName>Gnidia  Beiname</addName>
+               <addName>Gnidia</addName>
+               <addName>Marina  Beiname</addName>
+               <addName>Marina</addName>
+               <addName>Pelasgia  Beiname</addName>
+               <addName>Pelasgia</addName>
+               <addName>Pontia  Beiname</addName>
+               <addName>Pontia</addName>
+               <addName>Urania  Beiname</addName>
+               <addName>Urania</addName>
+               <addName>Victrix  Beiname</addName>
+               <addName>Victrix</addName>
+            </persName> von <persName ref="#CerlID:cnp00906495" key="#PND:118600354">Richelieu<addName type="display">Du Plessis, Armand Jean (Cardinal, Duc de Richelieu)</addName>
+               <addName>Armand Jean Du Plessis</addName>
+               <addName>Armand Jean DuPlessis Duc de Richelieu</addName>
+               <addName>Armand Jean du Plessis de Richelieu</addName>
+               <addName>Armand Jean du Plessis Richelieu</addName>
+               <addName>C. D. R.</addName>
+               <addName>Cardinal Duc de Richelieu</addName>
+               <addName>Cardinal de Richelieu</addName>
+               <addName>De Richelieu</addName>
+               <addName>Armand Jean du Plessis De Richelieu</addName>
+               <addName>De Richelieu, Armand Jean du Plessis duc</addName>
+               <addName>Armand J. de Du Plessis</addName>
+               <addName>Du Plessis, Armand Jean duc de Richelieu</addName>
+               <addName>Armand Jean de R. Du Plessis</addName>
+               <addName>Armand Jean de Richelieu Du Plessis</addName>
+               <addName>Armand-Jean Du Plessis</addName>
+               <addName>Armand-Jean de R. Du Plessis</addName>
+               <addName>Armand Jean Du Plessis Richelieu</addName>
+               <addName>Du Plessis Richelieu</addName>
+               <addName>Armand-Jean Du Plessis Richelieu</addName>
+               <addName>Armand Du Plessis de Richelieu</addName>
+               <addName>Du Plessis de Richelieu</addName>
+               <addName>Armand J. Du Plessis de Richelieu</addName>
+               <addName>Armand Jean Du Plessis de Richelieu</addName>
+               <addName>Armand-Jean Du Plessis de Richelieu</addName>
+               <addName>Armand J. de DuPlessis</addName>
+               <addName>DuPlessis</addName>
+               <addName>Armand Jean DuPlessis</addName>
+               <addName>Armand Jean de R. DuPlessis</addName>
+               <addName>Armand Jean de Richelieu DuPlessis</addName>
+               <addName>Armand-Jean DuPlessis</addName>
+               <addName>Armand-Jean de R. DuPlessis</addName>
+               <addName>Armand Jean DuPlessis Richelieu</addName>
+               <addName>DuPlessis Richelieu</addName>
+               <addName>Armand-Jean DuPlessis Richelieu</addName>
+               <addName>Armand DuPlessis de Richelieu</addName>
+               <addName>DuPlessis de Richelieu</addName>
+               <addName>Armand J. DuPlessis de Richelieu</addName>
+               <addName>Armand Jean DuPlessis de Richelieu</addName>
+               <addName>Armand-Jean DuPlessis de Richelieu</addName>
+               <addName>Armand DuPlessy</addName>
+               <addName>DuPlessy</addName>
+               <addName>Armand Jean Duplassis Richelieu</addName>
+               <addName>Duplassis Richelieu</addName>
+               <addName>Kardynał Ryszele</addName>
+               <addName>Armandus Joannes Plessiacus</addName>
+               <addName>Plessiacus</addName>
+               <addName>Armand J. du Plessis</addName>
+               <addName>Plessis</addName>
+               <addName>Armand Jean du Plessis</addName>
+               <addName>Armand Jean de R. du Plessis</addName>
+               <addName>Plessis, Armand Jean du duc de Richelieu</addName>
+               <addName>Armand-Jean du Plessis</addName>
+               <addName>Armand-Jean de R. du Plessis</addName>
+               <addName>Plessis Richelieu</addName>
+               <addName>Armand-Jean du Plessis Richelieu</addName>
+               <addName>Armand du Plessis de Richelieu</addName>
+               <addName>Plessis de Richelieu</addName>
+               <addName>Armand J. du Plessis de Richelieu</addName>
+               <addName>Armand-Jean du Plessis de Richelieu</addName>
+               <addName>Armandus Johannes a Plecis de Richaliere</addName>
+               <addName>Richaliere</addName>
+               <addName>Armandus Richeli</addName>
+               <addName>Richeli</addName>
+               <addName>de Richelieu</addName>
+               <addName>Richelieu</addName>
+               <addName>Richelieu Cardinal de</addName>
+               <addName>Richelieu Kardinal</addName>
+               <addName>Armand de Richelieu</addName>
+               <addName>Armand D. de Richelieu</addName>
+               <addName>Armand J. de Richelieu</addName>
+               <addName>Armand Jean Richelieu</addName>
+               <addName>Armand Jean de Richelieu</addName>
+               <addName>Armand Jean D. de Richelieu</addName>
+               <addName>Armand Jean Du Plessis Duc de Richelieu</addName>
+               <addName>Armand-Jean de Richelieu</addName>
+               <addName>Armand-Jean D. de Richelieu</addName>
+               <addName>Armandus de Richelieu</addName>
+               <addName>Armandus Johannes Du Plessis de Richelieu</addName>
+               <addName>Armandus Johannes DuPlessis de Richelieu</addName>
+               <addName>Armandus Johannes du Plessis de Richelieu</addName>
+               <addName>Richelieu Cardinal</addName>
+               <addName>Richelieu Cardinal Armand Jean du Plessis</addName>
+               <addName>Armand J. de Richelieu Du Plessis</addName>
+               <addName>Richelieu Du Plessis</addName>
+               <addName>Armand-Jean de Richelieu Du Plessis</addName>
+               <addName>Armand J. de Richelieu DuPlessis</addName>
+               <addName>Richelieu DuPlessis</addName>
+               <addName>Armand-Jean de Richelieu DuPlessis</addName>
+               <addName>Armando Giovanni Plesses de Richeliu</addName>
+               <addName>Richeliu</addName>
+               <addName>Armandus Richelius</addName>
+               <addName>Richelius</addName>
+               <addName>Armandus J. Richelius</addName>
+               <addName>Armandus Johannes Richelius</addName>
+               <addName>Joannes Armandus Plessaeus Richelius</addName>
+               <addName>Armandus Richelus</addName>
+               <addName>Richelus</addName>
+               <addName>Richlieu</addName>
+               <addName>Rishele</addName>
+               <addName>Ryszele</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Arles</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/14811</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/14811">Venus
+                                    von <placeName ref="#GettyID:7008775">Arles<addName type="display">Arles</addName>
+               <addName>Arles</addName>
+               <addName>Arles sur Rhône</addName>
+               <addName>Arelas</addName>
+               <addName>Arelate</addName>
+               <addName>Theline</addName>
+               <addName>Arelatensis colonia</addName>
+               <addName>Arelatum</addName>
+               <addName>Constantia</addName>
+               <addName>Arelate Sextanorum</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>MarcianaTraianus, Marcus Ulpius</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/22215</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/22215">
+            <persName ref="#CerlID:cnp00558584" key="#PND:118577514">Marciana<addName type="display">Marciana</addName>
+               <addName>Olpia Marciana</addName>
+            </persName>, <persName ref="#CerlID:cnp00917510" key="#PND:118623567">Trajans<addName type="display">Traianus, Marcus Ulpius</addName>
+               <addName>Marcus Ulpius Traianus</addName>
+               <addName>Traian</addName>
+               <addName>Traiano Imperatore</addName>
+               <addName>Traiano</addName>
+               <addName>Marcus U. Traianus</addName>
+               <addName>Traianus Epigrammaticus</addName>
+               <addName>Traianus Imperator</addName>
+               <addName>Traianus Romanus</addName>
+               <addName>Trajan Kaiser</addName>
+               <addName>Trajan Plinius-Korrespondent</addName>
+               <addName>Trajanus</addName>
+               <addName>Trajanus Imperator</addName>
+               <addName>Trajanus Imperium Romanum, Imperator</addName>
+               <addName>Ulpius Traianus</addName>
+               <addName>Ulpius</addName>
+            </persName> Gemalin</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Venus</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/5893</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/5893">
+            <persName ref="#CerlID:cnp00588078" key="#PND:11876800X">Venus<addName type="display">Venus</addName>
+               <addName>Anadyomene  Beiname</addName>
+               <addName>Anadyomene</addName>
+               <addName>Arelatensis  Beiname</addName>
+               <addName>Arelatensis</addName>
+               <addName>aurea  Beiname</addName>
+               <addName>aurea</addName>
+               <addName>coelestis  Beiname</addName>
+               <addName>coelestis</addName>
+               <addName>Gnidia  Beiname</addName>
+               <addName>Gnidia</addName>
+               <addName>Marina  Beiname</addName>
+               <addName>Marina</addName>
+               <addName>Pelasgia  Beiname</addName>
+               <addName>Pelasgia</addName>
+               <addName>Pontia  Beiname</addName>
+               <addName>Pontia</addName>
+               <addName>Urania  Beiname</addName>
+               <addName>Urania</addName>
+               <addName>Victrix  Beiname</addName>
+               <addName>Victrix</addName>
+            </persName>, (die sich einen Dorn auszieht) ist eigentlich
+                                        eine aus dem Bade.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:159516 http://arachne.uni-koeln.de/item/objekt/13266</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:159516 #http://arachne.uni-koeln.de/item/objekt/13266">Eine mit einem
+                                    schönen Hintern</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-154.tei.xml-d4449e666">Thomassin 33.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/34591 http://arachne.uni-koeln.de/item/objekt/5849</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/34591 #http://arachne.uni-koeln.de/item/objekt/5849">Cavalieri. II. 66.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/reproduktion/3060072</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/reproduktion/3060072">Perrier. 84.</term>
+      </nodes>
+   </tag>
+</tags>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Arcadius (Imperium Byzantinum, Imperator, I.)Theodosius (Imperium Romanum, Imperator, I.)</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-280.tei.xml-d7949e82">
+            <persName ref="#CerlID:cnp01003422" key="#PND:118848445">Ar- 
+                                        cadius<addName type="display">Arcadius (Imperium Byzantinum, Imperator, I.)</addName>
+               <addName>Flavius Arcadius</addName>
+               <addName>Arcadius Augustus</addName>
+               <addName>Arcadius Byzantinisches Reich, Kaiser</addName>
+               <addName>Arcadius Oströmischer Kaiser</addName>
+               <addName>Arcadius Römischer Kaiser</addName>
+               <addName>Arcadius Sohn des Theodosius</addName>
+               <addName>Arcadius Theodosii Magni Filius</addName>
+               <addName>Arkadios</addName>
+               <addName>Arkadios Byzantinisches Reich, Kaiser</addName>
+               <addName>Flavius</addName>
+            </persName> seinem Vatter <persName ref="#CerlID:cnp01094752" key="#PND:118621742 118621742">Theodosius<addName type="display">Theodosius (Imperium Romanum, Imperator, I.)</addName>
+               <addName>Flavius Theodosius</addName>
+               <addName>Theodosios Kaiser, I.</addName>
+               <addName>Theodosios</addName>
+               <addName>Theodosius Romanorum Senator</addName>
+               <addName>Theodosius Augustus, I.</addName>
+               <addName>Theodosius der Große</addName>
+               <addName>Theodosius der Grosse</addName>
+               <addName>Theodosius Emperor, I.</addName>
+               <addName>Theodosius Imperator, I.</addName>
+               <addName>Theodosius Kaiser, I.</addName>
+               <addName>Theodosius Magnus</addName>
+               <addName>Theodosius Magnus, Imperator</addName>
+               <addName>Theodosius Römisches Reich, Kaiser, I.</addName>
+               <addName>Theodosius Römischer Kaiser</addName>
+               <addName>Theodosius von Spanien</addName>
+            </persName> eine 
+                                            Statue von 7400 Pfund</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Athamas (Philosophus)</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-280.tei.xml-d7949e167">Wuth des <persName ref="#CerlID:cnp00283617" key="#PND:102382417">Athamas<addName type="display">Athamas (Philosophus)</addName>
+               <addName>Athamas Pythagoricus</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Iokaste</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-280.tei.xml-d7949e194">erhengte <persName ref="#CerlID:cnp00562410" key="#PND:120908360">Iocasta<addName type="display">Iokaste</addName>
+               <addName>Jokaste</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+</tags>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Clem. 3. 40.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/visconti1790bd3/0136</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/visconti1790bd3/0136">
+               <term ref="#http://arachne.uni-koeln.de/item/objekt/19538">Clem. 3. 40</term>.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Clem. VI. 7.8.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/visconti1792bd6/0117</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/visconti1792bd6/0117">
+               <term ref="#http://arachne.uni-koeln.de/item/objekt/215042">Clem. VI. 7.</term>
+               <term ref="#http://arachne.uni-koeln.de/item/objekt/20468 #http://arachne.uni-koeln.de/item/objekt/20469 #http://arachne.uni-koeln.de/item/objekt/20457 #http://arachne.uni-koeln.de/item/objekt/20458">8.</term>
+            </ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Clem.VI. 6.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/visconti1792bd6/0116</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/visconti1792bd6/0116">
+               <term ref="#http://arachne.uni-koeln.de/item/objekt/20448">Clem.VI. 6.</term>
+            </ref>
+         </bibl>
+      </nodes>
+   </tag>
+</tags>

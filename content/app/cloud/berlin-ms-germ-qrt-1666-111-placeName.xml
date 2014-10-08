@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Deutschland</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7000084</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7000084">Teutschland<addName type="display">Deutschland</addName>
+            <addName>Deutschland</addName>
+            <addName>Bundesrepublik Deutschland</addName>
+            <addName>BRD</addName>
+            <addName>Germany</addName>
+            <addName>Federal Republic of Germany</addName>
+            <addName>Allemagne</addName>
+            <addName>République fédérale d'Allemagne</addName>
+            <addName>República Federal de Alemania</addName>
+            <addName>Alemania</addName>
+            <addName>Alemanha</addName>
+            <addName>Duitsland</addName>
+            <addName>Germania</addName>
+            <addName>DEU</addName>
+            <addName>DE</addName>
+            <addName>ISO276</addName>
+            <addName>GM00</addName>
+            <addName>Deutsches Reich</addName>
+            <addName>ISO280</addName>
+            <addName>German</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Firenze</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7000457</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7000457">Florenz<addName type="display">Firenze</addName>
+            <addName>Firenze</addName>
+            <addName>Florence</addName>
+            <addName>Florencia</addName>
+            <addName>Florenz</addName>
+            <addName>Fiorenza</addName>
+            <addName>Florentia</addName>
+            <addName>Florentine</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+</tags>

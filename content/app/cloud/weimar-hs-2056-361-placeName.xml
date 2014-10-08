@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Europe</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=1000003</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:1000003">Europa<addName type="display">Europe</addName>
+            <addName>Europe</addName>
+            <addName>Europa</addName>
+            <addName>European</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Saint-Denis</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7009706</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7009706">St Denys<addName type="display">Saint-Denis</addName>
+            <addName>Saint-Denis</addName>
+            <addName>St. Denis</addName>
+            <addName>Franciade</addName>
+            <addName>Catulliacum</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Troyes</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7008350</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7008350">Troies<addName type="display">Troyes</addName>
+            <addName>Troyes</addName>
+            <addName>Augustobona Tricassium</addName>
+            <addName>Augustobona</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Venezia</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7018159</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7018159">Venedig<addName type="display">Venezia</addName>
+            <addName>Venezia</addName>
+            <addName>Venecia</addName>
+            <addName>Venedig</addName>
+            <addName>Venice</addName>
+            <addName>Venise</addName>
+            <addName>République de Venise</addName>
+            <addName>Venetia</addName>
+            <addName>Vinegia</addName>
+            <addName>Venetian</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Roma</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7000874</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7000874">Rom<addName type="display">Roma</addName>
+            <addName>Roma</addName>
+            <addName>Urbe</addName>
+            <addName>Rome</addName>
+            <addName>Rom</addName>
+            <addName>Roman</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Campania</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7003005</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7003005">Campanien<addName type="display">Campania</addName>
+            <addName>Campania</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Anzio</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7015535</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7015535">Anzio<addName type="display">Anzio</addName>
+            <addName>Anzio</addName>
+            <addName>Porto d'Anzio</addName>
+            <addName>Antium</addName>
+         </placeName>
+      </nodes>
+   </tag>
+</tags>

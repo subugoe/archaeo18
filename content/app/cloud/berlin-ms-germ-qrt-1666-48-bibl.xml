@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Pence – Nro 8</tag>
+      <facet>tei:bibl</facet>
+      <link>http://dfg-viewer.de/v2/?set[image]=112&amp;set[zoom]=max&amp;set[debug]=0&amp;set[double]=0&amp;set[mets]=http%3A%2F%2Fwww.zvdd.de%2Fdms%2Fmetsresolver%2F%3FPPN%3D000872356</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://dfg-viewer.de/v2/?set[image]=112&amp;set[zoom]=max&amp;set[debug]=0&amp;set[double]=0&amp;set[mets]=http%3A%2F%2Fwww.zvdd.de%2Fdms%2Fmetsresolver%2F%3FPPN%3D000872356">Pence – Nro 8</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+</tags>

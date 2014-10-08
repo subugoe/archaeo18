@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Scipion l'Africain</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-213.tei.xml-d13567e24">
+            <persName ref="#CerlID:cnp00566495" key="#PND:118612336">Scipio Africanus<addName type="display">Scipion l'Africain</addName>
+               <addName>Publius Cornelius Scipio</addName>
+               <addName>Publius Cornelius Scipio Africanus</addName>
+               <addName>Publius Cornelius Scipio Africanus Maior</addName>
+               <addName>Africanus Maior</addName>
+               <addName>Cornelius Scipio Africanus Maior</addName>
+               <addName>Publius C. Scipio</addName>
+               <addName>Scipio, Publius C. Africanus, der Ältere</addName>
+               <addName>Publius Cornelius Africanus Scipio</addName>
+               <addName>Scipio Africanus, der Ältere</addName>
+               <addName>Scipio Historicus</addName>
+               <addName>Scipio Maior</addName>
+               <addName>Scipio der Ältere</addName>
+               <addName>Scipio Africanus</addName>
+               <addName>Scipio Africanus Historicus</addName>
+               <addName>Scipio Africanus Maior</addName>
+               <addName>Publius Cornelius Scipio Maior</addName>
+               <addName>Scipio Maior Historicus</addName>
+               <addName>Scipio Maior Romanus</addName>
+               <addName>Publio Cornelio Scipione</addName>
+               <addName>Scipione, Publio Cornelio Africano Maggiore</addName>
+               <addName>Scipione</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>FontainebleauMarly</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000601</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000601">Zu <placeName ref="#GettyID:7008005">Fontaineblau<addName type="display">Fontainebleau</addName>
+               <addName>Fontainebleau</addName>
+               <addName>Fountainebleau</addName>
+            </placeName> und <placeName ref="#GettyID:1034277">Marly<addName type="display">Marly</addName>
+               <addName>Marly</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-213.tei.xml-d13567e215"
+               type="collection">Nouveau Louvre</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-213.tei.xml-d13567e237"
+               type="collection">Palais Rojal</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-213.tei.xml-d13567e253"
+               type="collection">Palais des Thuilliers</term>
+      </nodes>
+   </tag>
+</tags>

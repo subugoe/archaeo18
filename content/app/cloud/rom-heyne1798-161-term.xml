@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Dresden</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-161.tei.xml-d8825e15">Ein schöner Kopf, jetzt wahrscheinlich in <placeName ref="#GettyID:7004455">Dresden<addName type="display">Dresden</addName>
+               <addName>Dresden</addName>
+               <addName>Dresde</addName>
+               <addName>Ďrežd'ane</addName>
+               <addName>Drezdane</addName>
+               <addName>Drezdzany</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-161.tei.xml-d8825e36">Ein Relief
+                                                    in Silber</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Wallmoden-Gimborn, Johann Ludwig ¬von¬</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/7182</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/7182">Eine die Wasser schöpft bey <persName ref="#CerlID:cnp00664371" key="#PND:130253219">Wallmoden<addName type="display">Wallmoden-Gimborn, Johann Ludwig ¬von¬</addName>
+               <addName>Johann Ludwig von Wallmoden-Gimborn</addName>
+               <addName>Johann L. von Gimborn</addName>
+               <addName>Gimborn</addName>
+               <addName>Johann Ludwig Gimborn</addName>
+               <addName>Johann Ludwig von Wallmoden- Gimborn</addName>
+               <addName>Ludwig von Wallmoden- Gimborn</addName>
+               <addName>Johann Ludwig von Wallmoden</addName>
+               <addName>Wallmoden</addName>
+               <addName>Johann L. von Wallmoden-Gimborn</addName>
+               <addName>Ludwig von Wallmoden-Gimborn</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/14835</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/14835">47.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/11692</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/11692">Eine zu S. Ildefonso. Stehend, mit einer
+                                                    Muschel als Fontainenstücke</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/19454</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/19454">1. 36.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/rezeption/302267</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/rezeption/302267">54.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-161.tei.xml-d8825e123">Rost aber ein Abguss N. 35</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:152341 http://arachne.uni-koeln.de/item/bauwerk/2100006</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:152341 #http://arachne.uni-koeln.de/item/bauwerk/2100006">Parthenon</term>
+      </nodes>
+   </tag>
+</tags>

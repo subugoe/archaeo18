@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Clemens (Papa, XIV.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00905328</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00905328"
+                       key="#PND:119215152">Papst Clemens XIV.<addName type="display">Clemens (Papa, XIV.)</addName>
+            <addName>Clemens Papa, XIIII.</addName>
+            <addName>Clemens Papst, XIV.</addName>
+            <addName>Clemens XIV Pope</addName>
+            <addName>Clemens XIV.</addName>
+            <addName>Clement Pape, XIV.</addName>
+            <addName>Clemente Papa, XIV.</addName>
+            <addName>Clemente</addName>
+            <addName>Clemenz Papa, XIV.</addName>
+            <addName>Clemenz</addName>
+            <addName>Clément Papa, XIV</addName>
+            <addName>Clément</addName>
+            <addName>Clément XIV.</addName>
+            <addName>Clément XIVe Pape</addName>
+            <addName>Ganganelli</addName>
+            <addName>Clemens Ganganelli</addName>
+            <addName>Giovanni V. Ganganelli</addName>
+            <addName>Giovanni Vincenzo Antonio Ganganelli</addName>
+            <addName>Giovanni Vincenzo Antonio Lorenzo Ganganelli</addName>
+            <addName>Laurent Ganganelli</addName>
+            <addName>Lorenzo Ganganelli</addName>
+            <addName>Iklīmanḍūs Bābā, XIV.</addName>
+            <addName>Iklīmanḍūs</addName>
+            <addName>Iklīminḍūs Bābā, XIV.</addName>
+            <addName>Iklīminḍūs</addName>
+            <addName>Klemens Papa, XIV.</addName>
+            <addName>Klemens XIV. Papa</addName>
+            <addName>Lorenzo Fra</addName>
+            <addName>Lorenzo</addName>
+            <addName>Lorenzo Mönch</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Vergilius Maro, Publius</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01240997</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01240997"
+                       key="#PND:118626574">Virgils<addName type="display">Vergilius Maro, Publius</addName>
+            <addName>Publius Vergilius Maro</addName>
+            <addName>Publius Virgilius Maro</addName>
+            <addName>Vergilij</addName>
+            <addName>Vergilio</addName>
+            <addName>P Virgilius Maro</addName>
+            <addName>Publiusz Wergiliusz Maro</addName>
+            <addName>Wergiliusz Maro</addName>
+            <addName>P Wergiliusz Maron</addName>
+            <addName>Wergiliusz Maron</addName>
+            <addName>Vergil</addName>
+            <addName>Virgil</addName>
+            <addName>Publio Virgilio Marone</addName>
+            <addName>Virgilio Marone</addName>
+            <addName>Wergiliusz</addName>
+            <addName>Publios Birgilios Maro</addName>
+            <addName>Birgilios Maro</addName>
+            <addName>Publ. Virgilius Mar.</addName>
+            <addName>Mar.</addName>
+            <addName>P. Vergilius Maro</addName>
+            <addName>Publius V. Maro</addName>
+            <addName>Maron</addName>
+            <addName>P. Vergilij Maron</addName>
+            <addName>P. Virgilio Marone</addName>
+            <addName>Marone</addName>
+            <addName>Publio V. Marone</addName>
+            <addName>Publius Virgilius Maroo</addName>
+            <addName>Maroo</addName>
+            <addName>P. Uergilius Maro</addName>
+            <addName>P. V. M.</addName>
+            <addName>P. Verg. Mar.</addName>
+            <addName>P. Vergilîj Maron</addName>
+            <addName>P. Virgilius Maro</addName>
+            <addName>P. Virgilius Maro Mantuanus</addName>
+            <addName>P. Wergiliusz Maron</addName>
+            <addName>P.V.M.</addName>
+            <addName>Pseudo-Vergilius</addName>
+            <addName>Pseudo-Virgilio</addName>
+            <addName>Pub. Virgilius Maro</addName>
+            <addName>Pub.V.M.</addName>
+            <addName>Publij Vergilij Maron</addName>
+            <addName>Uergilius</addName>
+            <addName>Uirgilius</addName>
+            <addName>V. M.</addName>
+            <addName>Verghiliù</addName>
+            <addName>Vergil</addName>
+            <addName>Publius Vergile Maron</addName>
+            <addName>Vergile Maron</addName>
+            <addName>Vergilij Maron P.</addName>
+            <addName>Vergilius</addName>
+            <addName>Vergilius</addName>
+            <addName>Augusteus Vergilius</addName>
+            <addName>Publius M. Vergilius</addName>
+            <addName>Publius Maro Vergilius</addName>
+            <addName>Vergilius Poeta</addName>
+            <addName>Vergilius von Andes</addName>
+            <addName>Vergilius von Mantua</addName>
+            <addName>Vergilius Maro</addName>
+            <addName>Pub. Vergilius Maro</addName>
+            <addName>Publius Vergilius-Maro</addName>
+            <addName>Vergilius-Maro</addName>
+            <addName>Vergill</addName>
+            <addName>Veržiliu</addName>
+            <addName>Virgil</addName>
+            <addName>Publius Virgile</addName>
+            <addName>Virgile d'Andes</addName>
+            <addName>Virgile Maron</addName>
+            <addName>Publius Virgile de Mantoue</addName>
+            <addName>Virgile de Mantoue</addName>
+            <addName>Publius Virgile de Mantove</addName>
+            <addName>Virgile de Mantove</addName>
+            <addName>P. Virgilij Maron</addName>
+            <addName>Virgilij Maron</addName>
+            <addName>Virgilio</addName>
+            <addName>Virgilio Mantoano</addName>
+            <addName>Virgilio Mantuano</addName>
+            <addName>Publio Virgilio Maron</addName>
+            <addName>Virgilio Maron</addName>
+            <addName>Publius Virgilio Marone</addName>
+            <addName>Publio Virgilio Marón</addName>
+            <addName>Virgilio Marón</addName>
+            <addName>Publio Virgilio Marón</addName>
+            <addName>Virgilio Marón</addName>
+            <addName>Virgilius</addName>
+            <addName>Virgilius</addName>
+            <addName>Ioann de Virgilius</addName>
+            <addName>Ioannes de Virgilius</addName>
+            <addName>Iohann de Virgilius</addName>
+            <addName>Joannes de Virgilius</addName>
+            <addName>Johann de Virgilius</addName>
+            <addName>Publius Virgilius</addName>
+            <addName>Virgilius Maro P., Publius Vergilius</addName>
+            <addName>Publius Virgilius Maronis</addName>
+            <addName>Virgilius Maronis</addName>
+            <addName>Publius Virgilius Maroos</addName>
+            <addName>Virgilius Maroos</addName>
+            <addName>Virgill</addName>
+            <addName>Virjile"</addName>
+            <addName>Publius Wergilius Maro</addName>
+            <addName>Wergilius Maro</addName>
+            <addName>Publius Wergilius Maronis</addName>
+            <addName>Wergilius Maronis</addName>
+            <addName>Wergiljusz</addName>
+            <addName>Publius Wirgilius Maro</addName>
+            <addName>Wirgilius Maro</addName>
+            <addName>Wirgiliusz</addName>
+            <addName>Publiusz Wirgiliusz Maro</addName>
+            <addName>Wirgiliusz Maro</addName>
+            <addName>Publiusz Wirgiliusz Maron</addName>
+            <addName>Wirgiliusz Maron</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Jupiter</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00554429</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00554429"
+                       key="#PND:118558897">Jupiter<addName type="display">Jupiter</addName>
+            <addName>Iupiter</addName>
+            <addName>Juppiter</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Tacit: Ann. XV. 53 - 65.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://d-nb.info/gnd/4251328-5</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://d-nb.info/gnd/4251328-5">Tacit: Ann. XV. 53 - 65.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>San- drat II. lit. g.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/sandrart1679b/0025</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/sandrart1679b/0025">San- 
+                     drat II. lit. g.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Winckel- mann Mon: ined. 50.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://dfg-viewer.de/v2/?set[image]=94&amp;set[mets]=http%3A%2F%2Fgdz.sub.uni-goettingen.de%2Fmets_export.php%3FPPN%3DPPN636574237&amp;set[zoom]=default&amp;set[debug]=0&amp;set[double]=0&amp;set[style]=</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://dfg-viewer.de/v2/?set[image]=94&amp;set[mets]=http%3A%2F%2Fgdz.sub.uni-goettingen.de%2Fmets_export.php%3FPPN%3DPPN636574237&amp;set[zoom]=default&amp;set[debug]=0&amp;set[double]=0&amp;set[style]=">Winckel- 
+                     mann Mon: ined. 50.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Trat: prel. 21.</tag>
+      <facet>tei:bibl</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#">Trat: prel. 21.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Sandrart. I. I.i.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/sandrart1675b/0016</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/sandrart1675b/0016">Sandrart. I. I.i.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+</tags>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Antinous</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00578329</link>
+      <count>8</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00578329"
+                       key="#PND:118649639">Ant:<addName type="display">Antinous</addName>
+            <addName>Antinoos</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Savoyen-Carignan, Eugen ¬von¬</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00396391</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00396391"
+                       key="#PND:118605941">Pr Eugen<addName type="display">Savoyen-Carignan, Eugen ¬von¬</addName>
+            <addName>Eugen von Savoyen-Carignan</addName>
+            <addName>Eugène François Savoyen, Prinz</addName>
+            <addName>Eugène François</addName>
+            <addName>Eugène Prince</addName>
+            <addName>Eugène</addName>
+            <addName>Eugène Savoie, Prince</addName>
+            <addName>Eugen Franz Savoyen, Prinz</addName>
+            <addName>Eugen Franz</addName>
+            <addName>Eugen Prinz</addName>
+            <addName>Eugen</addName>
+            <addName>Eugen Savoye, Duc</addName>
+            <addName>Eugen Savoyen und Piemont, Prinz</addName>
+            <addName>Eugen Savoyen, Herzog</addName>
+            <addName>Eugen Savoyen, Prinz</addName>
+            <addName>Eugen Savoyen-Carignan, Prinz</addName>
+            <addName>Eugene Savoy, Prince</addName>
+            <addName>Eugene</addName>
+            <addName>Eugene Savoye, Prince</addName>
+            <addName>Eugene Savoyen, Herzog</addName>
+            <addName>Eugenius Franciscus Sabaudia, Princeps</addName>
+            <addName>Eugenius Franciscus</addName>
+            <addName>Eugenius Franciscus Savoy und Piemont, Prinz</addName>
+            <addName>Eugenius Franciscus Savoyen und Piemont, Herzog</addName>
+            <addName>Eugenius Franciscus Savoyen, Herzog</addName>
+            <addName>Eugenius Frantz Savoyen und Piemont, Prinz</addName>
+            <addName>Eugenius Frantz</addName>
+            <addName>Eugenius Sabadus, Dux</addName>
+            <addName>Eugenius</addName>
+            <addName>Eugenius Savoyen, Prins</addName>
+            <addName>Eugenius Savoyen, Prinz</addName>
+            <addName>Franc̨ois Eugène Savoie, Prince</addName>
+            <addName>Franc̨ois Eugène</addName>
+            <addName>Franciscus Eugenius Savoyen und Piemont, Herzog</addName>
+            <addName>Franciscus Eugenius</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-212.tei.xml-d7049e177">Familie
+                                        Bevilaqua</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Marlborough, George Spencer ¬of¬</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01140827</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01140827"
+                       key="#PND:134188098">Herz von
+                                    Marlborough<addName type="display">Marlborough, George Spencer ¬of¬</addName>
+            <addName>George Spencer of Marlborough</addName>
+            <addName>George Spencer Marlborough</addName>
+            <addName>George Spencer</addName>
+            <addName>Herzog von Marlborough</addName>
+            <addName>Spencer, George Duke of Marlborough</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Perseus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00588989</link>
+      <count>4</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00588989"
+                       key="#PND:118790455">Perseus<addName type="display">Perseus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Andromeda</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00578206</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00578206"
+                       key="#PND:118649302">Andromeda<addName type="display">Andromeda</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Cavaceppi, Bartolomeo</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00404698</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00404698"
+                       key="#PND:119217597">Cavaceppi<addName type="display">Cavaceppi, Bartolomeo</addName>
+            <addName>Bartolomeo Cavaceppi</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

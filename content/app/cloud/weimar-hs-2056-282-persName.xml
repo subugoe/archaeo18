@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Boèce</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01231685</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01231685"
+                   key="#PND:11851282X">Consul 
+                                         Boethius<addName type="display">Boèce</addName>
+            <addName>Anicius Manlius Severinus Boethius</addName>
+            <addName>Anicius Manlius Torquatus Severinus Boethius</addName>
+            <addName>Anitius Manlius Torquatus Severinus Boethius</addName>
+            <addName>Anikios Manlios Seberinos Boēthios</addName>
+            <addName>Boēthios</addName>
+            <addName>Anikios Manlios Torkouatos Sebērinos Boēthios</addName>
+            <addName>Boecio</addName>
+            <addName>Severino Boecio</addName>
+            <addName>Boecius</addName>
+            <addName>Boecjusz</addName>
+            <addName>Boecyusz</addName>
+            <addName>Boetius</addName>
+            <addName>Anicius Manlius Torquatus Severinus Boetius</addName>
+            <addName>Anitzius Manlius Torkvátus Szeverinus Boetzius</addName>
+            <addName>Boetzius</addName>
+            <addName>Severino Boezio</addName>
+            <addName>Boezio</addName>
+            <addName>Severin Boèce</addName>
+            <addName>Anicio Manlio Torquato Severino Boezio</addName>
+            <addName>Anicio Manlio Torquato Severino</addName>
+            <addName>Anicius Boethius</addName>
+            <addName>Anicius</addName>
+            <addName>Anicius Manlius Boethius</addName>
+            <addName>Anicius Manlius</addName>
+            <addName>Anicius Manlius Severinus</addName>
+            <addName>Anitius Manlius Severinus Boethius</addName>
+            <addName>Anitius Manlius Torquatus Severinus Boe.</addName>
+            <addName>Boe.</addName>
+            <addName>Severin Boece</addName>
+            <addName>Boece</addName>
+            <addName>Boeces</addName>
+            <addName>Boeces</addName>
+            <addName>Boeci</addName>
+            <addName>Anicij M. Boecij</addName>
+            <addName>Boecij</addName>
+            <addName>Boecius</addName>
+            <addName>Anicius Manlius Severinus Boecius</addName>
+            <addName>Anicius Manlius Torquatus Severinus Boecius</addName>
+            <addName>Anitius Manlius Torquatus Severinus Boecius</addName>
+            <addName>Severinus Boecius</addName>
+            <addName>A. M. Boecyusz</addName>
+            <addName>Boeçio</addName>
+            <addName>Boethius</addName>
+            <addName>Anicius M. Boethius</addName>
+            <addName>Anicius Severinus Boethius</addName>
+            <addName>Manlius Boethius</addName>
+            <addName>Seuerinus Boethius</addName>
+            <addName>Severinus Boethius</addName>
+            <addName>Torquatus Boethius</addName>
+            <addName>Boethivs</addName>
+            <addName>Severinus Boethus</addName>
+            <addName>Boethus</addName>
+            <addName>Manlio Severino Boetio</addName>
+            <addName>Boetio</addName>
+            <addName>Boetius</addName>
+            <addName>Anicius M. Boetius</addName>
+            <addName>Anicius Manlius Severinus Boetius</addName>
+            <addName>Anitius Manlius Severinus Boetius</addName>
+            <addName>Anitius Manlius Torquatus Severinus Boetius</addName>
+            <addName>Annaeus Boetius</addName>
+            <addName>Anneus Boetius</addName>
+            <addName>Manlius Severinus Boetius</addName>
+            <addName>Severinus Boetius</addName>
+            <addName>A. M. S. Boezio</addName>
+            <addName>A.M.Severino Boezio</addName>
+            <addName>Boezio Severino</addName>
+            <addName>Boeçio</addName>
+            <addName>Boeçio</addName>
+            <addName>Boèce</addName>
+            <addName>Anicius M. Boèce</addName>
+            <addName>Anicius Manlius Boèce</addName>
+            <addName>Anicius Manlius Severinus Boèce</addName>
+            <addName>Boēthios</addName>
+            <addName>Annitios Mallios Sebērinos Boēthos</addName>
+            <addName>Boēthos</addName>
+            <addName>Boëthius</addName>
+            <addName>Boëce</addName>
+            <addName>Boëce</addName>
+            <addName>Anicij M. Boėcij</addName>
+            <addName>Boėcij</addName>
+            <addName>Manlius</addName>
+            <addName>Pseudo-Boethius</addName>
+            <addName>Pseudo-Boèce</addName>
+            <addName>Severino</addName>
+            <addName>Anicius Manlius Torquatus Severinus</addName>
+            <addName>Severinus</addName>
+            <addName>Boetius Severinus</addName>
+            <addName>Manlius Severinus</addName>
+            <addName>Torquatus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Nero (Imperium Romanum, Imperator)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00982828</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00982828"
+                   key="#PND:118586998">Nero<addName type="display">Nero (Imperium Romanum, Imperator)</addName>
+            <addName>Nero Claudius Caesar</addName>
+            <addName>Claudius Caesar</addName>
+            <addName>Claudius Nero</addName>
+            <addName>Claudius Nero Caesar</addName>
+            <addName>Domitius Ahenobarbus</addName>
+            <addName>Lucius Domitius Ahenobarbus Nero Claudius Caesar Augustus Germanicus</addName>
+            <addName>Néron Empereur</addName>
+            <addName>Néron</addName>
+            <addName>Néron Empereur</addName>
+            <addName>Néron</addName>
+            <addName>Nero Claudius</addName>
+            <addName>Nero Claudius Caesar Augustus Germanicus Imperator</addName>
+            <addName>Nero Claudius Caesar Augustus Germanicus</addName>
+            <addName>Nero Tiberius Claudius Imperator</addName>
+            <addName>Nero Tiberius Claudius</addName>
+            <addName>Claudius C. Nero</addName>
+            <addName>Nero Caesar</addName>
+            <addName>Nero Emperor of Rome</addName>
+            <addName>Nero Imperator</addName>
+            <addName>Nero Römisches Reich, Kaiser</addName>
+            <addName>Nero Römischer Kaiser</addName>
+            <addName>Nero Romanus</addName>
+            <addName>Klavdij Cezarʹ Neron</addName>
+            <addName>Neron</addName>
+            <addName>Neron Imperator Rismkij</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Zenodoros</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300245</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300245">Zenodorus<addName type="display">Zenodoros</addName>
+            <addName>Cenodorus</addName>
+            <addName>Zenodorus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Apollon</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00542641</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00542641"
+                   key="#PND:118503642">Apolls<addName type="display">Apollon</addName>
+            <addName>Apoll</addName>
+            <addName>Apollo</addName>
+            <addName>Phoebus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Caracalla (Imperium Romanum, Imperator)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00397692</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00397692"
+                   key="#PND:118667041">Caracalla<addName type="display">Caracalla (Imperium Romanum, Imperator)</addName>
+            <addName>Aurelius Antoninus Caesar</addName>
+            <addName>Aurelius Antoninus</addName>
+            <addName>Aurelius Severus Antoninus Augustus</addName>
+            <addName>Aurelius Severus Antoninus</addName>
+            <addName>Bassianus</addName>
+            <addName>Caracalla Imperator</addName>
+            <addName>Caracalla Römischer Kaiser</addName>
+            <addName>Lucius Septimius Bassianus</addName>
+            <addName>Marcus Aurelius Antoninus</addName>
+            <addName>Marcus Aurelius Antoninus Caesar</addName>
+            <addName>Marcus Aurelius Severus Antoninus Augustus</addName>
+            <addName>Marcus Aurelius Severus Antoninus</addName>
+            <addName>Septimius Bassianus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Plinius Secundus, C.</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01238749</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01238749"
+                   key="#PND:118595083">Plinius<addName type="display">Plinius Secundus, C.</addName>
+            <addName>C. Plinius Secundus</addName>
+            <addName>Caius Plinius Secundus</addName>
+            <addName>Gaius Plinius Secundus</addName>
+            <addName>C. Plinio Secondo</addName>
+            <addName>C. Plinius Secundus veronensis</addName>
+            <addName>C. Plynius Secundus</addName>
+            <addName>Caio Plinio Secondo</addName>
+            <addName>Caio Plinio veronese</addName>
+            <addName>Caius Plinius Secundus Major</addName>
+            <addName>Cajus Plinius Secundus</addName>
+            <addName>G. Plinio Secondo</addName>
+            <addName>Pline</addName>
+            <addName>Pline</addName>
+            <addName>Caius Pline</addName>
+            <addName>Pline l'Ancien</addName>
+            <addName>Pline l'ancien</addName>
+            <addName>Pline lA´ncien</addName>
+            <addName>Pline le Naturaliste</addName>
+            <addName>Pline lÁncien</addName>
+            <addName>C. Pline Second</addName>
+            <addName>Pline Second</addName>
+            <addName>Pline l'Ancien 23-79</addName>
+            <addName>Plinij</addName>
+            <addName>Plinio</addName>
+            <addName>Gaio Secondo Plinio</addName>
+            <addName>Plinio Napoletano</addName>
+            <addName>Plinio el Viejo</addName>
+            <addName>Plinio il Vecchio</addName>
+            <addName>Plinio il vecchio</addName>
+            <addName>Plinio Secondo</addName>
+            <addName>Gaio Plinio Secondo</addName>
+            <addName>Caio Plinio Secundo</addName>
+            <addName>Plinio Secundo</addName>
+            <addName>Cayo Plinio Segundo</addName>
+            <addName>Plinio Segundo</addName>
+            <addName>Plinio il vecchio/C. Plinius Secundus</addName>
+            <addName>Plinius</addName>
+            <addName>C. Plinius</addName>
+            <addName>Caius Plinius</addName>
+            <addName>Caius Secundus Plinius</addName>
+            <addName>Plinius Florentino-Pragensis</addName>
+            <addName>Plinius Florentinus-Pragensis</addName>
+            <addName>Plinius Maior</addName>
+            <addName>Plinius Major</addName>
+            <addName>Plinius Rerum Naturalium Scriptor</addName>
+            <addName>Plinius Senior</addName>
+            <addName>Plinius der Ältere</addName>
+            <addName>Plinius starší</addName>
+            <addName>Plinius Secundus</addName>
+            <addName>C Plinius Secundus</addName>
+            <addName>Plinius Secundus, Caius Major</addName>
+            <addName>Plinius Secundus, Gaius Maior</addName>
+            <addName>Gajus Plinius Secundus</addName>
+            <addName>Plinius Secundus Maior</addName>
+            <addName>Plinius Secundus der Ältere</addName>
+            <addName>C. Plinius Secundus Maior</addName>
+            <addName>Plinius Secundus Novocomenis</addName>
+            <addName>Plinius d. Ä.</addName>
+            <addName>Pliniusz</addName>
+            <addName>K. Starszy Pliniusz</addName>
+            <addName>Pliniusz Starszy</addName>
+            <addName>Pliniusz Starszy K.</addName>
+            <addName>Plinjusz</addName>
+            <addName>Caius Plynius Secundus</addName>
+            <addName>Plynius Secundus</addName>
+            <addName>Gaius Plynius Secundus</addName>
+            <addName>Caius P. Secundus</addName>
+            <addName>Secundus</addName>
+            <addName>Gaius P. Secundus</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

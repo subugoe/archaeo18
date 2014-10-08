@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Titus (Imperium Romanum, Imperator)</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:151735 http://arachne.uni-koeln.de/item/bauwerk/2105614</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:151735 #http://arachne.uni-koeln.de/item/bauwerk/2105614">die
+                                von <persName ref="#CerlID:cnp00396707" key="#PND:118622951">Titus<addName type="display">Titus (Imperium Romanum, Imperator)</addName>
+               <addName>Flavius Vespasianus Titus</addName>
+               <addName>Titus Flavius Vespasianus</addName>
+               <addName>Flavius Vespasianus</addName>
+               <addName>Titus Vespasianus Augustus</addName>
+               <addName>Titus Vespasianus</addName>
+               <addName>Titus Imperator</addName>
+               <addName>Titus Römisches Reich, Kaiser</addName>
+               <addName>Titus Romanus</addName>
+               <addName>Vespasianus</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Caracalla (Imperium Romanum, Imperator)</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:150844 http://arachne.uni-koeln.de/item/bauwerk/2100234</link>
+      <count>4</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:150844 #http://arachne.uni-koeln.de/item/bauwerk/2100234">Die von <persName ref="#CerlID:cnp00397692" key="#PND:118667041">Caracalla<addName type="display">Caracalla (Imperium Romanum, Imperator)</addName>
+               <addName>Aurelius Antoninus Caesar</addName>
+               <addName>Aurelius Antoninus</addName>
+               <addName>Aurelius Severus Antoninus Augustus</addName>
+               <addName>Aurelius Severus Antoninus</addName>
+               <addName>Bassianus</addName>
+               <addName>Caracalla Imperator</addName>
+               <addName>Caracalla Römischer Kaiser</addName>
+               <addName>Lucius Septimius Bassianus</addName>
+               <addName>Marcus Aurelius Antoninus</addName>
+               <addName>Marcus Aurelius Antoninus Caesar</addName>
+               <addName>Marcus Aurelius Severus Antoninus Augustus</addName>
+               <addName>Marcus Aurelius Severus Antoninus</addName>
+               <addName>Septimius Bassianus</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Diocletianus (Imperium Romanum, Imperator)</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:150812 http://arachne.uni-koeln.de/item/bauwerk/2100093</link>
+      <count>4</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:150812 #http://arachne.uni-koeln.de/item/bauwerk/2100093">die des <persName ref="#CerlID:cnp01066071" key="#PND:118679651">Diocletian<addName type="display">Diocletianus (Imperium Romanum, Imperator)</addName>
+               <addName>Gaius Aurelius Valerius Diocletianus</addName>
+               <addName>Aurelius Valerius Diocletianus</addName>
+               <addName>Gaius Valerius Diocles</addName>
+               <addName>Diocles</addName>
+               <addName>Diocletian</addName>
+               <addName>Diocletian Römisches Reich, Kaiser</addName>
+               <addName>Diocletian Emperor of Rome</addName>
+               <addName>Diocletianus Römischer Kaiser</addName>
+               <addName>Gaius Aruelius Valerius Diocletianus Augustus</addName>
+               <addName>Diocletianus Augustus</addName>
+               <addName>Diocleziano Imperatore</addName>
+               <addName>Diokletian Römisches Reich, Kaiser</addName>
+               <addName>Valerius Diocletianus</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Palladio, Andrea</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-188.tei.xml-d13349e475">neueres solches Werk von <persName ref="#CerlID:cnp01238124" key="#PND:118591355">Palladio<addName type="display">Palladio, Andrea</addName>
+               <addName>Andrea Palladio</addName>
+               <addName>Andrea di Pietro</addName>
+               <addName>Andrea Di Pietro</addName>
+               <addName>Di Pietro</addName>
+               <addName>Andrea DiPietro</addName>
+               <addName>DiPietro</addName>
+               <addName>Andrea Paladio</addName>
+               <addName>Paladio</addName>
+               <addName>Andres Paladio</addName>
+               <addName>André Paladio</addName>
+               <addName>André Paladio</addName>
+               <addName>Andreas Paladius</addName>
+               <addName>Paladius</addName>
+               <addName>A Palladio</addName>
+               <addName>A. Palladio</addName>
+               <addName>Palladio, A. Andrea</addName>
+               <addName>Palladio, Andrea 1508-1580</addName>
+               <addName>André Palladio</addName>
+               <addName>André Palladio</addName>
+               <addName>Andrés Palladio</addName>
+               <addName>Palladio, Andrea/Paladius, Andreas</addName>
+               <addName>Andreas Palladius</addName>
+               <addName>Palladius</addName>
+               <addName>Pietro</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+</tags>

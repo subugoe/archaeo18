@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Musen</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00539388</link>
+      <count>8</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00539388"
+                   key="#PND:118820656">Musen<addName type="display">Musen</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Volpato, Giovanni</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00401648</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00401648"
+                   key="#PND:118873415">Volvato<addName type="display">Volpato, Giovanni</addName>
+            <addName>Giovanni Volpato</addName>
+            <addName>Giovanni Trevisan Volpato</addName>
+            <addName>Trevisan Volpato</addName>
+            <addName>Volpato</addName>
+            <addName>J. Volpato</addName>
+            <addName>Jean Volpato</addName>
+            <addName>Johannes Vulpatus</addName>
+            <addName>Vulpatus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Juno</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00589422</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00589422"
+                   key="#PND:118800574">Juno<addName type="display">Juno</addName>
+            <addName>Cupra</addName>
+            <addName>Pronuba</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

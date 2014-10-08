@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Ursinus. illustrium imagi- nes ex antiquis marmori- bus expressae.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/ursinus1570</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/ursinus1570">Ursinus. illustrium imagi- 
+                             nes ex antiquis marmori- 
+                             bus expressae.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Vaillant fam. Pamph.</tag>
+      <facet>tei:bibl</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#">Vaillant fam. Pamph.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Vasari vite de pittori.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://catalog.hathitrust.org/Record/009341149</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://catalog.hathitrust.org/Record/009341149">Vasari vite de pittori.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Veleius Paterculus.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://d-nb.info/gnd/4305969-7</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://d-nb.info/gnd/4305969-7">Veleius Paterculus.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Venuti Ridolfino. Mus. Capit.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN663206685</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN663206685">Venuti Ridolfino. Mus. Capit.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Venuti antichita.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://katalog.ub.uni-heidelberg.de/titel/66882626</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://katalog.ub.uni-heidelberg.de/titel/66882626">Venuti antichita.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Venuti Tabola di Circe.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://www.zvdd.de/dms/load/met/?PPN=urn%3Anbn%3Ade%3Abvb%3A12-bsb10222059-8</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://www.zvdd.de/dms/load/met/?PPN=urn%3Anbn%3Ade%3Abvb%3A12-bsb10222059-8">Venuti Tabola di Circe.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Versaille immortalisée</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN636514161</link>
+      <count>4</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN636514161">Versaille immortalisée</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Venuti. diss. sopra alc: gemme: litter.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN635132656</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN635132656">Venuti. diss. sopra alc: gemme:  litter.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Vignoli Column. ant. Pii. diss:</tag>
+      <facet>tei:bibl</facet>
+      <link>http://catalog.hathitrust.org/Record/001724053</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://catalog.hathitrust.org/Record/001724053">Vignoli Column. ant. Pii. diss:</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>di Vinci (Leonh.) Tratt. dell. Pittur.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN65951091X</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN65951091X">di Vinci (Leonh.) Tratt. dell.  Pittur.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Vettori. diss. glyptogr.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN663517230</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN663517230">Vettori. diss. glyptogr.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Virgilius. Aeneid.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://d-nb.info/gnd/4099391-7</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://d-nb.info/gnd/4099391-7">Virgilius. Aeneid.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+</tags>

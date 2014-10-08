@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Sixt (papa, 1521-1590)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00930951</link>
+      <count>4</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00930951"
+                       key="#PND:118765671">Sixtus V.<addName type="display">Sixt (papa, 1521-1590)</addName>
+            <addName>Felice Peretti Di Montalti</addName>
+            <addName>Di Montalti</addName>
+            <addName>Felice Peretti di Montalti</addName>
+            <addName>Montalti</addName>
+            <addName>Felice Montalto</addName>
+            <addName>Montalto</addName>
+            <addName>Felice Paretti di Montalto</addName>
+            <addName>Felix Montalto</addName>
+            <addName>Felix de Montealto</addName>
+            <addName>Montealto</addName>
+            <addName>Felice Peretti</addName>
+            <addName>Peretti</addName>
+            <addName>Peretti, Felice 1521-1590</addName>
+            <addName>Felix Peretti</addName>
+            <addName>Felice Peretti Peretti di Montalti</addName>
+            <addName>Peretti di Montalti</addName>
+            <addName>Felix Peretus</addName>
+            <addName>Peretus</addName>
+            <addName>Sisto Papa, V.</addName>
+            <addName>Sisto</addName>
+            <addName>Sisto Pontefice, V.</addName>
+            <addName>Sisto V papa 1521-1590</addName>
+            <addName>Sixte-Quint</addName>
+            <addName>Sixtus Pont. M., V.</addName>
+            <addName>Sixtus V pope</addName>
+            <addName>Sixtus V.</addName>
+            <addName>Xustus</addName>
+            <addName>Xystus Papa, V.</addName>
+            <addName>Xystus</addName>
+            <addName>Xystus Papst, V.</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Alexander (Magnus)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259691</link>
+      <count>4</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01259691"
+                       key="#PND:118501828">Alexander<addName type="display">Alexander (Magnus)</addName>
+            <addName>Ałekʹsandr Makedonacʹi</addName>
+            <addName>Alejandro Magno</addName>
+            <addName>Alejandro</addName>
+            <addName>Aleksandr</addName>
+            <addName>Alessandro Magno</addName>
+            <addName>Alessandro</addName>
+            <addName>Alexander de Grote</addName>
+            <addName>Alexander der Große</addName>
+            <addName>Alexander der Grosse</addName>
+            <addName>Alexander Epistolographus</addName>
+            <addName>Alexander III 3 koning van Macedonië</addName>
+            <addName>Alexander Kaiser</addName>
+            <addName>Alexander Macedonia, Rex, III.</addName>
+            <addName>Alexander Macedonis</addName>
+            <addName>Alexander Mazedonien, König, III.</addName>
+            <addName>Alexander of Macedon</addName>
+            <addName>Alexander Rex</addName>
+            <addName>Alexandre le Grand</addName>
+            <addName>Alexandre</addName>
+            <addName>Alexandros</addName>
+            <addName>Alexandros der Große</addName>
+            <addName>Alexandru cel Mare</addName>
+            <addName>Alexandru</addName>
+            <addName>Alexandrus Magnus</addName>
+            <addName>Alexandrus</addName>
+            <addName>Megalexandros</addName>
+            <addName>Pseudo-Alexander Magnus</addName>
+            <addName>Pseudo-Alexander</addName>
+            <addName>Grote</addName>
+            <addName>Alexandros Megas</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Bukephalos</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01288184</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01288184">Bucephalus<addName type="display">Bukephalos</addName>
+            <addName>Bucephalus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Phidias</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00562418</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00562418"
+                       key="#PND:118593765">Ph:<addName type="display">Phidias</addName>
+            <addName>Pheidias</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Praxiteles</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00589123</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00589123"
+                       key="#PND:118793241">Prax.<addName type="display">Praxiteles</addName>
+            <addName>Prassitele</addName>
+            <addName>Praxitèle</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-207.tei.xml-d20139e394">Hegesias</TEI:persName>
+      </nodes>
+   </tag>
+</tags>

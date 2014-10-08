@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Bacchus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00579062</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00579062"
+                       key="#PND:118651439">Bachus<addName type="display">Bacchus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Anacreon, Teius</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01260114</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01260114"
+                       key="#PND:118649035">Ana-
+                Kreon<addName type="display">Anacreon, Teius</addName>
+            <addName>Teius Anacreon</addName>
+            <addName>Anacrèon de Téos</addName>
+            <addName>Anacrèon</addName>
+            <addName>Anacrèon de Théos</addName>
+            <addName>Anacréon de Téos</addName>
+            <addName>Anacréon</addName>
+            <addName>Anacréon de Théos</addName>
+            <addName>Anacréon</addName>
+            <addName>Anacréon de Téos</addName>
+            <addName>Anacréon de Théos</addName>
+            <addName>Anacreo Lyricus</addName>
+            <addName>Anacreo</addName>
+            <addName>Anacreon Lyricus</addName>
+            <addName>Anacreon of Teos</addName>
+            <addName>Anacreonte</addName>
+            <addName>Anacreonte Teius</addName>
+            <addName>Anacreonte di Teo</addName>
+            <addName>Anakreion</addName>
+            <addName>Anakreon Tēios</addName>
+            <addName>Anakreon</addName>
+            <addName>Anakreon Lyriker</addName>
+            <addName>Anakreon Tēios</addName>
+            <addName>Anakreon von Teos</addName>
+            <addName>Anakreonte</addName>
+            <addName>Anakreontos Tēiu</addName>
+            <addName>Anakreontos</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Antinous</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00578329</link>
+      <count>4</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00578329"
+                       key="#PND:118649639">Antinous<addName type="display">Antinous</addName>
+            <addName>Antinoos</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Albani, Alessandro</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00404670</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00404670"
+                       key="#PND:119212064">Albani<addName type="display">Albani, Alessandro</addName>
+            <addName>Alessandro Albani</addName>
+            <addName>Alexander Albani</addName>
+            <addName>Alexandre Albani</addName>
+            <addName>Alexandri Albani</addName>
+            <addName>Alexandro Albani</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Savoyen-Carignan, Eugen ¬von¬</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00396391</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00396391"
+                       key="#PND:118605941">Eugens<addName type="display">Savoyen-Carignan, Eugen ¬von¬</addName>
+            <addName>Eugen von Savoyen-Carignan</addName>
+            <addName>Eugène François Savoyen, Prinz</addName>
+            <addName>Eugène François</addName>
+            <addName>Eugène Prince</addName>
+            <addName>Eugène</addName>
+            <addName>Eugène Savoie, Prince</addName>
+            <addName>Eugen Franz Savoyen, Prinz</addName>
+            <addName>Eugen Franz</addName>
+            <addName>Eugen Prinz</addName>
+            <addName>Eugen</addName>
+            <addName>Eugen Savoye, Duc</addName>
+            <addName>Eugen Savoyen und Piemont, Prinz</addName>
+            <addName>Eugen Savoyen, Herzog</addName>
+            <addName>Eugen Savoyen, Prinz</addName>
+            <addName>Eugen Savoyen-Carignan, Prinz</addName>
+            <addName>Eugene Savoy, Prince</addName>
+            <addName>Eugene</addName>
+            <addName>Eugene Savoye, Prince</addName>
+            <addName>Eugene Savoyen, Herzog</addName>
+            <addName>Eugenius Franciscus Sabaudia, Princeps</addName>
+            <addName>Eugenius Franciscus</addName>
+            <addName>Eugenius Franciscus Savoy und Piemont, Prinz</addName>
+            <addName>Eugenius Franciscus Savoyen und Piemont, Herzog</addName>
+            <addName>Eugenius Franciscus Savoyen, Herzog</addName>
+            <addName>Eugenius Frantz Savoyen und Piemont, Prinz</addName>
+            <addName>Eugenius Frantz</addName>
+            <addName>Eugenius Sabadus, Dux</addName>
+            <addName>Eugenius</addName>
+            <addName>Eugenius Savoyen, Prins</addName>
+            <addName>Eugenius Savoyen, Prinz</addName>
+            <addName>Franc̨ois Eugène Savoie, Prince</addName>
+            <addName>Franc̨ois Eugène</addName>
+            <addName>Franciscus Eugenius Savoyen und Piemont, Herzog</addName>
+            <addName>Franciscus Eugenius</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

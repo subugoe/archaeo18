@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Apollon</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-65.tei.xml-d9965e21">
+            <persName ref="#CerlID:cnp00542641" key="#PND:118503642">Apollo<addName type="display">Apollon</addName>
+               <addName>Apoll</addName>
+               <addName>Apollo</addName>
+               <addName>Phoebus</addName>
+            </persName> Palatinus</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Augustus (Emperor of Rome)</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:152443 http://arachne.uni-koeln.de/item/bauwerk/2105811 http://arachne.uni-koeln.de/item/bauwerk/2100087 http://arachne.uni-koeln.de/item/bauwerk/2103143</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:152443 #http://arachne.uni-koeln.de/item/bauwerk/2105811 #http://arachne.uni-koeln.de/item/bauwerk/2100087 #http://arachne.uni-koeln.de/item/bauwerk/2103143">Tempel des <persName ref="#CerlID:cnp00971385" key="#PND:118505122">Augustus<addName type="display">Augustus (Emperor of Rome)</addName>
+               <addName>Auguste Empereur</addName>
+               <addName>Auguste</addName>
+               <addName>Caio Giulio Cesare Ottaviano Augusto</addName>
+               <addName>Augusto</addName>
+               <addName>Cesare Augusto</addName>
+               <addName>Cesare Ottaviano Augusto</addName>
+               <addName>Ottaviano Augusto</addName>
+               <addName>Augustus Caesar</addName>
+               <addName>Caesar Augustus</addName>
+               <addName>Caesar Octavianus Augustus</addName>
+               <addName>Caius J. Augustus</addName>
+               <addName>Caius Julius Caesar Augustus</addName>
+               <addName>Cesar Octavianus Augustus</addName>
+               <addName>Gaius I. Augustus</addName>
+               <addName>Gaius Iulius Caesar Augustus</addName>
+               <addName>Gaius Iulius Caesar Octavianus Augustus</addName>
+               <addName>Gaius Julius Augustus</addName>
+               <addName>Gaius Julius Caesar Octavianus Augustus</addName>
+               <addName>Gaius Octavius Augustus</addName>
+               <addName>Iulius Caesar Octavianus Augustus</addName>
+               <addName>Octavianus Augustus</addName>
+               <addName>Octavius Caesar Augustus</addName>
+               <addName>Augustus Divus</addName>
+               <addName>Augustus Imperator</addName>
+               <addName>Augustus Imperium Romanum, Caesar</addName>
+               <addName>Augustus Kaiser</addName>
+               <addName>Augustus Römisches Reich, Kaiser</addName>
+               <addName>Augustus Roemisches Reich, Kaiser</addName>
+               <addName>Augustus Romanus</addName>
+               <addName>Augustus Verfasser der Res Gestae</addName>
+               <addName>Caius Octavianus Imperium Romanum, Imperator</addName>
+               <addName>Caius Octavianus</addName>
+               <addName>Caius Oktavius Imperium Romanum, Augustus</addName>
+               <addName>Caius Oktavius</addName>
+               <addName>Caius Oktavius Imperium Romanum, Imperator</addName>
+               <addName>Gaius Julius Caesar Octavianus</addName>
+               <addName>Gaius Octavius</addName>
+               <addName>Gaius Octavius Emperor of Rome</addName>
+               <addName>Octavian</addName>
+               <addName>Octavianus</addName>
+               <addName>Octavius</addName>
+               <addName>Octavius Caesar Emperor of Rome</addName>
+               <addName>Octavius Caesar</addName>
+               <addName>Octavius Augustus</addName>
+               <addName>Ottaviano</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-65.tei.xml-d9965e150">Actiacus</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-65.tei.xml-d9965e176">Salutaris</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-65.tei.xml-d9965e213">Propugnator</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-65.tei.xml-d9965e222">Delphius</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>ApollonDhílos</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-65.tei.xml-d9965e237">
+            <persName ref="#CerlID:cnp00542641" key="#PND:118503642">Apollo<addName type="display">Apollon</addName>
+               <addName>Apoll</addName>
+               <addName>Apollo</addName>
+               <addName>Phoebus</addName>
+            </persName> zu <placeName ref="#GettyID:7011273">Delus<addName type="display">Dhílos</addName>
+               <addName>Dhílos</addName>
+               <addName>Delos</addName>
+               <addName>Dhílos island</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-65.tei.xml-d9965e270">mit den Grazien neben sich</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-65.tei.xml-d9965e278">Clarius</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:150779 http://arachne.uni-koeln.de/item/objekt/19437</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:150779 #http://arachne.uni-koeln.de/item/objekt/19437">von Belvedere</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000466</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000466">Pio Clemen-
+                                        tino</term>
+      </nodes>
+   </tag>
+</tags>

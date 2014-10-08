@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Batoni, Pompeo Girolamo</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00403166</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00403166"
+                   key="#PND:119024098">Baltoni<addName type="display">Batoni, Pompeo Girolamo</addName>
+            <addName>Pompeo Girolamo Batoni</addName>
+            <addName>Baltoni</addName>
+            <addName>Pompeo Batoni</addName>
+            <addName>Pompeo Girolamo Battoni</addName>
+            <addName>Battoni</addName>
+            <addName>Pompeo G. Batoni</addName>
+            <addName>Pompejo Battoni</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Contucci, Contuccio</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00599945</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00599945"
+                   key="#PND:12939209X">P. Contucci<addName type="display">Contucci, Contuccio</addName>
+            <addName>Contuccio Contucci</addName>
+            <addName>Conducci Pater</addName>
+            <addName>Conducci</addName>
+            <addName>Archangelo Contuccio de Contucci</addName>
+            <addName>Archangelo Contuccio De Contucci</addName>
+            <addName>De Contucci</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Serenus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00095915</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00095915"
+                   key="#PND:119133954">Quint: Serenus Amonicus<addName type="display">Serenus</addName>
+            <addName>Quintus Serenus Sammonicus</addName>
+            <addName>Quintus Serenus Samonicus</addName>
+            <addName>Quintus Serenus</addName>
+            <addName>Sammonicus</addName>
+            <addName>Quinto Sereno</addName>
+            <addName>Sereno</addName>
+            <addName>Quinctius Serenus</addName>
+            <addName>Quinctius</addName>
+            <addName>Sammonicus Serenus</addName>
+            <addName>Quintus Sammonicus Serenus</addName>
+            <addName>Quintus Sammonicus Sammonicus</addName>
+            <addName>Samonicus</addName>
+            <addName>Quintus Serenius</addName>
+            <addName>Serenius</addName>
+            <addName>Serenus Sammonicus der Jüngere</addName>
+            <addName>Quintus/Serenus Sammonicus Serenus</addName>
+            <addName>Serenus Medicus</addName>
+            <addName>Johann Voyt</addName>
+            <addName>Voyt</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

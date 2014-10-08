@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:156599 http://arachne.uni-koeln.de/item/objekt/20534</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:156599 #http://arachne.uni-koeln.de/item/objekt/20534">mit einem Tympanum
+                                            in der Hand</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/36652</link>
+      <count>4</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/36652">Kaiserinnen als Cybele</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/36653</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/36653">22.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/36654</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/36654">23.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Townley, CharlesLondon</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/10689</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/10689">Bey <persName ref="#CerlID:cnp00505755" key="#PND:128698233">Danville<addName type="display">Townley, Charles</addName>
+               <addName>Charles Townley</addName>
+               <addName>Danville</addName>
+            </persName> in <placeName ref="#GettyID:7011781">London<addName type="display">London</addName>
+               <addName>London</addName>
+               <addName>Londres</addName>
+               <addName>Londra</addName>
+               <addName>Lundin</addName>
+               <addName>Lundres</addName>
+               <addName>Lundenceaster</addName>
+               <addName>Lundenne</addName>
+               <addName>Lundene</addName>
+               <addName>Lundenburg</addName>
+               <addName>Lundenwic</addName>
+               <addName>Lundonia</addName>
+               <addName>Londinium</addName>
+               <addName>Lundinium</addName>
+               <addName>Londinion</addName>
+               <addName>Londinium Augusta</addName>
+               <addName>Londinos</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Albani, Alessandro</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/27777</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/27777">Köpfe,
+                                            besonders beym <persName ref="#CerlID:cnp00404670" key="#PND:119212064">Card. Albani<addName type="display">Albani, Alessandro</addName>
+               <addName>Alessandro Albani</addName>
+               <addName>Alexander Albani</addName>
+               <addName>Alexandre Albani</addName>
+               <addName>Alexandri Albani</addName>
+               <addName>Alexandro Albani</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/219781</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/219781">Eine kleine Statue</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Faustina (Römisches Reich, Kaiserin, I.)</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/15928</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/15928">eine <persName ref="#CerlID:cnp00584987" key="#PND:118686240">Faustina<addName type="display">Faustina (Römisches Reich, Kaiserin, I.)</addName>
+               <addName>Faustina die Ältere</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Iulia Mamaea (Römisches Reich, Kaiserin)</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/15918</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/15918">
+            <persName ref="#CerlID:cnp00578209" key="#PND:123946298">Iulia Mammæa<addName type="display">Iulia Mamaea (Römisches Reich, Kaiserin)</addName>
+               <addName>Julia Mamaea Römisches Reich, Kaiserin</addName>
+               <addName>Julia Mamaea</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+</tags>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>parte IV. der verona illustra des Scip. Maffei</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN662513150</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN662513150">parte IV.
+                der verona illustra des Scip. Maffei</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Maf- fei Ant. Galliae 23. epist.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://inha.divvalib.net/collection/946-galliae-antiquitates-quaedam-selectae</link>
+      <count>4</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://inha.divvalib.net/collection/946-galliae-antiquitates-quaedam-selectae">Maf-
+                                fei Ant. Galliae 23. epist.</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Montfauc: T. 111. 151.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/montfaucon1722e/0123</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://digi.ub.uni-heidelberg.de/diglit/montfaucon1722e/0123">Montfauc:
+                T. 111. 151.</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Caval. Fontana ad Amphit: Flavian.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://rara.biblhertz.it/Dv620-3250</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://rara.biblhertz.it/Dv620-3250">Caval. Fontana ad Amphit:
+                        Flavian.</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+</tags>

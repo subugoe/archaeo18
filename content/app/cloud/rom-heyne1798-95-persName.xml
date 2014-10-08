@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Della Porta, Guglielmo</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00584689</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00584689"
+                   key="#PND:11867935X">Guiljelmo della Porta<addName type="display">Della Porta, Guglielmo</addName>
+            <addName>Guglielmo Della Porta</addName>
+            <addName>Gulielmo della Porta</addName>
+            <addName>Gulielmo</addName>
+            <addName>Guglielmo Della Porta di Porlezza</addName>
+            <addName>Della Porta di Porlezza</addName>
+            <addName>Guglielmo DellaPorta</addName>
+            <addName>DellaPorta</addName>
+            <addName>Guglielmo della Porta di Porlezza</addName>
+            <addName>Porlezza</addName>
+            <addName>Guglielmo della Porta di Polrezza</addName>
+            <addName>Porta di Polrezza</addName>
+            <addName>Guglielmo della Porta</addName>
+            <addName>Porta</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Herakles</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00574918</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00574918"
+                   key="#PND:118639552">Hercules<addName type="display">Herakles</addName>
+            <addName>Ercole</addName>
+            <addName>Heracles</addName>
+            <addName>Hercules</addName>
+            <addName>Herkules</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Guerniero, Giovanni Francesco</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00394972</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00394972"
+                   key="#PND:118543318">Vernieri<addName type="display">Guerniero, Giovanni Francesco</addName>
+            <addName>Giovanni Francesco Guerniero</addName>
+            <addName>Johannes Franciscus Guarnerius</addName>
+            <addName>Guarnerius</addName>
+            <addName>Giovanni Francesco Guarniero</addName>
+            <addName>Guarniero</addName>
+            <addName>Giovanni Francesco Guernerio</addName>
+            <addName>Guernerio</addName>
+            <addName>Johann Francisco Guernerio</addName>
+            <addName>Ioannes F. Guernerius</addName>
+            <addName>Guernerius</addName>
+            <addName>Ioannes Franciscus Guernerius</addName>
+            <addName>Jo. Franciscus Guernerius</addName>
+            <addName>Joannes Franciscus Guernerius</addName>
+            <addName>Johann Franciscus Guernerius</addName>
+            <addName>Johannes Franciscus Guernerius</addName>
+            <addName>Jean F. Guernière</addName>
+            <addName>Guernière</addName>
+            <addName>Jean François Guernière</addName>
+            <addName>Johann F. Guernier</addName>
+            <addName>Guernier</addName>
+            <addName>Johann Frantz Guernier</addName>
+            <addName>Johann Franz Guernier</addName>
+            <addName>Jean François Guerniere</addName>
+            <addName>Guerniere</addName>
+            <addName>Giovanni F. Guernieri</addName>
+            <addName>Guernieri</addName>
+            <addName>Giovanni Francesco Guernieri</addName>
+            <addName>Joh. Franc. Guernieri</addName>
+            <addName>Johann Franciscus Guernierius</addName>
+            <addName>Guernierius</addName>
+            <addName>Francesco G. Guerniero</addName>
+            <addName>Giovanni Francesco Guerrieri</addName>
+            <addName>Guerrieri</addName>
+            <addName>Johann Franz Werner</addName>
+            <addName>Werner</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Lysipp (von Sikyon)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00539734</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00539734"
+                   key="#PND:118833499">Lysippus<addName type="display">Lysipp (von Sikyon)</addName>
+            <addName>Lysippos</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

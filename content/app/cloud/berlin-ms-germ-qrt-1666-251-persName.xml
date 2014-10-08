@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/berlin-ms-germ-qrt-1666-251.tei.xml-d20429e40">Felibien</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/berlin-ms-germ-qrt-1666-251.tei.xml-d20429e49">I. M.Laucisig</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Plinius Caecilius Secundus, C.</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259370</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01259370"
+                       key="#PND:118595091 118595091">Plinius<addName type="display">Plinius Caecilius Secundus, C.</addName>
+            <addName>C. Plinius Caecilius Secundus</addName>
+            <addName>Caius Plinius Caecilius Secundus</addName>
+            <addName>Gaius Plinius Caecilius Secundus</addName>
+            <addName>Plinius Mladší</addName>
+            <addName>Plinius</addName>
+            <addName>Caecilius</addName>
+            <addName>Gaius P. Caecilius Secundus</addName>
+            <addName>Caecilius Secundus</addName>
+            <addName>C. Caecilus Plinus Secundus</addName>
+            <addName>Caecilus Plinus Secundus</addName>
+            <addName>Pline</addName>
+            <addName>Pline</addName>
+            <addName>Caius Pline</addName>
+            <addName>Pline de Come</addName>
+            <addName>Pline le Jeune</addName>
+            <addName>Pline le jeune</addName>
+            <addName>Plini el Jove</addName>
+            <addName>Plini</addName>
+            <addName>Plinio</addName>
+            <addName>Gaio Cecilio Secondo Plinio</addName>
+            <addName>Gaio Secondo Plinio</addName>
+            <addName>il Giovane Plinio</addName>
+            <addName>Plinio el Joven</addName>
+            <addName>Plinio el joven</addName>
+            <addName>Plinio il Giovane</addName>
+            <addName>Caio Plinio Secundo</addName>
+            <addName>Plinio Secundo</addName>
+            <addName>Plinius</addName>
+            <addName>Caecilius Secundus Plinius</addName>
+            <addName>Caius Plinius</addName>
+            <addName>Gaius Plinius</addName>
+            <addName>Plinius, Gaius der Andere</addName>
+            <addName>Gajus Cäcilius Secundus Plinius</addName>
+            <addName>Plinius Iunior</addName>
+            <addName>Plinius Junior</addName>
+            <addName>Plinius Minor</addName>
+            <addName>Plinius Novocomensis</addName>
+            <addName>Plinius Propraetor Bithyniae</addName>
+            <addName>Plinius der Jüngere</addName>
+            <addName>Plinius minor</addName>
+            <addName>Plinius mladší</addName>
+            <addName>Plinius C.</addName>
+            <addName>Caius Plinius Caecilius</addName>
+            <addName>Plinius Caecilius</addName>
+            <addName>Plinius Caecilius Secundus, Caius der Jüngere</addName>
+            <addName>Plinius Caecilius Secundus, Gaius Minor</addName>
+            <addName>Plinius Caecilius Secundus Epistolographus Latinus</addName>
+            <addName>Plinius Caecilius Secundus Minor</addName>
+            <addName>Cajus Plinius Cäcilius Secundus</addName>
+            <addName>Plinius Cäcilius Secundus</addName>
+            <addName>Cajus Plinius Cäcilius Secundus</addName>
+            <addName>Plinius Cäcilius Secundus</addName>
+            <addName>C. Plinius Cæc. Sec.</addName>
+            <addName>Plinius Cæc. Sec.</addName>
+            <addName>Plinius Mladšij</addName>
+            <addName>Plinius Secundus</addName>
+            <addName>C. Plinius Secundus</addName>
+            <addName>Caius Plinius Secundus</addName>
+            <addName>Cajus Plinius Secundus</addName>
+            <addName>Gaius Plinius Secundus</addName>
+            <addName>Gaius Caecilius Plinius Secundus</addName>
+            <addName>Plinius Secundus der Jüngere</addName>
+            <addName>Plinius de Jongere</addName>
+            <addName>Gay Pliny</addName>
+            <addName>Pliny the younger</addName>
+            <addName>Gaius Plynius</addName>
+            <addName>Plynius</addName>
+            <addName>Gaius Plynius Secundus</addName>
+            <addName>Plynius Secundus</addName>
+            <addName>Caius P. Secundus</addName>
+            <addName>Secundus</addName>
+            <addName>Gaius P. Secundus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Castell, Robert</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01147738</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01147738"
+                       key="#PND:13595231X">Robert Castel<addName type="display">Castell, Robert</addName>
+            <addName>Robert Castell</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

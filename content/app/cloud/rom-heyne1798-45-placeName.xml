@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Cnidus</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=5003757</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:5003757">Cnidus<addName type="display">Cnidus</addName>
+            <addName>Cnidus</addName>
+            <addName>Cnidus Nova</addName>
+            <addName>Cnidos</addName>
+            <addName>Knidos</addName>
+            <addName>Resadiye</addName>
+            <addName>Dadya</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Kos</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7010871</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7010871">Cos<addName type="display">Kos</addName>
+            <addName>Kos</addName>
+            <addName>Cos</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Thespiaí</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=5004258</link>
+      <count>4</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:5004258">Thespiæ in <placeName ref="#GettyID:7235093">Boeotien</placeName>
+            <addName type="display">Thespiaí</addName>
+            <addName>Thespiaí</addName>
+            <addName>Thespiai</addName>
+            <addName>Thespiae</addName>
+            <addName>Thespies</addName>
+            <addName>Thespie</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7235093</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7235093">Boeotien</placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Kocabas</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=6002329</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:6002329">Granicus<addName type="display">Kocabas</addName>
+            <addName>Kocabas</addName>
+            <addName>Granicus</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Roma</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7000874</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7000874">Rom<addName type="display">Roma</addName>
+            <addName>Roma</addName>
+            <addName>Urbe</addName>
+            <addName>Rome</addName>
+            <addName>Rom</addName>
+            <addName>Roman</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Salamis</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7002340</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7002340">Salamis<addName type="display">Salamis</addName>
+            <addName>Salamis</addName>
+            <addName>Salamís</addName>
+            <addName>Salamis Cypri</addName>
+            <addName>Constantia</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Athínai</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7001393</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7001393">Athen<addName type="display">Athínai</addName>
+            <addName>Athínai</addName>
+            <addName>Athenai</addName>
+            <addName>Athinai</addName>
+            <addName>Athens</addName>
+            <addName>Atenas</addName>
+            <addName>Athènes</addName>
+            <addName>Athen</addName>
+            <addName>Atene</addName>
+            <addName>Athenae</addName>
+            <addName>Athēnai</addName>
+            <addName>Athine</addName>
+         </placeName>
+      </nodes>
+   </tag>
+</tags>

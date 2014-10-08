@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Zenodoros</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300245</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300245">Cenodot<addName type="display">Zenodoros</addName>
+            <addName>Cenodorus</addName>
+            <addName>Zenodorus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Rhoikos</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300389</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300389">Rhoerus<addName type="display">Rhoikos</addName>
+            <addName>Phöcus</addName>
+            <addName>Rhoecus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Theodoros (von Samos)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300412</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300412">Deodor<addName type="display">Theodoros (von Samos)</addName>
+            <addName>Theodor</addName>
+            <addName>Theodorus</addName>
+            <addName>Theodorus  aus Samos</addName>
+            <addName>Theodorus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Polykrates (Tyrann)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00862535</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00862535"
+                       key="#PND:132258900">Po-
+          
+          lycrates’<addName type="display">Polykrates (Tyrann)</addName>
+            <addName>Polykrates von Samos</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Phidias</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00562418</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00562418"
+                       key="#PND:118593765">Phidias<addName type="display">Phidias</addName>
+            <addName>Pheidias</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>&lt;Phalereus&gt;, Demetrius</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00397973</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00397973"
+                       key="#PND:118677713">Demetrius Va-
+            
+                    
+          lerius<addName type="display">&lt;Phalereus&gt;, Demetrius</addName>
+            <addName>Demetrius &lt;Phalereus&gt;</addName>
+            <addName>Démétrios de Phalère</addName>
+            <addName>Démétrios</addName>
+            <addName>Démétrios de Phalère</addName>
+            <addName>Démétrios</addName>
+            <addName>Démétrius de Phalère</addName>
+            <addName>Démétrius</addName>
+            <addName>Demetrio di Falero</addName>
+            <addName>Demetrio Falereo</addName>
+            <addName>Demetrio Bibliotecario</addName>
+            <addName>Demetrio</addName>
+            <addName>Demetrio Filosofo Peripatetico</addName>
+            <addName>Demetrios</addName>
+            <addName>Demetrios Falereos</addName>
+            <addName>Demetrios von Phaleron</addName>
+            <addName>Demetrios Athenischer Politiker</addName>
+            <addName>Demetrios Freund Theophrasts</addName>
+            <addName>Demetrios of Phaleron</addName>
+            <addName>Demetrios Peripatetiker</addName>
+            <addName>Demetrios Politiker</addName>
+            <addName>Demetrius Falereo</addName>
+            <addName>Demetrius of Phal.</addName>
+            <addName>Demetrius Falereus</addName>
+            <addName>Demetrius Formarum Epistolicarum Auctor</addName>
+            <addName>Demetrius Historicus</addName>
+            <addName>Demetrius Phalereus Historicus</addName>
+            <addName>Demetrius Philosophus</addName>
+            <addName>Demetrius Rhetor</addName>
+            <addName>Phalereus</addName>
+            <addName>Phaleron</addName>
+            <addName>Pseudo-Demetrius</addName>
+            <addName>Pseudo-Demetrius Phalereus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Kassander (Makedonien, König)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00554718</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00554718"
+                       key="#PND:118560476">Casander<addName type="display">Kassander (Makedonien, König)</addName>
+            <addName>Kassandros Makedonien, König</addName>
+            <addName>Kassandros</addName>
+            <addName>Kassander Sohn des Antipater</addName>
+            <addName>Kassandros Sohn des Antipater</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

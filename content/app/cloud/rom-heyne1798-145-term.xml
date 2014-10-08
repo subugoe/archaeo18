@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Pescennius Niger (Römisches Reich, Kaiser, Gegenkaiser)</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/28127 http://arachne.uni-koeln.de/item/objekt/28130</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/28127 #http://arachne.uni-koeln.de/item/objekt/28130">
+            <persName ref="#CerlID:cnp00588992" key="#PND:118790498">Pesennius Niger<addName type="display">Pescennius Niger (Römisches Reich, Kaiser, Gegenkaiser)</addName>
+               <addName>Gaius Pescennius Niger Iustus</addName>
+               <addName>Pescennius Niger Iustus</addName>
+               <addName>Gaius Pescennius Niger</addName>
+            </persName> im P. Alhieri in Bronce</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Septime Sévère (empereur romain)</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/3198 http://arachne.uni-koeln.de/item/objekt/36087</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/3198 #http://arachne.uni-koeln.de/item/objekt/36087">
+            <persName ref="#CerlID:cnp01239912" key="#PND:118764659">Septimius Severus<addName type="display">Septime Sévère (empereur romain)</addName>
+               <addName>Lucius Septimius Severus Pertinax</addName>
+               <addName>Lucius Septimius Severus</addName>
+               <addName>Septimius Severus empereur romain</addName>
+               <addName>L. Septimius Severus Pertinax Augustus</addName>
+               <addName>Lucius Septimius Severus Pertinax Augustus</addName>
+               <addName>Septime Sévère/Septimius Severus</addName>
+               <addName>Septimus Severus</addName>
+               <addName>Settimio Severo</addName>
+               <addName>Seuerus</addName>
+               <addName>Severus</addName>
+               <addName>Lucius S. Severus</addName>
+            </persName> im P. Barberini</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Caracalla (Imperium Romanum, Imperator)</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-145.tei.xml-d5111e91">
+            <persName ref="#CerlID:cnp00397692" key="#PND:118667041">Caracalla<addName type="display">Caracalla (Imperium Romanum, Imperator)</addName>
+               <addName>Aurelius Antoninus Caesar</addName>
+               <addName>Aurelius Antoninus</addName>
+               <addName>Aurelius Severus Antoninus Augustus</addName>
+               <addName>Aurelius Severus Antoninus</addName>
+               <addName>Bassianus</addName>
+               <addName>Caracalla Imperator</addName>
+               <addName>Caracalla Römischer Kaiser</addName>
+               <addName>Lucius Septimius Bassianus</addName>
+               <addName>Marcus Aurelius Antoninus</addName>
+               <addName>Marcus Aurelius Antoninus Caesar</addName>
+               <addName>Marcus Aurelius Severus Antoninus Augustus</addName>
+               <addName>Marcus Aurelius Severus Antoninus</addName>
+               <addName>Septimius Bassianus</addName>
+            </persName> im Haus Farnese</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Clodius Albinus (Imperium Romanum, Antiimperator)</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/21168</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/21168">
+            <persName ref="#CerlID:cnp00525387" key="#PND:129063800">Clodius Albinus<addName type="display">Clodius Albinus (Imperium Romanum, Antiimperator)</addName>
+               <addName>Albinus</addName>
+               <addName>Decimus Clodius Septimius Albinus</addName>
+               <addName>Decimus Clodius Albinus</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pupienus (Römisches Reich, Kaiser)</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/16068</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/16068">
+            <persName ref="#CerlID:cnp00589147" key="#PND:118793691">Papienus<addName type="display">Pupienus (Römisches Reich, Kaiser)</addName>
+               <addName>Marcus Clodius Pupienus Maximus</addName>
+               <addName>Pupienus Maximus</addName>
+               <addName>Pupienus Imperium Romanum, Imperator</addName>
+            </persName> in V. Albani</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Volusianus, Gaius Vibius Afinius Gallus Veldumnianus</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/17889</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/17889">
+            <persName ref="#CerlID:cnp01300331">Gallus Volusianus<addName type="display">Volusianus, Gaius Vibius Afinius Gallus Veldumnianus</addName>
+               <addName>Gaius Vibius Afinius Gallus Veldumnianus Volusianus</addName>
+            </persName> in V. Pamfili</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Gallienus (Römisches Reich, Kaiser)</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-145.tei.xml-d5111e192">
+            <persName ref="#CerlID:cnp00549952" key="#PND:118537334">Gallienus<addName type="display">Gallienus (Römisches Reich, Kaiser)</addName>
+               <addName>Publius Licinius Egnatius Gallienus</addName>
+               <addName>Egnatius Gallienus</addName>
+               <addName>Gallienus Imperium Romanum, Imperator</addName>
+               <addName>Licinius Egnatius Gallienus</addName>
+            </persName> als Hero</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Bernini, Gian LorenzoSanta Sede</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-145.tei.xml-d5111e401">Statue zu Pferde, wie er das Kreutz
+                                        am Himmel sieht, von <persName ref="#CerlID:cnp00543952" key="#PND:118509926">Bernini<addName type="display">Bernini, Gian Lorenzo</addName>
+               <addName>Gian Lorenzo Bernini</addName>
+               <addName>Gianlorenzo Bernin</addName>
+               <addName>Bernin</addName>
+               <addName>Gian L. Bernini</addName>
+               <addName>Gianlorenzo Bernini</addName>
+               <addName>Giovanni L. Bernini</addName>
+               <addName>Giovanni Lorenzo Bernini</addName>
+               <addName>Jean Laurent Bernini</addName>
+               <addName>Laurentius Bernini</addName>
+               <addName>Lorenzo Bernini</addName>
+               <addName>Giovanni Lorenzo Bernino</addName>
+               <addName>Bernino</addName>
+               <addName>Joans. Laurentius Berninus</addName>
+               <addName>Berninus</addName>
+            </persName>, auf dem <placeName ref="#GettyID:7001168">Vatican<addName type="display">Santa Sede</addName>
+               <addName>Santa Sede</addName>
+               <addName>Holy See</addName>
+               <addName>Saint-Siège</addName>
+               <addName>Città del Vaticano</addName>
+               <addName>Stato della Città del Vaticano</addName>
+               <addName>Vatican</addName>
+               <addName>Vatican City</addName>
+               <addName>Vatican City State</addName>
+               <addName>State of Vatican City</addName>
+               <addName>State of the Vatican City</addName>
+               <addName>Cité du Vatican</addName>
+               <addName>Ciudad del Vatican</addName>
+               <addName>Vatican, État de la Cité du</addName>
+               <addName>Vatikan</addName>
+               <addName>Vaticaanstad</addName>
+               <addName>VAT</addName>
+               <addName>VA</addName>
+               <addName>ISO336</addName>
+               <addName>VT00</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Belisar</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:10018939 http://arachne.uni-koeln.de/item/objekt/14659</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:10018939 #http://arachne.uni-koeln.de/item/objekt/14659">sogenannter<persName ref="#CerlID:cnp00580329" key="#PND:118655108">Belisarius<addName type="display">Belisar</addName>
+               <addName>Belisarios</addName>
+               <addName>Belsiarius</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-145.tei.xml-d5111e531">eine 2te im
+                                            P. Giust.</term>
+      </nodes>
+   </tag>
+</tags>

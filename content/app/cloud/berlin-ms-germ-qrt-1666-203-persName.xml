@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/berlin-ms-germ-qrt-1666-203.tei.xml-d10889e28">Martiani</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Nardini, Famiano</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01130298</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01130298"
+                       key="#PND:133667294 100218806">Nardini<addName type="display">Nardini, Famiano</addName>
+            <addName>Famiano Nardini</addName>
+            <addName>Famiano Nardino</addName>
+            <addName>Nardino</addName>
+            <addName>Famian Nardinus</addName>
+            <addName>Nardinus</addName>
+            <addName>Famianus Nardinus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Donati, Alessandro</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00951282</link>
+      <count>4</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00951282"
+                       key="#PND:100110983">Donati<addName type="display">Donati, Alessandro</addName>
+            <addName>Alessandro Donati</addName>
+            <addName>Alexandrus Donati</addName>
+            <addName>Alessandro Donato</addName>
+            <addName>Donato</addName>
+            <addName>Alexander Donatus</addName>
+            <addName>Donatus</addName>
+            <addName>Alexandrus Donatus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Boissard, Jean-Jacques</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00363551</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00363551"
+                       key="#PND:104277009">Boissard<addName type="display">Boissard, Jean-Jacques</addName>
+            <addName>Jean-Jacques Boissard</addName>
+            <addName>Jean Jacques Boissard</addName>
+            <addName>Janus Jacobus Boissardus</addName>
+            <addName>Boissardus</addName>
+            <addName>Ian Iacob Boißard</addName>
+            <addName>Boißard</addName>
+            <addName>Johannes Jacobus Boisardus</addName>
+            <addName>Boisardus</addName>
+            <addName>Ian Iacob Boissard</addName>
+            <addName>Ianus Iacobus Boissard</addName>
+            <addName>Janus Jacobus Boissard</addName>
+            <addName>Jean J. Boissard</addName>
+            <addName>Johannes J. Boissard</addName>
+            <addName>Johannes Jacobus Boissard</addName>
+            <addName>Janus Jacobus Boissardius</addName>
+            <addName>Boissardius</addName>
+            <addName>I. I. Boissardus</addName>
+            <addName>Ian Iacobus Boissardus</addName>
+            <addName>Ian. Iac. Boissardus</addName>
+            <addName>Ianus Iacobus Boissardus</addName>
+            <addName>Ianus Jacobus Boissardus</addName>
+            <addName>Ioan. Iacobus Boissardus</addName>
+            <addName>Ioannes I. Boissardus</addName>
+            <addName>Ioannes Iacobus Boissardus</addName>
+            <addName>Ioannes Jacobus Boissardus</addName>
+            <addName>Jan Jacob Boissardus</addName>
+            <addName>Jan Jacobus Boissardus</addName>
+            <addName>Janus J. Boissardus</addName>
+            <addName>Joan. Jacobus Boissardus</addName>
+            <addName>Joannes J. Boissardus</addName>
+            <addName>Joannes Jacobus Boissardus</addName>
+            <addName>Joannes Jacques Boissardus</addName>
+            <addName>Johann J. Boissardus</addName>
+            <addName>Johann Jacob Boissardus</addName>
+            <addName>Johann Jakob Boissardus</addName>
+            <addName>Johannes J. Boissardus</addName>
+            <addName>Johannes Jacobus Boissardus</addName>
+            <addName>Johannes Jacques Boissardus</addName>
+            <addName>Vesuntinus Boissardus</addName>
+            <addName>Ioan. Iacobus Boissartus</addName>
+            <addName>Boissartus</addName>
+            <addName>Joannes J. Boissartus</addName>
+            <addName>Joannes Jacobus Boissartus</addName>
+            <addName>Johannes Jacobus Boissartus</addName>
+            <addName>Johannes Jacobus Bossardus</addName>
+            <addName>Bossardus</addName>
+            <addName>Jean J. Boyssard</addName>
+            <addName>Boyssard</addName>
+            <addName>Iohannes Iacobus Boyssardus</addName>
+            <addName>Boyssardus</addName>
+            <addName>Johannes Jacobus Boyssardus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

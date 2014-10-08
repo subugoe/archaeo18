@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Roma</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7000874</link>
+      <count>8</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7000874">Rom<addName type="display">Roma</addName>
+            <addName>Roma</addName>
+            <addName>Urbe</addName>
+            <addName>Rome</addName>
+            <addName>Rom</addName>
+            <addName>Roman</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Kórinthos</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7010734</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7010734">Corinth<addName type="display">Kórinthos</addName>
+            <addName>Kórinthos</addName>
+            <addName>Korinthos</addName>
+            <addName>Corinthus</addName>
+            <addName>Corinth</addName>
+            <addName>Colonia Laus Iulia Corinthiensis</addName>
+            <addName>Paleakorinthos</addName>
+            <addName>Ephyra</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Ellás</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=1000074</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:1000074">Griechenland<addName type="display">Ellás</addName>
+            <addName>Ellás</addName>
+            <addName>Ellas</addName>
+            <addName>Ellinikí Dimokratía</addName>
+            <addName>Elliniki Dimokratia</addName>
+            <addName>Elliniki Dhimokratia</addName>
+            <addName>Greece</addName>
+            <addName>Hellenic Republic</addName>
+            <addName>Grèce</addName>
+            <addName>République hellénique</addName>
+            <addName>Griechenland</addName>
+            <addName>Grecia</addName>
+            <addName>Griekenland</addName>
+            <addName>Grécia</addName>
+            <addName>GRC</addName>
+            <addName>GR</addName>
+            <addName>ISO300</addName>
+            <addName>GR00</addName>
+            <addName>Kingdom of Greece</addName>
+            <addName>Hellas</addName>
+            <addName>Greek</addName>
+            <addName>Hellenic</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pontos</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7029624</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7029624">Pontus<addName type="display">Pontos</addName>
+            <addName>Pontos</addName>
+            <addName>Pontus</addName>
+            <addName>Pontian</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Armenia</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7004538</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7004538">Armenien<addName type="display">Armenia</addName>
+            <addName>Armenia</addName>
+            <addName>Armenia historical region</addName>
+            <addName>Hayasdan</addName>
+            <addName>Hayq</addName>
+            <addName>Arménie</addName>
+            <addName>Armina</addName>
+            <addName>Minni</addName>
+            <addName>Van</addName>
+            <addName>Urartu</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Syria</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7030348</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7030348">Syrien<addName type="display">Syria</addName>
+            <addName>Syria</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Judaea</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7001407</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7001407">Palæstina<addName type="display">Judaea</addName>
+            <addName>Judaea</addName>
+            <addName>Judea</addName>
+            <addName>Judah</addName>
+            <addName>Yehuda</addName>
+            <addName>Yehudah</addName>
+            <addName>Giudea</addName>
+            <addName>Judée</addName>
+            <addName>Palaestina</addName>
+            <addName>Syria Palaestina</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Arabian Peninsula</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=1012700</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:1012700">Arabien<addName type="display">Arabian Peninsula</addName>
+            <addName>Arabian Peninsula</addName>
+            <addName>Arabique, Péninsule</addName>
+            <addName>Arabia</addName>
+            <addName>Arabistan</addName>
+            <addName>Arabian</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+</tags>

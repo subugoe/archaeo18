@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Phidias</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00562418</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00562418"
+                   key="#PND:118593765">Phidias<addName type="display">Phidias</addName>
+            <addName>Pheidias</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Lysipp (von Sikyon)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00539734</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00539734"
+                   key="#PND:118833499">Lysippus<addName type="display">Lysipp (von Sikyon)</addName>
+            <addName>Lysippos</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Jupiter</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00554429</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00554429"
+                   key="#PND:118558897">Jupiter<addName type="display">Jupiter</addName>
+            <addName>Iupiter</addName>
+            <addName>Juppiter</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Paternó Castellò, Ignazio</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00476565</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00476565"
+                   key="#PND:124386121">Prinzen Piscari<addName type="display">Paternó Castellò, Ignazio</addName>
+            <addName>Ignazio Paternó Castellò</addName>
+            <addName>Ignazio Paternò Castello</addName>
+            <addName>Ignazio Paternò Castello</addName>
+            <addName>Piscari Prinz</addName>
+            <addName>Piscari</addName>
+            <addName>Ignazio Paternó Castellò di Biscari</addName>
+            <addName>Biscari</addName>
+            <addName>Principe di Biscari</addName>
+            <addName>Castellò</addName>
+            <addName>Ignazio Paternó</addName>
+            <addName>Paternó</addName>
+            <addName>Paternó Castellò di Biscari</addName>
+            <addName>Ignazio Paternò di Biscari</addName>
+            <addName>Ignazio Paternò Castello di Biscari</addName>
+            <addName>Castello</addName>
+            <addName>Ignazio Vincenzo Paternò Castello</addName>
+            <addName>Castello di Biscari</addName>
+            <addName>Ignazio Paternò</addName>
+            <addName>Paternò</addName>
+            <addName>Ignazio Vincenzo Paternò</addName>
+            <addName>Paternò Castello di Biscari</addName>
+            <addName>Paternò di Biscari</addName>
+            <addName>Ignazio Paternò-Castello</addName>
+            <addName>Paternò-Castello</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

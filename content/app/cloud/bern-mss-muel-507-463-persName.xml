@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Pausanias</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00396071</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00396071"
+                       key="#PND:118592246">Pausanias<addName type="display">Pausanias</addName>
+            <addName>Pausania</addName>
+            <addName>Pausania il Periegeta</addName>
+            <addName>Pausanias Periegetos</addName>
+            <addName>Pausanias Damascenus</addName>
+            <addName>Pausanias de Magnésie</addName>
+            <addName>Pausanias de Magnésie</addName>
+            <addName>Pausanias der Perieget</addName>
+            <addName>Pausanias der Periegete</addName>
+            <addName>Pausanias Géographe</addName>
+            <addName>Pausanias Géographe</addName>
+            <addName>Pausanias Geographus</addName>
+            <addName>Pausanias Lydius</addName>
+            <addName>Pausanias Perieget</addName>
+            <addName>Pausanias Reiseschriftsteller</addName>
+            <addName>Pausanias Schriftsteller</addName>
+            <addName>Pauzanija</addName>
+            <addName>Periegeta</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Plinius Secundus, C.</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01238749</link>
+      <count>4</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01238749"
+                       key="#PND:118595083">Plin<addName type="display">Plinius Secundus, C.</addName>
+            <addName>C. Plinius Secundus</addName>
+            <addName>Caius Plinius Secundus</addName>
+            <addName>Gaius Plinius Secundus</addName>
+            <addName>C. Plinio Secondo</addName>
+            <addName>C. Plinius Secundus veronensis</addName>
+            <addName>C. Plynius Secundus</addName>
+            <addName>Caio Plinio Secondo</addName>
+            <addName>Caio Plinio veronese</addName>
+            <addName>Caius Plinius Secundus Major</addName>
+            <addName>Cajus Plinius Secundus</addName>
+            <addName>G. Plinio Secondo</addName>
+            <addName>Pline</addName>
+            <addName>Pline</addName>
+            <addName>Caius Pline</addName>
+            <addName>Pline l'Ancien</addName>
+            <addName>Pline l'ancien</addName>
+            <addName>Pline lA´ncien</addName>
+            <addName>Pline le Naturaliste</addName>
+            <addName>Pline lÁncien</addName>
+            <addName>C. Pline Second</addName>
+            <addName>Pline Second</addName>
+            <addName>Pline l'Ancien 23-79</addName>
+            <addName>Plinij</addName>
+            <addName>Plinio</addName>
+            <addName>Gaio Secondo Plinio</addName>
+            <addName>Plinio Napoletano</addName>
+            <addName>Plinio el Viejo</addName>
+            <addName>Plinio il Vecchio</addName>
+            <addName>Plinio il vecchio</addName>
+            <addName>Plinio Secondo</addName>
+            <addName>Gaio Plinio Secondo</addName>
+            <addName>Caio Plinio Secundo</addName>
+            <addName>Plinio Secundo</addName>
+            <addName>Cayo Plinio Segundo</addName>
+            <addName>Plinio Segundo</addName>
+            <addName>Plinio il vecchio/C. Plinius Secundus</addName>
+            <addName>Plinius</addName>
+            <addName>C. Plinius</addName>
+            <addName>Caius Plinius</addName>
+            <addName>Caius Secundus Plinius</addName>
+            <addName>Plinius Florentino-Pragensis</addName>
+            <addName>Plinius Florentinus-Pragensis</addName>
+            <addName>Plinius Maior</addName>
+            <addName>Plinius Major</addName>
+            <addName>Plinius Rerum Naturalium Scriptor</addName>
+            <addName>Plinius Senior</addName>
+            <addName>Plinius der Ältere</addName>
+            <addName>Plinius starší</addName>
+            <addName>Plinius Secundus</addName>
+            <addName>C Plinius Secundus</addName>
+            <addName>Plinius Secundus, Caius Major</addName>
+            <addName>Plinius Secundus, Gaius Maior</addName>
+            <addName>Gajus Plinius Secundus</addName>
+            <addName>Plinius Secundus Maior</addName>
+            <addName>Plinius Secundus der Ältere</addName>
+            <addName>C. Plinius Secundus Maior</addName>
+            <addName>Plinius Secundus Novocomenis</addName>
+            <addName>Plinius d. Ä.</addName>
+            <addName>Pliniusz</addName>
+            <addName>K. Starszy Pliniusz</addName>
+            <addName>Pliniusz Starszy</addName>
+            <addName>Pliniusz Starszy K.</addName>
+            <addName>Plinjusz</addName>
+            <addName>Caius Plynius Secundus</addName>
+            <addName>Plynius Secundus</addName>
+            <addName>Gaius Plynius Secundus</addName>
+            <addName>Caius P. Secundus</addName>
+            <addName>Secundus</addName>
+            <addName>Gaius P. Secundus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Chares (von Lindos)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300251</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300251">Chares<addName type="display">Chares (von Lindos)</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Lysipp (von Sikyon)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00539734</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00539734"
+                       key="#PND:118833499">Lysippus<addName type="display">Lysipp (von Sikyon)</addName>
+            <addName>Lysippos</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Demetrios (Makedonien, König, I.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00394561</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00394561"
+                       key="#PND:118524623">Demetrius Coryorcetes<addName type="display">Demetrios (Makedonien, König, I.)</addName>
+            <addName>Demetrios Makedonien, König</addName>
+            <addName>Demetrios Megas</addName>
+            <addName>Demetrios Poliorketes</addName>
+            <addName>Demetrius Historicus</addName>
+            <addName>Demetrius Macedo</addName>
+            <addName>Demetrius Macedonia, Rex, I.</addName>
+            <addName>Demetrius Poliorcetes</addName>
+            <addName>Demetrius Poliorcetes, I.</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Moawija (Omaijadenreich, Kalif, I.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00404697</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00404697"
+                       key="#PND:119217481">Mohabias<addName type="display">Moawija (Omaijadenreich, Kalif, I.)</addName>
+            <addName>Moawiya</addName>
+            <addName>Moawiyar</addName>
+            <addName>Muawija Omaijadenreich, Kalif, I.</addName>
+            <addName>Muawija</addName>
+            <addName>Muʻāwiya Kalif, I.</addName>
+            <addName>Muʻāwiya Ibn-Abī-Sufyān</addName>
+            <addName>Muʻāwiyya</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>ʿUṯmān ibn ʿAffān (3ème calife)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01389459</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01389459">Califen Osmann<addName type="display">ʿUṯmān ibn ʿAffān (3ème calife)</addName>
+            <addName>ʿUṯmān ibn ʿAffān Ibn Abī al-ʿāṣ</addName>
+            <addName>Ibn Abī al-ʿāṣ</addName>
+            <addName>ʿUṯmān ibn ʿAffān ibn Abī al-ʿāṣ Ibn Umayyaẗ</addName>
+            <addName>Ibn Umayyaẗ</addName>
+            <addName>`Uthmān ibn `Affān 3ème calife</addName>
+            <addName>`Uthmān ibn `Affān</addName>
+            <addName>ʿUtman 3ème calife</addName>
+            <addName>ʿUtman</addName>
+            <addName>ʿUtman III+03+ 3ème calife des musulmans</addName>
+            <addName>ʿUtman Ibn ʿAffan 3ème calife</addName>
+            <addName>ʿUtman Ibn ʿAffan</addName>
+            <addName>عثمان إبن عفّان 3 ème calife</addName>
+            <addName>عثمان إبن عفّان</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

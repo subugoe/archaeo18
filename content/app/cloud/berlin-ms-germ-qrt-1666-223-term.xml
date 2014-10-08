@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Hesiod</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/berlin-ms-germ-qrt-1666-223.tei.xml-d13659e204">
+            <TEI:persName ref="#CerlID:cnp00909084" key="#PND:118550292">Hesiodus<addName type="display">Hesiod</addName>
+               <addName>Ēsiodos</addName>
+               <addName>Ēsiodos</addName>
+               <addName>Eracle</addName>
+               <addName>Esiodo</addName>
+               <addName>Esiodo Ascraeo</addName>
+               <addName>Hēsiodos</addName>
+               <addName>Hésiode</addName>
+               <addName>Hésiode d'Ascra</addName>
+               <addName>Hēsiodos</addName>
+               <addName>Hésiode</addName>
+               <addName>Hésiode d'Ascra</addName>
+               <addName>Hesiode</addName>
+               <addName>Hesiodo</addName>
+               <addName>Hesiodos</addName>
+               <addName>Hesiodos Askraios</addName>
+               <addName>Hesiodos Dichter</addName>
+               <addName>Hesiodos Epischer Dichter</addName>
+               <addName>Hesiodos ho Askraios</addName>
+               <addName>Hesiodos von Askra</addName>
+               <addName>Hesiodos von Kyme</addName>
+               <addName>Hesiodus Ascraeus</addName>
+               <addName>Hesiodus Ascreus</addName>
+               <addName>Hesiodus Askra</addName>
+               <addName>Hesiodus Epicus</addName>
+               <addName>Hezyod</addName>
+               <addName>Isiodos ho Askraios</addName>
+               <addName>Isiodos</addName>
+            </TEI:persName> Schild</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Steneus</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/berlin-ms-germ-qrt-1666-223.tei.xml-d13659e305">
+            <TEI:persName ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/berlin-ms-germ-qrt-1666-223.tei.xml-d13659e306">Steneus</TEI:persName>
+                    Schild</TEI:term>
+      </nodes>
+   </tag>
+</tags>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-139.tei.xml-d1746e196">Racolta 21.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/16079</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/16079">Mus. Cap. 1. 82.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Firenze</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/5951</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/5951">eine im <placeName ref="#GettyID:7000457">Florenz<addName type="display">Firenze</addName>
+               <addName>Firenze</addName>
+               <addName>Florence</addName>
+               <addName>Florencia</addName>
+               <addName>Florenz</addName>
+               <addName>Fiorenza</addName>
+               <addName>Florentia</addName>
+               <addName>Florentine</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pompeius Magnus, Gnaeus</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/148559</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/148559">
+            <persName ref="#CerlID:cnp00396166" key="#PND:118595636">Pompejus<addName type="display">Pompeius Magnus, Gnaeus</addName>
+               <addName>Gnaeus Pompeius Magnus</addName>
+               <addName>Magnus</addName>
+               <addName>Pompée le Grand</addName>
+               <addName>Pompée</addName>
+               <addName>Pompeius</addName>
+               <addName>Gnaeus Pompeius</addName>
+               <addName>Pompeius, Gnaeus Magnus</addName>
+               <addName>Pompejus der Grosse</addName>
+               <addName>Pompejus</addName>
+            </persName> im Pall. Spada</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pompeius Magnus, Gnaeus</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-139.tei.xml-d1746e408">2 andre <persName ref="#CerlID:cnp00396166" key="#PND:118595636">Pompejus<addName type="display">Pompeius Magnus, Gnaeus</addName>
+               <addName>Gnaeus Pompeius Magnus</addName>
+               <addName>Magnus</addName>
+               <addName>Pompée le Grand</addName>
+               <addName>Pompée</addName>
+               <addName>Pompeius</addName>
+               <addName>Gnaeus Pompeius</addName>
+               <addName>Pompeius, Gnaeus Magnus</addName>
+               <addName>Pompejus der Grosse</addName>
+               <addName>Pompejus</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Cäsar</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/11717</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/11717">
+            <persName ref="#CerlID:cnp01261255">Cäsar</persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-139.tei.xml-d1746e459">Büste mit den hervorstehenden Locken</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:156697 http://arachne.uni-koeln.de/item/objekt/16497</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:156697 #http://arachne.uni-koeln.de/item/objekt/16497">Hauptstück
+                                            als Feldherr mit Harnisch und Mantel</term>
+      </nodes>
+   </tag>
+</tags>

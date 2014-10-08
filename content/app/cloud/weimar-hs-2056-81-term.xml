@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>San Ildefonso o La Granja</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-81.tei.xml-d4551e21">basrelief
+                 zu <placeName ref="#GettyID:7007905">Ildefonse<addName type="display">San Ildefonso o La Granja</addName>
+               <addName>San Ildefonso o La Granja</addName>
+               <addName>La Granja de San Ildefonso</addName>
+               <addName>San Ildefonso</addName>
+               <addName>Granja, La</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:150779 http://arachne.uni-koeln.de/item/objekt/19437</link>
+      <count>4</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:150779 #http://arachne.uni-koeln.de/item/objekt/19437">Vaticanische Apollo</term>
+      </nodes>
+   </tag>
+</tags>

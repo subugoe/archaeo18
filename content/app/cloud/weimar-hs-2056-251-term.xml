@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Minerva</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:152342 http://arachne.uni-koeln.de/item/typus/108</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:152342 #http://arachne.uni-koeln.de/item/typus/108">
+            <persName ref="#CerlID:cnp00544188" key="#PND:118986155">Minerva<addName type="display">Minerva</addName>
+               <addName>Sospitatrix</addName>
+            </persName> aus Gold und Elfenbein</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Acropolis</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:152341 http://arachne.uni-koeln.de/item/bauwerk/2100006</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:152341 #http://arachne.uni-koeln.de/item/bauwerk/2100006">dem Tempel Parthenon auf dem <placeName ref="#GettyID:7233830">Acropolis</placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Lapithai</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-251.tei.xml-d10049e245">Soleis das Gefecht <persName ref="#CerlID:cnp01300310">Lapither<addName type="display">Lapithai</addName>
+               <addName>Lapithen</addName>
+               <addName>Lapither</addName>
+            </persName> und Centauren</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pandora</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-251.tei.xml-d10049e266">Base die Entstehung 
+                                                der <persName ref="#CerlID:cnp01300360">Pandora<addName type="display">Pandora</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+</tags>

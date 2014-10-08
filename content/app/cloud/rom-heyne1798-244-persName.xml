@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Karl (Hessen-Kassel, Landgraf)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00941804</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00941804"
+                   key="#PND:118560050">Landgraf Carl<addName type="display">Karl (Hessen-Kassel, Landgraf)</addName>
+            <addName>Carl Hassia, Landgravio, I.</addName>
+            <addName>Carl</addName>
+            <addName>Carl Hessen, Landgraf</addName>
+            <addName>Carl Hessen, Prins</addName>
+            <addName>Carl Hessen-Cassel, Landgraf</addName>
+            <addName>Carl Hessen-Kassel, Landgraf</addName>
+            <addName>Carl Hessen-Kassel, Landgraff</addName>
+            <addName>Carolus Hassia, Dux</addName>
+            <addName>Carolus</addName>
+            <addName>Carolus Hassia, Landgravius</addName>
+            <addName>Carolus Hassia, Landgravius, I.</addName>
+            <addName>Carolus Hessen, Landgraf, I.</addName>
+            <addName>Charles Hesse, Landgrave</addName>
+            <addName>Charles</addName>
+            <addName>Charles Hesse, Prince</addName>
+            <addName>Karl Hessen, Landgraf</addName>
+            <addName>Karl Hessen, Prinz</addName>
+            <addName>Karl Hessen-Cassel, Prinz</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

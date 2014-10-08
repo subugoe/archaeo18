@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>no. 17.</tag>
+      <facet>tei:bibl</facet>
+      <link/>
+      <count>6</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#">no. 17.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Marmor: Oxon: 36.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://dfg-viewer.de/v2/?set[image]=113&amp;set[zoom]=default&amp;set[debug]=0&amp;set[double]=0&amp;set[mets]=http%3A%2F%2Fgdz.sub.uni-goettingen.de%2Fmets_export.php%3FPPN%3DPPN661864340</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://dfg-viewer.de/v2/?set[image]=113&amp;set[zoom]=default&amp;set[debug]=0&amp;set[double]=0&amp;set[mets]=http%3A%2F%2Fgdz.sub.uni-goettingen.de%2Fmets_export.php%3FPPN%3DPPN661864340">Marmor: Oxon: 36.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Perrier 60.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/item/buchseite/182641</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://arachne.uni-koeln.de/item/buchseite/182641">Perrier 60.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Spence 98.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://katalog.ub.uni-heidelberg.de/titel/ppn803001886</link>
+      <count>8</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://katalog.ub.uni-heidelberg.de/titel/ppn803001886">Spence 
+                               98.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Winckelmann Geschichte der. Kunst. 336,,</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/winckelmann1764/0386</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/winckelmann1764/0386">Winckelmann Geschichte der. Kunst. 336,,</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>337.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/winckelmann1764/0387</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/winckelmann1764/0387">337.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Raquenet. 135.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://reader.digitale-sammlungen.de/de/fs1/object/display/bsb10079293_00153.html</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://reader.digitale-sammlungen.de/de/fs1/object/display/bsb10079293_00153.html">Raquenet. 135.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+</tags>

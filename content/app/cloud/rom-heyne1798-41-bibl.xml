@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Le Roy ruines de la Grèce.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/books/LeRoy1758 http://opac.sub.uni-goettingen.de/DB=1/PPNSET?PPN=238401820</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://arachne.uni-koeln.de/books/LeRoy1758 #http://opac.sub.uni-goettingen.de/DB=1/PPNSET?PPN=238401820">Le Roy ruines de la Grèce.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Stuart ruins of Athens.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN669698911</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN669698911">Stuart ruins of Athens.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Major ruins of Pæstum.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN663765285</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN663765285">Major ruins of Pæstum.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Overbek Beschreibg von Rom.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/overbeke1709ga</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/overbeke1709ga">Overbek Beschreibg von Rom.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Muratori thesaur. T. 1. p. 35. p. 131.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN659355981</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN659355981">Muratori thesaur. T. 1. p. 35. p. 131.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pacchiaudi monum. Peloponn. T 2. p. 50.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN656160691</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN656160691">Pacchiaudi monum. Peloponn. T 2. p. 50.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Winkelm. monum. inediti No. 17.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://dfg-viewer.de/v2/?set[image]=37&amp;set[zoom]=default&amp;set[debug]=0&amp;set[double]=0&amp;set[mets]=http%3A%2F%2Fgdz.sub.uni-goettingen.de%2Fmets_export.php%3FPPN%3DPPN636574237</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://dfg-viewer.de/v2/?set[image]=37&amp;set[zoom]=default&amp;set[debug]=0&amp;set[double]=0&amp;set[mets]=http%3A%2F%2Fgdz.sub.uni-goettingen.de%2Fmets_export.php%3FPPN%3DPPN636574237">Winkelm. monum. inediti No. 17.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+</tags>

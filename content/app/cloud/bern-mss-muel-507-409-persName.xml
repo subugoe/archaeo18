@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Bellicard, Jérôme Charles</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00964728</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp00964728">Bellicard<addName type="display">Bellicard, Jérôme Charles</addName>
+            <addName>Jérôme Charles Bellicard</addName>
+            <addName>Jérôme-Charles Bellicard</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Cochin, Charles Nicolas</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00397941</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00397941"
+                       key="#PND:118676512">Corroboy<addName type="display">Cochin, Charles Nicolas</addName>
+            <addName>Charles Nicolas Cochin</addName>
+            <addName>C. Cochin</addName>
+            <addName>Cochin</addName>
+            <addName>Cochin Chevalier</addName>
+            <addName>Cochin filius</addName>
+            <addName>Cochin fils</addName>
+            <addName>C. N. Cochin</addName>
+            <addName>Cochin, C. N. der Jüngere</addName>
+            <addName>Cochin, C. N. der Jüngere</addName>
+            <addName>Cochin, Charles Nicolas fils</addName>
+            <addName>Charles-Nicolas Cochin</addName>
+            <addName>Cochin, Charles-Nicolas der Jüngere</addName>
+            <addName>Cochin, Charles-Nicolas der Jüngere</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Thubières, Anne Claude Philippe ¬de¬</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01099958</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01099958">Graf Cailus<addName type="display">Thubières, Anne Claude Philippe ¬de¬</addName>
+            <addName>Anne Claude Philippe de Thubières</addName>
+            <addName>Caylus Graf</addName>
+            <addName>Caylus</addName>
+            <addName>Thubières, Anne Claude Philippe de Comte de Caylus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Grignon, Pierre Clément</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00949829</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00949829"
+                       key="#PND:117558435">Grignon<addName type="display">Grignon, Pierre Clément</addName>
+            <addName>Pierre Clément Grignon</addName>
+            <addName>Pierre Clément Grignon</addName>
+            <addName>Pierre-Clément Grignon</addName>
+            <addName>Grignon</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

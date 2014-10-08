@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Statue di Venezia II. XLVII.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/zanetti1743bd2/0095</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://digi.ub.uni-heidelberg.de/diglit/zanetti1743bd2/0095">Statue di Venezia II. XLVII.</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>V. Statue di Venetia T. I. N. XLIII-XLVI.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/zanetti1740bd1/0095 http://digi.ub.uni-heidelberg.de/diglit/zanetti1740bd1/0097 http://digi.ub.uni-heidelberg.de/diglit/zanetti1740bd1/0099 http://digi.ub.uni-heidelberg.de/diglit/zanetti1740bd1/0101</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://digi.ub.uni-heidelberg.de/diglit/zanetti1740bd1/0095 #http://digi.ub.uni-heidelberg.de/diglit/zanetti1740bd1/0097 #http://digi.ub.uni-heidelberg.de/diglit/zanetti1740bd1/0099 #http://digi.ub.uni-heidelberg.de/diglit/zanetti1740bd1/0101">V. Statue di Venetia T. I. N. XLIII-XLVI.</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Bronzi d’Hercolano sind zwey No LXV, LXVI.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/ercolano1771bd6/0269 http://digi.ub.uni-heidelberg.de/diglit/ercolano1771bd6/0273</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://digi.ub.uni-heidelberg.de/diglit/ercolano1771bd6/0269 #http://digi.ub.uni-heidelberg.de/diglit/ercolano1771bd6/0273">Bronzi d’Hercolano sind zwey No
+          
+          LXV, LXVI.</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Falconet sur la Statue du M. Aurel</tag>
+      <facet>tei:bibl</facet>
+      <link>http://www.zvdd.de/dms/load/met/?PPN=urn%3Anbn%3Ade%3Abvb%3A12-bsb10257894-4</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://www.zvdd.de/dms/load/met/?PPN=urn%3Anbn%3Ade%3Abvb%3A12-bsb10257894-4">Falconet sur la Statue du M.
+          
+          Aurel</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+</tags>

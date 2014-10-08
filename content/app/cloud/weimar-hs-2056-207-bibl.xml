@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>num in X Vol:</tag>
+      <facet>tei:bibl</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#">
+                                         
+                                     num in X Vol:</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Zanetti II. Vol:</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/zanetti1740ga</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/zanetti1740ga">Zanetti II. Vol:</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Wright Travels 60.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://hdl.handle.net/2027/uc2.ark:/13960/t20c56q5b?urlappend=%3Bseq=86</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://hdl.handle.net/2027/uc2.ark:/13960/t20c56q5b?urlappend=%3Bseq=86">Wright Travels 60.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Nog: II.III. 76.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://reader.digitale-sammlungen.de/de/fs1/object/display/bsb10469553_00084.html</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://reader.digitale-sammlungen.de/de/fs1/object/display/bsb10469553_00084.html">Nog: II.III. 76.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>77.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://reader.digitale-sammlungen.de/de/fs1/object/display/bsb10469553_00085.html</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://reader.digitale-sammlungen.de/de/fs1/object/display/bsb10469553_00085.html">77.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+</tags>

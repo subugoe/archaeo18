@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Alexander (Magnus)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259691</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01259691"
+                       key="#PND:118501828">Alexanders<addName type="display">Alexander (Magnus)</addName>
+            <addName>Ałekʹsandr Makedonacʹi</addName>
+            <addName>Alejandro Magno</addName>
+            <addName>Alejandro</addName>
+            <addName>Aleksandr</addName>
+            <addName>Alessandro Magno</addName>
+            <addName>Alessandro</addName>
+            <addName>Alexander de Grote</addName>
+            <addName>Alexander der Große</addName>
+            <addName>Alexander der Grosse</addName>
+            <addName>Alexander Epistolographus</addName>
+            <addName>Alexander III 3 koning van Macedonië</addName>
+            <addName>Alexander Kaiser</addName>
+            <addName>Alexander Macedonia, Rex, III.</addName>
+            <addName>Alexander Macedonis</addName>
+            <addName>Alexander Mazedonien, König, III.</addName>
+            <addName>Alexander of Macedon</addName>
+            <addName>Alexander Rex</addName>
+            <addName>Alexandre le Grand</addName>
+            <addName>Alexandre</addName>
+            <addName>Alexandros</addName>
+            <addName>Alexandros der Große</addName>
+            <addName>Alexandru cel Mare</addName>
+            <addName>Alexandru</addName>
+            <addName>Alexandrus Magnus</addName>
+            <addName>Alexandrus</addName>
+            <addName>Megalexandros</addName>
+            <addName>Pseudo-Alexander Magnus</addName>
+            <addName>Pseudo-Alexander</addName>
+            <addName>Grote</addName>
+            <addName>Alexandros Megas</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Polykles (Bildhauer)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01303730</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01303730">Polycles<addName type="display">Polykles (Bildhauer)</addName>
+            <addName>Polycles</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Apollonios (Sohn des Nestor)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01288198</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01288198">Appollonius<addName type="display">Apollonios (Sohn des Nestor)</addName>
+            <addName>Apollonius</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Nestor  (Vater des Apollonios)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01303719</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01303719">Nestors<addName type="display">Nestor  (Vater des Apollonios)</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pyrrhus (Epirus, König)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00587177</link>
+      <count>4</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00587177"
+                       key="#PND:118743058">Pyrhus<addName type="display">Pyrrhus (Epirus, König)</addName>
+            <addName>Pirr carʹ Ėpira</addName>
+            <addName>Pirr</addName>
+            <addName>Pirro Epiro, Re</addName>
+            <addName>Pirro</addName>
+            <addName>Pyrrhos Epeiros, König</addName>
+            <addName>Pyrrhos</addName>
+            <addName>Pyrrhos Epirus, König</addName>
+            <addName>Pyrrhos König der Molosser</addName>
+            <addName>Pyrrhos Sohn des Aiakides</addName>
+            <addName>Pyrrhos von Epeiros</addName>
+            <addName>Pyrrhos von Epirus</addName>
+            <addName>Pyrrhus Epirota</addName>
+            <addName>Pyrrhus Epirotes</addName>
+            <addName>Pyrrhus Historicus</addName>
+            <addName>Pyrrhus King of Epirus</addName>
+            <addName>Pyrrhus Rex</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Antigonos (Makedonien, König, I.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00542530</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00542530"
+                       key="#PND:118503359">Antigonus<addName type="display">Antigonos (Makedonien, König, I.)</addName>
+            <addName>Antigonos Monophthalmos</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Demetrios (Makedonien, König, I.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00394561</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00394561"
+                       key="#PND:118524623">Demetrius<addName type="display">Demetrios (Makedonien, König, I.)</addName>
+            <addName>Demetrios Makedonien, König</addName>
+            <addName>Demetrios Megas</addName>
+            <addName>Demetrios Poliorketes</addName>
+            <addName>Demetrius Historicus</addName>
+            <addName>Demetrius Macedo</addName>
+            <addName>Demetrius Macedonia, Rex, I.</addName>
+            <addName>Demetrius Poliorcetes</addName>
+            <addName>Demetrius Poliorcetes, I.</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

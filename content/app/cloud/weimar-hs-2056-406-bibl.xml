@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Plinius XXXV. 36. 18.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://d-nb.info/gnd/4196444-5</link>
+      <count>4</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://d-nb.info/gnd/4196444-5">Plinius XXXV. 36. 18.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Vitruv. II. 9.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://d-nb.info/gnd/4099392-9</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://d-nb.info/gnd/4099392-9">Vitruv. II. 9.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Recueil V. 21.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://dfg-viewer.de/v2/?set[image]=60&amp;set[mets]=http%3A%2F%2Fwww.zvdd.de%2Fdms%2Fmetsresolver%2F%3FPPN%3Durn%3Anbn%3Ade%3Absz%3A16-diglit-56695&amp;set[zoom]=default&amp;set[debug]=0&amp;set[double]=0&amp;set[style]=</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://dfg-viewer.de/v2/?set[image]=60&amp;set[mets]=http%3A%2F%2Fwww.zvdd.de%2Fdms%2Fmetsresolver%2F%3FPPN%3Durn%3Anbn%3Ade%3Absz%3A16-diglit-56695&amp;set[zoom]=default&amp;set[debug]=0&amp;set[double]=0&amp;set[style]=">Recueil V. 21.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+</tags>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/19876</link>
+      <count>4</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/19876">Villa Pamfili</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/27563</link>
+      <count>4</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/27563">Albani</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/21164</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/21164">Ein andrer</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Nonius Balbus , Marcus</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/13028 http://arachne.uni-koeln.de/item/objekt/13029</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/13028 #http://arachne.uni-koeln.de/item/objekt/13029">
+            <persName ref="#CerlID:cnp01300352">Marcus Nonius
+                                    Balbus<addName type="display">Nonius Balbus , Marcus</addName>
+               <addName>Marcus Nonius Balbus</addName>
+            </persName> Vater und Sohn</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Domitien (empereur romain)</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/26628</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/26628">
+            <persName ref="#CerlID:cnp00397834" key="#PND:118672231">Domitian<addName type="display">Domitien (empereur romain)</addName>
+               <addName>Titus Flavius Domitianus</addName>
+               <addName>Domitian Kaiser</addName>
+               <addName>Gaius Flavius Domitianus</addName>
+               <addName>Domitianus Kaiser</addName>
+               <addName>Domitianus Römischer Kaiser</addName>
+               <addName>Domizian Römisches Reich, Kaiser</addName>
+               <addName>Domizian</addName>
+               <addName>Flavius Domitianus</addName>
+            </persName> mit dem Harnisch und Chlamys</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/37826</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/37826">in V. Albani</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Nerva (Imperium Romanum, Imperator)Jupiter</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/21086</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/21086">
+            <persName ref="#CerlID:cnp00400232" key="#PND:118785931">Nerva<addName type="display">Nerva (Imperium Romanum, Imperator)</addName>
+               <addName>Marcus Cocceius Nerva</addName>
+               <addName>Cocceius Nerva</addName>
+               <addName>Nerva Augustus</addName>
+               <addName>Nerva Germanicus</addName>
+               <addName>Nerva Römischer Kaiser</addName>
+            </persName> als <persName ref="#CerlID:cnp00554429" key="#PND:118558897">Jupiter<addName type="display">Jupiter</addName>
+               <addName>Iupiter</addName>
+               <addName>Juppiter</addName>
+            </persName>, sitzend, colossal</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Traianus, Marcus Ulpius</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/14685</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/14685">
+            <persName ref="#CerlID:cnp00917510" key="#PND:118623567">Trajan<addName type="display">Traianus, Marcus Ulpius</addName>
+               <addName>Marcus Ulpius Traianus</addName>
+               <addName>Traian</addName>
+               <addName>Traiano Imperatore</addName>
+               <addName>Traiano</addName>
+               <addName>Marcus U. Traianus</addName>
+               <addName>Traianus Epigrammaticus</addName>
+               <addName>Traianus Imperator</addName>
+               <addName>Traianus Romanus</addName>
+               <addName>Trajan Kaiser</addName>
+               <addName>Trajan Plinius-Korrespondent</addName>
+               <addName>Trajanus</addName>
+               <addName>Trajanus Imperator</addName>
+               <addName>Trajanus Imperium Romanum, Imperator</addName>
+               <addName>Ulpius Traianus</addName>
+               <addName>Ulpius</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/19385</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/19385">Statua
+                                    equestris</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/15856</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/15856">Mus. Cap. III. 55.</term>
+      </nodes>
+   </tag>
+</tags>

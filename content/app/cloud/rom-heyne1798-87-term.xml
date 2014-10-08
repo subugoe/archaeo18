@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:159395 http://arachne.uni-koeln.de/item/objekt/5806</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:159395 #http://arachne.uni-koeln.de/item/objekt/5806">Mus. flor. 38.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Kassel</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-87.tei.xml-d15929e33">Bronce in <placeName ref="#GettyID:7004431">Cassel<addName type="display">Kassel</addName>
+               <addName>Kassel</addName>
+               <addName>Cassel</addName>
+               <addName>Casle</addName>
+               <addName>Chassala</addName>
+               <addName>Chassela</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/130666</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/130666">Cavaceppi No. 43.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Potsdam</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-87.tei.xml-d15929e62">in <placeName ref="#GettyID:7004463">Sanssouci<addName type="display">Potsdam</addName>
+               <addName>Potsdam</addName>
+               <addName>Poztupimi</addName>
+               <addName>Poczdam</addName>
+               <addName>Potstamp</addName>
+               <addName>Postupim</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Herculan</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/13105</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/13105">sitzender im <placeName ref="#GettyID:7047982">Herculan</placeName>, nackt; aus Bronce</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>BolognaGiambologna</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-87.tei.xml-d15929e101">der vom <persName ref="#CerlID:cnp00397992" key="#PND:118678477">Giovanni da <placeName ref="#GettyID:7004847">Bologna<addName type="display">Bologna</addName>
+                  <addName>Bologna</addName>
+                  <addName>Bologne</addName>
+                  <addName>Bolonia</addName>
+                  <addName>Bononia</addName>
+                  <addName>Felsina</addName>
+                  <addName>Bolognese</addName>
+               </placeName>
+               <addName type="display">Giambologna</addName>
+               <addName>Jos. de Bologna</addName>
+               <addName>de Bologna</addName>
+               <addName>Giovanni Bologna Fiammingo</addName>
+               <addName>Bologna Fiammingo</addName>
+               <addName>Giovanni da Bologna</addName>
+               <addName>Bologna</addName>
+               <addName>Joannes Bologna</addName>
+               <addName>Johannes Bologna</addName>
+               <addName>Jean Bologne</addName>
+               <addName>Bologne</addName>
+               <addName>Jean Boullongne</addName>
+               <addName>Boullongne</addName>
+               <addName>Jehan Boullongne</addName>
+               <addName>Jean Boulogne</addName>
+               <addName>Boulogne</addName>
+               <addName>Jean Boulongne</addName>
+               <addName>Boulongne</addName>
+               <addName>Giovanni Da Bologna</addName>
+               <addName>Da Bologna</addName>
+               <addName>Giovanni DaBologna</addName>
+               <addName>DaBologna</addName>
+               <addName>Fiammingo</addName>
+               <addName>Giambologa</addName>
+               <addName>Gian Bologna</addName>
+               <addName>Giovanni</addName>
+               <addName>Giovanni da Bolognese</addName>
+               <addName>Jean</addName>
+               <addName>Jean de Boulogne</addName>
+               <addName>John of Boulogne</addName>
+               <addName>John</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/rezeption/301733 http://arachne.uni-koeln.de/item/objekt/26705 http://arachne.uni-koeln.de/item/objekt/12457 http://arachne.uni-koeln.de/item/rezeption/301713</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/rezeption/301733 #http://arachne.uni-koeln.de/item/objekt/26705 #http://arachne.uni-koeln.de/item/objekt/12457 #http://arachne.uni-koeln.de/item/rezeption/301713">Gall. Giust. von 81. an</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/5234</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/5234">Marbre
+                                            de Dresde No 121</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/19955</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/19955">5.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/19445</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/19445">6.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/19443</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/19443">7.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/21154</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/21154">T. 3. 41.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Bouchardon, EdmePotsdam</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-87.tei.xml-d15929e263">ein moderner von <persName ref="#CerlID:cnp00397554" key="#PND:118659456">Bouchardon<addName type="display">Bouchardon, Edme</addName>
+               <addName>Edme Bouchardon</addName>
+               <addName>Bonchardon</addName>
+               <addName>Buchardon</addName>
+               <addName>Edmundus Bouchardon</addName>
+            </persName> zu<placeName ref="#GettyID:7004463">Sanssouci<addName type="display">Potsdam</addName>
+               <addName>Potsdam</addName>
+               <addName>Poztupimi</addName>
+               <addName>Poczdam</addName>
+               <addName>Potstamp</addName>
+               <addName>Postupim</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:156379 http://arachne.uni-koeln.de/item/objekt/5897 http://arachne.uni-koeln.de/item/objekt/34735</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:156379 #http://arachne.uni-koeln.de/item/objekt/5897 #http://arachne.uni-koeln.de/item/objekt/34735">die beyden Ringer</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Kassel</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-87.tei.xml-d15929e402">Copie davon in Bronce in <placeName ref="#GettyID:7004431">Cassel<addName type="display">Kassel</addName>
+               <addName>Kassel</addName>
+               <addName>Cassel</addName>
+               <addName>Casle</addName>
+               <addName>Chassala</addName>
+               <addName>Chassela</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+</tags>

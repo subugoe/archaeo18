@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000007</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/sammlungen/1000007">Pallast Barbarini</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-632.tei.xml-d10723e285">Mosaik
+          
+          mit 4. Figuren gefunden, die auf Instrumen-
+          
+          ten spielen</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Nīl, Nahr an-</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-632.tei.xml-d10723e356">Barke auf dem <TEI:placeName ref="#GettyID:1127805">Nil<addName type="display">Nīl, Nahr an-</addName>
+               <addName>Nīl, Nahr an-</addName>
+               <addName>Nahr an-Nīl</addName>
+               <addName>Baẖr an-Nil</addName>
+               <addName>Al-Bahr</addName>
+               <addName>Nile</addName>
+               <addName>Nile River</addName>
+               <addName>Nil</addName>
+               <addName>Nilo</addName>
+               <addName>Nijl</addName>
+               <addName>Nilus</addName>
+               <addName>Aigyptos</addName>
+               <addName>Neilos</addName>
+               <addName>Iaro</addName>
+               <addName>Ar</addName>
+               <addName>Aur</addName>
+            </TEI:placeName> mit Ele-
+          
+          phanten und Nilpferden</TEI:term>
+      </nodes>
+   </tag>
+</tags>

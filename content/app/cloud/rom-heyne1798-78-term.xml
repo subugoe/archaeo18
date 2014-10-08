@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/rezeption/302038</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/rezeption/302038">Giustin. 132</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Dresden</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/5210</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/5210">Marbre de <placeName ref="#GettyID:7004455">Dresde<addName type="display">Dresden</addName>
+               <addName>Dresden</addName>
+               <addName>Dresde</addName>
+               <addName>Ďrežd'ane</addName>
+               <addName>Drezdane</addName>
+               <addName>Drezdzany</addName>
+            </placeName> 36</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/10648</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/10648">Guatani monum. 1788. p. 71</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/11643</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/11643">Original</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>PotsdamBouchardon, Edme</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-78.tei.xml-d2057e98">zu <placeName ref="#GettyID:7004463">Sanssouci<addName type="display">Potsdam</addName>
+               <addName>Potsdam</addName>
+               <addName>Poztupimi</addName>
+               <addName>Poczdam</addName>
+               <addName>Potstamp</addName>
+               <addName>Postupim</addName>
+            </placeName> von <persName ref="#CerlID:cnp00397554" key="#PND:118659456">Bonchardon<addName type="display">Bouchardon, Edme</addName>
+               <addName>Edme Bouchardon</addName>
+               <addName>Bonchardon</addName>
+               <addName>Buchardon</addName>
+               <addName>Edmundus Bouchardon</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Penna , AugustinWallmoden-Gimborn, Johann Ludwig ¬von¬</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-78.tei.xml-d2057e137">
+            <persName ref="#CerlID:cnp01300366">Pen<addName type="display">Penna , Augustin</addName>
+               <addName>Augustin Penna</addName>
+               <addName>Pen</addName>
+               <addName>Agostino Penn</addName>
+               <addName>Penn</addName>
+            </persName> bey <persName ref="#CerlID:cnp00664371" key="#PND:130253219">Wallmoden<addName type="display">Wallmoden-Gimborn, Johann Ludwig ¬von¬</addName>
+               <addName>Johann Ludwig von Wallmoden-Gimborn</addName>
+               <addName>Johann L. von Gimborn</addName>
+               <addName>Gimborn</addName>
+               <addName>Johann Ludwig Gimborn</addName>
+               <addName>Johann Ludwig von Wallmoden- Gimborn</addName>
+               <addName>Ludwig von Wallmoden- Gimborn</addName>
+               <addName>Johann Ludwig von Wallmoden</addName>
+               <addName>Wallmoden</addName>
+               <addName>Johann L. von Wallmoden-Gimborn</addName>
+               <addName>Ludwig von Wallmoden-Gimborn</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Bouchardon, Edme</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-78.tei.xml-d2057e186">Von <persName ref="#CerlID:cnp00397554" key="#PND:118659456">Bon-
+                                            chardon<addName type="display">Bouchardon, Edme</addName>
+               <addName>Edme Bouchardon</addName>
+               <addName>Bonchardon</addName>
+               <addName>Buchardon</addName>
+               <addName>Edmundus Bouchardon</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Penna , Augustin</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-78.tei.xml-d2057e208">
+            <persName ref="#CerlID:cnp01300366">Pen<addName type="display">Penna , Augustin</addName>
+               <addName>Augustin Penna</addName>
+               <addName>Pen</addName>
+               <addName>Agostino Penn</addName>
+               <addName>Penn</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/26000</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/26000">in den GärtenBorghese</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/36555</link>
+      <count>4</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/36555">80.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/15892</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/15892">Mus. Cap. 32</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/21158</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/21158">Pio
+                                        Clem. 2. 30</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/15885</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/15885">Das berühmteste</term>
+      </nodes>
+   </tag>
+</tags>

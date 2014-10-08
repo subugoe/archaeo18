@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Capit: P. I. osserv. tab: 2.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/item/buchseite/307741</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://arachne.uni-koeln.de/item/buchseite/307741">Capit: P. I. osserv. tab: 2.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Mus: Capit. I. tab. 6. osserv: 4.p. 18.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/item/buchseite/307760</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://arachne.uni-koeln.de/item/buchseite/307760">Mus: Capit. I. tab. 6. osserv: 4. <term ref="#http://arachne.uni-koeln.de/item/objekt/16294 #http://arachne.uni-koeln.de/item/objekt/15976 #http://arachne.uni-koeln.de/item/objekt/15977 #http://arachne.uni-koeln.de/item/objekt/211386">p. 18.</term>
+            </ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Bellori II.I. 16.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://dfg-viewer.de/v2?set[mets]=http%3A%2F%2Fgdz.sub.uni-goettingen.de%2Fmets_export.php%3FPPN%3DPPN635731541&amp;set[image]=43</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://dfg-viewer.de/v2?set[mets]=http%3A%2F%2Fgdz.sub.uni-goettingen.de%2Fmets_export.php%3FPPN%3DPPN635731541&amp;set[image]=43">Bellori II.I. 16.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Plinius XXXV. 2.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://d-nb.info/gnd/4196444-5</link>
+      <count>6</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://d-nb.info/gnd/4196444-5">Plinius XXXV. 2.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pausan: I. 17.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://d-nb.info/gnd/4119969-8</link>
+      <count>4</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://d-nb.info/gnd/4119969-8">Pausan: I. 17.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Cicero ad Atticum.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://d-nb.info/gnd/4340124-7</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://d-nb.info/gnd/4340124-7">Cicero ad Atticum.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+</tags>

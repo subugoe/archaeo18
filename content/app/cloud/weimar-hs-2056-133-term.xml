@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Kórinthos</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/11620</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/11620">
+    
+                        zu <placeName ref="#GettyID:7010734">Corinth<addName type="display">Kórinthos</addName>
+               <addName>Kórinthos</addName>
+               <addName>Korinthos</addName>
+               <addName>Corinthus</addName>
+               <addName>Corinth</addName>
+               <addName>Colonia Laus Iulia Corinthiensis</addName>
+               <addName>Paleakorinthos</addName>
+               <addName>Ephyra</addName>
+            </placeName> gefunden</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pluton</tag>
+      <facet>tei:term</facet>
+      <link>http://census.bbaw.de/easydb/censusID=156398</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0" ref="#CensusID:156398">
+            <persName ref="#CerlID:cnp01300374">Pluto<addName type="display">Pluton</addName>
+               <addName>Pluto</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Roma</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-133.tei.xml-d16837e159"
+               type="collection">Hauße della Valle zu <placeName ref="#GettyID:7000874">Rom<addName type="display">Roma</addName>
+               <addName>Roma</addName>
+               <addName>Urbe</addName>
+               <addName>Rome</addName>
+               <addName>Rom</addName>
+               <addName>Roman</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pluton</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-133.tei.xml-d16837e334">Iupiter Sapis
+                        mit dem Modio auf dem Kopfe ein <persName ref="#CerlID:cnp01300374">Pluto<addName type="display">Pluton</addName>
+               <addName>Pluto</addName>
+            </persName>
+                            sey</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Asklepios</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/15873</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/15873">
+            <persName ref="#CerlID:cnp00541863" key="#PND:118500864">Aesculapius<addName type="display">Asklepios</addName>
+               <addName>Aesculap</addName>
+               <addName>Äskulap</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/5795</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/5795">22.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/rezeption/301142</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/rezeption/301142">23.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/22337</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/22337">Ein liegender</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Villa Albani</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/14619</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/14619">in <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000297">Villa Albani</term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000297</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000297">Villa Albani</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Assurbanipal (Assyrien, König)</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/19562</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/19562">
+            <persName ref="#CerlID:cnp00394117" key="#PND:118504746">Sardanapalus<addName type="display">Assurbanipal (Assyrien, König)</addName>
+               <addName>Ashurbanipal</addName>
+               <addName>Assurbanaplu Assyrien, König</addName>
+               <addName>Assurbanaplu</addName>
+               <addName>Assurbanipol</addName>
+               <addName>Sardanapal Assyrien, König</addName>
+               <addName>Sardanapal</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/gruppen/400740 http://arachne.uni-koeln.de/item/gruppen/400217 http://arachne.uni-koeln.de/item/objekt/566543 http://arachne.uni-koeln.de/item/objekt/18124 http://arachne.uni-koeln.de/item/objekt/17771 http://arachne.uni-koeln.de/item/objekt/17772 http://arachne.uni-koeln.de/item/objekt/17773 http://arachne.uni-koeln.de/item/objekt/17774</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/gruppen/400740 #http://arachne.uni-koeln.de/item/gruppen/400217 #http://arachne.uni-koeln.de/item/objekt/566543 #http://arachne.uni-koeln.de/item/objekt/18124 #http://arachne.uni-koeln.de/item/objekt/17771 #http://arachne.uni-koeln.de/item/objekt/17772 #http://arachne.uni-koeln.de/item/objekt/17773 #http://arachne.uni-koeln.de/item/objekt/17774">Zwey junge Helden, jeder mit ei-  
+                        nem springenden Pferde an der Handt auf dem</term>
+      </nodes>
+   </tag>
+</tags>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Mausolos (Karien, König)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00575507</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00575507"
+                   key="#PND:118641018">Koenig Mausolus<addName type="display">Mausolos (Karien, König)</addName>
+            <addName>Mausollos Karien, König</addName>
+            <addName>Mausollos</addName>
+            <addName>Mausolus Karien, König</addName>
+            <addName>Mausolus</addName>
+            <addName>Maussolos Karien, König</addName>
+            <addName>Maussolos</addName>
+            <addName>Maussolus Karien, König</addName>
+            <addName>Maussolus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01261255</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01261255">Julius Cæsar</persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Hieron (Syrakus, Tyrann, II.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00585734</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00585734"
+                   key="#PND:118704672">Königs Hiero<addName type="display">Hieron (Syrakus, Tyrann, II.)</addName>
+            <addName>Hiero König</addName>
+            <addName>Hiero</addName>
+            <addName>Hieron Syrakus, König</addName>
+            <addName>Hieronymus Syrakus, Tyrann, II.</addName>
+            <addName>Hieronymus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pilatus, Pontius</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00589068</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00589068"
+                   key="#PND:118792172">Pilatus<addName type="display">Pilatus, Pontius</addName>
+            <addName>Pontius Pilatus</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

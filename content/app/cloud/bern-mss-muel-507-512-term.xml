@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-512.tei.xml-d14217e135">Sokrates Kopf</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-512.tei.xml-d14217e168">Nerokopf</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-512.tei.xml-d14217e172">Octavie</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-512.tei.xml-d14217e179">Faust</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Bedford, John Russell ¬of¬</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-512.tei.xml-d14217e188">Demant von <TEI:persName ref="#CerlID:cnp01228932" key="#PND:141985119">Mylord
+                    
+          Bedford<addName type="display">Bedford, John Russell ¬of¬</addName>
+               <addName>John Russell of Bedford</addName>
+               <addName>John Russell Bedford</addName>
+               <addName>John Russell</addName>
+               <addName>Bedford, John Russell Duke of,</addName>
+               <addName>John Bedford</addName>
+               <addName>Bedford, John 1710-1771</addName>
+               <addName>Pam the illustrious</addName>
+               <addName>Pam</addName>
+               <addName>Russell of Bedford, John 1770-1771</addName>
+               <addName>Russell of Bedford</addName>
+               <addName>Russell, John 1710-1771</addName>
+            </TEI:persName> berühmt ein Philosophen Kopf</TEI:term>
+      </nodes>
+   </tag>
+</tags>

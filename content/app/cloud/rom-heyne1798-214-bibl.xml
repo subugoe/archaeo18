@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Theophrastus de lapidibus, erläutert von John Hill. Lond. 1746. gr. 8.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://find.galegroup.com/mome/infomark.do?&amp;contentSet=MOMEArticles&amp;type=multipage&amp;tabID=T001&amp;prodId=MOME&amp;docId=U100857580&amp;source=gale&amp;userGroupName=nsub&amp;version=1.0&amp;docLevel=FASCIMILE</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://find.galegroup.com/mome/infomark.do?&amp;contentSet=MOMEArticles&amp;type=multipage&amp;tabID=T001&amp;prodId=MOME&amp;docId=U100857580&amp;source=gale&amp;userGroupName=nsub&amp;version=1.0&amp;docLevel=FASCIMILE">Theophrastus de lapidibus, erläutert von
+                            John Hill. Lond. 1746. gr. 8.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Deutsch übersetzt von Baumgarter. 1770. 8. Nürnb.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://www.zvdd.de/dms/load/met/?PPN=urn%3Anbn%3Ade%3Abvb%3A12-bsb10238424-6</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://www.zvdd.de/dms/load/met/?PPN=urn%3Anbn%3Ade%3Abvb%3A12-bsb10238424-6">Deutsch übersetzt
+                            von Baumgarter. 1770. 8. Nürnb.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Theophrastus I. Dollii. Lugd. 1743. 8.</tag>
+      <facet>tei:bibl</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#">Theophrastus I. Dollii. Lugd. 1743. 8.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Mariette. p. 154.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/item/buchseite/230808</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://arachne.uni-koeln.de/item/buchseite/230808">Mariette. p. 154.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Boethius de Boeth. de gemmis &amp; lapidibus. Cl. 3. Dollii. Lugd. 1742.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN643798072</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN643798072">Boethius de Boeth. de gemmis &amp; lapidibus.
+                            Cl. 3. Dollii. Lugd. 1742.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+</tags>

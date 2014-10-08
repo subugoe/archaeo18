@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Adrià (emperador de Roma, 76-138)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00871103</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00871103"
+                   key="#PND:118544373">Adriani<addName type="display">Adrià (emperador de Roma, 76-138)</addName>
+            <addName>Publius Aelius Hadrianus</addName>
+            <addName>Adriano Imperatore</addName>
+            <addName>Adriano</addName>
+            <addName>Adriano emperador de Roma 76-138</addName>
+            <addName>Adrianus</addName>
+            <addName>Publius Aelius Adrianus</addName>
+            <addName>Adrianus Augustus</addName>
+            <addName>Adrianus Monachus</addName>
+            <addName>Publi Eli Adrià</addName>
+            <addName>Adrià, Publi Eli emperador de Roma 76-138</addName>
+            <addName>Aelius Hadrianus</addName>
+            <addName>Publius Aelius Hadrian</addName>
+            <addName>Hadrian Emperor of Rome</addName>
+            <addName>Hadrian Kaiser</addName>
+            <addName>Hadrian Rom, Kaiser</addName>
+            <addName>Hadrian Rome, Emperor</addName>
+            <addName>Hadrian Römisches Reich, Kaiser</addName>
+            <addName>Hadrian emperador de Roma 76-138</addName>
+            <addName>Hadriano Imperatore</addName>
+            <addName>Hadriano</addName>
+            <addName>Hadrianus, Publius Aelius emperador de Roma 76-138</addName>
+            <addName>Hadrianus Augustus</addName>
+            <addName>Hadrianus Emperor of Rome</addName>
+            <addName>Hadrianus Epigrammaticus</addName>
+            <addName>Hadrianus Imperator</addName>
+            <addName>Hadrianus Kaiser</addName>
+            <addName>Hadrianus Monachus</addName>
+            <addName>Hadrianus Romanus</addName>
+            <addName>Hadrianus Rome, Emperor</addName>
+            <addName>Hadrianus Römisches Reich, Kaiser</addName>
+            <addName>Hadrianus emperador de Roma 76-138</addName>
+            <addName>Hadrianus Augustus Imperium Romanum, Imperator</addName>
+            <addName>Hadrien Empereur</addName>
+            <addName>Hadrien</addName>
+            <addName>Hadrien emperador de Roma 76-138</addName>
+            <addName>Publi Eli Adrià emperador de Roma 76-138</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>FirenzeCosimo (I, grand duc de Toscane)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01237196</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01237196"
+                   key="#PND:118638521">Herzog von <placeName ref="#GettyID:7000457">Florenz<addName type="display">Firenze</addName>
+               <addName>Firenze</addName>
+               <addName>Florence</addName>
+               <addName>Florencia</addName>
+               <addName>Florenz</addName>
+               <addName>Fiorenza</addName>
+               <addName>Florentia</addName>
+               <addName>Florentine</addName>
+            </placeName>
+            <addName type="display">Cosimo (I, grand duc de Toscane)</addName>
+            <addName>Cosimo de' Medici</addName>
+            <addName>Casmus I.</addName>
+            <addName>Cosmg I.</addName>
+            <addName>Cosmus I.</addName>
+            <addName>Cosimo I</addName>
+            <addName>Cosimo de'Medici duc de Florence</addName>
+            <addName>Cosimo de'Medici</addName>
+            <addName>Cosimo de'Medici grand duc de Toscane</addName>
+            <addName>Medici, Cosimo de' I grand duc de Toscane</addName>
+            <addName>Cosme de Medicis</addName>
+            <addName>Medicis, Cosme de duc de Florence</addName>
+            <addName>Medicis</addName>
+            <addName>Medicis, Cosme de grand duc de Toscane</addName>
+            <addName>Cosimo Florenz, Herzog, I.</addName>
+            <addName>Cosimo I de'Medici</addName>
+            <addName>Cosimo Toscana, Großherzog, I.</addName>
+            <addName>Cosimo Tuscany, Grand-Duke, I.</addName>
+            <addName>Cosimo de' Medici, I.</addName>
+            <addName>Cosimo dei Medici, I.</addName>
+            <addName>Cosimo granduca di Toscana 1</addName>
+            <addName>gran duc de Toscane Cosimo I</addName>
+            <addName>grand duke of Tuscany Cosimo I</addName>
+            <addName>Cosimo I, de Medici, Il Grande, grand duke of Tuscany</addName>
+            <addName>Cosimo de Medici</addName>
+            <addName>Cosimo de Medici il vecchio</addName>
+            <addName>Cosmus Medices</addName>
+            <addName>Cosmus</addName>
+            <addName>Cosimo De' Medici</addName>
+            <addName>De' Medici</addName>
+            <addName>Cosimo De'Medici</addName>
+            <addName>De'Medici</addName>
+            <addName>Kosma I Medyceusz</addName>
+            <addName>Medices</addName>
+            <addName>Medici, Cosimo de' 1519-1574</addName>
+            <addName>Cosimo dei Medici</addName>
+            <addName>Cosimo de' granduca di Toscana Medici</addName>
+            <addName>Cosmo Medici</addName>
+            <addName>Cosmo de Medici</addName>
+            <addName>Medici, Cosimo I. de', grand duke of Tuscany</addName>
+            <addName>Kosma Medyceusz</addName>
+            <addName>Medyceusz</addName>
+            <addName>Cosimo deiMedici</addName>
+            <addName>deiMedici</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

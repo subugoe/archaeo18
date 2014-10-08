@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Lippert I. 2. 27.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/item/buchseite/96482</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://arachne.uni-koeln.de/item/buchseite/96482">Lippert I. 2. 27.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Stosch. 29.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN635315386</link>
+      <count>4</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN635315386">Stosch. 29.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Lettre sur le pretendu Solon des pierres gra- vées par Beaudelot. Paris 1717 quarto.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN635114747</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN635114747">Lettre 
+                                        sur le pretendu Solon des pierres gra- 
+                                        vées par Beaudelot. Paris 1717 quarto.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Gemm: Flor: II. 6.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/gori1732bd2/0043</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/gori1732bd2/0043">Gemm: 
+                                                Flor: II. 6.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>ibid: tab: 8.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/gori1732bd2/0045</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/gori1732bd2/0045">ibid: tab: 8.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Lippert: II. 330.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/item/buchseite/96463</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://arachne.uni-koeln.de/item/buchseite/96463">Lippert: II. 330.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>331.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/item/buchseite/96464</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://arachne.uni-koeln.de/item/buchseite/96464">331.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+</tags>

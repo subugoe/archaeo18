@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Laokoon</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00556829</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00556829"
+                   key="#PND:118569651">Laokoon<addName type="display">Laokoon</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Bartoli, Pietro Sante</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00100894</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00100894"
+                   key="#PND:100024483">Bartoli<addName type="display">Bartoli, Pietro Sante</addName>
+            <addName>Pietro Sante Bartoli</addName>
+            <addName>Pietro Santi Bartoli</addName>
+            <addName>Pietro Santo Bartoli</addName>
+            <addName>Petrus Sanctus Bartolus</addName>
+            <addName>Bartolus</addName>
+            <addName>Petrus S. Bartholi</addName>
+            <addName>Bartholi</addName>
+            <addName>Petrus Sancti Bartholi</addName>
+            <addName>Petrus Sanctus Bartholi</addName>
+            <addName>Petrus Sanctius Bartholius</addName>
+            <addName>Bartholius</addName>
+            <addName>Petrus S. Bartholus</addName>
+            <addName>Bartholus</addName>
+            <addName>Petrus Sanctus Bartholus</addName>
+            <addName>Petrus S. Bartoli</addName>
+            <addName>Petrus Sancte Bartoli</addName>
+            <addName>Petrus Sancti Bartoli</addName>
+            <addName>Petrus Sanctius Bartoli</addName>
+            <addName>Petrus Sanctus Bartoli</addName>
+            <addName>Petrus Santi Bartoli</addName>
+            <addName>Piersanti Bartoli</addName>
+            <addName>Pietro-Sante Bartoli</addName>
+            <addName>Sante Bartoli</addName>
+            <addName>Santo Bartoli</addName>
+            <addName>Petrus Sanctius Bartolius</addName>
+            <addName>Bartolius</addName>
+            <addName>Petrus Santis Bartolius</addName>
+            <addName>Petro Sancte Bartolo</addName>
+            <addName>Bartolo</addName>
+            <addName>Pietro Santes Bartolo</addName>
+            <addName>Petrus S. Bartolus</addName>
+            <addName>Petrus Santes Bartolus</addName>
+            <addName>Petrus Santus Bartolus</addName>
+            <addName>Peter Sanctus Bartolys</addName>
+            <addName>Bartolys</addName>
+            <addName>Santi Bartoli</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Philippe (duc de Parme)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01171073</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01171073"
+                   key="#PND:137838573">Hertzog vom Parma<addName type="display">Philippe (duc de Parme)</addName>
+            <addName>Hertzog von Parma</addName>
+            <addName>Felipe infant d'Espagne</addName>
+            <addName>Felipe</addName>
+            <addName>Filippo duca di Parma, Piacenza e Guastalla</addName>
+            <addName>Filippo</addName>
+            <addName>Philippe infant d'Espagne</addName>
+            <addName>Felipe Parma, Duca</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

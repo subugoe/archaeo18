@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-116.tei.xml-d7221e9">Mausoleum</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pescennius Niger (Römisches Reich, Kaiser, Gegenkaiser)</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/28127 http://arachne.uni-koeln.de/item/objekt/28130</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/objekt/28127 #http://arachne.uni-koeln.de/item/objekt/28130">ein von <TEI:persName ref="#CerlID:cnp00588992" key="#PND:118790498">Pescenius Niger<addName type="display">Pescennius Niger (Römisches Reich, Kaiser, Gegenkaiser)</addName>
+               <addName>Gaius Pescennius Niger Iustus</addName>
+               <addName>Pescennius Niger Iustus</addName>
+               <addName>Gaius Pescennius Niger</addName>
+            </TEI:persName> im <TEI:term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000254">P. Altieri</TEI:term>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000254</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/sammlungen/1000254">P. Altieri</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Caracalla (Imperium Romanum, Imperator)</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/13019</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/objekt/13019">ein von <TEI:persName ref="#CerlID:cnp00397692" key="#PND:118667041">Caracalla<addName type="display">Caracalla (Imperium Romanum, Imperator)</addName>
+               <addName>Aurelius Antoninus Caesar</addName>
+               <addName>Aurelius Antoninus</addName>
+               <addName>Aurelius Severus Antoninus Augustus</addName>
+               <addName>Aurelius Severus Antoninus</addName>
+               <addName>Bassianus</addName>
+               <addName>Caracalla Imperator</addName>
+               <addName>Caracalla Römischer Kaiser</addName>
+               <addName>Lucius Septimius Bassianus</addName>
+               <addName>Marcus Aurelius Antoninus</addName>
+               <addName>Marcus Aurelius Antoninus Caesar</addName>
+               <addName>Marcus Aurelius Severus Antoninus Augustus</addName>
+               <addName>Marcus Aurelius Severus Antoninus</addName>
+               <addName>Septimius Bassianus</addName>
+            </TEI:persName> im <TEI:term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000001">P. Farnese</TEI:term>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000001</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/sammlungen/1000001">P. Farnese</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Macrinus (Römisches Reich, Kaiser)</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-116.tei.xml-d7221e110">ein von <TEI:persName ref="#CerlID:cnp00546563" key="#PND:119072645">Macrinus<addName type="display">Macrinus (Römisches Reich, Kaiser)</addName>
+               <addName>Marcus Opellius Macrinus</addName>
+               <addName>Macrinus Imperium Romanum, Imperator</addName>
+               <addName>Marcus Opellius Severus Macrinus</addName>
+               <addName>Marcus Opellius Severus Macrinus Augustus</addName>
+            </TEI:persName> in der <TEI:term ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-116.tei.xml-d7221e128">Villa....</TEI:term>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-116.tei.xml-d7221e128">Villa....</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Elagabal (Römisches Reich, Kaiser)</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-116.tei.xml-d7221e133">ein von <TEI:persName ref="#CerlID:cnp00574696" key="#PND:118638890">Helogabalus<addName type="display">Elagabal (Römisches Reich, Kaiser)</addName>
+               <addName>Heliogabal</addName>
+               <addName>Varius Avitus Bassianus</addName>
+               <addName>Bassianus</addName>
+               <addName>Heliogabalus Römisches Reich, Kaiser</addName>
+               <addName>Heliogabalus</addName>
+               <addName>Marcus Aurelius Antoninus Heliogabalus</addName>
+               <addName>Varius Avitus</addName>
+            </TEI:persName> in der <TEI:term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000297">Villa Albani</TEI:term>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000297</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/sammlungen/1000297">Villa Albani</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Severus Alexander (Emperor of Rome)Iulia Mamaea (Römisches Reich, Kaiserin)</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/15918</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/objekt/15918">ein von <TEI:persName ref="#CerlID:cnp00914937" key="#PND:11861357X">Alexander Severus<addName type="display">Severus Alexander (Emperor of Rome)</addName>
+               <addName>Marcus A. Alexander Severus</addName>
+               <addName>Alexander Severus</addName>
+               <addName>Marcus Aurelius Alexander Severus</addName>
+               <addName>Alexander Severus Emperor of Rome</addName>
+               <addName>Alexander Severus Imperium Romanum, Imperator</addName>
+               <addName>Alexander Severus Römisches Reich, Kaiser</addName>
+               <addName>Alexandrus Severus</addName>
+               <addName>Gessius B. Alexianus</addName>
+               <addName>Alexianus</addName>
+               <addName>Gessius Bassianus Alexianus</addName>
+               <addName>Marco Aurelio Severo Alessandro</addName>
+               <addName>Marcus Aurelius Severus Alexander</addName>
+               <addName>Alexander S. Marcus Aurelius</addName>
+               <addName>Marcus Aurelius</addName>
+               <addName>Severo Alessandro</addName>
+               <addName>Marcus A. Severus Alexander</addName>
+               <addName>Severus Alexander Imperium Romanum, Imperator</addName>
+               <addName>Severus Alexandrus</addName>
+               <addName>Severus</addName>
+               <addName>Severus Alexandrinus</addName>
+            </TEI:persName> deßen Muter <TEI:persName ref="#CerlID:cnp00578209" key="#PND:123946298">Julia Mamæa<addName type="display">Iulia Mamaea (Römisches Reich, Kaiserin)</addName>
+               <addName>Julia Mamaea Römisches Reich, Kaiserin</addName>
+               <addName>Julia Mamaea</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-116.tei.xml-d7221e227">Urnæ Sepulchrales</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pupienus (Römisches Reich, Kaiser)</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/14684</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/objekt/14684">ein von <TEI:persName ref="#CerlID:cnp00589147" key="#PND:118793691">Bupienus<addName type="display">Pupienus (Römisches Reich, Kaiser)</addName>
+               <addName>Marcus Clodius Pupienus Maximus</addName>
+               <addName>Pupienus Maximus</addName>
+               <addName>Pupienus Imperium Romanum, Imperator</addName>
+            </TEI:persName> im <TEI:term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000469">P. Veroschi</TEI:term>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000469</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/sammlungen/1000469">P. Veroschi</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/18192</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/objekt/18192">Stat: Cæsar.</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000134</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/sammlungen/1000134">Villa Mattei</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Roma</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/topographie/8004353</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/topographie/8004353">Mauern von <TEI:placeName ref="#GettyID:7000874">Rom<addName type="display">Roma</addName>
+               <addName>Roma</addName>
+               <addName>Urbe</addName>
+               <addName>Rome</addName>
+               <addName>Rom</addName>
+               <addName>Roman</addName>
+            </TEI:placeName>
+         </TEI:term>
+      </nodes>
+   </tag>
+</tags>

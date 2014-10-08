@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Severus Alexander (Emperor of Rome)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00914937</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00914937"
+                   key="#PND:11861357X">Alex. Severus<addName type="display">Severus Alexander (Emperor of Rome)</addName>
+            <addName>Marcus A. Alexander Severus</addName>
+            <addName>Alexander Severus</addName>
+            <addName>Marcus Aurelius Alexander Severus</addName>
+            <addName>Alexander Severus Emperor of Rome</addName>
+            <addName>Alexander Severus Imperium Romanum, Imperator</addName>
+            <addName>Alexander Severus Römisches Reich, Kaiser</addName>
+            <addName>Alexandrus Severus</addName>
+            <addName>Gessius B. Alexianus</addName>
+            <addName>Alexianus</addName>
+            <addName>Gessius Bassianus Alexianus</addName>
+            <addName>Marco Aurelio Severo Alessandro</addName>
+            <addName>Marcus Aurelius Severus Alexander</addName>
+            <addName>Alexander S. Marcus Aurelius</addName>
+            <addName>Marcus Aurelius</addName>
+            <addName>Severo Alessandro</addName>
+            <addName>Marcus A. Severus Alexander</addName>
+            <addName>Severus Alexander Imperium Romanum, Imperator</addName>
+            <addName>Severus Alexandrus</addName>
+            <addName>Severus</addName>
+            <addName>Severus Alexandrinus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Probus (Römisches Reich, Kaiser)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00589136</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00589136"
+                   key="#PND:118793446">Probus<addName type="display">Probus (Römisches Reich, Kaiser)</addName>
+            <addName>Marcus Aurelius Probus</addName>
+            <addName>Probus Imperium Romanum, Imperator</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Foucault, Nicolas Joseph</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00869136</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp00869136">Foucault<addName type="display">Foucault, Nicolas Joseph</addName>
+            <addName>Nicolas Joseph Foucault</addName>
+            <addName>Nicolas-Joseph Foucault</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Bartoli, Pietro Sante</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00100894</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00100894"
+                   key="#PND:100024483">Bartolli<addName type="display">Bartoli, Pietro Sante</addName>
+            <addName>Pietro Sante Bartoli</addName>
+            <addName>Pietro Santi Bartoli</addName>
+            <addName>Pietro Santo Bartoli</addName>
+            <addName>Petrus Sanctus Bartolus</addName>
+            <addName>Bartolus</addName>
+            <addName>Petrus S. Bartholi</addName>
+            <addName>Bartholi</addName>
+            <addName>Petrus Sancti Bartholi</addName>
+            <addName>Petrus Sanctus Bartholi</addName>
+            <addName>Petrus Sanctius Bartholius</addName>
+            <addName>Bartholius</addName>
+            <addName>Petrus S. Bartholus</addName>
+            <addName>Bartholus</addName>
+            <addName>Petrus Sanctus Bartholus</addName>
+            <addName>Petrus S. Bartoli</addName>
+            <addName>Petrus Sancte Bartoli</addName>
+            <addName>Petrus Sancti Bartoli</addName>
+            <addName>Petrus Sanctius Bartoli</addName>
+            <addName>Petrus Sanctus Bartoli</addName>
+            <addName>Petrus Santi Bartoli</addName>
+            <addName>Piersanti Bartoli</addName>
+            <addName>Pietro-Sante Bartoli</addName>
+            <addName>Sante Bartoli</addName>
+            <addName>Santo Bartoli</addName>
+            <addName>Petrus Sanctius Bartolius</addName>
+            <addName>Bartolius</addName>
+            <addName>Petrus Santis Bartolius</addName>
+            <addName>Petro Sancte Bartolo</addName>
+            <addName>Bartolo</addName>
+            <addName>Pietro Santes Bartolo</addName>
+            <addName>Petrus S. Bartolus</addName>
+            <addName>Petrus Santes Bartolus</addName>
+            <addName>Petrus Santus Bartolus</addName>
+            <addName>Peter Sanctus Bartolys</addName>
+            <addName>Bartolys</addName>
+            <addName>Santi Bartoli</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Bellori, Giovanni Pietro</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00445125</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00445125"
+                   key="#PND:121906914">Bellori<addName type="display">Bellori, Giovanni Pietro</addName>
+            <addName>Giovanni Pietro Bellori</addName>
+            <addName>Giovan Pietro Bellori</addName>
+            <addName>Joannes Petrus Bellorius</addName>
+            <addName>Bellorius</addName>
+            <addName>Joannes Petrus Bellorus</addName>
+            <addName>Bellorus</addName>
+            <addName>G. P. Bellori</addName>
+            <addName>Gian P. Bellori</addName>
+            <addName>Gianpietro Bellori</addName>
+            <addName>Gio. Pietro Bellori</addName>
+            <addName>Giovan P. Bellori</addName>
+            <addName>Giovanni P. Bellori</addName>
+            <addName>Io. Petri Bellori</addName>
+            <addName>Johann Peter Bellori</addName>
+            <addName>Pietro Bellori</addName>
+            <addName>Johannes Petrus Belloriis</addName>
+            <addName>Belloriis</addName>
+            <addName>Io. P. Bellorio</addName>
+            <addName>Bellorio</addName>
+            <addName>Io. P. Bellorius</addName>
+            <addName>Io. Petrus Bellorius</addName>
+            <addName>Ioannes P. Bellorius</addName>
+            <addName>Ioannes Petrus Bellorius</addName>
+            <addName>Iohannes P. Bellorius</addName>
+            <addName>J. P. Bellorius</addName>
+            <addName>Jo. Petrus Bellorius</addName>
+            <addName>Joannes P. Bellorius</addName>
+            <addName>Johann P. Bellorius</addName>
+            <addName>Johann Peter Bellorius</addName>
+            <addName>Johann Petrus Bellorius</addName>
+            <addName>Johannes Petrus Bellorius</addName>
+            <addName>Petrus Bellorius</addName>
+            <addName>Ioannes P. Bellorus</addName>
+            <addName>Petrus Bellorus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Beger, Lorenz</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00385127</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00385127"
+                   key="#PND:116109114">Beger<addName type="display">Beger, Lorenz</addName>
+            <addName>Lorenz Beger</addName>
+            <addName>Laurentius Begerus</addName>
+            <addName>Begerus</addName>
+            <addName>Daphnäus Arcuarius</addName>
+            <addName>Arcuarius</addName>
+            <addName>L. Beger</addName>
+            <addName>Laurentius Beger</addName>
+            <addName>Laurentius Begerius</addName>
+            <addName>Begerius</addName>
+            <addName>L. Begerus</addName>
+            <addName>Lorenz Begerus</addName>
+            <addName>Laurentius Böger</addName>
+            <addName>Böger</addName>
+            <addName>Lorenz Böger</addName>
+            <addName>Laurentius Böger</addName>
+            <addName>Böger</addName>
+            <addName>Lorenz Böger</addName>
+            <addName>Der deutsche Petrarcha</addName>
+            <addName>Der teutsche Petrarcha</addName>
+            <addName>der Deutsche Petrarcha</addName>
+            <addName>Deutsche Petrarcha</addName>
+            <addName>Petrarcha der Deutsche</addName>
+            <addName>Petrarcha</addName>
+            <addName>Petrarcha der Teutsche</addName>
+            <addName>der Teutsche Petrarcha</addName>
+            <addName>Teutsche Petrarcha</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

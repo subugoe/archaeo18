@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=CerlID:cnp</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp">Mr. Chaudie</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Blondel d'Azincourt</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01288208</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01288208">Mr. Blondet d’Azincours<addName type="display">Blondel d'Azincourt</addName>
+            <addName>Blondel d'Azincurt</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pallavicini (Familie)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00550125</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00550125"
+                       key="#PND:119208784">Pallavicini<addName type="display">Pallavicini (Familie)</addName>
+            <addName>Pallavicino Familie</addName>
+            <addName>Pallavicino</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Menabuoni , Giovanni Gasparo</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01303757</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01303757">Chevalier Menaboni<addName type="display">Menabuoni , Giovanni Gasparo</addName>
+            <addName>Giovanni Gasparo Menabuoni</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Chéron, Elisabeth Sophie</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00403858</link>
+      <count>4</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00403858"
+                       key="#PND:119100703">Mlle Chéron<addName type="display">Chéron, Elisabeth Sophie</addName>
+            <addName>Elisabeth Sophie Chéron</addName>
+            <addName>le Hay</addName>
+            <addName>Hay</addName>
+            <addName>Elisabeth S. Chéron</addName>
+            <addName>Chéron, Elisabeth Sophie 1648-1711</addName>
+            <addName>Elisabeth-Sophie Chéron</addName>
+            <addName>Elizabeth Sophie Chéron</addName>
+            <addName>Elisabetha Sophia Cheron</addName>
+            <addName>Cheron</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-573.tei.xml-d12489e309">Comte
+          
+          Odun</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Wilde, Jacob ¬de¬</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00946764</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00946764"
+                       key="#PND:100699472">Mr. de Wilde<addName type="display">Wilde, Jacob ¬de¬</addName>
+            <addName>Jacob de Wilde</addName>
+            <addName>Jacques de Wilde</addName>
+            <addName>Jacob de Wild</addName>
+            <addName>Wild</addName>
+            <addName>Jacobus de Wild</addName>
+            <addName>Jacobus de Wilde</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

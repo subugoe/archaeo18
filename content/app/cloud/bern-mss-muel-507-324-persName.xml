@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Ceres (Göttin)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00540610</link>
+      <count>6</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00540610"
+                       key="#PND:118862294">Ceres<addName type="display">Ceres (Göttin)</addName>
+            <addName>Demeter</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Rubens, Peter Paul</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259543</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01259543"
+                       key="#PND:11860354X">Rubens<addName type="display">Rubens, Peter Paul</addName>
+            <addName>Peter Paul Rubens</addName>
+            <addName>P. P. R.</addName>
+            <addName>R. [a]</addName>
+            <addName>Peter Paul Rubbens</addName>
+            <addName>Rubbens</addName>
+            <addName>Pet. P. Rubenius</addName>
+            <addName>Rubenius</addName>
+            <addName>Pet. Paul Rubenius</addName>
+            <addName>Pet. Paulus Rubenius</addName>
+            <addName>Petrus P. Rubenius</addName>
+            <addName>Petrus Paulus Rubenius</addName>
+            <addName>P. P. Rubens</addName>
+            <addName>Paul Rubens</addName>
+            <addName>Pedro Pablo Rubens</addName>
+            <addName>Pedro Pauolo Rubens</addName>
+            <addName>Peter P. Rubens</addName>
+            <addName>Peter Pauwel Rubens</addName>
+            <addName>Peter-Paul Rubens</addName>
+            <addName>Petrus Paulus Rubens</addName>
+            <addName>Pierre P. Rubens</addName>
+            <addName>Pierre Paul Rubens</addName>
+            <addName>Pierre-Paul Rubens</addName>
+            <addName>Pieter P. Rubens</addName>
+            <addName>Pieter Paul Rubens</addName>
+            <addName>Pietro P. Rubens</addName>
+            <addName>Pietro Paolo Rubens</addName>
+            <addName>Pietro Pauolo Rubens</addName>
+            <addName>Piter P. Rubens</addName>
+            <addName>Piter Paul' Rubens</addName>
+            <addName>Rondom Rubens</addName>
+            <addName>Rubens</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Maria (Mutter Jesu)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01270522</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01270522">Maria<addName type="display">Maria (Mutter Jesu)</addName>
+            <addName>Mary</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

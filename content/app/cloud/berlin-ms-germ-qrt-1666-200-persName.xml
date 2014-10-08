@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01261255</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01261255">Caesars</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Phidias</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00562418</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00562418"
+                       key="#PND:118593765">Phidias<addName type="display">Phidias</addName>
+            <addName>Pheidias</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Tiridates (Armenien, König, III.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00551394</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00551394"
+                       key="#PND:119260476">Tiridates<addName type="display">Tiridates (Armenien, König, III.)</addName>
+            <addName>Tirdād Armenien, König, III.</addName>
+            <addName>Tirdād</addName>
+            <addName>Tiridates III, King of Armenia, ca. 250-ca. 330</addName>
+            <addName>Trdat Armenien, König, III.</addName>
+            <addName>Trdat</addName>
+            <addName>Trdat Hayastan, t'agavor, III.</addName>
+            <addName>Trdat Hayoc' t'agavor, III.</addName>
+            <addName>Trdat Mec</addName>
+            <addName>Trdatēs Armenien, König, III.</addName>
+            <addName>Trdatēs</addName>
+            <addName>Trdatios Armenien, König, III.</addName>
+            <addName>Trdatios</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Nero (Imperium Romanum, Imperator)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00982828</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00982828"
+                       key="#PND:118586998">Nero<addName type="display">Nero (Imperium Romanum, Imperator)</addName>
+            <addName>Nero Claudius Caesar</addName>
+            <addName>Claudius Caesar</addName>
+            <addName>Claudius Nero</addName>
+            <addName>Claudius Nero Caesar</addName>
+            <addName>Domitius Ahenobarbus</addName>
+            <addName>Lucius Domitius Ahenobarbus Nero Claudius Caesar Augustus Germanicus</addName>
+            <addName>Néron Empereur</addName>
+            <addName>Néron</addName>
+            <addName>Néron Empereur</addName>
+            <addName>Néron</addName>
+            <addName>Nero Claudius</addName>
+            <addName>Nero Claudius Caesar Augustus Germanicus Imperator</addName>
+            <addName>Nero Claudius Caesar Augustus Germanicus</addName>
+            <addName>Nero Tiberius Claudius Imperator</addName>
+            <addName>Nero Tiberius Claudius</addName>
+            <addName>Claudius C. Nero</addName>
+            <addName>Nero Caesar</addName>
+            <addName>Nero Emperor of Rome</addName>
+            <addName>Nero Imperator</addName>
+            <addName>Nero Römisches Reich, Kaiser</addName>
+            <addName>Nero Römischer Kaiser</addName>
+            <addName>Nero Romanus</addName>
+            <addName>Klavdij Cezarʹ Neron</addName>
+            <addName>Neron</addName>
+            <addName>Neron Imperator Rismkij</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Constantinus (Imperium Romanum, Imperator, I.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00945275</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00945275"
+                       key="#PND:118565184">Constantin<addName type="display">Constantinus (Imperium Romanum, Imperator, I.)</addName>
+            <addName>Aurelius Claudius</addName>
+            <addName>Claudius Valerius</addName>
+            <addName>Constantin der Große</addName>
+            <addName>Constantin</addName>
+            <addName>Constantin der Grosse</addName>
+            <addName>Constantin Empereur</addName>
+            <addName>Constantin Kaiser</addName>
+            <addName>Constantin Varsovie, Grand-Duc</addName>
+            <addName>Constantine Emperor, I.</addName>
+            <addName>Constantine</addName>
+            <addName>Constantine the Great</addName>
+            <addName>Flavius Valerius Constantinus Augustus</addName>
+            <addName>Constantinus Augustus</addName>
+            <addName>Flavius Valerius Constantinus</addName>
+            <addName>I. Constantinus</addName>
+            <addName>Constantinus, I. Imperator</addName>
+            <addName>Constantinus Constantinopolitanus</addName>
+            <addName>Constantinus der Große</addName>
+            <addName>Constantinus der Grosse</addName>
+            <addName>Constantinus Imperator</addName>
+            <addName>Constantinus Imperator, I.</addName>
+            <addName>Constantinus Magnus</addName>
+            <addName>Costantino il Grande</addName>
+            <addName>Costantino</addName>
+            <addName>Flavius Valerius</addName>
+            <addName>Konstantin Veliki</addName>
+            <addName>Konstantin den Stores</addName>
+            <addName>Konstantin der Große</addName>
+            <addName>Konstantin der Grosse</addName>
+            <addName>Konstantin Römisches Reich, Kaiser, I.</addName>
+            <addName>Konstantin Römischer Kaiser</addName>
+            <addName>Konstantinus Imperium Romanum, Imperator, I.</addName>
+            <addName>Konstantinus</addName>
+            <addName>Konstantyn de Groote</addName>
+            <addName>Konstantyn</addName>
+            <addName>Valerius Aurelis</addName>
+            <addName>Valerius Constantinus Augustus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Lysipp (von Sikyon)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00539734</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00539734"
+                       key="#PND:118833499">Lisips<addName type="display">Lysipp (von Sikyon)</addName>
+            <addName>Lysippos</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

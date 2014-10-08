@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Paris</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7008038</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7008038">Paris<addName type="display">Paris</addName>
+            <addName>Paris</addName>
+            <addName>Parigi</addName>
+            <addName>París</addName>
+            <addName>Parisii</addName>
+            <addName>Lutetia</addName>
+            <addName>Lutetia Parisiorum</addName>
+            <addName>Lutetia Parisii</addName>
+            <addName>Parisius</addName>
+            <addName>parisien</addName>
+            <addName>parisienne</addName>
+            <addName>Parisian</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>France</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=1000070</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:1000070">Frankreich<addName type="display">France</addName>
+            <addName>France</addName>
+            <addName>République française</addName>
+            <addName>République Française</addName>
+            <addName>French Republic</addName>
+            <addName>Francia</addName>
+            <addName>Frankreich</addName>
+            <addName>Frankrijk</addName>
+            <addName>França</addName>
+            <addName>FRA</addName>
+            <addName>FR</addName>
+            <addName>ISO250</addName>
+            <addName>FR00</addName>
+            <addName>Gaule</addName>
+            <addName>Gaul</addName>
+            <addName>Gallia</addName>
+            <addName>French</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Arles</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7008775</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7008775">Arles<addName type="display">Arles</addName>
+            <addName>Arles</addName>
+            <addName>Arles sur Rhône</addName>
+            <addName>Arelas</addName>
+            <addName>Arelate</addName>
+            <addName>Theline</addName>
+            <addName>Arelatensis colonia</addName>
+            <addName>Arelatum</addName>
+            <addName>Constantia</addName>
+            <addName>Arelate Sextanorum</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Napoli</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7004474</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7004474">Neapel<addName type="display">Napoli</addName>
+            <addName>Napoli</addName>
+            <addName>Nápoles</addName>
+            <addName>Naples</addName>
+            <addName>Neapel</addName>
+            <addName>Neapolis</addName>
+            <addName>Parthenope</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Versailles</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7008070</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7008070">Versailles<addName type="display">Versailles</addName>
+            <addName>Versailles</addName>
+         </placeName>
+      </nodes>
+   </tag>
+</tags>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Roma</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7000874</link>
+      <count>10</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7000874">Rom<addName type="display">Roma</addName>
+            <addName>Roma</addName>
+            <addName>Urbe</addName>
+            <addName>Rome</addName>
+            <addName>Rom</addName>
+            <addName>Roman</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Split</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7015546</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7015546">Spalatro<addName type="display">Split</addName>
+            <addName>Split</addName>
+            <addName>Spljet</addName>
+            <addName>Spalato</addName>
+            <addName>Spalatum</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Dalmacija</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7015451</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7015451">Dalmatien<addName type="display">Dalmacija</addName>
+            <addName>Dalmacija</addName>
+            <addName>Dalmatia</addName>
+            <addName>Dalmatian</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Adriatic Sea</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7016532</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7016532">Adriatischen Meer<addName type="display">Adriatic Sea</addName>
+            <addName>Adriatic Sea</addName>
+            <addName>Gulf of Venice</addName>
+            <addName>Mare Adriatico</addName>
+            <addName>Adriatique, mer</addName>
+            <addName>Adria</addName>
+            <addName>Mare Adriaticum</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Anzio</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7015535</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7015535">Antium<addName type="display">Anzio</addName>
+            <addName>Anzio</addName>
+            <addName>Porto d'Anzio</addName>
+            <addName>Antium</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:placeName</facet>
+      <link>http://arachne.uni-koeln.de/item/topographie/8004518</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0"
+                    ref="#http://arachne.uni-koeln.de/item/topographie/8004518">Gärten des Sallustius</placeName>
+      </nodes>
+   </tag>
+</tags>

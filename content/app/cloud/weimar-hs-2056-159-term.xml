@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Egremont, George O'Brien Wyndham (Earl of)England</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/11507</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/11507">beym <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000547">
+               <persName ref="#CerlID:cnp00573787" key="#PND:123166004">Milord Egre- 
+                                mont<addName type="display">Egremont, George O'Brien Wyndham (Earl of)</addName>
+                  <addName>George O'Brien Wyndham Egremont</addName>
+                  <addName>George O'Brien Wyndham</addName>
+               </persName>
+            </term> in <placeName ref="#GettyID:7002445">Engellangd<addName type="display">England</addName>
+               <addName>England</addName>
+               <addName>Angleterre</addName>
+               <addName>Inglaterra</addName>
+               <addName>Inghilterra</addName>
+               <addName>English</addName>
+               <addName>Anglia</addName>
+               <addName>Britannia Romana</addName>
+               <addName>Britannia maior</addName>
+               <addName>Britannia propria</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Egremont, George O'Brien Wyndham (Earl of)</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000547</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000547">
+            <persName ref="#CerlID:cnp00573787" key="#PND:123166004">Milord Egre- 
+                                mont<addName type="display">Egremont, George O'Brien Wyndham (Earl of)</addName>
+               <addName>George O'Brien Wyndham Egremont</addName>
+               <addName>George O'Brien Wyndham</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Jennings, Henry Constantine</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/36210</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/36210">eine schöne 
+                                bey der Herme eines alten Philosophen 
+                                im <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000621">Besitz des Herrn <persName ref="#CerlID:cnp00018551">Jennings<addName type="display">Jennings, Henry Constantine</addName>
+                  <addName>Henry Constantine Jennings</addName>
+                  <addName>Henry Iennings</addName>
+                  <addName>Iennings</addName>
+                  <addName>Unfeigned admirer of genuine British jurisprudence</addName>
+               </persName>
+            </term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Jennings, Henry Constantine</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000621</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000621">Besitz des Herrn <persName ref="#CerlID:cnp00018551">Jennings<addName type="display">Jennings, Henry Constantine</addName>
+               <addName>Henry Constantine Jennings</addName>
+               <addName>Henry Iennings</addName>
+               <addName>Iennings</addName>
+               <addName>Unfeigned admirer of genuine British jurisprudence</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Hope, Thomas</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/25405</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/25405">eine 
+                                unten bekleidete <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000018">beym <persName ref="#CerlID:cnp01261889" key="#PND:118935488">Milord Hope<addName type="display">Hope, Thomas</addName>
+                  <addName>Thomas Hope</addName>
+                  <addName>Hope Milord</addName>
+               </persName>
+            </term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Hope, Thomas</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000018</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000018">beym <persName ref="#CerlID:cnp01261889" key="#PND:118935488">Milord Hope<addName type="display">Hope, Thomas</addName>
+               <addName>Thomas Hope</addName>
+               <addName>Hope Milord</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/24243</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/24243">eine Wunderschö- 
+                                ne was den unterleib betrift</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Venus</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/typus/35</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/typus/35">
+            <persName ref="#CerlID:cnp00588078" key="#PND:11876800X">Venus<addName type="display">Venus</addName>
+               <addName>Anadyomene  Beiname</addName>
+               <addName>Anadyomene</addName>
+               <addName>Arelatensis  Beiname</addName>
+               <addName>Arelatensis</addName>
+               <addName>aurea  Beiname</addName>
+               <addName>aurea</addName>
+               <addName>coelestis  Beiname</addName>
+               <addName>coelestis</addName>
+               <addName>Gnidia  Beiname</addName>
+               <addName>Gnidia</addName>
+               <addName>Marina  Beiname</addName>
+               <addName>Marina</addName>
+               <addName>Pelasgia  Beiname</addName>
+               <addName>Pelasgia</addName>
+               <addName>Pontia  Beiname</addName>
+               <addName>Pontia</addName>
+               <addName>Urania  Beiname</addName>
+               <addName>Urania</addName>
+               <addName>Victrix  Beiname</addName>
+               <addName>Victrix</addName>
+            </persName>καλλιπυγοσ</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Farnesishen Gärten</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:159516 http://arachne.uni-koeln.de/item/objekt/13266</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:159516 #http://arachne.uni-koeln.de/item/objekt/13266">Die beste Statue ist in den <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000001">Farnesishen
+                                Gärten</term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000001</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000001">Farnesishen
+                                Gärten</term>
+      </nodes>
+   </tag>
+</tags>

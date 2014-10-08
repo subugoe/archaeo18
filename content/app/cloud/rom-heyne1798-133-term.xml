@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Furietti, Alessandro</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/15901</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/15901">Centauren; ehmals dem<persName ref="#CerlID:cnp01012072" key="#PND:131528610">Card. Furietti<addName type="display">Furietti, Alessandro</addName>
+               <addName>Alessandro Furietti</addName>
+               <addName>Giuseppe Alessandro Furietti</addName>
+               <addName>Aless. Furietti</addName>
+               <addName>Joseph Alessandro Furietti</addName>
+               <addName>Joseph Alexander Furietti</addName>
+               <addName>Joseph Alexander Furiettus</addName>
+               <addName>Furiettus</addName>
+               <addName>Josephus Alexander Furiettus</addName>
+            </persName> gehörig</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Cavaceppi, Bartolomeo</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-133.tei.xml-d9915e159">von <persName ref="#CerlID:cnp00404698" key="#PND:119217597">Cavaceppi<addName type="display">Cavaceppi, Bartolomeo</addName>
+               <addName>Bartolomeo Cavaceppi</addName>
+            </persName> copirt</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-133.tei.xml-d9915e176">26.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-133.tei.xml-d9915e183">27.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/gruppen/400702 http://arachne.uni-koeln.de/item/objekt/19409 http://arachne.uni-koeln.de/item/objekt/19410</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/gruppen/400702 #http://arachne.uni-koeln.de/item/objekt/19409 #http://arachne.uni-koeln.de/item/objekt/19410">Clem. 1. p. 52.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/14752 http://arachne.uni-koeln.de/item/objekt/14753</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/14752 #http://arachne.uni-koeln.de/item/objekt/14753">milde
+                                Centaur</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-133.tei.xml-d9915e214">weiblichen Figuren</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-133.tei.xml-d9915e224">T. 2.</term>
+      </nodes>
+   </tag>
+</tags>

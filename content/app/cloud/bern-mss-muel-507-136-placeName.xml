@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7044047</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7044047">Capo di Monte</TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Napoli</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7004474</link>
+      <count>6</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7004474">Napoli<addName type="display">Napoli</addName>
+            <addName>Napoli</addName>
+            <addName>Nápoles</addName>
+            <addName>Naples</addName>
+            <addName>Neapel</addName>
+            <addName>Neapolis</addName>
+            <addName>Parthenope</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Portici</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7006841</link>
+      <count>4</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7006841">Portici<addName type="display">Portici</addName>
+            <addName>Portici</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Resina</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7031897</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7031897">Ercolano<addName type="display">Resina</addName>
+            <addName>Resina</addName>
+            <addName>Ercolano</addName>
+            <addName>Herculaneum</addName>
+            <addName>Herakleion</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Castellammare di Stabia</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7015639</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7015639">Stabiæ<addName type="display">Castellammare di Stabia</addName>
+            <addName>Castellammare di Stabia</addName>
+            <addName>Castellamare di Stabia</addName>
+            <addName>Castellammare</addName>
+            <addName>Stabiae</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pompeii</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7004658</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7004658">Pompey.<addName type="display">Pompeii</addName>
+            <addName>Pompeii</addName>
+            <addName>Pompei</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Caserta</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7004394</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7004394">Caserta<addName type="display">Caserta</addName>
+            <addName>Caserta</addName>
+            <addName>Torre</addName>
+            <addName>La Torre</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Sicilia</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7030363</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7030363">Sicilien<addName type="display">Sicilia</addName>
+            <addName>Sicilia</addName>
+            <addName>Sicily</addName>
+            <addName>Sizilien</addName>
+            <addName>Trinacria</addName>
+            <addName>Thrinacria</addName>
+            <addName>Sikanie</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Catania</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7003947</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7003947">Catania<addName type="display">Catania</addName>
+            <addName>Catania</addName>
+            <addName>Catana</addName>
+            <addName>Catane</addName>
+            <addName>Catina</addName>
+            <addName>Katane</addName>
+            <addName>Katana</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Firenze</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7000457</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7000457">Florenz<addName type="display">Firenze</addName>
+            <addName>Firenze</addName>
+            <addName>Florence</addName>
+            <addName>Florencia</addName>
+            <addName>Florenz</addName>
+            <addName>Fiorenza</addName>
+            <addName>Florentia</addName>
+            <addName>Florentine</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+</tags>

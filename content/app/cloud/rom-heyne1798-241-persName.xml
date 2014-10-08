@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Panainos</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300359</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300359">Panänus<addName type="display">Panainos</addName>
+            <addName>Panaenus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Phidias</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00562418</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00562418"
+                   key="#PND:118593765">Phidias<addName type="display">Phidias</addName>
+            <addName>Pheidias</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Polygnotus (Thasius)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00554467</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00554467"
+                   key="#PND:119385198">Polygnotus<addName type="display">Polygnotus (Thasius)</addName>
+            <addName>Polignoto di Taso</addName>
+            <addName>Polignoto</addName>
+            <addName>Polygnot von Thasos</addName>
+            <addName>Polygnot</addName>
+            <addName>Polygnotos Maler</addName>
+            <addName>Polygnotos</addName>
+            <addName>Polygnotos Sohn des Aglaophon</addName>
+            <addName>Polygnotos von Thasos</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Niemand</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00561330</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00561330"
+                   key="#PND:118589385">Ulyß<addName type="display">Niemand</addName>
+            <addName>Nemo</addName>
+            <addName>Ulixes</addName>
+            <addName>Ulysses</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Parrhasius (Ephesius)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00285402</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp00285402">Parrhasius<addName type="display">Parrhasius (Ephesius)</addName>
+            <addName>Parrasios von Ephesos</addName>
+            <addName>Parrasios</addName>
+            <addName>Parrhasios Maler</addName>
+            <addName>Parrhasios</addName>
+            <addName>Parrhasios Sohn des Evenor</addName>
+            <addName>Parrhasios von Ephesos</addName>
+            <addName>Parrhasius Elegiacus</addName>
+            <addName>Parrhasius Epigrammaticus</addName>
+            <addName>Parrhasius Pictor</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Zeuxis</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00588252</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00588252"
+                   key="#PND:118772651">Zeuxis<addName type="display">Zeuxis</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Apelles</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00397365</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00397365"
+                   key="#PND:118649787">Apelles<addName type="display">Apelles</addName>
+            <addName>Appelles</addName>
+            <addName>Apelle</addName>
+            <addName>Apelles von Kolophon</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

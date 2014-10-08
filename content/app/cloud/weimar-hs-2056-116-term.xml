@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:156223 http://arachne.uni-koeln.de/item/gruppen/400076 http://arachne.uni-koeln.de/item/objekt/6553 http://arachne.uni-koeln.de/item/objekt/6554</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:156223 #http://arachne.uni-koeln.de/item/gruppen/400076 #http://arachne.uni-koeln.de/item/objekt/6553 #http://arachne.uni-koeln.de/item/objekt/6554">Ein Soldat, der seinen Cameraden aus dem  
+                    Trefen Träget</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/bauwerk/2108168</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/bauwerk/2108168">Porto vechio</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Niemand</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/rezeption/350685</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/rezeption/350685">Figur zum <persName ref="#CerlID:cnp00561330" key="#PND:118589385">Ulysses<addName type="display">Niemand</addName>
+               <addName>Nemo</addName>
+               <addName>Ulixes</addName>
+               <addName>Ulysses</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Ajax (der Telamonier)</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-116.tei.xml-d16229e112">andere ist für  
+                        den <persName ref="#CerlID:cnp00541974" key="#PND:118501194">Ajaz<addName type="display">Ajax (der Telamonier)</addName>
+               <addName>Ajaz</addName>
+               <addName>Aias der Große</addName>
+               <addName>Aias</addName>
+               <addName>Aias der Telamonier</addName>
+               <addName>Ajax der Große</addName>
+            </persName> zu jung</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Meleagros (Sagengestalt)Roma</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:151522 http://arachne.uni-koeln.de/item/objekt/19383</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:151522 #http://arachne.uni-koeln.de/item/objekt/19383">
+            <persName ref="#CerlID:cnp00570957" key="#PND:122695712">Meleager<addName type="display">Meleagros (Sagengestalt)</addName>
+            </persName>, Jm <term ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-116.tei.xml-d16229e163"
+                  type="collection">Pallast Pighni</term> zu <placeName ref="#GettyID:7000874">Rom<addName type="display">Roma</addName>
+               <addName>Roma</addName>
+               <addName>Urbe</addName>
+               <addName>Rome</addName>
+               <addName>Rom</addName>
+               <addName>Roman</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-116.tei.xml-d16229e163"
+               type="collection">Pallast Pighni</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:158343 http://arachne.uni-koeln.de/item/objekt/5841</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:158343 #http://arachne.uni-koeln.de/item/objekt/5841">Mediceischen Venus</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Adonis</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-116.tei.xml-d16229e288">Einer als <persName ref="#CerlID:cnp00576317" key="#PND:118643886">Adon<addName type="display">Adonis</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/rezeption/350493</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/rezeption/350493">135.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/26748</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/26748">136.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/5260</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/5260">43.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000285</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000285">Gall: Giust:</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Palazzo Farnes</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/13083</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/13083">ein schöner im <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000001">Palazzo Farnes</term>e</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000001</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000001">Palazzo Farnes</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Paris (Sagengestalt)Hohenems (Familie)Roma</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/21155</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/21155">
+            <persName ref="#CerlID:cnp00587024" key="#PND:118739301">Paris<addName type="display">Paris (Sagengestalt)</addName>
+               <addName>Alexandros</addName>
+            </persName>. Jm <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000343">Pallast der Famille <persName ref="#CerlID:cnp00559564" key="#PND:120079356">Altemps<addName type="display">Hohenems (Familie)</addName>
+                  <addName>Altemps Familie</addName>
+                  <addName>Altemps</addName>
+                  <addName>Ems Familie</addName>
+                  <addName>Ems</addName>
+               </persName>
+            </term> 
+                    zu <placeName ref="#GettyID:7000874">Rom<addName type="display">Roma</addName>
+               <addName>Roma</addName>
+               <addName>Urbe</addName>
+               <addName>Rome</addName>
+               <addName>Rom</addName>
+               <addName>Roman</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Hohenems (Familie)</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000343</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000343">Pallast der Famille <persName ref="#CerlID:cnp00559564" key="#PND:120079356">Altemps<addName type="display">Hohenems (Familie)</addName>
+               <addName>Altemps Familie</addName>
+               <addName>Altemps</addName>
+               <addName>Ems Familie</addName>
+               <addName>Ems</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+</tags>

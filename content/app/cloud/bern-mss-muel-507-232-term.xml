@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Vespasian (Römisches Reich, Kaiser)</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-232.tei.xml-d6519e24">Ein Nil aus Basalt stand ehemals im <TEI:term ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-232.tei.xml-d6519e29">Templo
+          
+          Pacis</TEI:term> des <TEI:persName ref="#CerlID:cnp00984011" key="#PND:11862671X">Vespasians<addName type="display">Vespasian (Römisches Reich, Kaiser)</addName>
+               <addName>Titus Flavius Vespasianus</addName>
+               <addName>Caesar Vespasianus Augustus</addName>
+               <addName>Caesar Vespasianus</addName>
+               <addName>Flavius Vespasianus</addName>
+               <addName>Titus Flavius Vespasian</addName>
+               <addName>Vespasian Imperator</addName>
+               <addName>Vespasian Kaiser</addName>
+               <addName>Vespasian Römisches Reich, Kaiser</addName>
+               <addName>Vespasiano Imperatore</addName>
+               <addName>Vespasiano</addName>
+               <addName>Vespasien Empereur</addName>
+               <addName>Vespasien</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-232.tei.xml-d6519e29">Templo
+          
+          Pacis</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/20591</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/objekt/20591">Ein anderer Nil</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Capitol</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/18128 http://arachne.uni-koeln.de/item/objekt/18129</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/objekt/18128 #http://arachne.uni-koeln.de/item/objekt/18129">Noch 2. Flüße im <TEI:term ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-232.tei.xml-d6519e81">Capitol</TEI:term>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-232.tei.xml-d6519e81">Capitol</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Fancelli</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-232.tei.xml-d6519e103">Ein moderner Nil von <TEI:persName ref="#CerlID:cnp00603524 #CerlID:cnp01414712">Fancelli</TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/rezeption/302209</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/rezeption/302209">Ein Flußgott</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/19562</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/objekt/19562">Ein Sardanapal</TEI:term>
+      </nodes>
+   </tag>
+</tags>

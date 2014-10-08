@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Alexander (Magnus)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259691</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01259691"
+                   key="#PND:118501828">Alexander<addName type="display">Alexander (Magnus)</addName>
+            <addName>Ałekʹsandr Makedonacʹi</addName>
+            <addName>Alejandro Magno</addName>
+            <addName>Alejandro</addName>
+            <addName>Aleksandr</addName>
+            <addName>Alessandro Magno</addName>
+            <addName>Alessandro</addName>
+            <addName>Alexander de Grote</addName>
+            <addName>Alexander der Große</addName>
+            <addName>Alexander der Grosse</addName>
+            <addName>Alexander Epistolographus</addName>
+            <addName>Alexander III 3 koning van Macedonië</addName>
+            <addName>Alexander Kaiser</addName>
+            <addName>Alexander Macedonia, Rex, III.</addName>
+            <addName>Alexander Macedonis</addName>
+            <addName>Alexander Mazedonien, König, III.</addName>
+            <addName>Alexander of Macedon</addName>
+            <addName>Alexander Rex</addName>
+            <addName>Alexandre le Grand</addName>
+            <addName>Alexandre</addName>
+            <addName>Alexandros</addName>
+            <addName>Alexandros der Große</addName>
+            <addName>Alexandru cel Mare</addName>
+            <addName>Alexandru</addName>
+            <addName>Alexandrus Magnus</addName>
+            <addName>Alexandrus</addName>
+            <addName>Megalexandros</addName>
+            <addName>Pseudo-Alexander Magnus</addName>
+            <addName>Pseudo-Alexander</addName>
+            <addName>Grote</addName>
+            <addName>Alexandros Megas</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Metellus, Quintus Caecilius (Macedonicus)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00285188</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00285188"
+                   key="#PND:102399441">Metel- 
+                                    lus<addName type="display">Metellus, Quintus Caecilius (Macedonicus)</addName>
+            <addName>Quintus Caecilius Metellus</addName>
+            <addName>Quintus Caecilius Metellus Macedonicus</addName>
+            <addName>Caecilius Metellus Macedonicus</addName>
+            <addName>Caecilius Metellus</addName>
+            <addName>Macedonicus</addName>
+            <addName>Metellus Macedonicus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Dioskuren</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00543824</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00543824"
+                   key="#PND:118973878">dioscuren<addName type="display">Dioskuren</addName>
+            <addName>Castor und Pollux</addName>
+            <addName>Kastor und Pollux</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Herakles</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00574918</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00574918"
+                   key="#PND:118639552">Hercules<addName type="display">Herakles</addName>
+            <addName>Ercole</addName>
+            <addName>Heracles</addName>
+            <addName>Hercules</addName>
+            <addName>Herkules</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Lysipp (von Sikyon)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00539734</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00539734"
+                   key="#PND:118833499">Lysipp<addName type="display">Lysipp (von Sikyon)</addName>
+            <addName>Lysippos</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Kresilas</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300261</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300261">Ctesilaus<addName type="display">Kresilas</addName>
+            <addName>Ctesilaus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Perikles</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00587048</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00587048"
+                   key="#PND:118739972">Pericles<addName type="display">Perikles</addName>
+            <addName>Pericles</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Phidias</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00562418</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00562418"
+                   key="#PND:118593765">Phidias<addName type="display">Phidias</addName>
+            <addName>Pheidias</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Polyclitus (Argivus)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00587101</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00587101"
+                   key="#PND:118741438">Polycte- 
+                                    tus<addName type="display">Polyclitus (Argivus)</addName>
+            <addName>Poliotitus</addName>
+            <addName>Polyctet</addName>
+            <addName>Polyclitus Philosophus</addName>
+            <addName>Polykleitos Erzgießer</addName>
+            <addName>Polykleitos</addName>
+            <addName>Polykleitos Künstler</addName>
+            <addName>Polykleitos von Argos</addName>
+            <addName>Polyklet</addName>
+            <addName>Polyklet von Argos</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Diana</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00584638</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00584638"
+                   key="#PND:118678132">Diana<addName type="display">Diana</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Kephisodotos</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300247</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300247">Cephissodorus<addName type="display">Kephisodotos</addName>
+            <addName>Cephissodorus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Praxiteles</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00589123</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00589123"
+                   key="#PND:118793241">Praxite- 
+                                    les<addName type="display">Praxiteles</addName>
+            <addName>Prassitele</addName>
+            <addName>Praxitèle</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

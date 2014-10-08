@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Titus (Imperium Romanum, Imperator)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00396707</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00396707"
+                   key="#PND:118622951">Titus<addName type="display">Titus (Imperium Romanum, Imperator)</addName>
+            <addName>Flavius Vespasianus Titus</addName>
+            <addName>Titus Flavius Vespasianus</addName>
+            <addName>Flavius Vespasianus</addName>
+            <addName>Titus Vespasianus Augustus</addName>
+            <addName>Titus Vespasianus</addName>
+            <addName>Titus Imperator</addName>
+            <addName>Titus Römisches Reich, Kaiser</addName>
+            <addName>Titus Romanus</addName>
+            <addName>Vespasianus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Caracalla (Imperium Romanum, Imperator)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00397692</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00397692"
+                   key="#PND:118667041">Caracalla<addName type="display">Caracalla (Imperium Romanum, Imperator)</addName>
+            <addName>Aurelius Antoninus Caesar</addName>
+            <addName>Aurelius Antoninus</addName>
+            <addName>Aurelius Severus Antoninus Augustus</addName>
+            <addName>Aurelius Severus Antoninus</addName>
+            <addName>Bassianus</addName>
+            <addName>Caracalla Imperator</addName>
+            <addName>Caracalla Römischer Kaiser</addName>
+            <addName>Lucius Septimius Bassianus</addName>
+            <addName>Marcus Aurelius Antoninus</addName>
+            <addName>Marcus Aurelius Antoninus Caesar</addName>
+            <addName>Marcus Aurelius Severus Antoninus Augustus</addName>
+            <addName>Marcus Aurelius Severus Antoninus</addName>
+            <addName>Septimius Bassianus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Antoninus, Augustus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01260638</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01260638"
+                   key="#PND:118503499">Antoniniæ<addName type="display">Antoninus, Augustus</addName>
+            <addName>Augustus Antoninus</addName>
+            <addName>Antonin le Pieux</addName>
+            <addName>Antonin</addName>
+            <addName>Antonino Pio</addName>
+            <addName>Titus A. Antoninus</addName>
+            <addName>Titus Aurelius Fulvius Bojonius Pius Antoninus</addName>
+            <addName>Antoninus Imperium Romanum, Imperator</addName>
+            <addName>Antoninus Aug.</addName>
+            <addName>Titus Antoninus Pius</addName>
+            <addName>Antoninus Pius Rome, Emperor</addName>
+            <addName>Antoninus Pius Römisches Reich, Kaiser</addName>
+            <addName>Antonius Augustus</addName>
+            <addName>Antonius</addName>
+            <addName>Antonius Pius</addName>
+            <addName>Antonius Pius Imperium Romanum, Imperator</addName>
+            <addName>Marcus Aurelius Antoninus</addName>
+            <addName>Pius</addName>
+            <addName>Pius Imperium Romanum, Imperator</addName>
+            <addName>Titus Aelius Hadrianus Antoninus</addName>
+            <addName>Titus Aelius Hadrianus</addName>
+            <addName>Titus Aelius Hadrianus Antoninus Imperium Romanum, Imperator</addName>
+            <addName>Titus Aurelius Fulvus Boionius Arrius Antoninus</addName>
+            <addName>Titus Aurelius Fulvus Boionius Arrius</addName>
+            <addName>Titus Aurelius Fulvus Boionus Arrius Antoninus</addName>
+            <addName>Titus Aurelius Fulvus Boionus Arrius</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Diocletianus (Imperium Romanum, Imperator)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01066071</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01066071"
+                   key="#PND:118679651">Diocletian<addName type="display">Diocletianus (Imperium Romanum, Imperator)</addName>
+            <addName>Gaius Aurelius Valerius Diocletianus</addName>
+            <addName>Aurelius Valerius Diocletianus</addName>
+            <addName>Gaius Valerius Diocles</addName>
+            <addName>Diocles</addName>
+            <addName>Diocletian</addName>
+            <addName>Diocletian Römisches Reich, Kaiser</addName>
+            <addName>Diocletian Emperor of Rome</addName>
+            <addName>Diocletianus Römischer Kaiser</addName>
+            <addName>Gaius Aruelius Valerius Diocletianus Augustus</addName>
+            <addName>Diocletianus Augustus</addName>
+            <addName>Diocleziano Imperatore</addName>
+            <addName>Diokletian Römisches Reich, Kaiser</addName>
+            <addName>Valerius Diocletianus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Palladio, Andrea</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01238124</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01238124"
+                   key="#PND:118591355">Palladio<addName type="display">Palladio, Andrea</addName>
+            <addName>Andrea Palladio</addName>
+            <addName>Andrea di Pietro</addName>
+            <addName>Andrea Di Pietro</addName>
+            <addName>Di Pietro</addName>
+            <addName>Andrea DiPietro</addName>
+            <addName>DiPietro</addName>
+            <addName>Andrea Paladio</addName>
+            <addName>Paladio</addName>
+            <addName>Andres Paladio</addName>
+            <addName>André Paladio</addName>
+            <addName>André Paladio</addName>
+            <addName>Andreas Paladius</addName>
+            <addName>Paladius</addName>
+            <addName>A Palladio</addName>
+            <addName>A. Palladio</addName>
+            <addName>Palladio, A. Andrea</addName>
+            <addName>Palladio, Andrea 1508-1580</addName>
+            <addName>André Palladio</addName>
+            <addName>André Palladio</addName>
+            <addName>Andrés Palladio</addName>
+            <addName>Palladio, Andrea/Paladius, Andreas</addName>
+            <addName>Andreas Palladius</addName>
+            <addName>Palladius</addName>
+            <addName>Pietro</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

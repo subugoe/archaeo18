@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Christ, Johann Friedrich</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00156863</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00156863"
+                       key="#PND:10079114X">Christ<addName type="display">Christ, Johann Friedrich</addName>
+            <addName>Johann Friedrich Christ</addName>
+            <addName>Jean-Frédéric Christ</addName>
+            <addName>Johannes Fridericus Christ</addName>
+            <addName>Johannes Friedrich Christ</addName>
+            <addName>Joh. F. Christen</addName>
+            <addName>Christen</addName>
+            <addName>Joh. Frieder. Christen</addName>
+            <addName>Johann Friedrich Christen</addName>
+            <addName>Johannes Friedrich Christen</addName>
+            <addName>Iohannes Fridericus Christius</addName>
+            <addName>Christius</addName>
+            <addName>Joannes Fridericus Christius</addName>
+            <addName>Johann Friedrich Christius</addName>
+            <addName>Johannes Fridericus Christius</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

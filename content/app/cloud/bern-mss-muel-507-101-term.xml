@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:150785 http://arachne.uni-koeln.de/item/topographie/500034</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CensusID:150785 #http://arachne.uni-koeln.de/item/topographie/500034">Forum Augusti</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:153269 http://arachne.uni-koeln.de/item/bauwerk/2100358</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CensusID:153269 #http://arachne.uni-koeln.de/item/bauwerk/2100358">Circus Maximus</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-101.tei.xml-d14291e128">Circus Flaminius</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/bauwerk/2100188</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/bauwerk/2100188">Theatrum Balbi</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:150890 http://arachne.uni-koeln.de/item/bauwerk/2100189</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CensusID:150890 #http://arachne.uni-koeln.de/item/bauwerk/2100189">Th. M. Marcelli</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Vipsanius Agrippa, Marcus</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/bauwerk/2100162</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/bauwerk/2100162">Thermæ des <TEI:persName ref="#CerlID:cnp00977487" key="#PND:118501097">Agrippa<addName type="display">Vipsanius Agrippa, Marcus</addName>
+               <addName>Marcus Vipsanius Agrippa</addName>
+               <addName>Marcus Agrippa</addName>
+               <addName>Agrippa</addName>
+               <addName>Agrippa Ersteller einer Weltkarte</addName>
+               <addName>Marcus Vipsanius</addName>
+               <addName>Vipsanius, Marcus Agrippa</addName>
+               <addName>Vipsanius</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://census.bbaw.de/easydb/censusID=155673</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0" ref="#CensusID:155673">Virgo Aqua</TEI:term>
+      </nodes>
+   </tag>
+</tags>

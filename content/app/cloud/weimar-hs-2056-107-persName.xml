@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Bottari, Giovanni Gaetano</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00412832</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00412832"
+                   key="#PND:120278952">Botteri<addName type="display">Bottari, Giovanni Gaetano</addName>
+            <addName>Giovanni Gaetano Bottari</addName>
+            <addName>I. Patori</addName>
+            <addName>Patori</addName>
+            <addName>Giovanni Bottari</addName>
+            <addName>Giovanni G. Bottari</addName>
+            <addName>Joannes Bottari</addName>
+            <addName>Johann Bottari</addName>
+            <addName>Johannes Bottari</addName>
+            <addName>M. Bottari</addName>
+            <addName>Johannes Bottarius</addName>
+            <addName>Bottarius</addName>
+            <addName>Johannes Caietanus Bottarius</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Algardi, Alessandro</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00400934</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00400934"
+                   key="#PND:118808761">Algarti<addName type="display">Algardi, Alessandro</addName>
+            <addName>Alessandro Algardi</addName>
+            <addName>Algarti</addName>
+            <addName>Aless. Algardi</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Herakles</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00574918</link>
+      <count>14</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00574918"
+                   key="#PND:118639552">Her- 
+                  kules<addName type="display">Herakles</addName>
+            <addName>Ercole</addName>
+            <addName>Heracles</addName>
+            <addName>Hercules</addName>
+            <addName>Herkules</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Petrus (Apostel)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00396091</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00396091"
+                   key="#PND:118593323">Petrus<addName type="display">Petrus (Apostel)</addName>
+            <addName>Peter the Apostle, Saint</addName>
+            <addName>Peter</addName>
+            <addName>Piotr święty</addName>
+            <addName>Piotr</addName>
+            <addName>Kefas</addName>
+            <addName>Kephas</addName>
+            <addName>Kēfā Apostolus</addName>
+            <addName>Kēfā</addName>
+            <addName>Kēfā Apostolus</addName>
+            <addName>Kēfā</addName>
+            <addName>Petros Apostel</addName>
+            <addName>Petros</addName>
+            <addName>Petros Apostolos</addName>
+            <addName>Petros Aṙak'yal</addName>
+            <addName>Petros Märtyrer</addName>
+            <addName>Petros Märtyrer</addName>
+            <addName>Petros der Fels</addName>
+            <addName>Petrus Bischof</addName>
+            <addName>Petrus Papa</addName>
+            <addName>Petrus Papa, I.</addName>
+            <addName>Petrus Papst</addName>
+            <addName>Petrus Sanctus</addName>
+            <addName>Pierre Apôtre</addName>
+            <addName>Pierre</addName>
+            <addName>Pierre Apôtre</addName>
+            <addName>Pierre Saint</addName>
+            <addName>Pseudo-Petrus Apostel</addName>
+            <addName>Pseudo-Petrus</addName>
+            <addName>Pseudo-Petrus Apostolus</addName>
+            <addName>Simon Kefas</addName>
+            <addName>Simon</addName>
+            <addName>Simon Kephas</addName>
+            <addName>Simon Petrus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Avertinus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01303720</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01303720">Avertinus<addName type="display">Avertinus</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

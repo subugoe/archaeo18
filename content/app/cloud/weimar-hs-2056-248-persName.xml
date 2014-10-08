@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Danaos</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300266</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300266">Danaus<addName type="display">Danaos</addName>
+            <addName>Danaus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Kekrops</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00562412</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00562412"
+                   key="#PND:12090845X">Cecrops<addName type="display">Kekrops</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Kadmos</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00542607</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00542607"
+                   key="#PND:118930222">Cadmus<addName type="display">Kadmos</addName>
+            <addName>Cadmus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Herodotus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00884119</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00884119"
+                   key="#PND:118549855">Herodots<addName type="display">Herodotus</addName>
+            <addName>Ērodotos</addName>
+            <addName>Ērodotos</addName>
+            <addName>Erodot</addName>
+            <addName>Erodoto</addName>
+            <addName>Erodoto Alicarnasseo</addName>
+            <addName>Erodoto di Alicarnasso</addName>
+            <addName>Erodotus Alikarnassēos</addName>
+            <addName>Erodotus</addName>
+            <addName>Gerodot</addName>
+            <addName>Gerodot iz Galikarnassa</addName>
+            <addName>Hīrūdūt</addName>
+            <addName>Hérodote</addName>
+            <addName>Hérodote d' Halicarnasse</addName>
+            <addName>Hérodote de Halicarnasse</addName>
+            <addName>Hérodote d'Halicarnasse</addName>
+            <addName>Hérodotosz</addName>
+            <addName>Hérodote de Halicarnasse</addName>
+            <addName>Hérodote</addName>
+            <addName>Hérodote d'Halicarnasse</addName>
+            <addName>Herodatus</addName>
+            <addName>Herodoot</addName>
+            <addName>Herodoot van Halikarnassus</addName>
+            <addName>Herodot von Halikarnass</addName>
+            <addName>Herodot</addName>
+            <addName>Herodot Halicarnassei</addName>
+            <addName>Herodot iz Halikarnasu</addName>
+            <addName>Herodot the Historian</addName>
+            <addName>Herodot von Halicarnass</addName>
+            <addName>Herodot von Halikarnaß</addName>
+            <addName>Herodot von Halikarnassos</addName>
+            <addName>Herodot von Halikarnassus</addName>
+            <addName>Herodote</addName>
+            <addName>Herodoto</addName>
+            <addName>Herodoto Alicarnaseo</addName>
+            <addName>Herodoto Halicarnasseo</addName>
+            <addName>Herodotos</addName>
+            <addName>Herodotos van Halicarnassos</addName>
+            <addName>Herodotos Historiker</addName>
+            <addName>Herodotos Sohn des Lyxes</addName>
+            <addName>Herodotos von Halikarnassos</addName>
+            <addName>Herodotus Halincarnassensis</addName>
+            <addName>Herodotus Halicarnassei</addName>
+            <addName>Herodotus Halicarnassensis</addName>
+            <addName>Herodotus Halicarnasseus</addName>
+            <addName>Herodotus Halikarnassēos</addName>
+            <addName>Herodotus Historicus</addName>
+            <addName>Herodotus ho Halikarnasseos</addName>
+            <addName>Herodotus ho Halikarnasseus</addName>
+            <addName>Herodotus of Halicarnassus</addName>
+            <addName>Herodotus the Historian</addName>
+            <addName>Herodotus Thurius</addName>
+            <addName>Herodotus von Halicarnassos</addName>
+            <addName>Herodotus von Halikarnassos</addName>
+            <addName>Herodotus von Halikarnassus</addName>
+            <addName>Hirūdut</addName>
+            <addName>Hirūdut</addName>
+            <addName>Pseudo-Herodotus Biographus</addName>
+            <addName>Pseudo-Herodotus</addName>
+            <addName>Pseudo-Herodotus Halicarnassensis</addName>
+            <addName>Pseudo-Herodotus Historicus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Strabo</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00066242</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp00066242">Strabo<addName type="display">Strabo</addName>
+            <addName>Strabōn</addName>
+            <addName>Strabone</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pausanias</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00396071</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00396071"
+                   key="#PND:118592246">Pausanias<addName type="display">Pausanias</addName>
+            <addName>Pausania</addName>
+            <addName>Pausania il Periegeta</addName>
+            <addName>Pausanias Periegetos</addName>
+            <addName>Pausanias Damascenus</addName>
+            <addName>Pausanias de Magnésie</addName>
+            <addName>Pausanias de Magnésie</addName>
+            <addName>Pausanias der Perieget</addName>
+            <addName>Pausanias der Periegete</addName>
+            <addName>Pausanias Géographe</addName>
+            <addName>Pausanias Géographe</addName>
+            <addName>Pausanias Geographus</addName>
+            <addName>Pausanias Lydius</addName>
+            <addName>Pausanias Perieget</addName>
+            <addName>Pausanias Reiseschriftsteller</addName>
+            <addName>Pausanias Schriftsteller</addName>
+            <addName>Pauzanija</addName>
+            <addName>Periegeta</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Kybele</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00575273</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00575273"
+                   key="#PND:118640283">Cybele<addName type="display">Kybele</addName>
+            <addName>Cybele</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Dioskuren</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00543824</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00543824"
+                   key="#PND:118973878">Dioscuren<addName type="display">Dioskuren</addName>
+            <addName>Castor und Pollux</addName>
+            <addName>Kastor und Pollux</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Diana</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00584638</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00584638"
+                   key="#PND:118678132">Diana<addName type="display">Diana</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

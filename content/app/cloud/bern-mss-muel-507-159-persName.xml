@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Apollon</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00542641</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00542641"
+                       key="#PND:118503642">Apollo<addName type="display">Apollon</addName>
+            <addName>Apoll</addName>
+            <addName>Apollo</addName>
+            <addName>Phoebus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Jules (II, pape)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00398698</link>
+      <count>4</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00398698"
+                       key="#PND:118714090">Jul II.<addName type="display">Jules (II, pape)</addName>
+            <addName>Giuliano Della Rovere</addName>
+            <addName>Della Rovere</addName>
+            <addName>Giulio II pape</addName>
+            <addName>Giulio</addName>
+            <addName>Jules 2 pape</addName>
+            <addName>Julius 2 pape</addName>
+            <addName>Julius II pape</addName>
+            <addName>Della Rovere, Giuliano 1443-1513</addName>
+            <addName>Giuliano DellaRovere</addName>
+            <addName>DellaRovere</addName>
+            <addName>Giuliano Della_Rovere</addName>
+            <addName>Della_Rovere</addName>
+            <addName>Giuliano della Rovere</addName>
+            <addName>Giuliano</addName>
+            <addName>Giulio II papa 1443-1513</addName>
+            <addName>Giulio II</addName>
+            <addName>Giulio II papa/Giuliano della Rovere</addName>
+            <addName>Giulio II/Giulio della Rovere</addName>
+            <addName>Iulio papa secundo</addName>
+            <addName>Iulius II</addName>
+            <addName>Iulius Secundus</addName>
+            <addName>Iulius papa II</addName>
+            <addName>Iulius secundus</addName>
+            <addName>Julianus</addName>
+            <addName>Julien della Rovere</addName>
+            <addName>Julien</addName>
+            <addName>Julio II papa 1443-1513</addName>
+            <addName>Julio</addName>
+            <addName>Julio Papa, II.</addName>
+            <addName>Julio Papst</addName>
+            <addName>Julius II papa 1443-1513</addName>
+            <addName>Julius II.</addName>
+            <addName>Julius Pontifex Romanus, II.</addName>
+            <addName>Julius II</addName>
+            <addName>Giuliano Julius II papa/Della Rovere</addName>
+            <addName>Julius II papa/Della Rovere</addName>
+            <addName>Julius II pope</addName>
+            <addName>Julius II pope/Giuliano della Rovere</addName>
+            <addName>Rovere</addName>
+            <addName>Julian della Rovere</addName>
+            <addName>papa Iulio</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

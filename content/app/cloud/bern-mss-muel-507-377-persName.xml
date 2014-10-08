@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Isis</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00542688</link>
+      <count>4</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00542688"
+                       key="#PND:118932640">Isis<addName type="display">Isis</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-377.tei.xml-d12241e165">Deguignes</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Ménestrier, Claude-François</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00400144</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00400144"
+                       key="#PND:118783254">Monlege<addName type="display">Ménestrier, Claude-François</addName>
+            <addName>Claude-François Ménestrier</addName>
+            <addName>Claude-François Menestrier</addName>
+            <addName>Monetregus</addName>
+            <addName>François Ménestrier</addName>
+            <addName>Claudius Franciscus Menestrierus</addName>
+            <addName>Menestrierus</addName>
+            <addName>Claudius Menetreius</addName>
+            <addName>Menetreius</addName>
+            <addName>Claude François Ménétrier</addName>
+            <addName>Ménétrier</addName>
+            <addName>C.-F. Ménestrier</addName>
+            <addName>Claude François Ménestrier</addName>
+            <addName>Claude François Ménétrier</addName>
+            <addName>Ménétrier</addName>
+            <addName>Claudius Franciscus Menêtrier</addName>
+            <addName>Menêtrier</addName>
+            <addName>Claudius Franciscus Menestrerius</addName>
+            <addName>Menestrerius</addName>
+            <addName>Menestrier</addName>
+            <addName>C. F. Menestrier</addName>
+            <addName>Claude Menestrier</addName>
+            <addName>Claude François Menestrier</addName>
+            <addName>Claude François Menestrier</addName>
+            <addName>François Menestrier</addName>
+            <addName>François Menestrier</addName>
+            <addName>Claudius Franciscus Menetreius</addName>
+            <addName>Claudius Menetrejus</addName>
+            <addName>Menetrejus</addName>
+            <addName>Claudius Franciscus Menetrejus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

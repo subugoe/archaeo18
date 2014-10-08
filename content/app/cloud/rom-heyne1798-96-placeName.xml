@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Lībiyā</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=1000172</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:1000172">Lybyen<addName type="display">Lībiyā</addName>
+            <addName>Lībiyā</addName>
+            <addName>al-Jamāhīrīyah al-ʻArabīyah al-Lībīyah ash-Shaʻbīyah al-Ishtirākīyah</addName>
+            <addName>Libia</addName>
+            <addName>Libya</addName>
+            <addName>Libyan Arab Jamahiriya</addName>
+            <addName>Socialist People's Libyan Arab Jamahiriya</addName>
+            <addName>Socialist Peoples' Libyan Arab Republic</addName>
+            <addName>The Great Socialist People's Libyan Arab Jamahiriya</addName>
+            <addName>Libye</addName>
+            <addName>Libie</addName>
+            <addName>Libyenne, Jamahiriya Arabe</addName>
+            <addName>Jamahiriya arabe libyenne populaire et socialiste</addName>
+            <addName>Libië</addName>
+            <addName>Libyen</addName>
+            <addName>Líbia</addName>
+            <addName>LBY</addName>
+            <addName>LY</addName>
+            <addName>ISO434</addName>
+            <addName>LY00</addName>
+            <addName>Kingdom of Libya</addName>
+            <addName>United Kingdom of Libya</addName>
+            <addName>Libyan</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Oxford</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7011931</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7011931">Oxford<addName type="display">Oxford</addName>
+            <addName>Oxford</addName>
+            <addName>Oxonia</addName>
+            <addName>Oxeneford</addName>
+            <addName>juxta Oxeneford</addName>
+            <addName>juxta murum</addName>
+            <addName>Oxineford</addName>
+            <addName>Oxenaford</addName>
+            <addName>Oxnaford</addName>
+         </placeName>
+      </nodes>
+   </tag>
+</tags>

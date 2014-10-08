@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Asia Minor</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7002294</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7002294">Kleinasien<addName type="display">Asia Minor</addName>
+            <addName>Asia Minor</addName>
+            <addName>Asia Menor</addName>
+            <addName>Kleinasien</addName>
+            <addName>Asie Mineure</addName>
+            <addName>Anatolia</addName>
+            <addName>Anadol</addName>
+            <addName>Anadolu</addName>
+            <addName>Anadoli</addName>
+            <addName>Anatolie</addName>
+            <addName>Anatolien</addName>
+            <addName>Anatolian</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Evtresis</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7011124</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7011124">Leuctra<addName type="display">Evtresis</addName>
+            <addName>Evtresis</addName>
+            <addName>Eutresis</addName>
+            <addName>Lefktra</addName>
+            <addName>Leuktra</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Etruria</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7024113</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7024113">Etruriens<addName type="display">Etruria</addName>
+            <addName>Etruria</addName>
+            <addName>Rashna</addName>
+            <addName>Rasna</addName>
+            <addName>Tuscia</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Ellás</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=1000074</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:1000074">Griechenlands<addName type="display">Ellás</addName>
+            <addName>Ellás</addName>
+            <addName>Ellas</addName>
+            <addName>Ellinikí Dimokratía</addName>
+            <addName>Elliniki Dimokratia</addName>
+            <addName>Elliniki Dhimokratia</addName>
+            <addName>Greece</addName>
+            <addName>Hellenic Republic</addName>
+            <addName>Grèce</addName>
+            <addName>République hellénique</addName>
+            <addName>Griechenland</addName>
+            <addName>Grecia</addName>
+            <addName>Griekenland</addName>
+            <addName>Grécia</addName>
+            <addName>GRC</addName>
+            <addName>GR</addName>
+            <addName>ISO300</addName>
+            <addName>GR00</addName>
+            <addName>Kingdom of Greece</addName>
+            <addName>Hellas</addName>
+            <addName>Greek</addName>
+            <addName>Hellenic</addName>
+         </placeName>
+      </nodes>
+   </tag>
+</tags>

@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-124.tei.xml-d15675e25">Anonimus</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Laetus Pomponius, Julius</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01302621</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01302621"
+                       key="#PND:100958656">Pomponius Lewis<addName type="display">Laetus Pomponius, Julius</addName>
+            <addName>Julius Laetus Pomponius</addName>
+            <addName>Giulio Pomponio Leto</addName>
+            <addName>Pomponio Leto</addName>
+            <addName>Iulius Pomponius Laetus</addName>
+            <addName>Julius Pomponius Laetus</addName>
+            <addName>Julius Pomponius</addName>
+            <addName>Giulio</addName>
+            <addName>Giulio Sanseverino</addName>
+            <addName>Iulius</addName>
+            <addName>Iunius Pompo</addName>
+            <addName>Iulius Laetus Pomponius</addName>
+            <addName>Iulius P. Laetus</addName>
+            <addName>Laetus</addName>
+            <addName>Julius P. Laetus</addName>
+            <addName>Giulio B. Leto</addName>
+            <addName>Giulio P. Leto</addName>
+            <addName>Pomponius Letus</addName>
+            <addName>Letus</addName>
+            <addName>Julius Pomponius Fortunatus</addName>
+            <addName>Pomponius Fortunatus</addName>
+            <addName>Pomponius Lætus</addName>
+            <addName>Iulius Pomponius Moderatus</addName>
+            <addName>Pomponius Moderatus</addName>
+            <addName>Iulius Pomponius Sabinus</addName>
+            <addName>Pomponius Sabinus</addName>
+            <addName>Julius Pomponius Sabinus</addName>
+            <addName>Pomponius</addName>
+            <addName>Iulius L. Pomponius</addName>
+            <addName>Sabinus Pomponius</addName>
+            <addName>Sabinus</addName>
+            <addName>Julius P. Sabinus</addName>
+            <addName>Sanseverino</addName>
+            <addName>Julius Sanseverinus</addName>
+            <addName>Sanseverinus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Maffei, Raffaele</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01337711</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01337711"
+                       key="#PND:100199399">Raphael Maffei Volterranus<addName type="display">Maffei, Raffaele</addName>
+            <addName>Raffaele Maffei</addName>
+            <addName>Rafaele Maffei</addName>
+            <addName>Raffaello Maffei</addName>
+            <addName>Raffael Maffaeus</addName>
+            <addName>Maffaeus</addName>
+            <addName>Maffei, Raffaele of Volterra</addName>
+            <addName>Raffaele/Raffaello Maffei</addName>
+            <addName>Raffeale Maffei</addName>
+            <addName>Raphaël Maffei</addName>
+            <addName>Raphaël Maffei</addName>
+            <addName>Raphael Maffeius</addName>
+            <addName>Maffeius</addName>
+            <addName>Raphael Maphaeus</addName>
+            <addName>Maphaeus</addName>
+            <addName>Raphael Maphaeus Volaterranus</addName>
+            <addName>Maphaeus Volaterranus</addName>
+            <addName>Raphael Mapheus</addName>
+            <addName>Mapheus</addName>
+            <addName>Raphael Mapheus Volaterranus</addName>
+            <addName>Mapheus Volaterranus</addName>
+            <addName>Rafael Volaterrano</addName>
+            <addName>Rafael</addName>
+            <addName>Rafaello il Volaterrano</addName>
+            <addName>Rafaello</addName>
+            <addName>Raffaello</addName>
+            <addName>Raphael</addName>
+            <addName>Raphael Volaterranus</addName>
+            <addName>Raphael Regius Volaterranus</addName>
+            <addName>Regius Volaterranus</addName>
+            <addName>Raphael Volateranus</addName>
+            <addName>Volateranus</addName>
+            <addName>Raphaelus Volateranus</addName>
+            <addName>Volaterrano</addName>
+            <addName>Raffaele Volaterrano</addName>
+            <addName>Raphaele Volaterrano</addName>
+            <addName>Raph. Volaterranus</addName>
+            <addName>Volaterranus</addName>
+            <addName>Raphaelus Volaterranus</addName>
+            <addName>Voliterranus</addName>
+            <addName>Raphael Vollatteranus</addName>
+            <addName>Vollatteranus</addName>
+            <addName>Volterrano</addName>
+            <addName>Raffael Volterranus</addName>
+            <addName>Volterranus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Fulvio, Andrea</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01234918</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01234918"
+                       key="#PND:128941510">Andreas Fulvius<addName type="display">Fulvio, Andrea</addName>
+            <addName>Andrea Fulvio</addName>
+            <addName>Andreas Fulvius</addName>
+            <addName>Andreas Fulvius Sabinus</addName>
+            <addName>Fulvio, Andrea fl. 1510-1543</addName>
+            <addName>Fulvius</addName>
+            <addName>Andrè Fulvius</addName>
+            <addName>Fulvius Sabinus</addName>
+            <addName>Andreas F. Sabinus</addName>
+            <addName>Sabinus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-124.tei.xml-d15675e271">Lucius Faulus</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Fabricius, Georg</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00799762</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00799762"
+                       key="#PND:119667711 118531735">Georg: Fabricius<addName type="display">Fabricius, Georg</addName>
+            <addName>Georg Fabricius</addName>
+            <addName>Georgius Fabricius Chemnicensis</addName>
+            <addName>Chemnicensis</addName>
+            <addName>Gerardus Faustus Confluentinus</addName>
+            <addName>Confluentinus</addName>
+            <addName>Georgium Fabricium</addName>
+            <addName>Fabricium</addName>
+            <addName>Fabricius, Georg 1516-1571</addName>
+            <addName>Georg aus Chemnitz Fabricius</addName>
+            <addName>Georgius Fabricius</addName>
+            <addName>Fabricius Chemnicensis</addName>
+            <addName>Georgius Fabritius</addName>
+            <addName>Fabritius</addName>
+            <addName>Gerardus Faustus</addName>
+            <addName>Faustus</addName>
+            <addName>G.F.</addName>
+            <addName>Georg Goldschmidt</addName>
+            <addName>Goldschmidt</addName>
+            <addName>Georg Goldschmied</addName>
+            <addName>Goldschmied</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-124.tei.xml-d15675e373">Onuphrius Pamphinius</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-124.tei.xml-d15675e377">Bern: Camucci</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Porcacchi, Tommaso</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01350073</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01350073"
+                       key="#PND:124352405 129715891 119792648">Tomaso Portacchi<addName type="display">Porcacchi, Tommaso</addName>
+            <addName>Tommaso Porcacchi</addName>
+            <addName>Thomaso Porcacchi</addName>
+            <addName>Tomaso Porcacchi da Castiglione</addName>
+            <addName>Castiglione</addName>
+            <addName>Thomaso Porcacchi da Castiglione</addName>
+            <addName>Porcacchi da Castiglione</addName>
+            <addName>Tomaso P. da Castiglione</addName>
+            <addName>Tomaso P. Da Castiglione</addName>
+            <addName>Da Castiglione</addName>
+            <addName>Tomaso Porcacchi Da Castiglione</addName>
+            <addName>Tomaso P. DaCastiglione</addName>
+            <addName>DaCastiglione</addName>
+            <addName>Thomas Porcacchi</addName>
+            <addName>Thomasio Porcacchi</addName>
+            <addName>Thomaso da Porcacchi</addName>
+            <addName>Thomasso Porcacchi</addName>
+            <addName>Thommaso Porcacchi</addName>
+            <addName>Tomaso Porcacchi</addName>
+            <addName>Tomaso Porcacchi DaCastiglione</addName>
+            <addName>Porcacchi DaCastiglione</addName>
+            <addName>Thomaso aretino Porcacchi da Castiglione</addName>
+            <addName>Thomaso Porcacchi da Castijlione</addName>
+            <addName>Porcacchi da Castijlione</addName>
+            <addName>Porcacchi, Tommaso/Porcacchi da Castiglione, Tomaso</addName>
+            <addName>Porcacchio</addName>
+            <addName>Tomaso Porcacci</addName>
+            <addName>Porcacci</addName>
+            <addName>Thomaso Porcachi</addName>
+            <addName>Porcachi</addName>
+            <addName>Thomas Porcatius</addName>
+            <addName>Porcatius</addName>
+            <addName>Tomaso Porchacchi</addName>
+            <addName>Porchacchi</addName>
+            <addName>Thomaso Porchachi</addName>
+            <addName>Porchachi</addName>
+            <addName>Tomaso Portacchi</addName>
+            <addName>Portacchi</addName>
+            <addName>Thomaso Porcacchi da Castiglione aretino</addName>
+            <addName>Thomaso Porcacchi da Castiglione arretino</addName>
+            <addName>Tomaso Porcacchi da Castiglione aretino</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Palladio, Andrea</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01238124</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01238124"
+                       key="#PND:118591355">Andrea Palladio<addName type="display">Palladio, Andrea</addName>
+            <addName>Andrea Palladio</addName>
+            <addName>Andrea di Pietro</addName>
+            <addName>Andrea Di Pietro</addName>
+            <addName>Di Pietro</addName>
+            <addName>Andrea DiPietro</addName>
+            <addName>DiPietro</addName>
+            <addName>Andrea Paladio</addName>
+            <addName>Paladio</addName>
+            <addName>Andres Paladio</addName>
+            <addName>André Paladio</addName>
+            <addName>André Paladio</addName>
+            <addName>Andreas Paladius</addName>
+            <addName>Paladius</addName>
+            <addName>A Palladio</addName>
+            <addName>A. Palladio</addName>
+            <addName>Palladio, A. Andrea</addName>
+            <addName>Palladio, Andrea 1508-1580</addName>
+            <addName>André Palladio</addName>
+            <addName>André Palladio</addName>
+            <addName>Andrés Palladio</addName>
+            <addName>Palladio, Andrea/Paladius, Andreas</addName>
+            <addName>Andreas Palladius</addName>
+            <addName>Palladius</addName>
+            <addName>Pietro</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

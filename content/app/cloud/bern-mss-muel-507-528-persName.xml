@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Jesus Christ</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00554195</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00554195"
+                       key="#PND:118557513">Christus<addName type="display">Jesus Christ</addName>
+            <addName>Chesus Christ"</addName>
+            <addName>Christ"</addName>
+            <addName>Christ</addName>
+            <addName>Christus</addName>
+            <addName>Cristo"</addName>
+            <addName>ʻĪsā Ibn-Maryam</addName>
+            <addName>Gesù Cristo"</addName>
+            <addName>Hisows K'ristos</addName>
+            <addName>Iēsus Christos</addName>
+            <addName>Iēsus ho Nazōraios</addName>
+            <addName>Iēsus</addName>
+            <addName>Ieso K'riste</addName>
+            <addName>Iesu Keriso"</addName>
+            <addName>Iesu Kristo"</addName>
+            <addName>Iesus Nazarenus Rex Iudaeorum"</addName>
+            <addName>Iĩsa Chrtá"</addName>
+            <addName>Iisus Christos</addName>
+            <addName>Isus Hristos"</addName>
+            <addName>Jẽzaus Kristaus"</addName>
+            <addName>Jésus" de Nazareth</addName>
+            <addName>Jésus"</addName>
+            <addName>Jésus le Christ</addName>
+            <addName>Jésus</addName>
+            <addName>Jésus-Christ"</addName>
+            <addName>Jeschua"</addName>
+            <addName>Ješūʻa"</addName>
+            <addName>Jesu Christo"</addName>
+            <addName>Jesu Kristo"</addName>
+            <addName>Jesu"</addName>
+            <addName>Jesucristo"</addName>
+            <addName>Jesú Krist"</addName>
+            <addName>Jesuksen Kristuksen"</addName>
+            <addName>Jesuo Kristo"</addName>
+            <addName>Jesus Christ"</addName>
+            <addName>Jesus Kristus"</addName>
+            <addName>Jesus"</addName>
+            <addName>Jesus" Nazarenus</addName>
+            <addName>Jesus" of Nazareth</addName>
+            <addName>Jesus of Nazareth</addName>
+            <addName>Jesus</addName>
+            <addName>Jesus von Nazaret</addName>
+            <addName>Jesus von Nazareth</addName>
+            <addName>Jesuse Kristuse"</addName>
+            <addName>Jesusse Kristusse"</addName>
+            <addName>Jezus Chrystus"</addName>
+            <addName>Jezus"</addName>
+            <addName>Jhesus Christus"</addName>
+            <addName>Jisous Khristos"</addName>
+            <addName>Yasūʻ</addName>
+            <addName>Yeshu</addName>
+            <addName>Yeshua</addName>
+            <addName>Yeshuʻa</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Costanzi , Carlo</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300256</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300256">Costanzi<addName type="display">Costanzi , Carlo</addName>
+            <addName>Carlo Costanzi</addName>
+            <addName>Carlo Constanzi</addName>
+            <addName>Constanzi</addName>
+            <addName>Carlo Costangis</addName>
+            <addName>Costangis</addName>
+            <addName>Costanzi</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Natter, Johann Laurent</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00920062</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00920062"
+                       key="#PND:118738143">Natter<addName type="display">Natter, Johann Laurent</addName>
+            <addName>Johann Laurent Natter</addName>
+            <addName>Johann Lorenz Natter</addName>
+            <addName>Laurent Natter</addName>
+            <addName>Lorenz Natter</addName>
+            <addName>Johann L. Natter</addName>
+            <addName>Johann Laurenz Natter</addName>
+            <addName>Laurentius Natter</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>pal: Borghese</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-163.tei.xml-d19035e10">Ein anderer in <TEI:term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000238">pal: Borghese</TEI:term>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000238</link>
+      <count>4</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/sammlungen/1000238">pal: Borghese</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-163.tei.xml-d19035e22">Ein paar</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-163.tei.xml-d19035e41">Andere</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/26723 http://arachne.uni-koeln.de/item/objekt/26779 http://arachne.uni-koeln.de/item/rezeption/300838 http://arachne.uni-koeln.de/item/objekt/28785 http://arachne.uni-koeln.de/item/objekt/23472 http://arachne.uni-koeln.de/item/objekt/22998 http://arachne.uni-koeln.de/item/rezeption/300839</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/objekt/26723 #http://arachne.uni-koeln.de/item/objekt/26779 #http://arachne.uni-koeln.de/item/rezeption/300838 #http://arachne.uni-koeln.de/item/objekt/28785 #http://arachne.uni-koeln.de/item/objekt/23472 #http://arachne.uni-koeln.de/item/objekt/22998 #http://arachne.uni-koeln.de/item/rezeption/300839">Einer</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>ApollonMarsyas</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-163.tei.xml-d19035e92">
+            <TEI:persName ref="#CerlID:cnp00542641" key="#PND:118503642">Apoll<addName type="display">Apollon</addName>
+               <addName>Apoll</addName>
+               <addName>Apollo</addName>
+               <addName>Phoebus</addName>
+            </TEI:persName> mit <TEI:persName ref="#CerlID:cnp00588624" key="#PND:118782193">Marsyas<addName type="display">Marsyas</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:150855 http://arachne.uni-koeln.de/item/topographie/500003</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CensusID:150855 #http://arachne.uni-koeln.de/item/topographie/500003">Foro</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Marsyas</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/26776</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/objekt/26776">Ein geschuntener <TEI:persName ref="#CerlID:cnp00588624" key="#PND:118782193">Marsias<addName type="display">Marsyas</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Milano</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-163.tei.xml-d19035e248">Dom
+          
+          zu <TEI:placeName ref="#GettyID:7005903">Meyland<addName type="display">Milano</addName>
+               <addName>Milano</addName>
+               <addName>Milan</addName>
+               <addName>Mailand</addName>
+               <addName>Milanese</addName>
+               <addName>Mediolanum</addName>
+               <addName>Mediolanium</addName>
+               <addName>Mediolanum Insubrum</addName>
+            </TEI:placeName>
+         </TEI:term>
+      </nodes>
+   </tag>
+</tags>

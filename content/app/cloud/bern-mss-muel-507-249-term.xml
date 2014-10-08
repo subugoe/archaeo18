@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>ManisaCicero, Marcus Tullius</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-249.tei.xml-d10009e215">In <TEI:placeName ref="#GettyID:7002582">Magnesia ad Sipylum<addName type="display">Manisa</addName>
+               <addName>Manisa</addName>
+               <addName>Manissa</addName>
+               <addName>Magnesiopolis</addName>
+               <addName>Magnesia ad Sipylum</addName>
+               <addName>Magnesia Am Siplos</addName>
+               <addName>Magnesia Hermi</addName>
+               <addName>Magnesia On Hermos</addName>
+               <addName>Maghnisa On Inekbazar</addName>
+            </TEI:placeName> ist noch
+          
+          eine mit dem Kopfe <TEI:persName ref="#CerlID:cnp01259298" key="#PND:118520814">Ciceros<addName type="display">Cicero, Marcus Tullius</addName>
+               <addName>Marcus Tullius Cicero</addName>
+               <addName>M. Tullius Cicero</addName>
+               <addName>M. T. Cicero</addName>
+               <addName>M. Tul Cicero</addName>
+               <addName>M. T. Ciceron</addName>
+               <addName>Ciceron</addName>
+               <addName>Marek Tullius Ciceron</addName>
+               <addName>Mark Tullij Ciceron</addName>
+               <addName>Cicerone</addName>
+               <addName>M. T. Cicerone</addName>
+               <addName>Marco Tullio Cicerone</addName>
+               <addName>M. Tulli Ciceronis</addName>
+               <addName>Ciceronis</addName>
+               <addName>Cycero</addName>
+               <addName>M. Tuljusz Cycero</addName>
+               <addName>M. Tulljusz Cycero</addName>
+               <addName>Marek Tullius Cycero</addName>
+               <addName>M. T. C.</addName>
+               <addName>Cecéron</addName>
+               <addName>Marcus Tullius Cic.</addName>
+               <addName>Cic.</addName>
+               <addName>Cicéron</addName>
+               <addName>Marcus T. Cicéron</addName>
+               <addName>Cicéron d'Arpinium</addName>
+               <addName>Cicéron d'Arpinum</addName>
+               <addName>Marcus Tullius Ciccero</addName>
+               <addName>Ciccero</addName>
+               <addName>Cicéron</addName>
+               <addName>Marcus T. Cicéron</addName>
+               <addName>Cicéron d'Arpinium</addName>
+               <addName>Cicéron d'Arpinum</addName>
+               <addName>Cicero</addName>
+               <addName>M. Tvllus Cicero</addName>
+               <addName>Marcus T. Cicero</addName>
+               <addName>Marcus Tullus Cicero</addName>
+               <addName>Marcus Tvllius Cicero</addName>
+               <addName>Markus Tullius Cicero</addName>
+               <addName>Cicero Arpinius</addName>
+               <addName>Cicero Orator</addName>
+               <addName>Cicero Philosopher</addName>
+               <addName>Cicero Philosophus</addName>
+               <addName>Cicero von Arpinium</addName>
+               <addName>Cicero von Arpinum</addName>
+               <addName>Ciceron</addName>
+               <addName>M. Tulij Ciceron</addName>
+               <addName>Marco T. Ciceron</addName>
+               <addName>Marcus T. Ciceron</addName>
+               <addName>Marcus Tullius Ciceron</addName>
+               <addName>Cicerone</addName>
+               <addName>Marco T. Cicerone</addName>
+               <addName>Marco Tvllio Cicerone</addName>
+               <addName>Marcus T. Cicerone</addName>
+               <addName>M. T. Ciceronis</addName>
+               <addName>M. Tullii Ciceronis</addName>
+               <addName>Marci Tulli Ciceronis</addName>
+               <addName>M. T. Cycero</addName>
+               <addName>Marek T. Cycero</addName>
+               <addName>Marek Tuliusz Cycero</addName>
+               <addName>Cyceron</addName>
+               <addName>M. T. Cyceron</addName>
+               <addName>Marek Tuliusz Cyceron</addName>
+               <addName>Marek Tulliusz Cyceron</addName>
+               <addName>Markos Tyllios Kikerō</addName>
+               <addName>Kikerō</addName>
+               <addName>Markos Tyllios Kikero</addName>
+               <addName>Kikero</addName>
+               <addName>Markos Tyllios Kikerō</addName>
+               <addName>Kikerō</addName>
+               <addName>M.T.C.</addName>
+               <addName>Pseudo Ciccero</addName>
+               <addName>Pseudo Cicero</addName>
+               <addName>Pseudocicero</addName>
+               <addName>Pseudo-Cicero</addName>
+               <addName>Tullius Cicero</addName>
+               <addName>Tullius</addName>
+               <addName>Marcus Tullius</addName>
+               <addName>Tully</addName>
+               <addName>M. Tullio Cicerone</addName>
+               <addName>M.T. Cicero</addName>
+               <addName>Marco Tullio Ciceram</addName>
+               <addName>Ciceram</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Museo Farneseo</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-249.tei.xml-d10009e419">in <TEI:term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000001">Museo
+          
+          Farneseo</TEI:term>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000001</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/sammlungen/1000001">Museo
+          
+          Farneseo</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Campidoglio</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-249.tei.xml-d10009e454">eine Statüe
+          
+          in <TEI:term ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-249.tei.xml-d10009e458">Campidoglio</TEI:term>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-249.tei.xml-d10009e458">Campidoglio</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Palaste Ludovisi</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-249.tei.xml-d10009e480">eine im <TEI:term ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-249.tei.xml-d10009e482">Palaste Ludovisi</TEI:term>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-249.tei.xml-d10009e482">Palaste Ludovisi</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Villa Mathei</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-249.tei.xml-d10009e489">die vorzüglichsten in der<TEI:term ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-249.tei.xml-d10009e492">Villa Mathei</TEI:term>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-249.tei.xml-d10009e492">Villa Mathei</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Museo Capitolino</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-249.tei.xml-d10009e523">noch einer ist
+          
+          im <TEI:term ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-249.tei.xml-d10009e527">Museo Capitolino</TEI:term>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-249.tei.xml-d10009e527">Museo Capitolino</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Firenze</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-249.tei.xml-d10009e533">einer ist
+          
+          auch zu <TEI:placeName ref="#GettyID:7000457">Florenz<addName type="display">Firenze</addName>
+               <addName>Firenze</addName>
+               <addName>Florence</addName>
+               <addName>Florencia</addName>
+               <addName>Florenz</addName>
+               <addName>Fiorenza</addName>
+               <addName>Florentia</addName>
+               <addName>Florentine</addName>
+            </TEI:placeName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Kassel</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-249.tei.xml-d10009e559">einer zu <TEI:placeName ref="#GettyID:7004431">Cassel<addName type="display">Kassel</addName>
+               <addName>Kassel</addName>
+               <addName>Cassel</addName>
+               <addName>Casle</addName>
+               <addName>Chassala</addName>
+               <addName>Chassela</addName>
+            </TEI:placeName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Graf Thoms</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-249.tei.xml-d10009e580">Die Gemme bey <TEI:persName ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-249.tei.xml-d10009e582">Graf Thoms</TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Villa Mathei</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-249.tei.xml-d10009e585">der
+          
+          Büste in der <TEI:term ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-249.tei.xml-d10009e589">Villa Mathei</TEI:term>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-249.tei.xml-d10009e589">Villa Mathei</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Antonius, Marcus (Triumvir)</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-249.tei.xml-d10009e597">
+            <TEI:persName ref="#CerlID:cnp00394081" key="#PND:118503529">M. Antonius<addName type="display">Antonius, Marcus (Triumvir)</addName>
+               <addName>Marcus Antonius</addName>
+               <addName>Antonius Triumvir</addName>
+               <addName>Marcus</addName>
+               <addName>Mark Anton</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-249.tei.xml-d10009e615">Wildenhouse</TEI:term>
+      </nodes>
+   </tag>
+</tags>

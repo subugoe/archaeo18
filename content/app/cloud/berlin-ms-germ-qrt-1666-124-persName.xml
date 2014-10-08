@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Nessos</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300420</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300420">Nessus<addName type="display">Nessos</addName>
+            <addName>Nessus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Furietti, Alessandro</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01012072</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01012072"
+                       key="#PND:131528610">Cardinal Fa-
+                rietti<addName type="display">Furietti, Alessandro</addName>
+            <addName>Alessandro Furietti</addName>
+            <addName>Giuseppe Alessandro Furietti</addName>
+            <addName>Aless. Furietti</addName>
+            <addName>Joseph Alessandro Furietti</addName>
+            <addName>Joseph Alexander Furietti</addName>
+            <addName>Joseph Alexander Furiettus</addName>
+            <addName>Furiettus</addName>
+            <addName>Josephus Alexander Furiettus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Cavaceppi, Bartolomeo</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00404698</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00404698"
+                       key="#PND:119217597">Cavaceppi<addName type="display">Cavaceppi, Bartolomeo</addName>
+            <addName>Bartolomeo Cavaceppi</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/berlin-ms-germ-qrt-1666-124.tei.xml-d1765e104">Aristnas</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/berlin-ms-germ-qrt-1666-124.tei.xml-d1765e109">Papanas</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Cheiron (Sagengestalt)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00545549</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00545549"
+                       key="#PND:11903588X">Chiron<addName type="display">Cheiron (Sagengestalt)</addName>
+            <addName>Chiron Sagengestalt</addName>
+            <addName>Chiron</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

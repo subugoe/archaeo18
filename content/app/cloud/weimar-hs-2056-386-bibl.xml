@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Fr: Ficoroni Gemmae antiquae literatae aliæ- que rariores accesserunt, accesserunt mo- numenta adnotationibus &amp;declaratio- nibus illustrata a P. N. Galéatti e Soc: I. Rom: 1757. 4.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN635132656</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN635132656">Fr: Ficoroni Gemmae antiquae literatae aliæ- 
+                                                que rariores accesserunt, accesserunt mo- 
+                                                numenta adnotationibus &amp;declaratio- 
+                                                nibus illustrata a P. N. Galéatti e Soc: 
+                                                I. Rom: 1757. 4.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Venuti Dissertazi- one Sopra alcuné gemme litterate in dem VII. T. der Saggi de l´Acad: di Cortone.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN668371781</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN668371781">Venuti Dissertazi- 
+                                                one Sopra alcuné gemme litterate in dem VII. T. der Saggi de l´Acad: di Cortone.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Burmanni poetis minoribus</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN66546200X</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN66546200X">Burmanni 
+                                                poetis minoribus</ref>
+         </bibl>
+      </nodes>
+   </tag>
+</tags>

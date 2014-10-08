@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>AmorPraxiteles</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-240.tei.xml-d12249e15">
+            <persName ref="#CerlID:cnp00542364" key="#PND:11850262X">Amor<addName type="display">Amor</addName>
+            </persName> des <persName ref="#CerlID:cnp00589123" key="#PND:118793241">Praxiteles<addName type="display">Praxiteles</addName>
+               <addName>Prassitele</addName>
+               <addName>Praxitèle</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Sophia (Heilige, 2. Jh.)</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:152296 http://arachne.uni-koeln.de/item/topographie/8002264 http://arachne.uni-koeln.de/item/bauwerk/2100233</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:152296 #http://arachne.uni-koeln.de/item/topographie/8002264 #http://arachne.uni-koeln.de/item/bauwerk/2100233">Kirche der <persName ref="#CerlID:cnp00589318" key="#PND:118798006">HeiligenSophiae<addName type="display">Sophia (Heilige, 2. Jh.)</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/topographie/8002140 http://arachne.uni-koeln.de/item/bauwerk/2103894</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/topographie/8002140 #http://arachne.uni-koeln.de/item/bauwerk/2103894">Hippodromus</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Apollon</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-240.tei.xml-d12249e173">
+            <persName ref="#CerlID:cnp00542641" key="#PND:118503642">Apollo Pythius<addName type="display">Apollon</addName>
+               <addName>Apoll</addName>
+               <addName>Apollo</addName>
+               <addName>Phoebus</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-240.tei.xml-d12249e193">Delphische Dreyfuß</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://census.bbaw.de/easydb/censusID=155401</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0" ref="#CensusID:155401">4 Pferde</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>PraxitelesVenus</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-240.tei.xml-d12249e527">
+            <persName ref="#CerlID:cnp00589123" key="#PND:118793241">Praxiteles<addName type="display">Praxiteles</addName>
+               <addName>Prassitele</addName>
+               <addName>Praxitèle</addName>
+            </persName> griechishe <persName ref="#CerlID:cnp00588078" key="#PND:11876800X">Venus<addName type="display">Venus</addName>
+               <addName>Anadyomene  Beiname</addName>
+               <addName>Anadyomene</addName>
+               <addName>Arelatensis  Beiname</addName>
+               <addName>Arelatensis</addName>
+               <addName>aurea  Beiname</addName>
+               <addName>aurea</addName>
+               <addName>coelestis  Beiname</addName>
+               <addName>coelestis</addName>
+               <addName>Gnidia  Beiname</addName>
+               <addName>Gnidia</addName>
+               <addName>Marina  Beiname</addName>
+               <addName>Marina</addName>
+               <addName>Pelasgia  Beiname</addName>
+               <addName>Pelasgia</addName>
+               <addName>Pontia  Beiname</addName>
+               <addName>Pontia</addName>
+               <addName>Urania  Beiname</addName>
+               <addName>Urania</addName>
+               <addName>Victrix  Beiname</addName>
+               <addName>Victrix</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>JupiterPhidias</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-240.tei.xml-d12249e593">
+            <persName ref="#CerlID:cnp00554429" key="#PND:118558897">Jupiter<addName type="display">Jupiter</addName>
+               <addName>Iupiter</addName>
+               <addName>Juppiter</addName>
+            </persName> des <persName ref="#CerlID:cnp00562418" key="#PND:118593765">Phidias<addName type="display">Phidias</addName>
+               <addName>Pheidias</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/bauwerk/2103894 http://arachne.uni-koeln.de/item/bauwerk/2100279 http://arachne.uni-koeln.de/item/bauwerk/2103490</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/bauwerk/2103894 #http://arachne.uni-koeln.de/item/bauwerk/2100279 #http://arachne.uni-koeln.de/item/bauwerk/2103490">Hippodromus</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>ApollonPhidias</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-240.tei.xml-d12249e893">
+            <persName ref="#CerlID:cnp00542641" key="#PND:118503642">Apoll<addName type="display">Apollon</addName>
+               <addName>Apoll</addName>
+               <addName>Apollo</addName>
+               <addName>Phoebus</addName>
+            </persName> des <persName ref="#CerlID:cnp00562418" key="#PND:118593765">Phidias<addName type="display">Phidias</addName>
+               <addName>Pheidias</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>HeraklesAgeladas</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-240.tei.xml-d12249e926">
+            <persName ref="#CerlID:cnp00574918" key="#PND:118639552">Herkules<addName type="display">Herakles</addName>
+               <addName>Ercole</addName>
+               <addName>Heracles</addName>
+               <addName>Hercules</addName>
+               <addName>Herkules</addName>
+            </persName> vom <persName ref="#CerlID:cnp01288186">Ageladas<addName type="display">Ageladas</addName>
+            </persName>&gt;</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Athena</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-240.tei.xml-d12249e964">die <persName ref="#CerlID:cnp00542952" key="#PND:118504851">Pallas<addName type="display">Athena</addName>
+               <addName>Athene</addName>
+               <addName>Pallas Athene</addName>
+            </persName> von Lindus</term>
+      </nodes>
+   </tag>
+</tags>

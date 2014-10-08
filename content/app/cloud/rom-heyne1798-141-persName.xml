@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Vergilius Maro, Publius</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01240997</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01240997"
+                   key="#PND:118626574">Virgil<addName type="display">Vergilius Maro, Publius</addName>
+            <addName>Publius Vergilius Maro</addName>
+            <addName>Publius Virgilius Maro</addName>
+            <addName>Vergilij</addName>
+            <addName>Vergilio</addName>
+            <addName>P Virgilius Maro</addName>
+            <addName>Publiusz Wergiliusz Maro</addName>
+            <addName>Wergiliusz Maro</addName>
+            <addName>P Wergiliusz Maron</addName>
+            <addName>Wergiliusz Maron</addName>
+            <addName>Vergil</addName>
+            <addName>Virgil</addName>
+            <addName>Publio Virgilio Marone</addName>
+            <addName>Virgilio Marone</addName>
+            <addName>Wergiliusz</addName>
+            <addName>Publios Birgilios Maro</addName>
+            <addName>Birgilios Maro</addName>
+            <addName>Publ. Virgilius Mar.</addName>
+            <addName>Mar.</addName>
+            <addName>P. Vergilius Maro</addName>
+            <addName>Publius V. Maro</addName>
+            <addName>Maron</addName>
+            <addName>P. Vergilij Maron</addName>
+            <addName>P. Virgilio Marone</addName>
+            <addName>Marone</addName>
+            <addName>Publio V. Marone</addName>
+            <addName>Publius Virgilius Maroo</addName>
+            <addName>Maroo</addName>
+            <addName>P. Uergilius Maro</addName>
+            <addName>P. V. M.</addName>
+            <addName>P. Verg. Mar.</addName>
+            <addName>P. Vergilîj Maron</addName>
+            <addName>P. Virgilius Maro</addName>
+            <addName>P. Virgilius Maro Mantuanus</addName>
+            <addName>P. Wergiliusz Maron</addName>
+            <addName>P.V.M.</addName>
+            <addName>Pseudo-Vergilius</addName>
+            <addName>Pseudo-Virgilio</addName>
+            <addName>Pub. Virgilius Maro</addName>
+            <addName>Pub.V.M.</addName>
+            <addName>Publij Vergilij Maron</addName>
+            <addName>Uergilius</addName>
+            <addName>Uirgilius</addName>
+            <addName>V. M.</addName>
+            <addName>Verghiliù</addName>
+            <addName>Vergil</addName>
+            <addName>Publius Vergile Maron</addName>
+            <addName>Vergile Maron</addName>
+            <addName>Vergilij Maron P.</addName>
+            <addName>Vergilius</addName>
+            <addName>Vergilius</addName>
+            <addName>Augusteus Vergilius</addName>
+            <addName>Publius M. Vergilius</addName>
+            <addName>Publius Maro Vergilius</addName>
+            <addName>Vergilius Poeta</addName>
+            <addName>Vergilius von Andes</addName>
+            <addName>Vergilius von Mantua</addName>
+            <addName>Vergilius Maro</addName>
+            <addName>Pub. Vergilius Maro</addName>
+            <addName>Publius Vergilius-Maro</addName>
+            <addName>Vergilius-Maro</addName>
+            <addName>Vergill</addName>
+            <addName>Veržiliu</addName>
+            <addName>Virgil</addName>
+            <addName>Publius Virgile</addName>
+            <addName>Virgile d'Andes</addName>
+            <addName>Virgile Maron</addName>
+            <addName>Publius Virgile de Mantoue</addName>
+            <addName>Virgile de Mantoue</addName>
+            <addName>Publius Virgile de Mantove</addName>
+            <addName>Virgile de Mantove</addName>
+            <addName>P. Virgilij Maron</addName>
+            <addName>Virgilij Maron</addName>
+            <addName>Virgilio</addName>
+            <addName>Virgilio Mantoano</addName>
+            <addName>Virgilio Mantuano</addName>
+            <addName>Publio Virgilio Maron</addName>
+            <addName>Virgilio Maron</addName>
+            <addName>Publius Virgilio Marone</addName>
+            <addName>Publio Virgilio Marón</addName>
+            <addName>Virgilio Marón</addName>
+            <addName>Publio Virgilio Marón</addName>
+            <addName>Virgilio Marón</addName>
+            <addName>Virgilius</addName>
+            <addName>Virgilius</addName>
+            <addName>Ioann de Virgilius</addName>
+            <addName>Ioannes de Virgilius</addName>
+            <addName>Iohann de Virgilius</addName>
+            <addName>Joannes de Virgilius</addName>
+            <addName>Johann de Virgilius</addName>
+            <addName>Publius Virgilius</addName>
+            <addName>Virgilius Maro P., Publius Vergilius</addName>
+            <addName>Publius Virgilius Maronis</addName>
+            <addName>Virgilius Maronis</addName>
+            <addName>Publius Virgilius Maroos</addName>
+            <addName>Virgilius Maroos</addName>
+            <addName>Virgill</addName>
+            <addName>Virjile"</addName>
+            <addName>Publius Wergilius Maro</addName>
+            <addName>Wergilius Maro</addName>
+            <addName>Publius Wergilius Maronis</addName>
+            <addName>Wergilius Maronis</addName>
+            <addName>Wergiljusz</addName>
+            <addName>Publius Wirgilius Maro</addName>
+            <addName>Wirgilius Maro</addName>
+            <addName>Wirgiliusz</addName>
+            <addName>Publiusz Wirgiliusz Maro</addName>
+            <addName>Wirgiliusz Maro</addName>
+            <addName>Publiusz Wirgiliusz Maron</addName>
+            <addName>Wirgiliusz Maron</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Horace</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259307</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01259307"
+                   key="#PND:118553569 118553569">Horaz<addName type="display">Horace</addName>
+            <addName>Q. Horatius Flaccus</addName>
+            <addName>Quintus Horatius Flaccus</addName>
+            <addName>Flaccus</addName>
+            <addName>Horatius</addName>
+            <addName>Orazio</addName>
+            <addName>Qu. Horatius Flaccus</addName>
+            <addName>Quintus H. Flaccus</addName>
+            <addName>Quintus Horatius Flaccvs</addName>
+            <addName>Flaccvs</addName>
+            <addName>Gorat︠s︡{̄}i</addName>
+            <addName>Kvint Goraz Flakk</addName>
+            <addName>Goraz Flakk</addName>
+            <addName>Hūrās</addName>
+            <addName>Ho-la-tz'ŭ</addName>
+            <addName>Horace</addName>
+            <addName>Horace de Venouse</addName>
+            <addName>Horace Flacce</addName>
+            <addName>Horacego</addName>
+            <addName>Horacij</addName>
+            <addName>Horacio</addName>
+            <addName>Quinto Horacio Flaco</addName>
+            <addName>Horacio Flaco</addName>
+            <addName>Kvinto Horacio Flako</addName>
+            <addName>Horacio Flako</addName>
+            <addName>Quintus Horacius Flakus</addName>
+            <addName>Horacius Flakus</addName>
+            <addName>Kwintus Horacjusz Flakkus</addName>
+            <addName>Horacjusz Flakkus</addName>
+            <addName>Horacy</addName>
+            <addName>Horacyusz</addName>
+            <addName>Q. Horatii Flacci</addName>
+            <addName>Horatii Flacci</addName>
+            <addName>Horatio Flacco</addName>
+            <addName>Quinto Horatio Flacco</addName>
+            <addName>Horatio</addName>
+            <addName>Q. Horatius F.</addName>
+            <addName>Horatius F.</addName>
+            <addName>Horatius Flaccus</addName>
+            <addName>Quinctus Horatius Flaccus</addName>
+            <addName>Quintus Horatius</addName>
+            <addName>Horatius Poeta</addName>
+            <addName>Horats</addName>
+            <addName>Horatz</addName>
+            <addName>Horaz</addName>
+            <addName>Quintus Horazius Flaccus</addName>
+            <addName>Horazius Flaccus</addName>
+            <addName>Quintus Horazius Flakkus</addName>
+            <addName>Horazius Flakkus</addName>
+            <addName>Quintus Horazius Flakus</addName>
+            <addName>Horazius Flakus</addName>
+            <addName>Hūrās</addName>
+            <addName>Kvint Khorat︠s︡iĭ Flak</addName>
+            <addName>Khorat︠s︡iĭ Flak</addName>
+            <addName>Khorat︠s︡iĭ</addName>
+            <addName>Oracio</addName>
+            <addName>Oracius Flaccus</addName>
+            <addName>Oratio</addName>
+            <addName>Oratius</addName>
+            <addName>Orazio Flacco</addName>
+            <addName>Q. Orazio Flacco</addName>
+            <addName>Quinto Orazio Flacco</addName>
+            <addName>Quintus Orazjus Flaccus</addName>
+            <addName>Orazjus Flaccus</addName>
+            <addName>Q. Horatius Flaccus Venusinus</addName>
+            <addName>Kvint Goracij Flakk</addName>
+            <addName>Goracij Flakk</addName>
+            <addName>Quinto Horacio Flacco</addName>
+            <addName>Horacio Flacco</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Vipsanius Agrippa, Marcus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00977487</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00977487"
+                   key="#PND:118501097">Agrippa<addName type="display">Vipsanius Agrippa, Marcus</addName>
+            <addName>Marcus Vipsanius Agrippa</addName>
+            <addName>Marcus Agrippa</addName>
+            <addName>Agrippa</addName>
+            <addName>Agrippa Ersteller einer Weltkarte</addName>
+            <addName>Marcus Vipsanius</addName>
+            <addName>Vipsanius, Marcus Agrippa</addName>
+            <addName>Vipsanius</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pompeius Magnus, Sextus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00562840</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00562840"
+                   key="#PND:118595652">Sextus Pompejus<addName type="display">Pompeius Magnus, Sextus</addName>
+            <addName>Sextus Pompeius Magnus</addName>
+            <addName>Magnus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Winckelmann, Johann Joachim</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00396916</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00396916"
+                   key="#PND:118633600">Winkelmann<addName type="display">Winckelmann, Johann Joachim</addName>
+            <addName>Johann Joachim Winckelmann</addName>
+            <addName>Ioann Vinkelman</addName>
+            <addName>Vinkelman</addName>
+            <addName>Ioann. Vinkelman</addName>
+            <addName>Jochan Joachim Vinkelman</addName>
+            <addName>Johann Vinkelmann</addName>
+            <addName>Vinkelmann</addName>
+            <addName>I. I. Vinkelʹman</addName>
+            <addName>Vinkelʹman</addName>
+            <addName>Iogann Ioachim Vinkelʹman</addName>
+            <addName>Iogann-Ioachim Vinkelʹman</addName>
+            <addName>Winckelman</addName>
+            <addName>Johann Joachim Winckelman</addName>
+            <addName>Winckelman abbé Johann Joachim</addName>
+            <addName>Winckelmann</addName>
+            <addName>G. G. Winckelmann</addName>
+            <addName>G.G. Winckelmann</addName>
+            <addName>Giovanni Winckelmann</addName>
+            <addName>Giovanni Gioacchino Winckelmann</addName>
+            <addName>J Winckelmann</addName>
+            <addName>J. J. Winckelmann</addName>
+            <addName>Jean Joachim Winckelmann</addName>
+            <addName>Jean-Joachim Winckelmann</addName>
+            <addName>Joachim Johann Winckelmann</addName>
+            <addName>Joh. Jac. Winckelmann</addName>
+            <addName>Johann Winckelmann</addName>
+            <addName>Johann J. Winckelmann</addName>
+            <addName>Winckelmann, Johann Joachim 1717-1768</addName>
+            <addName>Johannes Joachim Winckelmann</addName>
+            <addName>Jojannes Joachim Winckelmann</addName>
+            <addName>Johannes Winckelmannus</addName>
+            <addName>Winckelmannus</addName>
+            <addName>Johannes J. Winckelmannus</addName>
+            <addName>Johannes Joachimus Winckelmannus</addName>
+            <addName>Johan̄ Winckelman̄</addName>
+            <addName>Winckelman̄</addName>
+            <addName>Johann Joachim Winkelman</addName>
+            <addName>Winkelman</addName>
+            <addName>Winkelman abbé Johann Joachim</addName>
+            <addName>Winkelmann</addName>
+            <addName>Giovanni Winkelmann</addName>
+            <addName>Hans J. Winkelmann</addName>
+            <addName>Ioh. Winkelmann</addName>
+            <addName>Johann Winkelmann</addName>
+            <addName>Johann J. Winkelmann</addName>
+            <addName>Johann Joachim Winkelmann</addName>
+            <addName>Winkelmann 1717-1768</addName>
+            <addName>Winkelmann abbé Johann Joachim</addName>
+            <addName>Joannes Winkelmannus</addName>
+            <addName>Winkelmannus</addName>
+            <addName>Johann J. Winkelmannus</addName>
+            <addName>Johannes Joachimus Wynckelmann</addName>
+            <addName>Wynckelmann</addName>
+            <addName>Hans J. Wynkelmann</addName>
+            <addName>Wynkelmann</addName>
+            <addName>Johann J. Wynkelmann</addName>
+            <addName>Johann Joachim Wynkelmann</addName>
+            <addName>Yôhân Yo'akim Wînqelman</addName>
+            <addName>Wînqelman</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Cavaceppi, Bartolomeo</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00404698</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00404698"
+                   key="#PND:119217597">Cavaceppi<addName type="display">Cavaceppi, Bartolomeo</addName>
+            <addName>Bartolomeo Cavaceppi</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Germanicus, Caesar</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00980264</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00980264"
+                   key="#PND:118538748">Germanicus<addName type="display">Germanicus, Caesar</addName>
+            <addName>Caesar Germanicus</addName>
+            <addName>Iulius C. Germanicus</addName>
+            <addName>Julius C. Germanicus</addName>
+            <addName>Caesar</addName>
+            <addName>Claudius Caesar</addName>
+            <addName>Claudius</addName>
+            <addName>Germanico</addName>
+            <addName>Gaius Iulius Germanicus</addName>
+            <addName>Gaius Iulius Caesar Germanicus</addName>
+            <addName>Gajus Julius Germanicus</addName>
+            <addName>Iulius Caesar Germanicus</addName>
+            <addName>Julius Caesar Germanicus</addName>
+            <addName>Nero Claudius Germanicus</addName>
+            <addName>Germanicus Adoptivsohn des Tiberius</addName>
+            <addName>Germanicus Epigrammaticus</addName>
+            <addName>Iulius Caesar</addName>
+            <addName>Nero Claudius</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Tiberius, Julius Caesar Augustus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00917337</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00917337"
+                   key="#PND:118622501">Tibers<addName type="display">Tiberius, Julius Caesar Augustus</addName>
+            <addName>Julius Caesar Augustus Tiberius</addName>
+            <addName>Claudius Tiberius Nero Imperium Romanum, Imperator</addName>
+            <addName>Claudius Tiberius Nero</addName>
+            <addName>Claudius Nero Tiberius</addName>
+            <addName>Claudius</addName>
+            <addName>Iulius Tiberius</addName>
+            <addName>Iulius</addName>
+            <addName>Kaiser Tiberius</addName>
+            <addName>Nero Tiberius</addName>
+            <addName>Claudius T. Nero</addName>
+            <addName>Nero</addName>
+            <addName>Tiberio Imperatore</addName>
+            <addName>Tiberio</addName>
+            <addName>Tiberius Caesar</addName>
+            <addName>Tiberius Iulius Caesar Augustus</addName>
+            <addName>Tiberius Nero</addName>
+            <addName>Tiberius Caesar Augustus</addName>
+            <addName>Tiberius Imperator</addName>
+            <addName>Tiberius Medicus</addName>
+            <addName>Tiberius Römischer Kaiser</addName>
+            <addName>Tiberius Romanus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Kleomenes (Künstler, 1. Hälfte 1. Jh. v. Chr.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00833795</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00833795"
+                   key="#PND:131851330">Cleomenes<addName type="display">Kleomenes (Künstler, 1. Hälfte 1. Jh. v. Chr.)</addName>
+            <addName>Kleomenes 3</addName>
+            <addName>Kleomenes Athenaios</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Drusus, Nero Claudius</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00550956</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00550956"
+                   key="#PND:119241811">Drusus<addName type="display">Drusus, Nero Claudius</addName>
+            <addName>Nero Claudius Drusus</addName>
+            <addName>Claudius Drusus</addName>
+            <addName>Decimus Claudius Drusus</addName>
+            <addName>Drusus, Nero Claudius Germanicus</addName>
+            <addName>Drusus der Ältere</addName>
+            <addName>Drusus Germanicus</addName>
+            <addName>Drusus Maior</addName>
+            <addName>Drusus Major</addName>
+            <addName>Germanicus Statthalter</addName>
+            <addName>Germanicus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Caligula (Imperium Romanum, Imperator)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00984012</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00984012"
+                   key="#PND:118518410">Cajus Caligula<addName type="display">Caligula (Imperium Romanum, Imperator)</addName>
+            <addName>Gaius Iulius Caligula Caesar Germanicus</addName>
+            <addName>Caesar Germanicus</addName>
+            <addName>Gaius Caligula Iulius Caesar Germanicus</addName>
+            <addName>Caligula Iulius Caesar Germanicus</addName>
+            <addName>Caius Caligula</addName>
+            <addName>Gaius Caligula</addName>
+            <addName>Caligula Römischer Kaiser</addName>
+            <addName>Gaius Iulius Caesar Germanicus</addName>
+            <addName>Germanicus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Iulia Drusilla</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300276</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300276">Drusilla<addName type="display">Iulia Drusilla</addName>
+            <addName>Drusilla</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

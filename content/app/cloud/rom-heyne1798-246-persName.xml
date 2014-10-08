@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Pocock, Edward</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00120484</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00120484"
+                   key="#PND:129056693 129056693">Pavocke<addName type="display">Pocock, Edward</addName>
+            <addName>Edward Pocock</addName>
+            <addName>Edward Pococke</addName>
+            <addName>Eduard Pocock</addName>
+            <addName>Edwardus Pococke</addName>
+            <addName>Ed. Pocockius</addName>
+            <addName>Pocockius</addName>
+            <addName>Eduardus Pocockius</addName>
+            <addName>Edvardus Pocockius</addName>
+            <addName>Edwardus Pocockius</addName>
+            <addName>Eduardus Pocockus</addName>
+            <addName>Pocockus</addName>
+            <addName>Edward Pocok</addName>
+            <addName>Pocok</addName>
+            <addName>Eduardus Pocokius</addName>
+            <addName>Pocokius</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Norden, Frederik Ludvig</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00404752</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00404752"
+                   key="#PND:119223236">Norden<addName type="display">Norden, Frederik Ludvig</addName>
+            <addName>Frederik Ludvig Norden</addName>
+            <addName>Friderik Ludvig Norden</addName>
+            <addName>F. L. Norden</addName>
+            <addName>Norden, F. L. Frederik Ludvig</addName>
+            <addName>Frédéric Louis Norden</addName>
+            <addName>Frederic Lewis Norden</addName>
+            <addName>Frederic Ludvig Norden</addName>
+            <addName>Frederick Lewis Norden</addName>
+            <addName>Frédéric Louis Norden</addName>
+            <addName>Friderik Ludevig Norden</addName>
+            <addName>Friederich Ludewig Norden</addName>
+            <addName>Friedrich Ludwig Norden</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

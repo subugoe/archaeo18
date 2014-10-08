@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Oxford</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7011931</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7011931">Oxford<addName type="display">Oxford</addName>
+            <addName>Oxford</addName>
+            <addName>Oxonia</addName>
+            <addName>Oxeneford</addName>
+            <addName>juxta Oxeneford</addName>
+            <addName>juxta murum</addName>
+            <addName>Oxineford</addName>
+            <addName>Oxenaford</addName>
+            <addName>Oxnaford</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Halesowen</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7010984</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7010984">Leawus<addName type="display">Halesowen</addName>
+            <addName>Halesowen</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Norfolk</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7008160</link>
+      <count>4</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7008160">Norfolk<addName type="display">Norfolk</addName>
+            <addName>Norfolk</addName>
+            <addName>Norfolk county</addName>
+            <addName>Norf</addName>
+            <addName>Norfk</addName>
+            <addName>NFK</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Narford</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=4007698</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:4007698">Nafford<addName type="display">Narford</addName>
+            <addName>Narford</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Chepstow</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7008510</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7008510">Persfield<addName type="display">Chepstow</addName>
+            <addName>Chepstow</addName>
+            <addName>Estrighoiel</addName>
+            <addName>Strigoielg</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Cobham</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=1028893</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:1028893">Cobham Parck<addName type="display">Cobham</addName>
+            <addName>Cobham</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Essex</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7008131</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7008131">Essex<addName type="display">Essex</addName>
+            <addName>Essex</addName>
+            <addName>ESS</addName>
+         </placeName>
+      </nodes>
+   </tag>
+</tags>

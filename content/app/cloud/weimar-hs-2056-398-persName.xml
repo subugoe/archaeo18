@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Augustus (Emperor of Rome)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00971385</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00971385"
+                   key="#PND:118505122">August<addName type="display">Augustus (Emperor of Rome)</addName>
+            <addName>Auguste Empereur</addName>
+            <addName>Auguste</addName>
+            <addName>Caio Giulio Cesare Ottaviano Augusto</addName>
+            <addName>Augusto</addName>
+            <addName>Cesare Augusto</addName>
+            <addName>Cesare Ottaviano Augusto</addName>
+            <addName>Ottaviano Augusto</addName>
+            <addName>Augustus Caesar</addName>
+            <addName>Caesar Augustus</addName>
+            <addName>Caesar Octavianus Augustus</addName>
+            <addName>Caius J. Augustus</addName>
+            <addName>Caius Julius Caesar Augustus</addName>
+            <addName>Cesar Octavianus Augustus</addName>
+            <addName>Gaius I. Augustus</addName>
+            <addName>Gaius Iulius Caesar Augustus</addName>
+            <addName>Gaius Iulius Caesar Octavianus Augustus</addName>
+            <addName>Gaius Julius Augustus</addName>
+            <addName>Gaius Julius Caesar Octavianus Augustus</addName>
+            <addName>Gaius Octavius Augustus</addName>
+            <addName>Iulius Caesar Octavianus Augustus</addName>
+            <addName>Octavianus Augustus</addName>
+            <addName>Octavius Caesar Augustus</addName>
+            <addName>Augustus Divus</addName>
+            <addName>Augustus Imperator</addName>
+            <addName>Augustus Imperium Romanum, Caesar</addName>
+            <addName>Augustus Kaiser</addName>
+            <addName>Augustus Römisches Reich, Kaiser</addName>
+            <addName>Augustus Roemisches Reich, Kaiser</addName>
+            <addName>Augustus Romanus</addName>
+            <addName>Augustus Verfasser der Res Gestae</addName>
+            <addName>Caius Octavianus Imperium Romanum, Imperator</addName>
+            <addName>Caius Octavianus</addName>
+            <addName>Caius Oktavius Imperium Romanum, Augustus</addName>
+            <addName>Caius Oktavius</addName>
+            <addName>Caius Oktavius Imperium Romanum, Imperator</addName>
+            <addName>Gaius Julius Caesar Octavianus</addName>
+            <addName>Gaius Octavius</addName>
+            <addName>Gaius Octavius Emperor of Rome</addName>
+            <addName>Octavian</addName>
+            <addName>Octavianus</addName>
+            <addName>Octavius</addName>
+            <addName>Octavius Caesar Emperor of Rome</addName>
+            <addName>Octavius Caesar</addName>
+            <addName>Octavius Augustus</addName>
+            <addName>Ottaviano</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Livia Drusilla (Römisches Reich, Kaiserin)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00550548</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00550548"
+                   key="#PND:119226014">Livia<addName type="display">Livia Drusilla (Römisches Reich, Kaiserin)</addName>
+            <addName>Iulia Augusta</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Cuper, Gisbert</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259260</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01259260"
+                   key="#PND:100096093">Cuper<addName type="display">Cuper, Gisbert</addName>
+            <addName>Gisbert Cuper</addName>
+            <addName>Gisbertus Cuperus</addName>
+            <addName>Cooper</addName>
+            <addName>Gijsbert Cuper</addName>
+            <addName>Gisb. Cuper</addName>
+            <addName>Gisbertus Cuper</addName>
+            <addName>Gisbertus Cuperius</addName>
+            <addName>Cuperius</addName>
+            <addName>Gijsbert Cupert</addName>
+            <addName>Cupert</addName>
+            <addName>Gisbert Cuperus</addName>
+            <addName>Gisebertus Cuperus</addName>
+            <addName>Gijsbert Cuypers</addName>
+            <addName>Cuypers</addName>
+            <addName>Gisbert Cuypers</addName>
+            <addName>Gijsbert Cuypert</addName>
+            <addName>Cuypert</addName>
+            <addName>Gisbert Cuypert</addName>
+            <addName>Gijsbert Kuiper</addName>
+            <addName>Kuiper</addName>
+            <addName>Gĳsbert Cuper</addName>
+            <addName>Gĳsbert Kuiper</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Graevius, Joannes Georgius</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00109632</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00109632"
+                   key="#PND:100156991">Grae- 
+                                                    vio<addName type="display">Graevius, Joannes Georgius</addName>
+            <addName>Joannes Georgius Graevius</addName>
+            <addName>Johannes Georgius Graevius</addName>
+            <addName>Joannes G. Graeve</addName>
+            <addName>Graeve</addName>
+            <addName>Johann G. Graeve</addName>
+            <addName>Johann Georg Graeve</addName>
+            <addName>Johannes G. Graeve</addName>
+            <addName>Johannes Georgius Graeve</addName>
+            <addName>Johanne Georgio Graevio</addName>
+            <addName>Graevio</addName>
+            <addName>Graevius</addName>
+            <addName>Georgius Graevius</addName>
+            <addName>Ioannes Georgius Graevius</addName>
+            <addName>Ioh. Georgius Graevius</addName>
+            <addName>Iohannes Georgius Graevius</addName>
+            <addName>Jo. Ge. Graevius</addName>
+            <addName>Joannes G. Graevius</addName>
+            <addName>Joannus Georgius Graevius</addName>
+            <addName>Joh. Georgius Graevius</addName>
+            <addName>Johann G. Graevius</addName>
+            <addName>Johann Georg Graevius</addName>
+            <addName>Johannes G. Graevius</addName>
+            <addName>Johannes Georg Graevius</addName>
+            <addName>Joannes G. Gravius</addName>
+            <addName>Gravius</addName>
+            <addName>Johannes Georgius Gravius</addName>
+            <addName>Johann G. Greffe</addName>
+            <addName>Greffe</addName>
+            <addName>Johannes G. Greffe</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Ferdinand (Neapel, König, IV.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00876665</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00876665"
+                   key="#PND:11895363X">Königs von Neapolis<addName type="display">Ferdinand (Neapel, König, IV.)</addName>
+            <addName>Ferdinand von Bourbon</addName>
+            <addName>Bourbon, Ferdinand von 1751-1825</addName>
+            <addName>Bourbon</addName>
+            <addName>Ferdinand beider Sizilien, König, I.</addName>
+            <addName>Ferdinand Beider Sizilien, König, I.</addName>
+            <addName>Ferdinand I,  King of the Two Sicilies,  1751-1825</addName>
+            <addName>Ferdinand Neapel, König, IV.</addName>
+            <addName>Ferdinand Neapel, König, I., 1751-1825</addName>
+            <addName>Ferdinand Sizilien, König, I.</addName>
+            <addName>Ferdinand Sizilien, König, IV.</addName>
+            <addName>Ferdinand Two Sicilies, King, I.</addName>
+            <addName>Ferdinando di Borbone</addName>
+            <addName>Ferdinando Due Sicilie, Re, I.</addName>
+            <addName>Ferdinando Due Sicilie, Re, VI.</addName>
+            <addName>Ferdinando Sicilia, Re, I.</addName>
+            <addName>Ferdinando Sicilia, Re, III.</addName>
+            <addName>Ferdinando Sicilia, Re, IV.</addName>
+            <addName>Ferdinandus Sicilia, Rex, IV.</addName>
+            <addName>Ferdinandus</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

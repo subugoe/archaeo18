@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Aquila, Francesco F.</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00181706</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00181706"
+                   key="#PND:101159935">Aquila<addName type="display">Aquila, Francesco F.</addName>
+            <addName>Francesco F. Aquila</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Rossi, Giovanni Antonio ¬de'¬</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00571088</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00571088"
+                   key="#PND:122711882">Familie de Rossi<addName type="display">Rossi, Giovanni Antonio ¬de'¬</addName>
+            <addName>Giovanni Antonio de' Rossi</addName>
+            <addName>Giovanni Antonio De Rossi</addName>
+            <addName>De Rossi</addName>
+            <addName>Giovanni Antonio De'Rossi</addName>
+            <addName>De'Rossi</addName>
+            <addName>Giovanni Antonio DeRossi</addName>
+            <addName>DeRossi</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Rossi, Domenico</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00579300</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00579300"
+                   key="#PND:124158102">Rubeis<addName type="display">Rossi, Domenico</addName>
+            <addName>Domenico Rossi</addName>
+            <addName>Domenico De Rossi</addName>
+            <addName>De Rossi</addName>
+            <addName>Domenico DeRossi</addName>
+            <addName>DeRossi</addName>
+            <addName>Domenico de Rossi</addName>
+            <addName>Dominicus de Rubeis</addName>
+            <addName>Rubeis</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Alton, Eduard ¬d'¬</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00403493</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00403493"
+                   key="#PND:119061341">Io. Dalton<addName type="display">Alton, Eduard ¬d'¬</addName>
+            <addName>Eduard d' Alton</addName>
+            <addName>Eduard Joseph d' Alton</addName>
+            <addName>Io. Dalton</addName>
+            <addName>Dalton</addName>
+            <addName>E. d' Alton</addName>
+            <addName>Edouard J. d' Alton</addName>
+            <addName>Eduard dʹ Alton</addName>
+            <addName>Eduard Alton</addName>
+            <addName>Alton, Eduard der Ältere</addName>
+            <addName>Eduard Joseph 'd Alton</addName>
+            <addName>Eduardus d' Alton</addName>
+            <addName>Eduardus de Alton</addName>
+            <addName>Joseph Wilhelm Eduard d' Alton</addName>
+            <addName>E D'Alton</addName>
+            <addName>D'Alton, E 1772-1840</addName>
+            <addName>D'Alton</addName>
+            <addName>Edouard J. D'Alton</addName>
+            <addName>Eduard D'Alton</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

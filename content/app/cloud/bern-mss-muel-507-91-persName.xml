@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Bousquet, Marc Michel</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cni00028178</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cni00028178">Bourguet<addName type="display">Bousquet, Marc Michel</addName>
+            <addName>Marc Michel Bousquet</addName>
+            <addName>Bourguet</addName>
+            <addName>Bourquet</addName>
+            <addName>Buorguet</addName>
+            <addName>&lt;Lausanne ; Genève&gt; Aux dépens de la Compagnie</addName>
+            <addName>Aux dépens de la Compagnie</addName>
+            <addName>Marc.-Mich. Bousquet</addName>
+            <addName>Marc-Michel Bousquet</addName>
+            <addName>Marcos Miguel Bousquet</addName>
+            <addName>Marcus-Michael Bousquet</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

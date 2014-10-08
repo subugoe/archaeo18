@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Baʻlabakk</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7002856</link>
+      <count>8</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7002856">Balbek<addName type="display">Baʻlabakk</addName>
+            <addName>Baʻlabakk</addName>
+            <addName>Ba'labakk</addName>
+            <addName>Balabakk</addName>
+            <addName>Baalbek</addName>
+            <addName>Baʻalbek</addName>
+            <addName>Heliopolis</addName>
+            <addName>Heliopolis Syriae</addName>
+            <addName>Colonia Iulia Augusta Felix Heliopolis</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:placeName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0"
+                        ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-31.tei.xml-d9291e75">Thale Pokad</TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Al-Lubnān</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=1000126</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:1000126">Libanus<addName type="display">Al-Lubnān</addName>
+            <addName>Al-Lubnān</addName>
+            <addName>Al-Lubnan</addName>
+            <addName>Lubnān</addName>
+            <addName>Al-Jumhouriya al Lubnaniya</addName>
+            <addName>al-Jumhūrīyah al-Lubnānīyah</addName>
+            <addName>Liban</addName>
+            <addName>République libanaise</addName>
+            <addName>Lebanon</addName>
+            <addName>Lebanese Republic</addName>
+            <addName>Republic of Lebanon</addName>
+            <addName>Libano</addName>
+            <addName>Libanon</addName>
+            <addName>Líbano</addName>
+            <addName>LBN</addName>
+            <addName>LB</addName>
+            <addName>ISO422</addName>
+            <addName>LE00</addName>
+            <addName>Levant States</addName>
+            <addName>Grand Liban</addName>
+            <addName>Great Lebanon</addName>
+            <addName>Lebanese</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Sharqī, Al-Jabal ash-</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=1109624</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:1109624">Antilibanus<addName type="display">Sharqī, Al-Jabal ash-</addName>
+            <addName>Sharqī, Al-Jabal ash-</addName>
+            <addName>Al-Jabal ash- Sharqī</addName>
+            <addName>Anti-Lebanon</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Dimashq</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7002261</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7002261">Damascus<addName type="display">Dimashq</addName>
+            <addName>Dimashq</addName>
+            <addName>Ash Sham</addName>
+            <addName>Ash Shām</addName>
+            <addName>Esh-Sham</addName>
+            <addName>Esh Shām</addName>
+            <addName>Esh Sham</addName>
+            <addName>Damas</addName>
+            <addName>Dimash</addName>
+            <addName>Damaskus</addName>
+            <addName>Damascus</addName>
+            <addName>Damasco</addName>
+            <addName>Demetrias</addName>
+            <addName>Darmeseq</addName>
+            <addName>Cammeseq</addName>
+            <addName>Dimeshq</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Roma</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7000874</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7000874">Rom<addName type="display">Roma</addName>
+            <addName>Roma</addName>
+            <addName>Urbe</addName>
+            <addName>Rome</addName>
+            <addName>Rom</addName>
+            <addName>Roman</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+</tags>

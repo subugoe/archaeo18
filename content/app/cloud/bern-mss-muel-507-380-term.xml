@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Carneades</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-380.tei.xml-d15227e59">
+            <TEI:persName ref="#CerlID:cnp00395428" key="#PND:118560263">Carneades<addName type="display">Carneades</addName>
+               <addName>Carneade di Cirene</addName>
+               <addName>Carneade</addName>
+               <addName>Carneades Cyrenaeus</addName>
+               <addName>Carneades Philosophus</addName>
+               <addName>Carneades of Cyrene</addName>
+               <addName>Carnéade de Cyrène</addName>
+               <addName>Carnéade</addName>
+               <addName>Karneades Philosoph</addName>
+               <addName>Karneades</addName>
+               <addName>Karneades Sohn des Epikomos</addName>
+               <addName>Karneades Sohn des Philokomos</addName>
+               <addName>Karneades von Kyrene</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Caton d'Utique</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-380.tei.xml-d15227e141">
+            <TEI:persName ref="#CerlID:cnp01322032" key="#PND:118519700">M. P. Cato<addName type="display">Caton d'Utique</addName>
+               <addName>Marcus Porcius Cato</addName>
+               <addName>Cato Uticensis</addName>
+               <addName>Caton le Jeune</addName>
+               <addName>Caton</addName>
+               <addName>Marcus Porcius Uticensis Cato</addName>
+               <addName>Uticensis Cato</addName>
+               <addName>Cato Stoiker</addName>
+               <addName>Marcus Porcius Cato Uticensis</addName>
+               <addName>M. Porcius Uticensis Catone</addName>
+               <addName>Catone</addName>
+               <addName>Katon Młodszy Utyceński</addName>
+               <addName>Porcius Cato</addName>
+               <addName>Porcius Cato Uticensis</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Demosthenes</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-380.tei.xml-d15227e257">
+            <TEI:persName ref="#CerlID:cnp00394563" key="#PND:118524658">Demosthenes<addName type="display">Demosthenes</addName>
+               <addName>Dēmosthenēs</addName>
+               <addName>Dēmosthenus</addName>
+               <addName>Démosthène</addName>
+               <addName>Démosthène dÁthènes</addName>
+               <addName>Démosthène dÁthènes</addName>
+               <addName>Démosthène Orateur</addName>
+               <addName>Démosthene</addName>
+               <addName>Dēmosthenus</addName>
+               <addName>Démosthène</addName>
+               <addName>Démosthène dÁthènes</addName>
+               <addName>Démosthène Orateur</addName>
+               <addName>Démosthene</addName>
+               <addName>Demostene</addName>
+               <addName>Demostene di Peania</addName>
+               <addName>Demostene Oratore</addName>
+               <addName>Demostenes</addName>
+               <addName>Demosthenes Atheniensis</addName>
+               <addName>Demosthenes Attischer Redner</addName>
+               <addName>Demosthenes Orator</addName>
+               <addName>Demosthenes Politiker</addName>
+               <addName>Demosthenes Pseudo-</addName>
+               <addName>Demosthenes Redner</addName>
+               <addName>Demosthenes Rhetor</addName>
+               <addName>Demosthenes Sohn des Demosthenes</addName>
+               <addName>Demosthenes von Athen</addName>
+               <addName>Demosthenes von Paiania</addName>
+               <addName>Demosthenus</addName>
+               <addName>Pseudo-Demosthenes</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Resina</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-380.tei.xml-d15227e344">Im <TEI:placeName ref="#GettyID:7031897">Herkulan<addName type="display">Resina</addName>
+               <addName>Resina</addName>
+               <addName>Ercolano</addName>
+               <addName>Herculaneum</addName>
+               <addName>Herakleion</addName>
+            </TEI:placeName> hat man deren
+          
+          ähnliche</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Diogenes (Sinopensis)</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-380.tei.xml-d15227e418">
+            <TEI:persName ref="#CerlID:cnp00394588" key="#PND:118525867">Diogenes Cinicus<addName type="display">Diogenes (Sinopensis)</addName>
+               <addName>Diogenes von Sinope</addName>
+               <addName>Diogenes Cynicus</addName>
+               <addName>Diogenes Philosophus</addName>
+               <addName>Diogenes Tragicus</addName>
+               <addName>Diogenes der Hund</addName>
+               <addName>Diogenes der Kyniker</addName>
+               <addName>Diogenes of Sinope</addName>
+               <addName>Diogène de Sinope</addName>
+               <addName>Diogène</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Barnes, Joshua</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-380.tei.xml-d15227e619">eine steht vor dem des <TEI:persName ref="#CerlID:cnp00475518" key="#PND:12427000X">Barnes<addName type="display">Barnes, Joshua</addName>
+               <addName>Joshua Barnes</addName>
+               <addName>Giosuè Barnes</addName>
+               <addName>Josua Barnes</addName>
+               <addName>Jusua Barnes</addName>
+               <addName>Barnesius</addName>
+               <addName>Josua Barnesius</addName>
+               <addName>Philargyrius Cantab.</addName>
+               <addName>Cantab.</addName>
+               <addName>Philargyrius</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Farnesina</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-380.tei.xml-d15227e668">Eine ähnliche soll
+          
+          in der <TEI:term ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-380.tei.xml-d15227e672">Farnesina</TEI:term>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-380.tei.xml-d15227e672">Farnesina</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Euripides</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-380.tei.xml-d15227e692">Eine Statue von <TEI:persName ref="#CerlID:cnp00018169" key="#PND:118531395 118531395">Euripides<addName type="display">Euripides</addName>
+               <addName>Eurípides</addName>
+               <addName>Euripedes</addName>
+               <addName>Euripid</addName>
+               <addName>Euripide</addName>
+               <addName>Euripide de Salamine</addName>
+               <addName>Euripidē</addName>
+               <addName>Euripides Alcestis</addName>
+               <addName>Euripides Atheniensis</addName>
+               <addName>Euripides Pseudo-</addName>
+               <addName>Euripides Sohn des Mnesarchides</addName>
+               <addName>Euripides Sohn des Mnesarchos</addName>
+               <addName>Euripides Tragicus</addName>
+               <addName>Euripides Tragiker</addName>
+               <addName>Euripides von Athen</addName>
+               <addName>Euripides von Salamis</addName>
+               <addName>Euripidis</addName>
+               <addName>Euripidis"</addName>
+               <addName>Eurypides</addName>
+               <addName>Evripede</addName>
+               <addName>Evripede"</addName>
+               <addName>Evripid"</addName>
+               <addName>Evripides</addName>
+               <addName>Eyripidēs</addName>
+               <addName>Pseudo-Euripides</addName>
+               <addName>Yūrıb̄idıs̄</addName>
+               <addName>Yūrībidīs</addName>
+               <addName>Yūrı̄bidı̄s"</addName>
+               <addName>Yūrībidīs"</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000297</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/sammlungen/1000297">Villa Albani</TEI:term>
+      </nodes>
+   </tag>
+</tags>

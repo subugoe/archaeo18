@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Venuti, Ridolfino</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00946665</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00946665"
+                   key="#PND:12884700X">Venuti<addName type="display">Venuti, Ridolfino</addName>
+            <addName>Ridolfino Venuti</addName>
+            <addName>Ridolfinus Venuti</addName>
+            <addName>Rodolphinus Venuti</addName>
+            <addName>Rudolphinus Venuti</addName>
+            <addName>Ridolfinus Venutus</addName>
+            <addName>Venutus</addName>
+            <addName>Rodolphinus Venutus</addName>
+            <addName>Rudolphinus Venutus</addName>
+            <addName>R. Venuti</addName>
+            <addName>Ridolphinus Venuti</addName>
+            <addName>Rodulf Venuti</addName>
+            <addName>Rodulfinus Venuti</addName>
+            <addName>Rodulphino Venuti</addName>
+            <addName>Rodulphinus Venuti</addName>
+            <addName>Rudolfino Venuti</addName>
+            <addName>Rodulphinus Venutus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Borioni, Antonio</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00168578</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00168578"
+                   key="#PND:100984851">Borioni<addName type="display">Borioni, Antonio</addName>
+            <addName>Antonio Borioni</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Scarfò, Giovanni Crisostomo</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00964871</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00964871"
+                   key="#PND:100398537">Scarso<addName type="display">Scarfò, Giovanni Crisostomo</addName>
+            <addName>Giovanni Crisostomo Scarfò</addName>
+            <addName>Giangrisostomo Scarfò</addName>
+            <addName>Gian Crisostomo Scarfò</addName>
+            <addName>Giangrisostomo Scarfò</addName>
+            <addName>Giovanni Grisostomo Scarfò</addName>
+            <addName>Johannes Chrysostomus Scarphò</addName>
+            <addName>Scarphò</addName>
+            <addName>Grisofano Cardiecletti</addName>
+            <addName>Cardiecletti</addName>
+            <addName>Gian Crisostomo Scarfo</addName>
+            <addName>Scarfo</addName>
+            <addName>G. G. Scarfò</addName>
+            <addName>Gian Crisostomo Scarfò</addName>
+            <addName>Giovanni C. Scarfò</addName>
+            <addName>Giovanni Crisostomo Scarfò</addName>
+            <addName>Giovanni Grisostomo Scarfò</addName>
+            <addName>Grisostomo Scarfò</addName>
+            <addName>Joh. Chrysostomus Scarphò</addName>
+            <addName>Scarphò</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

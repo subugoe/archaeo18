@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Gaffarel, Jacques</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00959213</link>
+      <count>8</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00959213"
+                   key="#PND:12428650X">Gaffarel<addName type="display">Gaffarel, Jacques</addName>
+            <addName>Jacques Gaffarel</addName>
+            <addName>M. I. Gaffarel</addName>
+            <addName>I. Gaffarel</addName>
+            <addName>James Gaffarel</addName>
+            <addName>Jacques Gaffarell</addName>
+            <addName>Gaffarell</addName>
+            <addName>Jacobus Gaffarellius</addName>
+            <addName>Gaffarellius</addName>
+            <addName>Iacobus Gaffarellus</addName>
+            <addName>Gaffarellus</addName>
+            <addName>Jacobus Gaffarellus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Sorel, Charles</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00483651</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00483651"
+                   key="#PND:11861570X">Sorell<addName type="display">Sorel, Charles</addName>
+            <addName>Charles Sorel</addName>
+            <addName>Charles Sorel Isles</addName>
+            <addName>Isles, Charles Sorel sieur de Souvigny et des</addName>
+            <addName>Isles</addName>
+            <addName>Sorel, Charles sieur de Souvigny et des Isles</addName>
+            <addName>Carolus Sorellus</addName>
+            <addName>Sorellus</addName>
+            <addName>Charles Sorel Souvigny et des Isles</addName>
+            <addName>Souvigny et des Isles, Charles Sorel sieur de</addName>
+            <addName>Souvigny et des Isles</addName>
+            <addName>C. S.</addName>
+            <addName>Du Parc</addName>
+            <addName>Nicolas de Moulinet Du Parc</addName>
+            <addName>Du Parc, Nicolas de Moulinet sieur de</addName>
+            <addName>Jean de La Lande</addName>
+            <addName>La Lande</addName>
+            <addName>Jean de LaLande</addName>
+            <addName>LaLande</addName>
+            <addName>Jean de la Lande</addName>
+            <addName>Lande</addName>
+            <addName>Parc Sieur de Charles Sorel</addName>
+            <addName>Parc</addName>
+            <addName>Charles Sorel de Soigny</addName>
+            <addName>Soigny</addName>
+            <addName>Carl von Sorel</addName>
+            <addName>Charles Soreles</addName>
+            <addName>Soreles</addName>
+            <addName>Carl von Sorell</addName>
+            <addName>Sorell</addName>
+            <addName>Charles Sorel de Souvigny</addName>
+            <addName>Souvigny</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

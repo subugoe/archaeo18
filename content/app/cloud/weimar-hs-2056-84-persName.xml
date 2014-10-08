@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Apollon</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00542641</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00542641"
+                   key="#PND:118503642">Apoll<addName type="display">Apollon</addName>
+            <addName>Apoll</addName>
+            <addName>Apollo</addName>
+            <addName>Phoebus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Marsyas</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00588624</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00588624"
+                   key="#PND:118782193">Marsyas<addName type="display">Marsyas</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Horace</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259307</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01259307"
+                   key="#PND:118553569 118553569">Horaz<addName type="display">Horace</addName>
+            <addName>Q. Horatius Flaccus</addName>
+            <addName>Quintus Horatius Flaccus</addName>
+            <addName>Flaccus</addName>
+            <addName>Horatius</addName>
+            <addName>Orazio</addName>
+            <addName>Qu. Horatius Flaccus</addName>
+            <addName>Quintus H. Flaccus</addName>
+            <addName>Quintus Horatius Flaccvs</addName>
+            <addName>Flaccvs</addName>
+            <addName>Gorat︠s︡{̄}i</addName>
+            <addName>Kvint Goraz Flakk</addName>
+            <addName>Goraz Flakk</addName>
+            <addName>Hūrās</addName>
+            <addName>Ho-la-tz'ŭ</addName>
+            <addName>Horace</addName>
+            <addName>Horace de Venouse</addName>
+            <addName>Horace Flacce</addName>
+            <addName>Horacego</addName>
+            <addName>Horacij</addName>
+            <addName>Horacio</addName>
+            <addName>Quinto Horacio Flaco</addName>
+            <addName>Horacio Flaco</addName>
+            <addName>Kvinto Horacio Flako</addName>
+            <addName>Horacio Flako</addName>
+            <addName>Quintus Horacius Flakus</addName>
+            <addName>Horacius Flakus</addName>
+            <addName>Kwintus Horacjusz Flakkus</addName>
+            <addName>Horacjusz Flakkus</addName>
+            <addName>Horacy</addName>
+            <addName>Horacyusz</addName>
+            <addName>Q. Horatii Flacci</addName>
+            <addName>Horatii Flacci</addName>
+            <addName>Horatio Flacco</addName>
+            <addName>Quinto Horatio Flacco</addName>
+            <addName>Horatio</addName>
+            <addName>Q. Horatius F.</addName>
+            <addName>Horatius F.</addName>
+            <addName>Horatius Flaccus</addName>
+            <addName>Quinctus Horatius Flaccus</addName>
+            <addName>Quintus Horatius</addName>
+            <addName>Horatius Poeta</addName>
+            <addName>Horats</addName>
+            <addName>Horatz</addName>
+            <addName>Horaz</addName>
+            <addName>Quintus Horazius Flaccus</addName>
+            <addName>Horazius Flaccus</addName>
+            <addName>Quintus Horazius Flakkus</addName>
+            <addName>Horazius Flakkus</addName>
+            <addName>Quintus Horazius Flakus</addName>
+            <addName>Horazius Flakus</addName>
+            <addName>Hūrās</addName>
+            <addName>Kvint Khorat︠s︡iĭ Flak</addName>
+            <addName>Khorat︠s︡iĭ Flak</addName>
+            <addName>Khorat︠s︡iĭ</addName>
+            <addName>Oracio</addName>
+            <addName>Oracius Flaccus</addName>
+            <addName>Oratio</addName>
+            <addName>Oratius</addName>
+            <addName>Orazio Flacco</addName>
+            <addName>Q. Orazio Flacco</addName>
+            <addName>Quinto Orazio Flacco</addName>
+            <addName>Quintus Orazjus Flaccus</addName>
+            <addName>Orazjus Flaccus</addName>
+            <addName>Q. Horatius Flaccus Venusinus</addName>
+            <addName>Kvint Goracij Flakk</addName>
+            <addName>Goracij Flakk</addName>
+            <addName>Quinto Horacio Flacco</addName>
+            <addName>Horacio Flacco</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Augustus (Emperor of Rome)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00971385</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00971385"
+                   key="#PND:118505122">Augustum<addName type="display">Augustus (Emperor of Rome)</addName>
+            <addName>Auguste Empereur</addName>
+            <addName>Auguste</addName>
+            <addName>Caio Giulio Cesare Ottaviano Augusto</addName>
+            <addName>Augusto</addName>
+            <addName>Cesare Augusto</addName>
+            <addName>Cesare Ottaviano Augusto</addName>
+            <addName>Ottaviano Augusto</addName>
+            <addName>Augustus Caesar</addName>
+            <addName>Caesar Augustus</addName>
+            <addName>Caesar Octavianus Augustus</addName>
+            <addName>Caius J. Augustus</addName>
+            <addName>Caius Julius Caesar Augustus</addName>
+            <addName>Cesar Octavianus Augustus</addName>
+            <addName>Gaius I. Augustus</addName>
+            <addName>Gaius Iulius Caesar Augustus</addName>
+            <addName>Gaius Iulius Caesar Octavianus Augustus</addName>
+            <addName>Gaius Julius Augustus</addName>
+            <addName>Gaius Julius Caesar Octavianus Augustus</addName>
+            <addName>Gaius Octavius Augustus</addName>
+            <addName>Iulius Caesar Octavianus Augustus</addName>
+            <addName>Octavianus Augustus</addName>
+            <addName>Octavius Caesar Augustus</addName>
+            <addName>Augustus Divus</addName>
+            <addName>Augustus Imperator</addName>
+            <addName>Augustus Imperium Romanum, Caesar</addName>
+            <addName>Augustus Kaiser</addName>
+            <addName>Augustus Römisches Reich, Kaiser</addName>
+            <addName>Augustus Roemisches Reich, Kaiser</addName>
+            <addName>Augustus Romanus</addName>
+            <addName>Augustus Verfasser der Res Gestae</addName>
+            <addName>Caius Octavianus Imperium Romanum, Imperator</addName>
+            <addName>Caius Octavianus</addName>
+            <addName>Caius Oktavius Imperium Romanum, Augustus</addName>
+            <addName>Caius Oktavius</addName>
+            <addName>Caius Oktavius Imperium Romanum, Imperator</addName>
+            <addName>Gaius Julius Caesar Octavianus</addName>
+            <addName>Gaius Octavius</addName>
+            <addName>Gaius Octavius Emperor of Rome</addName>
+            <addName>Octavian</addName>
+            <addName>Octavianus</addName>
+            <addName>Octavius</addName>
+            <addName>Octavius Caesar Emperor of Rome</addName>
+            <addName>Octavius Caesar</addName>
+            <addName>Octavius Augustus</addName>
+            <addName>Ottaviano</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Bacchus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00579062</link>
+      <count>6</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00579062"
+                   key="#PND:118651439">Bachus<addName type="display">Bacchus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Herakles</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00574918</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00574918"
+                   key="#PND:118639552">Herkules<addName type="display">Herakles</addName>
+            <addName>Ercole</addName>
+            <addName>Heracles</addName>
+            <addName>Hercules</addName>
+            <addName>Herkules</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Anacreon, Teius</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01260114</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01260114"
+                   key="#PND:118649035">Ana- 
+             kreon<addName type="display">Anacreon, Teius</addName>
+            <addName>Teius Anacreon</addName>
+            <addName>Anacrèon de Téos</addName>
+            <addName>Anacrèon</addName>
+            <addName>Anacrèon de Théos</addName>
+            <addName>Anacréon de Téos</addName>
+            <addName>Anacréon</addName>
+            <addName>Anacréon de Théos</addName>
+            <addName>Anacréon</addName>
+            <addName>Anacréon de Téos</addName>
+            <addName>Anacréon de Théos</addName>
+            <addName>Anacreo Lyricus</addName>
+            <addName>Anacreo</addName>
+            <addName>Anacreon Lyricus</addName>
+            <addName>Anacreon of Teos</addName>
+            <addName>Anacreonte</addName>
+            <addName>Anacreonte Teius</addName>
+            <addName>Anacreonte di Teo</addName>
+            <addName>Anakreion</addName>
+            <addName>Anakreon Tēios</addName>
+            <addName>Anakreon</addName>
+            <addName>Anakreon Lyriker</addName>
+            <addName>Anakreon Tēios</addName>
+            <addName>Anakreon von Teos</addName>
+            <addName>Anakreonte</addName>
+            <addName>Anakreontos Tēiu</addName>
+            <addName>Anakreontos</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Bathyll</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01303746</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01303746">Cathyl<addName type="display">Bathyll</addName>
+            <addName>Cathyl</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

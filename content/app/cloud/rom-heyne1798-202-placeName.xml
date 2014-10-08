@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Marseille</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7008781</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7008781">Marseille<addName type="display">Marseille</addName>
+            <addName>Marseille</addName>
+            <addName>Marseilles</addName>
+            <addName>Marsella</addName>
+            <addName>Massalia</addName>
+            <addName>Massilia</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Milano</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7005903</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7005903">Mailand<addName type="display">Milano</addName>
+            <addName>Milano</addName>
+            <addName>Milan</addName>
+            <addName>Mailand</addName>
+            <addName>Milanese</addName>
+            <addName>Mediolanum</addName>
+            <addName>Mediolanium</addName>
+            <addName>Mediolanum Insubrum</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Sámos</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=1042201</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:1042201">Samos<addName type="display">Sámos</addName>
+            <addName>Sámos</addName>
+            <addName>Samos</addName>
+            <addName>Vathy harbor</addName>
+            <addName>Vathy</addName>
+            <addName>Port Vathi</addName>
+            <addName>Limín Vathéos</addName>
+            <addName>Limén Vathéos</addName>
+            <addName>Liman Vathéos</addName>
+            <addName>Tigani</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Etruria</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7024113</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7024113">Etrurien<addName type="display">Etruria</addName>
+            <addName>Etruria</addName>
+            <addName>Rashna</addName>
+            <addName>Rasna</addName>
+            <addName>Tuscia</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Italia</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=1000080</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:1000080">Unteritalien<addName type="display">Italia</addName>
+            <addName>Italia</addName>
+            <addName>Repubblica italiana</addName>
+            <addName>Repubblica Italiana</addName>
+            <addName>Italy</addName>
+            <addName>Italian Republic</addName>
+            <addName>Italie</addName>
+            <addName>République italienne</addName>
+            <addName>Italien</addName>
+            <addName>Itália</addName>
+            <addName>Italië</addName>
+            <addName>ITA</addName>
+            <addName>IT</addName>
+            <addName>ISO380</addName>
+            <addName>IT00</addName>
+            <addName>Esperia</addName>
+            <addName>Italian</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Sicilia</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7030363</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7030363">Sicilien<addName type="display">Sicilia</addName>
+            <addName>Sicilia</addName>
+            <addName>Sicily</addName>
+            <addName>Sizilien</addName>
+            <addName>Trinacria</addName>
+            <addName>Thrinacria</addName>
+            <addName>Sikanie</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Ellás</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=1000074</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:1000074">Griechenland<addName type="display">Ellás</addName>
+            <addName>Ellás</addName>
+            <addName>Ellas</addName>
+            <addName>Ellinikí Dimokratía</addName>
+            <addName>Elliniki Dimokratia</addName>
+            <addName>Elliniki Dhimokratia</addName>
+            <addName>Greece</addName>
+            <addName>Hellenic Republic</addName>
+            <addName>Grèce</addName>
+            <addName>République hellénique</addName>
+            <addName>Griechenland</addName>
+            <addName>Grecia</addName>
+            <addName>Griekenland</addName>
+            <addName>Grécia</addName>
+            <addName>GRC</addName>
+            <addName>GR</addName>
+            <addName>ISO300</addName>
+            <addName>GR00</addName>
+            <addName>Kingdom of Greece</addName>
+            <addName>Hellas</addName>
+            <addName>Greek</addName>
+            <addName>Hellenic</addName>
+         </placeName>
+      </nodes>
+   </tag>
+</tags>

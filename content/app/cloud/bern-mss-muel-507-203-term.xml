@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Herakles</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-203.tei.xml-d2611e10">
+            <TEI:persName ref="#CerlID:cnp00574918" key="#PND:118639552">Herk<addName type="display">Herakles</addName>
+               <addName>Ercole</addName>
+               <addName>Heracles</addName>
+               <addName>Hercules</addName>
+               <addName>Herkules</addName>
+            </TEI:persName>. Gefecht mit dem Centaur</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>HeraklesCacus</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-203.tei.xml-d2611e81">Eine kleine Gruppe ist <TEI:persName ref="#CerlID:cnp00574918" key="#PND:118639552">Herc<addName type="display">Herakles</addName>
+               <addName>Ercole</addName>
+               <addName>Heracles</addName>
+               <addName>Hercules</addName>
+               <addName>Herkules</addName>
+            </TEI:persName>. mit dem <TEI:persName ref="#CerlID:cnp00827482" key="#PND:131786709">Cacus<addName type="display">Cacus</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>ModenaErcole (Modena, Duca, III.)</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-203.tei.xml-d2611e108">Cab. des <TEI:persName ref="#CerlID:cnp01099420" key="#PND:132911167">Herz zu <TEI:placeName ref="#GettyID:7009565">Modena<addName type="display">Modena</addName>
+                  <addName>Modena</addName>
+                  <addName>Mutina</addName>
+               </TEI:placeName>
+               <addName type="display">Ercole (Modena, Duca, III.)</addName>
+               <addName>Ercole Modena e Reggio, Duca, III.</addName>
+               <addName>Ercole Modena e Reggio, Herzog, III.</addName>
+               <addName>Ercole d'Este, III.</addName>
+               <addName>Ercole d' Este</addName>
+               <addName>Este, Ercole d' III.</addName>
+               <addName>Este</addName>
+               <addName>Ercole Rinaldo d' Este</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Herakles</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-203.tei.xml-d2611e144">Ein leidender <TEI:persName ref="#CerlID:cnp00574918" key="#PND:118639552">Herc<addName type="display">Herakles</addName>
+               <addName>Ercole</addName>
+               <addName>Heracles</addName>
+               <addName>Hercules</addName>
+               <addName>Herkules</addName>
+            </TEI:persName>. im <TEI:term ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-203.tei.xml-d2611e162">Barb. Pallast</TEI:term>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-203.tei.xml-d2611e162">Barb. Pallast</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-203.tei.xml-d2611e358">Belvedere</TEI:term>
+      </nodes>
+   </tag>
+</tags>

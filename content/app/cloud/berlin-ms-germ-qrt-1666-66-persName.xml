@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/berlin-ms-germ-qrt-1666-66.tei.xml-d20917e19">silens</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Dionysius (Halicarnassensis)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00397830</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00397830"
+                       key="#PND:118672037">Dionys Hal.<addName type="display">Dionysius (Halicarnassensis)</addName>
+            <addName>Denis d'Halicarnasse</addName>
+            <addName>Denis</addName>
+            <addName>Denis Halicarnasse</addName>
+            <addName>Denys d'Halicarnasse</addName>
+            <addName>Denys</addName>
+            <addName>Denys dH́alicarnasse</addName>
+            <addName>Denys Halicarnasse</addName>
+            <addName>Dionigi Alicarnasso</addName>
+            <addName>Dionigi</addName>
+            <addName>Dionigi di Alicarnasso</addName>
+            <addName>Dionigi Retore</addName>
+            <addName>Dionigi Storico</addName>
+            <addName>Dionisio d'Alicarnasso</addName>
+            <addName>Dionisio</addName>
+            <addName>Dionisio de Halicarnaso</addName>
+            <addName>Dionisio de Halicarnasso</addName>
+            <addName>Dionys von Halikarnass</addName>
+            <addName>Dionys</addName>
+            <addName>Dionysios Geschichtsschreiber</addName>
+            <addName>Dionysios</addName>
+            <addName>Dionysios Halikarnasseos</addName>
+            <addName>Dionysios Lehrer der Beredsamkeit</addName>
+            <addName>Dionysios Rhetor</addName>
+            <addName>Dionysios von Halikarnaß</addName>
+            <addName>Dionysios von Halikarnass</addName>
+            <addName>Dionysios von Halikarnassos</addName>
+            <addName>Dionysius Alexandrus</addName>
+            <addName>Dionysius Halicarnasensis</addName>
+            <addName>Dionysius Halicarnaseus</addName>
+            <addName>Dionysius Halicarnassaeus</addName>
+            <addName>Dionysius Halicarnasseus</addName>
+            <addName>Dionysius Halicarnassius</addName>
+            <addName>Dionysius Halicarnassus</addName>
+            <addName>Dionysius Halikarnaseus</addName>
+            <addName>Dionysius Historicus</addName>
+            <addName>Dionysius Rhetor</addName>
+            <addName>Dionysius von Halikarnaß</addName>
+            <addName>Halicarnaseus</addName>
+            <addName>Denys de Halicarnasse</addName>
+            <addName>Halicarnasse</addName>
+            <addName>Halicarnassensis</addName>
+            <addName>Pseudo-Dionigi di Alicarnasso</addName>
+            <addName>Pseudo-Dionigi</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

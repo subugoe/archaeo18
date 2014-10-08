@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Venezia</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0" ref="#">
+                                  
+                                 des Arsenals zu <placeName ref="#GettyID:7018159">Venedig<addName type="display">Venezia</addName>
+               <addName>Venezia</addName>
+               <addName>Venecia</addName>
+               <addName>Venedig</addName>
+               <addName>Venice</addName>
+               <addName>Venise</addName>
+               <addName>République de Venise</addName>
+               <addName>Venetia</addName>
+               <addName>Vinegia</addName>
+               <addName>Venetian</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/22408</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/22408">der erste ist sitzend</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:152314 http://arachne.uni-koeln.de/item/objekt/22407</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:152314 #http://arachne.uni-koeln.de/item/objekt/22407">der andere 
+                                 stehend</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/16428</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/16428">91.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Campidoglio</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:156198 http://arachne.uni-koeln.de/item/gruppen/400758 http://arachne.uni-koeln.de/item/objekt/16208 http://arachne.uni-koeln.de/item/objekt/16209</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:156198 #http://arachne.uni-koeln.de/item/gruppen/400758 #http://arachne.uni-koeln.de/item/objekt/16208 #http://arachne.uni-koeln.de/item/objekt/16209">der Löw 
+                                 im <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000358">Campidoglio</term> der ein Pferd zerreißt</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000358</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000358">Campidoglio</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Villa Medices</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-194.tei.xml-d16041e177">in <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000498">Villa Medices</term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000498</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000498">Villa Medices</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Barberini (Familie)</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-194.tei.xml-d16041e185">im <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000007">Hauße <persName ref="#CerlID:cnp01098876" key="#PND:132850303">Barberini<addName type="display">Barberini (Familie)</addName>
+               </persName>
+            </term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Barberini (Familie)</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000007</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000007">Hauße <persName ref="#CerlID:cnp01098876" key="#PND:132850303">Barberini<addName type="display">Barberini (Familie)</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-194.tei.xml-d16041e204">Wölfe</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Romulus und RemusRomulus und Remus</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:155402 http://arachne.uni-koeln.de/item/objekt/16611</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:155402 #http://arachne.uni-koeln.de/item/objekt/16611">Die säugende Wölfin 
+                                 mit dem <persName ref="#CerlID:cnp00545090" key="#PND:119019620">Romulus<addName type="display">Romulus und Remus</addName>
+            </persName> und <persName ref="#CerlID:cnp00545090" key="#PND:119019620">Remus<addName type="display">Romulus und Remus</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:159055 http://arachne.uni-koeln.de/item/objekt/5902</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:159055 #http://arachne.uni-koeln.de/item/objekt/5902">Das Chalerdoni- 
+                                 sche wie es die Antiquaren benennen</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-194.tei.xml-d16041e434">Ein Molussus</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Jennings, Henry ConstantineEngland</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000621</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000621">
+            <persName ref="#CerlID:cnp00018551">Henry Iennings<addName type="display">Jennings, Henry Constantine</addName>
+               <addName>Henry Constantine Jennings</addName>
+               <addName>Henry Iennings</addName>
+               <addName>Iennings</addName>
+               <addName>Unfeigned admirer of genuine British jurisprudence</addName>
+            </persName> in <placeName ref="#GettyID:7002445">England<addName type="display">England</addName>
+               <addName>England</addName>
+               <addName>Angleterre</addName>
+               <addName>Inglaterra</addName>
+               <addName>Inghilterra</addName>
+               <addName>English</addName>
+               <addName>Anglia</addName>
+               <addName>Britannia Romana</addName>
+               <addName>Britannia maior</addName>
+               <addName>Britannia propria</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-194.tei.xml-d16041e521">Stier</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-194.tei.xml-d16041e534">Ziegenbock</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Apollon</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:150779 http://arachne.uni-koeln.de/item/objekt/19437</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:150779 #http://arachne.uni-koeln.de/item/objekt/19437">
+            <persName ref="#CerlID:cnp00542641" key="#PND:118503642">Apoll<addName type="display">Apollon</addName>
+               <addName>Apoll</addName>
+               <addName>Apollo</addName>
+               <addName>Phoebus</addName>
+            </persName> im <term ref="#http://arachne.uni-koeln.de/item/bauwerk/2100311">Belvedere</term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/bauwerk/2100311</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/bauwerk/2100311">Belvedere</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://census.bbaw.de/easydb/censusID=155401</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0" ref="#CensusID:155401">über dem Eingange der St. Markus 
+                                 Kirche</term>
+      </nodes>
+   </tag>
+</tags>

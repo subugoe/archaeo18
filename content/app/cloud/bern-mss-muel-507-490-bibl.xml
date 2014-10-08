@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Roma</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN663517230</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN663517230">
+               <TEI:placeName ref="#GettyID:7000874">Rom<addName type="display">Roma</addName>
+                  <addName>Roma</addName>
+                  <addName>Urbe</addName>
+                  <addName>Rome</addName>
+                  <addName>Rom</addName>
+                  <addName>Roman</addName>
+               </TEI:placeName>, 1739. 4.</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Mariette de l’art de graver en Pierres T. I. p. 105-152.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/item/buchseite/230757</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://arachne.uni-koeln.de/item/buchseite/230757">Mariette de l’art de graver en
+            
+                    
+          Pierres T. I. p. 105-152.</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Memoires degli Intagliatori Moderni in Saec XV- Sæc. XVIII. Livorno 1753. 4o von Andrea Piedro Guignanelli</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN655004238</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN655004238">Memoires
+                    
+          degli Intagliatori Moderni in Saec XV- Sæc. XVIII.
+                    
+          Livorno 1753. 4o von Andrea Piedro Guignanelli</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Mariette</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/books/Mariette1750</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://arachne.uni-koeln.de/books/Mariette1750">Mariette</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Historia Clyptographica als Pars II. der Dactylio- theca Smithiana die Gorris</tag>
+      <facet>tei:bibl</facet>
+      <link>http://hdl.handle.net/2027/mdp.39015035065682</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://hdl.handle.net/2027/mdp.39015035065682">Historia Clyptographica als Pars II. der Dactylio-
+            
+                    
+          theca Smithiana die Gorris</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+</tags>

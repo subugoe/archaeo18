@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Lehmann, Kaspar (Künstler)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00574076</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00574076"
+                   key="#PND:123211522">Caspar Lehmann<addName type="display">Lehmann, Kaspar (Künstler)</addName>
+            <addName>Kaspar Lehmann</addName>
+            <addName>Caspar Lehmann</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Colbert, Jean Baptiste</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01256113</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01256113"
+                   key="#PND:118521470">Colbert<addName type="display">Colbert, Jean Baptiste</addName>
+            <addName>Jean Baptiste Colbert</addName>
+            <addName>Jean-Baptiste Colbert</addName>
+            <addName>Joannes Baptista Colbert</addName>
+            <addName>Jean-Baptiste Colbert de Seignelay</addName>
+            <addName>Seignelay</addName>
+            <addName>Iean Baptiste Colbert</addName>
+            <addName>Jean B. Colbert</addName>
+            <addName>Jean-Baptiste de Colbert</addName>
+            <addName>Colbert, Jean-Baptiste Politiker, 1619-1683</addName>
+            <addName>Johannes Baptista Colbert</addName>
+            <addName>Johannes Baptista Colbertus</addName>
+            <addName>Colbertus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Enric (rei de França, 1553-1610)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01260214</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01260214"
+                   key="#PND:118548174">Henrich IV.<addName type="display">Enric (rei de França, 1553-1610)</addName>
+            <addName>IV Henri</addName>
+            <addName>Henrich IV.</addName>
+            <addName>Arrigo Francia e Navarra, Re, IV.</addName>
+            <addName>Arrigo</addName>
+            <addName>Arrigo Francia, Re, IV.</addName>
+            <addName>Arrigo IV rei de França 1553-1610</addName>
+            <addName>Henry Bourbon</addName>
+            <addName>Bourbon</addName>
+            <addName>Enric III rei de Navarra 1553-1610</addName>
+            <addName>Enrico Francia, Re, IV.</addName>
+            <addName>Enrico</addName>
+            <addName>Enrique IV rei de França 1553-1610</addName>
+            <addName>Enrique</addName>
+            <addName>Errico Francia, Rex, IV.</addName>
+            <addName>Errico</addName>
+            <addName>IV Heinrich</addName>
+            <addName>Heinrich, IV 4 koning van Frankrijk</addName>
+            <addName>Heinrich Frankreich, König, IV.</addName>
+            <addName>Heinrich IV 4 koning van Frankrĳk</addName>
+            <addName>Heinrich Navarra, König</addName>
+            <addName>Heinrich Navarra, König, III.</addName>
+            <addName>Heinrich Navarra,König, III.</addName>
+            <addName>Heinrich der Große</addName>
+            <addName>Heinricus Frankreich, König, IV.</addName>
+            <addName>Heinricus</addName>
+            <addName>IV Hendrik</addName>
+            <addName>Hendrik</addName>
+            <addName>Hendrik IV 4</addName>
+            <addName>Henri IV</addName>
+            <addName>Henri IV King of France</addName>
+            <addName>Henri IV roi de France 1553-1610.</addName>
+            <addName>Henri IV.</addName>
+            <addName>Henri Navarra, Roi, III.</addName>
+            <addName>Henri Navarre, Roi</addName>
+            <addName>Henri Navarre, Roi, III.</addName>
+            <addName>Henri de Bourbon, roi de Navarre</addName>
+            <addName>Henri de Navarre</addName>
+            <addName>Henri le Grand</addName>
+            <addName>Henrico Francia et Navarra, Re, IV.</addName>
+            <addName>Henrico</addName>
+            <addName>Henricus Francia et Navarra, Rex, IV.</addName>
+            <addName>Henricus Francia, Rex, IV.</addName>
+            <addName>Henricus Franckreich, König, IV.</addName>
+            <addName>Henricus Frankreich, König</addName>
+            <addName>Henricus Frankreich, König, IV.</addName>
+            <addName>Henricus Gallia et Navarra, Rex, IV.</addName>
+            <addName>Henricus Gallia, Rex, IV.</addName>
+            <addName>Henricus IIII Galliæ &amp; Navarræ Rex Christianissimus</addName>
+            <addName>Henricus IIII.</addName>
+            <addName>Henricus Magnus</addName>
+            <addName>Henricus Navarra et Gallia, Rex, IV.</addName>
+            <addName>Henricus Navarra, Rex</addName>
+            <addName>Henricus Navarra, Rex, IV.</addName>
+            <addName>Henricus Borbonius IV. Rex Galliarum</addName>
+            <addName>Henricus Borbonius</addName>
+            <addName>IV Henry</addName>
+            <addName>Henry France, King, IV.</addName>
+            <addName>Henry France, Roi, IV.</addName>
+            <addName>Henry France, Roy, IV.</addName>
+            <addName>Henry III rei de Navarra 1553-1610</addName>
+            <addName>Henry IV</addName>
+            <addName>Henry IV king of France</addName>
+            <addName>Henry IV rei de França 1553-1610</addName>
+            <addName>Henry IV. König von Frankreich</addName>
+            <addName>Henry Navarre, Roi</addName>
+            <addName>Henry le Grand</addName>
+            <addName>Henry roi de Navarre</addName>
+            <addName>Henry the Great</addName>
+            <addName>Henry IV. ^König ^von Frankreich</addName>
+            <addName>Henryk III z Nawarry</addName>
+            <addName>Henryk IV Bourbon</addName>
+            <addName>Navarre</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Sirletti , Flavio</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300402</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300402">Flavius Sirlet<addName type="display">Sirletti , Flavio</addName>
+            <addName>Flavio Sirletti</addName>
+            <addName>Flavius Sirlet</addName>
+            <addName>Sirlet</addName>
+            <addName>Flavius Sirleto</addName>
+            <addName>Sirleto</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Apollon</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00542641</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00542641"
+                   key="#PND:118503642">Apoll<addName type="display">Apollon</addName>
+            <addName>Apoll</addName>
+            <addName>Apollo</addName>
+            <addName>Phoebus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Herakles</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00574918</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00574918"
+                   key="#PND:118639552">Hercules<addName type="display">Herakles</addName>
+            <addName>Ercole</addName>
+            <addName>Heracles</addName>
+            <addName>Hercules</addName>
+            <addName>Herkules</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Bacchus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00579062</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00579062"
+                   key="#PND:118651439">Bachus<addName type="display">Bacchus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Laokoon</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00556829</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00556829"
+                   key="#PND:118569651">Laokoon<addName type="display">Laokoon</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Somerset , Henry  (5th Duke of Beaufort)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300345</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300345">Mylord Beauford<addName type="display">Somerset , Henry  (5th Duke of Beaufort)</addName>
+            <addName>Henry  Somerset</addName>
+            <addName>Beauford Mylord</addName>
+            <addName>Beauford</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Costanzi , Thomas</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300258</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300258">Thomaso Constanzi<addName type="display">Costanzi , Thomas</addName>
+            <addName>Thomas Costanzi</addName>
+            <addName>Thomaso Constanzi</addName>
+            <addName>Constanzi</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Costanzi , Johann</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300257</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300257">Giovanni<addName type="display">Costanzi , Johann</addName>
+            <addName>Johann Costanzi</addName>
+            <addName>Giovanni Constanzi</addName>
+            <addName>Constanzi</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Costanzi , Carlo</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300256</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300256">Carlo<addName type="display">Costanzi , Carlo</addName>
+            <addName>Carlo Costanzi</addName>
+            <addName>Carlo Constanzi</addName>
+            <addName>Constanzi</addName>
+            <addName>Carlo Costangis</addName>
+            <addName>Costangis</addName>
+            <addName>Costanzi</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Habsburg, Maria Theresia ¬von¬</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00929370</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00929370"
+                   key="#PND:118577867">Kayßerin Maria 
+                                             Theresia<addName type="display">Habsburg, Maria Theresia ¬von¬</addName>
+            <addName>Maria Theresia von Habsburg</addName>
+            <addName>Maria Teresa d'Asburgo, Empress of Austria</addName>
+            <addName>Maria Teresa</addName>
+            <addName>Maria Theresia Böhmen, Königin</addName>
+            <addName>Maria Theresia Empress of Austria</addName>
+            <addName>Maria Theresia Imperatrice</addName>
+            <addName>Maria Theresia Österreich, Königin</addName>
+            <addName>Maria Theresia Römisch-Deutsches Reich, Kaiserin</addName>
+            <addName>Maria Theresia Ungarn, Königin</addName>
+            <addName>Maria Theresia Österreich, Erzherzogin</addName>
+            <addName>Maria Theresia Österreich, Kaiserin</addName>
+            <addName>Theresia Augustissima</addName>
+            <addName>Theresia</addName>
+            <addName>Theresia Ungarn, Königin</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Benoît (XIV, pape)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00397457</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00397457"
+                   key="#PND:118655434">Benedictum XIV.<addName type="display">Benoît (XIV, pape)</addName>
+            <addName>XIV Benedictus</addName>
+            <addName>Benedetto XIV pape</addName>
+            <addName>Benedetto</addName>
+            <addName>Benedictus XIV pape</addName>
+            <addName>Prospero Lambertini</addName>
+            <addName>Lambertini</addName>
+            <addName>Bénoit Pontife, XIV.</addName>
+            <addName>Bénoit</addName>
+            <addName>Bénoit XIV.</addName>
+            <addName>Bénoit XIV.</addName>
+            <addName>Bénoit</addName>
+            <addName>XIV Benedetto</addName>
+            <addName>Benedetto, XIV 14 paus</addName>
+            <addName>Benedetto Papa, XIV.</addName>
+            <addName>Benedict Papa, XIV.</addName>
+            <addName>Benedict</addName>
+            <addName>Benedictus Papa, XIV</addName>
+            <addName>Benedictus XIV.</addName>
+            <addName>Benedikt Papa, XIV.</addName>
+            <addName>Benedito Papa, XIV.</addName>
+            <addName>Benedito</addName>
+            <addName>XIV=14 Benoît</addName>
+            <addName>Benoît Pape, XIV.</addName>
+            <addName>Benoît</addName>
+            <addName>Benoit Pape, XIV.</addName>
+            <addName>Benoit</addName>
+            <addName>Benoit Pope, XIV.</addName>
+            <addName>Prosper Lambertini</addName>
+            <addName>Prospero L. Lambertini</addName>
+            <addName>Prosperus Lambertinus</addName>
+            <addName>Lambertinus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Petrus (Apostel)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00396091</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00396091"
+                   key="#PND:118593323">Petri<addName type="display">Petrus (Apostel)</addName>
+            <addName>Peter the Apostle, Saint</addName>
+            <addName>Peter</addName>
+            <addName>Piotr święty</addName>
+            <addName>Piotr</addName>
+            <addName>Kefas</addName>
+            <addName>Kephas</addName>
+            <addName>Kēfā Apostolus</addName>
+            <addName>Kēfā</addName>
+            <addName>Kēfā Apostolus</addName>
+            <addName>Kēfā</addName>
+            <addName>Petros Apostel</addName>
+            <addName>Petros</addName>
+            <addName>Petros Apostolos</addName>
+            <addName>Petros Aṙak'yal</addName>
+            <addName>Petros Märtyrer</addName>
+            <addName>Petros Märtyrer</addName>
+            <addName>Petros der Fels</addName>
+            <addName>Petrus Bischof</addName>
+            <addName>Petrus Papa</addName>
+            <addName>Petrus Papa, I.</addName>
+            <addName>Petrus Papst</addName>
+            <addName>Petrus Sanctus</addName>
+            <addName>Pierre Apôtre</addName>
+            <addName>Pierre</addName>
+            <addName>Pierre Apôtre</addName>
+            <addName>Pierre Saint</addName>
+            <addName>Pseudo-Petrus Apostel</addName>
+            <addName>Pseudo-Petrus</addName>
+            <addName>Pseudo-Petrus Apostolus</addName>
+            <addName>Simon Kefas</addName>
+            <addName>Simon</addName>
+            <addName>Simon Kephas</addName>
+            <addName>Simon Petrus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Paulus (Apostel)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01266644</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01266644"
+                   key="#PND:118641549">Pauli<addName type="display">Paulus (Apostel)</addName>
+            <addName>Šāûĺ Apostolus</addName>
+            <addName>Šāûĺ</addName>
+            <addName>Pablo San</addName>
+            <addName>Pablo</addName>
+            <addName>Paolo di Tarso</addName>
+            <addName>Paolo</addName>
+            <addName>Paolo S.</addName>
+            <addName>Paul Apôtre</addName>
+            <addName>Paul</addName>
+            <addName>Paul Apostle</addName>
+            <addName>Paul de Tarse</addName>
+            <addName>Paul Saint</addName>
+            <addName>Paul St.</addName>
+            <addName>Paullus</addName>
+            <addName>Paulos</addName>
+            <addName>Paulus Apostolus, Pseudo-</addName>
+            <addName>Paulus Apostulus</addName>
+            <addName>Paulus Divus</addName>
+            <addName>Paulus Sanctus</addName>
+            <addName>Paulus Sardensis</addName>
+            <addName>Paulus St.</addName>
+            <addName>Paulus Theologe</addName>
+            <addName>Paulus von Tarsos</addName>
+            <addName>Paulus von Tarsus</addName>
+            <addName>Pavel Apostol</addName>
+            <addName>Pavel</addName>
+            <addName>Pavel Svatý</addName>
+            <addName>Pawel Swatý</addName>
+            <addName>Pawel</addName>
+            <addName>Phòil</addName>
+            <addName>Pól Aspal</addName>
+            <addName>Pól</addName>
+            <addName>Pseudo-Paulus Apostel</addName>
+            <addName>Pseudo-Paulus</addName>
+            <addName>Pseudo-Paulus Apostolus</addName>
+            <addName>Saulus</addName>
+            <addName>Saulus Apostolus</addName>
+            <addName>Saulus van Tarsis</addName>
+            <addName>Saulus van Tarsus</addName>
+            <addName>Saulus von Tarsus</addName>
+            <addName>Šā{́}ul Apostolus</addName>
+            <addName>Šā{́}ul</addName>
+            <addName>Tarsus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Antinous</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00578329</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00578329"
+                   key="#PND:118649639">Antinous<addName type="display">Antinous</addName>
+            <addName>Antinoos</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Medusa</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00543010</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00543010"
+                   key="#PND:118943936">Me- 
+                                             dusa Strozzi<addName type="display">Medusa</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Landi , Dominicus (von Stiappa)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300309</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300309">Domenico Landi<addName type="display">Landi , Dominicus (von Stiappa)</addName>
+            <addName>Dominicus Landi</addName>
+            <addName>Domenico Landi</addName>
+            <addName>Landi</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Alexander (Magnus)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259691</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01259691"
+                       key="#PND:118501828">Alexander M.<addName type="display">Alexander (Magnus)</addName>
+            <addName>Ałekʹsandr Makedonacʹi</addName>
+            <addName>Alejandro Magno</addName>
+            <addName>Alejandro</addName>
+            <addName>Aleksandr</addName>
+            <addName>Alessandro Magno</addName>
+            <addName>Alessandro</addName>
+            <addName>Alexander de Grote</addName>
+            <addName>Alexander der Große</addName>
+            <addName>Alexander der Grosse</addName>
+            <addName>Alexander Epistolographus</addName>
+            <addName>Alexander III 3 koning van Macedonië</addName>
+            <addName>Alexander Kaiser</addName>
+            <addName>Alexander Macedonia, Rex, III.</addName>
+            <addName>Alexander Macedonis</addName>
+            <addName>Alexander Mazedonien, König, III.</addName>
+            <addName>Alexander of Macedon</addName>
+            <addName>Alexander Rex</addName>
+            <addName>Alexandre le Grand</addName>
+            <addName>Alexandre</addName>
+            <addName>Alexandros</addName>
+            <addName>Alexandros der Große</addName>
+            <addName>Alexandru cel Mare</addName>
+            <addName>Alexandru</addName>
+            <addName>Alexandrus Magnus</addName>
+            <addName>Alexandrus</addName>
+            <addName>Megalexandros</addName>
+            <addName>Pseudo-Alexander Magnus</addName>
+            <addName>Pseudo-Alexander</addName>
+            <addName>Grote</addName>
+            <addName>Alexandros Megas</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Diodorus Siculus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00906246</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00906246"
+                       key="#PND:118679627">Diodor<addName type="display">Diodorus Siculus</addName>
+            <addName>Siculus Diodorus</addName>
+            <addName>Diodoro Siciliano</addName>
+            <addName>Diodoro</addName>
+            <addName>Diodorus Sicilianus</addName>
+            <addName>Diodo¯ros</addName>
+            <addName>Diodor</addName>
+            <addName>Diodor von Sicilien</addName>
+            <addName>Diodor von Sizilien</addName>
+            <addName>Diodor</addName>
+            <addName>Diodor Sicilian</addName>
+            <addName>Diodor Sicilijskij</addName>
+            <addName>Diodor von Agyrion</addName>
+            <addName>Diodore de Sicile</addName>
+            <addName>Diodore dA´gyrium</addName>
+            <addName>Diodore</addName>
+            <addName>Diodore d'Agyrium</addName>
+            <addName>Diodore dÁgyrium</addName>
+            <addName>Diodore Sicilien</addName>
+            <addName>Diodoro Sicolo</addName>
+            <addName>Diodoro Siculo</addName>
+            <addName>Diodoro de Sicilia</addName>
+            <addName>Diodoro di Agirio</addName>
+            <addName>Diodoro di Sicilia</addName>
+            <addName>Diodoro Sículo</addName>
+            <addName>Diodoro Sículo</addName>
+            <addName>Diodoros</addName>
+            <addName>Diodoros von Agyrion</addName>
+            <addName>Diodoros von Sizilien</addName>
+            <addName>Diodoros Siculus</addName>
+            <addName>Diodoros Sikelio¯tos</addName>
+            <addName>Diodoros Sikelios</addName>
+            <addName>Diodoros Sikeliotes</addName>
+            <addName>Diodoros Sikeliotos</addName>
+            <addName>Diodoros Sikiliac'i</addName>
+            <addName>Diodorus der Sicilier</addName>
+            <addName>Diodorus Historicus</addName>
+            <addName>Diodorus of Sicily</addName>
+            <addName>Diodorus Simlus</addName>
+            <addName>Diodorus the Sicilian</addName>
+            <addName>Diodorus Sicilus</addName>
+            <addName>Sicilus</addName>
+            <addName>Siculo</addName>
+            <addName>Siculus</addName>
+            <addName>Diodorus Sikeliote¯s</addName>
+            <addName>Sikeliote¯s</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

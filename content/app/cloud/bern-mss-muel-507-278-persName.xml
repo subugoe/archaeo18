@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Fede , Giuseppe (Conte)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300281</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300281">Conte Fede<addName type="display">Fede , Giuseppe (Conte)</addName>
+            <addName>Giuseppe Fede</addName>
+            <addName>Graf Fedé</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Le Gros, Pierre</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00410549</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00410549"
+                       key="#PND:120193752">Le Gros<addName type="display">Le Gros, Pierre</addName>
+            <addName>Pierre Le Gros</addName>
+            <addName>Pierre le Gros</addName>
+            <addName>Gros</addName>
+            <addName>Pierre LeGros</addName>
+            <addName>LeGros</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Kaunos</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01427477</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01427477">Caunus<addName type="display">Kaunos</addName>
+            <addName>Caunus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Byblis</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01427478</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01427478">Biblis<addName type="display">Byblis</addName>
+            <addName>Biblis</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Psyche (Literarische Gestalt)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00553935</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00553935"
+                       key="#PND:119362503">Psiche<addName type="display">Psyche (Literarische Gestalt)</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pandora</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300360</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300360">Pandora<addName type="display">Pandora</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Winckelmann, Johann Joachim</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00396916</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00396916"
+                       key="#PND:118633600">Winckelmann<addName type="display">Winckelmann, Johann Joachim</addName>
+            <addName>Johann Joachim Winckelmann</addName>
+            <addName>Ioann Vinkelman</addName>
+            <addName>Vinkelman</addName>
+            <addName>Ioann. Vinkelman</addName>
+            <addName>Jochan Joachim Vinkelman</addName>
+            <addName>Johann Vinkelmann</addName>
+            <addName>Vinkelmann</addName>
+            <addName>I. I. Vinkelʹman</addName>
+            <addName>Vinkelʹman</addName>
+            <addName>Iogann Ioachim Vinkelʹman</addName>
+            <addName>Iogann-Ioachim Vinkelʹman</addName>
+            <addName>Winckelman</addName>
+            <addName>Johann Joachim Winckelman</addName>
+            <addName>Winckelman abbé Johann Joachim</addName>
+            <addName>Winckelmann</addName>
+            <addName>G. G. Winckelmann</addName>
+            <addName>G.G. Winckelmann</addName>
+            <addName>Giovanni Winckelmann</addName>
+            <addName>Giovanni Gioacchino Winckelmann</addName>
+            <addName>J Winckelmann</addName>
+            <addName>J. J. Winckelmann</addName>
+            <addName>Jean Joachim Winckelmann</addName>
+            <addName>Jean-Joachim Winckelmann</addName>
+            <addName>Joachim Johann Winckelmann</addName>
+            <addName>Joh. Jac. Winckelmann</addName>
+            <addName>Johann Winckelmann</addName>
+            <addName>Johann J. Winckelmann</addName>
+            <addName>Winckelmann, Johann Joachim 1717-1768</addName>
+            <addName>Johannes Joachim Winckelmann</addName>
+            <addName>Jojannes Joachim Winckelmann</addName>
+            <addName>Johannes Winckelmannus</addName>
+            <addName>Winckelmannus</addName>
+            <addName>Johannes J. Winckelmannus</addName>
+            <addName>Johannes Joachimus Winckelmannus</addName>
+            <addName>Johan̄ Winckelman̄</addName>
+            <addName>Winckelman̄</addName>
+            <addName>Johann Joachim Winkelman</addName>
+            <addName>Winkelman</addName>
+            <addName>Winkelman abbé Johann Joachim</addName>
+            <addName>Winkelmann</addName>
+            <addName>Giovanni Winkelmann</addName>
+            <addName>Hans J. Winkelmann</addName>
+            <addName>Ioh. Winkelmann</addName>
+            <addName>Johann Winkelmann</addName>
+            <addName>Johann J. Winkelmann</addName>
+            <addName>Johann Joachim Winkelmann</addName>
+            <addName>Winkelmann 1717-1768</addName>
+            <addName>Winkelmann abbé Johann Joachim</addName>
+            <addName>Joannes Winkelmannus</addName>
+            <addName>Winkelmannus</addName>
+            <addName>Johann J. Winkelmannus</addName>
+            <addName>Johannes Joachimus Wynckelmann</addName>
+            <addName>Wynckelmann</addName>
+            <addName>Hans J. Wynkelmann</addName>
+            <addName>Wynkelmann</addName>
+            <addName>Johann J. Wynkelmann</addName>
+            <addName>Johann Joachim Wynkelmann</addName>
+            <addName>Yôhân Yo'akim Wînqelman</addName>
+            <addName>Wînqelman</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Amor</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00542364</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00542364"
+                       key="#PND:11850262X">Amor<addName type="display">Amor</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

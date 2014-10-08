@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/bauwerk/2103573</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/bauwerk/2103573">Monument vom Athleten Trasyllus</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:155924 http://arachne.uni-koeln.de/item/bauwerk/270095</link>
+      <count>6</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:155924 #http://arachne.uni-koeln.de/item/bauwerk/270095">Tempel der Diana</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-48.tei.xml-d7429e72">alte Dianenbild</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>ApellesAlexander (Magnus)Jupiter</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-48.tei.xml-d7429e215">
+            <persName ref="#CerlID:cnp00397365" key="#PND:118649787">Apelles<addName type="display">Apelles</addName>
+               <addName>Appelles</addName>
+               <addName>Apelle</addName>
+               <addName>Apelles von Kolophon</addName>
+            </persName> Gemälde von <persName ref="#CerlID:cnp01259691" key="#PND:118501828">Alexander<addName type="display">Alexander (Magnus)</addName>
+               <addName>Ałekʹsandr Makedonacʹi</addName>
+               <addName>Alejandro Magno</addName>
+               <addName>Alejandro</addName>
+               <addName>Aleksandr</addName>
+               <addName>Alessandro Magno</addName>
+               <addName>Alessandro</addName>
+               <addName>Alexander de Grote</addName>
+               <addName>Alexander der Große</addName>
+               <addName>Alexander der Grosse</addName>
+               <addName>Alexander Epistolographus</addName>
+               <addName>Alexander III 3 koning van Macedonië</addName>
+               <addName>Alexander Kaiser</addName>
+               <addName>Alexander Macedonia, Rex, III.</addName>
+               <addName>Alexander Macedonis</addName>
+               <addName>Alexander Mazedonien, König, III.</addName>
+               <addName>Alexander of Macedon</addName>
+               <addName>Alexander Rex</addName>
+               <addName>Alexandre le Grand</addName>
+               <addName>Alexandre</addName>
+               <addName>Alexandros</addName>
+               <addName>Alexandros der Große</addName>
+               <addName>Alexandru cel Mare</addName>
+               <addName>Alexandru</addName>
+               <addName>Alexandrus Magnus</addName>
+               <addName>Alexandrus</addName>
+               <addName>Megalexandros</addName>
+               <addName>Pseudo-Alexander Magnus</addName>
+               <addName>Pseudo-Alexander</addName>
+               <addName>Grote</addName>
+               <addName>Alexandros Megas</addName>
+            </persName> als <persName ref="#CerlID:cnp00554429" key="#PND:118558897">Jupiter<addName type="display">Jupiter</addName>
+               <addName>Iupiter</addName>
+               <addName>Juppiter</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+</tags>

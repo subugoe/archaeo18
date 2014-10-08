@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:160875 http://arachne.uni-koeln.de/item/objekt/5879</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:160875 #http://arachne.uni-koeln.de/item/objekt/5879">
+     
+                               die unter dem Pferde sich beuget</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://census.bbaw.de/easydb/censusID=160876</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0" ref="#CensusID:160876">ei- 
+                               ne andere Tochter die an ein Felsenstück 
+                               sich lehnet</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Oxford</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000265</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000265">
+            <placeName ref="#GettyID:7011931">Oxford<addName type="display">Oxford</addName>
+               <addName>Oxford</addName>
+               <addName>Oxonia</addName>
+               <addName>Oxeneford</addName>
+               <addName>juxta Oxeneford</addName>
+               <addName>juxta murum</addName>
+               <addName>Oxineford</addName>
+               <addName>Oxenaford</addName>
+               <addName>Oxnaford</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/24268</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/24268">der  
+                               Kopf einer Tochter</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:160877 http://arachne.uni-koeln.de/item/objekt/5878</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:160877 #http://arachne.uni-koeln.de/item/objekt/5878">eines  
+                               Sohnes sehr schön</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Algardi, Alessandro</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-164.tei.xml-d18007e208">Jn der <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000632">Wallmodishen 
+                                   Samlung</term> sind 2. schöne Köpfe von <persName ref="#CerlID:cnp00400934" key="#PND:118808761">Algardi<addName type="display">Algardi, Alessandro</addName>
+               <addName>Alessandro Algardi</addName>
+               <addName>Algarti</addName>
+               <addName>Aless. Algardi</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000632</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000632">Wallmodishen 
+                                   Samlung</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Berti</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-164.tei.xml-d18007e233">der Kopf der jüngsten Tochter von <persName ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-164.tei.xml-d18007e236">Berti</persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Villa Medicis</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/28323</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/28323">in der <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000435">Villa Medicis</term> selbst ist ein Sohn</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000435</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000435">Villa Medicis</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-164.tei.xml-d18007e252">eine Tochter</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/15890 http://arachne.uni-koeln.de/item/objekt/15891</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/15890 #http://arachne.uni-koeln.de/item/objekt/15891">Andere</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-164.tei.xml-d18007e454">Die iezige 
+                                   Gruppe</term>
+      </nodes>
+   </tag>
+</tags>

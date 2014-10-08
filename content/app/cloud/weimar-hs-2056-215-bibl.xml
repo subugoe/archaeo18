@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Herb: 131.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN656167483</link>
+      <count>8</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN656167483">Herb: 131.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Hor: Walpote Anecdotes of Painting.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN665297335</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN665297335">Hor: Walpote Anecdotes 
+                                            of Painting.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Englisch Connoisseur</tag>
+      <facet>tei:bibl</facet>
+      <link>http://www.archive.org/stream/englishconnoiss00martgoog%23page/n4/mode/1up</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://www.archive.org/stream/englishconnoiss00martgoog%23page/n4/mode/1up">Englisch Connoisseur</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Englisch Connoisseur p. 24.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://www.archive.org/stream/englishconnoiss00martgoog%23page/n39/mode/1up</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://www.archive.org/stream/englishconnoiss00martgoog%23page/n39/mode/1up">Englisch Connoisseur p. 24.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pinakcothe- ca hamptoniana by N. Dorigng. Fol:</tag>
+      <facet>tei:bibl</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#">Pinakcothe- 
+                                            ca hamptoniana by N. Dorigng. Fol:</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Connois. p. 147.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://www.archive.org/stream/englishconnoiss00martgoog%23page/n162/mode/1up</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://www.archive.org/stream/englishconnoiss00martgoog%23page/n162/mode/1up">Connois. p. 147.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Connoiss II. 195.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://opac.sub.uni-goettingen.de/DB=1/PPNSET?PPN=144631709</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://opac.sub.uni-goettingen.de/DB=1/PPNSET?PPN=144631709">Connoiss II. 195.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+</tags>

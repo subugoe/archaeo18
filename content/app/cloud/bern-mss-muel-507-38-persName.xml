@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Krösus (Lydien, König)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00557699</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00557699"
+                       key="#PND:119505266">Croesus<addName type="display">Krösus (Lydien, König)</addName>
+            <addName>Cresus Lydien, König</addName>
+            <addName>Cresus</addName>
+            <addName>Croesus Lydien, König</addName>
+            <addName>Croesus</addName>
+            <addName>Kroisos Lydien, König</addName>
+            <addName>Kroisos</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Kyros (Iran, König, II.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00556607</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00556607"
+                       key="#PND:118568426">Cyrus<addName type="display">Kyros (Iran, König, II.)</addName>
+            <addName>כורש</addName>
+            <addName>‏کوروش بزرگ‎</addName>
+            <addName>Kūruš</addName>
+            <addName>Kuraš</addName>
+            <addName>Kureš</addName>
+            <addName>Cyrus</addName>
+            <addName>Kyros der Grosse</addName>
+            <addName>Kyros II. König von Persien</addName>
+            <addName>Kyros Perserreich, König, II.</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Melas</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01427452</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01427452">Matas<addName type="display">Melas</addName>
+            <addName>Matas</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Anthermos</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01427444</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01427444">Anthermus<addName type="display">Anthermos</addName>
+            <addName>Anthermus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Bupalos</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01427445</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01427445">Bupalus<addName type="display">Bupalos</addName>
+            <addName>Bupalus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-38.tei.xml-d10901e135">Mährch</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Hipponax</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00981248</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00981248"
+                       key="#PND:118705156">Hyponax<addName type="display">Hipponax</addName>
+            <addName>Hipponactus</addName>
+            <addName>Hipponax d'Ephèse</addName>
+            <addName>Hipponax Dichter</addName>
+            <addName>Hipponax Ephesius</addName>
+            <addName>Hipponax Iambographus</addName>
+            <addName>Hipponax Jambograph</addName>
+            <addName>Hipponax of Ephesus</addName>
+            <addName>Hipponax von Ephesos</addName>
+            <addName>Hipponax von Klazomenai</addName>
+            <addName>Ipponatte</addName>
+            <addName>Ipponatte di Efeso</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Dipönos</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01427446</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01427446">Pypenus<addName type="display">Dipönos</addName>
+            <addName>Pypenus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Skyllis</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01427447</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01427447">Scyllis<addName type="display">Skyllis</addName>
+            <addName>Scyllis</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pausanias</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00396071</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00396071"
+                       key="#PND:118592246">pausanias<addName type="display">Pausanias</addName>
+            <addName>Pausania</addName>
+            <addName>Pausania il Periegeta</addName>
+            <addName>Pausanias Periegetos</addName>
+            <addName>Pausanias Damascenus</addName>
+            <addName>Pausanias de Magnésie</addName>
+            <addName>Pausanias de Magnésie</addName>
+            <addName>Pausanias der Perieget</addName>
+            <addName>Pausanias der Periegete</addName>
+            <addName>Pausanias Géographe</addName>
+            <addName>Pausanias Géographe</addName>
+            <addName>Pausanias Geographus</addName>
+            <addName>Pausanias Lydius</addName>
+            <addName>Pausanias Perieget</addName>
+            <addName>Pausanias Reiseschriftsteller</addName>
+            <addName>Pausanias Schriftsteller</addName>
+            <addName>Pauzanija</addName>
+            <addName>Periegeta</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Kypselos</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300263</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300263">Cypsilus<addName type="display">Kypselos</addName>
+            <addName>Cypselus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Bathykles</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00557947</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00557947"
+                       key="#PND:119514494">Bathycles<addName type="display">Bathykles</addName>
+            <addName>Bathykles von Magnesia</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

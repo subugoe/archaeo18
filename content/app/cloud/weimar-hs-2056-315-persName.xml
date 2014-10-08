@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Maxentius (Römisches Reich, Kaiser)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00586749</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00586749"
+                   key="#PND:118732145">Maxentio<addName type="display">Maxentius (Römisches Reich, Kaiser)</addName>
+            <addName>Marcus Aurelius Valerius Maxentius</addName>
+            <addName>Maxentius Imperium Romanum, Imperator</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Constantinus (Imperium Romanum, Imperator, I.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00945275</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00945275"
+                   key="#PND:118565184">Constantins<addName type="display">Constantinus (Imperium Romanum, Imperator, I.)</addName>
+            <addName>Aurelius Claudius</addName>
+            <addName>Claudius Valerius</addName>
+            <addName>Constantin der Große</addName>
+            <addName>Constantin</addName>
+            <addName>Constantin der Grosse</addName>
+            <addName>Constantin Empereur</addName>
+            <addName>Constantin Kaiser</addName>
+            <addName>Constantin Varsovie, Grand-Duc</addName>
+            <addName>Constantine Emperor, I.</addName>
+            <addName>Constantine</addName>
+            <addName>Constantine the Great</addName>
+            <addName>Flavius Valerius Constantinus Augustus</addName>
+            <addName>Constantinus Augustus</addName>
+            <addName>Flavius Valerius Constantinus</addName>
+            <addName>I. Constantinus</addName>
+            <addName>Constantinus, I. Imperator</addName>
+            <addName>Constantinus Constantinopolitanus</addName>
+            <addName>Constantinus der Große</addName>
+            <addName>Constantinus der Grosse</addName>
+            <addName>Constantinus Imperator</addName>
+            <addName>Constantinus Imperator, I.</addName>
+            <addName>Constantinus Magnus</addName>
+            <addName>Costantino il Grande</addName>
+            <addName>Costantino</addName>
+            <addName>Flavius Valerius</addName>
+            <addName>Konstantin Veliki</addName>
+            <addName>Konstantin den Stores</addName>
+            <addName>Konstantin der Große</addName>
+            <addName>Konstantin der Grosse</addName>
+            <addName>Konstantin Römisches Reich, Kaiser, I.</addName>
+            <addName>Konstantin Römischer Kaiser</addName>
+            <addName>Konstantinus Imperium Romanum, Imperator, I.</addName>
+            <addName>Konstantinus</addName>
+            <addName>Konstantyn de Groote</addName>
+            <addName>Konstantyn</addName>
+            <addName>Valerius Aurelis</addName>
+            <addName>Valerius Constantinus Augustus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Traianus, Marcus Ulpius</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00917510</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00917510"
+                   key="#PND:118623567">Tra- 
+                                    jani<addName type="display">Traianus, Marcus Ulpius</addName>
+            <addName>Marcus Ulpius Traianus</addName>
+            <addName>Traian</addName>
+            <addName>Traiano Imperatore</addName>
+            <addName>Traiano</addName>
+            <addName>Marcus U. Traianus</addName>
+            <addName>Traianus Epigrammaticus</addName>
+            <addName>Traianus Imperator</addName>
+            <addName>Traianus Romanus</addName>
+            <addName>Trajan Kaiser</addName>
+            <addName>Trajan Plinius-Korrespondent</addName>
+            <addName>Trajanus</addName>
+            <addName>Trajanus Imperator</addName>
+            <addName>Trajanus Imperium Romanum, Imperator</addName>
+            <addName>Ulpius Traianus</addName>
+            <addName>Ulpius</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

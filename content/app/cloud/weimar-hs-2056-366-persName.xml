@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00905629</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp00905629">Clemens XIII.</persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>François (France, Roi, I.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00951236</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00951236"
+                   key="#PND:118534947">Franz I.<addName type="display">François (France, Roi, I.)</addName>
+            <addName>Francisci I.</addName>
+            <addName>Marcus Antonius Coccius</addName>
+            <addName>Coccius</addName>
+            <addName>François I.</addName>
+            <addName>Francesco Francia, Re, I.</addName>
+            <addName>Francesco</addName>
+            <addName>François Frankreich, König, I.</addName>
+            <addName>Francis France, King, I.</addName>
+            <addName>Francis</addName>
+            <addName>Franciscus Valesius</addName>
+            <addName>Franciscus Francia, Rex, I.</addName>
+            <addName>Franciscus</addName>
+            <addName>Franciscus Frankreich, König, I.</addName>
+            <addName>Franciscus Gallia, Rex, I.</addName>
+            <addName>Franciscus I.</addName>
+            <addName>Francoys France, Roi, I.</addName>
+            <addName>Francoys</addName>
+            <addName>König von Frankreich Franz I.</addName>
+            <addName>Franz I.</addName>
+            <addName>Franz Frankreich, König, I.</addName>
+            <addName>Marco Antonio Sabellico</addName>
+            <addName>Sabellico</addName>
+            <addName>Franc̜ois de Valois</addName>
+            <addName>Valois</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Enric (rei de França, 1553-1610)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01260214</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01260214"
+                   key="#PND:118548174">Henrico 
+                                            IV.<addName type="display">Enric (rei de França, 1553-1610)</addName>
+            <addName>IV Henri</addName>
+            <addName>Henrich IV.</addName>
+            <addName>Arrigo Francia e Navarra, Re, IV.</addName>
+            <addName>Arrigo</addName>
+            <addName>Arrigo Francia, Re, IV.</addName>
+            <addName>Arrigo IV rei de França 1553-1610</addName>
+            <addName>Henry Bourbon</addName>
+            <addName>Bourbon</addName>
+            <addName>Enric III rei de Navarra 1553-1610</addName>
+            <addName>Enrico Francia, Re, IV.</addName>
+            <addName>Enrico</addName>
+            <addName>Enrique IV rei de França 1553-1610</addName>
+            <addName>Enrique</addName>
+            <addName>Errico Francia, Rex, IV.</addName>
+            <addName>Errico</addName>
+            <addName>IV Heinrich</addName>
+            <addName>Heinrich, IV 4 koning van Frankrijk</addName>
+            <addName>Heinrich Frankreich, König, IV.</addName>
+            <addName>Heinrich IV 4 koning van Frankrĳk</addName>
+            <addName>Heinrich Navarra, König</addName>
+            <addName>Heinrich Navarra, König, III.</addName>
+            <addName>Heinrich Navarra,König, III.</addName>
+            <addName>Heinrich der Große</addName>
+            <addName>Heinricus Frankreich, König, IV.</addName>
+            <addName>Heinricus</addName>
+            <addName>IV Hendrik</addName>
+            <addName>Hendrik</addName>
+            <addName>Hendrik IV 4</addName>
+            <addName>Henri IV</addName>
+            <addName>Henri IV King of France</addName>
+            <addName>Henri IV roi de France 1553-1610.</addName>
+            <addName>Henri IV.</addName>
+            <addName>Henri Navarra, Roi, III.</addName>
+            <addName>Henri Navarre, Roi</addName>
+            <addName>Henri Navarre, Roi, III.</addName>
+            <addName>Henri de Bourbon, roi de Navarre</addName>
+            <addName>Henri de Navarre</addName>
+            <addName>Henri le Grand</addName>
+            <addName>Henrico Francia et Navarra, Re, IV.</addName>
+            <addName>Henrico</addName>
+            <addName>Henricus Francia et Navarra, Rex, IV.</addName>
+            <addName>Henricus Francia, Rex, IV.</addName>
+            <addName>Henricus Franckreich, König, IV.</addName>
+            <addName>Henricus Frankreich, König</addName>
+            <addName>Henricus Frankreich, König, IV.</addName>
+            <addName>Henricus Gallia et Navarra, Rex, IV.</addName>
+            <addName>Henricus Gallia, Rex, IV.</addName>
+            <addName>Henricus IIII Galliæ &amp; Navarræ Rex Christianissimus</addName>
+            <addName>Henricus IIII.</addName>
+            <addName>Henricus Magnus</addName>
+            <addName>Henricus Navarra et Gallia, Rex, IV.</addName>
+            <addName>Henricus Navarra, Rex</addName>
+            <addName>Henricus Navarra, Rex, IV.</addName>
+            <addName>Henricus Borbonius IV. Rex Galliarum</addName>
+            <addName>Henricus Borbonius</addName>
+            <addName>IV Henry</addName>
+            <addName>Henry France, King, IV.</addName>
+            <addName>Henry France, Roi, IV.</addName>
+            <addName>Henry France, Roy, IV.</addName>
+            <addName>Henry III rei de Navarra 1553-1610</addName>
+            <addName>Henry IV</addName>
+            <addName>Henry IV king of France</addName>
+            <addName>Henry IV rei de França 1553-1610</addName>
+            <addName>Henry IV. König von Frankreich</addName>
+            <addName>Henry Navarre, Roi</addName>
+            <addName>Henry le Grand</addName>
+            <addName>Henry roi de Navarre</addName>
+            <addName>Henry the Great</addName>
+            <addName>Henry IV. ^König ^von Frankreich</addName>
+            <addName>Henryk III z Nawarry</addName>
+            <addName>Henryk IV Bourbon</addName>
+            <addName>Navarre</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Rascas de Bagarris, Pierre Antoine ¬de¬</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01002442</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01002442"
+                   key="#PND:10245678X">Senor de Bacoris<addName type="display">Rascas de Bagarris, Pierre Antoine ¬de¬</addName>
+            <addName>Pierre Antoine de Rascas de Bagarris</addName>
+            <addName>Bagarris</addName>
+            <addName>Petrus Rogoseus Bagarrius</addName>
+            <addName>Bagarrius</addName>
+            <addName>Pierre A. de Rascas de Bagarris</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>OrléansOrléans, Gaston ¬d'¬</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00403122</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00403122"
+                   key="#PND:119021048">Hertzogs Gastons von <placeName ref="#GettyID:7008337">Orleans<addName type="display">Orléans</addName>
+               <addName>Orléans</addName>
+               <addName>Orléons</addName>
+               <addName>Orleans</addName>
+               <addName>Aurelianum</addName>
+               <addName>Genabum</addName>
+               <addName>Aurelianense palatium</addName>
+               <addName>Auriliana civitas</addName>
+               <addName>Avrilanis civitas</addName>
+            </placeName>
+            <addName type="display">Orléans, Gaston ¬d'¬</addName>
+            <addName>Gaston d' Orléans</addName>
+            <addName>Gaston d' Orléans</addName>
+            <addName>Herzog von Orleans</addName>
+            <addName>... Orléans, Duc</addName>
+            <addName>...</addName>
+            <addName>Gasto Aurelianensis</addName>
+            <addName>Aurelianensis</addName>
+            <addName>Gasto</addName>
+            <addName>Gaston Jean Baptiste Orléans, Duc</addName>
+            <addName>Gaston Jean Baptiste</addName>
+            <addName>Gaston Jean Baptiste Orléans, Duc</addName>
+            <addName>Gaston Jean-Baptiste Orléans, Duc</addName>
+            <addName>Gaston Jean-Baptiste</addName>
+            <addName>Gaston Jean-Baptiste Orléans, Duc</addName>
+            <addName>Gaston Aurelianensis</addName>
+            <addName>Gaston</addName>
+            <addName>Gaston de France</addName>
+            <addName>Gaston de Francia</addName>
+            <addName>Gaston d'Orléans</addName>
+            <addName>Gaston d'Orléans</addName>
+            <addName>Gaston Orléans, Duc</addName>
+            <addName>Gaston Orléans, Herzog</addName>
+            <addName>Gaston Orléans, Duc</addName>
+            <addName>Gaston Orléans, Herzog</addName>
+            <addName>Gaston Jean Baptiste d' Orléans</addName>
+            <addName>Gaston Jean-Baptiste d' Orléans</addName>
+            <addName>Gaston Jean Baptiste d' Orléans</addName>
+            <addName>Gaston Jean-Baptiste d' Orléans</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Louis (France, Roi, XIV.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259882</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01259882"
+                   key="#PND:118816829 118816829">Ludwig XIV.<addName type="display">Louis (France, Roi, XIV.)</addName>
+            <addName>Leon van Arragon</addName>
+            <addName>Leon</addName>
+            <addName>Lewis France, King, XIV.</addName>
+            <addName>Lewis</addName>
+            <addName>Ljudovik XIV</addName>
+            <addName>Ljudovik</addName>
+            <addName>XIV Lodewijk</addName>
+            <addName>Lodewijk, XIV 14 koning van Frankrijk</addName>
+            <addName>Lodewijk</addName>
+            <addName>Lodewĳk XIV 14 koning van Frankrĳk</addName>
+            <addName>Lodewĳk</addName>
+            <addName>Louis France, King, XIV.</addName>
+            <addName>Louis France, Roi, XIIII.</addName>
+            <addName>Louis France-Navarra, Roi, XIV.</addName>
+            <addName>Louis Frankreich, König, XIV.</addName>
+            <addName>Louis Vrankryk en Navarre, Koning, XIV.</addName>
+            <addName>Louis Vrankryk, Koning, XIV.</addName>
+            <addName>Louis XIV.</addName>
+            <addName>Louis le Grand</addName>
+            <addName>Louis XIV</addName>
+            <addName>Louys France, Roi, XIV.</addName>
+            <addName>Louys</addName>
+            <addName>Louys August France, Roi, XIV.</addName>
+            <addName>Louys August</addName>
+            <addName>Loys France, Roi, XIV.</addName>
+            <addName>Loys</addName>
+            <addName>Ludewig Frankreich, König, XIV.</addName>
+            <addName>Ludewig</addName>
+            <addName>Ludovici XIV.</addName>
+            <addName>Ludovici</addName>
+            <addName>Magnus Ludovicus</addName>
+            <addName>Ludovicus</addName>
+            <addName>Ludovicus Francia et Navarra, Rex, XIV.</addName>
+            <addName>Ludovicus Francia, Rex, XIV.</addName>
+            <addName>Ludovicus Franckreich, König, XIV.</addName>
+            <addName>Ludovicus Frankreich, König, XIV.</addName>
+            <addName>Ludovicus Frankreich, König, XIV</addName>
+            <addName>Ludovicus Frankreich, König, XIV.</addName>
+            <addName>Ludovicus Gallia et Navarra, Rex, XIV.</addName>
+            <addName>Ludovicus Gallia, Rex, XIV.</addName>
+            <addName>Ludovicus Magnus</addName>
+            <addName>Ludovicus XIV.</addName>
+            <addName>XIV Ludwig</addName>
+            <addName>Ludwig, XIV 14 koning van Frankrijk</addName>
+            <addName>Ludwig Franckreich, König, XIV.</addName>
+            <addName>Ludwig Frankreich, König, XIV.</addName>
+            <addName>Ludwig König, XIV.</addName>
+            <addName>Ludwig Sonnenkönig</addName>
+            <addName>Ludwig XIV 14 koning van Frankrĳk</addName>
+            <addName>Ludwig der Große</addName>
+            <addName>Ludwig" Frankreich, König, XIV.</addName>
+            <addName>Ludwig"</addName>
+            <addName>XIV Luigi</addName>
+            <addName>Luigi, XIV 14 koning van Frankrijk</addName>
+            <addName>Luigi</addName>
+            <addName>Luigi Francia, Re, XIV.</addName>
+            <addName>Luigi XIV 14 koning van Frankrĳk</addName>
+            <addName>Luis France, Roi, XIV.</addName>
+            <addName>Luis</addName>
+            <addName>Roi Soleil</addName>
+            <addName>Sonnenkönig</addName>
+            <addName>Sun King</addName>
+            <addName>De Zonnekoning</addName>
+            <addName>Zonnekoning</addName>
+            <addName>Anjou Hertog van</addName>
+            <addName>Anjou</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Louvois, François-Michel Le Tellier ¬de¬</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00112095</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00112095"
+                   key="#PND:100194109">Marquis de 
+                                            Louvois<addName type="display">Louvois, François-Michel Le Tellier ¬de¬</addName>
+            <addName>François-Michel Le Tellier de Louvois</addName>
+            <addName>François-Michel Le Tellier de Louvois</addName>
+            <addName>Louvais</addName>
+            <addName>Louvois Marquis de</addName>
+            <addName>François Michel de Chaville</addName>
+            <addName>Chaville</addName>
+            <addName>François Michel Le Tellier de Louvois</addName>
+            <addName>Le Tellier de Louvois</addName>
+            <addName>François Michel Le Tellier de Louvois</addName>
+            <addName>François Michel LeTellier de Louvois</addName>
+            <addName>LeTellier de Louvois</addName>
+            <addName>François-Michel LeTellier de Louvois</addName>
+            <addName>François Michel LeTellier de Louvois</addName>
+            <addName>François-Michel LeTellier de Louvois</addName>
+            <addName>François Michel LeTellier de Louvais</addName>
+            <addName>François-Michel LeTellier de Louvais</addName>
+            <addName>François Michel LeTellier de Louvais</addName>
+            <addName>François-Michel LeTellier de Louvais</addName>
+            <addName>de Louvois</addName>
+            <addName>Louvois,  de Margraf</addName>
+            <addName>François Michel de Louvois</addName>
+            <addName>François-Michel de Louvois</addName>
+            <addName>François M. de Louvois</addName>
+            <addName>François-Michel de Louvois</addName>
+            <addName>Francois Michel de Louvois</addName>
+            <addName>François Michel le Tellier de Louvois</addName>
+            <addName>Tellier de Louvois</addName>
+            <addName>François-Michel le Tellier de Louvois</addName>
+            <addName>François Michel le Tellier de Louvois</addName>
+            <addName>François-Michel le Tellier de Louvois</addName>
+            <addName>François-Michel de Louvois le Tellier</addName>
+            <addName>Tellier</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Harlay, Achille de</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00406736</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00406736"
+                   key="#PND:119555557">Præsidenten 
+                                                Harley<addName type="display">Harlay, Achille de</addName>
+            <addName>Achille de Harlay</addName>
+            <addName>Achille III de Harlay Beaumont</addName>
+            <addName>Beaumont, Achille III de Harlay comte de</addName>
+            <addName>Beaumont</addName>
+            <addName>Achille III de Harlay Grosbois</addName>
+            <addName>Grosbois, Achille III de Harlay seigneur de</addName>
+            <addName>Grosbois</addName>
+            <addName>Achille III de Harlay</addName>
+            <addName>Ashil Arle</addName>
+            <addName>Arle</addName>
+            <addName>Achille de Harlay Beaumont</addName>
+            <addName>Achille de Harlay Grosbois</addName>
+            <addName>Achille Harlay</addName>
+            <addName>Achilles de Harlay</addName>
+            <addName>Acilles de Harlay</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Oursel, François</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00613178</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00613178"
+                   key="#PND:129567957">Senor Oursel<addName type="display">Oursel, François</addName>
+            <addName>François Oursel</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Le Cointe , Thomas</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300255</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300255">Monsieur le Cointe<addName type="display">Le Cointe , Thomas</addName>
+            <addName>Thomas Le Cointe</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Toussaint Lauthier</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01303755</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01303755">St Lauthier<addName type="display">Toussaint Lauthier</addName>
+            <addName>St Lauthier</addName>
+            <addName>Lauthier</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Michel-Ange</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00559773</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00559773"
+                   key="#PND:118582143">Mich. Angelo<addName type="display">Michel-Ange</addName>
+            <addName>Michel-Ange Bonaroti</addName>
+            <addName>Bonaroti</addName>
+            <addName>Michel Agnolo Buonarroti</addName>
+            <addName>Buonarroti</addName>
+            <addName>Michel-Ange Buonarroti</addName>
+            <addName>Michelagniolo Buonarroti</addName>
+            <addName>Angelo Bonaroti</addName>
+            <addName>Angelo</addName>
+            <addName>Michiel Angielo Bona Rotta</addName>
+            <addName>Bona Rotta</addName>
+            <addName>Michael Angelus Bonarota</addName>
+            <addName>Bonarota</addName>
+            <addName>Michel Angelo Bonarota</addName>
+            <addName>Michael Angelo Bonaroti</addName>
+            <addName>Michael̈ Angelo Bonaroti</addName>
+            <addName>Michel Angelo Bonaroti</addName>
+            <addName>Michele Angelo Bonaroti</addName>
+            <addName>Michiel Angelo Bonaroti</addName>
+            <addName>Michael Angelus Bonarotus</addName>
+            <addName>Bonarotus</addName>
+            <addName>Michel Angelo Bunaroti</addName>
+            <addName>Bunaroti</addName>
+            <addName>Michael Angelo Buonaroti</addName>
+            <addName>Buonaroti</addName>
+            <addName>Michel Angelo Buonaroti</addName>
+            <addName>Michelangelo Buonaroti</addName>
+            <addName>Michiel Angelo Buonaroti</addName>
+            <addName>Michel Angelo Buonarotti</addName>
+            <addName>Buonarotti</addName>
+            <addName>Michel-Angelo Buonarotti</addName>
+            <addName>Michelangelo Buonarotti</addName>
+            <addName>Michel Angelo Buonarroti</addName>
+            <addName>Michelagniolo di L. Buonarroti</addName>
+            <addName>Michelagnolo Buonarroti</addName>
+            <addName>Buonarroti, Michelangelo 1475-1564</addName>
+            <addName>Michelangiolo Buonarroti</addName>
+            <addName>Mikelandželo Buonarroti</addName>
+            <addName>Michel A. Buonarrotti</addName>
+            <addName>Buonarrotti</addName>
+            <addName>Michel Agnolo Buonarrotti</addName>
+            <addName>Michelagniolo Buonarrotti</addName>
+            <addName>Michelangelo Buonarrotti</addName>
+            <addName>Michelangiolo Buonarrotti</addName>
+            <addName>Michelagnolo Buonarruoti</addName>
+            <addName>Buonarruoti</addName>
+            <addName>L' Impastato</addName>
+            <addName>Impastato</addName>
+            <addName>L' Impostato</addName>
+            <addName>Impostato</addName>
+            <addName>L'Impastato</addName>
+            <addName>L'Impostato</addName>
+            <addName>Micchel-Angelo</addName>
+            <addName>Micha/l Anio/l</addName>
+            <addName>Michael Angelo</addName>
+            <addName>Michael Angelus</addName>
+            <addName>Michael-Angelo Buonaroti</addName>
+            <addName>Michael-Angelo</addName>
+            <addName>Michał Anioł</addName>
+            <addName>Michel Angelo</addName>
+            <addName>Michel Angelus Bonarotus</addName>
+            <addName>Michel Angelus</addName>
+            <addName>Michel Angielo Bona Rotta</addName>
+            <addName>Michelagelo Buonarroti</addName>
+            <addName>Michelagelo</addName>
+            <addName>Michelagniolo Buonaroti</addName>
+            <addName>Michelagniolo</addName>
+            <addName>Michelagniolo di Ludovico di Lionardo Buonarroti-Simoni</addName>
+            <addName>Michelagniolo di Ludovico di Lionardo di Buonarroti Simoni</addName>
+            <addName>Michelagnolo</addName>
+            <addName>Michelagnolo Buonarotti</addName>
+            <addName>Michelangelo</addName>
+            <addName>Buonarroti Michelangelo</addName>
+            <addName>Michelangelo Buonarroti 1475-1564</addName>
+            <addName>Michelangelus</addName>
+            <addName>Buonarroti Michelangiolo</addName>
+            <addName>Michelangiolo</addName>
+            <addName>Michiel Angielo</addName>
+            <addName>Miguel Angel</addName>
+            <addName>Mikel'andželo</addName>
+            <addName>Mikelandelo</addName>
+            <addName>Mikelandželo</addName>
+            <addName>Mikelandželo Buonarroti</addName>
+            <addName>Mikelandželo</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Thubières, Anne Claude Philippe ¬de¬</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01099958</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01099958">Graf Caylus<addName type="display">Thubières, Anne Claude Philippe ¬de¬</addName>
+            <addName>Anne Claude Philippe de Thubières</addName>
+            <addName>Caylus Graf</addName>
+            <addName>Caylus</addName>
+            <addName>Thubières, Anne Claude Philippe de Comte de Caylus</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/rezeption/300767</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/rezeption/300767">7.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-164.tei.xml-d7165e28">27. 3.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-164.tei.xml-d7165e35">Bellonen</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/15233</link>
+      <count>4</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/15233">Mus. Cap. IV. tab. 26.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/19509</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/19509">T. 4.
+                                                    tab. 14.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:154331 http://arachne.uni-koeln.de/item/objekt/17554</link>
+      <count>4</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:154331 #http://arachne.uni-koeln.de/item/objekt/17554">16.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/130638 http://arachne.uni-koeln.de/item/objekt/130639 http://arachne.uni-koeln.de/item/objekt/130640 http://arachne.uni-koeln.de/item/objekt/130641 http://arachne.uni-koeln.de/item/objekt/130642 http://arachne.uni-koeln.de/item/objekt/130643 http://arachne.uni-koeln.de/item/objekt/130644</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/130638 #http://arachne.uni-koeln.de/item/objekt/130639 #http://arachne.uni-koeln.de/item/objekt/130640 #http://arachne.uni-koeln.de/item/objekt/130641 #http://arachne.uni-koeln.de/item/objekt/130642 #http://arachne.uni-koeln.de/item/objekt/130643 #http://arachne.uni-koeln.de/item/objekt/130644">Ercolano. T. II. No. 1.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Christina (koningin van Zweden)</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:159362 CensusID:159389 CensusID:159390 CensusID:159391 http://arachne.uni-koeln.de/item/objekt/11653 http://arachne.uni-koeln.de/item/objekt/11654 http://arachne.uni-koeln.de/item/objekt/11656 http://arachne.uni-koeln.de/item/objekt/11657 http://arachne.uni-koeln.de/item/objekt/11673 http://arachne.uni-koeln.de/item/objekt/11674 http://arachne.uni-koeln.de/item/objekt/11675 http://arachne.uni-koeln.de/item/objekt/11676</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:159362 #CensusID:159389 #CensusID:159390 #CensusID:159391 #http://arachne.uni-koeln.de/item/objekt/11653 #http://arachne.uni-koeln.de/item/objekt/11654 #http://arachne.uni-koeln.de/item/objekt/11656 #http://arachne.uni-koeln.de/item/objekt/11657 #http://arachne.uni-koeln.de/item/objekt/11673 #http://arachne.uni-koeln.de/item/objekt/11674 #http://arachne.uni-koeln.de/item/objekt/11675 #http://arachne.uni-koeln.de/item/objekt/11676">Suite der <persName ref="#CerlID:cnp01260633" key="#PND:118520652">Königin Christine<addName type="display">Christina (koningin van Zweden)</addName>
+               <addName>Cristina de Suecia</addName>
+               <addName>Cristina</addName>
+               <addName>Christiana Schweden, Königin</addName>
+               <addName>Christiana</addName>
+               <addName>Christina Alessandra Queen of Sweden</addName>
+               <addName>Christina Alessandra</addName>
+               <addName>Christina Alessandra Suecia, Regina</addName>
+               <addName>Christina Alexandra koningin van Zweden</addName>
+               <addName>Christina Alexandra</addName>
+               <addName>Christina Alexandra Schweden, Königin</addName>
+               <addName>Christina Alexandra van Zweden Koningin</addName>
+               <addName>Christina Augusta Schweden, Königin</addName>
+               <addName>Christina Augusta</addName>
+               <addName>Christina Gothorum, Vandalorum ac Suecorum Regina</addName>
+               <addName>Christina Regina</addName>
+               <addName>Christina Schweden, Königin</addName>
+               <addName>Christina Suecia, Regina</addName>
+               <addName>Christina Suecorum Regina</addName>
+               <addName>Christina Suecorum, Gothorum &amp; Vandalorum Regina</addName>
+               <addName>Christina Sverige, Drottning</addName>
+               <addName>Christina Sweden, Queen</addName>
+               <addName>Christina Swerige, Drotning</addName>
+               <addName>Christina van Zweden</addName>
+               <addName>Christina von Schweden</addName>
+               <addName>Christina Zweden, Koningin</addName>
+               <addName>Christine de Suede</addName>
+               <addName>Christine von Schweden</addName>
+               <addName>Christine de Suède</addName>
+               <addName>Christine de Suède</addName>
+               <addName>Christine Queen of Sweden</addName>
+               <addName>Christine Schweden, Königin</addName>
+               <addName>Christine Suède, Reine</addName>
+               <addName>Cristina di Svezia</addName>
+               <addName>Cristina Svezia, Regina</addName>
+               <addName>Kristina Schweden, Königin</addName>
+               <addName>Kristina Suecia, Regina</addName>
+               <addName>Kristina van Zweden</addName>
+               <addName>Kristina van Zweden Koningin</addName>
+               <addName>Kristina Wasa</addName>
+               <addName>Wasa</addName>
+               <addName>Kristina Koningin</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Nocchieri , M.</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-164.tei.xml-d7165e241">Apoll von<persName ref="#CerlID:cnp01300348">Naghieri<addName type="display">Nocchieri , M.</addName>
+               <addName>M. Nocchieri</addName>
+               <addName>Naghieri</addName>
+               <addName>Noahieri</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/20973</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/20973">1. No. 17.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/205186</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/205186">u. f.</term>
+      </nodes>
+   </tag>
+</tags>

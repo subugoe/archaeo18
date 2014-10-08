@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Bacchus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00579062</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00579062"
+                   key="#PND:118651439">Bachus<addName type="display">Bacchus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Faunus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00542358</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00542358"
+                   key="#PND:11892088X">Faun<addName type="display">Faunus</addName>
+            <addName>Faun</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Agamemnon</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00546214</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00546214"
+                   key="#PND:119059738">Agamemnon<addName type="display">Agamemnon</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Mazarin, Jules</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01099927</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01099927"
+                   key="#PND:132961903 118579703">
+            <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000181">Mazarini</term>
+            <addName type="display">Mazarin, Jules</addName>
+            <addName>Jules Mazarin</addName>
+            <addName>Giulio Mazarini</addName>
+            <addName>Marzarinus</addName>
+            <addName>Iulius Masarini</addName>
+            <addName>Masarini</addName>
+            <addName>Iulles Mazarein</addName>
+            <addName>Mazarein</addName>
+            <addName>Mazarin</addName>
+            <addName>Iules Mazarin</addName>
+            <addName>Iulle Mazarin</addName>
+            <addName>Jule Mazarin</addName>
+            <addName>Julius Mazarin</addName>
+            <addName>Julles Mazarin</addName>
+            <addName>Mazarin Cardinal</addName>
+            <addName>Mazarin Kardinal</addName>
+            <addName>Jules Mazarine</addName>
+            <addName>Mazarine</addName>
+            <addName>Džulio Mazarini</addName>
+            <addName>Giulo Mazarini</addName>
+            <addName>Guilio Mazarini</addName>
+            <addName>Iulius Mazarini</addName>
+            <addName>Jules Mazarini</addName>
+            <addName>Julio Mazarini</addName>
+            <addName>Julius Mazarini</addName>
+            <addName>Mazarini Cardinalis</addName>
+            <addName>Jules Mazarinns</addName>
+            <addName>Mazarinns</addName>
+            <addName>Giulio Raimondo Mazarino</addName>
+            <addName>Mazarino</addName>
+            <addName>Iulius Mazarinus</addName>
+            <addName>Mazarinus</addName>
+            <addName>Jul. Mazarinus</addName>
+            <addName>Julius Mazarinus</addName>
+            <addName>Mazarinus Cardinalis</addName>
+            <addName>Julio Mazerino</addName>
+            <addName>Mazerino</addName>
+            <addName>Giulio Mazzarini</addName>
+            <addName>Mazzarini</addName>
+            <addName>Iulius Mazzarini</addName>
+            <addName>Julius Mazzarini</addName>
+            <addName>Mazzarino</addName>
+            <addName>Giulio Mazzarino</addName>
+            <addName>Giulio R. Mazzarino</addName>
+            <addName>Giulio Raimondo Mazzarino</addName>
+            <addName>Guilio Mazzarino</addName>
+            <addName>Jules Mazzarino</addName>
+            <addName>Iulius Mazzarinus</addName>
+            <addName>Mazzarinus</addName>
+            <addName>Julius Mazzarinus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Proserpina</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00544230</link>
+      <count>6</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00544230"
+                   key="#PND:11851122X">Proser-  
+                                     pinæ<addName type="display">Proserpina</addName>
+            <addName>Kore</addName>
+            <addName>Persephone</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pluton</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300374</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300374">Pluto<addName type="display">Pluton</addName>
+            <addName>Pluto</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Merkur</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00575540</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00575540"
+                   key="#PND:118641077">Merckur<addName type="display">Merkur</addName>
+            <addName>Mercurius</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Ceres (Göttin)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00540610</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00540610"
+                   key="#PND:118862294">Ceres<addName type="display">Ceres (Göttin)</addName>
+            <addName>Demeter</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Juno</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00589422</link>
+      <count>6</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00589422"
+                   key="#PND:118800574">Pronuba<addName type="display">Juno</addName>
+            <addName>Cupra</addName>
+            <addName>Pronuba</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

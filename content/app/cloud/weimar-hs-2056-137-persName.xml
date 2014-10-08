@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Curtius , Marcus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300262</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300262">Curtius<addName type="display">Curtius , Marcus</addName>
+            <addName>Marcus Curtius</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Bernini, Gian Lorenzo</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00543952</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00543952"
+                   key="#PND:118509926">Cavalliere Bernini<addName type="display">Bernini, Gian Lorenzo</addName>
+            <addName>Gian Lorenzo Bernini</addName>
+            <addName>Gianlorenzo Bernin</addName>
+            <addName>Bernin</addName>
+            <addName>Gian L. Bernini</addName>
+            <addName>Gianlorenzo Bernini</addName>
+            <addName>Giovanni L. Bernini</addName>
+            <addName>Giovanni Lorenzo Bernini</addName>
+            <addName>Jean Laurent Bernini</addName>
+            <addName>Laurentius Bernini</addName>
+            <addName>Lorenzo Bernini</addName>
+            <addName>Giovanni Lorenzo Bernino</addName>
+            <addName>Bernino</addName>
+            <addName>Joans. Laurentius Berninus</addName>
+            <addName>Berninus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Louis (France, Roi, XIV.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259882</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01259882"
+                   key="#PND:118816829 118816829">Ludwig 
+                            XIV.<addName type="display">Louis (France, Roi, XIV.)</addName>
+            <addName>Leon van Arragon</addName>
+            <addName>Leon</addName>
+            <addName>Lewis France, King, XIV.</addName>
+            <addName>Lewis</addName>
+            <addName>Ljudovik XIV</addName>
+            <addName>Ljudovik</addName>
+            <addName>XIV Lodewijk</addName>
+            <addName>Lodewijk, XIV 14 koning van Frankrijk</addName>
+            <addName>Lodewijk</addName>
+            <addName>Lodewĳk XIV 14 koning van Frankrĳk</addName>
+            <addName>Lodewĳk</addName>
+            <addName>Louis France, King, XIV.</addName>
+            <addName>Louis France, Roi, XIIII.</addName>
+            <addName>Louis France-Navarra, Roi, XIV.</addName>
+            <addName>Louis Frankreich, König, XIV.</addName>
+            <addName>Louis Vrankryk en Navarre, Koning, XIV.</addName>
+            <addName>Louis Vrankryk, Koning, XIV.</addName>
+            <addName>Louis XIV.</addName>
+            <addName>Louis le Grand</addName>
+            <addName>Louis XIV</addName>
+            <addName>Louys France, Roi, XIV.</addName>
+            <addName>Louys</addName>
+            <addName>Louys August France, Roi, XIV.</addName>
+            <addName>Louys August</addName>
+            <addName>Loys France, Roi, XIV.</addName>
+            <addName>Loys</addName>
+            <addName>Ludewig Frankreich, König, XIV.</addName>
+            <addName>Ludewig</addName>
+            <addName>Ludovici XIV.</addName>
+            <addName>Ludovici</addName>
+            <addName>Magnus Ludovicus</addName>
+            <addName>Ludovicus</addName>
+            <addName>Ludovicus Francia et Navarra, Rex, XIV.</addName>
+            <addName>Ludovicus Francia, Rex, XIV.</addName>
+            <addName>Ludovicus Franckreich, König, XIV.</addName>
+            <addName>Ludovicus Frankreich, König, XIV.</addName>
+            <addName>Ludovicus Frankreich, König, XIV</addName>
+            <addName>Ludovicus Frankreich, König, XIV.</addName>
+            <addName>Ludovicus Gallia et Navarra, Rex, XIV.</addName>
+            <addName>Ludovicus Gallia, Rex, XIV.</addName>
+            <addName>Ludovicus Magnus</addName>
+            <addName>Ludovicus XIV.</addName>
+            <addName>XIV Ludwig</addName>
+            <addName>Ludwig, XIV 14 koning van Frankrijk</addName>
+            <addName>Ludwig Franckreich, König, XIV.</addName>
+            <addName>Ludwig Frankreich, König, XIV.</addName>
+            <addName>Ludwig König, XIV.</addName>
+            <addName>Ludwig Sonnenkönig</addName>
+            <addName>Ludwig XIV 14 koning van Frankrĳk</addName>
+            <addName>Ludwig der Große</addName>
+            <addName>Ludwig" Frankreich, König, XIV.</addName>
+            <addName>Ludwig"</addName>
+            <addName>XIV Luigi</addName>
+            <addName>Luigi, XIV 14 koning van Frankrijk</addName>
+            <addName>Luigi</addName>
+            <addName>Luigi Francia, Re, XIV.</addName>
+            <addName>Luigi XIV 14 koning van Frankrĳk</addName>
+            <addName>Luis France, Roi, XIV.</addName>
+            <addName>Luis</addName>
+            <addName>Roi Soleil</addName>
+            <addName>Sonnenkönig</addName>
+            <addName>Sun King</addName>
+            <addName>De Zonnekoning</addName>
+            <addName>Zonnekoning</addName>
+            <addName>Anjou Hertog van</addName>
+            <addName>Anjou</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Cincinnatus, Lucius Quinctius</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00583167</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00583167"
+                   key="#PND:124874576">Quintus Cincinnatus<addName type="display">Cincinnatus, Lucius Quinctius</addName>
+            <addName>Lucius Quinctius Cincinnatus</addName>
+            <addName>Quinticus Cincinnatus</addName>
+            <addName>Lucio Quinzio Cincinnato</addName>
+            <addName>Cincinnato</addName>
+            <addName>Quinctius Cincinnatus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Plinius Secundus, C.</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01238749</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01238749"
+                   key="#PND:118595083">Plinius<addName type="display">Plinius Secundus, C.</addName>
+            <addName>C. Plinius Secundus</addName>
+            <addName>Caius Plinius Secundus</addName>
+            <addName>Gaius Plinius Secundus</addName>
+            <addName>C. Plinio Secondo</addName>
+            <addName>C. Plinius Secundus veronensis</addName>
+            <addName>C. Plynius Secundus</addName>
+            <addName>Caio Plinio Secondo</addName>
+            <addName>Caio Plinio veronese</addName>
+            <addName>Caius Plinius Secundus Major</addName>
+            <addName>Cajus Plinius Secundus</addName>
+            <addName>G. Plinio Secondo</addName>
+            <addName>Pline</addName>
+            <addName>Pline</addName>
+            <addName>Caius Pline</addName>
+            <addName>Pline l'Ancien</addName>
+            <addName>Pline l'ancien</addName>
+            <addName>Pline lA´ncien</addName>
+            <addName>Pline le Naturaliste</addName>
+            <addName>Pline lÁncien</addName>
+            <addName>C. Pline Second</addName>
+            <addName>Pline Second</addName>
+            <addName>Pline l'Ancien 23-79</addName>
+            <addName>Plinij</addName>
+            <addName>Plinio</addName>
+            <addName>Gaio Secondo Plinio</addName>
+            <addName>Plinio Napoletano</addName>
+            <addName>Plinio el Viejo</addName>
+            <addName>Plinio il Vecchio</addName>
+            <addName>Plinio il vecchio</addName>
+            <addName>Plinio Secondo</addName>
+            <addName>Gaio Plinio Secondo</addName>
+            <addName>Caio Plinio Secundo</addName>
+            <addName>Plinio Secundo</addName>
+            <addName>Cayo Plinio Segundo</addName>
+            <addName>Plinio Segundo</addName>
+            <addName>Plinio il vecchio/C. Plinius Secundus</addName>
+            <addName>Plinius</addName>
+            <addName>C. Plinius</addName>
+            <addName>Caius Plinius</addName>
+            <addName>Caius Secundus Plinius</addName>
+            <addName>Plinius Florentino-Pragensis</addName>
+            <addName>Plinius Florentinus-Pragensis</addName>
+            <addName>Plinius Maior</addName>
+            <addName>Plinius Major</addName>
+            <addName>Plinius Rerum Naturalium Scriptor</addName>
+            <addName>Plinius Senior</addName>
+            <addName>Plinius der Ältere</addName>
+            <addName>Plinius starší</addName>
+            <addName>Plinius Secundus</addName>
+            <addName>C Plinius Secundus</addName>
+            <addName>Plinius Secundus, Caius Major</addName>
+            <addName>Plinius Secundus, Gaius Maior</addName>
+            <addName>Gajus Plinius Secundus</addName>
+            <addName>Plinius Secundus Maior</addName>
+            <addName>Plinius Secundus der Ältere</addName>
+            <addName>C. Plinius Secundus Maior</addName>
+            <addName>Plinius Secundus Novocomenis</addName>
+            <addName>Plinius d. Ä.</addName>
+            <addName>Pliniusz</addName>
+            <addName>K. Starszy Pliniusz</addName>
+            <addName>Pliniusz Starszy</addName>
+            <addName>Pliniusz Starszy K.</addName>
+            <addName>Plinjusz</addName>
+            <addName>Caius Plynius Secundus</addName>
+            <addName>Plynius Secundus</addName>
+            <addName>Gaius Plynius Secundus</addName>
+            <addName>Caius P. Secundus</addName>
+            <addName>Secundus</addName>
+            <addName>Gaius P. Secundus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Jason</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00554107</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00554107"
+                   key="#PND:118557092">Iason<addName type="display">Jason</addName>
+            <addName>Iason</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Juno</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00589422</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00589422"
+                   key="#PND:118800574">Juno<addName type="display">Juno</addName>
+            <addName>Cupra</addName>
+            <addName>Pronuba</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Marius, Gaius (Feldherr)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00558750</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00558750"
+                   key="#PND:118577956">Marius<addName type="display">Marius, Gaius (Feldherr)</addName>
+            <addName>Gaius Marius</addName>
+            <addName>Marius, Gaius Römisches Reich, Konsul, 156 v. Chr.-86 v. Chr.</addName>
+            <addName>Marius</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

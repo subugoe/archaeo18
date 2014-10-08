@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Lycurgus</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/20965</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/20965">
+            <persName ref="#CerlID:cnp00944349" key="#PND:118575546">Lycurg<addName type="display">Lycurgus</addName>
+               <addName>Lycurgue</addName>
+               <addName>Licurgo</addName>
+               <addName>Lycurgue d'Athènes</addName>
+               <addName>Lykurg</addName>
+               <addName>Lykurgos</addName>
+               <addName>Licurgo di Atene</addName>
+               <addName>Licurgo Uomo Politico</addName>
+               <addName>Lycurgue d'Athènes</addName>
+               <addName>Lycurgus Redner</addName>
+               <addName>Lykourgos</addName>
+               <addName>Lykurg Redner</addName>
+               <addName>Lykurg von Athen</addName>
+               <addName>Lykurgos Attischer Politiker</addName>
+               <addName>Lykurgos Attischer Redner</addName>
+               <addName>Lykurgos Schüler des Isokrates</addName>
+               <addName>Lykurgos Schüler Platons</addName>
+               <addName>Lykurgos Sohn des Lykophron</addName>
+               <addName>Lykurgos von Athen</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/10243</link>
+      <count>4</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/10243">Stuart ruins of Athens
+                                        T. 2. t. 42.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/20997</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/20997">Clem. 6. t. 29.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Alkibiades</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/19565</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/19565">
+            <persName ref="#CerlID:cnp00542131" key="#PND:118501739">Alcibiades<addName type="display">Alkibiades</addName>
+               <addName>Alcibiades</addName>
+            </persName> stand eine Statue in Villa Mathæi
+                                als Fechter ergänzt</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/20985</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/20985">6. 31.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Aspasia (Milesia)</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/21011</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/21011">
+            <persName ref="#CerlID:cnp00397391" key="#PND:118650718">Aspasia<addName type="display">Aspasia (Milesia)</addName>
+               <addName>Aspasia Epigrammatica</addName>
+               <addName>Aspasia Gattin des Perikles</addName>
+               <addName>Aspasia von Milet</addName>
+            </persName>
+                                als Herme</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>DemosthenesTerracinaEspaña</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-135.tei.xml-d12573e268">
+            <persName ref="#CerlID:cnp00394563" key="#PND:118524658">Demosthenes<addName type="display">Demosthenes</addName>
+               <addName>Dēmosthenēs</addName>
+               <addName>Dēmosthenus</addName>
+               <addName>Démosthène</addName>
+               <addName>Démosthène dÁthènes</addName>
+               <addName>Démosthène dÁthènes</addName>
+               <addName>Démosthène Orateur</addName>
+               <addName>Démosthene</addName>
+               <addName>Dēmosthenus</addName>
+               <addName>Démosthène</addName>
+               <addName>Démosthène dÁthènes</addName>
+               <addName>Démosthène Orateur</addName>
+               <addName>Démosthene</addName>
+               <addName>Demostene</addName>
+               <addName>Demostene di Peania</addName>
+               <addName>Demostene Oratore</addName>
+               <addName>Demostenes</addName>
+               <addName>Demosthenes Atheniensis</addName>
+               <addName>Demosthenes Attischer Redner</addName>
+               <addName>Demosthenes Orator</addName>
+               <addName>Demosthenes Politiker</addName>
+               <addName>Demosthenes Pseudo-</addName>
+               <addName>Demosthenes Redner</addName>
+               <addName>Demosthenes Rhetor</addName>
+               <addName>Demosthenes Sohn des Demosthenes</addName>
+               <addName>Demosthenes von Athen</addName>
+               <addName>Demosthenes von Paiania</addName>
+               <addName>Demosthenus</addName>
+               <addName>Pseudo-Demosthenes</addName>
+            </persName>. Eine zu <placeName ref="#GettyID:7006704">Terracina<addName type="display">Terracina</addName>
+               <addName>Terracina</addName>
+               <addName>Tarracina</addName>
+               <addName>Anxur</addName>
+            </placeName> in <placeName ref="#GettyID:1000095">Spanien<addName type="display">España</addName>
+               <addName>España</addName>
+               <addName>Reino de España</addName>
+               <addName>Estado Español</addName>
+               <addName>Spain</addName>
+               <addName>Kingdom of Spain</addName>
+               <addName>Spanish State</addName>
+               <addName>Espagne</addName>
+               <addName>Royaume d'Espagne</addName>
+               <addName>Spanien</addName>
+               <addName>Spanje</addName>
+               <addName>Espanha</addName>
+               <addName>Spagna</addName>
+               <addName>ESP</addName>
+               <addName>ES</addName>
+               <addName>ISO724</addName>
+               <addName>SP00</addName>
+               <addName>Hispana</addName>
+               <addName>Hispania</addName>
+               <addName>Iberia</addName>
+               <addName>Spanish</addName>
+            </placeName> gefundne
+                                    Büste mit dessen Namen</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/34935 http://arachne.uni-koeln.de/item/objekt/34936</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/34935 #http://arachne.uni-koeln.de/item/objekt/34936">Bronci d' Erc.
+                                            t. 53. 11. 12.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/20989</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/20989">6. tab. 37.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/16037</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/16037">1. 32.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-135.tei.xml-d12573e452">Relief in Terra cotta,</term>
+      </nodes>
+   </tag>
+</tags>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Aurelian (Römisches Reich, Kaiser)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00578940</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00578940"
+                   key="#PND:11865117X">Aurelians<addName type="display">Aurelian (Römisches Reich, Kaiser)</addName>
+            <addName>Lucius Domitius Aurelianus</addName>
+            <addName>Aurelianus</addName>
+            <addName>Aurelianus Imperium Romanum, Imperator</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-320.tei.xml-d6571e108">Tib. Claud. Faven- 
+                                     tinus i. D.</persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Aurelius Antoninus, Marcus (Emperor of Rome)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259662</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01259662"
+                   key="#PND:118577468">M. Aurels<addName type="display">Aurelius Antoninus, Marcus (Emperor of Rome)</addName>
+            <addName>Marcus Aurelius Antoninus</addName>
+            <addName>Marcus Annius Verus</addName>
+            <addName>Annius Verus</addName>
+            <addName>Marc Antonin</addName>
+            <addName>Antonin</addName>
+            <addName>Marcus Antonin</addName>
+            <addName>Mark Avrelij Antonin</addName>
+            <addName>Marc Aurelio Antonino</addName>
+            <addName>Antonino</addName>
+            <addName>Marco Aurelio Antonino</addName>
+            <addName>Markos Antoninos Autokrator</addName>
+            <addName>Antoninos Autokrator</addName>
+            <addName>Marcus Antoninus</addName>
+            <addName>Antoninus</addName>
+            <addName>Marcus A. Antoninus</addName>
+            <addName>Antoninus, Marcus Aurelius Emperor of Rome</addName>
+            <addName>Antoninus, Marcus Aurelius Imperium Romanum, Imperator</addName>
+            <addName>Marcus Antonius</addName>
+            <addName>Antonius</addName>
+            <addName>Marcus Annius Verus Antonius</addName>
+            <addName>Marcus Aurelius Antonius</addName>
+            <addName>Marc Aurèle</addName>
+            <addName>Aurèle</addName>
+            <addName>Marc- Aurèle</addName>
+            <addName>Marc Aurel</addName>
+            <addName>Aurel</addName>
+            <addName>Marco Aurelio</addName>
+            <addName>Aurelio</addName>
+            <addName>Aurelius</addName>
+            <addName>Aurelius, Marcus Emperor of Rome</addName>
+            <addName>Aurelius, Marcus Imperium Romanum, Imperator</addName>
+            <addName>Marc Antonin Empereur</addName>
+            <addName>Marc Antonin Empire Romain, Empereur</addName>
+            <addName>Marc Aurèle Antonin Empire Romain, Empereur</addName>
+            <addName>Marc Aurèle Antonin</addName>
+            <addName>Marc Aurèle Empereur</addName>
+            <addName>Marc Aurèle</addName>
+            <addName>Marc Aurele Antonin Empereur</addName>
+            <addName>Marc Aurele Antonin</addName>
+            <addName>Marc</addName>
+            <addName>Marc-Aurèle</addName>
+            <addName>Marc-Aurèle</addName>
+            <addName>Marc-Aurèle de Rome</addName>
+            <addName>Marc-Aurele</addName>
+            <addName>Marco</addName>
+            <addName>Marco Aurelio Antonous</addName>
+            <addName>Marco Filosofo Stoico</addName>
+            <addName>Marco Imperatore Romano</addName>
+            <addName>Marcus Annius Catilius Severus</addName>
+            <addName>Marcus Annius</addName>
+            <addName>Marcus Antoninus Emperor of Rome</addName>
+            <addName>Marcus Antoninus Imperator</addName>
+            <addName>Marcus Antoninus Imperium Romanum, Imperator</addName>
+            <addName>Marcus Antoninus Philosophus</addName>
+            <addName>Marcus Antonius Imperium Romanum, Imperator</addName>
+            <addName>Marcus Aurelius Antoninus Emperor of Rome</addName>
+            <addName>Marcus Aurelius Antoninus Imperator</addName>
+            <addName>Marcus Aurelius Antoninus Philosophus</addName>
+            <addName>Marcus Aurelius Antoninus Römisches Reich, Kaiser</addName>
+            <addName>Antoninus Marcus Aurelius</addName>
+            <addName>Marcus Aurelius Imperium Romanum, Imperator</addName>
+            <addName>Marcus Aurelius Kaiser</addName>
+            <addName>Marcus Aurelius Philosoph</addName>
+            <addName>Marcus Aurelius Philosophus</addName>
+            <addName>Marcus</addName>
+            <addName>Marcus Aurel</addName>
+            <addName>Marcus Aurelius Severus Antoninus</addName>
+            <addName>Mark Anthony Imperium Romanum, Imperator</addName>
+            <addName>Mark Anthony</addName>
+            <addName>Mark Aurel Römisches Reich, Kaiser</addName>
+            <addName>Mark-Aurel</addName>
+            <addName>Markos Antōninos</addName>
+            <addName>Markos Antōninos Autokratōr</addName>
+            <addName>Markos Antoninos Emperor of Rome</addName>
+            <addName>Markos Antoninos</addName>
+            <addName>Markos Antōnios</addName>
+            <addName>Markos</addName>
+            <addName>Markos Antōnios</addName>
+            <addName>Marqus ʾAvrelyus ʾAnṭoninus</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

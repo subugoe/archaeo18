@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Vespasian (Römisches Reich, Kaiser)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00984011</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00984011"
+                   key="#PND:11862671X">Vespasian<addName type="display">Vespasian (Römisches Reich, Kaiser)</addName>
+            <addName>Titus Flavius Vespasianus</addName>
+            <addName>Caesar Vespasianus Augustus</addName>
+            <addName>Caesar Vespasianus</addName>
+            <addName>Flavius Vespasianus</addName>
+            <addName>Titus Flavius Vespasian</addName>
+            <addName>Vespasian Imperator</addName>
+            <addName>Vespasian Kaiser</addName>
+            <addName>Vespasian Römisches Reich, Kaiser</addName>
+            <addName>Vespasiano Imperatore</addName>
+            <addName>Vespasiano</addName>
+            <addName>Vespasien Empereur</addName>
+            <addName>Vespasien</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Caligula (Imperium Romanum, Imperator)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00984012</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00984012"
+                   key="#PND:118518410">Caligula<addName type="display">Caligula (Imperium Romanum, Imperator)</addName>
+            <addName>Gaius Iulius Caligula Caesar Germanicus</addName>
+            <addName>Caesar Germanicus</addName>
+            <addName>Gaius Caligula Iulius Caesar Germanicus</addName>
+            <addName>Caligula Iulius Caesar Germanicus</addName>
+            <addName>Caius Caligula</addName>
+            <addName>Gaius Caligula</addName>
+            <addName>Caligula Römischer Kaiser</addName>
+            <addName>Gaius Iulius Caesar Germanicus</addName>
+            <addName>Germanicus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Barberini (Familie)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01098876</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01098876"
+                   key="#PND:132850303">Barberini<addName type="display">Barberini (Familie)</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Cunego, Domenico</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00463378</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00463378"
+                   key="#PND:123091063">Cunego<addName type="display">Cunego, Domenico</addName>
+            <addName>Domenico Cunego</addName>
+            <addName>D. Cunego</addName>
+            <addName>Domin. Cunego</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

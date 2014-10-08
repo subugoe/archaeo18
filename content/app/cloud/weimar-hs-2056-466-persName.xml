@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Roma (Göttin)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00564206</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00564206"
+                   key="#PND:118602381">Dea Roma<addName type="display">Roma (Göttin)</addName>
+            <addName>Rom Göttin</addName>
+            <addName>Rom</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Demetrios (von Alopeke)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300270</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300270">Demetrius<addName type="display">Demetrios (von Alopeke)</addName>
+            <addName>Demetrius</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Diana</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00584638</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00584638"
+                   key="#PND:118678132">Diana Ephesia<addName type="display">Diana</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Domitien (empereur romain)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00397834</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00397834"
+                   key="#PND:118672231">Domitianus<addName type="display">Domitien (empereur romain)</addName>
+            <addName>Titus Flavius Domitianus</addName>
+            <addName>Domitian Kaiser</addName>
+            <addName>Gaius Flavius Domitianus</addName>
+            <addName>Domitianus Kaiser</addName>
+            <addName>Domitianus Römischer Kaiser</addName>
+            <addName>Domizian Römisches Reich, Kaiser</addName>
+            <addName>Domizian</addName>
+            <addName>Flavius Domitianus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Endymion</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01303729</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01303729">Endymion<addName type="display">Endymion</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

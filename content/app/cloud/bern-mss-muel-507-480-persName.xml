@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Sandrart, Joachim ¬von¬</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00400507</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00400507"
+                       key="#PND:118794396">Sandrart<addName type="display">Sandrart, Joachim ¬von¬</addName>
+            <addName>Joachim von Sandrart</addName>
+            <addName>Der Gemeinnützige</addName>
+            <addName>Gemeinnützige</addName>
+            <addName>Joachim Sandrard</addName>
+            <addName>Sandrard</addName>
+            <addName>Joachimus de Sandrart à Stockau</addName>
+            <addName>Sandrart à Stockau</addName>
+            <addName>Joachimus de Sandrart à Stockau</addName>
+            <addName>Sandrart à Stockau</addName>
+            <addName>Joachim von Sandrart auf Stockau</addName>
+            <addName>Sandrart auf Stockau</addName>
+            <addName>Joachimus de Sandrart in Stockau</addName>
+            <addName>Sandrart in Stockau</addName>
+            <addName>Gioachino di Sandrart</addName>
+            <addName>J. Sandrart</addName>
+            <addName>Joachim Sandrart</addName>
+            <addName>Joachim Jacob von Sandrart</addName>
+            <addName>Sandrart, Joachim von der Ältere</addName>
+            <addName>Joachimus à Sandrart</addName>
+            <addName>Joachimus à Sandrart</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

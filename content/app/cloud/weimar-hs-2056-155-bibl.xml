@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Mon: ined: Trat: prel. 56.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://dfg-viewer.de/v2/?set[image]=84&amp;set[mets]=http%3A%2F%2Fgdz.sub.uni-goettingen.de%2Fmets_export.php%3FPPN%3DPPN636563235&amp;set[zoom]=default&amp;set[debug]=0&amp;set[double]=0&amp;set[style]=</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://dfg-viewer.de/v2/?set[image]=84&amp;set[mets]=http%3A%2F%2Fgdz.sub.uni-goettingen.de%2Fmets_export.php%3FPPN%3DPPN636563235&amp;set[zoom]=default&amp;set[debug]=0&amp;set[double]=0&amp;set[style]=">Mon: ined:  
+                                 Trat: prel. 56.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Ovids. Art. Amat: II. 613.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://d-nb.info/gnd/4139610-8</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://d-nb.info/gnd/4139610-8">Ovids. Art. Amat: II. 613.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Lipperts Dactyliothec I. 240.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/lippert1767bd1/0159</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/lippert1767bd1/0159">Lipperts Dactyliothec I. 240.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Stat: di Venez. II.19.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/zanetti1743bd2/0039</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/zanetti1743bd2/0039">Stat: di Venez. II.<term ref="#http://arachne.uni-koeln.de/item/objekt/22209">19.</term>
+            </ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Mus: Capit: III.19.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/item/buchseite/5735</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://arachne.uni-koeln.de/item/buchseite/5735">Mus: Capit:  
+                                III. <term ref="#CensusID:10009124 #http://arachne.uni-koeln.de/item/objekt/15954">19.</term>
+            </ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Thomasin 27.</tag>
+      <facet>tei:bibl</facet>
+      <link/>
+      <count>4</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#">Thomasin 27.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+</tags>

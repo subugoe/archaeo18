@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Baumgartens Vorrede zu van Hoghe.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://dfg-viewer.de/v2?set[mets]=http%3A%2F%2Fgdz.sub.uni-goettingen.de%2Fmets_export.php%3FPPN%3DPPN497825848&amp;set[image]=39</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://dfg-viewer.de/v2?set[mets]=http%3A%2F%2Fgdz.sub.uni-goettingen.de%2Fmets_export.php%3FPPN%3DPPN497825848&amp;set[image]=39">Baumgartens 
+            Vorrede zu van Hoghe.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Kircheri Oedipus Aegyptiacus.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/kircher1652ga</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/kircher1652ga">Kircheri Oedipus Aegyptiacus.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pluche histoire du Ciel</tag>
+      <facet>tei:bibl</facet>
+      <link>http://www.zvdd.de/dms/load/met/?PPN=urn%3Anbn%3Ade%3Abvb%3A12-bsb10435225-6</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://www.zvdd.de/dms/load/met/?PPN=urn%3Anbn%3Ade%3Abvb%3A12-bsb10435225-6">Pluche 
+            histoire du Ciel</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Warburtous divine legat. of Moses. /: IV. Colond. 1758:/ To. II. P. 1. 1. B. 4. S. 4. p: 905: 1009.</tag>
+      <facet>tei:bibl</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#">Warburtous divine legat. of Moses. 
+            /: IV. Colond. 1758:/ To. II. P. 1. 1. B. 4. S. 4. p: 905: 1009.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+</tags>

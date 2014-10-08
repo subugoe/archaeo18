@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Nürnberg</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7004334</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7004334">Nürnberg<addName type="display">Nürnberg</addName>
+            <addName>Nürnberg</addName>
+            <addName>Nuremberg</addName>
+            <addName>Noremburg</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>France</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=1000070</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:1000070">Franckreich<addName type="display">France</addName>
+            <addName>France</addName>
+            <addName>République française</addName>
+            <addName>République Française</addName>
+            <addName>French Republic</addName>
+            <addName>Francia</addName>
+            <addName>Frankreich</addName>
+            <addName>Frankrijk</addName>
+            <addName>França</addName>
+            <addName>FRA</addName>
+            <addName>FR</addName>
+            <addName>ISO250</addName>
+            <addName>FR00</addName>
+            <addName>Gaule</addName>
+            <addName>Gaul</addName>
+            <addName>Gallia</addName>
+            <addName>French</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Portugal</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=1000090</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:1000090">Portugall<addName type="display">Portugal</addName>
+            <addName>Portugal</addName>
+            <addName>República Portuguesa</addName>
+            <addName>Republica Portuguesa</addName>
+            <addName>Portuguese Republic</addName>
+            <addName>Republic of Portugal</addName>
+            <addName>République portugaise</addName>
+            <addName>PRT</addName>
+            <addName>PT</addName>
+            <addName>ISO620</addName>
+            <addName>PO00</addName>
+            <addName>Lusitania</addName>
+            <addName>Portuguese</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Dresden</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7004455</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7004455">Dreßden<addName type="display">Dresden</addName>
+            <addName>Dresden</addName>
+            <addName>Dresde</addName>
+            <addName>Ďrežd'ane</addName>
+            <addName>Drezdane</addName>
+            <addName>Drezdzany</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+</tags>

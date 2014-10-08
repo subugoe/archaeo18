@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>KybelePessinus</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-248.tei.xml-d16805e450">Tempel der <persName ref="#CerlID:cnp00575273" key="#PND:118640283">Cybele<addName type="display">Kybele</addName>
+               <addName>Cybele</addName>
+            </persName> zu <placeName ref="#GettyID:6004655">Pesselus<addName type="display">Pessinus</addName>
+               <addName>Pessinus</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Dioskuren</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-248.tei.xml-d16805e477">
+            <persName ref="#CerlID:cnp00543824" key="#PND:118973878">Dioscuren<addName type="display">Dioskuren</addName>
+               <addName>Castor und Pollux</addName>
+               <addName>Kastor und Pollux</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>DianaEphesus</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/typus/84</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/typus/84">
+            <persName ref="#CerlID:cnp00584638" key="#PND:118678132">Diana<addName type="display">Diana</addName>
+            </persName> zu <placeName ref="#GettyID:7002499">Ephesus<addName type="display">Ephesus</addName>
+               <addName>Ephesus</addName>
+               <addName>Ephesos</addName>
+               <addName>Ephèse</addName>
+               <addName>Efes</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+</tags>

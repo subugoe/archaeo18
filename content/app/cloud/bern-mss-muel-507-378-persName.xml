@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Needham, John Turberville</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00884315</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00884315"
+                       key="#PND:11754941X">Nerd heim<addName type="display">Needham, John Turberville</addName>
+            <addName>John Turberville Needham</addName>
+            <addName>T. N.</addName>
+            <addName>N., T. John Turberville Needham</addName>
+            <addName>N.</addName>
+            <addName>John T. Needham</addName>
+            <addName>John Tuberville Needham</addName>
+            <addName>Turbenvill Needham</addName>
+            <addName>Turbervill Needham</addName>
+            <addName>Turberville Needham</addName>
+            <addName>Needham M. de John Turberville</addName>
+            <addName>T. N. John Turberville Needham</addName>
+            <addName>T.N. John Turberville Needham</addName>
+            <addName>T.N.</addName>
+            <addName>Tuberville Needham</addName>
+            <addName>John Tuberville</addName>
+            <addName>Tuberville</addName>
+            <addName>John Needham Tuberville</addName>
+            <addName>John Turberville</addName>
+            <addName>Turberville</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Homer</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259620</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01259620"
+                       key="#PND:11855333X">Homer<addName type="display">Homer</addName>
+            <addName>Gomer</addName>
+            <addName>Hūmīrūs</addName>
+            <addName>Hūmar</addName>
+            <addName>Hūmir</addName>
+            <addName>Hōmar</addName>
+            <addName>Hômêrôs</addName>
+            <addName>Homère</addName>
+            <addName>Homēros</addName>
+            <addName>Homérosz</addName>
+            <addName>Homēros</addName>
+            <addName>Homère</addName>
+            <addName>Homere</addName>
+            <addName>Homero</addName>
+            <addName>Homeros</addName>
+            <addName>Homeros Tragiker</addName>
+            <addName>Homerosi</addName>
+            <addName>Homerus Colophonius</addName>
+            <addName>Homerus Colophonus</addName>
+            <addName>Homerus Dramatiker</addName>
+            <addName>Homerus Epicus</addName>
+            <addName>Omēros</addName>
+            <addName>Omero</addName>
+            <addName>Omiros</addName>
+            <addName>Pseudo-Homerus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Di Carpegna, Gaspero</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00515242</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00515242"
+                       key="#PND:128869828">Cardinal Carpenga<addName type="display">Di Carpegna, Gaspero</addName>
+            <addName>Gaspero Di Carpegna</addName>
+            <addName>Gasparo Carpegna</addName>
+            <addName>Cardinal Carpegna</addName>
+            <addName>Caspare Carpegna</addName>
+            <addName>Gaspare Carpegna</addName>
+            <addName>Gaspero di Carpegna</addName>
+            <addName>Gaspare de Carpegna</addName>
+            <addName>Carpineus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Cavaceppi, Bartolomeo</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00404698</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00404698"
+                       key="#PND:119217597">Cavaceppi<addName type="display">Cavaceppi, Bartolomeo</addName>
+            <addName>Bartolomeo Cavaceppi</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

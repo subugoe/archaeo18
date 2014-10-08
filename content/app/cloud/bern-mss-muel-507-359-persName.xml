@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Bibiana (Heilige)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01288207</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01288207">Bibiana<addName type="display">Bibiana (Heilige)</addName>
+            <addName>Bibiena</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Urban (Papst, VIII.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01262515</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01262515"
+                       key="#PND:118625586">Urban VIII.<addName type="display">Urban (Papst, VIII.)</addName>
+            <addName>Maffaeus Barberini</addName>
+            <addName>Barberini</addName>
+            <addName>Maffeo Barberini</addName>
+            <addName>Maffeo Vincenzo Barberini</addName>
+            <addName>Barberini, Maffeo Vincenzo 1568-1644</addName>
+            <addName>Maphaeus Barberini</addName>
+            <addName>Maffeo Barberino</addName>
+            <addName>Barberino</addName>
+            <addName>Maffaeus Barberinus</addName>
+            <addName>Barberinus</addName>
+            <addName>Maffeus Barberinus</addName>
+            <addName>Maphaeus Barberinus</addName>
+            <addName>Maphaeus Cardinalis</addName>
+            <addName>Maphaeus</addName>
+            <addName>Urbain Pape, VIII.</addName>
+            <addName>Urbain</addName>
+            <addName>Urbain VIII 8</addName>
+            <addName>Urbain VIII pape 1568-1644</addName>
+            <addName>Urban Papa, VIII.</addName>
+            <addName>Urban VIII 8</addName>
+            <addName>Urban VIII pope</addName>
+            <addName>Urbano VIII</addName>
+            <addName>Urbano</addName>
+            <addName>Urbano VIII papa 1568-1644</addName>
+            <addName>Urbano VIII al secolo Maffeo Barberini</addName>
+            <addName>Urbano VIII papa</addName>
+            <addName>Urbanus Pontifex Maximus, VIII.</addName>
+            <addName>Urbanus VIII Pope</addName>
+            <addName>Urbanus VIII papa 1568-1644</addName>
+            <addName>Urbanus VIII papa 1568-1644.</addName>
+            <addName>Urbanus VIII</addName>
+            <addName>Urbanus VIII papa</addName>
+            <addName>Vrbano VIII</addName>
+            <addName>Vrbano</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-359.tei.xml-d20193e136">Habacuc</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Daniel (Prophet)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00584667</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00584667"
+                       key="#PND:118678752">Daniel<addName type="display">Daniel (Prophet)</addName>
+            <addName>Daniel Prophète</addName>
+            <addName>Danīēl han-Nābī</addName>
+            <addName>Danīēl</addName>
+            <addName>Daniel Prophète</addName>
+            <addName>Danihel Propheta</addName>
+            <addName>Danihel</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Longinus (Heiliger)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00542877</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00542877"
+                       key="#PND:118939343">Longin<addName type="display">Longinus (Heiliger)</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Johannes (Apostolus)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00395354</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00395354"
+                       key="#PND:118557815">Johannes<addName type="display">Johannes (Apostolus)</addName>
+            <addName>Iehan Saint</addName>
+            <addName>Iehan</addName>
+            <addName>Iehan Theéologien</addName>
+            <addName>Jehan Saint</addName>
+            <addName>Jehan</addName>
+            <addName>Jehan Théologien</addName>
+            <addName>Giovanni Apostolo</addName>
+            <addName>Giovanni</addName>
+            <addName>Giovanni San</addName>
+            <addName>Hovhannes Aṙak'yal</addName>
+            <addName>Hovhannes</addName>
+            <addName>Iōannēs</addName>
+            <addName>Ioann Bogoslov</addName>
+            <addName>Ioann</addName>
+            <addName>Ioannes Apostolus</addName>
+            <addName>Ioannes</addName>
+            <addName>Ioannes Evangelista</addName>
+            <addName>Ioannes Theologos</addName>
+            <addName>Iohannes Evangelista</addName>
+            <addName>Iohannes</addName>
+            <addName>Iohin</addName>
+            <addName>Iōannēs Apostolos</addName>
+            <addName>Iōannēs</addName>
+            <addName>János Apostol</addName>
+            <addName>János</addName>
+            <addName>János Apostol</addName>
+            <addName>János</addName>
+            <addName>Jean Évangéliste</addName>
+            <addName>Jean</addName>
+            <addName>Jean Apôtre</addName>
+            <addName>Jean Apostolus</addName>
+            <addName>Jean Saint</addName>
+            <addName>Joan Sant</addName>
+            <addName>Joan</addName>
+            <addName>Joannes Apostolus</addName>
+            <addName>Joannes</addName>
+            <addName>Joannes Evangelista</addName>
+            <addName>Joannes Sanctus</addName>
+            <addName>Joannis</addName>
+            <addName>Jochanan</addName>
+            <addName>Johannes Apostel</addName>
+            <addName>Johannes Ben-Zebedäus</addName>
+            <addName>Johannes Ben-Zebedäus</addName>
+            <addName>Johannes der Täufer</addName>
+            <addName>Johannes Evangelista</addName>
+            <addName>Johannes Heiliger</addName>
+            <addName>Johannes Sanctus</addName>
+            <addName>Johannes Theologus</addName>
+            <addName>John Apostle</addName>
+            <addName>John</addName>
+            <addName>John Apostolus</addName>
+            <addName>John Saint</addName>
+            <addName>John the Apostle, Saint</addName>
+            <addName>Jovan Sveti</addName>
+            <addName>Jovan</addName>
+            <addName>Juchanan</addName>
+            <addName>Pseudo-Johannes Apostel</addName>
+            <addName>Pseudo-Johannes</addName>
+            <addName>Pseudo-Johannes Apostolus</addName>
+            <addName>Pseudo-Johannes Evangelista</addName>
+            <addName>Yochanan</addName>
+            <addName>Yohane</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Triton (Gott)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00545123</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00545123"
+                       key="#PND:119020882">Triton<addName type="display">Triton (Gott)</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Bernini, Gian Lorenzo</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00543952</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00543952"
+                       key="#PND:118509926">Bernini<addName type="display">Bernini, Gian Lorenzo</addName>
+            <addName>Gian Lorenzo Bernini</addName>
+            <addName>Gianlorenzo Bernin</addName>
+            <addName>Bernin</addName>
+            <addName>Gian L. Bernini</addName>
+            <addName>Gianlorenzo Bernini</addName>
+            <addName>Giovanni L. Bernini</addName>
+            <addName>Giovanni Lorenzo Bernini</addName>
+            <addName>Jean Laurent Bernini</addName>
+            <addName>Laurentius Bernini</addName>
+            <addName>Lorenzo Bernini</addName>
+            <addName>Giovanni Lorenzo Bernino</addName>
+            <addName>Bernino</addName>
+            <addName>Joans. Laurentius Berninus</addName>
+            <addName>Berninus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Andreas (Apostel)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00542442</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00542442"
+                       key="#PND:118502891">Andreas<addName type="display">Andreas (Apostel)</addName>
+            <addName>Andreas Apostolos</addName>
+            <addName>Andreas Aṙak'yal</addName>
+            <addName>Andrew Apostle, Saint</addName>
+            <addName>Andrew</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Susanna (Heilige)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00589373</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00589373"
+                       key="#PND:118799479">Susanna<addName type="display">Susanna (Heilige)</addName>
+            <addName>Susanna von Concordia</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Algardi, Alessandro</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00400934</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00400934"
+                       key="#PND:118808761">Ales. Algarti<addName type="display">Algardi, Alessandro</addName>
+            <addName>Alessandro Algardi</addName>
+            <addName>Algarti</addName>
+            <addName>Aless. Algardi</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Innocent (X, pape)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00398609</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00398609"
+                       key="#PND:118710788">Innocenz X.<addName type="display">Innocent (X, pape)</addName>
+            <addName>Innocentius X pape</addName>
+            <addName>Innocenz X pape</addName>
+            <addName>Innocenz</addName>
+            <addName>Innocenzo X pape</addName>
+            <addName>Innocenzo</addName>
+            <addName>Inocencio X pape</addName>
+            <addName>Inocencio</addName>
+            <addName>Giovanni Battista Pamfili</addName>
+            <addName>Pamfili</addName>
+            <addName>Giambattista Pamphili</addName>
+            <addName>Pamphili</addName>
+            <addName>Innocencio X papa 1574-1655</addName>
+            <addName>Innocencio</addName>
+            <addName>Innocent X papa 1574-1655</addName>
+            <addName>Innocentius X</addName>
+            <addName>Innocentius X papa 1574-1655</addName>
+            <addName>Innocentius X.</addName>
+            <addName>Innocenz Pabst, X.</addName>
+            <addName>Innocenz X.</addName>
+            <addName>Innozenz X.</addName>
+            <addName>Giambattista Pamfili</addName>
+            <addName>Pamfili, Giambattista 1574-1655</addName>
+            <addName>Giambattista Pamphilij</addName>
+            <addName>Pamphilij</addName>
+            <addName>Johannes B. Pamphilius</addName>
+            <addName>Pamphilius</addName>
+            <addName>Johannes Baptista Pamphilius</addName>
+            <addName>Giambattista Panfili</addName>
+            <addName>Panfili</addName>
+            <addName>Giovanni Battista Panfili</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

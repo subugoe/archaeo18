@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Catania</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7003947</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7003947">catanea<addName type="display">Catania</addName>
+            <addName>Catania</addName>
+            <addName>Catana</addName>
+            <addName>Catane</addName>
+            <addName>Catina</addName>
+            <addName>Katane</addName>
+            <addName>Katana</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Italia</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=1000080</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:1000080">Niederitalien<addName type="display">Italia</addName>
+            <addName>Italia</addName>
+            <addName>Repubblica italiana</addName>
+            <addName>Repubblica Italiana</addName>
+            <addName>Italy</addName>
+            <addName>Italian Republic</addName>
+            <addName>Italie</addName>
+            <addName>République italienne</addName>
+            <addName>Italien</addName>
+            <addName>Itália</addName>
+            <addName>Italië</addName>
+            <addName>ITA</addName>
+            <addName>IT</addName>
+            <addName>ISO380</addName>
+            <addName>IT00</addName>
+            <addName>Esperia</addName>
+            <addName>Italian</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Sybaris</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7004265</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7004265">Sibaris<addName type="display">Sybaris</addName>
+            <addName>Sybaris</addName>
+            <addName>Sibari</addName>
+            <addName>Sybaris-Thurii</addName>
+            <addName>Castiglione Di Paludi</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Crotone</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7004291</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7004291">Croton<addName type="display">Crotone</addName>
+            <addName>Crotone</addName>
+            <addName>Croton</addName>
+            <addName>Cotrone</addName>
+            <addName>Kroton</addName>
+            <addName>Croto</addName>
+            <addName>Crotona</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Locri Epizefiri</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7004271</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7004271">Locri<addName type="display">Locri Epizefiri</addName>
+            <addName>Locri Epizefiri</addName>
+            <addName>Locri</addName>
+            <addName>Lokri</addName>
+            <addName>Locri Epizephyrii</addName>
+            <addName>Lokroi Epizephyrioi</addName>
+            <addName>Lokri Hoi Epizephyroi</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Taranto</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7004100</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7004100">Tarent<addName type="display">Taranto</addName>
+            <addName>Taranto</addName>
+            <addName>Tarento</addName>
+            <addName>Tarentum</addName>
+            <addName>Taras</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Reggio di Calabria</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7004296</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7004296">Rhegium<addName type="display">Reggio di Calabria</addName>
+            <addName>Reggio di Calabria</addName>
+            <addName>Reggio Calabria</addName>
+            <addName>Reggio</addName>
+            <addName>Réggio Calábria</addName>
+            <addName>Rhegion</addName>
+            <addName>Regium</addName>
+            <addName>Rhegium</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Napoli</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7004474</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7004474">Neapel<addName type="display">Napoli</addName>
+            <addName>Napoli</addName>
+            <addName>Nápoles</addName>
+            <addName>Naples</addName>
+            <addName>Neapel</addName>
+            <addName>Neapolis</addName>
+            <addName>Parthenope</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7054730</link>
+      <count>6</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7054730">Pesto</TEI:placeName>
+      </nodes>
+   </tag>
+</tags>

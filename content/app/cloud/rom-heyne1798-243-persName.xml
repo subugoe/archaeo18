@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Cristofari , Pietro Paolo de`</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01303738</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01303738">Peter Paul von Christophoris<addName type="display">Cristofari , Pietro Paolo de`</addName>
+            <addName>Pietro Paolo de` Cristofari</addName>
+            <addName>Peter Paul von Christophoris</addName>
+            <addName>Christophoris</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Regoli , Bernardino</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01303739</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01303739">Racoli<addName type="display">Regoli , Bernardino</addName>
+            <addName>Bernardino Regoli</addName>
+            <addName>Racoli</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Polverelli, Pietro</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01303740</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01303740">Polvere<addName type="display">Polverelli, Pietro</addName>
+            <addName>Pietro Polverelli</addName>
+            <addName>Polvere</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

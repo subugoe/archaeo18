@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Propertius, Sextus Aurelius</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00979901</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00979901"
+                   key="#PND:118596764">Properz<addName type="display">Propertius, Sextus Aurelius</addName>
+            <addName>Sextus Aurelius Propertius</addName>
+            <addName>Sextus Propertius</addName>
+            <addName>Aurelius Propertius</addName>
+            <addName>Aurelius</addName>
+            <addName>Porperzio</addName>
+            <addName>Properce</addName>
+            <addName>Sexto Propercio</addName>
+            <addName>Propercio</addName>
+            <addName>Propercius</addName>
+            <addName>Propertius</addName>
+            <addName>Sex. Propertius</addName>
+            <addName>Sextus A. Propertius</addName>
+            <addName>Propertius Elegiendichter</addName>
+            <addName>Propertius Poet</addName>
+            <addName>Propertius Poeta</addName>
+            <addName>Propertius Umber</addName>
+            <addName>Propertius von Umbrien</addName>
+            <addName>Sextus Propertus</addName>
+            <addName>Propertus</addName>
+            <addName>Properz</addName>
+            <addName>Properz</addName>
+            <addName>Sextus Properz</addName>
+            <addName>Properzio</addName>
+            <addName>Sesto Properzio</addName>
+            <addName>Sesto A. Properzio</addName>
+            <addName>Sesto Aurelio Properzio</addName>
+            <addName>Sesto Aurelius Properzio</addName>
+            <addName>Propicius</addName>
+            <addName>Sextus Propertius Umber</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Veltheim, August Ferdinand ¬von¬</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00389558</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00389558"
+                   key="#PND:117369454">v. Weltheim<addName type="display">Veltheim, August Ferdinand ¬von¬</addName>
+            <addName>August Ferdinand von Veltheim</addName>
+            <addName>von Veltheim</addName>
+            <addName>A. F. Veltheim</addName>
+            <addName>A. F. von Veltheim</addName>
+            <addName>Veltheim, A. F. (August Ferdinand), Graf von, 1741-1801</addName>
+            <addName>August von Veltheim</addName>
+            <addName>August Ferdinand Veltheim</addName>
+            <addName>Auguste Fernand de Veltheim</addName>
+            <addName>Augustus Ferdinandus de Veltheim</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Medici (Familie)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00586758</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00586758"
+                   key="#PND:118732455">Medices<addName type="display">Medici (Familie)</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Venus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00588078</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00588078"
+                   key="#PND:11876800X">Venus<addName type="display">Venus</addName>
+            <addName>Anadyomene  Beiname</addName>
+            <addName>Anadyomene</addName>
+            <addName>Arelatensis  Beiname</addName>
+            <addName>Arelatensis</addName>
+            <addName>aurea  Beiname</addName>
+            <addName>aurea</addName>
+            <addName>coelestis  Beiname</addName>
+            <addName>coelestis</addName>
+            <addName>Gnidia  Beiname</addName>
+            <addName>Gnidia</addName>
+            <addName>Marina  Beiname</addName>
+            <addName>Marina</addName>
+            <addName>Pelasgia  Beiname</addName>
+            <addName>Pelasgia</addName>
+            <addName>Pontia  Beiname</addName>
+            <addName>Pontia</addName>
+            <addName>Urania  Beiname</addName>
+            <addName>Urania</addName>
+            <addName>Victrix  Beiname</addName>
+            <addName>Victrix</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Amor</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00542364</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00542364"
+                   key="#PND:11850262X">Amor<addName type="display">Amor</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Perseus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00588989</link>
+      <count>6</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00588989"
+                   key="#PND:118790455">Perseus<addName type="display">Perseus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Andromeda</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00578206</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00578206"
+                   key="#PND:118649302">Andromeda<addName type="display">Andromeda</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Bellori, Giovanni Pietro</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00445125</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00445125"
+                   key="#PND:121906914">Bellori<addName type="display">Bellori, Giovanni Pietro</addName>
+            <addName>Giovanni Pietro Bellori</addName>
+            <addName>Giovan Pietro Bellori</addName>
+            <addName>Joannes Petrus Bellorius</addName>
+            <addName>Bellorius</addName>
+            <addName>Joannes Petrus Bellorus</addName>
+            <addName>Bellorus</addName>
+            <addName>G. P. Bellori</addName>
+            <addName>Gian P. Bellori</addName>
+            <addName>Gianpietro Bellori</addName>
+            <addName>Gio. Pietro Bellori</addName>
+            <addName>Giovan P. Bellori</addName>
+            <addName>Giovanni P. Bellori</addName>
+            <addName>Io. Petri Bellori</addName>
+            <addName>Johann Peter Bellori</addName>
+            <addName>Pietro Bellori</addName>
+            <addName>Johannes Petrus Belloriis</addName>
+            <addName>Belloriis</addName>
+            <addName>Io. P. Bellorio</addName>
+            <addName>Bellorio</addName>
+            <addName>Io. P. Bellorius</addName>
+            <addName>Io. Petrus Bellorius</addName>
+            <addName>Ioannes P. Bellorius</addName>
+            <addName>Ioannes Petrus Bellorius</addName>
+            <addName>Iohannes P. Bellorius</addName>
+            <addName>J. P. Bellorius</addName>
+            <addName>Jo. Petrus Bellorius</addName>
+            <addName>Joannes P. Bellorius</addName>
+            <addName>Johann P. Bellorius</addName>
+            <addName>Johann Peter Bellorius</addName>
+            <addName>Johann Petrus Bellorius</addName>
+            <addName>Johannes Petrus Bellorius</addName>
+            <addName>Petrus Bellorius</addName>
+            <addName>Ioannes P. Bellorus</addName>
+            <addName>Petrus Bellorus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Trimalchio</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300415</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300415">Trimalcion<addName type="display">Trimalchio</addName>
+            <addName>Trimalcion</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Petronius (Arbiter)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01427168</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01427168"
+                   key="#PND:118593293">Petron<addName type="display">Petronius (Arbiter)</addName>
+            <addName>Gaius P. Arbiter</addName>
+            <addName>Arbiter</addName>
+            <addName>Titus P. Arbiter</addName>
+            <addName>Titus Petronius Arbiter</addName>
+            <addName>Petronio Arbitro</addName>
+            <addName>Arbitro</addName>
+            <addName>Pétrone de Marseille</addName>
+            <addName>Pétrone</addName>
+            <addName>Pétrone de Marseille</addName>
+            <addName>Pétrone</addName>
+            <addName>Petron</addName>
+            <addName>Petrone</addName>
+            <addName>Petrone</addName>
+            <addName>Petrone de Marseille</addName>
+            <addName>Petronio</addName>
+            <addName>T. Petronio Arbitro</addName>
+            <addName>Titus Petronio Arbitro</addName>
+            <addName>C. Petronius Arbiter</addName>
+            <addName>Gaius Petronius Arbiter</addName>
+            <addName>Gaius T. Petronius Arbiter</addName>
+            <addName>Gaius Titus Petronius Arbiter</addName>
+            <addName>Titi Petronius Arbiter</addName>
+            <addName>Titus Petronius Arbitrus</addName>
+            <addName>Petronius Arbitrus</addName>
+            <addName>Petronius</addName>
+            <addName>C. Petronius</addName>
+            <addName>Gaius Petronius</addName>
+            <addName>Gajus Petronius</addName>
+            <addName>Gajus Titus Petronius</addName>
+            <addName>Titus Petronius</addName>
+            <addName>Titus A. Petronius</addName>
+            <addName>Titus Arbiter Petronius</addName>
+            <addName>Petronius Dichter</addName>
+            <addName>Petronius Satirist</addName>
+            <addName>Petroniusz</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Bacchus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00579062</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00579062"
+                   key="#PND:118651439">Bachus<addName type="display">Bacchus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Christina (koningin van Zweden)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01260633</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01260633"
+                   key="#PND:118520652">Kö- 
+                                     nigin Christina<addName type="display">Christina (koningin van Zweden)</addName>
+            <addName>Cristina de Suecia</addName>
+            <addName>Cristina</addName>
+            <addName>Christiana Schweden, Königin</addName>
+            <addName>Christiana</addName>
+            <addName>Christina Alessandra Queen of Sweden</addName>
+            <addName>Christina Alessandra</addName>
+            <addName>Christina Alessandra Suecia, Regina</addName>
+            <addName>Christina Alexandra koningin van Zweden</addName>
+            <addName>Christina Alexandra</addName>
+            <addName>Christina Alexandra Schweden, Königin</addName>
+            <addName>Christina Alexandra van Zweden Koningin</addName>
+            <addName>Christina Augusta Schweden, Königin</addName>
+            <addName>Christina Augusta</addName>
+            <addName>Christina Gothorum, Vandalorum ac Suecorum Regina</addName>
+            <addName>Christina Regina</addName>
+            <addName>Christina Schweden, Königin</addName>
+            <addName>Christina Suecia, Regina</addName>
+            <addName>Christina Suecorum Regina</addName>
+            <addName>Christina Suecorum, Gothorum &amp; Vandalorum Regina</addName>
+            <addName>Christina Sverige, Drottning</addName>
+            <addName>Christina Sweden, Queen</addName>
+            <addName>Christina Swerige, Drotning</addName>
+            <addName>Christina van Zweden</addName>
+            <addName>Christina von Schweden</addName>
+            <addName>Christina Zweden, Koningin</addName>
+            <addName>Christine de Suede</addName>
+            <addName>Christine von Schweden</addName>
+            <addName>Christine de Suède</addName>
+            <addName>Christine de Suède</addName>
+            <addName>Christine Queen of Sweden</addName>
+            <addName>Christine Schweden, Königin</addName>
+            <addName>Christine Suède, Reine</addName>
+            <addName>Cristina di Svezia</addName>
+            <addName>Cristina Svezia, Regina</addName>
+            <addName>Kristina Schweden, Königin</addName>
+            <addName>Kristina Suecia, Regina</addName>
+            <addName>Kristina van Zweden</addName>
+            <addName>Kristina van Zweden Koningin</addName>
+            <addName>Kristina Wasa</addName>
+            <addName>Wasa</addName>
+            <addName>Kristina Koningin</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Mazarin, Jules</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01099927</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01099927"
+                   key="#PND:132961903 118579703">
+            <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000181">Mazarini</term>
+            <addName type="display">Mazarin, Jules</addName>
+            <addName>Jules Mazarin</addName>
+            <addName>Giulio Mazarini</addName>
+            <addName>Marzarinus</addName>
+            <addName>Iulius Masarini</addName>
+            <addName>Masarini</addName>
+            <addName>Iulles Mazarein</addName>
+            <addName>Mazarein</addName>
+            <addName>Mazarin</addName>
+            <addName>Iules Mazarin</addName>
+            <addName>Iulle Mazarin</addName>
+            <addName>Jule Mazarin</addName>
+            <addName>Julius Mazarin</addName>
+            <addName>Julles Mazarin</addName>
+            <addName>Mazarin Cardinal</addName>
+            <addName>Mazarin Kardinal</addName>
+            <addName>Jules Mazarine</addName>
+            <addName>Mazarine</addName>
+            <addName>Džulio Mazarini</addName>
+            <addName>Giulo Mazarini</addName>
+            <addName>Guilio Mazarini</addName>
+            <addName>Iulius Mazarini</addName>
+            <addName>Jules Mazarini</addName>
+            <addName>Julio Mazarini</addName>
+            <addName>Julius Mazarini</addName>
+            <addName>Mazarini Cardinalis</addName>
+            <addName>Jules Mazarinns</addName>
+            <addName>Mazarinns</addName>
+            <addName>Giulio Raimondo Mazarino</addName>
+            <addName>Mazarino</addName>
+            <addName>Iulius Mazarinus</addName>
+            <addName>Mazarinus</addName>
+            <addName>Jul. Mazarinus</addName>
+            <addName>Julius Mazarinus</addName>
+            <addName>Mazarinus Cardinalis</addName>
+            <addName>Julio Mazerino</addName>
+            <addName>Mazerino</addName>
+            <addName>Giulio Mazzarini</addName>
+            <addName>Mazzarini</addName>
+            <addName>Iulius Mazzarini</addName>
+            <addName>Julius Mazzarini</addName>
+            <addName>Mazzarino</addName>
+            <addName>Giulio Mazzarino</addName>
+            <addName>Giulio R. Mazzarino</addName>
+            <addName>Giulio Raimondo Mazzarino</addName>
+            <addName>Guilio Mazzarino</addName>
+            <addName>Jules Mazzarino</addName>
+            <addName>Iulius Mazzarinus</addName>
+            <addName>Mazzarinus</addName>
+            <addName>Julius Mazzarinus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Ariadne</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00576873</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00576873"
+                   key="#PND:118645676">Ariadne<addName type="display">Ariadne</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

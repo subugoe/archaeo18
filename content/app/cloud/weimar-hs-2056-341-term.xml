@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Kö- niglichen Französischen Samlung</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-341.tei.xml-d7149e27">einen Carneol in der <term ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-341.tei.xml-d7149e29"
+                  type="collection">Kö- 
+                                            niglichen Französischen Samlung</term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-341.tei.xml-d7149e29"
+               type="collection">Kö- 
+                                            niglichen Französischen Samlung</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Giulio (Romano, Künstler)</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-341.tei.xml-d7149e304">nach dem <persName ref="#CerlID:cnp00397023" key="#PND:118639242">Giulio<addName type="display">Giulio (Romano, Künstler)</addName>
+               <addName>Giulio Romano</addName>
+               <addName>Giulio di Pietro de' Giannuzzi</addName>
+               <addName>Giannuzzi</addName>
+               <addName>Giulio di Pietro de' Gianuzzi</addName>
+               <addName>Gianuzzi</addName>
+               <addName>Giulio Pippi</addName>
+               <addName>Giulio Pippi Giulio Romano</addName>
+               <addName>Giulio di Pietro de'Gianuzzi</addName>
+               <addName>Giulio Romano, Künstler</addName>
+               <addName>Jules Romain</addName>
+               <addName>Jules</addName>
+               <addName>Julius Romanus</addName>
+               <addName>Julius</addName>
+               <addName>Pietro de' Gianuzzi</addName>
+               <addName>Giulio Pippi Romano</addName>
+               <addName>Pippi Romano</addName>
+               <addName>Pippi</addName>
+               <addName>Giulio Romano Pippi</addName>
+               <addName>Julius Pippius Romanus</addName>
+               <addName>Pippius Romanus</addName>
+               <addName>Iulius Pippius</addName>
+               <addName>Pippius</addName>
+               <addName>Romain</addName>
+               <addName>Giulio Pipi Romano</addName>
+               <addName>Romano, Giulio 1499-1546.</addName>
+               <addName>Giulo Romano</addName>
+               <addName>Giulio Romao</addName>
+               <addName>Romao</addName>
+            </persName> 
+                                            romano</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>TityosCarracci, Annibale</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-341.tei.xml-d7149e376">
+            <persName ref="#CerlID:cnp00623878" key="#PND:12971268X">Titius<addName type="display">Tityos</addName>
+               <addName>Tityus</addName>
+            </persName> mit dem Geier auf der  
+                                                Brust nach dem <persName ref="#CerlID:cnp00394423" key="#PND:118519255">An: Caracci<addName type="display">Carracci, Annibale</addName>
+               <addName>Annibale Carracci</addName>
+               <addName>Annibale Caracci</addName>
+               <addName>Caracci</addName>
+               <addName>Annibal Caraccius</addName>
+               <addName>Caraccius</addName>
+               <addName>Carracci, Annibale 1560-1609</addName>
+               <addName>Hannibal Carracci</addName>
+               <addName>Annibale Carraccio</addName>
+               <addName>Carraccio</addName>
+               <addName>Hannibale Carraccio</addName>
+               <addName>Carraccius</addName>
+               <addName>Annibal Carraccius</addName>
+               <addName>Annibal Carrache</addName>
+               <addName>Carrache</addName>
+               <addName>Annibal Carracio</addName>
+               <addName>Carracio</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+</tags>

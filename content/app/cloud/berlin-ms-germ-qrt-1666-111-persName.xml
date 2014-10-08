@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Aristoteles</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259587</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01259587"
+                       key="#PND:118650130">Ari-
+                stoteles.<addName type="display">Aristoteles</addName>
+            <addName>Arasṭū</addName>
+            <addName>Arestoteles</addName>
+            <addName>Arisṭū</addName>
+            <addName>Arisṭūṭālīs</addName>
+            <addName>Arisṭāṭālīs</addName>
+            <addName>Aristóteles de Estagira</addName>
+            <addName>Aristóteles</addName>
+            <addName>Arisṭāṭālīs</addName>
+            <addName>Arisṭūṭālīs</addName>
+            <addName>Aristote</addName>
+            <addName>Aristote de Stagyre</addName>
+            <addName>Aristotele</addName>
+            <addName>Aristotelʹ</addName>
+            <addName>Aristoteles Athenensis</addName>
+            <addName>Aristoteles Atheniensis</addName>
+            <addName>Aristoteles de Stagyre</addName>
+            <addName>Aristoteles Pellaeus</addName>
+            <addName>Aristoteles Philosoph</addName>
+            <addName>Aristoteles Philosophus</addName>
+            <addName>Aristoteles Schüler Platons</addName>
+            <addName>Aristoteles Stagirita</addName>
+            <addName>Aristoteles Stagirites</addName>
+            <addName>Aristoteles von Stageira</addName>
+            <addName>Aristoteles von Stageiros</addName>
+            <addName>Aristoteles von Stagiros</addName>
+            <addName>Aristotelus</addName>
+            <addName>Aristotile</addName>
+            <addName>Aristotle</addName>
+            <addName>Aristū</addName>
+            <addName>Arystoteles</addName>
+            <addName>ʾArisṭoṭeles</addName>
+            <addName>Ps-Aristoteles</addName>
+            <addName>Pseudo Aristotele</addName>
+            <addName>Pseudoaristoteles</addName>
+            <addName>Pseudo-Aristoteles</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

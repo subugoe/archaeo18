@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Maffei, Francesco Scipione (Marquis)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00913744</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00913744"
+                   key="#PND:119062518">Maffei<addName type="display">Maffei, Francesco Scipione (Marquis)</addName>
+            <addName>Francesco Scipione Maffei</addName>
+            <addName>Scipione Maffei</addName>
+            <addName>Scipio Maffaejus</addName>
+            <addName>Maffaejus</addName>
+            <addName>Scipio Maffaeus</addName>
+            <addName>Maffaeus</addName>
+            <addName>Francesco S. Maffei</addName>
+            <addName>Francesco Scipion Maffei</addName>
+            <addName>Maffei, Francesco Scipione marchese</addName>
+            <addName>Francesco-Scipione Maffei</addName>
+            <addName>Francisco-Scipione Maffei</addName>
+            <addName>Scipio von Maffei</addName>
+            <addName>Scipion Maffei</addName>
+            <addName>Scipione di Maffei</addName>
+            <addName>Scipionus Maffei</addName>
+            <addName>Maffei marchese</addName>
+            <addName>Scipio Maffeius</addName>
+            <addName>Maffeius</addName>
+            <addName>Scipio Maffejus</addName>
+            <addName>Maffejus</addName>
+            <addName>Scipio Maffeus</addName>
+            <addName>Maffeus</addName>
+            <addName>Scipius Maffeus</addName>
+            <addName>Franciscus Scipio Mafffeius</addName>
+            <addName>Mafffeius</addName>
+            <addName>Scipio Maphejus</addName>
+            <addName>Maphejus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Apollon</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00542641</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00542641"
+                   key="#PND:118503642">Apoll<addName type="display">Apollon</addName>
+            <addName>Apoll</addName>
+            <addName>Apollo</addName>
+            <addName>Phoebus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Vacca, Flaminio</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00628322</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00628322"
+                   key="#PND:129766909">Flaminius Vacca<addName type="display">Vacca, Flaminio</addName>
+            <addName>Flaminio Vacca</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Ottoboni, Pietro (1667-1740)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00115759</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00115759"
+                   key="#PND:100249582">Ottoboni<addName type="display">Ottoboni, Pietro (1667-1740)</addName>
+            <addName>Pietro Ottoboni</addName>
+            <addName>Pietro Otthoboni</addName>
+            <addName>Otthoboni</addName>
+            <addName>Petrus Otthobonus</addName>
+            <addName>Otthobonus</addName>
+            <addName>Pietro  Ottoboni</addName>
+            <addName>Ottoboni, Pietro  1667-1740</addName>
+            <addName>Petrus Ottobonus</addName>
+            <addName>Ottobonus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Mengs, Anton Raphael</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00400145</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00400145"
+                   key="#PND:118783270">Mengs<addName type="display">Mengs, Anton Raphael</addName>
+            <addName>Anton Raphael Mengs</addName>
+            <addName>Mengs</addName>
+            <addName>Anthony R. Mengs</addName>
+            <addName>Anthony Raphael Mengs</addName>
+            <addName>Antoine R. Mengs</addName>
+            <addName>Antoine-Raphael Mengs</addName>
+            <addName>Anton R. Mengs</addName>
+            <addName>Anton Raffaele Mengs</addName>
+            <addName>Anton Raphaël Mengs</addName>
+            <addName>Antonio R. Mengs</addName>
+            <addName>Antonio Rafael Mengs</addName>
+            <addName>Antonio Raffaello Mengs</addName>
+            <addName>R. Mengs</addName>
+            <addName>Rafael Mengs</addName>
+            <addName>Raphael Mengs</addName>
+            <addName>Antonio R. Mengz</addName>
+            <addName>Mengz</addName>
+            <addName>Antonio Raffaele Mengz</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

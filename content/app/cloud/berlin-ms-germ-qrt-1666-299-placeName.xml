@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Roma</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7000874</link>
+      <count>4</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7000874">Rom<addName type="display">Roma</addName>
+            <addName>Roma</addName>
+            <addName>Urbe</addName>
+            <addName>Rome</addName>
+            <addName>Rom</addName>
+            <addName>Roman</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Nürnberg</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7004334</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7004334">Nürnberg<addName type="display">Nürnberg</addName>
+            <addName>Nürnberg</addName>
+            <addName>Nuremberg</addName>
+            <addName>Noremburg</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Dresden</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7004455</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7004455">Dresden<addName type="display">Dresden</addName>
+            <addName>Dresden</addName>
+            <addName>Dresde</addName>
+            <addName>Ďrežd'ane</addName>
+            <addName>Drezdane</addName>
+            <addName>Drezdzany</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Biberach</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7013234</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7013234">Biberach<addName type="display">Biberach</addName>
+            <addName>Biberach</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Firenze</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7000457</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7000457">Florenz<addName type="display">Firenze</addName>
+            <addName>Firenze</addName>
+            <addName>Florence</addName>
+            <addName>Florencia</addName>
+            <addName>Florenz</addName>
+            <addName>Fiorenza</addName>
+            <addName>Florentia</addName>
+            <addName>Florentine</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>England</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7002445</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7002445">England<addName type="display">England</addName>
+            <addName>England</addName>
+            <addName>Angleterre</addName>
+            <addName>Inglaterra</addName>
+            <addName>Inghilterra</addName>
+            <addName>English</addName>
+            <addName>Anglia</addName>
+            <addName>Britannia Romana</addName>
+            <addName>Britannia maior</addName>
+            <addName>Britannia propria</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Danmark</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=1000066</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:1000066">Denne-
+                            marck<addName type="display">Danmark</addName>
+            <addName>Danmark</addName>
+            <addName>Kongeriget Danmark</addName>
+            <addName>Dänemark</addName>
+            <addName>Denmark</addName>
+            <addName>Kingdom of Denmark</addName>
+            <addName>Danemark</addName>
+            <addName>Royaume du Danemark</addName>
+            <addName>Dinamarca</addName>
+            <addName>Denemarken</addName>
+            <addName>Danimarca</addName>
+            <addName>DNK</addName>
+            <addName>DK</addName>
+            <addName>ISO208</addName>
+            <addName>DA00</addName>
+            <addName>Danish</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Rossiya</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7002435</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7002435">Rußland<addName type="display">Rossiya</addName>
+            <addName>Rossiya</addName>
+            <addName>Rossiyskaya Federatsiya</addName>
+            <addName>Rossiyskaya</addName>
+            <addName>Russia</addName>
+            <addName>Russian Federation</addName>
+            <addName>Russie</addName>
+            <addName>Fédération de Russie</addName>
+            <addName>Russland</addName>
+            <addName>Rusia</addName>
+            <addName>Rusland</addName>
+            <addName>Rússia</addName>
+            <addName>RUS</addName>
+            <addName>RU</addName>
+            <addName>ISO643</addName>
+            <addName>RS00</addName>
+            <addName>Rossijskaja Sovetskaja Federativnaja Socialističeskaja Respublika</addName>
+            <addName>Rossiyskaya SFSR</addName>
+            <addName>Russian Soviet Federated Socialist Republic</addName>
+            <addName>Russian SFSR</addName>
+            <addName>R. S. F. S. R.</addName>
+            <addName>Russian</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Sankt-Peterburg</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7018216</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7018216">Peters-
+                burg<addName type="display">Sankt-Peterburg</addName>
+            <addName>Sankt-Peterburg</addName>
+            <addName>Saint Petersburg</addName>
+            <addName>St. Petersburg</addName>
+            <addName>Sankt-Peterburg autonomous city</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+</tags>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:156615 http://arachne.uni-koeln.de/item/topographie/8004660 http://arachne.uni-koeln.de/item/bauwerk/2107035 http://arachne.uni-koeln.de/item/bauwerk/2107081 http://arachne.uni-koeln.de/item/bauwerk/2107083 http://arachne.uni-koeln.de/item/bauwerk/2107085 http://arachne.uni-koeln.de/item/bauwerk/2107086</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:156615 #http://arachne.uni-koeln.de/item/topographie/8004660 #http://arachne.uni-koeln.de/item/bauwerk/2107035 #http://arachne.uni-koeln.de/item/bauwerk/2107081 #http://arachne.uni-koeln.de/item/bauwerk/2107083 #http://arachne.uni-koeln.de/item/bauwerk/2107085 #http://arachne.uni-koeln.de/item/bauwerk/2107086">Diocletians Pallast</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Anzio</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-186.tei.xml-d9211e142">villa zu <placeName ref="#GettyID:7015535">Antium<addName type="display">Anzio</addName>
+               <addName>Anzio</addName>
+               <addName>Porto d'Anzio</addName>
+               <addName>Antium</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Gärten des Sallustius</tag>
+      <facet>tei:term</facet>
+      <link>http://census.bbaw.de/easydb/censusID=154925</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0" ref="#CensusID:154925">Pallast in den <placeName ref="#http://arachne.uni-koeln.de/item/topographie/8004518">Gärten des Sallustius</placeName>
+         </term>
+      </nodes>
+   </tag>
+</tags>

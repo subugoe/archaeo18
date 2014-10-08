@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Piccolomini , Mario</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-365.tei.xml-d17735e18"
+               type="collection">Samlung des <persName ref="#CerlID:cnp01303758">Maria Piccolomini<addName type="display">Piccolomini , Mario</addName>
+               <addName>Mario Piccolomini</addName>
+               <addName>Maria Piccolomini</addName>
+               <addName>Piccolomini</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Zanetti, Girolamo Francesco</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-365.tei.xml-d17735e122"
+               type="collection">Samlung des <persName ref="#CerlID:cnp00502236" key="#PND:128633964">Zanetti<addName type="display">Zanetti, Girolamo Francesco</addName>
+               <addName>Girolamo Francesco Zanetti</addName>
+               <addName>Girolamo Zanetti</addName>
+               <addName>Girolamo F. Zanetti</addName>
+               <addName>Hieronymus Zanetti</addName>
+               <addName>Hieronymus F. Zanetti</addName>
+               <addName>Hier. F. Zanettius</addName>
+               <addName>Zanettius</addName>
+               <addName>Hieronymus F. Zanettius</addName>
+               <addName>Hier. F. Zanettus</addName>
+               <addName>Zanettus</addName>
+               <addName>Hieronymus F. Zanettus</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>SiciliaFerdinand (Neapel, König, IV.)</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000526</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000526">Samlung des <persName ref="#CerlID:cnp00876665" key="#PND:11895363X">Königs von <placeName ref="#GettyID:7030363">Sicilien<addName type="display">Sicilia</addName>
+                  <addName>Sicilia</addName>
+                  <addName>Sicily</addName>
+                  <addName>Sizilien</addName>
+                  <addName>Trinacria</addName>
+                  <addName>Thrinacria</addName>
+                  <addName>Sikanie</addName>
+               </placeName>
+               <addName type="display">Ferdinand (Neapel, König, IV.)</addName>
+               <addName>Ferdinand von Bourbon</addName>
+               <addName>Bourbon, Ferdinand von 1751-1825</addName>
+               <addName>Bourbon</addName>
+               <addName>Ferdinand beider Sizilien, König, I.</addName>
+               <addName>Ferdinand Beider Sizilien, König, I.</addName>
+               <addName>Ferdinand I,  King of the Two Sicilies,  1751-1825</addName>
+               <addName>Ferdinand Neapel, König, IV.</addName>
+               <addName>Ferdinand Neapel, König, I., 1751-1825</addName>
+               <addName>Ferdinand Sizilien, König, I.</addName>
+               <addName>Ferdinand Sizilien, König, IV.</addName>
+               <addName>Ferdinand Two Sicilies, King, I.</addName>
+               <addName>Ferdinando di Borbone</addName>
+               <addName>Ferdinando Due Sicilie, Re, I.</addName>
+               <addName>Ferdinando Due Sicilie, Re, VI.</addName>
+               <addName>Ferdinando Sicilia, Re, I.</addName>
+               <addName>Ferdinando Sicilia, Re, III.</addName>
+               <addName>Ferdinando Sicilia, Re, IV.</addName>
+               <addName>Ferdinandus Sicilia, Rex, IV.</addName>
+               <addName>Ferdinandus</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000007</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000007">Samlung des Barberinishen 
+                                             Haußes</term>
+      </nodes>
+   </tag>
+</tags>

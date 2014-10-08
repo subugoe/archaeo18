@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Bacchus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00579062</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00579062"
+                       key="#PND:118651439">Bachus<addName type="display">Bacchus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Ptolemaeus (Ägypten, König, III.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00983874</link>
+      <count>6</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00983874"
+                       key="#PND:119132893">Ptol. Euergetes<addName type="display">Ptolemaeus (Ägypten, König, III.)</addName>
+            <addName>Ptolemaeus Epigrammaticus</addName>
+            <addName>Ptolemaeus Euergetes, I.</addName>
+            <addName>Ptolemaeus Euergetes, Rex, III.</addName>
+            <addName>Ptolemaeus Evergetae, Rex, III.</addName>
+            <addName>Ptolemaeus Evergetes, I.</addName>
+            <addName>Ptolemaeus III., Evergetes, I.</addName>
+            <addName>Ptolemaios Euergetes</addName>
+            <addName>Ptolemaios III., Evergetes, I.</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Iustinianus (Imperium Byzantinum, Imperator, I.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259647</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01259647"
+                       key="#PND:11855896X 11855896X">Justinians<addName type="display">Iustinianus (Imperium Byzantinum, Imperator, I.)</addName>
+            <addName>I Justinianus</addName>
+            <addName>Flavius Petrus Sabbatius Iustinianus</addName>
+            <addName>Flavius Petrus</addName>
+            <addName>Flavius Iustinianus</addName>
+            <addName>Flavius</addName>
+            <addName>Flavius Sabbatius Iustinianus</addName>
+            <addName>Giustiniano</addName>
+            <addName>Giustiniano I.</addName>
+            <addName>Giustiniano Imperatore</addName>
+            <addName>Augustus Iustinianus</addName>
+            <addName>Flavius P. Iustinianus</addName>
+            <addName>Flavius Petrus Iustinianus</addName>
+            <addName>Flavius S. Iustinianus</addName>
+            <addName>Iustinianus, Flavius Imperator</addName>
+            <addName>Iustinianus Augustus</addName>
+            <addName>Iustinianus Constantinopolitanus</addName>
+            <addName>Iustinianus Imperator</addName>
+            <addName>Iustinianus Imperator, I.</addName>
+            <addName>Iustinianus Imperium Romanum, Imperator, I.</addName>
+            <addName>Iustinianus Princeps</addName>
+            <addName>Flavivs Ivstinianvs</addName>
+            <addName>Ivstinianvs, Flavivs Imperator</addName>
+            <addName>Ivstinianvs</addName>
+            <addName>Ivstinianvs Imperator</addName>
+            <addName>Kaiser Justinian</addName>
+            <addName>Justinian, Kaiser Byzantinisches Reich</addName>
+            <addName>Justinian der Große</addName>
+            <addName>Justinian emperor</addName>
+            <addName>Justinian Emperor of Rome</addName>
+            <addName>Justinian Imperator</addName>
+            <addName>Justinian Ost-Römisches Reich, Kaiser, I.</addName>
+            <addName>Augustus Justinianus</addName>
+            <addName>Flavius Justinianus</addName>
+            <addName>Flavius Anicius Julianus Justinianus</addName>
+            <addName>Flavius Petrus Sabbatius Justinianus</addName>
+            <addName>Justinianus I Emperor of the East</addName>
+            <addName>Justinianus Imperator, I.</addName>
+            <addName>Justinianus Imperium Byzantinum, Imperator, I.</addName>
+            <addName>Justinianus Imperium Romanum, Imperator, I.</addName>
+            <addName>Justinien</addName>
+            <addName>Justinien Emperor</addName>
+            <addName>Justinien Empire Byzantin, Empereur, I.</addName>
+            <addName>Petrus Sabbatius</addName>
+            <addName>Petrus</addName>
+            <addName>Sabbatius Iustinianus</addName>
+            <addName>Uprawda</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Cosmas (Sanctus)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00555862</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00555862"
+                       key="#PND:118565672">St. Cosmas<addName type="display">Cosmas (Sanctus)</addName>
+            <addName>Cosmas Heiliger</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

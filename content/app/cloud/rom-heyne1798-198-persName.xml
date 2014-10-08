@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Spon, Jacob</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00404793</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00404793"
+                   key="#PND:119228998">Spon<addName type="display">Spon, Jacob</addName>
+            <addName>Jacob Spon</addName>
+            <addName>S. Du Four</addName>
+            <addName>Du Four</addName>
+            <addName>I. S. D. M.</addName>
+            <addName>Spon</addName>
+            <addName>I. Spon</addName>
+            <addName>Iacob Spon</addName>
+            <addName>Isaac Spon</addName>
+            <addName>Jacques Spon</addName>
+            <addName>Jakob Spon</addName>
+            <addName>James Spon</addName>
+            <addName>Jaques Spon</addName>
+            <addName>Iacobus Sponius</addName>
+            <addName>Sponius</addName>
+            <addName>Jacobus Sponius</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Hannibal</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01050574</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01050574"
+                   key="#PND:118545655">Hannibal<addName type="display">Hannibal</addName>
+            <addName>Annibal</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Brennus (Fiktive Gestalt)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01276981</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01276981"
+                   key="#PND:142848603">Brennus<addName type="display">Brennus (Fiktive Gestalt)</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Woodward, John</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00406311</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00406311"
+                   key="#PND:119487683">Woodwart<addName type="display">Woodward, John</addName>
+            <addName>John Woodward</addName>
+            <addName>Woodward, John 1665-1728</addName>
+            <addName>John Wodward</addName>
+            <addName>Wodward</addName>
+            <addName>Jean Woodward</addName>
+            <addName>Joh. Woodwardus</addName>
+            <addName>Woodwardus</addName>
+            <addName>Johannes Woodwardus</addName>
+            <addName>John Woodwardus</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

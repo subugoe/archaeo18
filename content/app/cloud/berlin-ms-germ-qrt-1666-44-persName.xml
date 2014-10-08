@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Strozzi , Leone</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300408</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300408">Leo Strozzi<addName type="display">Strozzi , Leone</addName>
+            <addName>Leone Strozzi</addName>
+            <addName>Leon Strozzi</addName>
+            <addName>Strozzi</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Ferdinando (I, grand duc de Toscane)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01370161</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01370161">Cardinal de Medices<addName type="display">Ferdinando (I, grand duc de Toscane)</addName>
+            <addName>Ferdinando I</addName>
+            <addName>Ferdinando de'Medici grand duc de Toscane</addName>
+            <addName>Ferdinando de'Medici</addName>
+            <addName>Ferdinando de' Medici</addName>
+            <addName>Medici, Ferdinando de' I grand duc de Toscane</addName>
+            <addName>Medici</addName>
+            <addName>Medici, Ferdinando de' cardinal</addName>
+            <addName>Ferdinand de Medicis</addName>
+            <addName>Medicis, Ferdinand de cardinal</addName>
+            <addName>Medicis</addName>
+            <addName>Medicis, Ferdinand de grand duc de Toscane</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Vacca, Flaminio</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00628322</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00628322"
+                       key="#PND:129766909">Flaminius Vacca<addName type="display">Vacca, Flaminio</addName>
+            <addName>Flaminio Vacca</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

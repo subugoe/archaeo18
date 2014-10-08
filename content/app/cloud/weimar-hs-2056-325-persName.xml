@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Barberini (Familie)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01098876</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01098876"
+                   key="#PND:132850303">
+            <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000007">Barberini</term>
+            <addName type="display">Barberini (Familie)</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Ixion</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300304</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300304">Ixion<addName type="display">Ixion</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Attis</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00574151</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00574151"
+                   key="#PND:118637754">Atys<addName type="display">Attis</addName>
+            <addName>Atys</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-325.tei.xml-d20741e101">Cardin: Caspiati</persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Bacchus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00579062</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00579062"
+                   key="#PND:118651439">Bachus<addName type="display">Bacchus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Bellori, Giovanni Pietro</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00445125</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00445125"
+                   key="#PND:121906914">Bellori<addName type="display">Bellori, Giovanni Pietro</addName>
+            <addName>Giovanni Pietro Bellori</addName>
+            <addName>Giovan Pietro Bellori</addName>
+            <addName>Joannes Petrus Bellorius</addName>
+            <addName>Bellorius</addName>
+            <addName>Joannes Petrus Bellorus</addName>
+            <addName>Bellorus</addName>
+            <addName>G. P. Bellori</addName>
+            <addName>Gian P. Bellori</addName>
+            <addName>Gianpietro Bellori</addName>
+            <addName>Gio. Pietro Bellori</addName>
+            <addName>Giovan P. Bellori</addName>
+            <addName>Giovanni P. Bellori</addName>
+            <addName>Io. Petri Bellori</addName>
+            <addName>Johann Peter Bellori</addName>
+            <addName>Pietro Bellori</addName>
+            <addName>Johannes Petrus Belloriis</addName>
+            <addName>Belloriis</addName>
+            <addName>Io. P. Bellorio</addName>
+            <addName>Bellorio</addName>
+            <addName>Io. P. Bellorius</addName>
+            <addName>Io. Petrus Bellorius</addName>
+            <addName>Ioannes P. Bellorius</addName>
+            <addName>Ioannes Petrus Bellorius</addName>
+            <addName>Iohannes P. Bellorius</addName>
+            <addName>J. P. Bellorius</addName>
+            <addName>Jo. Petrus Bellorius</addName>
+            <addName>Joannes P. Bellorius</addName>
+            <addName>Johann P. Bellorius</addName>
+            <addName>Johann Peter Bellorius</addName>
+            <addName>Johann Petrus Bellorius</addName>
+            <addName>Johannes Petrus Bellorius</addName>
+            <addName>Petrus Bellorius</addName>
+            <addName>Ioannes P. Bellorus</addName>
+            <addName>Petrus Bellorus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Winckelmann, Johann Joachim</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00396916</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00396916"
+                   key="#PND:118633600">Winkelmann<addName type="display">Winckelmann, Johann Joachim</addName>
+            <addName>Johann Joachim Winckelmann</addName>
+            <addName>Ioann Vinkelman</addName>
+            <addName>Vinkelman</addName>
+            <addName>Ioann. Vinkelman</addName>
+            <addName>Jochan Joachim Vinkelman</addName>
+            <addName>Johann Vinkelmann</addName>
+            <addName>Vinkelmann</addName>
+            <addName>I. I. Vinkelʹman</addName>
+            <addName>Vinkelʹman</addName>
+            <addName>Iogann Ioachim Vinkelʹman</addName>
+            <addName>Iogann-Ioachim Vinkelʹman</addName>
+            <addName>Winckelman</addName>
+            <addName>Johann Joachim Winckelman</addName>
+            <addName>Winckelman abbé Johann Joachim</addName>
+            <addName>Winckelmann</addName>
+            <addName>G. G. Winckelmann</addName>
+            <addName>G.G. Winckelmann</addName>
+            <addName>Giovanni Winckelmann</addName>
+            <addName>Giovanni Gioacchino Winckelmann</addName>
+            <addName>J Winckelmann</addName>
+            <addName>J. J. Winckelmann</addName>
+            <addName>Jean Joachim Winckelmann</addName>
+            <addName>Jean-Joachim Winckelmann</addName>
+            <addName>Joachim Johann Winckelmann</addName>
+            <addName>Joh. Jac. Winckelmann</addName>
+            <addName>Johann Winckelmann</addName>
+            <addName>Johann J. Winckelmann</addName>
+            <addName>Winckelmann, Johann Joachim 1717-1768</addName>
+            <addName>Johannes Joachim Winckelmann</addName>
+            <addName>Jojannes Joachim Winckelmann</addName>
+            <addName>Johannes Winckelmannus</addName>
+            <addName>Winckelmannus</addName>
+            <addName>Johannes J. Winckelmannus</addName>
+            <addName>Johannes Joachimus Winckelmannus</addName>
+            <addName>Johan̄ Winckelman̄</addName>
+            <addName>Winckelman̄</addName>
+            <addName>Johann Joachim Winkelman</addName>
+            <addName>Winkelman</addName>
+            <addName>Winkelman abbé Johann Joachim</addName>
+            <addName>Winkelmann</addName>
+            <addName>Giovanni Winkelmann</addName>
+            <addName>Hans J. Winkelmann</addName>
+            <addName>Ioh. Winkelmann</addName>
+            <addName>Johann Winkelmann</addName>
+            <addName>Johann J. Winkelmann</addName>
+            <addName>Johann Joachim Winkelmann</addName>
+            <addName>Winkelmann 1717-1768</addName>
+            <addName>Winkelmann abbé Johann Joachim</addName>
+            <addName>Joannes Winkelmannus</addName>
+            <addName>Winkelmannus</addName>
+            <addName>Johann J. Winkelmannus</addName>
+            <addName>Johannes Joachimus Wynckelmann</addName>
+            <addName>Wynckelmann</addName>
+            <addName>Hans J. Wynkelmann</addName>
+            <addName>Wynkelmann</addName>
+            <addName>Johann J. Wynkelmann</addName>
+            <addName>Johann Joachim Wynkelmann</addName>
+            <addName>Yôhân Yo'akim Wînqelman</addName>
+            <addName>Wînqelman</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

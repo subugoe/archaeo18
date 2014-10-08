@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Gassendi vita Peirescii p: 178. seq:</tag>
+      <facet>tei:bibl</facet>
+      <link>http://opac.sub.uni-goettingen.de/DB=1/PPNSET?PPN=139237372</link>
+      <count>4</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://opac.sub.uni-goettingen.de/DB=1/PPNSET?PPN=139237372">Gassendi 
+                                                    vita Peirescii p: 178. seq:</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Commentaires, histori- ques contenant l´histoire general des Empereurs. etc. Paris 1657. III. Vol. par Iean Tristan T. I. p. 100.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/item/buchseite/242693</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://arachne.uni-koeln.de/item/buchseite/242693">Commentaires, histori- 
+                                                    ques contenant l´histoire general des Empereurs. 
+                                                    etc. Paris 1657. III. Vol. par Iean Tristan T. I. p. 100.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Gemma Tiberiana ad calcem libri de re vestiaria, Amsterd: 1665: 4.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/books/Rubens1665</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://arachne.uni-koeln.de/books/Rubens1665">Gemma Tiberiana ad calcem 
+                                                    libri de re vestiaria, Amsterd: 1665: 4.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>T. XI. Thes: grev:</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/books/Rubens1735</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://arachne.uni-koeln.de/books/Rubens1735">T. XI. Thes: grev:</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Achates Tiberianus Ant: Jac: le Roy. Amsterd: 1683. Fol.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN644265159</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN644265159">Achates Tiberianus Ant: Jac: 
+                                                    le Roy. Amsterd: 1683. Fol.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Montfaucon. Ant: expl: T: V. p. 138.158. ad tab: 127.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/montfaucon1722h/0287</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/montfaucon1722h/0287">Montfaucon. Ant: 
+                                                    expl: T: V. p. 138.158. ad tab: 127.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Mariette I. 305.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/item/buchseite/230961</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://arachne.uni-koeln.de/item/buchseite/230961">Mariette I. 305.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Mariette I. 345.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/item/buchseite/231001</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://arachne.uni-koeln.de/item/buchseite/231001">Mariette I. 345.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+</tags>

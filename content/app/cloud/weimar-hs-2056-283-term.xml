@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Capitol</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-283.tei.xml-d3963e20">Der im <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000358">Capitol</term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000358</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000358">Capitol</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>JupiterTaranto</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-283.tei.xml-d3963e146">
+            <persName ref="#CerlID:cnp00554429" key="#PND:118558897">Jupiter<addName type="display">Jupiter</addName>
+               <addName>Iupiter</addName>
+               <addName>Juppiter</addName>
+            </persName> zu <placeName ref="#GettyID:7004100">Tarent<addName type="display">Taranto</addName>
+               <addName>Taranto</addName>
+               <addName>Tarento</addName>
+               <addName>Tarentum</addName>
+               <addName>Taras</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Ródos, Nísos</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-283.tei.xml-d3963e214">das Bild 
+                                        der Sonne zu <placeName ref="#GettyID:7011266">Rodus<addName type="display">Ródos, Nísos</addName>
+               <addName>Ródos, Nísos</addName>
+               <addName>Ródhos</addName>
+               <addName>Rodhos</addName>
+               <addName>Rodos</addName>
+               <addName>Rhodos</addName>
+               <addName>Rodi</addName>
+               <addName>Rodas</addName>
+               <addName>Rhodes</addName>
+               <addName>Ródhos island</addName>
+               <addName>Rhodus</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+</tags>

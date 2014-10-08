@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>ParmaPhilippe (duc de Parme)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01171073</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01171073"
+                       key="#PND:137838573">Herzog von <TEI:placeName ref="#GettyID:7004942">Parma<addName type="display">Parma</addName>
+               <addName>Parma</addName>
+               <addName>Colonia Julia Augusta Parmensis</addName>
+               <addName>Colonia Julia Augusta</addName>
+            </TEI:placeName>
+            <addName type="display">Philippe (duc de Parme)</addName>
+            <addName>Hertzog von Parma</addName>
+            <addName>Felipe infant d'Espagne</addName>
+            <addName>Felipe</addName>
+            <addName>Filippo duca di Parma, Piacenza e Guastalla</addName>
+            <addName>Filippo</addName>
+            <addName>Philippe infant d'Espagne</addName>
+            <addName>Felipe Parma, Duca</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Ricolvi, Giovanni Paolo</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00379136</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00379136"
+                       key="#PND:115652752">Ricolvi<addName type="display">Ricolvi, Giovanni Paolo</addName>
+            <addName>Giovanni Paolo Ricolvi</addName>
+            <addName>Giovan Paolo Ricolvi</addName>
+            <addName>Johannes Paul Ricolvi</addName>
+            <addName>Johannes Paullus Ricolvi</addName>
+            <addName>Paolo Ricolvo</addName>
+            <addName>Ricolvo</addName>
+            <addName>Paulo Ricolvo</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Rivautella, Antonio</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00956515</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp00956515">Rivaltella<addName type="display">Rivautella, Antonio</addName>
+            <addName>Antonio Rivautella</addName>
+            <addName>Antonius Rivautella</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

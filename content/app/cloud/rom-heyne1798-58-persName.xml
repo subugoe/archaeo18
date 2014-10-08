@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Commodus (Imperium Romanum, Imperator)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00394493</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00394493"
+                   key="#PND:118521713">Commodus<addName type="display">Commodus (Imperium Romanum, Imperator)</addName>
+            <addName>Commodus Imperator</addName>
+            <addName>Lucius Aelius Aurelius Gaius Augustus Imperator Caesar</addName>
+            <addName>Lucius Aelius Aurelius Gaius Augustus</addName>
+            <addName>Marcus Aurelius Gaius Antoninus</addName>
+            <addName>Marcus Aurelius Gaius Antoninus Augustus Imperator Caesar</addName>
+            <addName>Marcus Aurelius Gaius Antoninus Augustus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Constantinus (Imperium Romanum, Imperator, I.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00945275</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00945275"
+                   key="#PND:118565184">Constantin<addName type="display">Constantinus (Imperium Romanum, Imperator, I.)</addName>
+            <addName>Aurelius Claudius</addName>
+            <addName>Claudius Valerius</addName>
+            <addName>Constantin der Große</addName>
+            <addName>Constantin</addName>
+            <addName>Constantin der Grosse</addName>
+            <addName>Constantin Empereur</addName>
+            <addName>Constantin Kaiser</addName>
+            <addName>Constantin Varsovie, Grand-Duc</addName>
+            <addName>Constantine Emperor, I.</addName>
+            <addName>Constantine</addName>
+            <addName>Constantine the Great</addName>
+            <addName>Flavius Valerius Constantinus Augustus</addName>
+            <addName>Constantinus Augustus</addName>
+            <addName>Flavius Valerius Constantinus</addName>
+            <addName>I. Constantinus</addName>
+            <addName>Constantinus, I. Imperator</addName>
+            <addName>Constantinus Constantinopolitanus</addName>
+            <addName>Constantinus der Große</addName>
+            <addName>Constantinus der Grosse</addName>
+            <addName>Constantinus Imperator</addName>
+            <addName>Constantinus Imperator, I.</addName>
+            <addName>Constantinus Magnus</addName>
+            <addName>Costantino il Grande</addName>
+            <addName>Costantino</addName>
+            <addName>Flavius Valerius</addName>
+            <addName>Konstantin Veliki</addName>
+            <addName>Konstantin den Stores</addName>
+            <addName>Konstantin der Große</addName>
+            <addName>Konstantin der Grosse</addName>
+            <addName>Konstantin Römisches Reich, Kaiser, I.</addName>
+            <addName>Konstantin Römischer Kaiser</addName>
+            <addName>Konstantinus Imperium Romanum, Imperator, I.</addName>
+            <addName>Konstantinus</addName>
+            <addName>Konstantyn de Groote</addName>
+            <addName>Konstantyn</addName>
+            <addName>Valerius Aurelis</addName>
+            <addName>Valerius Constantinus Augustus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Iustinianus (Imperium Byzantinum, Imperator, I.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259647</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01259647"
+                   key="#PND:11855896X 11855896X">Justinian<addName type="display">Iustinianus (Imperium Byzantinum, Imperator, I.)</addName>
+            <addName>I Justinianus</addName>
+            <addName>Flavius Petrus Sabbatius Iustinianus</addName>
+            <addName>Flavius Petrus</addName>
+            <addName>Flavius Iustinianus</addName>
+            <addName>Flavius</addName>
+            <addName>Flavius Sabbatius Iustinianus</addName>
+            <addName>Giustiniano</addName>
+            <addName>Giustiniano I.</addName>
+            <addName>Giustiniano Imperatore</addName>
+            <addName>Augustus Iustinianus</addName>
+            <addName>Flavius P. Iustinianus</addName>
+            <addName>Flavius Petrus Iustinianus</addName>
+            <addName>Flavius S. Iustinianus</addName>
+            <addName>Iustinianus, Flavius Imperator</addName>
+            <addName>Iustinianus Augustus</addName>
+            <addName>Iustinianus Constantinopolitanus</addName>
+            <addName>Iustinianus Imperator</addName>
+            <addName>Iustinianus Imperator, I.</addName>
+            <addName>Iustinianus Imperium Romanum, Imperator, I.</addName>
+            <addName>Iustinianus Princeps</addName>
+            <addName>Flavivs Ivstinianvs</addName>
+            <addName>Ivstinianvs, Flavivs Imperator</addName>
+            <addName>Ivstinianvs</addName>
+            <addName>Ivstinianvs Imperator</addName>
+            <addName>Kaiser Justinian</addName>
+            <addName>Justinian, Kaiser Byzantinisches Reich</addName>
+            <addName>Justinian der Große</addName>
+            <addName>Justinian emperor</addName>
+            <addName>Justinian Emperor of Rome</addName>
+            <addName>Justinian Imperator</addName>
+            <addName>Justinian Ost-Römisches Reich, Kaiser, I.</addName>
+            <addName>Augustus Justinianus</addName>
+            <addName>Flavius Justinianus</addName>
+            <addName>Flavius Anicius Julianus Justinianus</addName>
+            <addName>Flavius Petrus Sabbatius Justinianus</addName>
+            <addName>Justinianus I Emperor of the East</addName>
+            <addName>Justinianus Imperator, I.</addName>
+            <addName>Justinianus Imperium Byzantinum, Imperator, I.</addName>
+            <addName>Justinianus Imperium Romanum, Imperator, I.</addName>
+            <addName>Justinien</addName>
+            <addName>Justinien Emperor</addName>
+            <addName>Justinien Empire Byzantin, Empereur, I.</addName>
+            <addName>Petrus Sabbatius</addName>
+            <addName>Petrus</addName>
+            <addName>Sabbatius Iustinianus</addName>
+            <addName>Uprawda</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

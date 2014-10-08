@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Bellori, Giovanni Pietro</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00445125</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00445125"
+                       key="#PND:121906914">Belori<addName type="display">Bellori, Giovanni Pietro</addName>
+            <addName>Giovanni Pietro Bellori</addName>
+            <addName>Giovan Pietro Bellori</addName>
+            <addName>Joannes Petrus Bellorius</addName>
+            <addName>Bellorius</addName>
+            <addName>Joannes Petrus Bellorus</addName>
+            <addName>Bellorus</addName>
+            <addName>G. P. Bellori</addName>
+            <addName>Gian P. Bellori</addName>
+            <addName>Gianpietro Bellori</addName>
+            <addName>Gio. Pietro Bellori</addName>
+            <addName>Giovan P. Bellori</addName>
+            <addName>Giovanni P. Bellori</addName>
+            <addName>Io. Petri Bellori</addName>
+            <addName>Johann Peter Bellori</addName>
+            <addName>Pietro Bellori</addName>
+            <addName>Johannes Petrus Belloriis</addName>
+            <addName>Belloriis</addName>
+            <addName>Io. P. Bellorio</addName>
+            <addName>Bellorio</addName>
+            <addName>Io. P. Bellorius</addName>
+            <addName>Io. Petrus Bellorius</addName>
+            <addName>Ioannes P. Bellorius</addName>
+            <addName>Ioannes Petrus Bellorius</addName>
+            <addName>Iohannes P. Bellorius</addName>
+            <addName>J. P. Bellorius</addName>
+            <addName>Jo. Petrus Bellorius</addName>
+            <addName>Joannes P. Bellorius</addName>
+            <addName>Johann P. Bellorius</addName>
+            <addName>Johann Peter Bellorius</addName>
+            <addName>Johann Petrus Bellorius</addName>
+            <addName>Johannes Petrus Bellorius</addName>
+            <addName>Petrus Bellorius</addName>
+            <addName>Ioannes P. Bellorus</addName>
+            <addName>Petrus Bellorus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Krüger, Andreas</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01427482</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01427482">Krüger<addName type="display">Krüger, Andreas</addName>
+            <addName>Andreas Krüger</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

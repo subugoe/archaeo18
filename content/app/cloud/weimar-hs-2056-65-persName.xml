@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00474317</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp00474317">Buonarotti</persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Vasari, Giorgio</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01240891</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01240891"
+                   key="#PND:118626213">Vasari<addName type="display">Vasari, Giorgio</addName>
+            <addName>Giorgio Vasari</addName>
+            <addName>Giorgio Vasari il Giovane</addName>
+            <addName>Vasari il Giovane</addName>
+            <addName>Georg Vasari</addName>
+            <addName>Georges Vasari</addName>
+            <addName>Vasari, Giorgio der Ältere</addName>
+            <addName>M. Giorgio Vasari</addName>
+            <addName>Džordžo Vazari</addName>
+            <addName>Vazari</addName>
+            <addName>Džordžo Vazari</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

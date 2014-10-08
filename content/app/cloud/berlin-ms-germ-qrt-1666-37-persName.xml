@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Vergilius Maro, Publius</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01240997</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01240997"
+                       key="#PND:118626574">Virgil<addName type="display">Vergilius Maro, Publius</addName>
+            <addName>Publius Vergilius Maro</addName>
+            <addName>Publius Virgilius Maro</addName>
+            <addName>Vergilij</addName>
+            <addName>Vergilio</addName>
+            <addName>P Virgilius Maro</addName>
+            <addName>Publiusz Wergiliusz Maro</addName>
+            <addName>Wergiliusz Maro</addName>
+            <addName>P Wergiliusz Maron</addName>
+            <addName>Wergiliusz Maron</addName>
+            <addName>Vergil</addName>
+            <addName>Virgil</addName>
+            <addName>Publio Virgilio Marone</addName>
+            <addName>Virgilio Marone</addName>
+            <addName>Wergiliusz</addName>
+            <addName>Publios Birgilios Maro</addName>
+            <addName>Birgilios Maro</addName>
+            <addName>Publ. Virgilius Mar.</addName>
+            <addName>Mar.</addName>
+            <addName>P. Vergilius Maro</addName>
+            <addName>Publius V. Maro</addName>
+            <addName>Maron</addName>
+            <addName>P. Vergilij Maron</addName>
+            <addName>P. Virgilio Marone</addName>
+            <addName>Marone</addName>
+            <addName>Publio V. Marone</addName>
+            <addName>Publius Virgilius Maroo</addName>
+            <addName>Maroo</addName>
+            <addName>P. Uergilius Maro</addName>
+            <addName>P. V. M.</addName>
+            <addName>P. Verg. Mar.</addName>
+            <addName>P. Vergilîj Maron</addName>
+            <addName>P. Virgilius Maro</addName>
+            <addName>P. Virgilius Maro Mantuanus</addName>
+            <addName>P. Wergiliusz Maron</addName>
+            <addName>P.V.M.</addName>
+            <addName>Pseudo-Vergilius</addName>
+            <addName>Pseudo-Virgilio</addName>
+            <addName>Pub. Virgilius Maro</addName>
+            <addName>Pub.V.M.</addName>
+            <addName>Publij Vergilij Maron</addName>
+            <addName>Uergilius</addName>
+            <addName>Uirgilius</addName>
+            <addName>V. M.</addName>
+            <addName>Verghiliù</addName>
+            <addName>Vergil</addName>
+            <addName>Publius Vergile Maron</addName>
+            <addName>Vergile Maron</addName>
+            <addName>Vergilij Maron P.</addName>
+            <addName>Vergilius</addName>
+            <addName>Vergilius</addName>
+            <addName>Augusteus Vergilius</addName>
+            <addName>Publius M. Vergilius</addName>
+            <addName>Publius Maro Vergilius</addName>
+            <addName>Vergilius Poeta</addName>
+            <addName>Vergilius von Andes</addName>
+            <addName>Vergilius von Mantua</addName>
+            <addName>Vergilius Maro</addName>
+            <addName>Pub. Vergilius Maro</addName>
+            <addName>Publius Vergilius-Maro</addName>
+            <addName>Vergilius-Maro</addName>
+            <addName>Vergill</addName>
+            <addName>Veržiliu</addName>
+            <addName>Virgil</addName>
+            <addName>Publius Virgile</addName>
+            <addName>Virgile d'Andes</addName>
+            <addName>Virgile Maron</addName>
+            <addName>Publius Virgile de Mantoue</addName>
+            <addName>Virgile de Mantoue</addName>
+            <addName>Publius Virgile de Mantove</addName>
+            <addName>Virgile de Mantove</addName>
+            <addName>P. Virgilij Maron</addName>
+            <addName>Virgilij Maron</addName>
+            <addName>Virgilio</addName>
+            <addName>Virgilio Mantoano</addName>
+            <addName>Virgilio Mantuano</addName>
+            <addName>Publio Virgilio Maron</addName>
+            <addName>Virgilio Maron</addName>
+            <addName>Publius Virgilio Marone</addName>
+            <addName>Publio Virgilio Marón</addName>
+            <addName>Virgilio Marón</addName>
+            <addName>Publio Virgilio Marón</addName>
+            <addName>Virgilio Marón</addName>
+            <addName>Virgilius</addName>
+            <addName>Virgilius</addName>
+            <addName>Ioann de Virgilius</addName>
+            <addName>Ioannes de Virgilius</addName>
+            <addName>Iohann de Virgilius</addName>
+            <addName>Joannes de Virgilius</addName>
+            <addName>Johann de Virgilius</addName>
+            <addName>Publius Virgilius</addName>
+            <addName>Virgilius Maro P., Publius Vergilius</addName>
+            <addName>Publius Virgilius Maronis</addName>
+            <addName>Virgilius Maronis</addName>
+            <addName>Publius Virgilius Maroos</addName>
+            <addName>Virgilius Maroos</addName>
+            <addName>Virgill</addName>
+            <addName>Virjile"</addName>
+            <addName>Publius Wergilius Maro</addName>
+            <addName>Wergilius Maro</addName>
+            <addName>Publius Wergilius Maronis</addName>
+            <addName>Wergilius Maronis</addName>
+            <addName>Wergiljusz</addName>
+            <addName>Publius Wirgilius Maro</addName>
+            <addName>Wirgilius Maro</addName>
+            <addName>Wirgiliusz</addName>
+            <addName>Publiusz Wirgiliusz Maro</addName>
+            <addName>Wirgiliusz Maro</addName>
+            <addName>Publiusz Wirgiliusz Maron</addName>
+            <addName>Wirgiliusz Maron</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Herder, Johann Gottfried von</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01317461</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01317461"
+                       key="#PND:118549553">Herder<addName type="display">Herder, Johann Gottfried von</addName>
+            <addName>Johann Gottfried von Herder</addName>
+            <addName>Johann Gottfried Herder</addName>
+            <addName>Jean-Godefroy de Herder</addName>
+            <addName>Johan Gottfried Herder</addName>
+            <addName>Gerder</addName>
+            <addName>Gerder</addName>
+            <addName>I. G. Gerder</addName>
+            <addName>Iogann G. Gerder</addName>
+            <addName>Iogann Gotfrid Gerder</addName>
+            <addName>Heerder</addName>
+            <addName>Herder</addName>
+            <addName>Giovanni Goffredo Herder</addName>
+            <addName>Gottfried Herder</addName>
+            <addName>J. G. Herder</addName>
+            <addName>J. G. von Herder</addName>
+            <addName>J. G. v. Herder</addName>
+            <addName>J. J. Herder</addName>
+            <addName>Joh. Gottfr. Herder</addName>
+            <addName>Joh. Gottfried Herder</addName>
+            <addName>Johan Gotfrid Herder</addName>
+            <addName>Johann Herder</addName>
+            <addName>Johann G. Herder</addName>
+            <addName>Johann Gottfried v. Herder</addName>
+            <addName>John Godfrey Herder</addName>
+            <addName>Juan Godofredo de Herder</addName>
+            <addName>M. J. J. Herder</addName>
+            <addName>Yôhan Gôtfrîd fôn Herder</addName>
+            <addName>Yôhan Gôtfrîd f Herder</addName>
+            <addName>Joannus Godofredus Herderus</addName>
+            <addName>Herderus</addName>
+            <addName>Johann Gottfried Von Herder</addName>
+            <addName>Von Herder</addName>
+            <addName>J.G. Herder</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Lessing, G.E.</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259428</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01259428"
+                       key="#PND:118572121">Lessings<addName type="display">Lessing, G.E.</addName>
+            <addName>G.E. Lessing</addName>
+            <addName>Gotthold Ephraim Lessing</addName>
+            <addName>G. E. L.</addName>
+            <addName>L.</addName>
+            <addName>Lai-shin</addName>
+            <addName>Laixin</addName>
+            <addName>Laixin zhu</addName>
+            <addName>Talif Lasing</addName>
+            <addName>Lasing</addName>
+            <addName>Gotchold Efraim Lesing</addName>
+            <addName>Lesing</addName>
+            <addName>Gothold Efraim Lesing</addName>
+            <addName>Gotold Efraim Lesing</addName>
+            <addName>Gotthold Ephraim Lesing</addName>
+            <addName>Goṭhold Efrayim Lesing</addName>
+            <addName>Gôthôld Efrayim Lesing</addName>
+            <addName>Gotholdas Efraimas Lesingas</addName>
+            <addName>Lesingas</addName>
+            <addName>Gothold Ep'raim Lesingi</addName>
+            <addName>Lesingi</addName>
+            <addName>Gothold Epʹraim Lesingi</addName>
+            <addName>Gothold Efraim Lesings</addName>
+            <addName>Lesings</addName>
+            <addName>Lessing</addName>
+            <addName>Boh. Efraim Lessing</addName>
+            <addName>E. Lessing</addName>
+            <addName>E.-G. Lessing</addName>
+            <addName>Efraimo Lessing</addName>
+            <addName>Ephraim Lessing</addName>
+            <addName>G. E. Lessing</addName>
+            <addName>Lessing, G. E. Gotthold Ephraim</addName>
+            <addName>G. Efraimo Lessing</addName>
+            <addName>G. Ephraim Lessing</addName>
+            <addName>Gotchol'd Efraim Lessing</addName>
+            <addName>Gotchol'd Ėfraim Lessing</addName>
+            <addName>Gotgol'd Efraim Lessing</addName>
+            <addName>Gothold Efrajm Lessing</addName>
+            <addName>Gothold Ephraim Lessing</addName>
+            <addName>Gottchol'd Efraim Lessing</addName>
+            <addName>Gottchol'd Ėfraim Lessing</addName>
+            <addName>Gottfried Ephraim Lessing</addName>
+            <addName>Gotth. E. Lessing</addName>
+            <addName>Gotth. Ephr Lessing</addName>
+            <addName>Gotth. Ephr. Lessing</addName>
+            <addName>Gotthard E. Lessing</addName>
+            <addName>Gotthard Ephraim Lessing</addName>
+            <addName>Gotthelf Ephraim Lessing</addName>
+            <addName>Gotthold Lessing</addName>
+            <addName>Gotthold E. Lessing</addName>
+            <addName>Gotthold Efraim Lessing</addName>
+            <addName>Lessing, Gotthold Ephraim 1729-1781</addName>
+            <addName>Gotthold Ephrain Lessing</addName>
+            <addName>Gotthold-Ephraim Lessing</addName>
+            <addName>Gôṭṭhôld Efrayim Lessing</addName>
+            <addName>Gôtthôld Efrayim Lessing</addName>
+            <addName>Gôṭṭhôld Efrayim Lessing</addName>
+            <addName>Lessing Mr. Gotthold Ephraim</addName>
+            <addName>Gotthold E. Lessinga</addName>
+            <addName>Lessinga</addName>
+            <addName>Gotthold Ephraim Lessingius</addName>
+            <addName>Lessingius</addName>
+            <addName>Gkottchold Ephraim Lessink</addName>
+            <addName>Lessink</addName>
+            <addName>Leszing</addName>
+            <addName>Leßing</addName>
+            <addName>Gotthold E. Leßing</addName>
+            <addName>Gotthold Ephraim Leßing</addName>
+            <addName>Gôṭhôld Efrayim Lēsing</addName>
+            <addName>Lēsing</addName>
+            <addName>Lising</addName>
+            <addName>G. D. Lising</addName>
+            <addName>Lisinǧ</addName>
+            <addName>Ǧ. D. Lisīng</addName>
+            <addName>Lisīng</addName>
+            <addName>Ǧ. D. Lisīng</addName>
+            <addName>Lisīng</addName>
+            <addName>Gotholds Efraims Lsings</addName>
+            <addName>Lsings</addName>
+            <addName>Gôṭhôld Efrayim Lēsing</addName>
+            <addName>Lēsing</addName>
+            <addName>Philosophe bien digne d'en être</addName>
+            <addName>Resshingu</addName>
+            <addName>G. E. Resshingu</addName>
+            <addName>Godofredos Efraim Lessigg</addName>
+            <addName>Lessigg</addName>
+            <addName>Godophredos Ephraim Lessing</addName>
+            <addName>Gothophredos Ephraïm Lessing</addName>
+            <addName>Gotth. Ephr. Leßing</addName>
+            <addName>philosophe bien digne d'en être</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Titien</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01240520</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01240520"
+                       key="#PND:118622994 189566248">Titians<addName type="display">Titien</addName>
+            <addName>Le Titien</addName>
+            <addName>Titian</addName>
+            <addName>Titianus</addName>
+            <addName>Il Tiziano</addName>
+            <addName>Tiziano Vecelli</addName>
+            <addName>Vecelli</addName>
+            <addName>Tician</addName>
+            <addName>Ticiano Večellio</addName>
+            <addName>Ticianus</addName>
+            <addName>Titiaan</addName>
+            <addName>Titiano</addName>
+            <addName>Titianus Vecellius</addName>
+            <addName>Tizian</addName>
+            <addName>Vecellio Tiziano</addName>
+            <addName>Tiziano Vecellio, Künstler, 1477-1576</addName>
+            <addName>Titiano Vecelli</addName>
+            <addName>Titiano Vecellio</addName>
+            <addName>Titien Vecellio</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

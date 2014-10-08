@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/15856</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/objekt/15856">Opfernd und beklei-
+                det mit der Schaale</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/20102 http://arachne.uni-koeln.de/item/objekt/20103</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/objekt/20102 #http://arachne.uni-koeln.de/item/objekt/20103">Antonius Pius.</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Verus, Lucius Aurelius</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/804 http://arachne.uni-koeln.de/item/objekt/805</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/objekt/804 #http://arachne.uni-koeln.de/item/objekt/805">
+            <TEI:persName ref="#CerlID:cnp00994597" key="#PND:118643150">Lucius Verus.<addName type="display">Verus, Lucius Aurelius</addName>
+               <addName>Lucius Aurelius Verus</addName>
+               <addName>Lucius Aelius Aurelius Commodus</addName>
+               <addName>Aelius Aurelius Commodus</addName>
+               <addName>Aurelius Commodus</addName>
+               <addName>Aurelius Verus</addName>
+               <addName>Caesar Lucius Aurelius Verus Augustus</addName>
+               <addName>Caesar Lucius Aurelius Verus</addName>
+               <addName>Lucius Ceionius Commodus</addName>
+               <addName>Ceionius Commodus</addName>
+               <addName>Commodus</addName>
+               <addName>Lucius Verus Imperium Romanum, Imperator</addName>
+               <addName>Lucius Verus</addName>
+               <addName>Lucius Verus Römisches Reich, Kaiser</addName>
+               <addName>Verus Emperor</addName>
+               <addName>Verus Imperator</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/13026</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/objekt/13026">an dem in</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/15854</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/objekt/15854">11.</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/bauwerk/2100072</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/bauwerk/2100072">Latran</TEI:term>
+      </nodes>
+   </tag>
+</tags>

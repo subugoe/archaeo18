@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Antonius, Marcus (Triumvir)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00394081</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00394081"
+                       key="#PND:118503529">Antonius<addName type="display">Antonius, Marcus (Triumvir)</addName>
+            <addName>Marcus Antonius</addName>
+            <addName>Antonius Triumvir</addName>
+            <addName>Marcus</addName>
+            <addName>Mark Anton</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pompeius Magnus, Gnaeus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00396166</link>
+      <count>4</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00396166"
+                       key="#PND:118595636">Pompejus<addName type="display">Pompeius Magnus, Gnaeus</addName>
+            <addName>Gnaeus Pompeius Magnus</addName>
+            <addName>Magnus</addName>
+            <addName>Pompée le Grand</addName>
+            <addName>Pompée</addName>
+            <addName>Pompeius</addName>
+            <addName>Gnaeus Pompeius</addName>
+            <addName>Pompeius, Gnaeus Magnus</addName>
+            <addName>Pompejus der Grosse</addName>
+            <addName>Pompejus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01261255</link>
+      <count>4</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01261255">Caesar</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Antonius , Lucius</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01288195</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01288195">L. Antonius<addName type="display">Antonius , Lucius</addName>
+            <addName>Lucius Antonius</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Plutarch</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259316</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01259316"
+                       key="#PND:118595237 118595237">Plutarch<addName type="display">Plutarch</addName>
+            <addName>Plutarch von Chaeronea</addName>
+            <addName>Plutarch z Cheronej</addName>
+            <addName>Plutarcho</addName>
+            <addName>Plutarchus von Chäroneia</addName>
+            <addName>Plutarh</addName>
+            <addName>Plûṭark̲ îš Ḥarôneʾā</addName>
+            <addName>Plûṭark̲</addName>
+            <addName>Plûṭark̲ îš Ḥarôneā</addName>
+            <addName>Plûṭark̲</addName>
+            <addName>Ploetarchos</addName>
+            <addName>Ploutarchos</addName>
+            <addName>Plowtark'</addName>
+            <addName>Plutarch Chaeroneus</addName>
+            <addName>Plutarch of Chaeronea</addName>
+            <addName>Plutarch u Chairōneōs</addName>
+            <addName>Plutarch von Chäronea</addName>
+            <addName>Plutarch von Chaironeia</addName>
+            <addName>Plutarch z Cheronei</addName>
+            <addName>Plutarche</addName>
+            <addName>Plutarche de Chèronè</addName>
+            <addName>Plutarche de Chèronèe</addName>
+            <addName>Plutarche de Chéronée</addName>
+            <addName>Plutarchos</addName>
+            <addName>Plutarchos Biograph</addName>
+            <addName>Plutarchos Chaeroneos</addName>
+            <addName>Plutarchos Chairōneōs</addName>
+            <addName>Plutarchos Philosoph</addName>
+            <addName>Plutarchos von Chaironea</addName>
+            <addName>Plutarchos von Chaironeia</addName>
+            <addName>Chaeronensis Plutarchus</addName>
+            <addName>Plutarchus Biograph</addName>
+            <addName>Plutarchus Biographus</addName>
+            <addName>Plutarchus Chaeronensis</addName>
+            <addName>Plutarchus Chaeroneus</addName>
+            <addName>Plutarchus Chairōneōs</addName>
+            <addName>Plutarchus Cheronaeus</addName>
+            <addName>Plutarchus Cheronensis</addName>
+            <addName>Plutarchus Cheroneus</addName>
+            <addName>Plutarchus of Chaeronea</addName>
+            <addName>Plutarchus Philosophus</addName>
+            <addName>Plutarchus von Chäroneia</addName>
+            <addName>Plutarchus von Chaeronea</addName>
+            <addName>Plutarchus von Chaironeia</addName>
+            <addName>Plutarchus von Cheronea</addName>
+            <addName>Plutarco</addName>
+            <addName>Plutarco Cheronese</addName>
+            <addName>Plutarco di Cheronea</addName>
+            <addName>Plutarcus</addName>
+            <addName>Plutarhus</addName>
+            <addName>Plutarke</addName>
+            <addName>Plutarkhos</addName>
+            <addName>Plutarque</addName>
+            <addName>Plutarque de Chèronèe</addName>
+            <addName>Plutarque de Chéronée</addName>
+            <addName>Plutarque de Chaeronée</addName>
+            <addName>Plutharque</addName>
+            <addName>Plvtarchvs</addName>
+            <addName>Pseudo-Plutarchus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Iulius (Papa, III.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00870839</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00870839"
+                       key="#PND:118955314">Papst Julius
+          
+          III.<addName type="display">Iulius (Papa, III.)</addName>
+            <addName>Giovanni Maria Ciocchi DelMonte</addName>
+            <addName>Ciocchi DelMonte</addName>
+            <addName>Giovan Maria de' Ciocchi del Monte</addName>
+            <addName>Ciocchi del Monte, Giovan Maria de' 1487-1555</addName>
+            <addName>Ciocchi del Monte</addName>
+            <addName>Giovanni Maria Ciocchi del Monte</addName>
+            <addName>Giovanni Maria Del Monte</addName>
+            <addName>Del Monte</addName>
+            <addName>Giovanni Maria Ciocchi Del Monte</addName>
+            <addName>Giovanni Maria DelMonte</addName>
+            <addName>DelMonte</addName>
+            <addName>Giovanni Maria Giocchi de Monte</addName>
+            <addName>Giocchi de Monte</addName>
+            <addName>Giovanni Maria del Monte</addName>
+            <addName>Giulio Papa, III.</addName>
+            <addName>Giulio</addName>
+            <addName>Iulius III.</addName>
+            <addName>Iulius Pontifex maximus, III.</addName>
+            <addName>Joannes Maria Archiepiscopus Sipontinus</addName>
+            <addName>Joannes Maria</addName>
+            <addName>Johannes Maria Sipontinus, Archiepiscopus</addName>
+            <addName>Johannes Maria</addName>
+            <addName>Julis Papa, III.</addName>
+            <addName>Julis</addName>
+            <addName>Julius III</addName>
+            <addName>Julius III papa 1487-1555</addName>
+            <addName>Julius Papa, III.</addName>
+            <addName>Monte</addName>
+            <addName>Giovanni Maria Ciocchi Monte</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00000238</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp00000238">Cæsar</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Spada, Bernardino</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00574172</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00574172"
+                       key="#PND:123220998">Cardinals Spada<addName type="display">Spada, Bernardino</addName>
+            <addName>Bernardino Spada</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

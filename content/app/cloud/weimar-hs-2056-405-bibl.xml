@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Pitture d´Ercalano I. 1-4.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/ercolano1757bd1/0013</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/ercolano1757bd1/0013">Pitture 
+                                                     d´Ercalano I. 1-4.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Plin: XXXV. 32.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://d-nb.info/gnd/4196444-5</link>
+      <count>4</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://d-nb.info/gnd/4196444-5">Plin: XXXV. 32.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Caylus Mem: To XXV. 175.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://hdl.handle.net/2027/ucm.5319456911?urlappend=%3Bseq=495</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://hdl.handle.net/2027/ucm.5319456911?urlappend=%3Bseq=495">Caylus Mem: To XXV. 175.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>176.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://hdl.handle.net/2027/ucm.5319456911?urlappend=%3Bseq=496</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://hdl.handle.net/2027/ucm.5319456911?urlappend=%3Bseq=496">176.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Vitruv: VII. 3.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://d-nb.info/gnd/4099392-9</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://d-nb.info/gnd/4099392-9">Vitruv: 
+                                                     VII. 3.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pitture d´Ercol: I. 274.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/ercolano1757bd1/0286</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/ercolano1757bd1/0286">Pitture d´Ercol: I. 274.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+</tags>

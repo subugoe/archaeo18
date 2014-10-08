@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Amor</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00542364</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00542364"
+                   key="#PND:11850262X">Amor<addName type="display">Amor</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Praxiteles</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00589123</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00589123"
+                   key="#PND:118793241">Praxiteles<addName type="display">Praxiteles</addName>
+            <addName>Prassitele</addName>
+            <addName>Praxitèle</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Constantinus (Imperium Romanum, Imperator, I.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00945275</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00945275"
+                   key="#PND:118565184">Constan- 
+                                                    tino Magno<addName type="display">Constantinus (Imperium Romanum, Imperator, I.)</addName>
+            <addName>Aurelius Claudius</addName>
+            <addName>Claudius Valerius</addName>
+            <addName>Constantin der Große</addName>
+            <addName>Constantin</addName>
+            <addName>Constantin der Grosse</addName>
+            <addName>Constantin Empereur</addName>
+            <addName>Constantin Kaiser</addName>
+            <addName>Constantin Varsovie, Grand-Duc</addName>
+            <addName>Constantine Emperor, I.</addName>
+            <addName>Constantine</addName>
+            <addName>Constantine the Great</addName>
+            <addName>Flavius Valerius Constantinus Augustus</addName>
+            <addName>Constantinus Augustus</addName>
+            <addName>Flavius Valerius Constantinus</addName>
+            <addName>I. Constantinus</addName>
+            <addName>Constantinus, I. Imperator</addName>
+            <addName>Constantinus Constantinopolitanus</addName>
+            <addName>Constantinus der Große</addName>
+            <addName>Constantinus der Grosse</addName>
+            <addName>Constantinus Imperator</addName>
+            <addName>Constantinus Imperator, I.</addName>
+            <addName>Constantinus Magnus</addName>
+            <addName>Costantino il Grande</addName>
+            <addName>Costantino</addName>
+            <addName>Flavius Valerius</addName>
+            <addName>Konstantin Veliki</addName>
+            <addName>Konstantin den Stores</addName>
+            <addName>Konstantin der Große</addName>
+            <addName>Konstantin der Grosse</addName>
+            <addName>Konstantin Römisches Reich, Kaiser, I.</addName>
+            <addName>Konstantin Römischer Kaiser</addName>
+            <addName>Konstantinus Imperium Romanum, Imperator, I.</addName>
+            <addName>Konstantinus</addName>
+            <addName>Konstantyn de Groote</addName>
+            <addName>Konstantyn</addName>
+            <addName>Valerius Aurelis</addName>
+            <addName>Valerius Constantinus Augustus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Sophia (Heilige, 2. Jh.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00589318</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00589318"
+                   key="#PND:118798006">HeiligenSophiae<addName type="display">Sophia (Heilige, 2. Jh.)</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Apollon</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00542641</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00542641"
+                   key="#PND:118503642">Apollo Pythius<addName type="display">Apollon</addName>
+            <addName>Apoll</addName>
+            <addName>Apollo</addName>
+            <addName>Phoebus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Arcadius (Imperium Byzantinum, Imperator, I.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01003422</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01003422"
+                   key="#PND:118848445">Arcadio<addName type="display">Arcadius (Imperium Byzantinum, Imperator, I.)</addName>
+            <addName>Flavius Arcadius</addName>
+            <addName>Arcadius Augustus</addName>
+            <addName>Arcadius Byzantinisches Reich, Kaiser</addName>
+            <addName>Arcadius Oströmischer Kaiser</addName>
+            <addName>Arcadius Römischer Kaiser</addName>
+            <addName>Arcadius Sohn des Theodosius</addName>
+            <addName>Arcadius Theodosii Magni Filius</addName>
+            <addName>Arkadios</addName>
+            <addName>Arkadios Byzantinisches Reich, Kaiser</addName>
+            <addName>Flavius</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Theodosius (Byzantinisches Reich, Kaiser, II.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00983561</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00983561"
+                   key="#PND:118756885">Theodosio II.<addName type="display">Theodosius (Byzantinisches Reich, Kaiser, II.)</addName>
+            <addName>Theodosianus</addName>
+            <addName>Theodosianus II.</addName>
+            <addName>Theodosios Kaiser, II.</addName>
+            <addName>Theodosios</addName>
+            <addName>Theodosius Arcadii Filius</addName>
+            <addName>Theodosius Augustus, II.</addName>
+            <addName>Theodosius Imperator, II.</addName>
+            <addName>Theodosius Imperium Byzantinium, Imperator, II.</addName>
+            <addName>Theodosius Imperium Romanum, Imperator, II.</addName>
+            <addName>Theodosius Iunior</addName>
+            <addName>Theodosius Junior</addName>
+            <addName>Theodosius Oströmisches Reich, Kaiser, II.</addName>
+            <addName>Theodosius Oströmischer Kaiser</addName>
+            <addName>Theodosius Römisches Reich, Kaiser, II.</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Iustinianus (Imperium Byzantinum, Imperator, I.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259647</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01259647"
+                   key="#PND:11855896X 11855896X">Justinian anno<addName type="display">Iustinianus (Imperium Byzantinum, Imperator, I.)</addName>
+            <addName>I Justinianus</addName>
+            <addName>Flavius Petrus Sabbatius Iustinianus</addName>
+            <addName>Flavius Petrus</addName>
+            <addName>Flavius Iustinianus</addName>
+            <addName>Flavius</addName>
+            <addName>Flavius Sabbatius Iustinianus</addName>
+            <addName>Giustiniano</addName>
+            <addName>Giustiniano I.</addName>
+            <addName>Giustiniano Imperatore</addName>
+            <addName>Augustus Iustinianus</addName>
+            <addName>Flavius P. Iustinianus</addName>
+            <addName>Flavius Petrus Iustinianus</addName>
+            <addName>Flavius S. Iustinianus</addName>
+            <addName>Iustinianus, Flavius Imperator</addName>
+            <addName>Iustinianus Augustus</addName>
+            <addName>Iustinianus Constantinopolitanus</addName>
+            <addName>Iustinianus Imperator</addName>
+            <addName>Iustinianus Imperator, I.</addName>
+            <addName>Iustinianus Imperium Romanum, Imperator, I.</addName>
+            <addName>Iustinianus Princeps</addName>
+            <addName>Flavivs Ivstinianvs</addName>
+            <addName>Ivstinianvs, Flavivs Imperator</addName>
+            <addName>Ivstinianvs</addName>
+            <addName>Ivstinianvs Imperator</addName>
+            <addName>Kaiser Justinian</addName>
+            <addName>Justinian, Kaiser Byzantinisches Reich</addName>
+            <addName>Justinian der Große</addName>
+            <addName>Justinian emperor</addName>
+            <addName>Justinian Emperor of Rome</addName>
+            <addName>Justinian Imperator</addName>
+            <addName>Justinian Ost-Römisches Reich, Kaiser, I.</addName>
+            <addName>Augustus Justinianus</addName>
+            <addName>Flavius Justinianus</addName>
+            <addName>Flavius Anicius Julianus Justinianus</addName>
+            <addName>Flavius Petrus Sabbatius Justinianus</addName>
+            <addName>Justinianus I Emperor of the East</addName>
+            <addName>Justinianus Imperator, I.</addName>
+            <addName>Justinianus Imperium Byzantinum, Imperator, I.</addName>
+            <addName>Justinianus Imperium Romanum, Imperator, I.</addName>
+            <addName>Justinien</addName>
+            <addName>Justinien Emperor</addName>
+            <addName>Justinien Empire Byzantin, Empereur, I.</addName>
+            <addName>Petrus Sabbatius</addName>
+            <addName>Petrus</addName>
+            <addName>Sabbatius Iustinianus</addName>
+            <addName>Uprawda</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Leo (Imperium Byzantinum, Imperator, I.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00284977</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00284977"
+                   key="#PND:102397112">Leo. I.<addName type="display">Leo (Imperium Byzantinum, Imperator, I.)</addName>
+            <addName>Leo Imperator, I.</addName>
+            <addName>Leo Oströmischer Kaiser</addName>
+            <addName>Leo Oströmisches Reich, Kaiser, I.</addName>
+            <addName>Leon der Große</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Venus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00588078</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00588078"
+                   key="#PND:11876800X">Venus<addName type="display">Venus</addName>
+            <addName>Anadyomene  Beiname</addName>
+            <addName>Anadyomene</addName>
+            <addName>Arelatensis  Beiname</addName>
+            <addName>Arelatensis</addName>
+            <addName>aurea  Beiname</addName>
+            <addName>aurea</addName>
+            <addName>coelestis  Beiname</addName>
+            <addName>coelestis</addName>
+            <addName>Gnidia  Beiname</addName>
+            <addName>Gnidia</addName>
+            <addName>Marina  Beiname</addName>
+            <addName>Marina</addName>
+            <addName>Pelasgia  Beiname</addName>
+            <addName>Pelasgia</addName>
+            <addName>Pontia  Beiname</addName>
+            <addName>Pontia</addName>
+            <addName>Urania  Beiname</addName>
+            <addName>Urania</addName>
+            <addName>Victrix  Beiname</addName>
+            <addName>Victrix</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Jupiter</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00554429</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00554429"
+                   key="#PND:118558897">Jupiter<addName type="display">Jupiter</addName>
+            <addName>Iupiter</addName>
+            <addName>Juppiter</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Phidias</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00562418</link>
+      <count>6</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00562418"
+                   key="#PND:118593765">Phidias<addName type="display">Phidias</addName>
+            <addName>Pheidias</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Zeno (Imperium Byzantinum, Imperator)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00994897</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00994897"
+                   key="#PND:100445349">Zeno II.<addName type="display">Zeno (Imperium Byzantinum, Imperator)</addName>
+            <addName>Tarasikodissa</addName>
+            <addName>Zēnōn</addName>
+            <addName>Zeno Imperator</addName>
+            <addName>Zeno Oströmisches Reich, Kaiser</addName>
+            <addName>Zenon Imperium Byzantinum, Imperator</addName>
+            <addName>Zenon</addName>
+            <addName>Zenon Kaiser</addName>
+            <addName>Zenon Römischer Kaiser</addName>
+            <addName>C. Zenone</addName>
+            <addName>Zenone</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Tzetzès, Jean</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00955752</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00955752"
+                   key="#PND:118712608">Zetza<addName type="display">Tzetzès, Jean</addName>
+            <addName>Jean Tzetzès</addName>
+            <addName>Giovanni Tzetzes</addName>
+            <addName>Giovanni</addName>
+            <addName>Tzetzes</addName>
+            <addName>Zetza</addName>
+            <addName>Iōannēs Tzetzēs</addName>
+            <addName>Tzetzēs</addName>
+            <addName>Ioannes Tzetzes</addName>
+            <addName>Iohannes Tzetzes</addName>
+            <addName>Joannes Tzetzes</addName>
+            <addName>Ioannes Tzetza</addName>
+            <addName>Ioannes</addName>
+            <addName>Iohannes</addName>
+            <addName>Iōannēs ho Grammatikos</addName>
+            <addName>Iōannēs</addName>
+            <addName>Iōannēs ho Tzetzēs</addName>
+            <addName>Iōannēs ho Grammatikos</addName>
+            <addName>Iōannēs</addName>
+            <addName>Iōannēs ho Tzetzēs</addName>
+            <addName>Joannes</addName>
+            <addName>Johannes Grammaticus</addName>
+            <addName>Johannes Tzetza</addName>
+            <addName>Tzetza</addName>
+            <addName>Joannes Tzetza</addName>
+            <addName>Joann Tzetzes</addName>
+            <addName>Tzetzès Jean</addName>
+            <addName>Iōannēs Tzetzēs</addName>
+            <addName>Tzetzēs</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Herakles</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00574918</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00574918"
+                   key="#PND:118639552">Herkules<addName type="display">Herakles</addName>
+            <addName>Ercole</addName>
+            <addName>Heracles</addName>
+            <addName>Hercules</addName>
+            <addName>Herkules</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Ageladas</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01288186</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01288186">Ageladas<addName type="display">Ageladas</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Athena</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00542952</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00542952"
+                   key="#PND:118504851">Pallas<addName type="display">Athena</addName>
+            <addName>Athene</addName>
+            <addName>Pallas Athene</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

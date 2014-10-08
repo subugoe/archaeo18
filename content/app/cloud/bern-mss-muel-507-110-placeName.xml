@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Al-Iskandarīyah</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7001188</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7001188">Alexandria<addName type="display">Al-Iskandarīyah</addName>
+            <addName>Al-Iskandarīyah</addName>
+            <addName>Al-Iskandariyah</addName>
+            <addName>Iskindiriya</addName>
+            <addName>El Iskandariya</addName>
+            <addName>Alexandrie</addName>
+            <addName>Alejandría</addName>
+            <addName>Alexandria</addName>
+            <addName>Alexandrea</addName>
+            <addName>Alessandria</addName>
+            <addName>Alessandria d'Egitto</addName>
+            <addName>Alexandria Aegypti</addName>
+            <addName>Alexandria Ad Aegyptum</addName>
+            <addName>Rhakotis</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Dacia</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7030323</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7030323">Dacien<addName type="display">Dacia</addName>
+            <addName>Dacia</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+</tags>

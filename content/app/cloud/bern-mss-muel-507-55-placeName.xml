@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Egypt</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7014986</link>
+      <count>6</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7014986">Egypten<addName type="display">Egypt</addName>
+            <addName>Egypt</addName>
+            <addName>Egypt, ancient</addName>
+            <addName>Aegyptus</addName>
+            <addName>Aigyptos</addName>
+            <addName>Hwt-ka-Ptah</addName>
+            <addName>Kem</addName>
+            <addName>Kemi</addName>
+            <addName>Kermit</addName>
+            <addName>Kemet</addName>
+            <addName>Kmt</addName>
+            <addName>Ancient Egyptian</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Thebes</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7001297</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7001297">Theben<addName type="display">Thebes</addName>
+            <addName>Thebes</addName>
+            <addName>Tebe</addName>
+            <addName>Thèbes</addName>
+            <addName>Thebae</addName>
+            <addName>Thebae Aegypti</addName>
+            <addName>Thēvai</addName>
+            <addName>Thiva</addName>
+            <addName>Theben</addName>
+            <addName>Thebai</addName>
+            <addName>Thívai</addName>
+            <addName>Diospolis Magna</addName>
+            <addName>Diospolis</addName>
+            <addName>Nowe</addName>
+            <addName>Nuwe</addName>
+            <addName>No</addName>
+            <addName>Wase</addName>
+            <addName>Woʻse</addName>
+            <addName>Theban</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Phoenicia</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=6004687</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:6004687">Syrien<addName type="display">Phoenicia</addName>
+            <addName>Phoenicia</addName>
+            <addName>Phœnicia</addName>
+            <addName>Phenicia</addName>
+            <addName>Phœnician</addName>
+            <addName>Syria Phoenice</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Asia Minor</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7002294</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7002294">klein Asien<addName type="display">Asia Minor</addName>
+            <addName>Asia Minor</addName>
+            <addName>Asia Menor</addName>
+            <addName>Kleinasien</addName>
+            <addName>Asie Mineure</addName>
+            <addName>Anatolia</addName>
+            <addName>Anadol</addName>
+            <addName>Anadolu</addName>
+            <addName>Anadoli</addName>
+            <addName>Anatolie</addName>
+            <addName>Anatolien</addName>
+            <addName>Anatolian</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Elymais</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=6001880</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:6001880">Elymais<addName type="display">Elymais</addName>
+            <addName>Elymais</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Persia</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7024079</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7024079">Persien<addName type="display">Persia</addName>
+            <addName>Persia</addName>
+            <addName>Persien</addName>
+            <addName>Perse</addName>
+            <addName>Perzië</addName>
+            <addName>Pérsia</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+</tags>

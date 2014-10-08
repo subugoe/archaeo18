@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-84.tei.xml-d11493e16">Mus. Flor. 2. ptab. 9.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pan</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-84.tei.xml-d11493e59">milden <persName ref="#CerlID:cnp00588942" key="#PND:118789406">Pan<addName type="display">Pan</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>KerchKrym</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-84.tei.xml-d11493e84">von <placeName ref="#GettyID:7012009">Panticopæum<addName type="display">Kerch</addName>
+               <addName>Kerch</addName>
+               <addName>Kerč</addName>
+               <addName>Kerč'</addName>
+               <addName>Kertch</addName>
+               <addName>Korchev</addName>
+               <addName>Cerco</addName>
+               <addName>Cerchio</addName>
+               <addName>Chercio</addName>
+               <addName>Cherkio</addName>
+               <addName>Panticapaeum</addName>
+               <addName>Pantikapaion</addName>
+            </placeName> im <placeName ref="#GettyID:7010345">Chersones<addName type="display">Krym</addName>
+               <addName>Krym</addName>
+               <addName>Krymskij poluostrov</addName>
+               <addName>Kryms'kyy pivostriv</addName>
+               <addName>Krim</addName>
+               <addName>Crimea</addName>
+               <addName>The Crimea</addName>
+               <addName>Crimée</addName>
+               <addName>Crimean Peninsula</addName>
+               <addName>Tauris</addName>
+               <addName>Chersonese</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pushkin</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-84.tei.xml-d11493e158">in <placeName ref="#GettyID:7010262">Sarskoe-Selo<addName type="display">Pushkin</addName>
+               <addName>Pushkin</addName>
+               <addName>Puškin</addName>
+               <addName>Detskoe Selo</addName>
+               <addName>Tsarkoïe Selo</addName>
+               <addName>Tsarskoe Selo</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/5217</link>
+      <count>4</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/5217">Marbre de Dresde
+                                        25</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-84.tei.xml-d11493e247">Beger thesaur. Brandenb. 3. p. 258</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/12625</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/12625">t. 67.</term>
+      </nodes>
+   </tag>
+</tags>

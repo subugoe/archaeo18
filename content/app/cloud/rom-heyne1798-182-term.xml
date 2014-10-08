@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Curio, Gaius Scribonius (Filius)</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-182.tei.xml-d17199e12">das des<persName ref="#CerlID:cnp00283951" key="#PND:102386196">Curio<addName type="display">Curio, Gaius Scribonius (Filius)</addName>
+               <addName>Gaius Scribonius Curio</addName>
+               <addName>Scribonius Curio, Gaius Filius</addName>
+               <addName>Scribonius Curio</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:151991 http://arachne.uni-koeln.de/item/bauwerk/2100278</link>
+      <count>4</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:151991 #http://arachne.uni-koeln.de/item/bauwerk/2100278">erste stehende Theater</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:150890 http://arachne.uni-koeln.de/item/bauwerk/2100189</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:150890 #http://arachne.uni-koeln.de/item/bauwerk/2100189">Theatro Marcelli</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Otricoli</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/bauwerk/2103138</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/bauwerk/2103138">zu<placeName ref="#GettyID:7005141">Otricoli<addName type="display">Otricoli</addName>
+               <addName>Otricoli</addName>
+               <addName>Ocriculum</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Portici</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-182.tei.xml-d17199e99">zu <placeName ref="#GettyID:7006841">Partici<addName type="display">Portici</addName>
+               <addName>Portici</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Siracusa</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/bauwerk/2107959</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/bauwerk/2107959">zu <placeName ref="#GettyID:7003794">Syracus<addName type="display">Siracusa</addName>
+               <addName>Siracusa</addName>
+               <addName>Syracusa</addName>
+               <addName>Síracusa</addName>
+               <addName>Syracuse</addName>
+               <addName>Syracusae</addName>
+               <addName>Syrakusai</addName>
+               <addName>Siracisae</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Taormina</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/bauwerk/2107962</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/bauwerk/2107962">zu <placeName ref="#GettyID:7003902">Taor-
+                                mino<addName type="display">Taormina</addName>
+               <addName>Taormina</addName>
+               <addName>Mu'izzīyah</addName>
+               <addName>Tauromenium</addName>
+               <addName>Tauromenion</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Sagunto</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/bauwerk/2109500</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/bauwerk/2109500">Theater zu <placeName ref="#GettyID:7008559">Sagunt<addName type="display">Sagunto</addName>
+               <addName>Sagunto</addName>
+               <addName>Sagunt</addName>
+               <addName>Murviedro</addName>
+               <addName>Murbiter</addName>
+               <addName>Saguntum</addName>
+               <addName>Arse</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pula</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-182.tei.xml-d17199e259">Eins zu <placeName ref="#GettyID:7015562">Pola<addName type="display">Pula</addName>
+               <addName>Pula</addName>
+               <addName>Pola</addName>
+               <addName>Pulj</addName>
+               <addName>Pietas Julia</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Vicenza</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-182.tei.xml-d17199e299">Ein neues nach altem Riß zu <placeName ref="#GettyID:7003204">Vicenza<addName type="display">Vicenza</addName>
+               <addName>Vicenza</addName>
+               <addName>Vicentia</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+</tags>

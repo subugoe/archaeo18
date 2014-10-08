@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-87.tei.xml-d11461e12">Porcinari</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Nola</tag>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-87.tei.xml-d11461e17">Bischoffe zu <TEI:placeName ref="#GettyID:7004644">Nola<addName type="display">Nola</addName>
+               <addName>Nola</addName>
+            </TEI:placeName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Paternó Castellò, Ignazio</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00476565</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00476565"
+                       key="#PND:124386121">PrinzenBiscari<addName type="display">Paternó Castellò, Ignazio</addName>
+            <addName>Ignazio Paternó Castellò</addName>
+            <addName>Ignazio Paternò Castello</addName>
+            <addName>Ignazio Paternò Castello</addName>
+            <addName>Piscari Prinz</addName>
+            <addName>Piscari</addName>
+            <addName>Ignazio Paternó Castellò di Biscari</addName>
+            <addName>Biscari</addName>
+            <addName>Principe di Biscari</addName>
+            <addName>Castellò</addName>
+            <addName>Ignazio Paternó</addName>
+            <addName>Paternó</addName>
+            <addName>Paternó Castellò di Biscari</addName>
+            <addName>Ignazio Paternò di Biscari</addName>
+            <addName>Ignazio Paternò Castello di Biscari</addName>
+            <addName>Castello</addName>
+            <addName>Ignazio Vincenzo Paternò Castello</addName>
+            <addName>Castello di Biscari</addName>
+            <addName>Ignazio Paternò</addName>
+            <addName>Paternò</addName>
+            <addName>Ignazio Vincenzo Paternò</addName>
+            <addName>Paternò Castello di Biscari</addName>
+            <addName>Paternò di Biscari</addName>
+            <addName>Ignazio Paternò-Castello</addName>
+            <addName>Paternò-Castello</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-87.tei.xml-d11461e194">Vescovo Lucchesi</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-87.tei.xml-d11461e202">Petro Fondi</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Gori, Antonio Francesco</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00402479</link>
+      <count>4</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00402479"
+                       key="#PND:118964925">Gori<addName type="display">Gori, Antonio Francesco</addName>
+            <addName>Antonio Francesco Gori</addName>
+            <addName>A. F. Gori</addName>
+            <addName>Adame François Gori</addName>
+            <addName>Adame François Gori</addName>
+            <addName>Ant. Francesco Gori</addName>
+            <addName>Antoine François Gori</addName>
+            <addName>Antoine François Gori</addName>
+            <addName>Anton Francesco Gori</addName>
+            <addName>Anton Franz Gori</addName>
+            <addName>Antonius Franc. Gori</addName>
+            <addName>Antonio Francisco Gorius</addName>
+            <addName>Gorius</addName>
+            <addName>Antonius Gorius</addName>
+            <addName>Antonius Franciscus Gorius</addName>
+            <addName>Antonius Franciscus Gorus</addName>
+            <addName>Gorus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Passeri, Giambattista</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00946728</link>
+      <count>4</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00946728"
+                       key="#PND:132258129">Passeri<addName type="display">Passeri, Giambattista</addName>
+            <addName>Giambattista Passeri</addName>
+            <addName>Giovanni Battista Passeri</addName>
+            <addName>Joannes Baptista Passerius</addName>
+            <addName>Passerius</addName>
+            <addName>L. Antisiccio Prisco</addName>
+            <addName>Antisiccio Prisco</addName>
+            <addName>Lucido da Cosenza</addName>
+            <addName>Lucido</addName>
+            <addName>Johannes B. Paserius</addName>
+            <addName>Paserius</addName>
+            <addName>Johannes Baptista Paserius</addName>
+            <addName>Giambattista Passari</addName>
+            <addName>Passari</addName>
+            <addName>Giambaptista Passeri</addName>
+            <addName>Giovanni B. Passeri</addName>
+            <addName>Jo. Baptista Passeri</addName>
+            <addName>Iohannes Baptista Passerius</addName>
+            <addName>Johannes B. Passerius</addName>
+            <addName>Johannes Baptista Passerius</addName>
+            <addName>Ioannis B. Passerus</addName>
+            <addName>Passerus</addName>
+            <addName>Joannes B. Passerus</addName>
+            <addName>Johannes B. Passerus</addName>
+            <addName>Johannes Baptista Passerus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

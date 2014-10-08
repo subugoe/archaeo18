@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Spon, Jacob</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00404793</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00404793"
+                   key="#PND:119228998">Spon<addName type="display">Spon, Jacob</addName>
+            <addName>Jacob Spon</addName>
+            <addName>S. Du Four</addName>
+            <addName>Du Four</addName>
+            <addName>I. S. D. M.</addName>
+            <addName>Spon</addName>
+            <addName>I. Spon</addName>
+            <addName>Iacob Spon</addName>
+            <addName>Isaac Spon</addName>
+            <addName>Jacques Spon</addName>
+            <addName>Jakob Spon</addName>
+            <addName>James Spon</addName>
+            <addName>Jaques Spon</addName>
+            <addName>Iacobus Sponius</addName>
+            <addName>Sponius</addName>
+            <addName>Jacobus Sponius</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Minerva</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00544188</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00544188"
+                   key="#PND:118986155">Minerva<addName type="display">Minerva</addName>
+            <addName>Sospitatrix</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Jupiter</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00554429</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00554429"
+                   key="#PND:118558897">Jupiter<addName type="display">Jupiter</addName>
+            <addName>Iupiter</addName>
+            <addName>Juppiter</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Erichthonios</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00548429</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00548429"
+                   key="#PND:118530763">Erechtheus<addName type="display">Erichthonios</addName>
+            <addName>Erechtheus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pandrosos</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00571604</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00571604"
+                   key="#PND:122786114">Pandastä<addName type="display">Pandrosos</addName>
+            <addName>Pandastä</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Alexander (Magnus)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259691</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01259691"
+                   key="#PND:118501828">Alexanders<addName type="display">Alexander (Magnus)</addName>
+            <addName>Ałekʹsandr Makedonacʹi</addName>
+            <addName>Alejandro Magno</addName>
+            <addName>Alejandro</addName>
+            <addName>Aleksandr</addName>
+            <addName>Alessandro Magno</addName>
+            <addName>Alessandro</addName>
+            <addName>Alexander de Grote</addName>
+            <addName>Alexander der Große</addName>
+            <addName>Alexander der Grosse</addName>
+            <addName>Alexander Epistolographus</addName>
+            <addName>Alexander III 3 koning van Macedonië</addName>
+            <addName>Alexander Kaiser</addName>
+            <addName>Alexander Macedonia, Rex, III.</addName>
+            <addName>Alexander Macedonis</addName>
+            <addName>Alexander Mazedonien, König, III.</addName>
+            <addName>Alexander of Macedon</addName>
+            <addName>Alexander Rex</addName>
+            <addName>Alexandre le Grand</addName>
+            <addName>Alexandre</addName>
+            <addName>Alexandros</addName>
+            <addName>Alexandros der Große</addName>
+            <addName>Alexandru cel Mare</addName>
+            <addName>Alexandru</addName>
+            <addName>Alexandrus Magnus</addName>
+            <addName>Alexandrus</addName>
+            <addName>Megalexandros</addName>
+            <addName>Pseudo-Alexander Magnus</addName>
+            <addName>Pseudo-Alexander</addName>
+            <addName>Grote</addName>
+            <addName>Alexandros Megas</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Demosthenes</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00394563</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00394563"
+                   key="#PND:118524658">Demosthenes<addName type="display">Demosthenes</addName>
+            <addName>Dēmosthenēs</addName>
+            <addName>Dēmosthenus</addName>
+            <addName>Démosthène</addName>
+            <addName>Démosthène dÁthènes</addName>
+            <addName>Démosthène dÁthènes</addName>
+            <addName>Démosthène Orateur</addName>
+            <addName>Démosthene</addName>
+            <addName>Dēmosthenus</addName>
+            <addName>Démosthène</addName>
+            <addName>Démosthène dÁthènes</addName>
+            <addName>Démosthène Orateur</addName>
+            <addName>Démosthene</addName>
+            <addName>Demostene</addName>
+            <addName>Demostene di Peania</addName>
+            <addName>Demostene Oratore</addName>
+            <addName>Demostenes</addName>
+            <addName>Demosthenes Atheniensis</addName>
+            <addName>Demosthenes Attischer Redner</addName>
+            <addName>Demosthenes Orator</addName>
+            <addName>Demosthenes Politiker</addName>
+            <addName>Demosthenes Pseudo-</addName>
+            <addName>Demosthenes Redner</addName>
+            <addName>Demosthenes Rhetor</addName>
+            <addName>Demosthenes Sohn des Demosthenes</addName>
+            <addName>Demosthenes von Athen</addName>
+            <addName>Demosthenes von Paiania</addName>
+            <addName>Demosthenus</addName>
+            <addName>Pseudo-Demosthenes</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Lysikrates</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300333</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300333">Lysicrates<addName type="display">Lysikrates</addName>
+            <addName>Lysicrates</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

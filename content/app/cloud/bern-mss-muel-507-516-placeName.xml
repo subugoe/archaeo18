@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Lydia</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7016631</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7016631">Lydien<addName type="display">Lydia</addName>
+            <addName>Lydia</addName>
+            <addName>Sparda</addName>
+            <addName>Maeonia</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Sardis</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7002615</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7002615">Sardes<addName type="display">Sardis</addName>
+            <addName>Sardis</addName>
+            <addName>Sardes</addName>
+            <addName>Sart</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Persia</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7024079</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7024079">Persien<addName type="display">Persia</addName>
+            <addName>Persia</addName>
+            <addName>Persien</addName>
+            <addName>Perse</addName>
+            <addName>Perzië</addName>
+            <addName>Pérsia</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Bhārat</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7000198</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7000198">Indien<addName type="display">Bhārat</addName>
+            <addName>Bhārat</addName>
+            <addName>Bharat</addName>
+            <addName>India</addName>
+            <addName>Republic of India</addName>
+            <addName>Bhārat Ganarājya</addName>
+            <addName>Inde</addName>
+            <addName>République de l'Inde</addName>
+            <addName>Indien</addName>
+            <addName>Índia</addName>
+            <addName>IND</addName>
+            <addName>IN</addName>
+            <addName>ISO356</addName>
+            <addName>IN00</addName>
+            <addName>Indian Union</addName>
+            <addName>Union of India</addName>
+            <addName>Indian</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Babylon</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7002626</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7002626">Babilon<addName type="display">Babylon</addName>
+            <addName>Babylon</addName>
+            <addName>Babylonia</addName>
+            <addName>Babylone</addName>
+            <addName>Babilonia</addName>
+            <addName>Babil</addName>
+            <addName>Tell Babil</addName>
+            <addName>Bab-ili</addName>
+            <addName>Babel</addName>
+            <addName>Babhel</addName>
+            <addName>Babilu</addName>
+            <addName>Ka-Dingir-Ra</addName>
+            <addName>Din-tir</addName>
+            <addName>Kading'irra</addName>
+            <addName>Su-anna</addName>
+            <addName>Uru-azagga</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+</tags>

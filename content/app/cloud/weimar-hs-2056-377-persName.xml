@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Atalante</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00570676</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00570676"
+                   key="#PND:122641124">Atalante<addName type="display">Atalante</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Leandros</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300312</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300312">Leander<addName type="display">Leandros</addName>
+            <addName>Leander</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Allion</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01427494</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01427494">Allione<addName type="display">Allion</addName>
+            <addName>Allione</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Augustus (Emperor of Rome)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00971385</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00971385"
+                   key="#PND:118505122">Augusts<addName type="display">Augustus (Emperor of Rome)</addName>
+            <addName>Auguste Empereur</addName>
+            <addName>Auguste</addName>
+            <addName>Caio Giulio Cesare Ottaviano Augusto</addName>
+            <addName>Augusto</addName>
+            <addName>Cesare Augusto</addName>
+            <addName>Cesare Ottaviano Augusto</addName>
+            <addName>Ottaviano Augusto</addName>
+            <addName>Augustus Caesar</addName>
+            <addName>Caesar Augustus</addName>
+            <addName>Caesar Octavianus Augustus</addName>
+            <addName>Caius J. Augustus</addName>
+            <addName>Caius Julius Caesar Augustus</addName>
+            <addName>Cesar Octavianus Augustus</addName>
+            <addName>Gaius I. Augustus</addName>
+            <addName>Gaius Iulius Caesar Augustus</addName>
+            <addName>Gaius Iulius Caesar Octavianus Augustus</addName>
+            <addName>Gaius Julius Augustus</addName>
+            <addName>Gaius Julius Caesar Octavianus Augustus</addName>
+            <addName>Gaius Octavius Augustus</addName>
+            <addName>Iulius Caesar Octavianus Augustus</addName>
+            <addName>Octavianus Augustus</addName>
+            <addName>Octavius Caesar Augustus</addName>
+            <addName>Augustus Divus</addName>
+            <addName>Augustus Imperator</addName>
+            <addName>Augustus Imperium Romanum, Caesar</addName>
+            <addName>Augustus Kaiser</addName>
+            <addName>Augustus Römisches Reich, Kaiser</addName>
+            <addName>Augustus Roemisches Reich, Kaiser</addName>
+            <addName>Augustus Romanus</addName>
+            <addName>Augustus Verfasser der Res Gestae</addName>
+            <addName>Caius Octavianus Imperium Romanum, Imperator</addName>
+            <addName>Caius Octavianus</addName>
+            <addName>Caius Oktavius Imperium Romanum, Augustus</addName>
+            <addName>Caius Oktavius</addName>
+            <addName>Caius Oktavius Imperium Romanum, Imperator</addName>
+            <addName>Gaius Julius Caesar Octavianus</addName>
+            <addName>Gaius Octavius</addName>
+            <addName>Gaius Octavius Emperor of Rome</addName>
+            <addName>Octavian</addName>
+            <addName>Octavianus</addName>
+            <addName>Octavius</addName>
+            <addName>Octavius Caesar Emperor of Rome</addName>
+            <addName>Octavius Caesar</addName>
+            <addName>Octavius Augustus</addName>
+            <addName>Ottaviano</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>August (Polen, König, III.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00394128</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00394128"
+                   key="#PND:118505092">August III.<addName type="display">August (Polen, König, III.)</addName>
+            <addName>Friedrich August Pohlen, König</addName>
+            <addName>Friedrich August</addName>
+            <addName>Friedrich August" Sachsen, König</addName>
+            <addName>Friedrich August"</addName>
+            <addName>Fridericus Augustus Saxonia, Rex</addName>
+            <addName>Fridericus Augustus</addName>
+            <addName>August III.</addName>
+            <addName>August III. Polen, König</addName>
+            <addName>August Polen, König, III.</addName>
+            <addName>Auguste Pologne, Roi, III.</addName>
+            <addName>Auguste</addName>
+            <addName>Augustus Polen, König, III.</addName>
+            <addName>Augustus</addName>
+            <addName>Augustus Polonia, Rex, III.</addName>
+            <addName>Fridericus Augustus Polen, König</addName>
+            <addName>Fridericus Augustus Polonia, Rex, III.</addName>
+            <addName>Fridericus Augustus Sachsen, Kurfürst, II.</addName>
+            <addName>Fridericus Augustus Saxonia, Elector</addName>
+            <addName>Friedrich August III.</addName>
+            <addName>Friedrich August" Sachsen, Chur-Printz</addName>
+            <addName>Friedrich August" Sachsen, Herzog</addName>
+            <addName>Friedrich August" Sachsen, Kurprinz</addName>
+            <addName>Friedrich August" Sachsen, Prinz</addName>
+            <addName>Friedrich August Polen, König</addName>
+            <addName>Friedrich August Polen, König</addName>
+            <addName>Friedrich August Sachsen, Kurfürst, II.</addName>
+            <addName>Friedrich Augustus Polen, König</addName>
+            <addName>Friedrich Augustus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Apollon</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00542641</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00542641"
+                   key="#PND:118503642">Apoll<addName type="display">Apollon</addName>
+            <addName>Apoll</addName>
+            <addName>Apollo</addName>
+            <addName>Phoebus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Kalliope</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00565009</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00565009"
+                   key="#PND:12148565X">Calliobpe<addName type="display">Kalliope</addName>
+            <addName>Calliope</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Iole</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300301</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300301">Iole<addName type="display">Iole</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Herakles</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00574918</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00574918"
+                   key="#PND:118639552">Herkules<addName type="display">Herakles</addName>
+            <addName>Ercole</addName>
+            <addName>Heracles</addName>
+            <addName>Hercules</addName>
+            <addName>Herkules</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Diomedes (Argos, König)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00552771</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00552771"
+                   key="#PND:119315238">Diomedes<addName type="display">Diomedes (Argos, König)</addName>
+            <addName>Diomedes Sohn des Tydeus</addName>
+            <addName>Diomedes von Argos</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Hylas</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00564698</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00564698"
+                   key="#PND:121408094">Hyllas<addName type="display">Hylas</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Agostini, Leonardo</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00480145</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00480145"
+                   key="#PND:124658458">Agostino<addName type="display">Agostini, Leonardo</addName>
+            <addName>Leonardo Agostini</addName>
+            <addName>Leonardus Agostini</addName>
+            <addName>Lionardo Agostini</addName>
+            <addName>Leonardus Augustinus</addName>
+            <addName>Augustinus</addName>
+            <addName>Leonhardus Augustinus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Aquila, Francesco F.</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00181706</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00181706"
+                   key="#PND:101159935">Fr: For: Aquila<addName type="display">Aquila, Francesco F.</addName>
+            <addName>Francesco F. Aquila</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

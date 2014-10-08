@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Apollon</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/8267 http://arachne.uni-koeln.de/item/objekt/8297</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/objekt/8267 #http://arachne.uni-koeln.de/item/objekt/8297">3. <TEI:persName ref="#CerlID:cnp00542641" key="#PND:118503642">Appoll<addName type="display">Apollon</addName>
+               <addName>Apoll</addName>
+               <addName>Apollo</addName>
+               <addName>Phoebus</addName>
+            </TEI:persName> Statuen</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Herakles</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-142.tei.xml-d2137e67">Ein spinnender <TEI:persName ref="#CerlID:cnp00574918" key="#PND:118639552">Hercu-
+          
+          les<addName type="display">Herakles</addName>
+               <addName>Ercole</addName>
+               <addName>Heracles</addName>
+               <addName>Hercules</addName>
+               <addName>Herkules</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Minerva</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/48466</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/objekt/48466">Eine be-
+          
+          wafnete <TEI:persName ref="#CerlID:cnp00544188" key="#PND:118986155">Minverva<addName type="display">Minerva</addName>
+               <addName>Sospitatrix</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-142.tei.xml-d2137e125">Eine kleinere</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Venus</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-142.tei.xml-d2137e128">Eine Kleine<TEI:persName ref="#CerlID:cnp00588078" key="#PND:11876800X">Venus<addName type="display">Venus</addName>
+               <addName>Anadyomene  Beiname</addName>
+               <addName>Anadyomene</addName>
+               <addName>Arelatensis  Beiname</addName>
+               <addName>Arelatensis</addName>
+               <addName>aurea  Beiname</addName>
+               <addName>aurea</addName>
+               <addName>coelestis  Beiname</addName>
+               <addName>coelestis</addName>
+               <addName>Gnidia  Beiname</addName>
+               <addName>Gnidia</addName>
+               <addName>Marina  Beiname</addName>
+               <addName>Marina</addName>
+               <addName>Pelasgia  Beiname</addName>
+               <addName>Pelasgia</addName>
+               <addName>Pontia  Beiname</addName>
+               <addName>Pontia</addName>
+               <addName>Urania  Beiname</addName>
+               <addName>Urania</addName>
+               <addName>Victrix  Beiname</addName>
+               <addName>Victrix</addName>
+            </TEI:persName> mit der Muschel</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Jupiter</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-142.tei.xml-d2137e182">
+            <TEI:persName ref="#CerlID:cnp00554429" key="#PND:118558897">Jupiter<addName type="display">Jupiter</addName>
+               <addName>Iupiter</addName>
+               <addName>Juppiter</addName>
+            </TEI:persName>
+          
+          mit dem bliz</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Faunus</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-142.tei.xml-d2137e197">Ein junger <TEI:persName ref="#CerlID:cnp00542358" key="#PND:11892088X">Faun<addName type="display">Faunus</addName>
+               <addName>Faun</addName>
+            </TEI:persName> mit der Flöte</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Paris (Sagengestalt)</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/8269</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/objekt/8269">Ein <TEI:persName ref="#CerlID:cnp00587024" key="#PND:118739301">Paris<addName type="display">Paris (Sagengestalt)</addName>
+               <addName>Alexandros</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-142.tei.xml-d2137e222">Ein schöner Fechter</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-142.tei.xml-d2137e228">Ein Ringer mit einem Salbengefäße</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-142.tei.xml-d2137e232">Ein Athlet mit dem Cestus</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-142.tei.xml-d2137e237">3. weibl. Figuren</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-142.tei.xml-d2137e240">ein Römer</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Iulianus (Imperium Romanum, Imperator)</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-142.tei.xml-d2137e242">eine 
+              Tit: <TEI:persName ref="#CerlID:cnp01259254" key="#PND:118558684">Julianus<addName type="display">Iulianus (Imperium Romanum, Imperator)</addName>
+               <addName>Flavius Claudius Julianus</addName>
+               <addName>Flavius Claudius Iulianus</addName>
+               <addName>Claudius Iulianus</addName>
+               <addName>Flavio Claudio Giuliano</addName>
+               <addName>Giuliano</addName>
+               <addName>Giuliano Augusto</addName>
+               <addName>Giuliano Imperatore</addName>
+               <addName>Giuliano Impero Romano, Imperatore</addName>
+               <addName>Giuliano l'Apostata</addName>
+               <addName>Giuliano l'Imperatore</addName>
+               <addName>Iulianos Autokratōr</addName>
+               <addName>Iulianos</addName>
+               <addName>Iulianos Autokratōr</addName>
+               <addName>Flavius C. Iulianus</addName>
+               <addName>Imperator Iulianus</addName>
+               <addName>Iulianus Apostata</addName>
+               <addName>Iulianus Augustus</addName>
+               <addName>Iulianus Emperor of Rome</addName>
+               <addName>Iulianus Imperator</addName>
+               <addName>Iulianus Kaiser</addName>
+               <addName>Iulianus Rome, Emperor</addName>
+               <addName>Iulianus Römischer Kaiser</addName>
+               <addName>Flavius C. Iulianus Augustus</addName>
+               <addName>Flavius Claudius Julian</addName>
+               <addName>Julian Apostata</addName>
+               <addName>Julian Kaiser</addName>
+               <addName>Julian Römisches Reich, Kaiser</addName>
+               <addName>Julian der Abtrünnige</addName>
+               <addName>Julian the Apostate</addName>
+               <addName>Julian the Emperor</addName>
+               <addName>Flavio Claudio Juliano</addName>
+               <addName>Juliano</addName>
+               <addName>Julianos Kaiser</addName>
+               <addName>Julianos</addName>
+               <addName>Apostata Julianus</addName>
+               <addName>Julianus Apostata</addName>
+               <addName>Julianus Apostata, Emperor of Rome</addName>
+               <addName>Julianus II 2 de afvallige</addName>
+               <addName>Julianus Imperium Romanum, Imperator</addName>
+               <addName>Julianus Römisches Reich, Kaiser</addName>
+               <addName>Julianus de Afvallige</addName>
+               <addName>Julien</addName>
+               <addName>Julien Empereur</addName>
+               <addName>Julien de Constantinople</addName>
+               <addName>Julien l'Apostat</addName>
+               <addName>Julien l'Empereur</addName>
+               <addName>Yūlyān</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000632</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/sammlungen/1000632">Walmodische Samml.</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>PerseusAndromeda</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-142.tei.xml-d2137e400">Der <TEI:persName ref="#CerlID:cnp00588989" key="#PND:118790455">Perseus<addName type="display">Perseus</addName>
+            </TEI:persName> und <TEI:persName ref="#CerlID:cnp00578206" key="#PND:118649302">Andromeda<addName type="display">Andromeda</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000310</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/sammlungen/1000310">Brandenburgische Samml.</TEI:term>
+      </nodes>
+   </tag>
+</tags>

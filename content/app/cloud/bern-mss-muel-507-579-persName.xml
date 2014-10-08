@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Fröhlich, Erasmus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00105782</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00105782"
+                       key="#PND:100099416">Frölich<addName type="display">Fröhlich, Erasmus</addName>
+            <addName>Erasmus Fröhlich</addName>
+            <addName>Erasmus Froelich</addName>
+            <addName>Froelich</addName>
+            <addName>Erasmus Frölich</addName>
+            <addName>Frölich</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Stosch, Philipp von</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00391048</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00391048"
+                       key="#PND:117673870">Stosch<addName type="display">Stosch, Philipp von</addName>
+            <addName>Philipp von Stosch</addName>
+            <addName>Filippo De Stosch</addName>
+            <addName>De Stosch</addName>
+            <addName>Filippo de Stosch</addName>
+            <addName>Philippe de Stosch</addName>
+            <addName>Filipp de Stosch</addName>
+            <addName>Philippus Stosch</addName>
+            <addName>Philippus de Stosch</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Friedrich Christian (Polska, Król)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00956970</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00956970"
+                       key="#PND:118703226">Churfürst Christian<addName type="display">Friedrich Christian (Polska, Król)</addName>
+            <addName>Friedrich Sachsen, Kurprinz</addName>
+            <addName>Friedrich</addName>
+            <addName>Friedrich Christian Leopold Johann Georg Franz Xaver Sachsen, Kurfürst</addName>
+            <addName>Friedrich Christian Leopold Johann Georg Franz Xaver</addName>
+            <addName>Fridrich Christian</addName>
+            <addName>Federico Christiano Polonia, Principe reale</addName>
+            <addName>Federico Christiano</addName>
+            <addName>Federico Christiano Sassonia, Principe elettore</addName>
+            <addName>Frederic Chretien Saxe, Prince</addName>
+            <addName>Frederic Chretien</addName>
+            <addName>Fridericus Christianus Leopoldus</addName>
+            <addName>Fridericus Christianus Polonia, Rex</addName>
+            <addName>Fridericus Christianus</addName>
+            <addName>Fridericus Christianus Saxonia, Elector</addName>
+            <addName>Fridericus Christianus Saxonia, Princeps</addName>
+            <addName>Friedrich Christian Leopold Sachsen, Kurfürst</addName>
+            <addName>Friedrich Christian Leopold</addName>
+            <addName>Friedrich Christian Meißen, Markgraf</addName>
+            <addName>Friedrich Christian Polen, König</addName>
+            <addName>Friedrich Christian Polen, Prinz</addName>
+            <addName>Friedrich Christian Sachsen, Kurprinz</addName>
+            <addName>Friedrich Christian Sachsen, Prinz</addName>
+            <addName>Friedricus Christianus Saxonia, Electoratus heres</addName>
+            <addName>Friedricus Christianus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Wackerbarth-Salmour, Joseph Anton Gabaleon ¬von¬</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01203957</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01203957"
+                       key="#PND:139940154">Wakerbart von Salmour<addName type="display">Wackerbarth-Salmour, Joseph Anton Gabaleon ¬von¬</addName>
+            <addName>Joseph Anton Gabaleon von Wackerbarth-Salmour</addName>
+            <addName>Joseph Anton Gabaleon von Wackerbarth- Salmour</addName>
+            <addName>Salmour</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-579.tei.xml-d16653e178">Gräfin Sal-
+          
+          mour</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Lippert, Philipp Daniel</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00824618</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00824618"
+                       key="#PND:117044504">Lippert<addName type="display">Lippert, Philipp Daniel</addName>
+            <addName>Philipp Daniel Lippert</addName>
+            <addName>P. D. Lippert</addName>
+            <addName>Phil. Dan. Lippert</addName>
+            <addName>Phil. Daniel Lippert</addName>
+            <addName>Philipp D. Lippert</addName>
+            <addName>Philippus Dan. Lippert</addName>
+            <addName>Philippus Daniel Lippert</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Richter, Johann Christoph</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01203711</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01203711"
+                       key="#PND:139892974">Richters<addName type="display">Richter, Johann Christoph</addName>
+            <addName>Johann Christoph Richter</addName>
+            <addName>Johannes Christophorus Richter</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Christ, Johann Friedrich</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00156863</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00156863"
+                       key="#PND:10079114X">Christ<addName type="display">Christ, Johann Friedrich</addName>
+            <addName>Johann Friedrich Christ</addName>
+            <addName>Jean-Frédéric Christ</addName>
+            <addName>Johannes Fridericus Christ</addName>
+            <addName>Johannes Friedrich Christ</addName>
+            <addName>Joh. F. Christen</addName>
+            <addName>Christen</addName>
+            <addName>Joh. Frieder. Christen</addName>
+            <addName>Johann Friedrich Christen</addName>
+            <addName>Johannes Friedrich Christen</addName>
+            <addName>Iohannes Fridericus Christius</addName>
+            <addName>Christius</addName>
+            <addName>Joannes Fridericus Christius</addName>
+            <addName>Johann Friedrich Christius</addName>
+            <addName>Johannes Fridericus Christius</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

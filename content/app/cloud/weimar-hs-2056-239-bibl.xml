@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>4.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://d-nb.info/gnd/4196444-5</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://d-nb.info/gnd/4196444-5">
+         
+                                                   4.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Petron. XVII.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://d-nb.info/gnd/4126320-0</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://d-nb.info/gnd/4126320-0">Petron. XVII.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Polyb: V.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://d-nb.info/gnd/4244299-0</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://d-nb.info/gnd/4244299-0">Polyb: V.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Liv: XXXI. 24.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://d-nb.info/gnd/4125765-0</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://d-nb.info/gnd/4125765-0">Liv: XXXI. 24.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Tacit III. 71. 72.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://d-nb.info/gnd/4251328-5</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://d-nb.info/gnd/4251328-5">Tacit III. 71. 72.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Sueton: VIII.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://d-nb.info/gnd/4299776-8</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://d-nb.info/gnd/4299776-8">Sueton: VIII.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+</tags>

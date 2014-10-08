@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Adrià (emperador de Roma, 76-138)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00871103</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00871103"
+                       key="#PND:118544373">adriani<addName type="display">Adrià (emperador de Roma, 76-138)</addName>
+            <addName>Publius Aelius Hadrianus</addName>
+            <addName>Adriano Imperatore</addName>
+            <addName>Adriano</addName>
+            <addName>Adriano emperador de Roma 76-138</addName>
+            <addName>Adrianus</addName>
+            <addName>Publius Aelius Adrianus</addName>
+            <addName>Adrianus Augustus</addName>
+            <addName>Adrianus Monachus</addName>
+            <addName>Publi Eli Adrià</addName>
+            <addName>Adrià, Publi Eli emperador de Roma 76-138</addName>
+            <addName>Aelius Hadrianus</addName>
+            <addName>Publius Aelius Hadrian</addName>
+            <addName>Hadrian Emperor of Rome</addName>
+            <addName>Hadrian Kaiser</addName>
+            <addName>Hadrian Rom, Kaiser</addName>
+            <addName>Hadrian Rome, Emperor</addName>
+            <addName>Hadrian Römisches Reich, Kaiser</addName>
+            <addName>Hadrian emperador de Roma 76-138</addName>
+            <addName>Hadriano Imperatore</addName>
+            <addName>Hadriano</addName>
+            <addName>Hadrianus, Publius Aelius emperador de Roma 76-138</addName>
+            <addName>Hadrianus Augustus</addName>
+            <addName>Hadrianus Emperor of Rome</addName>
+            <addName>Hadrianus Epigrammaticus</addName>
+            <addName>Hadrianus Imperator</addName>
+            <addName>Hadrianus Kaiser</addName>
+            <addName>Hadrianus Monachus</addName>
+            <addName>Hadrianus Romanus</addName>
+            <addName>Hadrianus Rome, Emperor</addName>
+            <addName>Hadrianus Römisches Reich, Kaiser</addName>
+            <addName>Hadrianus emperador de Roma 76-138</addName>
+            <addName>Hadrianus Augustus Imperium Romanum, Imperator</addName>
+            <addName>Hadrien Empereur</addName>
+            <addName>Hadrien</addName>
+            <addName>Hadrien emperador de Roma 76-138</addName>
+            <addName>Publi Eli Adrià emperador de Roma 76-138</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Faunus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00542358</link>
+      <count>6</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00542358"
+                       key="#PND:11892088X">Faun<addName type="display">Faunus</addName>
+            <addName>Faun</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Cavalieri, Giovanni Battista</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01232819</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01232819"
+                       key="#PND:12391664X 12391664X">Cavallieri<addName type="display">Cavalieri, Giovanni Battista</addName>
+            <addName>Giovanni Battista Cavalieri</addName>
+            <addName>Baptista de Cavalerijs</addName>
+            <addName>Cavalerijs</addName>
+            <addName>Ioannes Baptista de Cavalleriis</addName>
+            <addName>Cavalleriis</addName>
+            <addName>Giovanbattista de Cavallieri</addName>
+            <addName>Cavallieri</addName>
+            <addName>Cavalier</addName>
+            <addName>Giovanni Battista Cavaleriis</addName>
+            <addName>Cavaleriis</addName>
+            <addName>Joanes Baptista de Cavaleriis</addName>
+            <addName>Joannes B. de Cavaleriis</addName>
+            <addName>Joannes Baptista de Cavaleriis</addName>
+            <addName>Johannes Baptista de Cavaleriis</addName>
+            <addName>Io. Baptista de Cavalerijs</addName>
+            <addName>Johannes Battista de Cavalerius</addName>
+            <addName>Cavalerius</addName>
+            <addName>Giovanni Battista de Cavalieri</addName>
+            <addName>Giovanni Battista de Cavalleriis</addName>
+            <addName>Io. Baptista de Cavalleriis</addName>
+            <addName>Joannes Baptista Cavalleriis</addName>
+            <addName>Joannes Baptista de Cavalleriis</addName>
+            <addName>Johannes Baptista Cavalleriis</addName>
+            <addName>Johannes Baptista de Cavalleriis</addName>
+            <addName>Johannes Battista Cavalleriis</addName>
+            <addName>Baptista de Cavallerijs</addName>
+            <addName>Cavallerijs</addName>
+            <addName>Joannes Baptista de Cavalleris</addName>
+            <addName>Cavalleris</addName>
+            <addName>Jo. B. de Cavallerius</addName>
+            <addName>Cavallerius</addName>
+            <addName>Johannes Baptista Cavallerius</addName>
+            <addName>Johannes Baptista de Cavallerys</addName>
+            <addName>Cavallerys</addName>
+            <addName>Giovan Battista de Cavallieri</addName>
+            <addName>Giovanni B. Cavallieri</addName>
+            <addName>Giovanni Battista Cavallieri</addName>
+            <addName>Giovanni Battista de Cavallieri</addName>
+            <addName>Ioannes Baptista De Cavalleriis</addName>
+            <addName>De Cavalleriis</addName>
+            <addName>Jo. Baptista de Cavalleriis</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Bacchus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00579062</link>
+      <count>4</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00579062"
+                       key="#PND:118651439">Bachus<addName type="display">Bacchus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Demosthenes</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-136.tei.xml-d8677e12">
+            <persName ref="#CerlID:cnp00394563" key="#PND:118524658">Demosthenes<addName type="display">Demosthenes</addName>
+               <addName>Dēmosthenēs</addName>
+               <addName>Dēmosthenus</addName>
+               <addName>Démosthène</addName>
+               <addName>Démosthène dÁthènes</addName>
+               <addName>Démosthène dÁthènes</addName>
+               <addName>Démosthène Orateur</addName>
+               <addName>Démosthene</addName>
+               <addName>Dēmosthenus</addName>
+               <addName>Démosthène</addName>
+               <addName>Démosthène dÁthènes</addName>
+               <addName>Démosthène Orateur</addName>
+               <addName>Démosthene</addName>
+               <addName>Demostene</addName>
+               <addName>Demostene di Peania</addName>
+               <addName>Demostene Oratore</addName>
+               <addName>Demostenes</addName>
+               <addName>Demosthenes Atheniensis</addName>
+               <addName>Demosthenes Attischer Redner</addName>
+               <addName>Demosthenes Orator</addName>
+               <addName>Demosthenes Politiker</addName>
+               <addName>Demosthenes Pseudo-</addName>
+               <addName>Demosthenes Redner</addName>
+               <addName>Demosthenes Rhetor</addName>
+               <addName>Demosthenes Sohn des Demosthenes</addName>
+               <addName>Demosthenes von Athen</addName>
+               <addName>Demosthenes von Paiania</addName>
+               <addName>Demosthenus</addName>
+               <addName>Pseudo-Demosthenes</addName>
+            </persName> wie er auf einer Ara sitzend stirbt</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/34919</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/34919">sitzend, nackt, mit dem Pallium,
+                                            eine Rolle haltend</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>EnglandDorset</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/8515</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/8515">Stehend in <placeName ref="#GettyID:7002445">England<addName type="display">England</addName>
+               <addName>England</addName>
+               <addName>Angleterre</addName>
+               <addName>Inglaterra</addName>
+               <addName>Inghilterra</addName>
+               <addName>English</addName>
+               <addName>Anglia</addName>
+               <addName>Britannia Romana</addName>
+               <addName>Britannia maior</addName>
+               <addName>Britannia propria</addName>
+            </placeName>
+                                bey <placeName ref="#GettyID:7011961">Dorset<addName type="display">Dorset</addName>
+               <addName>Dorset</addName>
+               <addName>Dorsetshire</addName>
+               <addName>DOR</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-136.tei.xml-d8677e166">berühmte schöne Gemme</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/19563 http://arachne.uni-koeln.de/item/objekt/19564</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/19563 #http://arachne.uni-koeln.de/item/objekt/19564">Clem 2. 43.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Menander</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/21167</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/21167">
+            <persName ref="#CerlID:cnp01259636" key="#PND:118747525">Menander<addName type="display">Menander</addName>
+               <addName>Mènandre dÁthènes</addName>
+               <addName>Mènandre</addName>
+               <addName>Ménandre</addName>
+               <addName>Ménandre d'Athènes</addName>
+               <addName>Ménandre Maître de la Comédie Nouvelle</addName>
+               <addName>Ménandre</addName>
+               <addName>Ménandre d'Athènes</addName>
+               <addName>Ménandre Maître de la Comédie Nouvelle</addName>
+               <addName>Comicus Menander</addName>
+               <addName>Menander Atheniensis</addName>
+               <addName>Menander Cephisius</addName>
+               <addName>Menander Comicus</addName>
+               <addName>Menander Dramatist</addName>
+               <addName>Menander of Athens</addName>
+               <addName>Menandro</addName>
+               <addName>Menandro di Cefisia</addName>
+               <addName>Menandros</addName>
+               <addName>Menandros Dichter der Neuen Komödie</addName>
+               <addName>Menandros Diopeithes ́Sohn</addName>
+               <addName>Menandros Diopeithes' Sohn</addName>
+               <addName>Menandros Diopeithus</addName>
+               <addName>Menandros von Athen</addName>
+               <addName>Menandros von Kephisia</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Posidippus (Comicus)</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/21161</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/21161">
+            <persName ref="#CerlID:cnp00976214" key="#PND:102404178">Posidippus<addName type="display">Posidippus (Comicus)</addName>
+               <addName>Poseidippos</addName>
+               <addName>Poseidippos Dichter der Neuen Komödie</addName>
+               <addName>Poseidippos von Kassandrei</addName>
+               <addName>Poseidippos von Kassandreia</addName>
+               <addName>Posidippo</addName>
+               <addName>Posidippo di Cassandrea</addName>
+               <addName>Posidippus Dramatist</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+</tags>

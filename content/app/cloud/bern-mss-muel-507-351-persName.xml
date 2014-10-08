@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Tuccia</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01427487</link>
+      <count>4</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01427487">Tuccia<addName type="display">Tuccia</addName>
+            <addName>Tuecia</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Ceres (Göttin)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00540610</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00540610"
+                       key="#PND:118862294">Ceres<addName type="display">Ceres (Göttin)</addName>
+            <addName>Demeter</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Peruzzi, Baldassarre</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00399292</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00399292"
+                       key="#PND:118740091">Balthasar<addName type="display">Peruzzi, Baldassarre</addName>
+            <addName>Baldassarre Peruzzi</addName>
+            <addName>Balthas. de Siena</addName>
+            <addName>Balthas.</addName>
+            <addName>Baldassare da Siena</addName>
+            <addName>Baldassare</addName>
+            <addName>Baldassare da Volterra</addName>
+            <addName>Baldassare T. Perucci</addName>
+            <addName>Perucci</addName>
+            <addName>Baldassare T. Perucio</addName>
+            <addName>Perucio</addName>
+            <addName>Baldassare T. Perugo</addName>
+            <addName>Perugo</addName>
+            <addName>Baldassare T. Perutio</addName>
+            <addName>Perutio</addName>
+            <addName>Baldassare T. Peruzzi</addName>
+            <addName>Baldassare Tommaso Peruzzi</addName>
+            <addName>Baldassare Peruzzi</addName>
+            <addName>Baldassare T. Petrucci</addName>
+            <addName>Petrucci</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

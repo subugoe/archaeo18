@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>LaokoonHagesander</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:219623 http://arachne.uni-koeln.de/item/gruppen/400123</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:219623 #http://arachne.uni-koeln.de/item/gruppen/400123">
+            <persName ref="#CerlID:cnp00556829" key="#PND:118569651">Laokoon<addName type="display">Laokoon</addName>
+            </persName> des <persName ref="#CerlID:cnp00539702" key="#PND:118832115">Agesanders<addName type="display">Hagesander</addName>
+               <addName>Agesander</addName>
+               <addName>Hagesandros</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:156193 http://arachne.uni-koeln.de/item/gruppen/400570</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:156193 #http://arachne.uni-koeln.de/item/gruppen/400570">Toro Farnese</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Polyclitus (Argivus)</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-262.tei.xml-d8083e80">Hermaphrodit des <persName ref="#CerlID:cnp00587101" key="#PND:118741438">Polyctetes<addName type="display">Polyclitus (Argivus)</addName>
+               <addName>Poliotitus</addName>
+               <addName>Polyctet</addName>
+               <addName>Polyclitus Philosophus</addName>
+               <addName>Polykleitos Erzgießer</addName>
+               <addName>Polykleitos</addName>
+               <addName>Polykleitos Künstler</addName>
+               <addName>Polykleitos von Argos</addName>
+               <addName>Polyklet</addName>
+               <addName>Polyklet von Argos</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Niobe</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:160868 http://arachne.uni-koeln.de/item/objekt/5880</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:160868 #http://arachne.uni-koeln.de/item/objekt/5880">
+            <persName ref="#CerlID:cnp01300351">Niobe<addName type="display">Niobe</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+</tags>

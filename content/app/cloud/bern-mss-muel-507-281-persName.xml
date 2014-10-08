@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Homer</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259620</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01259620"
+                       key="#PND:11855333X">Homer<addName type="display">Homer</addName>
+            <addName>Gomer</addName>
+            <addName>Hūmīrūs</addName>
+            <addName>Hūmar</addName>
+            <addName>Hūmir</addName>
+            <addName>Hōmar</addName>
+            <addName>Hômêrôs</addName>
+            <addName>Homère</addName>
+            <addName>Homēros</addName>
+            <addName>Homérosz</addName>
+            <addName>Homēros</addName>
+            <addName>Homère</addName>
+            <addName>Homere</addName>
+            <addName>Homero</addName>
+            <addName>Homeros</addName>
+            <addName>Homeros Tragiker</addName>
+            <addName>Homerosi</addName>
+            <addName>Homerus Colophonius</addName>
+            <addName>Homerus Colophonus</addName>
+            <addName>Homerus Dramatiker</addName>
+            <addName>Homerus Epicus</addName>
+            <addName>Omēros</addName>
+            <addName>Omero</addName>
+            <addName>Omiros</addName>
+            <addName>Pseudo-Homerus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Ovide</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00396043</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00396043"
+                       key="#PND:118590995">Ovid<addName type="display">Ovide</addName>
+            <addName>Publius Ovidius Naso</addName>
+            <addName>P. Ovidius Naso</addName>
+            <addName>Ovidio</addName>
+            <addName>Públio Ovídio Nasão</addName>
+            <addName>Nasão</addName>
+            <addName>Ovidius Publius Naso</addName>
+            <addName>Publij O. Naso</addName>
+            <addName>Publius Naso</addName>
+            <addName>Publius O. Naso</addName>
+            <addName>Publiusz Owidiusz Naso</addName>
+            <addName>P. Ovidio Nason</addName>
+            <addName>Nason</addName>
+            <addName>Publio Ovidio Nasone</addName>
+            <addName>Nasone</addName>
+            <addName>Públio Ovídio Nasão</addName>
+            <addName>Nasão</addName>
+            <addName>P. Ovidius Nazo</addName>
+            <addName>Nazo</addName>
+            <addName>Obidios</addName>
+            <addName>Ouidio</addName>
+            <addName>Ouidius</addName>
+            <addName>Ouidius Naso</addName>
+            <addName>Publius N. Ovid</addName>
+            <addName>Publius Naso Ovid</addName>
+            <addName>Publius Ovid Naso</addName>
+            <addName>Ovid Naso</addName>
+            <addName>Ovide Naso</addName>
+            <addName>Ovide Poète</addName>
+            <addName>Ovide Poéte</addName>
+            <addName>Ovide Poéte</addName>
+            <addName>Ovide de Sulmone</addName>
+            <addName>Publius Ovide Grand-Nez</addName>
+            <addName>Ovide Grand-Nez</addName>
+            <addName>Ovideo</addName>
+            <addName>P. Ovidi Nasonis</addName>
+            <addName>Ovidi Nasonis</addName>
+            <addName>Publi Ovidi Nasó</addName>
+            <addName>Ovidi Nasó</addName>
+            <addName>Publi Ovidi Nasó</addName>
+            <addName>Ovidi Nasó</addName>
+            <addName>P. Ovidii Nasonis</addName>
+            <addName>Ovidii Nasonis</addName>
+            <addName>Ovidij</addName>
+            <addName>Naso Ovidij</addName>
+            <addName>Publij Nazon Ovidij</addName>
+            <addName>Publij Ovidij Naso</addName>
+            <addName>Ovidij Naso</addName>
+            <addName>Publij Ovidij Nazon</addName>
+            <addName>Ovidij Nazon</addName>
+            <addName>Publio Ovidio Nason</addName>
+            <addName>Ovidio Nason</addName>
+            <addName>P. Ovidio Nasone</addName>
+            <addName>Ovidio Nasone</addName>
+            <addName>Publio Ovidio Nasón</addName>
+            <addName>Ovidio Nasón</addName>
+            <addName>Publio Ovidio Nasón</addName>
+            <addName>Ovidio Nasón</addName>
+            <addName>Ovidiu</addName>
+            <addName>Ovidius</addName>
+            <addName>Publius Ovidius</addName>
+            <addName>Publius-Naso Ovidius</addName>
+            <addName>Ovidius Poeta</addName>
+            <addName>Ovidius Pseudo-</addName>
+            <addName>Ovidius Puellarum</addName>
+            <addName>Pub. Ovidius Naso</addName>
+            <addName>Publ. Ovidius Naso</addName>
+            <addName>Ovidius Naso, Publius Pelignensis</addName>
+            <addName>Ovidius Naso Pelignensis</addName>
+            <addName>Publius Ovidius Nasoo</addName>
+            <addName>Ovidius Nasoo</addName>
+            <addName>Publius Ovidius Nazo</addName>
+            <addName>Ovidius Nazo</addName>
+            <addName>Publius Ovidius Nazoo</addName>
+            <addName>Ovidius Nazoo</addName>
+            <addName>Publius Ovidus Naso</addName>
+            <addName>Ovidus Naso</addName>
+            <addName>Ovídio</addName>
+            <addName>Ovyde</addName>
+            <addName>Owidiusz</addName>
+            <addName>Owidiusz Naso</addName>
+            <addName>Publius Owidyusz Nason</addName>
+            <addName>Owidyusz Nason</addName>
+            <addName>P. Ouidio</addName>
+            <addName>P. Ouidius</addName>
+            <addName>P. Ouidius Naso</addName>
+            <addName>P.O. Naso</addName>
+            <addName>P.O.N.</addName>
+            <addName>Pseudo-Ovidius</addName>
+            <addName>Pub. Ouidius Naso Sulmonensis</addName>
+            <addName>Publius</addName>
+            <addName>Publius Aouidius Naso</addName>
+            <addName>Publius Ouidius Naso Sulmonensis</addName>
+            <addName>Publius Ouidus Naso</addName>
+            <addName>P. Ovidij</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Apollon</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00542641</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00542641"
+                       key="#PND:118503642">Apoll<addName type="display">Apollon</addName>
+            <addName>Apoll</addName>
+            <addName>Apollo</addName>
+            <addName>Phoebus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Diana</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00584638</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00584638"
+                       key="#PND:118678132">Diana<addName type="display">Diana</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Vacca, Flaminio</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00628322</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00628322"
+                       key="#PND:129766909">Flaminy
+          
+          Vacca<addName type="display">Vacca, Flaminio</addName>
+            <addName>Flaminio Vacca</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

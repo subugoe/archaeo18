@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Cambyses (König von Babylon)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00986106</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00986106"
+                   key="#PND:118800582">Cambyses<addName type="display">Cambyses (König von Babylon)</addName>
+            <addName>‏کمبوجیه‎</addName>
+            <addName>Kambūdschīye</addName>
+            <addName>Kambūdschiya</addName>
+            <addName>Kambyses König von Babylon</addName>
+            <addName>Kambyses Perserreich, König, II.</addName>
+            <addName>Kambyses Persien, König, II.</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Adrià (emperador de Roma, 76-138)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00871103</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00871103"
+                   key="#PND:118544373">K. Adrian<addName type="display">Adrià (emperador de Roma, 76-138)</addName>
+            <addName>Publius Aelius Hadrianus</addName>
+            <addName>Adriano Imperatore</addName>
+            <addName>Adriano</addName>
+            <addName>Adriano emperador de Roma 76-138</addName>
+            <addName>Adrianus</addName>
+            <addName>Publius Aelius Adrianus</addName>
+            <addName>Adrianus Augustus</addName>
+            <addName>Adrianus Monachus</addName>
+            <addName>Publi Eli Adrià</addName>
+            <addName>Adrià, Publi Eli emperador de Roma 76-138</addName>
+            <addName>Aelius Hadrianus</addName>
+            <addName>Publius Aelius Hadrian</addName>
+            <addName>Hadrian Emperor of Rome</addName>
+            <addName>Hadrian Kaiser</addName>
+            <addName>Hadrian Rom, Kaiser</addName>
+            <addName>Hadrian Rome, Emperor</addName>
+            <addName>Hadrian Römisches Reich, Kaiser</addName>
+            <addName>Hadrian emperador de Roma 76-138</addName>
+            <addName>Hadriano Imperatore</addName>
+            <addName>Hadriano</addName>
+            <addName>Hadrianus, Publius Aelius emperador de Roma 76-138</addName>
+            <addName>Hadrianus Augustus</addName>
+            <addName>Hadrianus Emperor of Rome</addName>
+            <addName>Hadrianus Epigrammaticus</addName>
+            <addName>Hadrianus Imperator</addName>
+            <addName>Hadrianus Kaiser</addName>
+            <addName>Hadrianus Monachus</addName>
+            <addName>Hadrianus Romanus</addName>
+            <addName>Hadrianus Rome, Emperor</addName>
+            <addName>Hadrianus Römisches Reich, Kaiser</addName>
+            <addName>Hadrianus emperador de Roma 76-138</addName>
+            <addName>Hadrianus Augustus Imperium Romanum, Imperator</addName>
+            <addName>Hadrien Empereur</addName>
+            <addName>Hadrien</addName>
+            <addName>Hadrien emperador de Roma 76-138</addName>
+            <addName>Publi Eli Adrià emperador de Roma 76-138</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

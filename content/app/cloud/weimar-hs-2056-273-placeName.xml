@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Roma</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7000874</link>
+      <count>4</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7000874">Rom<addName type="display">Roma</addName>
+            <addName>Roma</addName>
+            <addName>Urbe</addName>
+            <addName>Rome</addName>
+            <addName>Rom</addName>
+            <addName>Roman</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Spárti</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7011065</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7011065">Lacedæmon<addName type="display">Spárti</addName>
+            <addName>Spárti</addName>
+            <addName>Néa Spartí</addName>
+            <addName>Sparta</addName>
+            <addName>Spartalos</addName>
+            <addName>Lakedaimonia</addName>
+            <addName>Lacedaemon</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Egypt</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7014986</link>
+      <count>6</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7014986">Aegypten<addName type="display">Egypt</addName>
+            <addName>Egypt</addName>
+            <addName>Egypt, ancient</addName>
+            <addName>Aegyptus</addName>
+            <addName>Aigyptos</addName>
+            <addName>Hwt-ka-Ptah</addName>
+            <addName>Kem</addName>
+            <addName>Kemi</addName>
+            <addName>Kermit</addName>
+            <addName>Kemet</addName>
+            <addName>Kmt</addName>
+            <addName>Ancient Egyptian</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Thebes</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7001297</link>
+      <count>4</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7001297">Theben<addName type="display">Thebes</addName>
+            <addName>Thebes</addName>
+            <addName>Tebe</addName>
+            <addName>Thèbes</addName>
+            <addName>Thebae</addName>
+            <addName>Thebae Aegypti</addName>
+            <addName>Thēvai</addName>
+            <addName>Thiva</addName>
+            <addName>Theben</addName>
+            <addName>Thebai</addName>
+            <addName>Thívai</addName>
+            <addName>Diospolis Magna</addName>
+            <addName>Diospolis</addName>
+            <addName>Nowe</addName>
+            <addName>Nuwe</addName>
+            <addName>No</addName>
+            <addName>Wase</addName>
+            <addName>Woʻse</addName>
+            <addName>Theban</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Dimashq</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7002261</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7002261">Damascus<addName type="display">Dimashq</addName>
+            <addName>Dimashq</addName>
+            <addName>Ash Sham</addName>
+            <addName>Ash Shām</addName>
+            <addName>Esh-Sham</addName>
+            <addName>Esh Shām</addName>
+            <addName>Esh Sham</addName>
+            <addName>Damas</addName>
+            <addName>Dimash</addName>
+            <addName>Damaskus</addName>
+            <addName>Damascus</addName>
+            <addName>Damasco</addName>
+            <addName>Demetrias</addName>
+            <addName>Darmeseq</addName>
+            <addName>Cammeseq</addName>
+            <addName>Dimeshq</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Suhut</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7002515</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7002515">Synnada<addName type="display">Suhut</addName>
+            <addName>Suhut</addName>
+            <addName>Synnada</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Phrygia</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7002613</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7002613">Phrygien<addName type="display">Phrygia</addName>
+            <addName>Phrygia</addName>
+            <addName>Hellespontine Phrygia</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Káristos</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7010835</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7010835">Carysthus<addName type="display">Káristos</addName>
+            <addName>Káristos</addName>
+            <addName>Kárystos</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Évvoia</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7002677</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7002677">Euboea<addName type="display">Évvoia</addName>
+            <addName>Évvoia</addName>
+            <addName>Evvoia</addName>
+            <addName>Euboia</addName>
+            <addName>Euboea</addName>
+            <addName>Évvoia island</addName>
+            <addName>Negroponte</addName>
+            <addName>Negropont</addName>
+            <addName>Makris</addName>
+         </placeName>
+      </nodes>
+   </tag>
+</tags>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Aldrovandi, Ulisse</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01230379</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01230379"
+                   key="#PND:118898825">Aldrovandi<addName type="display">Aldrovandi, Ulisse</addName>
+            <addName>Ulisse Aldrovandi</addName>
+            <addName>Ulisses Aldroandi</addName>
+            <addName>Aldroandi</addName>
+            <addName>Ulysse Aldrovandi</addName>
+            <addName>Ulyssus Aldrovandus</addName>
+            <addName>Aldrovandus</addName>
+            <addName>Ulysses Aladrovandi</addName>
+            <addName>Aladrovandi</addName>
+            <addName>Ulisse Aldobrandi</addName>
+            <addName>Aldobrandi</addName>
+            <addName>Ulysses Aldobrandi</addName>
+            <addName>Ulysses Aldourandus</addName>
+            <addName>Aldourandus</addName>
+            <addName>Ulysses Aldovrandi</addName>
+            <addName>Aldovrandi</addName>
+            <addName>Ulyssis Aldovrandus</addName>
+            <addName>Aldovrandus</addName>
+            <addName>Ulysses Aldrovandi</addName>
+            <addName>Ulyssis Aldrovandi</addName>
+            <addName>Vlysses Aldrovandi</addName>
+            <addName>Ulisses Aldrovandus</addName>
+            <addName>Ulysses Aldrovandus</addName>
+            <addName>Ulyssis Aldrovandus</addName>
+            <addName>Vlysses Aldrovandus</addName>
+            <addName>Ulisses Androandi</addName>
+            <addName>Androandi</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Herakles</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00574918</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00574918"
+                   key="#PND:118639552">Herkules<addName type="display">Herakles</addName>
+            <addName>Ercole</addName>
+            <addName>Heracles</addName>
+            <addName>Hercules</addName>
+            <addName>Herkules</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Antiope (von Theben)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00824849</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00824849"
+                   key="#PND:131746782">Antiope<addName type="display">Antiope (von Theben)</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Zethos</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300318</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300318">Zethus<addName type="display">Zethos</addName>
+            <addName>Zethus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Amphion</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01288190</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01288190">Amphyon<addName type="display">Amphion</addName>
+            <addName>Ampion</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Dirke</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00566246</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00566246"
+                   key="#PND:121732916">Dirce<addName type="display">Dirke</addName>
+            <addName>Dyrce</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

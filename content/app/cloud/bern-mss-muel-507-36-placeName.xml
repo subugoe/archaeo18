@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Kríti</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7012056</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7012056">Creta<addName type="display">Kríti</addName>
+            <addName>Kríti</addName>
+            <addName>Creta, Isla de</addName>
+            <addName>Crete</addName>
+            <addName>Crète</addName>
+            <addName>Kreta</addName>
+            <addName>Krete</addName>
+            <addName>Kríti region</addName>
+            <addName>Candia</addName>
+            <addName>Creta</addName>
+            <addName>Cretan</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Aíyina</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7011087</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7011087">Egina<addName type="display">Aíyina</addName>
+            <addName>Aíyina</addName>
+            <addName>Aegina</addName>
+            <addName>Aigina</addName>
+            <addName>Egina</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Sámos</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=1042201</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:1042201">Samos<addName type="display">Sámos</addName>
+            <addName>Sámos</addName>
+            <addName>Samos</addName>
+            <addName>Vathy harbor</addName>
+            <addName>Vathy</addName>
+            <addName>Port Vathi</addName>
+            <addName>Limín Vathéos</addName>
+            <addName>Limén Vathéos</addName>
+            <addName>Liman Vathéos</addName>
+            <addName>Tigani</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Lydia</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7016631</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7016631">Lydien<addName type="display">Lydia</addName>
+            <addName>Lydia</addName>
+            <addName>Sparda</addName>
+            <addName>Maeonia</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+</tags>

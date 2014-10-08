@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Venezia</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7018159</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7018159">Venedig<addName type="display">Venezia</addName>
+            <addName>Venezia</addName>
+            <addName>Venecia</addName>
+            <addName>Venedig</addName>
+            <addName>Venice</addName>
+            <addName>Venise</addName>
+            <addName>République de Venise</addName>
+            <addName>Venetia</addName>
+            <addName>Vinegia</addName>
+            <addName>Venetian</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Bologna</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7004847</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7004847">Bologna<addName type="display">Bologna</addName>
+            <addName>Bologna</addName>
+            <addName>Bologne</addName>
+            <addName>Bolonia</addName>
+            <addName>Bononia</addName>
+            <addName>Felsina</addName>
+            <addName>Bolognese</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Dresden</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7004455</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7004455">Dres-
+                            den<addName type="display">Dresden</addName>
+            <addName>Dresden</addName>
+            <addName>Dresde</addName>
+            <addName>Ďrežd'ane</addName>
+            <addName>Drezdane</addName>
+            <addName>Drezdzany</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Wien</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7003321</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7003321">Wien<addName type="display">Wien</addName>
+            <addName>Wien</addName>
+            <addName>Vienna</addName>
+            <addName>Vienne</addName>
+            <addName>Beç</addName>
+            <addName>Videṉ</addName>
+            <addName>Wienis</addName>
+            <addName>Wenia</addName>
+            <addName>Vindobona</addName>
+            <addName>Vindobna</addName>
+            <addName>Vindomana</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Mannheim</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7005179</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7005179">Manheim<addName type="display">Mannheim</addName>
+            <addName>Mannheim</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Sankt-Peterburg</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7010273</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7010273">Peters-
+                        burg<addName type="display">Sankt-Peterburg</addName>
+            <addName>Sankt-Peterburg</addName>
+            <addName>Saint Petersburg</addName>
+            <addName>Saint Petersbourg</addName>
+            <addName>St. Petersburg</addName>
+            <addName>Leningrad</addName>
+            <addName>Leningrado</addName>
+            <addName>Petrograd</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Paris</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7008038</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7008038">Paris<addName type="display">Paris</addName>
+            <addName>Paris</addName>
+            <addName>Parigi</addName>
+            <addName>París</addName>
+            <addName>Parisii</addName>
+            <addName>Lutetia</addName>
+            <addName>Lutetia Parisiorum</addName>
+            <addName>Lutetia Parisii</addName>
+            <addName>Parisius</addName>
+            <addName>parisien</addName>
+            <addName>parisienne</addName>
+            <addName>Parisian</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Kassel</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7004431</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7004431">Kassel<addName type="display">Kassel</addName>
+            <addName>Kassel</addName>
+            <addName>Cassel</addName>
+            <addName>Casle</addName>
+            <addName>Chassala</addName>
+            <addName>Chassela</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Roma</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7000874</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7000874">Rom<addName type="display">Roma</addName>
+            <addName>Roma</addName>
+            <addName>Urbe</addName>
+            <addName>Rome</addName>
+            <addName>Rom</addName>
+            <addName>Roman</addName>
+         </placeName>
+      </nodes>
+   </tag>
+</tags>

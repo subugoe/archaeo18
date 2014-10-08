@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/146912 http://arachne.uni-koeln.de/item/objekt/146913</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/146912 #http://arachne.uni-koeln.de/item/objekt/146913">beyden Söhne</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:158343 http://arachne.uni-koeln.de/item/objekt/5841</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:158343 #http://arachne.uni-koeln.de/item/objekt/5841">Delphin bey der Mediceischen Venus</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Niobe</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:158364 CensusID:160875 CensusID:160877 CensusID:160878 CensusID:160868 http://arachne.uni-koeln.de/item/objekt/5878 http://arachne.uni-koeln.de/item/objekt/5879 http://arachne.uni-koeln.de/item/objekt/5881 http://arachne.uni-koeln.de/item/objekt/5882 http://arachne.uni-koeln.de/item/objekt/5852</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:158364 #CensusID:160875 #CensusID:160877 #CensusID:160878 #CensusID:160868 #http://arachne.uni-koeln.de/item/objekt/5878 #http://arachne.uni-koeln.de/item/objekt/5879 #http://arachne.uni-koeln.de/item/objekt/5881 #http://arachne.uni-koeln.de/item/objekt/5882 #http://arachne.uni-koeln.de/item/objekt/5852">Töchtern der <persName ref="#CerlID:cnp01300351">Niobe<addName type="display">Niobe</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/146910</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/146910">Laocoon</term>
+      </nodes>
+   </tag>
+</tags>

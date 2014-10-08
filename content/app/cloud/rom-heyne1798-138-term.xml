@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/26077</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/26077">eins in Villa Borghese</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Capitol</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-138.tei.xml-d2823e54">eins auf dem <placeName ref="#http://arachne.uni-koeln.de/item/topographie/500002">Capitol</placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Wiltonhouse</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-138.tei.xml-d2823e61">eins in <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000087">Wiltonhouse</term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000087</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000087">Wiltonhouse</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>VersaillesBernini, Gian Lorenzo</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-138.tei.xml-d2823e69">eine
+                                            Statue in <placeName ref="#GettyID:7008070">Versailles<addName type="display">Versailles</addName>
+               <addName>Versailles</addName>
+            </placeName> von <persName ref="#CerlID:cnp00543952" key="#PND:118509926">Bernini<addName type="display">Bernini, Gian Lorenzo</addName>
+               <addName>Gian Lorenzo Bernini</addName>
+               <addName>Gianlorenzo Bernin</addName>
+               <addName>Bernin</addName>
+               <addName>Gian L. Bernini</addName>
+               <addName>Gianlorenzo Bernini</addName>
+               <addName>Giovanni L. Bernini</addName>
+               <addName>Giovanni Lorenzo Bernini</addName>
+               <addName>Jean Laurent Bernini</addName>
+               <addName>Laurentius Bernini</addName>
+               <addName>Lorenzo Bernini</addName>
+               <addName>Giovanni Lorenzo Bernino</addName>
+               <addName>Bernino</addName>
+               <addName>Joans. Laurentius Berninus</addName>
+               <addName>Berninus</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Marcellus, Marcus Claudius (Feldherr)</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/15870 http://arachne.uni-koeln.de/item/objekt/15871</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/15870 #http://arachne.uni-koeln.de/item/objekt/15871">
+            <persName ref="#CerlID:cnp00588604" key="#PND:118781766">Marcellus<addName type="display">Marcellus, Marcus Claudius (Feldherr)</addName>
+               <addName>Marcus Claudius Marcellus</addName>
+               <addName>Claudius Marcellus, Marcus Feldherr</addName>
+               <addName>Claudius Marcellus</addName>
+               <addName>Marcus Claudius Marcellus Feldherr</addName>
+            </persName> im Pall. Giustin.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Marius, Gaius (Feldherr)</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/15869</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/15869">
+            <persName ref="#CerlID:cnp00558750" key="#PND:118577956">Marius<addName type="display">Marius, Gaius (Feldherr)</addName>
+               <addName>Gaius Marius</addName>
+               <addName>Marius, Gaius Römisches Reich, Konsul, 156 v. Chr.-86 v. Chr.</addName>
+               <addName>Marius</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Sylla, Lucius Cornelius</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/5835</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/5835">
+            <persName ref="#CerlID:cnp00397134" key="#PND:11864260X">Sylla<addName type="display">Sylla, Lucius Cornelius</addName>
+               <addName>Lucius Cornelius Sylla</addName>
+               <addName>Lucius Cornelius Sulla</addName>
+               <addName>Cornelius Sulla</addName>
+               <addName>Cornelius</addName>
+               <addName>Cornelius Sylla</addName>
+               <addName>Lucius Cornelius Sulla Felix</addName>
+               <addName>Felix</addName>
+               <addName>Lucius Cornelius Scilla</addName>
+               <addName>Scilla</addName>
+               <addName>Lucio Silla</addName>
+               <addName>Silla</addName>
+               <addName>Lucio Cornelio Silla</addName>
+               <addName>Lucius Cornelius Silla</addName>
+               <addName>Sulla Diktator</addName>
+               <addName>Sulla Felix</addName>
+               <addName>Sulla Memoirenverfasser</addName>
+               <addName>Sylla, Lucius Cornelius 0138-0078 av. J.-C.</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+</tags>

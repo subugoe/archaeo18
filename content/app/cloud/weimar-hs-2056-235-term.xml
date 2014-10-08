@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>AmorPraxiteles</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-235.tei.xml-d8405e332">
+            <persName ref="#CerlID:cnp00542364" key="#PND:11850262X">Amors<addName type="display">Amor</addName>
+            </persName> von <persName ref="#CerlID:cnp00589123" key="#PND:118793241">Praxiteles<addName type="display">Praxiteles</addName>
+               <addName>Prassitele</addName>
+               <addName>Praxitèle</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+</tags>

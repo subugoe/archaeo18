@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>DresdenFritsch, Thomas ¬von¬</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00365192</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00365192"
+                   key="#PND:104298111">Herr Geheimrat: Baron von Fritsch zu <placeName ref="#GettyID:7004455">Dreßden<addName type="display">Dresden</addName>
+               <addName>Dresden</addName>
+               <addName>Dresde</addName>
+               <addName>Ďrežd'ane</addName>
+               <addName>Drezdane</addName>
+               <addName>Drezdzany</addName>
+            </placeName>
+            <addName type="display">Fritsch, Thomas ¬von¬</addName>
+            <addName>Thomas von Fritsch</addName>
+            <addName>Fritsch Baron von zu Dreßden</addName>
+            <addName>Thomas Fritsch</addName>
+            <addName>Thomas Fritschius</addName>
+            <addName>Fritschius</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Mariette, Pierre Jean</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00464596</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00464596"
+                   key="#PND:123185823">Mariette<addName type="display">Mariette, Pierre Jean</addName>
+            <addName>Pierre Jean Mariette</addName>
+            <addName>Jean Pierre Mariette</addName>
+            <addName>P. J. Mariette</addName>
+            <addName>Pierre J. Mariette</addName>
+            <addName>Pierre-Jean Mariette</addName>
+            <addName>Pietro Mariette</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Thubières, Anne Claude Philippe ¬de¬</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01099958</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01099958">Graf Caylus<addName type="display">Thubières, Anne Claude Philippe ¬de¬</addName>
+            <addName>Anne Claude Philippe de Thubières</addName>
+            <addName>Caylus Graf</addName>
+            <addName>Caylus</addName>
+            <addName>Thubières, Anne Claude Philippe de Comte de Caylus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Bouchardon, Edme</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00397554</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00397554"
+                   key="#PND:118659456">Bou- 
+                                             chardon<addName type="display">Bouchardon, Edme</addName>
+            <addName>Edme Bouchardon</addName>
+            <addName>Bonchardon</addName>
+            <addName>Buchardon</addName>
+            <addName>Edmundus Bouchardon</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Chéron, Elisabeth Sophie</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00403858</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00403858"
+                   key="#PND:119100703">Mademoiselle le Hay<addName type="display">Chéron, Elisabeth Sophie</addName>
+            <addName>Elisabeth Sophie Chéron</addName>
+            <addName>le Hay</addName>
+            <addName>Hay</addName>
+            <addName>Elisabeth S. Chéron</addName>
+            <addName>Chéron, Elisabeth Sophie 1648-1711</addName>
+            <addName>Elisabeth-Sophie Chéron</addName>
+            <addName>Elizabeth Sophie Chéron</addName>
+            <addName>Elisabetha Sophia Cheron</addName>
+            <addName>Cheron</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Faunus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00542358</link>
+      <count>4</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00542358"
+                       key="#PND:11892088X">Fauni<addName type="display">Faunus</addName>
+            <addName>Faun</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Satyros</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01427429</link>
+      <count>4</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01427429">Satiri<addName type="display">Satyros</addName>
+            <addName>Satyr</addName>
+            <addName>Silen</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Nymphen</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300353</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300353">Nymphi<addName type="display">Nymphen</addName>
+            <addName>Nymphe</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Bacchus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00579062</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00579062"
+                       key="#PND:118651439">Bachus<addName type="display">Bacchus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-558.tei.xml-d2915e130">Ox</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-558.tei.xml-d2915e138">Ox</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Louis (France, Roi, XIV.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259882</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01259882"
+                       key="#PND:118816829 118816829">Louis XIV.<addName type="display">Louis (France, Roi, XIV.)</addName>
+            <addName>Leon van Arragon</addName>
+            <addName>Leon</addName>
+            <addName>Lewis France, King, XIV.</addName>
+            <addName>Lewis</addName>
+            <addName>Ljudovik XIV</addName>
+            <addName>Ljudovik</addName>
+            <addName>XIV Lodewijk</addName>
+            <addName>Lodewijk, XIV 14 koning van Frankrijk</addName>
+            <addName>Lodewijk</addName>
+            <addName>Lodewĳk XIV 14 koning van Frankrĳk</addName>
+            <addName>Lodewĳk</addName>
+            <addName>Louis France, King, XIV.</addName>
+            <addName>Louis France, Roi, XIIII.</addName>
+            <addName>Louis France-Navarra, Roi, XIV.</addName>
+            <addName>Louis Frankreich, König, XIV.</addName>
+            <addName>Louis Vrankryk en Navarre, Koning, XIV.</addName>
+            <addName>Louis Vrankryk, Koning, XIV.</addName>
+            <addName>Louis XIV.</addName>
+            <addName>Louis le Grand</addName>
+            <addName>Louis XIV</addName>
+            <addName>Louys France, Roi, XIV.</addName>
+            <addName>Louys</addName>
+            <addName>Louys August France, Roi, XIV.</addName>
+            <addName>Louys August</addName>
+            <addName>Loys France, Roi, XIV.</addName>
+            <addName>Loys</addName>
+            <addName>Ludewig Frankreich, König, XIV.</addName>
+            <addName>Ludewig</addName>
+            <addName>Ludovici XIV.</addName>
+            <addName>Ludovici</addName>
+            <addName>Magnus Ludovicus</addName>
+            <addName>Ludovicus</addName>
+            <addName>Ludovicus Francia et Navarra, Rex, XIV.</addName>
+            <addName>Ludovicus Francia, Rex, XIV.</addName>
+            <addName>Ludovicus Franckreich, König, XIV.</addName>
+            <addName>Ludovicus Frankreich, König, XIV.</addName>
+            <addName>Ludovicus Frankreich, König, XIV</addName>
+            <addName>Ludovicus Frankreich, König, XIV.</addName>
+            <addName>Ludovicus Gallia et Navarra, Rex, XIV.</addName>
+            <addName>Ludovicus Gallia, Rex, XIV.</addName>
+            <addName>Ludovicus Magnus</addName>
+            <addName>Ludovicus XIV.</addName>
+            <addName>XIV Ludwig</addName>
+            <addName>Ludwig, XIV 14 koning van Frankrijk</addName>
+            <addName>Ludwig Franckreich, König, XIV.</addName>
+            <addName>Ludwig Frankreich, König, XIV.</addName>
+            <addName>Ludwig König, XIV.</addName>
+            <addName>Ludwig Sonnenkönig</addName>
+            <addName>Ludwig XIV 14 koning van Frankrĳk</addName>
+            <addName>Ludwig der Große</addName>
+            <addName>Ludwig" Frankreich, König, XIV.</addName>
+            <addName>Ludwig"</addName>
+            <addName>XIV Luigi</addName>
+            <addName>Luigi, XIV 14 koning van Frankrijk</addName>
+            <addName>Luigi</addName>
+            <addName>Luigi Francia, Re, XIV.</addName>
+            <addName>Luigi XIV 14 koning van Frankrĳk</addName>
+            <addName>Luis France, Roi, XIV.</addName>
+            <addName>Luis</addName>
+            <addName>Roi Soleil</addName>
+            <addName>Sonnenkönig</addName>
+            <addName>Sun King</addName>
+            <addName>De Zonnekoning</addName>
+            <addName>Zonnekoning</addName>
+            <addName>Anjou Hertog van</addName>
+            <addName>Anjou</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Michel-Ange</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00559773</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00559773"
+                       key="#PND:118582143">Michel
+            
+          
+          Angelo<addName type="display">Michel-Ange</addName>
+            <addName>Michel-Ange Bonaroti</addName>
+            <addName>Bonaroti</addName>
+            <addName>Michel Agnolo Buonarroti</addName>
+            <addName>Buonarroti</addName>
+            <addName>Michel-Ange Buonarroti</addName>
+            <addName>Michelagniolo Buonarroti</addName>
+            <addName>Angelo Bonaroti</addName>
+            <addName>Angelo</addName>
+            <addName>Michiel Angielo Bona Rotta</addName>
+            <addName>Bona Rotta</addName>
+            <addName>Michael Angelus Bonarota</addName>
+            <addName>Bonarota</addName>
+            <addName>Michel Angelo Bonarota</addName>
+            <addName>Michael Angelo Bonaroti</addName>
+            <addName>Michael̈ Angelo Bonaroti</addName>
+            <addName>Michel Angelo Bonaroti</addName>
+            <addName>Michele Angelo Bonaroti</addName>
+            <addName>Michiel Angelo Bonaroti</addName>
+            <addName>Michael Angelus Bonarotus</addName>
+            <addName>Bonarotus</addName>
+            <addName>Michel Angelo Bunaroti</addName>
+            <addName>Bunaroti</addName>
+            <addName>Michael Angelo Buonaroti</addName>
+            <addName>Buonaroti</addName>
+            <addName>Michel Angelo Buonaroti</addName>
+            <addName>Michelangelo Buonaroti</addName>
+            <addName>Michiel Angelo Buonaroti</addName>
+            <addName>Michel Angelo Buonarotti</addName>
+            <addName>Buonarotti</addName>
+            <addName>Michel-Angelo Buonarotti</addName>
+            <addName>Michelangelo Buonarotti</addName>
+            <addName>Michel Angelo Buonarroti</addName>
+            <addName>Michelagniolo di L. Buonarroti</addName>
+            <addName>Michelagnolo Buonarroti</addName>
+            <addName>Buonarroti, Michelangelo 1475-1564</addName>
+            <addName>Michelangiolo Buonarroti</addName>
+            <addName>Mikelandželo Buonarroti</addName>
+            <addName>Michel A. Buonarrotti</addName>
+            <addName>Buonarrotti</addName>
+            <addName>Michel Agnolo Buonarrotti</addName>
+            <addName>Michelagniolo Buonarrotti</addName>
+            <addName>Michelangelo Buonarrotti</addName>
+            <addName>Michelangiolo Buonarrotti</addName>
+            <addName>Michelagnolo Buonarruoti</addName>
+            <addName>Buonarruoti</addName>
+            <addName>L' Impastato</addName>
+            <addName>Impastato</addName>
+            <addName>L' Impostato</addName>
+            <addName>Impostato</addName>
+            <addName>L'Impastato</addName>
+            <addName>L'Impostato</addName>
+            <addName>Micchel-Angelo</addName>
+            <addName>Micha/l Anio/l</addName>
+            <addName>Michael Angelo</addName>
+            <addName>Michael Angelus</addName>
+            <addName>Michael-Angelo Buonaroti</addName>
+            <addName>Michael-Angelo</addName>
+            <addName>Michał Anioł</addName>
+            <addName>Michel Angelo</addName>
+            <addName>Michel Angelus Bonarotus</addName>
+            <addName>Michel Angelus</addName>
+            <addName>Michel Angielo Bona Rotta</addName>
+            <addName>Michelagelo Buonarroti</addName>
+            <addName>Michelagelo</addName>
+            <addName>Michelagniolo Buonaroti</addName>
+            <addName>Michelagniolo</addName>
+            <addName>Michelagniolo di Ludovico di Lionardo Buonarroti-Simoni</addName>
+            <addName>Michelagniolo di Ludovico di Lionardo di Buonarroti Simoni</addName>
+            <addName>Michelagnolo</addName>
+            <addName>Michelagnolo Buonarotti</addName>
+            <addName>Michelangelo</addName>
+            <addName>Buonarroti Michelangelo</addName>
+            <addName>Michelangelo Buonarroti 1475-1564</addName>
+            <addName>Michelangelus</addName>
+            <addName>Buonarroti Michelangiolo</addName>
+            <addName>Michelangiolo</addName>
+            <addName>Michiel Angielo</addName>
+            <addName>Miguel Angel</addName>
+            <addName>Mikel'andželo</addName>
+            <addName>Mikelandelo</addName>
+            <addName>Mikelandželo</addName>
+            <addName>Mikelandželo Buonarroti</addName>
+            <addName>Mikelandželo</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Serbaldi , Pier Maria (da Pescia)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300367</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300367">Pierre Maria de pescia<addName type="display">Serbaldi , Pier Maria (da Pescia)</addName>
+            <addName>Pier Maria Serbaldi</addName>
+            <addName>Pierre Maria de Brescia</addName>
+            <addName>Brescia</addName>
+            <addName>Pietro Maria di Pescia</addName>
+            <addName>Pescia</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

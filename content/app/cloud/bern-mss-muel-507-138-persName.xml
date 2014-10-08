@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-138.tei.xml-d9863e54">Gr. Marsigli</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Benoît (XIV, pape)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00397457</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00397457"
+                       key="#PND:118655434">Benedict XIV.<addName type="display">Benoît (XIV, pape)</addName>
+            <addName>XIV Benedictus</addName>
+            <addName>Benedetto XIV pape</addName>
+            <addName>Benedetto</addName>
+            <addName>Benedictus XIV pape</addName>
+            <addName>Prospero Lambertini</addName>
+            <addName>Lambertini</addName>
+            <addName>Bénoit Pontife, XIV.</addName>
+            <addName>Bénoit</addName>
+            <addName>Bénoit XIV.</addName>
+            <addName>Bénoit XIV.</addName>
+            <addName>Bénoit</addName>
+            <addName>XIV Benedetto</addName>
+            <addName>Benedetto, XIV 14 paus</addName>
+            <addName>Benedetto Papa, XIV.</addName>
+            <addName>Benedict Papa, XIV.</addName>
+            <addName>Benedict</addName>
+            <addName>Benedictus Papa, XIV</addName>
+            <addName>Benedictus XIV.</addName>
+            <addName>Benedikt Papa, XIV.</addName>
+            <addName>Benedito Papa, XIV.</addName>
+            <addName>Benedito</addName>
+            <addName>XIV=14 Benoît</addName>
+            <addName>Benoît Pape, XIV.</addName>
+            <addName>Benoît</addName>
+            <addName>Benoit Pape, XIV.</addName>
+            <addName>Benoit</addName>
+            <addName>Benoit Pope, XIV.</addName>
+            <addName>Prosper Lambertini</addName>
+            <addName>Prospero L. Lambertini</addName>
+            <addName>Prosperus Lambertinus</addName>
+            <addName>Lambertinus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Grimani (Familie)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00567846</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00567846"
+                       key="#PND:122071093">Grimani<addName type="display">Grimani (Familie)</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Augustus (Emperor of Rome)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00971385</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00971385"
+                       key="#PND:118505122">August<addName type="display">Augustus (Emperor of Rome)</addName>
+            <addName>Auguste Empereur</addName>
+            <addName>Auguste</addName>
+            <addName>Caio Giulio Cesare Ottaviano Augusto</addName>
+            <addName>Augusto</addName>
+            <addName>Cesare Augusto</addName>
+            <addName>Cesare Ottaviano Augusto</addName>
+            <addName>Ottaviano Augusto</addName>
+            <addName>Augustus Caesar</addName>
+            <addName>Caesar Augustus</addName>
+            <addName>Caesar Octavianus Augustus</addName>
+            <addName>Caius J. Augustus</addName>
+            <addName>Caius Julius Caesar Augustus</addName>
+            <addName>Cesar Octavianus Augustus</addName>
+            <addName>Gaius I. Augustus</addName>
+            <addName>Gaius Iulius Caesar Augustus</addName>
+            <addName>Gaius Iulius Caesar Octavianus Augustus</addName>
+            <addName>Gaius Julius Augustus</addName>
+            <addName>Gaius Julius Caesar Octavianus Augustus</addName>
+            <addName>Gaius Octavius Augustus</addName>
+            <addName>Iulius Caesar Octavianus Augustus</addName>
+            <addName>Octavianus Augustus</addName>
+            <addName>Octavius Caesar Augustus</addName>
+            <addName>Augustus Divus</addName>
+            <addName>Augustus Imperator</addName>
+            <addName>Augustus Imperium Romanum, Caesar</addName>
+            <addName>Augustus Kaiser</addName>
+            <addName>Augustus Römisches Reich, Kaiser</addName>
+            <addName>Augustus Roemisches Reich, Kaiser</addName>
+            <addName>Augustus Romanus</addName>
+            <addName>Augustus Verfasser der Res Gestae</addName>
+            <addName>Caius Octavianus Imperium Romanum, Imperator</addName>
+            <addName>Caius Octavianus</addName>
+            <addName>Caius Oktavius Imperium Romanum, Augustus</addName>
+            <addName>Caius Oktavius</addName>
+            <addName>Caius Oktavius Imperium Romanum, Imperator</addName>
+            <addName>Gaius Julius Caesar Octavianus</addName>
+            <addName>Gaius Octavius</addName>
+            <addName>Gaius Octavius Emperor of Rome</addName>
+            <addName>Octavian</addName>
+            <addName>Octavianus</addName>
+            <addName>Octavius</addName>
+            <addName>Octavius Caesar Emperor of Rome</addName>
+            <addName>Octavius Caesar</addName>
+            <addName>Octavius Augustus</addName>
+            <addName>Ottaviano</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Vipsanius Agrippa, Marcus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00977487</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00977487"
+                       key="#PND:118501097">Agrippa<addName type="display">Vipsanius Agrippa, Marcus</addName>
+            <addName>Marcus Vipsanius Agrippa</addName>
+            <addName>Marcus Agrippa</addName>
+            <addName>Agrippa</addName>
+            <addName>Agrippa Ersteller einer Weltkarte</addName>
+            <addName>Marcus Vipsanius</addName>
+            <addName>Vipsanius, Marcus Agrippa</addName>
+            <addName>Vipsanius</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Ganymed</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00549963</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00549963"
+                       key="#PND:118537520">Ganimed<addName type="display">Ganymed</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Maffei, Francesco Scipione (Marquis)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00913744</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00913744"
+                       key="#PND:119062518">Maffei<addName type="display">Maffei, Francesco Scipione (Marquis)</addName>
+            <addName>Francesco Scipione Maffei</addName>
+            <addName>Scipione Maffei</addName>
+            <addName>Scipio Maffaejus</addName>
+            <addName>Maffaejus</addName>
+            <addName>Scipio Maffaeus</addName>
+            <addName>Maffaeus</addName>
+            <addName>Francesco S. Maffei</addName>
+            <addName>Francesco Scipion Maffei</addName>
+            <addName>Maffei, Francesco Scipione marchese</addName>
+            <addName>Francesco-Scipione Maffei</addName>
+            <addName>Francisco-Scipione Maffei</addName>
+            <addName>Scipio von Maffei</addName>
+            <addName>Scipion Maffei</addName>
+            <addName>Scipione di Maffei</addName>
+            <addName>Scipionus Maffei</addName>
+            <addName>Maffei marchese</addName>
+            <addName>Scipio Maffeius</addName>
+            <addName>Maffeius</addName>
+            <addName>Scipio Maffejus</addName>
+            <addName>Maffejus</addName>
+            <addName>Scipio Maffeus</addName>
+            <addName>Maffeus</addName>
+            <addName>Scipius Maffeus</addName>
+            <addName>Franciscus Scipio Mafffeius</addName>
+            <addName>Mafffeius</addName>
+            <addName>Scipio Maphejus</addName>
+            <addName>Maphejus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Venus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00588078</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00588078"
+                       key="#PND:11876800X">Venus<addName type="display">Venus</addName>
+            <addName>Anadyomene  Beiname</addName>
+            <addName>Anadyomene</addName>
+            <addName>Arelatensis  Beiname</addName>
+            <addName>Arelatensis</addName>
+            <addName>aurea  Beiname</addName>
+            <addName>aurea</addName>
+            <addName>coelestis  Beiname</addName>
+            <addName>coelestis</addName>
+            <addName>Gnidia  Beiname</addName>
+            <addName>Gnidia</addName>
+            <addName>Marina  Beiname</addName>
+            <addName>Marina</addName>
+            <addName>Pelasgia  Beiname</addName>
+            <addName>Pelasgia</addName>
+            <addName>Pontia  Beiname</addName>
+            <addName>Pontia</addName>
+            <addName>Urania  Beiname</addName>
+            <addName>Urania</addName>
+            <addName>Victrix  Beiname</addName>
+            <addName>Victrix</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

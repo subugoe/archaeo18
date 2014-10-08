@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Zeuxis</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00588252</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00588252"
+                   key="#PND:118772651">Zeuxes<addName type="display">Zeuxis</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Helena</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00552296</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00552296"
+                   key="#PND:118548778">Helena<addName type="display">Helena</addName>
+            <addName>Helena von Troja</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Apelles</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00397365</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00397365"
+                   key="#PND:118649787">Appelles<addName type="display">Apelles</addName>
+            <addName>Appelles</addName>
+            <addName>Apelle</addName>
+            <addName>Apelles von Kolophon</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

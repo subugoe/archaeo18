@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Isis</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00542688</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00542688"
+                   key="#PND:118932640">Isis<addName type="display">Isis</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Bottari, Giovanni Gaetano</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00412832</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00412832"
+                   key="#PND:120278952">Bottari<addName type="display">Bottari, Giovanni Gaetano</addName>
+            <addName>Giovanni Gaetano Bottari</addName>
+            <addName>I. Patori</addName>
+            <addName>Patori</addName>
+            <addName>Giovanni Bottari</addName>
+            <addName>Giovanni G. Bottari</addName>
+            <addName>Joannes Bottari</addName>
+            <addName>Johann Bottari</addName>
+            <addName>Johannes Bottari</addName>
+            <addName>M. Bottari</addName>
+            <addName>Johannes Bottarius</addName>
+            <addName>Bottarius</addName>
+            <addName>Johannes Caietanus Bottarius</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Herodotus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00884119</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00884119"
+                   key="#PND:118549855">Herodotus<addName type="display">Herodotus</addName>
+            <addName>Ērodotos</addName>
+            <addName>Ērodotos</addName>
+            <addName>Erodot</addName>
+            <addName>Erodoto</addName>
+            <addName>Erodoto Alicarnasseo</addName>
+            <addName>Erodoto di Alicarnasso</addName>
+            <addName>Erodotus Alikarnassēos</addName>
+            <addName>Erodotus</addName>
+            <addName>Gerodot</addName>
+            <addName>Gerodot iz Galikarnassa</addName>
+            <addName>Hīrūdūt</addName>
+            <addName>Hérodote</addName>
+            <addName>Hérodote d' Halicarnasse</addName>
+            <addName>Hérodote de Halicarnasse</addName>
+            <addName>Hérodote d'Halicarnasse</addName>
+            <addName>Hérodotosz</addName>
+            <addName>Hérodote de Halicarnasse</addName>
+            <addName>Hérodote</addName>
+            <addName>Hérodote d'Halicarnasse</addName>
+            <addName>Herodatus</addName>
+            <addName>Herodoot</addName>
+            <addName>Herodoot van Halikarnassus</addName>
+            <addName>Herodot von Halikarnass</addName>
+            <addName>Herodot</addName>
+            <addName>Herodot Halicarnassei</addName>
+            <addName>Herodot iz Halikarnasu</addName>
+            <addName>Herodot the Historian</addName>
+            <addName>Herodot von Halicarnass</addName>
+            <addName>Herodot von Halikarnaß</addName>
+            <addName>Herodot von Halikarnassos</addName>
+            <addName>Herodot von Halikarnassus</addName>
+            <addName>Herodote</addName>
+            <addName>Herodoto</addName>
+            <addName>Herodoto Alicarnaseo</addName>
+            <addName>Herodoto Halicarnasseo</addName>
+            <addName>Herodotos</addName>
+            <addName>Herodotos van Halicarnassos</addName>
+            <addName>Herodotos Historiker</addName>
+            <addName>Herodotos Sohn des Lyxes</addName>
+            <addName>Herodotos von Halikarnassos</addName>
+            <addName>Herodotus Halincarnassensis</addName>
+            <addName>Herodotus Halicarnassei</addName>
+            <addName>Herodotus Halicarnassensis</addName>
+            <addName>Herodotus Halicarnasseus</addName>
+            <addName>Herodotus Halikarnassēos</addName>
+            <addName>Herodotus Historicus</addName>
+            <addName>Herodotus ho Halikarnasseos</addName>
+            <addName>Herodotus ho Halikarnasseus</addName>
+            <addName>Herodotus of Halicarnassus</addName>
+            <addName>Herodotus the Historian</addName>
+            <addName>Herodotus Thurius</addName>
+            <addName>Herodotus von Halicarnassos</addName>
+            <addName>Herodotus von Halikarnassos</addName>
+            <addName>Herodotus von Halikarnassus</addName>
+            <addName>Hirūdut</addName>
+            <addName>Hirūdut</addName>
+            <addName>Pseudo-Herodotus Biographus</addName>
+            <addName>Pseudo-Herodotus</addName>
+            <addName>Pseudo-Herodotus Halicarnassensis</addName>
+            <addName>Pseudo-Herodotus Historicus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Maffei, Francesco Scipione (Marquis)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00913744</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00913744"
+                   key="#PND:119062518">Maffei<addName type="display">Maffei, Francesco Scipione (Marquis)</addName>
+            <addName>Francesco Scipione Maffei</addName>
+            <addName>Scipione Maffei</addName>
+            <addName>Scipio Maffaejus</addName>
+            <addName>Maffaejus</addName>
+            <addName>Scipio Maffaeus</addName>
+            <addName>Maffaeus</addName>
+            <addName>Francesco S. Maffei</addName>
+            <addName>Francesco Scipion Maffei</addName>
+            <addName>Maffei, Francesco Scipione marchese</addName>
+            <addName>Francesco-Scipione Maffei</addName>
+            <addName>Francisco-Scipione Maffei</addName>
+            <addName>Scipio von Maffei</addName>
+            <addName>Scipion Maffei</addName>
+            <addName>Scipione di Maffei</addName>
+            <addName>Scipionus Maffei</addName>
+            <addName>Maffei marchese</addName>
+            <addName>Scipio Maffeius</addName>
+            <addName>Maffeius</addName>
+            <addName>Scipio Maffejus</addName>
+            <addName>Maffejus</addName>
+            <addName>Scipio Maffeus</addName>
+            <addName>Maffeus</addName>
+            <addName>Scipius Maffeus</addName>
+            <addName>Franciscus Scipio Mafffeius</addName>
+            <addName>Mafffeius</addName>
+            <addName>Scipio Maphejus</addName>
+            <addName>Maphejus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Averruncus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01288202</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01288202">Averruncus<addName type="display">Averruncus</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

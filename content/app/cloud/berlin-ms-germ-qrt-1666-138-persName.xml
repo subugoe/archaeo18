@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Kleomenes (Künstler, 1. Hälfte 1. Jh. v. Chr.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00833795</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00833795"
+                       key="#PND:131851330">Cleomenes<addName type="display">Kleomenes (Künstler, 1. Hälfte 1. Jh. v. Chr.)</addName>
+            <addName>Kleomenes 3</addName>
+            <addName>Kleomenes Athenaios</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Caligula (Imperium Romanum, Imperator)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00984012</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00984012"
+                       key="#PND:118518410">Caligula<addName type="display">Caligula (Imperium Romanum, Imperator)</addName>
+            <addName>Gaius Iulius Caligula Caesar Germanicus</addName>
+            <addName>Caesar Germanicus</addName>
+            <addName>Gaius Caligula Iulius Caesar Germanicus</addName>
+            <addName>Caligula Iulius Caesar Germanicus</addName>
+            <addName>Caius Caligula</addName>
+            <addName>Gaius Caligula</addName>
+            <addName>Caligula Römischer Kaiser</addName>
+            <addName>Gaius Iulius Caesar Germanicus</addName>
+            <addName>Germanicus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Iulia Drusilla</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300276</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300276">Dru-silla<addName type="display">Iulia Drusilla</addName>
+            <addName>Drusilla</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

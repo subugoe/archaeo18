@@ -1,0 +1,2151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Göttingen</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7005246</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7005246">Göttingen<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Göttingen</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Göttingen</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Gutingi</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Nīl, Nahr an-</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=1127805</link>
+      <count>3</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:1127805">Nils<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Nīl, Nahr an-</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Nīl, Nahr an-</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Nahr an-Nīl</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Baẖr an-Nil</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Al-Bahr</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Nile</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Nile River</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Nil</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Nilo</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Nijl</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Nilus</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Aigyptos</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Neilos</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Iaro</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Ar</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Aur</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Egypt</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7014986</link>
+      <count>5</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7014986">Egipten<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Egypt</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Egypt</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Egypt, ancient</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Aegyptus</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Aigyptos</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Hwt-ka-Ptah</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Kem</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Kemi</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Kermit</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Kemet</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Kmt</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Ancient Egyptian</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Roma</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7000874</link>
+      <count>40</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7000874">Rom<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Roma</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Roma</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Urbe</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Rome</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Rom</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Roman</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Augsburg</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7004324</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7004324">Augsburg<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Augsburg</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Augsburg</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Augsbourg</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Augusta Vindelicorum</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Augusta Vindelicensis</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Augusta Vindelicum</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Augusta Vindelica</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Augusta Vindelicia</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Augusta Raetorum</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Augusta Genannia</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Augustidunum</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Zigaris</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Volterra</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7006305</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7006305">Volaterra<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Volterra</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Volterra</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Volaterrae</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Volterrae</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Velathri</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Venezia</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7018159</link>
+      <count>8</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7018159">Venedig<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Venezia</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Venezia</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Venecia</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Venedig</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Venice</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Venise</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">République de Venise</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Venetia</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Vinegia</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Venetian</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Berlin</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7003712</link>
+      <count>4</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7003712">Berlin<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Berlin</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Berlin</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Berlino</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Ellás</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=1000074</link>
+      <count>11</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:1000074">Griechenland<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Ellás</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Ellás</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Ellas</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Ellinikí Dimokratía</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Elliniki Dimokratia</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Elliniki Dhimokratia</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Greece</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Hellenic Republic</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Grèce</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">République hellénique</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Griechenland</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Grecia</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Griekenland</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Grécia</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">GRC</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">GR</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">ISO300</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">GR00</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Kingdom of Greece</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Hellas</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Greek</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Hellenic</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Asia Minor</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7002294</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7002294">Klein-<TEI:pb a18:_doc="file:/home/ingop/repo/archaeo18/./content/app/tei-enriched/berlin-ms-germ-qrt-1666.xml"
+                    a18:_n="23"/>I. Abschnitt, Von den Alten Kunstwercken
+                        Asien<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Asia Minor</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Asia Minor</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Asia Menor</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Kleinasien</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Asie Mineure</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Anatolia</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Anadol</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Anadolu</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Anadoli</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Anatolie</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Anatolien</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Anatolian</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Firenze</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7000457</link>
+      <count>25</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7000457">Florenz<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Firenze</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Firenze</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Florence</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Florencia</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Florenz</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Fiorenza</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Florentia</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Florentine</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>San Ildefonso o La Granja</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7007905</link>
+      <count>3</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7007905">Il-
+                        defonse<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">San Ildefonso o La Granja</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">San Ildefonso o La Granja</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">La Granja de San Ildefonso</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">San Ildefonso</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Granja, La</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>España</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=1000095</link>
+      <count>4</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:1000095">Spannien<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">España</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">España</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Reino de España</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Estado Español</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Spain</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Kingdom of Spain</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Spanish State</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Espagne</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Royaume d'Espagne</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Spanien</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Spanje</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Espanha</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Spagna</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">ESP</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">ES</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">ISO724</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">SP00</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Hispana</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Hispania</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Iberia</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Spanish</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Ródos, Nísos</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7011266</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7011266">Rhodus<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Ródos, Nísos</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Ródos, Nísos</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Ródhos</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Rodhos</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Rodos</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Rhodos</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Rodi</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Rodas</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Rhodes</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Ródhos island</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Rhodus</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Nettuno</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7007028</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7007028">Nettrino<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Nettuno</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Nettuno</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Monte Palatino</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=3000935</link>
+      <count>6</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:3000935">Titi imperatoris domo<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Monte Palatino</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Monte Palatino</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Palatine Hill</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Palatine</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Palatinus Mons</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Dhelfoi</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7010770</link>
+      <count>5</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7010770">Delphi<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Dhelfoi</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Dhelfoi</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Delphi</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Delphes</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Delfo</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Pytho</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Dhelfoí</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Amsterdam</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7006952</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7006952">Amsterdam<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Amsterdam</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Amsterdam</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Amstel-dam</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Amsteldam</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Amstelledamme</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Amstelodamum</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Amsteadamum</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Amsterodamum</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Amstelredamum</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Amstelredamense oppidum</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Mayland</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=1030011</link>
+      <count>3</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:1030011">Mayland<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Mayland</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Mayland</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Dresden</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7004455</link>
+      <count>8</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7004455">Dresden<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Dresden</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Dresden</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Dresde</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Ďrežd'ane</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Drezdane</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Drezdzany</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Versailles, Château de</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=1100363</link>
+      <count>5</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:1100363">Versailles<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Versailles, Château de</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Versailles, Château de</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Château de Versailles</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Bithynia</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7016608</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7016608">Bythynien<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Bithynia</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Bithynia</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Bithynia et Pontus</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Bithynia and Pontus</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Deutschland</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7000084</link>
+      <count>3</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7000084">Teutschland<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Deutschland</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Deutschland</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Bundesrepublik Deutschland</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">BRD</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Germany</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Federal Republic of Germany</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Allemagne</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">République fédérale d'Allemagne</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">República Federal de Alemania</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Alemania</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Alemanha</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Duitsland</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Germania</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">DEU</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">DE</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">ISO276</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">GM00</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Deutsches Reich</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">ISO280</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">German</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Potsdam</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7004463</link>
+      <count>6</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7004463">Potsdam<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Potsdam</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Potsdam</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Poztupimi</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Poczdam</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Potstamp</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Postupim</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Naxos</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7003909</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7003909">Naxos<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Naxos</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Naxos</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Capo Schisò</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Punta di Schiso</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7038169</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7038169">Tosconlano</TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Colorno</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7004987</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7004987">Colorno<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Colorno</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Colorno</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Parma</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7004942</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7004942">Parma<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Parma</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Parma</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Colonia Julia Augusta Parmensis</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Colonia Julia Augusta</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Hannover</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7013260</link>
+      <count>5</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7013260">Hannover<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Hannover</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Hannover</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Hanover</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Hanovre</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>London</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7011781</link>
+      <count>3</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7011781">London<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">London</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">London</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Londres</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Londra</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Lundin</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Lundres</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Lundenceaster</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Lundenne</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Lundene</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Lundenburg</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Lundenwic</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Lundonia</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Londinium</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Lundinium</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Londinion</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Londinium Augusta</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Londinos</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Portici</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7006841</link>
+      <count>3</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7006841">Portici<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Portici</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Portici</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>England</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7002445</link>
+      <count>5</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7002445">England<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">England</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">England</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Angleterre</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Inglaterra</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Inghilterra</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">English</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Anglia</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Britannia Romana</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Britannia maior</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Britannia propria</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Quirinale</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=4012799</link>
+      <count>3</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:4012799">quirinate<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Quirinale</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Quirinale</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7047982</link>
+      <count>4</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7047982">Herculano</TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7017076 #7226273</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7017076 #GettyID:7226273">Paloponnsus</TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Hisarlık</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7002329</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7002329">Troja<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Hisarlık</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Hisarlık</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Troya</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Troia</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Troja</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Troie</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Troe</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Truva</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Troy</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Hissarlik</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Hisarlik</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Ilios</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Ilion</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Ilium</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Illium</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Illion</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Wilios</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Wilusa</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Campidoglio</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7006963</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7006963">Campidoglio<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Campidoglio</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Campidoglio</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Capitoline Hill</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Italia</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=1000080</link>
+      <count>3</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:1000080">Italien<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Italia</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Italia</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Repubblica italiana</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Repubblica Italiana</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Italy</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Italian Republic</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Italie</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">République italienne</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Italien</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Itália</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Italië</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">ITA</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">IT</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">ISO380</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">IT00</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Esperia</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Italian</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Villa Medices</tag>
+      <facet>tei:placeName</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000435</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#http://arachne.uni-koeln.de/item/sammlungen/1000435">
+            <TEI:term ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-enriched/berlin-ms-germ-qrt-1666.xml-d11e23390"
+                      type="collection">Villa Medices</TEI:term>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Athínai</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7001393</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7001393">Athen<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Athínai</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Athínai</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Athenai</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Athinai</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Athens</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Atenas</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Athènes</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Athen</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Atene</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Athenae</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Athēnai</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Athine</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Kassel</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7004431</link>
+      <count>7</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7004431">Cassel<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Kassel</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Kassel</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Cassel</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Casle</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Chassala</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Chassela</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=1025416 #4000934 #7244828 #7244823 #7244820 #7244815 #7244814 #7244811 #7244810 #7244809 #7244808 #7244803 #7244802 #7244915</link>
+      <count>4</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:1025416 #GettyID:4000934 #GettyID:7244828 #GettyID:7244823 #GettyID:7244820 #GettyID:7244815 #GettyID:7244814 #GettyID:7244811 #GettyID:7244810 #GettyID:7244809 #GettyID:7244808 #GettyID:7244803 #GettyID:7244802 #GettyID:7244915">Au</TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Versailles</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7008070</link>
+      <count>4</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7008070">Versailles<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Versailles</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Versailles</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Belluno</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7003325</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7003325">Pelegrino<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Belluno</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Belluno</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Bellunum</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pesaro</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7003991</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7003991">Pesaro<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Pesaro</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Pesaro</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Pisaurum</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Umbria</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7003125</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7003125">Umbrien<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Umbria</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Umbria</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Umbrian</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Etruria</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7024113</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7024113">Etrurien<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Etruria</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Etruria</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Rashna</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Rasna</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Tuscia</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Kocabas</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=6002329</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:6002329">Granitus<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Kocabas</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Kocabas</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Granicus</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7017133 #7010383</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7017133 #GettyID:7010383">Megara</TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Arezzo</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7003162</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7003162">Carezzo<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Arezzo</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Arezzo</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Arezzo, Provincia di</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Arezzo province</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Phrygia</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7002613</link>
+      <count>3</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7002613">Phygien<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Phrygia</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Phrygia</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Hellespontine Phrygia</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Modena</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7009565</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7009565">Modena<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Modena</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Modena</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Mutina</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7038573</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7038573">Tiber</TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Aphrodisias</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7002357</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7002357">Aphrosia<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Aphrodisias</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Aphrodisias</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Karacasu-Geyre</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Geira</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Stavropolis</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Stauropolis</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Aphrodisias Cariae</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Kórinthos</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7010734</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7010734">Corinth<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Kórinthos</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Kórinthos</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Korinthos</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Corinthus</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Corinth</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Colonia Laus Iulia Corinthiensis</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Paleakorinthos</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Ephyra</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Aranjuez</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7007284</link>
+      <count>3</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7007284">Aranguez<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Aranjuez</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Aranjuez</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Aranguesia</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Arae Jovis</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Frascati</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7007013</link>
+      <count>3</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7007013">Frescati<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Frascati</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Frascati</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Frascali</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Vólos</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7011081</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7011081">Jollas<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Vólos</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Vólos</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Volos</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Volo</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Bolos</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Gholos</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Iolcos</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Iolkos</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Towcester</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7010912</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7010912">Towester
+                in Nordhambtonschire<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Towcester</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Towcester</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Touecestre</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Lactodorum</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Lactodurum</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Iacodulma</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7342304</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7342304">Castellazo</TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Akri</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7010713</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7010713">Actium<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Akri</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Akri</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Akarnanian</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Akra Nikolaos</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Actium</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Aktion</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>San Lorenzo de El Escorial</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7007653</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7007653">Escurial<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">San Lorenzo de El Escorial</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">San Lorenzo de El Escorial</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Escorial, San Lorenzo de El</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">El Escorial</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Escorial, El</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Escorial</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">El Escurial</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Livorno</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7006074</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7006074">Livor-no<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Livorno</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Livorno</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Livourne</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Leghorn</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Liburnum</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Liburni Portus</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7007023 #7007018</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7007023 #GettyID:7007018">Ostia</TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:placeName</facet>
+      <link/>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-enriched/berlin-ms-germ-qrt-1666.xml-d11e43779">Myle</TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7230834</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7230834">Styx</TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Phoenicia</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=6004687</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:6004687">Phönicien<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Phoenicia</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Phoenicia</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Phœnicia</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Phenicia</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Phœnician</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Syria Phoenice</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Cyprus</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=1006894</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:1006894">Cy-
+                pern<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Cyprus</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Cyprus</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Kípros</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Kibris</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Kypros</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Alashiya</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Cnidus</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=5003757</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:5003757">Covidus<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Cnidus</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Cnidus</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Cnidus Nova</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Cnidos</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Knidos</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Resadiye</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Dadya</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Kos</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7010871</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7010871">Cos<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Kos</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Kos</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Cos</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Yorkshire</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7008171</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7008171">Niope in Jorckschire<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Yorkshire</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Yorkshire</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Monte Pincio</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=3000929</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:3000929">Monte Pinchio<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Monte Pincio</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Monte Pincio</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Pincio</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Siena</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7011179</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7011179">Sienna<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Siena</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Siena</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Sienna</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Senae</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Sanna</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Saena Julia</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Sena Julia</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Sena</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Sienese</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Lanuvio</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7006708</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7006708">Launvium<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Lanuvio</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Lanuvio</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Civita Lavinia</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Lanuvia</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Lanuvium</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pyrénées</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7016876</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7016876">Pyreneus<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Pyrénées</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Pyrénées</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Pirineos</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Pyrenees</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Pyrenäen</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Pyrenaei Montes</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>İstanbul</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7002473</link>
+      <count>7</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7002473">Constantinopel<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">İstanbul</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">İstanbul</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Istanbul</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Estambul</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Tsarigrad</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Tsargrad</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Constantinople</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Konstantinopel</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Costantinopoli</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Constantinopolis</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">New Rome</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Byzantium</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Mikligard</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Torino</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7005688</link>
+      <count>3</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7005688">Turin<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Torino</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Torino</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Turin</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Augusta Taurinorum</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Julia Taurinorum</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Taurasia</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Tivoli</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7006968</link>
+      <count>3</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7006968">Tivoli<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Tivoli</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Tivoli</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Tibur</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Genova</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7008546</link>
+      <count>3</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7008546">Genuav<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Genova</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Genova</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Gênes</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Genoa</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Genès</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Genoese</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Genua</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Antwerpen</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7007856</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7007856">Antwerpae<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Antwerpen</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Antwerpen</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Anvers</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Antwerp</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Amberes</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Antwerpium</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Antwerpia</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Antwerpis</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Antwerpo</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Antwerpha</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Antwarpia</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Handowerpia</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Andevorpum</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Anderpus</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Ambivaritum</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Atuatuca</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Antverpia</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Padova</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7003085</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7003085">Padua<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Padova</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Padova</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Padua</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Padoue</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Patavium</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Spárti</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7011065</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7011065">lacedemon<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Spárti</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Spárti</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Néa Spartí</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Sparta</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Spartalos</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Lakedaimonia</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Lacedaemon</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Palermo</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7003928</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7003928">Palermo<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Palermo</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Palermo</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Panormus</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Panormos</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Panhormus</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Panormus Siciliae</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Ólimbos</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7011019</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7011019">Olymp<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Ólimbos</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Ólimbos</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Olimpo</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Olymp</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Olympus</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Mount Olympus</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Olympus, Mount</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Olympe, Mont</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Amyklae</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=5004293</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:5004293">Amycly<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Amyklae</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Amyklae</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Amyklai</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Amyclae</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Amikles</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Carthage</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7016143</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7016143">Chartagos<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Carthage</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Carthage</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Karthago</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Cartagine</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Qarṭājannah</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Carthago</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Colonia Julia Carthago</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Qarthadasht</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Kart-Hadasht</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Kart-hadasht</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Quart Hadasha</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Kart Hadash</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Karchedon</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Karth-Hadtha</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Carchēdo</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Thebes</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7001297</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7001297">Theben<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Thebes</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Thebes</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Tebe</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Thèbes</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Thebae</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Thebae Aegypti</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Thēvai</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Thiva</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Theben</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Thebai</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Thívai</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Diospolis Magna</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Diospolis</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Nowe</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Nuwe</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">No</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Wase</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Woʻse</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Theban</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Waldheim</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=1037915</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:1037915">Wildheim<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Waldheim</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Waldheim</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Liège</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7007945</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7007945">Lüttich<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Liège</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Liège</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Luik</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Lüttich</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Lieja</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Liegi</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Liíege</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Leodium</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7058540</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7058540">Susa</TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Piemonte</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7003120</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7003120">Piemont<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Piemonte</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Piemonte</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Piedmont</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Piedmontese</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Ancona</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7003980</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7003980">Ancona<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Ancona</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Ancona</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Benevento</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7004393</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7004393">Benevente<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Benevento</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Benevento</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Beneventum</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Maleventum</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Maloenton</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Maluentum</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Malies</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Colonia Iulia Concordia Augusta Felix Beneventum</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Nîmes</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7008371</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7008371">Nihmes<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Nîmes</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Nîmes</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Nimes</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Nismes</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Nemausus</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>France</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=1000070</link>
+      <count>5</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:1000070">Franckreich<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">France</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">France</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">République française</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">République Française</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">French Republic</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Francia</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Frankreich</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Frankrijk</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">França</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">FRA</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">FR</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">ISO250</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">FR00</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Gaule</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Gaul</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Gallia</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">French</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Istra</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7009395</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7009395">Istria<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Istra</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Istra</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Istria</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Istrian Peninsula</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Istrie</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Istros</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Histria</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=1066225 #1088571</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:1066225 #GettyID:1088571">Pala</TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Mesene</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7025844</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7025844">Mesere<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Mesene</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Mesene</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Meshan</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Characene</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Al-Iskandarīyah</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7001188</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7001188">Alexandrie<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Al-Iskandarīyah</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Al-Iskandarīyah</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Al-Iskandariyah</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Iskindiriya</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">El Iskandariya</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Alexandrie</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Alejandría</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Alexandria</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Alexandrea</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Alessandria</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Alessandria d'Egitto</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Alexandria Aegypti</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Alexandria Ad Aegyptum</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Rhakotis</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Paris</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7008038</link>
+      <count>3</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7008038">Paris<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Paris</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Paris</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Parigi</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">París</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Parisii</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Lutetia</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Lutetia Parisiorum</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Lutetia Parisii</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Parisius</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">parisien</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">parisienne</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Parisian</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pompeii</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7004658</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7004658">Pompeji<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Pompeii</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Pompeii</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Pompei</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Siracusa</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7003794</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7003794">Syracus<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Siracusa</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Siracusa</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Syracusa</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Síracusa</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Syracuse</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Syracusae</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Syrakusai</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Siracisae</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Vicenza</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7003204</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7003204">Vincenzio<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Vicenza</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Vicenza</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Vicentia</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Tuscolo</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7008406</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7008406">Tusculum<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Tuscolo</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Tuscolo</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Tusculum</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pozzuoli</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7004647</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7004647">Pazzuola<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Pozzuoli</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Pozzuoli</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Puteoli</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Dikaerchia</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Dicaearchia</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Pozzuolo</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Prática di Mare</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7010390</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7010390">Laurentinum<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Prática di Mare</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Prática di Mare</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Pratica</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Pratica di Mare</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Lavinium</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7052777</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7052777">Industria</TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Orléans</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7008337</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7008337">Orleans<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Orléans</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Orléans</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Orléons</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Orleans</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Aurelianum</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Genabum</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Aurelianense palatium</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Auriliana civitas</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Avrilanis civitas</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Lyon</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7008772</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7008772">Lyon<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Lyon</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Lyon</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Lyons</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Lione</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Lyón</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Lugdunum</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Lugdunum Galliae</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Lugdunenses</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Sámos</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=1042201</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:1042201">Samos<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Sámos</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Sámos</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Samos</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Vathy harbor</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Vathy</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Port Vathi</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Limín Vathéos</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Limén Vathéos</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Liman Vathéos</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Tigani</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7033030</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7033030">Canaan</TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Magna Graecia</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7008331</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7008331">Griechenland<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Magna Graecia</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Magna Graecia</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Megale Hellas</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Laneuveville-devant-Nancy</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=4006107</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:4006107">Nancy<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Laneuveville-devant-Nancy</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Laneuveville-devant-Nancy</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Rossiya</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7002435</link>
+      <count>5</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7002435">Rußland<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Rossiya</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Rossiya</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Rossiyskaya Federatsiya</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Rossiyskaya</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Russia</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Russian Federation</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Russie</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Fédération de Russie</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Russland</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Rusia</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Rusland</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Rússia</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">RUS</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">RU</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">ISO643</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">RS00</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Rossijskaja Sovetskaja Federativnaja Socialističeskaja Respublika</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Rossiyskaya SFSR</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Russian Soviet Federated Socialist Republic</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Russian SFSR</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">R. S. F. S. R.</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Russian</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Milano</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7005903</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7005903">Mayland<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Milano</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Milano</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Milan</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Mailand</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Milanese</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Mediolanum</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Mediolanium</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Mediolanum Insubrum</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pavia</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7006026</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7006026">Pavia<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Pavia</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Pavia</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Papia</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Ticinum</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Toscana</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7009760</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7009760">Toscana<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Toscana</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Toscana</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Tuscany</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Tuscia</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Tuscan</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Toscan</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Wien</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7003321</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7003321">Wien<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Wien</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Wien</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Vienna</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Vienne</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Beç</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Videṉ</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Wienis</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Wenia</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Vindobona</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Vindobna</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Vindomana</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7002346 #7002351</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7002346 #GettyID:7002351">Caesaren</TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Leipzig</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7012329</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7012329">Leipzig<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Leipzig</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Leipzig</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Leipsic</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Lipsia</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Lipsk</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Urbs Libzi</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Babylon</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7002626</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7002626">Babylon<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Babylon</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Babylon</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Babylonia</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Babylone</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Babilonia</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Babil</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Tell Babil</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Bab-ili</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Babel</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Babhel</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Babilu</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Ka-Dingir-Ra</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Din-tir</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Kading'irra</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Su-anna</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Uru-azagga</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Bhārat</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7000198</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7000198">Indien<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Bhārat</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Bhārat</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Bharat</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">India</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Republic of India</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Bhārat Ganarājya</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Inde</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">République de l'Inde</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Indien</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Índia</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">IND</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">IN</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">ISO356</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">IN00</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Indian Union</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Union of India</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Indian</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Mainz</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7004449</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7004449">Maynz<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Mainz</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Mainz</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Mainz am Rhein</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Mayence</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Moguntiacum</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Maguntiacum</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Mogontiacum</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Köln</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7004446</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7004446">Cöln<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Köln</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Köln</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Cologne</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Colonia</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Coln</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Keulen</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Colonia Agrippina</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Colonia Agrippinensis</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Colonia Claudia Ara Agrippinensium</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Oppidum Ubiorum</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Oppidum</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Ubiorum</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Ubiopolis</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Agrippina colonia</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Luxembourg</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7003514</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7003514">Luxenburg<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Luxembourg</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Luxembourg</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Grand-Duché de Luxembourg</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Luxemburg</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Grossherzogtum Luxemburg</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Gross-Herzogtum Luxemburg</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Grousherzogdem Lëtzebuerg</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Letzeburg</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Grand Duchy of Luxembourg</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Luxemburgo</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">LUX</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">LU</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">ISO442</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">LU00</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Lützelburg</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Luxembourgeois</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Flanders</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7024097</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7024097">Flandern<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Flanders</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Flanders</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Flandre</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Flandern</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Vlaanderen</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Flandres</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Flandrensis</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Flandria</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Flemish</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Flanders, historical</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Nürnberg</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7004334</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7004334">Nürnberg<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Nürnberg</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Nürnberg</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Nuremberg</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Noremburg</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Gdańsk</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7007660</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7007660">Danzig<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Gdańsk</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Gdańsk</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Danzig</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Gdansk</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Dantzig</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Gyddanyzc</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Kdanc</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Napoli</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7004474</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7004474">Neapel<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Napoli</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Napoli</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Nápoles</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Naples</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Neapel</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Neapolis</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Parthenope</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Bamberg</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7004325</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7004325">Bamberg<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Bamberg</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Bamberg</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Bamberga</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Bamburients Civitas</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Babeberga</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Babenberga</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Baboberga</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Banbenberga</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Baraborga</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Bauenberga</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Brandeberga</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Mons Pavoriis</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Pamberga</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Pariiberga</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Papeberga</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Papendegressis</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Sancti Georii Civitas</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Biberach</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7013234</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7013234">Biberach<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Biberach</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Biberach</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Danmark</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=1000066</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:1000066">Denne-
+                            marck<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Danmark</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Danmark</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Kongeriget Danmark</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Dänemark</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Denmark</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Kingdom of Denmark</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Danemark</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Royaume du Danemark</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Dinamarca</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Denemarken</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Danimarca</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">DNK</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">DK</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">ISO208</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">DA00</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Danish</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Sankt-Peterburg</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7018216</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7018216">Peters-
+                burg<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Sankt-Peterburg</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Sankt-Peterburg</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Saint Petersburg</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">St. Petersburg</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Sankt-Peterburg autonomous city</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Marseille</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7008781</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7008781">Marseille<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Marseille</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Marseille</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Marseilles</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Marsella</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Massalia</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Massilia</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Fontenoy</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=4003978</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:4003978">Fontenoy<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Fontenoy</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Fontenoy</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Fontanet</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Sicilia</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7030363</link>
+      <count>1</count>
+      <nodes>
+         <TEI:placeName ref="#GettyID:7030363">Sicilien<addName xmlns="http://www.tei-c.org/ns/1.0" type="display">Sicilia</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Sicilia</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Sicily</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Sizilien</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Trinacria</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Thrinacria</addName>
+            <addName xmlns="http://www.tei-c.org/ns/1.0">Sikanie</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+</tags>

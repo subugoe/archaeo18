@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Homer</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259620</link>
+      <count>6</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01259620"
+                   key="#PND:11855333X">Homer<addName type="display">Homer</addName>
+            <addName>Gomer</addName>
+            <addName>Hūmīrūs</addName>
+            <addName>Hūmar</addName>
+            <addName>Hūmir</addName>
+            <addName>Hōmar</addName>
+            <addName>Hômêrôs</addName>
+            <addName>Homère</addName>
+            <addName>Homēros</addName>
+            <addName>Homérosz</addName>
+            <addName>Homēros</addName>
+            <addName>Homère</addName>
+            <addName>Homere</addName>
+            <addName>Homero</addName>
+            <addName>Homeros</addName>
+            <addName>Homeros Tragiker</addName>
+            <addName>Homerosi</addName>
+            <addName>Homerus Colophonius</addName>
+            <addName>Homerus Colophonus</addName>
+            <addName>Homerus Dramatiker</addName>
+            <addName>Homerus Epicus</addName>
+            <addName>Omēros</addName>
+            <addName>Omero</addName>
+            <addName>Omiros</addName>
+            <addName>Pseudo-Homerus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Achilleus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00541741</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00541741"
+                   key="#PND:118500384">Achills<addName type="display">Achilleus</addName>
+            <addName>Achill</addName>
+            <addName>Achilles</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Hesiod</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00909084</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00909084"
+                   key="#PND:118550292">Hesiods<addName type="display">Hesiod</addName>
+            <addName>Ēsiodos</addName>
+            <addName>Ēsiodos</addName>
+            <addName>Eracle</addName>
+            <addName>Esiodo</addName>
+            <addName>Esiodo Ascraeo</addName>
+            <addName>Hēsiodos</addName>
+            <addName>Hésiode</addName>
+            <addName>Hésiode d'Ascra</addName>
+            <addName>Hēsiodos</addName>
+            <addName>Hésiode</addName>
+            <addName>Hésiode d'Ascra</addName>
+            <addName>Hesiode</addName>
+            <addName>Hesiodo</addName>
+            <addName>Hesiodos</addName>
+            <addName>Hesiodos Askraios</addName>
+            <addName>Hesiodos Dichter</addName>
+            <addName>Hesiodos Epischer Dichter</addName>
+            <addName>Hesiodos ho Askraios</addName>
+            <addName>Hesiodos von Askra</addName>
+            <addName>Hesiodos von Kyme</addName>
+            <addName>Hesiodus Ascraeus</addName>
+            <addName>Hesiodus Ascreus</addName>
+            <addName>Hesiodus Askra</addName>
+            <addName>Hesiodus Epicus</addName>
+            <addName>Hezyod</addName>
+            <addName>Isiodos ho Askraios</addName>
+            <addName>Isiodos</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Herakles</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00574918</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00574918"
+                   key="#PND:118639552">Hercules<addName type="display">Herakles</addName>
+            <addName>Ercole</addName>
+            <addName>Heracles</addName>
+            <addName>Hercules</addName>
+            <addName>Herkules</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Vergilius Maro, Publius</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01240997</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01240997"
+                   key="#PND:118626574">Virgils<addName type="display">Vergilius Maro, Publius</addName>
+            <addName>Publius Vergilius Maro</addName>
+            <addName>Publius Virgilius Maro</addName>
+            <addName>Vergilij</addName>
+            <addName>Vergilio</addName>
+            <addName>P Virgilius Maro</addName>
+            <addName>Publiusz Wergiliusz Maro</addName>
+            <addName>Wergiliusz Maro</addName>
+            <addName>P Wergiliusz Maron</addName>
+            <addName>Wergiliusz Maron</addName>
+            <addName>Vergil</addName>
+            <addName>Virgil</addName>
+            <addName>Publio Virgilio Marone</addName>
+            <addName>Virgilio Marone</addName>
+            <addName>Wergiliusz</addName>
+            <addName>Publios Birgilios Maro</addName>
+            <addName>Birgilios Maro</addName>
+            <addName>Publ. Virgilius Mar.</addName>
+            <addName>Mar.</addName>
+            <addName>P. Vergilius Maro</addName>
+            <addName>Publius V. Maro</addName>
+            <addName>Maron</addName>
+            <addName>P. Vergilij Maron</addName>
+            <addName>P. Virgilio Marone</addName>
+            <addName>Marone</addName>
+            <addName>Publio V. Marone</addName>
+            <addName>Publius Virgilius Maroo</addName>
+            <addName>Maroo</addName>
+            <addName>P. Uergilius Maro</addName>
+            <addName>P. V. M.</addName>
+            <addName>P. Verg. Mar.</addName>
+            <addName>P. Vergilîj Maron</addName>
+            <addName>P. Virgilius Maro</addName>
+            <addName>P. Virgilius Maro Mantuanus</addName>
+            <addName>P. Wergiliusz Maron</addName>
+            <addName>P.V.M.</addName>
+            <addName>Pseudo-Vergilius</addName>
+            <addName>Pseudo-Virgilio</addName>
+            <addName>Pub. Virgilius Maro</addName>
+            <addName>Pub.V.M.</addName>
+            <addName>Publij Vergilij Maron</addName>
+            <addName>Uergilius</addName>
+            <addName>Uirgilius</addName>
+            <addName>V. M.</addName>
+            <addName>Verghiliù</addName>
+            <addName>Vergil</addName>
+            <addName>Publius Vergile Maron</addName>
+            <addName>Vergile Maron</addName>
+            <addName>Vergilij Maron P.</addName>
+            <addName>Vergilius</addName>
+            <addName>Vergilius</addName>
+            <addName>Augusteus Vergilius</addName>
+            <addName>Publius M. Vergilius</addName>
+            <addName>Publius Maro Vergilius</addName>
+            <addName>Vergilius Poeta</addName>
+            <addName>Vergilius von Andes</addName>
+            <addName>Vergilius von Mantua</addName>
+            <addName>Vergilius Maro</addName>
+            <addName>Pub. Vergilius Maro</addName>
+            <addName>Publius Vergilius-Maro</addName>
+            <addName>Vergilius-Maro</addName>
+            <addName>Vergill</addName>
+            <addName>Veržiliu</addName>
+            <addName>Virgil</addName>
+            <addName>Publius Virgile</addName>
+            <addName>Virgile d'Andes</addName>
+            <addName>Virgile Maron</addName>
+            <addName>Publius Virgile de Mantoue</addName>
+            <addName>Virgile de Mantoue</addName>
+            <addName>Publius Virgile de Mantove</addName>
+            <addName>Virgile de Mantove</addName>
+            <addName>P. Virgilij Maron</addName>
+            <addName>Virgilij Maron</addName>
+            <addName>Virgilio</addName>
+            <addName>Virgilio Mantoano</addName>
+            <addName>Virgilio Mantuano</addName>
+            <addName>Publio Virgilio Maron</addName>
+            <addName>Virgilio Maron</addName>
+            <addName>Publius Virgilio Marone</addName>
+            <addName>Publio Virgilio Marón</addName>
+            <addName>Virgilio Marón</addName>
+            <addName>Publio Virgilio Marón</addName>
+            <addName>Virgilio Marón</addName>
+            <addName>Virgilius</addName>
+            <addName>Virgilius</addName>
+            <addName>Ioann de Virgilius</addName>
+            <addName>Ioannes de Virgilius</addName>
+            <addName>Iohann de Virgilius</addName>
+            <addName>Joannes de Virgilius</addName>
+            <addName>Johann de Virgilius</addName>
+            <addName>Publius Virgilius</addName>
+            <addName>Virgilius Maro P., Publius Vergilius</addName>
+            <addName>Publius Virgilius Maronis</addName>
+            <addName>Virgilius Maronis</addName>
+            <addName>Publius Virgilius Maroos</addName>
+            <addName>Virgilius Maroos</addName>
+            <addName>Virgill</addName>
+            <addName>Virjile"</addName>
+            <addName>Publius Wergilius Maro</addName>
+            <addName>Wergilius Maro</addName>
+            <addName>Publius Wergilius Maronis</addName>
+            <addName>Wergilius Maronis</addName>
+            <addName>Wergiljusz</addName>
+            <addName>Publius Wirgilius Maro</addName>
+            <addName>Wirgilius Maro</addName>
+            <addName>Wirgiliusz</addName>
+            <addName>Publiusz Wirgiliusz Maro</addName>
+            <addName>Wirgiliusz Maro</addName>
+            <addName>Publiusz Wirgiliusz Maron</addName>
+            <addName>Wirgiliusz Maron</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Äneas</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00541852</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00541852"
+                   key="#PND:11850083X">Aeneas<addName type="display">Äneas</addName>
+            <addName>Aeneas</addName>
+            <addName>Aineias</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Kandaules (Lydien, König)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00561963</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00561963"
+                   key="#PND:120810425">Candaules<addName type="display">Kandaules (Lydien, König)</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Gyges (Lydien, König)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00585505</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00585505"
+                   key="#PND:118699628">Gyges<addName type="display">Gyges (Lydien, König)</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Nebukadnezar (Babylonien, König, II.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00395948</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00395948"
+                   key="#PND:118586718">Nebukadnezars<addName type="display">Nebukadnezar (Babylonien, König, II.)</addName>
+            <addName>Nabuchodonosor Babylonien, König, II.</addName>
+            <addName>Nabuchodonosor</addName>
+            <addName>Nebucadnezar II.</addName>
+            <addName>Nebucadnezar</addName>
+            <addName>Nebukadnezar II.</addName>
+            <addName>Nebukadnezar von Babylonien</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Krösus (Lydien, König)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00557699</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00557699"
+                   key="#PND:119505266">Crösus<addName type="display">Krösus (Lydien, König)</addName>
+            <addName>Cresus Lydien, König</addName>
+            <addName>Cresus</addName>
+            <addName>Croesus Lydien, König</addName>
+            <addName>Croesus</addName>
+            <addName>Kroisos Lydien, König</addName>
+            <addName>Kroisos</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Durand s. tit. Hist. de la peinture ancienne. Lond. 1725.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://opac.sub.uni-goettingen.de/DB=1/PPNSET?PPN=144246627</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://opac.sub.uni-goettingen.de/DB=1/PPNSET?PPN=144246627">Durand
+                            s. tit. Hist. de la peinture ancienne. Lond. 1725.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Iunius de pictura Veterum. 1694.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN660711885</link>
+      <count>4</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN660711885">Iunius de pictura Veterum. 1694.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Catalogus artificum veterum.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://dfg-viewer.de/v2?set[mets]=http%3A%2F%2Fgdz.sub.uni-goettingen.de%2Fmets_export.php%3FPPN%3DPPN660711885&amp;set[image]=379</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://dfg-viewer.de/v2?set[mets]=http%3A%2F%2Fgdz.sub.uni-goettingen.de%2Fmets_export.php%3FPPN%3DPPN660711885&amp;set[image]=379">Catalogus artificum veterum.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Burnbull</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/books/Turnbull1740</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://arachne.uni-koeln.de/books/Turnbull1740">Burnbull</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Scheffer Graphice f. de arte pingendi 1669.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN663504406</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN663504406">Scheffer Graphice f. de arte pingendi 1669.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Falconet Oeuvres.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://catalog.hathitrust.org/Record/000404425</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://catalog.hathitrust.org/Record/000404425">Falconet Oeuvres.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+</tags>

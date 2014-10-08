@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Explication de divers Monuments singulie- res, qui ont rapport à la Religion des plus anciens peuples par le Rever: Perc Dom - /: Martini :/ Relig: Bened: de la Congreg: de St Maria Paris 1729.1739. 4.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://www.archive.org/stream/explicationdediv00mart%23page/n4/mode/1up</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://www.archive.org/stream/explicationdediv00mart%23page/n4/mode/1up">Explication de divers Monuments singulie- 
+                                     res, qui ont rapport à la Religion des plus 
+                                     anciens peuples par le Rever: Perc Dom -  /:
+                                     Martini :/ Relig: Bened: de la Congreg:  
+                                     de St Maria Paris 1729.1739. 4.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Adiniranda Romanarum antiquitatum ac veteris Sculpturae vestigia anaglyp- hico opere elaborata a Petr. Santi Barto- li delineata incisa notis Bellori apud I. I. de Rubeis Lib. I. gros breit Folio.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/bartoli1693</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/bartoli1693">Adiniranda Romanarum antiquitatum  
+                                     ac veteris Sculpturae vestigia anaglyp-  
+                                     hico opere elaborata a Petr. Santi Barto-  
+                                     li delineata incisa notis Bellori apud I. I.  
+                                     de Rubeis Lib. I. gros breit Folio.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+</tags>

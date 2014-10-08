@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Vergilius Maro, Publius</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-253.tei.xml-d14587e355">Von <TEI:persName ref="#CerlID:cnp01240997" key="#PND:118626574">Virgil<addName type="display">Vergilius Maro, Publius</addName>
+               <addName>Publius Vergilius Maro</addName>
+               <addName>Publius Virgilius Maro</addName>
+               <addName>Vergilij</addName>
+               <addName>Vergilio</addName>
+               <addName>P Virgilius Maro</addName>
+               <addName>Publiusz Wergiliusz Maro</addName>
+               <addName>Wergiliusz Maro</addName>
+               <addName>P Wergiliusz Maron</addName>
+               <addName>Wergiliusz Maron</addName>
+               <addName>Vergil</addName>
+               <addName>Virgil</addName>
+               <addName>Publio Virgilio Marone</addName>
+               <addName>Virgilio Marone</addName>
+               <addName>Wergiliusz</addName>
+               <addName>Publios Birgilios Maro</addName>
+               <addName>Birgilios Maro</addName>
+               <addName>Publ. Virgilius Mar.</addName>
+               <addName>Mar.</addName>
+               <addName>P. Vergilius Maro</addName>
+               <addName>Publius V. Maro</addName>
+               <addName>Maron</addName>
+               <addName>P. Vergilij Maron</addName>
+               <addName>P. Virgilio Marone</addName>
+               <addName>Marone</addName>
+               <addName>Publio V. Marone</addName>
+               <addName>Publius Virgilius Maroo</addName>
+               <addName>Maroo</addName>
+               <addName>P. Uergilius Maro</addName>
+               <addName>P. V. M.</addName>
+               <addName>P. Verg. Mar.</addName>
+               <addName>P. Vergilîj Maron</addName>
+               <addName>P. Virgilius Maro</addName>
+               <addName>P. Virgilius Maro Mantuanus</addName>
+               <addName>P. Wergiliusz Maron</addName>
+               <addName>P.V.M.</addName>
+               <addName>Pseudo-Vergilius</addName>
+               <addName>Pseudo-Virgilio</addName>
+               <addName>Pub. Virgilius Maro</addName>
+               <addName>Pub.V.M.</addName>
+               <addName>Publij Vergilij Maron</addName>
+               <addName>Uergilius</addName>
+               <addName>Uirgilius</addName>
+               <addName>V. M.</addName>
+               <addName>Verghiliù</addName>
+               <addName>Vergil</addName>
+               <addName>Publius Vergile Maron</addName>
+               <addName>Vergile Maron</addName>
+               <addName>Vergilij Maron P.</addName>
+               <addName>Vergilius</addName>
+               <addName>Vergilius</addName>
+               <addName>Augusteus Vergilius</addName>
+               <addName>Publius M. Vergilius</addName>
+               <addName>Publius Maro Vergilius</addName>
+               <addName>Vergilius Poeta</addName>
+               <addName>Vergilius von Andes</addName>
+               <addName>Vergilius von Mantua</addName>
+               <addName>Vergilius Maro</addName>
+               <addName>Pub. Vergilius Maro</addName>
+               <addName>Publius Vergilius-Maro</addName>
+               <addName>Vergilius-Maro</addName>
+               <addName>Vergill</addName>
+               <addName>Veržiliu</addName>
+               <addName>Virgil</addName>
+               <addName>Publius Virgile</addName>
+               <addName>Virgile d'Andes</addName>
+               <addName>Virgile Maron</addName>
+               <addName>Publius Virgile de Mantoue</addName>
+               <addName>Virgile de Mantoue</addName>
+               <addName>Publius Virgile de Mantove</addName>
+               <addName>Virgile de Mantove</addName>
+               <addName>P. Virgilij Maron</addName>
+               <addName>Virgilij Maron</addName>
+               <addName>Virgilio</addName>
+               <addName>Virgilio Mantoano</addName>
+               <addName>Virgilio Mantuano</addName>
+               <addName>Publio Virgilio Maron</addName>
+               <addName>Virgilio Maron</addName>
+               <addName>Publius Virgilio Marone</addName>
+               <addName>Publio Virgilio Marón</addName>
+               <addName>Virgilio Marón</addName>
+               <addName>Publio Virgilio Marón</addName>
+               <addName>Virgilio Marón</addName>
+               <addName>Virgilius</addName>
+               <addName>Virgilius</addName>
+               <addName>Ioann de Virgilius</addName>
+               <addName>Ioannes de Virgilius</addName>
+               <addName>Iohann de Virgilius</addName>
+               <addName>Joannes de Virgilius</addName>
+               <addName>Johann de Virgilius</addName>
+               <addName>Publius Virgilius</addName>
+               <addName>Virgilius Maro P., Publius Vergilius</addName>
+               <addName>Publius Virgilius Maronis</addName>
+               <addName>Virgilius Maronis</addName>
+               <addName>Publius Virgilius Maroos</addName>
+               <addName>Virgilius Maroos</addName>
+               <addName>Virgill</addName>
+               <addName>Virjile"</addName>
+               <addName>Publius Wergilius Maro</addName>
+               <addName>Wergilius Maro</addName>
+               <addName>Publius Wergilius Maronis</addName>
+               <addName>Wergilius Maronis</addName>
+               <addName>Wergiljusz</addName>
+               <addName>Publius Wirgilius Maro</addName>
+               <addName>Wirgilius Maro</addName>
+               <addName>Wirgiliusz</addName>
+               <addName>Publiusz Wirgiliusz Maro</addName>
+               <addName>Wirgiliusz Maro</addName>
+               <addName>Publiusz Wirgiliusz Maron</addName>
+               <addName>Wirgiliusz Maron</addName>
+            </TEI:persName> soll eine Statue</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Museo Capitol</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-253.tei.xml-d14587e838">so in<TEI:term ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-253.tei.xml-d14587e841">Museo Capitol</TEI:term>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-253.tei.xml-d14587e841">Museo Capitol</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Apollon</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-253.tei.xml-d14587e857">
+            <TEI:persName ref="#CerlID:cnp00542641" key="#PND:118503642">Apoll<addName type="display">Apollon</addName>
+               <addName>Apoll</addName>
+               <addName>Apollo</addName>
+               <addName>Phoebus</addName>
+            </TEI:persName> Köpfe</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-253.tei.xml-d14587e1136">Bibliotheca Palatina</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-253.tei.xml-d14587e1296">berühmter Marmor Kopf</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Versailles</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-253.tei.xml-d14587e1533">das Hauptstück in<TEI:term ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-253.tei.xml-d14587e1536">Versailles</TEI:term>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-253.tei.xml-d14587e1536">Versailles</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000241</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/sammlungen/1000241">Villa Montatto
+                                             (auch 
+                                                Necroni</TEI:term>
+      </nodes>
+   </tag>
+</tags>

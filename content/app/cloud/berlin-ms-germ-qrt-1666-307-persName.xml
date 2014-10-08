@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Chéron, Elisabeth Sophie</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00403858</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00403858"
+                       key="#PND:119100703">Mad. le Hag<addName type="display">Chéron, Elisabeth Sophie</addName>
+            <addName>Elisabeth Sophie Chéron</addName>
+            <addName>le Hay</addName>
+            <addName>Hay</addName>
+            <addName>Elisabeth S. Chéron</addName>
+            <addName>Chéron, Elisabeth Sophie 1648-1711</addName>
+            <addName>Elisabeth-Sophie Chéron</addName>
+            <addName>Elizabeth Sophie Chéron</addName>
+            <addName>Elisabetha Sophia Cheron</addName>
+            <addName>Cheron</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

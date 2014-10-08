@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Plutarch. Lucull. p: 493.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://d-nb.info/gnd/4395170-3</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://d-nb.info/gnd/4395170-3">Plutarch. Lucull. 
+                                                 p: 493.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Plin. XXXVII. 3</tag>
+      <facet>tei:bibl</facet>
+      <link>http://d-nb.info/gnd/4196444-5</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://d-nb.info/gnd/4196444-5">Plin. XXXVII. 3</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Plin: epist: X. 16.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://d-nb.info/gnd/4295581-6</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://d-nb.info/gnd/4295581-6">Plin: epist: 
+                                                 X. 16.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+</tags>

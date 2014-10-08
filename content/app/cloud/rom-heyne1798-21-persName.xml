@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Attila</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00969157</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00969157"
+                   key="#PND:118504959">Attila<addName type="display">Attila</addName>
+            <addName>Attila Hunnenkönig</addName>
+            <addName>Etzel Hunnenreich, König</addName>
+            <addName>Etzel</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Leon (I, papież)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00395616</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00395616"
+                   key="#PND:118571710">Heilige Leo<addName type="display">Leon (I, papież)</addName>
+            <addName>Magnus Leo</addName>
+            <addName>Leo I Magnus papa -461.</addName>
+            <addName>Leon I Wielki papież -461</addName>
+            <addName>Léon I pape -461</addName>
+            <addName>Léon</addName>
+            <addName>Léon Ier Le Grand pape -461</addName>
+            <addName>Léon Le Grand</addName>
+            <addName>Léon le Grand</addName>
+            <addName>Léon Pape</addName>
+            <addName>Léon Pape, I.</addName>
+            <addName>Léon saint</addName>
+            <addName>Magno Leao</addName>
+            <addName>Leao</addName>
+            <addName>Léon le Grand</addName>
+            <addName>Léon</addName>
+            <addName>Léon Pape</addName>
+            <addName>Léon Pape, I.</addName>
+            <addName>Leo I, the Great, pope</addName>
+            <addName>Leo I, The Great, Saint, Pope</addName>
+            <addName>Leo papa</addName>
+            <addName>Leo pontifex maximus</addName>
+            <addName>Leo de Grote</addName>
+            <addName>Leo der Große</addName>
+            <addName>Leo der Grosse</addName>
+            <addName>Leo Doctor</addName>
+            <addName>Leo Magnus</addName>
+            <addName>Leo Pope, I.</addName>
+            <addName>Leo Saint</addName>
+            <addName>Leo Sanctus</addName>
+            <addName>Leo the Great</addName>
+            <addName>Leon Wielki</addName>
+            <addName>papa Leone I Magno</addName>
+            <addName>Leone I Magno</addName>
+            <addName>santo Leone I</addName>
+            <addName>Leone I</addName>
+            <addName>Leone I, papa, Magno</addName>
+            <addName>Leone Magno</addName>
+            <addName>Magno Leone</addName>
+            <addName>Leone</addName>
+            <addName>Leone della Tuscia</addName>
+            <addName>Leone Papa</addName>
+            <addName>Leone Papa, I.</addName>
+            <addName>Lewo Sourb</addName>
+            <addName>Lewo</addName>
+            <addName>Pseudo-Leo Magnus</addName>
+            <addName>Pseudo-Leo</addName>
+            <addName>Pseudo-Leo Papa, I.</addName>
+            <addName>Pseudo-Leo Papst, I.</addName>
+            <addName>San Leon papa</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

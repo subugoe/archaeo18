@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Bularchos</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01427431</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01427431">Pulargus<addName type="display">Bularchos</addName>
+            <addName>Pulargus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Kandaules (Lydien, König)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00561963</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00561963"
+                       key="#PND:120810425">Candaules<addName type="display">Kandaules (Lydien, König)</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Eumares</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01427441</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01427441">Eumarus<addName type="display">Eumares</addName>
+            <addName>Eumarus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Kimon  (Künstler)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01427442</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01427442">Cimon<addName type="display">Kimon  (Künstler)</addName>
+            <addName>Cimon</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Krösus (Lydien, König)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00557699</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00557699"
+                       key="#PND:119505266">Croesus<addName type="display">Krösus (Lydien, König)</addName>
+            <addName>Cresus Lydien, König</addName>
+            <addName>Cresus</addName>
+            <addName>Croesus Lydien, König</addName>
+            <addName>Croesus</addName>
+            <addName>Kroisos Lydien, König</addName>
+            <addName>Kroisos</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Kypselos</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300263</link>
+      <count>4</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300263">Cypsylus<addName type="display">Kypselos</addName>
+            <addName>Cypselus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Bakchiadai  (Familie)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01427443</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01427443">Bachiaden<addName type="display">Bakchiadai  (Familie)</addName>
+            <addName>Bachiaden</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pausanias</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00396071</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00396071"
+                       key="#PND:118592246">Pausanias<addName type="display">Pausanias</addName>
+            <addName>Pausania</addName>
+            <addName>Pausania il Periegeta</addName>
+            <addName>Pausanias Periegetos</addName>
+            <addName>Pausanias Damascenus</addName>
+            <addName>Pausanias de Magnésie</addName>
+            <addName>Pausanias de Magnésie</addName>
+            <addName>Pausanias der Perieget</addName>
+            <addName>Pausanias der Periegete</addName>
+            <addName>Pausanias Géographe</addName>
+            <addName>Pausanias Géographe</addName>
+            <addName>Pausanias Geographus</addName>
+            <addName>Pausanias Lydius</addName>
+            <addName>Pausanias Perieget</addName>
+            <addName>Pausanias Reiseschriftsteller</addName>
+            <addName>Pausanias Schriftsteller</addName>
+            <addName>Pauzanija</addName>
+            <addName>Periegeta</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

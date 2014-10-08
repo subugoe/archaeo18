@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/16305</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/16305">Eine schöne Büste von ihr</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Isis</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/13896</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/13896">Statue als <persName ref="#CerlID:cnp00542688" key="#PND:118932640">Jsis<addName type="display">Isis</addName>
+            </persName> im <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000007">Pallast Barberini</term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000007</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000007">Pallast Barberini</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Athena</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-188.tei.xml-d3133e51">Als <persName ref="#CerlID:cnp00542952" key="#PND:118504851">Pallas<addName type="display">Athena</addName>
+               <addName>Athene</addName>
+               <addName>Pallas Athene</addName>
+            </persName> aus Bronzo mit der Eule</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Ceres (Göttin)Egremont, George O'Brien Wyndham (Earl of)</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/25148</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/25148">Als <persName ref="#CerlID:cnp00540610" key="#PND:118862294">Ceres<addName type="display">Ceres (Göttin)</addName>
+               <addName>Demeter</addName>
+            </persName> beym <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000547">
+               <persName ref="#CerlID:cnp00573787" key="#PND:123166004">Millord Eyremont<addName type="display">Egremont, George O'Brien Wyndham (Earl of)</addName>
+                  <addName>George O'Brien Wyndham Egremont</addName>
+                  <addName>George O'Brien Wyndham</addName>
+               </persName>
+            </term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Egremont, George O'Brien Wyndham (Earl of)</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000547</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000547">
+            <persName ref="#CerlID:cnp00573787" key="#PND:123166004">Millord Eyremont<addName type="display">Egremont, George O'Brien Wyndham (Earl of)</addName>
+               <addName>George O'Brien Wyndham Egremont</addName>
+               <addName>George O'Brien Wyndham</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Wallmodishen Samlung</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-188.tei.xml-d3133e105">Eine schöne Büste ist in der <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000632">Wallmodishen Samlung</term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000632</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000632">Wallmodishen Samlung</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Me- dicarischen Gärten</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/6546 http://arachne.uni-koeln.de/item/objekt/36186</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/6546 #http://arachne.uni-koeln.de/item/objekt/36186">Statue in den <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000435">Me-  
+                                    dicarischen Gärten</term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000435</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000435">Me-  
+                                    dicarischen Gärten</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-188.tei.xml-d3133e154">Büste aus Bronzo</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pembrocki- schen Samlung</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-188.tei.xml-d3133e159">Eine andere 
+                                  aus weisem Marmor in der <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000087">Pembrocki- 
+                                      schen Samlung</term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000087</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000087">Pembrocki- 
+                                      schen Samlung</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/16304</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/16304">Jhre Büste</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/15907</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/15907">Statue mit dem Oberleibe nackend</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/22218</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/22218">15.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Berenike (Judäa, Prinzessin)</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/17874</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/17874">
+            <persName ref="#CerlID:cnp00557215" key="#PND:119490285">Berenice Titi<addName type="display">Berenike (Judäa, Prinzessin)</addName>
+               <addName>Berenice Titi</addName>
+            </persName>. Statue ganz 
+                                  bekleidet die Arme und Hände ins 
+                                  Gewand verborgen</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Matidia (d. Ältere)</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/39298</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/39298">
+            <persName ref="#CerlID:cnp01300343">Murtidia Augusta<addName type="display">Matidia (d. Ältere)</addName>
+               <addName>Murtidia Augusta</addName>
+            </persName>. Büste</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-188.tei.xml-d3133e334">Statue als vergöttert, mit einem halben</term>
+      </nodes>
+   </tag>
+</tags>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:219823 http://arachne.uni-koeln.de/item/gruppen/400123 http://arachne.uni-koeln.de/item/objekt/146910 http://arachne.uni-koeln.de/item/objekt/146912 http://arachne.uni-koeln.de/item/objekt/146913</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:219823 #http://arachne.uni-koeln.de/item/gruppen/400123 #http://arachne.uni-koeln.de/item/objekt/146910 #http://arachne.uni-koeln.de/item/objekt/146912 #http://arachne.uni-koeln.de/item/objekt/146913">Laocoons</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/topographie/8004087</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/topographie/8004087">Setti
+                        Sale</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Via Flaminia</tag>
+      <facet>tei:term</facet>
+      <link>http://census.bbaw.de/easydb/censusID=10008445</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0" ref="#CensusID:10008445">an der <placeName ref="#http://arachne.uni-koeln.de/item/topographie/8006917">Via Flaminia</placeName> ein Grabgewölbe</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Villa Negroni</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-235.tei.xml-d14563e351">in <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000241">Villa Negroni</term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000241</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000241">Villa Negroni</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/bauwerk/2100093</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/bauwerk/2100093">Villa Diocl.</term>
+      </nodes>
+   </tag>
+</tags>

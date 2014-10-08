@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>gemmarum Thesaurus a I. M. ab Eber- maier mercatore Norico collectus: I. I. Baie- rus commentario illustravit. Norib: 1720. Fol.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/baier1720</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/baier1720">gemmarum Thesaurus a I. M. ab Eber- 
+                                            maier mercatore Norico collectus: I. I. Baie- 
+                                            rus commentario illustravit. Norib: 1720. Fol.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Capita Deorum et illustrium hominum ab Erh: Reusch: No- rib: 1721. Fol.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/reusch1721</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/reusch1721">Capita Deorum 
+                                            et illustrium hominum ab Erh: Reusch: No- 
+                                            rib: 1721. Fol.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Capita Imperatorum Romano- rum Regum Galliae, Ducum Venet: 3. Thl. Fol: 1722.</tag>
+      <facet>tei:bibl</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#">Capita Imperatorum Romano- 
+                                            rum Regum Galliae, Ducum Venet: 3. Thl. 
+                                            Fol: 1722.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+</tags>

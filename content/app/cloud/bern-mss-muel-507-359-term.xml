@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Bibiana (Heilige)</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-359.tei.xml-d17475e23">Die heilige <TEI:persName ref="#CerlID:cnp01288207">Bibiana<addName type="display">Bibiana (Heilige)</addName>
+               <addName>Bibiena</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Urban (Papst, VIII.)</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-359.tei.xml-d17475e43">
+            <TEI:persName ref="#CerlID:cnp01262515" key="#PND:118625586">Urban VIII.<addName type="display">Urban (Papst, VIII.)</addName>
+               <addName>Maffaeus Barberini</addName>
+               <addName>Barberini</addName>
+               <addName>Maffeo Barberini</addName>
+               <addName>Maffeo Vincenzo Barberini</addName>
+               <addName>Barberini, Maffeo Vincenzo 1568-1644</addName>
+               <addName>Maphaeus Barberini</addName>
+               <addName>Maffeo Barberino</addName>
+               <addName>Barberino</addName>
+               <addName>Maffaeus Barberinus</addName>
+               <addName>Barberinus</addName>
+               <addName>Maffeus Barberinus</addName>
+               <addName>Maphaeus Barberinus</addName>
+               <addName>Maphaeus Cardinalis</addName>
+               <addName>Maphaeus</addName>
+               <addName>Urbain Pape, VIII.</addName>
+               <addName>Urbain</addName>
+               <addName>Urbain VIII 8</addName>
+               <addName>Urbain VIII pape 1568-1644</addName>
+               <addName>Urban Papa, VIII.</addName>
+               <addName>Urban VIII 8</addName>
+               <addName>Urban VIII pope</addName>
+               <addName>Urbano VIII</addName>
+               <addName>Urbano</addName>
+               <addName>Urbano VIII papa 1568-1644</addName>
+               <addName>Urbano VIII al secolo Maffeo Barberini</addName>
+               <addName>Urbano VIII papa</addName>
+               <addName>Urbanus Pontifex Maximus, VIII.</addName>
+               <addName>Urbanus VIII Pope</addName>
+               <addName>Urbanus VIII papa 1568-1644</addName>
+               <addName>Urbanus VIII papa 1568-1644.</addName>
+               <addName>Urbanus VIII</addName>
+               <addName>Urbanus VIII papa</addName>
+               <addName>Vrbano VIII</addName>
+               <addName>Vrbano</addName>
+            </TEI:persName> im <TEI:term ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-359.tei.xml-d17475e124">Palazo Capitolino</TEI:term>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-359.tei.xml-d17475e124">Palazo Capitolino</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Habacuc</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-359.tei.xml-d17475e135">
+            <TEI:persName ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-359.tei.xml-d17475e136">Habacuc</TEI:persName> mit dem Engel </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-359.tei.xml-d17475e151">Capelle Maria del popolo</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Daniel (Prophet)</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-359.tei.xml-d17475e157">der Prophet <TEI:persName ref="#CerlID:cnp00584667" key="#PND:118678752">Daniel<addName type="display">Daniel (Prophet)</addName>
+               <addName>Daniel Prophète</addName>
+               <addName>Danīēl han-Nābī</addName>
+               <addName>Danīēl</addName>
+               <addName>Daniel Prophète</addName>
+               <addName>Danihel Propheta</addName>
+               <addName>Danihel</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Longinus (Heiliger)</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-359.tei.xml-d17475e186">Der heilige <TEI:persName ref="#CerlID:cnp00542877" key="#PND:118939343">Longin<addName type="display">Longinus (Heiliger)</addName>
+            </TEI:persName> in <TEI:term ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-359.tei.xml-d17475e196">Baschcatti Petti</TEI:term>.</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-359.tei.xml-d17475e196">Baschcatti Petti</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>horti Borghese</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-359.tei.xml-d17475e207">Apollo und Daphne in<TEI:term ref="#http://arachne.uni-koeln.de/item/topographie/8005346">horti Borghese</TEI:term>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/topographie/8005346</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/topographie/8005346">horti Borghese</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-359.tei.xml-d17475e224">David</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Johannes (Apostolus)</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-359.tei.xml-d17475e234">Der heilige<TEI:persName ref="#CerlID:cnp00395354" key="#PND:118557815">Johannes<addName type="display">Johannes (Apostolus)</addName>
+               <addName>Iehan Saint</addName>
+               <addName>Iehan</addName>
+               <addName>Iehan Theéologien</addName>
+               <addName>Jehan Saint</addName>
+               <addName>Jehan</addName>
+               <addName>Jehan Théologien</addName>
+               <addName>Giovanni Apostolo</addName>
+               <addName>Giovanni</addName>
+               <addName>Giovanni San</addName>
+               <addName>Hovhannes Aṙak'yal</addName>
+               <addName>Hovhannes</addName>
+               <addName>Iōannēs</addName>
+               <addName>Ioann Bogoslov</addName>
+               <addName>Ioann</addName>
+               <addName>Ioannes Apostolus</addName>
+               <addName>Ioannes</addName>
+               <addName>Ioannes Evangelista</addName>
+               <addName>Ioannes Theologos</addName>
+               <addName>Iohannes Evangelista</addName>
+               <addName>Iohannes</addName>
+               <addName>Iohin</addName>
+               <addName>Iōannēs Apostolos</addName>
+               <addName>Iōannēs</addName>
+               <addName>János Apostol</addName>
+               <addName>János</addName>
+               <addName>János Apostol</addName>
+               <addName>János</addName>
+               <addName>Jean Évangéliste</addName>
+               <addName>Jean</addName>
+               <addName>Jean Apôtre</addName>
+               <addName>Jean Apostolus</addName>
+               <addName>Jean Saint</addName>
+               <addName>Joan Sant</addName>
+               <addName>Joan</addName>
+               <addName>Joannes Apostolus</addName>
+               <addName>Joannes</addName>
+               <addName>Joannes Evangelista</addName>
+               <addName>Joannes Sanctus</addName>
+               <addName>Joannis</addName>
+               <addName>Jochanan</addName>
+               <addName>Johannes Apostel</addName>
+               <addName>Johannes Ben-Zebedäus</addName>
+               <addName>Johannes Ben-Zebedäus</addName>
+               <addName>Johannes der Täufer</addName>
+               <addName>Johannes Evangelista</addName>
+               <addName>Johannes Heiliger</addName>
+               <addName>Johannes Sanctus</addName>
+               <addName>Johannes Theologus</addName>
+               <addName>John Apostle</addName>
+               <addName>John</addName>
+               <addName>John Apostolus</addName>
+               <addName>John Saint</addName>
+               <addName>John the Apostle, Saint</addName>
+               <addName>Jovan Sveti</addName>
+               <addName>Jovan</addName>
+               <addName>Juchanan</addName>
+               <addName>Pseudo-Johannes Apostel</addName>
+               <addName>Pseudo-Johannes</addName>
+               <addName>Pseudo-Johannes Apostolus</addName>
+               <addName>Pseudo-Johannes Evangelista</addName>
+               <addName>Yochanan</addName>
+               <addName>Yohane</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Triton (Gott)</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-359.tei.xml-d17475e400">
+            <TEI:persName ref="#CerlID:cnp00545123" key="#PND:119020882">Triton<addName type="display">Triton (Gott)</addName>
+            </TEI:persName> auf dem <TEI:placeName ref="#GettyID:7544539">Piaza Navorma</TEI:placeName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Nīl, Nahr an-DonauGanges</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-359.tei.xml-d17475e477">
+            <TEI:placeName ref="#GettyID:1127805">Nil<addName type="display">Nīl, Nahr an-</addName>
+               <addName>Nīl, Nahr an-</addName>
+               <addName>Nahr an-Nīl</addName>
+               <addName>Baẖr an-Nil</addName>
+               <addName>Al-Bahr</addName>
+               <addName>Nile</addName>
+               <addName>Nile River</addName>
+               <addName>Nil</addName>
+               <addName>Nilo</addName>
+               <addName>Nijl</addName>
+               <addName>Nilus</addName>
+               <addName>Aigyptos</addName>
+               <addName>Neilos</addName>
+               <addName>Iaro</addName>
+               <addName>Ar</addName>
+               <addName>Aur</addName>
+            </TEI:placeName>, <TEI:placeName ref="#GettyID:7012913">Donau<addName type="display">Donau</addName>
+               <addName>Donau</addName>
+               <addName>Dunav</addName>
+               <addName>Duna</addName>
+               <addName>Dunărea</addName>
+               <addName>Dunai</addName>
+               <addName>Danube</addName>
+               <addName>Danube River</addName>
+               <addName>Donau, fleuve</addName>
+               <addName>Danubius</addName>
+            </TEI:placeName>, <TEI:placeName ref="#GettyID:7001674">Ganges<addName type="display">Ganges</addName>
+               <addName>Ganges</addName>
+               <addName>Ganga</addName>
+               <addName>Ma Ganga</addName>
+               <addName>Ganges, River</addName>
+               <addName>Padma</addName>
+            </TEI:placeName>,<TEI:placeName ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-359.tei.xml-d17475e561">De la plata</TEI:placeName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Andreas (Apostel)</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-359.tei.xml-d17475e671">Der heilige <TEI:persName ref="#CerlID:cnp00542442" key="#PND:118502891">Andreas<addName type="display">Andreas (Apostel)</addName>
+               <addName>Andreas Apostolos</addName>
+               <addName>Andreas Aṙak'yal</addName>
+               <addName>Andrew Apostle, Saint</addName>
+               <addName>Andrew</addName>
+            </TEI:persName> in <TEI:term ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-359.tei.xml-d17475e689">Basilicatti petri</TEI:term>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-359.tei.xml-d17475e689">Basilicatti petri</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Susanna (Heilige)</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-359.tei.xml-d17475e700">Die heilige <TEI:persName ref="#CerlID:cnp00589373" key="#PND:118799479">Susanna<addName type="display">Susanna (Heilige)</addName>
+               <addName>Susanna von Concordia</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Innocent (X, pape)</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-359.tei.xml-d17475e754">
+            <TEI:persName ref="#CerlID:cnp00398609" key="#PND:118710788">Innocenz X.<addName type="display">Innocent (X, pape)</addName>
+               <addName>Innocentius X pape</addName>
+               <addName>Innocenz X pape</addName>
+               <addName>Innocenz</addName>
+               <addName>Innocenzo X pape</addName>
+               <addName>Innocenzo</addName>
+               <addName>Inocencio X pape</addName>
+               <addName>Inocencio</addName>
+               <addName>Giovanni Battista Pamfili</addName>
+               <addName>Pamfili</addName>
+               <addName>Giambattista Pamphili</addName>
+               <addName>Pamphili</addName>
+               <addName>Innocencio X papa 1574-1655</addName>
+               <addName>Innocencio</addName>
+               <addName>Innocent X papa 1574-1655</addName>
+               <addName>Innocentius X</addName>
+               <addName>Innocentius X papa 1574-1655</addName>
+               <addName>Innocentius X.</addName>
+               <addName>Innocenz Pabst, X.</addName>
+               <addName>Innocenz X.</addName>
+               <addName>Innozenz X.</addName>
+               <addName>Giambattista Pamfili</addName>
+               <addName>Pamfili, Giambattista 1574-1655</addName>
+               <addName>Giambattista Pamphilij</addName>
+               <addName>Pamphilij</addName>
+               <addName>Johannes B. Pamphilius</addName>
+               <addName>Pamphilius</addName>
+               <addName>Johannes Baptista Pamphilius</addName>
+               <addName>Giambattista Panfili</addName>
+               <addName>Panfili</addName>
+               <addName>Giovanni Battista Panfili</addName>
+            </TEI:persName> im <TEI:term ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-359.tei.xml-d17475e827">Campidoglio</TEI:term>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-359.tei.xml-d17475e827">Campidoglio</TEI:term>
+      </nodes>
+   </tag>
+</tags>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Pompeius Magnus, Gnaeus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00396166</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00396166"
+                   key="#PND:118595636">Pompejus<addName type="display">Pompeius Magnus, Gnaeus</addName>
+            <addName>Gnaeus Pompeius Magnus</addName>
+            <addName>Magnus</addName>
+            <addName>Pompée le Grand</addName>
+            <addName>Pompée</addName>
+            <addName>Pompeius</addName>
+            <addName>Gnaeus Pompeius</addName>
+            <addName>Pompeius, Gnaeus Magnus</addName>
+            <addName>Pompejus der Grosse</addName>
+            <addName>Pompejus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Mithras</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300347</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300347">Mythres<addName type="display">Mithras</addName>
+            <addName>Mythres</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Antoninus, Augustus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01260638</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01260638"
+                   key="#PND:118503499">Antonin<addName type="display">Antoninus, Augustus</addName>
+            <addName>Augustus Antoninus</addName>
+            <addName>Antonin le Pieux</addName>
+            <addName>Antonin</addName>
+            <addName>Antonino Pio</addName>
+            <addName>Titus A. Antoninus</addName>
+            <addName>Titus Aurelius Fulvius Bojonius Pius Antoninus</addName>
+            <addName>Antoninus Imperium Romanum, Imperator</addName>
+            <addName>Antoninus Aug.</addName>
+            <addName>Titus Antoninus Pius</addName>
+            <addName>Antoninus Pius Rome, Emperor</addName>
+            <addName>Antoninus Pius Römisches Reich, Kaiser</addName>
+            <addName>Antonius Augustus</addName>
+            <addName>Antonius</addName>
+            <addName>Antonius Pius</addName>
+            <addName>Antonius Pius Imperium Romanum, Imperator</addName>
+            <addName>Marcus Aurelius Antoninus</addName>
+            <addName>Pius</addName>
+            <addName>Pius Imperium Romanum, Imperator</addName>
+            <addName>Titus Aelius Hadrianus Antoninus</addName>
+            <addName>Titus Aelius Hadrianus</addName>
+            <addName>Titus Aelius Hadrianus Antoninus Imperium Romanum, Imperator</addName>
+            <addName>Titus Aurelius Fulvus Boionius Arrius Antoninus</addName>
+            <addName>Titus Aurelius Fulvus Boionius Arrius</addName>
+            <addName>Titus Aurelius Fulvus Boionus Arrius Antoninus</addName>
+            <addName>Titus Aurelius Fulvus Boionus Arrius</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

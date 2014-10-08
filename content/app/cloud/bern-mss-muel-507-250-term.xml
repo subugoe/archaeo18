@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Antonius , Lucius</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-250.tei.xml-d5729e81">
+            <TEI:persName ref="#CerlID:cnp01288195">L. Antonius<addName type="display">Antonius , Lucius</addName>
+               <addName>Lucius Antonius</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pompeius Magnus, Gnaeus</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-250.tei.xml-d5729e133">
+            <TEI:persName ref="#CerlID:cnp00396166" key="#PND:118595636">Pompeius Magnus<addName type="display">Pompeius Magnus, Gnaeus</addName>
+               <addName>Gnaeus Pompeius Magnus</addName>
+               <addName>Magnus</addName>
+               <addName>Pompée le Grand</addName>
+               <addName>Pompée</addName>
+               <addName>Pompeius</addName>
+               <addName>Gnaeus Pompeius</addName>
+               <addName>Pompeius, Gnaeus Magnus</addName>
+               <addName>Pompejus der Grosse</addName>
+               <addName>Pompejus</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-250.tei.xml-d5729e399">Basilica Pompejane</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Spada, Bernardino</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-250.tei.xml-d5729e413">Pallaste des <TEI:persName ref="#CerlID:cnp00574172" key="#PND:123220998">Cardinals Spada<addName type="display">Spada, Bernardino</addName>
+               <addName>Bernardino Spada</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+</tags>

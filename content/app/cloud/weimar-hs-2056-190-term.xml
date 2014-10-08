@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/gruppen/400327</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/gruppen/400327">ist der vorigen völlig 
+                                 aehnlich</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Iulia Mamaea (Römisches Reich, Kaiserin)</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/15918</link>
+      <count>4</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/15918">hat ein anderes Gewandt, und wird 
+                                 von andern für die <persName ref="#CerlID:cnp00578209" key="#PND:123946298">Iulia Mammea<addName type="display">Iulia Mamaea (Römisches Reich, Kaiserin)</addName>
+               <addName>Julia Mamaea Römisches Reich, Kaiserin</addName>
+               <addName>Julia Mamaea</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/22226</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/22226">wieder aehnlich, nur 
+                                 daß der Kopf frey ist</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Sabina, Vibia</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/19657</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/19657">Die <persName ref="#CerlID:cnp00589162" key="#PND:118793934">Sabina<addName type="display">Sabina, Vibia</addName>
+               <addName>Vibia Sabina</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>VenusMars</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/gruppen/400168 http://arachne.uni-koeln.de/item/objekt/5890 http://arachne.uni-koeln.de/item/objekt/5892</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/gruppen/400168 #http://arachne.uni-koeln.de/item/objekt/5890 #http://arachne.uni-koeln.de/item/objekt/5892">die Grup- 
+                                 pe der <persName ref="#CerlID:cnp00588078" key="#PND:11876800X">Venus<addName type="display">Venus</addName>
+               <addName>Anadyomene  Beiname</addName>
+               <addName>Anadyomene</addName>
+               <addName>Arelatensis  Beiname</addName>
+               <addName>Arelatensis</addName>
+               <addName>aurea  Beiname</addName>
+               <addName>aurea</addName>
+               <addName>coelestis  Beiname</addName>
+               <addName>coelestis</addName>
+               <addName>Gnidia  Beiname</addName>
+               <addName>Gnidia</addName>
+               <addName>Marina  Beiname</addName>
+               <addName>Marina</addName>
+               <addName>Pelasgia  Beiname</addName>
+               <addName>Pelasgia</addName>
+               <addName>Pontia  Beiname</addName>
+               <addName>Pontia</addName>
+               <addName>Urania  Beiname</addName>
+               <addName>Urania</addName>
+               <addName>Victrix  Beiname</addName>
+               <addName>Victrix</addName>
+            </persName> und des <persName ref="#CerlID:cnp00586722" key="#PND:118731181">Mars<addName type="display">Mars</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Annia LucillaVerus, Lucius Aurelius</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/39406</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/39406">
+            <persName ref="#CerlID:cnp01300324">Lucilla<addName type="display">Annia Lucilla</addName>
+               <addName>Lucilla</addName>
+            </persName>. Gemahlin des <persName ref="#CerlID:cnp00994597" key="#PND:118643150">Lucius 
+                                 Verus<addName type="display">Verus, Lucius Aurelius</addName>
+               <addName>Lucius Aurelius Verus</addName>
+               <addName>Lucius Aelius Aurelius Commodus</addName>
+               <addName>Aelius Aurelius Commodus</addName>
+               <addName>Aurelius Commodus</addName>
+               <addName>Aurelius Verus</addName>
+               <addName>Caesar Lucius Aurelius Verus Augustus</addName>
+               <addName>Caesar Lucius Aurelius Verus</addName>
+               <addName>Lucius Ceionius Commodus</addName>
+               <addName>Ceionius Commodus</addName>
+               <addName>Commodus</addName>
+               <addName>Lucius Verus Imperium Romanum, Imperator</addName>
+               <addName>Lucius Verus</addName>
+               <addName>Lucius Verus Römisches Reich, Kaiser</addName>
+               <addName>Verus Emperor</addName>
+               <addName>Verus Imperator</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/39119</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/39119">Büsten</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Urania</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-190.tei.xml-d4941e264">Statue als <persName ref="#CerlID:cnp00581436" key="#PND:124538673">Urania<addName type="display">Urania</addName>
+            </persName> ergän- 
+                                     tzet</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Crispina , BruttiaCommodus (Imperium Romanum, Imperator)</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/39215</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/39215">
+            <persName ref="#CerlID:cnp01300260">Crispina<addName type="display">Crispina , Bruttia</addName>
+               <addName>Bruttia Crispina</addName>
+               <addName>Crispina Augusta</addName>
+            </persName>: Gemahlin des <persName ref="#CerlID:cnp00394493" key="#PND:118521713">Commodus<addName type="display">Commodus (Imperium Romanum, Imperator)</addName>
+               <addName>Commodus Imperator</addName>
+               <addName>Lucius Aelius Aurelius Gaius Augustus Imperator Caesar</addName>
+               <addName>Lucius Aelius Aurelius Gaius Augustus</addName>
+               <addName>Marcus Aurelius Gaius Antoninus</addName>
+               <addName>Marcus Aurelius Gaius Antoninus Augustus Imperator Caesar</addName>
+               <addName>Marcus Aurelius Gaius Antoninus Augustus</addName>
+            </persName>. Büste.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-190.tei.xml-d4941e342">71.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Ceres (Göttin)Abundantia</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:10018711 http://arachne.uni-koeln.de/item/objekt/19921 http://arachne.uni-koeln.de/item/objekt/19928</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:10018711 #http://arachne.uni-koeln.de/item/objekt/19921 #http://arachne.uni-koeln.de/item/objekt/19928">Statue als <persName ref="#CerlID:cnp00540610" key="#PND:118862294">Ceres<addName type="display">Ceres (Göttin)</addName>
+               <addName>Demeter</addName>
+            </persName> oder <persName ref="#CerlID:cnp01288183">Abundantia<addName type="display">Abundantia</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Iulia Domna (Römisches Reich, Kaiserin)Septime Sévère (empereur romain)</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/39656</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/39656">
+            <persName ref="#CerlID:cnp00554396" key="#PND:118558668">Iulia Domna<addName type="display">Iulia Domna (Römisches Reich, Kaiserin)</addName>
+               <addName>Iulia Pia</addName>
+               <addName>Julia Domna Römisches Reich, Kaiserin</addName>
+               <addName>Julia Domna</addName>
+            </persName>, <persName ref="#CerlID:cnp01239912" key="#PND:118764659">Septimi Severi<addName type="display">Septime Sévère (empereur romain)</addName>
+               <addName>Lucius Septimius Severus Pertinax</addName>
+               <addName>Lucius Septimius Severus</addName>
+               <addName>Septimius Severus empereur romain</addName>
+               <addName>L. Septimius Severus Pertinax Augustus</addName>
+               <addName>Lucius Septimius Severus Pertinax Augustus</addName>
+               <addName>Septime Sévère/Septimius Severus</addName>
+               <addName>Septimus Severus</addName>
+               <addName>Settimio Severo</addName>
+               <addName>Seuerus</addName>
+               <addName>Severus</addName>
+               <addName>Lucius S. Severus</addName>
+            </persName> Gemahlin. 
+                                 Büste</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Iulia</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-190.tei.xml-d4941e507">Unter dem Nahmen <persName ref="#CerlID:cnp00554396" key="#PND:118558668">Iulia</persName>
+         </term>
+      </nodes>
+   </tag>
+</tags>

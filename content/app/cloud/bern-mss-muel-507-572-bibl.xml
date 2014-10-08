@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Description sommaire du Cabinet du M. de Crosal Paris 1742. 8 par Mariette</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/books/Mariette1741</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://arachne.uni-koeln.de/books/Mariette1741">Description sommaire du Cabinet du
+            
+          
+          M. de Crosal Paris 1742. 8 par Mariette</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Description des principales pierres graveés du Cabinet de Ms. le Duc d’Orleans par l’abbe de Chaude Garde du Cabinet et l’abbé le Blond I. Vol.</tag>
+      <facet>tei:bibl</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-572.tei.xml-d16484e226">Description des principales pierres graveés
+          
+          du Cabinet de Ms. le Duc d’Orleans par l’abbe
+          
+          de Chaude Garde du Cabinet et l’abbé le Blond
+          
+          I. Vol.</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Du Molinet, ClaudeParis</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN660921685</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN660921685">
+               <TEI:persName ref="#CerlID:cnp00519850" key="#PND:128960345">Claudet du Moulinet<addName type="display">Du Molinet, Claude</addName>
+                  <addName>Claude Du Molinet</addName>
+                  <addName>(Praesid.) de Mesme</addName>
+                  <addName>Mesme</addName>
+                  <addName>Claude DuMolinet</addName>
+                  <addName>DuMolinet</addName>
+                  <addName>Claude de Molinet</addName>
+                  <addName>Molinet</addName>
+                  <addName>Claude du Molinet</addName>
+               </TEI:persName>
+          
+          beschrieb es <TEI:placeName ref="#GettyID:7008038">Paris<addName type="display">Paris</addName>
+                  <addName>Paris</addName>
+                  <addName>Parigi</addName>
+                  <addName>París</addName>
+                  <addName>Parisii</addName>
+                  <addName>Lutetia</addName>
+                  <addName>Lutetia Parisiorum</addName>
+                  <addName>Lutetia Parisii</addName>
+                  <addName>Parisius</addName>
+                  <addName>parisien</addName>
+                  <addName>parisienne</addName>
+                  <addName>Parisian</addName>
+               </TEI:placeName>1692. fol.</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+</tags>

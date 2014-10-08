@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Apollon</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00542641</link>
+      <count>6</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00542641"
+                       key="#PND:118503642">Apolls<addName type="display">Apollon</addName>
+            <addName>Apoll</addName>
+            <addName>Apollo</addName>
+            <addName>Phoebus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Marsyas</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00588624</link>
+      <count>8</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00588624"
+                       key="#PND:118782193">Marsyas<addName type="display">Marsyas</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-163.tei.xml-d22131e198">Marc a Grado</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Bartholomaeus (Cryptoferratensis)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00165641</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00165641"
+                       key="#PND:100938582">St. Bartholomeus<addName type="display">Bartholomaeus (Cryptoferratensis)</addName>
+            <addName>Bartholomäus der Jüngere</addName>
+            <addName>Bartholomäus</addName>
+            <addName>Bartholomäus von Grottaferrata</addName>
+            <addName>Bartholomäus von Rossano</addName>
+            <addName>Bartolomeo di Grottaferrata</addName>
+            <addName>Bartolomeo</addName>
+            <addName>Bartolomeo di Rossano</addName>
+            <addName>Bartolomeo il Giovane</addName>
+            <addName>Bartholomaeus Rossanensis</addName>
+            <addName>Bartholomaeus Saint</addName>
+            <addName>Bartholomaeus Sanctus</addName>
+            <addName>Bartholomaeus von Grottaferrata</addName>
+            <addName>Bartholomaios Heiliger</addName>
+            <addName>Bartholomaios</addName>
+            <addName>Bartholomaios der Heilige</addName>
+            <addName>Bartholomaios von Grottaferrata</addName>
+            <addName>Bartholomew Saint</addName>
+            <addName>Bartholomew</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Faunus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00542358</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00542358"
+                       key="#PND:11892088X">Faun<addName type="display">Faunus</addName>
+            <addName>Faun</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

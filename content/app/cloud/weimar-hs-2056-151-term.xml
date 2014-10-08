@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/rezeption/301615</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/rezeption/301615">fast erwachßen</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Hannover</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-151.tei.xml-d19151e26">Einer der schönsten ist in der <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000632">Wallmodi- 
+                             schen Sammlung</term> zu <placeName ref="#GettyID:7013260">Hannover<addName type="display">Hannover</addName>
+               <addName>Hannover</addName>
+               <addName>Hanover</addName>
+               <addName>Hanovre</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000632</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000632">Wallmodi- 
+                             schen Sammlung</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Roma</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-151.tei.xml-d19151e63">Die schönsten sind im <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000469">Pallast Verospi</term> zu <placeName ref="#GettyID:7000874">Rom<addName type="display">Roma</addName>
+               <addName>Roma</addName>
+               <addName>Urbe</addName>
+               <addName>Rome</addName>
+               <addName>Rom</addName>
+               <addName>Roman</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000469</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000469">Pallast Verospi</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pallast Massimi</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-151.tei.xml-d19151e90">Zwei im <term ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-151.tei.xml-d19151e92"
+                  type="collection">Pallast Massimi</term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-151.tei.xml-d19151e92"
+               type="collection">Pallast Massimi</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Villa Albani</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/10666</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/10666">Einer schlaf- 
+                             fend in <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000297">Villa Albani</term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000297</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000297">Villa Albani</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Museo Kircheriano</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-151.tei.xml-d19151e146">Ein schöner schlafender 
+                                 im <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000407">Museo Kircheriano</term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000407</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000407">Museo Kircheriano</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/15894</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/15894">Stehend mit einem Köcher</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Villa Este</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-151.tei.xml-d19151e172">Ein sehr schöner in <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000385">Villa Este</term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000385</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000385">Villa Este</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pallast Farnase</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/582</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/582">Jm <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000001">Pallast Farnase</term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000001</link>
+      <count>4</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000001">Pallast Farnase</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-151.tei.xml-d19151e194">Ein an- 
+                                 derer etwas bekleidet</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/50649</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/50649">Ein schlafender</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>AmorMichel-Ange</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-151.tei.xml-d19151e222">
+            <persName ref="#CerlID:cnp00542364" key="#PND:11850262X">Amor<addName type="display">Amor</addName>
+            </persName> des <persName ref="#CerlID:cnp00559773" key="#PND:118582143">Mich: Angelo<addName type="display">Michel-Ange</addName>
+               <addName>Michel-Ange Bonaroti</addName>
+               <addName>Bonaroti</addName>
+               <addName>Michel Agnolo Buonarroti</addName>
+               <addName>Buonarroti</addName>
+               <addName>Michel-Ange Buonarroti</addName>
+               <addName>Michelagniolo Buonarroti</addName>
+               <addName>Angelo Bonaroti</addName>
+               <addName>Angelo</addName>
+               <addName>Michiel Angielo Bona Rotta</addName>
+               <addName>Bona Rotta</addName>
+               <addName>Michael Angelus Bonarota</addName>
+               <addName>Bonarota</addName>
+               <addName>Michel Angelo Bonarota</addName>
+               <addName>Michael Angelo Bonaroti</addName>
+               <addName>Michael̈ Angelo Bonaroti</addName>
+               <addName>Michel Angelo Bonaroti</addName>
+               <addName>Michele Angelo Bonaroti</addName>
+               <addName>Michiel Angelo Bonaroti</addName>
+               <addName>Michael Angelus Bonarotus</addName>
+               <addName>Bonarotus</addName>
+               <addName>Michel Angelo Bunaroti</addName>
+               <addName>Bunaroti</addName>
+               <addName>Michael Angelo Buonaroti</addName>
+               <addName>Buonaroti</addName>
+               <addName>Michel Angelo Buonaroti</addName>
+               <addName>Michelangelo Buonaroti</addName>
+               <addName>Michiel Angelo Buonaroti</addName>
+               <addName>Michel Angelo Buonarotti</addName>
+               <addName>Buonarotti</addName>
+               <addName>Michel-Angelo Buonarotti</addName>
+               <addName>Michelangelo Buonarotti</addName>
+               <addName>Michel Angelo Buonarroti</addName>
+               <addName>Michelagniolo di L. Buonarroti</addName>
+               <addName>Michelagnolo Buonarroti</addName>
+               <addName>Buonarroti, Michelangelo 1475-1564</addName>
+               <addName>Michelangiolo Buonarroti</addName>
+               <addName>Mikelandželo Buonarroti</addName>
+               <addName>Michel A. Buonarrotti</addName>
+               <addName>Buonarrotti</addName>
+               <addName>Michel Agnolo Buonarrotti</addName>
+               <addName>Michelagniolo Buonarrotti</addName>
+               <addName>Michelangelo Buonarrotti</addName>
+               <addName>Michelangiolo Buonarrotti</addName>
+               <addName>Michelagnolo Buonarruoti</addName>
+               <addName>Buonarruoti</addName>
+               <addName>L' Impastato</addName>
+               <addName>Impastato</addName>
+               <addName>L' Impostato</addName>
+               <addName>Impostato</addName>
+               <addName>L'Impastato</addName>
+               <addName>L'Impostato</addName>
+               <addName>Micchel-Angelo</addName>
+               <addName>Micha/l Anio/l</addName>
+               <addName>Michael Angelo</addName>
+               <addName>Michael Angelus</addName>
+               <addName>Michael-Angelo Buonaroti</addName>
+               <addName>Michael-Angelo</addName>
+               <addName>Michał Anioł</addName>
+               <addName>Michel Angelo</addName>
+               <addName>Michel Angelus Bonarotus</addName>
+               <addName>Michel Angelus</addName>
+               <addName>Michel Angielo Bona Rotta</addName>
+               <addName>Michelagelo Buonarroti</addName>
+               <addName>Michelagelo</addName>
+               <addName>Michelagniolo Buonaroti</addName>
+               <addName>Michelagniolo</addName>
+               <addName>Michelagniolo di Ludovico di Lionardo Buonarroti-Simoni</addName>
+               <addName>Michelagniolo di Ludovico di Lionardo di Buonarroti Simoni</addName>
+               <addName>Michelagnolo</addName>
+               <addName>Michelagnolo Buonarotti</addName>
+               <addName>Michelangelo</addName>
+               <addName>Buonarroti Michelangelo</addName>
+               <addName>Michelangelo Buonarroti 1475-1564</addName>
+               <addName>Michelangelus</addName>
+               <addName>Buonarroti Michelangiolo</addName>
+               <addName>Michelangiolo</addName>
+               <addName>Michiel Angielo</addName>
+               <addName>Miguel Angel</addName>
+               <addName>Mikel'andželo</addName>
+               <addName>Mikelandelo</addName>
+               <addName>Mikelandželo</addName>
+               <addName>Mikelandželo Buonarroti</addName>
+               <addName>Mikelandželo</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/gruppen/401230 http://arachne.uni-koeln.de/item/objekt/15961 http://arachne.uni-koeln.de/item/objekt/15960</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/gruppen/401230 #http://arachne.uni-koeln.de/item/objekt/15961 #http://arachne.uni-koeln.de/item/objekt/15960">Ohne Flügel</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/gruppen/400316 http://arachne.uni-koeln.de/item/objekt/5888 http://arachne.uni-koeln.de/item/objekt/5889</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/gruppen/400316 #http://arachne.uni-koeln.de/item/objekt/5888 #http://arachne.uni-koeln.de/item/objekt/5889">Mit Flügeln</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Dresden</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/gruppen/400911 http://arachne.uni-koeln.de/item/objekt/5354 http://arachne.uni-koeln.de/item/objekt/5355</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/gruppen/400911 #http://arachne.uni-koeln.de/item/objekt/5354 #http://arachne.uni-koeln.de/item/objekt/5355">Eine  
+                             Copie ist zu <placeName ref="#GettyID:7004455">Dreßden<addName type="display">Dresden</addName>
+               <addName>Dresden</addName>
+               <addName>Dresde</addName>
+               <addName>Ďrežd'ane</addName>
+               <addName>Drezdane</addName>
+               <addName>Drezdzany</addName>
+            </placeName>:</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Psyche (Literarische Gestalt)</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:157761 http://arachne.uni-koeln.de/item/objekt/15952</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:157761 #http://arachne.uni-koeln.de/item/objekt/15952">Jm <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000001">Pallast Farnese</term>
+            <persName ref="#CerlID:cnp00553935" key="#PND:119362503">Psyche<addName type="display">Psyche (Literarische Gestalt)</addName>
+            </persName> allein ganz be- 
+                             kleidet mit Flügeln</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Psyche (Literarische Gestalt)</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/15911</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/15911">
+            <persName ref="#CerlID:cnp00553935" key="#PND:119362503">Psyche<addName type="display">Psyche (Literarische Gestalt)</addName>
+            </persName> allein ganz bekleidet mit dem 
+                             Gefäße worinn sie das Waßer des Styx</term>
+      </nodes>
+   </tag>
+</tags>

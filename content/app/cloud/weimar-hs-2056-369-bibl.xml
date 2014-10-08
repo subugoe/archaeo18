@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Description Sommaire des Pierres gravees du Cabinet de Mr Crozat par I. Mariette. Paris 1743.1741. 8.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/books/Mariette1741</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://arachne.uni-koeln.de/books/Mariette1741">Description Sommaire des 
+                                            Pierres gravees du Cabinet de Mr Crozat par I. 
+                                            Mariette. Paris 1743.1741. 8.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Description Sommaire des pierres gravées et des Medailles de feu Madame Paris 1722. 8.</tag>
+      <facet>tei:bibl</facet>
+      <link/>
+      <count>4</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#">Description Sommaire 
+                                            des pierres gravées et des Medailles de feu 
+                                            Madame Paris 1722. 8.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Herb: p: 362.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN656167408</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN656167408">Herb: p: 362.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Begeri Thesaurus e Thesauro pa- latino selectus. Heidelberg 1680.1685. Fol.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/beger1685</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/beger1685">Begeri Thesaurus e Thesauro pa- 
+                                            latino selectus. Heidelberg 1680.1685. Fol.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Mariette I. 203.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/item/buchseite/230857</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://arachne.uni-koeln.de/item/buchseite/230857">Mariette I. 203.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+</tags>

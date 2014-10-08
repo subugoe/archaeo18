@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Suétone</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259584</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01259584"
+                       key="#PND:118619918">Sueton<addName type="display">Suétone</addName>
+            <addName>Gaius Suetonius Tranquillus</addName>
+            <addName>C. Suetonius</addName>
+            <addName>Suetoine</addName>
+            <addName>Gaio Suetonio Tranquillo</addName>
+            <addName>Suetonio Tranquillo</addName>
+            <addName>Suetonio</addName>
+            <addName>Caius Suetonius Tranquillus</addName>
+            <addName>C. Suetonius Tranquillus</addName>
+            <addName>Caius Suetonius</addName>
+            <addName>C. Suétone Tranquille</addName>
+            <addName>Suétone Tranquille</addName>
+            <addName>Suétone Historien</addName>
+            <addName>Suétone</addName>
+            <addName>Suétone Historien</addName>
+            <addName>Caius Sueton Tranquillus</addName>
+            <addName>Sueton Tranquillus</addName>
+            <addName>Caius Sueton</addName>
+            <addName>Sueton</addName>
+            <addName>Gaius Sueton</addName>
+            <addName>Suetone</addName>
+            <addName>Suetone Tranquile</addName>
+            <addName>C. Suetonio Tranquilo</addName>
+            <addName>Suetonio Tranquilo</addName>
+            <addName>Caiu Suetoniu Trancuillu</addName>
+            <addName>Suetoniu Trancuillu</addName>
+            <addName>Suetonius Tranquillus</addName>
+            <addName>Cajus Suetonius Tranquillus</addName>
+            <addName>Gajus Suetonius Tranquillus</addName>
+            <addName>Suetonius</addName>
+            <addName>C. Tranquillus Suetonius</addName>
+            <addName>Caius T. Suetonius</addName>
+            <addName>Gaius T. Suetonius</addName>
+            <addName>Suetonius Biographer</addName>
+            <addName>Suetonius Grammaticus</addName>
+            <addName>Suetonius Historicus</addName>
+            <addName>Suetonius Romanus</addName>
+            <addName>Caius Suetonius-Tranquillus</addName>
+            <addName>Suetonius-Tranquillus</addName>
+            <addName>Gaius Suetonius-Tranquillus</addName>
+            <addName>Caius Suetonus Tranquillus</addName>
+            <addName>Suetonus Tranquillus</addName>
+            <addName>Gaius Suetorius-Tranquillus</addName>
+            <addName>Suetorius-Tranquillus</addName>
+            <addName>Sveton</addName>
+            <addName>G. Svetonij Trankvill</addName>
+            <addName>Svetonij Trankvill</addName>
+            <addName>Gaj Svetonij Trankvill</addName>
+            <addName>Svetonio</addName>
+            <addName>Caio Svetonio Tranquillo</addName>
+            <addName>Svetonio Tranquillo</addName>
+            <addName>Gaio Svetonio Tranquillo</addName>
+            <addName>Gaio Tranquillo Svetonio</addName>
+            <addName>Caius Svetonius Tranquillus</addName>
+            <addName>Svetonius Tranquillus</addName>
+            <addName>Gaius Svetonius Tranquillus</addName>
+            <addName>Caivs Svetonivs Tranqvillvs</addName>
+            <addName>Svetonivs Tranqvillvs</addName>
+            <addName>K. Svetoniĭ Trankvill</addName>
+            <addName>Trankvill</addName>
+            <addName>Tranquillo</addName>
+            <addName>C. S. Tranquillus</addName>
+            <addName>Tranquillus</addName>
+            <addName>Caius S. Tranquillus</addName>
+            <addName>Cajus S. Tranquillus</addName>
+            <addName>Gaius Tranquillus</addName>
+            <addName>Gaius S. Tranquillus</addName>
+            <addName>C. Suetonius Tranqullus</addName>
+            <addName>Tranqullus</addName>
+            <addName>Gaius Traquillus</addName>
+            <addName>Traquillus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Augustus (Emperor of Rome)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00971385</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00971385"
+                       key="#PND:118505122">August<addName type="display">Augustus (Emperor of Rome)</addName>
+            <addName>Auguste Empereur</addName>
+            <addName>Auguste</addName>
+            <addName>Caio Giulio Cesare Ottaviano Augusto</addName>
+            <addName>Augusto</addName>
+            <addName>Cesare Augusto</addName>
+            <addName>Cesare Ottaviano Augusto</addName>
+            <addName>Ottaviano Augusto</addName>
+            <addName>Augustus Caesar</addName>
+            <addName>Caesar Augustus</addName>
+            <addName>Caesar Octavianus Augustus</addName>
+            <addName>Caius J. Augustus</addName>
+            <addName>Caius Julius Caesar Augustus</addName>
+            <addName>Cesar Octavianus Augustus</addName>
+            <addName>Gaius I. Augustus</addName>
+            <addName>Gaius Iulius Caesar Augustus</addName>
+            <addName>Gaius Iulius Caesar Octavianus Augustus</addName>
+            <addName>Gaius Julius Augustus</addName>
+            <addName>Gaius Julius Caesar Octavianus Augustus</addName>
+            <addName>Gaius Octavius Augustus</addName>
+            <addName>Iulius Caesar Octavianus Augustus</addName>
+            <addName>Octavianus Augustus</addName>
+            <addName>Octavius Caesar Augustus</addName>
+            <addName>Augustus Divus</addName>
+            <addName>Augustus Imperator</addName>
+            <addName>Augustus Imperium Romanum, Caesar</addName>
+            <addName>Augustus Kaiser</addName>
+            <addName>Augustus Römisches Reich, Kaiser</addName>
+            <addName>Augustus Roemisches Reich, Kaiser</addName>
+            <addName>Augustus Romanus</addName>
+            <addName>Augustus Verfasser der Res Gestae</addName>
+            <addName>Caius Octavianus Imperium Romanum, Imperator</addName>
+            <addName>Caius Octavianus</addName>
+            <addName>Caius Oktavius Imperium Romanum, Augustus</addName>
+            <addName>Caius Oktavius</addName>
+            <addName>Caius Oktavius Imperium Romanum, Imperator</addName>
+            <addName>Gaius Julius Caesar Octavianus</addName>
+            <addName>Gaius Octavius</addName>
+            <addName>Gaius Octavius Emperor of Rome</addName>
+            <addName>Octavian</addName>
+            <addName>Octavianus</addName>
+            <addName>Octavius</addName>
+            <addName>Octavius Caesar Emperor of Rome</addName>
+            <addName>Octavius Caesar</addName>
+            <addName>Octavius Augustus</addName>
+            <addName>Ottaviano</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Jupiter</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00554429</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00554429"
+                       key="#PND:118558897">Zeus<addName type="display">Jupiter</addName>
+            <addName>Iupiter</addName>
+            <addName>Juppiter</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

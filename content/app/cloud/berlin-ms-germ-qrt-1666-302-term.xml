@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>SiciliaMaria Carolina (Napoli, Regina)</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/berlin-ms-germ-qrt-1666-302.tei.xml-d2313e51">
+            <TEI:persName ref="#CerlID:cnp00977852" key="#PND:118990209">Königin von <TEI:placeName ref="#GettyID:7030363">Sicilien<addName type="display">Sicilia</addName>
+                  <addName>Sicilia</addName>
+                  <addName>Sicily</addName>
+                  <addName>Sizilien</addName>
+                  <addName>Trinacria</addName>
+                  <addName>Thrinacria</addName>
+                  <addName>Sikanie</addName>
+               </TEI:placeName>
+               <addName type="display">Maria Carolina (Napoli, Regina)</addName>
+               <addName>Karolina Maria Neapel, Königin</addName>
+               <addName>Karolina Maria</addName>
+               <addName>Karoline Maria Neapel, Königin</addName>
+               <addName>Karoline Maria</addName>
+               <addName>Karoline Maria Österreich, Erzherzogin</addName>
+               <addName>Maria Carolina Due Sicilie, Regina</addName>
+               <addName>Maria Carolina Naples, Reine</addName>
+               <addName>Maria Carolina Österreich, Erzherzogin</addName>
+               <addName>Maria Carolina Sicilia, Regina</addName>
+               <addName>Maria Karoline Sizilien, Königin</addName>
+               <addName>Maria Karoline</addName>
+               <addName>Marie Caroline Naples, Reine</addName>
+               <addName>Marie Caroline</addName>
+               <addName>Marie Caroline Österreich, Erzherzogin</addName>
+               <addName>Marie Karoline Neapel, Königin</addName>
+               <addName>Marie Karoline</addName>
+               <addName>Marie-Caroline Naples et Sicile, Reine</addName>
+               <addName>Marie-Caroline</addName>
+               <addName>Marie-Caroline Naples, Reine</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Josef II. Römisch-deutscher Kaiser</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/berlin-ms-germ-qrt-1666-302.tei.xml-d2313e122">Kaysers <TEI:persName ref="#CerlID:cnp00910377">Joseph<addName type="display">Josef II. Römisch-deutscher Kaiser</addName>
+               <addName>II. Jószef</addName>
+               <addName>Josef II. Kaiser v. Deutschland</addName>
+               <addName>Josef II. Kaiser von Deutschland</addName>
+               <addName>Josef II. Roemisch-deutscher Kaiser</addName>
+               <addName>Josef II. Roemischer Kaiser</addName>
+               <addName>Joseph II. Kaiser von Österreich</addName>
+               <addName>Joseph II. Römisch-deutscher Kaiser</addName>
+               <addName>Josephus II. Imperator Romanus</addName>
+            </TEI:persName> Portrait</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/berlin-ms-germ-qrt-1666-302.tei.xml-d2313e251">Cachet de Michel ange</TEI:term>
+      </nodes>
+   </tag>
+</tags>

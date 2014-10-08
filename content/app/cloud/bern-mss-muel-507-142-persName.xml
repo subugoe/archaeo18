@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Friedrich (Hessen-Kassel, Landgraf, II.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00961376</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00961376"
+                       key="#PND:130249424">Landgraf<addName type="display">Friedrich (Hessen-Kassel, Landgraf, II.)</addName>
+            <addName>Fridericus Hassia, Princeps, II.</addName>
+            <addName>Fridericus</addName>
+            <addName>Fridericus Hessen, Landgraf, II.</addName>
+            <addName>Fridrich Hessen, Landgraf II.</addName>
+            <addName>Fridrich</addName>
+            <addName>Fridrich Hessen-Cassel, Landgraf II.</addName>
+            <addName>Fridrich Hessen-Kassel, Landgraf II.</addName>
+            <addName>Friedrich Hessen, Landgraf</addName>
+            <addName>Friedrich Hessen, Landgraf, II.</addName>
+            <addName>Friedrich Hessen-Kassel, Erbprinz</addName>
+            <addName>Friedrich Hessen-Kassel, Landgraf</addName>
+            <addName>Fridericus Hessen, Landgraf</addName>
+            <addName>Fridericus Hessen-Kassel, Landgraf II.</addName>
+            <addName>Frederick II, Landgrave of Hesse-Kassel</addName>
+            <addName>Frederick</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Apollon</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00542641</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00542641"
+                       key="#PND:118503642">Appoll<addName type="display">Apollon</addName>
+            <addName>Apoll</addName>
+            <addName>Apollo</addName>
+            <addName>Phoebus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Herakles</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00574918</link>
+      <count>4</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00574918"
+                       key="#PND:118639552">Hercu-
+          
+          les<addName type="display">Herakles</addName>
+            <addName>Ercole</addName>
+            <addName>Heracles</addName>
+            <addName>Hercules</addName>
+            <addName>Herkules</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Minerva</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00544188</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00544188"
+                       key="#PND:118986155">Minverva<addName type="display">Minerva</addName>
+            <addName>Sospitatrix</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Venus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00588078</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00588078"
+                       key="#PND:11876800X">Venus<addName type="display">Venus</addName>
+            <addName>Anadyomene  Beiname</addName>
+            <addName>Anadyomene</addName>
+            <addName>Arelatensis  Beiname</addName>
+            <addName>Arelatensis</addName>
+            <addName>aurea  Beiname</addName>
+            <addName>aurea</addName>
+            <addName>coelestis  Beiname</addName>
+            <addName>coelestis</addName>
+            <addName>Gnidia  Beiname</addName>
+            <addName>Gnidia</addName>
+            <addName>Marina  Beiname</addName>
+            <addName>Marina</addName>
+            <addName>Pelasgia  Beiname</addName>
+            <addName>Pelasgia</addName>
+            <addName>Pontia  Beiname</addName>
+            <addName>Pontia</addName>
+            <addName>Urania  Beiname</addName>
+            <addName>Urania</addName>
+            <addName>Victrix  Beiname</addName>
+            <addName>Victrix</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Jupiter</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00554429</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00554429"
+                       key="#PND:118558897">Jupiter<addName type="display">Jupiter</addName>
+            <addName>Iupiter</addName>
+            <addName>Juppiter</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Faunus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00542358</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00542358"
+                       key="#PND:11892088X">Faun<addName type="display">Faunus</addName>
+            <addName>Faun</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Paris (Sagengestalt)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00587024</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00587024"
+                       key="#PND:118739301">Paris<addName type="display">Paris (Sagengestalt)</addName>
+            <addName>Alexandros</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Iulianus (Imperium Romanum, Imperator)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259254</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01259254"
+                       key="#PND:118558684">Julianus<addName type="display">Iulianus (Imperium Romanum, Imperator)</addName>
+            <addName>Flavius Claudius Julianus</addName>
+            <addName>Flavius Claudius Iulianus</addName>
+            <addName>Claudius Iulianus</addName>
+            <addName>Flavio Claudio Giuliano</addName>
+            <addName>Giuliano</addName>
+            <addName>Giuliano Augusto</addName>
+            <addName>Giuliano Imperatore</addName>
+            <addName>Giuliano Impero Romano, Imperatore</addName>
+            <addName>Giuliano l'Apostata</addName>
+            <addName>Giuliano l'Imperatore</addName>
+            <addName>Iulianos Autokratōr</addName>
+            <addName>Iulianos</addName>
+            <addName>Iulianos Autokratōr</addName>
+            <addName>Flavius C. Iulianus</addName>
+            <addName>Imperator Iulianus</addName>
+            <addName>Iulianus Apostata</addName>
+            <addName>Iulianus Augustus</addName>
+            <addName>Iulianus Emperor of Rome</addName>
+            <addName>Iulianus Imperator</addName>
+            <addName>Iulianus Kaiser</addName>
+            <addName>Iulianus Rome, Emperor</addName>
+            <addName>Iulianus Römischer Kaiser</addName>
+            <addName>Flavius C. Iulianus Augustus</addName>
+            <addName>Flavius Claudius Julian</addName>
+            <addName>Julian Apostata</addName>
+            <addName>Julian Kaiser</addName>
+            <addName>Julian Römisches Reich, Kaiser</addName>
+            <addName>Julian der Abtrünnige</addName>
+            <addName>Julian the Apostate</addName>
+            <addName>Julian the Emperor</addName>
+            <addName>Flavio Claudio Juliano</addName>
+            <addName>Juliano</addName>
+            <addName>Julianos Kaiser</addName>
+            <addName>Julianos</addName>
+            <addName>Apostata Julianus</addName>
+            <addName>Julianus Apostata</addName>
+            <addName>Julianus Apostata, Emperor of Rome</addName>
+            <addName>Julianus II 2 de afvallige</addName>
+            <addName>Julianus Imperium Romanum, Imperator</addName>
+            <addName>Julianus Römisches Reich, Kaiser</addName>
+            <addName>Julianus de Afvallige</addName>
+            <addName>Julien</addName>
+            <addName>Julien Empereur</addName>
+            <addName>Julien de Constantinople</addName>
+            <addName>Julien l'Apostat</addName>
+            <addName>Julien l'Empereur</addName>
+            <addName>Yūlyān</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Perseus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00588989</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00588989"
+                       key="#PND:118790455">Perseus<addName type="display">Perseus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Andromeda</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00578206</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00578206"
+                       key="#PND:118649302">Andromeda<addName type="display">Andromeda</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Karl (Pfalz, Kurfürst)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00288141</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00288141"
+                       key="#PND:102440174">Churf: Karl von der Pfalz<addName type="display">Karl (Pfalz, Kurfürst)</addName>
+            <addName>Carl Pfalz, Kurfürst</addName>
+            <addName>Carl</addName>
+            <addName>Carl Pfalz, Kurfürst, II.</addName>
+            <addName>Carolus Palatinatus, Elector, II.</addName>
+            <addName>Carolus</addName>
+            <addName>Carolus Palatinus Rheni, Comes</addName>
+            <addName>Carolus Palatinus, Elector</addName>
+            <addName>Carolus Palatinus, Elector, II.</addName>
+            <addName>Carolus Rhein, Pfalzgraf</addName>
+            <addName>Karl Pfalz, Kurfürst, II.</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Bellori, Giovanni Pietro</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00445125</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00445125"
+                       key="#PND:121906914">Bellori<addName type="display">Bellori, Giovanni Pietro</addName>
+            <addName>Giovanni Pietro Bellori</addName>
+            <addName>Giovan Pietro Bellori</addName>
+            <addName>Joannes Petrus Bellorius</addName>
+            <addName>Bellorius</addName>
+            <addName>Joannes Petrus Bellorus</addName>
+            <addName>Bellorus</addName>
+            <addName>G. P. Bellori</addName>
+            <addName>Gian P. Bellori</addName>
+            <addName>Gianpietro Bellori</addName>
+            <addName>Gio. Pietro Bellori</addName>
+            <addName>Giovan P. Bellori</addName>
+            <addName>Giovanni P. Bellori</addName>
+            <addName>Io. Petri Bellori</addName>
+            <addName>Johann Peter Bellori</addName>
+            <addName>Pietro Bellori</addName>
+            <addName>Johannes Petrus Belloriis</addName>
+            <addName>Belloriis</addName>
+            <addName>Io. P. Bellorio</addName>
+            <addName>Bellorio</addName>
+            <addName>Io. P. Bellorius</addName>
+            <addName>Io. Petrus Bellorius</addName>
+            <addName>Ioannes P. Bellorius</addName>
+            <addName>Ioannes Petrus Bellorius</addName>
+            <addName>Iohannes P. Bellorius</addName>
+            <addName>J. P. Bellorius</addName>
+            <addName>Jo. Petrus Bellorius</addName>
+            <addName>Joannes P. Bellorius</addName>
+            <addName>Johann P. Bellorius</addName>
+            <addName>Johann Peter Bellorius</addName>
+            <addName>Johann Petrus Bellorius</addName>
+            <addName>Johannes Petrus Bellorius</addName>
+            <addName>Petrus Bellorius</addName>
+            <addName>Ioannes P. Bellorus</addName>
+            <addName>Petrus Bellorus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

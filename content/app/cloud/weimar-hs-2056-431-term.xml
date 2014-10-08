@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-431.tei.xml-d16759e20">15.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-431.tei.xml-d16759e33">188.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-431.tei.xml-d16759e39">189.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-431.tei.xml-d16759e46">369.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Villa Albani</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-431.tei.xml-d16759e50">Vier von dem schönsten schwar- 
+                                                        tzen Granit in <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000297">Villa Albani</term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000297</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000297">Villa Albani</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/211555</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/211555">Eines 
+                                                der bekanntesten ist der porticus</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Sully, Maximilien de Béthune</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-431.tei.xml-d16759e226">Vase des <persName ref="#CerlID:cnp00400672" key="#PND:11879938X">Hertzogs von Sully<addName type="display">Sully, Maximilien de Béthune</addName>
+               <addName>Maximilien de Béthune Sully</addName>
+               <addName>Maximilien de Béthune Sully</addName>
+               <addName>de Rosny</addName>
+               <addName>Rosny</addName>
+               <addName>Maximilianus Rosnius de Bethuna</addName>
+               <addName>Rosnius de Bethuna</addName>
+               <addName>Maximilien de Béthune Rosny</addName>
+               <addName>Maximilien de Béthune de Sully</addName>
+               <addName>Maximilien de Bethune</addName>
+               <addName>Bethune</addName>
+               <addName>Maximilian von Bethüne</addName>
+               <addName>Bethüne</addName>
+               <addName>Maximilien de Béthune</addName>
+               <addName>Béthune</addName>
+               <addName>Béthune Sully</addName>
+               <addName>Maximilien de Béthune</addName>
+               <addName>Béthune</addName>
+               <addName>Béthune Sully</addName>
+               <addName>Rosny Baron de</addName>
+               <addName>Rosny Monsieur de</addName>
+               <addName>von Sully</addName>
+               <addName>Maximilien de Sully</addName>
+               <addName>Maximilien de Béthune de Sully</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+</tags>

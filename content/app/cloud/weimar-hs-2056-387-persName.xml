@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Macareus (Cous)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00285039</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00285039"
+                   key="#PND:102397805">Macarius<addName type="display">Macareus (Cous)</addName>
+            <addName>Macareus Historicus</addName>
+            <addName>Macarius Cous</addName>
+            <addName>Macarius</addName>
+            <addName>Macarius Historicus</addName>
+            <addName>Makareus von Kos</addName>
+            <addName>Makareus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Chifflet, Jean-Jacques</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00397922</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00397922"
+                   key="#PND:118675869">Chiffletius<addName type="display">Chifflet, Jean-Jacques</addName>
+            <addName>Jean-Jacques Chifflet</addName>
+            <addName>Jean-Jacques Chiflet</addName>
+            <addName>Io. Chiffletius</addName>
+            <addName>Chiffletius</addName>
+            <addName>Joannes-Jacobus Chiffletius</addName>
+            <addName>Joannes Jacobus Chifletius</addName>
+            <addName>Chifletius</addName>
+            <addName>Jean Jacques Chifflet</addName>
+            <addName>Ioannes Iacobus Chiffletius</addName>
+            <addName>Joannes Jacobus Chiffletius</addName>
+            <addName>Johannes Jacobus Chiffletius</addName>
+            <addName>Jean Jacques Chiflet</addName>
+            <addName>Iuan Iacobo Chifletio</addName>
+            <addName>Chifletio</addName>
+            <addName>Juan Jacobo Chifletio</addName>
+            <addName>Ioannes Iacobus Chifletius</addName>
+            <addName>Joannes Chifletius</addName>
+            <addName>Johannes Jacobus Chifletius</addName>
+            <addName>Johannes Jacobus Chifletus</addName>
+            <addName>Chifletus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Passano, Giovanni B.</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00956171</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00956171"
+                   key="#PND:118914537 100791034">Passeri<addName type="display">Passano, Giovanni B.</addName>
+            <addName>Giovanni B. Passano</addName>
+            <addName>Giambattista Passeri</addName>
+            <addName>Giovanni Battista Passeri</addName>
+            <addName>Johann Baptist Paßeri</addName>
+            <addName>Paßeri</addName>
+            <addName>Giovanni Battista Passani</addName>
+            <addName>Passani</addName>
+            <addName>Giambattista Passano</addName>
+            <addName>Giombattista Passano</addName>
+            <addName>Giovanni Battista Passano</addName>
+            <addName>Giovanni Battista Passari</addName>
+            <addName>Passari</addName>
+            <addName>G. B. Passeri</addName>
+            <addName>Giovanni Passeri</addName>
+            <addName>Giovanni B. Passeri</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

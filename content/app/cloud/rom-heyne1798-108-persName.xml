@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Dioskuren</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00543824</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00543824"
+                   key="#PND:118973878">Castor<addName type="display">Dioskuren</addName>
+            <addName>Castor und Pollux</addName>
+            <addName>Kastor und Pollux</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Leda</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300313</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300313">Leda<addName type="display">Leda</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Winckelmann, Johann Joachim</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00396916</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00396916"
+                   key="#PND:118633600">Winkelmann<addName type="display">Winckelmann, Johann Joachim</addName>
+            <addName>Johann Joachim Winckelmann</addName>
+            <addName>Ioann Vinkelman</addName>
+            <addName>Vinkelman</addName>
+            <addName>Ioann. Vinkelman</addName>
+            <addName>Jochan Joachim Vinkelman</addName>
+            <addName>Johann Vinkelmann</addName>
+            <addName>Vinkelmann</addName>
+            <addName>I. I. Vinkelʹman</addName>
+            <addName>Vinkelʹman</addName>
+            <addName>Iogann Ioachim Vinkelʹman</addName>
+            <addName>Iogann-Ioachim Vinkelʹman</addName>
+            <addName>Winckelman</addName>
+            <addName>Johann Joachim Winckelman</addName>
+            <addName>Winckelman abbé Johann Joachim</addName>
+            <addName>Winckelmann</addName>
+            <addName>G. G. Winckelmann</addName>
+            <addName>G.G. Winckelmann</addName>
+            <addName>Giovanni Winckelmann</addName>
+            <addName>Giovanni Gioacchino Winckelmann</addName>
+            <addName>J Winckelmann</addName>
+            <addName>J. J. Winckelmann</addName>
+            <addName>Jean Joachim Winckelmann</addName>
+            <addName>Jean-Joachim Winckelmann</addName>
+            <addName>Joachim Johann Winckelmann</addName>
+            <addName>Joh. Jac. Winckelmann</addName>
+            <addName>Johann Winckelmann</addName>
+            <addName>Johann J. Winckelmann</addName>
+            <addName>Winckelmann, Johann Joachim 1717-1768</addName>
+            <addName>Johannes Joachim Winckelmann</addName>
+            <addName>Jojannes Joachim Winckelmann</addName>
+            <addName>Johannes Winckelmannus</addName>
+            <addName>Winckelmannus</addName>
+            <addName>Johannes J. Winckelmannus</addName>
+            <addName>Johannes Joachimus Winckelmannus</addName>
+            <addName>Johan̄ Winckelman̄</addName>
+            <addName>Winckelman̄</addName>
+            <addName>Johann Joachim Winkelman</addName>
+            <addName>Winkelman</addName>
+            <addName>Winkelman abbé Johann Joachim</addName>
+            <addName>Winkelmann</addName>
+            <addName>Giovanni Winkelmann</addName>
+            <addName>Hans J. Winkelmann</addName>
+            <addName>Ioh. Winkelmann</addName>
+            <addName>Johann Winkelmann</addName>
+            <addName>Johann J. Winkelmann</addName>
+            <addName>Johann Joachim Winkelmann</addName>
+            <addName>Winkelmann 1717-1768</addName>
+            <addName>Winkelmann abbé Johann Joachim</addName>
+            <addName>Joannes Winkelmannus</addName>
+            <addName>Winkelmannus</addName>
+            <addName>Johann J. Winkelmannus</addName>
+            <addName>Johannes Joachimus Wynckelmann</addName>
+            <addName>Wynckelmann</addName>
+            <addName>Hans J. Wynkelmann</addName>
+            <addName>Wynkelmann</addName>
+            <addName>Johann J. Wynkelmann</addName>
+            <addName>Johann Joachim Wynkelmann</addName>
+            <addName>Yôhân Yo'akim Wînqelman</addName>
+            <addName>Wînqelman</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Orestes</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00586922</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00586922"
+                   key="#PND:118736558">Orestes<addName type="display">Orestes</addName>
+            <addName>Orest</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pylades</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300381</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300381">Pylades<addName type="display">Pylades</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Elektra</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300277</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300277">Electra<addName type="display">Elektra</addName>
+            <addName>Electra</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Lessing, G.E.</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259428</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01259428"
+                   key="#PND:118572121">Lessing<addName type="display">Lessing, G.E.</addName>
+            <addName>G.E. Lessing</addName>
+            <addName>Gotthold Ephraim Lessing</addName>
+            <addName>G. E. L.</addName>
+            <addName>L.</addName>
+            <addName>Lai-shin</addName>
+            <addName>Laixin</addName>
+            <addName>Laixin zhu</addName>
+            <addName>Talif Lasing</addName>
+            <addName>Lasing</addName>
+            <addName>Gotchold Efraim Lesing</addName>
+            <addName>Lesing</addName>
+            <addName>Gothold Efraim Lesing</addName>
+            <addName>Gotold Efraim Lesing</addName>
+            <addName>Gotthold Ephraim Lesing</addName>
+            <addName>Goṭhold Efrayim Lesing</addName>
+            <addName>Gôthôld Efrayim Lesing</addName>
+            <addName>Gotholdas Efraimas Lesingas</addName>
+            <addName>Lesingas</addName>
+            <addName>Gothold Ep'raim Lesingi</addName>
+            <addName>Lesingi</addName>
+            <addName>Gothold Epʹraim Lesingi</addName>
+            <addName>Gothold Efraim Lesings</addName>
+            <addName>Lesings</addName>
+            <addName>Lessing</addName>
+            <addName>Boh. Efraim Lessing</addName>
+            <addName>E. Lessing</addName>
+            <addName>E.-G. Lessing</addName>
+            <addName>Efraimo Lessing</addName>
+            <addName>Ephraim Lessing</addName>
+            <addName>G. E. Lessing</addName>
+            <addName>Lessing, G. E. Gotthold Ephraim</addName>
+            <addName>G. Efraimo Lessing</addName>
+            <addName>G. Ephraim Lessing</addName>
+            <addName>Gotchol'd Efraim Lessing</addName>
+            <addName>Gotchol'd Ėfraim Lessing</addName>
+            <addName>Gotgol'd Efraim Lessing</addName>
+            <addName>Gothold Efrajm Lessing</addName>
+            <addName>Gothold Ephraim Lessing</addName>
+            <addName>Gottchol'd Efraim Lessing</addName>
+            <addName>Gottchol'd Ėfraim Lessing</addName>
+            <addName>Gottfried Ephraim Lessing</addName>
+            <addName>Gotth. E. Lessing</addName>
+            <addName>Gotth. Ephr Lessing</addName>
+            <addName>Gotth. Ephr. Lessing</addName>
+            <addName>Gotthard E. Lessing</addName>
+            <addName>Gotthard Ephraim Lessing</addName>
+            <addName>Gotthelf Ephraim Lessing</addName>
+            <addName>Gotthold Lessing</addName>
+            <addName>Gotthold E. Lessing</addName>
+            <addName>Gotthold Efraim Lessing</addName>
+            <addName>Lessing, Gotthold Ephraim 1729-1781</addName>
+            <addName>Gotthold Ephrain Lessing</addName>
+            <addName>Gotthold-Ephraim Lessing</addName>
+            <addName>Gôṭṭhôld Efrayim Lessing</addName>
+            <addName>Gôtthôld Efrayim Lessing</addName>
+            <addName>Gôṭṭhôld Efrayim Lessing</addName>
+            <addName>Lessing Mr. Gotthold Ephraim</addName>
+            <addName>Gotthold E. Lessinga</addName>
+            <addName>Lessinga</addName>
+            <addName>Gotthold Ephraim Lessingius</addName>
+            <addName>Lessingius</addName>
+            <addName>Gkottchold Ephraim Lessink</addName>
+            <addName>Lessink</addName>
+            <addName>Leszing</addName>
+            <addName>Leßing</addName>
+            <addName>Gotthold E. Leßing</addName>
+            <addName>Gotthold Ephraim Leßing</addName>
+            <addName>Gôṭhôld Efrayim Lēsing</addName>
+            <addName>Lēsing</addName>
+            <addName>Lising</addName>
+            <addName>G. D. Lising</addName>
+            <addName>Lisinǧ</addName>
+            <addName>Ǧ. D. Lisīng</addName>
+            <addName>Lisīng</addName>
+            <addName>Ǧ. D. Lisīng</addName>
+            <addName>Lisīng</addName>
+            <addName>Gotholds Efraims Lsings</addName>
+            <addName>Lsings</addName>
+            <addName>Gôṭhôld Efrayim Lēsing</addName>
+            <addName>Lēsing</addName>
+            <addName>Philosophe bien digne d'en être</addName>
+            <addName>Resshingu</addName>
+            <addName>G. E. Resshingu</addName>
+            <addName>Godofredos Efraim Lessigg</addName>
+            <addName>Lessigg</addName>
+            <addName>Godophredos Ephraim Lessing</addName>
+            <addName>Gothophredos Ephraïm Lessing</addName>
+            <addName>Gotth. Ephr. Leßing</addName>
+            <addName>philosophe bien digne d'en être</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Visconti, Giambattista Antonio</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00347395</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00347395"
+                   key="#PND:10404974X">Visconti<addName type="display">Visconti, Giambattista Antonio</addName>
+            <addName>Giambattista Antonio Visconti</addName>
+            <addName>Giambattista Visconti</addName>
+            <addName>Giovanni Antonio Battista Visconti</addName>
+            <addName>Giovanni Battista Visconti</addName>
+            <addName>Giovanni Battista Antonio Visconti</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Antinous</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00578329</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00578329"
+                   key="#PND:118649639">Antinous<addName type="display">Antinous</addName>
+            <addName>Antinoos</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Merkur</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00575540</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00575540"
+                   key="#PND:118641077">Mercur<addName type="display">Merkur</addName>
+            <addName>Mercurius</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

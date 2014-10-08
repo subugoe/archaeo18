@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/15994</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/15994">175.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Firenze</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/5953</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/5953">Ein anderer ist in der <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000498">Groß 
+                            Hertzoglichen: Gallerie zu <placeName ref="#GettyID:7000457">Florenz<addName type="display">Firenze</addName>
+                  <addName>Firenze</addName>
+                  <addName>Florence</addName>
+                  <addName>Florencia</addName>
+                  <addName>Florenz</addName>
+                  <addName>Fiorenza</addName>
+                  <addName>Florentia</addName>
+                  <addName>Florentine</addName>
+               </placeName>
+            </term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Firenze</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000498</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000498">Groß 
+                            Hertzoglichen: Gallerie zu <placeName ref="#GettyID:7000457">Florenz<addName type="display">Firenze</addName>
+               <addName>Firenze</addName>
+               <addName>Florence</addName>
+               <addName>Florencia</addName>
+               <addName>Florenz</addName>
+               <addName>Fiorenza</addName>
+               <addName>Florentia</addName>
+               <addName>Florentine</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pyrrhus (Epirus, König)</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/15896</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/15896">
+            <persName ref="#CerlID:cnp00587177" key="#PND:118743058">Pyrrhus<addName type="display">Pyrrhus (Epirus, König)</addName>
+               <addName>Pirr carʹ Ėpira</addName>
+               <addName>Pirr</addName>
+               <addName>Pirro Epiro, Re</addName>
+               <addName>Pirro</addName>
+               <addName>Pyrrhos Epeiros, König</addName>
+               <addName>Pyrrhos</addName>
+               <addName>Pyrrhos Epirus, König</addName>
+               <addName>Pyrrhos König der Molosser</addName>
+               <addName>Pyrrhos Sohn des Aiakides</addName>
+               <addName>Pyrrhos von Epeiros</addName>
+               <addName>Pyrrhos von Epirus</addName>
+               <addName>Pyrrhus Epirota</addName>
+               <addName>Pyrrhus Epirotes</addName>
+               <addName>Pyrrhus Historicus</addName>
+               <addName>Pyrrhus King of Epirus</addName>
+               <addName>Pyrrhus Rex</addName>
+            </persName>. Ein schöner im <term ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-136.tei.xml-d6327e109"
+                  type="collection">Palazzo  
+                            Massimi alla vale</term> iezt im <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000358">Campidoglio</term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-136.tei.xml-d6327e109"
+               type="collection">Palazzo  
+                            Massimi alla vale</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000358</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000358">Campidoglio</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/gruppen/401268 http://arachne.uni-koeln.de/item/objekt/16992 http://arachne.uni-koeln.de/item/objekt/16993</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/gruppen/401268 #http://arachne.uni-koeln.de/item/objekt/16992 #http://arachne.uni-koeln.de/item/objekt/16993">Eine ganz bekleidete Frau
+                            mit einem nackten Jüngling zur Seite</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Curtius , Marcus</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:10019336 http://arachne.uni-koeln.de/item/objekt/26077</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:10019336 #http://arachne.uni-koeln.de/item/objekt/26077">
+            <persName ref="#CerlID:cnp01300262">Curtius<addName type="display">Curtius , Marcus</addName>
+               <addName>Marcus Curtius</addName>
+            </persName> der sich in den Pfuhl 
+                           stürtzet, in den <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000238">Borghesischen Gärten</term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000238</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000238">Borghesischen Gärten</term>
+      </nodes>
+   </tag>
+</tags>

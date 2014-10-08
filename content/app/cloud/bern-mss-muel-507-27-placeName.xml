@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Asia</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=1000004</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:1000004">Oberasien<addName type="display">Asia</addName>
+            <addName>Asia</addName>
+            <addName>Asie</addName>
+            <addName>Asien</addName>
+            <addName>Azië</addName>
+            <addName>Asian</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Hamadān</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7002115</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7002115">Ecbatana<addName type="display">Hamadān</addName>
+            <addName>Hamadān</addName>
+            <addName>Hamadan</addName>
+            <addName>Ecbatana</addName>
+            <addName>Bit Daiukki</addName>
+            <addName>Hagmatana</addName>
+            <addName>Hangmatana</addName>
+            <addName>Agbatana</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Babylon</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7002626</link>
+      <count>4</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7002626">Babylon<addName type="display">Babylon</addName>
+            <addName>Babylon</addName>
+            <addName>Babylonia</addName>
+            <addName>Babylone</addName>
+            <addName>Babilonia</addName>
+            <addName>Babil</addName>
+            <addName>Tell Babil</addName>
+            <addName>Bab-ili</addName>
+            <addName>Babel</addName>
+            <addName>Babhel</addName>
+            <addName>Babilu</addName>
+            <addName>Ka-Dingir-Ra</addName>
+            <addName>Din-tir</addName>
+            <addName>Kading'irra</addName>
+            <addName>Su-anna</addName>
+            <addName>Uru-azagga</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:placeName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0"
+                        ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-27.tei.xml-d10105e206">Bagistan</TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Bīsitūn</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=6000824</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:6000824">Bisoudoun<addName type="display">Bīsitūn</addName>
+            <addName>Bīsitūn</addName>
+            <addName>Bīsotūn</addName>
+            <addName>Bisitun</addName>
+            <addName>Bisutun</addName>
+            <addName>Behistun</addName>
+            <addName>Bisotum</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Baghdād</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7002482</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7002482">Bagdad<addName type="display">Baghdād</addName>
+            <addName>Baghdād</addName>
+            <addName>Baghdad</addName>
+            <addName>Bagdad</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Ābādān</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7002235</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7002235">Amadan<addName type="display">Ābādān</addName>
+            <addName>Ābādān</addName>
+            <addName>Abadan</addName>
+            <addName>ʻAbbādān</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+</tags>

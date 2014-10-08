@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Briguinzi t. 58.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://reader.digitale-sammlungen.de/de/fs1/object/display/bsb10608818_00082.html</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://reader.digitale-sammlungen.de/de/fs1/object/display/bsb10608818_00082.html">Briguinzi t. 58.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Mon. vetera Antii von Filippo a Turre. tom. 2.</tag>
+      <facet>tei:bibl</facet>
+      <link/>
+      <count>4</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#">Mon. vetera Antii von Filippo a
+                                            Turre. tom. 2.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Gall. Giust. II. 81.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/giustiniani1640bd2/0081</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/giustiniani1640bd2/0081">
+               <term ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-131.tei.xml-d3622e270">Gall. Giust.
+                                                II. 81.</term>
+            </ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>82.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/giustiniani1640bd2/0082</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/giustiniani1640bd2/0082">
+               <term ref="#http://arachne.uni-koeln.de/item/objekt/27289">82.</term>
+            </ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Mon. Mathæior. III. 1.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://opac.sub.uni-goettingen.de/DB=1/PPNSET?PPN=137356013</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://opac.sub.uni-goettingen.de/DB=1/PPNSET?PPN=137356013">
+               <term ref="#http://arachne.uni-koeln.de/item/objekt/56910">Mon. Mathæior. III. 1.</term>
+            </ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>D'Anguetil in Mem. de l' Ac. des Inscr.T. 31. p. 413.419.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://babel.hathitrust.org/cgi/pt?u=1&amp;num=419&amp;seq=838&amp;view=image&amp;size=100&amp;id=ucm.5326971586</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://babel.hathitrust.org/cgi/pt?u=1&amp;num=419&amp;seq=838&amp;view=image&amp;size=100&amp;id=ucm.5326971586">D'Anguetil in Mem. de l' Ac. des Inscr. <term ref="#http://arachne.uni-koeln.de/item/objekt/135927">T. 31. p. 413.419.</term>
+            </ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Kleukers Cend a vesta.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://catalog.hathitrust.org/Record/009021844</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://catalog.hathitrust.org/Record/009021844">Kleukers Cend a vesta.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+</tags>

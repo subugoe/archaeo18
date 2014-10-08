@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>JupiterMinerva</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-400.tei.xml-d5903e15">
+            <persName ref="#CerlID:cnp00554429" key="#PND:118558897">Iupiter<addName type="display">Jupiter</addName>
+               <addName>Iupiter</addName>
+               <addName>Juppiter</addName>
+            </persName> und <persName ref="#CerlID:cnp00544188" key="#PND:118986155">Minerva<addName type="display">Minerva</addName>
+               <addName>Sospitatrix</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Adam (Biblische Person)Eva</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-400.tei.xml-d5903e84">einen <persName ref="#CerlID:cnp00577329" key="#PND:118646877">Adam<addName type="display">Adam (Biblische Person)</addName>
+            </persName> und <persName ref="#CerlID:cnp00548663" key="#PND:118531441">Eva<addName type="display">Eva</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Germanicus, CaesarAgrippina (die Ältere)</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/224941</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/224941">
+            <persName ref="#CerlID:cnp00980264" key="#PND:118538748">Germanicus<addName type="display">Germanicus, Caesar</addName>
+               <addName>Caesar Germanicus</addName>
+               <addName>Iulius C. Germanicus</addName>
+               <addName>Julius C. Germanicus</addName>
+               <addName>Caesar</addName>
+               <addName>Claudius Caesar</addName>
+               <addName>Claudius</addName>
+               <addName>Germanico</addName>
+               <addName>Gaius Iulius Germanicus</addName>
+               <addName>Gaius Iulius Caesar Germanicus</addName>
+               <addName>Gajus Julius Germanicus</addName>
+               <addName>Iulius Caesar Germanicus</addName>
+               <addName>Julius Caesar Germanicus</addName>
+               <addName>Nero Claudius Germanicus</addName>
+               <addName>Germanicus Adoptivsohn des Tiberius</addName>
+               <addName>Germanicus Epigrammaticus</addName>
+               <addName>Iulius Caesar</addName>
+               <addName>Nero Claudius</addName>
+            </persName> und <persName ref="#CerlID:cnp00541941" key="#PND:118501100">Agrippina<addName type="display">Agrippina (die Ältere)</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Joseph (Chaldäer, Patriarch, I.)</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-400.tei.xml-d5903e218">einen Triumph <persName ref="#CerlID:cnp00586068" key="#PND:118713108">Iosephs des Patriarchens<addName type="display">Joseph (Chaldäer, Patriarch, I.)</addName>
+               <addName>Ioseph</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Germanicus, Caesar</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/25900</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/25900">Die Apotheose des <persName ref="#CerlID:cnp00980264" key="#PND:118538748">Germanicus<addName type="display">Germanicus, Caesar</addName>
+               <addName>Caesar Germanicus</addName>
+               <addName>Iulius C. Germanicus</addName>
+               <addName>Julius C. Germanicus</addName>
+               <addName>Caesar</addName>
+               <addName>Claudius Caesar</addName>
+               <addName>Claudius</addName>
+               <addName>Germanico</addName>
+               <addName>Gaius Iulius Germanicus</addName>
+               <addName>Gaius Iulius Caesar Germanicus</addName>
+               <addName>Gajus Julius Germanicus</addName>
+               <addName>Iulius Caesar Germanicus</addName>
+               <addName>Julius Caesar Germanicus</addName>
+               <addName>Nero Claudius Germanicus</addName>
+               <addName>Germanicus Adoptivsohn des Tiberius</addName>
+               <addName>Germanicus Epigrammaticus</addName>
+               <addName>Iulius Caesar</addName>
+               <addName>Nero Claudius</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Johannes (Apostolus)</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-400.tei.xml-d5903e287">einen <persName ref="#CerlID:cnp00395354" key="#PND:118557815">Heiligen Jo- 
+                                                        hannes<addName type="display">Johannes (Apostolus)</addName>
+               <addName>Iehan Saint</addName>
+               <addName>Iehan</addName>
+               <addName>Iehan Theéologien</addName>
+               <addName>Jehan Saint</addName>
+               <addName>Jehan</addName>
+               <addName>Jehan Théologien</addName>
+               <addName>Giovanni Apostolo</addName>
+               <addName>Giovanni</addName>
+               <addName>Giovanni San</addName>
+               <addName>Hovhannes Aṙak'yal</addName>
+               <addName>Hovhannes</addName>
+               <addName>Iōannēs</addName>
+               <addName>Ioann Bogoslov</addName>
+               <addName>Ioann</addName>
+               <addName>Ioannes Apostolus</addName>
+               <addName>Ioannes</addName>
+               <addName>Ioannes Evangelista</addName>
+               <addName>Ioannes Theologos</addName>
+               <addName>Iohannes Evangelista</addName>
+               <addName>Iohannes</addName>
+               <addName>Iohin</addName>
+               <addName>Iōannēs Apostolos</addName>
+               <addName>Iōannēs</addName>
+               <addName>János Apostol</addName>
+               <addName>János</addName>
+               <addName>János Apostol</addName>
+               <addName>János</addName>
+               <addName>Jean Évangéliste</addName>
+               <addName>Jean</addName>
+               <addName>Jean Apôtre</addName>
+               <addName>Jean Apostolus</addName>
+               <addName>Jean Saint</addName>
+               <addName>Joan Sant</addName>
+               <addName>Joan</addName>
+               <addName>Joannes Apostolus</addName>
+               <addName>Joannes</addName>
+               <addName>Joannes Evangelista</addName>
+               <addName>Joannes Sanctus</addName>
+               <addName>Joannis</addName>
+               <addName>Jochanan</addName>
+               <addName>Johannes Apostel</addName>
+               <addName>Johannes Ben-Zebedäus</addName>
+               <addName>Johannes Ben-Zebedäus</addName>
+               <addName>Johannes der Täufer</addName>
+               <addName>Johannes Evangelista</addName>
+               <addName>Johannes Heiliger</addName>
+               <addName>Johannes Sanctus</addName>
+               <addName>Johannes Theologus</addName>
+               <addName>John Apostle</addName>
+               <addName>John</addName>
+               <addName>John Apostolus</addName>
+               <addName>John Saint</addName>
+               <addName>John the Apostle, Saint</addName>
+               <addName>Jovan Sveti</addName>
+               <addName>Jovan</addName>
+               <addName>Juchanan</addName>
+               <addName>Pseudo-Johannes Apostel</addName>
+               <addName>Pseudo-Johannes</addName>
+               <addName>Pseudo-Johannes Apostolus</addName>
+               <addName>Pseudo-Johannes Evangelista</addName>
+               <addName>Yochanan</addName>
+               <addName>Yohane</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Constantinus (Imperium Romanum, Imperator, I.)</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-400.tei.xml-d5903e468">Der grose <persName ref="#CerlID:cnp00945275" key="#PND:118565184">Constantin<addName type="display">Constantinus (Imperium Romanum, Imperator, I.)</addName>
+               <addName>Aurelius Claudius</addName>
+               <addName>Claudius Valerius</addName>
+               <addName>Constantin der Große</addName>
+               <addName>Constantin</addName>
+               <addName>Constantin der Grosse</addName>
+               <addName>Constantin Empereur</addName>
+               <addName>Constantin Kaiser</addName>
+               <addName>Constantin Varsovie, Grand-Duc</addName>
+               <addName>Constantine Emperor, I.</addName>
+               <addName>Constantine</addName>
+               <addName>Constantine the Great</addName>
+               <addName>Flavius Valerius Constantinus Augustus</addName>
+               <addName>Constantinus Augustus</addName>
+               <addName>Flavius Valerius Constantinus</addName>
+               <addName>I. Constantinus</addName>
+               <addName>Constantinus, I. Imperator</addName>
+               <addName>Constantinus Constantinopolitanus</addName>
+               <addName>Constantinus der Große</addName>
+               <addName>Constantinus der Grosse</addName>
+               <addName>Constantinus Imperator</addName>
+               <addName>Constantinus Imperator, I.</addName>
+               <addName>Constantinus Magnus</addName>
+               <addName>Costantino il Grande</addName>
+               <addName>Costantino</addName>
+               <addName>Flavius Valerius</addName>
+               <addName>Konstantin Veliki</addName>
+               <addName>Konstantin den Stores</addName>
+               <addName>Konstantin der Große</addName>
+               <addName>Konstantin der Grosse</addName>
+               <addName>Konstantin Römisches Reich, Kaiser, I.</addName>
+               <addName>Konstantin Römischer Kaiser</addName>
+               <addName>Konstantinus Imperium Romanum, Imperator, I.</addName>
+               <addName>Konstantinus</addName>
+               <addName>Konstantyn de Groote</addName>
+               <addName>Konstantyn</addName>
+               <addName>Valerius Aurelis</addName>
+               <addName>Valerius Constantinus Augustus</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Carlisle, Frederick HowardMeleagros (Sagengestalt)Atalante</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-400.tei.xml-d5903e584">Camee des <persName ref="#CerlID:cnp00363320" key="#PND:10427302X">Mylord Carl ´isle<addName type="display">Carlisle, Frederick Howard</addName>
+               <addName>Frederick Howard Carlisle</addName>
+               <addName>Frederick Howard</addName>
+               <addName>Carl'isle Milord</addName>
+               <addName>Carl'isle</addName>
+               <addName>Author of the Crisis, &amp;c. &amp;c.</addName>
+               <addName>Crisis, &amp;c. &amp;c. Author of</addName>
+               <addName>Crisis, &amp;c. &amp;c.</addName>
+               <addName>Howard, Frederick Earl of Carlisle</addName>
+            </persName> mit dem <persName ref="#CerlID:cnp00570957" key="#PND:122695712">Meleager<addName type="display">Meleagros (Sagengestalt)</addName>
+            </persName> und <persName ref="#CerlID:cnp00570676" key="#PND:122641124">Atalan- 
+                                                        te<addName type="display">Atalante</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+</tags>

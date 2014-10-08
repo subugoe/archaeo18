@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/26953</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/26953">Eine der schönsten 
+                                 Statuen</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/22220</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/22220">Sehr aehnlich 
+                                     ist ihr die</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/5857</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/5857">mit der patera</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-192.tei.xml-d14313e215">ihr ähnlich</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Dreßnishen Gall</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/5307 http://arachne.uni-koeln.de/item/objekt/5308 http://arachne.uni-koeln.de/item/objekt/5309</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/5307 #http://arachne.uni-koeln.de/item/objekt/5308 #http://arachne.uni-koeln.de/item/objekt/5309">Die drey schönnen in der <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000309">Dreßnishen Gall</term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000309</link>
+      <count>4</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000309">Dreßnishen Gall</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Savoyen-Carignan, Eugen ¬von¬</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1002363</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1002363">Ver- 
+                                 lassenshaft des <persName ref="#CerlID:cnp00396391" key="#PND:118605941">Prinz Eugenii<addName type="display">Savoyen-Carignan, Eugen ¬von¬</addName>
+               <addName>Eugen von Savoyen-Carignan</addName>
+               <addName>Eugène François Savoyen, Prinz</addName>
+               <addName>Eugène François</addName>
+               <addName>Eugène Prince</addName>
+               <addName>Eugène</addName>
+               <addName>Eugène Savoie, Prince</addName>
+               <addName>Eugen Franz Savoyen, Prinz</addName>
+               <addName>Eugen Franz</addName>
+               <addName>Eugen Prinz</addName>
+               <addName>Eugen</addName>
+               <addName>Eugen Savoye, Duc</addName>
+               <addName>Eugen Savoyen und Piemont, Prinz</addName>
+               <addName>Eugen Savoyen, Herzog</addName>
+               <addName>Eugen Savoyen, Prinz</addName>
+               <addName>Eugen Savoyen-Carignan, Prinz</addName>
+               <addName>Eugene Savoy, Prince</addName>
+               <addName>Eugene</addName>
+               <addName>Eugene Savoye, Prince</addName>
+               <addName>Eugene Savoyen, Herzog</addName>
+               <addName>Eugenius Franciscus Sabaudia, Princeps</addName>
+               <addName>Eugenius Franciscus</addName>
+               <addName>Eugenius Franciscus Savoy und Piemont, Prinz</addName>
+               <addName>Eugenius Franciscus Savoyen und Piemont, Herzog</addName>
+               <addName>Eugenius Franciscus Savoyen, Herzog</addName>
+               <addName>Eugenius Frantz Savoyen und Piemont, Prinz</addName>
+               <addName>Eugenius Frantz</addName>
+               <addName>Eugenius Sabadus, Dux</addName>
+               <addName>Eugenius</addName>
+               <addName>Eugenius Savoyen, Prins</addName>
+               <addName>Eugenius Savoyen, Prinz</addName>
+               <addName>Franc̨ois Eugène Savoie, Prince</addName>
+               <addName>Franc̨ois Eugène</addName>
+               <addName>Franciscus Eugenius Savoyen und Piemont, Herzog</addName>
+               <addName>Franciscus Eugenius</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Tullia (v76-v45)</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/5330 http://arachne.uni-koeln.de/item/objekt/5401</link>
+      <count>4</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/5330 #http://arachne.uni-koeln.de/item/objekt/5401">eine <persName ref="#CerlID:cnp00581941" key="#PND:124647073">Tullia<addName type="display">Tullia (v76-v45)</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-192.tei.xml-d14313e365">die verschleierte mit einem 
+                                 Sieb und Blumen</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-192.tei.xml-d14313e380">eine alte opfernde Matrone</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/5231</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/5231">mit einem Tuch in der Hand</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-192.tei.xml-d14313e409">ganz ins Gewandt verhüllet</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-192.tei.xml-d14313e440">der 
+                                     vorigen aehnlich</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/5862</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/5862">ist eine Ma- 
+                                 trone auf einem Sessel sitzend</term>
+      </nodes>
+   </tag>
+</tags>

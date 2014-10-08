@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Coriolanus, Gnaeus Marcius</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00546507</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00546507"
+                       key="#PND:118522159">Coriolan<addName type="display">Coriolanus, Gnaeus Marcius</addName>
+            <addName>Gnaeus Marcius Coriolanus</addName>
+            <addName>Coriolan</addName>
+            <addName>Caius Marcius Coriolanus</addName>
+            <addName>Gaius Marcius Coriolanus</addName>
+            <addName>Koriolan</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Hektor</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00552135</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00552135"
+                       key="#PND:119291002">Hektor<addName type="display">Hektor</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Andromache</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00578184</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00578184"
+                       key="#PND:118649280">Andromache<addName type="display">Andromache</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Adonis</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00576317</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00576317"
+                       key="#PND:118643886">Adonis<addName type="display">Adonis</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Hippolytos</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00543806</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00543806"
+                       key="#PND:11897324X">Hypolitus<addName type="display">Hippolytos</addName>
+            <addName>Hippolitus</addName>
+            <addName>Hippolytus Sagengestalt</addName>
+            <addName>Hippolytus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Apollon</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00542641</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00542641"
+                       key="#PND:118503642">Apolls<addName type="display">Apollon</addName>
+            <addName>Apoll</addName>
+            <addName>Apollo</addName>
+            <addName>Phoebus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Middleton, Conyers</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01365742</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01365742"
+                       key="#PND:128846798">Midlethon<addName type="display">Middleton, Conyers</addName>
+            <addName>Conyers Middleton</addName>
+            <addName>Docteur Middleton</addName>
+            <addName>Author of the Full and impartial account, &amp;c.</addName>
+            <addName>Author of the Letter to Dr. Waterland</addName>
+            <addName>Full and impartial account, &amp;c. Author of</addName>
+            <addName>Full and impartial account, &amp;c.</addName>
+            <addName>Letter to Dr. Waterland Author of</addName>
+            <addName>Letter to Dr. Waterland</addName>
+            <addName>Member of that university</addName>
+            <addName>Member of the University of Cambridge</addName>
+            <addName>Conyers Middelton</addName>
+            <addName>Middelton</addName>
+            <addName>Conier. Middleton</addName>
+            <addName>Middleton, Conyers Dr.</addName>
+            <addName>Conier. Middletonus</addName>
+            <addName>Middletonus</addName>
+            <addName>Conierus Middletonus</addName>
+            <addName>Conyers Midleton</addName>
+            <addName>Midleton</addName>
+            <addName>Conyers Middletonus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Mead, Richard</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00650321</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00650321"
+                       key="#PND:117559822">Dr. Mead<addName type="display">Mead, Richard</addName>
+            <addName>Richard Mead</addName>
+            <addName>Momophilus Carthusiensis</addName>
+            <addName>Carthusiensis</addName>
+            <addName>Ricardo Mead</addName>
+            <addName>Ricardus Mead</addName>
+            <addName>Rich. Mead</addName>
+            <addName>Mead, Richard 1673-1754</addName>
+            <addName>Richardus Mead</addName>
+            <addName>Mead Dr. Richard</addName>
+            <addName>Momophilus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

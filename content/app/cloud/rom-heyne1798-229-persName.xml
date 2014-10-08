@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Devonshire, William Cavendish (duc de)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00048784</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp00048784">Herzog von Devonshire<addName type="display">Devonshire, William Cavendish (duc de)</addName>
+            <addName>William Cavendish Devonshire</addName>
+            <addName>William Cavendish</addName>
+            <addName>Herzog von Devonshire</addName>
+            <addName>Marquis de Hartington</addName>
+            <addName>Hartington</addName>
+            <addName>Cavendish, William Duke of Devonshire</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Germain, Elizabeth</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01141477</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01141477">Lady Germaines<addName type="display">Germain, Elizabeth</addName>
+            <addName>Elizabeth Germain</addName>
+            <addName>Germaines Lady</addName>
+            <addName>Germaines</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Marlborough, George Spencer ¬of¬</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01140827</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01140827"
+                   key="#PND:134188098">Herzog von Marlborough<addName type="display">Marlborough, George Spencer ¬of¬</addName>
+            <addName>George Spencer of Marlborough</addName>
+            <addName>George Spencer Marlborough</addName>
+            <addName>George Spencer</addName>
+            <addName>Herzog von Marlborough</addName>
+            <addName>Spencer, George Duke of Marlborough</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Bedford, John Russell ¬of¬ (1766-1839)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00588576</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00588576"
+                   key="#PND:118780905">Herzogs von Bedford<addName type="display">Bedford, John Russell ¬of¬ (1766-1839)</addName>
+            <addName>John Russell of Bedford</addName>
+            <addName>John Russell Bedford</addName>
+            <addName>John Russell</addName>
+            <addName>Herzog von Bedford</addName>
+            <addName>Bedford, John Russell Duke of,  1766-1839.</addName>
+            <addName>John Bedford</addName>
+            <addName>Bedford, John 1766-1839</addName>
+            <addName>Russell of Bedford, John 1766-1839</addName>
+            <addName>Russell of Bedford</addName>
+            <addName>J. Russell</addName>
+            <addName>Russell, J. Duke of Bedford John</addName>
+            <addName>Russell, John 1766-1839</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Howard, Henry (1694-1758)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00804521</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00804521"
+                   key="#PND:131467700">Count Carlile<addName type="display">Howard, Henry (1694-1758)</addName>
+            <addName>Henry Howard</addName>
+            <addName>Henry H. of Carlisle</addName>
+            <addName>Carlisle</addName>
+            <addName>Henry Howard of Carlisle</addName>
+            <addName>Howard of Carlisle</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Rockingham, Charles Watson-Wentworth</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00557686</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00557686"
+                   key="#PND:119504944">Marquis von Rocking-
+                            ham<addName type="display">Rockingham, Charles Watson-Wentworth</addName>
+            <addName>Charles Watson-Wentworth Rockingham</addName>
+            <addName>Charles Watson Wentworth</addName>
+            <addName>Marquis von Rockingham</addName>
+            <addName>Charles Watson-Wentworth</addName>
+            <addName>Watson-Wentworth</addName>
+            <addName>Charles Watson- Wentworth</addName>
+            <addName>Wentworth, Charles Watson- Marquis of Rockingham</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Amor</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00542364</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00542364"
+                   key="#PND:11850262X">Amor<addName type="display">Amor</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Psyche (Literarische Gestalt)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00553935</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00553935"
+                   key="#PND:119362503">Psyche<addName type="display">Psyche (Literarische Gestalt)</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

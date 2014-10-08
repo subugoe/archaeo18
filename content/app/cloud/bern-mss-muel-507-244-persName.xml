@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Alexander (Magnus)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259691</link>
+      <count>4</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01259691"
+                       key="#PND:118501828">Alexander<addName type="display">Alexander (Magnus)</addName>
+            <addName>Ałekʹsandr Makedonacʹi</addName>
+            <addName>Alejandro Magno</addName>
+            <addName>Alejandro</addName>
+            <addName>Aleksandr</addName>
+            <addName>Alessandro Magno</addName>
+            <addName>Alessandro</addName>
+            <addName>Alexander de Grote</addName>
+            <addName>Alexander der Große</addName>
+            <addName>Alexander der Grosse</addName>
+            <addName>Alexander Epistolographus</addName>
+            <addName>Alexander III 3 koning van Macedonië</addName>
+            <addName>Alexander Kaiser</addName>
+            <addName>Alexander Macedonia, Rex, III.</addName>
+            <addName>Alexander Macedonis</addName>
+            <addName>Alexander Mazedonien, König, III.</addName>
+            <addName>Alexander of Macedon</addName>
+            <addName>Alexander Rex</addName>
+            <addName>Alexandre le Grand</addName>
+            <addName>Alexandre</addName>
+            <addName>Alexandros</addName>
+            <addName>Alexandros der Große</addName>
+            <addName>Alexandru cel Mare</addName>
+            <addName>Alexandru</addName>
+            <addName>Alexandrus Magnus</addName>
+            <addName>Alexandrus</addName>
+            <addName>Megalexandros</addName>
+            <addName>Pseudo-Alexander Magnus</addName>
+            <addName>Pseudo-Alexander</addName>
+            <addName>Grote</addName>
+            <addName>Alexandros Megas</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Ptolemaeus (Ägypten, König, I.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00396191</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00396191"
+                       key="#PND:118596926">Ptolomaeus<addName type="display">Ptolemaeus (Ägypten, König, I.)</addName>
+            <addName>Ptolemaeus Lagus Historicus</addName>
+            <addName>Ptolemaeus Lagus</addName>
+            <addName>Ptolemaeus Aegyptus, Rex, I.</addName>
+            <addName>Ptolemaeus Eordaeus</addName>
+            <addName>Ptolemaeus Historicus</addName>
+            <addName>Ptolemaeus Historiker</addName>
+            <addName>Ptolemaeus I.</addName>
+            <addName>Ptolemaeus I., Soter</addName>
+            <addName>Ptolemaeus Lagi</addName>
+            <addName>Ptolemaeus Lagi Filius</addName>
+            <addName>Ptolemaeus Lagu</addName>
+            <addName>Ptolemaeus Soter</addName>
+            <addName>Ptolemaios General Alexanders des Großen</addName>
+            <addName>Ptolemaios I., Lagu</addName>
+            <addName>Ptolemaios I., Soter</addName>
+            <addName>Ptolemaios Lagu</addName>
+            <addName>Ptolemaios Soter</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Agrippina (die Ältere)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00541941</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00541941"
+                       key="#PND:118501100">Agripina<addName type="display">Agrippina (die Ältere)</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Ptolemaier (Familie)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300378</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300378">Ptolomäern<addName type="display">Ptolemaier (Familie)</addName>
+            <addName>Ptolomaeer</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Papirius Praetextatus, Lucius</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00574887</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00574887"
+                       key="#PND:123326060">Papirius<addName type="display">Papirius Praetextatus, Lucius</addName>
+            <addName>Lucius Papirius Praetextatus</addName>
+            <addName>Praetextatus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Cincinnatus, Lucius Quinctius</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00583167</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00583167"
+                       key="#PND:124874576">Ch. Cicinatus<addName type="display">Cincinnatus, Lucius Quinctius</addName>
+            <addName>Lucius Quinctius Cincinnatus</addName>
+            <addName>Quinticus Cincinnatus</addName>
+            <addName>Lucio Quinzio Cincinnato</addName>
+            <addName>Cincinnato</addName>
+            <addName>Quinctius Cincinnatus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Curtius , Marcus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300262</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300262">Curtius<addName type="display">Curtius , Marcus</addName>
+            <addName>Marcus Curtius</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

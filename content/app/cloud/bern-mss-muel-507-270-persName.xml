@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Brutus, Marcus Junius</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00394357</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00394357"
+                       key="#PND:118516361">Brutus<addName type="display">Brutus, Marcus Junius</addName>
+            <addName>Marcus Junius Brutus</addName>
+            <addName>Marcus Iunius Brutus</addName>
+            <addName>Marcus Brutus</addName>
+            <addName>Junius Brutus</addName>
+            <addName>Marco Giunio Bruto</addName>
+            <addName>Bruto</addName>
+            <addName>M. Junius Brutus</addName>
+            <addName>Marco Giunio Brutus</addName>
+            <addName>Marcus I. Brutus</addName>
+            <addName>Marcus J. Brutus</addName>
+            <addName>Brutus Caesaris Interfector</addName>
+            <addName>Brutus Caesarmörder</addName>
+            <addName>Brutus Correspondent of Cicero</addName>
+            <addName>Brutus Epistolographus</addName>
+            <addName>Brutus Romanus</addName>
+            <addName>Iunius Brutus, Marcus Caesaris Interfector</addName>
+            <addName>Iunius Brutus</addName>
+            <addName>Iunius</addName>
+            <addName>Junius</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Cassius Parmensis, Gaius</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00912556</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00912556"
+                       key="#PND:102384215">Cassius<addName type="display">Cassius Parmensis, Gaius</addName>
+            <addName>Gaius Cassius Parmensis</addName>
+            <addName>Gaius Cassius</addName>
+            <addName>Cassius</addName>
+            <addName>Parmensis Cassius</addName>
+            <addName>Cassius Poeta</addName>
+            <addName>Parmensis</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

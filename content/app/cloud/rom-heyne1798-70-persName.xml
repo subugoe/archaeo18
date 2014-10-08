@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Bartholomaeus (Cryptoferratensis)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00165641</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00165641"
+                   key="#PND:100938582">Heiligen
+                                    Bartholomäus<addName type="display">Bartholomaeus (Cryptoferratensis)</addName>
+            <addName>Bartholomäus der Jüngere</addName>
+            <addName>Bartholomäus</addName>
+            <addName>Bartholomäus von Grottaferrata</addName>
+            <addName>Bartholomäus von Rossano</addName>
+            <addName>Bartolomeo di Grottaferrata</addName>
+            <addName>Bartolomeo</addName>
+            <addName>Bartolomeo di Rossano</addName>
+            <addName>Bartolomeo il Giovane</addName>
+            <addName>Bartholomaeus Rossanensis</addName>
+            <addName>Bartholomaeus Saint</addName>
+            <addName>Bartholomaeus Sanctus</addName>
+            <addName>Bartholomaeus von Grottaferrata</addName>
+            <addName>Bartholomaios Heiliger</addName>
+            <addName>Bartholomaios</addName>
+            <addName>Bartholomaios der Heilige</addName>
+            <addName>Bartholomaios von Grottaferrata</addName>
+            <addName>Bartholomew Saint</addName>
+            <addName>Bartholomew</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Marsyas</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00588624</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00588624"
+                   key="#PND:118782193">Marsyas<addName type="display">Marsyas</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Michel-Ange</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00559773</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00559773"
+                   key="#PND:118582143">Michel Angelo<addName type="display">Michel-Ange</addName>
+            <addName>Michel-Ange Bonaroti</addName>
+            <addName>Bonaroti</addName>
+            <addName>Michel Agnolo Buonarroti</addName>
+            <addName>Buonarroti</addName>
+            <addName>Michel-Ange Buonarroti</addName>
+            <addName>Michelagniolo Buonarroti</addName>
+            <addName>Angelo Bonaroti</addName>
+            <addName>Angelo</addName>
+            <addName>Michiel Angielo Bona Rotta</addName>
+            <addName>Bona Rotta</addName>
+            <addName>Michael Angelus Bonarota</addName>
+            <addName>Bonarota</addName>
+            <addName>Michel Angelo Bonarota</addName>
+            <addName>Michael Angelo Bonaroti</addName>
+            <addName>Michael̈ Angelo Bonaroti</addName>
+            <addName>Michel Angelo Bonaroti</addName>
+            <addName>Michele Angelo Bonaroti</addName>
+            <addName>Michiel Angelo Bonaroti</addName>
+            <addName>Michael Angelus Bonarotus</addName>
+            <addName>Bonarotus</addName>
+            <addName>Michel Angelo Bunaroti</addName>
+            <addName>Bunaroti</addName>
+            <addName>Michael Angelo Buonaroti</addName>
+            <addName>Buonaroti</addName>
+            <addName>Michel Angelo Buonaroti</addName>
+            <addName>Michelangelo Buonaroti</addName>
+            <addName>Michiel Angelo Buonaroti</addName>
+            <addName>Michel Angelo Buonarotti</addName>
+            <addName>Buonarotti</addName>
+            <addName>Michel-Angelo Buonarotti</addName>
+            <addName>Michelangelo Buonarotti</addName>
+            <addName>Michel Angelo Buonarroti</addName>
+            <addName>Michelagniolo di L. Buonarroti</addName>
+            <addName>Michelagnolo Buonarroti</addName>
+            <addName>Buonarroti, Michelangelo 1475-1564</addName>
+            <addName>Michelangiolo Buonarroti</addName>
+            <addName>Mikelandželo Buonarroti</addName>
+            <addName>Michel A. Buonarrotti</addName>
+            <addName>Buonarrotti</addName>
+            <addName>Michel Agnolo Buonarrotti</addName>
+            <addName>Michelagniolo Buonarrotti</addName>
+            <addName>Michelangelo Buonarrotti</addName>
+            <addName>Michelangiolo Buonarrotti</addName>
+            <addName>Michelagnolo Buonarruoti</addName>
+            <addName>Buonarruoti</addName>
+            <addName>L' Impastato</addName>
+            <addName>Impastato</addName>
+            <addName>L' Impostato</addName>
+            <addName>Impostato</addName>
+            <addName>L'Impastato</addName>
+            <addName>L'Impostato</addName>
+            <addName>Micchel-Angelo</addName>
+            <addName>Micha/l Anio/l</addName>
+            <addName>Michael Angelo</addName>
+            <addName>Michael Angelus</addName>
+            <addName>Michael-Angelo Buonaroti</addName>
+            <addName>Michael-Angelo</addName>
+            <addName>Michał Anioł</addName>
+            <addName>Michel Angelo</addName>
+            <addName>Michel Angelus Bonarotus</addName>
+            <addName>Michel Angelus</addName>
+            <addName>Michel Angielo Bona Rotta</addName>
+            <addName>Michelagelo Buonarroti</addName>
+            <addName>Michelagelo</addName>
+            <addName>Michelagniolo Buonaroti</addName>
+            <addName>Michelagniolo</addName>
+            <addName>Michelagniolo di Ludovico di Lionardo Buonarroti-Simoni</addName>
+            <addName>Michelagniolo di Ludovico di Lionardo di Buonarroti Simoni</addName>
+            <addName>Michelagnolo</addName>
+            <addName>Michelagnolo Buonarotti</addName>
+            <addName>Michelangelo</addName>
+            <addName>Buonarroti Michelangelo</addName>
+            <addName>Michelangelo Buonarroti 1475-1564</addName>
+            <addName>Michelangelus</addName>
+            <addName>Buonarroti Michelangiolo</addName>
+            <addName>Michelangiolo</addName>
+            <addName>Michiel Angielo</addName>
+            <addName>Miguel Angel</addName>
+            <addName>Mikel'andželo</addName>
+            <addName>Mikelandelo</addName>
+            <addName>Mikelandželo</addName>
+            <addName>Mikelandželo Buonarroti</addName>
+            <addName>Mikelandželo</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Apollon</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00542641</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00542641"
+                   key="#PND:118503642">Apollo<addName type="display">Apollon</addName>
+            <addName>Apoll</addName>
+            <addName>Apollo</addName>
+            <addName>Phoebus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Praxiteles</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00589123</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00589123"
+                   key="#PND:118793241">Praxiteles<addName type="display">Praxiteles</addName>
+            <addName>Prassitele</addName>
+            <addName>Praxitèle</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Plinius Secundus, C.</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01238749</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01238749"
+                   key="#PND:118595083">Plinius<addName type="display">Plinius Secundus, C.</addName>
+            <addName>C. Plinius Secundus</addName>
+            <addName>Caius Plinius Secundus</addName>
+            <addName>Gaius Plinius Secundus</addName>
+            <addName>C. Plinio Secondo</addName>
+            <addName>C. Plinius Secundus veronensis</addName>
+            <addName>C. Plynius Secundus</addName>
+            <addName>Caio Plinio Secondo</addName>
+            <addName>Caio Plinio veronese</addName>
+            <addName>Caius Plinius Secundus Major</addName>
+            <addName>Cajus Plinius Secundus</addName>
+            <addName>G. Plinio Secondo</addName>
+            <addName>Pline</addName>
+            <addName>Pline</addName>
+            <addName>Caius Pline</addName>
+            <addName>Pline l'Ancien</addName>
+            <addName>Pline l'ancien</addName>
+            <addName>Pline lA´ncien</addName>
+            <addName>Pline le Naturaliste</addName>
+            <addName>Pline lÁncien</addName>
+            <addName>C. Pline Second</addName>
+            <addName>Pline Second</addName>
+            <addName>Pline l'Ancien 23-79</addName>
+            <addName>Plinij</addName>
+            <addName>Plinio</addName>
+            <addName>Gaio Secondo Plinio</addName>
+            <addName>Plinio Napoletano</addName>
+            <addName>Plinio el Viejo</addName>
+            <addName>Plinio il Vecchio</addName>
+            <addName>Plinio il vecchio</addName>
+            <addName>Plinio Secondo</addName>
+            <addName>Gaio Plinio Secondo</addName>
+            <addName>Caio Plinio Secundo</addName>
+            <addName>Plinio Secundo</addName>
+            <addName>Cayo Plinio Segundo</addName>
+            <addName>Plinio Segundo</addName>
+            <addName>Plinio il vecchio/C. Plinius Secundus</addName>
+            <addName>Plinius</addName>
+            <addName>C. Plinius</addName>
+            <addName>Caius Plinius</addName>
+            <addName>Caius Secundus Plinius</addName>
+            <addName>Plinius Florentino-Pragensis</addName>
+            <addName>Plinius Florentinus-Pragensis</addName>
+            <addName>Plinius Maior</addName>
+            <addName>Plinius Major</addName>
+            <addName>Plinius Rerum Naturalium Scriptor</addName>
+            <addName>Plinius Senior</addName>
+            <addName>Plinius der Ältere</addName>
+            <addName>Plinius starší</addName>
+            <addName>Plinius Secundus</addName>
+            <addName>C Plinius Secundus</addName>
+            <addName>Plinius Secundus, Caius Major</addName>
+            <addName>Plinius Secundus, Gaius Maior</addName>
+            <addName>Gajus Plinius Secundus</addName>
+            <addName>Plinius Secundus Maior</addName>
+            <addName>Plinius Secundus der Ältere</addName>
+            <addName>C. Plinius Secundus Maior</addName>
+            <addName>Plinius Secundus Novocomenis</addName>
+            <addName>Plinius d. Ä.</addName>
+            <addName>Pliniusz</addName>
+            <addName>K. Starszy Pliniusz</addName>
+            <addName>Pliniusz Starszy</addName>
+            <addName>Pliniusz Starszy K.</addName>
+            <addName>Plinjusz</addName>
+            <addName>Caius Plynius Secundus</addName>
+            <addName>Plynius Secundus</addName>
+            <addName>Gaius Plynius Secundus</addName>
+            <addName>Caius P. Secundus</addName>
+            <addName>Secundus</addName>
+            <addName>Gaius P. Secundus</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

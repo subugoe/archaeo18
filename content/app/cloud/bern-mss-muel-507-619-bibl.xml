@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>V. Cailus Recueil T. II. p. 105</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/caylus1756bd2/0153</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://digi.ub.uni-heidelberg.de/diglit/caylus1756bd2/0153">V. Cailus Recueil T. II. p. 105</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Aedes Pembrockianae et Wildenhous p. 8</tag>
+      <facet>tei:bibl</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-619.tei.xml-d21678e300">Aedes
+          
+          Pembrockianae et Wildenhous p. 8</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Köremon T. II. p. 526</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN641196466</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN641196466">Köremon T. II. p.
+          
+          526</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Ezechiel XXIII. 14.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://han.sub.uni-goettingen.de/han/Makingofthemodernworld/galenet.galegroup.com/servlet/MOME?af=RN&amp;ae=U103661148&amp;srchtp=a&amp;ste=14</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://han.sub.uni-goettingen.de/han/Makingofthemodernworld/galenet.galegroup.com/servlet/MOME?af=RN&amp;ae=U103661148&amp;srchtp=a&amp;ste=14">Ezechiel XXIII. 14.</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+</tags>

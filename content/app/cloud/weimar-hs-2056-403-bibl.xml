@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Ancient paintique by G. Turnball Lond. 1744. Folio.</tag>
+      <facet>tei:bibl</facet>
+      <link/>
+      <count>8</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#">Ancient paintique by G. Turnball Lond. 1744. Folio.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Plin: XXXV.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://d-nb.info/gnd/4196444-5</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://d-nb.info/gnd/4196444-5">Plin: XXXV.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Das Zehnte Buch</tag>
+      <facet>tei:bibl</facet>
+      <link>http://d-nb.info/gnd/4119969-8</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://d-nb.info/gnd/4119969-8">Das Zehnte Buch</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Vitruvius Pollio</tag>
+      <facet>tei:bibl</facet>
+      <link>http://d-nb.info/gnd/4099392-9</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://d-nb.info/gnd/4099392-9">Beym <persName ref="#CerlID:cnp00396803" key="#PND:118627252">Vitruv<addName type="display">Vitruvius Pollio</addName>
+                  <addName>Marcus Vitruvius Pollio</addName>
+                  <addName>M. Vitruuius Pollio</addName>
+                  <addName>M. Vitruuius</addName>
+                  <addName>M.L. Vitruuius Pollio</addName>
+                  <addName>M.L. Vitruvio Pollione</addName>
+                  <addName>Marco Lucio Vitruvio Pollione</addName>
+                  <addName>Marcus V. Pollio</addName>
+                  <addName>Pollio</addName>
+                  <addName>Marc V. Pollion</addName>
+                  <addName>Pollion</addName>
+                  <addName>Marco Vitrubio</addName>
+                  <addName>Vitrubio</addName>
+                  <addName>Vitrue</addName>
+                  <addName>Vitruuius</addName>
+                  <addName>Vitruv</addName>
+                  <addName>Marc Vitruv Pollion</addName>
+                  <addName>Vitruv Pollion</addName>
+                  <addName>Marc Vitruve Pollion</addName>
+                  <addName>Vitruve Pollion</addName>
+                  <addName>Vitruve</addName>
+                  <addName>Vitruve de Formies</addName>
+                  <addName>Vitruve de Vérone</addName>
+                  <addName>Vitruve de Vérone</addName>
+                  <addName>Vitruvio</addName>
+                  <addName>Marcus Vitruvio Polion</addName>
+                  <addName>Vitruvio Polion</addName>
+                  <addName>Lucio Vitruvio Pollione</addName>
+                  <addName>Vitruvio Pollione</addName>
+                  <addName>Marco Vitruvio Pollione</addName>
+                  <addName>Marco L. Vitruvio Pollione</addName>
+                  <addName>M. Vitruvio</addName>
+                  <addName>Marco Vitruvio</addName>
+                  <addName>Vitruvio/Vitruvius Pollio</addName>
+                  <addName>Lucius Vitruvius Pollio</addName>
+                  <addName>M. Vitruvius Pollio</addName>
+                  <addName>Marcus Vitruvius</addName>
+                  <addName>Marcus P. Vitruvius</addName>
+                  <addName>Marcus Pollio Vitruvius</addName>
+                  <addName>Pollio Vitruvius</addName>
+                  <addName>Vitruvius Architekt</addName>
+                  <addName>Vitruvius Ingenieur</addName>
+                  <addName>Vitruvius Scriptor de Architectura</addName>
+                  <addName>Vitruvius Writer on Architecture</addName>
+                  <addName>Marcus Vitruvius-Pollio</addName>
+                  <addName>Vitruvius-Pollio</addName>
+               </persName>
+            </ref>
+         </bibl>
+      </nodes>
+   </tag>
+</tags>

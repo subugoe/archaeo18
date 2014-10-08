@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Dhelfoi</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:10005251 http://arachne.uni-koeln.de/item/topographie/500012</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:10005251 #http://arachne.uni-koeln.de/item/topographie/500012">Tempell zu <placeName ref="#GettyID:7010770">Delphis<addName type="display">Dhelfoi</addName>
+               <addName>Dhelfoi</addName>
+               <addName>Delphi</addName>
+               <addName>Delphes</addName>
+               <addName>Delfo</addName>
+               <addName>Pytho</addName>
+               <addName>Dhelfoí</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/29375</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/29375">Der in den Horto Medicis</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Ottoboni, Pietro (1667-1740)</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-82.tei.xml-d10349e208">Jn der <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000272">Gallerie des <persName ref="#CerlID:cnp00115759" key="#PND:100249582">Cardinals Ottoboni<addName type="display">Ottoboni, Pietro (1667-1740)</addName>
+                  <addName>Pietro Ottoboni</addName>
+                  <addName>Pietro Otthoboni</addName>
+                  <addName>Otthoboni</addName>
+                  <addName>Petrus Otthobonus</addName>
+                  <addName>Otthobonus</addName>
+                  <addName>Pietro  Ottoboni</addName>
+                  <addName>Ottoboni, Pietro  1667-1740</addName>
+                  <addName>Petrus Ottobonus</addName>
+                  <addName>Ottobonus</addName>
+               </persName>
+            </term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Ottoboni, Pietro (1667-1740)</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000272</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000272">Gallerie des <persName ref="#CerlID:cnp00115759" key="#PND:100249582">Cardinals Ottoboni<addName type="display">Ottoboni, Pietro (1667-1740)</addName>
+               <addName>Pietro Ottoboni</addName>
+               <addName>Pietro Otthoboni</addName>
+               <addName>Otthoboni</addName>
+               <addName>Petrus Otthobonus</addName>
+               <addName>Otthobonus</addName>
+               <addName>Pietro  Ottoboni</addName>
+               <addName>Ottoboni, Pietro  1667-1740</addName>
+               <addName>Petrus Ottobonus</addName>
+               <addName>Ottobonus</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Venezia</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/22170</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/22170">Der zu <placeName ref="#GettyID:7018159">Venedig<addName type="display">Venezia</addName>
+               <addName>Venezia</addName>
+               <addName>Venecia</addName>
+               <addName>Venedig</addName>
+               <addName>Venice</addName>
+               <addName>Venise</addName>
+               <addName>République de Venise</addName>
+               <addName>Venetia</addName>
+               <addName>Vinegia</addName>
+               <addName>Venetian</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Palazzo Farnese</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:153877 http://arachne.uni-koeln.de/item/objekt/12950</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:153877 #http://arachne.uni-koeln.de/item/objekt/12950">Jm <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000001">Palazzo Farnese</term> von schwartzen Marmor</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000001</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000001">Palazzo Farnese</term>
+      </nodes>
+   </tag>
+</tags>

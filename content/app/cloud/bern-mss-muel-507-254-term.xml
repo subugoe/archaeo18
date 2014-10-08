@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Herbert, Thomas</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-254.tei.xml-d4253e172">
+            <TEI:persName ref="#CerlID:cnp00368551" key="#PND:104340932">Pembrocke<addName type="display">Herbert, Thomas</addName>
+               <addName>Thomas Herbert</addName>
+               <addName>Thomas Pembrochiae</addName>
+               <addName>Pembrochiae</addName>
+               <addName>Thomas Pembroke</addName>
+               <addName>Pembroke</addName>
+               <addName>Thomas Herbert Pembroke</addName>
+               <addName>Thomas Herbert of Pembroke</addName>
+               <addName>Thomas of Pembroke</addName>
+               <addName>Thomas Pembroke, Earl, VIII.</addName>
+               <addName>Thomas</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+</tags>

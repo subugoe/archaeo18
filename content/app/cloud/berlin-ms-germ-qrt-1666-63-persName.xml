@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Bouchardon, Edme</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00397554</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00397554"
+                       key="#PND:118659456">Bouchardon<addName type="display">Bouchardon, Edme</addName>
+            <addName>Edme Bouchardon</addName>
+            <addName>Bonchardon</addName>
+            <addName>Buchardon</addName>
+            <addName>Edmundus Bouchardon</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Watelet, Claude Henri</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00966841</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00966841"
+                       key="#PND:122269950">Watelet<addName type="display">Watelet, Claude Henri</addName>
+            <addName>Claude Henri Watelet</addName>
+            <addName>Claude-Henri Watelet</addName>
+            <addName>Watelet</addName>
+            <addName>C.-H. Watelet</addName>
+            <addName>Claude H. Watelet</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Falconet, Étienne Maurice</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00398172</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00398172"
+                       key="#PND:118685872">Falckonet<addName type="display">Falconet, Étienne Maurice</addName>
+            <addName>Étienne Maurice Falconet</addName>
+            <addName>Etienne Falconet</addName>
+            <addName>Étienne M. Falconet</addName>
+            <addName>Étienne Maurice Falconet</addName>
+            <addName>Étienne-Maurice Falconet</addName>
+            <addName>Estienne Falconet</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

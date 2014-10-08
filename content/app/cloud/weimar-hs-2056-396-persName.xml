@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Balduin II. (von Courtenay)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01288203</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01288203">König Balduin<addName type="display">Balduin II. (von Courtenay)</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Louis (France, Roi, VIIII.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259866</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01259866"
+                   key="#PND:118729411">Heiligen
+                                                    Ludwig<addName type="display">Louis (France, Roi, VIIII.)</addName>
+            <addName>Lewis France, King, IX.</addName>
+            <addName>Lewis</addName>
+            <addName>Lodewĳk de Heilige</addName>
+            <addName>Lodewĳk</addName>
+            <addName>Lodewĳk IX 9 koning van Frankrĳk</addName>
+            <addName>Louis France, Roi, IX.</addName>
+            <addName>Louis IX 9 king of France</addName>
+            <addName>Louis Saint</addName>
+            <addName>Louys France, Roi, IX.</addName>
+            <addName>Louys</addName>
+            <addName>Louys Saint</addName>
+            <addName>Loys France, Roi, IX.</addName>
+            <addName>Loys</addName>
+            <addName>Ludovicus Francia, Rex, IX.</addName>
+            <addName>Ludovicus</addName>
+            <addName>Ludovicus Francia, Rex, VIIII.</addName>
+            <addName>Ludovicus Gallia, Rex, IX.</addName>
+            <addName>Ludovicus Gallia, Rex, VIIII.</addName>
+            <addName>Ludovicus IX rex Franciae</addName>
+            <addName>Ludovicus Sanctus</addName>
+            <addName>Ludovik Franzija, Koroł, VIIII.</addName>
+            <addName>Ludovik</addName>
+            <addName>Ludovik Franzija, Korol, IX.</addName>
+            <addName>Ludwig der Heilige</addName>
+            <addName>Ludwig Frankreich, König, VIIII.</addName>
+            <addName>Ludwig Frankreich, König, IX.</addName>
+            <addName>Saint Louis</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Charles (France, Roi, V.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00588398</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00588398"
+                   key="#PND:118776754">Carl V.<addName type="display">Charles (France, Roi, V.)</addName>
+            <addName>Carl V.</addName>
+            <addName>Charles Quint</addName>
+            <addName>Karl der Weise</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Peiresc, Nicolas Claude Fabri ¬de¬</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00890641</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00890641"
+                   key="#PND:118739840">Peirescius<addName type="display">Peiresc, Nicolas Claude Fabri ¬de¬</addName>
+            <addName>Nicolas Claude Fabri de Peiresc</addName>
+            <addName>Nicolas-Claude Fabri de Peiresc</addName>
+            <addName>Nicolas Fabri de Peiresc</addName>
+            <addName>Fabri de Peiresc</addName>
+            <addName>Nicolas Claude Fabri/de Peiresc</addName>
+            <addName>Fabri/de Peiresc</addName>
+            <addName>Nicolas-Claude Fabrio</addName>
+            <addName>Fabrio</addName>
+            <addName>Peiresc</addName>
+            <addName>Claude-Nicolas Fabri de Peiresc</addName>
+            <addName>Nicholas Claude Fabri de Peiresc</addName>
+            <addName>Nicolas Claude Peiresc</addName>
+            <addName>Nicolas Claude Fabri von Peiresc</addName>
+            <addName>Nicolas F. de Peiresc</addName>
+            <addName>Nicolas Fabri Peiresc</addName>
+            <addName>Nicolas-Claude Peiresc</addName>
+            <addName>Nicolas-Claude de Peiresc</addName>
+            <addName>Nicolaus C. de Peiresc</addName>
+            <addName>Nicolaus Claudius Fabricius de Peiresc</addName>
+            <addName>Nicolaus F. Peirescius</addName>
+            <addName>Peirescius</addName>
+            <addName>Nicolaus Fabricius Peirescius</addName>
+            <addName>Nicolaus Fabritius Peirescius</addName>
+            <addName>Fabritius Peireskius</addName>
+            <addName>Peireskius</addName>
+            <addName>Nicolaus Peyrescius</addName>
+            <addName>Peyrescius</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Augustus (Emperor of Rome)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00971385</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00971385"
+                   key="#PND:118505122">August<addName type="display">Augustus (Emperor of Rome)</addName>
+            <addName>Auguste Empereur</addName>
+            <addName>Auguste</addName>
+            <addName>Caio Giulio Cesare Ottaviano Augusto</addName>
+            <addName>Augusto</addName>
+            <addName>Cesare Augusto</addName>
+            <addName>Cesare Ottaviano Augusto</addName>
+            <addName>Ottaviano Augusto</addName>
+            <addName>Augustus Caesar</addName>
+            <addName>Caesar Augustus</addName>
+            <addName>Caesar Octavianus Augustus</addName>
+            <addName>Caius J. Augustus</addName>
+            <addName>Caius Julius Caesar Augustus</addName>
+            <addName>Cesar Octavianus Augustus</addName>
+            <addName>Gaius I. Augustus</addName>
+            <addName>Gaius Iulius Caesar Augustus</addName>
+            <addName>Gaius Iulius Caesar Octavianus Augustus</addName>
+            <addName>Gaius Julius Augustus</addName>
+            <addName>Gaius Julius Caesar Octavianus Augustus</addName>
+            <addName>Gaius Octavius Augustus</addName>
+            <addName>Iulius Caesar Octavianus Augustus</addName>
+            <addName>Octavianus Augustus</addName>
+            <addName>Octavius Caesar Augustus</addName>
+            <addName>Augustus Divus</addName>
+            <addName>Augustus Imperator</addName>
+            <addName>Augustus Imperium Romanum, Caesar</addName>
+            <addName>Augustus Kaiser</addName>
+            <addName>Augustus Römisches Reich, Kaiser</addName>
+            <addName>Augustus Roemisches Reich, Kaiser</addName>
+            <addName>Augustus Romanus</addName>
+            <addName>Augustus Verfasser der Res Gestae</addName>
+            <addName>Caius Octavianus Imperium Romanum, Imperator</addName>
+            <addName>Caius Octavianus</addName>
+            <addName>Caius Oktavius Imperium Romanum, Augustus</addName>
+            <addName>Caius Oktavius</addName>
+            <addName>Caius Oktavius Imperium Romanum, Imperator</addName>
+            <addName>Gaius Julius Caesar Octavianus</addName>
+            <addName>Gaius Octavius</addName>
+            <addName>Gaius Octavius Emperor of Rome</addName>
+            <addName>Octavian</addName>
+            <addName>Octavianus</addName>
+            <addName>Octavius</addName>
+            <addName>Octavius Caesar Emperor of Rome</addName>
+            <addName>Octavius Caesar</addName>
+            <addName>Octavius Augustus</addName>
+            <addName>Ottaviano</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Rossi, Domenico</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00579300</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00579300"
+                   key="#PND:124158102">Rubeis<addName type="display">Rossi, Domenico</addName>
+            <addName>Domenico Rossi</addName>
+            <addName>Domenico De Rossi</addName>
+            <addName>De Rossi</addName>
+            <addName>Domenico DeRossi</addName>
+            <addName>DeRossi</addName>
+            <addName>Domenico de Rossi</addName>
+            <addName>Dominicus de Rubeis</addName>
+            <addName>Rubeis</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Tiberius, Julius Caesar Augustus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00917337</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00917337"
+                   key="#PND:118622501">Tiberius<addName type="display">Tiberius, Julius Caesar Augustus</addName>
+            <addName>Julius Caesar Augustus Tiberius</addName>
+            <addName>Claudius Tiberius Nero Imperium Romanum, Imperator</addName>
+            <addName>Claudius Tiberius Nero</addName>
+            <addName>Claudius Nero Tiberius</addName>
+            <addName>Claudius</addName>
+            <addName>Iulius Tiberius</addName>
+            <addName>Iulius</addName>
+            <addName>Kaiser Tiberius</addName>
+            <addName>Nero Tiberius</addName>
+            <addName>Claudius T. Nero</addName>
+            <addName>Nero</addName>
+            <addName>Tiberio Imperatore</addName>
+            <addName>Tiberio</addName>
+            <addName>Tiberius Caesar</addName>
+            <addName>Tiberius Iulius Caesar Augustus</addName>
+            <addName>Tiberius Nero</addName>
+            <addName>Tiberius Caesar Augustus</addName>
+            <addName>Tiberius Imperator</addName>
+            <addName>Tiberius Medicus</addName>
+            <addName>Tiberius Römischer Kaiser</addName>
+            <addName>Tiberius Romanus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Germanicus, Caesar</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00980264</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00980264"
+                   key="#PND:118538748">Germani- 
+                                                    cus<addName type="display">Germanicus, Caesar</addName>
+            <addName>Caesar Germanicus</addName>
+            <addName>Iulius C. Germanicus</addName>
+            <addName>Julius C. Germanicus</addName>
+            <addName>Caesar</addName>
+            <addName>Claudius Caesar</addName>
+            <addName>Claudius</addName>
+            <addName>Germanico</addName>
+            <addName>Gaius Iulius Germanicus</addName>
+            <addName>Gaius Iulius Caesar Germanicus</addName>
+            <addName>Gajus Julius Germanicus</addName>
+            <addName>Iulius Caesar Germanicus</addName>
+            <addName>Julius Caesar Germanicus</addName>
+            <addName>Nero Claudius Germanicus</addName>
+            <addName>Germanicus Adoptivsohn des Tiberius</addName>
+            <addName>Germanicus Epigrammaticus</addName>
+            <addName>Iulius Caesar</addName>
+            <addName>Nero Claudius</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Rossi, Giovanni Giacomo ¬de¬</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00286540</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00286540"
+                   key="#PND:102417296">Albertus<addName type="display">Rossi, Giovanni Giacomo ¬de¬</addName>
+            <addName>Giovanni Giacomo de Rossi</addName>
+            <addName>Giovanni Giacomo DeRossi</addName>
+            <addName>DeRossi</addName>
+            <addName>Giovanni I. Rossi</addName>
+            <addName>Johann Jacobus de Rubeis</addName>
+            <addName>Rubeis</addName>
+            <addName>Giovanni Jacobus Rubeis</addName>
+            <addName>Giovanni Giacomo De Rossi</addName>
+            <addName>De Rossi</addName>
+            <addName>G. G. de Rossi</addName>
+            <addName>Giacomo Giovanni Rossi</addName>
+            <addName>Gio. Iacomo Rossi</addName>
+            <addName>Gio. Jacomo Rossi</addName>
+            <addName>Giovanni Giacomo Rossi</addName>
+            <addName>Giovanni Iacomo Rossi</addName>
+            <addName>Giovanni Jacomo Rossi</addName>
+            <addName>Giovanni Jacopo Rossi</addName>
+            <addName>Giacomo Giovanni Rubeis</addName>
+            <addName>Giovanni Jacopo Rubeis</addName>
+            <addName>I. I. de Rubeis</addName>
+            <addName>Io. Iacobus de Rubeis</addName>
+            <addName>Ioannes Iacobus de Rubeis</addName>
+            <addName>Jac. de Rubeis</addName>
+            <addName>Jacobus de Rubeis</addName>
+            <addName>Joannes Jacobus de Rubeis</addName>
+            <addName>Johann Jacob de Rubeis</addName>
+            <addName>Johannes Jacobi de Rubeis</addName>
+            <addName>Johannes Jacobus Rubeis</addName>
+            <addName>Johannes Jacobus de Rubeis</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Livia Drusilla (Römisches Reich, Kaiserin)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00550548</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00550548"
+                   key="#PND:119226014">Livia<addName type="display">Livia Drusilla (Römisches Reich, Kaiserin)</addName>
+            <addName>Iulia Augusta</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

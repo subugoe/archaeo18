@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Amor</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00542364</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00542364"
+                   key="#PND:11850262X">Amor<addName type="display">Amor</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Herakles</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00574918</link>
+      <count>8</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00574918"
+                   key="#PND:118639552">Hercules<addName type="display">Herakles</addName>
+            <addName>Ercole</addName>
+            <addName>Heracles</addName>
+            <addName>Hercules</addName>
+            <addName>Herkules</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Silvanus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00544746</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00544746"
+                   key="#PND:119006839">Sylvan<addName type="display">Silvanus</addName>
+            <addName>Silvan</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Merkur</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00575540</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00575540"
+                   key="#PND:118641077">Mercur<addName type="display">Merkur</addName>
+            <addName>Mercurius</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Paul (V, pape)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01238319</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01238319"
+                   key="#PND:118739530">Paulus 
+                   V.<addName type="display">Paul (V, pape)</addName>
+            <addName>Camillo Borghese</addName>
+            <addName>Borghese</addName>
+            <addName>Paolo V pape</addName>
+            <addName>Paolo</addName>
+            <addName>Paulus V pape</addName>
+            <addName>Borghese, Camillo 1552-1621</addName>
+            <addName>Camilus Borghesius</addName>
+            <addName>Borghesius</addName>
+            <addName>Camillus Burghesius</addName>
+            <addName>Paolo Papa, V.</addName>
+            <addName>Paolo Pontefice, V.</addName>
+            <addName>Paolo V</addName>
+            <addName>Paolo V.</addName>
+            <addName>Paolo V. Papa</addName>
+            <addName>Paul Pape, V.</addName>
+            <addName>Paul V</addName>
+            <addName>Paul V.</addName>
+            <addName>Paul V., Borghese</addName>
+            <addName>Paul V. Papa</addName>
+            <addName>Paulo V papa 1552-1621</addName>
+            <addName>Paulo</addName>
+            <addName>Paulus Papst, V.</addName>
+            <addName>Paulus Paus, V.</addName>
+            <addName>Paulus Pontifex Maximus, V.</addName>
+            <addName>Paulus Pontifex, V.</addName>
+            <addName>Paulus Pontifice Massimo, Quintus</addName>
+            <addName>Paulus V</addName>
+            <addName>Paulus V papa 1552-1621</addName>
+            <addName>Paulus V.</addName>
+            <addName>V Paulus papa</addName>
+            <addName>Paulus papa</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Nero (Imperium Romanum, Imperator)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00982828</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00982828"
+                   key="#PND:118586998">Nero<addName type="display">Nero (Imperium Romanum, Imperator)</addName>
+            <addName>Nero Claudius Caesar</addName>
+            <addName>Claudius Caesar</addName>
+            <addName>Claudius Nero</addName>
+            <addName>Claudius Nero Caesar</addName>
+            <addName>Domitius Ahenobarbus</addName>
+            <addName>Lucius Domitius Ahenobarbus Nero Claudius Caesar Augustus Germanicus</addName>
+            <addName>Néron Empereur</addName>
+            <addName>Néron</addName>
+            <addName>Néron Empereur</addName>
+            <addName>Néron</addName>
+            <addName>Nero Claudius</addName>
+            <addName>Nero Claudius Caesar Augustus Germanicus Imperator</addName>
+            <addName>Nero Claudius Caesar Augustus Germanicus</addName>
+            <addName>Nero Tiberius Claudius Imperator</addName>
+            <addName>Nero Tiberius Claudius</addName>
+            <addName>Claudius C. Nero</addName>
+            <addName>Nero Caesar</addName>
+            <addName>Nero Emperor of Rome</addName>
+            <addName>Nero Imperator</addName>
+            <addName>Nero Römisches Reich, Kaiser</addName>
+            <addName>Nero Römischer Kaiser</addName>
+            <addName>Nero Romanus</addName>
+            <addName>Klavdij Cezarʹ Neron</addName>
+            <addName>Neron</addName>
+            <addName>Neron Imperator Rismkij</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

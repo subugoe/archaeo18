@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Spon, Jacob</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00404793</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00404793"
+                       key="#PND:119228998">Spon<addName type="display">Spon, Jacob</addName>
+            <addName>Jacob Spon</addName>
+            <addName>S. Du Four</addName>
+            <addName>Du Four</addName>
+            <addName>I. S. D. M.</addName>
+            <addName>Spon</addName>
+            <addName>I. Spon</addName>
+            <addName>Iacob Spon</addName>
+            <addName>Isaac Spon</addName>
+            <addName>Jacques Spon</addName>
+            <addName>Jakob Spon</addName>
+            <addName>James Spon</addName>
+            <addName>Jaques Spon</addName>
+            <addName>Iacobus Sponius</addName>
+            <addName>Sponius</addName>
+            <addName>Jacobus Sponius</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Wheler, George</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01269394</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01269394"
+                       key="#PND:128378565">Wheler<addName type="display">Wheler, George</addName>
+            <addName>George Wheler</addName>
+            <addName>Wila</addName>
+            <addName>George Wheeler</addName>
+            <addName>Wheeler</addName>
+            <addName>Georgius Wheler</addName>
+            <addName>George Vuheler</addName>
+            <addName>Vuheler</addName>
+            <addName>Georg Wheeler</addName>
+            <addName>Wheeler, George Sir</addName>
+            <addName>Georg Wheler</addName>
+            <addName>Wheler, Georgius Sir</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-205.tei.xml-d13695e18">Ebrius</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Merkur</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00575540</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00575540"
+                       key="#PND:118641077">Merkur<addName type="display">Merkur</addName>
+            <addName>Mercurius</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Mars</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00586722</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00586722"
+                       key="#PND:118731181">Mars<addName type="display">Mars</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Meleagros (Sagengestalt)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00570957</link>
+      <count>4</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00570957"
+                       key="#PND:122695712">Meleager<addName type="display">Meleagros (Sagengestalt)</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Clemens (Papa, XIV.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00905328</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00905328"
+                       key="#PND:119215152">Ganganelli<addName type="display">Clemens (Papa, XIV.)</addName>
+            <addName>Clemens Papa, XIIII.</addName>
+            <addName>Clemens Papst, XIV.</addName>
+            <addName>Clemens XIV Pope</addName>
+            <addName>Clemens XIV.</addName>
+            <addName>Clement Pape, XIV.</addName>
+            <addName>Clemente Papa, XIV.</addName>
+            <addName>Clemente</addName>
+            <addName>Clemenz Papa, XIV.</addName>
+            <addName>Clemenz</addName>
+            <addName>Clément Papa, XIV</addName>
+            <addName>Clément</addName>
+            <addName>Clément XIV.</addName>
+            <addName>Clément XIVe Pape</addName>
+            <addName>Ganganelli</addName>
+            <addName>Clemens Ganganelli</addName>
+            <addName>Giovanni V. Ganganelli</addName>
+            <addName>Giovanni Vincenzo Antonio Ganganelli</addName>
+            <addName>Giovanni Vincenzo Antonio Lorenzo Ganganelli</addName>
+            <addName>Laurent Ganganelli</addName>
+            <addName>Lorenzo Ganganelli</addName>
+            <addName>Iklīmanḍūs Bābā, XIV.</addName>
+            <addName>Iklīmanḍūs</addName>
+            <addName>Iklīminḍūs Bābā, XIV.</addName>
+            <addName>Iklīminḍūs</addName>
+            <addName>Klemens Papa, XIV.</addName>
+            <addName>Klemens XIV. Papa</addName>
+            <addName>Lorenzo Fra</addName>
+            <addName>Lorenzo</addName>
+            <addName>Lorenzo Mönch</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

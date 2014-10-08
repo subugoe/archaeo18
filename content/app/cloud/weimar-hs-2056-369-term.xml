@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Philipp (Frankreich, Regent)</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000670</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000670">Samlung des <persName ref="#CerlID:cnp01101264" key="#PND:118820214">Hertzogs von Orleans<addName type="display">Philipp (Frankreich, Regent)</addName>
+               <addName>Herzog von Orleans</addName>
+               <addName>Philippe d' Orléans</addName>
+               <addName>Orléans</addName>
+               <addName>Philippe d' Orléans</addName>
+               <addName>Orléans, Philippe d' 1674-1723</addName>
+               <addName>Orléans</addName>
+               <addName>Philipp Orléans, Herzog, II.</addName>
+               <addName>Philippe de Bourbon</addName>
+               <addName>Philippe d'Orléans</addName>
+               <addName>Philippe Frankreich, Prinz, II.</addName>
+               <addName>Philippe le Régent</addName>
+               <addName>Philippe Orléans</addName>
+               <addName>Philippe Orléans, Duc, II.</addName>
+               <addName>Philippe Orléans, Duc, II</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000600</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000600">die Pfältzishe</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Blondel d'Azincourt</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-369.tei.xml-d12343e238"
+               type="collection">Samlung des <persName ref="#CerlID:cnp01288208">Blondel d´Azincourt<addName type="display">Blondel d'Azincourt</addName>
+               <addName>Blondel d'Azincurt</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Toul</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-369.tei.xml-d12343e305"
+               type="collection">Cabinet de la Bibliotheque de <placeName ref="#GettyID:7009506">St 
+                                            Genevieve<addName type="display">Toul</addName>
+               <addName>Toul</addName>
+               <addName>Tullum</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+</tags>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/5868</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/5868">Eine andere mit fliegendem Gewandte in 
+                                der Stellung als wenn er fliehen wollte</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:160874 http://arachne.uni-koeln.de/item/objekt/5876</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:160874 #http://arachne.uni-koeln.de/item/objekt/5876">Ein Todter an der Erde Liegender</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Dresden</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/5222</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/5222">Eine schöne alte Copie zu <placeName ref="#GettyID:7004455">Dresden<addName type="display">Dresden</addName>
+               <addName>Dresden</addName>
+               <addName>Dresde</addName>
+               <addName>Ďrežd'ane</addName>
+               <addName>Drezdane</addName>
+               <addName>Drezdzany</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:160878 http://arachne.uni-koeln.de/item/objekt/5882</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:160878 #http://arachne.uni-koeln.de/item/objekt/5882">Eine Tochter</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-163.tei.xml-d16631e84">Die zweite Tochter, die erste von 
+                                der Lincken Seite in der Gruppe</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:160877 http://arachne.uni-koeln.de/item/objekt/5878</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:160877 #http://arachne.uni-koeln.de/item/objekt/5878">Eine dritte</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Niobe</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:160869 http://arachne.uni-koeln.de/item/objekt/5866</link>
+      <count>4</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:160869 #http://arachne.uni-koeln.de/item/objekt/5866">Die aeltliche Figur, nach einigen der 
+                                Mann der <persName ref="#CerlID:cnp01300351">Niobe<addName type="display">Niobe</addName>
+            </persName>, nach andern der Paedago- 
+                                gus</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Firenze</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/gruppen/400097 http://arachne.uni-koeln.de/item/objekt/5897 http://arachne.uni-koeln.de/item/objekt/34735</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/gruppen/400097 #http://arachne.uni-koeln.de/item/objekt/5897 #http://arachne.uni-koeln.de/item/objekt/34735">Die beyden berühmten Ringer zu <placeName ref="#GettyID:7000457">Florenz<addName type="display">Firenze</addName>
+               <addName>Firenze</addName>
+               <addName>Florence</addName>
+               <addName>Florencia</addName>
+               <addName>Florenz</addName>
+               <addName>Fiorenza</addName>
+               <addName>Florentia</addName>
+               <addName>Florentine</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:160872 http://arachne.uni-koeln.de/item/objekt/5875</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:160872 #http://arachne.uni-koeln.de/item/objekt/5875">ein Sohn</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:160875 http://arachne.uni-koeln.de/item/objekt/5879</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:160875 #http://arachne.uni-koeln.de/item/objekt/5879">die Tochter</term>
+      </nodes>
+   </tag>
+</tags>

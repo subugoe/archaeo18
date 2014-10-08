@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/37514</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/37514">
+                         
+                         der Hand, in der andern ein Viereckigt 
+                         Stück.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/15857 http://arachne.uni-koeln.de/item/objekt/210977</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/15857 #http://arachne.uni-koeln.de/item/objekt/210977">er als 
+                         Held verjünget und vergöttert</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Palazzo Farnese</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-139.tei.xml-d4813e35">Ein junger im <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000001">Palazzo Farnese</term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000001</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000001">Palazzo Farnese</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Rondinini, Giuseppe</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-139.tei.xml-d4813e302">eine ältliche und 
+                             nackende im <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000454">Hauße <persName ref="#CerlID:cnp00607611" key="#PND:129494852">Rondinini<addName type="display">Rondinini, Giuseppe</addName>
+                  <addName>Giuseppe Rondinini</addName>
+               </persName>
+            </term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Rondinini, Giuseppe</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000454</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000454">Hauße <persName ref="#CerlID:cnp00607611" key="#PND:129494852">Rondinini<addName type="display">Rondinini, Giuseppe</addName>
+               <addName>Giuseppe Rondinini</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Campidoglio</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/16498</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/16498">eine 
+                         andere im <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000358">Campidoglio</term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000358</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000358">Campidoglio</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Germanicus, Caesar</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-139.tei.xml-d4813e338">
+            <persName ref="#CerlID:cnp00980264" key="#PND:118538748">Germanicus.<addName type="display">Germanicus, Caesar</addName>
+               <addName>Caesar Germanicus</addName>
+               <addName>Iulius C. Germanicus</addName>
+               <addName>Julius C. Germanicus</addName>
+               <addName>Caesar</addName>
+               <addName>Claudius Caesar</addName>
+               <addName>Claudius</addName>
+               <addName>Germanico</addName>
+               <addName>Gaius Iulius Germanicus</addName>
+               <addName>Gaius Iulius Caesar Germanicus</addName>
+               <addName>Gajus Julius Germanicus</addName>
+               <addName>Iulius Caesar Germanicus</addName>
+               <addName>Julius Caesar Germanicus</addName>
+               <addName>Nero Claudius Germanicus</addName>
+               <addName>Germanicus Adoptivsohn des Tiberius</addName>
+               <addName>Germanicus Epigrammaticus</addName>
+               <addName>Iulius Caesar</addName>
+               <addName>Nero Claudius</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Villa MontalteVersailles</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/14674</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/14674">in der <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000241">Villa Montalte</term> jezt Negroni. Gegenwärtig zu <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000606">Versailles</term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000241</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000241">Villa Montalte</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000606</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000606">Versailles</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/39110</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/39110">Ein wahrer und  
+                         treflicher Kopf von ihm</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Vipsanius Agrippa, MarcusVenezia</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/22373</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/22373">
+            <persName ref="#CerlID:cnp00977487" key="#PND:118501097">M. Agrippa<addName type="display">Vipsanius Agrippa, Marcus</addName>
+               <addName>Marcus Vipsanius Agrippa</addName>
+               <addName>Marcus Agrippa</addName>
+               <addName>Agrippa</addName>
+               <addName>Agrippa Ersteller einer Weltkarte</addName>
+               <addName>Marcus Vipsanius</addName>
+               <addName>Vipsanius, Marcus Agrippa</addName>
+               <addName>Vipsanius</addName>
+            </persName>.<term ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-139.tei.xml-d4813e800">Jm <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000197">Hauß <persName ref="#CerlID:cnp00563503 #CerlID:cnp01082064">Gri-  
+                         mani</persName>
+               </term> zu <placeName ref="#GettyID:7018159">Venedig<addName type="display">Venezia</addName>
+                  <addName>Venezia</addName>
+                  <addName>Venecia</addName>
+                  <addName>Venedig</addName>
+                  <addName>Venice</addName>
+                  <addName>Venise</addName>
+                  <addName>République de Venise</addName>
+                  <addName>Venetia</addName>
+                  <addName>Vinegia</addName>
+                  <addName>Venetian</addName>
+               </placeName>
+            </term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Venezia</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-139.tei.xml-d4813e800">Jm <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000197">Hauß <persName ref="#CerlID:cnp00563503 #CerlID:cnp01082064">Gri-  
+                         mani</persName>
+            </term> zu <placeName ref="#GettyID:7018159">Venedig<addName type="display">Venezia</addName>
+               <addName>Venezia</addName>
+               <addName>Venecia</addName>
+               <addName>Venedig</addName>
+               <addName>Venice</addName>
+               <addName>Venise</addName>
+               <addName>République de Venise</addName>
+               <addName>Venetia</addName>
+               <addName>Vinegia</addName>
+               <addName>Venetian</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Gri- mani</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000197</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000197">Hauß <persName ref="#CerlID:cnp00563503 #CerlID:cnp01082064">Gri-  
+                         mani</persName>
+         </term>
+      </nodes>
+   </tag>
+</tags>

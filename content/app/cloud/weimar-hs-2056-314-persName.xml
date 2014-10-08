@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Titus (Imperium Romanum, Imperator)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00396707</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00396707"
+                   key="#PND:118622951">Titus<addName type="display">Titus (Imperium Romanum, Imperator)</addName>
+            <addName>Flavius Vespasianus Titus</addName>
+            <addName>Titus Flavius Vespasianus</addName>
+            <addName>Flavius Vespasianus</addName>
+            <addName>Titus Vespasianus Augustus</addName>
+            <addName>Titus Vespasianus</addName>
+            <addName>Titus Imperator</addName>
+            <addName>Titus Römisches Reich, Kaiser</addName>
+            <addName>Titus Romanus</addName>
+            <addName>Vespasianus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Septime Sévère (empereur romain)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01239912</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01239912"
+                   key="#PND:118764659">Septimio Severo<addName type="display">Septime Sévère (empereur romain)</addName>
+            <addName>Lucius Septimius Severus Pertinax</addName>
+            <addName>Lucius Septimius Severus</addName>
+            <addName>Septimius Severus empereur romain</addName>
+            <addName>L. Septimius Severus Pertinax Augustus</addName>
+            <addName>Lucius Septimius Severus Pertinax Augustus</addName>
+            <addName>Septime Sévère/Septimius Severus</addName>
+            <addName>Septimus Severus</addName>
+            <addName>Settimio Severo</addName>
+            <addName>Seuerus</addName>
+            <addName>Severus</addName>
+            <addName>Lucius S. Severus</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

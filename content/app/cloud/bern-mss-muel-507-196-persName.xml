@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Mars</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00586722</link>
+      <count>8</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00586722"
+                       key="#PND:118731181">Mars<addName type="display">Mars</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Venus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00588078</link>
+      <count>4</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00588078"
+                       key="#PND:11876800X">Venus<addName type="display">Venus</addName>
+            <addName>Anadyomene  Beiname</addName>
+            <addName>Anadyomene</addName>
+            <addName>Arelatensis  Beiname</addName>
+            <addName>Arelatensis</addName>
+            <addName>aurea  Beiname</addName>
+            <addName>aurea</addName>
+            <addName>coelestis  Beiname</addName>
+            <addName>coelestis</addName>
+            <addName>Gnidia  Beiname</addName>
+            <addName>Gnidia</addName>
+            <addName>Marina  Beiname</addName>
+            <addName>Marina</addName>
+            <addName>Pelasgia  Beiname</addName>
+            <addName>Pelasgia</addName>
+            <addName>Pontia  Beiname</addName>
+            <addName>Pontia</addName>
+            <addName>Urania  Beiname</addName>
+            <addName>Urania</addName>
+            <addName>Victrix  Beiname</addName>
+            <addName>Victrix</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Verus, Lucius Aurelius</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00994597</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00994597"
+                       key="#PND:118643150">Luc: Verus<addName type="display">Verus, Lucius Aurelius</addName>
+            <addName>Lucius Aurelius Verus</addName>
+            <addName>Lucius Aelius Aurelius Commodus</addName>
+            <addName>Aelius Aurelius Commodus</addName>
+            <addName>Aurelius Commodus</addName>
+            <addName>Aurelius Verus</addName>
+            <addName>Caesar Lucius Aurelius Verus Augustus</addName>
+            <addName>Caesar Lucius Aurelius Verus</addName>
+            <addName>Lucius Ceionius Commodus</addName>
+            <addName>Ceionius Commodus</addName>
+            <addName>Commodus</addName>
+            <addName>Lucius Verus Imperium Romanum, Imperator</addName>
+            <addName>Lucius Verus</addName>
+            <addName>Lucius Verus Römisches Reich, Kaiser</addName>
+            <addName>Verus Emperor</addName>
+            <addName>Verus Imperator</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Giambologna</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00397992</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00397992"
+                       key="#PND:118678477">Giovanni di Bologna<addName type="display">Giambologna</addName>
+            <addName>Jos. de Bologna</addName>
+            <addName>de Bologna</addName>
+            <addName>Giovanni Bologna Fiammingo</addName>
+            <addName>Bologna Fiammingo</addName>
+            <addName>Giovanni da Bologna</addName>
+            <addName>Bologna</addName>
+            <addName>Joannes Bologna</addName>
+            <addName>Johannes Bologna</addName>
+            <addName>Jean Bologne</addName>
+            <addName>Bologne</addName>
+            <addName>Jean Boullongne</addName>
+            <addName>Boullongne</addName>
+            <addName>Jehan Boullongne</addName>
+            <addName>Jean Boulogne</addName>
+            <addName>Boulogne</addName>
+            <addName>Jean Boulongne</addName>
+            <addName>Boulongne</addName>
+            <addName>Giovanni Da Bologna</addName>
+            <addName>Da Bologna</addName>
+            <addName>Giovanni DaBologna</addName>
+            <addName>DaBologna</addName>
+            <addName>Fiammingo</addName>
+            <addName>Giambologa</addName>
+            <addName>Gian Bologna</addName>
+            <addName>Giovanni</addName>
+            <addName>Giovanni da Bolognese</addName>
+            <addName>Jean</addName>
+            <addName>Jean de Boulogne</addName>
+            <addName>John of Boulogne</addName>
+            <addName>John</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-196.tei.xml-d6239e297">Couston</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pyrrhus (Epirus, König)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00587177</link>
+      <count>4</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00587177"
+                       key="#PND:118743058">Pyrrhus<addName type="display">Pyrrhus (Epirus, König)</addName>
+            <addName>Pirr carʹ Ėpira</addName>
+            <addName>Pirr</addName>
+            <addName>Pirro Epiro, Re</addName>
+            <addName>Pirro</addName>
+            <addName>Pyrrhos Epeiros, König</addName>
+            <addName>Pyrrhos</addName>
+            <addName>Pyrrhos Epirus, König</addName>
+            <addName>Pyrrhos König der Molosser</addName>
+            <addName>Pyrrhos Sohn des Aiakides</addName>
+            <addName>Pyrrhos von Epeiros</addName>
+            <addName>Pyrrhos von Epirus</addName>
+            <addName>Pyrrhus Epirota</addName>
+            <addName>Pyrrhus Epirotes</addName>
+            <addName>Pyrrhus Historicus</addName>
+            <addName>Pyrrhus King of Epirus</addName>
+            <addName>Pyrrhus Rex</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Winckelmann, Johann Joachim</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00396916</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00396916"
+                       key="#PND:118633600">Wink<addName type="display">Winckelmann, Johann Joachim</addName>
+            <addName>Johann Joachim Winckelmann</addName>
+            <addName>Ioann Vinkelman</addName>
+            <addName>Vinkelman</addName>
+            <addName>Ioann. Vinkelman</addName>
+            <addName>Jochan Joachim Vinkelman</addName>
+            <addName>Johann Vinkelmann</addName>
+            <addName>Vinkelmann</addName>
+            <addName>I. I. Vinkelʹman</addName>
+            <addName>Vinkelʹman</addName>
+            <addName>Iogann Ioachim Vinkelʹman</addName>
+            <addName>Iogann-Ioachim Vinkelʹman</addName>
+            <addName>Winckelman</addName>
+            <addName>Johann Joachim Winckelman</addName>
+            <addName>Winckelman abbé Johann Joachim</addName>
+            <addName>Winckelmann</addName>
+            <addName>G. G. Winckelmann</addName>
+            <addName>G.G. Winckelmann</addName>
+            <addName>Giovanni Winckelmann</addName>
+            <addName>Giovanni Gioacchino Winckelmann</addName>
+            <addName>J Winckelmann</addName>
+            <addName>J. J. Winckelmann</addName>
+            <addName>Jean Joachim Winckelmann</addName>
+            <addName>Jean-Joachim Winckelmann</addName>
+            <addName>Joachim Johann Winckelmann</addName>
+            <addName>Joh. Jac. Winckelmann</addName>
+            <addName>Johann Winckelmann</addName>
+            <addName>Johann J. Winckelmann</addName>
+            <addName>Winckelmann, Johann Joachim 1717-1768</addName>
+            <addName>Johannes Joachim Winckelmann</addName>
+            <addName>Jojannes Joachim Winckelmann</addName>
+            <addName>Johannes Winckelmannus</addName>
+            <addName>Winckelmannus</addName>
+            <addName>Johannes J. Winckelmannus</addName>
+            <addName>Johannes Joachimus Winckelmannus</addName>
+            <addName>Johan̄ Winckelman̄</addName>
+            <addName>Winckelman̄</addName>
+            <addName>Johann Joachim Winkelman</addName>
+            <addName>Winkelman</addName>
+            <addName>Winkelman abbé Johann Joachim</addName>
+            <addName>Winkelmann</addName>
+            <addName>Giovanni Winkelmann</addName>
+            <addName>Hans J. Winkelmann</addName>
+            <addName>Ioh. Winkelmann</addName>
+            <addName>Johann Winkelmann</addName>
+            <addName>Johann J. Winkelmann</addName>
+            <addName>Johann Joachim Winkelmann</addName>
+            <addName>Winkelmann 1717-1768</addName>
+            <addName>Winkelmann abbé Johann Joachim</addName>
+            <addName>Joannes Winkelmannus</addName>
+            <addName>Winkelmannus</addName>
+            <addName>Johann J. Winkelmannus</addName>
+            <addName>Johannes Joachimus Wynckelmann</addName>
+            <addName>Wynckelmann</addName>
+            <addName>Hans J. Wynkelmann</addName>
+            <addName>Wynkelmann</addName>
+            <addName>Johann J. Wynkelmann</addName>
+            <addName>Johann Joachim Wynkelmann</addName>
+            <addName>Yôhân Yo'akim Wînqelman</addName>
+            <addName>Wînqelman</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Agamemnon</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00546214</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00546214"
+                       key="#PND:119059738">Agamemnon<addName type="display">Agamemnon</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

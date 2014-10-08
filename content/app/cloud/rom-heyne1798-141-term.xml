@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/18276</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/18276">In der Toga, opfernd</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/19780</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/19780">40.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/20400</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/20400">ächte Statue</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Vergilius Maro, Publius</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-141.tei.xml-d2857e67">
+            <persName ref="#CerlID:cnp01240997" key="#PND:118626574">Virgil<addName type="display">Vergilius Maro, Publius</addName>
+               <addName>Publius Vergilius Maro</addName>
+               <addName>Publius Virgilius Maro</addName>
+               <addName>Vergilij</addName>
+               <addName>Vergilio</addName>
+               <addName>P Virgilius Maro</addName>
+               <addName>Publiusz Wergiliusz Maro</addName>
+               <addName>Wergiliusz Maro</addName>
+               <addName>P Wergiliusz Maron</addName>
+               <addName>Wergiliusz Maron</addName>
+               <addName>Vergil</addName>
+               <addName>Virgil</addName>
+               <addName>Publio Virgilio Marone</addName>
+               <addName>Virgilio Marone</addName>
+               <addName>Wergiliusz</addName>
+               <addName>Publios Birgilios Maro</addName>
+               <addName>Birgilios Maro</addName>
+               <addName>Publ. Virgilius Mar.</addName>
+               <addName>Mar.</addName>
+               <addName>P. Vergilius Maro</addName>
+               <addName>Publius V. Maro</addName>
+               <addName>Maron</addName>
+               <addName>P. Vergilij Maron</addName>
+               <addName>P. Virgilio Marone</addName>
+               <addName>Marone</addName>
+               <addName>Publio V. Marone</addName>
+               <addName>Publius Virgilius Maroo</addName>
+               <addName>Maroo</addName>
+               <addName>P. Uergilius Maro</addName>
+               <addName>P. V. M.</addName>
+               <addName>P. Verg. Mar.</addName>
+               <addName>P. Vergilîj Maron</addName>
+               <addName>P. Virgilius Maro</addName>
+               <addName>P. Virgilius Maro Mantuanus</addName>
+               <addName>P. Wergiliusz Maron</addName>
+               <addName>P.V.M.</addName>
+               <addName>Pseudo-Vergilius</addName>
+               <addName>Pseudo-Virgilio</addName>
+               <addName>Pub. Virgilius Maro</addName>
+               <addName>Pub.V.M.</addName>
+               <addName>Publij Vergilij Maron</addName>
+               <addName>Uergilius</addName>
+               <addName>Uirgilius</addName>
+               <addName>V. M.</addName>
+               <addName>Verghiliù</addName>
+               <addName>Vergil</addName>
+               <addName>Publius Vergile Maron</addName>
+               <addName>Vergile Maron</addName>
+               <addName>Vergilij Maron P.</addName>
+               <addName>Vergilius</addName>
+               <addName>Vergilius</addName>
+               <addName>Augusteus Vergilius</addName>
+               <addName>Publius M. Vergilius</addName>
+               <addName>Publius Maro Vergilius</addName>
+               <addName>Vergilius Poeta</addName>
+               <addName>Vergilius von Andes</addName>
+               <addName>Vergilius von Mantua</addName>
+               <addName>Vergilius Maro</addName>
+               <addName>Pub. Vergilius Maro</addName>
+               <addName>Publius Vergilius-Maro</addName>
+               <addName>Vergilius-Maro</addName>
+               <addName>Vergill</addName>
+               <addName>Veržiliu</addName>
+               <addName>Virgil</addName>
+               <addName>Publius Virgile</addName>
+               <addName>Virgile d'Andes</addName>
+               <addName>Virgile Maron</addName>
+               <addName>Publius Virgile de Mantoue</addName>
+               <addName>Virgile de Mantoue</addName>
+               <addName>Publius Virgile de Mantove</addName>
+               <addName>Virgile de Mantove</addName>
+               <addName>P. Virgilij Maron</addName>
+               <addName>Virgilij Maron</addName>
+               <addName>Virgilio</addName>
+               <addName>Virgilio Mantoano</addName>
+               <addName>Virgilio Mantuano</addName>
+               <addName>Publio Virgilio Maron</addName>
+               <addName>Virgilio Maron</addName>
+               <addName>Publius Virgilio Marone</addName>
+               <addName>Publio Virgilio Marón</addName>
+               <addName>Virgilio Marón</addName>
+               <addName>Publio Virgilio Marón</addName>
+               <addName>Virgilio Marón</addName>
+               <addName>Virgilius</addName>
+               <addName>Virgilius</addName>
+               <addName>Ioann de Virgilius</addName>
+               <addName>Ioannes de Virgilius</addName>
+               <addName>Iohann de Virgilius</addName>
+               <addName>Joannes de Virgilius</addName>
+               <addName>Johann de Virgilius</addName>
+               <addName>Publius Virgilius</addName>
+               <addName>Virgilius Maro P., Publius Vergilius</addName>
+               <addName>Publius Virgilius Maronis</addName>
+               <addName>Virgilius Maronis</addName>
+               <addName>Publius Virgilius Maroos</addName>
+               <addName>Virgilius Maroos</addName>
+               <addName>Virgill</addName>
+               <addName>Virjile"</addName>
+               <addName>Publius Wergilius Maro</addName>
+               <addName>Wergilius Maro</addName>
+               <addName>Publius Wergilius Maronis</addName>
+               <addName>Wergilius Maronis</addName>
+               <addName>Wergiljusz</addName>
+               <addName>Publius Wirgilius Maro</addName>
+               <addName>Wirgilius Maro</addName>
+               <addName>Wirgiliusz</addName>
+               <addName>Publiusz Wirgiliusz Maro</addName>
+               <addName>Wirgiliusz Maro</addName>
+               <addName>Publiusz Wirgiliusz Maron</addName>
+               <addName>Wirgiliusz Maron</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Vipsanius Agrippa, Marcus</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/22373</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/22373">
+            <persName ref="#CerlID:cnp00977487" key="#PND:118501097">Agrippa<addName type="display">Vipsanius Agrippa, Marcus</addName>
+               <addName>Marcus Vipsanius Agrippa</addName>
+               <addName>Marcus Agrippa</addName>
+               <addName>Agrippa</addName>
+               <addName>Agrippa Ersteller einer Weltkarte</addName>
+               <addName>Marcus Vipsanius</addName>
+               <addName>Vipsanius, Marcus Agrippa</addName>
+               <addName>Vipsanius</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000197</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000197">Cremani</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>VeneziaRoma</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-141.tei.xml-d2857e713">Statue, die zu<placeName ref="#GettyID:7018159">Venedig<addName type="display">Venezia</addName>
+               <addName>Venezia</addName>
+               <addName>Venecia</addName>
+               <addName>Venedig</addName>
+               <addName>Venice</addName>
+               <addName>Venise</addName>
+               <addName>République de Venise</addName>
+               <addName>Venetia</addName>
+               <addName>Vinegia</addName>
+               <addName>Venetian</addName>
+            </placeName>
+            <placeName ref="#GettyID:7000874">Rom<addName type="display">Roma</addName>
+               <addName>Roma</addName>
+               <addName>Urbe</addName>
+               <addName>Rome</addName>
+               <addName>Rom</addName>
+               <addName>Roman</addName>
+            </placeName> auf der <placeName ref="#http://arachne.uni-koeln.de/item/topographie/8005560">Rotonda</placeName> stand</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Germanicus, Caesar</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/14674</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/14674">
+            <persName ref="#CerlID:cnp00980264" key="#PND:118538748">Germanicus<addName type="display">Germanicus, Caesar</addName>
+               <addName>Caesar Germanicus</addName>
+               <addName>Iulius C. Germanicus</addName>
+               <addName>Julius C. Germanicus</addName>
+               <addName>Caesar</addName>
+               <addName>Claudius Caesar</addName>
+               <addName>Claudius</addName>
+               <addName>Germanico</addName>
+               <addName>Gaius Iulius Germanicus</addName>
+               <addName>Gaius Iulius Caesar Germanicus</addName>
+               <addName>Gajus Julius Germanicus</addName>
+               <addName>Iulius Caesar Germanicus</addName>
+               <addName>Julius Caesar Germanicus</addName>
+               <addName>Nero Claudius Germanicus</addName>
+               <addName>Germanicus Adoptivsohn des Tiberius</addName>
+               <addName>Germanicus Epigrammaticus</addName>
+               <addName>Iulius Caesar</addName>
+               <addName>Nero Claudius</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000241</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000241">V. Negroni.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/16082</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/16082">Mus. Cap. 2. 9.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Herculanum</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/13175</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/13175">Bronce über Lebensgröße aus <placeName ref="#GettyID:7047982">Herculanum</placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/13404</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/13404">Seine Gemalin</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Caligula (Imperium Romanum, Imperator)</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/18277</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/18277">
+            <persName ref="#CerlID:cnp00984012" key="#PND:118518410">Cajus Caligula<addName type="display">Caligula (Imperium Romanum, Imperator)</addName>
+               <addName>Gaius Iulius Caligula Caesar Germanicus</addName>
+               <addName>Caesar Germanicus</addName>
+               <addName>Gaius Caligula Iulius Caesar Germanicus</addName>
+               <addName>Caligula Iulius Caesar Germanicus</addName>
+               <addName>Caius Caligula</addName>
+               <addName>Gaius Caligula</addName>
+               <addName>Caligula Römischer Kaiser</addName>
+               <addName>Gaius Iulius Caesar Germanicus</addName>
+               <addName>Germanicus</addName>
+            </persName> als Heros, nackt</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Iulia Drusilla</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/351069</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/351069">Mit
+                                        der Schwester <persName ref="#CerlID:cnp01300276">Drusilla<addName type="display">Iulia Drusilla</addName>
+               <addName>Drusilla</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Dresden</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/152617</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/152617">in <placeName ref="#GettyID:7004455">Dresden<addName type="display">Dresden</addName>
+               <addName>Dresden</addName>
+               <addName>Dresde</addName>
+               <addName>Ďrežd'ane</addName>
+               <addName>Drezdane</addName>
+               <addName>Drezdzany</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+</tags>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Rondinini, Giuseppe</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00607611</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00607611"
+                       key="#PND:129494852">Rondninin<addName type="display">Rondinini, Giuseppe</addName>
+            <addName>Giuseppe Rondinini</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/berlin-ms-germ-qrt-1666-132.tei.xml-d14481e87">Mylord Parret von Corck</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pyrrhus (Epirus, König)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00587177</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00587177"
+                       key="#PND:118743058">Pirrhus<addName type="display">Pyrrhus (Epirus, König)</addName>
+            <addName>Pirr carʹ Ėpira</addName>
+            <addName>Pirr</addName>
+            <addName>Pirro Epiro, Re</addName>
+            <addName>Pirro</addName>
+            <addName>Pyrrhos Epeiros, König</addName>
+            <addName>Pyrrhos</addName>
+            <addName>Pyrrhos Epirus, König</addName>
+            <addName>Pyrrhos König der Molosser</addName>
+            <addName>Pyrrhos Sohn des Aiakides</addName>
+            <addName>Pyrrhos von Epeiros</addName>
+            <addName>Pyrrhos von Epirus</addName>
+            <addName>Pyrrhus Epirota</addName>
+            <addName>Pyrrhus Epirotes</addName>
+            <addName>Pyrrhus Historicus</addName>
+            <addName>Pyrrhus King of Epirus</addName>
+            <addName>Pyrrhus Rex</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Mars</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00586722</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00586722"
+                       key="#PND:118731181">Mars<addName type="display">Mars</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

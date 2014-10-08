@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Museum Palatinum</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/beger1685</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/beger1685">Museum Palatinum</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>La Chaux (Abbé de) und Le Blond haben die vorzüglichsten beschrieben. 1700. 84. 2. kl. Fol. bände.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/books/LaChausse1700</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://arachne.uni-koeln.de/books/LaChausse1700">La Chaux (Abbé de) und Le Blond haben die vorzüglichsten
+                            beschrieben. 1700. 84. 2. kl. Fol. bände.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+</tags>

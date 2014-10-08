@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Niobe</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:158365 http://arachne.uni-koeln.de/item/objekt/5880</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:158365 #http://arachne.uni-koeln.de/item/objekt/5880">
+            <persName ref="#CerlID:cnp01300351">Niobe<addName type="display">Niobe</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Villa Medicis</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:158365 http://arachne.uni-koeln.de/item/gruppen/400073</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:158365 #http://arachne.uni-koeln.de/item/gruppen/400073">Die berühmte Gruppe ist in der <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000435">Villa 
+                                 Medicis</term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000435</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000435">Villa 
+                                 Medicis</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-162.tei.xml-d12513e556">Die einzige Vor- 
+                                     stellung</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:160871 http://arachne.uni-koeln.de/item/objekt/5869</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:160871 #http://arachne.uni-koeln.de/item/objekt/5869">Der eine von den Söhnen vorne an 
+                                 auf einem Knie ruhendt, nackend und 
+                                 den Fuß an einen Stein gestemmet</term>
+      </nodes>
+   </tag>
+</tags>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Havercamp. Catalogus.</tag>
+      <facet>tei:bibl</facet>
+      <link/>
+      <count>6</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#">Havercamp. Catalogus.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Hesiodus.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://d-nb.info/gnd/4266454-8</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://d-nb.info/gnd/4266454-8">Hesiodus.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Henninger. Theatra Geanolog.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://www.zvdd.de/dms/load/met/?PPN=urn%3Anbn%3Ade%3Abvb%3A12-bsb10143208-2</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://www.zvdd.de/dms/load/met/?PPN=urn%3Anbn%3Ade%3Abvb%3A12-bsb10143208-2">Henninger. Theatra Geanolog.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Herbert. Dict: pictor:</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN656167408</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN656167408">Herbert. Dict: pictor:</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Hinsworth. monum. vetestat. Kemp.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN662508939</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN662508939">Hinsworth. monum. vetestat. Kemp.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Homer. Iliad.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://d-nb.info/gnd/4135525-8</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://d-nb.info/gnd/4135525-8">Homer. Iliad.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Horatius.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://d-nb.info/gnd/4072625-3 http://d-nb.info/gnd/4265563-8 http://d-nb.info/gnd/4336053-1</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://d-nb.info/gnd/4072625-3 #http://d-nb.info/gnd/4265563-8 #http://d-nb.info/gnd/4336053-1">Horatius.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Humphr. Prideau. marm. Ox.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://www.zvdd.de/dms/load/met/?PPN=urn%3Anbn%3Ade%3Abvb%3A12-bsb10211743-2</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://www.zvdd.de/dms/load/met/?PPN=urn%3Anbn%3Ade%3Abvb%3A12-bsb10211743-2">Humphr. Prideau. marm. Ox.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Iunius de pictura veter.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN660711885</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN660711885">Iunius de pictura veter.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Ianon di St. Laurent sopra le pietro pretiosi degl´ant.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN668371781</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN668371781">Ianon di St. Laurent sopra le 
+          pietro pretiosi degl´ant.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Iournal de Trevoux</tag>
+      <facet>tei:bibl</facet>
+      <link>http://hdl.handle.net/2027/ucm.5326180812</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://hdl.handle.net/2027/ucm.5326180812">Iournal de Trevoux</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Iombere. elem ens des peintures &amp;</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN627108172</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN627108172">Iombere. elem ens des peintures &amp;</ref>
+         </bibl>
+      </nodes>
+   </tag>
+</tags>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Döll, Friedrich Wilhelm</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-130.tei.xml-d2421e17">Abguß
+                                        von <persName ref="#CerlID:cnp00559296" key="#PND:119560100">Döll<addName type="display">Döll, Friedrich Wilhelm</addName>
+               <addName>Friedrich Wilhelm Döll</addName>
+               <addName>Friedrich Wilhelm Doell</addName>
+               <addName>Doell</addName>
+               <addName>Friedrich Wilhelm Eugen Döll</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/gruppen/400048 http://arachne.uni-koeln.de/item/objekt/20070 http://arachne.uni-koeln.de/item/objekt/20071</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/gruppen/400048 #http://arachne.uni-koeln.de/item/objekt/20070 #http://arachne.uni-koeln.de/item/objekt/20071">Ein 2ter</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-130.tei.xml-d2421e51">Einer im Pallaste Lan-
+                                        celotti</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-130.tei.xml-d2421e61">Farnese</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Firenze</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:10034171 http://arachne.uni-koeln.de/item/objekt/130278</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:10034171 #http://arachne.uni-koeln.de/item/objekt/130278">in <placeName ref="#GettyID:7000457">Florenz<addName type="display">Firenze</addName>
+               <addName>Firenze</addName>
+               <addName>Florence</addName>
+               <addName>Florencia</addName>
+               <addName>Florenz</addName>
+               <addName>Fiorenza</addName>
+               <addName>Florentia</addName>
+               <addName>Florentine</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:10034209 http://arachne.uni-koeln.de/item/objekt/51846 http://arachne.uni-koeln.de/item/objekt/25128</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:10034209 #http://arachne.uni-koeln.de/item/objekt/51846 #http://arachne.uni-koeln.de/item/objekt/25128">T. 13.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>San Ildefonso o La Granja</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/11650</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/11650">Schwebend, vom Adler getragen zu <placeName ref="#GettyID:7007905">San Ildefonso<addName type="display">San Ildefonso o La Granja</addName>
+               <addName>San Ildefonso o La Granja</addName>
+               <addName>La Granja de San Ildefonso</addName>
+               <addName>San Ildefonso</addName>
+               <addName>Granja, La</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pacetti, Vicenzo</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/gruppen/400046 http://arachne.uni-koeln.de/item/objekt/20056 http://arachne.uni-koeln.de/item/objekt/20057</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/gruppen/400046 #http://arachne.uni-koeln.de/item/objekt/20056 #http://arachne.uni-koeln.de/item/objekt/20057">ein andres von <persName ref="#CerlID:cnp00568214" key="#PND:122154312">Pacetti<addName type="display">Pacetti, Vicenzo</addName>
+               <addName>Vicenzo Pacetti</addName>
+               <addName>Vincenzo Pacetti</addName>
+               <addName>Paceppi</addName>
+            </persName> ergänztes</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Potsdam</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-130.tei.xml-d2421e174">Zu <placeName ref="#GettyID:7004463">Sanssouci<addName type="display">Potsdam</addName>
+               <addName>Potsdam</addName>
+               <addName>Poztupimi</addName>
+               <addName>Poczdam</addName>
+               <addName>Potstamp</addName>
+               <addName>Postupim</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+</tags>

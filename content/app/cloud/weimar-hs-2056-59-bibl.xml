@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Mengs</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN622625942</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN622625942">Mengs</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Sonnenfels von dem Verdienste des Portrait-Mahlers.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://www.zvdd.de/dms/load/met/?PPN=urn%3Anbn%3Ade%3Absz%3A14-db-id3217269520</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://www.zvdd.de/dms/load/met/?PPN=urn%3Anbn%3Ade%3Absz%3A14-db-id3217269520">Sonnenfels von dem Verdienste des 
+            Portrait-Mahlers.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Winckelmann von der Allegorie</tag>
+      <facet>tei:bibl</facet>
+      <link>http://www.zvdd.de/dms/load/met/?PPN=urn%3Anbn%3Ade%3Abvb%3A12-bsb10522661-0</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://www.zvdd.de/dms/load/met/?PPN=urn%3Anbn%3Ade%3Abvb%3A12-bsb10522661-0">Winckelmann von der 
+            Allegorie</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Horapollinis hieroglyphica graece ac latine Ultraj. 1717.1727. 4. ed. Pau.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://www.archive.org/stream/horapollinishier00hora%23page/n6/mode/1up</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://www.archive.org/stream/horapollinishier00hora%23page/n6/mode/1up">Horapollinis hieroglyphica graece 
+            ac latine Ultraj. 1717.1727. 4. ed. Pau.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Io. Pierii Valeriani hieroglyphica. Leyden. 1626. Fol.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN665541074</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN665541074">Io. Pierii Valeriani hieroglyphica. 
+            Leyden. 1626. Fol.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Iconologia di Caesare Ripa. Siena 1613. 4.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/ripa1613ga</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/ripa1613ga">Iconologia di Caesare Ripa. Siena
+            1613. 4.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Iconologia de Boudart. Paris 1759. II. Volum.</tag>
+      <facet>tei:bibl</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#">Iconologia de Boudart. Paris 1759. II. Volum.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+</tags>

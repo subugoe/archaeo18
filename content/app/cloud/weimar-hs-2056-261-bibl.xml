@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Stat: XII.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://d-nb.info/gnd/4139525-6</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://d-nb.info/gnd/4139525-6">Stat: XII.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Plin: XXXIV. 19. 4.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://d-nb.info/gnd/4196444-5</link>
+      <count>6</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://d-nb.info/gnd/4196444-5">Plin: XXXIV. 19. 4.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Lucian de im.</tag>
+      <facet>tei:bibl</facet>
+      <link/>
+      <count>4</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#">Lucian de im.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Junius de pictura vete- rum.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN660711885</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN660711885">Junius de pictura vete- 
+                                    rum.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Ceaylus sur la sculpture des anciens. Memoir. des Inscr: XXV.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://hdl.handle.net/2027/ucm.5319456911?urlappend=%3Bseq=622</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://hdl.handle.net/2027/ucm.5319456911?urlappend=%3Bseq=622">Ceaylus sur la sculpture des 
+                                    anciens. Memoir. des Inscr: XXV.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Dictio- naire Encycloped: art: sculpture.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://find.galegroup.com/mome/infomark.do?&amp;contentSet=MOMEArticles&amp;type=multipage&amp;tabID=T001&amp;prodId=MOME&amp;docId=U3602259115&amp;source=gale&amp;userGroupName=nsub&amp;version=1.0&amp;docLevel=FASCIMILE</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://find.galegroup.com/mome/infomark.do?&amp;contentSet=MOMEArticles&amp;type=multipage&amp;tabID=T001&amp;prodId=MOME&amp;docId=U3602259115&amp;source=gale&amp;userGroupName=nsub&amp;version=1.0&amp;docLevel=FASCIMILE">Dictio- 
+                                    naire Encycloped: art: sculpture.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+</tags>

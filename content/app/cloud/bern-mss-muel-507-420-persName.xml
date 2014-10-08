@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Claudius (Imperium Romanum, Imperator, I.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00394473</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00394473"
+                       key="#PND:118521063">Claudius<addName type="display">Claudius (Imperium Romanum, Imperator, I.)</addName>
+            <addName>Claude Empereur</addName>
+            <addName>Claude</addName>
+            <addName>Tiberius Claudius Caesar</addName>
+            <addName>Claudius Caesar</addName>
+            <addName>Tiberius Claudius Nero Germanicus</addName>
+            <addName>Claudius Nero Germanicus</addName>
+            <addName>Tiberius C. Claudius</addName>
+            <addName>Claudius Imperator</addName>
+            <addName>Claudius Kaiser</addName>
+            <addName>Claudius Römisches Reich, Kaiser, I.</addName>
+            <addName>Tiberius Claudius Caesar Augustus Germanicus</addName>
+            <addName>Augustus Tiberius Claudius Caesar</addName>
+            <addName>Tiberius Claudius Caesar, Augustus Germanicus</addName>
+            <addName>Tiberius Claudius Imperator</addName>
+            <addName>Tiberius Claudius</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Apollonios (Vater des Archelaos)TurunçlarArchelaus (Prienaeus)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00283503</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00283503"
+                       key="#PND:102381100">Archelaus
+          
+          Sohn des <TEI:persName ref="#CerlID:cnp01427506">Apolonius<addName type="display">Apollonios (Vater des Archelaos)</addName>
+               <addName>Apolonius</addName>
+            </TEI:persName> von <TEI:placeName ref="#GettyID:7016803">Prierie<addName type="display">Turunçlar</addName>
+               <addName>Turunçlar</addName>
+               <addName>Turunglar</addName>
+               <addName>Samsun Kale</addName>
+               <addName>Priene</addName>
+               <addName>Kelebec</addName>
+               <addName>Gulubahce</addName>
+            </TEI:placeName> (in <TEI:placeName ref="#GettyID:7232897">Jonien</TEI:placeName>)<addName type="display">Archelaus (Prienaeus)</addName>
+            <addName>Archelaos Bildhauer</addName>
+            <addName>Archelaos</addName>
+            <addName>Archelaos Sohn des Apollonios</addName>
+            <addName>Archelaos von Priene</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Apollonios (Vater des Archelaos)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01427506</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01427506">Apolonius<addName type="display">Apollonios (Vater des Archelaos)</addName>
+            <addName>Apolonius</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Homer</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259620</link>
+      <count>4</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01259620"
+                       key="#PND:11855333X">Homer<addName type="display">Homer</addName>
+            <addName>Gomer</addName>
+            <addName>Hūmīrūs</addName>
+            <addName>Hūmar</addName>
+            <addName>Hūmir</addName>
+            <addName>Hōmar</addName>
+            <addName>Hômêrôs</addName>
+            <addName>Homère</addName>
+            <addName>Homēros</addName>
+            <addName>Homérosz</addName>
+            <addName>Homēros</addName>
+            <addName>Homère</addName>
+            <addName>Homere</addName>
+            <addName>Homero</addName>
+            <addName>Homeros</addName>
+            <addName>Homeros Tragiker</addName>
+            <addName>Homerosi</addName>
+            <addName>Homerus Colophonius</addName>
+            <addName>Homerus Colophonus</addName>
+            <addName>Homerus Dramatiker</addName>
+            <addName>Homerus Epicus</addName>
+            <addName>Omēros</addName>
+            <addName>Omero</addName>
+            <addName>Omiros</addName>
+            <addName>Pseudo-Homerus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Musen</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00539388</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00539388"
+                       key="#PND:118820656">Musen<addName type="display">Musen</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Jupiter</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00554429</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00554429"
+                       key="#PND:118558897">Jupiter<addName type="display">Jupiter</addName>
+            <addName>Iupiter</addName>
+            <addName>Juppiter</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

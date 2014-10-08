@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Phidias</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00562418</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00562418"
+                       key="#PND:118593765">Phidias<addName type="display">Phidias</addName>
+            <addName>Pheidias</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Praxiteles</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00589123</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00589123"
+                       key="#PND:118793241">Praxiteles<addName type="display">Praxiteles</addName>
+            <addName>Prassitele</addName>
+            <addName>Praxitèle</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Lysipp (von Sikyon)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00539734</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00539734"
+                       key="#PND:118833499">Lysippus<addName type="display">Lysipp (von Sikyon)</addName>
+            <addName>Lysippos</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Apelles</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00397365</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00397365"
+                       key="#PND:118649787">Apelles<addName type="display">Apelles</addName>
+            <addName>Appelles</addName>
+            <addName>Apelle</addName>
+            <addName>Apelles von Kolophon</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Plinius Secundus, C.</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01238749</link>
+      <count>4</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01238749"
+                       key="#PND:118595083">Plin<addName type="display">Plinius Secundus, C.</addName>
+            <addName>C. Plinius Secundus</addName>
+            <addName>Caius Plinius Secundus</addName>
+            <addName>Gaius Plinius Secundus</addName>
+            <addName>C. Plinio Secondo</addName>
+            <addName>C. Plinius Secundus veronensis</addName>
+            <addName>C. Plynius Secundus</addName>
+            <addName>Caio Plinio Secondo</addName>
+            <addName>Caio Plinio veronese</addName>
+            <addName>Caius Plinius Secundus Major</addName>
+            <addName>Cajus Plinius Secundus</addName>
+            <addName>G. Plinio Secondo</addName>
+            <addName>Pline</addName>
+            <addName>Pline</addName>
+            <addName>Caius Pline</addName>
+            <addName>Pline l'Ancien</addName>
+            <addName>Pline l'ancien</addName>
+            <addName>Pline lA´ncien</addName>
+            <addName>Pline le Naturaliste</addName>
+            <addName>Pline lÁncien</addName>
+            <addName>C. Pline Second</addName>
+            <addName>Pline Second</addName>
+            <addName>Pline l'Ancien 23-79</addName>
+            <addName>Plinij</addName>
+            <addName>Plinio</addName>
+            <addName>Gaio Secondo Plinio</addName>
+            <addName>Plinio Napoletano</addName>
+            <addName>Plinio el Viejo</addName>
+            <addName>Plinio il Vecchio</addName>
+            <addName>Plinio il vecchio</addName>
+            <addName>Plinio Secondo</addName>
+            <addName>Gaio Plinio Secondo</addName>
+            <addName>Caio Plinio Secundo</addName>
+            <addName>Plinio Secundo</addName>
+            <addName>Cayo Plinio Segundo</addName>
+            <addName>Plinio Segundo</addName>
+            <addName>Plinio il vecchio/C. Plinius Secundus</addName>
+            <addName>Plinius</addName>
+            <addName>C. Plinius</addName>
+            <addName>Caius Plinius</addName>
+            <addName>Caius Secundus Plinius</addName>
+            <addName>Plinius Florentino-Pragensis</addName>
+            <addName>Plinius Florentinus-Pragensis</addName>
+            <addName>Plinius Maior</addName>
+            <addName>Plinius Major</addName>
+            <addName>Plinius Rerum Naturalium Scriptor</addName>
+            <addName>Plinius Senior</addName>
+            <addName>Plinius der Ältere</addName>
+            <addName>Plinius starší</addName>
+            <addName>Plinius Secundus</addName>
+            <addName>C Plinius Secundus</addName>
+            <addName>Plinius Secundus, Caius Major</addName>
+            <addName>Plinius Secundus, Gaius Maior</addName>
+            <addName>Gajus Plinius Secundus</addName>
+            <addName>Plinius Secundus Maior</addName>
+            <addName>Plinius Secundus der Ältere</addName>
+            <addName>C. Plinius Secundus Maior</addName>
+            <addName>Plinius Secundus Novocomenis</addName>
+            <addName>Plinius d. Ä.</addName>
+            <addName>Pliniusz</addName>
+            <addName>K. Starszy Pliniusz</addName>
+            <addName>Pliniusz Starszy</addName>
+            <addName>Pliniusz Starszy K.</addName>
+            <addName>Plinjusz</addName>
+            <addName>Caius Plynius Secundus</addName>
+            <addName>Plynius Secundus</addName>
+            <addName>Gaius Plynius Secundus</addName>
+            <addName>Caius P. Secundus</addName>
+            <addName>Secundus</addName>
+            <addName>Gaius P. Secundus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pausanias</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00396071</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00396071"
+                       key="#PND:118592246">Pausanias<addName type="display">Pausanias</addName>
+            <addName>Pausania</addName>
+            <addName>Pausania il Periegeta</addName>
+            <addName>Pausanias Periegetos</addName>
+            <addName>Pausanias Damascenus</addName>
+            <addName>Pausanias de Magnésie</addName>
+            <addName>Pausanias de Magnésie</addName>
+            <addName>Pausanias der Perieget</addName>
+            <addName>Pausanias der Periegete</addName>
+            <addName>Pausanias Géographe</addName>
+            <addName>Pausanias Géographe</addName>
+            <addName>Pausanias Geographus</addName>
+            <addName>Pausanias Lydius</addName>
+            <addName>Pausanias Perieget</addName>
+            <addName>Pausanias Reiseschriftsteller</addName>
+            <addName>Pausanias Schriftsteller</addName>
+            <addName>Pauzanija</addName>
+            <addName>Periegeta</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Lucianus (Samosatensis)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259327</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01259327"
+                       key="#PND:118575228">Lucian<addName type="display">Lucianus (Samosatensis)</addName>
+            <addName>Lūqijānūs as-Sumaisāṭī</addName>
+            <addName>Lūqijānūs</addName>
+            <addName>Ljukijan iz Samosati</addName>
+            <addName>Ljukijan</addName>
+            <addName>Loekianos</addName>
+            <addName>Loukianos</addName>
+            <addName>Samosatensīs Lucíanus</addName>
+            <addName>Lucíanus</addName>
+            <addName>Lucian</addName>
+            <addName>Lucian of Samosata</addName>
+            <addName>Lucian of Samosta</addName>
+            <addName>Lucian Samosatensis</addName>
+            <addName>Lucian von Samosata</addName>
+            <addName>Lucianne de Samosata</addName>
+            <addName>Lucianne</addName>
+            <addName>Luciano</addName>
+            <addName>Luciano di Samosata</addName>
+            <addName>Luciano Scrittore Satirico</addName>
+            <addName>Luciano Sofista</addName>
+            <addName>Lucianos Scrittore Satirico</addName>
+            <addName>Lucianos</addName>
+            <addName>Lucianus de Samosata</addName>
+            <addName>Lucianus Nigrinus</addName>
+            <addName>Lucianus Philosophus</addName>
+            <addName>Lucianus Samosateus</addName>
+            <addName>Lucianus Satiricus</addName>
+            <addName>Lucianus Sophista</addName>
+            <addName>Lucianus van Samosata</addName>
+            <addName>Lucien</addName>
+            <addName>Lucien de Samosate</addName>
+            <addName>Lucien Sophiste</addName>
+            <addName>Lucius de Patras</addName>
+            <addName>Lucius</addName>
+            <addName>Lucius Philosophus</addName>
+            <addName>Lukian</addName>
+            <addName>Lukian iz Samosaty</addName>
+            <addName>Lukian v. Samosata</addName>
+            <addName>Lukian von Samosata</addName>
+            <addName>Lukiano</addName>
+            <addName>Lukianos</addName>
+            <addName>Lukianos Samōsateōs</addName>
+            <addName>Lukianos Samōsateōs</addName>
+            <addName>Lukianos Samosatēs</addName>
+            <addName>Lukianos Samosateos</addName>
+            <addName>Lukianos Satiriker</addName>
+            <addName>Lukianos Sophist</addName>
+            <addName>Lukianos van Samosata</addName>
+            <addName>Lukianos von Samosata</addName>
+            <addName>Lukianus von Samosata</addName>
+            <addName>Lukianus</addName>
+            <addName>Lutianus</addName>
+            <addName>Luz̲iyan</addName>
+            <addName>Pseudo-Luciano</addName>
+            <addName>Pseudo-Lucianus Samosatensis</addName>
+            <addName>Pseudo-Lucianus</addName>
+            <addName>Pseudo-Lucianus Samosatenus</addName>
+            <addName>Pseudo-Lucianus Sophista</addName>
+            <addName>Samosata</addName>
+            <addName>Luciano de Samosata</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Philostratus, Flavius</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00396124</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00396124"
+                       key="#PND:118594044">Philostratus<addName type="display">Philostratus, Flavius</addName>
+            <addName>Flavius Philostratus</addName>
+            <addName>Filóstrato</addName>
+            <addName>Flavio Filostrato</addName>
+            <addName>Filostrato</addName>
+            <addName>Filostrato di Lemno</addName>
+            <addName>Filostrato Maggiore</addName>
+            <addName>Filostrato Sofista</addName>
+            <addName>Flavius Philostratus der Ältere</addName>
+            <addName>Flavius</addName>
+            <addName>Flavius Philostrat</addName>
+            <addName>Philostrat</addName>
+            <addName>Philostrate d'Athènes</addName>
+            <addName>Philostrate</addName>
+            <addName>Philostrate d'Athènes</addName>
+            <addName>Philostrate Lemnien</addName>
+            <addName>Philostrate Polygraphe</addName>
+            <addName>Philostratos</addName>
+            <addName>Flavius Philostratos</addName>
+            <addName>Lemnius Philostratus</addName>
+            <addName>Philostratus der Ältere</addName>
+            <addName>Philostratus der Ältere</addName>
+            <addName>Philostratus II.</addName>
+            <addName>Philostratus Lemnius</addName>
+            <addName>Philostratus Maior</addName>
+            <addName>Philostratus Sohn des Philostratus</addName>
+            <addName>Philostratus Sophista</addName>
+            <addName>Philostratus von Lemnos</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Falconet, Étienne Maurice</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00398172</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00398172"
+                       key="#PND:118685872">Falconet<addName type="display">Falconet, Étienne Maurice</addName>
+            <addName>Étienne Maurice Falconet</addName>
+            <addName>Etienne Falconet</addName>
+            <addName>Étienne M. Falconet</addName>
+            <addName>Étienne Maurice Falconet</addName>
+            <addName>Étienne-Maurice Falconet</addName>
+            <addName>Estienne Falconet</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

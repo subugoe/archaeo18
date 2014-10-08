@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Maffei, Francesco Scipione (Marquis)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00913744</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00913744"
+                   key="#PND:119062518">Maffei<addName type="display">Maffei, Francesco Scipione (Marquis)</addName>
+            <addName>Francesco Scipione Maffei</addName>
+            <addName>Scipione Maffei</addName>
+            <addName>Scipio Maffaejus</addName>
+            <addName>Maffaejus</addName>
+            <addName>Scipio Maffaeus</addName>
+            <addName>Maffaeus</addName>
+            <addName>Francesco S. Maffei</addName>
+            <addName>Francesco Scipion Maffei</addName>
+            <addName>Maffei, Francesco Scipione marchese</addName>
+            <addName>Francesco-Scipione Maffei</addName>
+            <addName>Francisco-Scipione Maffei</addName>
+            <addName>Scipio von Maffei</addName>
+            <addName>Scipion Maffei</addName>
+            <addName>Scipione di Maffei</addName>
+            <addName>Scipionus Maffei</addName>
+            <addName>Maffei marchese</addName>
+            <addName>Scipio Maffeius</addName>
+            <addName>Maffeius</addName>
+            <addName>Scipio Maffejus</addName>
+            <addName>Maffejus</addName>
+            <addName>Scipio Maffeus</addName>
+            <addName>Maffeus</addName>
+            <addName>Scipius Maffeus</addName>
+            <addName>Franciscus Scipio Mafffeius</addName>
+            <addName>Mafffeius</addName>
+            <addName>Scipio Maphejus</addName>
+            <addName>Maphejus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Romulus und Remus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00545090</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00545090"
+                   key="#PND:119019620">Romulus<addName type="display">Romulus und Remus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Rossi, Domenico</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00579300</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00579300"
+                   key="#PND:124158102">Rubeis<addName type="display">Rossi, Domenico</addName>
+            <addName>Domenico Rossi</addName>
+            <addName>Domenico De Rossi</addName>
+            <addName>De Rossi</addName>
+            <addName>Domenico DeRossi</addName>
+            <addName>DeRossi</addName>
+            <addName>Domenico de Rossi</addName>
+            <addName>Dominicus de Rubeis</addName>
+            <addName>Rubeis</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Amor</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00542364</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00542364"
+                   key="#PND:11850262X">Amor<addName type="display">Amor</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Hagesander</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00539702</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00539702"
+                   key="#PND:118832115">Agesanders<addName type="display">Hagesander</addName>
+            <addName>Agesander</addName>
+            <addName>Hagesandros</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

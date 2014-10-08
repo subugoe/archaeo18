@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Wallmo- dischen Samlung</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-119.tei.xml-d6625e35">Jn der <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000632">Wallmo- 
+                     dischen Samlung</term> ist ein Herrliches Stück</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000632</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000632">Wallmo- 
+                     dischen Samlung</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Nahl, Johann AugustNahl, Johann AugustKassel</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-119.tei.xml-d6625e46">Eines von <persName ref="#CerlID:cnp00917980" key="#PND:119244853">Monat<addName type="display">Nahl, Johann August</addName>
+               <addName>Johann August Nahl</addName>
+               <addName>Johann A. Nahl</addName>
+               <addName>Johannes August Nahl</addName>
+            </persName> /: <persName ref="#CerlID:cnp00917980" key="#PND:119244853">Mr: Nahl<addName type="display">Nahl, Johann August</addName>
+               <addName>Johann August Nahl</addName>
+               <addName>Johann A. Nahl</addName>
+               <addName>Johannes August Nahl</addName>
+            </persName> :/ zu <placeName ref="#GettyID:7004431">Cassel<addName type="display">Kassel</addName>
+               <addName>Kassel</addName>
+               <addName>Cassel</addName>
+               <addName>Casle</addName>
+               <addName>Chassala</addName>
+               <addName>Chassela</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>KepheusAndromeda</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-119.tei.xml-d6625e103">
+            <persName ref="#CerlID:cnp01300246">Cepheus<addName type="display">Kepheus</addName>
+               <addName>Cepheus</addName>
+            </persName>. Vater der <persName ref="#CerlID:cnp00578206" key="#PND:118649302">Andro- 
+                meda<addName type="display">Andromeda</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Endymion</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/219117 http://arachne.uni-koeln.de/item/objekt/80248</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/219117 #http://arachne.uni-koeln.de/item/objekt/80248">
+            <persName ref="#CerlID:cnp01303729">Endymion<addName type="display">Endymion</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Narziss</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/5811</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/5811">
+            <persName ref="#CerlID:cnp00560695" key="#PND:118586467">Narcissus<addName type="display">Narziss</addName>
+               <addName>Narcissus</addName>
+               <addName>Narkissos</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:158343 http://arachne.uni-koeln.de/item/objekt/5841</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:158343 #http://arachne.uni-koeln.de/item/objekt/5841">Medeceishen Venus</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Villa Borghese</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-119.tei.xml-d6625e232">in <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000238">Villa Borghese</term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000238</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000238">Villa Borghese</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Palazzo Barbarino</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/21169</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/21169">im <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000007">Palazzo Barbarino</term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000007</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000007">Palazzo Barbarino</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Palazzo Odeschal- chi</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:10008664 http://arachne.uni-koeln.de/item/gruppen/402452 http://arachne.uni-koeln.de/item/objekt/11641 http://arachne.uni-koeln.de/item/objekt/11642 http://arachne.uni-koeln.de/item/objekt/56124</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:10008664 #http://arachne.uni-koeln.de/item/gruppen/402452 #http://arachne.uni-koeln.de/item/objekt/11641 #http://arachne.uni-koeln.de/item/objekt/11642 #http://arachne.uni-koeln.de/item/objekt/56124">zwey junge Figuren im <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000442">Palazzo Odeschal- 
+                     chi</term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000442</link>
+      <count>4</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000442">Palazzo Odeschal- 
+                     chi</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000003</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000003">Hortis 
+                     Ludowisiis</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-119.tei.xml-d6625e305"
+               type="collection">Aranjuez</term>
+      </nodes>
+   </tag>
+</tags>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Myron (Künstler)</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-64.tei.xml-d15199e256">von <persName ref="#CerlID:cnp00586879" key="#PND:118735497">Myron<addName type="display">Myron (Künstler)</addName>
+               <addName>Miron</addName>
+               <addName>Myron von Eleutherae</addName>
+            </persName> in Bronce</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Skopas</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-64.tei.xml-d15199e274">
+            <persName ref="#CerlID:cnp00589299" key="#PND:118797522">Scopas<addName type="display">Skopas</addName>
+               <addName>Scopas</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Praxiteles</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-64.tei.xml-d15199e287">
+            <persName ref="#CerlID:cnp00589123" key="#PND:118793241">Praxiteles<addName type="display">Praxiteles</addName>
+               <addName>Prassitele</addName>
+               <addName>Praxitèle</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pythagoras (von Rhegion)</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-64.tei.xml-d15199e302">
+            <persName ref="#CerlID:cnp00589153" key="#PND:118793756">Pythagoras<addName type="display">Pythagoras (von Rhegion)</addName>
+               <addName>Phythagoras</addName>
+               <addName>Pytagoras Reginus</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pytheus (Historicus)</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-64.tei.xml-d15199e318">
+            <persName ref="#CerlID:cnp00285695" key="#PND:102404879">Pytheus<addName type="display">Pytheus (Historicus)</addName>
+               <addName>Pytheos Architekt</addName>
+               <addName>Pytheos</addName>
+               <addName>Pytheos Bildhauer</addName>
+               <addName>Pytheos Historiker</addName>
+               <addName>Pytheus-Satyrus</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-64.tei.xml-d15199e339">Citharoedus</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Kalamis</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-64.tei.xml-d15199e345">
+            <persName ref="#CerlID:cnp00547172" key="#PND:119097087">Calamis<addName type="display">Kalamis</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+</tags>

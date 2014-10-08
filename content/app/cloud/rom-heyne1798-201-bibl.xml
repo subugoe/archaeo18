@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Beger bellum &amp; excidium Trojanum. 1699. 4.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN635658976</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN635658976">Beger bellum &amp; excidium Trojanum. 1699. 4.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Gori Inscript. T. 1. tab. 6.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN663392616</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN663392616">Gori Inscript. T. 1. tab. 6.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Torsini expl. marmoris Farnesiani 1. Bog. fol.</tag>
+      <facet>tei:bibl</facet>
+      <link/>
+      <count>4</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#">Torsini expl. marmoris Farnesiani 1. Bog. fol.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Indicazione antiquaria per la villa Albani. p. 120.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/item/buchseite/356968</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://arachne.uni-koeln.de/item/buchseite/356968">Indicazione antiquaria per la villa Albani. p. 120.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Inscrizzione anticche delle ville Albani. 1785. 4. p. 150. sq.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://reader.digitale-sammlungen.de/de/fs1/object/display/bsb10221619_00166.html</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://reader.digitale-sammlungen.de/de/fs1/object/display/bsb10221619_00166.html">Inscrizzione anticche delle ville Albani. 1785. 4.
+                            p. 150. sq.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Roma sotteranea von Ant. Basio., Rom 1632. gr fol.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/books/Bosio1632</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://arachne.uni-koeln.de/books/Bosio1632">Roma sotteranea von Ant. Basio., Rom 1632. gr fol.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>P. Aringhus R. sutteranea novissima 2. fol. 1651.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/books/Bosio1651Vol1 http://arachne.uni-koeln.de/books/Bosio1651Vol2</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://arachne.uni-koeln.de/books/Bosio1651Vol1 #http://arachne.uni-koeln.de/books/Bosio1651Vol2">P. Aringhus R. sutteranea novissima 2. fol. 1651.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Scluultere ê pitture sacre. 3 T. Rom 1737. fol.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/books/Bosio1737Vol1 http://arachne.uni-koeln.de/books/Bosio1746Vol2 http://arachne.uni-koeln.de/books/Bosio1754Vol3</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://arachne.uni-koeln.de/books/Bosio1737Vol1 #http://arachne.uni-koeln.de/books/Bosio1746Vol2 #http://arachne.uni-koeln.de/books/Bosio1754Vol3">Scluultere ê pitture
+                        sacre. 3 T. Rom 1737. fol.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+</tags>

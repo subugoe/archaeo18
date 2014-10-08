@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Polykrates (Tyrann)</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-393.tei.xml-d4607e56">Ring des <persName ref="#CerlID:cnp00862535" key="#PND:132258900">Polycrates<addName type="display">Polykrates (Tyrann)</addName>
+               <addName>Polykrates von Samos</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Licinius Lucullus, Lucius</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-393.tei.xml-d4607e75">Stein des <persName ref="#CerlID:cnp00400045" key="#PND:118780697">Lucullus<addName type="display">Licinius Lucullus, Lucius</addName>
+               <addName>Lucius Licinius Lucullus</addName>
+               <addName>Licinius</addName>
+               <addName>Licinius Lucullus, Lucius 0117?-0057? av. J.-C.</addName>
+               <addName>Lucjusz Licyniusz Lukullus</addName>
+               <addName>Licyniusz Lukullus</addName>
+               <addName>Lucio Licinio Lucullo</addName>
+               <addName>Lucullo</addName>
+               <addName>Lucullus Historicus</addName>
+               <addName>Lucullus Historiker</addName>
+               <addName>Lucullus Politiker</addName>
+               <addName>Lukullus</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pyrrhus (Epirus, König)</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-393.tei.xml-d4607e172">Stein des <persName ref="#CerlID:cnp00587177" key="#PND:118743058">Pyrrhus<addName type="display">Pyrrhus (Epirus, König)</addName>
+               <addName>Pirr carʹ Ėpira</addName>
+               <addName>Pirr</addName>
+               <addName>Pirro Epiro, Re</addName>
+               <addName>Pirro</addName>
+               <addName>Pyrrhos Epeiros, König</addName>
+               <addName>Pyrrhos</addName>
+               <addName>Pyrrhos Epirus, König</addName>
+               <addName>Pyrrhos König der Molosser</addName>
+               <addName>Pyrrhos Sohn des Aiakides</addName>
+               <addName>Pyrrhos von Epeiros</addName>
+               <addName>Pyrrhos von Epirus</addName>
+               <addName>Pyrrhus Epirota</addName>
+               <addName>Pyrrhus Epirotes</addName>
+               <addName>Pyrrhus Historicus</addName>
+               <addName>Pyrrhus King of Epirus</addName>
+               <addName>Pyrrhus Rex</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pocarus</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-393.tei.xml-d4607e231">Stein mit dem <persName ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-393.tei.xml-d4607e234">Pocarus</persName>
+         </term>
+      </nodes>
+   </tag>
+</tags>

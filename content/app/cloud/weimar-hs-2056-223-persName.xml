@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Corsini (Familie)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00557704</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00557704"
+                   key="#PND:119505355">Familie Corsini<addName type="display">Corsini (Familie)</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Rossi, Giovanni Giacomo ¬de¬</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00286540</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00286540"
+                   key="#PND:102417296">Rubeis<addName type="display">Rossi, Giovanni Giacomo ¬de¬</addName>
+            <addName>Giovanni Giacomo de Rossi</addName>
+            <addName>Giovanni Giacomo DeRossi</addName>
+            <addName>DeRossi</addName>
+            <addName>Giovanni I. Rossi</addName>
+            <addName>Johann Jacobus de Rubeis</addName>
+            <addName>Rubeis</addName>
+            <addName>Giovanni Jacobus Rubeis</addName>
+            <addName>Giovanni Giacomo De Rossi</addName>
+            <addName>De Rossi</addName>
+            <addName>G. G. de Rossi</addName>
+            <addName>Giacomo Giovanni Rossi</addName>
+            <addName>Gio. Iacomo Rossi</addName>
+            <addName>Gio. Jacomo Rossi</addName>
+            <addName>Giovanni Giacomo Rossi</addName>
+            <addName>Giovanni Iacomo Rossi</addName>
+            <addName>Giovanni Jacomo Rossi</addName>
+            <addName>Giovanni Jacopo Rossi</addName>
+            <addName>Giacomo Giovanni Rubeis</addName>
+            <addName>Giovanni Jacopo Rubeis</addName>
+            <addName>I. I. de Rubeis</addName>
+            <addName>Io. Iacobus de Rubeis</addName>
+            <addName>Ioannes Iacobus de Rubeis</addName>
+            <addName>Jac. de Rubeis</addName>
+            <addName>Jacobus de Rubeis</addName>
+            <addName>Joannes Jacobus de Rubeis</addName>
+            <addName>Johann Jacob de Rubeis</addName>
+            <addName>Johannes Jacobi de Rubeis</addName>
+            <addName>Johannes Jacobus Rubeis</addName>
+            <addName>Johannes Jacobus de Rubeis</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Lairesse, Gérard de</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00403394</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00403394"
+                   key="#PND:119052636">Lairesse<addName type="display">Lairesse, Gérard de</addName>
+            <addName>Gérard de Lairesse</addName>
+            <addName>Gérard De Lairesse</addName>
+            <addName>De Lairesse</addName>
+            <addName>Gerhard Lairese</addName>
+            <addName>Lairese</addName>
+            <addName>Gerhard de Lairese</addName>
+            <addName>G. de Lairesse</addName>
+            <addName>Gérard Lairesse</addName>
+            <addName>Gerard de Lairesse</addName>
+            <addName>Gerardus de Lairesse</addName>
+            <addName>Gerhard Lairesse</addName>
+            <addName>Gerhard de Lairesse</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

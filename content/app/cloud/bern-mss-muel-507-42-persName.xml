@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Pausanias</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00396071</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00396071"
+                       key="#PND:118592246">Pausanias<addName type="display">Pausanias</addName>
+            <addName>Pausania</addName>
+            <addName>Pausania il Periegeta</addName>
+            <addName>Pausanias Periegetos</addName>
+            <addName>Pausanias Damascenus</addName>
+            <addName>Pausanias de Magnésie</addName>
+            <addName>Pausanias de Magnésie</addName>
+            <addName>Pausanias der Perieget</addName>
+            <addName>Pausanias der Periegete</addName>
+            <addName>Pausanias Géographe</addName>
+            <addName>Pausanias Géographe</addName>
+            <addName>Pausanias Geographus</addName>
+            <addName>Pausanias Lydius</addName>
+            <addName>Pausanias Perieget</addName>
+            <addName>Pausanias Reiseschriftsteller</addName>
+            <addName>Pausanias Schriftsteller</addName>
+            <addName>Pauzanija</addName>
+            <addName>Periegeta</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Vitruvius Pollio</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00396803</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00396803"
+                       key="#PND:118627252">Vitruv<addName type="display">Vitruvius Pollio</addName>
+            <addName>Marcus Vitruvius Pollio</addName>
+            <addName>M. Vitruuius Pollio</addName>
+            <addName>M. Vitruuius</addName>
+            <addName>M.L. Vitruuius Pollio</addName>
+            <addName>M.L. Vitruvio Pollione</addName>
+            <addName>Marco Lucio Vitruvio Pollione</addName>
+            <addName>Marcus V. Pollio</addName>
+            <addName>Pollio</addName>
+            <addName>Marc V. Pollion</addName>
+            <addName>Pollion</addName>
+            <addName>Marco Vitrubio</addName>
+            <addName>Vitrubio</addName>
+            <addName>Vitrue</addName>
+            <addName>Vitruuius</addName>
+            <addName>Vitruv</addName>
+            <addName>Marc Vitruv Pollion</addName>
+            <addName>Vitruv Pollion</addName>
+            <addName>Marc Vitruve Pollion</addName>
+            <addName>Vitruve Pollion</addName>
+            <addName>Vitruve</addName>
+            <addName>Vitruve de Formies</addName>
+            <addName>Vitruve de Vérone</addName>
+            <addName>Vitruve de Vérone</addName>
+            <addName>Vitruvio</addName>
+            <addName>Marcus Vitruvio Polion</addName>
+            <addName>Vitruvio Polion</addName>
+            <addName>Lucio Vitruvio Pollione</addName>
+            <addName>Vitruvio Pollione</addName>
+            <addName>Marco Vitruvio Pollione</addName>
+            <addName>Marco L. Vitruvio Pollione</addName>
+            <addName>M. Vitruvio</addName>
+            <addName>Marco Vitruvio</addName>
+            <addName>Vitruvio/Vitruvius Pollio</addName>
+            <addName>Lucius Vitruvius Pollio</addName>
+            <addName>M. Vitruvius Pollio</addName>
+            <addName>Marcus Vitruvius</addName>
+            <addName>Marcus P. Vitruvius</addName>
+            <addName>Marcus Pollio Vitruvius</addName>
+            <addName>Pollio Vitruvius</addName>
+            <addName>Vitruvius Architekt</addName>
+            <addName>Vitruvius Ingenieur</addName>
+            <addName>Vitruvius Scriptor de Architectura</addName>
+            <addName>Vitruvius Writer on Architecture</addName>
+            <addName>Marcus Vitruvius-Pollio</addName>
+            <addName>Vitruvius-Pollio</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Juno</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00589422</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00589422"
+                       key="#PND:118800574">Juno<addName type="display">Juno</addName>
+            <addName>Cupra</addName>
+            <addName>Pronuba</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Hellen (Sagengestalt)Doros</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01427448</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01427448">
+                                Dorus <TEI:persName ref="#CerlID:cnp01427449">Hellen<addName type="display">Hellen (Sagengestalt)</addName>
+            </TEI:persName> Sohn<addName type="display">Doros</addName>
+            <addName>Dorus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Hellen (Sagengestalt)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01427449</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01427449">Hellen<addName type="display">Hellen (Sagengestalt)</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Oinomaos (Sagengestalt)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01427450</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01427450">Oenumaus<addName type="display">Oinomaos (Sagengestalt)</addName>
+            <addName>Oenumaus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

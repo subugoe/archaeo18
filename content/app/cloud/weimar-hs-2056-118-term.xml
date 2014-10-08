@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/gruppen/401467 http://arachne.uni-koeln.de/item/objekt/22179 http://arachne.uni-koeln.de/item/objekt/22180</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/gruppen/401467 #http://arachne.uni-koeln.de/item/objekt/22179 #http://arachne.uni-koeln.de/item/objekt/22180">Das berühmte Stück</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Cavaceppi, Bartolomeo</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:10034209 http://arachne.uni-koeln.de/item/objekt/25128 http://arachne.uni-koeln.de/item/objekt/51846</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:10034209 #http://arachne.uni-koeln.de/item/objekt/25128 #http://arachne.uni-koeln.de/item/objekt/51846">Einer von <persName ref="#CerlID:cnp00404698" key="#PND:119217597">Cavaceppi<addName type="display">Cavaceppi, Bartolomeo</addName>
+               <addName>Bartolomeo Cavaceppi</addName>
+            </persName> ergänzt</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Egremont, George O'Brien Wyndham (Earl of)</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000547</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000547">
+            <persName ref="#CerlID:cnp00573787" key="#PND:123166004">Milord Egremont<addName type="display">Egremont, George O'Brien Wyndham (Earl of)</addName>
+               <addName>George O'Brien Wyndham Egremont</addName>
+               <addName>George O'Brien Wyndham</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/5798</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/5798">der Phrygische König oder 
+                      Priester</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>EnglandBrowne, Lyde</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-118.tei.xml-d10165e248">Jn <placeName ref="#GettyID:7002445">England<addName type="display">England</addName>
+               <addName>England</addName>
+               <addName>Angleterre</addName>
+               <addName>Inglaterra</addName>
+               <addName>Inghilterra</addName>
+               <addName>English</addName>
+               <addName>Anglia</addName>
+               <addName>Britannia Romana</addName>
+               <addName>Britannia maior</addName>
+               <addName>Britannia propria</addName>
+            </placeName> im <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000560">Museo des H. <persName ref="#CerlID:cnp01288210">Brown<addName type="display">Browne, Lyde</addName>
+                  <addName>Lyde Browne</addName>
+                  <addName>Brown</addName>
+               </persName>
+            </term> 
+                      kommt ein Phrygischer Priester</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Browne, Lyde</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000560</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000560">Museo des H. <persName ref="#CerlID:cnp01288210">Brown<addName type="display">Browne, Lyde</addName>
+               <addName>Lyde Browne</addName>
+               <addName>Brown</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+</tags>

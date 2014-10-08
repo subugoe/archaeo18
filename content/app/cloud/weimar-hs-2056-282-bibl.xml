@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>I. C. Hagenbrochii de diptycho Brixiano epistola. Turici 1749.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://www.zvdd.de/dms/load/met/?PPN=urn%3Anbn%3Ade%3Abvb%3A12-bsb10211675-3</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://www.zvdd.de/dms/load/met/?PPN=urn%3Anbn%3Ade%3Abvb%3A12-bsb10211675-3">I. C. Hagenbrochii 
+                                         de diptycho Brixiano epistola. Turici 1749.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Ejusdem Epistola epigraphicae Figuri. 1747. 4.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://www.zvdd.de/dms/load/met/?PPN=urn%3Anbn%3Ade%3Abvb%3A12-bsb10221427-2</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://www.zvdd.de/dms/load/met/?PPN=urn%3Anbn%3Ade%3Abvb%3A12-bsb10221427-2">Ejusdem Epistola epigraphicae Figuri. 1747. 4.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Diptychon magni Consulis a Cph. Saxio Hag: Com: 1757. Folio.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/books/Saxe1757</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://arachne.uni-koeln.de/books/Saxe1757">Diptychon magni Consulis a Cph. Saxio 
+                                         Hag: Com: 1757. Folio.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>A. G. Gori. Thesaurus veterum diptychorum Florent: 1759. IV. Tom. Folio.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN667369902</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN667369902">A. G. Gori. Thesaurus veterum 
+                                         diptychorum Florent: 1759. IV. Tom. Folio.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Plin. XXXIV. 18.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://d-nb.info/gnd/4196444-5</link>
+      <count>4</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://d-nb.info/gnd/4196444-5">Plin. XXXIV. 
+                                         18.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+</tags>

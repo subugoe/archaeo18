@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000134</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000134">Villa Mattei</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Alexander (Magnus)</tag>
+      <facet>tei:term</facet>
+      <link>http://census.bbaw.de/easydb/censusID=1007647</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0" ref="#CensusID:1007647">Kopf <persName ref="#CerlID:cnp01259691" key="#PND:118501828">Alexandri Magni<addName type="display">Alexander (Magnus)</addName>
+               <addName>Ałekʹsandr Makedonacʹi</addName>
+               <addName>Alejandro Magno</addName>
+               <addName>Alejandro</addName>
+               <addName>Aleksandr</addName>
+               <addName>Alessandro Magno</addName>
+               <addName>Alessandro</addName>
+               <addName>Alexander de Grote</addName>
+               <addName>Alexander der Große</addName>
+               <addName>Alexander der Grosse</addName>
+               <addName>Alexander Epistolographus</addName>
+               <addName>Alexander III 3 koning van Macedonië</addName>
+               <addName>Alexander Kaiser</addName>
+               <addName>Alexander Macedonia, Rex, III.</addName>
+               <addName>Alexander Macedonis</addName>
+               <addName>Alexander Mazedonien, König, III.</addName>
+               <addName>Alexander of Macedon</addName>
+               <addName>Alexander Rex</addName>
+               <addName>Alexandre le Grand</addName>
+               <addName>Alexandre</addName>
+               <addName>Alexandros</addName>
+               <addName>Alexandros der Große</addName>
+               <addName>Alexandru cel Mare</addName>
+               <addName>Alexandru</addName>
+               <addName>Alexandrus Magnus</addName>
+               <addName>Alexandrus</addName>
+               <addName>Megalexandros</addName>
+               <addName>Pseudo-Alexander Magnus</addName>
+               <addName>Pseudo-Alexander</addName>
+               <addName>Grote</addName>
+               <addName>Alexandros Megas</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Cicero, Marcus Tullius</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-203.tei.xml-d15361e123">Kopf 
+                                         des <persName ref="#CerlID:cnp01259298" key="#PND:118520814">Cicero<addName type="display">Cicero, Marcus Tullius</addName>
+               <addName>Marcus Tullius Cicero</addName>
+               <addName>M. Tullius Cicero</addName>
+               <addName>M. T. Cicero</addName>
+               <addName>M. Tul Cicero</addName>
+               <addName>M. T. Ciceron</addName>
+               <addName>Ciceron</addName>
+               <addName>Marek Tullius Ciceron</addName>
+               <addName>Mark Tullij Ciceron</addName>
+               <addName>Cicerone</addName>
+               <addName>M. T. Cicerone</addName>
+               <addName>Marco Tullio Cicerone</addName>
+               <addName>M. Tulli Ciceronis</addName>
+               <addName>Ciceronis</addName>
+               <addName>Cycero</addName>
+               <addName>M. Tuljusz Cycero</addName>
+               <addName>M. Tulljusz Cycero</addName>
+               <addName>Marek Tullius Cycero</addName>
+               <addName>M. T. C.</addName>
+               <addName>Cecéron</addName>
+               <addName>Marcus Tullius Cic.</addName>
+               <addName>Cic.</addName>
+               <addName>Cicéron</addName>
+               <addName>Marcus T. Cicéron</addName>
+               <addName>Cicéron d'Arpinium</addName>
+               <addName>Cicéron d'Arpinum</addName>
+               <addName>Marcus Tullius Ciccero</addName>
+               <addName>Ciccero</addName>
+               <addName>Cicéron</addName>
+               <addName>Marcus T. Cicéron</addName>
+               <addName>Cicéron d'Arpinium</addName>
+               <addName>Cicéron d'Arpinum</addName>
+               <addName>Cicero</addName>
+               <addName>M. Tvllus Cicero</addName>
+               <addName>Marcus T. Cicero</addName>
+               <addName>Marcus Tullus Cicero</addName>
+               <addName>Marcus Tvllius Cicero</addName>
+               <addName>Markus Tullius Cicero</addName>
+               <addName>Cicero Arpinius</addName>
+               <addName>Cicero Orator</addName>
+               <addName>Cicero Philosopher</addName>
+               <addName>Cicero Philosophus</addName>
+               <addName>Cicero von Arpinium</addName>
+               <addName>Cicero von Arpinum</addName>
+               <addName>Ciceron</addName>
+               <addName>M. Tulij Ciceron</addName>
+               <addName>Marco T. Ciceron</addName>
+               <addName>Marcus T. Ciceron</addName>
+               <addName>Marcus Tullius Ciceron</addName>
+               <addName>Cicerone</addName>
+               <addName>Marco T. Cicerone</addName>
+               <addName>Marco Tvllio Cicerone</addName>
+               <addName>Marcus T. Cicerone</addName>
+               <addName>M. T. Ciceronis</addName>
+               <addName>M. Tullii Ciceronis</addName>
+               <addName>Marci Tulli Ciceronis</addName>
+               <addName>M. T. Cycero</addName>
+               <addName>Marek T. Cycero</addName>
+               <addName>Marek Tuliusz Cycero</addName>
+               <addName>Cyceron</addName>
+               <addName>M. T. Cyceron</addName>
+               <addName>Marek Tuliusz Cyceron</addName>
+               <addName>Marek Tulliusz Cyceron</addName>
+               <addName>Markos Tyllios Kikerō</addName>
+               <addName>Kikerō</addName>
+               <addName>Markos Tyllios Kikero</addName>
+               <addName>Kikero</addName>
+               <addName>Markos Tyllios Kikerō</addName>
+               <addName>Kikerō</addName>
+               <addName>M.T.C.</addName>
+               <addName>Pseudo Ciccero</addName>
+               <addName>Pseudo Cicero</addName>
+               <addName>Pseudocicero</addName>
+               <addName>Pseudo-Cicero</addName>
+               <addName>Tullius Cicero</addName>
+               <addName>Tullius</addName>
+               <addName>Marcus Tullius</addName>
+               <addName>Tully</addName>
+               <addName>M. Tullio Cicerone</addName>
+               <addName>M.T. Cicero</addName>
+               <addName>Marco Tullio Ciceram</addName>
+               <addName>Ciceram</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/41099</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/41099">berühmte Grabmahl 
+                                     mit dem Basrelief der 9 Musen</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000442</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000442">Palazzo Odeschalchi</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000443</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000443">Palazzo Orsini di Duchi di Praccia- 
+                                     no</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-203.tei.xml-d15361e356">Gladiator</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Kleopatra (Ägypten, Königin, VII.)</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-203.tei.xml-d15361e361">
+            <persName ref="#CerlID:cnp00395483" key="#PND:11856322X">Cleopatra<addName type="display">Kleopatra (Ägypten, Königin, VII.)</addName>
+               <addName>Cleopatra Ägypten, Königin, VII.</addName>
+               <addName>Cleopatra</addName>
+               <addName>Cleopatra die Grosse</addName>
+               <addName>Cleopatra Medica</addName>
+               <addName>Cleopatra Philopator, VII.</addName>
+               <addName>Cleopatra Ptolemais, Regina, VII.</addName>
+               <addName>Kleopatra die Grosse</addName>
+               <addName>Kleopatra Königin der Ptolemaier, VII.</addName>
+               <addName>Kleopatra Philopator</addName>
+               <addName>Kleopatra Tochter des Ptolemaios XII.</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000384</link>
+      <count>4</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000384">Palazzo Pamfili</term>
+      </nodes>
+   </tag>
+</tags>

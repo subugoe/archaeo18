@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-86.tei.xml-d4723e175">Bibl. Vaticana</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Cesi , Paolo Emilio</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000236</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/sammlungen/1000236">Sammlung des <TEI:persName ref="#CerlID:cnp01303762">Card Cesi<addName type="display">Cesi , Paolo Emilio</addName>
+               <addName>Paolo Emilio Cesi</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Gualtieri, Filippo Antonio</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000401</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/sammlungen/1000401">
+            <TEI:persName ref="#CerlID:cnp00348223" key="#PND:10406157X">Gualtieri<addName type="display">Gualtieri, Filippo Antonio</addName>
+               <addName>Filippo Antonio Gualtieri</addName>
+               <addName>Gualtieri Cardinal</addName>
+               <addName>Filoppo A. Gualtieri</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000466</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/sammlungen/1000466">Vatican</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-86.tei.xml-d4723e245">Mastriglische</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Carafa, Giovanni</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-86.tei.xml-d4723e258">Sammlung der <TEI:persName ref="#CerlID:cnp00366236" key="#PND:104311312">Herz: Caraffa Noia<addName type="display">Carafa, Giovanni</addName>
+               <addName>Giovanni Carafa</addName>
+               <addName>Caraffa. Noja Duca</addName>
+               <addName>Caraffa. Noja</addName>
+               <addName>Giovanni Carafa Noja</addName>
+               <addName>Noja, Giovanni Carafa duc de</addName>
+               <addName>Noja</addName>
+               <addName>Giovanni Caraffa</addName>
+               <addName>Caraffa</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Capo di Monte</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-86.tei.xml-d4723e289">Museo zu <TEI:placeName ref="#GettyID:7044047">Capo di Monte</TEI:placeName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Hamilton, William</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000269</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/sammlungen/1000269">
+            <TEI:persName ref="#CerlID:cnp00398448" key="#PND:118701231">Hamilton<addName type="display">Hamilton, William</addName>
+               <addName>William Hamilton</addName>
+               <addName>Gulielmus Hamilton</addName>
+               <addName>Hamilton, William Sir,  1730-1803</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1005633</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/sammlungen/1005633">BrittischenMuseo</TEI:term>
+      </nodes>
+   </tag>
+</tags>

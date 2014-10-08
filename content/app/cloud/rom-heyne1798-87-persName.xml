@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>BolognaGiambologna</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00397992</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00397992"
+                   key="#PND:118678477">Giovanni da <placeName ref="#GettyID:7004847">Bologna<addName type="display">Bologna</addName>
+               <addName>Bologna</addName>
+               <addName>Bologne</addName>
+               <addName>Bolonia</addName>
+               <addName>Bononia</addName>
+               <addName>Felsina</addName>
+               <addName>Bolognese</addName>
+            </placeName>
+            <addName type="display">Giambologna</addName>
+            <addName>Jos. de Bologna</addName>
+            <addName>de Bologna</addName>
+            <addName>Giovanni Bologna Fiammingo</addName>
+            <addName>Bologna Fiammingo</addName>
+            <addName>Giovanni da Bologna</addName>
+            <addName>Bologna</addName>
+            <addName>Joannes Bologna</addName>
+            <addName>Johannes Bologna</addName>
+            <addName>Jean Bologne</addName>
+            <addName>Bologne</addName>
+            <addName>Jean Boullongne</addName>
+            <addName>Boullongne</addName>
+            <addName>Jehan Boullongne</addName>
+            <addName>Jean Boulogne</addName>
+            <addName>Boulogne</addName>
+            <addName>Jean Boulongne</addName>
+            <addName>Boulongne</addName>
+            <addName>Giovanni Da Bologna</addName>
+            <addName>Da Bologna</addName>
+            <addName>Giovanni DaBologna</addName>
+            <addName>DaBologna</addName>
+            <addName>Fiammingo</addName>
+            <addName>Giambologa</addName>
+            <addName>Gian Bologna</addName>
+            <addName>Giovanni</addName>
+            <addName>Giovanni da Bolognese</addName>
+            <addName>Jean</addName>
+            <addName>Jean de Boulogne</addName>
+            <addName>John of Boulogne</addName>
+            <addName>John</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Bouchardon, Edme</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00397554</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00397554"
+                   key="#PND:118659456">Bouchardon<addName type="display">Bouchardon, Edme</addName>
+            <addName>Edme Bouchardon</addName>
+            <addName>Bonchardon</addName>
+            <addName>Buchardon</addName>
+            <addName>Edmundus Bouchardon</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pythagoras (von Rhegion)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00589153</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00589153"
+                   key="#PND:118793756">Pythagoras<addName type="display">Pythagoras (von Rhegion)</addName>
+            <addName>Phythagoras</addName>
+            <addName>Pytagoras Reginus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Myron (Künstler)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00586879</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00586879"
+                   key="#PND:118735497">Myron<addName type="display">Myron (Künstler)</addName>
+            <addName>Miron</addName>
+            <addName>Myron von Eleutherae</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Severus Alexander (Emperor of Rome)</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-199.tei.xml-d8871e30">
+            <persName ref="#CerlID:cnp00914937" key="#PND:11861357X">Alexandri Severi<addName type="display">Severus Alexander (Emperor of Rome)</addName>
+               <addName>Marcus A. Alexander Severus</addName>
+               <addName>Alexander Severus</addName>
+               <addName>Marcus Aurelius Alexander Severus</addName>
+               <addName>Alexander Severus Emperor of Rome</addName>
+               <addName>Alexander Severus Imperium Romanum, Imperator</addName>
+               <addName>Alexander Severus Römisches Reich, Kaiser</addName>
+               <addName>Alexandrus Severus</addName>
+               <addName>Gessius B. Alexianus</addName>
+               <addName>Alexianus</addName>
+               <addName>Gessius Bassianus Alexianus</addName>
+               <addName>Marco Aurelio Severo Alessandro</addName>
+               <addName>Marcus Aurelius Severus Alexander</addName>
+               <addName>Alexander S. Marcus Aurelius</addName>
+               <addName>Marcus Aurelius</addName>
+               <addName>Severo Alessandro</addName>
+               <addName>Marcus A. Severus Alexander</addName>
+               <addName>Severus Alexander Imperium Romanum, Imperator</addName>
+               <addName>Severus Alexandrus</addName>
+               <addName>Severus</addName>
+               <addName>Severus Alexandrinus</addName>
+            </persName>. mit  
+                                         Basreliefs</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000238</link>
+      <count>6</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000238">Palazzo Borghese</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/topographie/8002169</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/topographie/8002169">Campo Martio</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/topographie/500002</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/topographie/500002">Capitol</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000236</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000236">Palazzo Cesi</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000370</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000370">Palazzo di Colona</term>
+      </nodes>
+   </tag>
+</tags>

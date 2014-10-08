@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Homer</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259620</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01259620"
+                   key="#PND:11855333X">Homer<addName type="display">Homer</addName>
+            <addName>Gomer</addName>
+            <addName>Hūmīrūs</addName>
+            <addName>Hūmar</addName>
+            <addName>Hūmir</addName>
+            <addName>Hōmar</addName>
+            <addName>Hômêrôs</addName>
+            <addName>Homère</addName>
+            <addName>Homēros</addName>
+            <addName>Homérosz</addName>
+            <addName>Homēros</addName>
+            <addName>Homère</addName>
+            <addName>Homere</addName>
+            <addName>Homero</addName>
+            <addName>Homeros</addName>
+            <addName>Homeros Tragiker</addName>
+            <addName>Homerosi</addName>
+            <addName>Homerus Colophonius</addName>
+            <addName>Homerus Colophonus</addName>
+            <addName>Homerus Dramatiker</addName>
+            <addName>Homerus Epicus</addName>
+            <addName>Omēros</addName>
+            <addName>Omero</addName>
+            <addName>Omiros</addName>
+            <addName>Pseudo-Homerus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Achilleus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00541741</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00541741"
+                   key="#PND:118500384">Achills<addName type="display">Achilleus</addName>
+            <addName>Achill</addName>
+            <addName>Achilles</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Plinius Secundus, C.</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01238749</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01238749"
+                   key="#PND:118595083">Plinius<addName type="display">Plinius Secundus, C.</addName>
+            <addName>C. Plinius Secundus</addName>
+            <addName>Caius Plinius Secundus</addName>
+            <addName>Gaius Plinius Secundus</addName>
+            <addName>C. Plinio Secondo</addName>
+            <addName>C. Plinius Secundus veronensis</addName>
+            <addName>C. Plynius Secundus</addName>
+            <addName>Caio Plinio Secondo</addName>
+            <addName>Caio Plinio veronese</addName>
+            <addName>Caius Plinius Secundus Major</addName>
+            <addName>Cajus Plinius Secundus</addName>
+            <addName>G. Plinio Secondo</addName>
+            <addName>Pline</addName>
+            <addName>Pline</addName>
+            <addName>Caius Pline</addName>
+            <addName>Pline l'Ancien</addName>
+            <addName>Pline l'ancien</addName>
+            <addName>Pline lA´ncien</addName>
+            <addName>Pline le Naturaliste</addName>
+            <addName>Pline lÁncien</addName>
+            <addName>C. Pline Second</addName>
+            <addName>Pline Second</addName>
+            <addName>Pline l'Ancien 23-79</addName>
+            <addName>Plinij</addName>
+            <addName>Plinio</addName>
+            <addName>Gaio Secondo Plinio</addName>
+            <addName>Plinio Napoletano</addName>
+            <addName>Plinio el Viejo</addName>
+            <addName>Plinio il Vecchio</addName>
+            <addName>Plinio il vecchio</addName>
+            <addName>Plinio Secondo</addName>
+            <addName>Gaio Plinio Secondo</addName>
+            <addName>Caio Plinio Secundo</addName>
+            <addName>Plinio Secundo</addName>
+            <addName>Cayo Plinio Segundo</addName>
+            <addName>Plinio Segundo</addName>
+            <addName>Plinio il vecchio/C. Plinius Secundus</addName>
+            <addName>Plinius</addName>
+            <addName>C. Plinius</addName>
+            <addName>Caius Plinius</addName>
+            <addName>Caius Secundus Plinius</addName>
+            <addName>Plinius Florentino-Pragensis</addName>
+            <addName>Plinius Florentinus-Pragensis</addName>
+            <addName>Plinius Maior</addName>
+            <addName>Plinius Major</addName>
+            <addName>Plinius Rerum Naturalium Scriptor</addName>
+            <addName>Plinius Senior</addName>
+            <addName>Plinius der Ältere</addName>
+            <addName>Plinius starší</addName>
+            <addName>Plinius Secundus</addName>
+            <addName>C Plinius Secundus</addName>
+            <addName>Plinius Secundus, Caius Major</addName>
+            <addName>Plinius Secundus, Gaius Maior</addName>
+            <addName>Gajus Plinius Secundus</addName>
+            <addName>Plinius Secundus Maior</addName>
+            <addName>Plinius Secundus der Ältere</addName>
+            <addName>C. Plinius Secundus Maior</addName>
+            <addName>Plinius Secundus Novocomenis</addName>
+            <addName>Plinius d. Ä.</addName>
+            <addName>Pliniusz</addName>
+            <addName>K. Starszy Pliniusz</addName>
+            <addName>Pliniusz Starszy</addName>
+            <addName>Pliniusz Starszy K.</addName>
+            <addName>Plinjusz</addName>
+            <addName>Caius Plynius Secundus</addName>
+            <addName>Plynius Secundus</addName>
+            <addName>Gaius Plynius Secundus</addName>
+            <addName>Caius P. Secundus</addName>
+            <addName>Secundus</addName>
+            <addName>Gaius P. Secundus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Panainos</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300359</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300359">Panaenus<addName type="display">Panainos</addName>
+            <addName>Panaenus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Phidias</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00562418</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00562418"
+                   key="#PND:118593765">Phidias<addName type="display">Phidias</addName>
+            <addName>Pheidias</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Polygnotus (Thasius)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00554467</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00554467"
+                   key="#PND:119385198">Polygnotus<addName type="display">Polygnotus (Thasius)</addName>
+            <addName>Polignoto di Taso</addName>
+            <addName>Polignoto</addName>
+            <addName>Polygnot von Thasos</addName>
+            <addName>Polygnot</addName>
+            <addName>Polygnotos Maler</addName>
+            <addName>Polygnotos</addName>
+            <addName>Polygnotos Sohn des Aglaophon</addName>
+            <addName>Polygnotos von Thasos</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Zeuxis</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00588252</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00588252"
+                   key="#PND:118772651">Zeuxis<addName type="display">Zeuxis</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Parrhasius (Ephesius)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00285402</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp00285402">Parrhasius<addName type="display">Parrhasius (Ephesius)</addName>
+            <addName>Parrasios von Ephesos</addName>
+            <addName>Parrasios</addName>
+            <addName>Parrhasios Maler</addName>
+            <addName>Parrhasios</addName>
+            <addName>Parrhasios Sohn des Evenor</addName>
+            <addName>Parrhasios von Ephesos</addName>
+            <addName>Parrhasius Elegiacus</addName>
+            <addName>Parrhasius Epigrammaticus</addName>
+            <addName>Parrhasius Pictor</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Timanthes (Künstler, 3. Jh. vor Chr.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00668853</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00668853"
+                   key="#PND:130314722">Timantes<addName type="display">Timanthes (Künstler, 3. Jh. vor Chr.)</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Apelles</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00397365</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00397365"
+                   key="#PND:118649787">Apelles<addName type="display">Apelles</addName>
+            <addName>Appelles</addName>
+            <addName>Apelle</addName>
+            <addName>Apelles von Kolophon</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Raphaël</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01270961</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01270961"
+                   key="#PND:118597787">Raphael<addName type="display">Raphaël</addName>
+            <addName>Raffael</addName>
+            <addName>Raphael Urbinas</addName>
+            <addName>Raffaello Santi</addName>
+            <addName>Santi</addName>
+            <addName>Sanzio</addName>
+            <addName>Urbinas</addName>
+            <addName>Rafael de Urbino 1483-1520</addName>
+            <addName>Rafael von Urbino</addName>
+            <addName>Rafaele d'Urbino</addName>
+            <addName>Rafaele</addName>
+            <addName>Rafaello 1483-1520</addName>
+            <addName>Rafaello</addName>
+            <addName>Raffael Santi</addName>
+            <addName>Raffaele Sanzio</addName>
+            <addName>Raffaele</addName>
+            <addName>Raffaelle di Vrbino</addName>
+            <addName>Raffaelle 1483-1520</addName>
+            <addName>Raffaelle</addName>
+            <addName>Raffaelle d'Urbino 1483-1520</addName>
+            <addName>Raffaello Sanzio 1483-1520</addName>
+            <addName>Raffaello 1483-1520</addName>
+            <addName>Raffaello da Urbino</addName>
+            <addName>Raffaello da Urbino 1483-1520</addName>
+            <addName>Raffaello di Urbino</addName>
+            <addName>Raffaello d'Urbino</addName>
+            <addName>Raffaelo Santi</addName>
+            <addName>Raffaelo</addName>
+            <addName>Raffaelo Sanzio</addName>
+            <addName>Raph. Sanctius</addName>
+            <addName>Raph.</addName>
+            <addName>Raphaël d'Urbine</addName>
+            <addName>Raphael</addName>
+            <addName>Raphael 1483-1520</addName>
+            <addName>Raphael di Urbino</addName>
+            <addName>Raphael Pictor</addName>
+            <addName>Raphael Sanctius Urbinas</addName>
+            <addName>Raphael Sanctus</addName>
+            <addName>Raphael Santius Urbinas</addName>
+            <addName>Raphael Sanzio</addName>
+            <addName>Raphael Urbin</addName>
+            <addName>Raphael Urbino</addName>
+            <addName>Raphael Urbinus</addName>
+            <addName>Raphael von Urbino</addName>
+            <addName>Raphaello</addName>
+            <addName>Raphael Sancius</addName>
+            <addName>Sancius, Raphael 1483-1520</addName>
+            <addName>Sancius</addName>
+            <addName>Sanctius</addName>
+            <addName>Sanctius, Raph. 1483-1520</addName>
+            <addName>Sanctius Urbinus</addName>
+            <addName>Raffaello Santius</addName>
+            <addName>Santius</addName>
+            <addName>Raphael Santius</addName>
+            <addName>Raffaello Sanzi</addName>
+            <addName>Sanzi</addName>
+            <addName>Rafael Sanzio</addName>
+            <addName>Sanzio, Rafael 1483-1520</addName>
+            <addName>Sanzio, Raffaello 1483-1520</addName>
+            <addName>Rafael Urbinas</addName>
+            <addName>Urbinas, Rafael 1483-1520</addName>
+            <addName>Raphael S. Urbinas</addName>
+            <addName>Rafael Urbino</addName>
+            <addName>Urbino, Rafael 1483-1520</addName>
+            <addName>Urbino</addName>
+            <addName>Raf. Vrb</addName>
+            <addName>Vrb, Raf. 1483-1520</addName>
+            <addName>Vrb</addName>
+            <addName>R. Vrbinas</addName>
+            <addName>Vrbinas, R. 1483-1520</addName>
+            <addName>Vrbinas</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Roxane</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00557872</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00557872"
+                   key="#PND:119511258">Roxanes<addName type="display">Roxane</addName>
+            <addName>Rōxanē</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Lucianus (Samosatensis)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259327</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01259327"
+                   key="#PND:118575228">Lucian<addName type="display">Lucianus (Samosatensis)</addName>
+            <addName>Lūqijānūs as-Sumaisāṭī</addName>
+            <addName>Lūqijānūs</addName>
+            <addName>Ljukijan iz Samosati</addName>
+            <addName>Ljukijan</addName>
+            <addName>Loekianos</addName>
+            <addName>Loukianos</addName>
+            <addName>Samosatensīs Lucíanus</addName>
+            <addName>Lucíanus</addName>
+            <addName>Lucian</addName>
+            <addName>Lucian of Samosata</addName>
+            <addName>Lucian of Samosta</addName>
+            <addName>Lucian Samosatensis</addName>
+            <addName>Lucian von Samosata</addName>
+            <addName>Lucianne de Samosata</addName>
+            <addName>Lucianne</addName>
+            <addName>Luciano</addName>
+            <addName>Luciano di Samosata</addName>
+            <addName>Luciano Scrittore Satirico</addName>
+            <addName>Luciano Sofista</addName>
+            <addName>Lucianos Scrittore Satirico</addName>
+            <addName>Lucianos</addName>
+            <addName>Lucianus de Samosata</addName>
+            <addName>Lucianus Nigrinus</addName>
+            <addName>Lucianus Philosophus</addName>
+            <addName>Lucianus Samosateus</addName>
+            <addName>Lucianus Satiricus</addName>
+            <addName>Lucianus Sophista</addName>
+            <addName>Lucianus van Samosata</addName>
+            <addName>Lucien</addName>
+            <addName>Lucien de Samosate</addName>
+            <addName>Lucien Sophiste</addName>
+            <addName>Lucius de Patras</addName>
+            <addName>Lucius</addName>
+            <addName>Lucius Philosophus</addName>
+            <addName>Lukian</addName>
+            <addName>Lukian iz Samosaty</addName>
+            <addName>Lukian v. Samosata</addName>
+            <addName>Lukian von Samosata</addName>
+            <addName>Lukiano</addName>
+            <addName>Lukianos</addName>
+            <addName>Lukianos Samōsateōs</addName>
+            <addName>Lukianos Samōsateōs</addName>
+            <addName>Lukianos Samosatēs</addName>
+            <addName>Lukianos Samosateos</addName>
+            <addName>Lukianos Satiriker</addName>
+            <addName>Lukianos Sophist</addName>
+            <addName>Lukianos van Samosata</addName>
+            <addName>Lukianos von Samosata</addName>
+            <addName>Lukianus von Samosata</addName>
+            <addName>Lukianus</addName>
+            <addName>Lutianus</addName>
+            <addName>Luz̲iyan</addName>
+            <addName>Pseudo-Luciano</addName>
+            <addName>Pseudo-Lucianus Samosatensis</addName>
+            <addName>Pseudo-Lucianus</addName>
+            <addName>Pseudo-Lucianus Samosatenus</addName>
+            <addName>Pseudo-Lucianus Sophista</addName>
+            <addName>Samosata</addName>
+            <addName>Luciano de Samosata</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

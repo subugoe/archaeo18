@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Apollon</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00542641</link>
+      <count>6</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00542641"
+                   key="#PND:118503642">Apollos<addName type="display">Apollon</addName>
+            <addName>Apoll</addName>
+            <addName>Apollo</addName>
+            <addName>Phoebus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>August (Polen, König, II.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01005310</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01005310"
+                   key="#PND:118505084">August 2.<addName type="display">August (Polen, König, II.)</addName>
+            <addName>Friedrich Augustus Polen, König</addName>
+            <addName>Friedrich Augustus</addName>
+            <addName>August der Starke</addName>
+            <addName>Kurfürst von Sachsen August der Starke</addName>
+            <addName>August II. König von Polen</addName>
+            <addName>der Starke August II.</addName>
+            <addName>August II.</addName>
+            <addName>August II. Polen, König</addName>
+            <addName>August Polen, König, II.</addName>
+            <addName>August Polen, Koenig, II.</addName>
+            <addName>August Sachsen, Herzog, 1670-1733</addName>
+            <addName>August Sachsen, Kurfürst, 1670-1733</addName>
+            <addName>Auguste Pologne, Roi, II.</addName>
+            <addName>Auguste</addName>
+            <addName>Augustus Polen, König, II.</addName>
+            <addName>Augustus</addName>
+            <addName>Augustus Polonia, Rex</addName>
+            <addName>Augustus Polonia, Rex, II.</addName>
+            <addName>Fridericus Augustus  Saxonia, Dux, II.</addName>
+            <addName>Fridericus Augustus</addName>
+            <addName>Fridericus Augustus  Saxonia, Elector</addName>
+            <addName>Fridericus Augustus Polen, König, II.</addName>
+            <addName>Fridericus Augustus</addName>
+            <addName>Fridericus Augustus Polonia, Rex</addName>
+            <addName>Fridericus Augustus Sachsen, Herzog</addName>
+            <addName>Fridericus Augustus Sachsen, Kurfürst</addName>
+            <addName>Fridricus Augustus Polen, König</addName>
+            <addName>Fridricus Augustus</addName>
+            <addName>Friedric-Augustus Polen, König</addName>
+            <addName>Friedric-Augustus</addName>
+            <addName>Friedrich August II. König von Polen</addName>
+            <addName>Friedrich August König von Polen</addName>
+            <addName>Friedrich August der Starke</addName>
+            <addName>Friedrich August</addName>
+            <addName>Friedrich August Polen, König</addName>
+            <addName>Friedrich August Polska, Król, II.</addName>
+            <addName>Friedrich August Polska, Król, II.</addName>
+            <addName>Friedrich August Sachsen, Herzog</addName>
+            <addName>Friedrich August Sachsen, Herzog, I.</addName>
+            <addName>Friedrich August Sachsen, Kurfürst, I.</addName>
+            <addName>Friedrich August Sachsen-Jülich-Cleve-Berg, Herzog</addName>
+            <addName>Friedrich August Sachsen-Jülich-Cleve-Berg, Herzog</addName>
+            <addName>Friedrich Augustus Sachsen, Herzog</addName>
+            <addName>Friedrich Augustus Sachsen, Kurfürst</addName>
+            <addName>Friedrich Augustus Sachsen-Jülich-Cleve-Berg, Herzog</addName>
+            <addName>Friedrichus Augustus Polen, König</addName>
+            <addName>Friedrichus Augustus</addName>
+            <addName>Friedricus Augustus Polen, König</addName>
+            <addName>Friedricus Augustus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Venus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00588078</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00588078"
+                   key="#PND:11876800X">Venus<addName type="display">Venus</addName>
+            <addName>Anadyomene  Beiname</addName>
+            <addName>Anadyomene</addName>
+            <addName>Arelatensis  Beiname</addName>
+            <addName>Arelatensis</addName>
+            <addName>aurea  Beiname</addName>
+            <addName>aurea</addName>
+            <addName>coelestis  Beiname</addName>
+            <addName>coelestis</addName>
+            <addName>Gnidia  Beiname</addName>
+            <addName>Gnidia</addName>
+            <addName>Marina  Beiname</addName>
+            <addName>Marina</addName>
+            <addName>Pelasgia  Beiname</addName>
+            <addName>Pelasgia</addName>
+            <addName>Pontia  Beiname</addName>
+            <addName>Pontia</addName>
+            <addName>Urania  Beiname</addName>
+            <addName>Urania</addName>
+            <addName>Victrix  Beiname</addName>
+            <addName>Victrix</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

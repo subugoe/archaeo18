@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>fragm: Orph: XVI.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://d-nb.info/gnd/4172853-1</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://d-nb.info/gnd/4172853-1">fragm: 
+            Orph: XVI.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>JupiterÁrgos</tag>
+      <facet>tei:bibl</facet>
+      <link>http://dfg-viewer.de/v2/?set[image]=306&amp;set[mets]=http%3A%2F%2Fgdz.sub.uni-goettingen.de%2Fmets_export.php%3FPPN%3DPPN601279085&amp;set[zoom]=default&amp;set[debug]=0&amp;set[double]=0&amp;set[style]=</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://dfg-viewer.de/v2/?set[image]=306&amp;set[mets]=http%3A%2F%2Fgdz.sub.uni-goettingen.de%2Fmets_export.php%3FPPN%3DPPN601279085&amp;set[zoom]=default&amp;set[debug]=0&amp;set[double]=0&amp;set[style]=">
+               <term ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-55.tei.xml-d2126e195">höltzerne Statue <persName ref="#CerlID:cnp00554429" key="#PND:118558897">Jupiters<addName type="display">Jupiter</addName>
+                     <addName>Iupiter</addName>
+                     <addName>Juppiter</addName>
+                  </persName>
+               </term> zu <placeName ref="#GettyID:7010720">Argos<addName type="display">Árgos</addName>
+                  <addName>Árgos</addName>
+                  <addName>Argos</addName>
+                  <addName>Ārghos</addName>
+                  <addName>Argive Heraion</addName>
+                  <addName>Argolis</addName>
+                  <addName>Argos Argolidis</addName>
+               </placeName> mit 
+            3 Augen</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pausan No. 24.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://d-nb.info/gnd/4119969-8</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://d-nb.info/gnd/4119969-8">Pausan No. 24.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Kypselos</tag>
+      <facet>tei:bibl</facet>
+      <link>http://www.zvdd.de/dms/load/met/?PPN=urn%3Anbn%3Ade%3Abvb%3A12-bsb10477270-5</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://www.zvdd.de/dms/load/met/?PPN=urn%3Anbn%3Ade%3Abvb%3A12-bsb10477270-5">Beschreibung der mit Basreliefs
+                versehenen <term ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-55.tei.xml-d2126e282">Kiste des <persName ref="#CerlID:cnp01300263">Cypselus<addName type="display">Kypselos</addName>
+                     <addName>Cypselus</addName>
+                  </persName>
+               </term>
+            </ref>
+         </bibl>
+      </nodes>
+   </tag>
+</tags>

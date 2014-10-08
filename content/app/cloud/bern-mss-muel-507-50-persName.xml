@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Alexander (Magnus)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259691</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01259691"
+                       key="#PND:118501828">Alexanders M.<addName type="display">Alexander (Magnus)</addName>
+            <addName>Ałekʹsandr Makedonacʹi</addName>
+            <addName>Alejandro Magno</addName>
+            <addName>Alejandro</addName>
+            <addName>Aleksandr</addName>
+            <addName>Alessandro Magno</addName>
+            <addName>Alessandro</addName>
+            <addName>Alexander de Grote</addName>
+            <addName>Alexander der Große</addName>
+            <addName>Alexander der Grosse</addName>
+            <addName>Alexander Epistolographus</addName>
+            <addName>Alexander III 3 koning van Macedonië</addName>
+            <addName>Alexander Kaiser</addName>
+            <addName>Alexander Macedonia, Rex, III.</addName>
+            <addName>Alexander Macedonis</addName>
+            <addName>Alexander Mazedonien, König, III.</addName>
+            <addName>Alexander of Macedon</addName>
+            <addName>Alexander Rex</addName>
+            <addName>Alexandre le Grand</addName>
+            <addName>Alexandre</addName>
+            <addName>Alexandros</addName>
+            <addName>Alexandros der Große</addName>
+            <addName>Alexandru cel Mare</addName>
+            <addName>Alexandru</addName>
+            <addName>Alexandrus Magnus</addName>
+            <addName>Alexandrus</addName>
+            <addName>Megalexandros</addName>
+            <addName>Pseudo-Alexander Magnus</addName>
+            <addName>Pseudo-Alexander</addName>
+            <addName>Grote</addName>
+            <addName>Alexandros Megas</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Herostratos</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00547009</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00547009"
+                       key="#PND:119090481">Herostratus<addName type="display">Herostratos</addName>
+            <addName>Herostratus</addName>
+            <addName>Herostrat</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Deinokrates</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00555124</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00555124"
+                       key="#PND:119412012">Dynocrates<addName type="display">Deinokrates</addName>
+            <addName>Cynocrates</addName>
+            <addName>Cheirokrates</addName>
+            <addName>Deinochares</addName>
+            <addName>Dinocrate</addName>
+            <addName>Dinocrates</addName>
+            <addName>Dinokrates</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Apelles</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00397365</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00397365"
+                       key="#PND:118649787">Appelles<addName type="display">Apelles</addName>
+            <addName>Appelles</addName>
+            <addName>Apelle</addName>
+            <addName>Apelles von Kolophon</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Praxiteles</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00589123</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00589123"
+                       key="#PND:118793241">Praxiteles<addName type="display">Praxiteles</addName>
+            <addName>Prassitele</addName>
+            <addName>Praxitèle</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Nero (Imperium Romanum, Imperator)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00982828</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00982828"
+                       key="#PND:118586998">Nero<addName type="display">Nero (Imperium Romanum, Imperator)</addName>
+            <addName>Nero Claudius Caesar</addName>
+            <addName>Claudius Caesar</addName>
+            <addName>Claudius Nero</addName>
+            <addName>Claudius Nero Caesar</addName>
+            <addName>Domitius Ahenobarbus</addName>
+            <addName>Lucius Domitius Ahenobarbus Nero Claudius Caesar Augustus Germanicus</addName>
+            <addName>Néron Empereur</addName>
+            <addName>Néron</addName>
+            <addName>Néron Empereur</addName>
+            <addName>Néron</addName>
+            <addName>Nero Claudius</addName>
+            <addName>Nero Claudius Caesar Augustus Germanicus Imperator</addName>
+            <addName>Nero Claudius Caesar Augustus Germanicus</addName>
+            <addName>Nero Tiberius Claudius Imperator</addName>
+            <addName>Nero Tiberius Claudius</addName>
+            <addName>Claudius C. Nero</addName>
+            <addName>Nero Caesar</addName>
+            <addName>Nero Emperor of Rome</addName>
+            <addName>Nero Imperator</addName>
+            <addName>Nero Römisches Reich, Kaiser</addName>
+            <addName>Nero Römischer Kaiser</addName>
+            <addName>Nero Romanus</addName>
+            <addName>Klavdij Cezarʹ Neron</addName>
+            <addName>Neron</addName>
+            <addName>Neron Imperator Rismkij</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Gallienus (Römisches Reich, Kaiser)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00549952</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00549952"
+                       key="#PND:118537334">Gallien<addName type="display">Gallienus (Römisches Reich, Kaiser)</addName>
+            <addName>Publius Licinius Egnatius Gallienus</addName>
+            <addName>Egnatius Gallienus</addName>
+            <addName>Gallienus Imperium Romanum, Imperator</addName>
+            <addName>Licinius Egnatius Gallienus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Spon, Jacob</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00404793</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00404793"
+                       key="#PND:119228998">Spon<addName type="display">Spon, Jacob</addName>
+            <addName>Jacob Spon</addName>
+            <addName>S. Du Four</addName>
+            <addName>Du Four</addName>
+            <addName>I. S. D. M.</addName>
+            <addName>Spon</addName>
+            <addName>I. Spon</addName>
+            <addName>Iacob Spon</addName>
+            <addName>Isaac Spon</addName>
+            <addName>Jacques Spon</addName>
+            <addName>Jakob Spon</addName>
+            <addName>James Spon</addName>
+            <addName>Jaques Spon</addName>
+            <addName>Iacobus Sponius</addName>
+            <addName>Sponius</addName>
+            <addName>Jacobus Sponius</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Wheler, George</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01269394</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01269394"
+                       key="#PND:128378565">Wheler<addName type="display">Wheler, George</addName>
+            <addName>George Wheler</addName>
+            <addName>Wila</addName>
+            <addName>George Wheeler</addName>
+            <addName>Wheeler</addName>
+            <addName>Georgius Wheler</addName>
+            <addName>George Vuheler</addName>
+            <addName>Vuheler</addName>
+            <addName>Georg Wheeler</addName>
+            <addName>Wheeler, George Sir</addName>
+            <addName>Georg Wheler</addName>
+            <addName>Wheler, Georgius Sir</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pitton de Tournefort, Joseph</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00390763</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00390763"
+                       key="#PND:117628905">Tournefort<addName type="display">Pitton de Tournefort, Joseph</addName>
+            <addName>Joseph Pitton de Tournefort</addName>
+            <addName>Josephus Pitton Tournefort</addName>
+            <addName>Pitton Tournefort</addName>
+            <addName>Joseph P. de Tournefort</addName>
+            <addName>Joseph P. Turnefort</addName>
+            <addName>Turnefort</addName>
+            <addName>Joseph Pitton De Tournefort</addName>
+            <addName>De Tournefort</addName>
+            <addName>Joseph Pithon de Tournefort</addName>
+            <addName>Pithon de Tournefort</addName>
+            <addName>Žozep' Piton de Turnep'ori</addName>
+            <addName>Piton de Turnep'ori</addName>
+            <addName>Joseph Pitton Tournefort</addName>
+            <addName>Pitton Tournefort M. Joseph</addName>
+            <addName>Pitton de Tournefort M. Joseph</addName>
+            <addName>Joseph de Tournefort</addName>
+            <addName>Pitton von Tournefort</addName>
+            <addName>Tournefort M. de Joseph</addName>
+            <addName>Josephus Tournefortius</addName>
+            <addName>Tournefortius</addName>
+            <addName>Ž. P. de Turnefor</addName>
+            <addName>Turnefor</addName>
+            <addName>Ž. P. de Turnep'ori</addName>
+            <addName>Turnep'ori</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Chandler, Richard</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01090143</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01090143"
+                       key="#PND:117651214 100830951">Gantler<addName type="display">Chandler, Richard</addName>
+            <addName>Richard Chandler</addName>
+            <addName>Chandler</addName>
+            <addName>Ricardus Chandler</addName>
+            <addName>Chandler, Richard 1738-1810</addName>
+            <addName>R. Chandler</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Perrault, Claude</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01270941</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01270941"
+                       key="#PND:118740016">Perrault<addName type="display">Perrault, Claude</addName>
+            <addName>Claude Perrault</addName>
+            <addName>Perrault Monsr., of the Academy of Paris Claude</addName>
+            <addName>Charles Pérault</addName>
+            <addName>Pérault</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

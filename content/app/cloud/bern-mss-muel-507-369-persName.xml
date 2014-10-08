@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Clemens (Papa, XII.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00945766</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00945766"
+                       key="#PND:100085725">Clemens XII.<addName type="display">Clemens (Papa, XII.)</addName>
+            <addName>Clemens Papst, XII.</addName>
+            <addName>Clemens Pontifex Maximus, XII.</addName>
+            <addName>Clemens XII.</addName>
+            <addName>Clement Papa, XII.</addName>
+            <addName>Clement</addName>
+            <addName>Clementus Pabst, XII.</addName>
+            <addName>Clementus</addName>
+            <addName>Laurentius Corsini</addName>
+            <addName>Corsini</addName>
+            <addName>Lorenzo Corsini</addName>
+            <addName>Klemens Papa, XII.</addName>
+            <addName>Klemens XII.</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

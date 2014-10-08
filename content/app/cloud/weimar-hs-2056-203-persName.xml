@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Alexander (Magnus)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259691</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01259691"
+                   key="#PND:118501828">Alexandri Magni<addName type="display">Alexander (Magnus)</addName>
+            <addName>Ałekʹsandr Makedonacʹi</addName>
+            <addName>Alejandro Magno</addName>
+            <addName>Alejandro</addName>
+            <addName>Aleksandr</addName>
+            <addName>Alessandro Magno</addName>
+            <addName>Alessandro</addName>
+            <addName>Alexander de Grote</addName>
+            <addName>Alexander der Große</addName>
+            <addName>Alexander der Grosse</addName>
+            <addName>Alexander Epistolographus</addName>
+            <addName>Alexander III 3 koning van Macedonië</addName>
+            <addName>Alexander Kaiser</addName>
+            <addName>Alexander Macedonia, Rex, III.</addName>
+            <addName>Alexander Macedonis</addName>
+            <addName>Alexander Mazedonien, König, III.</addName>
+            <addName>Alexander of Macedon</addName>
+            <addName>Alexander Rex</addName>
+            <addName>Alexandre le Grand</addName>
+            <addName>Alexandre</addName>
+            <addName>Alexandros</addName>
+            <addName>Alexandros der Große</addName>
+            <addName>Alexandru cel Mare</addName>
+            <addName>Alexandru</addName>
+            <addName>Alexandrus Magnus</addName>
+            <addName>Alexandrus</addName>
+            <addName>Megalexandros</addName>
+            <addName>Pseudo-Alexander Magnus</addName>
+            <addName>Pseudo-Alexander</addName>
+            <addName>Grote</addName>
+            <addName>Alexandros Megas</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Cicero, Marcus Tullius</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259298</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01259298"
+                   key="#PND:118520814">Cicero<addName type="display">Cicero, Marcus Tullius</addName>
+            <addName>Marcus Tullius Cicero</addName>
+            <addName>M. Tullius Cicero</addName>
+            <addName>M. T. Cicero</addName>
+            <addName>M. Tul Cicero</addName>
+            <addName>M. T. Ciceron</addName>
+            <addName>Ciceron</addName>
+            <addName>Marek Tullius Ciceron</addName>
+            <addName>Mark Tullij Ciceron</addName>
+            <addName>Cicerone</addName>
+            <addName>M. T. Cicerone</addName>
+            <addName>Marco Tullio Cicerone</addName>
+            <addName>M. Tulli Ciceronis</addName>
+            <addName>Ciceronis</addName>
+            <addName>Cycero</addName>
+            <addName>M. Tuljusz Cycero</addName>
+            <addName>M. Tulljusz Cycero</addName>
+            <addName>Marek Tullius Cycero</addName>
+            <addName>M. T. C.</addName>
+            <addName>Cecéron</addName>
+            <addName>Marcus Tullius Cic.</addName>
+            <addName>Cic.</addName>
+            <addName>Cicéron</addName>
+            <addName>Marcus T. Cicéron</addName>
+            <addName>Cicéron d'Arpinium</addName>
+            <addName>Cicéron d'Arpinum</addName>
+            <addName>Marcus Tullius Ciccero</addName>
+            <addName>Ciccero</addName>
+            <addName>Cicéron</addName>
+            <addName>Marcus T. Cicéron</addName>
+            <addName>Cicéron d'Arpinium</addName>
+            <addName>Cicéron d'Arpinum</addName>
+            <addName>Cicero</addName>
+            <addName>M. Tvllus Cicero</addName>
+            <addName>Marcus T. Cicero</addName>
+            <addName>Marcus Tullus Cicero</addName>
+            <addName>Marcus Tvllius Cicero</addName>
+            <addName>Markus Tullius Cicero</addName>
+            <addName>Cicero Arpinius</addName>
+            <addName>Cicero Orator</addName>
+            <addName>Cicero Philosopher</addName>
+            <addName>Cicero Philosophus</addName>
+            <addName>Cicero von Arpinium</addName>
+            <addName>Cicero von Arpinum</addName>
+            <addName>Ciceron</addName>
+            <addName>M. Tulij Ciceron</addName>
+            <addName>Marco T. Ciceron</addName>
+            <addName>Marcus T. Ciceron</addName>
+            <addName>Marcus Tullius Ciceron</addName>
+            <addName>Cicerone</addName>
+            <addName>Marco T. Cicerone</addName>
+            <addName>Marco Tvllio Cicerone</addName>
+            <addName>Marcus T. Cicerone</addName>
+            <addName>M. T. Ciceronis</addName>
+            <addName>M. Tullii Ciceronis</addName>
+            <addName>Marci Tulli Ciceronis</addName>
+            <addName>M. T. Cycero</addName>
+            <addName>Marek T. Cycero</addName>
+            <addName>Marek Tuliusz Cycero</addName>
+            <addName>Cyceron</addName>
+            <addName>M. T. Cyceron</addName>
+            <addName>Marek Tuliusz Cyceron</addName>
+            <addName>Marek Tulliusz Cyceron</addName>
+            <addName>Markos Tyllios Kikerō</addName>
+            <addName>Kikerō</addName>
+            <addName>Markos Tyllios Kikero</addName>
+            <addName>Kikero</addName>
+            <addName>Markos Tyllios Kikerō</addName>
+            <addName>Kikerō</addName>
+            <addName>M.T.C.</addName>
+            <addName>Pseudo Ciccero</addName>
+            <addName>Pseudo Cicero</addName>
+            <addName>Pseudocicero</addName>
+            <addName>Pseudo-Cicero</addName>
+            <addName>Tullius Cicero</addName>
+            <addName>Tullius</addName>
+            <addName>Marcus Tullius</addName>
+            <addName>Tully</addName>
+            <addName>M. Tullio Cicerone</addName>
+            <addName>M.T. Cicero</addName>
+            <addName>Marco Tullio Ciceram</addName>
+            <addName>Ciceram</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Kleopatra (Ägypten, Königin, VII.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00395483</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00395483"
+                   key="#PND:11856322X">Cleopatra<addName type="display">Kleopatra (Ägypten, Königin, VII.)</addName>
+            <addName>Cleopatra Ägypten, Königin, VII.</addName>
+            <addName>Cleopatra</addName>
+            <addName>Cleopatra die Grosse</addName>
+            <addName>Cleopatra Medica</addName>
+            <addName>Cleopatra Philopator, VII.</addName>
+            <addName>Cleopatra Ptolemais, Regina, VII.</addName>
+            <addName>Kleopatra die Grosse</addName>
+            <addName>Kleopatra Königin der Ptolemaier, VII.</addName>
+            <addName>Kleopatra Philopator</addName>
+            <addName>Kleopatra Tochter des Ptolemaios XII.</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pamphili, Camillo</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00813944</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00813944"
+                   key="#PND:131602721">Prinz Pamfili<addName type="display">Pamphili, Camillo</addName>
+            <addName>Camillo Pamphili</addName>
+            <addName>Camillo Pamfili</addName>
+            <addName>Pamfili</addName>
+            <addName>Camillo Francesco Maria Pamphili</addName>
+            <addName>Camillus Pamphilius</addName>
+            <addName>Pamphilius</addName>
+            <addName>Camillo Pamphilj</addName>
+            <addName>Pamphilj</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Innocent (X, pape)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00398609</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00398609"
+                   key="#PND:118710788">Innocentii X.<addName type="display">Innocent (X, pape)</addName>
+            <addName>Innocentius X pape</addName>
+            <addName>Innocenz X pape</addName>
+            <addName>Innocenz</addName>
+            <addName>Innocenzo X pape</addName>
+            <addName>Innocenzo</addName>
+            <addName>Inocencio X pape</addName>
+            <addName>Inocencio</addName>
+            <addName>Giovanni Battista Pamfili</addName>
+            <addName>Pamfili</addName>
+            <addName>Giambattista Pamphili</addName>
+            <addName>Pamphili</addName>
+            <addName>Innocencio X papa 1574-1655</addName>
+            <addName>Innocencio</addName>
+            <addName>Innocent X papa 1574-1655</addName>
+            <addName>Innocentius X</addName>
+            <addName>Innocentius X papa 1574-1655</addName>
+            <addName>Innocentius X.</addName>
+            <addName>Innocenz Pabst, X.</addName>
+            <addName>Innocenz X.</addName>
+            <addName>Innozenz X.</addName>
+            <addName>Giambattista Pamfili</addName>
+            <addName>Pamfili, Giambattista 1574-1655</addName>
+            <addName>Giambattista Pamphilij</addName>
+            <addName>Pamphilij</addName>
+            <addName>Johannes B. Pamphilius</addName>
+            <addName>Pamphilius</addName>
+            <addName>Johannes Baptista Pamphilius</addName>
+            <addName>Giambattista Panfili</addName>
+            <addName>Panfili</addName>
+            <addName>Giovanni Battista Panfili</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Berettini, Pietro</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01025450</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01025450"
+                   key="#PND:118638599">Pietro di Cortona<addName type="display">Berettini, Pietro</addName>
+            <addName>Pietro Berettini</addName>
+            <addName>Pietro da Cortona</addName>
+            <addName>Pietro di Cordona</addName>
+            <addName>Cordona</addName>
+            <addName>Pietro Berettini da Cortona</addName>
+            <addName>Berettini da Cortona</addName>
+            <addName>Petrus Berettinus</addName>
+            <addName>Berettinus</addName>
+            <addName>Pietro Berretini</addName>
+            <addName>Berretini</addName>
+            <addName>Petrus Berretinus</addName>
+            <addName>Berretinus</addName>
+            <addName>Pietro Berrettini da Cortona</addName>
+            <addName>Berrettini da Cortona</addName>
+            <addName>Pietro Berrettini</addName>
+            <addName>Berrettini</addName>
+            <addName>Petrus Berrettinus</addName>
+            <addName>Berrettinus</addName>
+            <addName>Pietro Da Cortona</addName>
+            <addName>Da Cortona</addName>
+            <addName>Pietro DaCortona</addName>
+            <addName>DaCortona</addName>
+            <addName>Pietro Peretini</addName>
+            <addName>Peretini</addName>
+            <addName>Pietro</addName>
+            <addName>Britio Prenetteri</addName>
+            <addName>Prenetteri</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Äneas</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00541852</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00541852"
+                   key="#PND:11850083X">Aeneas<addName type="display">Äneas</addName>
+            <addName>Aeneas</addName>
+            <addName>Aineias</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Cesio, Carlo</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00953602</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00953602"
+                   key="#PND:130407399">Cesto<addName type="display">Cesio, Carlo</addName>
+            <addName>Carlo Cesio</addName>
+            <addName>Carolus Caesius</addName>
+            <addName>Caesius</addName>
+            <addName>Carlo Cesi</addName>
+            <addName>Cesi</addName>
+            <addName>Carl Cesio</addName>
+            <addName>Carolo Cesio</addName>
+            <addName>Carolus Cesius</addName>
+            <addName>Cesius</addName>
+            <addName>Carolo Esio</addName>
+            <addName>Esio</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

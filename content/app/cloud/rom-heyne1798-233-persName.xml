@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Charles (III, roi d'Espagne)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00402118</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00402118"
+                   key="#PND:118925059">König von Spanien<addName type="display">Charles (III, roi d'Espagne)</addName>
+            <addName>Carl III.</addName>
+            <addName>Charles III.</addName>
+            <addName>Carlos III roi d'Espagne</addName>
+            <addName>Charles I duc de Parme</addName>
+            <addName>Charles VII roi de Naples et de Sicile</addName>
+            <addName>Charles VII roi des Deux-Siciles</addName>
+            <addName>Carl Sizilien, König</addName>
+            <addName>Carl</addName>
+            <addName>Carl Spanien, König, III.</addName>
+            <addName>Carlo di Borbone</addName>
+            <addName>Carlo</addName>
+            <addName>Carlos Spanien, König, III.</addName>
+            <addName>Carolus Hispania, Rex, III.</addName>
+            <addName>Carolus</addName>
+            <addName>Carolus Sicilia, Rex</addName>
+            <addName>Carolus Sizilien, König</addName>
+            <addName>Carolus Spanien, III.</addName>
+            <addName>Charles Espagne, Roi, III.</addName>
+            <addName>Karl Neapel, König, VII.</addName>
+            <addName>Karl Spanien, König, III.</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Catherine (II, Empress of Russia)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00906650</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00906650"
+                   key="#PND:118560565">Catherine<addName type="display">Catherine (II, Empress of Russia)</addName>
+            <addName>II Ekaterina</addName>
+            <addName>Catherina II.</addName>
+            <addName>Catarina II Empress of Russia</addName>
+            <addName>Catarina</addName>
+            <addName>Caterina Russia, Imperatrice, II.</addName>
+            <addName>Caterina</addName>
+            <addName>Caterina Russia, Zarina, II.</addName>
+            <addName>II Catharina</addName>
+            <addName>Catharina, II 2 tsarina van Rusland</addName>
+            <addName>Catharina</addName>
+            <addName>Catharina II.</addName>
+            <addName>Catharina Russia, Imperatrix, II.</addName>
+            <addName>Catharina Russland, Kaiserin, II.</addName>
+            <addName>Catharina Russland, Zarin, II.</addName>
+            <addName>Catharina de Grote</addName>
+            <addName>Catharina Alexiewna Rußland, Großfürstin</addName>
+            <addName>Catharina Alexiewna</addName>
+            <addName>Catharine II Empress of Russia</addName>
+            <addName>Catharine</addName>
+            <addName>Catharine Russland, Kaiserin, II.</addName>
+            <addName>Catharine Alexéievna</addName>
+            <addName>II, Empress of Russia, 1729-1796 Catherine</addName>
+            <addName>II Catherine</addName>
+            <addName>Catherine, II 2 Empress of Russia</addName>
+            <addName>Catherine II,  Empress of Russia,</addName>
+            <addName>Catherine Russia, Empress, II.</addName>
+            <addName>Catherine Russie, Impératrice, II.</addName>
+            <addName>Catherine the Great</addName>
+            <addName>Catherine the Great, Empress of Russia</addName>
+            <addName>Cathe´rine Russland, Zarin, II.</addName>
+            <addName>Cathe´rine</addName>
+            <addName>Cathérine II.</addName>
+            <addName>Cathérine</addName>
+            <addName>Cathirine II.</addName>
+            <addName>Cathirine</addName>
+            <addName>Cathirine Russland, Zarin, II.</addName>
+            <addName>Cathirine Alexiievna Russie, Grand-Duchesse</addName>
+            <addName>Cathirine Alexiievna</addName>
+            <addName>Cathérine II.</addName>
+            <addName>Cathérine</addName>
+            <addName>Cathérine Russland, Zarin, II.</addName>
+            <addName>Cathérine Alexe´ievna Russie, Grande-Duchesse</addName>
+            <addName>Cathérine Alexe´ievna</addName>
+            <addName>Cathérine Alexéievna Russie, Grande-Duchesse</addName>
+            <addName>Cathérine Alexéievna</addName>
+            <addName>Ecaterina II Empress of Russia</addName>
+            <addName>Ecaterina</addName>
+            <addName>Ecaterina II.</addName>
+            <addName>Velikaja Ekaterina</addName>
+            <addName>Ekaterina II., Kaiserin von Russland</addName>
+            <addName>Ekaterina Russland, Zarin, II.</addName>
+            <addName>Ekaterina Alekseevna Rossija, Carica, II.</addName>
+            <addName>Ekaterina Alekseevna</addName>
+            <addName>Ekaterina Alekseevna Rossija, Imperatrica, II.</addName>
+            <addName>Ekaterina Alekseevna Russland, Zarin</addName>
+            <addName>Ekaterina Aleksievna Rossija, Imperatrica, II.</addName>
+            <addName>Ekaterina Aleksievna</addName>
+            <addName>Ekaterina II. Kaiserin von Russland</addName>
+            <addName>Jekaterina Alexejewna Rossija, Carica, II.</addName>
+            <addName>Jekaterina Alexejewna</addName>
+            <addName>Katarzyna II. carowa Rosji</addName>
+            <addName>Katarzyna</addName>
+            <addName>Kateřina II.</addName>
+            <addName>Kateřina</addName>
+            <addName>Kateřina Veliká</addName>
+            <addName>II Katharina</addName>
+            <addName>Katharina, II 2 tsarina van Rusland</addName>
+            <addName>Katharina II.</addName>
+            <addName>Katharina Russland, Kaiserin, II.</addName>
+            <addName>Katharina Rußland, Kaiserin, II.</addName>
+            <addName>Katharina die Große</addName>
+            <addName>Katharina Alexejewna Russland, Zarin</addName>
+            <addName>Katharina Alexejewna</addName>
+            <addName>Katharina Alexiewna Anhalt, Fürstin</addName>
+            <addName>Katharina Alexiewna</addName>
+            <addName>Katharina Alexiewna Ascanien, Gräfin</addName>
+            <addName>Katharina Alexiewna Engern, Herzogin</addName>
+            <addName>Katharina Alexiewna Sachsen, Herzogin</addName>
+            <addName>Katharina Alexiewna Westphalen, Herzogin</addName>
+            <addName>Katherina de Groote</addName>
+            <addName>Katherina</addName>
+            <addName>Lover of truth</addName>
+            <addName>Sophie Friederike Auguste Anhalt-Zerbst, Prinzessin</addName>
+            <addName>Sophie Friederike Auguste</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Charles de Nevers (I, duc de Mantoue et du Monferrat)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00915186</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00915186"
+                   key="#PND:115361871">Herzogs von Gonzaga<addName type="display">Charles de Nevers (I, duc de Mantoue et du Monferrat)</addName>
+            <addName>Carolus Gonzaga</addName>
+            <addName>Carlo I duc de Mantoue et du Monferrat</addName>
+            <addName>Carlo I</addName>
+            <addName>Carlo I Gonzaga Nevers duca di Mantova e del Monferrato</addName>
+            <addName>Carlo I Gonzaga Nevers</addName>
+            <addName>Charles I duc de Mantoue et du Monferrat</addName>
+            <addName>Charles</addName>
+            <addName>Charles :I:+1+ duc de Nevers</addName>
+            <addName>Charles I</addName>
+            <addName>Carlo Gonzaga</addName>
+            <addName>Gonzaga, Carlo I duca di Mantova e del Monferrato</addName>
+            <addName>Charles de Gonzague</addName>
+            <addName>Gonzague, Charles de I duc de Mantoue et du Monferrat</addName>
+            <addName>Gonzague</addName>
+            <addName>Charles I Gonzague Nevers</addName>
+            <addName>Nevers, Charles I Gonzague duc de</addName>
+            <addName>Carlo Mantova e Monteferrato, Duca, I.</addName>
+            <addName>Carlo I. Duca di Mantova</addName>
+            <addName>Carlo I.</addName>
+            <addName>Carlo I. Gonzaga Duke of Mantua</addName>
+            <addName>Carlo I. Gonzaga</addName>
+            <addName>Carlo I. Gonzaga Nevers Duca di Mantova e del Monteferrato</addName>
+            <addName>Carlo I. Gonzaga Nevers</addName>
+            <addName>Charles Mantoue, Duc, I.</addName>
+            <addName>Charles Mantua, Duke, I.</addName>
+            <addName>Ch. ^de Gonzag. de Cleves</addName>
+            <addName>Cleves</addName>
+            <addName>Ch. de Gonzag. de Cleves</addName>
+            <addName>Charles de Gonzague de Cleves</addName>
+            <addName>Ch. de Gonzag. ^de Cleves</addName>
+            <addName>Gonzag. ^de Cleves</addName>
+            <addName>Gonzag. de Cleves</addName>
+            <addName>Carlo di Gonzaga</addName>
+            <addName>Carlo Gonzaga Nevers</addName>
+            <addName>Gonzaga Nevers</addName>
+            <addName>Gonzaga Nevers, Carlo duca di Mantova</addName>
+            <addName>Carlo di Gonzaga-Nevers</addName>
+            <addName>Gonzaga-Nevers</addName>
+            <addName>Charles Ier de Gonzague</addName>
+            <addName>Gonzague de Cleves</addName>
+            <addName>Duc de Nevers</addName>
+            <addName>de Nevers</addName>
+            <addName>Charles Duc de Nevers</addName>
+            <addName>Monsieur le Duc de Nevers</addName>
+            <addName>Charles de Nevers-Gonzaga</addName>
+            <addName>Nevers-Gonzaga</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

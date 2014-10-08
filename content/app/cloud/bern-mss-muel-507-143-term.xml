@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Polignac, Melchior ¬de¬</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000448</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/sammlungen/1000448">Samml. des <TEI:persName ref="#CerlID:cnp00404780" key="#PND:119226987">Kard. Polignak<addName type="display">Polignac, Melchior ¬de¬</addName>
+               <addName>Melchior de Polignac</addName>
+               <addName>de Polignac</addName>
+               <addName>Polignac,  de Cardinal</addName>
+               <addName>Melchior Polignac</addName>
+               <addName>Melchiore di Polignac</addName>
+               <addName>Melchiorre di Polignac</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Charlottenburg</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/topographie/8006556</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/topographie/8006556">
+            <TEI:placeName ref="#GettyID:1004256">Charlottenburg<addName type="display">Charlottenburg</addName>
+               <addName>Charlottenburg</addName>
+            </TEI:placeName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000306</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/sammlungen/1000306">St. Soucy.</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Antinous</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/211456</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/objekt/211456">ein <TEI:persName ref="#CerlID:cnp00578329" key="#PND:118649639">Antinous<addName type="display">Antinous</addName>
+               <addName>Antinoos</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:151574 http://arachne.uni-koeln.de/item/topographie/8002083 http://arachne.uni-koeln.de/item/bauwerk/2109716</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CensusID:151574 #http://arachne.uni-koeln.de/item/topographie/8002083 #http://arachne.uni-koeln.de/item/bauwerk/2109716">Villa Adriani</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Lykomedes (Familie)AchilleusNiemand</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/relief/1517402</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/relief/1517402">
+            <TEI:persName ref="#CerlID:cnp01427472">Lycomeds frau<addName type="display">Lykomedes (Familie)</addName>
+               <addName>Lycomedis</addName>
+            </TEI:persName>
+                             7 Töchter 
+                                <TEI:persName ref="#CerlID:cnp00541741" key="#PND:118500384">Achill<addName type="display">Achilleus</addName>
+               <addName>Achill</addName>
+               <addName>Achilles</addName>
+            </TEI:persName>
+                             und 
+                                <TEI:persName ref="#CerlID:cnp00561330" key="#PND:118589385">Uliss<addName type="display">Niemand</addName>
+               <addName>Nemo</addName>
+               <addName>Ulixes</addName>
+               <addName>Ulysses</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/25470</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/objekt/25470">ein sizendes Mädchen das mit
+          
+          Knöcheln spiehlt</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Isis</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-143.tei.xml-d11133e225">Eine <TEI:persName ref="#CerlID:cnp00542688" key="#PND:118932640">Isis<addName type="display">Isis</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Niobe</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-143.tei.xml-d11133e235">Eine Tochter der <TEI:persName ref="#CerlID:cnp01300351">Niobe<addName type="display">Niobe</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>MinervaPyrrhus (Epirus, König)</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-143.tei.xml-d11133e246">Eine <TEI:persName ref="#CerlID:cnp00544188" key="#PND:118986155">Minerva<addName type="display">Minerva</addName>
+               <addName>Sospitatrix</addName>
+            </TEI:persName> mit einem
+          
+          kleinem <TEI:persName ref="#CerlID:cnp00587177" key="#PND:118743058">Pyrrhus<addName type="display">Pyrrhus (Epirus, König)</addName>
+               <addName>Pirr carʹ Ėpira</addName>
+               <addName>Pirr</addName>
+               <addName>Pirro Epiro, Re</addName>
+               <addName>Pirro</addName>
+               <addName>Pyrrhos Epeiros, König</addName>
+               <addName>Pyrrhos</addName>
+               <addName>Pyrrhos Epirus, König</addName>
+               <addName>Pyrrhos König der Molosser</addName>
+               <addName>Pyrrhos Sohn des Aiakides</addName>
+               <addName>Pyrrhos von Epeiros</addName>
+               <addName>Pyrrhos von Epirus</addName>
+               <addName>Pyrrhus Epirota</addName>
+               <addName>Pyrrhus Epirotes</addName>
+               <addName>Pyrrhus Historicus</addName>
+               <addName>Pyrrhus King of Epirus</addName>
+               <addName>Pyrrhus Rex</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Apollon</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/25462</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/objekt/25462">Ein <TEI:persName ref="#CerlID:cnp00542641" key="#PND:118503642">Apollo<addName type="display">Apollon</addName>
+               <addName>Apoll</addName>
+               <addName>Apollo</addName>
+               <addName>Phoebus</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+</tags>

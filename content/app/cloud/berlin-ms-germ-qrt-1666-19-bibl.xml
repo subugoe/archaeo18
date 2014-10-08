@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Musaeum Capitolinum aber nur der 3te Band</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/books/MuseiCapitolini1750Vol1 http://arachne.uni-koeln.de/books/MuseiCapitolini1750Vol2 http://arachne.uni-koeln.de/books/MuseiCapitolini1755Vol3 http://arachne.uni-koeln.de/books/MuseiCapitolini1782Vol4</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://arachne.uni-koeln.de/books/MuseiCapitolini1750Vol1 #http://arachne.uni-koeln.de/books/MuseiCapitolini1750Vol2 #http://arachne.uni-koeln.de/books/MuseiCapitolini1755Vol3 #http://arachne.uni-koeln.de/books/MuseiCapitolini1782Vol4">Musaeum Capitolinum aber
+                nur der 3te Band</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>1ste</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/books/MuseiCapitolini1750Vol1</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://arachne.uni-koeln.de/books/MuseiCapitolini1750Vol1">1ste</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>2te</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/books/MuseiCapitolini1750Vol2</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://arachne.uni-koeln.de/books/MuseiCapitolini1750Vol2">2te</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>der dritte</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/books/MuseiCapitolini1755Vol3</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://arachne.uni-koeln.de/books/MuseiCapitolini1755Vol3">der dritte</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>4te</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/books/MuseiCapitolini1782Vol4</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://arachne.uni-koeln.de/books/MuseiCapitolini1782Vol4">4te</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+</tags>

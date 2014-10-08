@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Cicero, Marcus Tullius</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-295.tei.xml-d2287e51">Kopf des <persName ref="#CerlID:cnp01259298" key="#PND:118520814">Cicero<addName type="display">Cicero, Marcus Tullius</addName>
+               <addName>Marcus Tullius Cicero</addName>
+               <addName>M. Tullius Cicero</addName>
+               <addName>M. T. Cicero</addName>
+               <addName>M. Tul Cicero</addName>
+               <addName>M. T. Ciceron</addName>
+               <addName>Ciceron</addName>
+               <addName>Marek Tullius Ciceron</addName>
+               <addName>Mark Tullij Ciceron</addName>
+               <addName>Cicerone</addName>
+               <addName>M. T. Cicerone</addName>
+               <addName>Marco Tullio Cicerone</addName>
+               <addName>M. Tulli Ciceronis</addName>
+               <addName>Ciceronis</addName>
+               <addName>Cycero</addName>
+               <addName>M. Tuljusz Cycero</addName>
+               <addName>M. Tulljusz Cycero</addName>
+               <addName>Marek Tullius Cycero</addName>
+               <addName>M. T. C.</addName>
+               <addName>Cecéron</addName>
+               <addName>Marcus Tullius Cic.</addName>
+               <addName>Cic.</addName>
+               <addName>Cicéron</addName>
+               <addName>Marcus T. Cicéron</addName>
+               <addName>Cicéron d'Arpinium</addName>
+               <addName>Cicéron d'Arpinum</addName>
+               <addName>Marcus Tullius Ciccero</addName>
+               <addName>Ciccero</addName>
+               <addName>Cicéron</addName>
+               <addName>Marcus T. Cicéron</addName>
+               <addName>Cicéron d'Arpinium</addName>
+               <addName>Cicéron d'Arpinum</addName>
+               <addName>Cicero</addName>
+               <addName>M. Tvllus Cicero</addName>
+               <addName>Marcus T. Cicero</addName>
+               <addName>Marcus Tullus Cicero</addName>
+               <addName>Marcus Tvllius Cicero</addName>
+               <addName>Markus Tullius Cicero</addName>
+               <addName>Cicero Arpinius</addName>
+               <addName>Cicero Orator</addName>
+               <addName>Cicero Philosopher</addName>
+               <addName>Cicero Philosophus</addName>
+               <addName>Cicero von Arpinium</addName>
+               <addName>Cicero von Arpinum</addName>
+               <addName>Ciceron</addName>
+               <addName>M. Tulij Ciceron</addName>
+               <addName>Marco T. Ciceron</addName>
+               <addName>Marcus T. Ciceron</addName>
+               <addName>Marcus Tullius Ciceron</addName>
+               <addName>Cicerone</addName>
+               <addName>Marco T. Cicerone</addName>
+               <addName>Marco Tvllio Cicerone</addName>
+               <addName>Marcus T. Cicerone</addName>
+               <addName>M. T. Ciceronis</addName>
+               <addName>M. Tullii Ciceronis</addName>
+               <addName>Marci Tulli Ciceronis</addName>
+               <addName>M. T. Cycero</addName>
+               <addName>Marek T. Cycero</addName>
+               <addName>Marek Tuliusz Cycero</addName>
+               <addName>Cyceron</addName>
+               <addName>M. T. Cyceron</addName>
+               <addName>Marek Tuliusz Cyceron</addName>
+               <addName>Marek Tulliusz Cyceron</addName>
+               <addName>Markos Tyllios Kikerō</addName>
+               <addName>Kikerō</addName>
+               <addName>Markos Tyllios Kikero</addName>
+               <addName>Kikero</addName>
+               <addName>Markos Tyllios Kikerō</addName>
+               <addName>Kikerō</addName>
+               <addName>M.T.C.</addName>
+               <addName>Pseudo Ciccero</addName>
+               <addName>Pseudo Cicero</addName>
+               <addName>Pseudocicero</addName>
+               <addName>Pseudo-Cicero</addName>
+               <addName>Tullius Cicero</addName>
+               <addName>Tullius</addName>
+               <addName>Marcus Tullius</addName>
+               <addName>Tully</addName>
+               <addName>M. Tullio Cicerone</addName>
+               <addName>M.T. Cicero</addName>
+               <addName>Marco Tullio Ciceram</addName>
+               <addName>Ciceram</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Archytas (Tarentinus)</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/13496</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/13496">
+            <persName ref="#CerlID:cnp00965498" key="#PND:118645617">Archytas<addName type="display">Archytas (Tarentinus)</addName>
+               <addName>Archita</addName>
+               <addName>Archita di Taranto</addName>
+               <addName>Archita Filosofo Pitagorico</addName>
+               <addName>Archita Matematico</addName>
+               <addName>Archyta di Taranto</addName>
+               <addName>Archyta</addName>
+               <addName>Tarentinus Archytas</addName>
+               <addName>Archytas of Tarent</addName>
+               <addName>Archytas of Tarentum</addName>
+               <addName>Archytas Philosophus</addName>
+               <addName>Archytas Phytagoreus</addName>
+               <addName>Archytas Pythagoreer</addName>
+               <addName>Archytas Pythagoreus</addName>
+               <addName>Archytas Pythagoricus</addName>
+               <addName>Archytas Sohn des Hestiaios</addName>
+               <addName>Archytas Sohn des Mnesagoras</addName>
+               <addName>Archytas von Tarent</addName>
+               <addName>Archytos</addName>
+               <addName>Ps.-Archita</addName>
+               <addName>Ps.-Archytas</addName>
+               <addName>Tarentum</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Apuleius, Lucius</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/37485</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/37485">
+            <persName ref="#CerlID:cnp01260639" key="#PND:11850374X">Apulejus<addName type="display">Apuleius, Lucius</addName>
+               <addName>Lucius Apuleius</addName>
+               <addName>Apulejus</addName>
+               <addName>Abūljūs</addName>
+               <addName>Lūkjūs Abūljūs al-Madaurī</addName>
+               <addName>Abūljūs al-Madaurī</addName>
+               <addName>Appuleius</addName>
+               <addName>Lucius Appuleius</addName>
+               <addName>Appuleius Philosopher</addName>
+               <addName>Lucius Appuleius Madaurensis</addName>
+               <addName>Appuleius Madaurensis</addName>
+               <addName>Appulejus</addName>
+               <addName>Apulegio</addName>
+               <addName>Apuleio</addName>
+               <addName>Lucio Apuleio</addName>
+               <addName>Apuleio Neosofista</addName>
+               <addName>L. Apuleius</addName>
+               <addName>Apuleius, Lucius von Madaura</addName>
+               <addName>Madaurensis Apuleius</addName>
+               <addName>Apuleius Afer</addName>
+               <addName>Apuleius Barbarus</addName>
+               <addName>Apuleius Celsus</addName>
+               <addName>Apuleius Philosophus</addName>
+               <addName>Apuleius Physician</addName>
+               <addName>Apuleius Platonicus</addName>
+               <addName>Apuleius Platonicus Madaurensis</addName>
+               <addName>Apuleius Platoniker</addName>
+               <addName>Apuleius Scriptor Botanicus</addName>
+               <addName>Apuleius Sophist</addName>
+               <addName>Apuleius of Madaura</addName>
+               <addName>Apuleius of Madauros</addName>
+               <addName>Apuleius van Madauros</addName>
+               <addName>Apuleius von Madaura</addName>
+               <addName>Apuleius von Madauros</addName>
+               <addName>Apuleius Africanus</addName>
+               <addName>Lucius Apuleius Madaurensis</addName>
+               <addName>Apuleius Madaurensis Afer</addName>
+               <addName>Apuleius Madaurensis Platonicus</addName>
+               <addName>Lucius Apuleius Madaurensis Platonicus</addName>
+               <addName>Lucius Apuleius Marcellus</addName>
+               <addName>Apuleius Marcellus</addName>
+               <addName>Lucius Apuleius-Madaurensis</addName>
+               <addName>Apuleius-Madaurensis</addName>
+               <addName>Lucius Apulejus</addName>
+               <addName>Apulejus von Madaura</addName>
+               <addName>Lucius Apulejus Madaurensis</addName>
+               <addName>Apulejus Madaurensis</addName>
+               <addName>Apulejusz z Madaury</addName>
+               <addName>Apulejusz</addName>
+               <addName>Apuleo</addName>
+               <addName>Lucio Apuleyo</addName>
+               <addName>Apuleyo</addName>
+               <addName>Apuleyo de Madauros</addName>
+               <addName>Apulée</addName>
+               <addName>Apulée de Madaure</addName>
+               <addName>Apulée de Numidie</addName>
+               <addName>Lucius Apullius</addName>
+               <addName>Apullius</addName>
+               <addName>Apulée</addName>
+               <addName>Luce Apulée</addName>
+               <addName>Apulée de Madaure</addName>
+               <addName>Apulée de Numidie</addName>
+               <addName>Lucio</addName>
+               <addName>Lucius Madaurensis</addName>
+               <addName>Lucius</addName>
+               <addName>Lūkjūs Abūljūs</addName>
+               <addName>Lucius A. von Madaura</addName>
+               <addName>Madaura</addName>
+               <addName>Lucius Apuleius Madaura</addName>
+               <addName>Madaurensis</addName>
+               <addName>Pseudo-Apuleius</addName>
+               <addName>Pseudo-Apuleius Medicus</addName>
+               <addName>Lūkiyūs Abūluyūs</addName>
+               <addName>Abūluyūs</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Brutus, Marcus Junius</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-295.tei.xml-d2287e464">
+            <persName ref="#CerlID:cnp00394357" key="#PND:118516361">Brutus<addName type="display">Brutus, Marcus Junius</addName>
+               <addName>Marcus Junius Brutus</addName>
+               <addName>Marcus Iunius Brutus</addName>
+               <addName>Marcus Brutus</addName>
+               <addName>Junius Brutus</addName>
+               <addName>Marco Giunio Bruto</addName>
+               <addName>Bruto</addName>
+               <addName>M. Junius Brutus</addName>
+               <addName>Marco Giunio Brutus</addName>
+               <addName>Marcus I. Brutus</addName>
+               <addName>Marcus J. Brutus</addName>
+               <addName>Brutus Caesaris Interfector</addName>
+               <addName>Brutus Caesarmörder</addName>
+               <addName>Brutus Correspondent of Cicero</addName>
+               <addName>Brutus Epistolographus</addName>
+               <addName>Brutus Romanus</addName>
+               <addName>Iunius Brutus, Marcus Caesaris Interfector</addName>
+               <addName>Iunius Brutus</addName>
+               <addName>Iunius</addName>
+               <addName>Junius</addName>
+            </persName> als Knabe</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000632</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000632">Wallmodischen
+                                        Sammlung</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Cicero, Marcus Tullius</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/11105</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/11105">
+            <persName ref="#CerlID:cnp01259298" key="#PND:118520814">Cicero<addName type="display">Cicero, Marcus Tullius</addName>
+               <addName>Marcus Tullius Cicero</addName>
+               <addName>M. Tullius Cicero</addName>
+               <addName>M. T. Cicero</addName>
+               <addName>M. Tul Cicero</addName>
+               <addName>M. T. Ciceron</addName>
+               <addName>Ciceron</addName>
+               <addName>Marek Tullius Ciceron</addName>
+               <addName>Mark Tullij Ciceron</addName>
+               <addName>Cicerone</addName>
+               <addName>M. T. Cicerone</addName>
+               <addName>Marco Tullio Cicerone</addName>
+               <addName>M. Tulli Ciceronis</addName>
+               <addName>Ciceronis</addName>
+               <addName>Cycero</addName>
+               <addName>M. Tuljusz Cycero</addName>
+               <addName>M. Tulljusz Cycero</addName>
+               <addName>Marek Tullius Cycero</addName>
+               <addName>M. T. C.</addName>
+               <addName>Cecéron</addName>
+               <addName>Marcus Tullius Cic.</addName>
+               <addName>Cic.</addName>
+               <addName>Cicéron</addName>
+               <addName>Marcus T. Cicéron</addName>
+               <addName>Cicéron d'Arpinium</addName>
+               <addName>Cicéron d'Arpinum</addName>
+               <addName>Marcus Tullius Ciccero</addName>
+               <addName>Ciccero</addName>
+               <addName>Cicéron</addName>
+               <addName>Marcus T. Cicéron</addName>
+               <addName>Cicéron d'Arpinium</addName>
+               <addName>Cicéron d'Arpinum</addName>
+               <addName>Cicero</addName>
+               <addName>M. Tvllus Cicero</addName>
+               <addName>Marcus T. Cicero</addName>
+               <addName>Marcus Tullus Cicero</addName>
+               <addName>Marcus Tvllius Cicero</addName>
+               <addName>Markus Tullius Cicero</addName>
+               <addName>Cicero Arpinius</addName>
+               <addName>Cicero Orator</addName>
+               <addName>Cicero Philosopher</addName>
+               <addName>Cicero Philosophus</addName>
+               <addName>Cicero von Arpinium</addName>
+               <addName>Cicero von Arpinum</addName>
+               <addName>Ciceron</addName>
+               <addName>M. Tulij Ciceron</addName>
+               <addName>Marco T. Ciceron</addName>
+               <addName>Marcus T. Ciceron</addName>
+               <addName>Marcus Tullius Ciceron</addName>
+               <addName>Cicerone</addName>
+               <addName>Marco T. Cicerone</addName>
+               <addName>Marco Tvllio Cicerone</addName>
+               <addName>Marcus T. Cicerone</addName>
+               <addName>M. T. Ciceronis</addName>
+               <addName>M. Tullii Ciceronis</addName>
+               <addName>Marci Tulli Ciceronis</addName>
+               <addName>M. T. Cycero</addName>
+               <addName>Marek T. Cycero</addName>
+               <addName>Marek Tuliusz Cycero</addName>
+               <addName>Cyceron</addName>
+               <addName>M. T. Cyceron</addName>
+               <addName>Marek Tuliusz Cyceron</addName>
+               <addName>Marek Tulliusz Cyceron</addName>
+               <addName>Markos Tyllios Kikerō</addName>
+               <addName>Kikerō</addName>
+               <addName>Markos Tyllios Kikero</addName>
+               <addName>Kikero</addName>
+               <addName>Markos Tyllios Kikerō</addName>
+               <addName>Kikerō</addName>
+               <addName>M.T.C.</addName>
+               <addName>Pseudo Ciccero</addName>
+               <addName>Pseudo Cicero</addName>
+               <addName>Pseudocicero</addName>
+               <addName>Pseudo-Cicero</addName>
+               <addName>Tullius Cicero</addName>
+               <addName>Tullius</addName>
+               <addName>Marcus Tullius</addName>
+               <addName>Tully</addName>
+               <addName>M. Tullio Cicerone</addName>
+               <addName>M.T. Cicero</addName>
+               <addName>Marco Tullio Ciceram</addName>
+               <addName>Ciceram</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-295.tei.xml-d2287e710">der wichtigste</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:10019115 http://arachne.uni-koeln.de/item/objekt/16079</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:10019115 #http://arachne.uni-koeln.de/item/objekt/16079">82.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-295.tei.xml-d2287e733">ein 
+                                            schwarzer Achat</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-295.tei.xml-d2287e745">ein Onyx</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Demosthenes</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-295.tei.xml-d2287e971">
+            <persName ref="#CerlID:cnp00394563" key="#PND:118524658">Demosthenes<addName type="display">Demosthenes</addName>
+               <addName>Dēmosthenēs</addName>
+               <addName>Dēmosthenus</addName>
+               <addName>Démosthène</addName>
+               <addName>Démosthène dÁthènes</addName>
+               <addName>Démosthène dÁthènes</addName>
+               <addName>Démosthène Orateur</addName>
+               <addName>Démosthene</addName>
+               <addName>Dēmosthenus</addName>
+               <addName>Démosthène</addName>
+               <addName>Démosthène dÁthènes</addName>
+               <addName>Démosthène Orateur</addName>
+               <addName>Démosthene</addName>
+               <addName>Demostene</addName>
+               <addName>Demostene di Peania</addName>
+               <addName>Demostene Oratore</addName>
+               <addName>Demostenes</addName>
+               <addName>Demosthenes Atheniensis</addName>
+               <addName>Demosthenes Attischer Redner</addName>
+               <addName>Demosthenes Orator</addName>
+               <addName>Demosthenes Politiker</addName>
+               <addName>Demosthenes Pseudo-</addName>
+               <addName>Demosthenes Redner</addName>
+               <addName>Demosthenes Rhetor</addName>
+               <addName>Demosthenes Sohn des Demosthenes</addName>
+               <addName>Demosthenes von Athen</addName>
+               <addName>Demosthenes von Paiania</addName>
+               <addName>Demosthenus</addName>
+               <addName>Pseudo-Demosthenes</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+</tags>

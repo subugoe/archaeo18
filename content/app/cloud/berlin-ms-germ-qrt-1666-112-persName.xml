@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Clemens (Papa, XIV.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00905328</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00905328"
+                       key="#PND:119215152">Clemens 14.<addName type="display">Clemens (Papa, XIV.)</addName>
+            <addName>Clemens Papa, XIIII.</addName>
+            <addName>Clemens Papst, XIV.</addName>
+            <addName>Clemens XIV Pope</addName>
+            <addName>Clemens XIV.</addName>
+            <addName>Clement Pape, XIV.</addName>
+            <addName>Clemente Papa, XIV.</addName>
+            <addName>Clemente</addName>
+            <addName>Clemenz Papa, XIV.</addName>
+            <addName>Clemenz</addName>
+            <addName>Clément Papa, XIV</addName>
+            <addName>Clément</addName>
+            <addName>Clément XIV.</addName>
+            <addName>Clément XIVe Pape</addName>
+            <addName>Ganganelli</addName>
+            <addName>Clemens Ganganelli</addName>
+            <addName>Giovanni V. Ganganelli</addName>
+            <addName>Giovanni Vincenzo Antonio Ganganelli</addName>
+            <addName>Giovanni Vincenzo Antonio Lorenzo Ganganelli</addName>
+            <addName>Laurent Ganganelli</addName>
+            <addName>Lorenzo Ganganelli</addName>
+            <addName>Iklīmanḍūs Bābā, XIV.</addName>
+            <addName>Iklīmanḍūs</addName>
+            <addName>Iklīminḍūs Bābā, XIV.</addName>
+            <addName>Iklīminḍūs</addName>
+            <addName>Klemens Papa, XIV.</addName>
+            <addName>Klemens XIV. Papa</addName>
+            <addName>Lorenzo Fra</addName>
+            <addName>Lorenzo</addName>
+            <addName>Lorenzo Mönch</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Paris (Sagengestalt)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00587024</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00587024"
+                       key="#PND:118739301">Paris<addName type="display">Paris (Sagengestalt)</addName>
+            <addName>Alexandros</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Antonius, Marcus (Triumvir)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00394081</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00394081"
+                       key="#PND:118503529">Antonii<addName type="display">Antonius, Marcus (Triumvir)</addName>
+            <addName>Marcus Antonius</addName>
+            <addName>Antonius Triumvir</addName>
+            <addName>Marcus</addName>
+            <addName>Mark Anton</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Venus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00588078</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00588078"
+                       key="#PND:11876800X">Venus<addName type="display">Venus</addName>
+            <addName>Anadyomene  Beiname</addName>
+            <addName>Anadyomene</addName>
+            <addName>Arelatensis  Beiname</addName>
+            <addName>Arelatensis</addName>
+            <addName>aurea  Beiname</addName>
+            <addName>aurea</addName>
+            <addName>coelestis  Beiname</addName>
+            <addName>coelestis</addName>
+            <addName>Gnidia  Beiname</addName>
+            <addName>Gnidia</addName>
+            <addName>Marina  Beiname</addName>
+            <addName>Marina</addName>
+            <addName>Pelasgia  Beiname</addName>
+            <addName>Pelasgia</addName>
+            <addName>Pontia  Beiname</addName>
+            <addName>Pontia</addName>
+            <addName>Urania  Beiname</addName>
+            <addName>Urania</addName>
+            <addName>Victrix  Beiname</addName>
+            <addName>Victrix</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Cellini, Benvenuto</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01232872</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01232872"
+                       key="#PND:118519875">B. Cellini<addName type="display">Cellini, Benvenuto</addName>
+            <addName>Benvenuto Cellini</addName>
+            <addName>Beneventino Allirio</addName>
+            <addName>Allirio</addName>
+            <addName>Benevenuto Cellini</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

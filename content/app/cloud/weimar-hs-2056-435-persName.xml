@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Sixt (papa, 1521-1590)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00930951</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00930951"
+                   key="#PND:118765671">Sixtus V.<addName type="display">Sixt (papa, 1521-1590)</addName>
+            <addName>Felice Peretti Di Montalti</addName>
+            <addName>Di Montalti</addName>
+            <addName>Felice Peretti di Montalti</addName>
+            <addName>Montalti</addName>
+            <addName>Felice Montalto</addName>
+            <addName>Montalto</addName>
+            <addName>Felice Paretti di Montalto</addName>
+            <addName>Felix Montalto</addName>
+            <addName>Felix de Montealto</addName>
+            <addName>Montealto</addName>
+            <addName>Felice Peretti</addName>
+            <addName>Peretti</addName>
+            <addName>Peretti, Felice 1521-1590</addName>
+            <addName>Felix Peretti</addName>
+            <addName>Felice Peretti Peretti di Montalti</addName>
+            <addName>Peretti di Montalti</addName>
+            <addName>Felix Peretus</addName>
+            <addName>Peretus</addName>
+            <addName>Sisto Papa, V.</addName>
+            <addName>Sisto</addName>
+            <addName>Sisto Pontefice, V.</addName>
+            <addName>Sisto V papa 1521-1590</addName>
+            <addName>Sixte-Quint</addName>
+            <addName>Sixtus Pont. M., V.</addName>
+            <addName>Sixtus V pope</addName>
+            <addName>Sixtus V.</addName>
+            <addName>Xustus</addName>
+            <addName>Xystus Papa, V.</addName>
+            <addName>Xystus</addName>
+            <addName>Xystus Papst, V.</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Fontana, Domenico</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01234722</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01234722"
+                   key="#PND:118835556">Cavall. Domenico Fontana<addName type="display">Fontana, Domenico</addName>
+            <addName>Domenico Fontana</addName>
+            <addName>Cauallier Domenico Fontana</addName>
+            <addName>Domenicus Fontana</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

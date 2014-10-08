@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Claudius (Imperium Romanum, Imperator, I.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00394473</link>
+      <count>4</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00394473"
+                       key="#PND:118521063">Claudius<addName type="display">Claudius (Imperium Romanum, Imperator, I.)</addName>
+            <addName>Claude Empereur</addName>
+            <addName>Claude</addName>
+            <addName>Tiberius Claudius Caesar</addName>
+            <addName>Claudius Caesar</addName>
+            <addName>Tiberius Claudius Nero Germanicus</addName>
+            <addName>Claudius Nero Germanicus</addName>
+            <addName>Tiberius C. Claudius</addName>
+            <addName>Claudius Imperator</addName>
+            <addName>Claudius Kaiser</addName>
+            <addName>Claudius Römisches Reich, Kaiser, I.</addName>
+            <addName>Tiberius Claudius Caesar Augustus Germanicus</addName>
+            <addName>Augustus Tiberius Claudius Caesar</addName>
+            <addName>Tiberius Claudius Caesar, Augustus Germanicus</addName>
+            <addName>Tiberius Claudius Imperator</addName>
+            <addName>Tiberius Claudius</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Caligula (Imperium Romanum, Imperator)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00984012</link>
+      <count>4</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00984012"
+                       key="#PND:118518410">Caligula<addName type="display">Caligula (Imperium Romanum, Imperator)</addName>
+            <addName>Gaius Iulius Caligula Caesar Germanicus</addName>
+            <addName>Caesar Germanicus</addName>
+            <addName>Gaius Caligula Iulius Caesar Germanicus</addName>
+            <addName>Caligula Iulius Caesar Germanicus</addName>
+            <addName>Caius Caligula</addName>
+            <addName>Gaius Caligula</addName>
+            <addName>Caligula Römischer Kaiser</addName>
+            <addName>Gaius Iulius Caesar Germanicus</addName>
+            <addName>Germanicus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Germanicus, Caesar</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00980264</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00980264"
+                       key="#PND:118538748">Germanicus<addName type="display">Germanicus, Caesar</addName>
+            <addName>Caesar Germanicus</addName>
+            <addName>Iulius C. Germanicus</addName>
+            <addName>Julius C. Germanicus</addName>
+            <addName>Caesar</addName>
+            <addName>Claudius Caesar</addName>
+            <addName>Claudius</addName>
+            <addName>Germanico</addName>
+            <addName>Gaius Iulius Germanicus</addName>
+            <addName>Gaius Iulius Caesar Germanicus</addName>
+            <addName>Gajus Julius Germanicus</addName>
+            <addName>Iulius Caesar Germanicus</addName>
+            <addName>Julius Caesar Germanicus</addName>
+            <addName>Nero Claudius Germanicus</addName>
+            <addName>Germanicus Adoptivsohn des Tiberius</addName>
+            <addName>Germanicus Epigrammaticus</addName>
+            <addName>Iulius Caesar</addName>
+            <addName>Nero Claudius</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Drusus, Nero Claudius</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00550956</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00550956"
+                       key="#PND:119241811">Nero Claudius Drusus<addName type="display">Drusus, Nero Claudius</addName>
+            <addName>Nero Claudius Drusus</addName>
+            <addName>Claudius Drusus</addName>
+            <addName>Decimus Claudius Drusus</addName>
+            <addName>Drusus, Nero Claudius Germanicus</addName>
+            <addName>Drusus der Ältere</addName>
+            <addName>Drusus Germanicus</addName>
+            <addName>Drusus Maior</addName>
+            <addName>Drusus Major</addName>
+            <addName>Germanicus Statthalter</addName>
+            <addName>Germanicus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Antonia (die Jüngere)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00542597</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00542597"
+                       key="#PND:118503480">Antonia<addName type="display">Antonia (die Jüngere)</addName>
+            <addName>Antonia Augusta</addName>
+            <addName>Antonia Minor</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

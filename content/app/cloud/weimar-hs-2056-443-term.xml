@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Pallast Barberini</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/224962</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/224962">ein Genius im <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000007">Pallast Barberini</term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000007</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000007">Pallast Barberini</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>JunoLucina  (Göttin)Winckelmann, Johann JoachimInoBacchus</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/28066</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/28066">die <persName ref="#CerlID:cnp00589422" key="#PND:118800574">Juno<addName type="display">Juno</addName>
+               <addName>Cupra</addName>
+               <addName>Pronuba</addName>
+            </persName>
+                                                    Lucinia oder <persName ref="#CerlID:cnp01300268">Rumilia<addName type="display">Lucina  (Göttin)</addName>
+               <addName>Dea Lucina</addName>
+               <addName>Rumilia</addName>
+            </persName>, oder wie <persName ref="#CerlID:cnp00396916" key="#PND:118633600">Winckel- 
+                                                    mann<addName type="display">Winckelmann, Johann Joachim</addName>
+               <addName>Johann Joachim Winckelmann</addName>
+               <addName>Ioann Vinkelman</addName>
+               <addName>Vinkelman</addName>
+               <addName>Ioann. Vinkelman</addName>
+               <addName>Jochan Joachim Vinkelman</addName>
+               <addName>Johann Vinkelmann</addName>
+               <addName>Vinkelmann</addName>
+               <addName>I. I. Vinkelʹman</addName>
+               <addName>Vinkelʹman</addName>
+               <addName>Iogann Ioachim Vinkelʹman</addName>
+               <addName>Iogann-Ioachim Vinkelʹman</addName>
+               <addName>Winckelman</addName>
+               <addName>Johann Joachim Winckelman</addName>
+               <addName>Winckelman abbé Johann Joachim</addName>
+               <addName>Winckelmann</addName>
+               <addName>G. G. Winckelmann</addName>
+               <addName>G.G. Winckelmann</addName>
+               <addName>Giovanni Winckelmann</addName>
+               <addName>Giovanni Gioacchino Winckelmann</addName>
+               <addName>J Winckelmann</addName>
+               <addName>J. J. Winckelmann</addName>
+               <addName>Jean Joachim Winckelmann</addName>
+               <addName>Jean-Joachim Winckelmann</addName>
+               <addName>Joachim Johann Winckelmann</addName>
+               <addName>Joh. Jac. Winckelmann</addName>
+               <addName>Johann Winckelmann</addName>
+               <addName>Johann J. Winckelmann</addName>
+               <addName>Winckelmann, Johann Joachim 1717-1768</addName>
+               <addName>Johannes Joachim Winckelmann</addName>
+               <addName>Jojannes Joachim Winckelmann</addName>
+               <addName>Johannes Winckelmannus</addName>
+               <addName>Winckelmannus</addName>
+               <addName>Johannes J. Winckelmannus</addName>
+               <addName>Johannes Joachimus Winckelmannus</addName>
+               <addName>Johan̄ Winckelman̄</addName>
+               <addName>Winckelman̄</addName>
+               <addName>Johann Joachim Winkelman</addName>
+               <addName>Winkelman</addName>
+               <addName>Winkelman abbé Johann Joachim</addName>
+               <addName>Winkelmann</addName>
+               <addName>Giovanni Winkelmann</addName>
+               <addName>Hans J. Winkelmann</addName>
+               <addName>Ioh. Winkelmann</addName>
+               <addName>Johann Winkelmann</addName>
+               <addName>Johann J. Winkelmann</addName>
+               <addName>Johann Joachim Winkelmann</addName>
+               <addName>Winkelmann 1717-1768</addName>
+               <addName>Winkelmann abbé Johann Joachim</addName>
+               <addName>Joannes Winkelmannus</addName>
+               <addName>Winkelmannus</addName>
+               <addName>Johann J. Winkelmannus</addName>
+               <addName>Johannes Joachimus Wynckelmann</addName>
+               <addName>Wynckelmann</addName>
+               <addName>Hans J. Wynkelmann</addName>
+               <addName>Wynkelmann</addName>
+               <addName>Johann J. Wynkelmann</addName>
+               <addName>Johann Joachim Wynkelmann</addName>
+               <addName>Yôhân Yo'akim Wînqelman</addName>
+               <addName>Wînqelman</addName>
+            </persName> will, die <persName ref="#CerlID:cnp00553936" key="#PND:119362511">Leucothea<addName type="display">Ino</addName>
+               <addName>Leucothea</addName>
+            </persName> mit dem jungen <persName ref="#CerlID:cnp00579062" key="#PND:118651439">Bachus<addName type="display">Bacchus</addName>
+            </persName>en Basrelief:</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Villa Mattei</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-443.tei.xml-d4921e386">Eine schwangere Frau 
+                                                        in <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000134">Villa Mattei</term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000134</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000134">Villa Mattei</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Apollon</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:10011218 http://arachne.uni-koeln.de/item/objekt/15899 http://arachne.uni-koeln.de/item/objekt/15900</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:10011218 #http://arachne.uni-koeln.de/item/objekt/15899 #http://arachne.uni-koeln.de/item/objekt/15900">der <persName ref="#CerlID:cnp00542641" key="#PND:118503642">Apoll<addName type="display">Apollon</addName>
+               <addName>Apoll</addName>
+               <addName>Apollo</addName>
+               <addName>Phoebus</addName>
+            </persName> im Campi-</term>
+      </nodes>
+   </tag>
+</tags>

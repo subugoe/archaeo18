@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Laokoon</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00556829</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00556829"
+                       key="#PND:118569651">Laocoon<addName type="display">Laokoon</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Lessing, G.E.</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259428</link>
+      <count>4</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01259428"
+                       key="#PND:118572121">Les-
+                sing<addName type="display">Lessing, G.E.</addName>
+            <addName>G.E. Lessing</addName>
+            <addName>Gotthold Ephraim Lessing</addName>
+            <addName>G. E. L.</addName>
+            <addName>L.</addName>
+            <addName>Lai-shin</addName>
+            <addName>Laixin</addName>
+            <addName>Laixin zhu</addName>
+            <addName>Talif Lasing</addName>
+            <addName>Lasing</addName>
+            <addName>Gotchold Efraim Lesing</addName>
+            <addName>Lesing</addName>
+            <addName>Gothold Efraim Lesing</addName>
+            <addName>Gotold Efraim Lesing</addName>
+            <addName>Gotthold Ephraim Lesing</addName>
+            <addName>Goṭhold Efrayim Lesing</addName>
+            <addName>Gôthôld Efrayim Lesing</addName>
+            <addName>Gotholdas Efraimas Lesingas</addName>
+            <addName>Lesingas</addName>
+            <addName>Gothold Ep'raim Lesingi</addName>
+            <addName>Lesingi</addName>
+            <addName>Gothold Epʹraim Lesingi</addName>
+            <addName>Gothold Efraim Lesings</addName>
+            <addName>Lesings</addName>
+            <addName>Lessing</addName>
+            <addName>Boh. Efraim Lessing</addName>
+            <addName>E. Lessing</addName>
+            <addName>E.-G. Lessing</addName>
+            <addName>Efraimo Lessing</addName>
+            <addName>Ephraim Lessing</addName>
+            <addName>G. E. Lessing</addName>
+            <addName>Lessing, G. E. Gotthold Ephraim</addName>
+            <addName>G. Efraimo Lessing</addName>
+            <addName>G. Ephraim Lessing</addName>
+            <addName>Gotchol'd Efraim Lessing</addName>
+            <addName>Gotchol'd Ėfraim Lessing</addName>
+            <addName>Gotgol'd Efraim Lessing</addName>
+            <addName>Gothold Efrajm Lessing</addName>
+            <addName>Gothold Ephraim Lessing</addName>
+            <addName>Gottchol'd Efraim Lessing</addName>
+            <addName>Gottchol'd Ėfraim Lessing</addName>
+            <addName>Gottfried Ephraim Lessing</addName>
+            <addName>Gotth. E. Lessing</addName>
+            <addName>Gotth. Ephr Lessing</addName>
+            <addName>Gotth. Ephr. Lessing</addName>
+            <addName>Gotthard E. Lessing</addName>
+            <addName>Gotthard Ephraim Lessing</addName>
+            <addName>Gotthelf Ephraim Lessing</addName>
+            <addName>Gotthold Lessing</addName>
+            <addName>Gotthold E. Lessing</addName>
+            <addName>Gotthold Efraim Lessing</addName>
+            <addName>Lessing, Gotthold Ephraim 1729-1781</addName>
+            <addName>Gotthold Ephrain Lessing</addName>
+            <addName>Gotthold-Ephraim Lessing</addName>
+            <addName>Gôṭṭhôld Efrayim Lessing</addName>
+            <addName>Gôtthôld Efrayim Lessing</addName>
+            <addName>Gôṭṭhôld Efrayim Lessing</addName>
+            <addName>Lessing Mr. Gotthold Ephraim</addName>
+            <addName>Gotthold E. Lessinga</addName>
+            <addName>Lessinga</addName>
+            <addName>Gotthold Ephraim Lessingius</addName>
+            <addName>Lessingius</addName>
+            <addName>Gkottchold Ephraim Lessink</addName>
+            <addName>Lessink</addName>
+            <addName>Leszing</addName>
+            <addName>Leßing</addName>
+            <addName>Gotthold E. Leßing</addName>
+            <addName>Gotthold Ephraim Leßing</addName>
+            <addName>Gôṭhôld Efrayim Lēsing</addName>
+            <addName>Lēsing</addName>
+            <addName>Lising</addName>
+            <addName>G. D. Lising</addName>
+            <addName>Lisinǧ</addName>
+            <addName>Ǧ. D. Lisīng</addName>
+            <addName>Lisīng</addName>
+            <addName>Ǧ. D. Lisīng</addName>
+            <addName>Lisīng</addName>
+            <addName>Gotholds Efraims Lsings</addName>
+            <addName>Lsings</addName>
+            <addName>Gôṭhôld Efrayim Lēsing</addName>
+            <addName>Lēsing</addName>
+            <addName>Philosophe bien digne d'en être</addName>
+            <addName>Resshingu</addName>
+            <addName>G. E. Resshingu</addName>
+            <addName>Godofredos Efraim Lessigg</addName>
+            <addName>Lessigg</addName>
+            <addName>Godophredos Ephraim Lessing</addName>
+            <addName>Gothophredos Ephraïm Lessing</addName>
+            <addName>Gotth. Ephr. Leßing</addName>
+            <addName>philosophe bien digne d'en être</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Heyne, Christian Gottlieb</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259384</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01259384"
+                       key="#PND:11855073X">Heynens<addName type="display">Heyne, Christian Gottlieb</addName>
+            <addName>Christian Gottlieb Heyne</addName>
+            <addName>Christian Gottlob Heyne</addName>
+            <addName>C. G. H.</addName>
+            <addName>H.</addName>
+            <addName>C.G. Heijne</addName>
+            <addName>Heijne</addName>
+            <addName>Christian Gottlob Heine</addName>
+            <addName>Heine</addName>
+            <addName>Christian Gottlob Heinius</addName>
+            <addName>Heinius</addName>
+            <addName>Christianus Gottlobius Heinius</addName>
+            <addName>C. G. Heyne</addName>
+            <addName>Heyne, C. G. Christian Gottlob</addName>
+            <addName>Ch. G. Heyne</addName>
+            <addName>Chr. G. Heyne</addName>
+            <addName>Chr. Gottl Heyne</addName>
+            <addName>Christ. Gottl Heyne</addName>
+            <addName>Christ. Gottl. Heyne</addName>
+            <addName>Christ. Gottlob Heyne</addName>
+            <addName>Christian G. Heyne</addName>
+            <addName>Christianus G. Heyne</addName>
+            <addName>Christianus Gottlob Heyne</addName>
+            <addName>Heynius</addName>
+            <addName>Chr. Gottl. Heynius</addName>
+            <addName>Christian G. Heynius</addName>
+            <addName>Christian Gottlob Heynius</addName>
+            <addName>Christianus G. Heynius</addName>
+            <addName>Christianus Gottliebius Heynius</addName>
+            <addName>Christianus Gottlob Heynius</addName>
+            <addName>Christianus Gottlobius Heynius</addName>
+            <addName>Christianus Gottlobus Heynius</addName>
+            <addName>C.G. Heĳne</addName>
+            <addName>Heĳne</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Plinius Secundus, C.</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01238749</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01238749"
+                       key="#PND:118595083">Plinius<addName type="display">Plinius Secundus, C.</addName>
+            <addName>C. Plinius Secundus</addName>
+            <addName>Caius Plinius Secundus</addName>
+            <addName>Gaius Plinius Secundus</addName>
+            <addName>C. Plinio Secondo</addName>
+            <addName>C. Plinius Secundus veronensis</addName>
+            <addName>C. Plynius Secundus</addName>
+            <addName>Caio Plinio Secondo</addName>
+            <addName>Caio Plinio veronese</addName>
+            <addName>Caius Plinius Secundus Major</addName>
+            <addName>Cajus Plinius Secundus</addName>
+            <addName>G. Plinio Secondo</addName>
+            <addName>Pline</addName>
+            <addName>Pline</addName>
+            <addName>Caius Pline</addName>
+            <addName>Pline l'Ancien</addName>
+            <addName>Pline l'ancien</addName>
+            <addName>Pline lA´ncien</addName>
+            <addName>Pline le Naturaliste</addName>
+            <addName>Pline lÁncien</addName>
+            <addName>C. Pline Second</addName>
+            <addName>Pline Second</addName>
+            <addName>Pline l'Ancien 23-79</addName>
+            <addName>Plinij</addName>
+            <addName>Plinio</addName>
+            <addName>Gaio Secondo Plinio</addName>
+            <addName>Plinio Napoletano</addName>
+            <addName>Plinio el Viejo</addName>
+            <addName>Plinio il Vecchio</addName>
+            <addName>Plinio il vecchio</addName>
+            <addName>Plinio Secondo</addName>
+            <addName>Gaio Plinio Secondo</addName>
+            <addName>Caio Plinio Secundo</addName>
+            <addName>Plinio Secundo</addName>
+            <addName>Cayo Plinio Segundo</addName>
+            <addName>Plinio Segundo</addName>
+            <addName>Plinio il vecchio/C. Plinius Secundus</addName>
+            <addName>Plinius</addName>
+            <addName>C. Plinius</addName>
+            <addName>Caius Plinius</addName>
+            <addName>Caius Secundus Plinius</addName>
+            <addName>Plinius Florentino-Pragensis</addName>
+            <addName>Plinius Florentinus-Pragensis</addName>
+            <addName>Plinius Maior</addName>
+            <addName>Plinius Major</addName>
+            <addName>Plinius Rerum Naturalium Scriptor</addName>
+            <addName>Plinius Senior</addName>
+            <addName>Plinius der Ältere</addName>
+            <addName>Plinius starší</addName>
+            <addName>Plinius Secundus</addName>
+            <addName>C Plinius Secundus</addName>
+            <addName>Plinius Secundus, Caius Major</addName>
+            <addName>Plinius Secundus, Gaius Maior</addName>
+            <addName>Gajus Plinius Secundus</addName>
+            <addName>Plinius Secundus Maior</addName>
+            <addName>Plinius Secundus der Ältere</addName>
+            <addName>C. Plinius Secundus Maior</addName>
+            <addName>Plinius Secundus Novocomenis</addName>
+            <addName>Plinius d. Ä.</addName>
+            <addName>Pliniusz</addName>
+            <addName>K. Starszy Pliniusz</addName>
+            <addName>Pliniusz Starszy</addName>
+            <addName>Pliniusz Starszy K.</addName>
+            <addName>Plinjusz</addName>
+            <addName>Caius Plynius Secundus</addName>
+            <addName>Plynius Secundus</addName>
+            <addName>Gaius Plynius Secundus</addName>
+            <addName>Caius P. Secundus</addName>
+            <addName>Secundus</addName>
+            <addName>Gaius P. Secundus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01261255</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01261255">Julio Cæsare</persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Karl VI. Römisch-Deutscher (Kaiser)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01032220</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01032220">Carl 
+                                            VI.<addName type="display">Karl VI. Römisch-Deutscher (Kaiser)</addName>
+            <addName>Carl VI. Kaiser</addName>
+            <addName>Carl VI.</addName>
+            <addName>Karl VI. Kaiser ^von Deutschland</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Faramund</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01283905</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01283905"
+                   key="#PND:143858580">Fara- 
+                                            mon<addName type="display">Faramund</addName>
+            <addName>Faramon</addName>
+            <addName>Faramond</addName>
+            <addName>Faramund Fränkisches Reich, König</addName>
+            <addName>Faramund Westfranken, König</addName>
+            <addName>Pharamond</addName>
+            <addName>Pharamond Re dei Franchi, c. 428</addName>
+            <addName>Pharamund</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Louis (France, Roi, XV.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00399044</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00399044"
+                   key="#PND:118729438">Louis XV.<addName type="display">Louis (France, Roi, XV.)</addName>
+            <addName>Dauphin</addName>
+            <addName>Louis XV.</addName>
+            <addName>Ludovicus XV</addName>
+            <addName>Ludovicus France, Roi, XV.</addName>
+            <addName>Ludovicus</addName>
+            <addName>Ludovicus Gallia, Rex, XV.</addName>
+            <addName>Ludwig Franckreich, Koenig, XV.</addName>
+            <addName>Ludwig Frankreich, König, XV.</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Dorsch, Christoph</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00569991</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00569991"
+                   key="#PND:122496523">Dorsch<addName type="display">Dorsch, Christoph</addName>
+            <addName>Christoph Dorsch</addName>
+            <addName>Johann Christoph Dorsch</addName>
+            <addName>Christophorus Dorscheus</addName>
+            <addName>Dorscheus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Vico, Enea</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01241051</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01241051"
+                   key="#PND:119099950">Aeneas Vicus<addName type="display">Vico, Enea</addName>
+            <addName>Enea Vico</addName>
+            <addName>Aeneas Vicus</addName>
+            <addName>Aeneas Vicus Parmensis</addName>
+            <addName>Vico Enea</addName>
+            <addName>Enea</addName>
+            <addName>Enea Vico da Parma</addName>
+            <addName>Enea Vico parmigiano</addName>
+            <addName>Vico, Enea Parmigiano</addName>
+            <addName>Aeneas Vico Parmigiano</addName>
+            <addName>Vico Parmigiano</addName>
+            <addName>Enea Vico Parmigiano</addName>
+            <addName>Vicus</addName>
+            <addName>Enea Vicus</addName>
+            <addName>Aeneas Vicus Parmense</addName>
+            <addName>Vicus Parmense</addName>
+            <addName>Vicus Parmensis</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Franco, Giovanni Battista</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00526054</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00526054"
+                   key="#PND:129068403">Battista 
+                                            Franco<addName type="display">Franco, Giovanni Battista</addName>
+            <addName>Giovanni Battista Franco</addName>
+            <addName>Battista Franco</addName>
+            <addName>Il Simolei</addName>
+            <addName>Simolei</addName>
+            <addName>Baptista Franco Veneziano</addName>
+            <addName>Baptista</addName>
+            <addName>Baptista Veneziano</addName>
+            <addName>Battista di Franchi</addName>
+            <addName>Battista</addName>
+            <addName>Battiste Franc</addName>
+            <addName>Franc</addName>
+            <addName>Franchi</addName>
+            <addName>Semolei</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Thomassin, Philippe</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01240486</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01240486"
+                   key="#PND:101110294 119434660">Phil: Thomasin<addName type="display">Thomassin, Philippe</addName>
+            <addName>Philippe Thomassin</addName>
+            <addName>Filippo Thomassino</addName>
+            <addName>Philip Thomasinus</addName>
+            <addName>Thomasinus</addName>
+            <addName>Philippus Thomasinus</addName>
+            <addName>Thomasinus, Philippus Gallus</addName>
+            <addName>Filippo Thomassin</addName>
+            <addName>Philipp Thomassin</addName>
+            <addName>Thomassino</addName>
+            <addName>Philippus Thomassinus</addName>
+            <addName>Thomassinus</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

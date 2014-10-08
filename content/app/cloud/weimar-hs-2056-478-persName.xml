@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Skopas</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00589299</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00589299"
+                   key="#PND:118797522">Scopas<addName type="display">Skopas</addName>
+            <addName>Scopas</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Sénèque</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259729</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01259729"
+                   key="#PND:118613200">Seneca<addName type="display">Sénèque</addName>
+            <addName>Luci Anneu Sèneca</addName>
+            <addName>L. Annaeus Seneca</addName>
+            <addName>Lucius Annaeus Seneca</addName>
+            <addName>Sénèque le Jeune</addName>
+            <addName>Sénèque le Philosophe</addName>
+            <addName>Seneca philosophus</addName>
+            <addName>Annaeus Seneca</addName>
+            <addName>Annaeus</addName>
+            <addName>L. Annaeus Seneca Cordubensis</addName>
+            <addName>Luci Anneu Sèneca ca. 4 aC-65 dC</addName>
+            <addName>Pseudo-Sénèque</addName>
+            <addName>Pseudoseneca</addName>
+            <addName>Pseudo-Seneca</addName>
+            <addName>L. A. Sèneca</addName>
+            <addName>Sèneca, L. A. ca. 4 aC-65 dC</addName>
+            <addName>Luci Anneu, Sèneca</addName>
+            <addName>Sèneca, Luci Anneu, ca. 4 aC-65 dC</addName>
+            <addName>Sèneca el Filòsof ca. 4 aC-65 dC</addName>
+            <addName>Sèneca el Jove ca. 4 aC-65 dC</addName>
+            <addName>Sénècque</addName>
+            <addName>Luce Annaee Sénèque</addName>
+            <addName>Sénèque de Cordoue</addName>
+            <addName>Sénèque le Philisophe ca. 4 aC-65 dC</addName>
+            <addName>Lucio Anneo Séneca</addName>
+            <addName>Séneca, Lucio Anneo ca. 4 aC-65 dC</addName>
+            <addName>Séneca</addName>
+            <addName>Seneca der Jüngere</addName>
+            <addName>Seneca Junior Cato Cordubensis</addName>
+            <addName>L. A. Seneca</addName>
+            <addName>Seneca, L. Annaeus ca. 4 aC-65 dC</addName>
+            <addName>Lucio Anneo Seneca</addName>
+            <addName>Lucius A. Seneca</addName>
+            <addName>Lucius Annäus Seneca</addName>
+            <addName>Lucius Annaeus d. J. Seneca</addName>
+            <addName>Lucius Annaeus d.J. Seneca</addName>
+            <addName>Lucius Annaeus der Jüngere Seneca</addName>
+            <addName>Seneca, Lucius Annaeus ca. 4 aC-65 dC</addName>
+            <addName>Seneca, Lucius Annaeus Cordubensis</addName>
+            <addName>Seneca, Lucius Annaeus der Jüngere</addName>
+            <addName>Seneca, Lucius Annaeus Filius</addName>
+            <addName>Seneca, Lucius Annaeus Junior</addName>
+            <addName>Seneca, Lucius Annaeus Minor</addName>
+            <addName>Seneca, Lucius Annaeus Tragicus</addName>
+            <addName>Lucius Anneus Seneca</addName>
+            <addName>Seneca, Lucius Anneus Philosophus</addName>
+            <addName>Seneca der Jüngere</addName>
+            <addName>Seneca Dichter</addName>
+            <addName>Seneca Philosoph</addName>
+            <addName>Seneca Philosopher</addName>
+            <addName>Seneca Philosophus</addName>
+            <addName>Seneca Politiker</addName>
+            <addName>Seneca Pseudo-</addName>
+            <addName>Seneca Rhetoris Filius</addName>
+            <addName>Seneca Sohn</addName>
+            <addName>Seneca Stoischer Philosoph</addName>
+            <addName>Seneca Tragicus</addName>
+            <addName>Seneca Tragoedian</addName>
+            <addName>Seneca von Corduba</addName>
+            <addName>Senèque</addName>
+            <addName>Senèque le philosophe</addName>
+            <addName>Seneka</addName>
+            <addName>Lucij Annej Seneka</addName>
+            <addName>Lukio Aneo Seneko</addName>
+            <addName>Seneko</addName>
+            <addName>Lucjusz Anneusz Seneka</addName>
+            <addName>Seneka, Lucjusz Anneusz ca. 4 aC-65 dC</addName>
+            <addName>Lucyusz Annaeus Seneka</addName>
+            <addName>Lucyusz Anneusz Seneka</addName>
+            <addName>Seneque</addName>
+            <addName>Seneque le philosophe</addName>
+            <addName>Seneque philosophe</addName>
+            <addName>L. Annaeus Senecae</addName>
+            <addName>Senecae</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Septime Sévère (empereur romain)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01239912</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01239912"
+                   key="#PND:118764659">Septimius Severus<addName type="display">Septime Sévère (empereur romain)</addName>
+            <addName>Lucius Septimius Severus Pertinax</addName>
+            <addName>Lucius Septimius Severus</addName>
+            <addName>Septimius Severus empereur romain</addName>
+            <addName>L. Septimius Severus Pertinax Augustus</addName>
+            <addName>Lucius Septimius Severus Pertinax Augustus</addName>
+            <addName>Septime Sévère/Septimius Severus</addName>
+            <addName>Septimus Severus</addName>
+            <addName>Settimio Severo</addName>
+            <addName>Seuerus</addName>
+            <addName>Severus</addName>
+            <addName>Lucius S. Severus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Satyros</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01427429</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01427429">Silenus<addName type="display">Satyros</addName>
+            <addName>Satyr</addName>
+            <addName>Silen</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Bacchus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00579062</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00579062"
+                   key="#PND:118651439">Bachus<addName type="display">Bacchus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Somnus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00539256</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00539256"
+                   key="#PND:118817108">Somnus<addName type="display">Somnus</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

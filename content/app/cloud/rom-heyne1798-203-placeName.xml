@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Mallorca</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7007959</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7007959">Majorca<addName type="display">Mallorca</addName>
+            <addName>Mallorca</addName>
+            <addName>Majorca</addName>
+            <addName>Majorica</addName>
+            <addName>Majorque, Île</addName>
+            <addName>Mallorcan</addName>
+            <addName>Majorcan</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pesaro</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7003991</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7003991">Pesaro<addName type="display">Pesaro</addName>
+            <addName>Pesaro</addName>
+            <addName>Pisaurum</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Urbino</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7003994</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7003994">Urbino<addName type="display">Urbino</addName>
+            <addName>Urbino</addName>
+            <addName>Urbinum</addName>
+            <addName>Urbinum Hortense</addName>
+            <addName>Urvinum Metaurense</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Faenza</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7004995</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7004995">Faenza<addName type="display">Faenza</addName>
+            <addName>Faenza</addName>
+            <addName>Faventia</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Toscana</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7009760</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7009760">Toscana<addName type="display">Toscana</addName>
+            <addName>Toscana</addName>
+            <addName>Tuscany</addName>
+            <addName>Tuscia</addName>
+            <addName>Tuscan</addName>
+            <addName>Toscan</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Radicofani</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=1046228</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:1046228">Radicosfali<addName type="display">Radicofani</addName>
+            <addName>Radicofani</addName>
+         </placeName>
+      </nodes>
+   </tag>
+</tags>

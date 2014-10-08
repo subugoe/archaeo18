@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Musen</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00539388</link>
+      <count>10</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00539388"
+                   key="#PND:118820656">Musen<addName type="display">Musen</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Kalliope</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00565009</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00565009"
+                   key="#PND:12148565X">Calliope<addName type="display">Kalliope</addName>
+            <addName>Calliope</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Terpsichore</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00581433</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00581433"
+                   key="#PND:124538584">Terpsichore<addName type="display">Terpsichore</addName>
+            <addName>Tersicore</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Euterpe</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00581429</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00581429"
+                   key="#PND:124538401">Euterpe<addName type="display">Euterpe</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Erato</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00581427</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00581427"
+                   key="#PND:124538398">Erato<addName type="display">Erato</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Thalia</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00581434</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00581434"
+                   key="#PND:124538657">Thalia<addName type="display">Thalia</addName>
+            <addName>Thaleia</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Melpomene</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00581431</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00581431"
+                   key="#PND:124538517">Melpomene<addName type="display">Melpomene</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Herakles</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00574918</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00574918"
+                   key="#PND:118639552">Herculs<addName type="display">Herakles</addName>
+            <addName>Ercole</addName>
+            <addName>Heracles</addName>
+            <addName>Hercules</addName>
+            <addName>Herkules</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Polyhymnia</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00581432</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00581432"
+                   key="#PND:124538533">Polyhymnia<addName type="display">Polyhymnia</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Klio</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00581430</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00581430"
+                   key="#PND:124538487">Clio<addName type="display">Klio</addName>
+            <addName>Clio</addName>
+            <addName>Kleio</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Urania</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00581436</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00581436"
+                   key="#PND:124538673">Urania<addName type="display">Urania</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:150792 http://arachne.uni-koeln.de/item/bauwerk/2100160</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CensusID:150792 #http://arachne.uni-koeln.de/item/bauwerk/2100160">Coliseum od Amphit: Vespasiani</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/bauwerk/2105614</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/bauwerk/2105614">Thermæ</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:150958 CensusID:226598 CensusID:152799 CensusID:152474 CensusID:153211 CensusID:152801 CensusID:153210 CensusID:150962 http://arachne.uni-koeln.de/item/bauwerk/2100070</link>
+      <count>4</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CensusID:150958 #CensusID:226598 #CensusID:152799 #CensusID:152474 #CensusID:153211 #CensusID:152801 #CensusID:153210 #CensusID:150962 #http://arachne.uni-koeln.de/item/bauwerk/2100070">Arcus Triumphalis</TEI:term>
+      </nodes>
+   </tag>
+</tags>

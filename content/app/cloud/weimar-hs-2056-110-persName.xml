@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Nahl, Johann August</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00917980</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00917980"
+                   key="#PND:119244853">Nahl<addName type="display">Nahl, Johann August</addName>
+            <addName>Johann August Nahl</addName>
+            <addName>Johann A. Nahl</addName>
+            <addName>Johannes August Nahl</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Chabrias</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300249</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300249">Chabrias<addName type="display">Chabrias</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Nepos, Cornelius</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01233370</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01233370"
+                   key="#PND:119243121 118747681">Nepos<addName type="display">Nepos, Cornelius</addName>
+            <addName>Cornelius Nepos</addName>
+            <addName>Corneli Nepos</addName>
+            <addName>Cornelio Nepote</addName>
+            <addName>Kornelius Nepos</addName>
+            <addName>Nepote</addName>
+            <addName>Albano Nepos a Monte</addName>
+            <addName>Albano</addName>
+            <addName>Cornelio</addName>
+            <addName>Cornelius</addName>
+            <addName>Kornelii Nepot</addName>
+            <addName>Kornelii</addName>
+            <addName>Kornelius</addName>
+            <addName>Corn. Nepos</addName>
+            <addName>Korneliusz Nepos</addName>
+            <addName>Nepos Biographer</addName>
+            <addName>Cornelius Nepot</addName>
+            <addName>Nepot</addName>
+            <addName>Cornelius Nepotis</addName>
+            <addName>Nepotis</addName>
+            <addName>Cornelio Nipote</addName>
+            <addName>Nipote</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Diodorus Siculus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00906246</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00906246"
+                   key="#PND:118679627">Diodorus<addName type="display">Diodorus Siculus</addName>
+            <addName>Siculus Diodorus</addName>
+            <addName>Diodoro Siciliano</addName>
+            <addName>Diodoro</addName>
+            <addName>Diodorus Sicilianus</addName>
+            <addName>Diodo¯ros</addName>
+            <addName>Diodor</addName>
+            <addName>Diodor von Sicilien</addName>
+            <addName>Diodor von Sizilien</addName>
+            <addName>Diodor</addName>
+            <addName>Diodor Sicilian</addName>
+            <addName>Diodor Sicilijskij</addName>
+            <addName>Diodor von Agyrion</addName>
+            <addName>Diodore de Sicile</addName>
+            <addName>Diodore dA´gyrium</addName>
+            <addName>Diodore</addName>
+            <addName>Diodore d'Agyrium</addName>
+            <addName>Diodore dÁgyrium</addName>
+            <addName>Diodore Sicilien</addName>
+            <addName>Diodoro Sicolo</addName>
+            <addName>Diodoro Siculo</addName>
+            <addName>Diodoro de Sicilia</addName>
+            <addName>Diodoro di Agirio</addName>
+            <addName>Diodoro di Sicilia</addName>
+            <addName>Diodoro Sículo</addName>
+            <addName>Diodoro Sículo</addName>
+            <addName>Diodoros</addName>
+            <addName>Diodoros von Agyrion</addName>
+            <addName>Diodoros von Sizilien</addName>
+            <addName>Diodoros Siculus</addName>
+            <addName>Diodoros Sikelio¯tos</addName>
+            <addName>Diodoros Sikelios</addName>
+            <addName>Diodoros Sikeliotes</addName>
+            <addName>Diodoros Sikeliotos</addName>
+            <addName>Diodoros Sikiliac'i</addName>
+            <addName>Diodorus der Sicilier</addName>
+            <addName>Diodorus Historicus</addName>
+            <addName>Diodorus of Sicily</addName>
+            <addName>Diodorus Simlus</addName>
+            <addName>Diodorus the Sicilian</addName>
+            <addName>Diodorus Sicilus</addName>
+            <addName>Sicilus</addName>
+            <addName>Siculo</addName>
+            <addName>Siculus</addName>
+            <addName>Diodorus Sikeliote¯s</addName>
+            <addName>Sikeliote¯s</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

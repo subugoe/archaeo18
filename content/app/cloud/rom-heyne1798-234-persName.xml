@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Franz Albrecht (Sachsen-Lauenburg, Herzog)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01009770</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01009770"
+                   key="#PND:122811364">Herzog Franz Albert<addName type="display">Franz Albrecht (Sachsen-Lauenburg, Herzog)</addName>
+            <addName>Frantz Albrecht Sachsen, Hertzog</addName>
+            <addName>Frantz Albrecht</addName>
+            <addName>Frantz Albrecht Sachsen, Herzog</addName>
+            <addName>Frantz Albrecht Sachsen-Engern-Westphalen, Hertzog</addName>
+            <addName>Frantz Albrecht Sachsen-Lauenburg, Hertzog</addName>
+            <addName>Franz Albert Sachsen-Lauenburg, Herzog</addName>
+            <addName>Franz Albert</addName>
+            <addName>Franz Albrecht Sachsen, Herzog</addName>
+            <addName>Franz Albrecht Sachsen-Engern-Westfalen, Herzog</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Proserpina</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00544230</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00544230"
+                   key="#PND:11851122X">Proserpine<addName type="display">Proserpina</addName>
+            <addName>Kore</addName>
+            <addName>Persephone</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Bacchus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00579062</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00579062"
+                   key="#PND:118651439">Bacchus<addName type="display">Bacchus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Ceres (Göttin)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00540610</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00540610"
+                   key="#PND:118862294">Ceres<addName type="display">Ceres (Göttin)</addName>
+            <addName>Demeter</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Triptolemos</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300394</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300394">Triptolemus<addName type="display">Triptolemos</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

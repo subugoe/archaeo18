@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Museum Florentinum</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/gori1731ga</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/gori1731ga">Museum
+                            Florentinum</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>ersten Bände enthalten die Gemmen</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/gori1731bd1 http://digi.ub.uni-heidelberg.de/diglit/gori1732bd2</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/gori1731bd1 #http://digi.ub.uni-heidelberg.de/diglit/gori1732bd2">ersten Bände enthalten
+                            die Gemmen</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>der 3te einen Theil der florentinischen Statuen</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/gori1734bd3</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/gori1734bd3">der
+                            3te einen Theil der florentinischen Statuen</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Museum Odescalchium</tag>
+      <facet>tei:bibl</facet>
+      <link>http://catalog.hathitrust.org/Record/009282206 http://catalog.hathitrust.org/Record/009282207</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://catalog.hathitrust.org/Record/009282206 #http://catalog.hathitrust.org/Record/009282207">Museum Odescalchium</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Dactylioth. Zanettiana.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/books/Zanetti1750</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://arachne.uni-koeln.de/books/Zanetti1750">Dactylioth.
+                            Zanettiana.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Dact. Smithiana</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN668384867</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN668384867">Dact. Smithiana</ref>
+         </bibl>
+      </nodes>
+   </tag>
+</tags>

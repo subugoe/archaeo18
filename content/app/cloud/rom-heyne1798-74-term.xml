@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>ParmaColorno</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/15310</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/15310">in <placeName ref="#GettyID:7004942">Parma<addName type="display">Parma</addName>
+               <addName>Parma</addName>
+               <addName>Colonia Julia Augusta Parmensis</addName>
+               <addName>Colonia Julia Augusta</addName>
+            </placeName> im <placeName ref="#GettyID:7004987">Schlosse Colorno<addName type="display">Colorno</addName>
+               <addName>Colorno</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/15310 http://arachne.uni-koeln.de/item/objekt/15311</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/15310 #http://arachne.uni-koeln.de/item/objekt/15311">19.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>FrascatiTuscolo</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/20121 http://arachne.uni-koeln.de/item/objekt/20122</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/20121 #http://arachne.uni-koeln.de/item/objekt/20122">zu <placeName ref="#GettyID:7007013">Frascati<addName type="display">Frascati</addName>
+               <addName>Frascati</addName>
+               <addName>Frascali</addName>
+            </placeName>
+                                    (<placeName ref="#GettyID:7008406">Tusculum<addName type="display">Tuscolo</addName>
+               <addName>Tuscolo</addName>
+               <addName>Tusculum</addName>
+            </placeName>.)</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/5883</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/5883">Mus. Flor. p. 47.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Johannes (Apostolus)</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-74.tei.xml-d13841e301">
+            <persName ref="#CerlID:cnp00395354" key="#PND:118557815">Johannes<addName type="display">Johannes (Apostolus)</addName>
+               <addName>Iehan Saint</addName>
+               <addName>Iehan</addName>
+               <addName>Iehan Theéologien</addName>
+               <addName>Jehan Saint</addName>
+               <addName>Jehan</addName>
+               <addName>Jehan Théologien</addName>
+               <addName>Giovanni Apostolo</addName>
+               <addName>Giovanni</addName>
+               <addName>Giovanni San</addName>
+               <addName>Hovhannes Aṙak'yal</addName>
+               <addName>Hovhannes</addName>
+               <addName>Iōannēs</addName>
+               <addName>Ioann Bogoslov</addName>
+               <addName>Ioann</addName>
+               <addName>Ioannes Apostolus</addName>
+               <addName>Ioannes</addName>
+               <addName>Ioannes Evangelista</addName>
+               <addName>Ioannes Theologos</addName>
+               <addName>Iohannes Evangelista</addName>
+               <addName>Iohannes</addName>
+               <addName>Iohin</addName>
+               <addName>Iōannēs Apostolos</addName>
+               <addName>Iōannēs</addName>
+               <addName>János Apostol</addName>
+               <addName>János</addName>
+               <addName>János Apostol</addName>
+               <addName>János</addName>
+               <addName>Jean Évangéliste</addName>
+               <addName>Jean</addName>
+               <addName>Jean Apôtre</addName>
+               <addName>Jean Apostolus</addName>
+               <addName>Jean Saint</addName>
+               <addName>Joan Sant</addName>
+               <addName>Joan</addName>
+               <addName>Joannes Apostolus</addName>
+               <addName>Joannes</addName>
+               <addName>Joannes Evangelista</addName>
+               <addName>Joannes Sanctus</addName>
+               <addName>Joannis</addName>
+               <addName>Jochanan</addName>
+               <addName>Johannes Apostel</addName>
+               <addName>Johannes Ben-Zebedäus</addName>
+               <addName>Johannes Ben-Zebedäus</addName>
+               <addName>Johannes der Täufer</addName>
+               <addName>Johannes Evangelista</addName>
+               <addName>Johannes Heiliger</addName>
+               <addName>Johannes Sanctus</addName>
+               <addName>Johannes Theologus</addName>
+               <addName>John Apostle</addName>
+               <addName>John</addName>
+               <addName>John Apostolus</addName>
+               <addName>John Saint</addName>
+               <addName>John the Apostle, Saint</addName>
+               <addName>Jovan Sveti</addName>
+               <addName>Jovan</addName>
+               <addName>Juchanan</addName>
+               <addName>Pseudo-Johannes Apostel</addName>
+               <addName>Pseudo-Johannes</addName>
+               <addName>Pseudo-Johannes Apostolus</addName>
+               <addName>Pseudo-Johannes Evangelista</addName>
+               <addName>Yochanan</addName>
+               <addName>Yohane</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/5871 http://arachne.uni-koeln.de/item/objekt/5873</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/5871 #http://arachne.uni-koeln.de/item/objekt/5873">Mus. Flor. 48</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/28787</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/28787">Gall.
+                                            Giust. 70</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/28786</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/28786">72</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:157129 http://arachne.uni-koeln.de/item/objekt/22168 http://arachne.uni-koeln.de/item/objekt/22169</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:157129 #http://arachne.uni-koeln.de/item/objekt/22168 #http://arachne.uni-koeln.de/item/objekt/22169">S. Marco. 2. 26</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/16998 http://arachne.uni-koeln.de/item/objekt/16999</link>
+      <count>4</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/16998 #http://arachne.uni-koeln.de/item/objekt/16999">in den Gärten Ludovisi</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-74.tei.xml-d13841e689">Mus. Flor. 51.
+                                    52. 53</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-74.tei.xml-d13841e756">Mus. Flor. 54</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>LondonTownley, Charles</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/10639</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/10639">In <placeName ref="#GettyID:7011781">London<addName type="display">London</addName>
+               <addName>London</addName>
+               <addName>Londres</addName>
+               <addName>Londra</addName>
+               <addName>Lundin</addName>
+               <addName>Lundres</addName>
+               <addName>Lundenceaster</addName>
+               <addName>Lundenne</addName>
+               <addName>Lundene</addName>
+               <addName>Lundenburg</addName>
+               <addName>Lundenwic</addName>
+               <addName>Lundonia</addName>
+               <addName>Londinium</addName>
+               <addName>Lundinium</addName>
+               <addName>Londinion</addName>
+               <addName>Londinium Augusta</addName>
+               <addName>Londinos</addName>
+            </placeName> bey <persName ref="#CerlID:cnp00505755" key="#PND:128698233">Darwin<addName type="display">Townley, Charles</addName>
+               <addName>Charles Townley</addName>
+               <addName>Danville</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/18529</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/18529">134.</term>
+      </nodes>
+   </tag>
+</tags>

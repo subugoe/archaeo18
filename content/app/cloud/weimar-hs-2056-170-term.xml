@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>InoBacchusCavaceppi, Bartolomeo</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/gruppen/401126 http://arachne.uni-koeln.de/item/objekt/12691 http://arachne.uni-koeln.de/item/objekt/12692</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/gruppen/401126 #http://arachne.uni-koeln.de/item/objekt/12691 #http://arachne.uni-koeln.de/item/objekt/12692">
+            <persName ref="#CerlID:cnp00553936" key="#PND:119362511">Leucothea<addName type="display">Ino</addName>
+               <addName>Leucothea</addName>
+            </persName> mit langem Gewande, und 
+                             den jungen <persName ref="#CerlID:cnp00579062" key="#PND:118651439">Bachus<addName type="display">Bacchus</addName>
+            </persName> im Arm von <persName ref="#CerlID:cnp00404698" key="#PND:119217597">Cavaceppi<addName type="display">Cavaceppi, Bartolomeo</addName>
+               <addName>Bartolomeo Cavaceppi</addName>
+            </persName>
+                             ergänzet</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Orti Mattei</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:10007861 http://arachne.uni-koeln.de/item/objekt/21170</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:10007861 #http://arachne.uni-koeln.de/item/objekt/21170">Die am längsten berühmte ist in den <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000134">Orti Mattei</term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000134</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000134">Orti Mattei</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/15896</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/15896">hat den einen 
+                             Arm in die Höhe und betrachtet eine Wunde 
+                             unter der Brust</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-170.tei.xml-d6247e394">mit einem 
+                                 Schilde</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-170.tei.xml-d6247e405">ist auch vielleicht eine, oben na- 
+                                     ckend unten lang bekleidet</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/gruppen/400899 http://arachne.uni-koeln.de/objekt/29482 http://arachne.uni-koeln.de/item/objekt/29483</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/gruppen/400899 #http://arachne.uni-koeln.de/objekt/29482 #http://arachne.uni-koeln.de/item/objekt/29483">Ein schöner Tronck einer Amazonin zu 
+                             Pferde</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://census.bbaw.de/easydb/censusID=160923</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0" ref="#CensusID:160923">Eine auf den Knien liegende</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/23013</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/23013">Die Schönste soll die unter einem Pferde 
+                             liegende seyn, die sich wieder einen Reuter 
+                             vertheydiget</term>
+      </nodes>
+   </tag>
+</tags>

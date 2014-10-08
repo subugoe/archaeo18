@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Pamphilos</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01427458</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01427458">Pamphylus<addName type="display">Pamphilos</addName>
+            <addName>Pamphylus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Apelles</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00397365</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00397365"
+                       key="#PND:118649787">Appelle<addName type="display">Apelles</addName>
+            <addName>Appelles</addName>
+            <addName>Apelle</addName>
+            <addName>Apelles von Kolophon</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Ptolemaeus (Ägypten, König, I.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00396191</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00396191"
+                       key="#PND:118596926">Ptol. Lagi<addName type="display">Ptolemaeus (Ägypten, König, I.)</addName>
+            <addName>Ptolemaeus Lagus Historicus</addName>
+            <addName>Ptolemaeus Lagus</addName>
+            <addName>Ptolemaeus Aegyptus, Rex, I.</addName>
+            <addName>Ptolemaeus Eordaeus</addName>
+            <addName>Ptolemaeus Historicus</addName>
+            <addName>Ptolemaeus Historiker</addName>
+            <addName>Ptolemaeus I.</addName>
+            <addName>Ptolemaeus I., Soter</addName>
+            <addName>Ptolemaeus Lagi</addName>
+            <addName>Ptolemaeus Lagi Filius</addName>
+            <addName>Ptolemaeus Lagu</addName>
+            <addName>Ptolemaeus Soter</addName>
+            <addName>Ptolemaios General Alexanders des Großen</addName>
+            <addName>Ptolemaios I., Lagu</addName>
+            <addName>Ptolemaios I., Soter</addName>
+            <addName>Ptolemaios Lagu</addName>
+            <addName>Ptolemaios Soter</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Ptolemaeus (Ägypten, König, II.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00400483</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00400483"
+                       key="#PND:11879356X">Ptol. Philadelp<addName type="display">Ptolemaeus (Ägypten, König, II.)</addName>
+            <addName>Ptolomeus Philadelphus</addName>
+            <addName>Ptolemaeus Epistolographus</addName>
+            <addName>Ptolemaeus Philadelphus, Rex</addName>
+            <addName>Ptolemaios II., Philadelphos</addName>
+            <addName>Ptolemaios Philadelphos</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Theocritus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00396679</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00396679"
+                       key="#PND:118621769">Teocrit<addName type="display">Theocritus</addName>
+            <addName>Theokrit</addName>
+            <addName>Diokrides</addName>
+            <addName>Teocrito</addName>
+            <addName>Teocrito Poeta</addName>
+            <addName>Theocrit</addName>
+            <addName>Theocritus Bucolicus</addName>
+            <addName>Theocritus Poeta</addName>
+            <addName>Theocritus Poeta Bucolicus</addName>
+            <addName>Theocritus Syracusanus</addName>
+            <addName>Theocritus Syracusius</addName>
+            <addName>Theokrit von Syrakus</addName>
+            <addName>Theokritos</addName>
+            <addName>Theokritos Bukolischer Dichter</addName>
+            <addName>Theokritos Dichter</addName>
+            <addName>Theokritos Syrakusier</addName>
+            <addName>Theokritos Syrakusios</addName>
+            <addName>Theokritos von Syracus</addName>
+            <addName>Theokritos von Syrakus</addName>
+            <addName>Theokritus</addName>
+            <addName>Théocrite</addName>
+            <addName>Théocrite de Syracuse</addName>
+            <addName>Théocrite</addName>
+            <addName>Théocrite de Syracuse</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Callimachus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01260042</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01260042"
+                       key="#PND:102383774 118518488">Callimachus<addName type="display">Callimachus</addName>
+            <addName>Calímaco</addName>
+            <addName>Callimachos</addName>
+            <addName>Callimachus Cyrenensis</addName>
+            <addName>Callimachus Alexandrinus</addName>
+            <addName>Callimachus Cyraenaeus</addName>
+            <addName>Callimachus Cyrenaeus</addName>
+            <addName>Callimachus Epicus</addName>
+            <addName>Callimachus Philologus</addName>
+            <addName>Callimachus Poeta</addName>
+            <addName>Callimachus von Cyrene</addName>
+            <addName>Callimaco</addName>
+            <addName>Callimaco Cirenese</addName>
+            <addName>Callimaco di Cirene</addName>
+            <addName>Callimaque</addName>
+            <addName>Callimaque de Cyrène</addName>
+            <addName>Kallimach z Cyreny</addName>
+            <addName>Kallimachos</addName>
+            <addName>Kallimachos Alexandrinischer Dichter</addName>
+            <addName>Kallimachos Kyrēnaios</addName>
+            <addName>Kallimachos Kyrēnaios</addName>
+            <addName>Kallimachos Schriftsteller</addName>
+            <addName>Kallimachos Sohn des Battos</addName>
+            <addName>Kallimachos von Alexandria</addName>
+            <addName>Kallimachos von Kyrene</addName>
+            <addName>Kallimachus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

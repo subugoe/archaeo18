@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Athínai</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7001393</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7001393">Athen<addName type="display">Athínai</addName>
+            <addName>Athínai</addName>
+            <addName>Athenai</addName>
+            <addName>Athinai</addName>
+            <addName>Athens</addName>
+            <addName>Atenas</addName>
+            <addName>Athènes</addName>
+            <addName>Athen</addName>
+            <addName>Atene</addName>
+            <addName>Athenae</addName>
+            <addName>Athēnai</addName>
+            <addName>Athine</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Asia Minor</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7002294</link>
+      <count>4</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7002294">Kleinasiens<addName type="display">Asia Minor</addName>
+            <addName>Asia Minor</addName>
+            <addName>Asia Menor</addName>
+            <addName>Kleinasien</addName>
+            <addName>Asie Mineure</addName>
+            <addName>Anatolia</addName>
+            <addName>Anadol</addName>
+            <addName>Anadolu</addName>
+            <addName>Anadoli</addName>
+            <addName>Anatolie</addName>
+            <addName>Anatolien</addName>
+            <addName>Anatolian</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>England</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7002445</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7002445">England<addName type="display">England</addName>
+            <addName>England</addName>
+            <addName>Angleterre</addName>
+            <addName>Inglaterra</addName>
+            <addName>Inghilterra</addName>
+            <addName>English</addName>
+            <addName>Anglia</addName>
+            <addName>Britannia Romana</addName>
+            <addName>Britannia maior</addName>
+            <addName>Britannia propria</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Siğacik</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=5003765</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:5003765">Theos<addName type="display">Siğacik</addName>
+            <addName>Siğacik</addName>
+            <addName>Sigacik</addName>
+            <addName>Sigacak</addName>
+            <addName>Teos</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Ionia</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=6002765</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:6002765">Ionien<addName type="display">Ionia</addName>
+            <addName>Ionia</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Turunçlar</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7016803</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7016803">Briena<addName type="display">Turunçlar</addName>
+            <addName>Turunçlar</addName>
+            <addName>Turunglar</addName>
+            <addName>Samsun Kale</addName>
+            <addName>Priene</addName>
+            <addName>Kelebec</addName>
+            <addName>Gulubahce</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Asia</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=1000004</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:1000004">Asien<addName type="display">Asia</addName>
+            <addName>Asia</addName>
+            <addName>Asie</addName>
+            <addName>Asien</addName>
+            <addName>Azië</addName>
+            <addName>Asian</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+</tags>

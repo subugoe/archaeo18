@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Marcellus, Marcus Claudius (Feldherr)</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/15870 http://arachne.uni-koeln.de/item/objekt/15871</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/15870 #http://arachne.uni-koeln.de/item/objekt/15871">
+            <persName ref="#CerlID:cnp00588604" key="#PND:118781766">Marcus Marcellus<addName type="display">Marcellus, Marcus Claudius (Feldherr)</addName>
+               <addName>Marcus Claudius Marcellus</addName>
+               <addName>Claudius Marcellus, Marcus Feldherr</addName>
+               <addName>Claudius Marcellus</addName>
+               <addName>Marcus Claudius Marcellus Feldherr</addName>
+            </persName>, Consul
+                        Im <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000285">Pallast Giustin:</term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000285</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000285">Pallast Giustin:</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Sylla, Lucius Cornelius</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/5835</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/5835">
+            <persName ref="#CerlID:cnp00397134" key="#PND:11864260X">Sulla<addName type="display">Sylla, Lucius Cornelius</addName>
+               <addName>Lucius Cornelius Sylla</addName>
+               <addName>Lucius Cornelius Sulla</addName>
+               <addName>Cornelius Sulla</addName>
+               <addName>Cornelius</addName>
+               <addName>Cornelius Sylla</addName>
+               <addName>Lucius Cornelius Sulla Felix</addName>
+               <addName>Felix</addName>
+               <addName>Lucius Cornelius Scilla</addName>
+               <addName>Scilla</addName>
+               <addName>Lucio Silla</addName>
+               <addName>Silla</addName>
+               <addName>Lucio Cornelio Silla</addName>
+               <addName>Lucius Cornelius Silla</addName>
+               <addName>Sulla Diktator</addName>
+               <addName>Sulla Felix</addName>
+               <addName>Sulla Memoirenverfasser</addName>
+               <addName>Sylla, Lucius Cornelius 0138-0078 av. J.-C.</addName>
+            </persName>.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pompeius Magnus, GnaeusSpada, Bernardino</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/148559</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/148559">
+            <persName ref="#CerlID:cnp00396166" key="#PND:118595636">Pompeius<addName type="display">Pompeius Magnus, Gnaeus</addName>
+               <addName>Gnaeus Pompeius Magnus</addName>
+               <addName>Magnus</addName>
+               <addName>Pompée le Grand</addName>
+               <addName>Pompée</addName>
+               <addName>Pompeius</addName>
+               <addName>Gnaeus Pompeius</addName>
+               <addName>Pompeius, Gnaeus Magnus</addName>
+               <addName>Pompejus der Grosse</addName>
+               <addName>Pompejus</addName>
+            </persName>. Jm <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1005932">Pallast des <persName ref="#CerlID:cnp00574172" key="#PND:123220998">Car-  
+                        dinals Spada<addName type="display">Spada, Bernardino</addName>
+                  <addName>Bernardino Spada</addName>
+               </persName>
+            </term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Spada, Bernardino</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1005932</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1005932">Pallast des <persName ref="#CerlID:cnp00574172" key="#PND:123220998">Car-  
+                        dinals Spada<addName type="display">Spada, Bernardino</addName>
+               <addName>Bernardino Spada</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:151991 http://arachne.uni-koeln.de/item/bauwerk/2100278</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:151991 #http://arachne.uni-koeln.de/item/bauwerk/2100278">Theater</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Iulius CæsarCampidoglio</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:156697 http://arachne.uni-koeln.de/item/objekt/16497</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:156697 #http://arachne.uni-koeln.de/item/objekt/16497">
+            <persName ref="#CerlID:cnp01261255">Iulius Cæsar</persName>. Der beste stehet im <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000358">Campidoglio</term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000358</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000358">Campidoglio</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/rezeption/351252</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/rezeption/351252">97.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Augustus (Emperor of Rome)</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/16498</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/16498">
+            <persName ref="#CerlID:cnp00971385" key="#PND:118505122">Octavius Augustus<addName type="display">Augustus (Emperor of Rome)</addName>
+               <addName>Auguste Empereur</addName>
+               <addName>Auguste</addName>
+               <addName>Caio Giulio Cesare Ottaviano Augusto</addName>
+               <addName>Augusto</addName>
+               <addName>Cesare Augusto</addName>
+               <addName>Cesare Ottaviano Augusto</addName>
+               <addName>Ottaviano Augusto</addName>
+               <addName>Augustus Caesar</addName>
+               <addName>Caesar Augustus</addName>
+               <addName>Caesar Octavianus Augustus</addName>
+               <addName>Caius J. Augustus</addName>
+               <addName>Caius Julius Caesar Augustus</addName>
+               <addName>Cesar Octavianus Augustus</addName>
+               <addName>Gaius I. Augustus</addName>
+               <addName>Gaius Iulius Caesar Augustus</addName>
+               <addName>Gaius Iulius Caesar Octavianus Augustus</addName>
+               <addName>Gaius Julius Augustus</addName>
+               <addName>Gaius Julius Caesar Octavianus Augustus</addName>
+               <addName>Gaius Octavius Augustus</addName>
+               <addName>Iulius Caesar Octavianus Augustus</addName>
+               <addName>Octavianus Augustus</addName>
+               <addName>Octavius Caesar Augustus</addName>
+               <addName>Augustus Divus</addName>
+               <addName>Augustus Imperator</addName>
+               <addName>Augustus Imperium Romanum, Caesar</addName>
+               <addName>Augustus Kaiser</addName>
+               <addName>Augustus Römisches Reich, Kaiser</addName>
+               <addName>Augustus Roemisches Reich, Kaiser</addName>
+               <addName>Augustus Romanus</addName>
+               <addName>Augustus Verfasser der Res Gestae</addName>
+               <addName>Caius Octavianus Imperium Romanum, Imperator</addName>
+               <addName>Caius Octavianus</addName>
+               <addName>Caius Oktavius Imperium Romanum, Augustus</addName>
+               <addName>Caius Oktavius</addName>
+               <addName>Caius Oktavius Imperium Romanum, Imperator</addName>
+               <addName>Gaius Julius Caesar Octavianus</addName>
+               <addName>Gaius Octavius</addName>
+               <addName>Gaius Octavius Emperor of Rome</addName>
+               <addName>Octavian</addName>
+               <addName>Octavianus</addName>
+               <addName>Octavius</addName>
+               <addName>Octavius Caesar Emperor of Rome</addName>
+               <addName>Octavius Caesar</addName>
+               <addName>Octavius Augustus</addName>
+               <addName>Ottaviano</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/37514</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/37514">Ein andrer sitzend mit einer Rolle in</term>
+      </nodes>
+   </tag>
+</tags>

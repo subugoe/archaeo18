@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:10006587 http://arachne.uni-koeln.de/item/bauwerk/2108385</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:10006587 #http://arachne.uni-koeln.de/item/bauwerk/2108385">templum pacis</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Capitol</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/topographie/500002</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/topographie/500002">
+            <placeName ref="#http://arachne.uni-koeln.de/item/topographie/500002">Capitol</placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-57.tei.xml-d15263e131">templum
+                        Flaviæ gentis</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Athena</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-57.tei.xml-d15263e140">Tempel der <persName ref="#CerlID:cnp00542952" key="#PND:118504851">Pallas<addName type="display">Athena</addName>
+               <addName>Athene</addName>
+               <addName>Pallas Athene</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://census.bbaw.de/easydb/censusID=150900</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0" ref="#CensusID:150900">Triumphbogen
+                        desselben (arco di Portugallo)</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Traianus, Marcus Ulpius</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:151046 http://arachne.uni-koeln.de/item/topographie/500033</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:151046 #http://arachne.uni-koeln.de/item/topographie/500033">Forum <persName ref="#CerlID:cnp00917510" key="#PND:118623567">Trajani<addName type="display">Traianus, Marcus Ulpius</addName>
+               <addName>Marcus Ulpius Traianus</addName>
+               <addName>Traian</addName>
+               <addName>Traiano Imperatore</addName>
+               <addName>Traiano</addName>
+               <addName>Marcus U. Traianus</addName>
+               <addName>Traianus Epigrammaticus</addName>
+               <addName>Traianus Imperator</addName>
+               <addName>Traianus Romanus</addName>
+               <addName>Trajan Kaiser</addName>
+               <addName>Trajan Plinius-Korrespondent</addName>
+               <addName>Trajanus</addName>
+               <addName>Trajanus Imperator</addName>
+               <addName>Trajanus Imperium Romanum, Imperator</addName>
+               <addName>Ulpius Traianus</addName>
+               <addName>Ulpius</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Traianus, Marcus Ulpius</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:151057 http://arachne.uni-koeln.de/item/bauwerk/2100089</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:151057 #http://arachne.uni-koeln.de/item/bauwerk/2100089">Columna <persName ref="#CerlID:cnp00917510" key="#PND:118623567">Trajani<addName type="display">Traianus, Marcus Ulpius</addName>
+               <addName>Marcus Ulpius Traianus</addName>
+               <addName>Traian</addName>
+               <addName>Traiano Imperatore</addName>
+               <addName>Traiano</addName>
+               <addName>Marcus U. Traianus</addName>
+               <addName>Traianus Epigrammaticus</addName>
+               <addName>Traianus Imperator</addName>
+               <addName>Traianus Romanus</addName>
+               <addName>Trajan Kaiser</addName>
+               <addName>Trajan Plinius-Korrespondent</addName>
+               <addName>Trajanus</addName>
+               <addName>Trajanus Imperator</addName>
+               <addName>Trajanus Imperium Romanum, Imperator</addName>
+               <addName>Ulpius Traianus</addName>
+               <addName>Ulpius</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Traianus, Marcus Ulpius</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:243554 http://arachne.uni-koeln.de/item/bauwerk/2100074</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:243554 #http://arachne.uni-koeln.de/item/bauwerk/2100074">Arcus <persName ref="#CerlID:cnp00917510" key="#PND:118623567">Trajani<addName type="display">Traianus, Marcus Ulpius</addName>
+               <addName>Marcus Ulpius Traianus</addName>
+               <addName>Traian</addName>
+               <addName>Traiano Imperatore</addName>
+               <addName>Traiano</addName>
+               <addName>Marcus U. Traianus</addName>
+               <addName>Traianus Epigrammaticus</addName>
+               <addName>Traianus Imperator</addName>
+               <addName>Traianus Romanus</addName>
+               <addName>Trajan Kaiser</addName>
+               <addName>Trajan Plinius-Korrespondent</addName>
+               <addName>Trajanus</addName>
+               <addName>Trajanus Imperator</addName>
+               <addName>Trajanus Imperium Romanum, Imperator</addName>
+               <addName>Ulpius Traianus</addName>
+               <addName>Ulpius</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Constantinus (Imperium Romanum, Imperator, I.)</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:150908 http://arachne.uni-koeln.de/item/bauwerk/2100083</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:150908 #http://arachne.uni-koeln.de/item/bauwerk/2100083">Bogen <persName ref="#CerlID:cnp00945275" key="#PND:118565184">Constantins<addName type="display">Constantinus (Imperium Romanum, Imperator, I.)</addName>
+               <addName>Aurelius Claudius</addName>
+               <addName>Claudius Valerius</addName>
+               <addName>Constantin der Große</addName>
+               <addName>Constantin</addName>
+               <addName>Constantin der Grosse</addName>
+               <addName>Constantin Empereur</addName>
+               <addName>Constantin Kaiser</addName>
+               <addName>Constantin Varsovie, Grand-Duc</addName>
+               <addName>Constantine Emperor, I.</addName>
+               <addName>Constantine</addName>
+               <addName>Constantine the Great</addName>
+               <addName>Flavius Valerius Constantinus Augustus</addName>
+               <addName>Constantinus Augustus</addName>
+               <addName>Flavius Valerius Constantinus</addName>
+               <addName>I. Constantinus</addName>
+               <addName>Constantinus, I. Imperator</addName>
+               <addName>Constantinus Constantinopolitanus</addName>
+               <addName>Constantinus der Große</addName>
+               <addName>Constantinus der Grosse</addName>
+               <addName>Constantinus Imperator</addName>
+               <addName>Constantinus Imperator, I.</addName>
+               <addName>Constantinus Magnus</addName>
+               <addName>Costantino il Grande</addName>
+               <addName>Costantino</addName>
+               <addName>Flavius Valerius</addName>
+               <addName>Konstantin Veliki</addName>
+               <addName>Konstantin den Stores</addName>
+               <addName>Konstantin der Große</addName>
+               <addName>Konstantin der Grosse</addName>
+               <addName>Konstantin Römisches Reich, Kaiser, I.</addName>
+               <addName>Konstantin Römischer Kaiser</addName>
+               <addName>Konstantinus Imperium Romanum, Imperator, I.</addName>
+               <addName>Konstantinus</addName>
+               <addName>Konstantyn de Groote</addName>
+               <addName>Konstantyn</addName>
+               <addName>Valerius Aurelis</addName>
+               <addName>Valerius Constantinus Augustus</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:151574 http://arachne.uni-koeln.de/item/topographie/8002083</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:151574 #http://arachne.uni-koeln.de/item/topographie/8002083">Seine Villa</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:152254 http://arachne.uni-koeln.de/item/bauwerk/2105766</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:152254 #http://arachne.uni-koeln.de/item/bauwerk/2105766">Conopeum</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Antinous</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:10037107 http://arachne.uni-koeln.de/item/objekt/15888</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:10037107 #http://arachne.uni-koeln.de/item/objekt/15888">
+            <persName ref="#CerlID:cnp00578329" key="#PND:118649639">Antinous<addName type="display">Antinous</addName>
+               <addName>Antinoos</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+</tags>

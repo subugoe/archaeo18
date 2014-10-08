@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Karol Boromeusz (św)</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-464.tei.xml-d17753e289">Colossal Statue 
+          
+          von <TEI:persName ref="#CerlID:cnp01339521" key="#PND:118661957">St. Carolus Boromeus<addName type="display">Karol Boromeusz (św)</addName>
+               <addName>Carlo Borromeo</addName>
+               <addName>Carlo Borromeo s 1538-1584.</addName>
+               <addName>Charles Borromée saint 1538-1584</addName>
+               <addName>Charles Boromée</addName>
+               <addName>Boromée</addName>
+               <addName>Borromée</addName>
+               <addName>Carolus Borromeus</addName>
+               <addName>Borromeus</addName>
+               <addName>Carlo Borromeo saint</addName>
+               <addName>Carolus Borrhomaeus saint</addName>
+               <addName>Carolus Borrhomaeus</addName>
+               <addName>Carolus Borromaeus saint</addName>
+               <addName>Carolus Borromaeus</addName>
+               <addName>Carolus Borromeus saint</addName>
+               <addName>Charles Boromée saint</addName>
+               <addName>Carolus Boromaeus</addName>
+               <addName>Boromaeus</addName>
+               <addName>Boromeus</addName>
+               <addName>Boromeusz</addName>
+               <addName>Borrhomaeus</addName>
+               <addName>Carolus Borrhomeus</addName>
+               <addName>Borrhomeus</addName>
+               <addName>Carolus Borromæus</addName>
+               <addName>Borromæus</addName>
+               <addName>Carl Borromäus</addName>
+               <addName>Borromäus</addName>
+               <addName>Karl Borromäus</addName>
+               <addName>Carlo Borromaeo</addName>
+               <addName>Borromaeo</addName>
+               <addName>Carolus Cardinal Borromaeo</addName>
+               <addName>Carl Borromaeus</addName>
+               <addName>Borromaeus</addName>
+               <addName>Karl Borromaeus</addName>
+               <addName>Karl Borromäus</addName>
+               <addName>Borromäus</addName>
+               <addName>Carlo Borromei</addName>
+               <addName>Borromei</addName>
+               <addName>Caroli Borromei</addName>
+               <addName>Carlo saint Borromeo</addName>
+               <addName>Carlo sanctus/Carolus Borromaeus Borromeo</addName>
+               <addName>Charles Borromeo</addName>
+               <addName>Karl Borromeus</addName>
+               <addName>santo Carlo Borromeo</addName>
+               <addName>Carlo Archiepiscopus Mediolanensis</addName>
+               <addName>Carlo</addName>
+               <addName>Carlo Milano, Arcivescovo</addName>
+               <addName>Carolus Borrhomæus</addName>
+               <addName>Borromæus Carolus</addName>
+               <addName>Carolus</addName>
+               <addName>Borromeus Carolus</addName>
+               <addName>Carolus Archiepiscopus Mediolanensis</addName>
+               <addName>Charles Borromeé Saint</addName>
+               <addName>Charles Borromeé</addName>
+               <addName>Borromée Charles</addName>
+               <addName>Charles</addName>
+               <addName>Karl</addName>
+               <addName>Saint Charles Borromée Archevêque de Milan</addName>
+               <addName>Saint Charles Borromée Cardinal du titre de Sainte Praxede</addName>
+               <addName>Sanctus Carolus Cardinalis</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>HeraklesKassel</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-464.tei.xml-d17753e435">
+            <TEI:persName ref="#CerlID:cnp00574918" key="#PND:118639552">Herkules<addName type="display">Herakles</addName>
+               <addName>Ercole</addName>
+               <addName>Heracles</addName>
+               <addName>Hercules</addName>
+               <addName>Herkules</addName>
+            </TEI:persName>
+          
+          zu <TEI:placeName ref="#GettyID:7004431">Cassel<addName type="display">Kassel</addName>
+               <addName>Kassel</addName>
+               <addName>Cassel</addName>
+               <addName>Casle</addName>
+               <addName>Chassala</addName>
+               <addName>Chassela</addName>
+            </TEI:placeName>
+         </TEI:term>
+      </nodes>
+   </tag>
+</tags>

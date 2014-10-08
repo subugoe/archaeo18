@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Nemesis</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00542468</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00542468"
+                   key="#PND:118924850">Nemesis<addName type="display">Nemesis</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Dioskuren</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00543824</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00543824"
+                   key="#PND:118973878">Castor<addName type="display">Dioskuren</addName>
+            <addName>Castor und Pollux</addName>
+            <addName>Kastor und Pollux</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Amor</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00542364</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00542364"
+                   key="#PND:11850262X">Amor<addName type="display">Amor</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Döll, Friedrich Wilhelm</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00559296</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00559296"
+                   key="#PND:119560100">Döll<addName type="display">Döll, Friedrich Wilhelm</addName>
+            <addName>Friedrich Wilhelm Döll</addName>
+            <addName>Friedrich Wilhelm Doell</addName>
+            <addName>Doell</addName>
+            <addName>Friedrich Wilhelm Eugen Döll</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Bacchus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00579062</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00579062"
+                   key="#PND:118651439">Bacchus<addName type="display">Bacchus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Paternó Castellò, Ignazio</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00476565</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00476565"
+                   key="#PND:124386121">Piscari<addName type="display">Paternó Castellò, Ignazio</addName>
+            <addName>Ignazio Paternó Castellò</addName>
+            <addName>Ignazio Paternò Castello</addName>
+            <addName>Ignazio Paternò Castello</addName>
+            <addName>Piscari Prinz</addName>
+            <addName>Piscari</addName>
+            <addName>Ignazio Paternó Castellò di Biscari</addName>
+            <addName>Biscari</addName>
+            <addName>Principe di Biscari</addName>
+            <addName>Castellò</addName>
+            <addName>Ignazio Paternó</addName>
+            <addName>Paternó</addName>
+            <addName>Paternó Castellò di Biscari</addName>
+            <addName>Ignazio Paternò di Biscari</addName>
+            <addName>Ignazio Paternò Castello di Biscari</addName>
+            <addName>Castello</addName>
+            <addName>Ignazio Vincenzo Paternò Castello</addName>
+            <addName>Castello di Biscari</addName>
+            <addName>Ignazio Paternò</addName>
+            <addName>Paternò</addName>
+            <addName>Ignazio Vincenzo Paternò</addName>
+            <addName>Paternò Castello di Biscari</addName>
+            <addName>Paternò di Biscari</addName>
+            <addName>Ignazio Paternò-Castello</addName>
+            <addName>Paternò-Castello</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Catherine (II, Empress of Russia)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00906650</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00906650"
+                   key="#PND:118560565">Catherina 2<addName type="display">Catherine (II, Empress of Russia)</addName>
+            <addName>II Ekaterina</addName>
+            <addName>Catherina II.</addName>
+            <addName>Catarina II Empress of Russia</addName>
+            <addName>Catarina</addName>
+            <addName>Caterina Russia, Imperatrice, II.</addName>
+            <addName>Caterina</addName>
+            <addName>Caterina Russia, Zarina, II.</addName>
+            <addName>II Catharina</addName>
+            <addName>Catharina, II 2 tsarina van Rusland</addName>
+            <addName>Catharina</addName>
+            <addName>Catharina II.</addName>
+            <addName>Catharina Russia, Imperatrix, II.</addName>
+            <addName>Catharina Russland, Kaiserin, II.</addName>
+            <addName>Catharina Russland, Zarin, II.</addName>
+            <addName>Catharina de Grote</addName>
+            <addName>Catharina Alexiewna Rußland, Großfürstin</addName>
+            <addName>Catharina Alexiewna</addName>
+            <addName>Catharine II Empress of Russia</addName>
+            <addName>Catharine</addName>
+            <addName>Catharine Russland, Kaiserin, II.</addName>
+            <addName>Catharine Alexéievna</addName>
+            <addName>II, Empress of Russia, 1729-1796 Catherine</addName>
+            <addName>II Catherine</addName>
+            <addName>Catherine, II 2 Empress of Russia</addName>
+            <addName>Catherine II,  Empress of Russia,</addName>
+            <addName>Catherine Russia, Empress, II.</addName>
+            <addName>Catherine Russie, Impératrice, II.</addName>
+            <addName>Catherine the Great</addName>
+            <addName>Catherine the Great, Empress of Russia</addName>
+            <addName>Cathe´rine Russland, Zarin, II.</addName>
+            <addName>Cathe´rine</addName>
+            <addName>Cathérine II.</addName>
+            <addName>Cathérine</addName>
+            <addName>Cathirine II.</addName>
+            <addName>Cathirine</addName>
+            <addName>Cathirine Russland, Zarin, II.</addName>
+            <addName>Cathirine Alexiievna Russie, Grand-Duchesse</addName>
+            <addName>Cathirine Alexiievna</addName>
+            <addName>Cathérine II.</addName>
+            <addName>Cathérine</addName>
+            <addName>Cathérine Russland, Zarin, II.</addName>
+            <addName>Cathérine Alexe´ievna Russie, Grande-Duchesse</addName>
+            <addName>Cathérine Alexe´ievna</addName>
+            <addName>Cathérine Alexéievna Russie, Grande-Duchesse</addName>
+            <addName>Cathérine Alexéievna</addName>
+            <addName>Ecaterina II Empress of Russia</addName>
+            <addName>Ecaterina</addName>
+            <addName>Ecaterina II.</addName>
+            <addName>Velikaja Ekaterina</addName>
+            <addName>Ekaterina II., Kaiserin von Russland</addName>
+            <addName>Ekaterina Russland, Zarin, II.</addName>
+            <addName>Ekaterina Alekseevna Rossija, Carica, II.</addName>
+            <addName>Ekaterina Alekseevna</addName>
+            <addName>Ekaterina Alekseevna Rossija, Imperatrica, II.</addName>
+            <addName>Ekaterina Alekseevna Russland, Zarin</addName>
+            <addName>Ekaterina Aleksievna Rossija, Imperatrica, II.</addName>
+            <addName>Ekaterina Aleksievna</addName>
+            <addName>Ekaterina II. Kaiserin von Russland</addName>
+            <addName>Jekaterina Alexejewna Rossija, Carica, II.</addName>
+            <addName>Jekaterina Alexejewna</addName>
+            <addName>Katarzyna II. carowa Rosji</addName>
+            <addName>Katarzyna</addName>
+            <addName>Kateřina II.</addName>
+            <addName>Kateřina</addName>
+            <addName>Kateřina Veliká</addName>
+            <addName>II Katharina</addName>
+            <addName>Katharina, II 2 tsarina van Rusland</addName>
+            <addName>Katharina II.</addName>
+            <addName>Katharina Russland, Kaiserin, II.</addName>
+            <addName>Katharina Rußland, Kaiserin, II.</addName>
+            <addName>Katharina die Große</addName>
+            <addName>Katharina Alexejewna Russland, Zarin</addName>
+            <addName>Katharina Alexejewna</addName>
+            <addName>Katharina Alexiewna Anhalt, Fürstin</addName>
+            <addName>Katharina Alexiewna</addName>
+            <addName>Katharina Alexiewna Ascanien, Gräfin</addName>
+            <addName>Katharina Alexiewna Engern, Herzogin</addName>
+            <addName>Katharina Alexiewna Sachsen, Herzogin</addName>
+            <addName>Katharina Alexiewna Westphalen, Herzogin</addName>
+            <addName>Katherina de Groote</addName>
+            <addName>Katherina</addName>
+            <addName>Lover of truth</addName>
+            <addName>Sophie Friederike Auguste Anhalt-Zerbst, Prinzessin</addName>
+            <addName>Sophie Friederike Auguste</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

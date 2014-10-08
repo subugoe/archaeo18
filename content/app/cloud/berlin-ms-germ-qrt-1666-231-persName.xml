@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Christina (koningin van Zweden)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01260633</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01260633"
+                       key="#PND:118520652">Christina<addName type="display">Christina (koningin van Zweden)</addName>
+            <addName>Cristina de Suecia</addName>
+            <addName>Cristina</addName>
+            <addName>Christiana Schweden, Königin</addName>
+            <addName>Christiana</addName>
+            <addName>Christina Alessandra Queen of Sweden</addName>
+            <addName>Christina Alessandra</addName>
+            <addName>Christina Alessandra Suecia, Regina</addName>
+            <addName>Christina Alexandra koningin van Zweden</addName>
+            <addName>Christina Alexandra</addName>
+            <addName>Christina Alexandra Schweden, Königin</addName>
+            <addName>Christina Alexandra van Zweden Koningin</addName>
+            <addName>Christina Augusta Schweden, Königin</addName>
+            <addName>Christina Augusta</addName>
+            <addName>Christina Gothorum, Vandalorum ac Suecorum Regina</addName>
+            <addName>Christina Regina</addName>
+            <addName>Christina Schweden, Königin</addName>
+            <addName>Christina Suecia, Regina</addName>
+            <addName>Christina Suecorum Regina</addName>
+            <addName>Christina Suecorum, Gothorum &amp; Vandalorum Regina</addName>
+            <addName>Christina Sverige, Drottning</addName>
+            <addName>Christina Sweden, Queen</addName>
+            <addName>Christina Swerige, Drotning</addName>
+            <addName>Christina van Zweden</addName>
+            <addName>Christina von Schweden</addName>
+            <addName>Christina Zweden, Koningin</addName>
+            <addName>Christine de Suede</addName>
+            <addName>Christine von Schweden</addName>
+            <addName>Christine de Suède</addName>
+            <addName>Christine de Suède</addName>
+            <addName>Christine Queen of Sweden</addName>
+            <addName>Christine Schweden, Königin</addName>
+            <addName>Christine Suède, Reine</addName>
+            <addName>Cristina di Svezia</addName>
+            <addName>Cristina Svezia, Regina</addName>
+            <addName>Kristina Schweden, Königin</addName>
+            <addName>Kristina Suecia, Regina</addName>
+            <addName>Kristina van Zweden</addName>
+            <addName>Kristina van Zweden Koningin</addName>
+            <addName>Kristina Wasa</addName>
+            <addName>Wasa</addName>
+            <addName>Kristina Koningin</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

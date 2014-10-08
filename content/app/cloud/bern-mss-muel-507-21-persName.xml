@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Crispus, Gaius Sallustius (Sallust)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01239598</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01239598"
+                       key="#PND:118605097 131059947 118605097">Sallust<addName type="display">Crispus, Gaius Sallustius (Sallust)</addName>
+            <addName>Gaius Sallustius Crispus</addName>
+            <addName>C. Sallustius Crispus</addName>
+            <addName>Caius Sallustius Crispus</addName>
+            <addName>C. Crispo Sallustio</addName>
+            <addName>C. Crispus Sallustius</addName>
+            <addName>C. Crispus Salustius</addName>
+            <addName>C. Salustius Crispus</addName>
+            <addName>Caius Crispus Salustius</addName>
+            <addName>Caio S. Crispo</addName>
+            <addName>Crispo</addName>
+            <addName>Caio Sallustio Crispo</addName>
+            <addName>Cayo S. Crispo</addName>
+            <addName>Cayo Salustio Crispo</addName>
+            <addName>Caio Crispo Sallustio</addName>
+            <addName>Crispo Sallustio</addName>
+            <addName>Cajo Crispo Sallustio</addName>
+            <addName>Cayo Crispo Sallustio</addName>
+            <addName>Gaio Crispo Sallustio</addName>
+            <addName>Caius S. Crispus</addName>
+            <addName>Gaius S. Crispus</addName>
+            <addName>Sallustius C. Crispus</addName>
+            <addName>Caius Crispus Sallustius</addName>
+            <addName>Crispus Sallustius</addName>
+            <addName>Crispus Sallustius historicus</addName>
+            <addName>Crispus Salustius</addName>
+            <addName>Gaio Sallustio</addName>
+            <addName>Kajus Krispus Sallustius</addName>
+            <addName>Krispus Sallustius</addName>
+            <addName>Pseudo-Sallustius</addName>
+            <addName>Salloustios</addName>
+            <addName>Sallust</addName>
+            <addName>Gaius Sallust</addName>
+            <addName>Salluste</addName>
+            <addName>Salluste</addName>
+            <addName>Caius Crispe Salluste</addName>
+            <addName>Salluste d'Amiternum</addName>
+            <addName>C. C. Sallusti</addName>
+            <addName>Sallusti</addName>
+            <addName>Crispi C. Sallusti</addName>
+            <addName>Sallustio</addName>
+            <addName>Caio C. Sallustio</addName>
+            <addName>C. Sallustio Crispo</addName>
+            <addName>Sallustio Crispo</addName>
+            <addName>Gaio Sallustio Crispo</addName>
+            <addName>Sallustius</addName>
+            <addName>C. C. Sallustius</addName>
+            <addName>Caius C. Sallustius</addName>
+            <addName>Crispus C. Sallustius</addName>
+            <addName>Crispus G. Sallustius</addName>
+            <addName>Crispus Gaius Sallustius</addName>
+            <addName>Gaius C. Sallustius</addName>
+            <addName>Gaius Crispus Sallustius</addName>
+            <addName>Gaius S. Crispus Sallustius</addName>
+            <addName>K. K. Sallustius</addName>
+            <addName>Sallustius Historian</addName>
+            <addName>Sallustius Historicus</addName>
+            <addName>Sallustius Historiker</addName>
+            <addName>Sallustius Pseudo-</addName>
+            <addName>Sallustius von Amiternum</addName>
+            <addName>Cajus Sallustius Crispus</addName>
+            <addName>Gajus Sallustius Crispus</addName>
+            <addName>C. Sallustri Crispi</addName>
+            <addName>Sallustri Crispi</addName>
+            <addName>Gaius Sallustus Crispus</addName>
+            <addName>Sallustus Crispus</addName>
+            <addName>Krisp G. Sallustyusz</addName>
+            <addName>Sallustyusz</addName>
+            <addName>Gaj Krisp Sallûstìj</addName>
+            <addName>Sallûstìj</addName>
+            <addName>Sallûstìj Krisp"</addName>
+            <addName>Saluste</addName>
+            <addName>Salustio</addName>
+            <addName>Salustio Crispo</addName>
+            <addName>Gaio Salustio Crispo</addName>
+            <addName>Salustios</addName>
+            <addName>Salustius</addName>
+            <addName>Gaius Crispus Salustius</addName>
+            <addName>Salustius Crispus</addName>
+            <addName>Caius Salustius Crispus</addName>
+            <addName>Cajus Salustius Crispus</addName>
+            <addName>Gaius Salustius Crispus</addName>
+            <addName>Gajus Krispus Salustiusz</addName>
+            <addName>Salustiusz</addName>
+            <addName>Caius Salustus Crispus</addName>
+            <addName>Salustus Crispus</addName>
+            <addName>Gaius Salustus Crispus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Isis</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00542688</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00542688"
+                       key="#PND:118932640">Isis<addName type="display">Isis</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Osiris</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300357</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300357">Osiris<addName type="display">Osiris</addName>
+            <addName>Osyris</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

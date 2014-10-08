@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-213.tei.xml-d19169e12">Buchet</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Andromeda</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00578206</link>
+      <count>4</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00578206"
+                       key="#PND:118649302">Andromeda<addName type="display">Andromeda</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Firmian, Carlo</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00545556</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00545556"
+                       key="#PND:119036037">Graf Firmian<addName type="display">Firmian, Carlo</addName>
+            <addName>Carlo Firmian</addName>
+            <addName>Graf Firmiani</addName>
+            <addName>Carl Gotthard zu Firmian</addName>
+            <addName>Carl Joseph Gotthard zu Firmian</addName>
+            <addName>Carl zu Firmian</addName>
+            <addName>Carlo Giuseppe di Firmian</addName>
+            <addName>Carlo Gottardo Firmian</addName>
+            <addName>Carlo di Firmian</addName>
+            <addName>Carolus a Firmian</addName>
+            <addName>Karl Gotthard zu Firmian</addName>
+            <addName>Karl J. von Firmian</addName>
+            <addName>Karl Joseph von Firmian</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Perseus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00588989</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00588989"
+                       key="#PND:118790455">P.<addName type="display">Perseus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Mengs, Anton Raphael</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00400145</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00400145"
+                       key="#PND:118783270">Mengs<addName type="display">Mengs, Anton Raphael</addName>
+            <addName>Anton Raphael Mengs</addName>
+            <addName>Mengs</addName>
+            <addName>Anthony R. Mengs</addName>
+            <addName>Anthony Raphael Mengs</addName>
+            <addName>Antoine R. Mengs</addName>
+            <addName>Antoine-Raphael Mengs</addName>
+            <addName>Anton R. Mengs</addName>
+            <addName>Anton Raffaele Mengs</addName>
+            <addName>Anton Raphaël Mengs</addName>
+            <addName>Antonio R. Mengs</addName>
+            <addName>Antonio Rafael Mengs</addName>
+            <addName>Antonio Raffaello Mengs</addName>
+            <addName>R. Mengs</addName>
+            <addName>Rafael Mengs</addName>
+            <addName>Raphael Mengs</addName>
+            <addName>Antonio R. Mengz</addName>
+            <addName>Mengz</addName>
+            <addName>Antonio Raffaele Mengz</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Paris (Sagengestalt)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00587024</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00587024"
+                       key="#PND:118739301">Paris<addName type="display">Paris (Sagengestalt)</addName>
+            <addName>Alexandros</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Ganymed</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00549963</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00549963"
+                       key="#PND:118537520">Ganimed<addName type="display">Ganymed</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Attis</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00574151</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00574151"
+                       key="#PND:118637754">Atis<addName type="display">Attis</addName>
+            <addName>Atys</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Perseus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00588989</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00588989"
+                   key="#PND:118790455">Perseus<addName type="display">Perseus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Andromeda</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00578206</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00578206"
+                   key="#PND:118649302">Andromeda<addName type="display">Andromeda</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Nahl, Johann August</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00917980</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00917980"
+                   key="#PND:119244853">Monat<addName type="display">Nahl, Johann August</addName>
+            <addName>Johann August Nahl</addName>
+            <addName>Johann A. Nahl</addName>
+            <addName>Johannes August Nahl</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Kepheus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300246</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300246">Cepheus<addName type="display">Kepheus</addName>
+            <addName>Cepheus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Meleagros (Sagengestalt)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00570957</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00570957"
+                   key="#PND:122695712">Meleager<addName type="display">Meleagros (Sagengestalt)</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Endymion</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01303729</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01303729">Endymion<addName type="display">Endymion</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Narziss</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00560695</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00560695"
+                   key="#PND:118586467">Narcissus<addName type="display">Narziss</addName>
+            <addName>Narcissus</addName>
+            <addName>Narkissos</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Odescalchi (Familie)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00624530</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00624530"
+                   key="#PND:12972422X">Odeschalchi<addName type="display">Odescalchi (Familie)</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

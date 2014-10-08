@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Reichertshofen</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/sandrart1675ga</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/sandrart1675ga">Sandrart von <placeName ref="#GettyID:1040858">Stockau<addName type="display">Reichertshofen</addName>
+                  <addName>Reichertshofen</addName>
+               </placeName>. Akademie der Bau- Bild- u
+                            Mahlerkunst. Nürnb. 1675. fol. 4 T.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Neue verbesserte Ausgabe in 8 Fol. Nürnb. 1768. von Volkmann.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://opac.sub.uni-goettingen.de/DB=1/PPNSET?PPN=143436805</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://opac.sub.uni-goettingen.de/DB=1/PPNSET?PPN=143436805">Neue verbesserte
+                            Ausgabe in 8 Fol. Nürnb. 1768. von Volkmann.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Montfaucon Antiquité expliquée Paris 1719 gr fol. 5 T. Supplement 5 Tom.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://opac.sub.uni-goettingen.de/DB=1/PPNSET?PPN=133496511</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://opac.sub.uni-goettingen.de/DB=1/PPNSET?PPN=133496511">Montfaucon Antiquité expliquée Paris 1719 gr fol. 5 T.
+                            Supplement 5 Tom.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Caylus Recueil d' antiquité.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/caylus1752ga</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/caylus1752ga">Caylus Recueil d' antiquité.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Winkelmann. sein Leben in der franz. Uebersetzung seiner Gesch. der Kunst von Huber.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://www.zvdd.de/dms/load/met/?PPN=urn%3Anbn%3Ade%3Abvb%3A12-bsb10222135-6 http://www.zvdd.de/dms/load/met/?PPN=urn%3Anbn%3Ade%3Abvb%3A12-bsb10222136-2 http://www.zvdd.de/dms/load/met/?PPN=urn%3Anbn%3Ade%3Abvb%3A12-bsb10222137-7</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://www.zvdd.de/dms/load/met/?PPN=urn%3Anbn%3Ade%3Abvb%3A12-bsb10222135-6 #http://www.zvdd.de/dms/load/met/?PPN=urn%3Anbn%3Ade%3Abvb%3A12-bsb10222136-2 #http://www.zvdd.de/dms/load/met/?PPN=urn%3Anbn%3Ade%3Abvb%3A12-bsb10222137-7">Winkelmann. sein Leben in der franz. Uebersetzung seiner Gesch.
+                            der Kunst von Huber.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Ueber Nachahmung Griech. Werke 1756.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/winckelmann1756</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/winckelmann1756">Ueber Nachahmung Griech. Werke 1756.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Gesch der Kunst 1764. Dresden</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/winckelmann1764</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/winckelmann1764">Gesch der Kunst 1764. Dresden</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>übersetzt in Paris 1766. 8. 2 Bde. 1776.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://catalog.hathitrust.org/Record/009712113</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://catalog.hathitrust.org/Record/009712113">übersetzt in Paris 1766. 8. 2 Bde. 1776.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Anmerkungen üb. die Gesch der Kunst. Dresden 67.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/winckelmann1767</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/winckelmann1767">Anmerkungen üb. die Gesch der Kunst. Dresden 67.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Neue Ausgabe der Gesch. der Kunst. 1776</tag>
+      <facet>tei:bibl</facet>
+      <link>http://www.zvdd.de/dms/load/met/?PPN=urn%3Anbn%3Ade%3Agbv%3A3%3A1-139214</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://www.zvdd.de/dms/load/met/?PPN=urn%3Anbn%3Ade%3Agbv%3A3%3A1-139214">Neue Ausgabe der Gesch. der Kunst. 1776</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Monunenti antiqui inediti 1. 2. T.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN636562301</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN636562301">Monunenti antiqui inediti 1. 2. T.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Hubers franz. Uebers. Leipz. 1786. 4.</tag>
+      <facet>tei:bibl</facet>
+      <link/>
+      <count>4</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#">Hubers franz. Uebers. Leipz. 1786. 4.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Uebers. von Abbate Féa. zu Rom 1784.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://catalog.hathitrust.org/Record/009328238</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://catalog.hathitrust.org/Record/009328238">Uebers. von Abbate Féa. zu Rom 1784.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+</tags>

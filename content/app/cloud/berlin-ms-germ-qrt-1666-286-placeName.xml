@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Italia</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=1000080</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:1000080">Italien<addName type="display">Italia</addName>
+            <addName>Italia</addName>
+            <addName>Repubblica italiana</addName>
+            <addName>Repubblica Italiana</addName>
+            <addName>Italy</addName>
+            <addName>Italian Republic</addName>
+            <addName>Italie</addName>
+            <addName>République italienne</addName>
+            <addName>Italien</addName>
+            <addName>Itália</addName>
+            <addName>Italië</addName>
+            <addName>ITA</addName>
+            <addName>IT</addName>
+            <addName>ISO380</addName>
+            <addName>IT00</addName>
+            <addName>Esperia</addName>
+            <addName>Italian</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Babylon</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7002626</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7002626">Babylon<addName type="display">Babylon</addName>
+            <addName>Babylon</addName>
+            <addName>Babylonia</addName>
+            <addName>Babylone</addName>
+            <addName>Babilonia</addName>
+            <addName>Babil</addName>
+            <addName>Tell Babil</addName>
+            <addName>Bab-ili</addName>
+            <addName>Babel</addName>
+            <addName>Babhel</addName>
+            <addName>Babilu</addName>
+            <addName>Ka-Dingir-Ra</addName>
+            <addName>Din-tir</addName>
+            <addName>Kading'irra</addName>
+            <addName>Su-anna</addName>
+            <addName>Uru-azagga</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Bhārat</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7000198</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7000198">Indien<addName type="display">Bhārat</addName>
+            <addName>Bhārat</addName>
+            <addName>Bharat</addName>
+            <addName>India</addName>
+            <addName>Republic of India</addName>
+            <addName>Bhārat Ganarājya</addName>
+            <addName>Inde</addName>
+            <addName>République de l'Inde</addName>
+            <addName>Indien</addName>
+            <addName>Índia</addName>
+            <addName>IND</addName>
+            <addName>IN</addName>
+            <addName>ISO356</addName>
+            <addName>IN00</addName>
+            <addName>Indian Union</addName>
+            <addName>Union of India</addName>
+            <addName>Indian</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Asia Minor</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7002294</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7002294">KleinAsien<addName type="display">Asia Minor</addName>
+            <addName>Asia Minor</addName>
+            <addName>Asia Menor</addName>
+            <addName>Kleinasien</addName>
+            <addName>Asie Mineure</addName>
+            <addName>Anatolia</addName>
+            <addName>Anadol</addName>
+            <addName>Anadolu</addName>
+            <addName>Anadoli</addName>
+            <addName>Anatolie</addName>
+            <addName>Anatolien</addName>
+            <addName>Anatolian</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+</tags>

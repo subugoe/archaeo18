@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Amor</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00542364</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00542364"
+                   key="#PND:11850262X">Amors<addName type="display">Amor</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Antinous</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00578329</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00578329"
+                   key="#PND:118649639">Antinous<addName type="display">Antinous</addName>
+            <addName>Antinoos</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Adrià (emperador de Roma, 76-138)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00871103</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00871103"
+                   key="#PND:118544373">Adrianus<addName type="display">Adrià (emperador de Roma, 76-138)</addName>
+            <addName>Publius Aelius Hadrianus</addName>
+            <addName>Adriano Imperatore</addName>
+            <addName>Adriano</addName>
+            <addName>Adriano emperador de Roma 76-138</addName>
+            <addName>Adrianus</addName>
+            <addName>Publius Aelius Adrianus</addName>
+            <addName>Adrianus Augustus</addName>
+            <addName>Adrianus Monachus</addName>
+            <addName>Publi Eli Adrià</addName>
+            <addName>Adrià, Publi Eli emperador de Roma 76-138</addName>
+            <addName>Aelius Hadrianus</addName>
+            <addName>Publius Aelius Hadrian</addName>
+            <addName>Hadrian Emperor of Rome</addName>
+            <addName>Hadrian Kaiser</addName>
+            <addName>Hadrian Rom, Kaiser</addName>
+            <addName>Hadrian Rome, Emperor</addName>
+            <addName>Hadrian Römisches Reich, Kaiser</addName>
+            <addName>Hadrian emperador de Roma 76-138</addName>
+            <addName>Hadriano Imperatore</addName>
+            <addName>Hadriano</addName>
+            <addName>Hadrianus, Publius Aelius emperador de Roma 76-138</addName>
+            <addName>Hadrianus Augustus</addName>
+            <addName>Hadrianus Emperor of Rome</addName>
+            <addName>Hadrianus Epigrammaticus</addName>
+            <addName>Hadrianus Imperator</addName>
+            <addName>Hadrianus Kaiser</addName>
+            <addName>Hadrianus Monachus</addName>
+            <addName>Hadrianus Romanus</addName>
+            <addName>Hadrianus Rome, Emperor</addName>
+            <addName>Hadrianus Römisches Reich, Kaiser</addName>
+            <addName>Hadrianus emperador de Roma 76-138</addName>
+            <addName>Hadrianus Augustus Imperium Romanum, Imperator</addName>
+            <addName>Hadrien Empereur</addName>
+            <addName>Hadrien</addName>
+            <addName>Hadrien emperador de Roma 76-138</addName>
+            <addName>Publi Eli Adrià emperador de Roma 76-138</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Apollon</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00542641</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00542641"
+                   key="#PND:118503642">Apoll<addName type="display">Apollon</addName>
+            <addName>Apoll</addName>
+            <addName>Apollo</addName>
+            <addName>Phoebus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Marsyas</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00588624</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00588624"
+                   key="#PND:118782193">Marsyas<addName type="display">Marsyas</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Christ, Johann Friedrich</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00156863</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00156863"
+                   key="#PND:10079114X">Christ<addName type="display">Christ, Johann Friedrich</addName>
+            <addName>Johann Friedrich Christ</addName>
+            <addName>Jean-Frédéric Christ</addName>
+            <addName>Johannes Fridericus Christ</addName>
+            <addName>Johannes Friedrich Christ</addName>
+            <addName>Joh. F. Christen</addName>
+            <addName>Christen</addName>
+            <addName>Joh. Frieder. Christen</addName>
+            <addName>Johann Friedrich Christen</addName>
+            <addName>Johannes Friedrich Christen</addName>
+            <addName>Iohannes Fridericus Christius</addName>
+            <addName>Christius</addName>
+            <addName>Joannes Fridericus Christius</addName>
+            <addName>Johann Friedrich Christius</addName>
+            <addName>Johannes Fridericus Christius</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Ernesti, Johann August</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01260519</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01260519"
+                   key="#PND:100804500">Ernesti<addName type="display">Ernesti, Johann August</addName>
+            <addName>Johann August Ernesti</addName>
+            <addName>Ernesti</addName>
+            <addName>I. A. Ernesti</addName>
+            <addName>Io. Augustus Ernesti</addName>
+            <addName>Io. Avgvstvs Ernesti</addName>
+            <addName>Ioann. Aug. Ernesti</addName>
+            <addName>Ioannes Augustus Ernesti</addName>
+            <addName>Iohannes Augustus Ernesti</addName>
+            <addName>Jo. Aug. Ernesti</addName>
+            <addName>Jo. Augustus Ernesti</addName>
+            <addName>Joannes Augustus Ernesti</addName>
+            <addName>Johannes August Ernesti</addName>
+            <addName>Johannes Augustus Ernesti</addName>
+            <addName>Ioannes Augustus Ernestius</addName>
+            <addName>Ernestius</addName>
+            <addName>Joannes Augustus Ernestius</addName>
+            <addName>Johannes Augustus Ernestius</addName>
+            <addName>Ernestus</addName>
+            <addName>Ioannes Augustus Ernestus</addName>
+            <addName>Joannes Augustus Ernestus</addName>
+            <addName>Johann A. Ernestus</addName>
+            <addName>Johannes Augustus Ernestus</addName>
+            <addName>Johann August Ernst</addName>
+            <addName>Ernst</addName>
+            <addName>Jo. Aug. Ernestus</addName>
+            <addName>Jo. Augustus Ernestus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Atalante</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00570676</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00570676"
+                   key="#PND:122641124">Atalanta<addName type="display">Atalante</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Hippomenes</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300295</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300295">Hipomenes<addName type="display">Hippomenes</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Attis</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00574151</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00574151"
+                   key="#PND:118637754">Athys<addName type="display">Attis</addName>
+            <addName>Atys</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Amor</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00542364</link>
+      <count>4</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00542364"
+                       key="#PND:11850262X">Amor<addName type="display">Amor</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Lucianus (Samosatensis)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259327</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01259327"
+                       key="#PND:118575228">Lucian<addName type="display">Lucianus (Samosatensis)</addName>
+            <addName>Lūqijānūs as-Sumaisāṭī</addName>
+            <addName>Lūqijānūs</addName>
+            <addName>Ljukijan iz Samosati</addName>
+            <addName>Ljukijan</addName>
+            <addName>Loekianos</addName>
+            <addName>Loukianos</addName>
+            <addName>Samosatensīs Lucíanus</addName>
+            <addName>Lucíanus</addName>
+            <addName>Lucian</addName>
+            <addName>Lucian of Samosata</addName>
+            <addName>Lucian of Samosta</addName>
+            <addName>Lucian Samosatensis</addName>
+            <addName>Lucian von Samosata</addName>
+            <addName>Lucianne de Samosata</addName>
+            <addName>Lucianne</addName>
+            <addName>Luciano</addName>
+            <addName>Luciano di Samosata</addName>
+            <addName>Luciano Scrittore Satirico</addName>
+            <addName>Luciano Sofista</addName>
+            <addName>Lucianos Scrittore Satirico</addName>
+            <addName>Lucianos</addName>
+            <addName>Lucianus de Samosata</addName>
+            <addName>Lucianus Nigrinus</addName>
+            <addName>Lucianus Philosophus</addName>
+            <addName>Lucianus Samosateus</addName>
+            <addName>Lucianus Satiricus</addName>
+            <addName>Lucianus Sophista</addName>
+            <addName>Lucianus van Samosata</addName>
+            <addName>Lucien</addName>
+            <addName>Lucien de Samosate</addName>
+            <addName>Lucien Sophiste</addName>
+            <addName>Lucius de Patras</addName>
+            <addName>Lucius</addName>
+            <addName>Lucius Philosophus</addName>
+            <addName>Lukian</addName>
+            <addName>Lukian iz Samosaty</addName>
+            <addName>Lukian v. Samosata</addName>
+            <addName>Lukian von Samosata</addName>
+            <addName>Lukiano</addName>
+            <addName>Lukianos</addName>
+            <addName>Lukianos Samōsateōs</addName>
+            <addName>Lukianos Samōsateōs</addName>
+            <addName>Lukianos Samosatēs</addName>
+            <addName>Lukianos Samosateos</addName>
+            <addName>Lukianos Satiriker</addName>
+            <addName>Lukianos Sophist</addName>
+            <addName>Lukianos van Samosata</addName>
+            <addName>Lukianos von Samosata</addName>
+            <addName>Lukianus von Samosata</addName>
+            <addName>Lukianus</addName>
+            <addName>Lutianus</addName>
+            <addName>Luz̲iyan</addName>
+            <addName>Pseudo-Luciano</addName>
+            <addName>Pseudo-Lucianus Samosatensis</addName>
+            <addName>Pseudo-Lucianus</addName>
+            <addName>Pseudo-Lucianus Samosatenus</addName>
+            <addName>Pseudo-Lucianus Sophista</addName>
+            <addName>Samosata</addName>
+            <addName>Luciano de Samosata</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/berlin-ms-germ-qrt-1666-165.tei.xml-d13635e261">Glycera</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Venus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00588078</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00588078"
+                       key="#PND:11876800X">Venus<addName type="display">Venus</addName>
+            <addName>Anadyomene  Beiname</addName>
+            <addName>Anadyomene</addName>
+            <addName>Arelatensis  Beiname</addName>
+            <addName>Arelatensis</addName>
+            <addName>aurea  Beiname</addName>
+            <addName>aurea</addName>
+            <addName>coelestis  Beiname</addName>
+            <addName>coelestis</addName>
+            <addName>Gnidia  Beiname</addName>
+            <addName>Gnidia</addName>
+            <addName>Marina  Beiname</addName>
+            <addName>Marina</addName>
+            <addName>Pelasgia  Beiname</addName>
+            <addName>Pelasgia</addName>
+            <addName>Pontia  Beiname</addName>
+            <addName>Pontia</addName>
+            <addName>Urania  Beiname</addName>
+            <addName>Urania</addName>
+            <addName>Victrix  Beiname</addName>
+            <addName>Victrix</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

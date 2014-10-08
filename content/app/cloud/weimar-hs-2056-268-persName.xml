@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Pygmalion</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00563252</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00563252"
+                   key="#PND:118597213">Pygmalion<addName type="display">Pygmalion</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Daidalos</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300264</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300264">Dædali<addName type="display">Daidalos</addName>
+            <addName>Daedalus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Galateia</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300286</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300286">Elise<addName type="display">Galateia</addName>
+            <addName>Galatea</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Homer</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259620</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01259620"
+                   key="#PND:11855333X">Homer<addName type="display">Homer</addName>
+            <addName>Gomer</addName>
+            <addName>Hūmīrūs</addName>
+            <addName>Hūmar</addName>
+            <addName>Hūmir</addName>
+            <addName>Hōmar</addName>
+            <addName>Hômêrôs</addName>
+            <addName>Homère</addName>
+            <addName>Homēros</addName>
+            <addName>Homérosz</addName>
+            <addName>Homēros</addName>
+            <addName>Homère</addName>
+            <addName>Homere</addName>
+            <addName>Homero</addName>
+            <addName>Homeros</addName>
+            <addName>Homeros Tragiker</addName>
+            <addName>Homerosi</addName>
+            <addName>Homerus Colophonius</addName>
+            <addName>Homerus Colophonus</addName>
+            <addName>Homerus Dramatiker</addName>
+            <addName>Homerus Epicus</addName>
+            <addName>Omēros</addName>
+            <addName>Omero</addName>
+            <addName>Omiros</addName>
+            <addName>Pseudo-Homerus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Sénèque</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259729</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01259729"
+                   key="#PND:118613200">Seneca<addName type="display">Sénèque</addName>
+            <addName>Luci Anneu Sèneca</addName>
+            <addName>L. Annaeus Seneca</addName>
+            <addName>Lucius Annaeus Seneca</addName>
+            <addName>Sénèque le Jeune</addName>
+            <addName>Sénèque le Philosophe</addName>
+            <addName>Seneca philosophus</addName>
+            <addName>Annaeus Seneca</addName>
+            <addName>Annaeus</addName>
+            <addName>L. Annaeus Seneca Cordubensis</addName>
+            <addName>Luci Anneu Sèneca ca. 4 aC-65 dC</addName>
+            <addName>Pseudo-Sénèque</addName>
+            <addName>Pseudoseneca</addName>
+            <addName>Pseudo-Seneca</addName>
+            <addName>L. A. Sèneca</addName>
+            <addName>Sèneca, L. A. ca. 4 aC-65 dC</addName>
+            <addName>Luci Anneu, Sèneca</addName>
+            <addName>Sèneca, Luci Anneu, ca. 4 aC-65 dC</addName>
+            <addName>Sèneca el Filòsof ca. 4 aC-65 dC</addName>
+            <addName>Sèneca el Jove ca. 4 aC-65 dC</addName>
+            <addName>Sénècque</addName>
+            <addName>Luce Annaee Sénèque</addName>
+            <addName>Sénèque de Cordoue</addName>
+            <addName>Sénèque le Philisophe ca. 4 aC-65 dC</addName>
+            <addName>Lucio Anneo Séneca</addName>
+            <addName>Séneca, Lucio Anneo ca. 4 aC-65 dC</addName>
+            <addName>Séneca</addName>
+            <addName>Seneca der Jüngere</addName>
+            <addName>Seneca Junior Cato Cordubensis</addName>
+            <addName>L. A. Seneca</addName>
+            <addName>Seneca, L. Annaeus ca. 4 aC-65 dC</addName>
+            <addName>Lucio Anneo Seneca</addName>
+            <addName>Lucius A. Seneca</addName>
+            <addName>Lucius Annäus Seneca</addName>
+            <addName>Lucius Annaeus d. J. Seneca</addName>
+            <addName>Lucius Annaeus d.J. Seneca</addName>
+            <addName>Lucius Annaeus der Jüngere Seneca</addName>
+            <addName>Seneca, Lucius Annaeus ca. 4 aC-65 dC</addName>
+            <addName>Seneca, Lucius Annaeus Cordubensis</addName>
+            <addName>Seneca, Lucius Annaeus der Jüngere</addName>
+            <addName>Seneca, Lucius Annaeus Filius</addName>
+            <addName>Seneca, Lucius Annaeus Junior</addName>
+            <addName>Seneca, Lucius Annaeus Minor</addName>
+            <addName>Seneca, Lucius Annaeus Tragicus</addName>
+            <addName>Lucius Anneus Seneca</addName>
+            <addName>Seneca, Lucius Anneus Philosophus</addName>
+            <addName>Seneca der Jüngere</addName>
+            <addName>Seneca Dichter</addName>
+            <addName>Seneca Philosoph</addName>
+            <addName>Seneca Philosopher</addName>
+            <addName>Seneca Philosophus</addName>
+            <addName>Seneca Politiker</addName>
+            <addName>Seneca Pseudo-</addName>
+            <addName>Seneca Rhetoris Filius</addName>
+            <addName>Seneca Sohn</addName>
+            <addName>Seneca Stoischer Philosoph</addName>
+            <addName>Seneca Tragicus</addName>
+            <addName>Seneca Tragoedian</addName>
+            <addName>Seneca von Corduba</addName>
+            <addName>Senèque</addName>
+            <addName>Senèque le philosophe</addName>
+            <addName>Seneka</addName>
+            <addName>Lucij Annej Seneka</addName>
+            <addName>Lukio Aneo Seneko</addName>
+            <addName>Seneko</addName>
+            <addName>Lucjusz Anneusz Seneka</addName>
+            <addName>Seneka, Lucjusz Anneusz ca. 4 aC-65 dC</addName>
+            <addName>Lucyusz Annaeus Seneka</addName>
+            <addName>Lucyusz Anneusz Seneka</addName>
+            <addName>Seneque</addName>
+            <addName>Seneque le philosophe</addName>
+            <addName>Seneque philosophe</addName>
+            <addName>L. Annaeus Senecae</addName>
+            <addName>Senecae</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Spengler, Lorenz</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01139916</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01139916"
+                   key="#PND:134073460">Sprengler<addName type="display">Spengler, Lorenz</addName>
+            <addName>Lorenz Spengler</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Uffenbach, Zacharias Konrad ¬von¬</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00400764</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00400764"
+                   key="#PND:118803107">von Uffenbach<addName type="display">Uffenbach, Zacharias Konrad ¬von¬</addName>
+            <addName>Zacharias Konrad von Uffenbach</addName>
+            <addName>Z. K. von Uffenbach</addName>
+            <addName>Zach. Conr. Uffenbach</addName>
+            <addName>Zach. Conr. ab Uffenbach</addName>
+            <addName>Zacharias C. von Uffenbach</addName>
+            <addName>Zacharias Conrad von Uffenbach</addName>
+            <addName>Zacharias Conradus ab Uffenbach</addName>
+            <addName>Zacharias Conradus von Uffenbach</addName>
+            <addName>Zacharias K. von Uffenbach</addName>
+            <addName>Zacharias Konradus von Uffenbach</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Saturnus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300393</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300393">Saturns<addName type="display">Saturnus</addName>
+            <addName>Saturn</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Jupiter</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00554429</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00554429"
+                   key="#PND:118558897">Iovis 
+                                            Olympiari<addName type="display">Jupiter</addName>
+            <addName>Iupiter</addName>
+            <addName>Juppiter</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Plinius Secundus, C.</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01238749</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01238749"
+                   key="#PND:118595083">Plinius<addName type="display">Plinius Secundus, C.</addName>
+            <addName>C. Plinius Secundus</addName>
+            <addName>Caius Plinius Secundus</addName>
+            <addName>Gaius Plinius Secundus</addName>
+            <addName>C. Plinio Secondo</addName>
+            <addName>C. Plinius Secundus veronensis</addName>
+            <addName>C. Plynius Secundus</addName>
+            <addName>Caio Plinio Secondo</addName>
+            <addName>Caio Plinio veronese</addName>
+            <addName>Caius Plinius Secundus Major</addName>
+            <addName>Cajus Plinius Secundus</addName>
+            <addName>G. Plinio Secondo</addName>
+            <addName>Pline</addName>
+            <addName>Pline</addName>
+            <addName>Caius Pline</addName>
+            <addName>Pline l'Ancien</addName>
+            <addName>Pline l'ancien</addName>
+            <addName>Pline lA´ncien</addName>
+            <addName>Pline le Naturaliste</addName>
+            <addName>Pline lÁncien</addName>
+            <addName>C. Pline Second</addName>
+            <addName>Pline Second</addName>
+            <addName>Pline l'Ancien 23-79</addName>
+            <addName>Plinij</addName>
+            <addName>Plinio</addName>
+            <addName>Gaio Secondo Plinio</addName>
+            <addName>Plinio Napoletano</addName>
+            <addName>Plinio el Viejo</addName>
+            <addName>Plinio il Vecchio</addName>
+            <addName>Plinio il vecchio</addName>
+            <addName>Plinio Secondo</addName>
+            <addName>Gaio Plinio Secondo</addName>
+            <addName>Caio Plinio Secundo</addName>
+            <addName>Plinio Secundo</addName>
+            <addName>Cayo Plinio Segundo</addName>
+            <addName>Plinio Segundo</addName>
+            <addName>Plinio il vecchio/C. Plinius Secundus</addName>
+            <addName>Plinius</addName>
+            <addName>C. Plinius</addName>
+            <addName>Caius Plinius</addName>
+            <addName>Caius Secundus Plinius</addName>
+            <addName>Plinius Florentino-Pragensis</addName>
+            <addName>Plinius Florentinus-Pragensis</addName>
+            <addName>Plinius Maior</addName>
+            <addName>Plinius Major</addName>
+            <addName>Plinius Rerum Naturalium Scriptor</addName>
+            <addName>Plinius Senior</addName>
+            <addName>Plinius der Ältere</addName>
+            <addName>Plinius starší</addName>
+            <addName>Plinius Secundus</addName>
+            <addName>C Plinius Secundus</addName>
+            <addName>Plinius Secundus, Caius Major</addName>
+            <addName>Plinius Secundus, Gaius Maior</addName>
+            <addName>Gajus Plinius Secundus</addName>
+            <addName>Plinius Secundus Maior</addName>
+            <addName>Plinius Secundus der Ältere</addName>
+            <addName>C. Plinius Secundus Maior</addName>
+            <addName>Plinius Secundus Novocomenis</addName>
+            <addName>Plinius d. Ä.</addName>
+            <addName>Pliniusz</addName>
+            <addName>K. Starszy Pliniusz</addName>
+            <addName>Pliniusz Starszy</addName>
+            <addName>Pliniusz Starszy K.</addName>
+            <addName>Plinjusz</addName>
+            <addName>Caius Plynius Secundus</addName>
+            <addName>Plynius Secundus</addName>
+            <addName>Gaius Plynius Secundus</addName>
+            <addName>Caius P. Secundus</addName>
+            <addName>Secundus</addName>
+            <addName>Gaius P. Secundus</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

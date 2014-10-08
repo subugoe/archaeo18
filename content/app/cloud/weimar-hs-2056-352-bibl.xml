@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Stosch urtheilet 56.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN635315386</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN635315386">Stosch urtheilet 56.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Geschichte der. Kunst. II. 351.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/winckelmann1764/0401</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/winckelmann1764/0401">Geschichte der. Kunst. II. 351.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Gem- mae antiquæ litteratae Pierres antiques gravees sur les quels les graveurs ont mis leurs noms dessinées et gravées par B. Picard. Amst: 1724. Fol. 97. pag: Simpr. 70. pl.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://opac.sub.uni-goettingen.de/DB=1/PPNSET?PPN=133484874</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://opac.sub.uni-goettingen.de/DB=1/PPNSET?PPN=133484874">Gem- 
+                                        mae antiquæ litteratae Pierres antiques 
+                                        gravees sur les quels les graveurs ont mis 
+                                        leurs noms dessinées et gravées par B. 
+                                        Picard. Amst: 1724. Fol. 97. pag: Simpr. 70. pl.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Mytisch Tausendt 54.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/lippert1767bd1/0106</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/lippert1767bd1/0106">Mytisch 
+                                        Tausendt 54.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+</tags>

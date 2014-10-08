@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Beaumont, Harry</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00945474</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00945474"
+                       key="#PND:123151481">Spence<addName type="display">Beaumont, Harry</addName>
+            <addName>Harry Beaumont</addName>
+            <addName>Joseph Spence</addName>
+            <addName>Beaumont, Harry Sir</addName>
+            <addName>J- S- Joseph Spence</addName>
+            <addName>J- S-</addName>
+            <addName>S-, J- Joseph Spence</addName>
+            <addName>S-</addName>
+            <addName>Spence Rev. Mr. Joseph</addName>
+            <addName>Spencer</addName>
+            <addName>Joseph Spencer</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

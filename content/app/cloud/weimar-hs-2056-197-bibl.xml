@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Nachricht Götti. p. 147.</tag>
+      <facet>tei:bibl</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#">Nachricht 
+                                Götti. p. 147.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Lettres from a young pain- ter Vol. II. lett: 43 - 45.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://opac.sub.uni-goettingen.de/DB=1/PPNSET?PPN=31731727X</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://opac.sub.uni-goettingen.de/DB=1/PPNSET?PPN=31731727X">Lettres from a young pain- 
+                                ter Vol. II. lett: 43 - 45.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Desseinee Rome mederne 365. Seqq.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://www.archive.org/stream/romemodernepr1and2dese%23page/n438/mode/1up</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://www.archive.org/stream/romemodernepr1and2dese%23page/n438/mode/1up">Desseinee Rome mederne 365. 
+                                Seqq.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Sandrart II. 34.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://opac.sub.uni-goettingen.de/DB=1/PPNSET?PPN=140164928</link>
+      <count>4</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://opac.sub.uni-goettingen.de/DB=1/PPNSET?PPN=140164928">Sandrart II. 34.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+</tags>

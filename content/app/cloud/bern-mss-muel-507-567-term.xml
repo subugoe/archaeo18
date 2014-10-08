@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Medici, Lorenzo de'</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000498</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/sammlungen/1000498">Samlung die <TEI:persName ref="#CerlID:cnp01237200" key="#PND:118574418">Lorenzo de
+            
+          
+          Medicis<addName type="display">Medici, Lorenzo de'</addName>
+               <addName>Lorenzo de' Medici</addName>
+               <addName>Lorenz von Medicis</addName>
+               <addName>von Medicis</addName>
+               <addName>Lorenzo De' Medici</addName>
+               <addName>De' Medici</addName>
+               <addName>Lorenzo De Medici</addName>
+               <addName>De Medici</addName>
+               <addName>Lorenzo De'Medici</addName>
+               <addName>De'Medici</addName>
+               <addName>Lorenzo DeMedici</addName>
+               <addName>DeMedici</addName>
+               <addName>Lauren the Magnificent</addName>
+               <addName>Lauren</addName>
+               <addName>Laurens de Medicis</addName>
+               <addName>Laurens</addName>
+               <addName>Laurent de Medicis</addName>
+               <addName>Laurent</addName>
+               <addName>Laurent le Magnifique</addName>
+               <addName>Laurent the Magnificent</addName>
+               <addName>Laurentius de Medicis</addName>
+               <addName>Laurentius</addName>
+               <addName>Laurentius de medicis</addName>
+               <addName>Laurentius Magnificus</addName>
+               <addName>Laurentius Medices</addName>
+               <addName>Laurentius Mediceus</addName>
+               <addName>Laurenzo de'Medici</addName>
+               <addName>Laurenzo</addName>
+               <addName>Lorenzo de Medici</addName>
+               <addName>Lorenzo dei Medici</addName>
+               <addName>Lorenzo</addName>
+               <addName>Lorenzo de'Medici</addName>
+               <addName>Lorenzo der Grossmächtige</addName>
+               <addName>Lorenzo der Prächtige</addName>
+               <addName>Lorenzo il Magnifico</addName>
+               <addName>Lorenzo the Magnificent</addName>
+               <addName>Medices</addName>
+               <addName>Lorenzino de' Medici</addName>
+               <addName>Lorenzo Medici</addName>
+               <addName>Medici, Lorenzo de', called il Magnifico</addName>
+               <addName>Medici, Lorenzo de', called the Magnificent</addName>
+               <addName>Medici, Lorenzo de', detto il Magnifico</addName>
+               <addName>Medici, Lorenzo de', the Elder, called the Magnificent</addName>
+               <addName>Medicis</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+</tags>

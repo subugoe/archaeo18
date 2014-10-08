@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>DhelfoiPolygnotus (Thasius)</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-415.tei.xml-d4339e22">die Leschae beyder 
+                                                    Tempel zu <placeName ref="#GettyID:7010770">Delphos<addName type="display">Dhelfoi</addName>
+               <addName>Dhelfoi</addName>
+               <addName>Delphi</addName>
+               <addName>Delphes</addName>
+               <addName>Delfo</addName>
+               <addName>Pytho</addName>
+               <addName>Dhelfoí</addName>
+            </placeName> mit den Gemählden des <persName ref="#CerlID:cnp00554467" key="#PND:119385198">Polynotus<addName type="display">Polygnotus (Thasius)</addName>
+               <addName>Polignoto di Taso</addName>
+               <addName>Polignoto</addName>
+               <addName>Polygnot von Thasos</addName>
+               <addName>Polygnot</addName>
+               <addName>Polygnotos Maler</addName>
+               <addName>Polygnotos</addName>
+               <addName>Polygnotos Sohn des Aglaophon</addName>
+               <addName>Polygnotos von Thasos</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/bauwerk/2100319</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/bauwerk/2100319">Poecile</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/bauwerk/2100300</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/bauwerk/2100300">porticus Septimia- 
+                                                   na</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Carthage</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-415.tei.xml-d4339e412">Vorhof 
+                                                    des Tempels zu <placeName ref="#GettyID:7016143">Carthago<addName type="display">Carthage</addName>
+               <addName>Carthage</addName>
+               <addName>Karthago</addName>
+               <addName>Cartagine</addName>
+               <addName>Qarṭājannah</addName>
+               <addName>Carthago</addName>
+               <addName>Colonia Julia Carthago</addName>
+               <addName>Qarthadasht</addName>
+               <addName>Kart-Hadasht</addName>
+               <addName>Kart-hadasht</addName>
+               <addName>Quart Hadasha</addName>
+               <addName>Kart Hadash</addName>
+               <addName>Karchedon</addName>
+               <addName>Karth-Hadtha</addName>
+               <addName>Carchēdo</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Roma</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-415.tei.xml-d4339e979">Die erste Gemählden zu <placeName ref="#GettyID:7000874">Rom<addName type="display">Roma</addName>
+               <addName>Roma</addName>
+               <addName>Urbe</addName>
+               <addName>Rome</addName>
+               <addName>Rom</addName>
+               <addName>Roman</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+</tags>

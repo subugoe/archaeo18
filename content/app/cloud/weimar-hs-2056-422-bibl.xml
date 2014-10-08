@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Kircher in Vet: et nov: lat p: I.</tag>
+      <facet>tei:bibl</facet>
+      <link/>
+      <count>10</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#">Kircher in Vet: et nov: lat 
+                                                    p: I.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Montfaucon IV.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/montfaucon1724c/0282</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/montfaucon1724c/0282">Montfaucon 
+                                                        IV.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Odyss. IV. 228.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://d-nb.info/gnd/4193022-8</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://d-nb.info/gnd/4193022-8">Odyss. IV. 228.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>XXX. 503.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://hdl.handle.net/2027/ucm.5326971568?urlappend=%3Bseq=545</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://hdl.handle.net/2027/ucm.5326971568?urlappend=%3Bseq=545">XXX. 503.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Du bos Reflex. I. 313.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://hdl.handle.net/2027/mdp.39015012341874?urlappend=%3Bseq=311</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://hdl.handle.net/2027/mdp.39015012341874?urlappend=%3Bseq=311">Du bos Reflex. 
+                                                    I. 313.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Plin: XXXVI. 64</tag>
+      <facet>tei:bibl</facet>
+      <link>http://d-nb.info/gnd/4196444-5</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://d-nb.info/gnd/4196444-5">Plin: XXXVI. 64</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Winckelmann. Anmerckung. 23.123.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/winckelmann1767/0153</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/winckelmann1767/0153">Winckelmann. Anmerckung. 23.123.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+</tags>

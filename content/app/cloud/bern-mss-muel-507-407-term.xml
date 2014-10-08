@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-407.tei.xml-d16997e21">Eines der schönsten</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Severus Alexander (Emperor of Rome)</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-407.tei.xml-d16997e89">Sarcophag des Kayser <TEI:persName ref="#CerlID:cnp00914937" key="#PND:11861357X">Alexander Se-
+          
+          verus<addName type="display">Severus Alexander (Emperor of Rome)</addName>
+               <addName>Marcus A. Alexander Severus</addName>
+               <addName>Alexander Severus</addName>
+               <addName>Marcus Aurelius Alexander Severus</addName>
+               <addName>Alexander Severus Emperor of Rome</addName>
+               <addName>Alexander Severus Imperium Romanum, Imperator</addName>
+               <addName>Alexander Severus Römisches Reich, Kaiser</addName>
+               <addName>Alexandrus Severus</addName>
+               <addName>Gessius B. Alexianus</addName>
+               <addName>Alexianus</addName>
+               <addName>Gessius Bassianus Alexianus</addName>
+               <addName>Marco Aurelio Severo Alessandro</addName>
+               <addName>Marcus Aurelius Severus Alexander</addName>
+               <addName>Alexander S. Marcus Aurelius</addName>
+               <addName>Marcus Aurelius</addName>
+               <addName>Severo Alessandro</addName>
+               <addName>Marcus A. Severus Alexander</addName>
+               <addName>Severus Alexander Imperium Romanum, Imperator</addName>
+               <addName>Severus Alexandrus</addName>
+               <addName>Severus</addName>
+               <addName>Severus Alexandrinus</addName>
+            </TEI:persName> mit der Urne</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-407.tei.xml-d16997e165">Wildenhouse</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Probus (Römisches Reich, Kaiser)Claudia (Kaiserschwester)</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-407.tei.xml-d16997e171">Sarcophag von <TEI:persName ref="#CerlID:cnp00589136" key="#PND:118793446">Probus<addName type="display">Probus (Römisches Reich, Kaiser)</addName>
+               <addName>Marcus Aurelius Probus</addName>
+               <addName>Probus Imperium Romanum, Imperator</addName>
+            </TEI:persName> und seiner Schwester <TEI:persName ref="#CerlID:cnp01427502">Claudia<addName type="display">Claudia (Kaiserschwester)</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+</tags>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Recueil de peintures antiques coloreés par Mari- ette et Cailus XXXI. Planches Pag. 33 Text.</tag>
+      <facet>tei:bibl</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-596.tei.xml-d20202e45">Recueil de peintures antiques coloreés par Mari-
+            
+          
+          ette et Cailus XXXI. Planches Pag. 33 Text.</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Recueil T. VII. Pl. LXX, LXXI.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/caylus1767bd7/0352 http://digi.ub.uni-heidelberg.de/diglit/caylus1767bd7/0355</link>
+      <count>2</count>
+      <nodes>
+         <TEI:bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI:ref target="#http://digi.ub.uni-heidelberg.de/diglit/caylus1767bd7/0352 #http://digi.ub.uni-heidelberg.de/diglit/caylus1767bd7/0355">Recueil T. VII. Pl. LXX, LXXI.</TEI:ref>
+         </TEI:bibl>
+      </nodes>
+   </tag>
+</tags>

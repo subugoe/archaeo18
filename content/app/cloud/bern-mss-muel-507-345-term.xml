@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-345.tei.xml-d16449e30">ein Hauptstück</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/15905</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/objekt/15905">Eine andere</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Villa Farnese</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-345.tei.xml-d16449e55">Eine andere 
+          
+          in <TEI:term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000001">Villa Farnese</TEI:term>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000001</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/sammlungen/1000001">Villa Farnese</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Villa Albani</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-345.tei.xml-d16449e63">eine in <TEI:term ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-345.tei.xml-d16449e65">Villa Albani</TEI:term>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-345.tei.xml-d16449e65">Villa Albani</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-345.tei.xml-d16449e74">Eine wie sie aus dem Bade
+          
+          kömt</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-345.tei.xml-d16449e80">Versailles</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-345.tei.xml-d16449e99">Eine</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Villa Medicis</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/36186 http://arachne.uni-koeln.de/item/gruppen/400830</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/objekt/36186 #http://arachne.uni-koeln.de/item/gruppen/400830">Die eine in <TEI:term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000435">Villa Medicis</TEI:term>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000435</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/sammlungen/1000435">Villa Medicis</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Wallmoden-Gimborn, Johann Ludwig ¬von¬</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-345.tei.xml-d16449e154">Eine Büste davon ist in <TEI:term ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-345.tei.xml-d16449e156">
+               <TEI:persName ref="#CerlID:cnp00664371" key="#PND:130253219">Walmoden<addName type="display">Wallmoden-Gimborn, Johann Ludwig ¬von¬</addName>
+                  <addName>Johann Ludwig von Wallmoden-Gimborn</addName>
+                  <addName>Johann L. von Gimborn</addName>
+                  <addName>Gimborn</addName>
+                  <addName>Johann Ludwig Gimborn</addName>
+                  <addName>Johann Ludwig von Wallmoden- Gimborn</addName>
+                  <addName>Ludwig von Wallmoden- Gimborn</addName>
+                  <addName>Johann Ludwig von Wallmoden</addName>
+                  <addName>Wallmoden</addName>
+                  <addName>Johann L. von Wallmoden-Gimborn</addName>
+                  <addName>Ludwig von Wallmoden-Gimborn</addName>
+               </TEI:persName>
+            </TEI:term>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Wallmoden-Gimborn, Johann Ludwig ¬von¬</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-345.tei.xml-d16449e156">
+            <TEI:persName ref="#CerlID:cnp00664371" key="#PND:130253219">Walmoden<addName type="display">Wallmoden-Gimborn, Johann Ludwig ¬von¬</addName>
+               <addName>Johann Ludwig von Wallmoden-Gimborn</addName>
+               <addName>Johann L. von Gimborn</addName>
+               <addName>Gimborn</addName>
+               <addName>Johann Ludwig Gimborn</addName>
+               <addName>Johann Ludwig von Wallmoden- Gimborn</addName>
+               <addName>Ludwig von Wallmoden- Gimborn</addName>
+               <addName>Johann Ludwig von Wallmoden</addName>
+               <addName>Wallmoden</addName>
+               <addName>Johann L. von Wallmoden-Gimborn</addName>
+               <addName>Ludwig von Wallmoden-Gimborn</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Ceres (Göttin)</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/25148</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/objekt/25148">Noch eine als <TEI:persName ref="#CerlID:cnp00540610" key="#PND:118862294">Ceres<addName type="display">Ceres (Göttin)</addName>
+               <addName>Demeter</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Isis</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-345.tei.xml-d16449e359">einer solchen
+          
+          Statue als <TEI:persName ref="#CerlID:cnp00542688" key="#PND:118932640">Isis<addName type="display">Isis</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000007</link>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#http://arachne.uni-koeln.de/item/sammlungen/1000007">PallastBarbarini</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Athena</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-345.tei.xml-d16449e381">Als <TEI:persName ref="#CerlID:cnp00542952" key="#PND:118504851">Pallas<addName type="display">Athena</addName>
+               <addName>Athene</addName>
+               <addName>Pallas Athene</addName>
+            </TEI:persName> jung
+          
+          und schön eine Bronze</TEI:term>
+      </nodes>
+   </tag>
+</tags>

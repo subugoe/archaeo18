@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:156193 http://arachne.uni-koeln.de/item/gruppen/400570 http://arachne.uni-koeln.de/item/objekt/40491 http://arachne.uni-koeln.de/item/objekt/13426 http://arachne.uni-koeln.de/item/objekt/13427 http://arachne.uni-koeln.de/item/objekt/13428 http://arachne.uni-koeln.de/item/objekt/13429 http://arachne.uni-koeln.de/item/objekt/13430</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:156193 #http://arachne.uni-koeln.de/item/gruppen/400570 #http://arachne.uni-koeln.de/item/objekt/40491 #http://arachne.uni-koeln.de/item/objekt/13426 #http://arachne.uni-koeln.de/item/objekt/13427 #http://arachne.uni-koeln.de/item/objekt/13428 #http://arachne.uni-koeln.de/item/objekt/13429 #http://arachne.uni-koeln.de/item/objekt/13430">Il Toro Farnese</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Caracalla (Imperium Romanum, Imperator)</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/bauwerk/2100234</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/bauwerk/2100234">Bädern <persName ref="#CerlID:cnp00397692" key="#PND:118667041">Caracallas<addName type="display">Caracalla (Imperium Romanum, Imperator)</addName>
+               <addName>Aurelius Antoninus Caesar</addName>
+               <addName>Aurelius Antoninus</addName>
+               <addName>Aurelius Severus Antoninus Augustus</addName>
+               <addName>Aurelius Severus Antoninus</addName>
+               <addName>Bassianus</addName>
+               <addName>Caracalla Imperator</addName>
+               <addName>Caracalla Römischer Kaiser</addName>
+               <addName>Lucius Septimius Bassianus</addName>
+               <addName>Marcus Aurelius Antoninus</addName>
+               <addName>Marcus Aurelius Antoninus Caesar</addName>
+               <addName>Marcus Aurelius Severus Antoninus Augustus</addName>
+               <addName>Marcus Aurelius Severus Antoninus</addName>
+               <addName>Septimius Bassianus</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+</tags>

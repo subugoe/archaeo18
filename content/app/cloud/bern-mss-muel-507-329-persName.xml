@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Kybele</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00575273</link>
+      <count>6</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00575273"
+                       key="#PND:118640283">Cybele<addName type="display">Kybele</addName>
+            <addName>Cybele</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Proserpina</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00544230</link>
+      <count>4</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00544230"
+                       key="#PND:11851122X">Proserpina Moerius<addName type="display">Proserpina</addName>
+            <addName>Kore</addName>
+            <addName>Persephone</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Sabina, Vibia</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00589162</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00589162"
+                       key="#PND:118793934">Sabina<addName type="display">Sabina, Vibia</addName>
+            <addName>Vibia Sabina</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Coriolanus, Gnaeus MarciusVeturia</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300391</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300391">Veturia <TEI:persName ref="#CerlID:cnp00546507" key="#PND:118522159">Coriolan's<addName type="display">Coriolanus, Gnaeus Marcius</addName>
+               <addName>Gnaeus Marcius Coriolanus</addName>
+               <addName>Coriolan</addName>
+               <addName>Caius Marcius Coriolanus</addName>
+               <addName>Gaius Marcius Coriolanus</addName>
+               <addName>Koriolan</addName>
+            </TEI:persName>
+            <addName type="display">Veturia</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Coriolanus, Gnaeus Marcius</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00546507</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00546507"
+                       key="#PND:118522159">Coriolan's<addName type="display">Coriolanus, Gnaeus Marcius</addName>
+            <addName>Gnaeus Marcius Coriolanus</addName>
+            <addName>Coriolan</addName>
+            <addName>Caius Marcius Coriolanus</addName>
+            <addName>Gaius Marcius Coriolanus</addName>
+            <addName>Koriolan</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Bernini, Gian Lorenzo</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00543952</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00543952"
+                       key="#PND:118509926">Bernini<addName type="display">Bernini, Gian Lorenzo</addName>
+            <addName>Gian Lorenzo Bernini</addName>
+            <addName>Gianlorenzo Bernin</addName>
+            <addName>Bernin</addName>
+            <addName>Gian L. Bernini</addName>
+            <addName>Gianlorenzo Bernini</addName>
+            <addName>Giovanni L. Bernini</addName>
+            <addName>Giovanni Lorenzo Bernini</addName>
+            <addName>Jean Laurent Bernini</addName>
+            <addName>Laurentius Bernini</addName>
+            <addName>Lorenzo Bernini</addName>
+            <addName>Giovanni Lorenzo Bernino</addName>
+            <addName>Bernino</addName>
+            <addName>Joans. Laurentius Berninus</addName>
+            <addName>Berninus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Livia Drusilla (Römisches Reich, Kaiserin)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00550548</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00550548"
+                       key="#PND:119226014">Julia Augusti<addName type="display">Livia Drusilla (Römisches Reich, Kaiserin)</addName>
+            <addName>Iulia Augusta</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Faustina (Römisches Reich, Kaiserin, I.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00584987</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00584987"
+                       key="#PND:118686240">Faustina<addName type="display">Faustina (Römisches Reich, Kaiserin, I.)</addName>
+            <addName>Faustina die Ältere</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Ceres (Göttin)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00540610</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00540610"
+                       key="#PND:118862294">Ceres<addName type="display">Ceres (Göttin)</addName>
+            <addName>Demeter</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Apollon</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00542641</link>
+      <count>4</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00542641"
+                       key="#PND:118503642">Apol-
+                lo<addName type="display">Apollon</addName>
+            <addName>Apoll</addName>
+            <addName>Apollo</addName>
+            <addName>Phoebus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Marsyas</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00588624</link>
+      <count>4</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00588624"
+                       key="#PND:118782193">Marsias<addName type="display">Marsyas</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/berlin-ms-germ-qrt-1666-49.tei.xml-d8789e71">Leuxes</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Bartholomaeus (Cryptoferratensis)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00165641</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00165641"
+                       key="#PND:100938582">Bar-
+                tholomei<addName type="display">Bartholomaeus (Cryptoferratensis)</addName>
+            <addName>Bartholomäus der Jüngere</addName>
+            <addName>Bartholomäus</addName>
+            <addName>Bartholomäus von Grottaferrata</addName>
+            <addName>Bartholomäus von Rossano</addName>
+            <addName>Bartolomeo di Grottaferrata</addName>
+            <addName>Bartolomeo</addName>
+            <addName>Bartolomeo di Rossano</addName>
+            <addName>Bartolomeo il Giovane</addName>
+            <addName>Bartholomaeus Rossanensis</addName>
+            <addName>Bartholomaeus Saint</addName>
+            <addName>Bartholomaeus Sanctus</addName>
+            <addName>Bartholomaeus von Grottaferrata</addName>
+            <addName>Bartholomaios Heiliger</addName>
+            <addName>Bartholomaios</addName>
+            <addName>Bartholomaios der Heilige</addName>
+            <addName>Bartholomaios von Grottaferrata</addName>
+            <addName>Bartholomew Saint</addName>
+            <addName>Bartholomew</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/berlin-ms-germ-qrt-1666-49.tei.xml-d8789e167">Mar Agrada</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Palma le Jeune</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01375608</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01375608"
+                       key="#PND:11878935X">Palma<addName type="display">Palma le Jeune</addName>
+            <addName>Jacopo Palma</addName>
+            <addName>Iacopo Nigretti</addName>
+            <addName>Nigretti</addName>
+            <addName>Palma il Giovane</addName>
+            <addName>Jacopo Negreti</addName>
+            <addName>Negreti</addName>
+            <addName>Iacopo Negretti</addName>
+            <addName>Negretti</addName>
+            <addName>Jacopo Negretti</addName>
+            <addName>Jacopo Nigreti</addName>
+            <addName>Nigreti</addName>
+            <addName>Giacomo Palma</addName>
+            <addName>Palma, Giacomo der Jüngere</addName>
+            <addName>Palma, Giacomo der Jüngere</addName>
+            <addName>Palma, Giacomo il Giovane</addName>
+            <addName>Iacopo Palma</addName>
+            <addName>Palma, Iacopo der Jüngere</addName>
+            <addName>Palma, Iacopo il Giovane</addName>
+            <addName>Jacobus Palma</addName>
+            <addName>Palma, Jacopo der Jüngere</addName>
+            <addName>Jacopo Palma di Giovane</addName>
+            <addName>Palma di Giovane</addName>
+            <addName>Jacopo Palma di Giovanne</addName>
+            <addName>Palma di Giovanne</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:151240 http://arachne.uni-koeln.de/item/topographie/8004518</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:151240 #http://arachne.uni-koeln.de/item/topographie/8004518">Horti Salustiani</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:151735 http://arachne.uni-koeln.de/item/topographie/8004087 http://arachne.uni-koeln.de/item/bauwerk/2105614</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:151735 #http://arachne.uni-koeln.de/item/topographie/8004087 #http://arachne.uni-koeln.de/item/bauwerk/2105614">Thermae Titi</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Laokoon</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:219823 http://arachne.uni-koeln.de/item/gruppen/400123 http://arachne.uni-koeln.de/item/objekt/146910 http://arachne.uni-koeln.de/item/objekt/146912 http://arachne.uni-koeln.de/item/objekt/146913</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:219823 #http://arachne.uni-koeln.de/item/gruppen/400123 #http://arachne.uni-koeln.de/item/objekt/146910 #http://arachne.uni-koeln.de/item/objekt/146912 #http://arachne.uni-koeln.de/item/objekt/146913">
+            <persName ref="#CerlID:cnp00556829" key="#PND:118569651">Laokoon<addName type="display">Laokoon</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:151574 http://arachne.uni-koeln.de/item/topographie/8002083</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:151574 #http://arachne.uni-koeln.de/item/topographie/8002083">Villa Adriani</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Parma</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-245.tei.xml-d12157e313"
+               type="collection">Hertzoglichen Pallast zu <placeName ref="#GettyID:7004942">Parma<addName type="display">Parma</addName>
+               <addName>Parma</addName>
+               <addName>Colonia Julia Augusta Parmensis</addName>
+               <addName>Colonia Julia Augusta</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Torino</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-245.tei.xml-d12157e405"
+               type="collection">im Königlichen Cabinett zu <placeName ref="#GettyID:7005688">Turin<addName type="display">Torino</addName>
+               <addName>Torino</addName>
+               <addName>Turin</addName>
+               <addName>Augusta Taurinorum</addName>
+               <addName>Julia Taurinorum</addName>
+               <addName>Taurasia</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+</tags>

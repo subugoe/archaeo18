@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Hesiod</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/16006</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/16006">
+            <persName ref="#CerlID:cnp00909084" key="#PND:118550292">Hesiodus<addName type="display">Hesiod</addName>
+               <addName>Ēsiodos</addName>
+               <addName>Ēsiodos</addName>
+               <addName>Eracle</addName>
+               <addName>Esiodo</addName>
+               <addName>Esiodo Ascraeo</addName>
+               <addName>Hēsiodos</addName>
+               <addName>Hésiode</addName>
+               <addName>Hésiode d'Ascra</addName>
+               <addName>Hēsiodos</addName>
+               <addName>Hésiode</addName>
+               <addName>Hésiode d'Ascra</addName>
+               <addName>Hesiode</addName>
+               <addName>Hesiodo</addName>
+               <addName>Hesiodos</addName>
+               <addName>Hesiodos Askraios</addName>
+               <addName>Hesiodos Dichter</addName>
+               <addName>Hesiodos Epischer Dichter</addName>
+               <addName>Hesiodos ho Askraios</addName>
+               <addName>Hesiodos von Askra</addName>
+               <addName>Hesiodos von Kyme</addName>
+               <addName>Hesiodus Ascraeus</addName>
+               <addName>Hesiodus Ascreus</addName>
+               <addName>Hesiodus Askra</addName>
+               <addName>Hesiodus Epicus</addName>
+               <addName>Hezyod</addName>
+               <addName>Isiodos ho Askraios</addName>
+               <addName>Isiodos</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Herodotus</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-297.tei.xml-d11071e88">
+            <persName ref="#CerlID:cnp00884119" key="#PND:118549855">Herodotus<addName type="display">Herodotus</addName>
+               <addName>Ērodotos</addName>
+               <addName>Ērodotos</addName>
+               <addName>Erodot</addName>
+               <addName>Erodoto</addName>
+               <addName>Erodoto Alicarnasseo</addName>
+               <addName>Erodoto di Alicarnasso</addName>
+               <addName>Erodotus Alikarnassēos</addName>
+               <addName>Erodotus</addName>
+               <addName>Gerodot</addName>
+               <addName>Gerodot iz Galikarnassa</addName>
+               <addName>Hīrūdūt</addName>
+               <addName>Hérodote</addName>
+               <addName>Hérodote d' Halicarnasse</addName>
+               <addName>Hérodote de Halicarnasse</addName>
+               <addName>Hérodote d'Halicarnasse</addName>
+               <addName>Hérodotosz</addName>
+               <addName>Hérodote de Halicarnasse</addName>
+               <addName>Hérodote</addName>
+               <addName>Hérodote d'Halicarnasse</addName>
+               <addName>Herodatus</addName>
+               <addName>Herodoot</addName>
+               <addName>Herodoot van Halikarnassus</addName>
+               <addName>Herodot von Halikarnass</addName>
+               <addName>Herodot</addName>
+               <addName>Herodot Halicarnassei</addName>
+               <addName>Herodot iz Halikarnasu</addName>
+               <addName>Herodot the Historian</addName>
+               <addName>Herodot von Halicarnass</addName>
+               <addName>Herodot von Halikarnaß</addName>
+               <addName>Herodot von Halikarnassos</addName>
+               <addName>Herodot von Halikarnassus</addName>
+               <addName>Herodote</addName>
+               <addName>Herodoto</addName>
+               <addName>Herodoto Alicarnaseo</addName>
+               <addName>Herodoto Halicarnasseo</addName>
+               <addName>Herodotos</addName>
+               <addName>Herodotos van Halicarnassos</addName>
+               <addName>Herodotos Historiker</addName>
+               <addName>Herodotos Sohn des Lyxes</addName>
+               <addName>Herodotos von Halikarnassos</addName>
+               <addName>Herodotus Halincarnassensis</addName>
+               <addName>Herodotus Halicarnassei</addName>
+               <addName>Herodotus Halicarnassensis</addName>
+               <addName>Herodotus Halicarnasseus</addName>
+               <addName>Herodotus Halikarnassēos</addName>
+               <addName>Herodotus Historicus</addName>
+               <addName>Herodotus ho Halikarnasseos</addName>
+               <addName>Herodotus ho Halikarnasseus</addName>
+               <addName>Herodotus of Halicarnassus</addName>
+               <addName>Herodotus the Historian</addName>
+               <addName>Herodotus Thurius</addName>
+               <addName>Herodotus von Halicarnassos</addName>
+               <addName>Herodotus von Halikarnassos</addName>
+               <addName>Herodotus von Halikarnassus</addName>
+               <addName>Hirūdut</addName>
+               <addName>Hirūdut</addName>
+               <addName>Pseudo-Herodotus Biographus</addName>
+               <addName>Pseudo-Herodotus</addName>
+               <addName>Pseudo-Herodotus Halicarnassensis</addName>
+               <addName>Pseudo-Herodotus Historicus</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Hippocrates</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/15998</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/15998">
+            <persName ref="#CerlID:cnp00397037" key="#PND:118639633">Hippocrates<addName type="display">Hippocrates</addName>
+               <addName>Abuqrāṭ</addName>
+               <addName>Abuqrāṭ</addName>
+               <addName>Bocràt</addName>
+               <addName>Buqrāṭ</addName>
+               <addName>Buqrāṭ</addName>
+               <addName>Hipoócrates</addName>
+               <addName>Hippocrate</addName>
+               <addName>Hippocrate de Chios</addName>
+               <addName>Coi Hippocrates</addName>
+               <addName>Hippocrates Coi</addName>
+               <addName>Hippocrates Mathematician</addName>
+               <addName>Hippocrates Mathematicus</addName>
+               <addName>Hippocrates of Chios</addName>
+               <addName>Hippokrates</addName>
+               <addName>Hippokrates Astronom</addName>
+               <addName>Hippokrates Mathematiker</addName>
+               <addName>Hippokrates von Chios</addName>
+               <addName>Hippoocratis</addName>
+               <addName>Hypocrate</addName>
+               <addName>Hyppocrates</addName>
+               <addName>Ibuqrāṭ</addName>
+               <addName>Ibuqrāṭ</addName>
+               <addName>Ippocrate</addName>
+               <addName>Ippocrate Astronomo</addName>
+               <addName>Ippocrate di Chio</addName>
+               <addName>Ippocrate Matematico</addName>
+               <addName>Ippokrates</addName>
+               <addName>Ypocras</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Hieron (Syrakus, Tyrann, I.)</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/26227</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/26227">
+            <persName ref="#CerlID:cnp00585733" key="#PND:118704664">Hiero<addName type="display">Hieron (Syrakus, Tyrann, I.)</addName>
+               <addName>Hiero Syrakus, Fürst, I.</addName>
+               <addName>Hiero</addName>
+               <addName>Hieron Gela, Tyrann</addName>
+               <addName>Hieronymus Syrakus, Tyran, I.</addName>
+               <addName>Hieronymus</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Horace</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-297.tei.xml-d11071e328">
+            <persName ref="#CerlID:cnp01259307" key="#PND:118553569 118553569">Horatius<addName type="display">Horace</addName>
+               <addName>Q. Horatius Flaccus</addName>
+               <addName>Quintus Horatius Flaccus</addName>
+               <addName>Flaccus</addName>
+               <addName>Horatius</addName>
+               <addName>Orazio</addName>
+               <addName>Qu. Horatius Flaccus</addName>
+               <addName>Quintus H. Flaccus</addName>
+               <addName>Quintus Horatius Flaccvs</addName>
+               <addName>Flaccvs</addName>
+               <addName>Gorat︠s︡{̄}i</addName>
+               <addName>Kvint Goraz Flakk</addName>
+               <addName>Goraz Flakk</addName>
+               <addName>Hūrās</addName>
+               <addName>Ho-la-tz'ŭ</addName>
+               <addName>Horace</addName>
+               <addName>Horace de Venouse</addName>
+               <addName>Horace Flacce</addName>
+               <addName>Horacego</addName>
+               <addName>Horacij</addName>
+               <addName>Horacio</addName>
+               <addName>Quinto Horacio Flaco</addName>
+               <addName>Horacio Flaco</addName>
+               <addName>Kvinto Horacio Flako</addName>
+               <addName>Horacio Flako</addName>
+               <addName>Quintus Horacius Flakus</addName>
+               <addName>Horacius Flakus</addName>
+               <addName>Kwintus Horacjusz Flakkus</addName>
+               <addName>Horacjusz Flakkus</addName>
+               <addName>Horacy</addName>
+               <addName>Horacyusz</addName>
+               <addName>Q. Horatii Flacci</addName>
+               <addName>Horatii Flacci</addName>
+               <addName>Horatio Flacco</addName>
+               <addName>Quinto Horatio Flacco</addName>
+               <addName>Horatio</addName>
+               <addName>Q. Horatius F.</addName>
+               <addName>Horatius F.</addName>
+               <addName>Horatius Flaccus</addName>
+               <addName>Quinctus Horatius Flaccus</addName>
+               <addName>Quintus Horatius</addName>
+               <addName>Horatius Poeta</addName>
+               <addName>Horats</addName>
+               <addName>Horatz</addName>
+               <addName>Horaz</addName>
+               <addName>Quintus Horazius Flaccus</addName>
+               <addName>Horazius Flaccus</addName>
+               <addName>Quintus Horazius Flakkus</addName>
+               <addName>Horazius Flakkus</addName>
+               <addName>Quintus Horazius Flakus</addName>
+               <addName>Horazius Flakus</addName>
+               <addName>Hūrās</addName>
+               <addName>Kvint Khorat︠s︡iĭ Flak</addName>
+               <addName>Khorat︠s︡iĭ Flak</addName>
+               <addName>Khorat︠s︡iĭ</addName>
+               <addName>Oracio</addName>
+               <addName>Oracius Flaccus</addName>
+               <addName>Oratio</addName>
+               <addName>Oratius</addName>
+               <addName>Orazio Flacco</addName>
+               <addName>Q. Orazio Flacco</addName>
+               <addName>Quinto Orazio Flacco</addName>
+               <addName>Quintus Orazjus Flaccus</addName>
+               <addName>Orazjus Flaccus</addName>
+               <addName>Q. Horatius Flaccus Venusinus</addName>
+               <addName>Kvint Goracij Flakk</addName>
+               <addName>Goracij Flakk</addName>
+               <addName>Quinto Horacio Flacco</addName>
+               <addName>Horacio Flacco</addName>
+            </persName> Eine Büste aus Porphyr</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>La Valette, Jean Parisot ¬de¬</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-297.tei.xml-d11071e484"
+               type="collection">Sammlung des <persName ref="#CerlID:cnp00382003" key="#PND:115791361">Cardinals Valetta<addName type="display">La Valette, Jean Parisot ¬de¬</addName>
+               <addName>Jean Parisot de La Valette</addName>
+               <addName>Jean La Valette</addName>
+               <addName>Jean-Parisot de La Valette</addName>
+               <addName>La Valette Jean</addName>
+               <addName>Jean LaValette</addName>
+               <addName>LaValette</addName>
+               <addName>Jean Parisot de LaValette</addName>
+               <addName>Jean-Parisot de LaValette</addName>
+               <addName>Jean Parisot de Lavalette</addName>
+               <addName>Lavalette</addName>
+               <addName>Ioannes de Valeta</addName>
+               <addName>Valeta</addName>
+               <addName>Ioannes Valetta</addName>
+               <addName>Valetta</addName>
+               <addName>Johannes Valetta</addName>
+               <addName>Jean de la Valette</addName>
+               <addName>Valette</addName>
+               <addName>Jean Parisot de la Valette</addName>
+               <addName>Jean-Parisot de la Valette</addName>
+               <addName>Jean de la Valette-Parisot</addName>
+               <addName>Valette-Parisot</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000087</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000087">Wiltonhouse</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Menander</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-297.tei.xml-d11071e547">
+            <persName ref="#CerlID:cnp01259636" key="#PND:118747525">Menander<addName type="display">Menander</addName>
+               <addName>Mènandre dÁthènes</addName>
+               <addName>Mènandre</addName>
+               <addName>Ménandre</addName>
+               <addName>Ménandre d'Athènes</addName>
+               <addName>Ménandre Maître de la Comédie Nouvelle</addName>
+               <addName>Ménandre</addName>
+               <addName>Ménandre d'Athènes</addName>
+               <addName>Ménandre Maître de la Comédie Nouvelle</addName>
+               <addName>Comicus Menander</addName>
+               <addName>Menander Atheniensis</addName>
+               <addName>Menander Cephisius</addName>
+               <addName>Menander Comicus</addName>
+               <addName>Menander Dramatist</addName>
+               <addName>Menander of Athens</addName>
+               <addName>Menandro</addName>
+               <addName>Menandro di Cefisia</addName>
+               <addName>Menandros</addName>
+               <addName>Menandros Dichter der Neuen Komödie</addName>
+               <addName>Menandros Diopeithes ́Sohn</addName>
+               <addName>Menandros Diopeithes' Sohn</addName>
+               <addName>Menandros Diopeithus</addName>
+               <addName>Menandros von Athen</addName>
+               <addName>Menandros von Kephisia</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Ptolemaeus (Ägypten, König, I.)</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/16549</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/16549">
+            <persName ref="#CerlID:cnp00396191" key="#PND:118596926">Ptolomaeus<addName type="display">Ptolemaeus (Ägypten, König, I.)</addName>
+               <addName>Ptolemaeus Lagus Historicus</addName>
+               <addName>Ptolemaeus Lagus</addName>
+               <addName>Ptolemaeus Aegyptus, Rex, I.</addName>
+               <addName>Ptolemaeus Eordaeus</addName>
+               <addName>Ptolemaeus Historicus</addName>
+               <addName>Ptolemaeus Historiker</addName>
+               <addName>Ptolemaeus I.</addName>
+               <addName>Ptolemaeus I., Soter</addName>
+               <addName>Ptolemaeus Lagi</addName>
+               <addName>Ptolemaeus Lagi Filius</addName>
+               <addName>Ptolemaeus Lagu</addName>
+               <addName>Ptolemaeus Soter</addName>
+               <addName>Ptolemaios General Alexanders des Großen</addName>
+               <addName>Ptolemaios I., Lagu</addName>
+               <addName>Ptolemaios I., Soter</addName>
+               <addName>Ptolemaios Lagu</addName>
+               <addName>Ptolemaios Soter</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Plato</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-297.tei.xml-d11071e664">
+            <persName ref="#CerlID:cnp00396143" key="#PND:118594893">Plato<addName type="display">Plato</addName>
+               <addName>Platon</addName>
+               <addName>Bolatu</addName>
+               <addName>P'ullat'o</addName>
+               <addName>P'ullat'on</addName>
+               <addName>P'urat'on</addName>
+               <addName>Plato</addName>
+               <addName>Po-la-t'u</addName>
+               <addName>Aflāṭūn</addName>
+               <addName>Aflāṭūn</addName>
+               <addName>Aflaṭôn</addName>
+               <addName>Aplaṭôn</addName>
+               <addName>Aristokles</addName>
+               <addName>Eflātun</addName>
+               <addName>Eflatun</addName>
+               <addName>Platão</addName>
+               <addName>Platón</addName>
+               <addName>Platão</addName>
+               <addName>Platōn</addName>
+               <addName>Platōnos</addName>
+               <addName>Platao</addName>
+               <addName>Plato Athenensis</addName>
+               <addName>Plato Atheniensis</addName>
+               <addName>Plato Atheniensus</addName>
+               <addName>Plato Philosoph</addName>
+               <addName>Plato Philosophus</addName>
+               <addName>Plato von Athen</addName>
+               <addName>Platōn</addName>
+               <addName>Platōnos</addName>
+               <addName>Platón</addName>
+               <addName>Platon dÁthènes</addName>
+               <addName>Platon d'Athènes</addName>
+               <addName>Platon Philosoph</addName>
+               <addName>Platon Sohn des Ariston</addName>
+               <addName>Platon von Athen</addName>
+               <addName>Platonas</addName>
+               <addName>Platone</addName>
+               <addName>Platonis</addName>
+               <addName>Platonius</addName>
+               <addName>Platonos</addName>
+               <addName>Platons</addName>
+               <addName>Platoon</addName>
+               <addName>Pseudo-Plato</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000297</link>
+      <count>4</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000297">Villa Albani</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/211388</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/211388">21.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-297.tei.xml-d11071e803">22.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-297.tei.xml-d11071e813">322.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:10020650 http://arachne.uni-koeln.de/item/objekt/13473</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:10020650 #http://arachne.uni-koeln.de/item/objekt/13473">27. 28.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-297.tei.xml-d11071e856">27.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Scipion l'Africain</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/29581</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/29581">
+            <persName ref="#CerlID:cnp00566495" key="#PND:118612336">Scipio Africanus<addName type="display">Scipion l'Africain</addName>
+               <addName>Publius Cornelius Scipio</addName>
+               <addName>Publius Cornelius Scipio Africanus</addName>
+               <addName>Publius Cornelius Scipio Africanus Maior</addName>
+               <addName>Africanus Maior</addName>
+               <addName>Cornelius Scipio Africanus Maior</addName>
+               <addName>Publius C. Scipio</addName>
+               <addName>Scipio, Publius C. Africanus, der Ältere</addName>
+               <addName>Publius Cornelius Africanus Scipio</addName>
+               <addName>Scipio Africanus, der Ältere</addName>
+               <addName>Scipio Historicus</addName>
+               <addName>Scipio Maior</addName>
+               <addName>Scipio der Ältere</addName>
+               <addName>Scipio Africanus</addName>
+               <addName>Scipio Africanus Historicus</addName>
+               <addName>Scipio Africanus Maior</addName>
+               <addName>Publius Cornelius Scipio Maior</addName>
+               <addName>Scipio Maior Historicus</addName>
+               <addName>Scipio Maior Romanus</addName>
+               <addName>Publio Cornelio Scipione</addName>
+               <addName>Scipione, Publio Cornelio Africano Maggiore</addName>
+               <addName>Scipione</addName>
+            </persName> in Basalt</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Palazzo Rospigliosi</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-297.tei.xml-d11071e1255">Jm <term ref="#http://arachne.uni-koeln.de/item/bauwerk/2100283 #http://arachne.uni-koeln.de/item/bauwerk/2109503">Palazzo Rospigliosi</term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/bauwerk/2100283 http://arachne.uni-koeln.de/item/bauwerk/2109503</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/bauwerk/2100283 #http://arachne.uni-koeln.de/item/bauwerk/2109503">Palazzo Rospigliosi</term>
+      </nodes>
+   </tag>
+</tags>

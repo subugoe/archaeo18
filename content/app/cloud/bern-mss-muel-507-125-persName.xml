@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>NapoliHeinrich (IV.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00958449</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00958449"
+                       key="#PND:118548271">König Heinrich IV. von <TEI:placeName ref="#GettyID:7004474">Neapel<addName type="display">Napoli</addName>
+               <addName>Napoli</addName>
+               <addName>Nápoles</addName>
+               <addName>Naples</addName>
+               <addName>Neapel</addName>
+               <addName>Neapolis</addName>
+               <addName>Parthenope</addName>
+            </TEI:placeName>
+            <addName type="display">Heinrich (IV.)</addName>
+            <addName>Heinrich Bayern, Herzog, VIII.</addName>
+            <addName>Heinricus Germania, Imperator, IV.</addName>
+            <addName>Heinricus</addName>
+            <addName>Heinricus Imperator, IV.</addName>
+            <addName>Henri Allemagne, Empereur, IV.</addName>
+            <addName>Henri</addName>
+            <addName>Henrichus Germania, Imperator, IV.</addName>
+            <addName>Henrichus</addName>
+            <addName>Henricus Germania, Imperator, IV.</addName>
+            <addName>Henricus</addName>
+            <addName>Henricus IV</addName>
+            <addName>Henricus Imperator, IV.</addName>
+            <addName>Henricus Imperium Romanum-Germanicum, Imperator, IV.</addName>
+            <addName>Henry Germany, Emperor, IV.</addName>
+            <addName>Henry</addName>
+            <addName>Henry Holy Roman Empire, Emperor, IV.</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Volpi, Giuseppe R.</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01022963</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01022963"
+                       key="#PND:10434282X">Volpi<addName type="display">Volpi, Giuseppe R.</addName>
+            <addName>Giuseppe R. Volpi</addName>
+            <addName>Giuseppe Rocco Volpi</addName>
+            <addName>Joseph R. Volpi</addName>
+            <addName>Joseph R. Vulpius</addName>
+            <addName>Vulpius</addName>
+            <addName>Joseph Roccus Vulpius</addName>
+            <addName>Josephus R. Vulpius</addName>
+            <addName>Josephus Rocchus Vulpius</addName>
+            <addName>Josephus Rocco Vulpius</addName>
+            <addName>Josephus Roccus Vulpius</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

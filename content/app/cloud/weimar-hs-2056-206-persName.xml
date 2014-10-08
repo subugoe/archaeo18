@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Agrippina (die Ältere)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00541941</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00541941"
+                   key="#PND:118501100">Agrippina<addName type="display">Agrippina (die Ältere)</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Niobe</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300351</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300351">Niobe<addName type="display">Niobe</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Juno</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00589422</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00589422"
+                   key="#PND:118800574">Juno<addName type="display">Juno</addName>
+            <addName>Cupra</addName>
+            <addName>Pronuba</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Atalante</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00570676</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00570676"
+                   key="#PND:122641124">Atalante<addName type="display">Atalante</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Mars</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00586722</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00586722"
+                   key="#PND:118731181">Mars<addName type="display">Mars</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Apollon</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00542641</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00542641"
+                   key="#PND:118503642">Apollo<addName type="display">Apollon</addName>
+            <addName>Apoll</addName>
+            <addName>Apollo</addName>
+            <addName>Phoebus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Sixt (papa, 1521-1590)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00930951</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00930951"
+                   key="#PND:118765671">Pabst Sixto V.<addName type="display">Sixt (papa, 1521-1590)</addName>
+            <addName>Felice Peretti Di Montalti</addName>
+            <addName>Di Montalti</addName>
+            <addName>Felice Peretti di Montalti</addName>
+            <addName>Montalti</addName>
+            <addName>Felice Montalto</addName>
+            <addName>Montalto</addName>
+            <addName>Felice Paretti di Montalto</addName>
+            <addName>Felix Montalto</addName>
+            <addName>Felix de Montealto</addName>
+            <addName>Montealto</addName>
+            <addName>Felice Peretti</addName>
+            <addName>Peretti</addName>
+            <addName>Peretti, Felice 1521-1590</addName>
+            <addName>Felix Peretti</addName>
+            <addName>Felice Peretti Peretti di Montalti</addName>
+            <addName>Peretti di Montalti</addName>
+            <addName>Felix Peretus</addName>
+            <addName>Peretus</addName>
+            <addName>Sisto Papa, V.</addName>
+            <addName>Sisto</addName>
+            <addName>Sisto Pontefice, V.</addName>
+            <addName>Sisto V papa 1521-1590</addName>
+            <addName>Sixte-Quint</addName>
+            <addName>Sixtus Pont. M., V.</addName>
+            <addName>Sixtus V pope</addName>
+            <addName>Sixtus V.</addName>
+            <addName>Xustus</addName>
+            <addName>Xystus Papa, V.</addName>
+            <addName>Xystus</addName>
+            <addName>Xystus Papst, V.</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Livia Drusilla (Römisches Reich, Kaiserin)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00550548</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00550548"
+                   key="#PND:119226014">Livia<addName type="display">Livia Drusilla (Römisches Reich, Kaiserin)</addName>
+            <addName>Iulia Augusta</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pyrrhus (Epirus, König)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00587177</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00587177"
+                   key="#PND:118743058">Pyrrhus<addName type="display">Pyrrhus (Epirus, König)</addName>
+            <addName>Pirr carʹ Ėpira</addName>
+            <addName>Pirr</addName>
+            <addName>Pirro Epiro, Re</addName>
+            <addName>Pirro</addName>
+            <addName>Pyrrhos Epeiros, König</addName>
+            <addName>Pyrrhos</addName>
+            <addName>Pyrrhos Epirus, König</addName>
+            <addName>Pyrrhos König der Molosser</addName>
+            <addName>Pyrrhos Sohn des Aiakides</addName>
+            <addName>Pyrrhos von Epeiros</addName>
+            <addName>Pyrrhos von Epirus</addName>
+            <addName>Pyrrhus Epirota</addName>
+            <addName>Pyrrhus Epirotes</addName>
+            <addName>Pyrrhus Historicus</addName>
+            <addName>Pyrrhus King of Epirus</addName>
+            <addName>Pyrrhus Rex</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

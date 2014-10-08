@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Gregor (Papst, XII.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01235697</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01235697"
+                   key="#PND:118541889">Greogorius XII.<addName type="display">Gregor (Papst, XII.)</addName>
+            <addName>Ange Corraro</addName>
+            <addName>Ange</addName>
+            <addName>Angelo Correr</addName>
+            <addName>Angelo</addName>
+            <addName>Correr</addName>
+            <addName>Gregorio Papa, XII.</addName>
+            <addName>Gregorio</addName>
+            <addName>Gregorius Pontifex, XII.</addName>
+            <addName>Gregorius XII</addName>
+            <addName>Gregory Pope, XII.</addName>
+            <addName>Gregory</addName>
+            <addName>Grégoire Pape, XII.</addName>
+            <addName>Grégoire</addName>
+            <addName>Grégoire Papa, XII.</addName>
+            <addName>Grégoire</addName>
+            <addName>Grégoire Pape, XII.</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Donnino , Alfonso Girolamo</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01288185</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01288185">Adonnini<addName type="display">Donnino , Alfonso Girolamo</addName>
+            <addName>Alfonso Girolamo Donnino</addName>
+            <addName>Adonnini</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Buonanni, Filippo</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00406210</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00406210"
+                   key="#PND:119470241">Ph. Bonani<addName type="display">Buonanni, Filippo</addName>
+            <addName>Filippo Buonanni</addName>
+            <addName>Bonani</addName>
+            <addName>Philippo Bonani</addName>
+            <addName>Bonanni Filippo</addName>
+            <addName>Bonanni</addName>
+            <addName>Filippo Bonanni</addName>
+            <addName>Ph. Bonanni</addName>
+            <addName>Philipp Bonanni</addName>
+            <addName>Philippo Bonanni</addName>
+            <addName>Philippus Bonanni</addName>
+            <addName>F. Bonannus</addName>
+            <addName>Bonannus</addName>
+            <addName>Philippus Bonannus</addName>
+            <addName>Filippo Bonnani</addName>
+            <addName>Bonnani</addName>
+            <addName>Filippo Bonuani</addName>
+            <addName>Bonuani</addName>
+            <addName>J. R.</addName>
+            <addName>R.</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Contucci, Contuccio</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00599945</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00599945"
+                   key="#PND:12939209X">Pater Con-  
+                                                  ducci<addName type="display">Contucci, Contuccio</addName>
+            <addName>Contuccio Contucci</addName>
+            <addName>Conducci Pater</addName>
+            <addName>Conducci</addName>
+            <addName>Archangelo Contuccio de Contucci</addName>
+            <addName>Archangelo Contuccio De Contucci</addName>
+            <addName>De Contucci</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/berlin-ms-germ-qrt-1666-275.tei.xml-d22011e18">Baumart</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Belli, Valerio</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00571292</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00571292"
+                       key="#PND:122739531">Valerius<addName type="display">Belli, Valerio</addName>
+            <addName>Valerio Belli</addName>
+            <addName>Valerio Belli Vicentino</addName>
+            <addName>Belli Vicentino</addName>
+            <addName>Vicentino</addName>
+            <addName>Valerio Vicentino</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/berlin-ms-germ-qrt-1666-275.tei.xml-d22011e63">Soling</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Salmasius, Claudius</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01271094</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01271094"
+                       key="#PND:119114119">Saumaise<addName type="display">Salmasius, Claudius</addName>
+            <addName>Claudius Salmasius</addName>
+            <addName>Claude Saumaise</addName>
+            <addName>Simplicius Verinus</addName>
+            <addName>Walo Messalinus</addName>
+            <addName>Franciscus Francus</addName>
+            <addName>Francus</addName>
+            <addName>Alexius a Massalia</addName>
+            <addName>Massalia</addName>
+            <addName>Alexius a Messalia</addName>
+            <addName>Messalia</addName>
+            <addName>S. D. B.</addName>
+            <addName>Cl. S.</addName>
+            <addName>S.</addName>
+            <addName>Salmasius</addName>
+            <addName>Cl. Salmasius</addName>
+            <addName>Claudius Salmasus</addName>
+            <addName>Salmasus</addName>
+            <addName>Claudus Salmasus</addName>
+            <addName>Claude de Saumaise</addName>
+            <addName>Gelasius de V.- Umbrosa</addName>
+            <addName>Umbrosa</addName>
+            <addName>Gelasius de Valle-Umbrosa</addName>
+            <addName>Valle-Umbrosa</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Theophrastus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00396680</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00396680"
+                       key="#PND:118621793">Theophrast<addName type="display">Theophrastus</addName>
+            <addName>Theophrastos ho Eresios</addName>
+            <addName>Theophrastos</addName>
+            <addName>Eresius Theophrastus</addName>
+            <addName>Theophrastus Eresius Peripateticus</addName>
+            <addName>Theophrast</addName>
+            <addName>Feofrast</addName>
+            <addName>Teofrast</addName>
+            <addName>Teofrast z Erezu</addName>
+            <addName>Teofrasto</addName>
+            <addName>Téoprastos</addName>
+            <addName>Téopŕastos</addName>
+            <addName>Theofrasto</addName>
+            <addName>Theophraste</addName>
+            <addName>Theophrastes</addName>
+            <addName>Theophrastos Leiter der Peripatetischen Schule</addName>
+            <addName>Theophrastos Schüler des Aristoteles</addName>
+            <addName>Theophrastos von Eresos</addName>
+            <addName>Theophrastos von Lesbos</addName>
+            <addName>Theophrastos Eresios</addName>
+            <addName>Theophrastus Eresius</addName>
+            <addName>Theophrastus Eresus</addName>
+            <addName>Theophrastus Peripateticus</addName>
+            <addName>Theophrastus Philosophus</addName>
+            <addName>Theophrastus of Eresos</addName>
+            <addName>Theophrastus of Eresus</addName>
+            <addName>Theophrastus of Lesbos</addName>
+            <addName>Theophrastus von Eresos</addName>
+            <addName>Théophraste</addName>
+            <addName>Théophraste d'Erèse</addName>
+            <addName>Théophrastus Philosophus</addName>
+            <addName>Théophrastus</addName>
+            <addName>Théophraste</addName>
+            <addName>Théophraste d'Erèse</addName>
+            <addName>Téoprastos</addName>
+            <addName>Téopŕastos</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Hill, John</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00403375</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00403375"
+                       key="#PND:119049414">I. Hill<addName type="display">Hill, John</addName>
+            <addName>John Hill</addName>
+            <addName>George Crine</addName>
+            <addName>Crine</addName>
+            <addName>Sampson Edwards</addName>
+            <addName>Edwards</addName>
+            <addName>Giovanni Hill</addName>
+            <addName>J. Hill</addName>
+            <addName>Jean Hill</addName>
+            <addName>Johann Hill</addName>
+            <addName>Johannes Hill</addName>
+            <addName>Hill, John 1714?-1775</addName>
+            <addName>Hill, John Sir</addName>
+            <addName>Hill Dr. John</addName>
+            <addName>Hillius</addName>
+            <addName>Inspector</addName>
+            <addName>J. H.</addName>
+            <addName>Abraham Johnson</addName>
+            <addName>Johnson</addName>
+            <addName>Juliana Susannah Seymour</addName>
+            <addName>Seymour</addName>
+            <addName>William Townsend</addName>
+            <addName>Townsend</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Rodolphe (II, empereur germanique)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00396342</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00396342"
+                       key="#PND:118603701">Rudolph 11.<addName type="display">Rodolphe (II, empereur germanique)</addName>
+            <addName>Rudolf von Habsburg</addName>
+            <addName>Rodolphe de Habsbourg</addName>
+            <addName>Habsbourg</addName>
+            <addName>Rodolphe archiduc d'Autriche</addName>
+            <addName>Rodolphe II roi de Bohême</addName>
+            <addName>Rodolphe roi de Bohême</addName>
+            <addName>Rodolphe roi de Hongrie</addName>
+            <addName>Rodolphe V archiduc d'Autriche</addName>
+            <addName>Rudolf archiduc d'Autriche</addName>
+            <addName>Rudolf II empereur germanique</addName>
+            <addName>Rudolf II roi de Bohême</addName>
+            <addName>Rudolf roi de Bohême</addName>
+            <addName>Rudolf roi de Hongrie</addName>
+            <addName>Rudolf V archiduc d'Autriche</addName>
+            <addName>Rudolphus II empereur germanique</addName>
+            <addName>Rudolphus</addName>
+            <addName>Rudolf Habsburg</addName>
+            <addName>Habsburg, Rudolf II.</addName>
+            <addName>Rudolph Habsburg</addName>
+            <addName>Habsburg, Rudolph II.</addName>
+            <addName>Kaiser Rudolf II.</addName>
+            <addName>Kayser Rudolphi II</addName>
+            <addName>Rodolfo Cesare</addName>
+            <addName>Rodolfo</addName>
+            <addName>Rodolphe II</addName>
+            <addName>Rodolphus Germania, Imperator</addName>
+            <addName>Rodolphus</addName>
+            <addName>Rodolphus Romanorum, Imperator, II.</addName>
+            <addName>Rudolf Böhmen, König</addName>
+            <addName>Rudolf II Habsburg</addName>
+            <addName>Rudolf II Römischer Kaiser 1552-1612.</addName>
+            <addName>Rudolf Österreich, Erzherzog</addName>
+            <addName>Rudolf Ungarn, König</addName>
+            <addName>Rudolff der Ander</addName>
+            <addName>Rudolff Römisch-Deutsches Reich, Kaiser, II.</addName>
+            <addName>Rudolff</addName>
+            <addName>Rudolph Römisch-Deutsches Reich, Kaiser, II.</addName>
+            <addName>Rudolph</addName>
+            <addName>Rudolphus II Caesar</addName>
+            <addName>Rudolphus rex Ungariae</addName>
+            <addName>Rudolphus Caesar, II.</addName>
+            <addName>Rudolphus Germania, Imperator, II.</addName>
+            <addName>Rudolphus Imperator Romanus, II.</addName>
+            <addName>Rudolphus Imperator, II.</addName>
+            <addName>Rudolphus Imperium Romano-Germanicum, Imperator, II.</addName>
+            <addName>Rudolphus Kaiser, II.</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

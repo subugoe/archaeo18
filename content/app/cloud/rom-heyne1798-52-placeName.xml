@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7001407 #6004687 #7030348</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0"
+                    ref="#GettyID:7001407 #GettyID:6004687 #GettyID:7030348">Syrien</placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Egypt</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7014986</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7014986">Aegypten<addName type="display">Egypt</addName>
+            <addName>Egypt</addName>
+            <addName>Egypt, ancient</addName>
+            <addName>Aegyptus</addName>
+            <addName>Aigyptos</addName>
+            <addName>Hwt-ka-Ptah</addName>
+            <addName>Kem</addName>
+            <addName>Kemi</addName>
+            <addName>Kermit</addName>
+            <addName>Kemet</addName>
+            <addName>Kmt</addName>
+            <addName>Ancient Egyptian</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Red Sea</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7016791</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7016791">rothen
+                        Meere<addName type="display">Red Sea</addName>
+            <addName>Red Sea</addName>
+            <addName>Al-Baḥr al-Aḥmar</addName>
+            <addName>Aḥmar, Al-Baḥr al-</addName>
+            <addName>Rojo, Mar</addName>
+            <addName>Rotes Meer</addName>
+            <addName>Rouge, Mer</addName>
+            <addName>Sinus Arabicus</addName>
+         </placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7016790</link>
+      <count>2</count>
+      <nodes>
+         <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7016790">Adule, (jetzt Azuna)</placeName>
+      </nodes>
+   </tag>
+</tags>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Jenkins, Thomas</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00456315</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00456315"
+                   key="#PND:12256975X">Jenkins<addName type="display">Jenkins, Thomas</addName>
+            <addName>Thomas Jenkins</addName>
+            <addName>Tommaso Jenkins</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Weddell, William</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00581791</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00581791"
+                   key="#PND:124611613">Wettel<addName type="display">Weddell, William</addName>
+            <addName>William Weddell</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-153.tei.xml-d4397e115">Marquise Cornavaglio</persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Friedrich August  (Herzog von York und Albany)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300293</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300293">Hzg. v. York<addName type="display">Friedrich August  (Herzog von York und Albany)</addName>
+            <addName>Herzog von York</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Volpato, Giovanni</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00401648</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00401648"
+                   key="#PND:118873415">Volpato<addName type="display">Volpato, Giovanni</addName>
+            <addName>Giovanni Volpato</addName>
+            <addName>Giovanni Trevisan Volpato</addName>
+            <addName>Trevisan Volpato</addName>
+            <addName>Volpato</addName>
+            <addName>J. Volpato</addName>
+            <addName>Jean Volpato</addName>
+            <addName>Johannes Vulpatus</addName>
+            <addName>Vulpatus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Nibiano, José Nicolás de Azara ¬de¬</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00404636</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00404636"
+                   key="#PND:119208210">Azara<addName type="display">Nibiano, José Nicolás de Azara ¬de¬</addName>
+            <addName>José Nicolás de Azara de Nibiano</addName>
+            <addName>José N. de Azara de Nibiano</addName>
+            <addName>Azara de Nibiano</addName>
+            <addName>José N. de Azara y Perera</addName>
+            <addName>Azara y Perera</addName>
+            <addName>José Nicolás de Nibbiano de Azara y Perera</addName>
+            <addName>Giuseppe N. de Azara</addName>
+            <addName>Azara</addName>
+            <addName>Giuseppe Niccola d' Azara</addName>
+            <addName>Josef Nicolas de Azara</addName>
+            <addName>José N. de Azara</addName>
+            <addName>José Nicolás de Nibbiano de Azara</addName>
+            <addName>José Nicolás de Azara</addName>
+            <addName>Joseph N. d' Azara</addName>
+            <addName>Joseph N. de Azara</addName>
+            <addName>Joseph Nicolas de Azara</addName>
+            <addName>Joseph-Nicolas d' Azara</addName>
+            <addName>Nicholás de Nibbiano Azara</addName>
+            <addName>Nicolás de Azara</addName>
+            <addName>Nicolaus Josephus Azara</addName>
+            <addName>Giuseppe N. de Azzara</addName>
+            <addName>Azzara</addName>
+            <addName>Giuseppe Niccolò Azzara</addName>
+            <addName>Giuseppe Niccola D'Azara</addName>
+            <addName>D'Azara</addName>
+            <addName>Joseph N. D'Azara</addName>
+            <addName>José Nicolás de Azara de Nibbiano</addName>
+            <addName>Nibbiano</addName>
+            <addName>José N. de Nibiano</addName>
+            <addName>José Nicolás de Nibiano</addName>
+            <addName>José Nicolás de Azara y Perera</addName>
+            <addName>Perera</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Mengs, Anton Raphael</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00400145</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00400145"
+                   key="#PND:118783270">Mengs<addName type="display">Mengs, Anton Raphael</addName>
+            <addName>Anton Raphael Mengs</addName>
+            <addName>Mengs</addName>
+            <addName>Anthony R. Mengs</addName>
+            <addName>Anthony Raphael Mengs</addName>
+            <addName>Antoine R. Mengs</addName>
+            <addName>Antoine-Raphael Mengs</addName>
+            <addName>Anton R. Mengs</addName>
+            <addName>Anton Raffaele Mengs</addName>
+            <addName>Anton Raphaël Mengs</addName>
+            <addName>Antonio R. Mengs</addName>
+            <addName>Antonio Rafael Mengs</addName>
+            <addName>Antonio Raffaello Mengs</addName>
+            <addName>R. Mengs</addName>
+            <addName>Rafael Mengs</addName>
+            <addName>Raphael Mengs</addName>
+            <addName>Antonio R. Mengz</addName>
+            <addName>Mengz</addName>
+            <addName>Antonio Raffaele Mengz</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

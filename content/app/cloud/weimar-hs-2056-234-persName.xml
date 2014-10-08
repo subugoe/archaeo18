@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Vacca, Flaminio</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00628322</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00628322"
+                   key="#PND:129766909">Flaminius Vacca<addName type="display">Vacca, Flaminio</addName>
+            <addName>Flaminio Vacca</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Montfaucon, Bernard ¬de¬</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00119823</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00119823"
+                   key="#PND:100310923">Montfaucon<addName type="display">Montfaucon, Bernard ¬de¬</addName>
+            <addName>Bernard de Montfaucon</addName>
+            <addName>Bernard De Montfaucon</addName>
+            <addName>De Montfaucon</addName>
+            <addName>Bernardus de Monfaucon</addName>
+            <addName>Monfaucon</addName>
+            <addName>Bernardus de Montefalconius</addName>
+            <addName>Montefalconius</addName>
+            <addName>Bernardus de Montefaucon</addName>
+            <addName>Montefaucon</addName>
+            <addName>Bernardus de Montfalconius</addName>
+            <addName>Montfalconius</addName>
+            <addName>Bern. de Montfaucon</addName>
+            <addName>Bernard Montfaucon</addName>
+            <addName>Bernardi Montfaucon</addName>
+            <addName>Bernardo de Montfaucon</addName>
+            <addName>Bernardo di Montfaucon</addName>
+            <addName>Bernardus de Montfaucon</addName>
+            <addName>Bernhard de Montfaucon</addName>
+            <addName>Bernhard von Montfaucon</addName>
+            <addName>Montfaucon Father Bernard</addName>
+            <addName>Bernardus Montfauconius</addName>
+            <addName>Montfauconius</addName>
+            <addName>Bernard de Montfocon</addName>
+            <addName>Montfocon</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

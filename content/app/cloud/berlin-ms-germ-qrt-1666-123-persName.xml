@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Caesar, Gaius Iulius (20 v. Chr.-4)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00540857</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00540857"
+                       key="#PND:118869965">Cajus<addName type="display">Caesar, Gaius Iulius (20 v. Chr.-4)</addName>
+            <addName>Gaius Iulius Caesar</addName>
+            <addName>Gajus Julius Caesar</addName>
+            <addName>Caesar, Gajus Julius 20 v. Chr.-4</addName>
+            <addName>Iulius Caesar, Gaius 20 v. Chr.-4</addName>
+            <addName>Iulius Caesar</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Caesar, Lucius Iulius</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00401618</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00401618"
+                       key="#PND:118869833">Lucius<addName type="display">Caesar, Lucius Iulius</addName>
+            <addName>Lucius Iulius Caesar</addName>
+            <addName>Lucius Julius Caesar</addName>
+            <addName>Iulius Caesar</addName>
+            <addName>Iulius</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Augustus (Emperor of Rome)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00971385</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00971385"
+                       key="#PND:118505122">Augu-
+                stus<addName type="display">Augustus (Emperor of Rome)</addName>
+            <addName>Auguste Empereur</addName>
+            <addName>Auguste</addName>
+            <addName>Caio Giulio Cesare Ottaviano Augusto</addName>
+            <addName>Augusto</addName>
+            <addName>Cesare Augusto</addName>
+            <addName>Cesare Ottaviano Augusto</addName>
+            <addName>Ottaviano Augusto</addName>
+            <addName>Augustus Caesar</addName>
+            <addName>Caesar Augustus</addName>
+            <addName>Caesar Octavianus Augustus</addName>
+            <addName>Caius J. Augustus</addName>
+            <addName>Caius Julius Caesar Augustus</addName>
+            <addName>Cesar Octavianus Augustus</addName>
+            <addName>Gaius I. Augustus</addName>
+            <addName>Gaius Iulius Caesar Augustus</addName>
+            <addName>Gaius Iulius Caesar Octavianus Augustus</addName>
+            <addName>Gaius Julius Augustus</addName>
+            <addName>Gaius Julius Caesar Octavianus Augustus</addName>
+            <addName>Gaius Octavius Augustus</addName>
+            <addName>Iulius Caesar Octavianus Augustus</addName>
+            <addName>Octavianus Augustus</addName>
+            <addName>Octavius Caesar Augustus</addName>
+            <addName>Augustus Divus</addName>
+            <addName>Augustus Imperator</addName>
+            <addName>Augustus Imperium Romanum, Caesar</addName>
+            <addName>Augustus Kaiser</addName>
+            <addName>Augustus Römisches Reich, Kaiser</addName>
+            <addName>Augustus Roemisches Reich, Kaiser</addName>
+            <addName>Augustus Romanus</addName>
+            <addName>Augustus Verfasser der Res Gestae</addName>
+            <addName>Caius Octavianus Imperium Romanum, Imperator</addName>
+            <addName>Caius Octavianus</addName>
+            <addName>Caius Oktavius Imperium Romanum, Augustus</addName>
+            <addName>Caius Oktavius</addName>
+            <addName>Caius Oktavius Imperium Romanum, Imperator</addName>
+            <addName>Gaius Julius Caesar Octavianus</addName>
+            <addName>Gaius Octavius</addName>
+            <addName>Gaius Octavius Emperor of Rome</addName>
+            <addName>Octavian</addName>
+            <addName>Octavianus</addName>
+            <addName>Octavius</addName>
+            <addName>Octavius Caesar Emperor of Rome</addName>
+            <addName>Octavius Caesar</addName>
+            <addName>Octavius Augustus</addName>
+            <addName>Ottaviano</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Venuti, Ridolfino</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00946665</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00946665"
+                       key="#PND:12884700X">venuti<addName type="display">Venuti, Ridolfino</addName>
+            <addName>Ridolfino Venuti</addName>
+            <addName>Ridolfinus Venuti</addName>
+            <addName>Rodolphinus Venuti</addName>
+            <addName>Rudolphinus Venuti</addName>
+            <addName>Ridolfinus Venutus</addName>
+            <addName>Venutus</addName>
+            <addName>Rodolphinus Venutus</addName>
+            <addName>Rudolphinus Venutus</addName>
+            <addName>R. Venuti</addName>
+            <addName>Ridolphinus Venuti</addName>
+            <addName>Rodulf Venuti</addName>
+            <addName>Rodulfinus Venuti</addName>
+            <addName>Rodulphino Venuti</addName>
+            <addName>Rodulphinus Venuti</addName>
+            <addName>Rudolfino Venuti</addName>
+            <addName>Rodulphinus Venutus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pius IV. (Papst)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01108805</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01108805">Pius
+                den IV.<addName type="display">Pius IV. (Papst)</addName>
+            <addName>Papst Pius IV.</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Clemens (Papa, XII.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00945766</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00945766"
+                       key="#PND:100085725">Clemens XII.<addName type="display">Clemens (Papa, XII.)</addName>
+            <addName>Clemens Papst, XII.</addName>
+            <addName>Clemens Pontifex Maximus, XII.</addName>
+            <addName>Clemens XII.</addName>
+            <addName>Clement Papa, XII.</addName>
+            <addName>Clement</addName>
+            <addName>Clementus Pabst, XII.</addName>
+            <addName>Clementus</addName>
+            <addName>Laurentius Corsini</addName>
+            <addName>Corsini</addName>
+            <addName>Lorenzo Corsini</addName>
+            <addName>Klemens Papa, XII.</addName>
+            <addName>Klemens XII.</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Paweł (III, papież)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01238317</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01238317"
+                       key="#PND:118592068">Paul
+                III.<addName type="display">Paweł (III, papież)</addName>
+            <addName>Alessandro Farnese</addName>
+            <addName>Paulus III papa ; 1468-1549). [m]</addName>
+            <addName>Alexandre Farnèse</addName>
+            <addName>Farnèse</addName>
+            <addName>Paolo III pape</addName>
+            <addName>Paolo</addName>
+            <addName>Paulus III pape</addName>
+            <addName>Farnese</addName>
+            <addName>Farnese, Alessandro 1468-1549</addName>
+            <addName>Farnese, Alessandro der Ältere</addName>
+            <addName>Alexander Farnese</addName>
+            <addName>Sándor Farnese</addName>
+            <addName>Farnesi</addName>
+            <addName>Farnesius</addName>
+            <addName>Alexander Farnesius Cardinal</addName>
+            <addName>Farnesius Cardinal</addName>
+            <addName>Paolo III</addName>
+            <addName>Paolo Papa, III.</addName>
+            <addName>Paolo III Papa</addName>
+            <addName>Paolo III. Papa</addName>
+            <addName>Paolo III/Alessandro Farnese</addName>
+            <addName>Paolo Terzo</addName>
+            <addName>Paul III</addName>
+            <addName>Paul III.</addName>
+            <addName>Paul Papa, III.</addName>
+            <addName>pope Alessandro Farnese Paul III</addName>
+            <addName>Papst Paul III.</addName>
+            <addName>Paul III. Papa</addName>
+            <addName>Pauli Papa, III.</addName>
+            <addName>Pauli</addName>
+            <addName>Paullus Romanus, Pontifex, III.</addName>
+            <addName>Paullus</addName>
+            <addName>Paulo III papa 1468-1549</addName>
+            <addName>Paulo</addName>
+            <addName>Paulo Papa, III.</addName>
+            <addName>Paulo III. Papa</addName>
+            <addName>Paulus III papa 1468-1549</addName>
+            <addName>Paulus III.</addName>
+            <addName>Paulus Papst, III.</addName>
+            <addName>Paulus Pontifex Maximus, III.</addName>
+            <addName>Paulus Pontifex maximus, III.</addName>
+            <addName>Paulus Romanus, Episcopus</addName>
+            <addName>Paulus Tertius</addName>
+            <addName>pope Paulus III</addName>
+            <addName>Paulus III</addName>
+            <addName>Paulus papa III</addName>
+            <addName>Paulus papa Tertius</addName>
+            <addName>Paulus tertius</addName>
+            <addName>Pál Papa, III.</addName>
+            <addName>Pál</addName>
+            <addName>Pál III</addName>
+            <addName>papa Paolo terzo</addName>
+            <addName>papa Paulo terzo</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Amor</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00542364</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00542364"
+                       key="#PND:11850262X">Amor<addName type="display">Amor</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Sandrart, Joachim ¬von¬</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00400507</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00400507"
+                       key="#PND:118794396">Sandrart<addName type="display">Sandrart, Joachim ¬von¬</addName>
+            <addName>Joachim von Sandrart</addName>
+            <addName>Der Gemeinnützige</addName>
+            <addName>Gemeinnützige</addName>
+            <addName>Joachim Sandrard</addName>
+            <addName>Sandrard</addName>
+            <addName>Joachimus de Sandrart à Stockau</addName>
+            <addName>Sandrart à Stockau</addName>
+            <addName>Joachimus de Sandrart à Stockau</addName>
+            <addName>Sandrart à Stockau</addName>
+            <addName>Joachim von Sandrart auf Stockau</addName>
+            <addName>Sandrart auf Stockau</addName>
+            <addName>Joachimus de Sandrart in Stockau</addName>
+            <addName>Sandrart in Stockau</addName>
+            <addName>Gioachino di Sandrart</addName>
+            <addName>J. Sandrart</addName>
+            <addName>Joachim Sandrart</addName>
+            <addName>Joachim Jacob von Sandrart</addName>
+            <addName>Sandrart, Joachim von der Ältere</addName>
+            <addName>Joachimus à Sandrart</addName>
+            <addName>Joachimus à Sandrart</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

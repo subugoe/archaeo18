@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Medicis</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/205016 http://arachne.uni-koeln.de/item/objekt/29383 http://arachne.uni-koeln.de/item/objekt/29386 http://arachne.uni-koeln.de/item/objekt/38026 http://arachne.uni-koeln.de/item/objekt/37889</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/205016 #http://arachne.uni-koeln.de/item/objekt/29383 #http://arachne.uni-koeln.de/item/objekt/29386 #http://arachne.uni-koeln.de/item/objekt/38026 #http://arachne.uni-koeln.de/item/objekt/37889">
+            <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000435">
+                                            
+                                     Medicis</term>.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000435</link>
+      <count>4</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000435">
+                                            
+                                     Medicis</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>horti Mattei</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/21574</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/21574">Eine Pampa Isiaca in den <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000134">horti Mattei</term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000134</link>
+      <count>6</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000134">horti Mattei</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/56481</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/56481">Die Sacra Cybeles in einer Höhle</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-321.tei.xml-d8135e48"
+               type="collection">Palazzo Vitteleschi</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Iphigenie</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/98215</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/98215">Die Opfer der <persName ref="#CerlID:cnp00553762" key="#PND:118555723">Iphigenia<addName type="display">Iphigenie</addName>
+               <addName>Ifigenia</addName>
+            </persName> auf einer  
+                                     Vase in den <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000435">Mediceishen Gärten</term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Vaticanishen Gärten</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/19529</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/19529">Eine Urne in den <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000466">Vaticanishen 
+                                     Gärten</term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000466</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000466">Vaticanishen 
+                                     Gärten</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Orti Mattei</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/18168</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/18168">Jn den <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000134">Orti Mattei</term>. Zug des Gallions 
+                                     nach dem Orient</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pal: Barberini</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-321.tei.xml-d8135e147">
+            <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000007">Pal: Barberini</term>. Ein Wett Rennen.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000007</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000007">Pal: Barberini</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Horti Mattei</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/38249</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/38249">
+            <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000134">Horti Mattei</term>. Jagd  
+                                     eines Löwen.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/51689</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/51689">Rückkehr von der Jagd</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Jupiter</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/21520</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/21520">
+            <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000285">Pal: Giustin:</term> Der kleine <persName ref="#CerlID:cnp00554429" key="#PND:118558897">Iupiter<addName type="display">Jupiter</addName>
+               <addName>Iupiter</addName>
+               <addName>Juppiter</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000285</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000285">Pal: Giustin:</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>JupiterJuno</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-321.tei.xml-d8135e211">Ex <term ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-321.tei.xml-d8135e214"
+                  type="collection">Museo Angelino</term>. <persName ref="#CerlID:cnp00554429" key="#PND:118558897">Jupiter<addName type="display">Jupiter</addName>
+               <addName>Iupiter</addName>
+               <addName>Juppiter</addName>
+            </persName> und <persName ref="#CerlID:cnp00589422" key="#PND:118800574">Iuno<addName type="display">Juno</addName>
+               <addName>Cupra</addName>
+               <addName>Pronuba</addName>
+            </persName> 
+                                     auf dem Thron</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-321.tei.xml-d8135e214"
+               type="collection">Museo Angelino</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Jupiter</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-321.tei.xml-d8135e273">
+            <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000248">Pal: Massimi</term>. <persName ref="#CerlID:cnp00554429" key="#PND:118558897">Iupiter<addName type="display">Jupiter</addName>
+               <addName>Iupiter</addName>
+               <addName>Juppiter</addName>
+            </persName> mit unbestim-  
+                                     ten Figuren</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000248</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000248">Pal: Massimi</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Neptun</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-321.tei.xml-d8135e297">Ex <term ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-321.tei.xml-d8135e301"
+                  type="collection">Museo Angelino</term>. Entführung ei- 
+                                     ner Nymphe vom <persName ref="#CerlID:cnp00558205" key="#PND:11952354X">Neptun<addName type="display">Neptun</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-321.tei.xml-d8135e301"
+               type="collection">Museo Angelino</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Potsdam</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-321.tei.xml-d8135e332">die zu <placeName ref="#GettyID:7004463">Potzdam<addName type="display">Potsdam</addName>
+               <addName>Potsdam</addName>
+               <addName>Poztupimi</addName>
+               <addName>Poczdam</addName>
+               <addName>Potstamp</addName>
+               <addName>Postupim</addName>
+            </placeName> im <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000306">Lustgarten  
+                                         beym Königlichen Schloß</term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000306</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000306">Lustgarten  
+                                         beym Königlichen Schloß</term>
+      </nodes>
+   </tag>
+</tags>

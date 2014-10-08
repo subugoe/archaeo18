@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Becker, Philipp Christoph von</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01288204</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01288204">C. Christoph /: Becker<addName type="display">Becker, Philipp Christoph von</addName>
+            <addName>Philipp Christoph von Becker</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Wilhelm (England, König, III.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259284</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01259284"
+                   key="#PND:118643355">Wilhelm III.<addName type="display">Wilhelm (England, König, III.)</addName>
+            <addName>G. H. Prince d'Orange</addName>
+            <addName>G. H.</addName>
+            <addName>G.H. Prince d'Orange</addName>
+            <addName>G.H.</addName>
+            <addName>Guilhelm Henrick III 3</addName>
+            <addName>Guilhelm Henrick</addName>
+            <addName>Guilielmus Henricus Arausiacum, Princeps</addName>
+            <addName>Guilielmus Henricus</addName>
+            <addName>Guilielmus Henricus Orange, Prince</addName>
+            <addName>Guilielmus Anglia, Rex, III.</addName>
+            <addName>Guilielmus</addName>
+            <addName>Guilielmus Auriacus</addName>
+            <addName>Guilielmus Britannia, Gallia Et Hibernia Rex</addName>
+            <addName>Guilielmus Britannia, Rex, III.</addName>
+            <addName>Guilielmus Magna Britannia, Rex, III.</addName>
+            <addName>Guillaume Henri d'Orange</addName>
+            <addName>Guillaume Henri</addName>
+            <addName>Guillaume Henri Orange, Prince</addName>
+            <addName>Guillaume Henri Orange, Prince, III.</addName>
+            <addName>Guillaume Henry Orange, Prince</addName>
+            <addName>Guillaume Henry</addName>
+            <addName>Guillaume Henry Orange, Prince, III.</addName>
+            <addName>Guillaume Angleterre, Roi, III.</addName>
+            <addName>Guillaume</addName>
+            <addName>Guillaume d'Orange</addName>
+            <addName>Guillaume Grande-Bretagne, Roi, III.</addName>
+            <addName>Guillaume Orange, Prince, III.</addName>
+            <addName>Guillaume Pays-Bas, Gouverneur, III.</addName>
+            <addName>Guillaume Pays-Bas, Stathouder, III.</addName>
+            <addName>Guillermo III 3</addName>
+            <addName>Guillermo</addName>
+            <addName>Willem van Oranje- Nassau</addName>
+            <addName>Nassau, Willem van Oranje- 1650-1702</addName>
+            <addName>Nassau</addName>
+            <addName>Orange Prince of</addName>
+            <addName>Orange</addName>
+            <addName>Wilhelm von Oranien-Nassau</addName>
+            <addName>Oranien-Nassau, Wilhelm von 1650-1702</addName>
+            <addName>Oranien-Nassau</addName>
+            <addName>Willem van Oranje-Nassau</addName>
+            <addName>Oranje-Nassau, Willem van 1650-1702</addName>
+            <addName>Oranje-Nassau</addName>
+            <addName>Vilhelmus Arausiacus</addName>
+            <addName>Vilhelmus</addName>
+            <addName>Wilhelm Heinrich Oranien, Prinz</addName>
+            <addName>Wilhelm Heinrich</addName>
+            <addName>Wilhelm Heinrich Oranien, Prinz, III.</addName>
+            <addName>Wilhelm Heinrich von Nassau</addName>
+            <addName>Wilhelm Heinrich von Oranien</addName>
+            <addName>Wilhelm Henrich Oranien, Prinz</addName>
+            <addName>Wilhelm Henrich</addName>
+            <addName>Wilhelm England, König, III.</addName>
+            <addName>Wilhelm Großbritannien, König, III.</addName>
+            <addName>Wilhelm III von Oranien 3</addName>
+            <addName>Wilhelm Niederlande, Statthalter, III.</addName>
+            <addName>Wilhelm Oranien, III.</addName>
+            <addName>Wilhelm Oranien, Prinz, III.</addName>
+            <addName>Wilhelm Schottland, König, III.</addName>
+            <addName>Wilhelm von Oranien</addName>
+            <addName>Wilhelm von Oranien, 1650-1702</addName>
+            <addName>Wilhelmus III 3</addName>
+            <addName>Wilhelmus</addName>
+            <addName>Wilhelmus Princeps Arausionensis</addName>
+            <addName>Wilhem</addName>
+            <addName>Wilhem Henrik Orangien, Prince</addName>
+            <addName>Wilhem Henrik</addName>
+            <addName>Wilhem Engeland, Koning, III.</addName>
+            <addName>Willem Hendrik Orange, Prince</addName>
+            <addName>Willem Hendrik</addName>
+            <addName>Willem Hendrik Orange, Prince, III.</addName>
+            <addName>Willem Hendrik Oranje, Prins, III.</addName>
+            <addName>Willem Hendrik prins van Oranje</addName>
+            <addName>Willem Henrick Oranje, Prins</addName>
+            <addName>Willem Henrick</addName>
+            <addName>Willem Henrik Orangien, Prince, III.</addName>
+            <addName>Willem Henrik</addName>
+            <addName>Willem Engeland, Koning, III.</addName>
+            <addName>Willem England, König, III.</addName>
+            <addName>Willem Groot-Britannië, Koning, III.</addName>
+            <addName>Willem Orange, Prince, III.</addName>
+            <addName>Willem Oranje, Prins</addName>
+            <addName>Willem Oranje, Prins, III.</addName>
+            <addName>Willem van Oranje</addName>
+            <addName>William Henry Orange, Prince, III.</addName>
+            <addName>William Henry</addName>
+            <addName>William Ireland, King, III.</addName>
+            <addName>William of Nassau</addName>
+            <addName>William of Orange</addName>
+            <addName>William Orange, Prince, III.</addName>
+            <addName>William Henry of Nassau</addName>
+            <addName>William Henry of Orange</addName>
+            <addName>William Henry Orange, Prince</addName>
+            <addName>William Henry Prince of Orange</addName>
+            <addName>William Great Britain, King, III.</addName>
+            <addName>William III 3</addName>
+            <addName>Oraigne</addName>
+            <addName>Oraigne Prins van</addName>
+            <addName>Orange</addName>
+            <addName>Orange Prince van</addName>
+            <addName>Orangie</addName>
+            <addName>Orangie Prins van</addName>
+            <addName>Orangien</addName>
+            <addName>Orangien Prince van</addName>
+            <addName>Oranjen</addName>
+            <addName>Oranjen Prince van</addName>
+            <addName>G.H. Orange</addName>
+            <addName>Orange, G.H. Prince d'</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Seaton (Edelsteinschneider)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300314</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300314">Scaton<addName type="display">Seaton (Edelsteinschneider)</addName>
+            <addName>Scaton</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pope, Alexander</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259343</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01259343"
+                   key="#PND:118595741">Pope<addName type="display">Pope, Alexander</addName>
+            <addName>Alexander Pope</addName>
+            <addName>Alessandro Pope</addName>
+            <addName>Alexandre Pope</addName>
+            <addName>Esdras Barnivelt</addName>
+            <addName>Barnivelt</addName>
+            <addName>Mr. P------</addName>
+            <addName>P------ Mr.</addName>
+            <addName>P------</addName>
+            <addName>Pope</addName>
+            <addName>A. Pope</addName>
+            <addName>Al. Pope</addName>
+            <addName>Pope Mr. Alexander</addName>
+            <addName>Martin Scribler</addName>
+            <addName>Scribler</addName>
+            <addName>Martinus Scriblerus</addName>
+            <addName>Scriblerus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Jones, Inigo</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00399927</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00399927"
+                   key="#PND:118776371">Inigo<addName type="display">Jones, Inigo</addName>
+            <addName>Inigo Jones</addName>
+            <addName>Inigo Iones</addName>
+            <addName>Iones</addName>
+            <addName>Henygo Jones</addName>
+            <addName>Jones, Inigo 1573-1652</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Newton, Isaac</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00395965</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00395965"
+                   key="#PND:118587544">James :/ Newton<addName type="display">Newton, Isaac</addName>
+            <addName>Isaac Newton</addName>
+            <addName>Isaak N'iuton</addName>
+            <addName>N'iuton</addName>
+            <addName>Isaac Neuton</addName>
+            <addName>Neuton</addName>
+            <addName>Isaacus Neutonus</addName>
+            <addName>Neutonus</addName>
+            <addName>Newton</addName>
+            <addName>I. Newton</addName>
+            <addName>Is Newton</addName>
+            <addName>Isaak Newton</addName>
+            <addName>Issac Newton</addName>
+            <addName>Izaak Newton</addName>
+            <addName>I. Newtonius</addName>
+            <addName>Newtonius</addName>
+            <addName>Isaac Newtonius</addName>
+            <addName>Isaacus Newtonus</addName>
+            <addName>Newtonus</addName>
+            <addName>Niu-tun</addName>
+            <addName>Ayzik Nyuton</addName>
+            <addName>Nyuton</addName>
+            <addName>Isaak Nʹjuton</addName>
+            <addName>Nʹjuton</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Guay, Jacques</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00533107</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00533107"
+                   key="#PND:129182451">Iac: Guay<addName type="display">Guay, Jacques</addName>
+            <addName>Jacques Guay</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Antinous</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00578329</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00578329"
+                   key="#PND:118649639">Antinous<addName type="display">Antinous</addName>
+            <addName>Antinoos</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Bouchardon, Edme</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00397554</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00397554"
+                   key="#PND:118659456">Bouchardon<addName type="display">Bouchardon, Edme</addName>
+            <addName>Edme Bouchardon</addName>
+            <addName>Bonchardon</addName>
+            <addName>Buchardon</addName>
+            <addName>Edmundus Bouchardon</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Krafft, Gottfried</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00436809</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00436809"
+                   key="#PND:121515990">Gottfried Kraft<addName type="display">Krafft, Gottfried</addName>
+            <addName>Gottfried Krafft</addName>
+            <addName>Gottfried Kraft</addName>
+            <addName>Kraft</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pichler, Johann Anton</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00533067</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00533067"
+                   key="#PND:129181854">J. A. Pichler<addName type="display">Pichler, Johann Anton</addName>
+            <addName>Johann Anton Pichler</addName>
+            <addName>J.A. Pichler</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Winckelmann, Johann Joachim</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00396916</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00396916"
+                   key="#PND:118633600">Winckelmann<addName type="display">Winckelmann, Johann Joachim</addName>
+            <addName>Johann Joachim Winckelmann</addName>
+            <addName>Ioann Vinkelman</addName>
+            <addName>Vinkelman</addName>
+            <addName>Ioann. Vinkelman</addName>
+            <addName>Jochan Joachim Vinkelman</addName>
+            <addName>Johann Vinkelmann</addName>
+            <addName>Vinkelmann</addName>
+            <addName>I. I. Vinkelʹman</addName>
+            <addName>Vinkelʹman</addName>
+            <addName>Iogann Ioachim Vinkelʹman</addName>
+            <addName>Iogann-Ioachim Vinkelʹman</addName>
+            <addName>Winckelman</addName>
+            <addName>Johann Joachim Winckelman</addName>
+            <addName>Winckelman abbé Johann Joachim</addName>
+            <addName>Winckelmann</addName>
+            <addName>G. G. Winckelmann</addName>
+            <addName>G.G. Winckelmann</addName>
+            <addName>Giovanni Winckelmann</addName>
+            <addName>Giovanni Gioacchino Winckelmann</addName>
+            <addName>J Winckelmann</addName>
+            <addName>J. J. Winckelmann</addName>
+            <addName>Jean Joachim Winckelmann</addName>
+            <addName>Jean-Joachim Winckelmann</addName>
+            <addName>Joachim Johann Winckelmann</addName>
+            <addName>Joh. Jac. Winckelmann</addName>
+            <addName>Johann Winckelmann</addName>
+            <addName>Johann J. Winckelmann</addName>
+            <addName>Winckelmann, Johann Joachim 1717-1768</addName>
+            <addName>Johannes Joachim Winckelmann</addName>
+            <addName>Jojannes Joachim Winckelmann</addName>
+            <addName>Johannes Winckelmannus</addName>
+            <addName>Winckelmannus</addName>
+            <addName>Johannes J. Winckelmannus</addName>
+            <addName>Johannes Joachimus Winckelmannus</addName>
+            <addName>Johan̄ Winckelman̄</addName>
+            <addName>Winckelman̄</addName>
+            <addName>Johann Joachim Winkelman</addName>
+            <addName>Winkelman</addName>
+            <addName>Winkelman abbé Johann Joachim</addName>
+            <addName>Winkelmann</addName>
+            <addName>Giovanni Winkelmann</addName>
+            <addName>Hans J. Winkelmann</addName>
+            <addName>Ioh. Winkelmann</addName>
+            <addName>Johann Winkelmann</addName>
+            <addName>Johann J. Winkelmann</addName>
+            <addName>Johann Joachim Winkelmann</addName>
+            <addName>Winkelmann 1717-1768</addName>
+            <addName>Winkelmann abbé Johann Joachim</addName>
+            <addName>Joannes Winkelmannus</addName>
+            <addName>Winkelmannus</addName>
+            <addName>Johann J. Winkelmannus</addName>
+            <addName>Johannes Joachimus Wynckelmann</addName>
+            <addName>Wynckelmann</addName>
+            <addName>Hans J. Wynkelmann</addName>
+            <addName>Wynkelmann</addName>
+            <addName>Johann J. Wynkelmann</addName>
+            <addName>Johann Joachim Wynkelmann</addName>
+            <addName>Yôhân Yo'akim Wînqelman</addName>
+            <addName>Wînqelman</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Lippert, Philipp Daniel</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00824618</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00824618"
+                   key="#PND:117044504">Lippert<addName type="display">Lippert, Philipp Daniel</addName>
+            <addName>Philipp Daniel Lippert</addName>
+            <addName>P. D. Lippert</addName>
+            <addName>Phil. Dan. Lippert</addName>
+            <addName>Phil. Daniel Lippert</addName>
+            <addName>Philipp D. Lippert</addName>
+            <addName>Philippus Dan. Lippert</addName>
+            <addName>Philippus Daniel Lippert</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Victorio, Francisco</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00890802</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp00890802">Verfaßer der Diss: glypt:<addName type="display">Victorio, Francisco</addName>
+            <addName>Francisco Victorio</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Klett, Johann Georg</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00454069</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00454069"
+                   key="#PND:122382048">Glett<addName type="display">Klett, Johann Georg</addName>
+            <addName>Johann Georg Klett</addName>
+            <addName>Glett</addName>
+            <addName>J. G. Klett</addName>
+            <addName>Johannes Georg Klett</addName>
+            <addName>Johann Georg Klette</addName>
+            <addName>Klette</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-357.tei.xml-d9421e839">Hübner</persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Siries, Louis</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00834523</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00834523"
+                   key="#PND:131863770">Louis Siries<addName type="display">Siries, Louis</addName>
+            <addName>Louis Siries</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

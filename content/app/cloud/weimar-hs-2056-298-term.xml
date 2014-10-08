@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Villa Albani</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/27764</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/27764">in <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000297">Villa Albani</term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000297</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000297">Villa Albani</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Wallmodishen Samlung</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-298.tei.xml-d3741e22">Jn der <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000632">Wallmodishen Samlung</term>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000632</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000632">Wallmodishen Samlung</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Ercolano</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/13585</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/13585">Von dem im <placeName ref="#GettyID:7047982">Ercolano</placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Socrates</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/16023</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/16023">
+            <persName ref="#CerlID:cnp01259742" key="#PND:118615270">Socrates<addName type="display">Socrates</addName>
+               <addName>Pseudo-Socrates</addName>
+               <addName>Socrate</addName>
+               <addName>Socrate Philosophe</addName>
+               <addName>Socrate d'Alopèce</addName>
+               <addName>Socrate dÁlopèce</addName>
+               <addName>Socrate di Alopece</addName>
+               <addName>Socrate dÁlopèce</addName>
+               <addName>Socrates Philosophus</addName>
+               <addName>Sokrates</addName>
+               <addName>Sokrates von Alopeke</addName>
+               <addName>Sokrates von Athen</addName>
+               <addName>Sōkratēs</addName>
+               <addName>Suqrāṭ</addName>
+               <addName>Suqrāṭīs</addName>
+               <addName>Sōkratēs</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/16024</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/16024">15.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/13522 http://arachne.uni-koeln.de/item/objekt/16553</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/13522 #http://arachne.uni-koeln.de/item/objekt/16553">34.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-298.tei.xml-d3741e180">35.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Sappho</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-298.tei.xml-d3741e187">
+            <persName ref="#CerlID:cnp00160732" key="#PND:118605534">Sappho<addName type="display">Sappho</addName>
+               <addName>Psappho</addName>
+               <addName>Saffo</addName>
+               <addName>Safo</addName>
+               <addName>Sapfo</addName>
+               <addName>Sapho</addName>
+               <addName>Sapho de Lesbos</addName>
+               <addName>Sappho de Lesbos</addName>
+               <addName>Sappho Lesbia</addName>
+               <addName>Sappho Lyrica</addName>
+               <addName>Sappho Mytilenaea</addName>
+               <addName>Sappho of Lesbos</addName>
+               <addName>Sappho of Mytilene</addName>
+               <addName>Sappho van Lesbos</addName>
+               <addName>Sappho von Eresos</addName>
+               <addName>Sappho von Lesbos</addName>
+               <addName>Sappho von Mytilene</addName>
+               <addName>Sapphus</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/16291</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/16291">58.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/16293</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/16293">60.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/13664</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/13664">37.. 38.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/23062 http://arachne.uni-koeln.de/item/objekt/23063</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/23062 #http://arachne.uni-koeln.de/item/objekt/23063">Ein schöner Kopf mit einem dia- 
+                                         dem</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000087</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000087">Wiltonhouse</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Vergilius Maro, Publius</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/15981</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/15981">
+            <persName ref="#CerlID:cnp01240997" key="#PND:118626574">Virgilius<addName type="display">Vergilius Maro, Publius</addName>
+               <addName>Publius Vergilius Maro</addName>
+               <addName>Publius Virgilius Maro</addName>
+               <addName>Vergilij</addName>
+               <addName>Vergilio</addName>
+               <addName>P Virgilius Maro</addName>
+               <addName>Publiusz Wergiliusz Maro</addName>
+               <addName>Wergiliusz Maro</addName>
+               <addName>P Wergiliusz Maron</addName>
+               <addName>Wergiliusz Maron</addName>
+               <addName>Vergil</addName>
+               <addName>Virgil</addName>
+               <addName>Publio Virgilio Marone</addName>
+               <addName>Virgilio Marone</addName>
+               <addName>Wergiliusz</addName>
+               <addName>Publios Birgilios Maro</addName>
+               <addName>Birgilios Maro</addName>
+               <addName>Publ. Virgilius Mar.</addName>
+               <addName>Mar.</addName>
+               <addName>P. Vergilius Maro</addName>
+               <addName>Publius V. Maro</addName>
+               <addName>Maron</addName>
+               <addName>P. Vergilij Maron</addName>
+               <addName>P. Virgilio Marone</addName>
+               <addName>Marone</addName>
+               <addName>Publio V. Marone</addName>
+               <addName>Publius Virgilius Maroo</addName>
+               <addName>Maroo</addName>
+               <addName>P. Uergilius Maro</addName>
+               <addName>P. V. M.</addName>
+               <addName>P. Verg. Mar.</addName>
+               <addName>P. Vergilîj Maron</addName>
+               <addName>P. Virgilius Maro</addName>
+               <addName>P. Virgilius Maro Mantuanus</addName>
+               <addName>P. Wergiliusz Maron</addName>
+               <addName>P.V.M.</addName>
+               <addName>Pseudo-Vergilius</addName>
+               <addName>Pseudo-Virgilio</addName>
+               <addName>Pub. Virgilius Maro</addName>
+               <addName>Pub.V.M.</addName>
+               <addName>Publij Vergilij Maron</addName>
+               <addName>Uergilius</addName>
+               <addName>Uirgilius</addName>
+               <addName>V. M.</addName>
+               <addName>Verghiliù</addName>
+               <addName>Vergil</addName>
+               <addName>Publius Vergile Maron</addName>
+               <addName>Vergile Maron</addName>
+               <addName>Vergilij Maron P.</addName>
+               <addName>Vergilius</addName>
+               <addName>Vergilius</addName>
+               <addName>Augusteus Vergilius</addName>
+               <addName>Publius M. Vergilius</addName>
+               <addName>Publius Maro Vergilius</addName>
+               <addName>Vergilius Poeta</addName>
+               <addName>Vergilius von Andes</addName>
+               <addName>Vergilius von Mantua</addName>
+               <addName>Vergilius Maro</addName>
+               <addName>Pub. Vergilius Maro</addName>
+               <addName>Publius Vergilius-Maro</addName>
+               <addName>Vergilius-Maro</addName>
+               <addName>Vergill</addName>
+               <addName>Veržiliu</addName>
+               <addName>Virgil</addName>
+               <addName>Publius Virgile</addName>
+               <addName>Virgile d'Andes</addName>
+               <addName>Virgile Maron</addName>
+               <addName>Publius Virgile de Mantoue</addName>
+               <addName>Virgile de Mantoue</addName>
+               <addName>Publius Virgile de Mantove</addName>
+               <addName>Virgile de Mantove</addName>
+               <addName>P. Virgilij Maron</addName>
+               <addName>Virgilij Maron</addName>
+               <addName>Virgilio</addName>
+               <addName>Virgilio Mantoano</addName>
+               <addName>Virgilio Mantuano</addName>
+               <addName>Publio Virgilio Maron</addName>
+               <addName>Virgilio Maron</addName>
+               <addName>Publius Virgilio Marone</addName>
+               <addName>Publio Virgilio Marón</addName>
+               <addName>Virgilio Marón</addName>
+               <addName>Publio Virgilio Marón</addName>
+               <addName>Virgilio Marón</addName>
+               <addName>Virgilius</addName>
+               <addName>Virgilius</addName>
+               <addName>Ioann de Virgilius</addName>
+               <addName>Ioannes de Virgilius</addName>
+               <addName>Iohann de Virgilius</addName>
+               <addName>Joannes de Virgilius</addName>
+               <addName>Johann de Virgilius</addName>
+               <addName>Publius Virgilius</addName>
+               <addName>Virgilius Maro P., Publius Vergilius</addName>
+               <addName>Publius Virgilius Maronis</addName>
+               <addName>Virgilius Maronis</addName>
+               <addName>Publius Virgilius Maroos</addName>
+               <addName>Virgilius Maroos</addName>
+               <addName>Virgill</addName>
+               <addName>Virjile"</addName>
+               <addName>Publius Wergilius Maro</addName>
+               <addName>Wergilius Maro</addName>
+               <addName>Publius Wergilius Maronis</addName>
+               <addName>Wergilius Maronis</addName>
+               <addName>Wergiljusz</addName>
+               <addName>Publius Wirgilius Maro</addName>
+               <addName>Wirgilius Maro</addName>
+               <addName>Wirgiliusz</addName>
+               <addName>Publiusz Wirgiliusz Maro</addName>
+               <addName>Wirgiliusz Maro</addName>
+               <addName>Publiusz Wirgiliusz Maron</addName>
+               <addName>Wirgiliusz Maron</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-298.tei.xml-d3741e702">Iupiter Hercules mit dem Pappelkranz</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Diana</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-298.tei.xml-d3741e710">
+            <persName ref="#CerlID:cnp00584638" key="#PND:118678132">Diana<addName type="display">Diana</addName>
+            </persName> mit Mondförmig aufgethürm- 
+                                             ten Haaren</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Juno</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-298.tei.xml-d3741e734">Eine sogenannte <persName ref="#CerlID:cnp00589422" key="#PND:118800574">Iuno<addName type="display">Juno</addName>
+               <addName>Cupra</addName>
+               <addName>Pronuba</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-298.tei.xml-d3741e751">eine unbestimmte</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>MinervaMars</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-298.tei.xml-d3741e756">eine <persName ref="#CerlID:cnp00544188" key="#PND:118986155">Minerva Vira- 
+                                                go<addName type="display">Minerva</addName>
+               <addName>Sospitatrix</addName>
+            </persName> oder junger <persName ref="#CerlID:cnp00586722" key="#PND:118731181">Mars<addName type="display">Mars</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Bacchus</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-298.tei.xml-d3741e789">Ein <persName ref="#CerlID:cnp00579062" key="#PND:118651439">Bachus<addName type="display">Bacchus</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-298.tei.xml-d3741e822">Ein Weiblicher Faun mit Granat 
+                                         Aepfeln</term>
+      </nodes>
+   </tag>
+</tags>

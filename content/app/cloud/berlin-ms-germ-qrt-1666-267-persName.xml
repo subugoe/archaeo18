@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Judas (Apostolus)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00943336</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00943336"
+                       key="#PND:118713337">Judas<addName type="display">Judas (Apostolus)</addName>
+            <addName>Iudas Apostolus</addName>
+            <addName>Iudas</addName>
+            <addName>Judas Ischariot</addName>
+            <addName>Judas Thaddeus Apostel</addName>
+            <addName>Judas Thaddeus</addName>
+            <addName>Judas Lebbäus</addName>
+            <addName>Judas Sanctus</addName>
+            <addName>Judas Thaddaeus</addName>
+            <addName>Jude</addName>
+            <addName>Jude Saint</addName>
+            <addName>Taddäus</addName>
+            <addName>T'adeos Aṙak'yal</addName>
+            <addName>T'adeos</addName>
+            <addName>Thaddäus</addName>
+            <addName>Thaddaios Apostolos</addName>
+            <addName>Thaddaios</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Thomas (Apostel)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00569406</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00569406"
+                       key="#PND:118622099">Tho-
+                mas<addName type="display">Thomas (Apostel)</addName>
+            <addName>Tomaso Apostolo</addName>
+            <addName>Tomaso</addName>
+            <addName>Thomas Apostle, Saint, $d1st cent.</addName>
+            <addName>Didymus Apostolus</addName>
+            <addName>Didymus</addName>
+            <addName>T'ovmas Aṙak'yal</addName>
+            <addName>T'ovmas</addName>
+            <addName>Thomas Apostel der Inder</addName>
+            <addName>Thomas Didymos</addName>
+            <addName>Thomas Didymus</addName>
+            <addName>Thomas Heiliger</addName>
+            <addName>Thomas Judas</addName>
+            <addName>Thomas Sanctus</addName>
+            <addName>Thomas Ungläubiger</addName>
+            <addName>Thomas Zweifler</addName>
+            <addName>Thōmas Apostolos</addName>
+            <addName>Thōmas</addName>
+            <addName>Tomas Apostel</addName>
+            <addName>Tomas</addName>
+            <addName>Ungläubiger Thomas</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Josef (Patriarch)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00575129</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00575129"
+                       key="#PND:118639986">Joseph<addName type="display">Josef (Patriarch)</addName>
+            <addName>Joseph Erzvater</addName>
+            <addName>Joseph Patriarch</addName>
+            <addName>Joseph Sohn Jakobs und der Rachel</addName>
+            <addName>Joseph the patriarch</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/berlin-ms-germ-qrt-1666-267.tei.xml-d12447e160">Bezaleel</TEI:persName>
+      </nodes>
+   </tag>
+</tags>

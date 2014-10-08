@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Miṣr</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7016833</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7016833">Egypten<addName type="display">Miṣr</addName>
+            <addName>Miṣr</addName>
+            <addName>Jumhūrīyah Miṣr al-ʻArabīyah</addName>
+            <addName>Jumhuriyat Misr Al-Arabiya</addName>
+            <addName>Misr</addName>
+            <addName>Egypt</addName>
+            <addName>Arab Republic of Egypt</addName>
+            <addName>Égypte</addName>
+            <addName>République arabe d'Égypte</addName>
+            <addName>Ägypten</addName>
+            <addName>Egipto</addName>
+            <addName>Egito</addName>
+            <addName>Egitto</addName>
+            <addName>Egypte</addName>
+            <addName>EGY</addName>
+            <addName>EG</addName>
+            <addName>ISO818</addName>
+            <addName>EG00</addName>
+            <addName>United Arab Republic</addName>
+            <addName>Egyptian</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Egypt</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7014986</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7014986">OberEgipten<addName type="display">Egypt</addName>
+            <addName>Egypt</addName>
+            <addName>Egypt, ancient</addName>
+            <addName>Aegyptus</addName>
+            <addName>Aigyptos</addName>
+            <addName>Hwt-ka-Ptah</addName>
+            <addName>Kem</addName>
+            <addName>Kemi</addName>
+            <addName>Kermit</addName>
+            <addName>Kemet</addName>
+            <addName>Kmt</addName>
+            <addName>Ancient Egyptian</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Jazirat Aswān</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7026054</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7026054">Insel Elefan-
+            
+          
+          tine<addName type="display">Jazirat Aswān</addName>
+            <addName>Jazirat Aswān</addName>
+            <addName>Elephantine Island</addName>
+            <addName>Island, Elephantine</addName>
+            <addName>Elephantine</addName>
+            <addName>Elephantine Gezîret</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pompeii</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7004658</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7004658">Pompeji<addName type="display">Pompeii</addName>
+            <addName>Pompeii</addName>
+            <addName>Pompei</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Sámos</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=1042201</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:1042201">Samos<addName type="display">Sámos</addName>
+            <addName>Sámos</addName>
+            <addName>Samos</addName>
+            <addName>Vathy harbor</addName>
+            <addName>Vathy</addName>
+            <addName>Port Vathi</addName>
+            <addName>Limín Vathéos</addName>
+            <addName>Limén Vathéos</addName>
+            <addName>Liman Vathéos</addName>
+            <addName>Tigani</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7038573</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7038573">Tyber</TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Nīl, Nahr an-</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=1127805</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:1127805">Nil<addName type="display">Nīl, Nahr an-</addName>
+            <addName>Nīl, Nahr an-</addName>
+            <addName>Nahr an-Nīl</addName>
+            <addName>Baẖr an-Nil</addName>
+            <addName>Al-Bahr</addName>
+            <addName>Nile</addName>
+            <addName>Nile River</addName>
+            <addName>Nil</addName>
+            <addName>Nilo</addName>
+            <addName>Nijl</addName>
+            <addName>Nilus</addName>
+            <addName>Aigyptos</addName>
+            <addName>Neilos</addName>
+            <addName>Iaro</addName>
+            <addName>Ar</addName>
+            <addName>Aur</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+</tags>

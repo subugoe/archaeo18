@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Bacchus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00579062</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00579062"
+                   key="#PND:118651439">Bachus<addName type="display">Bacchus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Demosthenes</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00394563</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00394563"
+                   key="#PND:118524658">Demosthenes<addName type="display">Demosthenes</addName>
+            <addName>Dēmosthenēs</addName>
+            <addName>Dēmosthenus</addName>
+            <addName>Démosthène</addName>
+            <addName>Démosthène dÁthènes</addName>
+            <addName>Démosthène dÁthènes</addName>
+            <addName>Démosthène Orateur</addName>
+            <addName>Démosthene</addName>
+            <addName>Dēmosthenus</addName>
+            <addName>Démosthène</addName>
+            <addName>Démosthène dÁthènes</addName>
+            <addName>Démosthène Orateur</addName>
+            <addName>Démosthene</addName>
+            <addName>Demostene</addName>
+            <addName>Demostene di Peania</addName>
+            <addName>Demostene Oratore</addName>
+            <addName>Demostenes</addName>
+            <addName>Demosthenes Atheniensis</addName>
+            <addName>Demosthenes Attischer Redner</addName>
+            <addName>Demosthenes Orator</addName>
+            <addName>Demosthenes Politiker</addName>
+            <addName>Demosthenes Pseudo-</addName>
+            <addName>Demosthenes Redner</addName>
+            <addName>Demosthenes Rhetor</addName>
+            <addName>Demosthenes Sohn des Demosthenes</addName>
+            <addName>Demosthenes von Athen</addName>
+            <addName>Demosthenes von Paiania</addName>
+            <addName>Demosthenus</addName>
+            <addName>Pseudo-Demosthenes</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Zeno (Citieus)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00396960</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00396960"
+                   key="#PND:118636510">Zeno<addName type="display">Zeno (Citieus)</addName>
+            <addName>Zénon de Cition</addName>
+            <addName>Zénon</addName>
+            <addName>Zeno Citiensis</addName>
+            <addName>Zeno Epistolographus</addName>
+            <addName>Zeno of Citium</addName>
+            <addName>Zeno Philosophus</addName>
+            <addName>Zeno Stoicorum Dux</addName>
+            <addName>Zeno Stoicus</addName>
+            <addName>Zeno von Kition</addName>
+            <addName>Zeno von Kittion</addName>
+            <addName>Zenon Begründer der Stoa</addName>
+            <addName>Zenon</addName>
+            <addName>Zenon Citieus</addName>
+            <addName>Zenon der Ältere</addName>
+            <addName>Zenon Philosoph</addName>
+            <addName>Zenon Sohn des Mnaseas</addName>
+            <addName>Zenon Stoiker</addName>
+            <addName>Zenon von Kition</addName>
+            <addName>Zenon von Kittion</addName>
+            <addName>Zenone di Cizio</addName>
+            <addName>Zenone</addName>
+            <addName>Zenone Filosofo</addName>
+            <addName>Zenone Fondatore della Stoa</addName>
+            <addName>Zenone Stoico</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Diogenes Laertius</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01072248</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01072248"
+                   key="#PND:118525859">Dio- 
+                                        genes Laertius<addName type="display">Diogenes Laertius</addName>
+            <addName>Laertius Diogenes</addName>
+            <addName>Diogène de Laërte</addName>
+            <addName>Diogène Laërce</addName>
+            <addName>Laërce Diogène</addName>
+            <addName>Diogène</addName>
+            <addName>Diogène</addName>
+            <addName>Diogène de Laërte</addName>
+            <addName>Diogène Laërce</addName>
+            <addName>Laėrtsiĭ Diogen</addName>
+            <addName>Diogen</addName>
+            <addName>Laėrtskiĭ Diogen</addName>
+            <addName>Diogen Laėrcij</addName>
+            <addName>Diogen Laėrtskij</addName>
+            <addName>Laertios Diogenēs</addName>
+            <addName>Diogenēs</addName>
+            <addName>Diogenēs Laertios</addName>
+            <addName>Diogene Laerzio</addName>
+            <addName>Laerzio Diogene</addName>
+            <addName>Diogene</addName>
+            <addName>Diogene Laerte</addName>
+            <addName>Laertios Diogenēs</addName>
+            <addName>Diogenēs</addName>
+            <addName>Diogenēs Laertios</addName>
+            <addName>Diogenes Biographus</addName>
+            <addName>Diogenes Philosophus</addName>
+            <addName>Laertios Diogenes</addName>
+            <addName>Diogenes Laertios</addName>
+            <addName>Laertius</addName>
+            <addName>Laerzio</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Hermarchos (von Mytilene)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00541385</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00541385"
+                   key="#PND:118886983">Hermarch<addName type="display">Hermarchos (von Mytilene)</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Epicurus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00394680</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00394680"
+                   key="#PND:118530585">Epicurs<addName type="display">Epicurus</addName>
+            <addName>Epicure</addName>
+            <addName>Epicure de Samos</addName>
+            <addName>Epicuro</addName>
+            <addName>Epicurus Atheniensis</addName>
+            <addName>Epicurus Philosophus</addName>
+            <addName>Epicurus Samius</addName>
+            <addName>Epikouros</addName>
+            <addName>Epikur</addName>
+            <addName>Epikuros</addName>
+            <addName>Epikuros Philosoph</addName>
+            <addName>Epikuros Sohn des Neokles</addName>
+            <addName>Epikuros Sohn eines Atheners</addName>
+            <addName>Epikuros von Samos</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

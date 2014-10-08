@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Pyrrhus (Epirus, König)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00587177</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00587177"
+                   key="#PND:118743058">Königs Pyrrhus<addName type="display">Pyrrhus (Epirus, König)</addName>
+            <addName>Pirr carʹ Ėpira</addName>
+            <addName>Pirr</addName>
+            <addName>Pirro Epiro, Re</addName>
+            <addName>Pirro</addName>
+            <addName>Pyrrhos Epeiros, König</addName>
+            <addName>Pyrrhos</addName>
+            <addName>Pyrrhos Epirus, König</addName>
+            <addName>Pyrrhos König der Molosser</addName>
+            <addName>Pyrrhos Sohn des Aiakides</addName>
+            <addName>Pyrrhos von Epeiros</addName>
+            <addName>Pyrrhos von Epirus</addName>
+            <addName>Pyrrhus Epirota</addName>
+            <addName>Pyrrhus Epirotes</addName>
+            <addName>Pyrrhus Historicus</addName>
+            <addName>Pyrrhus King of Epirus</addName>
+            <addName>Pyrrhus Rex</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Mummius, Lucius</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00285235</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00285235"
+                   key="#PND:102399921">Mummius<addName type="display">Mummius, Lucius</addName>
+            <addName>Lucius Mummius</addName>
+            <addName>Lucius Mummius Achaicus</addName>
+            <addName>Achaicus</addName>
+            <addName>Mummius Achaicus</addName>
+            <addName>Mummius Politiker</addName>
+            <addName>Mummius Redner</addName>
+            <addName>Mummius Zerstörer Korinths</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Polybe</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259834</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01259834"
+                   key="#PND:118595571 118595571">Polybius<addName type="display">Polybe</addName>
+            <addName>Polúvios</addName>
+            <addName>Polýbios</addName>
+            <addName>Polibio</addName>
+            <addName>Polibio di Megalopoli</addName>
+            <addName>Πολύβιος</addName>
+            <addName>Angelus Cospus</addName>
+            <addName>Cospus</addName>
+            <addName>Polibio da Megalopoli</addName>
+            <addName>Polibios von Megalopolis</addName>
+            <addName>Polibios</addName>
+            <addName>Polybe de Mègalopolis</addName>
+            <addName>Polybe de Mégalopolis</addName>
+            <addName>Polybio</addName>
+            <addName>Polybios</addName>
+            <addName>Polybios Historiker</addName>
+            <addName>Polybios Megalopolitanus</addName>
+            <addName>Polybios von Megalapolis</addName>
+            <addName>Polybios von Megalopolis</addName>
+            <addName>Polybiu tu Lykorta</addName>
+            <addName>Polybiu</addName>
+            <addName>Sextus Polybius</addName>
+            <addName>Polybius Historian</addName>
+            <addName>Polybius Historicus</addName>
+            <addName>Polybius Lycortae Filius</addName>
+            <addName>Polybius Megalopolitanus</addName>
+            <addName>Polybius Megalopolitanus Lycortas</addName>
+            <addName>Polybius Megapolitanus</addName>
+            <addName>Polybius de Megalopoli</addName>
+            <addName>Polybius von Megalopolis</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Bacchus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00579062</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00579062"
+                   key="#PND:118651439">Bachus<addName type="display">Bacchus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Herakles</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00574918</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00574918"
+                   key="#PND:118639552">Hercules<addName type="display">Herakles</addName>
+            <addName>Ercole</addName>
+            <addName>Heracles</addName>
+            <addName>Hercules</addName>
+            <addName>Herkules</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Attalos (Pergamenisches Reich, König, I.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00562332</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00562332"
+                   key="#PND:12089260X">Attilus König von Pergamus<addName type="display">Attalos (Pergamenisches Reich, König, I.)</addName>
+            <addName>Attalos I. Soter</addName>
+            <addName>Attalus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Antiochos XIII.</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01288193</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01288193">Antiochus<addName type="display">Antiochos XIII.</addName>
+            <addName>Antiochos XIII. Asiatikos</addName>
+            <addName>Antiochus XIII.</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Mithridates (Pontisches Reich, König, VI.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00586837</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00586837"
+                   key="#PND:118734210">Mithridates<addName type="display">Mithridates (Pontisches Reich, König, VI.)</addName>
+            <addName>Mithradates Pontus, König, VI.</addName>
+            <addName>Mithradates</addName>
+            <addName>Mithridates VI Eupator, $cKing of Pontus, $dca. 132-63 B.C.</addName>
+            <addName>Mithradates Eupator</addName>
+            <addName>Mithridate Roi du Pont</addName>
+            <addName>Mithridate</addName>
+            <addName>Mithridate VI., Eupator</addName>
+            <addName>Mithridates Eupator</addName>
+            <addName>Mithridates Medicus</addName>
+            <addName>Mithridates VI., Eupator</addName>
+            <addName>Mithridates der Grosse</addName>
+            <addName>Mitridat Car' pontijskij</addName>
+            <addName>Mitridat</addName>
+            <addName>Mitridat Evpator</addName>
+            <addName>Mitridat VI., Evpator</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

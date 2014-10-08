@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Paciaudi, Paolo</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00497427</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00497427"
+                   key="#PND:128550953">Pacciaudi<addName type="display">Paciaudi, Paolo</addName>
+            <addName>Paolo Paciaudi</addName>
+            <addName>P. Paciaudi</addName>
+            <addName>Paolo M. Paciaudi</addName>
+            <addName>Paolo Maria Paciaudi</addName>
+            <addName>Paul M. Paciaudi</addName>
+            <addName>Paulo M. Paciaudi</addName>
+            <addName>Paulo Maria Paciaudi</addName>
+            <addName>Paullus M. Paciaudius</addName>
+            <addName>Paciaudius</addName>
+            <addName>Paullus Maria Paciaudius</addName>
+            <addName>Paulus M. Paciaudius</addName>
+            <addName>Paullus M. Paciaudus</addName>
+            <addName>Paciaudus</addName>
+            <addName>Paulus M. Paciaudus</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

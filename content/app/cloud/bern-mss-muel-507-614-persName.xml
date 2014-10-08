@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Lucianus (Samosatensis)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259327</link>
+      <count>4</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01259327"
+                       key="#PND:118575228">Lucian<addName type="display">Lucianus (Samosatensis)</addName>
+            <addName>Lūqijānūs as-Sumaisāṭī</addName>
+            <addName>Lūqijānūs</addName>
+            <addName>Ljukijan iz Samosati</addName>
+            <addName>Ljukijan</addName>
+            <addName>Loekianos</addName>
+            <addName>Loukianos</addName>
+            <addName>Samosatensīs Lucíanus</addName>
+            <addName>Lucíanus</addName>
+            <addName>Lucian</addName>
+            <addName>Lucian of Samosata</addName>
+            <addName>Lucian of Samosta</addName>
+            <addName>Lucian Samosatensis</addName>
+            <addName>Lucian von Samosata</addName>
+            <addName>Lucianne de Samosata</addName>
+            <addName>Lucianne</addName>
+            <addName>Luciano</addName>
+            <addName>Luciano di Samosata</addName>
+            <addName>Luciano Scrittore Satirico</addName>
+            <addName>Luciano Sofista</addName>
+            <addName>Lucianos Scrittore Satirico</addName>
+            <addName>Lucianos</addName>
+            <addName>Lucianus de Samosata</addName>
+            <addName>Lucianus Nigrinus</addName>
+            <addName>Lucianus Philosophus</addName>
+            <addName>Lucianus Samosateus</addName>
+            <addName>Lucianus Satiricus</addName>
+            <addName>Lucianus Sophista</addName>
+            <addName>Lucianus van Samosata</addName>
+            <addName>Lucien</addName>
+            <addName>Lucien de Samosate</addName>
+            <addName>Lucien Sophiste</addName>
+            <addName>Lucius de Patras</addName>
+            <addName>Lucius</addName>
+            <addName>Lucius Philosophus</addName>
+            <addName>Lukian</addName>
+            <addName>Lukian iz Samosaty</addName>
+            <addName>Lukian v. Samosata</addName>
+            <addName>Lukian von Samosata</addName>
+            <addName>Lukiano</addName>
+            <addName>Lukianos</addName>
+            <addName>Lukianos Samōsateōs</addName>
+            <addName>Lukianos Samōsateōs</addName>
+            <addName>Lukianos Samosatēs</addName>
+            <addName>Lukianos Samosateos</addName>
+            <addName>Lukianos Satiriker</addName>
+            <addName>Lukianos Sophist</addName>
+            <addName>Lukianos van Samosata</addName>
+            <addName>Lukianos von Samosata</addName>
+            <addName>Lukianus von Samosata</addName>
+            <addName>Lukianus</addName>
+            <addName>Lutianus</addName>
+            <addName>Luz̲iyan</addName>
+            <addName>Pseudo-Luciano</addName>
+            <addName>Pseudo-Lucianus Samosatensis</addName>
+            <addName>Pseudo-Lucianus</addName>
+            <addName>Pseudo-Lucianus Samosatenus</addName>
+            <addName>Pseudo-Lucianus Sophista</addName>
+            <addName>Samosata</addName>
+            <addName>Luciano de Samosata</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Aëtion</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01200241</link>
+      <count>4</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01200241"
+                       key="#PND:139466177">Aetion<addName type="display">Aëtion</addName>
+            <addName>Eëtion</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Zeuxis</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00588252</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00588252"
+                       key="#PND:118772651">Zeuxis<addName type="display">Zeuxis</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Apelles</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00397365</link>
+      <count>4</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00397365"
+                       key="#PND:118649787">Apelles<addName type="display">Apelles</addName>
+            <addName>Appelles</addName>
+            <addName>Apelle</addName>
+            <addName>Apelles von Kolophon</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Thubières, Anne Claude Philippe ¬de¬</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01099958</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01099958">Cailus<addName type="display">Thubières, Anne Claude Philippe ¬de¬</addName>
+            <addName>Anne Claude Philippe de Thubières</addName>
+            <addName>Caylus Graf</addName>
+            <addName>Caylus</addName>
+            <addName>Thubières, Anne Claude Philippe de Comte de Caylus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>La Nauze, Louis Jouard ¬de¬</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00908952</link>
+      <count>4</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp00908952">Nauseé<addName type="display">La Nauze, Louis Jouard ¬de¬</addName>
+            <addName>Louis Jouard de La Nauze</addName>
+            <addName>Louis Jouard de La Nause</addName>
+            <addName>La Nause</addName>
+            <addName>Louis J. de La Nauze</addName>
+            <addName>Louis Jouard de LaNause</addName>
+            <addName>LaNause</addName>
+            <addName>Louis Jouard de LaNauze</addName>
+            <addName>LaNauze</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

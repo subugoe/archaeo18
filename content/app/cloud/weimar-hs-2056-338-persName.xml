@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Homer</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259620</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01259620"
+                   key="#PND:11855333X">Homers<addName type="display">Homer</addName>
+            <addName>Gomer</addName>
+            <addName>Hūmīrūs</addName>
+            <addName>Hūmar</addName>
+            <addName>Hūmir</addName>
+            <addName>Hōmar</addName>
+            <addName>Hômêrôs</addName>
+            <addName>Homère</addName>
+            <addName>Homēros</addName>
+            <addName>Homérosz</addName>
+            <addName>Homēros</addName>
+            <addName>Homère</addName>
+            <addName>Homere</addName>
+            <addName>Homero</addName>
+            <addName>Homeros</addName>
+            <addName>Homeros Tragiker</addName>
+            <addName>Homerosi</addName>
+            <addName>Homerus Colophonius</addName>
+            <addName>Homerus Colophonus</addName>
+            <addName>Homerus Dramatiker</addName>
+            <addName>Homerus Epicus</addName>
+            <addName>Omēros</addName>
+            <addName>Omero</addName>
+            <addName>Omiros</addName>
+            <addName>Pseudo-Homerus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Plutarch</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259316</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01259316"
+                   key="#PND:118595237 118595237">Plutarch<addName type="display">Plutarch</addName>
+            <addName>Plutarch von Chaeronea</addName>
+            <addName>Plutarch z Cheronej</addName>
+            <addName>Plutarcho</addName>
+            <addName>Plutarchus von Chäroneia</addName>
+            <addName>Plutarh</addName>
+            <addName>Plûṭark̲ îš Ḥarôneʾā</addName>
+            <addName>Plûṭark̲</addName>
+            <addName>Plûṭark̲ îš Ḥarôneā</addName>
+            <addName>Plûṭark̲</addName>
+            <addName>Ploetarchos</addName>
+            <addName>Ploutarchos</addName>
+            <addName>Plowtark'</addName>
+            <addName>Plutarch Chaeroneus</addName>
+            <addName>Plutarch of Chaeronea</addName>
+            <addName>Plutarch u Chairōneōs</addName>
+            <addName>Plutarch von Chäronea</addName>
+            <addName>Plutarch von Chaironeia</addName>
+            <addName>Plutarch z Cheronei</addName>
+            <addName>Plutarche</addName>
+            <addName>Plutarche de Chèronè</addName>
+            <addName>Plutarche de Chèronèe</addName>
+            <addName>Plutarche de Chéronée</addName>
+            <addName>Plutarchos</addName>
+            <addName>Plutarchos Biograph</addName>
+            <addName>Plutarchos Chaeroneos</addName>
+            <addName>Plutarchos Chairōneōs</addName>
+            <addName>Plutarchos Philosoph</addName>
+            <addName>Plutarchos von Chaironea</addName>
+            <addName>Plutarchos von Chaironeia</addName>
+            <addName>Chaeronensis Plutarchus</addName>
+            <addName>Plutarchus Biograph</addName>
+            <addName>Plutarchus Biographus</addName>
+            <addName>Plutarchus Chaeronensis</addName>
+            <addName>Plutarchus Chaeroneus</addName>
+            <addName>Plutarchus Chairōneōs</addName>
+            <addName>Plutarchus Cheronaeus</addName>
+            <addName>Plutarchus Cheronensis</addName>
+            <addName>Plutarchus Cheroneus</addName>
+            <addName>Plutarchus of Chaeronea</addName>
+            <addName>Plutarchus Philosophus</addName>
+            <addName>Plutarchus von Chäroneia</addName>
+            <addName>Plutarchus von Chaeronea</addName>
+            <addName>Plutarchus von Chaironeia</addName>
+            <addName>Plutarchus von Cheronea</addName>
+            <addName>Plutarco</addName>
+            <addName>Plutarco Cheronese</addName>
+            <addName>Plutarco di Cheronea</addName>
+            <addName>Plutarcus</addName>
+            <addName>Plutarhus</addName>
+            <addName>Plutarke</addName>
+            <addName>Plutarkhos</addName>
+            <addName>Plutarque</addName>
+            <addName>Plutarque de Chèronèe</addName>
+            <addName>Plutarque de Chéronée</addName>
+            <addName>Plutarque de Chaeronée</addName>
+            <addName>Plutharque</addName>
+            <addName>Plvtarchvs</addName>
+            <addName>Pseudo-Plutarchus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Niemand</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00561330</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00561330"
+                   key="#PND:118589385">Ulysses<addName type="display">Niemand</addName>
+            <addName>Nemo</addName>
+            <addName>Ulixes</addName>
+            <addName>Ulysses</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Polygnotus (Thasius)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00554467</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00554467"
+                   key="#PND:119385198">Polygnotus<addName type="display">Polygnotus (Thasius)</addName>
+            <addName>Polignoto di Taso</addName>
+            <addName>Polignoto</addName>
+            <addName>Polygnot von Thasos</addName>
+            <addName>Polygnot</addName>
+            <addName>Polygnotos Maler</addName>
+            <addName>Polygnotos</addName>
+            <addName>Polygnotos Sohn des Aglaophon</addName>
+            <addName>Polygnotos von Thasos</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-338.tei.xml-d13085e263">Raecus</persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Polykrates (Tyrann)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00862535</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00862535"
+                   key="#PND:132258900">Polycrates<addName type="display">Polykrates (Tyrann)</addName>
+            <addName>Polykrates von Samos</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Concordia (Göttin)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00562347</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00562347"
+                   key="#PND:120896532">Concordia<addName type="display">Concordia (Göttin)</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Theodoros (von Samos)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300412</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300412">Theodorus<addName type="display">Theodoros (von Samos)</addName>
+            <addName>Theodor</addName>
+            <addName>Theodorus</addName>
+            <addName>Theodorus  aus Samos</addName>
+            <addName>Theodorus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Clemens Alexandrinus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00395479</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00395479"
+                   key="#PND:118563122">Clemens Alex.<addName type="display">Clemens Alexandrinus</addName>
+            <addName>Alexandrinus Clemens</addName>
+            <addName>Alexandrinus</addName>
+            <addName>Alexandrinus, Clemens Saint</addName>
+            <addName>Clément d'Alexandrie saint</addName>
+            <addName>Clément d'Alexandrie</addName>
+            <addName>Clément</addName>
+            <addName>Clément d'Alexandrie</addName>
+            <addName>Clément</addName>
+            <addName>Titus Flavius Clemens Alexandrinus</addName>
+            <addName>clemens Alexandrinus</addName>
+            <addName>Clemens Titus Flavius Alexandrinus</addName>
+            <addName>Tito Flacco Clemens</addName>
+            <addName>Titus Flavius Alexandrinus Clemens</addName>
+            <addName>Titus Flavius Clemens</addName>
+            <addName>Clemens Alexandrinus Saint</addName>
+            <addName>Clemens Stromataeus</addName>
+            <addName>Clemens Theologus</addName>
+            <addName>Clemens van Alexandrië</addName>
+            <addName>Clemens von Alexandreia</addName>
+            <addName>Clemens von Alexandrien</addName>
+            <addName>Clement d'Alexandrie</addName>
+            <addName>Clemente Alessandrino</addName>
+            <addName>Clemente</addName>
+            <addName>Clemente Alexandrino</addName>
+            <addName>Clemente Alexandrio</addName>
+            <addName>Clemente de Alejandría</addName>
+            <addName>Clemente di Alessandria</addName>
+            <addName>Flavius Clemens Alexandrinus</addName>
+            <addName>Flavius Clemens</addName>
+            <addName>Flavius</addName>
+            <addName>Klēmēs ho Alexandreus</addName>
+            <addName>Klēmēs</addName>
+            <addName>Klēmēs ho Alexandreus</addName>
+            <addName>Klēmēs</addName>
+            <addName>Klēmentos Alexandreos</addName>
+            <addName>Klēmentos</addName>
+            <addName>Klemens Aleksandrinos</addName>
+            <addName>Klemens Aleksandryjski</addName>
+            <addName>Klemens z Aleksandrii</addName>
+            <addName>Titus Flavius Klemens</addName>
+            <addName>Klemens</addName>
+            <addName>Klemens Alexandrinos</addName>
+            <addName>Klemens von Alexandria</addName>
+            <addName>Klemens von Alexandrien</addName>
+            <addName>Klemes ho Alexandreus</addName>
+            <addName>Klemes</addName>
+            <addName>Pseudo-Clemens Alexandrinus</addName>
+            <addName>Pseudo-Clemens</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Mariette, Pierre Jean</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00464596</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00464596"
+                   key="#PND:123185823">Mariette<addName type="display">Mariette, Pierre Jean</addName>
+            <addName>Pierre Jean Mariette</addName>
+            <addName>Jean Pierre Mariette</addName>
+            <addName>P. J. Mariette</addName>
+            <addName>Pierre J. Mariette</addName>
+            <addName>Pierre-Jean Mariette</addName>
+            <addName>Pietro Mariette</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Natter, Johann Laurent</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00920062</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00920062"
+                   key="#PND:118738143">Natter<addName type="display">Natter, Johann Laurent</addName>
+            <addName>Johann Laurent Natter</addName>
+            <addName>Johann Lorenz Natter</addName>
+            <addName>Laurent Natter</addName>
+            <addName>Lorenz Natter</addName>
+            <addName>Johann L. Natter</addName>
+            <addName>Johann Laurenz Natter</addName>
+            <addName>Laurentius Natter</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Thubières, Anne Claude Philippe ¬de¬</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01099958</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01099958">Caylus<addName type="display">Thubières, Anne Claude Philippe ¬de¬</addName>
+            <addName>Anne Claude Philippe de Thubières</addName>
+            <addName>Caylus Graf</addName>
+            <addName>Caylus</addName>
+            <addName>Thubières, Anne Claude Philippe de Comte de Caylus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Winckelmann, Johann Joachim</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00396916</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00396916"
+                   key="#PND:118633600">Winkel- 
+                                         mann<addName type="display">Winckelmann, Johann Joachim</addName>
+            <addName>Johann Joachim Winckelmann</addName>
+            <addName>Ioann Vinkelman</addName>
+            <addName>Vinkelman</addName>
+            <addName>Ioann. Vinkelman</addName>
+            <addName>Jochan Joachim Vinkelman</addName>
+            <addName>Johann Vinkelmann</addName>
+            <addName>Vinkelmann</addName>
+            <addName>I. I. Vinkelʹman</addName>
+            <addName>Vinkelʹman</addName>
+            <addName>Iogann Ioachim Vinkelʹman</addName>
+            <addName>Iogann-Ioachim Vinkelʹman</addName>
+            <addName>Winckelman</addName>
+            <addName>Johann Joachim Winckelman</addName>
+            <addName>Winckelman abbé Johann Joachim</addName>
+            <addName>Winckelmann</addName>
+            <addName>G. G. Winckelmann</addName>
+            <addName>G.G. Winckelmann</addName>
+            <addName>Giovanni Winckelmann</addName>
+            <addName>Giovanni Gioacchino Winckelmann</addName>
+            <addName>J Winckelmann</addName>
+            <addName>J. J. Winckelmann</addName>
+            <addName>Jean Joachim Winckelmann</addName>
+            <addName>Jean-Joachim Winckelmann</addName>
+            <addName>Joachim Johann Winckelmann</addName>
+            <addName>Joh. Jac. Winckelmann</addName>
+            <addName>Johann Winckelmann</addName>
+            <addName>Johann J. Winckelmann</addName>
+            <addName>Winckelmann, Johann Joachim 1717-1768</addName>
+            <addName>Johannes Joachim Winckelmann</addName>
+            <addName>Jojannes Joachim Winckelmann</addName>
+            <addName>Johannes Winckelmannus</addName>
+            <addName>Winckelmannus</addName>
+            <addName>Johannes J. Winckelmannus</addName>
+            <addName>Johannes Joachimus Winckelmannus</addName>
+            <addName>Johan̄ Winckelman̄</addName>
+            <addName>Winckelman̄</addName>
+            <addName>Johann Joachim Winkelman</addName>
+            <addName>Winkelman</addName>
+            <addName>Winkelman abbé Johann Joachim</addName>
+            <addName>Winkelmann</addName>
+            <addName>Giovanni Winkelmann</addName>
+            <addName>Hans J. Winkelmann</addName>
+            <addName>Ioh. Winkelmann</addName>
+            <addName>Johann Winkelmann</addName>
+            <addName>Johann J. Winkelmann</addName>
+            <addName>Johann Joachim Winkelmann</addName>
+            <addName>Winkelmann 1717-1768</addName>
+            <addName>Winkelmann abbé Johann Joachim</addName>
+            <addName>Joannes Winkelmannus</addName>
+            <addName>Winkelmannus</addName>
+            <addName>Johann J. Winkelmannus</addName>
+            <addName>Johannes Joachimus Wynckelmann</addName>
+            <addName>Wynckelmann</addName>
+            <addName>Hans J. Wynkelmann</addName>
+            <addName>Wynkelmann</addName>
+            <addName>Johann J. Wynkelmann</addName>
+            <addName>Johann Joachim Wynkelmann</addName>
+            <addName>Yôhân Yo'akim Wînqelman</addName>
+            <addName>Wînqelman</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

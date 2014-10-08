@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Deianeira</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00543911</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00543911"
+                   key="#PND:118977164">Deianira<addName type="display">Deianeira</addName>
+            <addName>Deianira</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>François (France, Roi, I.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00951236</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00951236"
+                   key="#PND:118534947">Francisci I.<addName type="display">François (France, Roi, I.)</addName>
+            <addName>Francisci I.</addName>
+            <addName>Marcus Antonius Coccius</addName>
+            <addName>Coccius</addName>
+            <addName>François I.</addName>
+            <addName>Francesco Francia, Re, I.</addName>
+            <addName>Francesco</addName>
+            <addName>François Frankreich, König, I.</addName>
+            <addName>Francis France, King, I.</addName>
+            <addName>Francis</addName>
+            <addName>Franciscus Valesius</addName>
+            <addName>Franciscus Francia, Rex, I.</addName>
+            <addName>Franciscus</addName>
+            <addName>Franciscus Frankreich, König, I.</addName>
+            <addName>Franciscus Gallia, Rex, I.</addName>
+            <addName>Franciscus I.</addName>
+            <addName>Francoys France, Roi, I.</addName>
+            <addName>Francoys</addName>
+            <addName>König von Frankreich Franz I.</addName>
+            <addName>Franz I.</addName>
+            <addName>Franz Frankreich, König, I.</addName>
+            <addName>Marco Antonio Sabellico</addName>
+            <addName>Sabellico</addName>
+            <addName>Franc̜ois de Valois</addName>
+            <addName>Valois</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Belli, Valerio</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00571292</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00571292"
+                   key="#PND:122739531">Valerio Vicentino<addName type="display">Belli, Valerio</addName>
+            <addName>Valerio Belli</addName>
+            <addName>Valerio Belli Vicentino</addName>
+            <addName>Belli Vicentino</addName>
+            <addName>Vicentino</addName>
+            <addName>Valerio Vicentino</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01233119</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01233119">Clemens VIII.</persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Paweł (III, papież)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01238317</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01238317"
+                   key="#PND:118592068">Paulus III.<addName type="display">Paweł (III, papież)</addName>
+            <addName>Alessandro Farnese</addName>
+            <addName>Paulus III papa ; 1468-1549). [m]</addName>
+            <addName>Alexandre Farnèse</addName>
+            <addName>Farnèse</addName>
+            <addName>Paolo III pape</addName>
+            <addName>Paolo</addName>
+            <addName>Paulus III pape</addName>
+            <addName>Farnese</addName>
+            <addName>Farnese, Alessandro 1468-1549</addName>
+            <addName>Farnese, Alessandro der Ältere</addName>
+            <addName>Alexander Farnese</addName>
+            <addName>Sándor Farnese</addName>
+            <addName>Farnesi</addName>
+            <addName>Farnesius</addName>
+            <addName>Alexander Farnesius Cardinal</addName>
+            <addName>Farnesius Cardinal</addName>
+            <addName>Paolo III</addName>
+            <addName>Paolo Papa, III.</addName>
+            <addName>Paolo III Papa</addName>
+            <addName>Paolo III. Papa</addName>
+            <addName>Paolo III/Alessandro Farnese</addName>
+            <addName>Paolo Terzo</addName>
+            <addName>Paul III</addName>
+            <addName>Paul III.</addName>
+            <addName>Paul Papa, III.</addName>
+            <addName>pope Alessandro Farnese Paul III</addName>
+            <addName>Papst Paul III.</addName>
+            <addName>Paul III. Papa</addName>
+            <addName>Pauli Papa, III.</addName>
+            <addName>Pauli</addName>
+            <addName>Paullus Romanus, Pontifex, III.</addName>
+            <addName>Paullus</addName>
+            <addName>Paulo III papa 1468-1549</addName>
+            <addName>Paulo</addName>
+            <addName>Paulo Papa, III.</addName>
+            <addName>Paulo III. Papa</addName>
+            <addName>Paulus III papa 1468-1549</addName>
+            <addName>Paulus III.</addName>
+            <addName>Paulus Papst, III.</addName>
+            <addName>Paulus Pontifex Maximus, III.</addName>
+            <addName>Paulus Pontifex maximus, III.</addName>
+            <addName>Paulus Romanus, Episcopus</addName>
+            <addName>Paulus Tertius</addName>
+            <addName>pope Paulus III</addName>
+            <addName>Paulus III</addName>
+            <addName>Paulus papa III</addName>
+            <addName>Paulus papa Tertius</addName>
+            <addName>Paulus tertius</addName>
+            <addName>Pál Papa, III.</addName>
+            <addName>Pál</addName>
+            <addName>Pál III</addName>
+            <addName>papa Paolo terzo</addName>
+            <addName>papa Paulo terzo</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Cesati, Alessandro</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01232942</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01232942">Alessandro Cesari<addName type="display">Cesati, Alessandro</addName>
+            <addName>Alessandro Cesati</addName>
+            <addName>Alessandro detto il Greco Cesari</addName>
+            <addName>Cesari</addName>
+            <addName>Alessandro Cesari</addName>
+            <addName>Alessandro detto il Grechetto Cesati</addName>
+            <addName>Alessandro detto il Greco Cesati</addName>
+            <addName>Alessandro Cesati/Cesari</addName>
+            <addName>Cesati/Cesari</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Henri (II, roi de France)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00941927</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00941927"
+                   key="#PND:118548166">Henrici II.<addName type="display">Henri (II, roi de France)</addName>
+            <addName>Henrici II.</addName>
+            <addName>Henry II roi de France</addName>
+            <addName>Henry</addName>
+            <addName>Hainrich Franckreich, König, II.</addName>
+            <addName>Hainrich</addName>
+            <addName>Heinrich Franckreich, König, II.</addName>
+            <addName>Heinrich Frankreich, König, II.</addName>
+            <addName>Henri II roi de France 1519-1559</addName>
+            <addName>Henrich Franckreich, König, II.</addName>
+            <addName>Henrich</addName>
+            <addName>Henrich Frankreich, König, II.</addName>
+            <addName>Henrich Frankreich, König, II.</addName>
+            <addName>Henricus Francorum Rex, II.</addName>
+            <addName>Henricus</addName>
+            <addName>Henricus Francorum, Rex, II.</addName>
+            <addName>Henricus Frankreich, König, II.</addName>
+            <addName>Henricus Frankreich, König, II.</addName>
+            <addName>Henricus Gallia, Rex, II.</addName>
+            <addName>Henricus II.</addName>
+            <addName>Henricus Galliae Delphinus</addName>
+            <addName>Henricus Secundus Francorum rex</addName>
+            <addName>Henry France, King, II.</addName>
+            <addName>Henry France, Roi, II.</addName>
+            <addName>Henry France, Roy, II.</addName>
+            <addName>König Heinrich II. von Frankreich</addName>
+            <addName>König Heinrich II.</addName>
+            <addName>Henricus Valesius</addName>
+            <addName>Valesius</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Phokion</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300369</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300369">Phocion<addName type="display">Phokion</addName>
+            <addName>Phocion</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Fontana, Annibale</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01143645</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01143645"
+                   key="#PND:135646766">Annibal Fontana<addName type="display">Fontana, Annibale</addName>
+            <addName>Annibale Fontana</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Rodolphe (II, empereur germanique)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00396342</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00396342"
+                   key="#PND:118603701">Kayßer Rudolph II.<addName type="display">Rodolphe (II, empereur germanique)</addName>
+            <addName>Rudolf von Habsburg</addName>
+            <addName>Rodolphe de Habsbourg</addName>
+            <addName>Habsbourg</addName>
+            <addName>Rodolphe archiduc d'Autriche</addName>
+            <addName>Rodolphe II roi de Bohême</addName>
+            <addName>Rodolphe roi de Bohême</addName>
+            <addName>Rodolphe roi de Hongrie</addName>
+            <addName>Rodolphe V archiduc d'Autriche</addName>
+            <addName>Rudolf archiduc d'Autriche</addName>
+            <addName>Rudolf II empereur germanique</addName>
+            <addName>Rudolf II roi de Bohême</addName>
+            <addName>Rudolf roi de Bohême</addName>
+            <addName>Rudolf roi de Hongrie</addName>
+            <addName>Rudolf V archiduc d'Autriche</addName>
+            <addName>Rudolphus II empereur germanique</addName>
+            <addName>Rudolphus</addName>
+            <addName>Rudolf Habsburg</addName>
+            <addName>Habsburg, Rudolf II.</addName>
+            <addName>Rudolph Habsburg</addName>
+            <addName>Habsburg, Rudolph II.</addName>
+            <addName>Kaiser Rudolf II.</addName>
+            <addName>Kayser Rudolphi II</addName>
+            <addName>Rodolfo Cesare</addName>
+            <addName>Rodolfo</addName>
+            <addName>Rodolphe II</addName>
+            <addName>Rodolphus Germania, Imperator</addName>
+            <addName>Rodolphus</addName>
+            <addName>Rodolphus Romanorum, Imperator, II.</addName>
+            <addName>Rudolf Böhmen, König</addName>
+            <addName>Rudolf II Habsburg</addName>
+            <addName>Rudolf II Römischer Kaiser 1552-1612.</addName>
+            <addName>Rudolf Österreich, Erzherzog</addName>
+            <addName>Rudolf Ungarn, König</addName>
+            <addName>Rudolff der Ander</addName>
+            <addName>Rudolff Römisch-Deutsches Reich, Kaiser, II.</addName>
+            <addName>Rudolff</addName>
+            <addName>Rudolph Römisch-Deutsches Reich, Kaiser, II.</addName>
+            <addName>Rudolph</addName>
+            <addName>Rudolphus II Caesar</addName>
+            <addName>Rudolphus rex Ungariae</addName>
+            <addName>Rudolphus Caesar, II.</addName>
+            <addName>Rudolphus Germania, Imperator, II.</addName>
+            <addName>Rudolphus Imperator Romanus, II.</addName>
+            <addName>Rudolphus Imperator, II.</addName>
+            <addName>Rudolphus Imperium Romano-Germanicum, Imperator, II.</addName>
+            <addName>Rudolphus Kaiser, II.</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

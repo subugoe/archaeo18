@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Viktoria (Göttin)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00588089</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00588089"
+                   key="#PND:118768344">Victoria<addName type="display">Viktoria (Göttin)</addName>
+            <addName>Victoria</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Spes</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300405</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300405">Spes<addName type="display">Spes</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Proserpina</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00544230</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00544230"
+                   key="#PND:11851122X">Proserpina<addName type="display">Proserpina</addName>
+            <addName>Kore</addName>
+            <addName>Persephone</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Bernini, Gian Lorenzo</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00543952</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00543952"
+                   key="#PND:118509926">Bernini<addName type="display">Bernini, Gian Lorenzo</addName>
+            <addName>Gian Lorenzo Bernini</addName>
+            <addName>Gianlorenzo Bernin</addName>
+            <addName>Bernin</addName>
+            <addName>Gian L. Bernini</addName>
+            <addName>Gianlorenzo Bernini</addName>
+            <addName>Giovanni L. Bernini</addName>
+            <addName>Giovanni Lorenzo Bernini</addName>
+            <addName>Jean Laurent Bernini</addName>
+            <addName>Laurentius Bernini</addName>
+            <addName>Lorenzo Bernini</addName>
+            <addName>Giovanni Lorenzo Bernino</addName>
+            <addName>Bernino</addName>
+            <addName>Joans. Laurentius Berninus</addName>
+            <addName>Berninus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Isis</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00542688</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00542688"
+                   key="#PND:118932640">Isis<addName type="display">Isis</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Vesta</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00538804</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00538804"
+                   key="#PND:118804316">Vesta<addName type="display">Vesta</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Kybele</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00575273</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00575273"
+                   key="#PND:118640283">
+            <term ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-171.tei.xml-d3731e217">Cybele</term>
+            <addName type="display">Kybele</addName>
+            <addName>Cybele</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

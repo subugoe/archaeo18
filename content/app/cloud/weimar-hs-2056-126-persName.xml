@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Michel-Ange</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00559773</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00559773"
+                   key="#PND:118582143">Mich: Angelo<addName type="display">Michel-Ange</addName>
+            <addName>Michel-Ange Bonaroti</addName>
+            <addName>Bonaroti</addName>
+            <addName>Michel Agnolo Buonarroti</addName>
+            <addName>Buonarroti</addName>
+            <addName>Michel-Ange Buonarroti</addName>
+            <addName>Michelagniolo Buonarroti</addName>
+            <addName>Angelo Bonaroti</addName>
+            <addName>Angelo</addName>
+            <addName>Michiel Angielo Bona Rotta</addName>
+            <addName>Bona Rotta</addName>
+            <addName>Michael Angelus Bonarota</addName>
+            <addName>Bonarota</addName>
+            <addName>Michel Angelo Bonarota</addName>
+            <addName>Michael Angelo Bonaroti</addName>
+            <addName>Michael̈ Angelo Bonaroti</addName>
+            <addName>Michel Angelo Bonaroti</addName>
+            <addName>Michele Angelo Bonaroti</addName>
+            <addName>Michiel Angelo Bonaroti</addName>
+            <addName>Michael Angelus Bonarotus</addName>
+            <addName>Bonarotus</addName>
+            <addName>Michel Angelo Bunaroti</addName>
+            <addName>Bunaroti</addName>
+            <addName>Michael Angelo Buonaroti</addName>
+            <addName>Buonaroti</addName>
+            <addName>Michel Angelo Buonaroti</addName>
+            <addName>Michelangelo Buonaroti</addName>
+            <addName>Michiel Angelo Buonaroti</addName>
+            <addName>Michel Angelo Buonarotti</addName>
+            <addName>Buonarotti</addName>
+            <addName>Michel-Angelo Buonarotti</addName>
+            <addName>Michelangelo Buonarotti</addName>
+            <addName>Michel Angelo Buonarroti</addName>
+            <addName>Michelagniolo di L. Buonarroti</addName>
+            <addName>Michelagnolo Buonarroti</addName>
+            <addName>Buonarroti, Michelangelo 1475-1564</addName>
+            <addName>Michelangiolo Buonarroti</addName>
+            <addName>Mikelandželo Buonarroti</addName>
+            <addName>Michel A. Buonarrotti</addName>
+            <addName>Buonarrotti</addName>
+            <addName>Michel Agnolo Buonarrotti</addName>
+            <addName>Michelagniolo Buonarrotti</addName>
+            <addName>Michelangelo Buonarrotti</addName>
+            <addName>Michelangiolo Buonarrotti</addName>
+            <addName>Michelagnolo Buonarruoti</addName>
+            <addName>Buonarruoti</addName>
+            <addName>L' Impastato</addName>
+            <addName>Impastato</addName>
+            <addName>L' Impostato</addName>
+            <addName>Impostato</addName>
+            <addName>L'Impastato</addName>
+            <addName>L'Impostato</addName>
+            <addName>Micchel-Angelo</addName>
+            <addName>Micha/l Anio/l</addName>
+            <addName>Michael Angelo</addName>
+            <addName>Michael Angelus</addName>
+            <addName>Michael-Angelo Buonaroti</addName>
+            <addName>Michael-Angelo</addName>
+            <addName>Michał Anioł</addName>
+            <addName>Michel Angelo</addName>
+            <addName>Michel Angelus Bonarotus</addName>
+            <addName>Michel Angelus</addName>
+            <addName>Michel Angielo Bona Rotta</addName>
+            <addName>Michelagelo Buonarroti</addName>
+            <addName>Michelagelo</addName>
+            <addName>Michelagniolo Buonaroti</addName>
+            <addName>Michelagniolo</addName>
+            <addName>Michelagniolo di Ludovico di Lionardo Buonarroti-Simoni</addName>
+            <addName>Michelagniolo di Ludovico di Lionardo di Buonarroti Simoni</addName>
+            <addName>Michelagnolo</addName>
+            <addName>Michelagnolo Buonarotti</addName>
+            <addName>Michelangelo</addName>
+            <addName>Buonarroti Michelangelo</addName>
+            <addName>Michelangelo Buonarroti 1475-1564</addName>
+            <addName>Michelangelus</addName>
+            <addName>Buonarroti Michelangiolo</addName>
+            <addName>Michelangiolo</addName>
+            <addName>Michiel Angielo</addName>
+            <addName>Miguel Angel</addName>
+            <addName>Mikel'andželo</addName>
+            <addName>Mikelandelo</addName>
+            <addName>Mikelandželo</addName>
+            <addName>Mikelandželo Buonarroti</addName>
+            <addName>Mikelandželo</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Weber, Lorenz Maria</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300329</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300329">Lorenz Weber<addName type="display">Weber, Lorenz Maria</addName>
+            <addName>Lorenz Maria Weber</addName>
+            <addName>Lorenz Weber</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Cavalieri, Giovanni Battista</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01232819</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01232819"
+                   key="#PND:12391664X 12391664X">Cavalier<addName type="display">Cavalieri, Giovanni Battista</addName>
+            <addName>Giovanni Battista Cavalieri</addName>
+            <addName>Baptista de Cavalerijs</addName>
+            <addName>Cavalerijs</addName>
+            <addName>Ioannes Baptista de Cavalleriis</addName>
+            <addName>Cavalleriis</addName>
+            <addName>Giovanbattista de Cavallieri</addName>
+            <addName>Cavallieri</addName>
+            <addName>Cavalier</addName>
+            <addName>Giovanni Battista Cavaleriis</addName>
+            <addName>Cavaleriis</addName>
+            <addName>Joanes Baptista de Cavaleriis</addName>
+            <addName>Joannes B. de Cavaleriis</addName>
+            <addName>Joannes Baptista de Cavaleriis</addName>
+            <addName>Johannes Baptista de Cavaleriis</addName>
+            <addName>Io. Baptista de Cavalerijs</addName>
+            <addName>Johannes Battista de Cavalerius</addName>
+            <addName>Cavalerius</addName>
+            <addName>Giovanni Battista de Cavalieri</addName>
+            <addName>Giovanni Battista de Cavalleriis</addName>
+            <addName>Io. Baptista de Cavalleriis</addName>
+            <addName>Joannes Baptista Cavalleriis</addName>
+            <addName>Joannes Baptista de Cavalleriis</addName>
+            <addName>Johannes Baptista Cavalleriis</addName>
+            <addName>Johannes Baptista de Cavalleriis</addName>
+            <addName>Johannes Battista Cavalleriis</addName>
+            <addName>Baptista de Cavallerijs</addName>
+            <addName>Cavallerijs</addName>
+            <addName>Joannes Baptista de Cavalleris</addName>
+            <addName>Cavalleris</addName>
+            <addName>Jo. B. de Cavallerius</addName>
+            <addName>Cavallerius</addName>
+            <addName>Johannes Baptista Cavallerius</addName>
+            <addName>Johannes Baptista de Cavallerys</addName>
+            <addName>Cavallerys</addName>
+            <addName>Giovan Battista de Cavallieri</addName>
+            <addName>Giovanni B. Cavallieri</addName>
+            <addName>Giovanni Battista Cavallieri</addName>
+            <addName>Giovanni Battista de Cavallieri</addName>
+            <addName>Ioannes Baptista De Cavalleriis</addName>
+            <addName>De Cavalleriis</addName>
+            <addName>Jo. Baptista de Cavalleriis</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Graevius, Joannes Georgius</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00109632</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00109632"
+                   key="#PND:100156991">Grevius<addName type="display">Graevius, Joannes Georgius</addName>
+            <addName>Joannes Georgius Graevius</addName>
+            <addName>Johannes Georgius Graevius</addName>
+            <addName>Joannes G. Graeve</addName>
+            <addName>Graeve</addName>
+            <addName>Johann G. Graeve</addName>
+            <addName>Johann Georg Graeve</addName>
+            <addName>Johannes G. Graeve</addName>
+            <addName>Johannes Georgius Graeve</addName>
+            <addName>Johanne Georgio Graevio</addName>
+            <addName>Graevio</addName>
+            <addName>Graevius</addName>
+            <addName>Georgius Graevius</addName>
+            <addName>Ioannes Georgius Graevius</addName>
+            <addName>Ioh. Georgius Graevius</addName>
+            <addName>Iohannes Georgius Graevius</addName>
+            <addName>Jo. Ge. Graevius</addName>
+            <addName>Joannes G. Graevius</addName>
+            <addName>Joannus Georgius Graevius</addName>
+            <addName>Joh. Georgius Graevius</addName>
+            <addName>Johann G. Graevius</addName>
+            <addName>Johann Georg Graevius</addName>
+            <addName>Johannes G. Graevius</addName>
+            <addName>Johannes Georg Graevius</addName>
+            <addName>Joannes G. Gravius</addName>
+            <addName>Gravius</addName>
+            <addName>Johannes Georgius Gravius</addName>
+            <addName>Johann G. Greffe</addName>
+            <addName>Greffe</addName>
+            <addName>Johannes G. Greffe</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Manlius Capitolinus , Marcus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300334</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300334">Manlius<addName type="display">Manlius Capitolinus , Marcus</addName>
+            <addName>Marcus Manlius Capitolinus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Navius Attus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01288188</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01288188">Allius Navius<addName type="display">Navius Attus</addName>
+            <addName>Allius Navius</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Tarquinius Priscus, Lucius</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00544765</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00544765"
+                   key="#PND:119007509">Tarquinii Prisci<addName type="display">Tarquinius Priscus, Lucius</addName>
+            <addName>Lucius Tarquinius Priscus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Iunius Brutus , Lucius</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300419</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300419">Bru- 
+                     tus<addName type="display">Iunius Brutus , Lucius</addName>
+            <addName>Lucius Iunius Brutus</addName>
+            <addName>Lucius Iunius Brutus</addName>
+            <addName>L. Iunius Brutus</addName>
+            <addName>Lucius I. Brutus</addName>
+            <addName>Lucius Junius Brutus</addName>
+            <addName>Lvcivs Ivnivs Brvtvs</addName>
+            <addName>Brvtvs</addName>
+            <addName>L. Ivnivs. Brvtvs.</addName>
+            <addName>Brvtvs.</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Tarquinius Superbus, Lucius</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00544764</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00544764"
+                   key="#PND:119007495">Tarqui- 
+                     nii<addName type="display">Tarquinius Superbus, Lucius</addName>
+            <addName>Lucius Tarquinius Superbus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Crispus, Gaius Sallustius (Sallust)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01239598</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01239598"
+                   key="#PND:118605097 131059947 118605097">Sallust<addName type="display">Crispus, Gaius Sallustius (Sallust)</addName>
+            <addName>Gaius Sallustius Crispus</addName>
+            <addName>C. Sallustius Crispus</addName>
+            <addName>Caius Sallustius Crispus</addName>
+            <addName>C. Crispo Sallustio</addName>
+            <addName>C. Crispus Sallustius</addName>
+            <addName>C. Crispus Salustius</addName>
+            <addName>C. Salustius Crispus</addName>
+            <addName>Caius Crispus Salustius</addName>
+            <addName>Caio S. Crispo</addName>
+            <addName>Crispo</addName>
+            <addName>Caio Sallustio Crispo</addName>
+            <addName>Cayo S. Crispo</addName>
+            <addName>Cayo Salustio Crispo</addName>
+            <addName>Caio Crispo Sallustio</addName>
+            <addName>Crispo Sallustio</addName>
+            <addName>Cajo Crispo Sallustio</addName>
+            <addName>Cayo Crispo Sallustio</addName>
+            <addName>Gaio Crispo Sallustio</addName>
+            <addName>Caius S. Crispus</addName>
+            <addName>Gaius S. Crispus</addName>
+            <addName>Sallustius C. Crispus</addName>
+            <addName>Caius Crispus Sallustius</addName>
+            <addName>Crispus Sallustius</addName>
+            <addName>Crispus Sallustius historicus</addName>
+            <addName>Crispus Salustius</addName>
+            <addName>Gaio Sallustio</addName>
+            <addName>Kajus Krispus Sallustius</addName>
+            <addName>Krispus Sallustius</addName>
+            <addName>Pseudo-Sallustius</addName>
+            <addName>Salloustios</addName>
+            <addName>Sallust</addName>
+            <addName>Gaius Sallust</addName>
+            <addName>Salluste</addName>
+            <addName>Salluste</addName>
+            <addName>Caius Crispe Salluste</addName>
+            <addName>Salluste d'Amiternum</addName>
+            <addName>C. C. Sallusti</addName>
+            <addName>Sallusti</addName>
+            <addName>Crispi C. Sallusti</addName>
+            <addName>Sallustio</addName>
+            <addName>Caio C. Sallustio</addName>
+            <addName>C. Sallustio Crispo</addName>
+            <addName>Sallustio Crispo</addName>
+            <addName>Gaio Sallustio Crispo</addName>
+            <addName>Sallustius</addName>
+            <addName>C. C. Sallustius</addName>
+            <addName>Caius C. Sallustius</addName>
+            <addName>Crispus C. Sallustius</addName>
+            <addName>Crispus G. Sallustius</addName>
+            <addName>Crispus Gaius Sallustius</addName>
+            <addName>Gaius C. Sallustius</addName>
+            <addName>Gaius Crispus Sallustius</addName>
+            <addName>Gaius S. Crispus Sallustius</addName>
+            <addName>K. K. Sallustius</addName>
+            <addName>Sallustius Historian</addName>
+            <addName>Sallustius Historicus</addName>
+            <addName>Sallustius Historiker</addName>
+            <addName>Sallustius Pseudo-</addName>
+            <addName>Sallustius von Amiternum</addName>
+            <addName>Cajus Sallustius Crispus</addName>
+            <addName>Gajus Sallustius Crispus</addName>
+            <addName>C. Sallustri Crispi</addName>
+            <addName>Sallustri Crispi</addName>
+            <addName>Gaius Sallustus Crispus</addName>
+            <addName>Sallustus Crispus</addName>
+            <addName>Krisp G. Sallustyusz</addName>
+            <addName>Sallustyusz</addName>
+            <addName>Gaj Krisp Sallûstìj</addName>
+            <addName>Sallûstìj</addName>
+            <addName>Sallûstìj Krisp"</addName>
+            <addName>Saluste</addName>
+            <addName>Salustio</addName>
+            <addName>Salustio Crispo</addName>
+            <addName>Gaio Salustio Crispo</addName>
+            <addName>Salustios</addName>
+            <addName>Salustius</addName>
+            <addName>Gaius Crispus Salustius</addName>
+            <addName>Salustius Crispus</addName>
+            <addName>Caius Salustius Crispus</addName>
+            <addName>Cajus Salustius Crispus</addName>
+            <addName>Gaius Salustius Crispus</addName>
+            <addName>Gajus Krispus Salustiusz</addName>
+            <addName>Salustiusz</addName>
+            <addName>Caius Salustus Crispus</addName>
+            <addName>Salustus Crispus</addName>
+            <addName>Gaius Salustus Crispus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Fulvia  (Geliebte des Quintus Curius)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300283</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300283">Fulvia<addName type="display">Fulvia  (Geliebte des Quintus Curius)</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Gori, Antonio Francesco</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00402479</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00402479"
+                   key="#PND:118964925">Gori<addName type="display">Gori, Antonio Francesco</addName>
+            <addName>Antonio Francesco Gori</addName>
+            <addName>A. F. Gori</addName>
+            <addName>Adame François Gori</addName>
+            <addName>Adame François Gori</addName>
+            <addName>Ant. Francesco Gori</addName>
+            <addName>Antoine François Gori</addName>
+            <addName>Antoine François Gori</addName>
+            <addName>Anton Francesco Gori</addName>
+            <addName>Anton Franz Gori</addName>
+            <addName>Antonius Franc. Gori</addName>
+            <addName>Antonio Francisco Gorius</addName>
+            <addName>Gorius</addName>
+            <addName>Antonius Gorius</addName>
+            <addName>Antonius Franciscus Gorius</addName>
+            <addName>Antonius Franciscus Gorus</addName>
+            <addName>Gorus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Milichus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300341</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300341">Mitichius<addName type="display">Milichus</addName>
+            <addName>Mitichius</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Nero (Imperium Romanum, Imperator)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00982828</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00982828"
+                   key="#PND:118586998">Nero<addName type="display">Nero (Imperium Romanum, Imperator)</addName>
+            <addName>Nero Claudius Caesar</addName>
+            <addName>Claudius Caesar</addName>
+            <addName>Claudius Nero</addName>
+            <addName>Claudius Nero Caesar</addName>
+            <addName>Domitius Ahenobarbus</addName>
+            <addName>Lucius Domitius Ahenobarbus Nero Claudius Caesar Augustus Germanicus</addName>
+            <addName>Néron Empereur</addName>
+            <addName>Néron</addName>
+            <addName>Néron Empereur</addName>
+            <addName>Néron</addName>
+            <addName>Nero Claudius</addName>
+            <addName>Nero Claudius Caesar Augustus Germanicus Imperator</addName>
+            <addName>Nero Claudius Caesar Augustus Germanicus</addName>
+            <addName>Nero Tiberius Claudius Imperator</addName>
+            <addName>Nero Tiberius Claudius</addName>
+            <addName>Claudius C. Nero</addName>
+            <addName>Nero Caesar</addName>
+            <addName>Nero Emperor of Rome</addName>
+            <addName>Nero Imperator</addName>
+            <addName>Nero Römisches Reich, Kaiser</addName>
+            <addName>Nero Römischer Kaiser</addName>
+            <addName>Nero Romanus</addName>
+            <addName>Klavdij Cezarʹ Neron</addName>
+            <addName>Neron</addName>
+            <addName>Neron Imperator Rismkij</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

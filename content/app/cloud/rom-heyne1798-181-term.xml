@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Capitolium</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/topographie/500002</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/topographie/500002">
+            <placeName ref="#http://arachne.uni-koeln.de/item/topographie/500002">Capitolium</placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Campus Martius</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/topographie/8002169</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/topographie/8002169">
+            <placeName ref="#http://arachne.uni-koeln.de/item/topographie/8002169">Campus Martius</placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Forum Romanum.</tag>
+      <facet>tei:term</facet>
+      <link>http://census.bbaw.de/easydb/censusID=150855</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0" ref="#CensusID:150855">
+            <placeName ref="#http://arachne.uni-koeln.de/item/topographie/500003">Forum Romanum.</placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Trajanum</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:151046 http://arachne.uni-koeln.de/item/topographie/500033</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:151046 #http://arachne.uni-koeln.de/item/topographie/500033">
+            <placeName ref="#http://arachne.uni-koeln.de/item/topographie/500033">Trajanum</placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Scaurus, Marcus Aemilius (Sohn)</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-181.tei.xml-d1804e400">das des <persName ref="#CerlID:cnp00579562" key="#PND:118653040">Aemilius
+                                Scaurus<addName type="display">Scaurus, Marcus Aemilius (Sohn)</addName>
+               <addName>Marcus Aemilius Scaurus</addName>
+               <addName>Aemilius Scaurus, Marcus Sohn</addName>
+               <addName>Aemilius Scaurus</addName>
+               <addName>Scaurus Sohn</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+</tags>

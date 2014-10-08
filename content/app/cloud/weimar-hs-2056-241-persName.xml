@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Alarich (Westgoten, König, I.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00554917</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00554917"
+                   key="#PND:119403676">Alarich König der Gohten<addName type="display">Alarich (Westgoten, König, I.)</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Geiserich (Vandalenreich, König)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00585164</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00585164"
+                   key="#PND:118690167">Genserich König der Van- 
+                                                     daler<addName type="display">Geiserich (Vandalenreich, König)</addName>
+            <addName>Gaiserich Vandalenreich, König</addName>
+            <addName>Gaiserich</addName>
+            <addName>Geisericus Vandalenreich, König</addName>
+            <addName>Geisericus</addName>
+            <addName>Genserich Vandalenreich, König</addName>
+            <addName>Genserich</addName>
+            <addName>Gensirix Vandalenreich, König</addName>
+            <addName>Gensirix</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Ricimer, Flavius</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00588915</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00588915"
+                   key="#PND:118788779">Ricimer<addName type="display">Ricimer, Flavius</addName>
+            <addName>Flavius Ricimer</addName>
+            <addName>Rikimer</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Belisar</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00580329</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00580329"
+                   key="#PND:118655108">Belisar<addName type="display">Belisar</addName>
+            <addName>Belisarios</addName>
+            <addName>Belsiarius</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Witigis (Ostgotenreich, König)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00343400</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00343400"
+                   key="#PND:103146407">Wiliges<addName type="display">Witigis (Ostgotenreich, König)</addName>
+            <addName>Vitigès Roi des Ostrogoths</addName>
+            <addName>Vitigès</addName>
+            <addName>Vitigis Ostgotenreich, König</addName>
+            <addName>Vitigis</addName>
+            <addName>Vitigis Rex</addName>
+            <addName>Witiches Ostgotischer König</addName>
+            <addName>Witiches</addName>
+            <addName>Witigis König der Ostgoten</addName>
+            <addName>Witigis Ostgotischer König</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

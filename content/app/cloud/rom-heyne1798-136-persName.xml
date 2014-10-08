@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Demosthenes</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00394563</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00394563"
+                   key="#PND:118524658">Demosthenes<addName type="display">Demosthenes</addName>
+            <addName>Dēmosthenēs</addName>
+            <addName>Dēmosthenus</addName>
+            <addName>Démosthène</addName>
+            <addName>Démosthène dÁthènes</addName>
+            <addName>Démosthène dÁthènes</addName>
+            <addName>Démosthène Orateur</addName>
+            <addName>Démosthene</addName>
+            <addName>Dēmosthenus</addName>
+            <addName>Démosthène</addName>
+            <addName>Démosthène dÁthènes</addName>
+            <addName>Démosthène Orateur</addName>
+            <addName>Démosthene</addName>
+            <addName>Demostene</addName>
+            <addName>Demostene di Peania</addName>
+            <addName>Demostene Oratore</addName>
+            <addName>Demostenes</addName>
+            <addName>Demosthenes Atheniensis</addName>
+            <addName>Demosthenes Attischer Redner</addName>
+            <addName>Demosthenes Orator</addName>
+            <addName>Demosthenes Politiker</addName>
+            <addName>Demosthenes Pseudo-</addName>
+            <addName>Demosthenes Redner</addName>
+            <addName>Demosthenes Rhetor</addName>
+            <addName>Demosthenes Sohn des Demosthenes</addName>
+            <addName>Demosthenes von Athen</addName>
+            <addName>Demosthenes von Paiania</addName>
+            <addName>Demosthenus</addName>
+            <addName>Pseudo-Demosthenes</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Phokion</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300369</link>
+      <count>8</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300369">Phocion<addName type="display">Phokion</addName>
+            <addName>Phocion</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pyrgoteles</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300384</link>
+      <count>4</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300384">Pyrgoteles<addName type="display">Pyrgoteles</addName>
+            <addName>Pyroteles</addName>
+            <addName>Pyryoteles</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Plutarch</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259316</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01259316"
+                   key="#PND:118595237 118595237">Plutarch<addName type="display">Plutarch</addName>
+            <addName>Plutarch von Chaeronea</addName>
+            <addName>Plutarch z Cheronej</addName>
+            <addName>Plutarcho</addName>
+            <addName>Plutarchus von Chäroneia</addName>
+            <addName>Plutarh</addName>
+            <addName>Plûṭark̲ îš Ḥarôneʾā</addName>
+            <addName>Plûṭark̲</addName>
+            <addName>Plûṭark̲ îš Ḥarôneā</addName>
+            <addName>Plûṭark̲</addName>
+            <addName>Ploetarchos</addName>
+            <addName>Ploutarchos</addName>
+            <addName>Plowtark'</addName>
+            <addName>Plutarch Chaeroneus</addName>
+            <addName>Plutarch of Chaeronea</addName>
+            <addName>Plutarch u Chairōneōs</addName>
+            <addName>Plutarch von Chäronea</addName>
+            <addName>Plutarch von Chaironeia</addName>
+            <addName>Plutarch z Cheronei</addName>
+            <addName>Plutarche</addName>
+            <addName>Plutarche de Chèronè</addName>
+            <addName>Plutarche de Chèronèe</addName>
+            <addName>Plutarche de Chéronée</addName>
+            <addName>Plutarchos</addName>
+            <addName>Plutarchos Biograph</addName>
+            <addName>Plutarchos Chaeroneos</addName>
+            <addName>Plutarchos Chairōneōs</addName>
+            <addName>Plutarchos Philosoph</addName>
+            <addName>Plutarchos von Chaironea</addName>
+            <addName>Plutarchos von Chaironeia</addName>
+            <addName>Chaeronensis Plutarchus</addName>
+            <addName>Plutarchus Biograph</addName>
+            <addName>Plutarchus Biographus</addName>
+            <addName>Plutarchus Chaeronensis</addName>
+            <addName>Plutarchus Chaeroneus</addName>
+            <addName>Plutarchus Chairōneōs</addName>
+            <addName>Plutarchus Cheronaeus</addName>
+            <addName>Plutarchus Cheronensis</addName>
+            <addName>Plutarchus Cheroneus</addName>
+            <addName>Plutarchus of Chaeronea</addName>
+            <addName>Plutarchus Philosophus</addName>
+            <addName>Plutarchus von Chäroneia</addName>
+            <addName>Plutarchus von Chaeronea</addName>
+            <addName>Plutarchus von Chaironeia</addName>
+            <addName>Plutarchus von Cheronea</addName>
+            <addName>Plutarco</addName>
+            <addName>Plutarco Cheronese</addName>
+            <addName>Plutarco di Cheronea</addName>
+            <addName>Plutarcus</addName>
+            <addName>Plutarhus</addName>
+            <addName>Plutarke</addName>
+            <addName>Plutarkhos</addName>
+            <addName>Plutarque</addName>
+            <addName>Plutarque de Chèronèe</addName>
+            <addName>Plutarque de Chéronée</addName>
+            <addName>Plutarque de Chaeronée</addName>
+            <addName>Plutharque</addName>
+            <addName>Plvtarchvs</addName>
+            <addName>Pseudo-Plutarchus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Menander</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259636</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01259636"
+                   key="#PND:118747525">Menander<addName type="display">Menander</addName>
+            <addName>Mènandre dÁthènes</addName>
+            <addName>Mènandre</addName>
+            <addName>Ménandre</addName>
+            <addName>Ménandre d'Athènes</addName>
+            <addName>Ménandre Maître de la Comédie Nouvelle</addName>
+            <addName>Ménandre</addName>
+            <addName>Ménandre d'Athènes</addName>
+            <addName>Ménandre Maître de la Comédie Nouvelle</addName>
+            <addName>Comicus Menander</addName>
+            <addName>Menander Atheniensis</addName>
+            <addName>Menander Cephisius</addName>
+            <addName>Menander Comicus</addName>
+            <addName>Menander Dramatist</addName>
+            <addName>Menander of Athens</addName>
+            <addName>Menandro</addName>
+            <addName>Menandro di Cefisia</addName>
+            <addName>Menandros</addName>
+            <addName>Menandros Dichter der Neuen Komödie</addName>
+            <addName>Menandros Diopeithes ́Sohn</addName>
+            <addName>Menandros Diopeithes' Sohn</addName>
+            <addName>Menandros Diopeithus</addName>
+            <addName>Menandros von Athen</addName>
+            <addName>Menandros von Kephisia</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Posidippus (Comicus)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00976214</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00976214"
+                   key="#PND:102404178">Posidippus<addName type="display">Posidippus (Comicus)</addName>
+            <addName>Poseidippos</addName>
+            <addName>Poseidippos Dichter der Neuen Komödie</addName>
+            <addName>Poseidippos von Kassandrei</addName>
+            <addName>Poseidippos von Kassandreia</addName>
+            <addName>Posidippo</addName>
+            <addName>Posidippo di Cassandrea</addName>
+            <addName>Posidippus Dramatist</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Alexander (Magnus)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259691</link>
+      <count>6</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01259691"
+                   key="#PND:118501828">Alexander<addName type="display">Alexander (Magnus)</addName>
+            <addName>Ałekʹsandr Makedonacʹi</addName>
+            <addName>Alejandro Magno</addName>
+            <addName>Alejandro</addName>
+            <addName>Aleksandr</addName>
+            <addName>Alessandro Magno</addName>
+            <addName>Alessandro</addName>
+            <addName>Alexander de Grote</addName>
+            <addName>Alexander der Große</addName>
+            <addName>Alexander der Grosse</addName>
+            <addName>Alexander Epistolographus</addName>
+            <addName>Alexander III 3 koning van Macedonië</addName>
+            <addName>Alexander Kaiser</addName>
+            <addName>Alexander Macedonia, Rex, III.</addName>
+            <addName>Alexander Macedonis</addName>
+            <addName>Alexander Mazedonien, König, III.</addName>
+            <addName>Alexander of Macedon</addName>
+            <addName>Alexander Rex</addName>
+            <addName>Alexandre le Grand</addName>
+            <addName>Alexandre</addName>
+            <addName>Alexandros</addName>
+            <addName>Alexandros der Große</addName>
+            <addName>Alexandru cel Mare</addName>
+            <addName>Alexandru</addName>
+            <addName>Alexandrus Magnus</addName>
+            <addName>Alexandrus</addName>
+            <addName>Megalexandros</addName>
+            <addName>Pseudo-Alexander Magnus</addName>
+            <addName>Pseudo-Alexander</addName>
+            <addName>Grote</addName>
+            <addName>Alexandros Megas</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Minerva</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00544188</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00544188"
+                   key="#PND:118986155">Miner-
+                                ven<addName type="display">Minerva</addName>
+            <addName>Sospitatrix</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Caracalla (Imperium Romanum, Imperator)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00397692</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00397692"
+                   key="#PND:118667041">Caracallas<addName type="display">Caracalla (Imperium Romanum, Imperator)</addName>
+            <addName>Aurelius Antoninus Caesar</addName>
+            <addName>Aurelius Antoninus</addName>
+            <addName>Aurelius Severus Antoninus Augustus</addName>
+            <addName>Aurelius Severus Antoninus</addName>
+            <addName>Bassianus</addName>
+            <addName>Caracalla Imperator</addName>
+            <addName>Caracalla Römischer Kaiser</addName>
+            <addName>Lucius Septimius Bassianus</addName>
+            <addName>Marcus Aurelius Antoninus</addName>
+            <addName>Marcus Aurelius Antoninus Caesar</addName>
+            <addName>Marcus Aurelius Severus Antoninus Augustus</addName>
+            <addName>Marcus Aurelius Severus Antoninus</addName>
+            <addName>Septimius Bassianus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Severus Alexander (Emperor of Rome)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00914937</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00914937"
+                   key="#PND:11861357X">Alexander Severs<addName type="display">Severus Alexander (Emperor of Rome)</addName>
+            <addName>Marcus A. Alexander Severus</addName>
+            <addName>Alexander Severus</addName>
+            <addName>Marcus Aurelius Alexander Severus</addName>
+            <addName>Alexander Severus Emperor of Rome</addName>
+            <addName>Alexander Severus Imperium Romanum, Imperator</addName>
+            <addName>Alexander Severus Römisches Reich, Kaiser</addName>
+            <addName>Alexandrus Severus</addName>
+            <addName>Gessius B. Alexianus</addName>
+            <addName>Alexianus</addName>
+            <addName>Gessius Bassianus Alexianus</addName>
+            <addName>Marco Aurelio Severo Alessandro</addName>
+            <addName>Marcus Aurelius Severus Alexander</addName>
+            <addName>Alexander S. Marcus Aurelius</addName>
+            <addName>Marcus Aurelius</addName>
+            <addName>Severo Alessandro</addName>
+            <addName>Marcus A. Severus Alexander</addName>
+            <addName>Severus Alexander Imperium Romanum, Imperator</addName>
+            <addName>Severus Alexandrus</addName>
+            <addName>Severus</addName>
+            <addName>Severus Alexandrinus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Jupiter</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00554429</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00554429"
+                   key="#PND:118558897">Iupiter<addName type="display">Jupiter</addName>
+            <addName>Iupiter</addName>
+            <addName>Juppiter</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

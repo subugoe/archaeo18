@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Marius, Gaius (Feldherr)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00558750</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00558750"
+                       key="#PND:118577956">Marius<addName type="display">Marius, Gaius (Feldherr)</addName>
+            <addName>Gaius Marius</addName>
+            <addName>Marius, Gaius Römisches Reich, Konsul, 156 v. Chr.-86 v. Chr.</addName>
+            <addName>Marius</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Homer</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259620</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01259620"
+                       key="#PND:11855333X">Homer<addName type="display">Homer</addName>
+            <addName>Gomer</addName>
+            <addName>Hūmīrūs</addName>
+            <addName>Hūmar</addName>
+            <addName>Hūmir</addName>
+            <addName>Hōmar</addName>
+            <addName>Hômêrôs</addName>
+            <addName>Homère</addName>
+            <addName>Homēros</addName>
+            <addName>Homérosz</addName>
+            <addName>Homēros</addName>
+            <addName>Homère</addName>
+            <addName>Homere</addName>
+            <addName>Homero</addName>
+            <addName>Homeros</addName>
+            <addName>Homeros Tragiker</addName>
+            <addName>Homerosi</addName>
+            <addName>Homerus Colophonius</addName>
+            <addName>Homerus Colophonus</addName>
+            <addName>Homerus Dramatiker</addName>
+            <addName>Homerus Epicus</addName>
+            <addName>Omēros</addName>
+            <addName>Omero</addName>
+            <addName>Omiros</addName>
+            <addName>Pseudo-Homerus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Hesiod</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00909084</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00909084"
+                       key="#PND:118550292">Hesiod<addName type="display">Hesiod</addName>
+            <addName>Ēsiodos</addName>
+            <addName>Ēsiodos</addName>
+            <addName>Eracle</addName>
+            <addName>Esiodo</addName>
+            <addName>Esiodo Ascraeo</addName>
+            <addName>Hēsiodos</addName>
+            <addName>Hésiode</addName>
+            <addName>Hésiode d'Ascra</addName>
+            <addName>Hēsiodos</addName>
+            <addName>Hésiode</addName>
+            <addName>Hésiode d'Ascra</addName>
+            <addName>Hesiode</addName>
+            <addName>Hesiodo</addName>
+            <addName>Hesiodos</addName>
+            <addName>Hesiodos Askraios</addName>
+            <addName>Hesiodos Dichter</addName>
+            <addName>Hesiodos Epischer Dichter</addName>
+            <addName>Hesiodos ho Askraios</addName>
+            <addName>Hesiodos von Askra</addName>
+            <addName>Hesiodos von Kyme</addName>
+            <addName>Hesiodus Ascraeus</addName>
+            <addName>Hesiodus Ascreus</addName>
+            <addName>Hesiodus Askra</addName>
+            <addName>Hesiodus Epicus</addName>
+            <addName>Hezyod</addName>
+            <addName>Isiodos ho Askraios</addName>
+            <addName>Isiodos</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Sappho</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00160732</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00160732"
+                       key="#PND:118605534">Sapho<addName type="display">Sappho</addName>
+            <addName>Psappho</addName>
+            <addName>Saffo</addName>
+            <addName>Safo</addName>
+            <addName>Sapfo</addName>
+            <addName>Sapho</addName>
+            <addName>Sapho de Lesbos</addName>
+            <addName>Sappho de Lesbos</addName>
+            <addName>Sappho Lesbia</addName>
+            <addName>Sappho Lyrica</addName>
+            <addName>Sappho Mytilenaea</addName>
+            <addName>Sappho of Lesbos</addName>
+            <addName>Sappho of Mytilene</addName>
+            <addName>Sappho van Lesbos</addName>
+            <addName>Sappho von Eresos</addName>
+            <addName>Sappho von Lesbos</addName>
+            <addName>Sappho von Mytilene</addName>
+            <addName>Sapphus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

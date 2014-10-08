@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Gualtieri, Filippo Antonio</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00348223</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00348223"
+                   key="#PND:10406157X">Cardinal Gualtieri<addName type="display">Gualtieri, Filippo Antonio</addName>
+            <addName>Filippo Antonio Gualtieri</addName>
+            <addName>Gualtieri Cardinal</addName>
+            <addName>Filoppo A. Gualtieri</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Barthélemy, Jean Jacques</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00590152</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00590152"
+                   key="#PND:117566047">Abt Barthelemy<addName type="display">Barthélemy, Jean Jacques</addName>
+            <addName>Jean Jacques Barthélemy</addName>
+            <addName>Jean Jacques Barthélemy</addName>
+            <addName>Jean-Jacques Barthélemy</addName>
+            <addName>Žan Žak Bartelemi</addName>
+            <addName>Bartelemi</addName>
+            <addName>J. J. Barthelemi</addName>
+            <addName>Barthelemi</addName>
+            <addName>Barthelemy</addName>
+            <addName>Jan Jakób Barthelemy</addName>
+            <addName>Jean J. Barthélemi</addName>
+            <addName>Barthélemi</addName>
+            <addName>Jean Jacques Barthélemi</addName>
+            <addName>Barthélemy</addName>
+            <addName>J.-J. Barthélemy</addName>
+            <addName>Jean-Jacques Barthélemy</addName>
+            <addName>Barthélemi</addName>
+            <addName>Jean J. Barthélemi</addName>
+            <addName>Barthélemy</addName>
+            <addName>J.-J Barthélemy</addName>
+            <addName>J.-J. Barthélemy</addName>
+            <addName>Y. Y. Part'elẹm</addName>
+            <addName>Part'elẹm</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Amor</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00542364</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00542364"
+                   key="#PND:11850262X">Amors<addName type="display">Amor</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Praxiteles</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00589123</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00589123"
+                   key="#PND:118793241">Praxiteles<addName type="display">Praxiteles</addName>
+            <addName>Prassitele</addName>
+            <addName>Praxitèle</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

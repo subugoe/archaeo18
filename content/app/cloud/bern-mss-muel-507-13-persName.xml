@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Volkmann, Johann Jacob</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00370168</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00370168"
+                       key="#PND:104361158">Volkmann<addName type="display">Volkmann, Johann Jacob</addName>
+            <addName>Johann Jacob Volkmann</addName>
+            <addName>Johann J. Volckmann</addName>
+            <addName>Volckmann</addName>
+            <addName>Johann Jacob Volckmann</addName>
+            <addName>Johann Jakob Volckmann</addName>
+            <addName>D.J. Volkman</addName>
+            <addName>Volkman</addName>
+            <addName>D. J. J. Volkmann</addName>
+            <addName>J. J. Volkmann</addName>
+            <addName>Johann J. Volkmann</addName>
+            <addName>Johann Jakob Volkmann</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Picart, Bernard</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01260986</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01260986"
+                       key="#PND:123379636">Piccard<addName type="display">Picart, Bernard</addName>
+            <addName>Bernard Picart</addName>
+            <addName>B. P.</addName>
+            <addName>Bernard Picard</addName>
+            <addName>Picard</addName>
+            <addName>Bernard Picaret</addName>
+            <addName>Picaret</addName>
+            <addName>Picart</addName>
+            <addName>B Picart</addName>
+            <addName>B. Picart</addName>
+            <addName>Picart, B. Bernard</addName>
+            <addName>Bernardus Picart</addName>
+            <addName>Picart de Romein</addName>
+            <addName>Picart le Romain</addName>
+            <addName>Bernard Picart De Romein</addName>
+            <addName>Picart De Romein</addName>
+            <addName>Bernard Picart Le Romain</addName>
+            <addName>Picart Le Romain</addName>
+            <addName>Bernard Picart dit le Romain</addName>
+            <addName>Picart dit le Romain</addName>
+            <addName>Bernard Picart le Romain</addName>
+            <addName>Bernhard Piccard</addName>
+            <addName>Piccard</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

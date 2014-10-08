@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Curio, Gaius Scribonius (Filius)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00283951</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00283951"
+                   key="#PND:102386196">Curio<addName type="display">Curio, Gaius Scribonius (Filius)</addName>
+            <addName>Gaius Scribonius Curio</addName>
+            <addName>Scribonius Curio, Gaius Filius</addName>
+            <addName>Scribonius Curio</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pompeius Magnus, Gnaeus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00396166</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00396166"
+                   key="#PND:118595636">Pompejus<addName type="display">Pompeius Magnus, Gnaeus</addName>
+            <addName>Gnaeus Pompeius Magnus</addName>
+            <addName>Magnus</addName>
+            <addName>Pompée le Grand</addName>
+            <addName>Pompée</addName>
+            <addName>Pompeius</addName>
+            <addName>Gnaeus Pompeius</addName>
+            <addName>Pompeius, Gnaeus Magnus</addName>
+            <addName>Pompejus der Grosse</addName>
+            <addName>Pompejus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Palladio, Andrea</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01238124</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01238124"
+                   key="#PND:118591355">Palladio<addName type="display">Palladio, Andrea</addName>
+            <addName>Andrea Palladio</addName>
+            <addName>Andrea di Pietro</addName>
+            <addName>Andrea Di Pietro</addName>
+            <addName>Di Pietro</addName>
+            <addName>Andrea DiPietro</addName>
+            <addName>DiPietro</addName>
+            <addName>Andrea Paladio</addName>
+            <addName>Paladio</addName>
+            <addName>Andres Paladio</addName>
+            <addName>André Paladio</addName>
+            <addName>André Paladio</addName>
+            <addName>Andreas Paladius</addName>
+            <addName>Paladius</addName>
+            <addName>A Palladio</addName>
+            <addName>A. Palladio</addName>
+            <addName>Palladio, A. Andrea</addName>
+            <addName>Palladio, Andrea 1508-1580</addName>
+            <addName>André Palladio</addName>
+            <addName>André Palladio</addName>
+            <addName>Andrés Palladio</addName>
+            <addName>Palladio, Andrea/Paladius, Andreas</addName>
+            <addName>Andreas Palladius</addName>
+            <addName>Palladius</addName>
+            <addName>Pietro</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

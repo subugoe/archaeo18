@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-357.tei.xml-d12693e28">M. Auge</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Mose (Biblische Person)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00575574</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00575574"
+                       key="#PND:118641190">Moses<addName type="display">Mose (Biblische Person)</addName>
+            <addName>Moïse</addName>
+            <addName>Moses</addName>
+            <addName>Moyses</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Giambologna</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00397992</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00397992"
+                       key="#PND:118678477">Giovani di Bologna<addName type="display">Giambologna</addName>
+            <addName>Jos. de Bologna</addName>
+            <addName>de Bologna</addName>
+            <addName>Giovanni Bologna Fiammingo</addName>
+            <addName>Bologna Fiammingo</addName>
+            <addName>Giovanni da Bologna</addName>
+            <addName>Bologna</addName>
+            <addName>Joannes Bologna</addName>
+            <addName>Johannes Bologna</addName>
+            <addName>Jean Bologne</addName>
+            <addName>Bologne</addName>
+            <addName>Jean Boullongne</addName>
+            <addName>Boullongne</addName>
+            <addName>Jehan Boullongne</addName>
+            <addName>Jean Boulogne</addName>
+            <addName>Boulogne</addName>
+            <addName>Jean Boulongne</addName>
+            <addName>Boulongne</addName>
+            <addName>Giovanni Da Bologna</addName>
+            <addName>Da Bologna</addName>
+            <addName>Giovanni DaBologna</addName>
+            <addName>DaBologna</addName>
+            <addName>Fiammingo</addName>
+            <addName>Giambologa</addName>
+            <addName>Gian Bologna</addName>
+            <addName>Giovanni</addName>
+            <addName>Giovanni da Bolognese</addName>
+            <addName>Jean</addName>
+            <addName>Jean de Boulogne</addName>
+            <addName>John of Boulogne</addName>
+            <addName>John</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Herakles</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00574918</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00574918"
+                       key="#PND:118639552">Herkules<addName type="display">Herakles</addName>
+            <addName>Ercole</addName>
+            <addName>Heracles</addName>
+            <addName>Hercules</addName>
+            <addName>Herkules</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Di Credi, Lorenzo</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01379429</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01379429"
+                       key="#PND:119248506">Lorenzo di Crete<addName type="display">Di Credi, Lorenzo</addName>
+            <addName>Lorenzo Di Credi</addName>
+            <addName>Lorenzo D'Oderigo</addName>
+            <addName>D'Oderigo</addName>
+            <addName>Lorenzo d' Andrea D'Oderigo</addName>
+            <addName>Andrea D'Oderigo</addName>
+            <addName>Lorenzo Barducci</addName>
+            <addName>Barducci</addName>
+            <addName>Credi</addName>
+            <addName>Lorenzo D'Andrea D'Oderigo di Credi</addName>
+            <addName>Lorenzo DiCredi</addName>
+            <addName>DiCredi</addName>
+            <addName>Lorenzo d'Andrea d'Oderigo</addName>
+            <addName>Lorenzo D'Andrea d' Oderigo</addName>
+            <addName>Oderigo</addName>
+            <addName>Lorenzo Sciarpelloni</addName>
+            <addName>Sciarpelloni</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Raphaël</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01270961</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01270961"
+                       key="#PND:118597787">Raphael<addName type="display">Raphaël</addName>
+            <addName>Raffael</addName>
+            <addName>Raphael Urbinas</addName>
+            <addName>Raffaello Santi</addName>
+            <addName>Santi</addName>
+            <addName>Sanzio</addName>
+            <addName>Urbinas</addName>
+            <addName>Rafael de Urbino 1483-1520</addName>
+            <addName>Rafael von Urbino</addName>
+            <addName>Rafaele d'Urbino</addName>
+            <addName>Rafaele</addName>
+            <addName>Rafaello 1483-1520</addName>
+            <addName>Rafaello</addName>
+            <addName>Raffael Santi</addName>
+            <addName>Raffaele Sanzio</addName>
+            <addName>Raffaele</addName>
+            <addName>Raffaelle di Vrbino</addName>
+            <addName>Raffaelle 1483-1520</addName>
+            <addName>Raffaelle</addName>
+            <addName>Raffaelle d'Urbino 1483-1520</addName>
+            <addName>Raffaello Sanzio 1483-1520</addName>
+            <addName>Raffaello 1483-1520</addName>
+            <addName>Raffaello da Urbino</addName>
+            <addName>Raffaello da Urbino 1483-1520</addName>
+            <addName>Raffaello di Urbino</addName>
+            <addName>Raffaello d'Urbino</addName>
+            <addName>Raffaelo Santi</addName>
+            <addName>Raffaelo</addName>
+            <addName>Raffaelo Sanzio</addName>
+            <addName>Raph. Sanctius</addName>
+            <addName>Raph.</addName>
+            <addName>Raphaël d'Urbine</addName>
+            <addName>Raphael</addName>
+            <addName>Raphael 1483-1520</addName>
+            <addName>Raphael di Urbino</addName>
+            <addName>Raphael Pictor</addName>
+            <addName>Raphael Sanctius Urbinas</addName>
+            <addName>Raphael Sanctus</addName>
+            <addName>Raphael Santius Urbinas</addName>
+            <addName>Raphael Sanzio</addName>
+            <addName>Raphael Urbin</addName>
+            <addName>Raphael Urbino</addName>
+            <addName>Raphael Urbinus</addName>
+            <addName>Raphael von Urbino</addName>
+            <addName>Raphaello</addName>
+            <addName>Raphael Sancius</addName>
+            <addName>Sancius, Raphael 1483-1520</addName>
+            <addName>Sancius</addName>
+            <addName>Sanctius</addName>
+            <addName>Sanctius, Raph. 1483-1520</addName>
+            <addName>Sanctius Urbinus</addName>
+            <addName>Raffaello Santius</addName>
+            <addName>Santius</addName>
+            <addName>Raphael Santius</addName>
+            <addName>Raffaello Sanzi</addName>
+            <addName>Sanzi</addName>
+            <addName>Rafael Sanzio</addName>
+            <addName>Sanzio, Rafael 1483-1520</addName>
+            <addName>Sanzio, Raffaello 1483-1520</addName>
+            <addName>Rafael Urbinas</addName>
+            <addName>Urbinas, Rafael 1483-1520</addName>
+            <addName>Raphael S. Urbinas</addName>
+            <addName>Rafael Urbino</addName>
+            <addName>Urbino, Rafael 1483-1520</addName>
+            <addName>Urbino</addName>
+            <addName>Raf. Vrb</addName>
+            <addName>Vrb, Raf. 1483-1520</addName>
+            <addName>Vrb</addName>
+            <addName>R. Vrbinas</addName>
+            <addName>Vrbinas, R. 1483-1520</addName>
+            <addName>Vrbinas</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Ligorio, Pirro</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00947112</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00947112"
+                       key="#PND:118779966">Petro Ligorio.<addName type="display">Ligorio, Pirro</addName>
+            <addName>Pirro Ligorio</addName>
+            <addName>Pietro Licorio</addName>
+            <addName>Licorio</addName>
+            <addName>Pyrrho Ligori</addName>
+            <addName>Ligori</addName>
+            <addName>Pyrrhus Ligorius</addName>
+            <addName>Ligorius</addName>
+            <addName>Pirro Ligori</addName>
+            <addName>Pyrrho Ligorio</addName>
+            <addName>Ligorio, Pirro/Liguori, Pirro</addName>
+            <addName>Ligorius</addName>
+            <addName>Pyrrhus Neapolitanus Ligorius</addName>
+            <addName>Liguori</addName>
+            <addName>Pirro Liguori</addName>
+            <addName>Pyrrho Ligori napolitano</addName>
+            <addName>Pyrrhus Ligorius Neap.</addName>
+            <addName>Pyrrus Ligorius Neap.</addName>
+            <addName>Pyrrus Ligorius</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pau (papa, 1476-1559)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01238318</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01238318"
+                       key="#PND:118789899">Paul IV.<addName type="display">Pau (papa, 1476-1559)</addName>
+            <addName>Papst Paulus IV.</addName>
+            <addName>Gian P. Carafa</addName>
+            <addName>Carafa</addName>
+            <addName>Gian Pietro Carafa</addName>
+            <addName>Giovanni Pietro Carafa</addName>
+            <addName>Carafa, Giovanni Pietro 1476-1559</addName>
+            <addName>Giampietro Caraffa</addName>
+            <addName>Caraffa</addName>
+            <addName>Gian Pietro Caraffa</addName>
+            <addName>Giovanni P. Caraffa</addName>
+            <addName>Giovanni Pietro Caraffa</addName>
+            <addName>Johannes Petrus Caraffa</addName>
+            <addName>Johannes P. Carapha</addName>
+            <addName>Carapha</addName>
+            <addName>Johannes Petrus Carapha</addName>
+            <addName>Giovanni P. Carrafa</addName>
+            <addName>Carrafa</addName>
+            <addName>Giovanni Pietro Carrafa</addName>
+            <addName>Paolo IV</addName>
+            <addName>pope Paul IV</addName>
+            <addName>Paul IV</addName>
+            <addName>Paulus IIII</addName>
+            <addName>Paulus IV</addName>
+            <addName>Paulus papa IIII</addName>
+            <addName>Paulus papa quartus</addName>
+            <addName>IV Paulus papa</addName>
+            <addName>Paulus papa</addName>
+            <addName>Paulus quartus</addName>
+            <addName>Paulus Bapst, IIII.</addName>
+            <addName>Paulus IV papa 1476-1559</addName>
+            <addName>Paulus Papst, IV.</addName>
+            <addName>Paulus Paus, IV</addName>
+            <addName>Paulus Pontifex Maximus, IV.</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Felici, Vincenzo</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00806469</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00806469"
+                       key="#PND:131498541">Vincentzio Felici<addName type="display">Felici, Vincenzo</addName>
+            <addName>Vincenzo Felici</addName>
+            <addName>Vincenzo Felice</addName>
+            <addName>Felice</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

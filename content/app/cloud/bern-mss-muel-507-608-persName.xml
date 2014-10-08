@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Polygnotus (Thasius)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00554467</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00554467"
+                       key="#PND:119385198">Polignotus<addName type="display">Polygnotus (Thasius)</addName>
+            <addName>Polignoto di Taso</addName>
+            <addName>Polignoto</addName>
+            <addName>Polygnot von Thasos</addName>
+            <addName>Polygnot</addName>
+            <addName>Polygnotos Maler</addName>
+            <addName>Polygnotos</addName>
+            <addName>Polygnotos Sohn des Aglaophon</addName>
+            <addName>Polygnotos von Thasos</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pausias</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300362</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300362">Bausias<addName type="display">Pausias</addName>
+            <addName>Parsias</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

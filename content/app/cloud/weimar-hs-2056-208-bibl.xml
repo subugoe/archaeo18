@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>P. Pe- drusi i. Caesarei X. Tom.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://catalog.hathitrust.org/Search/Home?lookfor=%22Pedrusi,%20Paolo,%20%28S.I.%29%22&amp;type=author&amp;inst=all</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://catalog.hathitrust.org/Search/Home?lookfor=%22Pedrusi,%20Paolo,%20%28S.I.%29%22&amp;type=author&amp;inst=all">P. Pe- 
+                                    drusi i. Caesarei X. Tom.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Giovine:</tag>
+      <facet>tei:bibl</facet>
+      <link>http://catalog.hathitrust.org/Search/Home?type[]=all&amp;lookfor[]=Piovene%2C%20Pietro&amp;filter[]=publishDateRange%3A1700-1799&amp;use_dismax=1</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://catalog.hathitrust.org/Search/Home?type[]=all&amp;lookfor[]=Piovene%2C%20Pietro&amp;filter[]=publishDateRange%3A1700-1799&amp;use_dismax=1">Giovine:</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Lettres from. a painter I. 95.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://opac.sub.uni-goettingen.de/DB=1/PPNSET?PPN=316646164</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://opac.sub.uni-goettingen.de/DB=1/PPNSET?PPN=316646164">Lettres from. a painter 
+                                    I. 95.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Lande VI. 167.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://reader.digitale-sammlungen.de/de/fs1/object/display/bsb10467255_00173.html</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://reader.digitale-sammlungen.de/de/fs1/object/display/bsb10467255_00173.html">Lande VI. 167.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>es ist 1756. in Kupfer herausgekommen.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN68013316X</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN68013316X">es ist 1756. 
+                                    in Kupfer herausgekommen.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Wright Travels p. 60.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://hdl.handle.net/2027/uc2.ark:/13960/t20c56q5b?urlappend=%3Bseq=86</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://hdl.handle.net/2027/uc2.ark:/13960/t20c56q5b?urlappend=%3Bseq=86">Wright Travels p. 60.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Nugent. III. 76.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://reader.digitale-sammlungen.de/de/fs1/object/display/bsb10469553_00084.html</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://reader.digitale-sammlungen.de/de/fs1/object/display/bsb10469553_00084.html">Nugent. III. 76.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+</tags>

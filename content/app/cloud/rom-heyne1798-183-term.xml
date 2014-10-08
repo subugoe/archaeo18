@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:150792 http://arachne.uni-koeln.de/item/bauwerk/2100160</link>
+      <count>4</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:150792 #http://arachne.uni-koeln.de/item/bauwerk/2100160">Flavium</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Caligula (Imperium Romanum, Imperator)</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/rom-heyne1798-183.tei.xml-d17351e315">Coloß des <persName ref="#CerlID:cnp00984012" key="#PND:118518410">Caligula<addName type="display">Caligula (Imperium Romanum, Imperator)</addName>
+               <addName>Gaius Iulius Caligula Caesar Germanicus</addName>
+               <addName>Caesar Germanicus</addName>
+               <addName>Gaius Caligula Iulius Caesar Germanicus</addName>
+               <addName>Caligula Iulius Caesar Germanicus</addName>
+               <addName>Caius Caligula</addName>
+               <addName>Gaius Caligula</addName>
+               <addName>Caligula Römischer Kaiser</addName>
+               <addName>Gaius Iulius Caesar Germanicus</addName>
+               <addName>Germanicus</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Verona</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:154672 http://arachne.uni-koeln.de/item/bauwerk/2108257</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:154672 #http://arachne.uni-koeln.de/item/bauwerk/2108257">Amphitheater zu <placeName ref="#GettyID:7003262">Verona<addName type="display">Verona</addName>
+               <addName>Verona</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pula</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:155161 http://arachne.uni-koeln.de/item/bauwerk/2108219</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:155161 #http://arachne.uni-koeln.de/item/bauwerk/2108219">Das zu <placeName ref="#GettyID:7015562">Pola<addName type="display">Pula</addName>
+               <addName>Pula</addName>
+               <addName>Pola</addName>
+               <addName>Pulj</addName>
+               <addName>Pietas Julia</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Nîmes</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:155573 http://arachne.uni-koeln.de/item/bauwerk/2108259</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:155573 #http://arachne.uni-koeln.de/item/bauwerk/2108259">Ruinen
+                            zu <placeName ref="#GettyID:7008371">Nimes<addName type="display">Nîmes</addName>
+               <addName>Nîmes</addName>
+               <addName>Nimes</addName>
+               <addName>Nismes</addName>
+               <addName>Nemausus</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+</tags>

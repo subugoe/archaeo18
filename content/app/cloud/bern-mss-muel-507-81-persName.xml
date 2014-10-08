@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Prussia</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01261252</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01261252">König von <TEI:placeName ref="#GettyID:7016786">Preußen<addName type="display">Prussia</addName>
+               <addName>Prussia</addName>
+               <addName>Preussen</addName>
+               <addName>Prusse</addName>
+               <addName>Prussian</addName>
+            </TEI:placeName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Carafa, Giovanni</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00366236</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00366236"
+                       key="#PND:104311312">Herzog Caraffa<addName type="display">Carafa, Giovanni</addName>
+            <addName>Giovanni Carafa</addName>
+            <addName>Caraffa. Noja Duca</addName>
+            <addName>Caraffa. Noja</addName>
+            <addName>Giovanni Carafa Noja</addName>
+            <addName>Noja, Giovanni Carafa duc de</addName>
+            <addName>Noja</addName>
+            <addName>Giovanni Caraffa</addName>
+            <addName>Caraffa</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>NapoliFerdinand (Neapel, König, IV.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00876665</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00876665"
+                       key="#PND:11895363X">König v. <TEI:placeName ref="#GettyID:7004474">Neapel<addName type="display">Napoli</addName>
+               <addName>Napoli</addName>
+               <addName>Nápoles</addName>
+               <addName>Naples</addName>
+               <addName>Neapel</addName>
+               <addName>Neapolis</addName>
+               <addName>Parthenope</addName>
+            </TEI:placeName>
+            <addName type="display">Ferdinand (Neapel, König, IV.)</addName>
+            <addName>Ferdinand von Bourbon</addName>
+            <addName>Bourbon, Ferdinand von 1751-1825</addName>
+            <addName>Bourbon</addName>
+            <addName>Ferdinand beider Sizilien, König, I.</addName>
+            <addName>Ferdinand Beider Sizilien, König, I.</addName>
+            <addName>Ferdinand I,  King of the Two Sicilies,  1751-1825</addName>
+            <addName>Ferdinand Neapel, König, IV.</addName>
+            <addName>Ferdinand Neapel, König, I., 1751-1825</addName>
+            <addName>Ferdinand Sizilien, König, I.</addName>
+            <addName>Ferdinand Sizilien, König, IV.</addName>
+            <addName>Ferdinand Two Sicilies, King, I.</addName>
+            <addName>Ferdinando di Borbone</addName>
+            <addName>Ferdinando Due Sicilie, Re, I.</addName>
+            <addName>Ferdinando Due Sicilie, Re, VI.</addName>
+            <addName>Ferdinando Sicilia, Re, I.</addName>
+            <addName>Ferdinando Sicilia, Re, III.</addName>
+            <addName>Ferdinando Sicilia, Re, IV.</addName>
+            <addName>Ferdinandus Sicilia, Rex, IV.</addName>
+            <addName>Ferdinandus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Gori, Antonio Francesco</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00402479</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00402479"
+                       key="#PND:118964925">Gori<addName type="display">Gori, Antonio Francesco</addName>
+            <addName>Antonio Francesco Gori</addName>
+            <addName>A. F. Gori</addName>
+            <addName>Adame François Gori</addName>
+            <addName>Adame François Gori</addName>
+            <addName>Ant. Francesco Gori</addName>
+            <addName>Antoine François Gori</addName>
+            <addName>Antoine François Gori</addName>
+            <addName>Anton Francesco Gori</addName>
+            <addName>Anton Franz Gori</addName>
+            <addName>Antonius Franc. Gori</addName>
+            <addName>Antonio Francisco Gorius</addName>
+            <addName>Gorius</addName>
+            <addName>Antonius Gorius</addName>
+            <addName>Antonius Franciscus Gorius</addName>
+            <addName>Antonius Franciscus Gorus</addName>
+            <addName>Gorus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

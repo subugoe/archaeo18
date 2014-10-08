@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Apollon</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:150779 http://arachne.uni-koeln.de/item/objekt/19437</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:150779 #http://arachne.uni-koeln.de/item/objekt/19437">
+            <persName ref="#CerlID:cnp00542641" key="#PND:118503642">Apoll<addName type="display">Apollon</addName>
+               <addName>Apoll</addName>
+               <addName>Apollo</addName>
+               <addName>Phoebus</addName>
+            </persName> im Bellvedere</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Herakles</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:156663 http://arachne.uni-koeln.de/item/objekt/23288</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:156663 #http://arachne.uni-koeln.de/item/objekt/23288">Farnesishen <persName ref="#CerlID:cnp00574918" key="#PND:118639552">Hercules<addName type="display">Herakles</addName>
+               <addName>Ercole</addName>
+               <addName>Heracles</addName>
+               <addName>Hercules</addName>
+               <addName>Herkules</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Bacchus</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-355.tei.xml-d16133e316">
+            <persName ref="#CerlID:cnp00579062" key="#PND:118651439">Bachus<addName type="display">Bacchus</addName>
+            </persName> mit dem 
+                                             Panther</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Laokoon</tag>
+      <facet>tei:term</facet>
+      <link>CensusID:219823 http://arachne.uni-koeln.de/item/gruppen/400123</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:219823 #http://arachne.uni-koeln.de/item/gruppen/400123">
+            <persName ref="#CerlID:cnp00556829" key="#PND:118569651">Laokoon<addName type="display">Laokoon</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Habsburg, Maria Theresia ¬von¬</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-355.tei.xml-d16133e430">
+            <persName ref="#CerlID:cnp00929370" key="#PND:118577867">Kayßerin Maria 
+                                             Theresia<addName type="display">Habsburg, Maria Theresia ¬von¬</addName>
+               <addName>Maria Theresia von Habsburg</addName>
+               <addName>Maria Teresa d'Asburgo, Empress of Austria</addName>
+               <addName>Maria Teresa</addName>
+               <addName>Maria Theresia Böhmen, Königin</addName>
+               <addName>Maria Theresia Empress of Austria</addName>
+               <addName>Maria Theresia Imperatrice</addName>
+               <addName>Maria Theresia Österreich, Königin</addName>
+               <addName>Maria Theresia Römisch-Deutsches Reich, Kaiserin</addName>
+               <addName>Maria Theresia Ungarn, Königin</addName>
+               <addName>Maria Theresia Österreich, Erzherzogin</addName>
+               <addName>Maria Theresia Österreich, Kaiserin</addName>
+               <addName>Theresia Augustissima</addName>
+               <addName>Theresia</addName>
+               <addName>Theresia Ungarn, Königin</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Benoît (XIV, pape)</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-355.tei.xml-d16133e474">
+            <persName ref="#CerlID:cnp00397457" key="#PND:118655434">Benedictum XIV.<addName type="display">Benoît (XIV, pape)</addName>
+               <addName>XIV Benedictus</addName>
+               <addName>Benedetto XIV pape</addName>
+               <addName>Benedetto</addName>
+               <addName>Benedictus XIV pape</addName>
+               <addName>Prospero Lambertini</addName>
+               <addName>Lambertini</addName>
+               <addName>Bénoit Pontife, XIV.</addName>
+               <addName>Bénoit</addName>
+               <addName>Bénoit XIV.</addName>
+               <addName>Bénoit XIV.</addName>
+               <addName>Bénoit</addName>
+               <addName>XIV Benedetto</addName>
+               <addName>Benedetto, XIV 14 paus</addName>
+               <addName>Benedetto Papa, XIV.</addName>
+               <addName>Benedict Papa, XIV.</addName>
+               <addName>Benedict</addName>
+               <addName>Benedictus Papa, XIV</addName>
+               <addName>Benedictus XIV.</addName>
+               <addName>Benedikt Papa, XIV.</addName>
+               <addName>Benedito Papa, XIV.</addName>
+               <addName>Benedito</addName>
+               <addName>XIV=14 Benoît</addName>
+               <addName>Benoît Pape, XIV.</addName>
+               <addName>Benoît</addName>
+               <addName>Benoit Pape, XIV.</addName>
+               <addName>Benoit</addName>
+               <addName>Benoit Pope, XIV.</addName>
+               <addName>Prosper Lambertini</addName>
+               <addName>Prospero L. Lambertini</addName>
+               <addName>Prosperus Lambertinus</addName>
+               <addName>Lambertinus</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Petrus (Apostel)Paulus (Apostel)</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-355.tei.xml-d16133e552">Köpfe <persName ref="#CerlID:cnp00396091" key="#PND:118593323">Petri<addName type="display">Petrus (Apostel)</addName>
+               <addName>Peter the Apostle, Saint</addName>
+               <addName>Peter</addName>
+               <addName>Piotr święty</addName>
+               <addName>Piotr</addName>
+               <addName>Kefas</addName>
+               <addName>Kephas</addName>
+               <addName>Kēfā Apostolus</addName>
+               <addName>Kēfā</addName>
+               <addName>Kēfā Apostolus</addName>
+               <addName>Kēfā</addName>
+               <addName>Petros Apostel</addName>
+               <addName>Petros</addName>
+               <addName>Petros Apostolos</addName>
+               <addName>Petros Aṙak'yal</addName>
+               <addName>Petros Märtyrer</addName>
+               <addName>Petros Märtyrer</addName>
+               <addName>Petros der Fels</addName>
+               <addName>Petrus Bischof</addName>
+               <addName>Petrus Papa</addName>
+               <addName>Petrus Papa, I.</addName>
+               <addName>Petrus Papst</addName>
+               <addName>Petrus Sanctus</addName>
+               <addName>Pierre Apôtre</addName>
+               <addName>Pierre</addName>
+               <addName>Pierre Apôtre</addName>
+               <addName>Pierre Saint</addName>
+               <addName>Pseudo-Petrus Apostel</addName>
+               <addName>Pseudo-Petrus</addName>
+               <addName>Pseudo-Petrus Apostolus</addName>
+               <addName>Simon Kefas</addName>
+               <addName>Simon</addName>
+               <addName>Simon Kephas</addName>
+               <addName>Simon Petrus</addName>
+            </persName> und <persName ref="#CerlID:cnp01266644" key="#PND:118641549">Pauli<addName type="display">Paulus (Apostel)</addName>
+               <addName>Šāûĺ Apostolus</addName>
+               <addName>Šāûĺ</addName>
+               <addName>Pablo San</addName>
+               <addName>Pablo</addName>
+               <addName>Paolo di Tarso</addName>
+               <addName>Paolo</addName>
+               <addName>Paolo S.</addName>
+               <addName>Paul Apôtre</addName>
+               <addName>Paul</addName>
+               <addName>Paul Apostle</addName>
+               <addName>Paul de Tarse</addName>
+               <addName>Paul Saint</addName>
+               <addName>Paul St.</addName>
+               <addName>Paullus</addName>
+               <addName>Paulos</addName>
+               <addName>Paulus Apostolus, Pseudo-</addName>
+               <addName>Paulus Apostulus</addName>
+               <addName>Paulus Divus</addName>
+               <addName>Paulus Sanctus</addName>
+               <addName>Paulus Sardensis</addName>
+               <addName>Paulus St.</addName>
+               <addName>Paulus Theologe</addName>
+               <addName>Paulus von Tarsos</addName>
+               <addName>Paulus von Tarsus</addName>
+               <addName>Pavel Apostol</addName>
+               <addName>Pavel</addName>
+               <addName>Pavel Svatý</addName>
+               <addName>Pawel Swatý</addName>
+               <addName>Pawel</addName>
+               <addName>Phòil</addName>
+               <addName>Pól Aspal</addName>
+               <addName>Pól</addName>
+               <addName>Pseudo-Paulus Apostel</addName>
+               <addName>Pseudo-Paulus</addName>
+               <addName>Pseudo-Paulus Apostolus</addName>
+               <addName>Saulus</addName>
+               <addName>Saulus Apostolus</addName>
+               <addName>Saulus van Tarsis</addName>
+               <addName>Saulus van Tarsus</addName>
+               <addName>Saulus von Tarsus</addName>
+               <addName>Šā{́}ul Apostolus</addName>
+               <addName>Šā{́}ul</addName>
+               <addName>Tarsus</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Antinous</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-355.tei.xml-d16133e737">
+            <persName ref="#CerlID:cnp00578329" key="#PND:118649639">Antinous<addName type="display">Antinous</addName>
+               <addName>Antinoos</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Medusa</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-355.tei.xml-d16133e750">
+            <persName ref="#CerlID:cnp00543010" key="#PND:118943936">Me- 
+                                             dusa Strozzi<addName type="display">Medusa</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+</tags>

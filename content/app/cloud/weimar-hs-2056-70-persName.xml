@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Louis XVI. König von Frankreich</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01260993</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01260993"
+                   key="#PND:118574949 118574949">Ludwig XVI.<addName type="display">Louis XVI. König von Frankreich</addName>
+            <addName>Louis Capet</addName>
+            <addName>Capet</addName>
+            <addName>Lewis XVI.</addName>
+            <addName>Lewis Frankreich, König, XVI.</addName>
+            <addName>Lewis</addName>
+            <addName>Lewis XVI King of France</addName>
+            <addName>Lodewĳk XVI</addName>
+            <addName>Lodewĳk</addName>
+            <addName>Lodewijk XVI.</addName>
+            <addName>Lodewyk XVI</addName>
+            <addName>Lodewyk</addName>
+            <addName>Lodewyk XVI.</addName>
+            <addName>Louis Auguste France, Dauphin</addName>
+            <addName>Louis Auguste</addName>
+            <addName>Louis Seize</addName>
+            <addName>Louis XVI.</addName>
+            <addName>Louis XVI. Roi de France</addName>
+            <addName>Louis Duc, Berry</addName>
+            <addName>Louis France, Dauphin</addName>
+            <addName>Loys France,Roy, XVI.</addName>
+            <addName>Loys</addName>
+            <addName>Ludovicus Frankreich, König, XVI.</addName>
+            <addName>Ludovicus</addName>
+            <addName>Ludovicus XVI</addName>
+            <addName>Ludwig XVI. König von Frankreich</addName>
+            <addName>Ludwig Frankreich, König, XVI.</addName>
+            <addName>Ludwig</addName>
+            <addName>Ludwig XVI.</addName>
+            <addName>Luigi Francia, re, XVI.</addName>
+            <addName>Luigi</addName>
+            <addName>Luwīs</addName>
+            <addName>Luwīs al-Sādis ʿašr</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

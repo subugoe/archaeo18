@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/berlin-ms-germ-qrt-1666-239.tei.xml-d20361e43">Accardi</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>La Valette, Jean Parisot ¬de¬</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00382003</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00382003"
+                       key="#PND:115791361">Vallecta<addName type="display">La Valette, Jean Parisot ¬de¬</addName>
+            <addName>Jean Parisot de La Valette</addName>
+            <addName>Jean La Valette</addName>
+            <addName>Jean-Parisot de La Valette</addName>
+            <addName>La Valette Jean</addName>
+            <addName>Jean LaValette</addName>
+            <addName>LaValette</addName>
+            <addName>Jean Parisot de LaValette</addName>
+            <addName>Jean-Parisot de LaValette</addName>
+            <addName>Jean Parisot de Lavalette</addName>
+            <addName>Lavalette</addName>
+            <addName>Ioannes de Valeta</addName>
+            <addName>Valeta</addName>
+            <addName>Ioannes Valetta</addName>
+            <addName>Valetta</addName>
+            <addName>Johannes Valetta</addName>
+            <addName>Jean de la Valette</addName>
+            <addName>Valette</addName>
+            <addName>Jean Parisot de la Valette</addName>
+            <addName>Jean-Parisot de la Valette</addName>
+            <addName>Jean de la Valette-Parisot</addName>
+            <addName>Valette-Parisot</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/berlin-ms-germ-qrt-1666-239.tei.xml-d20361e104">Ballieti</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Le Menestrier, Jean Baptiste</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01206186</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01206186"
+                       key="#PND:140246002">Menestrier<addName type="display">Le Menestrier, Jean Baptiste</addName>
+            <addName>Jean Baptiste Le Menestrier</addName>
+            <addName>Jean Baptiste LeMenestrier</addName>
+            <addName>Jean B. Le Menestrier</addName>
+            <addName>Jean-Baptiste Le Menestrier</addName>
+            <addName>Jean B. LeMenestrier</addName>
+            <addName>Jean-Baptiste LeMenestrier</addName>
+            <addName>Jean Baptiste Menestrier</addName>
+            <addName>Menestrier</addName>
+            <addName>Jean Baptiste le Menestrier</addName>
+            <addName>Jean-Baptiste le Menestrier</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Vitruvius Pollio</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00396803</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00396803"
+                       key="#PND:118627252">Vitruv<addName type="display">Vitruvius Pollio</addName>
+            <addName>Marcus Vitruvius Pollio</addName>
+            <addName>M. Vitruuius Pollio</addName>
+            <addName>M. Vitruuius</addName>
+            <addName>M.L. Vitruuius Pollio</addName>
+            <addName>M.L. Vitruvio Pollione</addName>
+            <addName>Marco Lucio Vitruvio Pollione</addName>
+            <addName>Marcus V. Pollio</addName>
+            <addName>Pollio</addName>
+            <addName>Marc V. Pollion</addName>
+            <addName>Pollion</addName>
+            <addName>Marco Vitrubio</addName>
+            <addName>Vitrubio</addName>
+            <addName>Vitrue</addName>
+            <addName>Vitruuius</addName>
+            <addName>Vitruv</addName>
+            <addName>Marc Vitruv Pollion</addName>
+            <addName>Vitruv Pollion</addName>
+            <addName>Marc Vitruve Pollion</addName>
+            <addName>Vitruve Pollion</addName>
+            <addName>Vitruve</addName>
+            <addName>Vitruve de Formies</addName>
+            <addName>Vitruve de Vérone</addName>
+            <addName>Vitruve de Vérone</addName>
+            <addName>Vitruvio</addName>
+            <addName>Marcus Vitruvio Polion</addName>
+            <addName>Vitruvio Polion</addName>
+            <addName>Lucio Vitruvio Pollione</addName>
+            <addName>Vitruvio Pollione</addName>
+            <addName>Marco Vitruvio Pollione</addName>
+            <addName>Marco L. Vitruvio Pollione</addName>
+            <addName>M. Vitruvio</addName>
+            <addName>Marco Vitruvio</addName>
+            <addName>Vitruvio/Vitruvius Pollio</addName>
+            <addName>Lucius Vitruvius Pollio</addName>
+            <addName>M. Vitruvius Pollio</addName>
+            <addName>Marcus Vitruvius</addName>
+            <addName>Marcus P. Vitruvius</addName>
+            <addName>Marcus Pollio Vitruvius</addName>
+            <addName>Pollio Vitruvius</addName>
+            <addName>Vitruvius Architekt</addName>
+            <addName>Vitruvius Ingenieur</addName>
+            <addName>Vitruvius Scriptor de Architectura</addName>
+            <addName>Vitruvius Writer on Architecture</addName>
+            <addName>Marcus Vitruvius-Pollio</addName>
+            <addName>Vitruvius-Pollio</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Palladio, Andrea</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01238124</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01238124"
+                       key="#PND:118591355">Palladio<addName type="display">Palladio, Andrea</addName>
+            <addName>Andrea Palladio</addName>
+            <addName>Andrea di Pietro</addName>
+            <addName>Andrea Di Pietro</addName>
+            <addName>Di Pietro</addName>
+            <addName>Andrea DiPietro</addName>
+            <addName>DiPietro</addName>
+            <addName>Andrea Paladio</addName>
+            <addName>Paladio</addName>
+            <addName>Andres Paladio</addName>
+            <addName>André Paladio</addName>
+            <addName>André Paladio</addName>
+            <addName>Andreas Paladius</addName>
+            <addName>Paladius</addName>
+            <addName>A Palladio</addName>
+            <addName>A. Palladio</addName>
+            <addName>Palladio, A. Andrea</addName>
+            <addName>Palladio, Andrea 1508-1580</addName>
+            <addName>André Palladio</addName>
+            <addName>André Palladio</addName>
+            <addName>Andrés Palladio</addName>
+            <addName>Palladio, Andrea/Paladius, Andreas</addName>
+            <addName>Andreas Palladius</addName>
+            <addName>Palladius</addName>
+            <addName>Pietro</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Augustus (Emperor of Rome)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00971385</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00971385"
+                       key="#PND:118505122">August<addName type="display">Augustus (Emperor of Rome)</addName>
+            <addName>Auguste Empereur</addName>
+            <addName>Auguste</addName>
+            <addName>Caio Giulio Cesare Ottaviano Augusto</addName>
+            <addName>Augusto</addName>
+            <addName>Cesare Augusto</addName>
+            <addName>Cesare Ottaviano Augusto</addName>
+            <addName>Ottaviano Augusto</addName>
+            <addName>Augustus Caesar</addName>
+            <addName>Caesar Augustus</addName>
+            <addName>Caesar Octavianus Augustus</addName>
+            <addName>Caius J. Augustus</addName>
+            <addName>Caius Julius Caesar Augustus</addName>
+            <addName>Cesar Octavianus Augustus</addName>
+            <addName>Gaius I. Augustus</addName>
+            <addName>Gaius Iulius Caesar Augustus</addName>
+            <addName>Gaius Iulius Caesar Octavianus Augustus</addName>
+            <addName>Gaius Julius Augustus</addName>
+            <addName>Gaius Julius Caesar Octavianus Augustus</addName>
+            <addName>Gaius Octavius Augustus</addName>
+            <addName>Iulius Caesar Octavianus Augustus</addName>
+            <addName>Octavianus Augustus</addName>
+            <addName>Octavius Caesar Augustus</addName>
+            <addName>Augustus Divus</addName>
+            <addName>Augustus Imperator</addName>
+            <addName>Augustus Imperium Romanum, Caesar</addName>
+            <addName>Augustus Kaiser</addName>
+            <addName>Augustus Römisches Reich, Kaiser</addName>
+            <addName>Augustus Roemisches Reich, Kaiser</addName>
+            <addName>Augustus Romanus</addName>
+            <addName>Augustus Verfasser der Res Gestae</addName>
+            <addName>Caius Octavianus Imperium Romanum, Imperator</addName>
+            <addName>Caius Octavianus</addName>
+            <addName>Caius Oktavius Imperium Romanum, Augustus</addName>
+            <addName>Caius Oktavius</addName>
+            <addName>Caius Oktavius Imperium Romanum, Imperator</addName>
+            <addName>Gaius Julius Caesar Octavianus</addName>
+            <addName>Gaius Octavius</addName>
+            <addName>Gaius Octavius Emperor of Rome</addName>
+            <addName>Octavian</addName>
+            <addName>Octavianus</addName>
+            <addName>Octavius</addName>
+            <addName>Octavius Caesar Emperor of Rome</addName>
+            <addName>Octavius Caesar</addName>
+            <addName>Octavius Augustus</addName>
+            <addName>Ottaviano</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/berlin-ms-germ-qrt-1666-239.tei.xml-d20361e561">Statilius Tauraus</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Vespasian (Römisches Reich, Kaiser)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00984011</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00984011"
+                       key="#PND:11862671X">vespasians<addName type="display">Vespasian (Römisches Reich, Kaiser)</addName>
+            <addName>Titus Flavius Vespasianus</addName>
+            <addName>Caesar Vespasianus Augustus</addName>
+            <addName>Caesar Vespasianus</addName>
+            <addName>Flavius Vespasianus</addName>
+            <addName>Titus Flavius Vespasian</addName>
+            <addName>Vespasian Imperator</addName>
+            <addName>Vespasian Kaiser</addName>
+            <addName>Vespasian Römisches Reich, Kaiser</addName>
+            <addName>Vespasiano Imperatore</addName>
+            <addName>Vespasiano</addName>
+            <addName>Vespasien Empereur</addName>
+            <addName>Vespasien</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

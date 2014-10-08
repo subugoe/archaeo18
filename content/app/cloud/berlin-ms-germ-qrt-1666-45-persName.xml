@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Aquila, Francesco F.</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00181706</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00181706"
+                       key="#PND:101159935">Fr. da Aquillo<addName type="display">Aquila, Francesco F.</addName>
+            <addName>Francesco F. Aquila</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Heyne, Christian Gottlieb</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259384</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp01259384"
+                       key="#PND:11855073X">Heynen<addName type="display">Heyne, Christian Gottlieb</addName>
+            <addName>Christian Gottlieb Heyne</addName>
+            <addName>Christian Gottlob Heyne</addName>
+            <addName>C. G. H.</addName>
+            <addName>H.</addName>
+            <addName>C.G. Heijne</addName>
+            <addName>Heijne</addName>
+            <addName>Christian Gottlob Heine</addName>
+            <addName>Heine</addName>
+            <addName>Christian Gottlob Heinius</addName>
+            <addName>Heinius</addName>
+            <addName>Christianus Gottlobius Heinius</addName>
+            <addName>C. G. Heyne</addName>
+            <addName>Heyne, C. G. Christian Gottlob</addName>
+            <addName>Ch. G. Heyne</addName>
+            <addName>Chr. G. Heyne</addName>
+            <addName>Chr. Gottl Heyne</addName>
+            <addName>Christ. Gottl Heyne</addName>
+            <addName>Christ. Gottl. Heyne</addName>
+            <addName>Christ. Gottlob Heyne</addName>
+            <addName>Christian G. Heyne</addName>
+            <addName>Christianus G. Heyne</addName>
+            <addName>Christianus Gottlob Heyne</addName>
+            <addName>Heynius</addName>
+            <addName>Chr. Gottl. Heynius</addName>
+            <addName>Christian G. Heynius</addName>
+            <addName>Christian Gottlob Heynius</addName>
+            <addName>Christianus G. Heynius</addName>
+            <addName>Christianus Gottliebius Heynius</addName>
+            <addName>Christianus Gottlob Heynius</addName>
+            <addName>Christianus Gottlobius Heynius</addName>
+            <addName>Christianus Gottlobus Heynius</addName>
+            <addName>C.G. Heĳne</addName>
+            <addName>Heĳne</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

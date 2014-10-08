@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00905629</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp00905629">Clemens 13</persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Benoît (XIV, pape)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00397457</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00397457"
+                   key="#PND:118655434">Benedict<addName type="display">Benoît (XIV, pape)</addName>
+            <addName>XIV Benedictus</addName>
+            <addName>Benedetto XIV pape</addName>
+            <addName>Benedetto</addName>
+            <addName>Benedictus XIV pape</addName>
+            <addName>Prospero Lambertini</addName>
+            <addName>Lambertini</addName>
+            <addName>Bénoit Pontife, XIV.</addName>
+            <addName>Bénoit</addName>
+            <addName>Bénoit XIV.</addName>
+            <addName>Bénoit XIV.</addName>
+            <addName>Bénoit</addName>
+            <addName>XIV Benedetto</addName>
+            <addName>Benedetto, XIV 14 paus</addName>
+            <addName>Benedetto Papa, XIV.</addName>
+            <addName>Benedict Papa, XIV.</addName>
+            <addName>Benedict</addName>
+            <addName>Benedictus Papa, XIV</addName>
+            <addName>Benedictus XIV.</addName>
+            <addName>Benedikt Papa, XIV.</addName>
+            <addName>Benedito Papa, XIV.</addName>
+            <addName>Benedito</addName>
+            <addName>XIV=14 Benoît</addName>
+            <addName>Benoît Pape, XIV.</addName>
+            <addName>Benoît</addName>
+            <addName>Benoit Pape, XIV.</addName>
+            <addName>Benoit</addName>
+            <addName>Benoit Pope, XIV.</addName>
+            <addName>Prosper Lambertini</addName>
+            <addName>Prospero L. Lambertini</addName>
+            <addName>Prosperus Lambertinus</addName>
+            <addName>Lambertinus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Clemens (Papa, XIV.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00905328</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00905328"
+                   key="#PND:119215152">Clemens 14.<addName type="display">Clemens (Papa, XIV.)</addName>
+            <addName>Clemens Papa, XIIII.</addName>
+            <addName>Clemens Papst, XIV.</addName>
+            <addName>Clemens XIV Pope</addName>
+            <addName>Clemens XIV.</addName>
+            <addName>Clement Pape, XIV.</addName>
+            <addName>Clemente Papa, XIV.</addName>
+            <addName>Clemente</addName>
+            <addName>Clemenz Papa, XIV.</addName>
+            <addName>Clemenz</addName>
+            <addName>Clément Papa, XIV</addName>
+            <addName>Clément</addName>
+            <addName>Clément XIV.</addName>
+            <addName>Clément XIVe Pape</addName>
+            <addName>Ganganelli</addName>
+            <addName>Clemens Ganganelli</addName>
+            <addName>Giovanni V. Ganganelli</addName>
+            <addName>Giovanni Vincenzo Antonio Ganganelli</addName>
+            <addName>Giovanni Vincenzo Antonio Lorenzo Ganganelli</addName>
+            <addName>Laurent Ganganelli</addName>
+            <addName>Lorenzo Ganganelli</addName>
+            <addName>Iklīmanḍūs Bābā, XIV.</addName>
+            <addName>Iklīmanḍūs</addName>
+            <addName>Iklīminḍūs Bābā, XIV.</addName>
+            <addName>Iklīminḍūs</addName>
+            <addName>Klemens Papa, XIV.</addName>
+            <addName>Klemens XIV. Papa</addName>
+            <addName>Lorenzo Fra</addName>
+            <addName>Lorenzo</addName>
+            <addName>Lorenzo Mönch</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pie (VI, pape)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01266990</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01266990"
+                   key="#PND:118594710">Pius<addName type="display">Pie (VI, pape)</addName>
+            <addName>VI Pius</addName>
+            <addName>Giannangelo Braschi</addName>
+            <addName>Braschi</addName>
+            <addName>Jean-Ange Braschi</addName>
+            <addName>Pio VI pape</addName>
+            <addName>Pio</addName>
+            <addName>Pius VI pape</addName>
+            <addName>Gian Angelo Braschi</addName>
+            <addName>Gianangelo Braschi</addName>
+            <addName>Braschi, Giannangelo 1717-1799</addName>
+            <addName>Giovanni Braschi</addName>
+            <addName>Giovanni A. Braschi</addName>
+            <addName>Giovanni Angelo Braschi</addName>
+            <addName>Johannes Braschius</addName>
+            <addName>Braschius</addName>
+            <addName>Joann. Angelus Brashi</addName>
+            <addName>Brashi</addName>
+            <addName>Giovanni Angelico Braschi</addName>
+            <addName>VI Pie</addName>
+            <addName>Pie Pape, VI.</addName>
+            <addName>Pie VI</addName>
+            <addName>Pie VI papa 1717-1799</addName>
+            <addName>Pie VI. Papa</addName>
+            <addName>VI Pio</addName>
+            <addName>Pio, VI 6 paus</addName>
+            <addName>Pio VI</addName>
+            <addName>Pio VI 6 paus</addName>
+            <addName>Pio VI. Papa</addName>
+            <addName>Pius VI.</addName>
+            <addName>Pius VI. Papa</addName>
+            <addName>Pío VI papa 1717-1799</addName>
+            <addName>Pío</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Winckelmann, Johann Joachim</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00396916</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00396916"
+                   key="#PND:118633600">Winkelmann<addName type="display">Winckelmann, Johann Joachim</addName>
+            <addName>Johann Joachim Winckelmann</addName>
+            <addName>Ioann Vinkelman</addName>
+            <addName>Vinkelman</addName>
+            <addName>Ioann. Vinkelman</addName>
+            <addName>Jochan Joachim Vinkelman</addName>
+            <addName>Johann Vinkelmann</addName>
+            <addName>Vinkelmann</addName>
+            <addName>I. I. Vinkelʹman</addName>
+            <addName>Vinkelʹman</addName>
+            <addName>Iogann Ioachim Vinkelʹman</addName>
+            <addName>Iogann-Ioachim Vinkelʹman</addName>
+            <addName>Winckelman</addName>
+            <addName>Johann Joachim Winckelman</addName>
+            <addName>Winckelman abbé Johann Joachim</addName>
+            <addName>Winckelmann</addName>
+            <addName>G. G. Winckelmann</addName>
+            <addName>G.G. Winckelmann</addName>
+            <addName>Giovanni Winckelmann</addName>
+            <addName>Giovanni Gioacchino Winckelmann</addName>
+            <addName>J Winckelmann</addName>
+            <addName>J. J. Winckelmann</addName>
+            <addName>Jean Joachim Winckelmann</addName>
+            <addName>Jean-Joachim Winckelmann</addName>
+            <addName>Joachim Johann Winckelmann</addName>
+            <addName>Joh. Jac. Winckelmann</addName>
+            <addName>Johann Winckelmann</addName>
+            <addName>Johann J. Winckelmann</addName>
+            <addName>Winckelmann, Johann Joachim 1717-1768</addName>
+            <addName>Johannes Joachim Winckelmann</addName>
+            <addName>Jojannes Joachim Winckelmann</addName>
+            <addName>Johannes Winckelmannus</addName>
+            <addName>Winckelmannus</addName>
+            <addName>Johannes J. Winckelmannus</addName>
+            <addName>Johannes Joachimus Winckelmannus</addName>
+            <addName>Johan̄ Winckelman̄</addName>
+            <addName>Winckelman̄</addName>
+            <addName>Johann Joachim Winkelman</addName>
+            <addName>Winkelman</addName>
+            <addName>Winkelman abbé Johann Joachim</addName>
+            <addName>Winkelmann</addName>
+            <addName>Giovanni Winkelmann</addName>
+            <addName>Hans J. Winkelmann</addName>
+            <addName>Ioh. Winkelmann</addName>
+            <addName>Johann Winkelmann</addName>
+            <addName>Johann J. Winkelmann</addName>
+            <addName>Johann Joachim Winkelmann</addName>
+            <addName>Winkelmann 1717-1768</addName>
+            <addName>Winkelmann abbé Johann Joachim</addName>
+            <addName>Joannes Winkelmannus</addName>
+            <addName>Winkelmannus</addName>
+            <addName>Johann J. Winkelmannus</addName>
+            <addName>Johannes Joachimus Wynckelmann</addName>
+            <addName>Wynckelmann</addName>
+            <addName>Hans J. Wynkelmann</addName>
+            <addName>Wynkelmann</addName>
+            <addName>Johann J. Wynkelmann</addName>
+            <addName>Johann Joachim Wynkelmann</addName>
+            <addName>Yôhân Yo'akim Wînqelman</addName>
+            <addName>Wînqelman</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Raphaël</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01270961</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01270961"
+                   key="#PND:118597787">Raffaels<addName type="display">Raphaël</addName>
+            <addName>Raffael</addName>
+            <addName>Raphael Urbinas</addName>
+            <addName>Raffaello Santi</addName>
+            <addName>Santi</addName>
+            <addName>Sanzio</addName>
+            <addName>Urbinas</addName>
+            <addName>Rafael de Urbino 1483-1520</addName>
+            <addName>Rafael von Urbino</addName>
+            <addName>Rafaele d'Urbino</addName>
+            <addName>Rafaele</addName>
+            <addName>Rafaello 1483-1520</addName>
+            <addName>Rafaello</addName>
+            <addName>Raffael Santi</addName>
+            <addName>Raffaele Sanzio</addName>
+            <addName>Raffaele</addName>
+            <addName>Raffaelle di Vrbino</addName>
+            <addName>Raffaelle 1483-1520</addName>
+            <addName>Raffaelle</addName>
+            <addName>Raffaelle d'Urbino 1483-1520</addName>
+            <addName>Raffaello Sanzio 1483-1520</addName>
+            <addName>Raffaello 1483-1520</addName>
+            <addName>Raffaello da Urbino</addName>
+            <addName>Raffaello da Urbino 1483-1520</addName>
+            <addName>Raffaello di Urbino</addName>
+            <addName>Raffaello d'Urbino</addName>
+            <addName>Raffaelo Santi</addName>
+            <addName>Raffaelo</addName>
+            <addName>Raffaelo Sanzio</addName>
+            <addName>Raph. Sanctius</addName>
+            <addName>Raph.</addName>
+            <addName>Raphaël d'Urbine</addName>
+            <addName>Raphael</addName>
+            <addName>Raphael 1483-1520</addName>
+            <addName>Raphael di Urbino</addName>
+            <addName>Raphael Pictor</addName>
+            <addName>Raphael Sanctius Urbinas</addName>
+            <addName>Raphael Sanctus</addName>
+            <addName>Raphael Santius Urbinas</addName>
+            <addName>Raphael Sanzio</addName>
+            <addName>Raphael Urbin</addName>
+            <addName>Raphael Urbino</addName>
+            <addName>Raphael Urbinus</addName>
+            <addName>Raphael von Urbino</addName>
+            <addName>Raphaello</addName>
+            <addName>Raphael Sancius</addName>
+            <addName>Sancius, Raphael 1483-1520</addName>
+            <addName>Sancius</addName>
+            <addName>Sanctius</addName>
+            <addName>Sanctius, Raph. 1483-1520</addName>
+            <addName>Sanctius Urbinus</addName>
+            <addName>Raffaello Santius</addName>
+            <addName>Santius</addName>
+            <addName>Raphael Santius</addName>
+            <addName>Raffaello Sanzi</addName>
+            <addName>Sanzi</addName>
+            <addName>Rafael Sanzio</addName>
+            <addName>Sanzio, Rafael 1483-1520</addName>
+            <addName>Sanzio, Raffaello 1483-1520</addName>
+            <addName>Rafael Urbinas</addName>
+            <addName>Urbinas, Rafael 1483-1520</addName>
+            <addName>Raphael S. Urbinas</addName>
+            <addName>Rafael Urbino</addName>
+            <addName>Urbino, Rafael 1483-1520</addName>
+            <addName>Urbino</addName>
+            <addName>Raf. Vrb</addName>
+            <addName>Vrb, Raf. 1483-1520</addName>
+            <addName>Vrb</addName>
+            <addName>R. Vrbinas</addName>
+            <addName>Vrbinas, R. 1483-1520</addName>
+            <addName>Vrbinas</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Misson, Maximilien</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00964911</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00964911"
+                   key="#PND:104267526">Misson<addName type="display">Misson, Maximilien</addName>
+            <addName>Maximilien Misson</addName>
+            <addName>François Maximilien Misson</addName>
+            <addName>François Maximilien Misson</addName>
+            <addName>François-Maximilien Misson</addName>
+            <addName>François M. Mission</addName>
+            <addName>Mission</addName>
+            <addName>F. M. Misson</addName>
+            <addName>Misson, F. M. François Maximilian</addName>
+            <addName>Francis Maximilian Misson</addName>
+            <addName>François M. Misson</addName>
+            <addName>François-Maximilien Misson</addName>
+            <addName>Maximilian Misson</addName>
+            <addName>Maximilien-François Misson</addName>
+            <addName>Misson M. Maximilien</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Keysler, Johann Georg</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00366735</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00366735"
+                   key="#PND:104318511">Keisler<addName type="display">Keysler, Johann Georg</addName>
+            <addName>Johann Georg Keysler</addName>
+            <addName>Johann Georg Keyssler</addName>
+            <addName>J. G. K.</addName>
+            <addName>Johann Georg Keÿßler</addName>
+            <addName>Keÿßler</addName>
+            <addName>Johann Georg Keisler</addName>
+            <addName>Keisler</addName>
+            <addName>Johann Georg Keissler</addName>
+            <addName>Keissler</addName>
+            <addName>Johann G. Keyßler</addName>
+            <addName>Keyßler</addName>
+            <addName>Johann Georg Keyßler</addName>
+            <addName>Johann Georgius Keyßler</addName>
+            <addName>Iohannes Georgius Keysler</addName>
+            <addName>Johannes Georgius Keysler</addName>
+            <addName>John George Keysler</addName>
+            <addName>Ioannes Georgius Keyslerus</addName>
+            <addName>Keyslerus</addName>
+            <addName>Joannes Georgius Keyslerus</addName>
+            <addName>Iohannes Georgius Keyssler</addName>
+            <addName>Johann George Keyssler</addName>
+            <addName>Johann Georgius Keyssler</addName>
+            <addName>Johannes Georgius Keyssler</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

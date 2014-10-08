@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Venus</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00588078</link>
+      <count>10</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00588078"
+                       key="#PND:11876800X">Venus<addName type="display">Venus</addName>
+            <addName>Anadyomene  Beiname</addName>
+            <addName>Anadyomene</addName>
+            <addName>Arelatensis  Beiname</addName>
+            <addName>Arelatensis</addName>
+            <addName>aurea  Beiname</addName>
+            <addName>aurea</addName>
+            <addName>coelestis  Beiname</addName>
+            <addName>coelestis</addName>
+            <addName>Gnidia  Beiname</addName>
+            <addName>Gnidia</addName>
+            <addName>Marina  Beiname</addName>
+            <addName>Marina</addName>
+            <addName>Pelasgia  Beiname</addName>
+            <addName>Pelasgia</addName>
+            <addName>Pontia  Beiname</addName>
+            <addName>Pontia</addName>
+            <addName>Urania  Beiname</addName>
+            <addName>Urania</addName>
+            <addName>Victrix  Beiname</addName>
+            <addName>Victrix</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Leto (Göttin)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300311</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300311">Latona<addName type="display">Leto (Göttin)</addName>
+            <addName>Latona</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Brigenti, Andrea</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00477938</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00477938"
+                       key="#PND:124525385">Brigenzino<addName type="display">Brigenti, Andrea</addName>
+            <addName>Andrea Brigenti</addName>
+            <addName>Andreas Brigenti</addName>
+            <addName>Andreas Brigentius</addName>
+            <addName>Brigentius</addName>
+            <addName>Andrea Brighenti</addName>
+            <addName>Brighenti</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Thetis (Sagengestalt)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00546506</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00546506"
+                       key="#PND:119070731">Thetis<addName type="display">Thetis (Sagengestalt)</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Du Plessis, Armand Jean (Cardinal, Duc de Richelieu)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00906495</link>
+      <count>4</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00906495"
+                       key="#PND:118600354">Richelieu<addName type="display">Du Plessis, Armand Jean (Cardinal, Duc de Richelieu)</addName>
+            <addName>Armand Jean Du Plessis</addName>
+            <addName>Armand Jean DuPlessis Duc de Richelieu</addName>
+            <addName>Armand Jean du Plessis de Richelieu</addName>
+            <addName>Armand Jean du Plessis Richelieu</addName>
+            <addName>C. D. R.</addName>
+            <addName>Cardinal Duc de Richelieu</addName>
+            <addName>Cardinal de Richelieu</addName>
+            <addName>De Richelieu</addName>
+            <addName>Armand Jean du Plessis De Richelieu</addName>
+            <addName>De Richelieu, Armand Jean du Plessis duc</addName>
+            <addName>Armand J. de Du Plessis</addName>
+            <addName>Du Plessis, Armand Jean duc de Richelieu</addName>
+            <addName>Armand Jean de R. Du Plessis</addName>
+            <addName>Armand Jean de Richelieu Du Plessis</addName>
+            <addName>Armand-Jean Du Plessis</addName>
+            <addName>Armand-Jean de R. Du Plessis</addName>
+            <addName>Armand Jean Du Plessis Richelieu</addName>
+            <addName>Du Plessis Richelieu</addName>
+            <addName>Armand-Jean Du Plessis Richelieu</addName>
+            <addName>Armand Du Plessis de Richelieu</addName>
+            <addName>Du Plessis de Richelieu</addName>
+            <addName>Armand J. Du Plessis de Richelieu</addName>
+            <addName>Armand Jean Du Plessis de Richelieu</addName>
+            <addName>Armand-Jean Du Plessis de Richelieu</addName>
+            <addName>Armand J. de DuPlessis</addName>
+            <addName>DuPlessis</addName>
+            <addName>Armand Jean DuPlessis</addName>
+            <addName>Armand Jean de R. DuPlessis</addName>
+            <addName>Armand Jean de Richelieu DuPlessis</addName>
+            <addName>Armand-Jean DuPlessis</addName>
+            <addName>Armand-Jean de R. DuPlessis</addName>
+            <addName>Armand Jean DuPlessis Richelieu</addName>
+            <addName>DuPlessis Richelieu</addName>
+            <addName>Armand-Jean DuPlessis Richelieu</addName>
+            <addName>Armand DuPlessis de Richelieu</addName>
+            <addName>DuPlessis de Richelieu</addName>
+            <addName>Armand J. DuPlessis de Richelieu</addName>
+            <addName>Armand Jean DuPlessis de Richelieu</addName>
+            <addName>Armand-Jean DuPlessis de Richelieu</addName>
+            <addName>Armand DuPlessy</addName>
+            <addName>DuPlessy</addName>
+            <addName>Armand Jean Duplassis Richelieu</addName>
+            <addName>Duplassis Richelieu</addName>
+            <addName>Kardynał Ryszele</addName>
+            <addName>Armandus Joannes Plessiacus</addName>
+            <addName>Plessiacus</addName>
+            <addName>Armand J. du Plessis</addName>
+            <addName>Plessis</addName>
+            <addName>Armand Jean du Plessis</addName>
+            <addName>Armand Jean de R. du Plessis</addName>
+            <addName>Plessis, Armand Jean du duc de Richelieu</addName>
+            <addName>Armand-Jean du Plessis</addName>
+            <addName>Armand-Jean de R. du Plessis</addName>
+            <addName>Plessis Richelieu</addName>
+            <addName>Armand-Jean du Plessis Richelieu</addName>
+            <addName>Armand du Plessis de Richelieu</addName>
+            <addName>Plessis de Richelieu</addName>
+            <addName>Armand J. du Plessis de Richelieu</addName>
+            <addName>Armand-Jean du Plessis de Richelieu</addName>
+            <addName>Armandus Johannes a Plecis de Richaliere</addName>
+            <addName>Richaliere</addName>
+            <addName>Armandus Richeli</addName>
+            <addName>Richeli</addName>
+            <addName>de Richelieu</addName>
+            <addName>Richelieu</addName>
+            <addName>Richelieu Cardinal de</addName>
+            <addName>Richelieu Kardinal</addName>
+            <addName>Armand de Richelieu</addName>
+            <addName>Armand D. de Richelieu</addName>
+            <addName>Armand J. de Richelieu</addName>
+            <addName>Armand Jean Richelieu</addName>
+            <addName>Armand Jean de Richelieu</addName>
+            <addName>Armand Jean D. de Richelieu</addName>
+            <addName>Armand Jean Du Plessis Duc de Richelieu</addName>
+            <addName>Armand-Jean de Richelieu</addName>
+            <addName>Armand-Jean D. de Richelieu</addName>
+            <addName>Armandus de Richelieu</addName>
+            <addName>Armandus Johannes Du Plessis de Richelieu</addName>
+            <addName>Armandus Johannes DuPlessis de Richelieu</addName>
+            <addName>Armandus Johannes du Plessis de Richelieu</addName>
+            <addName>Richelieu Cardinal</addName>
+            <addName>Richelieu Cardinal Armand Jean du Plessis</addName>
+            <addName>Armand J. de Richelieu Du Plessis</addName>
+            <addName>Richelieu Du Plessis</addName>
+            <addName>Armand-Jean de Richelieu Du Plessis</addName>
+            <addName>Armand J. de Richelieu DuPlessis</addName>
+            <addName>Richelieu DuPlessis</addName>
+            <addName>Armand-Jean de Richelieu DuPlessis</addName>
+            <addName>Armando Giovanni Plesses de Richeliu</addName>
+            <addName>Richeliu</addName>
+            <addName>Armandus Richelius</addName>
+            <addName>Richelius</addName>
+            <addName>Armandus J. Richelius</addName>
+            <addName>Armandus Johannes Richelius</addName>
+            <addName>Joannes Armandus Plessaeus Richelius</addName>
+            <addName>Armandus Richelus</addName>
+            <addName>Richelus</addName>
+            <addName>Richlieu</addName>
+            <addName>Rishele</addName>
+            <addName>Ryszele</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Girardon, François</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00586248</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00586248"
+                       key="#PND:118717642">Girardon<addName type="display">Girardon, François</addName>
+            <addName>François Girardon</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

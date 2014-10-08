@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Chares (von Lindos)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01300251</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01300251">Chares<addName type="display">Chares (von Lindos)</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Lysipp (von Sikyon)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00539734</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00539734"
+                       key="#PND:118833499">Lysippus<addName type="display">Lysipp (von Sikyon)</addName>
+            <addName>Lysippos</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Demetrios (Makedonien, König, I.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00394561</link>
+      <count>4</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00394561"
+                       key="#PND:118524623">Demetrius<addName type="display">Demetrios (Makedonien, König, I.)</addName>
+            <addName>Demetrios Makedonien, König</addName>
+            <addName>Demetrios Megas</addName>
+            <addName>Demetrios Poliorketes</addName>
+            <addName>Demetrius Historicus</addName>
+            <addName>Demetrius Macedo</addName>
+            <addName>Demetrius Macedonia, Rex, I.</addName>
+            <addName>Demetrius Poliorcetes</addName>
+            <addName>Demetrius Poliorcetes, I.</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Thrasybulos</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01427460</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01427460">Thrasibuls<addName type="display">Thrasybulos</addName>
+            <addName>Thrasibul</addName>
+            <addName>Thrasyboulos</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Dionysios (Syrakus, Tyrann, I.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00401689</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00401689"
+                       key="#PND:118880101">2. Dionis<addName type="display">Dionysios (Syrakus, Tyrann, I.)</addName>
+            <addName>Dionysios der Ältere</addName>
+            <addName>Dionysios von Syrakus</addName>
+            <addName>Dionysius Maior</addName>
+            <addName>Dionysius Siculus Tragicus</addName>
+            <addName>Dionysius Syracusanus</addName>
+            <addName>Dionysius Syracuse, Tyrant, I.</addName>
+            <addName>Dionysius Syracusius</addName>
+            <addName>Dionysius Tragicus</addName>
+            <addName>Dionysius Tyrannus Siceliae</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Agathokles (Syrakus, Tyrann)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00577440</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00577440"
+                       key="#PND:118647245">Agathocles<addName type="display">Agathokles (Syrakus, Tyrann)</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Hieron (Syrakus, Tyrann, II.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00585734</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00585734"
+                       key="#PND:118704672">Hiero II<addName type="display">Hieron (Syrakus, Tyrann, II.)</addName>
+            <addName>Hiero König</addName>
+            <addName>Hiero</addName>
+            <addName>Hieron Syrakus, König</addName>
+            <addName>Hieronymus Syrakus, Tyrann, II.</addName>
+            <addName>Hieronymus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Hieron (Syrakus, Tyrann, I.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00585733</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00585733"
+                       key="#PND:118704664">Hiero<addName type="display">Hieron (Syrakus, Tyrann, I.)</addName>
+            <addName>Hiero Syrakus, Fürst, I.</addName>
+            <addName>Hiero</addName>
+            <addName>Hieron Gela, Tyrann</addName>
+            <addName>Hieronymus Syrakus, Tyran, I.</addName>
+            <addName>Hieronymus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

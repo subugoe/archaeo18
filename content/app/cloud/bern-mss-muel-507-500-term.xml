@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-500.tei.xml-d2357e106">Herkules in Farnese</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Belvedere</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-500.tei.xml-d2357e109">Apollo des<TEI:term ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-500.tei.xml-d2357e115">Belvedere</TEI:term>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-500.tei.xml-d2357e115">Belvedere</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Laokoon</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-500.tei.xml-d2357e118">
+            <TEI:persName ref="#CerlID:cnp00556829" key="#PND:118569651">Laocoon<addName type="display">Laokoon</addName>
+            </TEI:persName>
+          
+          auf einem Amethist</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-500.tei.xml-d2357e147">Carniol mit einem lachenden Faun</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>MedusaSolon (Steinschneider)</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-500.tei.xml-d2357e224">
+            <TEI:persName ref="#CerlID:cnp00543010" key="#PND:118943936">Meduse<addName type="display">Medusa</addName>
+            </TEI:persName>
+          
+          nach dem <TEI:persName ref="#CerlID:cnp01300403">Solon<addName type="display">Solon (Steinschneider)</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Scipion l'Africain</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-500.tei.xml-d2357e348">
+            <TEI:persName ref="#CerlID:cnp00566495" key="#PND:118612336">Scipio<addName type="display">Scipion l'Africain</addName>
+               <addName>Publius Cornelius Scipio</addName>
+               <addName>Publius Cornelius Scipio Africanus</addName>
+               <addName>Publius Cornelius Scipio Africanus Maior</addName>
+               <addName>Africanus Maior</addName>
+               <addName>Cornelius Scipio Africanus Maior</addName>
+               <addName>Publius C. Scipio</addName>
+               <addName>Scipio, Publius C. Africanus, der Ältere</addName>
+               <addName>Publius Cornelius Africanus Scipio</addName>
+               <addName>Scipio Africanus, der Ältere</addName>
+               <addName>Scipio Historicus</addName>
+               <addName>Scipio Maior</addName>
+               <addName>Scipio der Ältere</addName>
+               <addName>Scipio Africanus</addName>
+               <addName>Scipio Africanus Historicus</addName>
+               <addName>Scipio Africanus Maior</addName>
+               <addName>Publius Cornelius Scipio Maior</addName>
+               <addName>Scipio Maior Historicus</addName>
+               <addName>Scipio Maior Romanus</addName>
+               <addName>Publio Cornelio Scipione</addName>
+               <addName>Scipione, Publio Cornelio Africano Maggiore</addName>
+               <addName>Scipione</addName>
+            </TEI:persName> mit den
+          
+          Carthagischen Geisseln auf einem Amethist</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Viktoria (Göttin)</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-500.tei.xml-d2357e597">
+            <TEI:persName ref="#CerlID:cnp00588089" key="#PND:118768344">Victoria<addName type="display">Viktoria (Göttin)</addName>
+               <addName>Victoria</addName>
+            </TEI:persName> in bigis auf einen Demanten</TEI:term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Josef II. Römisch-deutscher Kaiser</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <TEI:term xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/bern-mss-muel-507-500.tei.xml-d2357e654">Camee geschnitten
+          
+          mit dem Bilde Kayser <TEI:persName ref="#CerlID:cnp00910377">Joseph II.<addName type="display">Josef II. Römisch-deutscher Kaiser</addName>
+               <addName>II. Jószef</addName>
+               <addName>Josef II. Kaiser v. Deutschland</addName>
+               <addName>Josef II. Kaiser von Deutschland</addName>
+               <addName>Josef II. Roemisch-deutscher Kaiser</addName>
+               <addName>Josef II. Roemischer Kaiser</addName>
+               <addName>Joseph II. Kaiser von Österreich</addName>
+               <addName>Joseph II. Römisch-deutscher Kaiser</addName>
+               <addName>Josephus II. Imperator Romanus</addName>
+            </TEI:persName>
+         </TEI:term>
+      </nodes>
+   </tag>
+</tags>

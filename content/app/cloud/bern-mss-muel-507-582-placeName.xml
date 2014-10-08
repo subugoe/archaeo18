@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Deutschland</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7000084</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7000084">Deutschland<addName type="display">Deutschland</addName>
+            <addName>Deutschland</addName>
+            <addName>Bundesrepublik Deutschland</addName>
+            <addName>BRD</addName>
+            <addName>Germany</addName>
+            <addName>Federal Republic of Germany</addName>
+            <addName>Allemagne</addName>
+            <addName>République fédérale d'Allemagne</addName>
+            <addName>República Federal de Alemania</addName>
+            <addName>Alemania</addName>
+            <addName>Alemanha</addName>
+            <addName>Duitsland</addName>
+            <addName>Germania</addName>
+            <addName>DEU</addName>
+            <addName>DE</addName>
+            <addName>ISO276</addName>
+            <addName>GM00</addName>
+            <addName>Deutsches Reich</addName>
+            <addName>ISO280</addName>
+            <addName>German</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Sverige</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=1000097</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:1000097">Schweden<addName type="display">Sverige</addName>
+            <addName>Sverige</addName>
+            <addName>Konungariket Sverige</addName>
+            <addName>Sweden</addName>
+            <addName>Kingdom of Sweden</addName>
+            <addName>Suède</addName>
+            <addName>Royaume de Suède</addName>
+            <addName>Schweden</addName>
+            <addName>Suecia</addName>
+            <addName>Suécia</addName>
+            <addName>Svezia</addName>
+            <addName>SWE</addName>
+            <addName>SE</addName>
+            <addName>ISO752</addName>
+            <addName>SW00</addName>
+            <addName>Swedish</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Danmark</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=1000066</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:1000066">Dannemarck<addName type="display">Danmark</addName>
+            <addName>Danmark</addName>
+            <addName>Kongeriget Danmark</addName>
+            <addName>Dänemark</addName>
+            <addName>Denmark</addName>
+            <addName>Kingdom of Denmark</addName>
+            <addName>Danemark</addName>
+            <addName>Royaume du Danemark</addName>
+            <addName>Dinamarca</addName>
+            <addName>Denemarken</addName>
+            <addName>Danimarca</addName>
+            <addName>DNK</addName>
+            <addName>DK</addName>
+            <addName>ISO208</addName>
+            <addName>DA00</addName>
+            <addName>Danish</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Sankt-Peterburg</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7010273</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7010273">Petersburg<addName type="display">Sankt-Peterburg</addName>
+            <addName>Sankt-Peterburg</addName>
+            <addName>Saint Petersburg</addName>
+            <addName>Saint Petersbourg</addName>
+            <addName>St. Petersburg</addName>
+            <addName>Leningrad</addName>
+            <addName>Leningrado</addName>
+            <addName>Petrograd</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+</tags>

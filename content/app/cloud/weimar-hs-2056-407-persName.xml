@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Thubières, Anne Claude Philippe ¬de¬</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01099958</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp01099958">Caylus<addName type="display">Thubières, Anne Claude Philippe ¬de¬</addName>
+            <addName>Anne Claude Philippe de Thubières</addName>
+            <addName>Caylus Graf</addName>
+            <addName>Caylus</addName>
+            <addName>Thubières, Anne Claude Philippe de Comte de Caylus</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Eyck, Jan ¬van¬</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp01259776</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp01259776"
+                   key="#PND:118531557">Iohan van Dyk oder Brügge<addName type="display">Eyck, Jan ¬van¬</addName>
+            <addName>Jan van Eyck</addName>
+            <addName>Iohan van Brügge</addName>
+            <addName>Brügge</addName>
+            <addName>Iohan van Dyk</addName>
+            <addName>Dyk</addName>
+            <addName>Ioannes ab Eyck</addName>
+            <addName>Jean van Eyck</addName>
+            <addName>Joh. van Eyck</addName>
+            <addName>Johan van Eyck</addName>
+            <addName>Johann van Eyck</addName>
+            <addName>Johann von Eyck</addName>
+            <addName>Johannes van Eyck</addName>
+            <addName>John van Eyck</addName>
+            <addName>Jan</addName>
+            <addName>Jan Van Eyck</addName>
+            <addName>Van Eyck</addName>
+            <addName>Jan van Eyk</addName>
+            <addName>Eyk</addName>
+         </persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Herbert, Thomas</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00368551</link>
+      <count>2</count>
+      <nodes>
+         <persName xmlns="http://www.tei-c.org/ns/1.0"
+                   ref="#CerlID:cnp00368551"
+                   key="#PND:104340932">Grafen Pembrok<addName type="display">Herbert, Thomas</addName>
+            <addName>Thomas Herbert</addName>
+            <addName>Thomas Pembrochiae</addName>
+            <addName>Pembrochiae</addName>
+            <addName>Thomas Pembroke</addName>
+            <addName>Pembroke</addName>
+            <addName>Thomas Herbert Pembroke</addName>
+            <addName>Thomas Herbert of Pembroke</addName>
+            <addName>Thomas of Pembroke</addName>
+            <addName>Thomas Pembroke, Earl, VIII.</addName>
+            <addName>Thomas</addName>
+         </persName>
+      </nodes>
+   </tag>
+</tags>

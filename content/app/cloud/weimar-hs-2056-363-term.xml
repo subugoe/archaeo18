@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Scaurus, Marcus Aemilius (Sohn)Sylla, Lucius CorneliusRoma</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-363.tei.xml-d17087e19"
+               type="collection">
+            <persName ref="#CerlID:cnp00579562" key="#PND:118653040">Scaurus<addName type="display">Scaurus, Marcus Aemilius (Sohn)</addName>
+               <addName>Marcus Aemilius Scaurus</addName>
+               <addName>Aemilius Scaurus, Marcus Sohn</addName>
+               <addName>Aemilius Scaurus</addName>
+               <addName>Scaurus Sohn</addName>
+            </persName>. Der Stief Sohn des <persName ref="#CerlID:cnp00397134" key="#PND:11864260X">Sulla<addName type="display">Sylla, Lucius Cornelius</addName>
+               <addName>Lucius Cornelius Sylla</addName>
+               <addName>Lucius Cornelius Sulla</addName>
+               <addName>Cornelius Sulla</addName>
+               <addName>Cornelius</addName>
+               <addName>Cornelius Sylla</addName>
+               <addName>Lucius Cornelius Sulla Felix</addName>
+               <addName>Felix</addName>
+               <addName>Lucius Cornelius Scilla</addName>
+               <addName>Scilla</addName>
+               <addName>Lucio Silla</addName>
+               <addName>Silla</addName>
+               <addName>Lucio Cornelio Silla</addName>
+               <addName>Lucius Cornelius Silla</addName>
+               <addName>Sulla Diktator</addName>
+               <addName>Sulla Felix</addName>
+               <addName>Sulla Memoirenverfasser</addName>
+               <addName>Sylla, Lucius Cornelius 0138-0078 av. J.-C.</addName>
+            </persName> errich- 
+                                             tete die erste Samlung zu <placeName ref="#GettyID:7000874">Rom<addName type="display">Roma</addName>
+               <addName>Roma</addName>
+               <addName>Urbe</addName>
+               <addName>Rome</addName>
+               <addName>Rom</addName>
+               <addName>Roman</addName>
+            </placeName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pompeius Magnus, Gnaeus</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-363.tei.xml-d17087e109"
+               type="collection">
+            <persName ref="#CerlID:cnp00396166" key="#PND:118595636">Pompejus<addName type="display">Pompeius Magnus, Gnaeus</addName>
+               <addName>Gnaeus Pompeius Magnus</addName>
+               <addName>Magnus</addName>
+               <addName>Pompée le Grand</addName>
+               <addName>Pompée</addName>
+               <addName>Pompeius</addName>
+               <addName>Gnaeus Pompeius</addName>
+               <addName>Pompeius, Gnaeus Magnus</addName>
+               <addName>Pompejus der Grosse</addName>
+               <addName>Pompejus</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-363.tei.xml-d17087e144"
+               type="collection">Caesar dictator</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-363.tei.xml-d17087e154"
+               type="collection">Marcellus Octavia genitus in palatina 
+                                             Apollinis cella</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-363.tei.xml-d17087e170"
+               type="collection">Die Florentinishe</term>
+      </nodes>
+   </tag>
+</tags>

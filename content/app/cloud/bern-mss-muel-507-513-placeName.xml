@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>København</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7003474</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7003474">Copenhagen<addName type="display">København</addName>
+            <addName>København</addName>
+            <addName>Copenhagen</addName>
+            <addName>Copenhague</addName>
+            <addName>Kjøbenhavn</addName>
+            <addName>Kopenhagen</addName>
+            <addName>Kopenhavn</addName>
+            <addName>Havn</addName>
+            <addName>Hafnia</addName>
+            <addName>Hafniea</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Carthage</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=7016143</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:7016143">
+            <TEI:term ref="#http://arachne.uni-koeln.de/item/topographie/8004193">Carthago</TEI:term>
+            <addName type="display">Carthage</addName>
+            <addName>Carthage</addName>
+            <addName>Karthago</addName>
+            <addName>Cartagine</addName>
+            <addName>Qarṭājannah</addName>
+            <addName>Carthago</addName>
+            <addName>Colonia Julia Carthago</addName>
+            <addName>Qarthadasht</addName>
+            <addName>Kart-Hadasht</addName>
+            <addName>Kart-hadasht</addName>
+            <addName>Quart Hadasha</addName>
+            <addName>Kart Hadash</addName>
+            <addName>Karchedon</addName>
+            <addName>Karth-Hadtha</addName>
+            <addName>Carchēdo</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Kermān</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=6001173</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:6001173">Caramanien<addName type="display">Kermān</addName>
+            <addName>Kermān</addName>
+            <addName>Kirman</addName>
+            <addName>Carmania</addName>
+            <addName>Carmana</addName>
+            <addName>Kermana</addName>
+            <addName>Gavāshir</addName>
+            <addName>Karmania</addName>
+            <addName>Karmana</addName>
+            <addName>Behdesīr</addName>
+            <addName>Berdesīr</addName>
+            <addName>Berdeshīr</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Arabian Peninsula</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=1012700</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:1012700">Arabien<addName type="display">Arabian Peninsula</addName>
+            <addName>Arabian Peninsula</addName>
+            <addName>Arabique, Péninsule</addName>
+            <addName>Arabia</addName>
+            <addName>Arabistan</addName>
+            <addName>Arabian</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Europe</tag>
+      <facet>tei:placeName</facet>
+      <link>http://www.getty.edu/vow/TGNFullDisplay?find=&amp;place=&amp;nation=&amp;english=Y&amp;subjectid=1000003</link>
+      <count>2</count>
+      <nodes>
+         <TEI:placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#GettyID:1000003">Europa<addName type="display">Europe</addName>
+            <addName>Europe</addName>
+            <addName>Europa</addName>
+            <addName>European</addName>
+         </TEI:placeName>
+      </nodes>
+   </tag>
+</tags>

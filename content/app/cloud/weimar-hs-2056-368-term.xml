@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000606</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000606">Versailles</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Chaduc , Louis</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-368.tei.xml-d14235e33"
+               type="collection">Sammlung des <persName ref="#CerlID:cnp01303756">St Chadut<addName type="display">Chaduc , Louis</addName>
+               <addName>Louis Chaduc</addName>
+               <addName>St Chadut</addName>
+               <addName>Chadut</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Crozat, Pierre (Kunstsammler)</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-368.tei.xml-d14235e210"
+               type="collection">
+            <persName ref="#CerlID:cnp00567474" key="#PND:12201149X">Mr Pierre Crozat<addName type="display">Crozat, Pierre (Kunstsammler)</addName>
+               <addName>Pierre Crozat</addName>
+               <addName>M. Crozat</addName>
+               <addName>Crozat, M. (Pierre), $d1661-1740</addName>
+               <addName>Pierre Grossat</addName>
+               <addName>Grossat</addName>
+               <addName>Crozat</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>La Chausse, Michel-Ange ¬de¬</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000672</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000672">Samlung 
+                                            des <persName ref="#CerlID:cnp00644672" key="#PND:117571644">Lachaussée<addName type="display">La Chausse, Michel-Ange ¬de¬</addName>
+               <addName>Michel-Ange de La Chausse</addName>
+               <addName>Lachaussée</addName>
+               <addName>Michel A. Causeo de la Chausse</addName>
+               <addName>Causeo de la Chausse</addName>
+               <addName>Michel Agnolo Causeo de la Chausse</addName>
+               <addName>Michelangelo Causeo de la Chausse</addName>
+               <addName>Michel A. Causeo de LaChausse</addName>
+               <addName>Causeo de LaChausse</addName>
+               <addName>Michael Angelus a Causeo</addName>
+               <addName>Causeo</addName>
+               <addName>Michael Angelus Causeus de la Chausse</addName>
+               <addName>Causeus de la Chausse</addName>
+               <addName>Michael Angelus Causeus</addName>
+               <addName>Causeus</addName>
+               <addName>Michael A. Causseus</addName>
+               <addName>Causseus</addName>
+               <addName>Michael Angelus Causseus</addName>
+               <addName>Michel Ange Causseus</addName>
+               <addName>Michael Angelus Chauseus de La Chausse</addName>
+               <addName>Chauseus de La Chausse</addName>
+               <addName>Michael A. de la Chausse</addName>
+               <addName>Chausse</addName>
+               <addName>Michael Angelus de Chausse</addName>
+               <addName>Michel A. de la Chausse</addName>
+               <addName>Michel A. la Chausse</addName>
+               <addName>Michel Angelo de la Chausse</addName>
+               <addName>Michel-Ange de la Chausse</addName>
+               <addName>Michelangelo de la Chaussee</addName>
+               <addName>Chaussee</addName>
+               <addName>Michael A. La Chausse</addName>
+               <addName>Michael Angelus Causeus de La Chausse</addName>
+               <addName>Michel A. de La Chausse</addName>
+               <addName>Michel Ange de La Chausse</addName>
+               <addName>La Chausse, Michel Ange de 1660?-1724</addName>
+               <addName>Michelagnolo de La Chausse</addName>
+               <addName>Michael A. LaChausse</addName>
+               <addName>LaChausse</addName>
+               <addName>Michel A. de LaChausse</addName>
+               <addName>Michelagnolo de LaChausse</addName>
+               <addName>Michel-Ange de LaChausse</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+</tags>

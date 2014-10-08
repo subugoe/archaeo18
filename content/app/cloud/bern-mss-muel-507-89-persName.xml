@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Cosimo (Toscana, Granduca, II.)</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00583004</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00583004"
+                       key="#PND:124843778">Herzog Cosimo II. de Medici<addName type="display">Cosimo (Toscana, Granduca, II.)</addName>
+            <addName>Côme Toscane, Grand-duc, II.</addName>
+            <addName>Côme</addName>
+            <addName>Cosimo Toscana, Großherzog, II.</addName>
+            <addName>Cosimo de' Medici, II.</addName>
+            <addName>Cosimus Hetruria, Dux, II.</addName>
+            <addName>Cosimus</addName>
+            <addName>Cosmo Tuscany, Grand Duke, II.</addName>
+            <addName>Cosmo</addName>
+            <addName>Cosmus Hetruria, Dux, II.</addName>
+            <addName>Cosmus</addName>
+            <addName>Cosmo Medices</addName>
+            <addName>Medices</addName>
+            <addName>Cosimo de' Medici</addName>
+            <addName>Medici, Cosimo de' 1590-1620</addName>
+            <addName>Medici</addName>
+            <addName>Cosimo dei Medici</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00474317</link>
+      <count>4</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp00474317">Buonarotti</TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Passeri, Giambattista</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00946728</link>
+      <count>6</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00946728"
+                       key="#PND:132258129">Passeri<addName type="display">Passeri, Giambattista</addName>
+            <addName>Giambattista Passeri</addName>
+            <addName>Giovanni Battista Passeri</addName>
+            <addName>Joannes Baptista Passerius</addName>
+            <addName>Passerius</addName>
+            <addName>L. Antisiccio Prisco</addName>
+            <addName>Antisiccio Prisco</addName>
+            <addName>Lucido da Cosenza</addName>
+            <addName>Lucido</addName>
+            <addName>Johannes B. Paserius</addName>
+            <addName>Paserius</addName>
+            <addName>Johannes Baptista Paserius</addName>
+            <addName>Giambattista Passari</addName>
+            <addName>Passari</addName>
+            <addName>Giambaptista Passeri</addName>
+            <addName>Giovanni B. Passeri</addName>
+            <addName>Jo. Baptista Passeri</addName>
+            <addName>Iohannes Baptista Passerius</addName>
+            <addName>Johannes B. Passerius</addName>
+            <addName>Johannes Baptista Passerius</addName>
+            <addName>Ioannis B. Passerus</addName>
+            <addName>Passerus</addName>
+            <addName>Joannes B. Passerus</addName>
+            <addName>Johannes B. Passerus</addName>
+            <addName>Johannes Baptista Passerus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Gori, Antonio Francesco</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00402479</link>
+      <count>4</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0"
+                       ref="#CerlID:cnp00402479"
+                       key="#PND:118964925">Gori<addName type="display">Gori, Antonio Francesco</addName>
+            <addName>Antonio Francesco Gori</addName>
+            <addName>A. F. Gori</addName>
+            <addName>Adame François Gori</addName>
+            <addName>Adame François Gori</addName>
+            <addName>Ant. Francesco Gori</addName>
+            <addName>Antoine François Gori</addName>
+            <addName>Antoine François Gori</addName>
+            <addName>Anton Francesco Gori</addName>
+            <addName>Anton Franz Gori</addName>
+            <addName>Antonius Franc. Gori</addName>
+            <addName>Antonio Francisco Gorius</addName>
+            <addName>Gorius</addName>
+            <addName>Antonius Gorius</addName>
+            <addName>Antonius Franciscus Gorius</addName>
+            <addName>Antonius Franciscus Gorus</addName>
+            <addName>Gorus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Averani, Giuseppe</tag>
+      <facet>tei:persName</facet>
+      <link>http://thesaurus.cerl.org/cgi-bin/record.pl?rid=cnp00955484</link>
+      <count>2</count>
+      <nodes>
+         <TEI:persName xmlns="http://www.tei-c.org/ns/1.0" ref="#CerlID:cnp00955484">Prof: Juris Averarius<addName type="display">Averani, Giuseppe</addName>
+            <addName>Giuseppe Averani</addName>
+            <addName>Joseph Averranius</addName>
+            <addName>Averranius</addName>
+            <addName>Josephus Averanius</addName>
+            <addName>Averanius</addName>
+            <addName>Josephus Averanus</addName>
+            <addName>Averanus</addName>
+         </TEI:persName>
+      </nodes>
+   </tag>
+</tags>

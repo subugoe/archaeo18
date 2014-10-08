@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:10022439 http://arachne.uni-koeln.de/item/objekt/16003</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:10022439 #http://arachne.uni-koeln.de/item/objekt/16003">tab: 5. 21.12.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-300.tei.xml-d4559e37">Ein 
+                                           anderer ohne Nahmen</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-300.tei.xml-d4559e51">Noch einer etwas jünger</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/13506</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/13506">Ein Weltweißer ohne Nahmen</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>CensusID:10020650 http://arachne.uni-koeln.de/item/objekt/13473</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#CensusID:10020650 #http://arachne.uni-koeln.de/item/objekt/13473">Büste mit schönem Barte</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/13496</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/13496">Unbekannte Büste</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/16020</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/16020">88.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Heraclitus (Ephesius)Bellori, Giovanni Pietro</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/13502</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/13502">Dem <persName ref="#CerlID:cnp00980165" key="#PND:118549421">Heraclyt<addName type="display">Heraclitus (Ephesius)</addName>
+               <addName>Eraclito</addName>
+               <addName>Eraclito di Efeso</addName>
+               <addName>Hērakleitos</addName>
+               <addName>Héraclite</addName>
+               <addName>Héraclite d'Ephèse</addName>
+               <addName>Hẽrakleitos</addName>
+               <addName>Hẽrakleitos</addName>
+               <addName>Héraclide</addName>
+               <addName>Heraclitus ho Skoteinos</addName>
+               <addName>Heraclitus of Ephesus</addName>
+               <addName>Heraclitus Philosophus</addName>
+               <addName>Heraclitus the Obscur</addName>
+               <addName>Herakleites von Ephesos</addName>
+               <addName>Herakleites</addName>
+               <addName>Herakleitos</addName>
+               <addName>Herakleitos ho Skoteinos</addName>
+               <addName>Herakleitos Philosoph</addName>
+               <addName>Herakleitos von Ephesos</addName>
+               <addName>Herakleitos Vorsokratiker</addName>
+               <addName>Heraklit</addName>
+               <addName>Heraklit von Ephesos</addName>
+               <addName>Heraklit von Ephesus</addName>
+               <addName>Pseudo-Heraclitus</addName>
+               <addName>Pseudo-Herakleitos</addName>
+               <addName>Pseudo-Heraklitus</addName>
+            </persName> des <persName ref="#CerlID:cnp00445125" key="#PND:121906914">Bellori<addName type="display">Bellori, Giovanni Pietro</addName>
+               <addName>Giovanni Pietro Bellori</addName>
+               <addName>Giovan Pietro Bellori</addName>
+               <addName>Joannes Petrus Bellorius</addName>
+               <addName>Bellorius</addName>
+               <addName>Joannes Petrus Bellorus</addName>
+               <addName>Bellorus</addName>
+               <addName>G. P. Bellori</addName>
+               <addName>Gian P. Bellori</addName>
+               <addName>Gianpietro Bellori</addName>
+               <addName>Gio. Pietro Bellori</addName>
+               <addName>Giovan P. Bellori</addName>
+               <addName>Giovanni P. Bellori</addName>
+               <addName>Io. Petri Bellori</addName>
+               <addName>Johann Peter Bellori</addName>
+               <addName>Pietro Bellori</addName>
+               <addName>Johannes Petrus Belloriis</addName>
+               <addName>Belloriis</addName>
+               <addName>Io. P. Bellorio</addName>
+               <addName>Bellorio</addName>
+               <addName>Io. P. Bellorius</addName>
+               <addName>Io. Petrus Bellorius</addName>
+               <addName>Ioannes P. Bellorius</addName>
+               <addName>Ioannes Petrus Bellorius</addName>
+               <addName>Iohannes P. Bellorius</addName>
+               <addName>J. P. Bellorius</addName>
+               <addName>Jo. Petrus Bellorius</addName>
+               <addName>Joannes P. Bellorius</addName>
+               <addName>Johann P. Bellorius</addName>
+               <addName>Johann Peter Bellorius</addName>
+               <addName>Johann Petrus Bellorius</addName>
+               <addName>Johannes Petrus Bellorius</addName>
+               <addName>Petrus Bellorius</addName>
+               <addName>Ioannes P. Bellorus</addName>
+               <addName>Petrus Bellorus</addName>
+            </persName> aehnlich</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Democritus (Abderita)</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/13499</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/13499">
+            <persName ref="#CerlID:cnp00394562" key="#PND:11852464X">Democrit<addName type="display">Democritus (Abderita)</addName>
+               <addName>Démocrite dÁbdère</addName>
+               <addName>Démocrite</addName>
+               <addName>Démocrite dÁbdère</addName>
+               <addName>Démocrite</addName>
+               <addName>Demócrito Atomista</addName>
+               <addName>Demócrito</addName>
+               <addName>Democrates</addName>
+               <addName>Democratus</addName>
+               <addName>Democrit</addName>
+               <addName>Democrito di Abdera</addName>
+               <addName>Democrito</addName>
+               <addName>Democrito Scolaro di Leucippo</addName>
+               <addName>Democritos von Abdera</addName>
+               <addName>Democritos</addName>
+               <addName>Democritus Abderyta</addName>
+               <addName>Democritus of Abdera</addName>
+               <addName>Democritus Philosophus</addName>
+               <addName>Demócrito Atomista</addName>
+               <addName>Demócrito</addName>
+               <addName>Demokrates</addName>
+               <addName>Demokratos</addName>
+               <addName>Demokrit von Abdera</addName>
+               <addName>Demokrit</addName>
+               <addName>Demokritos Schüler des Leukippos</addName>
+               <addName>Demokritos</addName>
+               <addName>Demokritos von Abdera</addName>
+               <addName>Demokritus</addName>
+               <addName>Pseudo-Democritus Abderita</addName>
+               <addName>Pseudo-Democritus</addName>
+               <addName>Pseudo-Democritus Alchemista</addName>
+               <addName>Pseudo-Democritus Philosophus</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Sénèque</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/13520</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/13520">
+            <persName ref="#CerlID:cnp01259729" key="#PND:118613200">Seneca<addName type="display">Sénèque</addName>
+               <addName>Luci Anneu Sèneca</addName>
+               <addName>L. Annaeus Seneca</addName>
+               <addName>Lucius Annaeus Seneca</addName>
+               <addName>Sénèque le Jeune</addName>
+               <addName>Sénèque le Philosophe</addName>
+               <addName>Seneca philosophus</addName>
+               <addName>Annaeus Seneca</addName>
+               <addName>Annaeus</addName>
+               <addName>L. Annaeus Seneca Cordubensis</addName>
+               <addName>Luci Anneu Sèneca ca. 4 aC-65 dC</addName>
+               <addName>Pseudo-Sénèque</addName>
+               <addName>Pseudoseneca</addName>
+               <addName>Pseudo-Seneca</addName>
+               <addName>L. A. Sèneca</addName>
+               <addName>Sèneca, L. A. ca. 4 aC-65 dC</addName>
+               <addName>Luci Anneu, Sèneca</addName>
+               <addName>Sèneca, Luci Anneu, ca. 4 aC-65 dC</addName>
+               <addName>Sèneca el Filòsof ca. 4 aC-65 dC</addName>
+               <addName>Sèneca el Jove ca. 4 aC-65 dC</addName>
+               <addName>Sénècque</addName>
+               <addName>Luce Annaee Sénèque</addName>
+               <addName>Sénèque de Cordoue</addName>
+               <addName>Sénèque le Philisophe ca. 4 aC-65 dC</addName>
+               <addName>Lucio Anneo Séneca</addName>
+               <addName>Séneca, Lucio Anneo ca. 4 aC-65 dC</addName>
+               <addName>Séneca</addName>
+               <addName>Seneca der Jüngere</addName>
+               <addName>Seneca Junior Cato Cordubensis</addName>
+               <addName>L. A. Seneca</addName>
+               <addName>Seneca, L. Annaeus ca. 4 aC-65 dC</addName>
+               <addName>Lucio Anneo Seneca</addName>
+               <addName>Lucius A. Seneca</addName>
+               <addName>Lucius Annäus Seneca</addName>
+               <addName>Lucius Annaeus d. J. Seneca</addName>
+               <addName>Lucius Annaeus d.J. Seneca</addName>
+               <addName>Lucius Annaeus der Jüngere Seneca</addName>
+               <addName>Seneca, Lucius Annaeus ca. 4 aC-65 dC</addName>
+               <addName>Seneca, Lucius Annaeus Cordubensis</addName>
+               <addName>Seneca, Lucius Annaeus der Jüngere</addName>
+               <addName>Seneca, Lucius Annaeus Filius</addName>
+               <addName>Seneca, Lucius Annaeus Junior</addName>
+               <addName>Seneca, Lucius Annaeus Minor</addName>
+               <addName>Seneca, Lucius Annaeus Tragicus</addName>
+               <addName>Lucius Anneus Seneca</addName>
+               <addName>Seneca, Lucius Anneus Philosophus</addName>
+               <addName>Seneca der Jüngere</addName>
+               <addName>Seneca Dichter</addName>
+               <addName>Seneca Philosoph</addName>
+               <addName>Seneca Philosopher</addName>
+               <addName>Seneca Philosophus</addName>
+               <addName>Seneca Politiker</addName>
+               <addName>Seneca Pseudo-</addName>
+               <addName>Seneca Rhetoris Filius</addName>
+               <addName>Seneca Sohn</addName>
+               <addName>Seneca Stoischer Philosoph</addName>
+               <addName>Seneca Tragicus</addName>
+               <addName>Seneca Tragoedian</addName>
+               <addName>Seneca von Corduba</addName>
+               <addName>Senèque</addName>
+               <addName>Senèque le philosophe</addName>
+               <addName>Seneka</addName>
+               <addName>Lucij Annej Seneka</addName>
+               <addName>Lukio Aneo Seneko</addName>
+               <addName>Seneko</addName>
+               <addName>Lucjusz Anneusz Seneka</addName>
+               <addName>Seneka, Lucjusz Anneusz ca. 4 aC-65 dC</addName>
+               <addName>Lucyusz Annaeus Seneka</addName>
+               <addName>Lucyusz Anneusz Seneka</addName>
+               <addName>Seneque</addName>
+               <addName>Seneque le philosophe</addName>
+               <addName>Seneque philosophe</addName>
+               <addName>L. Annaeus Senecae</addName>
+               <addName>Senecae</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Sappho</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/13664</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/13664">
+            <persName ref="#CerlID:cnp00160732" key="#PND:118605534">Sappho<addName type="display">Sappho</addName>
+               <addName>Psappho</addName>
+               <addName>Saffo</addName>
+               <addName>Safo</addName>
+               <addName>Sapfo</addName>
+               <addName>Sapho</addName>
+               <addName>Sapho de Lesbos</addName>
+               <addName>Sappho de Lesbos</addName>
+               <addName>Sappho Lesbia</addName>
+               <addName>Sappho Lyrica</addName>
+               <addName>Sappho Mytilenaea</addName>
+               <addName>Sappho of Lesbos</addName>
+               <addName>Sappho of Mytilene</addName>
+               <addName>Sappho van Lesbos</addName>
+               <addName>Sappho von Eresos</addName>
+               <addName>Sappho von Lesbos</addName>
+               <addName>Sappho von Mytilene</addName>
+               <addName>Sapphus</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Scipion l'Africain</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/13585</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/13585">Ein vortreflicher <persName ref="#CerlID:cnp00566495" key="#PND:118612336">Scipio Afri- 
+                                       canus der aeltern<addName type="display">Scipion l'Africain</addName>
+               <addName>Publius Cornelius Scipio</addName>
+               <addName>Publius Cornelius Scipio Africanus</addName>
+               <addName>Publius Cornelius Scipio Africanus Maior</addName>
+               <addName>Africanus Maior</addName>
+               <addName>Cornelius Scipio Africanus Maior</addName>
+               <addName>Publius C. Scipio</addName>
+               <addName>Scipio, Publius C. Africanus, der Ältere</addName>
+               <addName>Publius Cornelius Africanus Scipio</addName>
+               <addName>Scipio Africanus, der Ältere</addName>
+               <addName>Scipio Historicus</addName>
+               <addName>Scipio Maior</addName>
+               <addName>Scipio der Ältere</addName>
+               <addName>Scipio Africanus</addName>
+               <addName>Scipio Africanus Historicus</addName>
+               <addName>Scipio Africanus Maior</addName>
+               <addName>Publius Cornelius Scipio Maior</addName>
+               <addName>Scipio Maior Historicus</addName>
+               <addName>Scipio Maior Romanus</addName>
+               <addName>Publio Cornelio Scipione</addName>
+               <addName>Scipione, Publio Cornelio Africano Maggiore</addName>
+               <addName>Scipione</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-300.tei.xml-d4559e1029"
+               type="collection">Rospi- 
+                                       gliosi</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Sylla, Lucius Cornelius</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/13581</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/13581">
+            <persName ref="#CerlID:cnp00397134" key="#PND:11864260X">Sulla<addName type="display">Sylla, Lucius Cornelius</addName>
+               <addName>Lucius Cornelius Sylla</addName>
+               <addName>Lucius Cornelius Sulla</addName>
+               <addName>Cornelius Sulla</addName>
+               <addName>Cornelius</addName>
+               <addName>Cornelius Sylla</addName>
+               <addName>Lucius Cornelius Sulla Felix</addName>
+               <addName>Felix</addName>
+               <addName>Lucius Cornelius Scilla</addName>
+               <addName>Scilla</addName>
+               <addName>Lucio Silla</addName>
+               <addName>Silla</addName>
+               <addName>Lucio Cornelio Silla</addName>
+               <addName>Lucius Cornelius Silla</addName>
+               <addName>Sulla Diktator</addName>
+               <addName>Sulla Felix</addName>
+               <addName>Sulla Memoirenverfasser</addName>
+               <addName>Sylla, Lucius Cornelius 0138-0078 av. J.-C.</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Lepidus, Marcus Aemilius (Triumvir)</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/13617</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/13617">
+            <persName ref="#CerlID:cnp00403705" key="#PND:119080419">Lepidus Triumvir<addName type="display">Lepidus, Marcus Aemilius (Triumvir)</addName>
+               <addName>Marcus Aemilius Lepidus</addName>
+               <addName>Aemilius Lepidus</addName>
+               <addName>Aemilius</addName>
+               <addName>Marcus A. Lepidus</addName>
+               <addName>Lepidus, Marcus A. Triumvir</addName>
+               <addName>Marcus Aemilius M.f.Q.n.L. Lepidus</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/13621</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/13621">Ein schöner jugendlicher Kopf</term>
+      </nodes>
+   </tag>
+</tags>

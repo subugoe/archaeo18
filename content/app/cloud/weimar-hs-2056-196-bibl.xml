@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Desseine</tag>
+      <facet>tei:bibl</facet>
+      <link>http://arachne.uni-koeln.de/books/Deseine1713 http://www.archive.org/stream/lancienneromelap02dese%23page/285/mode/1up http://www.archive.org/stream/lancienneromelap03dese%23page/581/mode/1up http://www.archive.org/stream/lancienneromelap04dese%23page/n8/mode/1up</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://arachne.uni-koeln.de/books/Deseine1713 #http://www.archive.org/stream/lancienneromelap02dese%23page/285/mode/1up #http://www.archive.org/stream/lancienneromelap03dese%23page/581/mode/1up #http://www.archive.org/stream/lancienneromelap04dese%23page/n8/mode/1up">Desseine</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Rome Moderne Leid. 1713. IV To 12.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://www.archive.org/stream/romemodernepr1and2dese%23page/n10/mode/1up http://www.archive.org/stream/romemodernepremi02dese%23page/n4/mode/1up http://www.archive.org/stream/romemodernepr3and4dese%23page/n6/mode/1up http://www.archive.org/stream/romemodernepremi05dese%23page/n4/mode/1up http://www.archive.org/stream/romemodernepremi06dese%23page/n6/mode/1up</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://www.archive.org/stream/romemodernepr1and2dese%23page/n10/mode/1up #http://www.archive.org/stream/romemodernepremi02dese%23page/n4/mode/1up #http://www.archive.org/stream/romemodernepr3and4dese%23page/n6/mode/1up #http://www.archive.org/stream/romemodernepremi05dese%23page/n4/mode/1up #http://www.archive.org/stream/romemodernepremi06dese%23page/n6/mode/1up">Rome Moderne Leid. 1713. IV To 12.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Sandrart Palatia Romana Fo III Fol.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://digi.ub.uni-heidelberg.de/diglit/ferrerio1694ga</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://digi.ub.uni-heidelberg.de/diglit/ferrerio1694ga">Sandrart Palatia Romana Fo III Fol.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Titi nuovo studio di scolptura pittura p. 460. Seq</tag>
+      <facet>tei:bibl</facet>
+      <link>http://resolver.sub.uni-goettingen.de/purl?PPN665260393</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://resolver.sub.uni-goettingen.de/purl?PPN665260393">Titi 
+                                 nuovo studio di scolptura pittura p. 460. Seq</ref>
+         </bibl>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Desseine II. 504.</tag>
+      <facet>tei:bibl</facet>
+      <link>http://www.archive.org/stream/lancienneromelap02dese%23page/504/mode/1up</link>
+      <count>2</count>
+      <nodes>
+         <bibl xmlns="http://www.tei-c.org/ns/1.0">
+            <ref target="#http://www.archive.org/stream/lancienneromelap02dese%23page/504/mode/1up">Desseine II. 504.</ref>
+         </bibl>
+      </nodes>
+   </tag>
+</tags>

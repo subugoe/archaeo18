@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags xmlns:TEI="http://www.tei-c.org/ns/1.0"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:a18="http://sub.uni-goettingen.de/DB/ENT/projects/archaeo18/xslt"
+      xmlns:ropen="http://ropen.sub.uni-goettingen.de/ropen-backend/xslt"
+      xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+      xmlns="http://www.w3.org/1999/xhtml">
+   <tag>
+      <tag>Chigi</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-324.tei.xml-d6553e20">Card: <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000243">Chigi</term>. Ein Epithalamium</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000243</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000243">Chigi</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Horti Borghesi</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/91794 http://arachne.uni-koeln.de/item/objekt/15127</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/91794 #http://arachne.uni-koeln.de/item/objekt/15127">
+            <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000238">Horti Borghesi</term>. Chorae nuptiales</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000238</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000238">Horti Borghesi</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Palatium Sachetti</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/41138</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/41138">
+            <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000456">Palatium Sachetti</term>. Vermählung und Partus</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000456</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000456">Palatium Sachetti</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Panfili</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/16404</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/16404">
+            <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000384">Panfili</term>. Die Ara Sepolchralis</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000384</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000384">Panfili</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>AmorPsyche (Literarische Gestalt)</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/18165</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/18165">
+            <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000134">Pal. Mattei.</term>
+            <persName ref="#CerlID:cnp00542364" key="#PND:11850262X">Amor<addName type="display">Amor</addName>
+            </persName> und <persName ref="#CerlID:cnp00553935" key="#PND:119362503">Psyche<addName type="display">Psyche (Literarische Gestalt)</addName>
+            </persName>
+         </term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000134</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000134">Pal. Mattei.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pal. della Valle</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/130661</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/130661">
+            <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000380">Pal. della Valle</term>. Funus Meleagri.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000380</link>
+      <count>4</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000380">Pal. della Valle</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pal: Barberini</tag>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/130908</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/130908">
+            <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000007">Pal: Barberini</term> funeralis Pompa.</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000007</link>
+      <count>4</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000007">Pal: Barberini</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Pal. della Valle</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-324.tei.xml-d6553e540">
+            <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000380">Pal. della Valle</term>. Grabmähler</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Barberini, Francesco</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-324.tei.xml-d6553e554">
+            <persName ref="#CerlID:cnp01101383" key="#PND:100013376">
+               <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000007">Barberini</term>
+               <addName type="display">Barberini, Francesco</addName>
+               <addName>Francesco Barberini</addName>
+               <addName>Francesco Barberino</addName>
+               <addName>Barberino</addName>
+               <addName>Barberino, Francesco Cardinal</addName>
+               <addName>Barberinus</addName>
+               <addName>Franciscus Barberinus</addName>
+               <addName>Barberinus Cardinal</addName>
+            </persName>. Luctus Funebris</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag>Giustiniani</tag>
+      <facet>tei:term</facet>
+      <link/>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#placeholder-file:/home/ingop/repo/archaeo18/./content/app/tei-pages/weimar-hs-2056-324.tei.xml-d6553e586">
+            <term ref="#http://arachne.uni-koeln.de/item/sammlungen/1000285">Giustiniani</term>. Coena feralis</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/sammlungen/1000285</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/sammlungen/1000285">Giustiniani</term>
+      </nodes>
+   </tag>
+   <tag>
+      <tag/>
+      <facet>tei:term</facet>
+      <link>http://arachne.uni-koeln.de/item/objekt/20051</link>
+      <count>2</count>
+      <nodes>
+         <term xmlns="http://www.tei-c.org/ns/1.0"
+               ref="#http://arachne.uni-koeln.de/item/objekt/20051">Trajectus animarum ad in feros.</term>
+      </nodes>
+   </tag>
+</tags>
