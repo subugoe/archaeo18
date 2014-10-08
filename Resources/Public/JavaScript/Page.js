@@ -11,7 +11,7 @@ EditionProperties.applySettings({
 	"metadataQuery": 		"/exist/rest/db/archaeo18/queries/getText.xq?mode=header&format=xhtml&doc=DOC_ID",
 	"facetTableQuery":	"content/app/indices/FACET_ID.xhtml",
 	"tagcloudQuery":		"content/app/cloud/FACET_ID.xhtml",
-	"mapQuery":		"./testdata/kml/listEntities.xq?facet=FACET_ID&format=kml",
+	"mapQuery":		"content/app/map/map.kml",
 	"tagcloudPageQuery":	"content/app/cloud/DOC_ID-PAGE_ID-FACET_ID.xml",
 	"kmlQuery": 		"content/app/kml/DOC_ID-PAGE_ID.kml",
 	"teiUri": 		"content/app/tei/DOC_ID.xml",
