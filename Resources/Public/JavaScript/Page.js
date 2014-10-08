@@ -6,7 +6,7 @@ EditionProperties.applySettings({
 	"textQuery": "content/app/content/DOC_ID.xml",
 	"pageQuery": "content/app/xhtml-pages/DOC_ID-PAGE_ID.xhtml",
 	"outlineQuery": "content/app/structure/DOC_ID.xml",
-	"searchQuery": "/solr/archaeo18/select?q=content%3AQUERY_ID&wt=xslt&indent=true&hl=true&hl.fl=content&hl.fragsize=0&tr=solrresponse.xsl",
+	"searchQuery": "http://134.76.21.92:8080/solr/archaeo18/select?q=content%3AQUERY_ID&wt=xslt&indent=true&hl=true&hl.fl=content&hl.fragsize=0&tr=solrresponse.xsl",
 	"facetsQuery": "content/app/facets.xml",
 	"metadataQuery": "/exist/rest/db/archaeo18/queries/getText.xq?mode=header&format=xhtml&doc=DOC_ID",
 	"facetTableQuery": "content/app/indices/FACET_ID.xhtml",
@@ -18,7 +18,7 @@ EditionProperties.applySettings({
 	"metsUri": "content/app/mets/DOC_ID.xml",
 	"openDocumentsOnStart": true,
 	"documentOnStart": "berlin-ms-germ-qrt-1666",
-	maxTags: 20
+	"maxTags": 20
 });
 
 var loadTwoColumns = function(div) {
