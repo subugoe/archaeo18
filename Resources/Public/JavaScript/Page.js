@@ -1,21 +1,21 @@
 PageLoader.run();
 
 EditionProperties.applySettings({
-	"hyperlinkWindow":	false,
-	"documentEndpoint": 	"content/app/list-docs.xml",
-	"textQuery": 		"content/app/content/DOC_ID.xml",
-	"pageQuery": 		"content/app/xhtml-pages/DOC_ID-PAGE_ID.xhtml",
-	"outlineQuery": 		"content/app/structure/DOC_ID.xml",
-	"searchQuery": 		"/solr/archaeo18/select?q=content%3AQUERY_ID&wt=xslt&indent=true&hl=true&hl.fl=content&hl.fragsize=0&tr=solrresponse.xsl",
-	"facetsQuery": 		"content/app/facets.xml",
-	"metadataQuery": 		"/exist/rest/db/archaeo18/queries/getText.xq?mode=header&format=xhtml&doc=DOC_ID",
-	"facetTableQuery":	"content/app/indices/FACET_ID.xhtml",
-	"tagcloudQuery":		"content/app/cloud/FACET_ID.xhtml",
-	"mapQuery":		"content/app/map/map.kml",
-	"tagcloudPageQuery":	"content/app/cloud/DOC_ID-PAGE_ID-FACET_ID.xml",
-	"kmlQuery": 		"content/app/kml/DOC_ID-PAGE_ID.kml",
-	"teiUri": 		"content/app/tei/DOC_ID.xml",
-	"metsUri": 		"content/app/mets/DOC_ID.xml",
+	"hyperlinkWindow": false,
+	"documentEndpoint": "content/app/list-docs.xml",
+	"textQuery": "content/app/content/DOC_ID.xml",
+	"pageQuery": "content/app/xhtml-pages/DOC_ID-PAGE_ID.xhtml",
+	"outlineQuery": "content/app/structure/DOC_ID.xml",
+	"searchQuery": "/solr/archaeo18/select?q=content%3AQUERY_ID&wt=xslt&indent=true&hl=true&hl.fl=content&hl.fragsize=0&tr=solrresponse.xsl",
+	"facetsQuery": "content/app/facets.xml",
+	"metadataQuery": "/exist/rest/db/archaeo18/queries/getText.xq?mode=header&format=xhtml&doc=DOC_ID",
+	"facetTableQuery": "content/app/indices/FACET_ID.xhtml",
+	"tagcloudQuery": "content/app/cloud/FACET_ID.xhtml",
+	"mapQuery": "content/app/map/map.kml",
+	"tagcloudPageQuery": "content/app/cloud/DOC_ID-PAGE_ID-FACET_ID.xml",
+	"kmlQuery": "content/app/kml/DOC_ID-PAGE_ID.kml",
+	"teiUri": "content/app/tei/DOC_ID.xml",
+	"metsUri": "content/app/mets/DOC_ID.xml",
 	"openDocumentsOnStart": true,
 	"documentOnStart": "berlin-ms-germ-qrt-1666",
 	maxTags: 20
@@ -49,8 +49,8 @@ var loadTwoColumns = function(div) {
 			var pageUrl = 'content/' + idToMarkdown(scriptId) + '.html';
 
 			$.ajax({
-				url: pageUrl
-			}).done(function(html) {
+					   url: pageUrl
+				   }).done(function(html) {
 				mainContentContainer[0].innerHTML = html;
 			});
 			return false;
