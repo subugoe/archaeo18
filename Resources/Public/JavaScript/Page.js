@@ -13,7 +13,7 @@ EditionProperties.applySettings({
 	"tagcloudQuery":		"content/app/cloud/FACET_ID.xhtml",
 	"mapQuery":		"./testdata/kml/listEntities.xq?facet=FACET_ID&format=kml",
 	"tagcloudPageQuery":	"content/app/cloud/DOC_ID-PAGE_ID-FACET_ID.xml",
-	"kmlQuery": 		"content/app/kml/DOC_ID-PAGE_ID",
+	"kmlQuery": 		"content/app/kml/DOC_ID-PAGE_ID.kml",
 	"teiUri": 		"content/app/tei/DOC_ID.xml",
 	"metsUri": 		"content/app/mets/DOC_ID.xml",
 	"openDocumentsOnStart": true,
