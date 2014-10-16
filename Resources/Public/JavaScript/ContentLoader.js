@@ -94,9 +94,10 @@ var ContentLoader = (function() {
 
 	$(pageConcordance).each(function(i, page){
 		$(page.linkId).bind('click', function() {
-			content.showDiv(page.page, page.link);
+			content.showDiv(page.page, encodeURIComponent(page.linkId));
 			$('html,body').animate({scrollTop: 0}, 0);
 			location.hash = '?page=' + page.page + '&link=' + page.linkId;
+			console.log(location.hash);
 			document.title = pageTitlePrefix + page.title;
 			if (typeof page.exec === 'object') {
 				for (var exec in page.exec) {
@@ -126,7 +127,7 @@ var ContentLoader = (function() {
 		});
 
 		if (typeof link !== 'undefined') {
-			$(link).addClass('selected');
+			$(decodeURIComponent(link)).addClass('selected');
 		}
 		$(div).css('display', 'block');
 	};
