@@ -94,10 +94,9 @@ var ContentLoader = (function() {
 
 	$(pageConcordance).each(function(i, page){
 		$(page.linkId).bind('click', function() {
-			content.showDiv(page.page, encodeURIComponent(page.linkId));
+			content.showDiv(page.page, page.link);
 			$('html,body').animate({scrollTop: 0}, 0);
 			location.hash = '?page=' + page.page + '&link=' + page.linkId;
-			console.log(location.hash);
 			document.title = pageTitlePrefix + page.title;
 			if (typeof page.exec === 'object') {
 				for (var exec in page.exec) {
@@ -127,7 +126,7 @@ var ContentLoader = (function() {
 		});
 
 		if (typeof link !== 'undefined') {
-			$(decodeURIComponent(link)).addClass('selected');
+			$(link).addClass('selected');
 		}
 		$(div).css('display', 'block');
 	};
