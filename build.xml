@@ -357,7 +357,7 @@
   </target>
 
   <!-- Rewrite the servlet configuration for deployment -->
-  <target name="war.content.web.xml" depends="salvador.urlrewritefilter.download, salvador.solr.war.download, salvador.servlet.install">
+  <target name="war.content.web.xml" depends="salvador.urlrewritefilter.download, salvador.solr.war.download, salvador.servlet.install, salvador.solr.util.install">
     <!-- TODO: this needs to be able to merge the web.xml files for several servlets (PHP as long as neede, Solr, and maybe more like URL rewriting and content generation) -->
     <property name="war.web.xml.dir" value="${target.dir}/web.xml"/>
     <property name="web.xml" value="WEB-INF/web.xml"/>
@@ -376,10 +376,8 @@
       <mapper type="flatten"/>
     </unzip>
     <move file="${war.web.xml.dir}/web.xml" tofile="${war.web.xml.dir}/solr-web.xml"/>
-    <fileset dir="${war.web.xml.dir}" id="war.content.web.xml.files">
-      <include name="*-web.xml"/>
-    </fileset>
-    <salvador.servlet.merge refid="war.content.web.xml.files" out="${war.web.xml.dir}/web.xml"/>
+    <salvador.servlet.merge indir="${war.web.xml.dir}" pattern="*-web.xml" out="${war.web.xml.dir}/web.xml"/>
+    <salvador.solr.web.xml.solr.home web.xml="${war.web.xml.dir}/web.xml" solr.home="test"/>
   </target>
 
   <!-- TODO: JS stuff currenty deactivated  -->
