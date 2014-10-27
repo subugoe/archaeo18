@@ -283,7 +283,7 @@
   <target name="war.dependencies" depends="salvador.php.download, salvador.base.maven.install, war.structure">
     <echo>Getting dependencies for the war file</echo>
     <copy todir="${war.dir.lib}">
-      <fileset refid="salvador.php.classpath"/>
+      <fileset refid="salvador.php.files"/>
       <mapper type="flatten"/>
     </copy>
   </target>
@@ -436,7 +436,7 @@
       </patternset>
     </unzip>
     <!-- Overwrite Solr web.xml with our own -->
-    <copy todir="${war.dir}" file="${war.web.xml.dir}/WEB-INF/web.xml"/>
+    <copy todir="${war.dir}/WEB-INF" file="${war.web.xml.dir}/web.xml"/>
   </target>
 
   <!-- TODO: Reenable this if everything else works -->
