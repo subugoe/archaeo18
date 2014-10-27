@@ -130,7 +130,7 @@
   <property name="data.cloud.dir" value="${data.dir}cloud/"/>
   <property name="data.kml.dir" value="${data.dir}kml/"/>
 
-<!--   <property name="data.cloud-pages.dir" value="${data.dir}cloud-pages/"/> -->
+  <!--   <property name="data.cloud-pages.dir" value="${data.dir}cloud-pages/"/> -->
   <property name="data.xhtml.structure.dir" value="${data.dir}structure/"/>
   <property name="data.xhtml.content.dir" value="${data.dir}content/"/>
   <property name="data.xhtml.header.dir" value="${data.dir}header/"/>
@@ -173,6 +173,8 @@
   <property name="solr.dir" value="${target.dir}/solr"/>
   <property name="solr.docs.dir" value="${solr.dir}/docs"/>
   <property name="solr.home.dir" value="${solr.dir}/home"/>
+  <!-- Where should the Solr home directory be in the War file -->
+  <property name="solr.home.dir.war" value="./solr/home"/>
   <property name="solr.synonym.list" value="${solr.dir}/synonyms.txt"/>
   <property name="solr.url" value="http://localhost:8983/solr/archaeo18/update"/>
   <!-- <property name="solr.url" value="http://http://192.168.33.18:8080/solr/archaeo18/update"/> -->
@@ -361,6 +363,7 @@
     <!-- TODO: this needs to be able to merge the web.xml files for several servlets (PHP as long as neede, Solr, and maybe more like URL rewriting and content generation) -->
     <property name="war.web.xml.dir" value="${target.dir}/web.xml"/>
     <property name="web.xml" value="WEB-INF/web.xml"/>
+    <delete dir="${war.web.xml.dir}" quiet="true"/>
     <mkdir dir="${war.web.xml.dir}"/>
     <!-- Archaeo18 -->
     <copy todir="${war.web.xml.dir}" file="./${web.xml}"/>
@@ -377,11 +380,26 @@
     </unzip>
     <move file="${war.web.xml.dir}/web.xml" tofile="${war.web.xml.dir}/solr-web.xml"/>
     <salvador.servlet.merge indir="${war.web.xml.dir}" pattern="*-web.xml" out="${war.web.xml.dir}/web.xml"/>
-    <salvador.solr.web.xml.solr.home web.xml="${war.web.xml.dir}/web.xml" solr.home="test"/>
+    <salvador.solr.web.xml.solr.home web.xml="${war.web.xml.dir}/web.xml" solr.home="${solr.home.dir.war}"/>
+    <!-- XMLTask is imported implicit by the Solr target -->
+    <!--
+    <xmltask source="${war.web.xml.dir}/web.xml" dest="${war.web.xml.dir}/web.xml">
+      <insert path="/:web-app/:display-name" xml="Archaeo18"/>
+    </xmltask>
+    -->
   </target>
 
   <!-- TODO: JS stuff currenty deactivated  -->
   <target name="war.content" depends="war.content.css, war.content.php, ropen.config.remote, war.content.images, war.content.web.xml, war.content.js, salvador.solr.war.download">
+    <!-- copy the index and Solr configuration -->
+    <property name="war.solr.home" value="${war.dir}/${solr.home.dir.war}"/>
+    <echo message="Solr Home is set to: ${solr.home.dir}, copying file to ${war.solr.home}"/>
+    <copy todir="${war.solr.home}">
+      <fileset dir="${solr.home.dir}">
+        <include name="**/*.*"/>
+      </fileset>
+    </copy>
+    <!-- regular files -->
     <copy todir="${war.dir}">
       <fileset dir=".">
         <include name="*.txt"/>
@@ -396,6 +414,7 @@
         <!-- Images are handled by their own target for compression -->
         <exclude name="img/**"/>
         <exclude name="testdata**"/>
+        <exclude name="test**"/>
         <exclude name="build**"/>
         <exclude name="css**"/>
         <exclude name="cookbooks"/>
@@ -413,8 +432,11 @@
     <unzip src="${salvador.solr.war.file}" dest="${war.dir}">
       <patternset>
         <include name="**/*.*"/>
+        <exclude name="WEB-INF/web.xml"/>
       </patternset>
     </unzip>
+    <!-- Overwrite Solr web.xml with our own -->
+    <copy todir="${war.dir}" file="${war.web.xml.dir}/WEB-INF/web.xml"/>
   </target>
 
   <!-- TODO: Reenable this if everything else works -->
@@ -581,7 +603,7 @@
     <!-- stub -->
   </target>
 
-  <target name="solr.docs" depends="data.enrich, solr.init, solr.docs.check" >
+  <target name="solr.docs" depends="data.enrich, solr.init, solr.docs.check">
     <property name="data.solr.output" value="${target.dir}/solr-report.xhtml"/>
     <echo level="verbose">collection=${basedir}/${data.tei-enriched.dir}</echo>
     <echo level="verbose">output=${solr.docs.dir}</echo>
@@ -755,10 +777,10 @@
     <!-- <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.enrich}" destfile="${data.enrich.output}"
       params="collection=${basedir}/${data.tei.dir} mets-collection=${basedir}/${data.mets.dir} tei-enriched-collection=${basedir}/${data.tei-enriched.dir} document-listing-file=${basedir}/${data.docs.list} xhtml-collection=${basedir}/${data.xhtml.content.dir} url-prefix=${data.docs.mets.base.uri} replace-prefix=${basedir}./"/> -->
 
-   <!-- enrichment -->
+    <!-- enrichment -->
     <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.enrich}" destfile="${data.enrich.output}"
       params="collection=${basedir}/${data.tei.dir} mets-collection=${basedir}/${data.mets.dir} tei-enriched-collection=${basedir}/${data.tei-enriched.dir} document-listing-file=${basedir}/${data.docs.list} url-prefix=${data.docs.mets.base.uri} replace-prefix=${basedir}./"/>
-   <!-- generate xhtml content (runnning text)-->
+    <!-- generate xhtml content (runnning text)-->
     <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.enrich}" destfile="${data.enrich.output}"
       params="collection=${basedir}/${data.tei-enriched.dir} xhtml-collection=${basedir}/${data.xhtml.content.dir}"/>
 
@@ -769,7 +791,7 @@
     -->
   </target>
 
-  <target name="data.structure" depends="data.dir.check, data.enrich" >
+  <target name="data.structure" depends="data.dir.check, data.enrich">
     <property name="data.structure.output" value="${target.dir}/structure-target.xhtml"/>
     <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.xhtml.structure}" destfile="${data.structure.output}"
       params="collection=${basedir}/${data.tei-enriched.dir} output-collection=${basedir}/${data.xhtml.structure.dir} output-param=xhtml"/>
@@ -809,7 +831,7 @@
       params="input-collection=${basedir}/${data.tei-enriched.dir} output-collection=${basedir}/${data.tei-pages.dir} mode=tei"/>
     <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.split}" destfile="${data.split.output}"
       params="input-collection=${basedir}/${data.tei-enriched.dir} output-collection=${basedir}/${data.xhtml-pages.dir} debug-output-collection=${basedir}/${data.xhtml.dir} mode=xhtml"/>
-<salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.split}" destfile="${data.split.output}"
+    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.split}" destfile="${data.split.output}"
       params="input-collection=${basedir}/${data.tei-enriched.dir} output-collection=${basedir}/${data.kml.dir} debug-output-collection=${basedir}/${data.kml.dir} mode=kml"/>
   </target>
 
@@ -833,40 +855,40 @@
 
   <!-- TODO: Finish this -->
   <target name="data.generate.kml" depends="salvador.saxon.install, data.enrich">
-	<property name="data.kml.output"  value="${target.dir}/kml-report.xhtml"/>
-    <salvador.saxon.xslt.params  in="${empty.xml}" style="${xslt.kml}" destfile="${data.kml.output}"
-	params="input-collection=${basedir}/${data.tei-enriched.dir}  output-collection=${data.kml.dir} mode=kml" />
+    <property name="data.kml.output" value="${target.dir}/kml-report.xhtml"/>
+    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.kml}" destfile="${data.kml.output}"
+      params="input-collection=${basedir}/${data.tei-enriched.dir}  output-collection=${data.kml.dir} mode=kml"/>
   </target>
 
-	<property name="data.cloud.output" value="${target.dir}/cloud-report.xhtml"/>
+  <property name="data.cloud.output" value="${target.dir}/cloud-report.xhtml"/>
   <target name="data.generate.cloud" depends="data.dir.check, salvador.saxon.install, data.enrich">
-     <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}" destfile="${data.cloud.persName.file}"
+    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}" destfile="${data.cloud.persName.file}"
       params="collection-param=${basedir}/${data.tei-enriched.dir} entity-param=TEI:persName mode-param=cloud"/>
     <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}" destfile="${data.cloud.placeName.file}"
       params="collection-param=${basedir}/${data.tei-enriched.dir} entity-param=TEI:placeName mode-param=cloud"/>
     <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}" destfile="${data.cloud.term.file}"
       params="collection-param=${basedir}/${data.tei-enriched.dir} entity-param=TEI:term mode-param=cloud"/>
     <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}" destfile="${data.cloud.bibl.file}"
-      params="collection-param=${basedir}/${data.tei-enriched.dir} entity-param=TEI:bibl mode-param=cloud"/> 
+      params="collection-param=${basedir}/${data.tei-enriched.dir} entity-param=TEI:bibl mode-param=cloud"/>
 
-	<!-- for document -->
-    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}"  destfile="${data.cloud.output}"
+    <!-- for document -->
+    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}" destfile="${data.cloud.output}"
       params="collection-param=${basedir}/${data.tei-enriched.dir} entity-param=TEI:persName mode-param=cloud-pages cloudout-param=${basedir}/${data.cloud.dir} pages=0"/>
-    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}"  destfile="${data.cloud.output}"
+    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}" destfile="${data.cloud.output}"
       params="collection-param=${basedir}/${data.tei-enriched.dir} entity-param=TEI:placeName mode-param=cloud-pages cloudout-param=${basedir}/${data.cloud.dir} pages=0"/>
-    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}"  destfile="${data.cloud.output}"
+    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}" destfile="${data.cloud.output}"
       params="collection-param=${basedir}/${data.tei-enriched.dir} entity-param=TEI:term mode-param=cloud-pages cloudout-param=${basedir}/${data.cloud.dir} pages=0"/>
-    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}"  destfile="${data.cloud.output}"
+    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}" destfile="${data.cloud.output}"
       params="collection-param=${basedir}/${data.tei-enriched.dir} entity-param=TEI:bibl mode-param=cloud-pages cloudout-param=${basedir}/${data.cloud.dir} pages=0"/>
-   
-	<!-- for pages -->
-   <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}"  destfile="${data.cloud.output}"
+
+    <!-- for pages -->
+    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}" destfile="${data.cloud.output}"
       params="collection-param=${basedir}/${data.tei-pages.dir} entity-param=TEI:persName mode-param=cloud-pages cloudout-param=${basedir}/${data.cloud.dir}"/>
-   <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}"  destfile="${data.cloud.output}"
+    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}" destfile="${data.cloud.output}"
       params="collection-param=${basedir}/${data.tei-pages.dir} entity-param=TEI:placeName mode-param=cloud-pages cloudout-param=${basedir}/${data.cloud.dir}"/>
-   <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}"  destfile="${data.cloud.output}"
+    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}" destfile="${data.cloud.output}"
       params="collection-param=${basedir}/${data.tei-pages.dir} entity-param=TEI:term mode-param=cloud-pages cloudout-param=${basedir}/${data.cloud.dir}"/>
-   <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}"  destfile="${data.cloud.output}"
+    <salvador.saxon.xslt.params in="${empty.xml}" style="${xslt.overview}" destfile="${data.cloud.output}"
       params="collection-param=${basedir}/${data.tei-pages.dir} entity-param=TEI:bibl mode-param=cloud-pages cloudout-param=${basedir}/${data.cloud.dir}"/>
   </target>
 
@@ -883,8 +905,8 @@
 
   <!-- Target for all data -->
   <!-- Enable data.generate.kml, -->
-  <target name="data.generate" depends="data.change.cleanup, data.enrich, data.statistics, data.generate.index, data.split, data.generate.kml, data.generate.cloud, data.structure, data.generate.mets, solr.docs"
-
+  <target name="data.generate"
+    depends="data.change.cleanup, data.enrich, data.statistics, data.generate.index, data.split, data.generate.kml, data.generate.cloud, data.structure, data.generate.mets, solr.docs"
     unless="data.dir.exist"/>
 
 </project>
