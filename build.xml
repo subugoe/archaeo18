@@ -280,10 +280,12 @@
   <!-- 
   TODO: get rid of quercus, compile PHP static
   -->
-  <target name="war.dependencies" depends="salvador.php.download, salvador.base.maven.install, war.structure">
+  <target name="war.dependencies" depends="salvador.php.download, salvador.urlrewritefilter.download, salvador.base.maven.install, salvador.solr.core.download, war.structure">
     <echo>Getting dependencies for the war file</echo>
     <copy todir="${war.dir.lib}">
       <fileset refid="salvador.php.files"/>
+      <fileset refid="salvador.solr.logging.files"/>
+      <fileset refid="salvador.urlrewritefilter.files"/>
       <mapper type="flatten"/>
     </copy>
   </target>
