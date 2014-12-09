@@ -79,8 +79,13 @@ var addGeoTemCo = function() {
 		css = '<link rel="stylesheet" href="ropen/Resources/Public/JavaScript/Libraries/GeoTemCo/css/geotemco.css" type="text/css" />';
 		js = '<script src="ropen/Resources/Public/JavaScript/Libraries/GeoTemCo/geotemco-min.js"></script>';
 		$('head').append(css + js);
+		setGeoTemConfiguration();
 	}
-}
+};
+
+var setGeoTemConfiguration = function() {
+	GeoTemConfig.path = window.location.pathname.replace('index.html','') + "ropen/Resources/Public/JavaScript/Libraries/GeoTemCo/images/";
+};
 
 var loadPage = function() {
 	if (window.location.href.indexOf('?params') !== -1) {
@@ -108,6 +113,7 @@ var loadPage = function() {
 			if (page.indexOf('edition') !== -1) {
 				addGeoTemCo();
 				EditionLoader.load();
+
 			}
 			else
 				if (page.indexOf('indices') !== -1) {
